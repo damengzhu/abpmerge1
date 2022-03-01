@@ -19,7 +19,7 @@ echo "[Adblock Plus 2.0]" >> i-tpdate.txt
 echo "! Title: Damengzhu's Rules" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
-cat i-tpdate.txt i-tmp.txt > damengzhu.txt
+cat i-tpdate.txt i-tmp.txt > abpmerge.txt
 
 # 删除缓存
 rm i-*.txt
