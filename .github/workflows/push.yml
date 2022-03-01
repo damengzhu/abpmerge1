@@ -1,5 +1,7 @@
 name: Update Rules
 on:
+  schedule:
+    - cron: '0 0,8,16 * * *'
   push:
   workflow_dispatch:
 
