@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-02 01:06:08
-! Total count: 63448
+! Version: 2022-03-02 08:19:53
+! Total count: 63455
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -834,6 +834,8 @@
 ##.stui-pannel > .recommend-two
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.svg-icon + #player_pause
+##.swiper-wrapper.leo-source-cho
+##.swiper-wrapper.leo-source-cho->m:0
 ##.sxAdBox
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##.tab-content + .col-pd
@@ -1052,6 +1054,8 @@
 ##[href^='https://23538595.com:']->m:0
 ##[href^='https://5376.exing150.com:']
 ##[href^='https://5376.exing150.com:']->m:0
+##[href^='https://65564535.com']
+##[href^='https://65564535.com']->m:0
 ##[href^='https://6f2929.com']
 ##[href^='https://6f2929.com']->m:0
 ##[href^='https://7segu.taobao.com/'],[href='http://m.shokuhou.com/download/']
@@ -10156,7 +10160,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|sanwacompany.co.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -12699,6 +12703,7 @@ cbjs.baidu.com
 cbmay.com##.widget
 cbmd.cn##.tong_addver,.header_top_ad,[id^="Advertices"]
 cbmland.com##div[id^="ads_"]
+cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
 cc.qichetansuo.com
 cc1.juxilm.com
 ccav1.com###nav-menu > ul > .menu-item > a[href^="http"]:not([href*="yigujin."])
@@ -37659,6 +37664,7 @@ zzpzero.com
 ||hbbtv-track.prosiebensat1puls4.com^
 ||hbbww.com^
 ||hbcygs518.com^
+||hbears.com^
 ||hbeqnte.cn^
 ||hbfie.org/mb/meng/
 ||hbfie.org/mh
@@ -38072,6 +38078,7 @@ zzpzero.com
 ||hkj8.evobanco.com^
 ||hkmte.com/seo.js
 ||hkosgxn.cn^
+||hkoytvx.cn^
 ||hkqrpk.ozon.ru^
 ||hktracker.hankookilbo.com^
 ||hktv10.com^
