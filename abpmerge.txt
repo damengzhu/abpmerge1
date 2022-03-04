@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-03 16:24:39
-! Total count: 63174
+! Version: 2022-03-04 01:11:17
+! Total count: 63180
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10250,9 +10250,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||image.coolapk.com^
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|hamivideo.hinet.net|line.me|linetv.tw|litv.tv|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|ulifestyle.com.hk|xuite.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|appledaily.com|linetv.tw|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ulifestyle.com.hk
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.ads.tvb.com^
 @@||img4399.com/static/huodong/daily/fpv2.js
@@ -10686,6 +10685,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
+@@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||ptwxz.com/scripts/readindex/tongji.js
 @@||pub.alimama.com/common/adzone/
@@ -13372,7 +13372,7 @@ dalipan.com##.hongbao-wrap
 daman.cc##DIV#p-left,DIV#p-right,[class^="ad980"]
 dancering.cn##.a_h
 dandanplay.com##div[id$="_ad"],iframe[width="720"][height="90"]
-dandanzan.top,nunuyy1.*##.gm-fp-body video:style(max-height:100%!important)
+dandanzan10.top,nunuyy10.top##.gm-fp-body video:style(max-height:100%!important)
 daniao.org,geekpark.net,speedtest.cn##.sponsor
 danlan.org##.ad98090
 danyang.com###global-hd > div[align="center"]
@@ -13796,7 +13796,6 @@ dydh.tv##[href^="http://www.xiacai.com/?pid="],[href^="http://www.qcw.com/?pid="
 dyhjw.com##.guessEntranceOpen
 dyhjw.com##.index_luckdraw
 dyhjw.com##.nn_link
-dyjihe2.com##.tempWrap
 dykeep.com
 dyrizhi.com##[class^="adv"]
 dysfz.cc##[class^="adv-"],[class^="adv_"]
@@ -17713,7 +17712,7 @@ netbardh.com##.pos-navbar-ad
 netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_video_overlay_mobile
 netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
-netflix.mom,netflixya.com,yanetflix.com##.tips-box
+netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
 netsh.org##DIV#ad-header-text,DIV#ad-above-content,div#ad-blog-header,.adsbygoogle,[style="margin:8px auto; width:730px; max-height:90px;"],#ad-link-banner,#ad-header
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.xiongzhangad.com
@@ -20203,9 +20202,9 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, mozRTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, RTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, mozRTCPeerConnection, undefined)
+v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, webkitRTCPeerConnection, undefined)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
 v.sogou.com##a[href*="iwan.sogou.com/"]
@@ -24349,6 +24348,7 @@ zzpzero.com
 ||835551.com^
 ||8368661.com^
 ||84232.com^
+||8456.xyz^
 ||84pb.com/go.js
 ||84pb.com/pv.js
 ||8521448.com^
@@ -29752,6 +29752,7 @@ zzpzero.com
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
 ||bvubje.leboncoin.fr^
+||bvuuv.com^
 ||bvz5.destinia.com.tr^
 ||bw66.cn/template/default_pc/bbs/
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
@@ -31419,6 +31420,7 @@ zzpzero.com
 ||combclover.com^
 ||comberry.cn^
 ||comefromchina.com/images/128bestbuy
+||comekang.xyz^
 ||comeon.com/tracking.php
 ||comfortablecheese.com^
 ||comic-rocket.com/metrics.js
@@ -39747,6 +39749,7 @@ zzpzero.com
 ||ixiang.club^
 ||ixigua.com/at/log/
 ||ixiunv.com^$third-party
+||ixmlusc.cn^
 ||ixpub.net^*.js
 ||ixsgoy.getpenta.com^
 ||iy.com.cn^$third-party
@@ -42895,6 +42898,7 @@ zzpzero.com
 ||macfans.org/images/*/980x
 ||macfans.org/vip/
 ||machieved.com^$third-party
+||machiyun.fun^
 ||maclwangluokeji.cn^
 ||macromill.com/imp/
 ||macromill.com^$third-party
@@ -48301,6 +48305,7 @@ zzpzero.com
 ||quanjiapp.cn^
 ||quanliyouxi.cn^
 ||quanmin.tv/static/pages/adranktit.html
+||quanmindi.com^
 ||quanrunze.com.cn^
 ||quanshu.net/ssss/cookie.js
 ||quansj.cn^
@@ -55102,7 +55107,7 @@ zzpzero.com
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.social^
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=agefans.*|mgtv1.net|agemys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibai.com
 ||toutiaoimg.com^$domain=1024pm.com
 ||toutiaoyule.com/n/dspshow.
 ||touxiang.la/js/book.js
@@ -61728,6 +61733,7 @@ zzpzero.com
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4k123.com##.comeing_wad,.a_pb
 4kfv18.cn
+4kya.com###player_pause
 4kzw.com,quanxiong.org,dijiuzww.com##[style="width:770px;height:260px"]
 05sun.com###nowDown1
 05sun.com##.xzq,[src="/images/ydxz.gif"]
