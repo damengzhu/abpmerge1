@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-04 16:23:16
-! Total count: 62741
+! Version: 2022-03-05 01:05:08
+! Total count: 62747
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -923,8 +923,6 @@
 ##.zozoads
 ##.zozoads->m:0
 ##A[href*=".com/?Agent="]
-##A[href*="/1198976.com/"]
-##A[href*="/1205682.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/xinghuo-20.html']
 ##A[href='/xinghuo-20.html']->m:0
@@ -1369,6 +1367,7 @@
 ##a[href*=".xxmh667.com/"]
 ##a[href*=".xxmh727.com/"]
 ##a[href*=".xxmh735.com/"]
+##a[href*=".xxmh773.com/"]
 ##a[href*=".xxmh779.com/"]
 ##a[href*=".xxmh871.com/"]
 ##a[href*=".xxmh920.com/"]
@@ -1398,6 +1397,8 @@
 ##a[href*="/1033776.com/"]
 ##a[href*="/111.231.78.194/"]
 ##a[href*="/1180595.com/"]
+##a[href*="/1198976.com/"]
+##a[href*="/1205682.com/"]
 ##a[href*="/1240486.com/"]
 ##a[href*="/1266p.com:"]
 ##a[href*="/1298860.com/"]
@@ -16679,7 +16680,7 @@ libaclub.com##.merchant-link
 libaclub.com##.ui-adsame
 libvio.com##.hidden-log
 libvio.com##.inner-advertise
-libvio.com,nfstar.net##a[target="_blank"] > .img-responsive
+libvio.com##.t-img-box
 licai18.com##embed,[width="550"][height="60"]
 liebao.cn##[class^="ads_"],[class$="_ad"],.bottom_ad_1000,.detail_ads_append,.ad_auto_detail,.qr_game_group
 liepin.com##DIV[id^="nodetpl_g_"]
@@ -17663,6 +17664,7 @@ nfmovies.com##DIV[class='clearfix']
 nfmovies.com##[onclick^="openurl()"]
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 nfmovies.com#@##adright
+nfstar.net##a[target="_blank"] > .img-responsive
 nfstar.net#?#.myui-panel-bg:-abp-has(strong:-abp-contains(广告))
 nfstar.net$$a[href="discountminds.com"]
 nfuwow.com###dl-left-first
@@ -19755,6 +19757,8 @@ touxiang.la##.ad00,.adsbygoogle,.banner
 touzi.com##.pop720-bg
 touzi.com##.pop720-box
 touzi.com##.tck-cover
+toy-people.com##.good72890
+toy-people.com##.rightAd_300250
 tpy888.cn##.f_ad1
 tpy888.cn##.nead
 tpy888.cn,weather.com.cn##.ad4
@@ -46806,6 +46810,7 @@ zzpzero.com
 ||pjljqp.gap.ru^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjstat.com^
+||pjsxebh.com^
 ||pjtime.com/js/show_ad
 ||pjtlme.rozetka.com.ua^
 ||pjtra.com^$third-party
@@ -59778,6 +59783,7 @@ zzpzero.com
 ||yhzm.cc$third-party
 ||yhzm.cc^
 ||yi.ximizi.com^
+||yiangds.com^
 ||yibaosenlin.top^
 ||yibo5.cn/img0
 ||yicha.cn^
