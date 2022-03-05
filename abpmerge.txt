@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-05 08:18:22
-! Total count: 62757
+! Version: 2022-03-05 16:21:37
+! Total count: 62768
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -190,7 +190,6 @@
 ###homead
 ###hongbao20201217
 ###hongbao20201217->m:0
-###hthslide[onclick]
 ###img-txt-wrapper > #title_desc_div
 ###imgad
 ###indextop
@@ -923,6 +922,8 @@
 ##.zozoads
 ##.zozoads->m:0
 ##A[href*=".com/?Agent="]
+##A[href*="/av888822.vip/"]
+##A[href*="/bibo149.com:"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/xinghuo-20.html']
 ##A[href='/xinghuo-20.html']->m:0
@@ -1494,6 +1495,7 @@
 ##a[href="/ad2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
+##a[href="/goto.php?url=hth"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://t.cn/E2PgiG1"]
 ##a[href="http://t.cn/Ex0cCbt"]
@@ -1581,6 +1583,7 @@
 ##div[id^="div-gpt-ad"]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".8tse9.com"]
+##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -6836,6 +6839,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /plugin/updo
 /plugins/catman/*
 /plugins/exactmetrics-
+/plugins/nimiq/*$script
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
@@ -9163,7 +9167,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
-@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
@@ -10710,7 +10714,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
-@@||repco.co.nz/_ui/shared/js/analyticsmediator.js
 @@||repstatic.it/minify/sites/common/config_webtrekk_$script,domain=video.repubblica.it
 @@||repstatic.it^*/Nielsen.js
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
@@ -11030,6 +11033,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||union.bokecc.com/player
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upxin.net/advertisement.js
@@ -13590,6 +13594,9 @@ downg.com##DIV.cp.recommend > DIV.cp-main,DIV.cp.sponsor,DIV.baiduad,DIV.col1 > 
 downhot.com##.guanggao,.sd580,.sd480
 downhot.com##.guans
 downkr.com###download-gaosu-list,[id^="download-panel-"],[id^="btm-union"]
+downkr.com##.address-left > ul:nth-child(2)
+downkr.com##.download-btn > .text-right
+downkr.com##a[href*=".xitongzhijia.net"]
 download.2345.cn/2345yd1/apk/*
 download.csdn.net##.ad_area_1
 download.csdn.net##.quake-slider
@@ -20680,7 +20687,6 @@ www.godic.net##ins.adsbygoogle
 www.google-analytics.com
 www.google.com###tads,.ads-ad
 www.google.com$@$div[class="_ad"]
-www.googletagmanager.com
 www.govchengdu.cn
 www.govguangxi.cn
 www.govguilin.cn
@@ -23012,6 +23018,7 @@ zzpzero.com
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
 ||2gmbbl.cn^
+||2gustis.xyz^
 ||2gvuukm1lm.com^
 ||2gz9nc.cn^
 ||2hukaixi.xyz^
@@ -31665,6 +31672,7 @@ zzpzero.com
 ||cqerbihou.com^
 ||cqfangduan.com^
 ||cqftonline.com^
+||cqfygc.xyz^
 ||cqgya.com^
 ||cqhot.club^
 ||cqishr.mobile.de^
@@ -33006,6 +33014,7 @@ zzpzero.com
 ||dltenjy.cn^
 ||dlvjmr.cn^
 ||dlxgm.cn^
+||dlxxjsh.top^
 ||dlyukun.cn^
 ||dlzjdesign.com^
 ||dlzxjk.cn^
@@ -36359,7 +36368,6 @@ zzpzero.com
 ||go.federalbank.co.in^
 ||go.foremostmedia.com^
 ||go.fuze.com^
-||go.fvtc.edu^
 ||go.getherculestires.com^
 ||go.gpcom.com^
 ||go.hager.com^
@@ -39661,6 +39669,7 @@ zzpzero.com
 ||jdxq.club^
 ||jdyz3.cn^
 ||jdzlxtc.com^
+||jeason.club^
 ||jebe.renren.com^
 ||jebe.xnimg.cn^
 ||jeccmq.wehkamp.nl^
@@ -45175,6 +45184,7 @@ zzpzero.com
 ||nimasou.info/static/xdm.js
 ||nimblebird.co^
 ||nimbleswan.io^
+||nimiq.com^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimpool.io^$third-party
@@ -62747,6 +62757,7 @@ zzpzero.com
 703804.com##.hotad
 872872.com##.yslm645d,.yslm300x,.footertopB
 888173.com##iframe[width="168"][height="608"],.textwidget,.holder
+939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
 1234567.com.cn##.ulbugao
