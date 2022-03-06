@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-06 08:18:28
-! Total count: 62793
+! Version: 2022-03-06 16:21:44
+! Total count: 62798
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1589,6 +1589,7 @@
 ##div[id^="div-gpt-ad"]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".8tse9.com"]
+##div[onclick*=".leyu257.com:"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
@@ -9958,6 +9959,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||em.hk/wp-content/uploads/*_300_250.
 @@||emome.net/files/advertising/
 @@||energy.de^*/ivw.js?$domain=energy.de
+@@||ens.nzz.ch^$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||ensighten.com^*/code/$script
@@ -10988,6 +10990,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it|ubibanca.com
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
+@@||track.nzz.ch^$script,~third-party
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
@@ -46089,6 +46092,7 @@ zzpzero.com
 ||oxrm.com^$third-party
 ||oxsm.top^
 ||oxtrmw.marinarinaldi.com^
+||oxzwsxs.cn^
 ||oy240.cn^
 ||oycslia.xyz^
 ||oycslib.xyz^
@@ -56086,6 +56090,7 @@ zzpzero.com
 ||tudown.com^$third-party
 ||tuezse.cn^
 ||tufsjnk.cn^
+||tufute.cn^
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
 ||tui1999.com^
