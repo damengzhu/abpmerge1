@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-08 01:02:55
-! Total count: 61592
+! Version: 2022-03-08 08:20:03
+! Total count: 61603
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1307,6 +1307,7 @@
 ##a[href*="/yhbet50.vip"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
+##a[href*="?channelCode="] > img[src*=".com:"]
 ##a[href*="itoon.app"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
@@ -8735,6 +8736,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://banner.$third-party
 ://beacon.*/track
 ://blue.*/script.js
+://bttzyw*/Runtime/js/psData.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
@@ -12242,7 +12244,6 @@ c.leankun.com
 c.mipcdn.com/c/s/by.manhuachi.com
 c.njcengpianwang.cn
 c.nuannuanqi.top
-c.ubxqerc.cn
 c.v4dwkcv.com
 c.wsnew.cn
 c.yanomami.cn
@@ -19408,6 +19409,7 @@ u9yy.com##[width="280px"][heigth="180px"],[style^="height:90px;width:1540px;"],#
 ubetween.com##.ast-recom-ad,[style^=" width:640px; height:90px;"],.ssId,div[style=" margin-top:10px;"],[class^="ad_"],.ad
 ubmcmm.baidustatic.com
 ububyiw6655.xyz
+ubxqerc.cn
 uc.cn##.slider__sdk__wrapper
 uc.qq.uuaoz.com
 uc123.com###J_logoLeft
@@ -19547,7 +19549,6 @@ v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js
 v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, webkitRTCPeerConnection, undefined)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
-v.ubxqerc.cn
 v.wsnew.cn
 v.yanomami.cn
 v.youku.com##+js(aeld,dblclick,triggerEvent)
@@ -20753,6 +20754,7 @@ xp71.com##img[height="90"][width="1000"]
 xp85.com##.adr-down,.choisdown,.localDown,.adrAddress,.adr
 xpgod.com##.gg,.gg2
 xqc23.jnyayk.xyz
+xryrylt.cn
 xs177.com##.ad,[id^="alm_r_b_"]
 xs8.cn###show_down
 xs99.cc##ins.adsbygoogle,iframe[height="345"],div.ad,div[style="MARGIN: 3px; WIDTH: 360px; FLOAT:right; HEIGHT: 300px"],table[height="130"]
@@ -22807,6 +22809,7 @@ zzpzero.com
 ||4gamers.com.tw/ads-
 ||4gamers.com.tw/site/iframe-aols/
 ||4ggame8.com^
+||4go.cc^
 ||4gtv.tv/4gTV_OTT.json
 ||4gtv.tv/js/ga_
 ||4gustis.xyz^
@@ -23579,6 +23582,7 @@ zzpzero.com
 ||8881919.cc^
 ||888888888888.online^
 ||88888888vip.top^
+||8889888.vip^
 ||888dizhi.com/888/
 ||888lianmeng.com^
 ||88cpc.com^
@@ -27081,6 +27085,7 @@ zzpzero.com
 ||atsptp.com^$third-party
 ||att.stargame.com^
 ||att.ydss.cn/attachments/portal/
+||attempted.wang^
 ||atticwicket.com^$third-party
 ||attn.tv^*/dtag.js
 ||attracta.com^$third-party
@@ -27734,6 +27739,7 @@ zzpzero.com
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||bazhigu.com^
+||bazinga12138.online^
 ||baztrack.com^$third-party
 ||bb1nn.com/js/i.js
 ||bb2.ifeng.com^
@@ -28762,8 +28768,6 @@ zzpzero.com
 ||btstats.devtribu.fr^
 ||bttt.la/static/*960.js|$script
 ||btttag.com^$third-party
-||bttzyw68.com/Runtime/js/psData.js
-||bttzyw7.xyz/Runtime/js/psData.js
 ||btwan5.com^
 ||btyou.com^
 ||btyou.com^$third-party
@@ -37179,6 +37183,7 @@ zzpzero.com
 ||huishij.net^
 ||huitiankuaiji.com^
 ||huiun.com^
+||huixianjiaoyuedu.com^
 ||huixingcheng.cn^
 ||huiyef.cn^
 ||huiyutz.cn^
@@ -41702,6 +41707,7 @@ zzpzero.com
 ||m1.vodjk.com^
 ||m1.we556.com^
 ||m10.m1029.com^
+||m100.site^
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/collect.
 ||m1905.cn/data/suspension_
@@ -45596,7 +45602,7 @@ zzpzero.com
 ||pghwwjd.com^
 ||pglstatp-toutiao.com/obj^
 ||pgs.aviationweek.com^
-||pgs.io^$third-party
+||pgs.io^$third-party,domain=~publicgood.com
 ||pgt1.voyage-prive.es^
 ||phadia.thermofisher.com^
 ||phar.gu-web.net^
@@ -53601,6 +53607,7 @@ zzpzero.com
 ||togo666.com^
 ||tohvww.mathon.fr^
 ||tokei.upstract.com^
+||tolerated.wang^
 ||tom*.com/js/advment.js
 ||tom.com/*TomFlashAd
 ||tom.com/adsender/
@@ -57838,6 +57845,7 @@ zzpzero.com
 ||xcounter.ch^$third-party
 ||xcsaz.com^
 ||xcsci.cn^
+||xcummws.cn^
 ||xcxlneb.cn^
 ||xcxzxc.cn^
 ||xcy8.com^
@@ -57966,6 +57974,7 @@ zzpzero.com
 ||xiaokeaiapp.com^
 ||xiaokeji.club^
 ||xiaokenan.net^
+||xiaoli.video^
 ||xiaolipc.cn^
 ||xiaoma.com/images/form/getclueforxiaomazonghe.js
 ||xiaoma.com/images/form/overlay
@@ -58269,6 +58278,7 @@ zzpzero.com
 ||xrtzf.com^
 ||xrxfaa.giannakazakou.gr^
 ||xrxybn.kotofey-shop.ru^
+||xryrylt.cn^
 ||xs.houyi.baofeng.net^
 ||xs177.com/js/dibu.js
 ||xs177.com/js/nei.js
@@ -59953,6 +59963,7 @@ zzpzero.com
 ||zwdq.xyz^
 ||zwhkug.cn^
 ||zwkssb.com^
+||zwmosu.xyz^
 ||zwrj999.cn^
 ||zwwl.shop^
 ||zwwooooo.com/images/hengtian.
