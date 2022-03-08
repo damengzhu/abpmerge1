@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-08 08:20:03
-! Total count: 61603
+! Version: 2022-03-08 16:24:10
+! Total count: 61612
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9455,6 +9455,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
 @@||cctv.com/js/cntv_Advertise.js
+@@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
 @@||cdn-care.com/js/analytics/$script,domain=care.com
 @@||cdn-care.com/js/vendor/yarn_components/amplitude-js/amplitude.min.js$script,domain=care.com
 @@||cdn-ds.com/analytics/dfa.js$script,domain=tuttleclickgenesis.com
@@ -27633,6 +27634,7 @@ zzpzero.com
 ||bang8.org.cn^
 ||bangbang521.com^
 ||bangdu2.com^
+||banggongxia.xyz^
 ||banggood.com/collectBanner?
 ||banggood.com/collectException
 ||bangkokpost.com/hits/
@@ -32538,6 +32540,7 @@ zzpzero.com
 ||dpjszs.com^
 ||dps-reach.com^$third-party
 ||dq95d35.com^$third-party
+||dqcztxmu.com^
 ||dqs3.darjeeling.fr^
 ||dqsft.com^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
@@ -41465,6 +41468,7 @@ zzpzero.com
 ||luodiye01.cn^
 ||luojianrong.cn^
 ||luolikong.net^$third-party
+||luoshihua.club^
 ||luoyuanedu.cn^
 ||lupoporno.com/js/analytics
 ||lusrg.cn^
@@ -55905,6 +55909,7 @@ zzpzero.com
 ||vip/inc/*my*.js
 ||vip/style/vue.js?v=
 ||vip/vs.php?id=$script,third-party
+||vip1221.com^$third-party
 ||vipads.cn$third-party
 ||vipcn.com/hezuo/
 ||vipcn.com/hz/down_r.js
@@ -58065,6 +58070,7 @@ zzpzero.com
 ||xingyou22.xyz^
 ||xingyou25.xyz^
 ||xingyou46.icu^
+||xingyou64.xyz^
 ||xingzhu.top^
 ||xingzuomeixue.com^
 ||xinhaogong.xyz^
@@ -60513,6 +60519,7 @@ zzpzero.com
 42xz.com##[onclick*="godownload"]
 42xz.com,aiweibk.com,kuhou.com,pcsoft.com.cn,yesky.com##.gsxz
 43aq.com##[width="990"][height="70"],[width="990"][height="60"]
+44r9fl.xyz
 45fan.com##.botad1,.adz
 46pj.com##.DaKuang,[height="79"]
 47.107.65.95
@@ -60704,6 +60711,7 @@ zzpzero.com
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
 77mh.cc###bdcotopnew
 77nnsc.com##[name^="ad"],[height="45"],p
+77nnv9.xyz
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -61592,6 +61600,7 @@ zzpzero.com
 703804.com##.hotad
 872872.com##.yslm645d,.yslm300x,.footertopB
 888173.com##iframe[width="168"][height="608"],.textwidget,.holder
+939394.xyz##A[href="https://pic.13709394.net/upload/"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
