@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-07 16:23:28
-! Total count: 61582
+! Version: 2022-03-08 01:02:55
+! Total count: 61592
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -5037,7 +5037,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /goAnalytics.
 /google-analyticator/*
 /google-analytics-$~image
-/google-analytics.$~image
+/google-analytics.$~image,$third-party,domain=~comed.com|~secure.exeloncorp.com
 /google-analytics/*$domain=~stackexchange.com|~superuser.com
 /google-nielsen-analytics.
 /google-tag-manager.
@@ -16563,10 +16563,14 @@ m.pufei.cc/skin/footer.js
 m.pufei.cc/skin/middle.js
 m.pufei8.com/skin/t6.html
 m.qidian.com###bookDetailWrapper > div.book-detail-info:last-child > div.book-detail-btn:last-child
+m.qidian.com###readTopTip
+m.qidian.com###vue-components
+m.qidian.com##.read-author-say.jsAuthorSay
 m.qidian.com##DIV[class='footer-backtop-cell jsGuestWrapper']
 m.qidian.com##DIV[class='module-field']
 m.qidian.com##DIV[style='background: rgba(0,0,0,0.4);position: fixed;left:0;right:0;top:0;bottom:0;z-index:9999;']
 m.qidian.com##div.app_download
+m.qidian.com##div[id*="chapterEndModule_"]
 m.qimiaomh.com/muban/m/static/js/common.js
 m.qimiaomh.com/muban/m/static/js/hhh.js
 m.qu.la###chaptercontent > p
@@ -23539,6 +23543,7 @@ zzpzero.com
 ||861ht.com^
 ||863my.com^
 ||86695755.cn^
+||8672.site^
 ||8684.cn/id/ad_
 ||8684.com/com/sys_ad_
 ||8684.com/local/bdadv.
@@ -25124,6 +25129,7 @@ zzpzero.com
 ||adblade.com^$third-party
 ||adblockmetrics.ru^$third-party
 ||adblockrelief.com^$third-party
+||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
 ||adblockstreamtape.site/stat/
 ||adbot.tw^
@@ -41750,6 +41756,7 @@ zzpzero.com
 ||madetoconnect.summit-broadband.com^
 ||madhouse.cn^
 ||madisonjamesphotography.com^
+||madkudu.com^$third-party
 ||madlan.co.il/o4wPDYYd/init.js
 ||madnet.ru^$third-party
 ||madserving.com^
@@ -43854,8 +43861,6 @@ zzpzero.com
 ||mywebstats.org^$third-party
 ||myxuak.mir-kubikov.ru^
 ||myyage.com^
-||myyan.cc/js/qz.js
-||myyan.cc/js/sj
 ||myyuye.club^
 ||myyxapp.com^$third-party
 ||myz11111.cn^
@@ -45599,6 +45604,7 @@ zzpzero.com
 ||pharmnet.com.cn/js/float_div.js
 ||phbkm.com/js/
 ||phczhg.johnjohndenim.com.br^
+||phenompeople.com^$third-party
 ||phgnxd.nike.com.br^
 ||phjzsx.elevit.jp^
 ||phoenixnk.cn^
@@ -47409,6 +47415,7 @@ zzpzero.com
 ||rebdy.com^
 ||rebelsubway.com^
 ||rec.udn.com^
+||recapture.io^$third-party
 ||recart.com/tracking/
 ||receptivebranch.com^
 ||receptiveink.com^
@@ -55296,6 +55303,7 @@ zzpzero.com
 ||ueb4.destinia.tw^
 ||uecdn.es/js/pbmu.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
+||uedas.qidian.com^
 ||uedvam.tatilsepeti.com^
 ||uefzsx.xxxlutz.cz^
 ||ueg.cc
@@ -55438,6 +55446,7 @@ zzpzero.com
 ||uniregistry.com^
 ||united-infos.net/event?
 ||united-infos.net^$third-party
+||unitelogreport.reader.qq.com^
 ||units.knotch.it^
 ||unity3d.com/v1/events
 ||unityads.
@@ -59826,6 +59835,7 @@ zzpzero.com
 ||zongheng.com^*/logger.min.js
 ||zongjiangc.top^
 ||zongjiangd.top^
+||zonmxej.cn^
 ||zononi.com^
 ||zonst.com^
 ||zontera.com^$third-party
