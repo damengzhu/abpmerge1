@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-08 16:24:10
-! Total count: 61612
+! Version: 2022-03-09 01:07:44
+! Total count: 61624
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1439,6 +1439,7 @@
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
+##img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -5093,8 +5094,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /gov-tracking.min.js
 /gp/r.html?$image
 /grappler/log/*
-/gravity-beacon-
-/gravity-beacon.js
 /grumi-ip.js
 /gs-analytics-
 /gs-analytics.
@@ -8752,7 +8751,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://js.static.*/share/*.js$third-party
 ://js.static.*ping*
 ://lightning.*/launch/
-://matomo.
+://matomo.$domain=~matomo.org
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -9695,6 +9694,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||easylife.tw^$generichide
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
+@@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
 @@||ecitic.com/source/*/pop
 @@||ecitic.com^
@@ -10511,10 +10511,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
-@@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js
+@@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||scyts.com^$generichide
@@ -17832,6 +17832,8 @@ qiannao.com###main > div[style="padding-left:20px;margin-top:10px;"]:first-child
 qiannao.com##A[href="http://www.2tietu.com/"],div#rightDiv,div[style="padding-left:20px;margin-top:10px;"],div#tg2_main,img[src^="http://i1.imgbus.com/doimg/"],ins.adsbygoogle,div#yzjy_div
 qianyan001.com##div.gg,div.gg2,div[class*="_gg"]
 qianyifa.net###ad_text
+qianzhan.com##.kfonline2
+qianzhan.com##.qqonline
 qianzhan.com##[src^="http://img3.qianzhan123.com/gg/"]
 qianzhan.com##div[id^="baidu_ad_"]
 qiaobutang.com##.fixed-footer-wrap
@@ -20361,6 +20363,7 @@ www.talkforex.com##div.wp.a_h,div.bm.a_c,div.bm.bw0.cl,div[class="frame move-spa
 www.taoguba.com##DIV.gg_head,DIV#ad_text.ad_text,DIV#ggcontArea2,DIV#ggcontArea,DIV.a1_gg.jiange2,DIV.bd_gg.jiange2,DIV.ggdistich_tit,div.fgg_head_nei,DIV#ad_thread1_0.ad_textlink1,DIV.gg_foot,.sidegg
 www.taohuazu.tw##div[align="center"],[class="r money_336"]
 www.tctakoh.com
+www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.tgbus.com##div.guanggao,div.guanggao2,div.guanggao3,div.nr2
 www.tiexue.net##DIV.s_960x157,DIV.ad.s_960x90,DIV.banner,DIV[style^="width: 120px; height: 287px;"],DIV.main > DIV:first-child,dd#AdTopBarTop,dd#AdTopBarBot,img[src*=".junph.cn/images/origin/"],DIV.main > DIV.head + SCRIPT + STYLE + DIV,A[href="http://topic.junph.com/2015nzdc/?utm_source=TXs&utm_medium=L&utm_campaign=NZHdacu3"] + DIV > SPAN:first-child,DIV.layout_3 + STYLE + DIV
 www.tingqq.com###divplayer,.huiyTj
@@ -25642,6 +25645,7 @@ zzpzero.com
 ||ag1.zuszw.com^
 ||agates.ru/counters/
 ||agathaedith.com^
+||agathazanna.com^
 ||agcs-knowledge.allianz.com^
 ||agentanalytics.com^$third-party
 ||agentinteractive.com^$third-party
@@ -30545,6 +30549,7 @@ zzpzero.com
 ||conceptualizereading.com^
 ||concernedcondition.com^
 ||concert.io/lookup/
+||concocting.wang^
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
 ||conditionchange.com^
@@ -33473,6 +33478,7 @@ zzpzero.com
 ||embeddedanalytics.com^$third-party
 ||embedly.com/widgets/xcomm.html$third-party
 ||emc.dr-stick.shop^
+||emcoper.com^
 ||emdcadvertise.eastmoney.com^
 ||emea.info.mouser.com^
 ||emeaevents.americanexpress.com^
@@ -35882,7 +35888,6 @@ zzpzero.com
 ||gratis-besucherzaehler.de^$third-party
 ||gratis-counter-gratis.de^$third-party
 ||gravitec.net^$third-party
-||gravity.com^*/beacons/
 ||gravity4.com^$third-party
 ||graypay1.cn^
 ||grayreceipt.com^
@@ -37052,6 +37057,7 @@ zzpzero.com
 ||hrm.healthgrades.com^
 ||hrrrzwz.cn^
 ||hruyiq.auction.co.kr^
+||hryidhf.ltd^
 ||hrzn-nxt.com/pxl?
 ||hs-analytics.net^
 ||hs.cnfol.com/Cm/Imgs/Load.gif
@@ -40187,6 +40193,7 @@ zzpzero.com
 ||ladymetro.com^
 ||ladyye.site^
 ||laferia.cr^$third-party
+||lafrjs.com^
 ||lagoonolivia.com^
 ||lagou.com/js/cooperation/
 ||lahair.biz^
@@ -44398,6 +44405,7 @@ zzpzero.com
 ||noiselessplough.com^
 ||nojscontainer.pepperjam.com^$third-party
 ||nokaut.link^$third-party
+||nokiadatabooklet.ltd^
 ||nol.yahoo.com^
 ||nonchalantnerve.com^
 ||nondescriptcrowd.com^
@@ -45609,6 +45617,7 @@ zzpzero.com
 ||pgs.io^$third-party,domain=~publicgood.com
 ||pgt1.voyage-prive.es^
 ||phadia.thermofisher.com^
+||phagueq.cn^
 ||phar.gu-web.net^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
@@ -52567,6 +52576,8 @@ zzpzero.com
 ||szjianxin.net^
 ||szjjzs.com/js/cs*.js
 ||szjjzs.com/js/dd.js
+||szjjzs.com/js/fe
+||szjjzs.com/js/piao.js
 ||szjywn.cn^
 ||szkbyo.zkai.co.jp^
 ||szlong.weixin.qq.com^
@@ -53753,7 +53764,7 @@ zzpzero.com
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.social^
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibai.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibaiys.com
 ||toutiaoimg.com^$domain=1024pm.com
 ||toutiaoyule.com/n/dspshow.
 ||touxiang.la/js/book.js
@@ -55405,6 +55416,7 @@ zzpzero.com
 ||unblockia.com^$third-party
 ||unblog.fr/cu.js
 ||uncn.jp^$third-party
+||unconditionally.wang^
 ||uncoveredcircle.com^
 ||uncoveredexpert.com^
 ||undm.qibulo.com^
@@ -61600,7 +61612,7 @@ zzpzero.com
 703804.com##.hotad
 872872.com##.yslm645d,.yslm300x,.footertopB
 888173.com##iframe[width="168"][height="608"],.textwidget,.holder
-939394.xyz##A[href="https://pic.13709394.net/upload/"]
+939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
