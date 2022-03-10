@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-09 16:24:08
-! Total count: 61635
+! Version: 2022-03-10 01:09:40
+! Total count: 61651
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2473,6 +2473,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /KISSmetricsTrackCode.
 /Kelkooid?
 /KenticoActivityLogger/*
+/LandingPageHitLog.aspx?
 /LastClick/js?
 /LoadAudienceSegs-
 /Log.ashx?
@@ -9396,7 +9397,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||beta.bugly.qq.com^
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
-@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de
+@@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw^$generichide
@@ -10542,6 +10543,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
 @@||share1223.com^$generichide
 @@||shine.cn/showadcode2.asp?posid=68&
+@@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
@@ -10693,7 +10695,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tcss.qq.com^$domain=55you.com
 @@||tdx.com.cn/images/*ad$~third-party
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
-@@||technical-service.net^$xmlhttprequest,domain=n-tv.de
+@@||technical-service.net^$xmlhttprequest,domain=n-tv.de|vip.de
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
@@ -25185,6 +25187,7 @@ zzpzero.com
 ||addthisedge.com/live/
 ||addthisedge.com^
 ||addtoany.com/menu/transparent.gif
+||addwish.com^$third-party
 ||adebis-52667624.wowma.jp^
 ||adebis-morijuku.morijuku.com^
 ||adebis-rikon.vbest.jp^
@@ -28685,6 +28688,7 @@ zzpzero.com
 ||broaddoor.com^$third-party
 ||brominer.com^$third-party
 ||bronto.com^$third-party
+||brontops.com^
 ||bronya.club^
 ||brothersbucket.com^
 ||brownfox.top^
@@ -29072,6 +29076,7 @@ zzpzero.com
 ||campaign.ssab.com^
 ||campaigncog.com^$third-party
 ||campaigninfo.motorolasolutions.com^
+||campaignmonitor.com^$third-party
 ||campaignresources.motorolasolutions.com^
 ||campaigns.amadeus.com^
 ||campaigns.ashfieldengage.com^
@@ -29130,6 +29135,7 @@ zzpzero.com
 ||capture-api.ap3prod.com^
 ||capture.condenastdigital.com^
 ||capture.trackjs.com^$third-party
+||capturehighered.net^
 ||capturemedia.network^$third-party
 ||capturly.com^$third-party
 ||capzo.cn^
@@ -29535,6 +29541,7 @@ zzpzero.com
 ||chengzilte.top^
 ||chenjiayu.cn/gg.js
 ||chenjie.site^
+||chenliang.link^
 ||chenmujiang.com.cn^
 ||chenqi.vip^
 ||chenqinghui.xyz^
@@ -29812,6 +29819,7 @@ zzpzero.com
 ||clearsale.com.br^$third-party
 ||clearspring.com/at/
 ||clearspring.com/t/
+||clerk.io^$third-party
 ||cleveritics.com^$third-party
 ||cleverpush.com^$third-party
 ||clevi.com^$third-party
@@ -31988,6 +31996,7 @@ zzpzero.com
 ||dfcwg.com^
 ||dfggb.cc^
 ||dfjbgfldsjdsnldksjalld1235.cn^
+||dfokydq.cn^
 ||dforum.net/counter/
 ||dfseafood.com^
 ||dftoutiao.com/dfpcitv/pcitv?jsonpcallback=
@@ -32331,6 +32340,7 @@ zzpzero.com
 ||dm.taobaojuhuasuan.cn^
 ||dm.toutiao.com^
 ||dm.wenshenxiu.com^
+||dm.zjut.cc^
 ||dm.zuowenku.net^
 ||dm1.3199.cn^
 ||dm1.3328.cn^
@@ -33460,7 +33470,7 @@ zzpzero.com
 ||email.mccoys.com^
 ||email.mediafire.com/wf/open?$third-party
 ||email.member.theknot.com^
-||email.mg.everyonesocial.com^
+||email.mg.everyonesocial.com^$image,script
 ||email.mymandg.co.uk^
 ||email.participaction.com^
 ||email.pray.com^
@@ -39622,6 +39632,7 @@ zzpzero.com
 ||k3node.com^$third-party
 ||k4fu.verif.com^
 ||k54nw.pw^
+||k5a.io^
 ||k5p8f2.cn^
 ||k618.cn/sytab/
 ||k618.cn/zbggw/
@@ -40399,6 +40410,7 @@ zzpzero.com
 ||leads.autohome.com.cn^
 ||leadsius.com^$third-party
 ||leadslabpixels.net^$third-party
+||leadsleap.com^$third-party
 ||leadsmonitor.io^$third-party
 ||leadsrx.com^$third-party
 ||leadtracking.plumvoice.com^
@@ -40435,6 +40447,7 @@ zzpzero.com
 ||legacy.com^*/unicaclicktracking.js?
 ||legenhit.com^$third-party
 ||leggo.it/index.php?$image
+||legitimate.wang^
 ||legitscript.com/seals/
 ||legolas-media.com^$third-party
 ||legou361.com^
@@ -43021,6 +43034,7 @@ zzpzero.com
 ||metroweekly.com/tools/blog_add_visitor/
 ||metvb.com/js/bofangwei.js
 ||metvb.com/js/z.js
+||mewe.com/ubk4jrxn.js
 ||mexcel.info^
 ||meypeg.videdressing.com^
 ||mezhai.net^
@@ -44426,6 +44440,7 @@ zzpzero.com
 ||nongzhifu.cn^
 ||noodle.backmarket.io^
 ||noowho.com^$third-party
+||nopph.website^
 ||nord-raum.com$third-party
 ||nord-raum.com^$third-party
 ||nordicresearch.com^$third-party
@@ -61624,6 +61639,7 @@ zzpzero.com
 872872.com##.yslm645d,.yslm300x,.footertopB
 888173.com##iframe[width="168"][height="608"],.textwidget,.holder
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
+939394.xyz##a[href^="/"][href$="/"] > img[src*=".gif"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
