@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-11 01:09:12
-! Total count: 61671
+! Version: 2022-03-11 08:19:40
+! Total count: 61675
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -37042,6 +37042,7 @@ zzpzero.com
 ||housefindeasy.com/images/*banner978x90.
 ||housefindeasy.com/images/b_*.png
 ||housefindeasy.com/images/vip_ads
+||housewedding.cn^
 ||houstonbbs.com/data/ad/
 ||houyi.baofeng.net^*.html
 ||houzz.com/hsc/aetrk/
@@ -43339,6 +43340,7 @@ zzpzero.com
 ||mmkkiivv.com^
 ||mmlala.com^
 ||mmonly.cc/js/mmonlyAPP.js
+||mmoqgsl.cn^
 ||mmpool.org^$third-party
 ||mms.cnn.com^
 ||mms.wwe.com^
@@ -43651,6 +43653,7 @@ zzpzero.com
 ||mta.qq.com^
 ||mtag.mman.kr^
 ||mtbflj.elementaree.ru^
+||mtbraqc.cn^
 ||mtburn.com$third-party
 ||mtburn.com^$third-party
 ||mtcat.cn^
@@ -58351,6 +58354,7 @@ zzpzero.com
 ||xsdlt.top^
 ||xsgkjsb.cn^
 ||xshengyan.com/xxgg/bookll111.js
+||xshijie.xyz^
 ||xsjyun.cn^
 ||xsolid.baidu.com^
 ||xspadvertising.com^
@@ -61657,9 +61661,9 @@ zzpzero.com
 703804.com##.hotad
 872872.com##.yslm645d,.yslm300x,.footertopB
 888173.com##iframe[width="168"][height="608"],.textwidget,.holder
-939394.xyz##a[href="/uZpvkXM59K9ft3RfeK/index.html"]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
+939394.xyz##a[href^="/"][href$="/index.html"] > img
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
