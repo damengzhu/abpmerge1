@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-16 08:19:22
-! Total count: 61924
+! Version: 2022-03-16 16:22:51
+! Total count: 61933
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -5290,9 +5290,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /images/ads/*
 /images/beacon.*?errorMessage=
 /images/content/1436/*$domain=chineseinla.com
-/images/masha*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/masha*.png
 /images/mxl.gif?
-/images/sgcrwj*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/sgcrwj*.gif
+/images/sgcrwj*.jpg
 /images/ta1234.js
 /images/uc.GIF?
 /images/uploads/index_banner/a201*.gif
@@ -12656,6 +12657,7 @@ cloud.ddyingyan.com
 cloud.letv.com##div#ad_show_box
 club.pchome.net##.pic-list1,iframe[width="760"][height="130"]
 cm.bilibili.com
+cm.l.qq.com
 cm868.com###diy1,#diy3
 cmbc.com.cn#@#.adBox
 cmhello.com##.gpost-above
@@ -18279,6 +18281,7 @@ ri1.site,www.wenxuecity.com###leftside
 ri1.site,www.wenxuecity.com###rightside
 riaway.com##.info_message_container
 right.com.cn##.a_t
+right.com.cn##A[href^="https://jd.dangbei.com/"]
 right.com.cn##div#diy1.area,div.a_p,div.a_pr,DIV.column.frame-1-c,div.wp.a_f,div.a_cn,.a_mu,.a_pt,.a_pb
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
@@ -19686,6 +19689,7 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
+v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
 v.wsnew.cn
@@ -22662,6 +22666,7 @@ zzpzero.com
 ||324.com^
 ||32414.com^$third-party
 ||329329.com^
+||32jiang.com^
 ||32xp.com/upimg/
 ||33.autohome.com.cn^$script
 ||33.pcpop.com^
@@ -41136,6 +41141,7 @@ zzpzero.com
 ||liulanliang.cn^
 ||liuliguo.com^
 ||liulu888.com^
+||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
 ||liuxue86.com/css/liuxue_output.js
@@ -41257,6 +41263,7 @@ zzpzero.com
 ||lm663.com^
 ||lm665.com^
 ||lm685.com^
+||lm779.com^
 ||lm789456.com^
 ||lm811.com^
 ||lm832.com^
@@ -55268,6 +55275,7 @@ zzpzero.com
 ||ttahsdu.top^
 ||ttaj.cn^
 ||ttavav6.com/zz/
+||ttayy.cn^
 ||ttbaods.com$script
 ||ttbc.cc^
 ||ttbc33.com^
@@ -55808,7 +55816,7 @@ zzpzero.com
 ||uptain.de^$third-party
 ||uptime.com/static/rum/$third-party
 ||uptolike.com/widgets/*/imp?
-||uptolike.com^$third-party
+||uptolike.com^$third-party,domain=~uptolike.ru
 ||uptracs.com^$third-party
 ||uptrendsdata.com^$third-party
 ||upwork.com/Ss13U803/init.js
@@ -60307,6 +60315,7 @@ zzpzero.com
 ||zxyonlybelongstolym.xyz^
 ||zxzj.fun/slade
 ||zxzj.fun/t.js
+||zxzjtv.com/upload/vod/yuyua.png
 ||zy8.org
 ||zyam.club^
 ||zybpj.com^
