@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-16 16:22:51
-! Total count: 61933
+! Version: 2022-03-17 01:05:50
+! Total count: 61960
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -6735,6 +6735,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pubstats.$domain=~pubstats.dev
 /pubtag.js?
 /pulsario.js
+/push-analytics.js
 /push.
 /push/page-view/*
 /pushad*
@@ -9310,7 +9311,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=right-on.co.jp
-@@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|speedcheck.ky
+@@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|equinoxplus.com|speedcheck.ky
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.nyda.pro^$websocket
@@ -12378,7 +12379,6 @@ ccstock.cn##.tlgg,.left_ad,[class^="radbox"]
 cctime.com###ad_three
 cctime.com###nav_banner,[id^="ad_"],[id$="_ad"],[height="80"],[height="90"],[height="100"]
 cctime.com##.nav_banner
-cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com##[id^="div-gpt-ad-"],[src^="http://pubads.g.doubleclick.net/gampad/"],.adv
@@ -15257,7 +15257,7 @@ inoreader.com##[class^="ad"],[id^="leaderboard_ad"]
 inpage-push.com
 inside.com.tw##.advertisement,.fb-like
 instrument.com.cn###leftFlash
-instrument.com.cn##.swiper-container
+instrument.com.cn,tool.lu##.swiper-container
 io.9k0p01l.cn
 ios.xyadtlyy.com
 iour.co##div.moneyarea,A[href^="http://www.sh222333.com"],div[style="height:120px;"]
@@ -18281,7 +18281,7 @@ ri1.site,www.wenxuecity.com###leftside
 ri1.site,www.wenxuecity.com###rightside
 riaway.com##.info_message_container
 right.com.cn##.a_t
-right.com.cn##A[href^="https://jd.dangbei.com/"]
+right.com.cn##a[href^="https://jd.dangbei.com/"]
 right.com.cn##div#diy1.area,div.a_p,div.a_pr,DIV.column.frame-1-c,div.wp.a_f,div.a_cn,.a_mu,.a_pt,.a_pb
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
@@ -23772,6 +23772,7 @@ zzpzero.com
 ||8cnd.com^
 ||8d8d.me/images/dealer.gif
 ||8ehhtsv9bo7i.monkeylearn.com^
+||8en.net^$third-party
 ||8ezc.sfr.fr^
 ||8gl.com.cn^
 ||8gustis.xyz^
@@ -26499,6 +26500,7 @@ zzpzero.com
 ||analytics.footballdb.com^
 ||analytics.foresee.com^
 ||analytics.forgetwp.com^
+||analytics.formstack.com^
 ||analytics.freespee.com^
 ||analytics.gamedatacrunch.com^
 ||analytics.gameforge.de^
@@ -29339,6 +29341,7 @@ zzpzero.com
 ||carte.fleet-page.total.fr^
 ||cartoon18.com/images/friend/
 ||carts.guru^$third-party
+||cartstack.com^$third-party
 ||carview.co.jp/include_api/log/
 ||casalemedia.com^
 ||casalemedia.com^$third-party
@@ -30050,6 +30053,8 @@ zzpzero.com
 ||click1.mail.paltalkpeople.com^
 ||click2.email.ticketmaster.com^
 ||click2.hd.sohu.com^
+||click360.io^
+||click360v2-ingest.azurewebsites.net^
 ||click4assistance.co.uk^$third-party
 ||clickable.net^$third-party
 ||clickadu.com^
@@ -30165,6 +30170,7 @@ zzpzero.com
 ||clonger.cn^
 ||closedcows.com^
 ||cloud-exploration.com^$third-party
+||cloud-iq.com.au^$third-party
 ||cloud-iq.com^$third-party
 ||cloud-miner.de^
 ||cloud-miner.eu^
@@ -30237,6 +30243,7 @@ zzpzero.com
 ||cloudfunctions.net/commonBonnierDataLayer
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
+||cloudiq.com^$third-party
 ||cloudmade.com^
 ||cloudpsvn.com^
 ||cloudpush.iqiyi.com^
@@ -32642,6 +32649,7 @@ zzpzero.com
 ||dongfangtai.com/2018/
 ||donghua.asia^
 ||dongsiping.xyz^
+||dongzhixia1688.com^
 ||doniv.net^$third-party
 ||donkeyleaf.com^
 ||donreach.com^$third-party
@@ -33370,6 +33378,7 @@ zzpzero.com
 ||education.greatbatch.com^
 ||education.moodybible.org^
 ||education.seek.intel.com^
+||educationdynamics.com^$third-party
 ||educity.cn/self_text/text_disp.aspx?id=
 ||edumsys.com^
 ||eduszft.cn^
@@ -33913,6 +33922,7 @@ zzpzero.com
 ||eqs.intuit.com^
 ||eqtrack.americashomeplace.com^
 ||equirodi.*/addstat.php
+||eqy.link^
 ||er.5ykj.cn^
 ||er.5ykj.com^
 ||er.sanoma-sndp.fi/stats/
@@ -34842,6 +34852,8 @@ zzpzero.com
 ||forms.riverbed.com^
 ||forms.testoil.com^
 ||forms.vaisala.com^
+||formstack.com/forms/analytics.php
+||formstack.com/forms/js/*/analytics_
 ||formulawire.com^$third-party
 ||forrerri.com^
 ||forter.com^$third-party
@@ -37708,6 +37720,7 @@ zzpzero.com
 ||idtargeting.com^$third-party
 ||idting.com^
 ||idv.st/dns/bar.htm
+||idx.lat^
 ||idy666.com^
 ||ie.5500w.com^
 ||ie8eamus.com^
@@ -38132,6 +38145,7 @@ zzpzero.com
 ||indextools.com^$third-party
 ||indiatimes.com/personalisation/logdata/
 ||indiatimes.com/pixel?
+||indiatimes.com/savelogs?
 ||indicative.com^$third-party
 ||indicia.com^$third-party
 ||indiebuff.cn^
@@ -41141,6 +41155,8 @@ zzpzero.com
 ||liulanliang.cn^
 ||liuliguo.com^
 ||liulu888.com^
+||liunxgroup.top^
+||liupan.asia^
 ||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
@@ -41232,6 +41248,7 @@ zzpzero.com
 ||lknad215.top^
 ||lknqfn.furla.com^
 ||lksw1.top^
+||lksw3.top^
 ||lktxelg.cn^
 ||lkvkgk.levis.com.tr^
 ||ll.gxsky.com^
@@ -44495,6 +44512,7 @@ zzpzero.com
 ||nicelook.cn^
 ||nicequest.com^$third-party
 ||nickles.de/ivw/
+||nidelove.club^
 ||niegg.com^
 ||niematego.tk^$third-party
 ||niepanruanjian.com^
@@ -45155,6 +45173,7 @@ zzpzero.com
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||oofsg.cn^
+||oomll.cn^
 ||oomyv.com^
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||ooqiu.com/ad_js/
@@ -45203,6 +45222,7 @@ zzpzero.com
 ||opportunity.businessbroker.net^
 ||oppositeoperation.com^
 ||opps.taboola.com^
+||oppuz.com^
 ||opqsr.com^
 ||oproi.com^$third-party
 ||ops.bpost.be^
@@ -45968,6 +45988,7 @@ zzpzero.com
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
 ||pijiagui.cn^
+||pijper.io^
 ||pikzor.com^$third-party
 ||piliangzhuce.cn^
 ||pimlog.baidu.com^
@@ -49789,6 +49810,7 @@ zzpzero.com
 ||smarterremarketer.net^$third-party
 ||smartertravel.com/ext/pixel/
 ||smartfarming.cn^
+||smarthint.co/track/
 ||smartlook.com^$third-party
 ||smartmad.com^
 ||smartnews-ads.com^$third-party
@@ -51347,6 +51369,7 @@ zzpzero.com
 ||spideraf.com^$third-party
 ||spidersboats.com^
 ||spiffymachine.com^$third-party
+||spinnaker-js.com^
 ||spirebaboon.com^
 ||spjxwlkj.com^
 ||spklw.com^$third-party
@@ -53588,6 +53611,7 @@ zzpzero.com
 ||thron.com/shared/plugins/tracking/
 ||thrtle.com^$third-party
 ||thumos.fileside.app^
+||thunderhead.com^$third-party
 ||thunderingrose.com^
 ||thyrsi.com^$domain=cnscg.com
 ||thztv.*/tool/
@@ -55306,6 +55330,7 @@ zzpzero.com
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tucao.in/uploadfile/*/ch.gif
+||tucao.in/uploadfile/20*/1000-*.gif
 ||tucao.in/uploadfile/20*/20*.gif
 ||tucao.in/uploadfile/2022/0211/t5.
 ||tudouui.com/tspecial/assets/PauseContainer.swf
@@ -57258,6 +57283,7 @@ zzpzero.com
 ||wo685.com^
 ||wo685.com^$third-party
 ||woaidu.org/images/20180802/3.jpg
+||woaijiba.com^
 ||woaiseo.com.cn^
 ||wobo888.cc
 ||wobuka2.com/js/
@@ -58710,6 +58736,7 @@ zzpzero.com
 ||xxxjmp.com^
 ||xxxmeng.com$third-party
 ||xxyxmdq.cn^
+||xxzj.pro^
 ||xxzzsj.xyz^
 ||xy.nullrefexcep.com^$third-party
 ||xy33.smallable.com^
@@ -60699,10 +60726,10 @@ zzpzero.com
 16sucai.com##div.pindao_ad2,tr[height="100px;"],[style*="height:90px;"]
 16sucai.com,bbxxbbs.net##table[width="960"]
 17ce.com###tab_banner,.adsbygoogle,[id$="a_wrap"],[class^="add_"]
-17ce.com###tp_banner
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##tr[id^="tr"] > td > a[href^="http"]
+17ce.com,cctime.com,doyo.cn###top_banner
 17gameworld.com,smallpopo.com##.fabox
 17house.com##.suiping
 17house.com##.zx_xrhb
