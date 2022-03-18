@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-18 08:19:29
+! Version: 2022-03-18 16:23:43
 ! Total count: 61324
 -1688-wp-media/ads/
 -960x*0.gif
@@ -13335,7 +13335,6 @@ downza.cn##.down_soft_bottom
 downza.cn##.down_top
 downza.cn##.downbtn-AD,.down_top,.ads,.downnow,dl#param+div[style],.xzqan1,.ad,[id^="xzqIMG"],[href^="http://www.downza.cn/download?file="][href$="&isxzq=1&referer="]
 downza.cn##.downbtn-top
-downza.cn##iframe
 doyo.cn###article_top_down
 doyo.cn##DIV.adv_pic,DIV#article_top_down,DIV#top_icon_recommend,#icon_recommend
 doyo.cn,keleyi.com,lgmi.com##div[id^="gg"]
@@ -15498,8 +15497,8 @@ iwan.baidu.com##div#rmaContainer,a#small-img,div.banner-container,div[class$="-b
 iwatch365.com###banner,.banner_body,.wp.a_h
 iweihai.cn##div.readCon_right.tar,IMG[src="http://pro.iweihai.cn/2014/dongfeng/96070.gif"],DIV#top + DIV.tac,div#lovexin12,div#lovexin14,div#iwhzhepingad
 ix8.la##div[class^="ADTOPLB_"] > .bd
+ixigua.com##.J_ad
 ixigua.com##.banner-section
-ixigua.com,toutiao.com##.J_ad
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 ixueshu.com##a[href^="https://adapi."]
 ixueyi.com,shangxueba.com###rightfloatdiv
@@ -19062,7 +19061,8 @@ taiwandaily.net##.gofollow[data-track] > img
 taizhou.com.cn##.duilian
 taizhou.com.cn##.duilian2
 tajs.qq.com
-talkfx.com##.slidebox
+talkfx.co###frameff1Hu9_left
+talkfx.co##.slidebox
 tangdoucdn.com#@#.video-ad
 tanjiaoyi.com,tanpaifang.com##.headad,[id^="ad"],.portal_block_summary
 tanwanmao.cc##.mbm.a_c,#drk_ledtd,.mm,.portal_block_summary
@@ -19371,14 +19371,10 @@ torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,
 torrentkitty.app,torrentkitty.tv###fixedbanner
 torrentkitty.app,torrentkitty.tv##a[href*=".nordvpn.net/"]
 torrentsearchweb.net##div#__cpf_popup__
-toutiao.com##.J_add
-toutiao.com##.J_qihu_ad
 toutiao.com##.article_link[data-tag="ad"]
 toutiao.com##[ad-cursor],[ad_show]
 toutiao.com##[name^="adetail_right*top_"]
 toutiao.com##div.banner-index-bottom,#pagelet-commbox,.feedcomm,#pagelet-iad,#pagelet-btestcommbox,#pagelet-detailadd,[data-tag="ad"],#pagelet-btestad_taobao,#pagelet-adindextop,#detailAd,[data-tag^="ad_"],.J_add,#detailAd2,.adClientFlag,iframe[src^="http://toutiao.com/adsafe/"],.tbanneradd,iframe[src^="http://www.toutiao.com/adsafe/"],[src^="//www.toutiao.com/api/pc/adsafe/"],.carAd,.bonus-wrapper,.icon-container
-toutiao.com##div[ad_name]
-toutiao.com#?#.J_ad
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 toutiao.xn--fiqs8s
 touxiang.la##.ad00,.adsbygoogle,.banner
@@ -19387,7 +19383,6 @@ touzi.com##.pop720-box
 touzi.com##.tck-cover
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
-tpy888.cn##.f_ad1
 tr.thallus.net
 tr.xiaosunxin.cn
 track.hujiang.com
@@ -23606,6 +23601,7 @@ zzpzero.com
 ||82o9v830.com^
 ||83133.com/api/
 ||833761.com^
+||8341.store^
 ||835551.com^
 ||84232.com^
 ||8456.xyz^
@@ -27836,6 +27832,7 @@ zzpzero.com
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcrdyev.cn^
 ||bcrealm.com^
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||bcsjcj.nasdaq.com^
@@ -31526,6 +31523,7 @@ zzpzero.com
 ||daima.yuzhulin.com^
 ||daimude.com^
 ||dainifei3.com^
+||daishu.shop^
 ||daitianyu.vip^
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
@@ -41275,6 +41273,7 @@ zzpzero.com
 ||lqopyc.beermachines.ru^
 ||lqpzdi.coppel.com^
 ||lqsw2.top^
+||lqsw3.top^
 ||lqunionsoft.top^
 ||lr-ingest.io/logger.min.js
 ||lr-ingest.io^$third-party
@@ -47268,7 +47267,6 @@ zzpzero.com
 ||receptiveink.com^
 ||receptivereaction.com^$third-party
 ||recipefy.net/analytics.js
-||reciteme.com^$third-party
 ||recmd.html5.qq.com^
 ||recobell.io/rest/logs?
 ||recognified.net^$third-party
@@ -52660,7 +52658,7 @@ zzpzero.com
 ||talent.aonunited.com^
 ||talentedsteel.com^
 ||talenteq.intuit.com^
-||talkfx.net/showTKImg?
+||talkfx.*/showTKImg?
 ||talkingdata.com^
 ||talkingdata.com^*/sdk_release.js
 ||tamedia.com.tw^$third-party
@@ -54807,6 +54805,7 @@ zzpzero.com
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
 ||ttxknb.com^
+||ttylmex.cn^
 ||ttyyuuoo.com^
 ||ttz.com^$third-party
 ||ttzhongbao.com^
@@ -56066,6 +56065,7 @@ zzpzero.com
 ||wangxiankang.top^
 ||wangxiaowei.ink^
 ||wangxingkui.online^
+||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
 ||wangyeshij.top^
@@ -60310,7 +60310,7 @@ zzpzero.com
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com###testLinkA
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,toutiao.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.net,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 52movieba.com,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pili.com,7060.la,bimibimi.tv##.tuiguang
