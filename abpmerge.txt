@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-18 01:07:30
-! Total count: 61334
+! Version: 2022-03-18 08:19:29
+! Total count: 61324
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -8926,7 +8926,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
-@@/advertisement_ads_$domain=tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
@@ -9193,7 +9192,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
-@@||ads.ttx.cn/attachment/$domain=ttx.cn
 @@||adsense.woso.cn^$~third-party
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
@@ -10679,7 +10677,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
 @@||tce.alicdn.com^$domain=alimama.com
 @@||tcss.qq.com^$domain=55you.com
-@@||tdx.com.cn/images/*ad$~third-party
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|vip.de
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
@@ -10924,7 +10921,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zavedenia.com/resources/js/angularytics.min.js$script,~third-party
 @@||zbj.com^
-@@||zbjimg.com/??$domain=tianpeng.com
 @@||zeit.de/cre-*/tracking/call.js?$domain=zeit.de
 @@||zeit.de/cre-*/tracking/tracking.js$domain=zeit.de
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
@@ -13304,6 +13300,7 @@ douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com,huya.com##a[href^="https://g.wan."]
+douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 douyu.com,oschina.net#@#.follow-btn
 douyutv.com,douyu.com,douyutv.wasu.cn##div.dy_bottom_gg,div.chat-right-ad,div#chat-top-ad,a.ad_shadow,div.lol_ad,div.lol-ad,div.offi_ad,div.other_ad,div.dy_top_gg,[class$=" sign_posid"],div.lyzm-prevent,div.bglink,#downwrapper,[class^="room-ad-"],.no-login,.chat-top-ad,.tab-content.promote,.vcode9-sign,[class="row row-3"],[class="super-rmd-bg tggcontrol"],[class^="hot-sign-"],[class^="theatre-"],[data-type="dyrec"],[data-dysign-adid]
 down.admin5.com##div#a22
@@ -16675,7 +16672,6 @@ m.speedtest.cn##div.float-good
 m.speedtest.cn##p.please-down
 m.taobao.com##.install-app
 m.tg.meihaoxiangwang.com
-m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 m.tianya.cn##a[href^="http://dol.tianya.cn/c?z=tianya"]
 m.tongruitex.cn
 m.toutiao.com##.banner-top
@@ -19320,7 +19316,6 @@ tingvoa.com###textadbox
 tingvoa.com##.rightgood
 tingvoa.com##a[href*="?adid="]
 titan007.com###table_live > tbody > tr > td[height="18"] > a
-titan24.com###ad-index-01
 tj-yijiajing.com
 tj.21ic.com
 tj.tianwenhu.com
@@ -19344,11 +19339,9 @@ to8to.com##.btm-float
 to8to.com##.common-tender-wrapper
 to8to.com##.float
 to8to.com##.float,.quote_pic_adv
-to8to.com##.gg-wei-link
 to8to.com##.kgjr-wrap
 to8to.com##.layer-red-box
 to8to.com##.quoted-outside
-to8to.com##.right-float-ad
 to8to.com##.whan-ad
 toblog.ctobsnssdk.com
 tobosu.com###alert_order
@@ -19455,9 +19448,6 @@ tv.sohu.com###referr_bd_box
 tv.sohu.com##.ad-vbox,.x-download-panel
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 tv.sohu.com##a.us_left.abs,a.us_right.abs,div#comicRecomm.comics-recomm,div.adv_960,.skyAD,#cp_sohuv_100_1,.lux_left,.lux_right,[href^="http://c.admaster.com.cn/c/"],#vippromotion
-tvapk.net###frame5zglZ4
-tvapk.net###framecd6V1M
-tvapk.net###framelP7piy
 tvapk.net##.a_mu,.a_f,img[height="90"]
 tvboxnow.com##iframe[src^="ads_"],[class^="ad_textlink"],.ad_pip,#ad_headerbanner,iframe[height="90"]
 tvboxnow.com##td[style="width:15%;height:100%;"]
@@ -19672,7 +19662,6 @@ v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
 v.qq.com#@#+js(set, Beacon.prototype.fail, null)
-v.qq.com,douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
 v.wsnew.cn
@@ -26163,6 +26152,7 @@ zzpzero.com
 ||alquiler.carflex.es^
 ||als-svc.nytimes.com^
 ||als.baidu.com^
+||alsedu.tech^
 ||alsgaj.chosun.com^
 ||altabold1.com^$third-party
 ||altao.xyz^
@@ -36138,6 +36128,7 @@ zzpzero.com
 ||gz-data.com^
 ||gz5931-llm0.cn^
 ||gzads.com^
+||gzckdg.cn^
 ||gzcl999.cn^
 ||gzcl999.com^
 ||gzduoqicai.cn^
@@ -37560,6 +37551,7 @@ zzpzero.com
 ||ifengimg.com^*couplet$script
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||ifeve.com/wp-content/uploads/*/cachekit
+||ifil.shop^
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifkdy.com/layer/layer.js
@@ -39566,7 +39558,6 @@ zzpzero.com
 ||kaiguangdou.com^
 ||kaimaohong20.cn^
 ||kaipuyun.cn/count/
-||kaipuyun.cn^
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
@@ -40821,6 +40812,7 @@ zzpzero.com
 ||liuliguo.com^
 ||liunxgroup.top^
 ||liupan.asia^
+||liushuaib.xyz^
 ||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
@@ -41193,6 +41185,7 @@ zzpzero.com
 ||longkoupeanut.cn^
 ||longtailvideo.com^*/yourlytics-
 ||longtenghuaxia*/js/html*.js
+||longxia-designer.top^
 ||longyu.cc/bucket/$object,image
 ||longzhu.com/i/api/playpage/recommendPop?
 ||longzhu.com/i/api/videos/dailyRecommend?
@@ -53199,7 +53192,6 @@ zzpzero.com
 ||tiexue.net/pic/tx_1220.jpg
 ||tiexue.net/ws_show.js
 ||tiexue.net/zgg/
-||tieyou.com/images/xiao_tuan_you.jpg
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -53229,7 +53221,6 @@ zzpzero.com
 ||tingchina.com/js/allad.js
 ||tingchina.com/js/dp468
 ||tingfengyu.top^
-||tingge123.com/attachment/js/mm
 ||tinglian.com^
 ||tingroom.com/file/A*.js
 ||tingroom.com/images/qsbdc.gif
@@ -53409,7 +53400,6 @@ zzpzero.com
 ||to.getnitropack.com^
 ||to.redircdn.com/web/post.js
 ||to335.cn^
-||to8to.com/api/ggdata.$domain=~shejiben.com
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
 ||to8to.com/yezhu/zxbjWidget.
@@ -54816,7 +54806,6 @@ zzpzero.com
 ||ttshort.xyz^
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
-||ttx.cn/js/float.js
 ||ttxknb.com^
 ||ttyyuuoo.com^
 ||ttz.com^$third-party
@@ -54909,7 +54898,6 @@ zzpzero.com
 ||tvbxcg6.com^
 ||tvf4.com/1/$script
 ||tvid.in/log/
-||tvmao.com/images/style/yx500x160.gif
 ||tvpage.com^*/__tvpa.gif?
 ||tvpixel.com^
 ||tvrom.cn^
@@ -57706,6 +57694,7 @@ zzpzero.com
 ||xhxnkyy.com^
 ||xhydrs.cn^
 ||xhymsq.com/data/attachment/portal/
+||xhz1.me^
 ||xhzmjs.com^
 ||xi666.com^
 ||xia1ge.com/wp-content/uploads/*/wechat-ad.png
@@ -57733,6 +57722,7 @@ zzpzero.com
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
+||xianwei.tech^
 ||xianweidang.cc^
 ||xianxhwy.com^
 ||xiaoangel.com^
