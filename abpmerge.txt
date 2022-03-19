@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-19 01:02:08
-! Total count: 61327
+! Version: 2022-03-19 08:18:38
+! Total count: 61333
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9670,6 +9670,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dwstatic.com/b=amkit
 @@||dwstatic.com/b=amkit&f=*/adjoin.
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e.crashlytics.com/spi/v2/events$app=com.gedoor.monkeybook
@@ -13266,6 +13267,7 @@ douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
 douyu.com###js-room-activity
 douyu.com###sign_p_1
+douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 douyu.com##.ActPayDialog
 douyu.com##.PaladinPop
 douyu.com##.PrivilegeGiftModalDialog
@@ -13301,7 +13303,6 @@ douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com,huya.com##a[href^="https://g.wan."]
-douyu.com,huya.com,yy.com,le.com##+js(nowebrtc)
 douyu.com,oschina.net#@#.follow-btn
 douyutv.com,douyu.com,douyutv.wasu.cn##div.dy_bottom_gg,div.chat-right-ad,div#chat-top-ad,a.ad_shadow,div.lol_ad,div.lol-ad,div.offi_ad,div.other_ad,div.dy_top_gg,[class$=" sign_posid"],div.lyzm-prevent,div.bglink,#downwrapper,[class^="room-ad-"],.no-login,.chat-top-ad,.tab-content.promote,.vcode9-sign,[class="row row-3"],[class="super-rmd-bg tggcontrol"],[class^="hot-sign-"],[class^="theatre-"],[data-type="dyrec"],[data-dysign-adid]
 down.admin5.com##div#a22
@@ -14892,6 +14893,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 huya.com##.room-business-game
 huya.com##.tt[style*="1200px"]
+huya.com,yy.com,le.com##+js(nowebrtc)
 hws.biquter.xyz
 hwx.xazbts.com
 hwxz.com##.g3
@@ -17542,7 +17544,7 @@ pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
 pan.baidu.com,music.baidu.com,yun.baidu.com##[class|=ad]
-pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
+pan.baidu.com,www.bilibili.com##+js(aeld,ratechange)
 pan.baidu.com,yun.baidu.com##[id^="share-ad-"],A#share_ad_info_panl,div[id^="cpro_"],img.share-center,.ad-platform-tips,.banner-active
 pan666.cn##.footer > .containerNarrow
 panc.cc##iframe[height="148"]
@@ -34323,6 +34325,7 @@ zzpzero.com
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
 ||feedperfect.com^$third-party
+||feelbad.online^
 ||feesee.com^
 ||feesoon.com/js/cnzz_
 ||feidalu.com$third-party
@@ -37288,6 +37291,7 @@ zzpzero.com
 ||hzuok.com^
 ||hzxfmc.com$third-party
 ||hzxfmc.com^
+||hzylhk.com^
 ||hzyouhejia.com^
 ||hzyyhz.cn^
 ||hzzfan.com^
@@ -39884,6 +39888,7 @@ zzpzero.com
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||kompass.com/logAdvertisements
+||komplett.me^
 ||komtrack.com^$third-party
 ||kon.mediaplatform.group^
 ||konduit.me^$third-party
@@ -47565,6 +47570,7 @@ zzpzero.com
 ||ringsrecord.com^
 ||rioufn.cn^
 ||ripost.services^$third-party
+||ripplestika.site^
 ||riqu2015.com^
 ||rishenglaw.cn^
 ||rising.cn/js/haoAdData.js
