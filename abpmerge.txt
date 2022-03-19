@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-19 08:18:38
-! Total count: 61333
+! Version: 2022-03-19 16:22:15
+! Total count: 61340
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3421,6 +3421,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api_ip_info.
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
@@ -9945,6 +9946,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
 @@||humaninterest.com/api/analytics/$script,~third-party
+@@||hvemder.no/api/hitcount/$~third-party
+@@||hvemder.no/js/hitcount.min.js$script,~third-party
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
@@ -14156,6 +14159,7 @@ gaoqingkong.com##[src^="http://img.gaoqingkong.com/uploads"],a[href^="http://www
 gaoqingw.com###searchform > label > span
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 gaoqingw.com##.search + .widget
+gaoqingw.com##b > div[style="text-align:center"]
 gaoxiaobar.com##.player-pictureAd-countdown
 gas.goodlife.tw###widgets
 gasaq.com###guanggao_left
@@ -21233,6 +21237,7 @@ yyets.com##div#yyets_slide_ad,DIV.AreaLL > DIV > IFRAME + DIV.box_4,DIV.AreaLL >
 yyfensi.com##[href="http://app.woolcashmeresystem.net:81/yy/"],[href="http://m.369nv.com:81/3/suiji.php"]
 yypps.com##[href*="/?Intr"],[href*="/?intr"],[href*="/?aff"],[href*="/?Extend="],[href*="/?f="],[href*="/?p="],[height="90"]
 yyt.heshun365.cn
+yywenxuan.com##a[href*=".xxmh"]
 yzmg.com##.article-bottom-ads
 yzmg.com##.article-top-ads
 yzmg.com##[class$="ads"]
@@ -26697,6 +26702,7 @@ zzpzero.com
 ||aoyou2.top^
 ||aoyou3.top^
 ||aoyou4.top^
+||aoyuegc.cn^
 ||ap*.jj20.com^
 ||ap*.pl520.com^
 ||ap.dt.gl^
@@ -40382,7 +40388,7 @@ zzpzero.com
 ||leoyan.top^
 ||lepaidaren.com^
 ||leparking-moto.fr/jsV155/Tracker.js
-||leparking.fr/jsV155/Tracker.js
+||leparking.fr/*/Tracker.js
 ||leqfgnb.cn^
 ||lerenzx.cn^
 ||les-experts.com^$third-party
@@ -58155,6 +58161,7 @@ zzpzero.com
 ||xxlargepop.com^
 ||xxlefq.journaldesfemmes.fr^
 ||xxooos.com/mm/
+||xxsjsp.com^
 ||xxw777.cn^
 ||xxx55tp.com^*.gif
 ||xxx839.com/*/ads^
