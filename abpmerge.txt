@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-22 01:11:06
-! Total count: 61384
+! Version: 2022-03-22 08:20:39
+! Total count: 61393
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1412,7 +1412,7 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -2029,6 +2029,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .maillist-manage.com/clicks/$image
 .me/ads/
 .me/geoip/
+.me/gg.js
 .me/l.gif?
 .me/s.php?id=$script,third-party
 .members.babbel.com/mo/
@@ -7197,6 +7198,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /sk1n-async.
 /skin/ad/*
 /skin/common.htm
+/skin/ecms082/images/kf-
 /skin/footer.$domain=iimanhua.cc|iimh.net
 /skin/header.$domain=iimanhua.cc|iimh.net
 /skin/iymbl-$domain=iimanhua.cc|iimh.net
@@ -8953,7 +8955,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/fingerprint2.$domain=nfmovies.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|pop-fashion.com
-@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
+@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
@@ -9345,7 +9347,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||baidu.com/cse/search?$domain=16xx8.com
 @@||baidu.com/customer_search/api/
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
+@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|tanmizhi.com
 @@||baidu.com/share/count?
@@ -9468,11 +9470,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
-@@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org|my.foxnews.com
-@@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
+@@||cdn.segment.com/analytics-next/
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
+@@||cdn.segment.com/next-integrations/integrations/
+@@||cdn.segment.com/v1/projects/
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=dybee.tv
@@ -23008,6 +23009,7 @@ zzpzero.com
 ||51liucheng.com/js/dialogLogin.js
 ||51lx.ink^
 ||51mmm.info/template/1/js/gg.js
+||51mw.club^
 ||51network.com^
 ||51network.com^$third-party
 ||51niu.pro^
@@ -28374,6 +28376,7 @@ zzpzero.com
 ||bjhmdy.vip^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjhuhangjy.com^
+||bjjabc.com^
 ||bjjdboai.cn^
 ||bjlmok.com^
 ||bjmama.net/a/spc_
@@ -34473,6 +34476,7 @@ zzpzero.com
 ||fisher56.com^
 ||fishhoo.com^$third-party
 ||fishki.net/counter/
+||fishsalt.top^
 ||fitanalytics.com/metrics/
 ||fitanalytics.com^$third-party
 ||fitpbc.cn^
@@ -39127,6 +39131,7 @@ zzpzero.com
 ||jlrfx.com$script
 ||jlwljym.com^
 ||jlwsw.top^
+||jlwz.cn/js/xf*.js
 ||jlxzt.com^
 ||jly24aw29n5m-a.akamaihd.net^
 ||jlyayxz.cn^
@@ -40576,6 +40581,7 @@ zzpzero.com
 ||lightstep.medium.systems^*/reports
 ||ligxyv.hackers.co.kr^
 ||lihailin.vip^
+||lihong.ltd^
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||lijie1010.top^
@@ -46103,6 +46109,7 @@ zzpzero.com
 ||ppslsa.com^
 ||ppssav.formal-message.com^
 ||ppstatic.pl^*/track.js
+||ppt100.site^
 ||pptte.com^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||pptv.com/stg/add?
@@ -54995,6 +55002,7 @@ zzpzero.com
 ||twzui6.com^
 ||txahz.com/static/image/tp/
 ||txdwc.cn^
+||txgg2022bisheng.com^
 ||txpbnm.sevellia.com^
 ||txshuku.com/js/
 ||txshuku.la/js/
@@ -58064,6 +58072,7 @@ zzpzero.com
 ||xp85.com/common/images/downad
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
+||xpchfwl.cn^
 ||xpgod.com/statics/skin_js/xpgod/
 ||xplosion.de^$domain=comunio.de
 ||xplosion.de^$domain=focus.de
