@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-21 16:25:27
-! Total count: 61374
+! Version: 2022-03-22 01:11:06
+! Total count: 61384
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -892,8 +892,6 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
-##DIV[style=" max-width:1000px;  margin:0 auto;"] > A > IMG[height="120px"]
-##DIV[style=" max-width:980px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[class*="isboostSideSlideShow"]
@@ -1413,6 +1411,8 @@
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
+##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -5356,6 +5356,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /in.php?*&referer=
 /in.php?p=
 /in.php?referer=
+/in/multy?*&event_id=
 /ina_ad_
 /inapi/show/*
 /inboundAnalytics.
@@ -23653,6 +23654,7 @@ zzpzero.com
 ||88148.com/UpFile/a/2016040849191350.jpg
 ||88210212.com^
 ||883ads.com^*.js
+||884069349.ltd^
 ||88448.com/images/appkai980x100.gif
 ||8848skins.com^
 ||8866786.com/
@@ -26374,6 +26376,7 @@ zzpzero.com
 ||analytics.competitoor.com^
 ||analytics.comunio.de^$domain=comunio.de
 ||analytics.comunio.net^$domain=comunio.de
+||analytics.contentexchange.me^
 ||analytics.contents.by-fw.jp^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
@@ -27747,6 +27750,7 @@ zzpzero.com
 ||baoxian.163.com/$subdocument
 ||baoxian28.cn^
 ||baoxk.com^
+||baoying.asia^
 ||baozp.top^
 ||bapages.carte-gr.total.fr^
 ||baptisttop1000.com^$third-party
@@ -35839,6 +35843,7 @@ zzpzero.com
 ||gowin01.com^
 ||gowinxp.com^$third-party
 ||gozendata.com^
+||gozqezh.cn^
 ||gp.jstv.com^
 ||gp.oddo-bhf.com^
 ||gp.zaiyunli.cn^
@@ -36731,6 +36736,7 @@ zzpzero.com
 ||hits.informer.com^
 ||hits.io^$third-party
 ||hits.porn.fr^
+||hits.tf.rs^
 ||hits.zdnet.co.kr^
 ||hits2u.com^$third-party
 ||hitserver.ibope.com.br^
@@ -41427,6 +41433,7 @@ zzpzero.com
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvyinba.com/templets/*/js/couplet-ad.
 ||lvylv.cn^
+||lvzi.store^
 ||lw54.com/js/
 ||lw88.site^
 ||lw881.com/public/js/gw.js
@@ -54861,6 +54868,7 @@ zzpzero.com
 ||tuadong.com^
 ||tuan.cs090.com/gettuan.php?
 ||tuan512.cn^
+||tuangou.pro^
 ||tube8live.com/api/metrics
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
@@ -56027,6 +56035,7 @@ zzpzero.com
 ||w3school.com.cn/time/202
 ||w3t.cn^*/fx.js
 ||w3track.com/newtrk/$third-party
+||w4m.rs/tracker.js
 ||w51t.com^$subdocument
 ||w55c.net^$third-party
 ||w65p.com^
@@ -58804,7 +58813,6 @@ zzpzero.com
 ||youvisit.com^$third-party
 ||youweiprint.com^
 ||youwenzhi.xyz^
-||youwugong.jobui.com^
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youxi.com/$third-party
 ||youxiaoad.com^
@@ -58976,6 +58984,7 @@ zzpzero.com
 ||ywadf.cn^
 ||ywak.com.cn^
 ||ywbwsm.com^
+||ywg.jobui.com^
 ||ywjxsp168.cn^
 ||ywqpgy.com^
 ||ywrcqa.11alive.com^
@@ -59029,6 +59038,7 @@ zzpzero.com
 ||yxzfdl.550909.com^
 ||yxzoo.com/style/js/fmt.js
 ||yxzp.net/left.js
+||yxzy.asia^
 ||yy.com/policy/
 ||yy.duowan.com/component/
 ||yy18.info/yyads/
