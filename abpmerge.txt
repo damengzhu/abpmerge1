@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-23 08:20:30
-! Total count: 61395
+! Version: 2022-03-23 16:23:07
+! Total count: 61399
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -6551,7 +6551,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
-/pixel/sbe?
 /pixel/sbs?
 /pixel/stats/?
 /pixel/stream/*
@@ -8510,7 +8509,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wmgbeaconcode.
 /wmps_tracker.
 /wmxtracker.js
-/wob*?frm=0&url=
 /woopra.js
 /worldwide_analytics/*
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
@@ -8860,6 +8858,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
 ?file=ads&
+?frm=*&ct=*&dit=$third-party
 ?key=$popup,domain=verystream.com
 ?local_ga_js=
 ?log=stats-
@@ -27328,6 +27327,7 @@ zzpzero.com
 ||awesome.section.io^
 ||awesomeagreement.com^
 ||awesomelytics.com^$third-party
+||awfonts.com^$script,third-party
 ||awfzfs.kwantum.nl^
 ||awifi.cn^$third-party
 ||awin1.com^$third-party
@@ -28248,6 +28248,7 @@ zzpzero.com
 ||bidvertiser.com^$third-party
 ||biepa.net/mm2019/sy_
 ||biepa.net/vjs/hf.js
+||biexsite.net^
 ||bigbrainker.top^
 ||bigcattracks.com^$third-party
 ||bigcood.xyz^
@@ -32745,6 +32746,7 @@ zzpzero.com
 ||dx.thermofisher.com^
 ||dx00.live^
 ||dxbwukm.cn^
+||dxdx.shop^
 ||dxe2.heip.fr^
 ||dxg*.com/img/A*.js
 ||dxg*.top/img/A*.js
@@ -37180,6 +37182,7 @@ zzpzero.com
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||hujiang.com/v2/log
+||hulai0323166.space^
 ||hulauf.cn^
 ||hulemedia.com^
 ||hulewangsi.cn^
@@ -43855,6 +43858,7 @@ zzpzero.com
 ||najingyi.cn^
 ||najva.com^$third-party
 ||nakanohito.jp^$third-party
+||nalapop.com^
 ||nalook.com^$third-party
 ||namedq.com^
 ||namemek.com^
