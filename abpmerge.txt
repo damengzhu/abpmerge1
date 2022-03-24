@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-24 08:19:44
-! Total count: 61415
+! Version: 2022-03-24 16:23:16
+! Total count: 61430
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -986,6 +986,7 @@
 ##[href^='https://www.hiweha.com/']
 ##[href^='https://www.hthty601.com:']
 ##[href^='https://www.lyty648.com']
+##[href^='https://www.uerlqe.com']
 ##[href^='https://www.visvn.cn/c.php']
 ##[href^='https://www.vofcr2a.com']
 ##[href^='https://www.xdh0808.com/']
@@ -10155,6 +10156,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
@@ -10237,6 +10239,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||myqqjd.com/wp-content/plugins/open-
+@@||myqqjd.com^
 @@||myqqjd.com^$generichide
 @@||myssl.com/scripts/analyze.js
 @@||mywebar.com/js/tracking_worker.js$~third-party
@@ -10330,6 +10333,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
+@@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||paginegialle.it/js/shinystat.js
 @@||pagure.io/static/issues_stats.js?
 @@||panjiachen.github.io^$generichide
@@ -10868,7 +10872,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||wuyou.com.cn/Js/ad.js
 @@||www.avtbf.com/*.css$domain=avtbf.com
 @@||www.bilibili.com/html/iframemessage.html
+@@||www.google-analytics.com^$domain=myqqjd.com
 @@||www.google.*/adsense/$~third-party,domain=google.cn
+@@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.gsxt.gov.cn^
 @@||www.lanzous.com/includes/js/jquery.js$domain=lanzous.com,important
 @@||www.statcounter.com/images/$image,third-party
@@ -11737,6 +11743,7 @@ baidu.com##section.bottom-intro
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
+baidu.com#@##page-pre
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
 baidu.com$$div[class="ec_wise_ad"]
@@ -16545,6 +16552,7 @@ m.baidi.com,www.baidu.com##DIV[class='voice call']
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
 m.baidu.com##a[href*="m.lecai.com"]
+m.baidu.com#@#div[class*="ads"]
 m.baidu.com,www.baidu.com###provider,div[class$="fixed"],SECTION#middle_banner,.ec_ad_results,.shopping-item,#bottomOperate
 m.baidu.com,www.baidu.com##ARTICLE[class='c-container aladdin__10uYO']
 m.baidu.com,www.baidu.com##A[class='hint-qnaire-bar']
@@ -16852,6 +16860,7 @@ mc.msdsd2.cn
 mc.mssdhde.cn
 mc.muhtbnd.cn
 mc.nithisp.cn
+mc.tohpeu.cn
 mc.wbesryx.cn
 mc.xheqbc.cn
 mcar.cc##.a_mu,[style*="background-color:"]
@@ -16909,6 +16918,7 @@ mengmiandaxia.com,mengmiandaxia.cn##[id="mmdx-bottom-ad"]
 mengzhan123.com##a[href^="http"]:not([href*="mengzhan"]) > img[src^="http"]
 mfe.paqpq.com
 mg.hxhhb120.cn
+mg.jomwihn.cn
 mg.k9dzax.cn
 mg.ledaren.cn
 mg.lingqinga.cn
@@ -17208,6 +17218,7 @@ myxav.gq##[height="60"],[height="90"],.a_pt
 mz.xwintop.top
 mzyz.com###idTransformView2
 n.35kds.com
+n5m5.com/static/js/playcon.js
 na.nawpush.com
 najiaoluo.com##.piclist.listcon
 nandu.com##div#top-ad
@@ -20196,6 +20207,7 @@ www.aoyou4.top
 www.aoyou5.top
 www.avtbo.com$$img[style="padding-bottom"]
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click="{"]
+www.baidu.com#@#div[class*="ads"]
 www.baidu.com$@$div[class="ad_"]
 www.baidu.com,m.baidu.com##.listbox
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']
@@ -28484,6 +28496,7 @@ zzpzero.com
 ||bluekai.com^
 ||bluekai.com^$domain=disqus.com|widgets.outbrain.com
 ||bluemarblepayroll.actonservice.com^
+||bluematrixs.com^
 ||blushingbeast.com^
 ||blushingboundary.com^
 ||blushingwar.com^
@@ -45868,6 +45881,7 @@ zzpzero.com
 ||plantrelation.com^
 ||plants.ink^
 ||plas.imfeld.dev^
+||plastic-wood.cn^
 ||platform.iteratehq.com^
 ||platform.twitter.com/impressions.js
 ||platformpanda.com^$third-party
@@ -46660,6 +46674,7 @@ zzpzero.com
 ||qhres.com/static/4b6ab193405b6ca3.js
 ||qhres.com/static/b4f92ac067a4768b/v4/modules/footer.js
 ||qhres.com^*/baidu_
+||qhres2.com^
 ||qhupdate.com^$third-party
 ||qhvdop.shoppinglive.ru^
 ||qhxcdmfj.cn^
