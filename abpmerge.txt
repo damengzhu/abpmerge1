@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-25 08:19:45
-! Total count: 61444
+! Version: 2022-03-25 16:25:42
+! Total count: 61456
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1413,7 +1413,7 @@
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -5715,6 +5715,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /linkcountdata/*
 /linkinformer.js
 /linkpulse.js
+/links1.strava.com/*$image
 /linktrack.js
 /linktracker.js
 /linktracker/*
@@ -8632,11 +8633,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /xxd.php?id=$script,third-party
 /xxgg/app.js
 /xxgg/book.js
-/xxgg/dj1.js
-/xxgg/dj2.js
+/xxgg/dj*.js
 /xxgg/goodad.js
 /xxgg/gzh.js
-/xxgg/pfad.js
+/xxgg/pf*.js
 /xxgg/pv.js
 /xxgg/xsggs.js
 /xy.gif?
@@ -25794,6 +25794,7 @@ zzpzero.com
 ||ahqhhvg.cn^
 ||ahrefa.com^
 ||ahszgog.com^
+||ahtj365.com^
 ||ahtt.cc/Runtime/js/
 ||ahu.cc/Runtime/js/
 ||ahuac.com^
@@ -37690,6 +37691,7 @@ zzpzero.com
 ||ilinks.petalcard.com^
 ||ilinxi.cc^
 ||iljmp.com^$third-party
+||illegally.wang^
 ||illfatedsnail.com^
 ||illumenix.com^$third-party
 ||illustriousoatmeal.com^
@@ -38416,6 +38418,7 @@ zzpzero.com
 ||iogous.com^$third-party
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
+||iojgo.com^
 ||iol.it^*/clickserver.js
 ||iolam.it/trk
 ||iomsew.com^
@@ -39274,6 +39277,7 @@ zzpzero.com
 ||jrzj.com/img_index/index_
 ||js*.abolezi.com^
 ||js-agent.newrelic.com^
+||js-tencent.com^
 ||js-tianqilm.com^
 ||js.23yy.com^
 ||js.263y.com^
@@ -39366,6 +39370,7 @@ zzpzero.com
 ||jsjs.jbzj.com^
 ||jsjxhd.com^$third-party
 ||jskang.cn^
+||jslmtdgf.xyz^
 ||jslog.post.cz^
 ||jsm.39yst.com^
 ||jsmwd.com^
@@ -39625,6 +39630,7 @@ zzpzero.com
 ||kaiguangdou.com^
 ||kaimaohong20.cn^
 ||kaipuyun.cn/count/
+||kaivtv.cn^
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
@@ -40826,7 +40832,7 @@ zzpzero.com
 ||links.riverview.org^
 ||links.schnucks.com^
 ||links.sheroes.in^
-||links.strava.com^
+||links.strava.com^$image
 ||links.t.blueapron.com^
 ||links.t.wine.com^
 ||links.thedyrt.com^
@@ -41398,6 +41404,7 @@ zzpzero.com
 ||ltbyw.top/data/images/*.gif
 ||ltcmak.alodokter.com^
 ||ltcprtc.com^
+||ltdjifang.xyz^
 ||ltecrf.dhgate.com^
 ||ltg69t.com^
 ||lthhiw.medpets.nl^
@@ -43141,6 +43148,7 @@ zzpzero.com
 ||minwear.com.cn^
 ||minyaartcrafts.cn^
 ||minzhouxinxi.cn^
+||miobt.com/public/imgbed/gg/
 ||mipcdn.com/i/s/
 ||mipcdn.com^*/mip-*ad-
 ||mipengine.baidu.com/common?
@@ -46331,6 +46339,7 @@ zzpzero.com
 ||prpcoin.com^*.gif
 ||prprocess.com^$third-party
 ||prscripts.com/pub
+||prssifu.cn^
 ||prtracker.com^$third-party
 ||prudsys-rde.de^$third-party
 ||prvizg.shurgard.be^
@@ -57774,6 +57783,7 @@ zzpzero.com
 ||xfinity.com/event/
 ||xfinity.com/prod/event/
 ||xfinity.com/z8ufpC5q/
+||xflsj.com^
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfobuc.serenaandlily.com^
@@ -57931,6 +57941,7 @@ zzpzero.com
 ||xing.com/logjam/
 ||xing678.com^$third-party
 ||xingchenweb.top^
+||xinghaidianshang.top^
 ||xinghao89.com^
 ||xinghualinghang.com^
 ||xinghuolm.top^
@@ -59086,6 +59097,7 @@ zzpzero.com
 ||yxdown.com/zt/zt/js/zt.js
 ||yxdyk.com^$script,third-party
 ||yxgfcj.com^
+||yxhjt.com^
 ||yxhxs.com^
 ||yximgs.com^
 ||yxiqqh.dealchecker.co.uk^
