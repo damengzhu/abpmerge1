@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-26 08:18:55
-! Total count: 61464
+! Version: 2022-03-26 16:22:00
+! Total count: 61470
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9619,6 +9619,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||decision.taplytics.com^$domain=royalbank.com
 @@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
+@@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.wasu.cn/crossdomain.xml
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
@@ -10575,6 +10576,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smtcaw.com^$generichide
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
@@ -13289,6 +13291,7 @@ douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 douyu.com##.ActPayDialog
 douyu.com##.PaladinPop
 douyu.com##.PrivilegeGiftModalDialog
+douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com##.XinghaiAd
 douyu.com##.adcontainer
 douyu.com##.bglink
@@ -23062,6 +23065,7 @@ zzpzero.com
 ||51yes.com^
 ||51yes.com^$third-party
 ||51yhzp.com^$third-party
+||51yusi.xyz^
 ||51zdwy.cn^
 ||51zrtx.com^
 ||51ztzj.com/js/you.js
@@ -32649,6 +32653,7 @@ zzpzero.com
 ||dslenggui.com^
 ||dsmmadvantage.com^$third-party
 ||dsnfun.cn^
+||dsoizkd.cn^
 ||dsp-x.jd.com^
 ||dsp.ali213.net^
 ||dsp.brand.sogo.com^
@@ -36900,6 +36905,7 @@ zzpzero.com
 ||hnpxsm.com.cn^
 ||hnrhyy.com/vip/$script
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
