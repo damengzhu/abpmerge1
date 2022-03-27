@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-26 16:22:00
-! Total count: 61470
+! Version: 2022-03-27 01:15:18
+! Total count: 61479
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -892,6 +892,8 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[class*="isboostSideSlideShow"]
@@ -10593,6 +10595,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||sozi.cn/images/ad/tj
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
@@ -29250,6 +29253,7 @@ zzpzero.com
 ||catracking.finning.com^
 ||cats.d20.rs^
 ||catschickens.com^
+||catsys.jp^$third-party
 ||caupdcloud.cn^
 ||causecherry.com^$third-party
 ||cautiouscrate.com^$third-party
@@ -31383,6 +31387,7 @@ zzpzero.com
 ||d.wi-fi.ru^
 ||d.ziyuanm.com^
 ||d0.xcar.com.cn^
+||d03.xyz^
 ||d1.1ppt.com^
 ||d1.3158.cn^
 ||d1.5h.com^
@@ -34047,6 +34052,7 @@ zzpzero.com
 ||excited.me^$third-party
 ||exclusivebrass.com^
 ||exclusiveclicks.com^$third-party
+||excsyrv.cn^
 ||exd4.destinia.com.au^
 ||exdmarketing.smu.edu.sg^
 ||exdynsrv.com^
@@ -37443,6 +37449,7 @@ zzpzero.com
 ||ibeat-analytics.com^$third-party
 ||ibf.tw/js/jquery.blockUI.js
 ||ibmcloud.com/collector/
+||iboxs.xyz^
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ibt.com/front/js/counter.js
@@ -44328,6 +44335,7 @@ zzpzero.com
 ||nmbtedu.com^$third-party
 ||nmctm.cn^
 ||nmetrics.samsungmobile.com^
+||nmgch.top^
 ||nmgk.com/Runtime/Js/
 ||nmgk.com/Uploads/dp/
 ||nmgk.com/Uploads/nmgkgif/bfq.
@@ -55399,6 +55407,7 @@ zzpzero.com
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
 ||unta.cn^
+||untenable.wang^
 ||untidyquestion.com^
 ||untidyrice.com^$third-party
 ||untitled.dwstatic.com^
