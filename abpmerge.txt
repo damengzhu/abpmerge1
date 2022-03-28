@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-27 16:22:33
-! Total count: 61487
+! Version: 2022-03-28 01:21:02
+! Total count: 61489
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -892,8 +892,6 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
-##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
-##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[class*="isboostSideSlideShow"]
@@ -1415,7 +1413,9 @@
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -36839,7 +36839,7 @@ zzpzero.com
 ||hkb123.com/plus/show.php
 ||hkcoding.com/chequeconvert/img/grammarly-
 ||hkcoding.com/img/
-||hkdm688.com/js/68/
+||hkdm688.*/js/68/
 ||hkdyys.cn^
 ||hkfuy.com^
 ||hkgolden.com/reqwads?s=
@@ -47947,6 +47947,7 @@ zzpzero.com
 ||rywnvzd.cn^
 ||rzdedao.com^
 ||rzgwpw.madeincookware.com^
+||rzjslm.com^
 ||rzlib.net^
 ||rztrkr.com^$third-party
 ||rzxlszy.vip^
@@ -56231,6 +56232,7 @@ zzpzero.com
 ||wangzhan5.com^
 ||wangzhanmeng.com/link/link.html
 ||wangzibo.top^
+||wangzj.top^
 ||wanmei.com/public/js/stat.js
 ||wansan66.top^
 ||wantaiss.com^
