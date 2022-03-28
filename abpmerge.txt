@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-28 08:22:08
-! Total count: 61496
+! Version: 2022-03-28 16:24:33
+! Total count: 61510
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -794,6 +794,7 @@
 ##.static-a2d
 ##.stui-pannel > .recommend-two
 ##.stui-warp-content > a[target="_blank"] > img[height="120px"]
+##.stui-warp-content > a[target="_blank"] > img[height="60px"]
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.svg-icon + #player_pause
 ##.swiper-wrapper.leo-source-cho
@@ -894,6 +895,7 @@
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##DIV[style=" max-width:990px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##DIV[style=" max-width:995px;  margin:0 auto;"] > A > IMG[height="120px"]
+##DIV[style=" max-width:995px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[class*="isboostSideSlideShow"]
@@ -1097,6 +1099,7 @@
 ##a[href*=".aiyou305.com/"]
 ##a[href*=".aiyouxi31.com"]
 ##a[href*=".aiyouxi56.com"]
+##a[href*=".apple1818.net"]
 ##a[href*=".asada-kairyo.com/"]
 ##a[href*=".ayx300.com/"]
 ##a[href*=".bayiyy.com/download."]
@@ -10254,6 +10257,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||natureetdecouvertes.com^*/pixel.png$~third-party
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
+@@||nc0.co^$script,domain=abc.com
 @@||nceea.cn/Content/images/ad/
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||netded.com/plus/ad_js.php?aid=3|
@@ -13440,6 +13444,7 @@ duba.net###login_alert
 duboku.net##div.container:nth-child(2) > div.row:last-child > div.col-md-wide-7.col-xs-1.padding-0:first-child > div.myui-panel.myui-panel-bg.clearfix:nth-child(3) > div.myui-panel-box.clearfix > div.myui-panel_bd > div.col-xs-1
 duckduckgo.com###ads
 duckhk.com##.picindex,[class^="kiwi-ad"],[height="58"],div[id^="div-gpt-ad"]
+duhama.tv###ads
 dujiaoshou.cn###ad1
 duodada.com##[style*="position: fixed; left: 0px;"]
 duodada.com##[style^="width: 100%; height: auto; position: fixed;"]
@@ -21062,6 +21067,7 @@ yeecloud.com###adFirefox
 yeeyi.com##.boardnav > #ct > .sd
 yeeyi.com##.sd.pph > .mbm.hm
 yemancomic.com##.ncl_img > :not(#cp_img)
+yemancomic.com##button[style="width:380px; height:50px;"]
 yes-news.com###adsc3
 yes-news.com###adsc4
 yes-news.com###content-728
@@ -28288,6 +28294,7 @@ zzpzero.com
 ||biexsite.net^
 ||bigbrainker.top^
 ||bigcattracks.com^$third-party
+||bigcity.ink^
 ||bigcood.xyz^
 ||bigcooe.xyz^
 ||bigdata.
@@ -28957,6 +28964,7 @@ zzpzero.com
 ||bydonline.com^
 ||bydst.com^
 ||bygr2ri20e4y.li.finance^
+||byqxqhb.cn^
 ||bytecdn.cn/article/content^
 ||bytecdn.cn/ta/resource/v0/analytics.js
 ||bytedance.com/pixel/
@@ -32926,6 +32934,7 @@ zzpzero.com
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
+||e4440.com/img/hmwang.gif
 ||e5af61b2d8c19c16.online^
 ||e5obq1v261.www.lurkit.com^
 ||e5yx.com^$popup
@@ -42328,6 +42337,7 @@ zzpzero.com
 ||maxymiser.net^$third-party
 ||mayi360.cn^
 ||mayiad.com^
+||mayie.xyz^
 ||maz.zba.jp^
 ||mazarine-ap.com^
 ||mb-srv.com^$third-party
@@ -56837,6 +56847,7 @@ zzpzero.com
 ||wlbqczk.vip^
 ||wlfng.com^
 ||wlgszt.com^
+||wljj56.com^
 ||wlkojk.orange.ro^
 ||wlmhdk.cn^
 ||wlrjy.com/assets/images/*.gif
@@ -58703,6 +58714,7 @@ zzpzero.com
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yinzantouzi.com^
+||yiotufp.cn^
 ||yipanhaocai.com^
 ||yiparts.com/Chance.php?aid=
 ||yiqifa.com$third-party,domain=~www.liuzhuni.com|~meidebi.com
@@ -58748,6 +58760,7 @@ zzpzero.com
 ||yjiaj.com^
 ||yjjc.xyz^
 ||yjplpck.cn^
+||yjrjmy.com^
 ||yjsp5.com/pc_
 ||yjspw25.com/pc_
 ||yjtag.jp^$third-party
@@ -59237,6 +59250,7 @@ zzpzero.com
 ||za.zdn.vn^
 ||za5.net^
 ||zabaye.com/templets/wapian/images/js/guding.js
+||zacao.wang^
 ||zaehler.tv^$third-party
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
