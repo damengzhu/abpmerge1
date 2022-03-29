@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-28 16:24:33
-! Total count: 61510
+! Version: 2022-03-29 01:16:17
+! Total count: 61516
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -893,9 +893,6 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
-##DIV[style=" max-width:990px;  margin:0 auto;"] > A > IMG[height="60px"]
-##DIV[style=" max-width:995px;  margin:0 auto;"] > A > IMG[height="120px"]
-##DIV[style=" max-width:995px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[class*="isboostSideSlideShow"]
@@ -1418,6 +1415,9 @@
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:990px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
@@ -11243,7 +11243,7 @@ ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzi.ca,twoeggz.com###pop
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzitv.com,twoeggz.com###pop
 ahhouse.com##div#side_tuan
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
-ahtv.cn,frdic.com,huasing.net,it168.com,qinbing.cn###ads
+ahtv.cn,duhama.tv,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ahtv.cn,sexbarss.net##.l1
 ahtv.cn,sexbarss.net##.r1
 ahuys.cc##.vddb + a
@@ -13444,7 +13444,6 @@ duba.net###login_alert
 duboku.net##div.container:nth-child(2) > div.row:last-child > div.col-md-wide-7.col-xs-1.padding-0:first-child > div.myui-panel.myui-panel-bg.clearfix:nth-child(3) > div.myui-panel-box.clearfix > div.myui-panel_bd > div.col-xs-1
 duckduckgo.com###ads
 duckhk.com##.picindex,[class^="kiwi-ad"],[height="58"],div[id^="div-gpt-ad"]
-duhama.tv###ads
 dujiaoshou.cn###ad1
 duodada.com##[style*="position: fixed; left: 0px;"]
 duodada.com##[style^="width: 100%; height: auto; position: fixed;"]
@@ -18083,6 +18082,8 @@ qq.com###r_ad
 qq.com##+js(json-prune,adList.item)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
+qq.com##+js(nosiif,/^/,100)
+qq.com##+js(set, Beacon.prototype.bind, noopFunc)
 qq.com##+js(set, Beacon.prototype.fail, null)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -27669,6 +27670,7 @@ zzpzero.com
 ||baimb.com^
 ||baimbw.cn^
 ||baimuyuan.com.cn^
+||bainiaochaofeng.xyz^
 ||bairenad.com^
 ||bairentou.com.cn^
 ||baisb.com^
@@ -28420,6 +28422,7 @@ zzpzero.com
 ||bjhmdy.vip^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjhuhangjy.com^
+||bjhyn.vip^
 ||bjjabc.com^
 ||bjjdboai.cn^
 ||bjlmok.com^
@@ -35436,6 +35439,7 @@ zzpzero.com
 ||getrockerbox.com/pixel?
 ||getrockerbox.com^$third-party
 ||getscriptjs.com/p.js
+||getsentry.com^$third-party,domain=~sentry.dev|~sentry.io
 ||getsgroup.cn^
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
@@ -38954,6 +38958,7 @@ zzpzero.com
 ||jiachangwuliu.cn^
 ||jiadunkeji.com^
 ||jiage.ink^
+||jiahehr.cn^
 ||jiahewine.cn^
 ||jiaheyonggu.com^
 ||jiajiann.cn^
@@ -55262,6 +55267,7 @@ zzpzero.com
 ||udemy.com/api-2.0/visits/me/funnel-logs/
 ||udgrbq.malwarebytes.com^
 ||udiab1.jianshu.com^
+||udiy.club^
 ||udkcrj.com^$third-party
 ||udn.com.tw/upf/*_banners/BD/
 ||udn.com.tw/upf/2015_money/SSI/ad/
