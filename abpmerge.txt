@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-30 16:21:58
-! Total count: 61316
+! Version: 2022-03-31 01:14:11
+! Total count: 61329
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -578,6 +578,7 @@
 ##.common-topad
 ##.common_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
+##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
@@ -10401,6 +10402,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||player.vgtrk.com/js/stat.js?
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||playy.online/log_event$~third-party,xmlhttprequest
+@@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
@@ -10940,6 +10942,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youaima.com/zz/play_
 @@||youbora.com/*/js/adapters/jwplayer$script
+@@||youbora.com/*/js/adapters/theoplayer$script
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 @@||youku.com^*^adshow
@@ -14006,7 +14009,7 @@ guokr.com##.guokr-layer-beforelogin
 guokr.com##.side-adv
 gushiwen.org##.ShowAd,#adleft,.adsbygoogle
 gusuwang.com##div#gsw_top_ggw_2,div.banner-ad,div[id^="gsw_mid_ggw_"],div[class^="at_"][id^="fy_"]
-gw54.com,jojf.cn,x6k.com,xgw5.com,ziyuanyo.com##.index-ad
+gw54.com,jojf.cn,xgw5.com##.index-ad
 gw54.com,xbyuan.com,xgw5.com##.dad
 gxbs.net##.big_banner,.sec_banner,[style^="width:980px; height:80px;"],[style^="width:980px;height:70px;"],[style^="width:980px;height:150px;"]
 gxeea.cn##.m-wrap-school
@@ -32169,6 +32172,7 @@ zznews.cn##.ad:not([style])
 ||egooad.com^$third-party
 ||egou.com^
 ||egscnq.erlich-textil.de^
+||eguo.info^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||ehk.trenhdg.com^
@@ -33232,6 +33236,7 @@ zznews.cn##.ad:not([style])
 ||faultycanvas.com^$third-party
 ||faultyfowl.com^
 ||favor1.fractal.jp^
+||favourablequickdelve.com^
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
@@ -36675,6 +36680,7 @@ zznews.cn##.ad:not([style])
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifil.shop^
+||ifil.store^
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
 ||ifkdy.com/layer/layer.js
@@ -37461,6 +37467,7 @@ zznews.cn##.ad:not([style])
 ||investhash.com^$third-party
 ||investigatepin.com^
 ||investingchannel.com^$third-party
+||invisionapp.com/analytics-api/
 ||invisioncloudstats.com^$third-party
 ||invite.leanlab.co^
 ||invitejs.trustpilot.com^
@@ -39845,6 +39852,7 @@ zznews.cn##.ad:not([style])
 ||lilith.ink^
 ||liliwoin.top
 ||limbik.com/static/tracking-script.js
+||limdarwin.top^
 ||limei.com$third-party
 ||limei.com^
 ||limessy.xyz^
@@ -40228,6 +40236,7 @@ zznews.cn##.ad:not([style])
 ||lm213.com^
 ||lm245.com^
 ||lm335.com^
+||lm336.com^
 ||lm342.com^
 ||lm343.com^
 ||lm465.com^
@@ -41061,6 +41070,7 @@ zznews.cn##.ad:not([style])
 ||magnify.net/decor/track/
 ||magnify360.com^$third-party
 ||magnuum.com^$third-party
+||mahao.xyz^
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
@@ -41594,6 +41604,7 @@ zznews.cn##.ad:not([style])
 ||mayi360.cn^
 ||mayiad.com^
 ||mayie.xyz^
+||mayif.xyz^
 ||maz.zba.jp^
 ||mazarine-ap.com^
 ||mb-srv.com^$third-party
@@ -48496,6 +48507,7 @@ zznews.cn##.ad:not([style])
 ||shenwupower.com.cn^
 ||shenxiangkeji.com^
 ||shenyunkeji.com^
+||shequn.online^
 ||sherrycha.cn^
 ||shesubscriptions.com^$third-party
 ||shewang.net/images/*/900x
@@ -59323,6 +59335,7 @@ zznews.cn##.ad:not([style])
 ||zhenghemold.com^
 ||zhengjie.com/a_d?
 ||zhenglianabang.vip^
+||zhengxiaoliu.top^
 ||zhengyejixie.com^
 ||zhengyuanguojimc.com^
 ||zhengzhoupengbo.com^
