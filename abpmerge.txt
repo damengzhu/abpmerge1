@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-01 01:23:38
-! Total count: 61339
+! Version: 2022-04-01 08:21:34
+! Total count: 61345
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3675,6 +3675,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /biddr-analytics.
 /bidiq.
 /bidiqCookieDropper.
+/bili-collect.
 /bilibili/okretro/GeneralResponse
 /bin/reff.php
 /bin/stats?
@@ -5982,7 +5983,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
-/metrics/metrics$domain=~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -10648,6 +10649,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
@@ -56225,6 +56227,7 @@ zznews.cn##.ad:not([style])
 ||wei2008.com/js/jump
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
+||weibo.com/aj/log/
 ||weibo.com/ajax/feed/getTipsAd?
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
 ||weiboyaya.cn^
@@ -56769,6 +56772,7 @@ zznews.cn##.ad:not([style])
 ||wuliao.epro.sogou.com^
 ||wuliao.jingyanben.com^
 ||wuliao.juqingba.cn^
+||wulongqiyi.com^
 ||wumii.cn/ext/relatedItemsWidget
 ||wumii.cn^
 ||wumii.com/images/pixel.png
@@ -57726,6 +57730,8 @@ zznews.cn##.ad:not([style])
 ||xiaogouzhuanqian.cn^
 ||xiaohead.com^
 ||xiaohei.com^
+||xiaohongshu.com/api/collect
+||xiaohongshu.com/api/v2/collect
 ||xiaohuancha.club^
 ||xiaohuangshu.me^
 ||xiaohui2.cn^
