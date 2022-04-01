@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-03-31 16:23:43
-! Total count: 61337
+! Version: 2022-04-01 01:23:38
+! Total count: 61339
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -7086,6 +7086,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentry.unit-
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -17182,7 +17183,6 @@ qq.com##+js(json-prune,adList.item)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(nosiif,/^/,100)
-qq.com##+js(set, Beacon.prototype.bind, noopFunc)
 qq.com##+js(set, Beacon.prototype.fail, null)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -18590,6 +18590,7 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
+v.qq.com#@#+js(nosiif,/^/,100)
 v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.sogou.com##[uigs^="adv_pc_adv"]
 v.youku.com##+js(aeld,dblclick,triggerEvent)
@@ -21170,6 +21171,7 @@ zznews.cn##.ad:not([style])
 ||292812.com^
 ||293870.com^
 ||297772.com^
+||2999.store^
 ||29spp.com/js/tj.js
 ||29wjns.com^
 ||2a.com.cn^
@@ -58470,6 +58472,7 @@ zznews.cn##.ad:not([style])
 ||yhhls.com^
 ||yhjzg.cn^
 ||yhkiain.cn^
+||yhkt.online^
 ||yhpknxzspo8a.kvest.ee^
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
@@ -59201,7 +59204,6 @@ zznews.cn##.ad:not([style])
 ||zdcj.net^*/ad
 ||zdcommerce.io/e2e.js
 ||zdd-9.com^
-||zdf.de/atinternet/live/smarttag.js
 ||zdface.com/js/m/zw_banner.js
 ||zdfans.com/wp-content/themes/D7/img/ad
 ||zdmimg.com/collect^
