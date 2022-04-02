@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-02 01:15:09
-! Total count: 61349
+! Version: 2022-04-02 08:19:42
+! Total count: 61362
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1881,6 +1881,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .com/js/wap_billing.js
 .com/js/youlian.js
 .com/jsbjl/zhanqun
+.com/json/cctv.json?v=
 .com/log/?
 .com/log?event
 .com/log?srvc
@@ -10347,6 +10348,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xiebruce.top|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ozabc.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xbeibeix.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -19580,6 +19583,7 @@ xmfish.com##.adv-960
 xmfish.com##.advert-entry-list
 xmfish.com##.bobing-theme
 xmfish.com##.readCon_right
+xmh/200/200-*.gif
 xp510.com##.zixun.mt20,div.wallpaper-area,A[href^="http://dlc.cga.com.cn/gameclient"],div.apps_touchslider,div#b_downfile,.min-ad,.show-ad,.pic_yd_a_box,p[class="title red"] + ul.clearfix
 xp71.com##img[height="90"][width="1000"]
 xp85.com##.adr-down,.choisdown,.localDown,.adrAddress,.adr
@@ -21595,6 +21599,7 @@ zznews.cn##.ad:not([style])
 ||4oney.com^$third-party
 ||4paradigm.com^$domain=sina.com.cn
 ||4pda.ru/stat/
+||4po6iqp9.cn^
 ||4rgm6z478o.cn^
 ||4skd2j.cn^
 ||4stats.de^$third-party
@@ -24647,6 +24652,7 @@ zznews.cn##.ad:not([style])
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||akqrt.cn^
 ||aksb-a.akamaihd.net^
+||aksdkfj.biexsite.net^
 ||aksjkdfjk.shqdwh.com^
 ||aksldkjfd.11jianzhan.com^
 ||aksldkjfkdl.bhichong.com^
@@ -25478,6 +25484,7 @@ zznews.cn##.ad:not([style])
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
+||apfobmfr.cn^
 ||api-access.pangolin-sdk-toutiao.com/api/ad^
 ||api-ad.sensetime.com/sensear/v2/sdk/*$third-party
 ||api-analytics-cn.huami.com^
@@ -26029,6 +26036,7 @@ zznews.cn##.ad:not([style])
 ||autotrader.com/pixall/
 ||autotrading.com.cn^
 ||autozone.actonservice.com^
+||autumnleaf.ltd^
 ||auuux.com^
 ||auwkd7fdk23x.zhengshaoze.com^
 ||av-yoyo.com/images/*.gif
@@ -33483,6 +33491,7 @@ zznews.cn##.ad:not([style])
 ||fixcounter.com^$third-party
 ||fj.sina.com.cn/iframe/63/
 ||fj95560.com^
+||fja9881.niulai0323166.space^
 ||fjctlnn.top^
 ||fjdfqy.com^
 ||fjdy.cc^
@@ -39969,6 +39978,7 @@ zznews.cn##.ad:not([style])
 ||link.touchtunes.com^
 ||link.touchtunesmail.com^
 ||link.tr.freshly.com^
+||link.tv-asahi.co.jp/tver/cookiesync?
 ||link.usa-network.com^
 ||link.watchbravotv.com^
 ||link.watchoxygen.com^
@@ -40111,6 +40121,7 @@ zznews.cn##.ad:not([style])
 ||literally-analytics.appspot.com^
 ||literatelight.com^
 ||litix.io^$third-party
+||littlebigsnake.com/event?
 ||liu16.com/vip.png
 ||liuchengming.com^
 ||liufang1994.top^
@@ -40625,6 +40636,7 @@ zznews.cn##.ad:not([style])
 ||lsbeim.mediamart.vn^
 ||lscckgm.cn^
 ||lsdkfjks.fvsymbol.net^
+||lsdkjfkdlsf.ydtykj.net^
 ||lsdkjfslkdf.jiumai88.com^
 ||lsebay.com^
 ||lsebez.cn^
@@ -57548,6 +57560,7 @@ zznews.cn##.ad:not([style])
 ||xay5o.toscane-boutique.fr^
 ||xayah.date^
 ||xayjr.cn^
+||xazhangshaohui.xyz^
 ||xazhuozhi.com^
 ||xb20.tv/js/m-
 ||xb588.net^
@@ -59544,6 +59557,7 @@ zznews.cn##.ad:not([style])
 ||ziyu.net^$third-party
 ||ziyuanm.com/js/g11.js
 ||ziyuantx.com^
+||ziyunxs.com^
 ||zizcy.com^
 ||zj66.net^
 ||zjbdt.com^
@@ -60213,7 +60227,6 @@ zznews.cn##.ad:not([style])
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##img[style*="300px"]
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
