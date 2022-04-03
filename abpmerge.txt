@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-02 16:22:12
-! Total count: 61363
+! Version: 2022-04-03 01:18:49
+! Total count: 61364
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -42948,6 +42948,7 @@ zznews.cn##.ad:not([style])
 ||msr.p-antiaging.com^
 ||msri.club^
 ||mssheng.com^
+||msstatic.com/huya/*/p2plib.js$script
 ||msstatic.com/huya/main/img/mc-recom_
 ||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
 ||msstatic.com/huya/main3/widget/roomGg
@@ -44627,7 +44628,7 @@ zznews.cn##.ad:not([style])
 ||p2.danskebank.no^
 ||p2.danskebank.se^
 ||p24.hu^$third-party
-||p2p.$xhr,websocket,ping
+||p2p.$xhr,websocket,ping,domain=~huya.com
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
