@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-05 08:20:43
-! Total count: 61393
+! Version: 2022-04-05 16:24:26
+! Total count: 61400
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1439,6 +1439,7 @@
 ##div[style^="width: 100%;"][style$="overflow: hidden;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
@@ -1990,6 +1991,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .info/js/alls_top.js
 .info/s.php?id=$script,third-party
 .info/topjs/
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
@@ -5073,7 +5075,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /googleads.
 /googleana.
@@ -8727,6 +8729,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://*.tv/ad/$domain=~moviedj.tv
 ://*:*/api/v4/g?kyurl=$script,third-party
 ://*:*/jscode/*.js$script,third-party
+://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
@@ -8794,7 +8797,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
 :4433/hm/cdn/static/jq_
 :45324/cd/$subdocument,third-party
 :52789/gg/
@@ -21191,6 +21193,7 @@ zznews.cn##.ad:not([style])
 ||2ccc.com/images/show/
 ||2ccc.com/images/sino.gif
 ||2ch.hk^*/tracker.js?
+||2cnjuh34jbpoint.com^
 ||2cnt.net^$third-party
 ||2cq.com/third/tieba/sidebar
 ||2d-c.cn^
@@ -31220,6 +31223,7 @@ zznews.cn##.ad:not([style])
 ||dldsrs.com^
 ||dlesjf.jutarnji.hr^
 ||dlevpmd.cn^
+||dlfvgndsdfsn.com^
 ||dlhygj.com^
 ||dlkjgjmy.com^
 ||dlkoo.cc/down/$subdocument
@@ -34874,6 +34878,7 @@ zznews.cn##.ad:not([style])
 ||gouweida.cn^
 ||gouwupianyi.cn^
 ||govbeijing.cn^
+||govchaozhou.cn^
 ||govchengdu.cn^
 ||govchongqing.cn^
 ||govgaungzhou.cn^
@@ -53050,6 +53055,7 @@ zznews.cn##.ad:not([style])
 ||tj-yyy.cn^
 ||tj.21ic.com^
 ||tj.7kww.net^$third-party
+||tj.banzhu111.xyz^
 ||tj.tianwenhu.com^
 ||tj.video.qq.com/
 ||tj.youzanyun.com^
@@ -54569,6 +54575,7 @@ zznews.cn##.ad:not([style])
 ||tsj0.madeindesign.com^
 ||tsk4.com^$third-party
 ||tsk5.com^$third-party
+||tslomhfys.com^
 ||tsphone.biz/pixelvoleur.jpg?
 ||tspmagic.tumblr.com^
 ||tsrc8.com^
