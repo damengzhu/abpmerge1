@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-05 16:24:26
-! Total count: 61400
+! Version: 2022-04-06 01:16:51
+! Total count: 61411
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -842,6 +842,7 @@
 ##.ui-ad
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+##.video-item-ads
 ##.video-player-container > #player_bottom_banner
 ##.w100b > .m_adv
 ##.w_ad
@@ -892,7 +893,6 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
-##A[href*="/33966676.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
@@ -1234,6 +1234,7 @@
 ##a[href*="/2486090.com/"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/3337818.com/"]
+##a[href*="/33966676.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/3525v.com:"]
@@ -7049,6 +7050,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /scripts/youthad.js
 /scroll-analytics-
 /scroll-track.js
+/scroll-tracking.
 /scrollgg_index.js
 /sctl.js
 /sctracker.
@@ -8798,6 +8800,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 :2048/b.js
 :2048/jsb?
 :4433/hm/cdn/static/jq_
+:4443/ty/x-$script,third-party
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -20596,6 +20599,7 @@ zznews.cn##.ad:not([style])
 ||107cine.com/front/js/layer.js
 ||108.171.248.234^
 ||109.169.66.161^$third-party,domain=~adult-site.ip
+||1095.mobi^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10gustis.xyz^
 ||11.96131.com.cn^
@@ -20695,6 +20699,7 @@ zznews.cn##.ad:not([style])
 ||123su.top^
 ||1244.chushoushijian.cn^
 ||126.com/get.do?*=themeHandler.
+||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
 ||126.net/caipiao/js2/dialog.js
 ||126.net/caipiao/js2/index/homePop.js
 ||126.net/caipiao/js2/popularize/hello.js^
@@ -30341,6 +30346,7 @@ zznews.cn##.ad:not([style])
 ||d3.sina.com.cn^$object,script
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d32bug9eb0g0bh.cloudfront.net^
 ||d32hwlnfiv2gyn.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
@@ -31454,6 +31460,7 @@ zznews.cn##.ad:not([style])
 ||doupuer.com^
 ||doutula.com/img/upupoo/
 ||douyaobuy.com^
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 ||douyu*/upload/signs/*.swf
 ||douyu.com/dygev/*.swf
 ||douyu.com/japi/sign/web/getinfo
@@ -34892,6 +34899,7 @@ zznews.cn##.ad:not([style])
 ||govkunming.cn^
 ||govmetric.com^$third-party
 ||govqingdao.cn^
+||govshanghai.cn^
 ||govshangxi.cn^
 ||govshanxi.cn^
 ||govshenzhen.cn^
@@ -41096,6 +41104,7 @@ zznews.cn##.ad:not([style])
 ||maformationofficinale.actonservice.com^
 ||magedu.com/wp-content/uploads/*/xwzx
 ||mageti.cn^
+||maggieeatstheangel.com^
 ||magic-future.com^
 ||magicflute.club^
 ||magicpixel.io^$third-party
@@ -52108,7 +52117,7 @@ zznews.cn##.ad:not([style])
 ||systemizecoat.com^
 ||systemmonitoring.badgeville.com^
 ||sytcyf.com^
-||syteapi.com^
+||syteapi.com/et?
 ||sytsr.com^
 ||syxchj.cn^
 ||syxgsq.com.cn^
@@ -58564,6 +58573,7 @@ zznews.cn##.ad:not([style])
 ||yigao.com^
 ||yigao.com^$third-party
 ||yigemi.com^
+||yigesi.top^
 ||yigouw.com/c.js
 ||yigujin.cn/faaa/
 ||yigujin.cn/img/abc/
@@ -59877,6 +59887,7 @@ zznews.cn##.ad:not([style])
 ||zywhjd.com^
 ||zywlyy.cn/JS/
 ||zyxwpj.com^
+||zyyz.pro^
 ||zyzjpx.cn^
 ||zz.bdstatic.com^
 ||zz.bdustatic.com^
