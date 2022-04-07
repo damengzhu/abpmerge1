@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-06 16:23:53
-! Total count: 61423
+! Version: 2022-04-07 01:15:46
+! Total count: 61427
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10248,7 +10248,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||mpsnare.iesnare.com/general5/wdp.js$domain=usbank.com
-@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
+@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|equifax.ca|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
 @@||ms332.com^$generichide
@@ -14501,6 +14501,9 @@ hupu.com##div[class*="ad728-90"]
 hupu.com##div[class*="ad980-60"]
 hur.cn###ad810_2
 hur.cn###ad810_6
+hurigirls99.xyz###rightd
+hurigirls99.xyz###undertd
+hurigirls99.xyz###undertd + div[style]
 huxiu.com##div#app-guide-box
 huya.com###J_roomGg2 + a
 huya.com###ggcomment
@@ -39167,6 +39170,7 @@ zznews.cn##.ad:not([style])
 ||kmgfjc.cn^
 ||kmib.co.kr/ref/
 ||kmindex.ru^$third-party
+||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmr.jiujigroup.top^
 ||kmr.yhjzg.cn^
@@ -51866,6 +51870,7 @@ zznews.cn##.ad:not([style])
 ||successfultogether.co.uk^$third-party
 ||successtorynm.carte-gr.total.fr^
 ||suchmaschinen-ranking-hits.de^$third-party
+||sucloud.xyz/js/tou.js
 ||sudahj.com^
 ||suddensidewalk.com^$third-party
 ||suddensnake.com^
@@ -52713,7 +52718,6 @@ zznews.cn##.ad:not([style])
 ||teenyvolcano.com^
 ||teethfan.com^
 ||tel.shbdyx.com^
-||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||telemetric.dk^$third-party
 ||telemetrics.klaviyo.com^
 ||telemetry.adobe.io^
