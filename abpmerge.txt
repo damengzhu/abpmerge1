@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-08 08:20:09
-! Total count: 61469
+! Version: 2022-04-08 16:24:28
+! Total count: 61478
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -69,6 +69,7 @@
 ###adleft
 ###adright
 ###adrights14
+###ads.row
 ###ads_c_tpc
 ###ads_in_video
 ###ads_inner
@@ -93,12 +94,14 @@
 ###asdw2 + img
 ###asdw3
 ###asdw3 + img + :not(div)
+###aside_cat_ad_bottom
 ###asx_text
 ###avshow
 ###bannerAd
 ###bd-hl-content
 ###bgad
 ###bgframe[style^="position: fixed;"]
+###bl_mobile_float
 ###body > #left-promotion
 ###body > #right-promotion
 ###bottom-ads-container
@@ -112,7 +115,10 @@
 ###bottombanner
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
+###cat_intro_first_ad
+###cat_intro_second_ad
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
+###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > .item.title_normal
 ###container > .item.title_top
@@ -518,6 +524,7 @@
 ##.afc_close_content,.cfa_popup,[href='http://kst6632.com/']
 ##.afc_popup
 ##.anniversary-wrap-2018
+##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.area_ad
 ##.artad
@@ -11698,7 +11705,7 @@ baidu.com,ifeng.com##.ad-list
 baidu.com,youdao.com#@#.share-content
 baidu.com,youdao.com,yun.cn#@#.share-content
 baidu.com/api/wapui/getrelatedbusiness
-baidu.com/rec
+baidu.com/rec?*=ad&
 baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baiduyunso.com##.rcode
@@ -12096,10 +12103,6 @@ boosj.com##[id^="ad_"]
 boquge.com##.gad2,.adsbygoogle
 boroboromi.com##.mod-ad
 bouweenpc.nl###header-banner
-boyboy.cc###adDisabledBtn
-boyboy.cc###bl_mobile_float
-boyboy.cc###cat_intro_first_ad
-boyboy.cc###cat_intro_second_ad
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 bozhou.cn##.bannerad
 bqg5200.com##.content_ad,.ad250left
@@ -15484,6 +15487,7 @@ jzclass.com##.ad,.adr,#ad_foot
 k.sina.cn##section.s_card.j_article_relevent
 k.sina.cn##section.s_card.z_c2.j_article_relevent_news
 k618.cn##[id^="adcon"]
+k7d.com,kxdao.net###masonry
 k8sj.com##.portal_block_summary
 kafan.cn###categories-4[style],ins.adsbygoogle,div[id^="ad_"].ad,.header_gg,DIV.wp.gg,div.comeing_index_wad,div.comeing_mu
 kafan.cn##a[href*="nameidi."]
@@ -15637,7 +15641,6 @@ kuwo.cn##.qr_wrapper
 kuwo.cn##.tuiguang
 kuwo.cn##[class^="qr_wrapper_"],div.ad1,#qr_img,#qr_img+span[style],.tuiguang
 kuxun.cn##a.Topadlink
-kxdao.net###masonry
 kxdw.com###downloadTop
 kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 kyofun.com##div#CrazyAd
@@ -19557,6 +19560,7 @@ xinjunshi.com##[id^="ads_onload"],.main_gg,[class^="ad_"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn##div[class^="IndexAd_"],div[class*="_gg"],DIV.ContentAd_665_80,DIV.ContentAd_300_250,DIV[class^="ContentAd_260_"],DIV.ListAdBox,DIV[class^="ListAd_"],DIV.ContentAdBox,DIV.ContentAd_640_90,DIV.ContentAd_600_200,div.ChannelAdBox,[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn#@#.a_p
+xinmin.cn#@#.share-title
 xinpian.com##.t-img-80,.age-img-80,.age-img-159,.t-img-78,.i-3-77,.i-sh-e,.i-re-s,.i-row2-right,.i-3-95,.su-r-img2,.su-r-img3,.p-img-list,.buy-img-110
 xinshuhaige.net##div[style="float:left;width:300px;height:300px;margin:10px;border:1px dashed blue;"]
 xinwenren.com##.banner
@@ -26357,6 +26361,7 @@ zznews.cn##.ad:not([style])
 ||baidu.com/kan/api/ipLocation
 ||baidu.com/ndcore/interface/searchTop?
 ||baidu.com/ndview/interface/hx/
+||baidu.com/ndwkasp/
 ||baidu.com/newspage/api/getadsdata?
 ||baidu.com/newspage/api/getimagelandafd?
 ||baidu.com/newspage/api/getmobads?
@@ -27422,6 +27427,7 @@ zznews.cn##.ad:not([style])
 ||booking.com^$domain=honglingjin.co.uk|sunnylife.tw
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
+||bookoffonline.co.jp/mbfiles/tracking/
 ||bookopen.cn^
 ||bookrb.com/images/jtt
 ||books.com.tw/exep/ap/$third-party
@@ -28077,6 +28083,7 @@ zznews.cn##.ad:not([style])
 ||catalove.com/ntv/
 ||catbox.moe/bb5wdv.jpg
 ||cathaycentury.com^
+||catherinebeverly.com^
 ||catracking.finning.com^
 ||cats.d20.rs^
 ||catschickens.com^
@@ -31615,6 +31622,7 @@ zznews.cn##.ad:not([style])
 ||dsparking.com^$third-party
 ||dspdy.cn^
 ||dsply.com^$third-party
+||dsqzk.cn^
 ||dss8l0f.cn^
 ||dssdr.top^
 ||dsxdn.com^
@@ -35289,6 +35297,7 @@ zznews.cn##.ad:not([style])
 ||h-adashx.ut.taobao.com^
 ||h-adashx4yt.ut.taobao.com^
 ||h-bid.com^$third-party
+||h-cast.jp^$third-party
 ||h.axbdlox.cn^
 ||h.baminw.cn^
 ||h.bbbazlp.cn^
@@ -60493,7 +60502,7 @@ zznews.cn##.ad:not([style])
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52flac.com##.ad250px,.ad710px,.ad300px,.con1
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
 52fzwg.com,79tao.com,hqol.cn,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com##.GzList
 52ghai.com##.a_xiu_t
 52ghai.com##.yttl_x_g
