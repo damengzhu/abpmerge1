@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-09 01:13:15
-! Total count: 61489
+! Version: 2022-04-09 08:19:20
+! Total count: 61499
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -4484,7 +4484,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamic_ytrack_
 /dynamictag.
 /dynamicyield/*
-/dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /dyxia/js/ny
 /dzwww/ad_dzw_inner.js
@@ -6964,6 +6964,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /rpc/preccount?
 /rr/t?step=
 /rrweb-record-
+/rrweb-script.
+/rrweb.js
+/rrweb.min.js
+/rrweb/*
 /rsya-tag-users/*
 /rt_tag.
 /rt_track.
@@ -19227,6 +19231,7 @@ www.newasp.net##div.banner,div.a_box10,IFRAME[src*=".e399.com/html/"]
 www.news.cn##[id^="adBody"],#topAdv,.guanggao
 www.newsmth.net##div#sogou_banner
 www.nuxue.com##DIV[id^="f21ac82b21eeb7322631b6aa94e17f"]
+www.olevod.com##DIV.B1Lss,.B1Rss
 www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],DIV#slide.layui-carousel,DIV.closeable
 www.paipai.fm##a#picleft,a#picright,div.wrapbg
 www.pbhz.com##.agoogled,#text-html-widget-2
@@ -22726,6 +22731,7 @@ zznews.cn##.ad:not([style])
 ||a-counter.kiev.ua^$third-party
 ||a-counters.com^$third-party
 ||a-m-s.adnonstop.com^
+||a-mo.net^
 ||a-pagerank.net^$third-party
 ||a-reporting.nytimes.com^
 ||a.20minutes.fr^
@@ -45983,6 +45989,7 @@ zznews.cn##.ad:not([style])
 ||pubcloud.pub^
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
+||pubfuture.com^$third-party
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.juxia.com/js/juxia.js
 ||public.wlbaike.com^
@@ -47380,6 +47387,7 @@ zznews.cn##.ad:not([style])
 ||roia.biz^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
+||roistat.com^*/addVisit?
 ||roitesting.com^$third-party
 ||rollbar.com^$third-party
 ||rollercoin.com^$third-party
@@ -54011,6 +54019,7 @@ zznews.cn##.ad:not([style])
 ||tracker.bt.uol.com.br^
 ||tracker.cauly.co.kr^
 ||tracker.cdnbye.com^
+||tracker.comagic.ru^
 ||tracker.data-vp.com^
 ||tracker.digitalcamp.co.kr^
 ||tracker.downdetector.com^
@@ -55676,6 +55685,7 @@ zznews.cn##.ad:not([style])
 ||visite.scambi.org^
 ||visitor-analytics.io^$third-party
 ||visitor-analytics.net^$third-party
+||visitor-microservice.ext.p-a.im^
 ||visitor-stats.de^$third-party
 ||visitor-track.com^$third-party
 ||visitorglobe.com^$third-party
