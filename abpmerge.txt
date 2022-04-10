@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-09 16:22:34
-! Total count: 61505
+! Version: 2022-04-10 01:19:17
+! Total count: 61517
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -572,6 +572,7 @@
 ##.c-ad
 ##.cari-ads
 ##.cc5278_banner_ad
+##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
@@ -4126,6 +4127,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /collector/hit?
 /collector/pageview
 /collector?report=
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/ad.
@@ -8327,7 +8329,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /videoAd.
 /videoAnalytics.
@@ -11270,7 +11272,7 @@ aipai.com##canvas~*
 aipai.com##div.side_gg,div#baidu_gg,div#pm_bgg,div[class^="wbanner_baidu_"],div.wbanner_baidu_689,div.banner_90,.con_l,.con_r,div#videosRightDown,div.cover_inner,a.pmp_random,[class^="banner_"],#theme_gg,.pm_bgg,[id^="cs_gg"],.spread,.ad
 aiqicha.baidu.com##.float-banner
 aiqicha.baidu.com#@#.share-label
-aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com,xinmin.cn#@#.share-title
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -19567,7 +19569,6 @@ xinjunshi.com##[id^="ads_onload"],.main_gg,[class^="ad_"]
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn##div[class^="IndexAd_"],div[class*="_gg"],DIV.ContentAd_665_80,DIV.ContentAd_300_250,DIV[class^="ContentAd_260_"],DIV.ListAdBox,DIV[class^="ListAd_"],DIV.ContentAdBox,DIV.ContentAd_640_90,DIV.ContentAd_600_200,div.ChannelAdBox,[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn#@#.a_p
-xinmin.cn#@#.share-title
 xinpian.com##.t-img-80,.age-img-80,.age-img-159,.t-img-78,.i-3-77,.i-sh-e,.i-re-s,.i-row2-right,.i-3-95,.su-r-img2,.su-r-img3,.p-img-list,.buy-img-110
 xinshuhaige.net##div[style="float:left;width:300px;height:300px;margin:10px;border:1px dashed blue;"]
 xinwenren.com##.banner
@@ -27436,7 +27437,6 @@ zznews.cn##.ad:not([style])
 ||booking.com^$domain=honglingjin.co.uk|sunnylife.tw
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||bookopen.cn^
 ||bookrb.com/images/jtt
 ||books.com.tw/exep/ap/$third-party
@@ -31757,6 +31757,7 @@ zznews.cn##.ad:not([style])
 ||dxg*.top/img/A*.js
 ||dxg0070.top/img/
 ||dxingdy.com/cdn.*_banner.
+||dxlive.com/js/dtrace.js
 ||dxp.baidu.com^
 ||dxpmedia.com^
 ||dxpmedia.com^$third-party
@@ -31794,6 +31795,7 @@ zznews.cn##.ad:not([style])
 ||dymmt.com/skin/mzitu/js/foot.
 ||dynameex.com^$third-party
 ||dynamicyield.com/st?
+||dynatrace-managed.com^
 ||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||dynatracesaas.com^$third-party
 ||dyncdn.me/static/20/js/expla
@@ -34682,6 +34684,7 @@ zznews.cn##.ad:not([style])
 ||gmufag.starhit.ru^
 ||gmufag.wday.ru^
 ||gmufag.woman.ru^
+||gmx.net/monitoring/
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
 ||gnezdo.ru^$third-party
@@ -35910,6 +35913,7 @@ zznews.cn##.ad:not([style])
 ||hittracker.com^$third-party
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
+||hitugou.com^
 ||hitwake.com^$third-party
 ||hitwebcounter.com^$third-party
 ||hiuplq.diretta.it^
@@ -39378,6 +39382,7 @@ zznews.cn##.ad:not([style])
 ||kuk8.com^$third-party
 ||kukan5.com/ad
 ||kukan5.com/indexxzad.jpg
+||kukanlm-youeryuan.com^
 ||kuku99.com^$third-party
 ||kukudm.com/mg/show
 ||kukudm.com/top.htm
@@ -39729,6 +39734,7 @@ zznews.cn##.ad:not([style])
 ||ledaren.cn^
 ||lederer.nl/incl/stats.js.php?
 ||ledhenone.com^$third-party
+||lee2code.com^
 ||lee789.com^
 ||leejongsuk.top^
 ||leeleo.top^
@@ -46385,6 +46391,7 @@ zznews.cn##.ad:not([style])
 ||qingzhencai.net^
 ||qinmon.xyz^
 ||qinqiaotrade.com^
+||qintingapp.com^
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qinzhihao.com^
 ||qinzigenjudi.com^
@@ -47280,6 +47287,7 @@ zznews.cn##.ad:not([style])
 ||ria.ru/ping?
 ||riastats.com^$third-party
 ||riaway.com/statics/idea.jpg
+||ricardo.ch/api/browser-statistics/
 ||riccol.cn^
 ||riceck.cn^
 ||richard-group.com^$third-party
@@ -53031,6 +53039,7 @@ zznews.cn##.ad:not([style])
 ||tianshui.com.cn/datugg/
 ||tianshui.com.cn/newbg
 ||tianshui.com.cn/yb.html
+||tiantai.ink^
 ||tiantiansoft.com^
 ||tiantianwl.cn^
 ||tiantianyinyue.cn^
@@ -54926,6 +54935,7 @@ zznews.cn##.ad:not([style])
 ||u26u.com/$third-party,~font,popup
 ||u26u.com^$popup,third-party
 ||u2c8.cn^
+||u3c3.cc^*.gif
 ||u3c3.com^*.gif
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
@@ -56023,6 +56033,7 @@ zznews.cn##.ad:not([style])
 ||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
+||wangye.icu^
 ||wangyeshij.top^
 ||wangyh.icu^
 ||wangyouxs.cn^
@@ -59132,6 +59143,7 @@ zznews.cn##.ad:not([style])
 ||yuoyan.finanzen.de^
 ||yupan.cc/asd/731.gif$image
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
+||yuquad.com^
 ||yushengyuancaishui.com^
 ||yushuha.com^
 ||yuu360.com$third-party
