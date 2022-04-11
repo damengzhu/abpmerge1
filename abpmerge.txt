@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-10 16:22:38
+! Version: 2022-04-11 01:18:27
 ! Total count: 61528
 -1688-wp-media/ads/
 -960x*0.gif
@@ -10424,6 +10424,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
+@@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
@@ -10545,7 +10546,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
-@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
