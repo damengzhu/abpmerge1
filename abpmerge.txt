@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-11 01:18:27
-! Total count: 61528
+! Version: 2022-04-11 08:21:02
+! Total count: 61529
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3840,6 +3840,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /cdcVanity?
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
+/cdn-cgi/beacon/*
 /cdn-cgi/bm/cv/*
 /cdn-cgi/pe/bag2?*.adm.cnzz.
 /cdn-cgi/pe/bag2?*.overture.com
@@ -28919,7 +28920,6 @@ zznews.cn##.ad:not([style])
 ||clk.boulanger.com^
 ||clk.ubi.com^
 ||clkads.com^
-||cllctr.roistat.com^
 ||clldirectasianew.club^
 ||clmmw.com^
 ||clnbze.dzienniklodzki.pl^
@@ -29351,7 +29351,6 @@ zznews.cn##.ad:not([style])
 ||collector.pi.spectrum.net^
 ||collector.prod.expedia.com^
 ||collector.rn.de^
-||collector.roistat.com^
 ||collector.schibsted.io^
 ||collector.sspinc.io^
 ||collector.statowl.com^
@@ -31255,6 +31254,7 @@ zznews.cn##.ad:not([style])
 ||djymht.cn^
 ||djzwrfi.cn^
 ||dk.zeronethree.xyz^
+||dk2323dk.xyz^
 ||dk4ywix.com^
 ||dkifl.com^
 ||dkjdnq.cn^
@@ -45661,6 +45661,7 @@ zznews.cn##.ad:not([style])
 ||pok.hnyrd.com.cn^
 ||pokcykb.cn^
 ||poke88.com^
+||pokeryun.site^
 ||poki.com/observer/
 ||pol3.cheque-domicile.fr^
 ||polafu.us-appliance.com^
@@ -47407,7 +47408,7 @@ zznews.cn##.ad:not([style])
 ||roia.biz^$third-party
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
-||roistat.com^*/addVisit?
+||roistat.com^$third-party
 ||roitesting.com^$third-party
 ||rollbar.com^$third-party
 ||rollercoin.com^$third-party
