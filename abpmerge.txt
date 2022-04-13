@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-13 08:21:51
-! Total count: 61586
+! Version: 2022-04-13 16:24:38
+! Total count: 61593
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9040,7 +9040,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
+@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -9178,6 +9178,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a1.itc.cn/pv/js/spv.
+@@||a2ip.ru/spacer.gif$image,domain=2ip.ru
 @@||a8.net/svt/$image,domain=samplefan.com
 @@||abc.com/b/ss/$image
 @@||abchina.com^*ad
@@ -13016,6 +13017,7 @@ dlemm.cn,isiyuan.net,xiaodigufz.com##.themead
 dlkoo.cc##ins[id^="tanxssp-outer-conmm_"]
 dlkoo.com###taobaoapp
 dlkoo.com##ins[id^="tanxssp-outer-conmm_"]
+dm010.com##a[href*=".apk"]
 dm456.com,dm456.iqiyi.com##DIV[style*="height:90px;"],IFRAME[width="978"][height="90"],IFRAME[src^="/m/"],DIV#bdLeft,IFRAME[width="980"][height="92"],DIV#p-right,DIV#p-left
 dm5.com###a1
 dm5.com###youce
@@ -16806,7 +16808,7 @@ pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
 pan.baidu.com,music.baidu.com,yun.baidu.com##[class|=ad]
-pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange)
+pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange,/^(?!.*?localStorage\.mvPlayRate).*$/)
 pan.baidu.com,yun.baidu.com##[id^="share-ad-"],A#share_ad_info_panl,div[id^="cpro_"],img.share-center,.ad-platform-tips,.banner-active
 pan666.cn##.footer > .containerNarrow
 panc.cc##iframe[height="148"]
@@ -20177,6 +20179,7 @@ ziqiangxuetang.com##a[href="/j/coding/"] + .w-text-red
 zixuephp.net###tantips
 ziyuanba.com##a[href^="/ago."]
 ziyuanbu.cn##[class^="ad"],#advert-7
+ziyuanwu.com###modules-17
 zj.com##.adnav
 zj.com##.adnav2
 zj.com##.rt-banner
@@ -36431,6 +36434,7 @@ zznews.cn##.ad:not([style])
 ||huojukk.com^
 ||huojutt.com^
 ||huomob.com^
+||huosai.net.cn^
 ||huoyan.tv/yb/img/*.gif
 ||hupu-nba.com^
 ||hupu.com/_dace.gif?
@@ -38984,7 +38988,7 @@ zznews.cn##.ad:not([style])
 ||kancloud.cn/ad/
 ||kanfaxing.com^
 ||kang08.com^
-||kangaroobro.com^
+||kangaroobro.com/bn.js
 ||kangerlu.com^
 ||kanglaijd.cn^
 ||kanguba.com/file/js/ifr.asp
@@ -40278,6 +40282,7 @@ zznews.cn##.ad:not([style])
 ||liuwenyan.xyz^
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
+||liuyangyang.cn^
 ||liuyansha.vip^
 ||liuziqiu.cn^
 ||liuzishen.com^
@@ -44717,6 +44722,7 @@ zznews.cn##.ad:not([style])
 ||oyyqan.hejoscar.dk^
 ||oyyqkdf879f.asleyty.com^
 ||ozfbbwy.cn^
+||ozhbccs.cn^
 ||ozkkuy.fabianafilippi.com^
 ||ozon.ru/tracker/
 ||ozowis.ledger.com^
@@ -59734,6 +59740,7 @@ zznews.cn##.ad:not([style])
 ||zhxkzss.cn^
 ||zhy333.com^
 ||zhyeqw.mercury.ru^
+||zhyl.info^
 ||zhylm.cn^
 ||zhywyl.cn^
 ||zhzyw.com/js/InsertJS.js
