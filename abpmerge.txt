@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-12 16:23:16
-! Total count: 61580
+! Version: 2022-04-13 01:24:34
+! Total count: 61586
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -909,7 +909,6 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
-##A[onclick^="gtag"] > .add
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
@@ -1288,6 +1287,7 @@
 ##a[href*="/htvip21.app"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
+##a[href*="/kanxiuren.com?"]
 ##a[href*="/kst6632.com/"]
 ##a[href*="/kt169.com"]
 ##a[href*="/ky7993.com:"]
@@ -1378,6 +1378,7 @@
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
+##a[onclick^="gtag"] > .add
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style$="2147483647;"][ontouchstart]
 ##a[style*=".ajzsa.xyz/"]
@@ -39910,6 +39911,7 @@ zznews.cn##.ad:not([style])
 ||lhesqk.karatov.com^
 ||lhewdj.fnac.pt^
 ||lhhlkj.yoursuperfoods.de^
+||lhj.asia^
 ||lhxwnzht.cn^
 ||lhy1.xyz^
 ||lhyang.top^
@@ -51459,6 +51461,7 @@ zznews.cn##.ad:not([style])
 ||stats.dominikmayer.com^
 ||stats.doors.live^
 ||stats.dreamsub.cc^
+||stats.dreamsub.me^
 ||stats.drewbolles.com^
 ||stats.drgomesp.dev^
 ||stats.dsgn.link^
@@ -58898,6 +58901,7 @@ zznews.cn##.ad:not([style])
 ||ymlykj.com/nuxt/static/liveBanner.jpg
 ||ymm17.cc^
 ||ymm19.cc^
+||ymprove.gmx.net^
 ||ymprove.web.de^
 ||ymr.gqcxbm.cn^
 ||ymtrqt.cn^
@@ -59194,6 +59198,7 @@ zznews.cn##.ad:not([style])
 ||yunsoka.com^
 ||yuntue.com/zb_users/plugin/MoreLinks/MoreLinks.php
 ||yuntuiguang.co^
+||yunuo.online^
 ||yunupload.net/jsa/
 ||yunwanjia.wang^
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
@@ -59510,6 +59515,7 @@ zznews.cn##.ad:not([style])
 ||zglww.net/jsnew/pfkf.js
 ||zgncpjyw.cn^
 ||zgnieka.cn^
+||zgnz020.mobi^
 ||zgqgig.skillbox.ru^
 ||zgrsq.cn^
 ||zgsxhx.com^
