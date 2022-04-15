@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-15 08:21:20
-! Total count: 61620
+! Version: 2022-04-15 16:26:29
+! Total count: 61633
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1794,6 +1794,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .cmail20.com/t/$image
 .cn/?ss=$script,third-party
 .cn/ads/
+.cn/gg/*?x=$script,third-party
 .cn/jc.gif?
 .cn/js/ads/
 .cn/s.php?id=$script,third-party
@@ -1876,6 +1877,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .com/ge/?s=$script,third-party
 .com/geo_ip
 .com/gg.js
+.com/gg/*?x=$script,third-party
 .com/headlink.js
 .com/hitlog?
 .com/hm/cdn/static/jq_*.js$third-party
@@ -12097,7 +12099,7 @@ bmlink.com##.Tg_gg
 bmlink.com##.fixedBg
 bmlink.com##.tg
 bnext.com.tw##.no_margin_ad_box,.rmax_bnner,.google-dfp
-boce.com##.adNewBox
+boce.com##.money_box
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 bodu365.co###iside
 bog.ac##.sidebar-url
@@ -21718,6 +21720,7 @@ zznews.cn##.ad:not([style])
 ||517pass.com^
 ||5184.com/container/html/news_view_gg
 ||5188yy.com^
+||518yi.com^
 ||519397.com^
 ||51ads.com^
 ||51ads.com^$third-party
@@ -24268,6 +24271,7 @@ zznews.cn##.ad:not([style])
 ||ads-union.jd.com^
 ||ads.
 ||ads.exoclick.com^
+||ads.service.kugou.com^
 ||ads.sohu.com^
 ||ads.superad.cc^
 ||ads.uc.cn^
@@ -24302,6 +24306,7 @@ zznews.cn##.ad:not([style])
 ||adserver.
 ||adserver.juicyads.com^
 ||adservice.
+||adserviceretry.kglink.cn^
 ||adserviceretry.kugou.com^
 ||adsettings.com^$third-party
 ||adsfactor.net^
@@ -39790,6 +39795,7 @@ zznews.cn##.ad:not([style])
 ||lebtpm.co-medical.com^
 ||lecai.com/page/zhuanti/baidu/
 ||lecho.be/fb2?
+||lecho.be/tag/tag-
 ||lecho.be/track/
 ||lecuiwangluo.com^
 ||ledaren.cn^
@@ -39941,6 +39947,7 @@ zznews.cn##.ad:not([style])
 ||lianfuhuang.cn^
 ||liangao.com$third-party
 ||liangao.com^
+||liangdun.xyz^
 ||liangjan.com/js/show_
 ||liangpinge.com^$third-party
 ||liangxiaoru.cn^
@@ -41181,6 +41188,7 @@ zznews.cn##.ad:not([style])
 ||m1955.com/template/qq/images/playad/
 ||m19ud.cn^
 ||m2.lelemh.com^
+||m2.yqxs.cc/js^
 ||m3.51minbingtuan.net^
 ||m3.myyj.net^
 ||m365log.com^$third-party
@@ -46406,6 +46414,7 @@ zznews.cn##.ad:not([style])
 ||qiaoenyl.xyz^
 ||qiaohong.ltd^
 ||qiaopiguniang.com^
+||qiaoxiaomiao.com^
 ||qibalmm.com^
 ||qibxdwe1.com^
 ||qichenx.com^
@@ -52249,6 +52258,7 @@ zznews.cn##.ad:not([style])
 ||syiae.com^
 ||syjjd.club^
 ||sykc.madeindesign.ch^
+||syks.xyz^
 ||sykty.com^
 ||sylvia.cloud^
 ||symag.cn^
@@ -54614,6 +54624,7 @@ zznews.cn##.ad:not([style])
 ||tritondigital.com/ondemand/impression?
 ||trivago.com/tracking/
 ||triver.jp^$third-party
+||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk-cdpetl.emdlz.com.cn^
 ||trk.absuite.com.br^
 ||trk.adbutter.net^
@@ -58131,6 +58142,7 @@ zznews.cn##.ad:not([style])
 ||xinyuanzszy.com^
 ||xinzheng8.pw
 ||xiongdong.com^
+||xiongfengwang.com.cn^
 ||xiongyin.com^
 ||xiongyin.com^$third-party
 ||xiongzhang.baidu.com/sdk^
@@ -59281,6 +59293,7 @@ zznews.cn##.ad:not([style])
 ||yxad.com/sg/
 ||yxad.com/yxad/
 ||yxbao.com/js/bt_
+||yxbyd.store^
 ||yxcpm.com^
 ||yxdd.com^$subdocument
 ||yxdm.*/js/ddetector.js
