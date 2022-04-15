@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-15 01:19:38
-! Total count: 61619
+! Version: 2022-04-15 08:21:20
+! Total count: 61620
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2952,6 +2952,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /adobe-analytics-
 /adobe-analytics.
 /adobe-analytics/*
+/adobe-analytics2.
 /adobe-prd/*
 /adobe.targetV2-
 /adobe.visitor-
@@ -8476,6 +8477,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
+/web-js-telemetry-service/*
 /web-vitals.
 /web-vitals/*
 /web.gif?*&referral_
@@ -30539,6 +30541,7 @@ zznews.cn##.ad:not([style])
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
 ||dailynews.sina.com/gb/ads/
+||dailynews.wiki^
 ||daima.diaoben.net^
 ||daima.dsxdn.com^
 ||daima.ijq.tv^
@@ -30769,7 +30772,6 @@ zznews.cn##.ad:not([style])
 ||dbzpek.nike.com^
 ||dc-storm.com^$third-party
 ||dc.banggood.com^
-||dc.emilyz.top^
 ||dc.plussizetech.com^
 ||dc.sigmob.cn^
 ||dc.stenaline.co.uk^
@@ -32561,6 +32563,7 @@ zznews.cn##.ad:not([style])
 ||emetriq.de^$third-party
 ||emgwq.com^
 ||emihosting.com^*/tracking/
+||emilyz.top^
 ||emjcd.com^$third-party
 ||emjs.mkzhan.com^
 ||emkfl.com^
@@ -33388,7 +33391,6 @@ zznews.cn##.ad:not([style])
 ||fc.dt243100.com^
 ||fc.focusonus.top^
 ||fc.gaizong.cn^
-||fc.holor857.cn^
 ||fc.jgshwx.com^
 ||fc.tiepan.cn^
 ||fc.vodafone.de^
@@ -33529,7 +33531,6 @@ zznews.cn##.ad:not([style])
 ||fg.kzxsrxf.cn^
 ||fg.rmzbfum.cn^
 ||fg.yilianqing.com^
-||fg.yystzl.cn^
 ||fg.zgnajue.com^
 ||fgbgtt.cian.ru^
 ||fgi90.com^
@@ -36120,6 +36121,7 @@ zznews.cn##.ad:not([style])
 ||holidayhappy.online^
 ||hollowafterthought.com^
 ||hollydeal.club^
+||holor857.cn^
 ||holyyjs.xyz^
 ||homchang.site^
 ||home.usg.com^
@@ -39692,6 +39694,7 @@ zznews.cn##.ad:not([style])
 ||lc-cn-n1-shared.com^
 ||lc365.net/movie/js/all.js
 ||lc442.com^
+||lccfjszp.cn^
 ||lcdsyj.daily.co.jp^
 ||lcefua.timberland.ru^
 ||lchbsv.tesser.ru^
@@ -41830,8 +41833,6 @@ zznews.cn##.ad:not([style])
 ||mc.xheqbc.cn^
 ||mc.yandex.com^
 ||mc.yandex.ru^
-||mc.yqgzaewe.cn^
-||mc.zygscl.cn^
 ||mcad.mods-clinic.com^
 ||mcaspkd.cn^
 ||mcchou.com/wp-content/themes/begin/js/mcchou.js
@@ -42502,11 +42503,8 @@ zznews.cn##.ad:not([style])
 ||mfio.cf^
 ||mftnmq.keyuca.com^
 ||mg.32r.com^
-||mg.42yenxh.cn^
-||mg.excsyrv.cn^
 ||mg.glwxw.net^
 ||mg.hxhhb120.cn^
-||mg.jomwihn.cn^
 ||mg.k9dzax.cn^
 ||mg.ledaren.cn^
 ||mg.lingqinga.cn^
@@ -44788,7 +44786,6 @@ zznews.cn##.ad:not([style])
 ||p.ynb2dca.com^$popup
 ||p.yotpo.com^
 ||p.yw800.com.cn^
-||p.zcy821.com^
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
 ||p0.com/1x1
@@ -49158,6 +49155,7 @@ zznews.cn##.ad:not([style])
 ||skroutz.gr/analytics/
 ||skroutza.skroutz.gr/skroutza.min.js
 ||skwenq.cn^
+||skxuueby.cn^
 ||sky.tongjiai.com^
 ||skyglue.com^$third-party
 ||skyjh.cn^
@@ -54960,6 +54958,7 @@ zznews.cn##.ad:not([style])
 ||tybfxw.puma.com^
 ||tycc.info^
 ||tydd.hunterwish.cn^
+||tydouke.com^
 ||tyh887.com^
 ||tyjnwa.top^
 ||tyjnwg.top^
@@ -56462,6 +56461,7 @@ zznews.cn##.ad:not([style])
 ||weddingeeos.com^$third-party
 ||weduoke.com^
 ||wee.dk/modules/$third-party
+||weebly.shop^
 ||weekslw.com^
 ||wegowan.com^
 ||wehefei.com/htmlphp/tmall/
@@ -57813,7 +57813,6 @@ zznews.cn##.ad:not([style])
 ||xc.nimaxrv.cn^
 ||xc.nuheoub.cn^
 ||xc.ognujxj.cn^
-||xc.skxuueby.cn^
 ||xc.wagzqhq.cn^
 ||xc.yynncbn.cn^
 ||xc7789.top^
@@ -57890,7 +57889,6 @@ zznews.cn##.ad:not([style])
 ||xfvcd.com/js/dd/$script
 ||xfyjz.cn^$third-party
 ||xfzcds.netprint.ru^
-||xg.1w73a5d.cn^
 ||xg.adbeuch.cn^
 ||xg.binkens.cn^
 ||xg.eqlidke.cn^
@@ -59109,6 +59107,7 @@ zznews.cn##.ad:not([style])
 ||yqee.htsrvlink.com^
 ||yqef.hsyfcenter.com^
 ||yqgjq.com^
+||yqgzaewe.cn^
 ||yqhlty.com^
 ||yqqlm.vip^
 ||yqw88.com^
@@ -59467,6 +59466,7 @@ zznews.cn##.ad:not([style])
 ||zcqgsnn.cn^
 ||zcrtd.com^
 ||zcsdbj.cn^
+||zcy821.com^
 ||zd2020.top^
 ||zd518.cn/bf-
 ||zd518.cn/template/qpg6080/
@@ -60078,6 +60078,7 @@ zznews.cn##.ad:not([style])
 ||zybveu.swappie.com^
 ||zydyjzw.cn^
 ||zyezhz.cn^
+||zygscl.cn^
 ||zyhx.ltd^
 ||zyiis.net^
 ||zyjy.ink^
