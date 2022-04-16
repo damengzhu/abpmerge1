@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-16 08:19:58
-! Total count: 61650
+! Version: 2022-04-16 16:23:00
+! Total count: 61656
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -8873,6 +8873,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 :99/js/ads/
 ;type=eligibleimpression;
 ;type=pixel;
+=AdCode_$script,third-party
 =Ad_ZPlusGoods&
 =BAIDU_SSP_define&
 =SOGOU_WAP_SETJSONADSLOT&
@@ -9222,6 +9223,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ad4.on.cc/web/www/delivery/fl.js
 @@||ad4.on.cc/web/www/delivery/spc.php
 @@||ad4.on.cc/web/www/delivery/spcjs.php
+@@||adcdn.holmesmind.com/adserver/Preset.js?z=6472$domain=bingfeng.tw
 @@||adcdn.pingan.com^
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||addon.dismall.com/resource/*/ad
@@ -27972,6 +27974,7 @@ zznews.cn##.ad:not([style])
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caipiao.163.com/$subdocument
+||caishenbaoyou.top^
 ||caishuitonghr.com^
 ||caiwuwang.ltd^
 ||caixin.com/file/content/js/mobile_news_app_banner.js
@@ -28348,6 +28351,7 @@ zznews.cn##.ad:not([style])
 ||ceai.xyz^
 ||cechi8.com/images/appdown.gif
 ||cechi8.com/js/cnzz
+||ceciliabeverly.com^
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cedexis.com^$third-party
 ||cedexis.net^$third-party
@@ -36244,6 +36248,7 @@ zznews.cn##.ad:not([style])
 ||howsmyssl.com^$third-party
 ||hp.smiler-ad.com^
 ||hpd.baidu.com^
+||hpejlsb.com^
 ||hpl.tyjnwg.top^
 ||hpr.outbrain.com^
 ||hpr.outbrain.com^$domain=focus.de
@@ -41362,6 +41367,7 @@ zznews.cn##.ad:not([style])
 ||mapquest.com/logger
 ||maptrackpro.com/track/
 ||mapxiongan.cn^
+||maqiang520.online^
 ||mar.vip.com^
 ||marchtools.cn^
 ||marcom.biodex.com^
