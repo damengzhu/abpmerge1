@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-18 01:41:36
-! Total count: 61680
+! Version: 2022-04-18 08:21:56
+! Total count: 61691
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -5231,6 +5231,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hm.js^$third-party
 /hm.pl?p=
 /hmapxy.js
+/hmzn_*_*_*.js?$script,third-party
 /hndxweb/push$popup,third-party
 /hnpprivacy-min.
 /hockeystack.min.js
@@ -8570,6 +8571,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /widget/track_event
 /wijitTrack.gif?
 /wildfire/i/CIMP.gif?
+/windowwap_*_*_*.js?$script,third-party
 /wisdom_tracking.
 /wiseRtSvcVisit.
 /wiseatom/banner/pack_
@@ -9821,7 +9823,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||fangcloud.com^$generichide
 @@||fast.appcues.com^$script,domain=initial.inc
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=itsolutions-inc.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||feed.mix.sina.com.cn^
 @@||feilusw.com/search.html$genericblock,generichide
@@ -10772,6 +10774,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||taobao.com^*&adgroupid=
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
+@@||targetimg1.com/webui/top-of-funnel/_next/static/chunks/fingerprintjs2.$script,domain=target.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tbcdn.cn^*/click_track.js
@@ -29548,7 +29551,7 @@ zznews.cn##.ad:not([style])
 ||compteur.fr^$third-party
 ||compteur.org^$third-party
 ||compteur.websiteout.net^
-||computerbase.de/api/$ping,xmlhttprequest
+||computerbase.de/api2/$ping,xmlhttprequest
 ||comunicaciones.davivienda.com.pa^
 ||comunicaciones.daviviendacorredores.com^
 ||comunicazioni.bancamediolanum.it^
@@ -31648,6 +31651,7 @@ zznews.cn##.ad:not([style])
 ||dreamrecord.cn^
 ||dreamsky.xin^
 ||dreamware.com.cn^
+||drebz4f.shop^
 ||dressexpansion.com^
 ||drfdisvc.walmart.com^
 ||drift.com/impressions/
@@ -35345,6 +35349,7 @@ zznews.cn##.ad:not([style])
 ||gycy2.com^
 ||gyeet.com^
 ||gyjinchuang.vip^
+||gykj.xyz^
 ||gyrenmai.icu^
 ||gyro-n.com^$third-party
 ||gyt168.com.cn^
@@ -37012,6 +37017,7 @@ zznews.cn##.ad:not([style])
 ||img*.bet007.com/image/*.gif
 ||img*.hc360.com^*.swf
 ||img*.win007.com/image/*.gif
+||img-static.com/CERISE.gif?
 ||img.*mk.cn^$domain=avtbf.com
 ||img.0279.net^
 ||img.0594.com/20*.gif
@@ -38745,6 +38751,7 @@ zznews.cn##.ad:not([style])
 ||jss.tvzhe.com^
 ||jsshuiyuan.com^
 ||jsszxx.com^
+||jstc.top^
 ||jstdjq.com^
 ||jstracker.com^$third-party
 ||jsuol.com.br/aud/$script
@@ -39753,6 +39760,7 @@ zznews.cn##.ad:not([style])
 ||lddt.de^$third-party
 ||ldgxsr.locasun-vp.fr^
 ||ldinry.drinks.ch^
+||ldlc.com/V4px/js/ldlcmachine.js
 ||ldnlyap.com^
 ||ldogre.top^
 ||ldqbuy.sport-express.ru^
@@ -40030,6 +40038,7 @@ zznews.cn##.ad:not([style])
 ||liczniki.org/hit.php
 ||lidebo.com^
 ||lidongyang.shop^
+||liebian888.site^
 ||liecso.e-himart.co.kr^
 ||liepin.com/event/jobadver/
 ||lieqinews.com/json/zhiketj/
@@ -57855,6 +57864,7 @@ zznews.cn##.ad:not([style])
 ||xbiquge.net/3744tj
 ||xbiqugecc.com/bcc/
 ||xbiquwx.la/0DayigNJ^
+||xbqi.xin^
 ||xbtw.com^
 ||xbwpfs.fotocasa.es^
 ||xc.ejboayh.cn^
@@ -58016,6 +58026,7 @@ zznews.cn##.ad:not([style])
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
+||xiantai.xyz^
 ||xianwei.tech^
 ||xianweidang.cc^
 ||xianxhwy.com^
