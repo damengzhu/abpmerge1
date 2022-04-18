@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-17 16:22:40
-! Total count: 61678
+! Version: 2022-04-18 01:41:36
+! Total count: 61680
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1174,6 +1174,7 @@
 ##a[href*=".hthvip36.com"]
 ##a[href*=".htvip24.app"]
 ##a[href*=".htvip27.app"]
+##a[href*=".huluhuluhuluhulu8.work"]
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".iziyo.com/"]
@@ -1302,6 +1303,7 @@
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
+##a[href*="/mt86k.xyz"]
 ##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
 ##a[href*="/nomvzs.com/"]
@@ -1521,7 +1523,7 @@ $image,third-party,domain=258zw.com
 $image,third-party,domain=avtb6677.com|lady1.top
 $image,third-party,domain=lady1.top
 $ping,third-party
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mnks.jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=downdv.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=webkaka.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
@@ -9423,7 +9425,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||baidu.com/cse/search?$domain=16xx8.com
 @@||baidu.com/customer_search/api/
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com
+@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com|seo.chinaz.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|tanmizhi.com
 @@||baidu.com/share/count?
@@ -10620,6 +10622,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
 @@||share1223.com^$generichide
+@@||shijue.me/advertise/getList?
 @@||shine.cn/showadcode2.asp?posid=68&
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
@@ -12313,7 +12316,6 @@ cctime.com##.nav_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com##[id^="div-gpt-ad-"],[src^="http://pubads.g.doubleclick.net/gampad/"],.adv
-cctv.com,ddrk.me,miguvideo.com##+js(aeld,dblclick,isImmediatePropagationStopped)
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhangjunseo.com,zhujiceping.com##.advert
 ce.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhujiceping.com##.advert
 ceiea.com##.adclass2019
@@ -14986,7 +14988,6 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
-iqiyi.com##+js(aeld,dblclick,t.fullToggle)
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 iqiyi.com##.adBanner980
@@ -16829,7 +16830,6 @@ pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
 pan.baidu.com,music.baidu.com,yun.baidu.com##[class|=ad]
-pan.baidu.com,v.qq.com,www.bilibili.com##+js(aeld,ratechange,/^(?!.*?localStorage\.mvPlayRate).*$/)
 pan.baidu.com,yun.baidu.com##[id^="share-ad-"],A#share_ad_info_panl,div[id^="cpro_"],img.share-center,.ad-platform-tips,.banner-active
 pan666.cn##.footer > .containerNarrow
 panc.cc##iframe[height="148"]
@@ -17264,7 +17264,6 @@ qq.com##+js(aopr, Beacon.prototype.fail)
 qq.com##+js(json-prune,adList.item)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
-qq.com##+js(nosiif,/^/,100)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -17331,12 +17330,12 @@ qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
 qq.com#@#.side_ad
-qq.com,huya.com,yy.com,le.com##+js(nowebrtc)
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
 qq.com,sogou.com##.m[pbflag="bt_mai"]
 qq.com,sogou.com##div[pbflag="bt_newsb_ad"]
 qq.com,sogou.com##div[pbflag="coolsitefeed_ad"]
 qq.com,yxad.com##.l_qq_com
+qq.com,yy.com,le.com##+js(nowebrtc)
 qq.com/bbs/##div.wp.a_f
 qq6080.com##.adh60
 qqaiqin.com#@#.ad_468
@@ -17998,7 +17997,6 @@ sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.qq.com##div.nwrap,div.ad-type-a,.oBanner,#banner,.topBnaner,[href^="http://iwan.qq.com/ad/"],[class="layout mt35"],[class^="ad-type-"],.mod-ad-full,#midExtension
-sports.qq.com,v.qq.com#@#+js(nosiif,/^/,100)
 sportscn.com##[class$="ads"],[class^="ad"],[height="160"],[height="50"],.bnr,#topbanner
 sportsv.net##.article-ad,.article-ad2,.leftside-banner,#ad-big-top,.box.ad
 sportsv.net##.box.ad
@@ -25007,7 +25005,6 @@ zznews.cn##.ad:not([style])
 ||altervista.org/js_tags/contatore.js
 ||altervista.org/stats/
 ||altervista.org^*/tb_hits_
-||altmetric.com^$third-party
 ||altopd.com^
 ||altpool.pro^$third-party
 ||alu.cn*/aluad/
@@ -26150,6 +26147,7 @@ zznews.cn##.ad:not([style])
 ||avantlink.com^$third-party
 ||avapartner.com^$third-party
 ||avapp.tv
+||avased6.com^
 ||avastats.com^$third-party
 ||avaz.ba/update/hits/
 ||avazudsp.net^$third-party
@@ -28370,6 +28368,7 @@ zznews.cn##.ad:not([style])
 ||ceiyo.com^
 ||celebros-analytics.com^$third-party
 ||celebrus.com^$third-party
+||celestebeverly.com^
 ||celigo.actonservice.com^
 ||cellstats.mako.co.il^
 ||census.misterspex.at^
@@ -31191,7 +31190,6 @@ zznews.cn##.ad:not([style])
 ||dilidili.wang/images/shouye/h5game_a.js
 ||dilidili.wang/tempBackup/js/main_video.js
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
-||dimensions.ai^$third-party
 ||dimensions.mappy.com^
 ||dimestore.com^$third-party
 ||dimml.io^$third-party
@@ -44066,6 +44064,7 @@ zznews.cn##.ad:not([style])
 ||nrich.ai^$third-party
 ||nrk.no^*/stats/
 ||nrsfh.com/neirong/
+||nrxduw5.com^
 ||ns-cdn.com^*/ns_vmtag.js
 ||ns-zhy.com^
 ||ns.machinevision-getter.net.zooplus.it^
@@ -47999,6 +47998,7 @@ zznews.cn##.ad:not([style])
 ||sayutracking.co.uk^$third-party
 ||sayyac.com^$third-party
 ||sayyac.net^$third-party
+||sb6688.xyz^
 ||sbbanalytics.com^$third-party
 ||sbbd1.qulishi.com^
 ||sbeacon.sina.com.cn/e.gif
@@ -54888,6 +54888,7 @@ zznews.cn##.ad:not([style])
 ||tukeai.com^
 ||tukexiu.com^
 ||tukj.net^
+||tukkpixabay.com^
 ||tukuru.cotta.jp^
 ||tulip18.com^$third-party
 ||tumblebirds.com^
@@ -55039,6 +55040,7 @@ zznews.cn##.ad:not([style])
 ||tzlit.cn^
 ||tzuyruz.cn^
 ||tzwaw.pw^
+||tzxmhi.com^
 ||u-on.eu^$third-party
 ||u.63kc.com^
 ||u.801t.com^$third-party
