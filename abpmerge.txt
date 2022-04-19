@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-19 01:37:59
-! Total count: 61718
+! Version: 2022-04-19 08:21:25
+! Total count: 61726
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -914,6 +914,9 @@
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
+##[alt='52bl']
+##[alt='ACG里番']
+##[alt='西瓜社']
 ##[class*="isboostSideSlideShow"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 ##[class][onclick="window.location.href='https://www.suyuexs.com'"]
@@ -960,6 +963,7 @@
 ##[href='https://www.100cup.com/'],[href^='https://beizidalu.com']
 ##[href='https://www.ivyelite.net/school-cooperation/']
 ##[href='https://www.kissyvape.com/']
+##[href='https://www.riqingxs.com/']
 ##[href='https://xiaoya358.com']
 ##[href='javascript:GoDb58649();']
 ##[href='javascript:GoTp();']
@@ -19800,6 +19804,7 @@ yeah.net##[id$="_dvPrmot"]
 yeecloud.com###adFirefox
 yeeyi.com##.boardnav > #ct > .sd
 yeeyi.com##.sd.pph > .mbm.hm
+yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
 yes-news.com###adsc3
 yes-news.com###adsc4
 yes-news.com###content-728
@@ -21193,6 +21198,7 @@ zznews.cn##.ad:not([style])
 ||234y.com^
 ||235123.net^
 ||235123.net^$third-party
+||23532451.com^
 ||239300.net/template/*_mh_gg
 ||2398.pw
 ||23aitt.com/zz/
@@ -38224,6 +38230,7 @@ zznews.cn##.ad:not([style])
 ||jfy-stone.cn^
 ||jfzx.tv/js/sb/
 ||jg0c.sfr.fr^
+||jg88.wang^
 ||jgchq.com^
 ||jgcq3003.com^
 ||jghcy.com^
@@ -40348,6 +40355,7 @@ zznews.cn##.ad:not([style])
 ||liuhemei.com.cn^
 ||liujiaqi.top^
 ||liulanliang.cn^
+||liulianshangmao.top^
 ||liuliguo.com^
 ||liunxgroup.top^
 ||liupan.asia^
