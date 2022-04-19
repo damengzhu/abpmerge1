@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-18 16:26:08
-! Total count: 61700
+! Version: 2022-04-19 01:37:59
+! Total count: 61718
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1523,7 +1523,7 @@ $image,third-party,domain=258zw.com
 $image,third-party,domain=avtb6677.com|lady1.top
 $image,third-party,domain=lady1.top
 $ping,third-party
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mnks.jxedt.com|mimima.com|rmdown.com|soyunpan.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=downdv.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=webkaka.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
@@ -3517,6 +3517,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /assets/js/adAdsense.js
 /assets/js/common/discor.js
 /assets/sidebar/*$domain=v2ex.com
+/assets/smarttag-$script
 /assets/t_j/tongji.js
 /assets/tracking-
 /assets/uts/*
@@ -3528,6 +3529,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /asweb/web/images/flash.
 /async/stat|
 /asyncggtracking.
+/async~sentry-
 /at.gif?
 /atapixel.js
 /atatus.js
@@ -5000,6 +5002,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /geolocation?utm_
 /geomap.js?
 /geov2.js
+/get-pro/*&fingerprint=
 /get-tracking-data
 /get?affid=$script
 /get?api=login.*,app.*,env.*,connection.*,screen.*,video.*
@@ -5728,6 +5731,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /layer/*$domain=bejson.com
 /layer_log.php?p=
 /lbi_ga.
+/lc-sentry.
 /ldsimp_wf?
 /lead-tracking.
 /lead-tracking/*
@@ -8125,6 +8129,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /trackjs6.
 /trackjs_
 /trackk-1.
+/tracklib.min.js
 /tracklog.
 /trackmerchant.js
 /trackmvisit?
@@ -8143,6 +8148,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /trackstats?
 /trackstats|
 /tracksubprop.
+/trackui.min.js
 /trackuity.
 /trackv&tmp=
 /trackvisit?
@@ -8423,6 +8429,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /visitor/identity?
 /visitorCookie.
 /visitor_id.jsp
+/visitor_info?
 /visitorcountry.svc/*
 /visitors/screencount?
 /visitortrack?
@@ -10402,7 +10409,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
-@@||optimizely.com/datafiles/$domain=talktalk.co.uk
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
@@ -21096,6 +21103,7 @@ zznews.cn##.ad:not([style])
 ||2020mustang.com^
 ||2021.dxsbb.com^
 ||2022aaa.xyz^
+||2022welcome.com^
 ||2048hd1.com/js/tc.js
 ||204st.us^$third-party
 ||206solutions.com^$third-party
@@ -26539,6 +26547,7 @@ zznews.cn##.ad:not([style])
 ||baj.fanwenzhan.com^
 ||bakbb.com^
 ||bakercommunications.actonservice.com^
+||baking.ren^
 ||balancemailbox.com^
 ||ballantine.actonservice.com^
 ||ballbar.cc/images/bb/
@@ -29136,6 +29145,7 @@ zznews.cn##.ad:not([style])
 ||cmsjs.eastmoney.com^$subdocument
 ||cmstool.youku.com^
 ||cmta.yangkeduo.com^
+||cmvideo.cn/v1/iflyad/delivery$media,domain=miguvideo.com
 ||cmxsw.com/sz/
 ||cmyx.xyz^
 ||cmz2.stm65i8.com^
@@ -33460,6 +33470,7 @@ zznews.cn##.ad:not([style])
 ||fds.api.xiaomi.com/plato-banner^
 ||fdt.kraken.com^
 ||fdxstats.xyz^$third-party
+||fdxydnu.cn^
 ||fearfowl.com^
 ||fearfulfish.com^
 ||fearlessfaucet.com^
@@ -35043,6 +35054,7 @@ zznews.cn##.ad:not([style])
 ||govtoutiao.cn^
 ||govxian.cn^
 ||govxinjiang.cn^
+||govxinjing.cn^
 ||govyunfu.cn^
 ||govzhejiang.cn^
 ||gowatchit.com/analytics.js
@@ -39600,6 +39612,8 @@ zznews.cn##.ad:not([style])
 ||la/style/vue.js?v=
 ||la7.it/js-live/nielsen1.js
 ||labuladong.github.io/algo/pictures/ad/
+||lacentrale.fr/collect
+||lacentrale.fr/static/fragment-layout/tracking-
 ||lacinfo.motorolasolutions.com^
 ||lackadaisicalkite.com^
 ||ladghy.jcb.co.jp^
@@ -46026,6 +46040,7 @@ zznews.cn##.ad:not([style])
 ||promo.old.legacy.tester.net.zooplus.com^
 ||promo.skf.com^
 ||promocsr41.net.zooplus.de^
+||promoneuve.fr/stat/
 ||promoowa.net.zooplus.fr^
 ||promopassage.com^
 ||promos.trustedtours.com^
@@ -48163,6 +48178,7 @@ zznews.cn##.ad:not([style])
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
 ||scws.120ask.com^
+||sd-tagging.azurefd.net^
 ||sd.securitasdirect.fr^
 ||sd.shtiesen.cn^
 ||sd124.com/statics/mystyle/js/1699.js
@@ -48220,6 +48236,7 @@ zznews.cn##.ad:not([style])
 ||sdrenbang.com^
 ||sdrive.skoda-auto.com^
 ||sdskj.club^
+||sdtagging.azureedge.net^
 ||sdtieta.com^
 ||sdurhnd.com^
 ||sdw8vzd.cn^
@@ -58407,6 +58424,7 @@ zznews.cn##.ad:not([style])
 ||xt.persosa.com^
 ||xt2d.cn^
 ||xt918.com^
+||xtb.ink^
 ||xtcake.com$third-party
 ||xtdzkj.cn^
 ||xtgreat.com^
