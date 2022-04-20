@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-20 08:23:54
-! Total count: 61743
+! Version: 2022-04-20 16:27:41
+! Total count: 61744
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -5263,6 +5263,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hotphone.myzaker.com/refresh_ad.php
 /hotvideo/res/js/video_plugin_
 /housead*
+/hoverIntent.min.js
 /hpanalytics_
 /hpmetrics.
 /hrtrackjs.gif?
@@ -5972,7 +5973,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ma.gif?cc=
 /macplus/ads/*
 /madAnalytics.js
-/magento2.
+/magento2.js
 /magiq-
 /magnet/render.
 /mail-tracking/*$image
@@ -10415,7 +10416,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||openad.oss-cn-shanghai.aliyuncs.com^$domain=yicai.com
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
-@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
@@ -34416,7 +34417,7 @@ zznews.cn##.ad:not([style])
 ||gbtracking.finning.com^
 ||gbwzrcymfmvym.bid
 ||gbzumh.cn^
-||gc.newsweek.com^
+||gc.newsweek.com/front/js/counter.js
 ||gc.zgo.at^$third-party
 ||gcaog.com^
 ||gccode.gongchang.com^
@@ -53147,6 +53148,7 @@ zznews.cn##.ad:not([style])
 ||thetimes.co.uk/track?
 ||thetopfivevpn.com/tv5appf5cc137e72b40469905a.js
 ||thewhizproducts.com^$third-party
+||thewindowsclub.com^*/skip-links.min.js
 ||thewise.com^$third-party
 ||thickticket.com^
 ||thicktrucks.com^
@@ -54611,7 +54613,6 @@ zznews.cn##.ad:not([style])
 ||tracy.sadv.dadapro.com^
 ||tradablebits.com/pixels/
 ||tradeadexchange.com^
-||tradedoubler.com^$third-party
 ||tradelab.fr^$third-party
 ||tradescape.biz^$third-party
 ||tradeshows.aem.org^
