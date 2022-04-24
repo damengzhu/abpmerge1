@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-24 01:19:15
-! Total count: 61799
+! Version: 2022-04-24 08:20:25
+! Total count: 61802
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1465,6 +1465,7 @@
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
 ##img#adv1
+##img#hth[onclick$="hth.html')"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".5408h.cn"]
@@ -9096,7 +9097,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
 @@_adview_$domain=muzlan.top
-@@_cpa_adview_$domain=52xkdy.com
+@@_adview_cpc_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@f*.baidu.com/it/u=*,*&fm=*JPEG
 @@f*.baidu.com/it/u=*,*&fm=*PNG
@@ -36185,6 +36186,7 @@ zznews.cn##.ad:not([style])
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
+||hntk.top^
 ||hntymg.com^
 ||hnwjlhg.cn^
 ||hnxahz.com^
@@ -48315,6 +48317,7 @@ zznews.cn##.ad:not([style])
 ||sea-nov-1.com^$third-party
 ||seadform.net^
 ||seahorseinfo.agilent.com^
+||seainan333.com^
 ||seal.digicert.com^$third-party
 ||seal.globalsign.com^$third-party
 ||seal.godaddy.com^$third-party
