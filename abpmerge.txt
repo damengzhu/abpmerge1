@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-26 01:39:36
-! Total count: 61855
+! Version: 2022-04-26 08:21:58
+! Total count: 61864
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3459,7 +3459,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /api/log?
 /api/lt/ref?
 /api/metrics$other
+/api/pageactivity
 /api/pageview?
+/api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
 /api/stat?
@@ -6555,8 +6557,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pic/fgr/*
 /picad*
 /picad/*$domain=~ychr.com
-/ping.gif?
 /ping.gif?$domain=gamestar.de
+/ping.gif?$domain=~mega689.com
 /ping.php?sid=
 /ping.png?session=
 /ping/?p=
@@ -10628,6 +10630,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||seasungame.com/ad/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
+@@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||securemetrics.apple.com/b/ss/$image
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
@@ -16555,7 +16558,8 @@ mydrivers.com##.news_xg + style + div
 mydrivers.com##.taobao_tab
 mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*=".ashx?to="]
-mydrivers.com##a[style][href*=".jd.com/"]
+mydrivers.com##a[href*=".jd.com/"]
+mydrivers.com##a[href*="/zt.ashx"]
 mydrivers.com##div#code_lb.code_lb,TABLE[width="998"][height="90"],TABLE[width="1000"][height="90"],DIV.menu + DIV.baidu_box,#hsb_go,#dangbei_down,[id^="a_showhotnews_list"],[style^="width:1100px; height:90px;"],[class^="ad"],[style^="width:468px; height:60px;"],#recommend.news_xg
 mydrivers.com##div[id$="_tab"] > ul > li:first-child
 mydrivers.com##div[style*="/ad/"]
@@ -21288,6 +21292,7 @@ zznews.cn##.ad:not([style])
 ||2829i2p88jx.www.csaladinet.hu^
 ||283.laobanfa.com^
 ||2886115.com^
+||288family.club^
 ||2898.com^$third-party
 ||28acglz.com^
 ||28hse.com/adsman/www/images/
@@ -33152,6 +33157,7 @@ zznews.cn##.ad:not([style])
 ||events.whisk.com^
 ||events.yourcx.io^
 ||events3.adccache.cn/t/5.0^$app=com.iwantavnow
+||eventstream.dodopizza.com^
 ||eventtracker.videostrip.com^$third-party
 ||eveonline.com/redir.asp$third-party
 ||everestjs.net^$third-party
@@ -34792,7 +34798,7 @@ zznews.cn##.ad:not([style])
 ||global-media.de^*/track/ai.img
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net/native/
-||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
+||global.ssl.fastly.net^$script,domain=10play.com.au|allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globalbanking.wolterskluwer.com^
 ||globalcommunications.sc.com^
 ||globalmed.actonservice.com^
@@ -39372,6 +39378,7 @@ zznews.cn##.ad:not([style])
 ||kkbiqu2.com/js/yuedu.js
 ||kkcaicai.com^
 ||kkddlt2f.site^$third-party
+||kkeji.com/img/2005/m_info_720.png
 ||kkjiaofei.com^
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -39862,6 +39869,7 @@ zznews.cn##.ad:not([style])
 ||lddt.de^$third-party
 ||ldgxsr.locasun-vp.fr^
 ||ldinry.drinks.ch^
+||ldks.cc/static/js/common.
 ||ldlc.com/V4px/js/ldlcmachine.js
 ||ldnlyap.com^
 ||ldogre.top^
@@ -47385,6 +47393,7 @@ zznews.cn##.ad:not([style])
 ||reportlog.dftoutiao.com^
 ||reports-api.sqreen.io^
 ||reports.pagesuite-professional.co.uk^
+||reports.sdiapi.com^
 ||reportsk.web.sdo.com^
 ||representativeray.com^
 ||represented.cn^
@@ -53512,7 +53521,6 @@ zznews.cn##.ad:not([style])
 ||tkshyp.com^
 ||tkvied.levi.com.my^
 ||tkvxdj.cars.com^
-||tkx.mp.lura.live^
 ||tl.tradetracker.net^
 ||tl813.com^$third-party
 ||tl86tv.com/52
@@ -58958,6 +58966,7 @@ zznews.cn##.ad:not([style])
 ||yhjzg.cn^
 ||yhkiain.cn^
 ||yhkt.online^
+||yhp4an7.cn^
 ||yhpknxzspo8a.kvest.ee^
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
