@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-25 16:24:34
-! Total count: 61844
+! Version: 2022-04-26 01:39:36
+! Total count: 61855
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1342,6 +1342,7 @@
 ##a[href*="itoon.app"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
+##a[href="/ad/sh.html"]
 ##a[href="/ad2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
@@ -6013,6 +6014,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /md.js?country=
 /mdwtc/click_thru/*
 /measure/data-capture/*
+/measure/pixel/*
 /measure/spring.
 /measure/visit/*
 /measurement/access/contents?
@@ -13310,6 +13312,7 @@ dysfz.cc##[class^="adv-"],[class^="adv_"]
 dytt5.net##.detail-body > .fly-panel
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 dyxia.com##[id^="qj960"],#xinxi
+dyxs15.com,dianying.im##.popup,.shortcuts-mobile-overlay
 dz19.net##.a_mu,.a_h,.a_f
 dzbhdm.net##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.net##a[href*=".weixin.qq.com/"]
@@ -21662,12 +21665,14 @@ zznews.cn##.ad:not([style])
 ||4336wang.cn^
 ||43423.com/template/skin1/images/g_js/
 ||4399.com/baiduad/
+||4399.com/js/4399stat.js
 ||4399.com/js/rice/m.js
 ||4399.com/jss/*coup.js
 ||4399.com/loadimg/iframe_
 ||4399.com/loadimg/loading.htm
 ||4399.space^
 ||4399sj.com^*/mask-ad
+||4399stat.5054399.com^
 ||4438x*.com/Runtime/js/
 ||4466.com/4466/
 ||4480dy.net^
@@ -31851,6 +31856,7 @@ zznews.cn##.ad:not([style])
 ||dvb.pandora.xiaomi.com^
 ||dvdsbee.cn^
 ||dvghns.idealista.it^
+||dvnfo.com^$third-party
 ||dvo.assurandme.fr^
 ||dvr8.com^
 ||dvrxgs.fc-moto.de^
@@ -33961,6 +33967,7 @@ zznews.cn##.ad:not([style])
 ||fqsecure.com^$third-party
 ||fqtfkf.cn^
 ||fqtra.com^
+||fqxkj.cn^
 ||fr.sharpmarketing.eu^
 ||fragment.firefoxchina.cn/html/
 ||frailflock.com^
@@ -36767,6 +36774,7 @@ zznews.cn##.ad:not([style])
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ibt.com/front/js/counter.js
+||ibzgcrusher.com^
 ||ic-live.com^$third-party
 ||ic.aliyune.xyz^
 ||ic.snssdk.com/*/article/information/
@@ -48795,6 +48803,7 @@ zznews.cn##.ad:not([style])
 ||sgftrrs.com^
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
+||sglyd.cn^
 ||sgnxcn.omni7.jp^
 ||sgphctileh-a.akamaihd.net^
 ||sgtld.cn^
@@ -52244,6 +52253,7 @@ zznews.cn##.ad:not([style])
 ||sumome.com^$third-party
 ||sums.suning.com^$third-party
 ||sun0769.com^*sungg/File/$script
+||sun66387567606.online^
 ||sunang37.cn^
 ||sundady.online^
 ||sundaysky.com/sst.gif?
@@ -58757,6 +58767,7 @@ zznews.cn##.ad:not([style])
 ||yangtingchina.com^
 ||yangtzeev.com^
 ||yanguomedia.top^
+||yangxu.store^
 ||yangzhenpeng.top^
 ||yangzheqing.cn^
 ||yangzxsh.top^
