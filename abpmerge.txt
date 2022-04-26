@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-26 08:21:58
-! Total count: 61864
+! Version: 2022-04-26 16:25:41
+! Total count: 61885
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -353,6 +353,7 @@
 ###tripadvisor-ad
 ###upprev_box
 ###videoADPIC
+###whYuTlxF
 ###widget-quan
 ###windlocation
 ###wp > .V-video-floats
@@ -1208,6 +1209,7 @@
 ##a[href*=".wensixuetang.com/"]
 ##a[href*=".wjLkj.com/"]
 ##a[href*=".woyicanyin.com"]
+##a[href*=".wpwpquse.cn/"]
 ##a[href*=".wuyichunqiu.com/"]
 ##a[href*=".xinghuolm.top"]
 ##a[href*=".xingxingdm.com:"]
@@ -9529,6 +9531,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||c.mipcdn.com^$domain=77dushu.com|biqugecom.com|prpcoin.com|zhetian.org
 @@||c.mipcdn.com^$domain=77dushu.com|biqugesc.com|prpcoin.com
 @@||c.paypal.com/da/r/fb.js$script
+@@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||c5n.com^*/angulartics-google-analytics.min.js
 @@||cache.tv.qq.com/gg/
 @@||cachead.com/*.css
@@ -10184,6 +10187,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kfcclub.com.tw/web/*/ad
 @@||kfcorder.com.tw/web/Script/Analytics.js
 @@||kfcorder.com.tw^*/Advert
+@@||killcovid2021.com/*/*.mp4
 @@||kissjav.com^$generichide
 @@||kk665403.pixnet.net^$generichide
 @@||klpinteraktiv.klp.no^*/Tracking.js?
@@ -10432,6 +10436,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||orientaldaily.on.cc/js/oncc-ad.js
+@@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||ozone.ru/assets/analytics.$script,~third-party
@@ -10962,6 +10967,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||websetnet.com^$generichide
+@@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weibo.com/adshow/
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
@@ -21764,6 +21770,7 @@ zznews.cn##.ad:not([style])
 ||5151ad.com^
 ||5155dd.com/js/jquery.js
 ||5155dd.com/js/mobile.js
+||516624.com^
 ||51688.cc
 ||51688.cc/ya/
 ||516fanli.com^
@@ -22609,7 +22616,6 @@ zznews.cn##.ad:not([style])
 ||91nrtt.com/vod/
 ||91p20.space/fans/
 ||91p20.space^
-||91p52.com/movie.mp4
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91taojin.com^
@@ -24758,6 +24764,7 @@ zznews.cn##.ad:not([style])
 ||aiyyu.com^
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
+||aj.drebz4f.shop^
 ||ajaralarm.com^
 ||ajaxcdn.org^
 ||ajbeqy.delfi.lt^
@@ -25994,6 +26001,7 @@ zznews.cn##.ad:not([style])
 ||asimgs.cp61.ott.cibntv.net/imgs/materials/
 ||asimgs.pplive.cn/imgs/materials/
 ||ask.legalsolutions.thomsonreuters.info^
+||askdfjk.qiangquanvip.com^
 ||askdfjkls.moxiaoqihuoguo.com^
 ||askdjfsl.alictibet.com^
 ||askfsh.cn^
@@ -28592,6 +28600,7 @@ zznews.cn##.ad:not([style])
 ||chenqinghui.xyz^
 ||chenshengyu.cn^
 ||chenvq.cn^
+||chenwang.top^
 ||chenyanjiao.cn^
 ||chenyaxin.xyz^
 ||chenzx.site^
@@ -35508,6 +35517,7 @@ zznews.cn##.ad:not([style])
 ||h9k9.com^
 ||haberler.com/dinamik/
 ||habitualhumor.com^
+||habkjav.cn^
 ||habyc.com^
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
@@ -35926,6 +35936,7 @@ zznews.cn##.ad:not([style])
 ||hf.hflwgg.xyz^
 ||hf.hushenqiquan.com^
 ||hf.itxinrou.com^
+||hf.shenfagg.com^
 ||hf365.com/0/13/79/87/13798795_912593.jpg
 ||hf365.com/0/14/31/00/14310068_933922.png
 ||hf365.com/0/14/60/93/14609355_921128.jpg
@@ -39328,6 +39339,7 @@ zznews.cn##.ad:not([style])
 ||kikinote.net/iframe
 ||kiks.auto.ru^
 ||kilin.xyz^
+||killcovid2021.com/*.mp4
 ||killerwebstats.com^$third-party
 ||kilometrix.de^$third-party
 ||kingkongapp.com^*/web/adv/list?
@@ -40538,6 +40550,7 @@ zznews.cn##.ad:not([style])
 ||lke.liuchengming.com^
 ||lkjbrd.signals.com^
 ||lkjk8jdk2.jnwpzq.com^
+||lkkskdkfjdk.qiangquanvip.com^
 ||lkle.top^
 ||lkluoz.saraceniwines.com^
 ||lkm.bangyuandianzi.top^
@@ -41975,8 +41988,10 @@ zznews.cn##.ad:not([style])
 ||mbx.tt3edd.com^
 ||mbxt.net^
 ||mc.a48505.cn^
+||mc.aefmbeq.cn^
 ||mc.bruker.com^
 ||mc.kmhmyaj.cn^
+||mc.lingcde.cn^
 ||mc.maljxp.cn^
 ||mc.meaqcj.cn^
 ||mc.mmkkhhnn.cn^
@@ -41984,6 +41999,7 @@ zznews.cn##.ad:not([style])
 ||mc.mssdhde.cn^
 ||mc.muhtbnd.cn^
 ||mc.nithisp.cn^
+||mc.ohchehw.cn^
 ||mc.tohpeu.cn^
 ||mc.tvzhe.com^
 ||mc.wbesryx.cn^
@@ -42678,6 +42694,7 @@ zznews.cn##.ad:not([style])
 ||mg.rywnvzd.cn^
 ||mg.shengminsy.com^
 ||mg.tumeite.cn^
+||mg.yhp4an7.cn^
 ||mg.yunchong6.cn^
 ||mg.zgcqxjzny.cn^
 ||mg.zpwansf.cn^
@@ -45320,6 +45337,7 @@ zznews.cn##.ad:not([style])
 ||perfalytics.com^$third-party
 ||perfdrive.com/aperture/aperture.js
 ||perfdrive.com^$third-party
+||perfect999.site^
 ||perfectaudience.com^$third-party
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
@@ -45845,6 +45863,7 @@ zznews.cn##.ad:not([style])
 ||pluto.r.powuta.com^
 ||plwan.com^
 ||pm.birjkhm.cn^
+||pm.i7pnx0t.cn^
 ||pm.mdkjefq.cn^
 ||pm.pexnjio.cn^
 ||pm.redbull.com^
@@ -46551,6 +46570,7 @@ zznews.cn##.ad:not([style])
 ||qhimg.com^$domain=1024pm.com|hero3g.com
 ||qhimgs1.com/t029762bc960d5104ef.jpg
 ||qhl.bealge.sogou.com^
+||qhlmb.com^
 ||qhmsg.com^$domain=1024li.com
 ||qhmsg.com^$domain=1024pm.com
 ||qhnews.com/tupian/
@@ -57726,6 +57746,7 @@ zznews.cn##.ad:not([style])
 ||www.sas15k01.com^
 ||www.scan6show.com^
 ||www.se-core-pipe.com^
+||www.seainan333.com^
 ||www.seatac15.com^
 ||www.service.cz.nl^
 ||www.shrfbdg004.com^
