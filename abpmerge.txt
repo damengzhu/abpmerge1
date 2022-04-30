@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-04-29 16:26:09
-! Total count: 61946
+! Version: 2022-04-30 01:43:41
+! Total count: 61959
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1213,6 +1213,7 @@
 ##a[href*=".woyicanyin.com"]
 ##a[href*=".wpwpquse.cn/"]
 ##a[href*=".wuyichunqiu.com/"]
+##a[href*=".xacg.info/"]
 ##a[href*=".xinghuolm.top"]
 ##a[href*=".xingxingdm.com:"]
 ##a[href*=".xlddz.net/"]
@@ -1401,6 +1402,7 @@
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body[class|="view"] > .ad-box
 ##body[onload*="u()"] > #x
+##button[onclick*=".xacg.info/"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
@@ -6257,6 +6259,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /newfengchao/asp
 /newhuagg/*
 /newlog.php?
+/newrelic-browser.
 /newrelic-google-
 /newrelic-gpt.
 /newrelic.browser.
@@ -10233,6 +10236,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||libs.baidu.com^$domain=0794.org|0biquge.com|12zw.la|138txt.net|18xs.org|1biqu.com|1kanshu.org|230book.net|23hh.com|23sk.com|23wxx.com|258zw.com|27xsw.com|30sy.cc|33yq.org|3yt.com|477zw.co|52biquge.com|5ccc.tw|63xs.org|73zw.cc|777zw.net|80xs.la|81book.com|81zw.me|877zw.com|99mk.com|aidusk.com|aixswx.com|aoyuge.com|baoshuu.com|biduoxs.com|bifeige.com|bimixsw.com|biqiugege8.com|biquav.com|biqudu.tv|biquge775.com|biquge98.net|biqugecd.com|biqugee.com|biqugesc.com|biquka.com|biqulu.net|biqusan.com|biquwx.la|biquym.com|bixia.org|bodekang.net|boluoxs.com|bqkan8.com|bshuku.com|bswtan.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|damengzhu1.com|datangjianshen.com|day66.com|ddxsku.com|dushuge.org|gdbzkz.com|guaili.org|guanshu.cc|hatxt.com|hbfie.org|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hongyeshuzhal.com|huixsw.com|hybquge.com|ibiquta.com|ibotaodz.com|imiaobige.com|ishisetianxia.com|ishubao.org|ixs.la|jianlaixiaoshuo.com|jx.la|kankezw.com|kkbiqu2.com|liewen.la|lindiankanshu.cc|liuxs.la|loubiqu.com|lwsktxt.com|lwtxt.net|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|piaotianxs.com|pksge.com|qbiqu.com|qbxs8.net|qianqianxsw.net|qianrenge.cc|qiuyewx.com|qr1234.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shenshuxs.la|shu008.com|shuhaiwu.com|shumil.co|shuquge.com|silukew.com|siluwx.org|sizhicn.com|sobiquge.com|soxscc.org|tangsanshu.com|ttzw.tv|tutengzw.com|txshuku.la|txtshuku.org|tycqge.com|u33.me|vipsk.org|wbxsw.com|wenxuem.com|wurexs.com|x23us.me|x81zw.co|xbiquge.la|xbiqugecc.com|xbiquke.com|xbqge.net|xdingdiann.com|xiaoshuwu5.com|xiaxs.la|xieyixs.com|xinshuhaige.net|xinxs.la|xs5200.com|xs98.com|xsbiqugew.com|xsqishu.com|xszww.com|xuanshu.com|xuehongxs.org|xyusk.com|yanqing888.org|yikanxiaoshuo.net|yruan.com|yssm.info|yunxs.com|zaodk.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zzs5.com
 @@||libs.baidu.com^$domain=m.supfree.net
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
+@@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^*/scripts/ads.js
 @@||linkstars.com/union/
@@ -24194,6 +24198,7 @@ zznews.cn##.ad:not([style])
 ||adget.cn^
 ||adglare.net^
 ||adglare.org$third-party
+||adgocoo.com^$third-party
 ||adgomob.com^
 ||adgreed.com^$third-party
 ||adgtx.club^
@@ -27827,6 +27832,7 @@ zznews.cn##.ad:not([style])
 ||bumlam.com^$third-party
 ||bunchance.com^
 ||bunchbox.co^$third-party
+||buondua.com/hit/
 ||bupt.info^
 ||burgerbrush.com^
 ||burnbubble.com^$third-party
@@ -29173,6 +29179,7 @@ zznews.cn##.ad:not([style])
 ||cm.bilibili.com/cm/api/conversion/mobile/v1
 ||cm.bilibili.com/cm/api/fees/wise
 ||cm.bilibili.com/mgk/page^
+||cm.bilibili.com^
 ||cm.informaengage.com^
 ||cm.passport.iqiyi.com^
 ||cmail19.com/t/$image,third-party
@@ -33140,6 +33147,7 @@ zznews.cn##.ad:not([style])
 ||events.audiate.me^
 ||events.avaya.com^
 ||events.brightline.tv^
+||events.btw.so^
 ||events.chaordicsystems.com^
 ||events.demoup.com^
 ||events.engage.cebglobal.com^
@@ -42403,6 +42411,7 @@ zznews.cn##.ad:not([style])
 ||metric.emerils.com^
 ||metric.fatcatalog.com^
 ||metric.fidmscholarshipfoundation.org^
+||metric.huya.com^
 ||metric.infoworld.com^
 ||metric.khkgears.us^
 ||metric.lake.jp^
@@ -42900,6 +42909,7 @@ zznews.cn##.ad:not([style])
 ||mipujia.com^$third-party
 ||miqiks.com^
 ||mir300.com/88a/
+||miraclejay.work^
 ||mirtesen.ru/js/ms.js
 ||mirvso.boggi.com^
 ||misc.pandora.xiaomi.com^
@@ -43854,7 +43864,6 @@ zznews.cn##.ad:not([style])
 ||netshare.ltd^
 ||netshelter.net^
 ||netstats.dk^$third-party
-||netu.wiztube.xyz^
 ||netupdater.info^$third-party
 ||netvigie.com^$third-party
 ||netzaehler.de^$third-party
@@ -44484,6 +44493,7 @@ zznews.cn##.ad:not([style])
 ||ogt.jp^$third-party
 ||ohayoo.io^$third-party
 ||ohjfk7jf28.gsjzlssws.com^
+||ohm-dot-hackster-io.appspot.com^
 ||ohmystats.com^$third-party
 ||ohnorobot.com/verify.pl?
 ||ohthub.com.cn^
@@ -46835,6 +46845,7 @@ zznews.cn##.ad:not([style])
 ||qq.com/bbs/m/p/a/bottom_banner.htm
 ||qq.com/checktime
 ||qq.com/code.cgi?
+||qq.com/collect/
 ||qq.com/collect?
 ||qq.com/coral/ADS
 ||qq.com/dataimport/
@@ -48031,6 +48042,7 @@ zznews.cn##.ad:not([style])
 ||s4.parkeren-haarlem.nl^
 ||s4.parkeren-utrecht.nl^
 ||s4e8.cascades.com^
+||s4zqj3m.cn^
 ||s5.cnzz.com^
 ||s7.qhres.com/static^$domain=m.haiduomi.com,third-party
 ||s7target.ru^$third-party
@@ -50890,6 +50902,7 @@ zznews.cn##.ad:not([style])
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
+||sp-wukong-tracker.b-cdn.net^
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.aviasales.com^
