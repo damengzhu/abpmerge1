@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-01 08:20:52
-! Total count: 61985
+! Version: 2022-05-01 16:24:25
+! Total count: 62002
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -912,9 +912,11 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
+##DIV#ad-index.col-12.position-relative
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:994px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
@@ -25982,6 +25984,7 @@ zznews.cn##.ad:not([style])
 ||artistchristinacarmel.ericksonbuilt.com^
 ||arts-cloud.net^
 ||aruba.it/servlet/counterserver?
+||as.dingyar.top^
 ||as.kuanxin.top^
 ||as.mirapodo.de^
 ||as.mytoys.de^
@@ -26009,6 +26012,7 @@ zznews.cn##.ad:not([style])
 ||asdklfjal.shanxicloud.net^
 ||asdklsdkfj.ahpengjie.com^
 ||asdsdvd4.com^
+||asf1v.vancuongthinh.com^
 ||ashow.pcpop.com^
 ||ashx/
 ||asiafriendfinder.comp
@@ -28499,6 +28503,7 @@ zznews.cn##.ad:not([style])
 ||cgicounter.oneandone.co.uk^
 ||cgicounter.onlinehome.de^
 ||cgicounter.puretec.de^
+||cgmalight.com^
 ||cgown.com^*/peiyinquan
 ||cgqkhc.trendyol.com^
 ||cgskqg.com^
@@ -35140,6 +35145,7 @@ zznews.cn##.ad:not([style])
 ||goutong.baidu.com^
 ||gouweida.cn^
 ||gouwupianyi.cn^
+||gouyb.mobi^
 ||govbeijing.cn^
 ||govchaozhou.cn^
 ||govchengdu.cn^
@@ -36173,6 +36179,7 @@ zznews.cn##.ad:not([style])
 ||hkcoding.com/img/
 ||hkdm688.*/js/68/
 ||hkdyys.cn^
+||hkep.fqxkj.cn^
 ||hkfuy.com^
 ||hkgolden.com/reqwads?s=
 ||hkhpnqciykaf.www.gamecamp.gg^
@@ -38525,6 +38532,7 @@ zznews.cn##.ad:not([style])
 ||jinshasi.cn^
 ||jinshenglong.cn^
 ||jinshui2018.chalook.net^
+||jintengli.mobi^
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
 ||jinxiangyu.ltd^
@@ -39484,6 +39492,7 @@ zznews.cn##.ad:not([style])
 ||kmib.co.kr/ref/
 ||kmindex.ru^$third-party
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
+||kmpl.rnqxp.cn^
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmpxq.cn^
 ||kmr.jiujigroup.top^
@@ -39513,6 +39522,7 @@ zznews.cn##.ad:not([style])
 ||knowledge.equitymethods.com^
 ||knowledge.theamericancollege.edu^
 ||knowledgevine.net^$third-party
+||kntb.sglyd.cn^
 ||knzqjr.pult.ru^
 ||ko3aql2d.zczcjx.com^$Script
 ||kochava.com/track/$third-party
@@ -39595,6 +39605,7 @@ zznews.cn##.ad:not([style])
 ||ktdlsb.com^
 ||ktkkt.com/js/tvb/
 ||ktracker.kumparan.com^
+||ktu.twdjn.cn^
 ||ktxtr.com^$third-party
 ||ktzhk.com/file/adv/
 ||ktzte.cn^
@@ -42985,6 +42996,7 @@ zznews.cn##.ad:not([style])
 ||mkk.red^
 ||mklik.gazeta.pl^
 ||mkmree.dmm.co.jp^
+||mkn.hlzyb.cn^
 ||mkoh.top^
 ||mkpzmq.crocs.ru^
 ||mksogv.oneclickdrive.com^
@@ -45382,6 +45394,7 @@ zznews.cn##.ad:not([style])
 ||pepsico.com.cn^
 ||peqvwk.notino.at^
 ||perceivequarter.com^$third-party
+||percent.pfiparts.com^
 ||percentmobile.com^$third-party
 ||percycle.com^$third-party
 ||perf-events.cloud.unity3d.com^
@@ -48403,7 +48416,6 @@ zznews.cn##.ad:not([style])
 ||sdhuiqian.cn^
 ||sdhzstone.net^
 ||sdjjr.com^
-||sdk.51.la^
 ||sdk.api.bjshcw.com^
 ||sdk.api.oaid.wocloud.cn^
 ||sdk.conf.igexin.com^
@@ -51278,7 +51290,9 @@ zznews.cn##.ad:not([style])
 ||ssl-metrics.tim.it^
 ||ssl-omtrdc.zexy.net^
 ||ssl.aafp.org^
+||ssl.ailehui9149.com^
 ||ssl.bbbr8.com^
+||ssl.linyiccic.com^
 ||ssl.o.emedicinehealth.com^
 ||ssl.o.mdedge.com^
 ||ssl.o.medhelp.org^
@@ -57614,17 +57628,20 @@ zznews.cn##.ad:not([style])
 ||www.govchongqing.cn^
 ||www.govguangxi.cn^
 ||www.govguilin.cn^
+||www.govguiyang.cn^
 ||www.govhangzhou.cn^
 ||www.govhebie.cn^
 ||www.govhechi.cn^
 ||www.govjieyang.cn^
 ||www.govkunming.cn^
 ||www.govlaibing.cn^
+||www.govlihu.cn^
 ||www.govliuzhou.cn^
 ||www.govshangxi.cn^
 ||www.govshenzhen.cn^
 ||www.govxian.cn^
 ||www.govxinjiang.cn^
+||www.govxinjing.cn^
 ||www.govyunfu.cn^
 ||www.govyunnan.cn^
 ||www.govzhajian.cn^
