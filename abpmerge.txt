@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-02 01:42:46
-! Total count: 62003
+! Version: 2022-05-02 08:23:28
+! Total count: 62020
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -916,6 +916,7 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:997px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
@@ -994,6 +995,7 @@
 ##[href^='https://aisite.wejianzhan.com/site/m.vip.com/']
 ##[href^='https://at.umtrack.com/']
 ##[href^='https://bvipsa.com']
+##[href^='https://dcc.sclanlian.com/cc/']
 ##[href^='https://detail.tmall.com/item.htm'][rel='nofollow']
 ##[href^='https://dt.mydrivers.com/qq.ashx']
 ##[href^='https://dt.mydrivers.com/zt.ashx']
@@ -9400,7 +9402,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
-@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
@@ -10628,10 +10630,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
 @@||sax.sina.com.cn/video/newimpress?
+@@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
-@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
@@ -27804,6 +27806,7 @@ zznews.cn##.ad:not([style])
 ||bttt.la/static/*960.js|$script
 ||btttag.com^$third-party
 ||btwan5.com^
+||btwuji.com/js2/
 ||btyou.com^
 ||btyou.com^$third-party
 ||bu1.duba.com^
@@ -30909,6 +30912,7 @@ zznews.cn##.ad:not([style])
 ||dc.stenaline.se^
 ||dc.stenalinetravel.com^
 ||dc.tremormedia.com^$third-party
+||dc.zj-yxw.com^
 ||dc1.networkbench.com^
 ||dc8na2hxrj29i.cloudfront.net^
 ||dc8xl0ndzn2cb.cloudfront.net^
@@ -31148,6 +31152,7 @@ zznews.cn##.ad:not([style])
 ||dg-hospital.com^
 ||dg.irco.com^
 ||dg.sawadeca.com^
+||dg.xxgslt.com^
 ||dg186.cn^
 ||dgaoz.com^
 ||dgbaozhuang.cn^
@@ -31813,6 +31818,7 @@ zznews.cn##.ad:not([style])
 ||dss8l0f.cn^
 ||dssdr.top^
 ||dssh.shop^
+||dstckjk.kinleung.cn^
 ||dsxdn.com^
 ||dsxgg.com^
 ||dszan.com^
@@ -33698,6 +33704,7 @@ zznews.cn##.ad:not([style])
 ||fi.bjxgw.top^
 ||fi.on-channel.com^
 ||fiduciaryfirst.actonservice.com^
+||fields.xdw9.top^
 ||fifthborder.com^
 ||fighsfg.cn^
 ||fiksu.com^$third-party
@@ -38160,6 +38167,8 @@ zznews.cn##.ad:not([style])
 ||izuis.com^
 ||izuiyou.com/ad^
 ||izzs.cc/wp-content/mm/
+||j.55555555555.xyz^
+||j.5idoy8p7.live^
 ||j.9136.com^
 ||j.aishangdaike.com^
 ||j.avz4.com^
@@ -38175,6 +38184,7 @@ zznews.cn##.ad:not([style])
 ||j.jixiangniutanrou.net^
 ||j.mmtu.top
 ||j.sdqoi2d.com^
+||j.sun66387567606.online^
 ||j.uu-xs.net^
 ||j.wesat.cn^
 ||j.wit.qq.com^
@@ -38353,6 +38363,7 @@ zznews.cn##.ad:not([style])
 ||jf.10010.com^
 ||jfgcxj.com^
 ||jfjsp.com^
+||jfn1v.skogsborg.net^
 ||jfp6.destinia.de^
 ||jfqkj.com^
 ||jfsdiwmnbsk003.top^
@@ -38683,6 +38694,7 @@ zznews.cn##.ad:not([style])
 ||jnqiangzhi.xyz^
 ||jnsdkjzs.com^
 ||jnsz.net.cn^
+||jnt.gxhzv.cn^
 ||jntmedia.cn$third-party
 ||jntmedia.cn^$third-party
 ||jnxiacha.cn^
@@ -38936,6 +38948,7 @@ zznews.cn##.ad:not([style])
 ||jtkshop.net^
 ||jttcbj.cn^
 ||jtu24k.aoqinglv.cn^
+||jtu24k.grandcomms.cn^
 ||jtwlj.cn^
 ||jtxh.net^
 ||jtxh.net^$third-party
@@ -45130,6 +45143,7 @@ zznews.cn##.ad:not([style])
 ||pagesocket.glam.com^
 ||pagetest.top^
 ||pageturnpro.com/tracker.aspx?
+||pageview.shenfire.cn^
 ||paginaseloqua.unisabana.edu.co^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
 ||paginebianche.it/ip?dv=
@@ -45533,6 +45547,7 @@ zznews.cn##.ad:not([style])
 ||pic.fengniao.com^
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.jd-bbs.com^*.swf
+||pic.lixiaodongcy.com^
 ||pic.ntxfr.cn/banner/*.jpeg$domain=m.shuquge.com
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
 ||pic.qiantucdn.com^$domain=soxx.cc
@@ -55901,6 +55916,7 @@ zznews.cn##.ad:not([style])
 ||vdianying.cc/img/zfbhb.png
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdisk.cn/img/*.gif
+||vdj1e.skogsborg.net^
 ||vdkjfd.hottopic.com^
 ||vdna-assets.com^$third-party
 ||vdo.ai/core/logger.php?
@@ -57959,6 +57975,7 @@ zznews.cn##.ad:not([style])
 ||www.you1ad.com^
 ||www.youjiq.club/js^
 ||www.youtube.com/ptracking?
+||www.youzonggw.com^
 ||www.yueyuego.com^
 ||www.yuyue008.cn^
 ||www.ywquyq.com^
