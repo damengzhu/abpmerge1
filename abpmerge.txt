@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-02 16:27:51
-! Total count: 62037
+! Version: 2022-05-03 01:45:26
+! Total count: 62044
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -917,7 +917,6 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
-##DIV[style=" max-width:997px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##IFRAME[src*="//pos.baidu.com/"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
@@ -1461,6 +1460,7 @@
 ##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:996px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:997px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
@@ -7559,6 +7559,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /stats/ping?
 /stats/pv.
 /stats/record.php?
+/stats/record/*
 /stats/search-log
 /stats/services/*
 /stats/survey.
@@ -10596,6 +10597,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
+@@||redbull.com/gtm.js
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
@@ -20023,6 +20025,7 @@ yxdown.com##.pc_down
 yxdown.com#@#.ad_l
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 yxingqiu.com###playertipian
+yxlady.com##.banner_simple
 yxlady.com##.game_wrap
 yxlady.com##.left_bottom_gg3
 yxlady.com##div.ot.leftgg_up,.leftgg2top,div.tab.rightgg01,div.ot.left_bottom_gg3,DIV[id^="f21ac82b21eeb7322631b6aa94e17f"],.adPostion,.m_w_1_right_1
@@ -25181,6 +25184,7 @@ zznews.cn##.ad:not([style])
 ||amplify.strategic-i.com^
 ||amplifypixel.outbrain.com^
 ||amplitude.com^$third-party
+||ampltd.top.gg^
 ||ampproject.org/preconnect.gif
 ||ampush.io^$third-party
 ||amradmin.5173.com^
@@ -36209,6 +36213,7 @@ zznews.cn##.ad:not([style])
 ||hktracker.hankookilbo.com^
 ||hktv10.com^
 ||hktvmall.com/api/preroll/getList?
+||hkzzacp.cn^
 ||hl.brownfox.top^
 ||hlgglm.com^
 ||hlhulu.com^
@@ -42018,6 +42023,7 @@ zznews.cn##.ad:not([style])
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
+||mat6tube.com/stats
 ||materialexample.com^
 ||materialisticfan.com^
 ||materialisticmark.com^
@@ -45714,6 +45720,7 @@ zznews.cn##.ad:not([style])
 ||pixel.convertize.io^
 ||pixel.cpex.cz^
 ||pixel.digitalspy.co.uk^
+||pixel.dugwood.com^
 ||pixel.europapress.net^
 ||pixel.facebook.com^
 ||pixel.homebook.pl^
