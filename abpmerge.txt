@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-07 16:23:33
-! Total count: 62224
+! Version: 2022-05-08 01:26:18
+! Total count: 62231
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2747,7 +2747,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /\/data\/cache\/(?!(common\.|common_extra\.|forum\.|forum_viewthread\.js|home\.|portal\.|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
-/^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
@@ -10660,6 +10659,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
+@@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
@@ -16627,7 +16627,6 @@ myqqjd.com###advert_widget
 myqqjd.com##.adsbygoogle
 myqqjd.com##.qz-box
 myqqjd.com$$script[tag-content="mdpDeBlocker"]
-mysteel.com##DIV[class^="ad"]
 myt1.cc##div.wp.a_t,div.a_cn,div.a_pt
 mywpku.com##.sidebar-recommended
 myxav.gq##[height="60"],[height="90"],.a_pt
@@ -27197,6 +27196,7 @@ zznews.cn##.ad:not([style])
 ||berg-6-82.com^$third-party
 ||berserkpl.net.pl^$websocket
 ||besc.baidustatic.com^
+||beside-u.xyz^
 ||besstahete.info^$third-party
 ||best-eye.cn^
 ||best-top.de^$third-party
@@ -30618,6 +30618,7 @@ zznews.cn##.ad:not([style])
 ||d3.sina.com.cn^$object,script
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d31qbv1cthcecs.cloudfront.net^
+||d31y97ze264gaa.cloudfront.net^
 ||d32bug9eb0g0bh.cloudfront.net^
 ||d32hwlnfiv2gyn.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
@@ -32138,6 +32139,7 @@ zznews.cn##.ad:not([style])
 ||e.weather.com.cn^
 ||e.yycqc.com^
 ||e.zg-api.com/event$domain=zillow.com
+||e05.xyz^
 ||e0514.com/do/js.
 ||e0514.com/gglist/
 ||e0575.cn/js/corea/jquery.popup.js
@@ -34400,6 +34402,7 @@ zznews.cn##.ad:not([style])
 ||fztattoo.cn^
 ||fzu4.bysidecar.com^
 ||fzvve.cn^
+||g*.biqugetv.com^
 ||g-ec4.images-amazon.com$domain=www.17qingsong.com
 ||g-stats.openhost.es^
 ||g-years.com/gy/
@@ -36759,6 +36762,7 @@ zznews.cn##.ad:not([style])
 ||hwx.xazbts.com^
 ||hwyytk.verabradley.com^
 ||hx623.cn^
+||hx9.ink^
 ||hxadt.com^
 ||hxbt.alading123.com^
 ||hxbylm.vip^
@@ -45852,6 +45856,7 @@ zznews.cn##.ad:not([style])
 ||pixel.inforsea.com^
 ||pixel.ionos.fr^
 ||pixel.kknews.cc^
+||pixel.locker2.com^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -50726,6 +50731,7 @@ zznews.cn##.ad:not([style])
 ||smetricstur.www.svenskaspel.se^
 ||smetrix.avon.uk.com^
 ||smetrix.youravon.com^
+||smfjfgie.xyz^
 ||smg.com/Etrack/
 ||smgjupy.cn^
 ||smh.ink^
@@ -51700,6 +51706,7 @@ zznews.cn##.ad:not([style])
 ||stat.moevideo.net^
 ||stat.mql5.com^
 ||stat.mtv3.fi^
+||stat.mydaddy.cc^
 ||stat.novinky.cz^
 ||stat.nyheter24.se^
 ||stat.ouedkniss.com^
@@ -53088,7 +53095,6 @@ zznews.cn##.ad:not([style])
 ||taiztf.cn^
 ||tajs.qq.com^
 ||tajxgs.com^
-||takealot.com^*/collect
 ||talent.aonunited.com^
 ||talentedsteel.com^
 ||talenteq.intuit.com^
@@ -58532,6 +58538,7 @@ zznews.cn##.ad:not([style])
 ||xiaobeier.cn^
 ||xiaobi*.com/layer/layer.js
 ||xiaochengzhixue.com^
+||xiaodian.name^
 ||xiaodigufz.com/ggt/
 ||xiaodongjun.com^
 ||xiaodutv.com/xda?
@@ -60756,7 +60763,7 @@ zznews.cn##.ad:not([style])
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
-~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,news.cnyes.com,olehd.com,olevod.com,olevod.eu,pchome.net,rznews.cn##div[class^="ad"]
+~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,olehd.com,olevod.com,olevod.eu,pchome.net,rznews.cn##div[class^="ad"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cityheaven.net###gg1
 ~etao1.com##a[href*=".etao1.com/"]
