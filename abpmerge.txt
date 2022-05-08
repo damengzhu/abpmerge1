@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-08 01:26:18
-! Total count: 62231
+! Version: 2022-05-08 08:21:07
+! Total count: 62224
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1455,23 +1455,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:1003px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:989px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:990px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:991px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:992px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:993px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:994px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:995px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:996px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:997px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:998px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:999px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -5307,7 +5291,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hunter/alog/*
 /huya/main/widget/roomGg
 /huya_promotion_content_
-/i.asp?yk&df=1|$script,third-party
 /i.gif?
 /i.php?i=
 /i.png?id=
@@ -18314,7 +18297,7 @@ thepaper.cn###head_ask_app_down
 thepaper.cn##.news_imgad,.rt_ad
 thepiratebay.org##.ads,#sky-right
 thepiratebay.se##a#image,iframe[src^="//cdn1.adexprt.com/"],iframe[src^="//cdn2.adexprt.com/"]
-theporn.cc###wp > div[id]
+theporn.cc###to_top + div > div[id]
 theporn.cc##.video_playr_sider
 theporn.cc##div > div[align="center"]
 theporn.cc##div[class^="_"]
@@ -21274,6 +21257,7 @@ zznews.cn##.ad:not([style])
 ||23900341.com^
 ||23907915.com^
 ||239300.net/template/*_mh_gg
+||23962340.com^
 ||2398.pw
 ||23aitt.com/zz/
 ||23dsf.top^
@@ -30996,6 +30980,7 @@ zznews.cn##.ad:not([style])
 ||dce0k0.cn^
 ||dceni.com^
 ||dcf.espn.com/privacy/
+||dcjfoei.cn^
 ||dckiwt.eataly.com^
 ||dcl5.cn^
 ||dcmn.com^$third-party
@@ -35632,6 +35617,7 @@ zznews.cn##.ad:not([style])
 ||h.seznam.cz^
 ||h00c.sfr.fr^
 ||h01ce.cn^
+||h04.xyz^
 ||h1.cfxinxi.cn^
 ||h1.kukuw.com^
 ||h104.cc^
@@ -37163,6 +37149,7 @@ zznews.cn##.ad:not([style])
 ||ihfwer.aboutyou.com^
 ||ihhii.xyz^
 ||ihhmh.com/mg/show
+||ihtqqws.cn^
 ||ihuajian.com^
 ||ihualun.com$third-party
 ||ii.joqtfa.cn^
@@ -43568,6 +43555,7 @@ zznews.cn##.ad:not([style])
 ||muddledaftermath.com^
 ||mudezs.com^
 ||muer.cdn-baidu.fs-sywh.com^
+||mufoa6k.cn^
 ||mugapi.lazzarionline.com^
 ||mugogfy.cn^
 ||muhnbc.cn^
@@ -59121,6 +59109,7 @@ zznews.cn##.ad:not([style])
 ||yanghuaer.mobi^
 ||yanglangkk.cn^
 ||yangll.xin^
+||yangmengqiu.work^
 ||yangniupiju.com^
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yangtianc.xyz^
@@ -59510,6 +59499,7 @@ zznews.cn##.ad:not([style])
 ||ylnet.com.cn/inc/ad$subdocument
 ||ylog.huya.com^
 ||ylppppp.cn^
+||ylty.online^
 ||ylunion.com^
 ||ylykd.cn^
 ||ylznwl.cn^
@@ -60855,6 +60845,9 @@ zznews.cn##.ad:not([style])
 3dezu.com##div#diynavtop,div[style="margin-bottom:-10px; overflow:hidden;"],div.bm.a_c,div.a_pt,div.a_pb,#login_alert,.a_f
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
+3dmgame.com##.Content_L > p
+3dmgame.com##.Gmaeinfobtn + span
+3dmgame.com##.Gmaeinfobtn_tab  > span
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
 3dmgame.com##.R_qingtianzhu
