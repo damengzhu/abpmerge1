@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-08 16:23:40
-! Total count: 62157
+! Version: 2022-05-09 01:40:18
+! Total count: 62163
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -98,7 +98,6 @@
 ###asx_text
 ###avshow
 ###bannerAd
-###bannerslide > a[href^="/goto.php?url="]
 ###bd-hl-content
 ###bgad
 ###bgframe[style^="position: fixed;"]
@@ -9679,6 +9678,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||coolinet.com^$generichide
@@ -43210,6 +43210,7 @@ zznews.cn##.ad:not([style])
 ||mobilityware.com^
 ||mobisage.cn^
 ||mobixc.vnfjsus.xyz^
+||mobtop.az^$third-party
 ||mobylog.jp^$third-party
 ||mocc.ltd^
 ||mochiads.com/clk/
@@ -44260,6 +44261,7 @@ zznews.cn##.ad:not([style])
 ||nmykf.mobi^
 ||nmyp.ltd^
 ||nnivvr.zimmo.be^
+||nnllupyu.top^
 ||nnocsin.cn^
 ||nnofmj.studiof.com.co^
 ||nnopp.website^
@@ -44345,6 +44347,7 @@ zznews.cn##.ad:not([style])
 ||npario-inc.net^$third-party
 ||npftmqv.cn^
 ||nphoto.net/media/
+||nphqw.cn^
 ||npo-data.nl/tag/v3/npotag.js
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
@@ -46841,6 +46844,7 @@ zznews.cn##.ad:not([style])
 ||qingzhencai.net^
 ||qinmon.xyz^
 ||qinqiaotrade.com^
+||qintian.ink^
 ||qintingapp.com^
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qinzhihao.com^
@@ -58228,6 +58232,7 @@ zznews.cn##.ad:not([style])
 ||x.120ask.com^
 ||x.aigobook.com^
 ||x.allabout.co.jp^
+||x.babe.today^
 ||x.bloggurat.net^
 ||x.disq.us^
 ||x.heyzap.com/_/0/ad$app=com.iwantavnow
@@ -60779,9 +60784,9 @@ zznews.cn##.ad:not([style])
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##.Content_L > p
 3dmgame.com##.Gmaeinfobtn + span
-3dmgame.com##.Gmaeinfobtn_tab  > span
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
+3dmgame.com##.Gmaeinfobtn_tab > span
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.addvide300
@@ -61738,6 +61743,7 @@ zznews.cn##.ad:not([style])
 999hdhd.com##[width="300"][height="300"],.top_box
 1000fr.net##div#ad_text.ad_text
 1010dy.vip##.text-center[style]
+1010dy.vip##a[href^="/goto."]
 1010jiajiao.com###daan_recommend + .xiti
 1010jiajiao.com###yueyu3
 1010jiajiao.com##.bdgg
