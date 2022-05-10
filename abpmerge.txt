@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-10 08:22:34
-! Total count: 62210
+! Version: 2022-05-10 16:29:03
+! Total count: 62218
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3223,6 +3223,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /analysis/ga_
 /analysis/gtm_
 /analysis?t=
+/analysisTag.js
 /analytic-client.
 /analytic/context?
 /analytic/count.
@@ -9260,7 +9261,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ad.ext.azure.com^
 @@||ad.kazakinfo.com^
 @@||ad.ourgame.com^
-@@||ad.pr.ameba.jp/tpc/list/$xmlhttprequest
 @@||ad.thsi.cn/siteHome/
 @@||ad.unimhk.com/show.php?$domain=mnighthk.net
 @@||ad2.uoocuniversity.com^$~third-party
@@ -9281,7 +9281,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-source.min.js$script,domain=aarp.org|atresplayer.com|backcountry.com|bt.com|cadenaser.com|churchofjesuschrist.org|dollargeneral.com|kroger.com|personal.natwest.com|telus.com|verizon.com
-@@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com|telus.com
+@@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -28322,6 +28322,7 @@ zznews.cn##.ad:not([style])
 ||cbu01.alicdn.com/img/ibank^$domain=avtbf.com
 ||cbuvhv.desertcart.ae^
 ||cc-api-data.adobe.io^
+||cc.8181zx.com^
 ||cc.conforama.es^
 ||cc.m.jd.com^
 ||cc.pennstatehealth.org^
@@ -30377,6 +30378,7 @@ zznews.cn##.ad:not([style])
 ||cvhefd.ixbt.com^
 ||cvs.com/tnadstlinj.js
 ||cvs.kireimo.jp^
+||cvsheil.com^
 ||cvt1.sibnet.ru^
 ||cvtr.io^$third-party
 ||cw.guominziben.com^
@@ -36815,6 +36817,7 @@ zznews.cn##.ad:not([style])
 ||hzhyhm.com^
 ||hzlm.cc^
 ||hznzcn.com/moban/youxiajiao.js
+||hzs1202.site^
 ||hzsrjs.com^
 ||hzuok.com^
 ||hzxfmc.com^
@@ -38261,6 +38264,8 @@ zznews.cn##.ad:not([style])
 ||j.zhuyonglawyer.com^
 ||j.zlszw.com^
 ||j.zykxjt.com^
+||j04.xyz^
+||j05.xyz^
 ||j05ot.online^
 ||j07773.com^
 ||j1.ax.xrea.com^
@@ -38402,6 +38407,7 @@ zznews.cn##.ad:not([style])
 ||jdgtgb.watson.de^
 ||jdiaveu.cn^
 ||jdlhg.com^
+||jdsports.co.kr/collect.php
 ||jdsy.ltd^
 ||jdwx.info/api.php?mod=ad&
 ||jdwxshfw.cn^
@@ -39534,7 +39540,7 @@ zznews.cn##.ad:not([style])
 ||kkbiqu2.com/js/yuedu.js
 ||kkcaicai.com^
 ||kkddlt2f.site^$third-party
-||kkeji.com/img/*/aliyun_
+||kkeji.com/img/*/aliyun
 ||kkeji.com/img/2005/m_info_720.png
 ||kkjiaofei.com^
 ||kkkkdm.com/js/comic-
@@ -46243,7 +46249,6 @@ zznews.cn##.ad:not([style])
 ||pr-chart.de^$third-party
 ||pr-linktausch.de^$third-party
 ||pr-sunshine.de^$third-party
-||pr.ameba.jp^
 ||pr.blogflux.com^
 ||pr0gram.org^$third-party
 ||pr33.cn^
@@ -47341,6 +47346,7 @@ zznews.cn##.ad:not([style])
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||railwayrainstorm.com^
 ||railwayreason.com^$third-party
+||rainbownine.net^$third-party
 ||rainpat.com/Content/1360x55/
 ||rainpat.com/Scripts/jquery.SuperSlide.
 ||raintwig.com^$third-party
@@ -55477,6 +55483,7 @@ zznews.cn##.ad:not([style])
 ||tzwaw.pw^
 ||tzxmhi.com^
 ||u-on.eu^$third-party
+||u-q.net.cn^
 ||u.63kc.com^
 ||u.801t.com^$third-party
 ||u.cjlaoshi.com^$third-party,script
@@ -55611,6 +55618,7 @@ zznews.cn##.ad:not([style])
 ||udn.com^*/ad/
 ||udr9.livera.nl^
 ||ue3jfw.com^
+||ue4.store^
 ||ueadlian.com^$third-party
 ||ueb4.destinia.tw^
 ||uecdn.es/js/pbmu.js
