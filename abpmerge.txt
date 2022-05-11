@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-11 01:45:24
-! Total count: 62224
+! Version: 2022-05-11 08:24:44
+! Total count: 62232
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1411,6 +1411,7 @@
 ##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".alicdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
+##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
@@ -1456,7 +1457,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -26364,6 +26365,7 @@ zznews.cn##.ad:not([style])
 ||ayidaye.m.zwdu.com^
 ||ayk.cx^
 ||aysccnn.cn^
+||ayuki.ink^
 ||ayun.ltd^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
@@ -33489,6 +33491,7 @@ zznews.cn##.ad:not([style])
 ||faiusr.com/2/ABUIABACGAAg_dCW0gUo7NqNJjDgATh3.jpg
 ||faiusr.com/3/ABUIABADGAAgkIXb6gUo-L_AwwcwsAk4Wg.gif
 ||fajuer.xyz^
+||fakrg0e.cn^
 ||faktor.io^$third-party
 ||falkenbergtorget.se/sc.gif?
 ||fallaciousfifth.com^$third-party
@@ -33860,6 +33863,7 @@ zznews.cn##.ad:not([style])
 ||fkondate.com^$third-party
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
 ||fks.ifdvlh.cn^
+||fktkwb.cn^
 ||fkub.xyz^
 ||fkwc.sfr.fr^
 ||fl.a.ki^$image
@@ -38277,6 +38281,7 @@ zznews.cn##.ad:not([style])
 ||j1503.com^
 ||j198.registercitizen.com^
 ||j1ybkf.cn^
+||j49.xyz^
 ||j5sq8.com^
 ||j6zh4g0.cn^
 ||j8.ai36588.com^
@@ -44244,6 +44249,7 @@ zznews.cn##.ad:not([style])
 ||njupt-sacc.com^
 ||njv9c.wbmvohkn.cn^
 ||njv9v.wbmvohkn.cn^
+||njvfidke.xyz^
 ||njwxh.com^
 ||njxczy.com^
 ||njxyh66.cn^
@@ -49213,6 +49219,7 @@ zznews.cn##.ad:not([style])
 ||shili.downxia.com^
 ||shili.wanyx.com^
 ||shillivee.pro^
+||shilong.xyz^
 ||shimo.im^*/ads?
 ||shinesavage.com^
 ||shinestuart.com^
@@ -58766,6 +58773,7 @@ zznews.cn##.ad:not([style])
 ||xmliw.com^
 ||xmljx.cn^
 ||xmltym2.cn^
+||xmmnsl.com^
 ||xmouxe.cn^
 ||xmrc.com.cn/net/info/html/
 ||xmrepair.com^
