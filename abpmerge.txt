@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-14 16:23:58
-! Total count: 62319
+! Version: 2022-05-15 01:46:49
+! Total count: 62331
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10052,6 +10052,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||haokoubei.top/jquery/jquery-1.7.2.min.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
@@ -10561,6 +10562,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||puch-ersatzteile.at^*/google-analytics.min.js
 @@||pv.sohu.com/suv/
+@@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||q-examiner.online/api/Ping?
 @@||qbox.me/static/js/ads.js$domain=linux.cn
@@ -17014,6 +17016,8 @@ pcstore.com.tw###keyad-right
 pcstore.com.tw##.priority
 pcstore.com.tw##.priority1
 pcstore.com.tw##.priority_ad
+pcworks.cn##.md-show
+pcworks.cn,vdianying.cc##.xintheme-ad
 pdflibr.com##.sms-content-ad
 pdflibr.com#@#.ad-center
 pediy.com##.bbs_footer_advertising_column
@@ -18776,7 +18780,6 @@ vansky.com##.top-ad-link
 vc52.cn##DIV.a_mu,DIV.a_pt,DIV.a_pb,.soft-intro
 vccoo.com##.google-tg,.main-tg-area,.adsbygoogle,#article-float,#articleAd
 vdianying.cc##.swiper-wrapper
-vdianying.cc##.xintheme-ad
 vdianying.cc##.xintheme-gg
 vdianying.cc##div[style^="display:block !important;"]
 vdisk.cn##[href^="http://xiazai.cdren.com/i/?cid="]
@@ -31201,6 +31204,7 @@ zznews.cn##.ad:not([style])
 ||dextersolutions.actonservice.com^
 ||dexuanyu.top^
 ||dexun.lzjzyjh.com^
+||deya.ink^
 ||deyangs.com/img/
 ||deyidesign.com^
 ||df-srv.de^$third-party
@@ -31611,6 +31615,7 @@ zznews.cn##.ad:not([style])
 ||dmdi.pl^$third-party
 ||dmdt.io/collect
 ||dmfhqzo.cn^
+||dmfjeu.xyz^
 ||dmkt.solutions.cas.org^
 ||dmm.aizhan.com^
 ||dmm.com/analytics/
@@ -33101,6 +33106,7 @@ zznews.cn##.ad:not([style])
 ||esou.me^
 ||esp-12f.xyz^
 ||esptj.com^
+||esputnik.com^$third-party
 ||estadisticas.lanacion.com.ar^
 ||estadisticasgratis.com^$third-party
 ||estadisticasgratis.es^$third-party
@@ -39812,6 +39818,7 @@ zznews.cn##.ad:not([style])
 ||kukan5.com/ad
 ||kukan5.com/indexxzad.jpg
 ||kukanlm-lubu1.com^
+||kukanlm-my1.com^
 ||kukanlm-youeryuan.com^
 ||kuku99.com^$third-party
 ||kukudm.com/mg/show
@@ -40017,6 +40024,7 @@ zznews.cn##.ad:not([style])
 ||lantern.kronosglobal.fr^
 ||lantuyj.com^
 ||lanyes.org/content/templates/lanye2015/images/hb_banner.png
+||lanyue.ink^
 ||lanzous.com/img^
 ||lanzuankeji.cn^
 ||laobaigushi.com^
@@ -47468,6 +47476,8 @@ zznews.cn##.ad:not([style])
 ||rapidzebra.io^
 ||rarbt.cc/js/index960_
 ||raresummer.com^$third-party
+||rasin.tech/heatmap-
+||rasin.tech/scroll-logs/
 ||rat.rakuten.co.jp^
 ||ratedxbiz.com/d/
 ||rating.in^$third-party
@@ -52465,6 +52475,7 @@ zznews.cn##.ad:not([style])
 ||stonecalcom.com^$third-party
 ||storage.data-vp.com/vp/t.js
 ||storage.googleapis.com/afs-prod/tags
+||storage.googleapis.com/rasin/*/hm.js
 ||storage.syncmedia.io/libs/sm_capture_
 ||store.tv.api.3g.youku.com^
 ||store.xl.api.3g.youku.com^
@@ -52637,6 +52648,7 @@ zznews.cn##.ad:not([style])
 ||sunrtb.*/s?m=
 ||sunset.com/tia/
 ||suntcontent.se^$third-party
+||sunyujia.top^
 ||suoksm.cn^
 ||suoooi.cn^
 ||super.cat898.com^
@@ -54680,7 +54692,6 @@ zznews.cn##.ad:not([style])
 ||tracker.data-vp.com^
 ||tracker.digitalcamp.co.kr^
 ||tracker.downdetector.com^
-||tracker.esputnik.com^
 ||tracker.euroweb.net^
 ||tracker.financialcontent.com^
 ||tracker.icerocket.com^
@@ -56941,6 +56952,7 @@ zznews.cn##.ad:not([style])
 ||webeyez.com^$third-party
 ||webflowmetrics.com^$third-party
 ||webforensics.co.uk^$third-party
+||webfunny.cn^$third-party
 ||webglstats.com^$third-party
 ||webgozar.com/c.aspx*&t=counter
 ||webgozar.ir/c.aspx*&t=counter
