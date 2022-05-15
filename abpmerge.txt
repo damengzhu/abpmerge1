@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-15 01:46:49
-! Total count: 62331
+! Version: 2022-05-15 08:21:15
+! Total count: 62356
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1415,6 +1415,7 @@
 ##a[target="_blank"] > img[height="60px"][src*=".c-ctrip.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".lenovo.com"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
+##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
@@ -1461,8 +1462,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -30299,6 +30299,7 @@ zznews.cn##.ad:not([style])
 ||csjs.ltd^
 ||csjwawe.top^
 ||cslgcomputer.club^
+||cslpf.cn^
 ||csp-collector.appspot.com^
 ||csp-reporting.cloudflare.com^
 ||csp.archant.co.uk^
@@ -31923,6 +31924,7 @@ zznews.cn##.ad:not([style])
 ||dtpqhwk.cn^
 ||dtrcw.cc^
 ||dtscout.com^
+||dtsxn.cn^
 ||dttrk.com^
 ||dtxngr.com^$third-party
 ||dtym7iokkjlif.cloudfront.net/dough/
@@ -32061,6 +32063,7 @@ zznews.cn##.ad:not([style])
 ||dybee.tv^*.php
 ||dybz*/js/html*.js
 ||dybz44.com/js/html
+||dycwt.cn^
 ||dycxkj.cn^
 ||dydab.com^
 ||dydd.xyz^
@@ -32502,7 +32505,6 @@ zznews.cn##.ad:not([style])
 ||eduuu.com/website/public_js/pc_aso.js
 ||eduzzjy.com^
 ||edysn.cn^
-||ee.$third-party
 ||ee.shixunwang.net^
 ||ee021.com/Runtime/js/
 ||ee035.cn^
@@ -33794,6 +33796,7 @@ zznews.cn##.ad:not([style])
 ||fgbgtt.cian.ru^
 ||fgi90.com^
 ||fglrgt.ruggable.com^
+||fgn.nphqw.cn^
 ||fh21.com.cn/js/passport/createQuickMenu.js
 ||fh21.com.cn/partners/
 ||fhages.carte-gr.total.fr^
@@ -35011,6 +35014,7 @@ zznews.cn##.ad:not([style])
 ||gnncc.cc^
 ||gnnzuo.ormatek.com^
 ||gnpge.com^$third-party
+||gnqxd.cn^
 ||gnshwf.room-park.ru^
 ||go-mpulse.net^
 ||go-top.xyz^
@@ -35390,6 +35394,7 @@ zznews.cn##.ad:not([style])
 ||gsjlfs.com^
 ||gsjzlssws.com^
 ||gsmatch.edm.globalsources.com^
+||gsnlc.cn^
 ||gsp1.baidu.com^
 ||gsqweb.cn^
 ||gssdsj.com^
@@ -35566,6 +35571,7 @@ zznews.cn##.ad:not([style])
 ||gwylm.com^
 ||gwyvvjj.cn^
 ||gx.idg.se^
+||gxbnp.cn^
 ||gxdianhua.com^
 ||gxdmxx.com^
 ||gxe.husky.sogou.com^
@@ -35625,6 +35631,7 @@ zznews.cn##.ad:not([style])
 ||gzpinda.com^
 ||gzqswl.cn^
 ||gzqudou.com^
+||gzqvd.cn^
 ||gzsanxiaomingshi.cn^
 ||gzts188.com^
 ||gzwl.xyz^
@@ -35676,6 +35683,7 @@ zznews.cn##.ad:not([style])
 ||habkjav.cn^
 ||habtcng.cn^
 ||habyc.com^
+||hackeraa.xyz^
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
 ||hackhome.com/js/dright.js
@@ -35953,6 +35961,7 @@ zznews.cn##.ad:not([style])
 ||hdslb.com/js/bfd.js
 ||hdslb.com/js/core-v5/picment.
 ||hdsrc-a.akamaihd.net^
+||hdvkl.cn^
 ||hdxxaq.cn^
 ||hdypw.com^
 ||hdzb6.cc^
@@ -36106,6 +36115,7 @@ zznews.cn##.ad:not([style])
 ||hfawdgz.cn^
 ||hfc195b.com^
 ||hfcpa.top^
+||hfctx.cn^
 ||hfd.bridgetowermedia.com^
 ||hfhfkc.xyz^
 ||hfjuki.com^
@@ -36850,6 +36860,7 @@ zznews.cn##.ad:not([style])
 ||hystq.com^
 ||hytcsh.cn^
 ||hytgj.com^
+||hytzp.cn^
 ||hyvyd.com/count$image,domain=mobile.de
 ||hyz86.com^
 ||hyzb87.cc^
@@ -38312,6 +38323,7 @@ zznews.cn##.ad:not([style])
 ||j.mmtu.top^
 ||j.sdqoi2d.com^
 ||j.sun66387567606.online^
+||j.sun66387567606.site^
 ||j.uu-xs.net^
 ||j.wesat.cn^
 ||j.wit.qq.com^
@@ -39750,6 +39762,7 @@ zznews.cn##.ad:not([style])
 ||krxd.net^
 ||krxd.net^$domain=focus.de
 ||kry.jknrwe.cn^
+||kry.ztshg.cn^
 ||ks.js.cn*/yytf/$object,script
 ||ks.walkq.com^
 ||ks.yhz18.com^
@@ -41168,6 +41181,7 @@ zznews.cn##.ad:not([style])
 ||lpipua.kcar.com^
 ||lpjgr.top^
 ||lpjxzs.com^
+||lpmzt.cn^
 ||lpokqm.zapa.fr^
 ||lporirxe.com^$third-party
 ||lppwnue.cn^
@@ -44181,6 +44195,7 @@ zznews.cn##.ad:not([style])
 ||nextinpact.com/image/*=.jpg
 ||nextstat.com^$third-party
 ||nexx.cloud/play/beacon.
+||nflks.cn^
 ||nflshop.com/api/track
 ||nfmovies.com/pic/tu/*_863x59.
 ||nfmovies.com/pic/tu/*_banner
@@ -44209,6 +44224,7 @@ zznews.cn##.ad:not([style])
 ||ngc1.nsm-corp.com^
 ||ngceq.cn^
 ||nggdwfz.cn^
+||nghdp.cn^
 ||ngmco.net^$third-party
 ||ngogmbe.cn^
 ||ngpvan.com/v1/Track/
@@ -44218,9 +44234,11 @@ zznews.cn##.ad:not([style])
 ||nh738.cn^
 ||nhentai.com/images/offers/ga/desktop/
 ||nhfpdc.cn^
+||nhjsw.cn^
 ||nhk.jp^*/bc.gif?
 ||nhk.or.jp^*/bc.js
 ||nhm32.site^
+||nhscv.cn^
 ||ni22.com^$third-party
 ||ni8.lafuma-boutique.com^
 ||ni8.lafuma.com^
@@ -45661,6 +45679,7 @@ zznews.cn##.ad:not([style])
 ||pfiparts.com^
 ||pfizer.com.tw^$subdocument
 ||pflhnpu.cn^
+||pflrv.cn^
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pfuyhr.schutz.com.br^
@@ -46535,6 +46554,7 @@ zznews.cn##.ad:not([style])
 ||ptengine.jp^$third-party
 ||ptfish.com/*/ad$image,object
 ||ptfish.com/08html/ggf/cptdgg.html$document
+||ptgdb.cn^
 ||pthejzb.com^
 ||ptmcos.beginning.kr^
 ||ptmind.com^$third-party
@@ -53938,6 +53958,7 @@ zznews.cn##.ad:not([style])
 ||tnctrx.com^$third-party
 ||tndiltm.cn^
 ||tngmn.com^
+||tnjvz.cn^
 ||tns-counter.ru^$third-party
 ||tns-cs.net^$third-party
 ||tns-gallup.dk^$third-party
@@ -54154,6 +54175,7 @@ zznews.cn##.ad:not([style])
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
 ||tqlyjz.cn^
+||tqmcj.cn^
 ||tqpay.top^
 ||tqvacq.intrend.it^
 ||tr-op.datatrics.com^
@@ -55271,6 +55293,7 @@ zznews.cn##.ad:not([style])
 ||trrsf.com.br/metrics/
 ||trrsf.com/metrics/
 ||trs.cn^$third-party
+||trslw.cn^
 ||trstplse.com^$third-party
 ||trtl.ws^$third-party
 ||tru.am^
@@ -57403,6 +57426,7 @@ zznews.cn##.ad:not([style])
 ||wmzhe.com/static/wmzhe/images/suishenbao/
 ||wn.com/count.js
 ||wn052ucd.online^
+||wn68din.cn^
 ||wn789.com/wp-content/uploads/*/SugarHosts
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
@@ -57825,6 +57849,7 @@ zznews.cn##.ad:not([style])
 ||www.chip2gift.com^
 ||www.chrs-mln-krs.com^
 ||www.chudaili.com/201324.png$image
+||www.chunaisese12.com^
 ||www.ckplayer.tv/ccdao.js
 ||www.claiks.com^
 ||www.cloud-9751.com^
