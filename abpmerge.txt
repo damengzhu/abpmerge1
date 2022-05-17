@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-17 08:23:42
-! Total count: 62419
+! Version: 2022-05-17 16:29:05
+! Total count: 62479
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3997,6 +3997,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /click.php?c=
 /click/impression?
 /click?mode=*&action=
+/click?track=
 /clickAnalyse.
 /clickLogger?
 /clickTrackingAjaxController?
@@ -6763,6 +6764,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ppms.js
 /pqt.email/o/*$image
 /pr.php?
+/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -7575,6 +7577,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
+/stats/transp.bmp
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -10016,7 +10019,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
-@@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
@@ -10899,7 +10902,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
-@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it|ubibanca.com
+@@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
 @@||track.nzz.ch^$script,~third-party
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
@@ -10936,7 +10939,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||uaprom.net/image/blank.gif?$image
-@@||ubibanca.com^*/TrackingService.js
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
 @@||udn.com/mall/images/spacer.gif?
 @@||udndata.com/ndapp/ads/$~third-party
@@ -28418,6 +28420,7 @@ zznews.cn##.ad:not([style])
 ||ccjxwlkj.com^
 ||ccjxybj.cn^
 ||cckke.com/fanhao/v/ad
+||ccm19.de^
 ||ccmd.coveredca.com^
 ||ccmdgg.com^
 ||ccmeng.com^$third-party
@@ -29264,6 +29267,7 @@ zznews.cn##.ad:not([style])
 ||cloudmade.com^
 ||cloudpsvn.com^
 ||cloudpush.iqiyi.com^
+||cloudroad.shop^
 ||cloudsdestruction.com^
 ||cloudtracer101.com^$third-party
 ||cloudwp.io^
@@ -33317,6 +33321,7 @@ zznews.cn##.ad:not([style])
 ||events.practo.com^
 ||events.privy.com^
 ||events.realgravity.com^
+||events.reclamefolder.nl^
 ||events.reddit.com^
 ||events.redditmedia.com^
 ||events.regis.edu^
@@ -37898,6 +37903,7 @@ zznews.cn##.ad:not([style])
 ||insights.radiometer.com^
 ||insights.sitesearch360.com^
 ||insights.sport1.de^
+||insigit.com^
 ||insigit.com^$third-party
 ||insitemetrics.com^$third-party
 ||insitez.blob.core.windows.net^
@@ -42205,6 +42211,7 @@ zznews.cn##.ad:not([style])
 ||marketshot.fr^$third-party
 ||marktang.love^
 ||marktest.pt^$third-party
+||marktjagd.de/proxy/trackings/
 ||marktplaats.net/cnt/
 ||marktplaats.net/identity/mid.js
 ||marktplaats.nl/add_counter_image.
@@ -49390,6 +49397,7 @@ zznews.cn##.ad:not([style])
 ||shockingship.com^$third-party
 ||shoelace.com^$third-party
 ||shofonline.org/javashofnet/ti.js
+||shoop.de/mgtrx/
 ||shop.iwantclips.com^
 ||shop.yipanhaocai.com^
 ||shop265.com^
@@ -52576,6 +52584,7 @@ zznews.cn##.ad:not([style])
 ||strawberry.basf.com^
 ||streamads.com/view?
 ||streambeam.io^$third-party
+||streamlare.com/api/video/stats/
 ||streamsend.com^$third-party
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
@@ -52653,6 +52662,7 @@ zznews.cn##.ad:not([style])
 ||successfulscent.com^
 ||successfultogether.co.uk^$third-party
 ||successtorynm.carte-gr.total.fr^
+||suche.web.de/click
 ||suchmaschinen-ranking-hits.de^$third-party
 ||sucloud.xyz/js/tou.js
 ||sudahj.com^
@@ -53411,6 +53421,7 @@ zznews.cn##.ad:not([style])
 ||tdep.bunzlonline.nl^
 ||tdep.growwwdigital.com^
 ||tdep.hema.nl/main.js
+||tdep.kvk.nl^
 ||tdep.mijnurgentie.nl^
 ||tdep.sdim.nl^
 ||tdep.suncamp.be^
@@ -54685,6 +54696,21 @@ zznews.cn##.ad:not([style])
 ||track.nopaperforms.com^
 ||track.noz.de^
 ||track.omgpl.com^
+||track.opentable.ae^
+||track.opentable.ca^
+||track.opentable.co.th^
+||track.opentable.co.uk^
+||track.opentable.com.au^
+||track.opentable.com.mx^
+||track.opentable.com^
+||track.opentable.de^
+||track.opentable.es^
+||track.opentable.hk^
+||track.opentable.ie^
+||track.opentable.it^
+||track.opentable.jp^
+||track.opentable.nl^
+||track.opentable.sg^
 ||track.pexi.nl^
 ||track.pnicnik.live^
 ||track.pokestats.gg^
@@ -54786,6 +54812,7 @@ zznews.cn##.ad:not([style])
 ||tracker.shopclues.com^
 ||tracker.sns.iqiyi.com^
 ||tracker.softcube.com^
+||tracker.ssl0d.com^
 ||tracker.stats.in.th^$third-party
 ||tracker.stileo.it^
 ||tracker.swedish.org^
@@ -54826,9 +54853,12 @@ zznews.cn##.ad:not([style])
 ||tracking.americaneagle.com^
 ||tracking.americas.business.samsung.com^
 ||tracking.apac.business.samsung.com^
+||tracking.asialadies.de^
 ||tracking.athlon.com^
 ||tracking.au.adp.com^
 ||tracking.aupairinamerica.com^
+||tracking.avladies.de^
+||tracking.badeladies.de^
 ||tracking.badgeville.com^$third-party
 ||tracking.bankofalbuquerque.com^
 ||tracking.bankofoklahoma.com^
@@ -54836,7 +54866,9 @@ zznews.cn##.ad:not([style])
 ||tracking.barcodesinc.com^
 ||tracking.base.de^
 ||tracking.bd4travel.com^
+||tracking.behaarteladies.de^
 ||tracking.bettingexpert.com^
+||tracking.bizarrladies.de^
 ||tracking.bnppre.fr^
 ||tracking.bokfinancial.com^
 ||tracking.bonava.de^
@@ -54849,6 +54881,7 @@ zznews.cn##.ad:not([style])
 ||tracking.bradyid.com^
 ||tracking.brandmentions.com^
 ||tracking.build.com^
+||tracking.busenladies.de^
 ||tracking.business.comcast.com^
 ||tracking.businessdirect.bt.com^
 ||tracking.buygoods.com^
@@ -54869,9 +54902,12 @@ zznews.cn##.ad:not([style])
 ||tracking.culturalinsurance.com^
 ||tracking.customerly.io^
 ||tracking.dataloen.dk^
+||tracking.deutscheladies.de^
 ||tracking.dev2.pepsicopartners.com^
+||tracking.devoteladies.de^
 ||tracking.dfinsolutions.com^
 ||tracking.direxion.com^
+||tracking.dominanteladies.de^
 ||tracking.donnemagazine.it^$script
 ||tracking.drivercenter.eu^
 ||tracking.drsfostersmith.com^$third-party
@@ -54889,9 +54925,12 @@ zznews.cn##.ad:not([style])
 ||tracking.engineering.cloud.seek.com.au^
 ||tracking.epicgames.com^
 ||tracking.epsilon.com^
+||tracking.erfahreneladies.de^
+||tracking.escorts24.de^
 ||tracking.europe.business.samsung.com^
 ||tracking.evanta.com^
 ||tracking.evergy.com^
+||tracking.exklusivladies.de^
 ||tracking.experiencescottsdale.com^
 ||tracking.fanbridge.com^
 ||tracking.faucet.com^
@@ -54900,6 +54939,7 @@ zznews.cn##.ad:not([style])
 ||tracking.feedperfect.com^
 ||tracking.finanzen.net^
 ||tracking.fits.me^$third-party
+||tracking.fkk24.de^
 ||tracking.flukecal.com^
 ||tracking.foodblog.it^$script
 ||tracking.fullsail.edu^
@@ -54916,6 +54956,7 @@ zznews.cn##.ad:not([style])
 ||tracking.gpm-rtv.ru^
 ||tracking.granular.ag^
 ||tracking.graphly.io^
+||tracking.grosseladies.de^
 ||tracking.gruppo.mps.it^
 ||tracking.guidehouse.com^
 ||tracking.handlesets.com^
@@ -54927,6 +54968,7 @@ zznews.cn##.ad:not([style])
 ||tracking.hi-pi.com^
 ||tracking.hibu.com^
 ||tracking.hivecloud.net^
+||tracking.hobbyladies.de^
 ||tracking.hsn.com^
 ||tracking.hyros.com^
 ||tracking.idsuperstore.com^
@@ -54942,14 +54984,17 @@ zznews.cn##.ad:not([style])
 ||tracking.janssenmedicalcloud.de^
 ||tracking.janssenmedicalcloud.ru^
 ||tracking.jotform.com^
+||tracking.jungeladies.de^
 ||tracking.kdata.fr^
 ||tracking.kdnet.net^
 ||tracking.kegerator.com^
 ||tracking.keywee.co^
 ||tracking.krone.at^
 ||tracking.kubota.ca^
+||tracking.kussladies.de^
 ||tracking.ladies.de^
 ||tracking.laredoute.fr^
+||tracking.latinaladies.de^
 ||tracking.leadingauthorities.com^
 ||tracking.leadlander.com^
 ||tracking.legacyoffers.com^
@@ -54969,6 +55014,7 @@ zznews.cn##.ad:not([style])
 ||tracking.mail.tij.co.jp^
 ||tracking.mammemagazine.it^$script
 ||tracking.markethero.io^
+||tracking.massierendeladies.de^
 ||tracking.mathworks.com^
 ||tracking.max-stg.co.il^
 ||tracking.max.co.il^
@@ -54978,6 +55024,7 @@ zznews.cn##.ad:not([style])
 ||tracking.miui.com^
 ||tracking.mizuhogroup.com^
 ||tracking.mkt-email.samsungsds.com^
+||tracking.mollyladies.de^
 ||tracking.monsido.com^
 ||tracking.motorimagazine.it^$script
 ||tracking.motorolasolutions.com^
@@ -54994,6 +55041,8 @@ zznews.cn##.ad:not([style])
 ||tracking.nokai.jp^
 ||tracking.notizie.it^$script
 ||tracking.novem.pl^
+||tracking.nsladies.de^
+||tracking.nymphomaneladies.de^
 ||tracking.oceaneering.com^
 ||tracking.oe24.at^
 ||tracking.offerteshopping.it^$script
@@ -55003,6 +55052,8 @@ zznews.cn##.ad:not([style])
 ||tracking.omron.ru^
 ||tracking.opentable.com^
 ||tracking.oppd.com^
+||tracking.orientladies.de^
+||tracking.osteuropaladies.de^
 ||tracking.pacharge.com^
 ||tracking.pella.com^
 ||tracking.pennmedicine.princetonhcs.org^
@@ -55010,6 +55061,7 @@ zznews.cn##.ad:not([style])
 ||tracking.petrelocation.com^
 ||tracking.pgi.com^
 ||tracking.pharmanewsintel.com^
+||tracking.piercingladies.de^
 ||tracking.pirelli.com^
 ||tracking.plattformad.com^$third-party
 ||tracking.plinga.de^
@@ -55025,6 +55077,7 @@ zznews.cn##.ad:not([style])
 ||tracking.quillion.com^
 ||tracking.quisma.com^
 ||tracking.rapidape.com^
+||tracking.rasierteladies.de^
 ||tracking.regus.com^
 ||tracking.retailrocket.net^
 ||tracking.revcycleintelligence.com^
@@ -55038,6 +55091,7 @@ zznews.cn##.ad:not([style])
 ||tracking.sailpoint.com^
 ||tracking.scenepass.com^
 ||tracking.schneider.com^
+||tracking.schokoladies.de^
 ||tracking.scoresandodds.com^
 ||tracking.seakeeper.com^
 ||tracking.searchmarketing.com^
@@ -55076,6 +55130,7 @@ zznews.cn##.ad:not([style])
 ||tracking.style24.it^$script
 ||tracking.synthasite.net^
 ||tracking.target2sell.com^
+||tracking.tattooladies.de^
 ||tracking.tchibo.com.tr^
 ||tracking.tchibo.de^
 ||tracking.tdk.com^
@@ -55086,6 +55141,7 @@ zznews.cn##.ad:not([style])
 ||tracking.trinet.com^
 ||tracking.trovaprezzi.it^
 ||tracking.trutv.com^
+||tracking.tsladies.de^
 ||tracking.tuobenessere.it^$script
 ||tracking.umbrella.com^
 ||tracking.unisabana.edu.co^
@@ -55115,6 +55171,8 @@ zznews.cn##.ad:not([style])
 ||tracking.wlscripts.net^
 ||tracking.yealink.com.cn^
 ||tracking.yealink.com^
+||tracking.zaertlicheladies.de^
+||tracking.zierlicheladies.de^
 ||tracking1.brandmentions.com^
 ||tracking1.questdiagnostics.com^
 ||tracking1.tena.com^
@@ -56974,6 +57032,7 @@ zznews.cn##.ad:not([style])
 ||web.care.wakemed.org^
 ||web.collisionservices.com^
 ||web.comunicazioni.iol.it^
+||web.de/monitoring/
 ||web.diebayerische.de^
 ||web.email.farrow-ball.com^
 ||web.email.theindependentpharmacy.co.uk^
@@ -60131,6 +60190,7 @@ zznews.cn##.ad:not([style])
 ||yyzs.net/js/flyers_
 ||yzaosite.com^
 ||yzbqz.com^
+||yzc35326.top^
 ||yzcpqa.gumtree.com^
 ||yzdh44.com/js/
 ||yzftqx.cn^
