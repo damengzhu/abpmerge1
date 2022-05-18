@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-17 16:29:05
-! Total count: 62479
+! Version: 2022-05-18 01:18:58
+! Total count: 62484
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -305,6 +305,7 @@
 ###right_up_float_ad
 ###rightad2
 ###rip[href*=".taobao.com"]
+###rm-float3
 ###sOIcquIT
 ###search > a[href="/top1.html"]
 ###sign-ad
@@ -826,6 +827,7 @@
 ##.theme-dark>.ayx>a
 ##.theme_custom_slidebox-ad-below
 ##.themepark_advertisement
+##.title > .gg
 ##.tm3all2h4b
 ##.tmall_ad_container
 ##.tooltip > #tp
@@ -1463,6 +1465,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
+##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
@@ -31645,6 +31648,7 @@ zznews.cn##.ad:not([style])
 ||dmdt.io/collect
 ||dmfhqzo.cn^
 ||dmfjeu.xyz^
+||dmgjwy.xyz^
 ||dmkt.solutions.cas.org^
 ||dmm.aizhan.com^
 ||dmm.com/analytics/
@@ -58480,6 +58484,7 @@ zznews.cn##.ad:not([style])
 ||wyb128.com/js/pc/
 ||wydong.top^
 ||wyhzzy.com^
+||wylqafraq7.com^
 ||wymiana.org/stat/
 ||wyovhzs.cn^
 ||wysistat.com^$third-party
