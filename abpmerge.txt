@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-19 01:46:22
-! Total count: 62234
+! Version: 2022-05-19 08:23:34
+! Total count: 62247
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1412,6 +1412,7 @@
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
+##a[target="_blank"] > img[height="120px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".126.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".alicdn.com"][src$=".gif"]
@@ -1466,7 +1467,7 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -2624,9 +2625,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /Runtime/Js/960_90.js
 /Runtime/Js/daohang.js
 /Runtime/Js/footer-m.js
+/Runtime/Js/guding_top.js
 /Runtime/Js/lianmeng.js
 /Runtime/Js/m_tuijian_
 /Runtime/Js/m_v_tuijian_
+/Runtime/Js/pc_top.js
 /Runtime/js/9*.js*
 /Runtime/js/banner_
 /Runtime/js/fumeiti.
@@ -21120,6 +21123,7 @@ zznews.cn##.ad:not([style])
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||194007.com/4058.gif
 ||195315.com/storage/tpl/tj.js
+||19719197.com^
 ||19811231.me^
 ||198game.com^
 ||199.116.177.156^$domain=~fc2.jp.ip
@@ -26023,6 +26027,7 @@ zznews.cn##.ad:not([style])
 ||arcadeweb.com^$third-party
 ||archswimming.com^
 ||arclk.net/trax?
+||arcpublishing.com/beacon
 ||arcpublishing.com/i.png
 ||arcticamber.com^
 ||arealx.com^
@@ -33953,6 +33958,7 @@ zznews.cn##.ad:not([style])
 ||flooranddecor.com/v1HqbVho/init.js
 ||floorforce.actonservice.com^
 ||flowcodeapp.com^
+||flowerstreatment.com^
 ||floweryoperation.com^
 ||fluencymedia.com^$third-party
 ||fluidsurveys.com^$third-party
@@ -35876,6 +35882,7 @@ zznews.cn##.ad:not([style])
 ||hblanghun.cn^
 ||hblinwei.com^
 ||hbnygj.com^
+||hbo.com/events/
 ||hbo5.concours-pass.com^
 ||hboav.com/guga/
 ||hbscjh.cn^
@@ -40273,6 +40280,7 @@ zznews.cn##.ad:not([style])
 ||lg.tr.pandora.tv^
 ||lggbxf.com^
 ||lgjygg.com^
+||lgl.ink^
 ||lglady.cn^
 ||lgm.averydennison.com^
 ||lgmi.com/ggimg/
@@ -43717,6 +43725,7 @@ zznews.cn##.ad:not([style])
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
 ||myntelligence.com^$third-party
+||mynwct.xyz^
 ||myomnistar.com^$third-party
 ||mypa-hk.americanexpress.com^
 ||mypagerank.net^$third-party
@@ -43812,6 +43821,7 @@ zznews.cn##.ad:not([style])
 ||n26-trusted.n26.com^
 ||n5ta9.site^
 ||n74s9.com^$third-party
+||n8kt7gf.cn^
 ||na-pages.husqvarna.com^
 ||na.nawpush.com^
 ||na7.cc^
@@ -55537,6 +55547,7 @@ zznews.cn##.ad:not([style])
 ||u26u.com^$popup,third-party
 ||u2c8.cn^
 ||u3c3.cc^*.gif
+||u3c3.cc^*.png
 ||u3c3.com^*.gif
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
@@ -56036,6 +56047,7 @@ zznews.cn##.ad:not([style])
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v3.fstats.xyz^
 ||v3cdn.net^$third-party
+||v3hu9iu.cn^
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v5ad.com^
@@ -59461,6 +59473,7 @@ zznews.cn##.ad:not([style])
 ||yjjc.xyz^
 ||yjplpck.cn^
 ||yjrjmy.com^
+||yjsituation.com^
 ||yjsp5.com/pc_
 ||yjspw25.com/pc_
 ||yjtag.jp^$third-party
