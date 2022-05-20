@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-20 01:36:09
-! Total count: 62261
+! Version: 2022-05-20 08:22:49
+! Total count: 62281
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1368,6 +1368,7 @@
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
+##a[href="/hth.html"][target="_blank"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://t.cn/E2PgiG1"]
 ##a[href="http://t.cn/Ex0cCbt"]
@@ -1414,6 +1415,7 @@
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
+##a[target="_blank"] > img[height="120px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="120px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".126.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
@@ -1468,8 +1470,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:965px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:970px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -1514,7 +1516,6 @@
 ##oxk
 ##script + #coupletBox
 ##script + #rbbox
-##script + a[href="/hth.html"][target="_blank"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -4118,6 +4119,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /cnt.aspx?
 /cnt.cgi?
 /cnt.js
+/cnt.php?id=
 /cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
@@ -6854,6 +6856,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pv?fe=*&elg=
 /pv?place=
 /pv?token=
+/pv_beacon.gif?
 /pv_count.
 /pv_web.gif
 /pvcount.
@@ -24712,6 +24715,7 @@ zznews.cn##.ad:not([style])
 ||aghtag.tech^$third-party
 ||agilecrm.com^$third-party
 ||agilehw.online^
+||agilesrv.com^$third-party
 ||agillic.eu^$third-party
 ||agilone.com^$third-party
 ||agitos.de/content/track?
@@ -26746,6 +26750,7 @@ zznews.cn##.ad:not([style])
 ||banfzw.cn^
 ||bang5mai.com^$third-party
 ||bangbang521.com^
+||bangbangle.online^
 ||bangdu2.com^
 ||banggongxia.xyz^
 ||banggood.com/collectBanner?
@@ -27116,6 +27121,7 @@ zznews.cn##.ad:not([style])
 ||beam.mjhlifesciences.com^
 ||beamincrease.com^
 ||beampulse.com^$third-party
+||beanscattering.jp^$third-party
 ||beanstalkdata.com^$third-party
 ||beanstock.com^$third-party
 ||bearad.com^
@@ -30463,6 +30469,7 @@ zznews.cn##.ad:not([style])
 ||cxgfq.pinlue.com^
 ||cxjju.cn^
 ||cxmygp.xyz^
+||cxnroh6u.xyz^
 ||cxojob.com.cn^
 ||cxqblog.xyz^
 ||cxrfns.gu-global.com^
@@ -30749,6 +30756,7 @@ zznews.cn##.ad:not([style])
 ||dadedaxue.com^
 ||dadi.technology^$third-party
 ||dadi.tv/xdy
+||dadilan2.online^
 ||dadjia.com^
 ||daf-rs.com/imageViewer/wpAd
 ||dafawl.cn^
@@ -31072,6 +31080,7 @@ zznews.cn##.ad:not([style])
 ||ddrk.me/ad
 ||ddrvjrfwnij7n.cloudfront.net^
 ||ddshu.net/a_d_code/
+||ddwant.cn^
 ||ddwt.am^
 ||de-mi-nis-ner.info^
 ||de-mi-nis-ner2.info^
@@ -31084,6 +31093,7 @@ zznews.cn##.ad:not([style])
 ||de.secure.sonosite.com^
 ||de17a.com^$third-party
 ||de3.linyongming.top^
+||de5v6rb80m4j1.cloudfront.net^
 ||deadpantruck.com^
 ||deafeningdock.com^
 ||deagostinipassion.it/collezioni/analytics.js
@@ -32207,6 +32217,7 @@ zznews.cn##.ad:not([style])
 ||e41.xyz^
 ||e47.xyz^
 ||e48.xyz^
+||e49.xyz^
 ||e5af61b2d8c19c16.online^
 ||e5obq1v261.www.lurkit.com^
 ||e5yx.com^$popup
@@ -33254,6 +33265,7 @@ zznews.cn##.ad:not([style])
 ||event-api.rdstation.com.br^
 ||event-api.reverb.com^
 ||event-listener.air.tv^
+||event-stream.spot.im^
 ||event.api.drift.com^
 ||event.csdn.net^
 ||event.edb.gov.sg^
@@ -33955,6 +33967,7 @@ zznews.cn##.ad:not([style])
 ||flixcart.com/px/gNtTli3A/init.js
 ||flixcdn.com^*/track.js
 ||flixfacts.co.uk^$third-party
+||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
 ||flixsyndication.net^$third-party
 ||flmcju.cn^
@@ -34437,6 +34450,7 @@ zznews.cn##.ad:not([style])
 ||fztattoo.cn^
 ||fzu4.bysidecar.com^
 ||fzvve.cn^
+||fzxiaoshuo.com/source/
 ||g*.biqugetv.com^
 ||g-ec4.images-amazon.com^$domain=www.17qingsong.com
 ||g-stats.openhost.es^
@@ -34771,6 +34785,7 @@ zznews.cn##.ad:not([style])
 ||geotargetly-1a441.appspot.com^$third-party
 ||geotargetly.co^$third-party
 ||geotmt.com^$third-party
+||geotrust.com^$third-party
 ||geovisite.ovh^$third-party
 ||geryi.com^
 ||get-trust-zone.info/api_ip_info.php?
@@ -43318,6 +43333,7 @@ zznews.cn##.ad:not([style])
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
 ||mongoosemetrics.com^$third-party
+||monipla.com/launch.js
 ||monitis.com^$third-party
 ||monitor-uu.play.aiseet.atianqi.com^
 ||monitor.azure.com^
@@ -46547,6 +46563,7 @@ zznews.cn##.ad:not([style])
 ||push.zhanzhang.baidu.com/push.js
 ||push.zhanzhang.baidu.com^
 ||push4site.com^$third-party
+||push7.jp^$third-party
 ||pushalert.co^$third-party
 ||pushauction.com^$third-party
 ||pushbird.com^$third-party
@@ -57320,6 +57337,7 @@ zznews.cn##.ad:not([style])
 ||wljj56.com^
 ||wlkojk.orange.ro^
 ||wlmhdk.cn^
+||wlr8yw8.cn^
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wltmv.com/images/jd.jpg
@@ -58879,6 +58897,7 @@ zznews.cn##.ad:not([style])
 ||xqtzp.cn^
 ||xqwkjf.top^
 ||xqygyp.cn^
+||xqzzl1l.cn^
 ||xr.shinobi.jp^
 ||xray.mail.ru^
 ||xrecord.xyz^
@@ -60486,6 +60505,7 @@ zznews.cn##.ad:not([style])
 ||zlin.fun^
 ||zllhtz.cn^
 ||zllnb.top^
+||zllqoxidate.com^
 ||zllxy.love^
 ||zlnmzc.top^
 ||zlolhl.3dnews.ru^
