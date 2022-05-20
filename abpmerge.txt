@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-19 16:45:53
-! Total count: 62249
+! Version: 2022-05-20 01:36:09
+! Total count: 62261
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1159,6 +1159,7 @@
 ##a[href*=".d2mzb.com"]
 ##a[href*=".dajiang99.com"]
 ##a[href*=".dapengchejiuye.com/"]
+##a[href*=".demobbe.com/"]
 ##a[href*=".dongtaisteel.com/"]
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
@@ -1208,6 +1209,7 @@
 ##a[href*=".open0317.top/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
+##a[href*=".qutaoka.com/"]
 ##a[href*=".rookiego.com"]
 ##a[href*=".rrrmrm.com/"]
 ##a[href*=".sandebg.com/"]
@@ -6772,7 +6774,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ppms.js
 /pqt.email/o/*$image
 /pr.php?
-/prebid/ad.gif?
 /preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /prepixel?
 /presslabs.js$script,~third-party
@@ -10022,7 +10023,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -12251,6 +12252,8 @@ boosj.com##[id^="ad_"]
 boquge.com##.gad2,.adsbygoogle
 boroboromi.com##.mod-ad
 bouweenpc.nl###header-banner
+boylove.cc###fake_avivid_waterfall
+boylove.cc##.header_slide
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 bozhou.cn##.bannerad
 bqg5200.com##.content_ad,.ad250left
@@ -22547,6 +22550,7 @@ zznews.cn##.ad:not([style])
 ||81c.cn^
 ||8203922.com:9855^
 ||820rd.com^
+||8239078.com^
 ||825145.com^
 ||82o9v830.com^
 ||83133.com/api/
@@ -27704,6 +27708,7 @@ zznews.cn##.ad:not([style])
 ||botdetector.ru^$third-party
 ||botize.com^$third-party
 ||botman.ninja^$third-party
+||botndm.nl^*/init.min.js
 ||botonmetaverse.com^
 ||botscanner.com^$third-party
 ||botsforger.com.cn^
@@ -27723,6 +27728,7 @@ zznews.cn##.ad:not([style])
 ||boxix.online^
 ||boy.fujieace.com^
 ||boyh5d.cn^
+||boylove.cc/Public/Uploads/img/*.gif
 ||boyxu.cn^
 ||bozhihua.com^
 ||bozhihua.com^$third-party
@@ -31531,6 +31537,7 @@ zznews.cn##.ad:not([style])
 ||dk.zeronethree.xyz^
 ||dk2323dk.xyz^
 ||dk4ywix.com^
+||dkgmgj.xyz^
 ||dkifl.com^
 ||dkjdnq.cn^
 ||dko.vente-unique.nl^
@@ -33943,7 +33950,7 @@ zznews.cn##.ad:not([style])
 ||flipkart.com/api/3/data/collector/
 ||flirt4free.com/pixel/
 ||flix360.com/beat?
-||flixcar.com/delivery/
+||flixcar.com/*/tracking/
 ||flixcar.com/gvid
 ||flixcart.com/px/gNtTli3A/init.js
 ||flixcdn.com^*/track.js
@@ -34132,6 +34139,7 @@ zznews.cn##.ad:not([style])
 ||fpt.shop/fa_tracking.js
 ||fpvdxd5.com^
 ||fpwtsp.xxxlutz.de^
+||fpxau.net^
 ||fqceyqo.com^
 ||fqigyr.xyz^
 ||fqjinyinhua.shop^
@@ -38752,6 +38760,7 @@ zznews.cn##.ad:not([style])
 ||jjyx.com^
 ||jjz666.cn^
 ||jk.hezhib.top^
+||jk5t7g6.cn^
 ||jk939.com^
 ||jkbvdo.kaigojob.com^
 ||jkdd.cc^*-
@@ -44112,6 +44121,7 @@ zznews.cn##.ad:not([style])
 ||nexage.com^
 ||nexioniect.com^
 ||nextcname.getblueshift.com^
+||nextday.media/static/tags/
 ||nextdoor.com/events/
 ||nextinpact.com/bundles/mtm
 ||nextinpact.com/image/*=.jpg
@@ -48029,6 +48039,7 @@ zznews.cn##.ad:not([style])
 ||ruisu.cc^
 ||ruiwen.com/js/a/p.js
 ||ruiwen.com/js/p.js
+||ruiwen.com/sp/
 ||ruiy.shop^
 ||ruiyijy.xyz^
 ||rum.api.intuit.com^
@@ -59957,6 +59968,7 @@ zznews.cn##.ad:not([style])
 ||yyxrm.com^
 ||yyy6999.com^
 ||yyys.shop^
+||yyzkf.com^
 ||yyzs.net/js/Float_
 ||yyzs.net/js/flyers_
 ||yzaosite.com^
