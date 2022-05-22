@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-22 01:24:54
-! Total count: 62312
+! Version: 2022-05-22 08:20:54
+! Total count: 62323
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -935,9 +935,11 @@
 ##[href="http://dx106.live"]
 ##[href="javascript:GoDb();"]
 ##[href='#'][onclick='openurl(); return false'][target='_blank']
+##[href='/ad.html']
 ##[href='/cwm2.html'][rel='nofollow']
 ##[href='/gg1.html'][rel='nofollow']
 ##[href='/hy-66-90.php']
+##[href='/jump.html']
 ##[href='/qp-3.html']
 ##[href='/sswj.html'][target='_self'][rel='nofolllow']
 ##[href='/tiao/'][target='_blank']
@@ -5024,7 +5026,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /gen204/*
 /gen204?
 /gen_204?$image,other,ping,script
-/generate_204$image,other,ping,script
+/generate_204
 /generictracking.
 /geo-ip-detect?
 /geo-location/v1
@@ -7025,6 +7027,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /rlvt-track/*
 /rm.gif?
 /rmntracking.
+/rntracking.
 /roiTrax.
 /roi_tracker.
 /roiengine.
@@ -27808,6 +27811,7 @@ zznews.cn##.ad:not([style])
 ||breakableinsurance.com^
 ||breakfastboat.com^$third-party
 ||breaktime.com.tw^$third-party
+||bridge-ashiato.appspot.com/beacon/
 ||bridgevine.com^$third-party
 ||briefbears.com^
 ||briefing.actonservice.com^
@@ -31009,6 +31013,7 @@ zznews.cn##.ad:not([style])
 ||dazibenwm.com^
 ||db-ip.com^$third-party
 ||dbex-tracker-v2.driveback.ru^
+||dbfocus.jp^$third-party
 ||dbkdwe1.com^
 ||dblcs.cn^
 ||dbncp.com^
@@ -34910,6 +34915,7 @@ zznews.cn##.ad:not([style])
 ||ggx.cmvideo.cn^
 ||ggxt.net^
 ||ggxt.net^$third-party
+||ggxwb.miguvideo.com^
 ||gh1024.xyz^
 ||ghacks.net/statics/px.gif
 ||ghghgf.51dongshi.com^
@@ -39185,6 +39191,7 @@ zznews.cn##.ad:not([style])
 ||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
 ||jwcsb.com.cn/js/neirong.js
+||jwhfkj.cn^
 ||jwhk.wasaidailian.com^
 ||jwiyr.com^
 ||jwl.hk.cn^
@@ -53700,6 +53707,7 @@ zznews.cn##.ad:not([style])
 ||tildacdn.com/pixel.png
 ||tilt.bankofamerica.com^
 ||tim.nextinpact.com^
+||timber.sendtonews.com^
 ||time.is/img/nod.png
 ||timeterritory.com^
 ||timetwig.com^
@@ -56540,6 +56548,7 @@ zznews.cn##.ad:not([style])
 ||vsgwsk.bergzeit.at^
 ||vsheying.top^
 ||vsimg.com/h2.js
+||vsmyhky.cn^
 ||vsnoon.com^
 ||vsnoon.com^$third-party
 ||vsqyaz.sweetwater.com^
@@ -59844,6 +59853,7 @@ zznews.cn##.ad:not([style])
 ||yueleshenghuo.cn^
 ||yueli.me^
 ||yueli101.xyz^
+||yuemmu.com^
 ||yuesenshangmao.cn^
 ||yuesp.com/js/viu/
 ||yuetutu.com/mbook_js/common.js
@@ -60259,6 +60269,7 @@ zznews.cn##.ad:not([style])
 ||zhangjuan.love^
 ||zhangjunying.top^
 ||zhangkeblog.site^
+||zhanglibomgmail.online^
 ||zhangmingqin.tech^
 ||zhangshen.club^
 ||zhangshiyuan.com^
