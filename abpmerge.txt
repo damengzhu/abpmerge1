@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-24 08:23:19
-! Total count: 62367
+! Version: 2022-05-24 16:28:10
+! Total count: 62373
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2753,7 +2753,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /[a-z]+\d+\.cnzz\./
 /\(com\?\d+/$third-party
 /\/ad\d*\./$script
-/\/data\/cache\/(?!(common\.|common_extra\.|forum\.|forum_viewthread\.js|home\.|portal\.|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
+/\/data\/cache\/(?!(common\.|common_extra\.|bbcode\.|editor\.|forum\.|forum_post\.|forum_viewthread\.js|home\.|portal\.|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
@@ -2769,6 +2769,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /_/trace/trace/*
 /__analytics/*
 /__dam.gif?
+/__rmn.gif?
 /__ssobj/core.js
 /__ssobj/sync?$image
 /__sttm.gif?
@@ -4396,7 +4397,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ctrl.gif?ref=
 /custom-analytics.js
 /custom-tracking.
-/cv/*&uuid=$object-subrequest
 /cv/conversion.js
 /cv_pixel.
 /cvborder.gif?
@@ -9155,6 +9155,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@f*.baidu.com/it/u=*,*&fm=*JPEG
 @@f*.baidu.com/it/u=*,*&fm=*PNG
+@@guokr.com/apis/flowingboard/item/m_article
+@@guokr.com/apis/flowingboard/item/m_home_
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@www.cocomanga.com/js/ad_/ad2.js
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
@@ -24079,6 +24081,7 @@ zznews.cn##.ad:not([style])
 ||acs86.com^
 ||acs86.com^$third-party
 ||acsbap.com^$third-party
+||acsbapp.com^
 ||acstat.com^$third-party
 ||act-on-marketing.advancedsolutionsplm.com^
 ||act-on.ioactive.com^
@@ -27907,6 +27910,7 @@ zznews.cn##.ad:not([style])
 ||btbuckets.com^$third-party
 ||btbuluo.com/uploads/*.gif
 ||btc.com/v1/poster/production/explorer-banner.
+||btcbto.com^
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
 ||btdx8.com/tmp/
@@ -31559,6 +31563,7 @@ zznews.cn##.ad:not([style])
 ||dj930.cn^
 ||dj97.com/api.php?mod=ad&
 ||djers.com^$third-party
+||djhrfus.xyz^
 ||djhuo.com/css/js/whosyourdaddy.js
 ||djibeacon.djns.com^
 ||djicdn.com/uploads/ad_image_file/
@@ -35995,7 +36000,6 @@ zznews.cn##.ad:not([style])
 ||hczzw.com^
 ||hd.browser.miui.com^
 ||hd.pe.fr^
-||hd.sohu.com.cn^$object-subrequest
 ||hd126.com/js/$script
 ||hd2.3g.qq.com^
 ||hdapp1003-a.akamaihd.net^
@@ -39322,6 +39326,7 @@ zznews.cn##.ad:not([style])
 ||jzuyfp8.cn^
 ||jzwp.fun^
 ||jzyx.com/$third-party
+||jzzd.ink^
 ||k-analytix.com^$third-party
 ||k-crm.jp/tracking.js
 ||k.13hangpifa.com^
@@ -45663,6 +45668,7 @@ zznews.cn##.ad:not([style])
 ||persianstat.ir^$third-party
 ||perso.aws.arc.pub^
 ||personalicanvas.com^$third-party
+||personallydf.com^
 ||personyze.com^$third-party
 ||persuadesock.com^
 ||persuadesupport.com^
