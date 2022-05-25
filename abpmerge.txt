@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-24 16:28:10
-! Total count: 62373
+! Version: 2022-05-25 01:41:16
+! Total count: 62382
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1474,8 +1474,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -3510,6 +3510,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
 /apis/cpt.php?
@@ -9771,6 +9772,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||daoju.qq.com/time/*/js/ad/
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
+@@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
 @@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||daziba.cn/Images/share.css
@@ -21519,6 +21521,7 @@ zznews.cn##.ad:not([style])
 ||324.com^$third-party
 ||32414.com^$third-party
 ||3244.chushoushijian.cn^
+||325szdv.cn^
 ||329329.com^
 ||32jiang.com^
 ||32xp.com/upimg/
@@ -31625,6 +31628,7 @@ zznews.cn##.ad:not([style])
 ||dltenjy.cn^
 ||dlvjmr.cn^
 ||dlxgm.cn^
+||dlxpix.net^
 ||dlxxjsh.top^
 ||dlyukun.cn^
 ||dlzjdesign.com^
@@ -33233,6 +33237,7 @@ zznews.cn##.ad:not([style])
 ||etrack.ext.hpe.com^
 ||etracker.com^$third-party
 ||etracker.de^$third-party
+||etrckeh.cn^
 ||etrht.cn^
 ||etrigue.com^$third-party
 ||etrust.eu^$third-party
@@ -38199,6 +38204,7 @@ zznews.cn##.ad:not([style])
 ||is686.com^$third-party
 ||isacglobal.com/sa.js
 ||isbamic.actonservice.com^
+||isc-tracking.eventim.com^
 ||iscreen.top^
 ||iscrv.com^
 ||isdspeed.qq.com^
@@ -42848,6 +42854,7 @@ zznews.cn##.ad:not([style])
 ||metrics.jp.sonystyle.com^
 ||metrics.key.com^
 ||metrics.kgw.com^
+||metrics.kmsmep.com^
 ||metrics.knowyourhdl.com^
 ||metrics.knowyourtrigs.com^
 ||metrics.ktvb.com^
@@ -45357,6 +45364,7 @@ zznews.cn##.ad:not([style])
 ||pages2.samcotech.com^
 ||pagesense-collect.zoho.com^
 ||pagesense.io^$third-party
+||pagesix.com/blaize/datalayer
 ||pagesjaunes.fr/stat/
 ||pagesocket.glam.com^
 ||pagetest.top^
@@ -49438,6 +49446,7 @@ zznews.cn##.ad:not([style])
 ||shweiwen.cn^
 ||shypqc.com^
 ||shyseed.com^$third-party
+||shzuggo.cn^
 ||shzzzz.dftoutiao.com^
 ||si1.go2yd.com^
 ||si9377.com^
@@ -52513,7 +52522,6 @@ zznews.cn##.ad:not([style])
 ||strawberry.basf.com^
 ||streamads.com/view?
 ||streambeam.io^$third-party
-||streamlare.com/api/video/stats/
 ||streamsend.com^$third-party
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
@@ -55805,6 +55813,7 @@ zznews.cn##.ad:not([style])
 ||uim.tifbs.net^
 ||uiqjcpt.cn^
 ||uissm.com^
+||uiswtr3.xyz^
 ||ujian.cc^
 ||ujian.cc^$third-party
 ||ujiasm.com^
