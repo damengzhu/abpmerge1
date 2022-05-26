@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-25 16:27:42
-! Total count: 62412
+! Version: 2022-05-26 01:42:29
+! Total count: 62423
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1474,8 +1474,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -10834,6 +10834,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
+@@||stellen.donaukurier.de/Scripts/ApiTracking.js?$script,~third-party
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 @@||store.usps.com/media/js/metrics/metrics.js
@@ -22620,6 +22621,7 @@ zznews.cn##.ad:not([style])
 ||877zw.com/1
 ||8794.cn/js/mx
 ||87d.xv5b.com^
+||87fgr4.site^
 ||87mao.com/52
 ||87uq.com^
 ||88-baidu.com^
@@ -25820,6 +25822,7 @@ zznews.cn##.ad:not([style])
 ||api.cxzudwk.com^
 ||api.decentralize.today^
 ||api.elliehuxtable.com^
+||api.fanmatics.com/event
 ||api.huoshan.com/gecko/server^$app=com.ss.android.article.news
 ||api.installer.xiaomi.com^
 ||api.iplay.163.com^
@@ -27909,6 +27912,7 @@ zznews.cn##.ad:not([style])
 ||bt.ktxp.com/iframe/statistics.js
 ||bt1.patexplorer.com^
 ||bt121.net/ats/
+||bt365.club^
 ||bt888bf.com/da.aspx
 ||btbalex.cn^
 ||btbbt.cc/bt.js
@@ -29627,6 +29631,7 @@ zznews.cn##.ad:not([style])
 ||collect-eu.attraqt.io^
 ||collect-v6.51.la^
 ||collect.*.miui.com^
+||collect.adplogger.no^
 ||collect.alipay.com^
 ||collect.cloudsponge.com^
 ||collect.f5.com^
@@ -30164,6 +30169,7 @@ zznews.cn##.ad:not([style])
 ||covet.pics/beacons
 ||cp.7y7.com^
 ||cp.eoncreativity.com^
+||cp.finanzfrage.net/stats
 ||cp.jfcdns.com^
 ||cp.qbaobei.com^
 ||cp121.com/js2/
@@ -35721,6 +35727,7 @@ zznews.cn##.ad:not([style])
 ||gzxxty168.com^
 ||gzz123.com^
 ||gzzbb.net^
+||gzzcxxzx.com^
 ||gzzuwo.com^
 ||gzzza.com/html/
 ||h-adashx.ut.taobao.com^
@@ -44228,7 +44235,6 @@ zznews.cn##.ad:not([style])
 ||nexage.com^
 ||nexioniect.com^
 ||nextcname.getblueshift.com^
-||nextday.media/static/tags/
 ||nextdoor.com/events/
 ||nextinpact.com/bundles/mtm
 ||nextinpact.com/image/*=.jpg
@@ -52727,6 +52733,7 @@ zznews.cn##.ad:not([style])
 ||support2.flex.com^
 ||supportmetrics.apple.com^
 ||supportxmr.com^$third-party
+||suqiguoji.wang^
 ||surace-jujitsu.fr/outils/compteur_php/
 ||surefire.link^$third-party
 ||surfcounters.com^$third-party
@@ -53192,6 +53199,7 @@ zznews.cn##.ad:not([style])
 ||tahui.club^
 ||tahuixin.club^
 ||taidi.net.cn^
+||taihuajiao.vip^
 ||taiji.sina.cn^
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
@@ -55703,6 +55711,7 @@ zznews.cn##.ad:not([style])
 ||u652.myplainview.com^
 ||u88.cn^$third-party
 ||u8ad.com^
+||u8hexo5v.com^
 ||u927.sfgate.com^
 ||u989.theweek.com^
 ||u98l6o.online^
@@ -57186,6 +57195,7 @@ zznews.cn##.ad:not([style])
 ||weike87.com/images/*1
 ||weikefanli.com^
 ||weikeys.com/js/zt.js
+||weilaa.xyz^
 ||weiledi.com^
 ||weilekangnet.com:59188/wz/dingpiao_
 ||weilekangnet.com:59188/wz/vod_shang.js
@@ -59176,6 +59186,7 @@ zznews.cn##.ad:not([style])
 ||xyj321.com/static/zx/js/zx-con-jsq_
 ||xylmdm.top^
 ||xyly2016.com^
+||xypksuk.cn^
 ||xytom.com^
 ||xywgbms.top^
 ||xywy.com/display/display_load.js
