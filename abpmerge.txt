@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-27 16:26:24
-! Total count: 62486
+! Version: 2022-05-28 01:27:15
+! Total count: 62498
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1474,8 +1474,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:975px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -9461,6 +9461,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.nyda.pro^$websocket
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
+@@||apikey.wrld3d.com/generate_204/$xmlhttprequest,domain=maps.wrld3d.com
 @@||apk.tw^*/ads.js$script,~third-party
 @@||app-advertise.zhihuishu.com^
 @@||app.clarity.so^$~third-party
@@ -20584,6 +20585,7 @@ zznews.cn##.ad:not([style])
 ||01ws5t.cn^
 ||022aifang.com^
 ||022hfxx.cn^
+||025613.com^
 ||025suyu.com^
 ||025yimei.com/templets/default/js/swt.js
 ||027cgb.com^*.gif
@@ -34370,6 +34372,7 @@ zznews.cn##.ad:not([style])
 ||fsyc.xyz^
 ||fsyzcs.com^
 ||fsz1.francoisesaget.com^
+||fszcxxzx.com^
 ||fszhxd.com^
 ||ft.com/a.html
 ||ft.com/ingest?
@@ -37334,6 +37337,7 @@ zznews.cn##.ad:not([style])
 ||ijaabm.nbcsports.com^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
+||ijshs.com^
 ||ijsks.com^
 ||ijsxk.com^
 ||ijuns.com^
@@ -38805,6 +38809,7 @@ zznews.cn##.ad:not([style])
 ||jinrungroup.cn^
 ||jinse.com/promotion/
 ||jinshasi.cn^
+||jinshengkeji.vip^
 ||jinshenglong.cn^
 ||jinshui2018.chalook.net^
 ||jintengli.mobi^
@@ -40913,6 +40918,7 @@ zznews.cn##.ad:not([style])
 ||ljlxy.cn^
 ||ljmei.com^
 ||ljrtb.cn^
+||ljwckj.love^
 ||lkjbrd.signals.com^
 ||lkkskdkfjdk.qiangquanvip.com^
 ||lkle.top^
@@ -41760,6 +41766,7 @@ zznews.cn##.ad:not([style])
 ||madhouse.cn^
 ||madkudu.com^$third-party
 ||madlan.co.il/o4wPDYYd/init.js
+||madlineg.com^
 ||madnet.ru^$third-party
 ||madserving.com^
 ||madx.flyme.cn^
@@ -46370,6 +46377,7 @@ zznews.cn##.ad:not([style])
 ||postuler.bpost.be^
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
 ||pouitgy.cn^
+||pouyao.com^
 ||powderprofit.com^
 ||powerchase.online^
 ||powercount.com^$third-party
@@ -49243,6 +49251,7 @@ zznews.cn##.ad:not([style])
 ||sfceco.cn^
 ||sfg8mbh.cn^
 ||sfilm.com^
+||sfjmj.com^
 ||sfk.t58b.com^
 ||sfp.safe.baidu.com^
 ||sfp7.eco-conscient.com^
@@ -53330,6 +53339,7 @@ zznews.cn##.ad:not([style])
 ||taomochou.cn^
 ||taomovie.club^
 ||taopiaopiao.shop^
+||taoquan365.net^
 ||taorun.com^
 ||taose06.com^
 ||taosq.net/public/250x250.jpg
@@ -59033,6 +59043,7 @@ zznews.cn##.ad:not([style])
 ||xmzwdgm.com^
 ||xn--2hvw21e.online^
 ||xn--2qu96gouvko1a.com^
+||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||xn--wxtr44c.video^
 ||xn--wxtr9fwyxk9c.top^
@@ -59988,6 +59999,7 @@ zznews.cn##.ad:not([style])
 ||ytunion.com^
 ||ytxj.mercury.sogou.com^
 ||ytybl.com^
+||ytyug.com^
 ||yu.axcdt.cn^
 ||yu.dlxxjsh.top^
 ||yu0123456.com^
