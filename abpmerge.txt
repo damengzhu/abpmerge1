@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-29 01:43:34
-! Total count: 62535
+! Version: 2022-05-29 08:21:45
+! Total count: 62544
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9904,6 +9904,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||events-collector.spot.im/api/$xmlhttprequest
+@@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||eveselibaspunkts.lv/js/global/fingerprint2.min.js?
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
@@ -28700,6 +28701,7 @@ zznews.cn##.ad:not([style])
 ||ch-hr12333.com^
 ||ch.sharpmarketing.eu^
 ||ch0p.darty.com^
+||chabeiren.com^
 ||chahua.org/aimg/
 ||chaicp.com/common/images/wenzhang
 ||chaicp.com/common/m/image/sjad
@@ -29714,6 +29716,7 @@ zznews.cn##.ad:not([style])
 ||colossusssp.com^$third-party
 ||colvk.viki.io^
 ||com*/ps/psCreat.js
+||com-csn.com^
 ||com.econa.com^
 ||com/11nvnv/
 ||com/?Intr=$popup,third-party
@@ -30762,6 +30765,7 @@ zznews.cn##.ad:not([style])
 ||d36upaw912d02q.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
 ||d3bj8nkfly20uo.cloudfront.net^
+||d3bo67muzbfgtl.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3g.qq.com^
@@ -36337,6 +36341,7 @@ zznews.cn##.ad:not([style])
 ||hijack.baidu.com/idm/v1/setting?appkey=100001&sign=80b7979088cc6af422bd3775e137452a&timestamp=1530867456491$app=com.qiyi.video
 ||hijack.baidu.com/idm/v1^$app=com.qiyi.video
 ||hijack.baidu.com^
+||hijjtiv.cn^
 ||hikari.website^
 ||hikari.wiki^
 ||hikin.online^
@@ -37024,6 +37029,7 @@ zznews.cn##.ad:not([style])
 ||hzylhk.com^
 ||hzyouhejia.com^
 ||hzyyhz.cn^
+||hzzcxxzx.com^
 ||hzzfan.com^
 ||hzzydb.cn^
 ||i*.hdslb.com/bfs/sycp/tmaterial/*.jpg@680w_200h*.webp$app=tv.danmaku.bili
@@ -39802,6 +39808,7 @@ zznews.cn##.ad:not([style])
 ||km.senxiaopang.top^
 ||km1.muhoujiemi.com^
 ||kmaa45.com^
+||kmb.gaoyuhu.top^
 ||kme.dncvj.cn^
 ||kmf.com/da/do
 ||kmgfjc.cn^
@@ -42378,6 +42385,7 @@ zznews.cn##.ad:not([style])
 ||mbotvisit.com^$third-party
 ||mbsvr.net/js/tracker/
 ||mbsy.co^$third-party
+||mbt.tangk.top^
 ||mbww.com^$third-party
 ||mbxt.net^
 ||mc.a48505.cn^
@@ -43918,6 +43926,7 @@ zznews.cn##.ad:not([style])
 ||mymarketing.co.il/Include/tracker.js
 ||mymed.su/counter/
 ||mymetal.ru/counter/
+||mymf.shop^
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
 ||myntelligence.com^$third-party
