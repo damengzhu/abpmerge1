@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-31 08:26:34
-! Total count: 62591
+! Version: 2022-05-31 16:28:24
+! Total count: 62602
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1043,6 +1043,7 @@
 ##[onclick="window.open('/statics/js/hth112.html')"]
 ##[onclick="window.open('/statics/js/hth906.html')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZEpZc2pOaFdXa0tD');"]
+##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick='gourl()'][src^='/images/bfq/']
 ##[onclick='window.open(this.url)']
 ##[onclick^="window.location.href = 'http://wd.haoyundm.com"]
@@ -3703,7 +3704,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /bcbot-nomin.js
 /bcgg/*
 /bcn.gif?
-/bcn?
 /bcsensor.js
 /bctrackers/*
 /bdanalytics.
@@ -9142,6 +9142,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
+@@/sensorsdata-$domain=zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
@@ -30270,6 +30271,7 @@ zznews.cn##.ad:not([style])
 ||cpro.baidustatic.com^$script,domain=sohu.com
 ||cpro.bdrmb.cn^
 ||cpro.xixiliya.cn^
+||cpro.zol.com.cn^
 ||cpt.9136.com^
 ||cpt.itv.com^
 ||cptmgp.villaciniz.com.tr^
@@ -38287,6 +38289,7 @@ zznews.cn##.ad:not([style])
 ||iqiyipic.com/image/20*_100000$image
 ||iqm.com^$third-party
 ||iqn.world^
+||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
 ||iqtfy.com/upload/vod/620.gif
 ||iqu-operation.com^
@@ -45746,6 +45749,7 @@ zznews.cn##.ad:not([style])
 ||pdmsmrt.chevrolet.ca^
 ||pdmsmrt.gmccanada.ca^
 ||pdqgywt.cn^
+||pdrtcgfx.cn^
 ||pds-midea.com^
 ||pdsjycm.com^
 ||pdss.xyz^
@@ -49281,6 +49285,7 @@ zznews.cn##.ad:not([style])
 ||service-stat.tbn.ru^
 ||service-webmaster.fr/cpt-visites/$third-party
 ||service.frankwatching.com^
+||service.trustpid.com^
 ||service.vmos.cn/vmospro/api/ad^
 ||service.weibo.com/share/
 ||serviceos.comcast.net^
@@ -59107,6 +59112,7 @@ zznews.cn##.ad:not([style])
 ||xmfish.com/shw/$script
 ||xmgysweb.com^
 ||xmhaorizi.cn^
+||xmkbrfyu.cn^
 ||xmliw.com^
 ||xmljx.cn^
 ||xmltym2.cn^
@@ -59443,6 +59449,7 @@ zznews.cn##.ad:not([style])
 ||yandexadexchange.net^
 ||yangchunblog.club^
 ||yanghuaer.mobi^
+||yangjie.asia^
 ||yanglangkk.cn^
 ||yangll.xin^
 ||yangmengqiu.work^
@@ -61454,6 +61461,7 @@ zznews.cn##.ad:not([style])
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
+18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 18p2p.com##[href*="/?Intr="],[href*="/?Extend="],[href*="/?intr="],[src^="http://diopic.net/images"],[href^="http://www.yin6666.net/"],[href^="http://pj555716.net"],[height="60"][width="340"]
 18qiang.com##.imgbanner,.bottom_khdxz
@@ -62383,6 +62391,8 @@ zznews.cn##.ad:not([style])
 2345.com##.cmoe-nxh-dx
 2345.com##.cnxh_box
 2345.com##.coem-dzhcn
+2345.com##.comp-logo-wall
+2345.com##.comp-normal-navigate
 2345.com##.dzc-hn-cmoe
 2345.com##.event1-hasList
 2345.com##.mainbg
@@ -62404,6 +62414,7 @@ zznews.cn##.ad:not([style])
 2345.com##.top_news
 2345.com##.v_picConBox.height214
 2345.com##.vipTopBanner
+2345.com##.wawaji
 2345.com##div#ivy-taobao,div.baiduHotWordsR.mt10.clearfix,div.ivyBaidu,div.ivy240.mt10,div.ivy940.mt10,div.ivy940_82.mt10,div#corner_div,div#J_cj,div#J_tip_stopXP,div#tools-gameTmp,div.tip_stopXP,div.J_topicBanner,div.mod.event1.event1-hasList,div#globalTopbannerContent,div.headIvy230,div#J_acts12_bfix,div#BAIDU_DSPUI_FLOWBAR,#topHf,#secondFlashAds,.ad_countdown,.baiduSearchIvy,.rowIvy,.adMainBg_1440,.s11-logowall,.activity-skin-trig,.item-lvy,.adMainBg
 2345.com##div[class*="act-navspec"]
 2345.com##div[class*="act-open"] > :not(.close):not([class*="mask"])
