@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-30 16:26:00
-! Total count: 62564
+! Version: 2022-05-31 01:40:45
+! Total count: 62573
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3944,6 +3944,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /certifica_2010.js
 /certona.
 /certona_$script
+/ceshi127722.
 /cf.aspx?action=cycadget&
 /cfformprotect/*
 /cfm-realtime-marketing/*
@@ -5038,7 +5039,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /gen204/*
 /gen204?
 /gen_204?$image,other,ping,script
-/generate_204
+/generate_204$~xmlhttprequest
 /generictracking.
 /geo-ip-detect?
 /geo-location/v1
@@ -9467,7 +9468,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.nyda.pro^$websocket
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
-@@||apikey.wrld3d.com/generate_204/$xmlhttprequest,domain=maps.wrld3d.com
 @@||apk.tw^*/ads.js$script,~third-party
 @@||app-advertise.zhihuishu.com^
 @@||app.clarity.so^$~third-party
@@ -24894,6 +24894,7 @@ zznews.cn##.ad:not([style])
 ||aimto.cn^
 ||ainunu.*/vad.js
 ||aiode.cn^
+||aioty.cn^
 ||aip.actonservice.com^
 ||aipai.com/rsd/
 ||aipp99.com/haose/
@@ -26497,6 +26498,7 @@ zznews.cn##.ad:not([style])
 ||ayc0zsm69431gfebd.info^
 ||ayc0zsm69431gfebd.xyz^
 ||aydtkb.pikabu.ru^
+||ayhjukc.cn^
 ||ayidaye.m.zwdu.com^
 ||ayk.cx^
 ||aysccnn.cn^
@@ -27397,6 +27399,7 @@ zznews.cn##.ad:not([style])
 ||bibglj.timberland.fr^
 ||bibi100.com^
 ||bibilm.com^
+||bibotsays.com^
 ||bid.run^$third-party
 ||bidder.mediams.mb.softbank.jp^
 ||bidderrtb.com^$third-party
@@ -28386,6 +28389,7 @@ zznews.cn##.ad:not([style])
 ||carburantsanalyticsa.carte-gr.total.fr^
 ||carburez-a-l-emotion.carte-gr.total.fr^
 ||cardexchanges.carte-gr.total.fr^
+||cardinalcommerce.com/prod/log
 ||cardniu.com^$third-party
 ||cards-css.iqiyi.com^
 ||cardshare.carte-gr.total.fr^
@@ -28782,6 +28786,7 @@ zznews.cn##.ad:not([style])
 ||checkadblock.ru/banners^
 ||checkeffect.at^$third-party
 ||checkout.com/logger/
+||checkout.com/logging
 ||checkpointcharlie.heizung.de^
 ||checkru.net^$third-party
 ||checkstat.nl^$third-party
@@ -36796,6 +36801,7 @@ zznews.cn##.ad:not([style])
 ||huaerduo.com^
 ||huafangzhou.com^
 ||huafujr.com^
+||huahuagoudc.com^
 ||huahuaka.com^
 ||huaiduoduo.info/Runtime/js/
 ||huaisq.com^
@@ -40058,6 +40064,7 @@ zznews.cn##.ad:not([style])
 ||kyad88.com^
 ||kydcwp.landwirt.com^
 ||kygso.com/js/lrtk.js
+||kyizzs.com^
 ||kyjoyk.modoza.com^
 ||kykcusq.cn^
 ||kykmuyi.cn^
@@ -43170,6 +43177,7 @@ zznews.cn##.ad:not([style])
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
 ||miao.baidu.com^
 ||miaobige.com/fw.html/
+||miaoche.cc^
 ||miaolejieshui.cn^
 ||miaomu139.cn^
 ||miaoyuan.work^
@@ -46385,6 +46393,7 @@ zznews.cn##.ad:not([style])
 ||poobaj.bhg.com^
 ||pool.nimiq.watch^$third-party
 ||pool.nimiqchain.info^$third-party
+||poool.fr/api/v3/access/event
 ||pop800.com^$third-party
 ||popads.net^
 ||popcash.net^
