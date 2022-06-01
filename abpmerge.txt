@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-05-31 16:28:24
-! Total count: 62602
+! Version: 2022-06-01 01:53:36
+! Total count: 62615
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1477,8 +1477,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:972px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -4567,6 +4567,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
+/dynatrace.$domain=~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /dyxia/js/ny
 /dzwww/ad_dzw_inner.js
@@ -9094,7 +9095,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -9288,6 +9289,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||abc.com/b/ss/$image
 @@||abchina.com^*ad
 @@||acb.com/javascripts/jv_feeder_stats.js
+@@||accounts.intuit.com/fe_logger?$~third-party
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||ace.advertising.com^$domain=mail.yahoo.com
 @@||acg.tv/flash.swf?
@@ -10102,6 +10104,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||haokoubei.top/dl/rfo_v_f_pc.js
 @@||haokoubei.top/jquery/jquery-1.7.2.min.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hbu.cn^*/ad.css?$stylesheet
@@ -26389,6 +26392,7 @@ zznews.cn##.ad:not([style])
 ||automobile.it/fb/
 ||autonet.com.tw/90/
 ||autoretro.com.ua/smtop/
+||autorobot.city^
 ||autotrader.com/pixall/
 ||autotrading.com.cn^
 ||autozone.actonservice.com^
@@ -28527,6 +28531,7 @@ zznews.cn##.ad:not([style])
 ||ccjxwlkj.com^
 ||ccjxybj.cn^
 ||cckke.com/fanhao/v/ad
+||cclnuzn.cn^
 ||ccm19.de^
 ||ccmd.coveredca.com^
 ||ccmdgg.com^
@@ -31193,6 +31198,7 @@ zznews.cn##.ad:not([style])
 ||dditscdn.com/log/
 ||ddl.3g567.com^
 ||ddm.io^$third-party
+||ddnzn.xyz^
 ||ddomm.com^
 ||ddot.xyz^
 ||ddpaowanji.com^
@@ -39932,6 +39938,9 @@ zznews.cn##.ad:not([style])
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpshx.douguo.com^
+||kq7it3c6.club^
+||kq7it3c6.xyz^
+||kqiekmsq.world^
 ||kqirf.xyz^
 ||kqkydl.postel-deluxe.ru^
 ||kqmhog.tbmmarket.ru^
@@ -44753,6 +44762,7 @@ zznews.cn##.ad:not([style])
 ||nxdfg.xyz^
 ||nxes.mercury.sogou.com^
 ||nxhh.net/gw/gw.js
+||nxhkkm.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxkycx.com^
 ||nxl791.com^
@@ -46758,6 +46768,7 @@ zznews.cn##.ad:not([style])
 ||pubstr.acspubs.org^
 ||pubtm.com^
 ||pubxtag1.com^$third-party
+||puchengrenli.com^
 ||pudalz.gismeteo.by^
 ||puffyloss.com^$third-party
 ||puffypaste.com^$third-party
@@ -52854,6 +52865,7 @@ zznews.cn##.ad:not([style])
 ||superhh.top^
 ||superjob.ru/ws/
 ||superli666.top^
+||supernff.com^
 ||supersonicads.com^
 ||superstat.info^$third-party
 ||superstats.com^$third-party
@@ -60915,6 +60927,7 @@ zznews.cn##.ad:not([style])
 ||zpgjz.com/cdn/new1/4.gif
 ||zpiyi.com/public/js/global.js
 ||zprk.io^$third-party
+||zptxjlh.cn^
 ||zpxw.vip^
 ||zpyfsj.cn^
 ||zq.lansedir.com^
@@ -62198,7 +62211,7 @@ zznews.cn##.ad:not([style])
 1090ys8.com##a[href*="yb6277."]
 1090ys8.com##a[target="_blank"] > img[src*="alicdn.com"]
 1090ys8.com,bbt.tv,btbt.tv,mmiyue.com,nixingle.com#@#.google-ad
-1090ys8.com,rouman5.com##a[href*="tyrantdb.com"]
+1090ys8.com,rouman5.com,tucao.in##a[href*="tyrantdb.com"]
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_daoliu
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
