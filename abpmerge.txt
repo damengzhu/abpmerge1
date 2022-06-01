@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-01 08:27:15
-! Total count: 62625
+! Version: 2022-06-01 16:27:17
+! Total count: 62631
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -712,6 +712,7 @@
 ##.leftadv
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
+##.leo-container .ssr1
 ##.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
 ##.listok > a > img[style^="width:980px;height:"]
 ##.loc-home-top-adv-new
@@ -752,6 +753,7 @@
 ##.myui-vodlist__thumb[data-original*=".pstatp.com/"]
 ##.nQIAj
 ##.nQIAj1
+##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
 ##.nordvpn-popup + .sidebar-vpn
@@ -3521,7 +3523,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
-/apitracking.
 /apixel?
 /app-measurement?
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
@@ -8910,7 +8911,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://piwik.$domain=~matomo.org|~piwik.pro
 ://segment-api.
 ://segment-cdn.
-://ssh.*:10443/$third-party
 ://stats.*/index.js
 ://stats.*/script.js
 ://stats.*/stats.aspx
@@ -8927,9 +8927,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.js|$script,third-party,domain=159i.com|thisav.com
 :1010/openV5.js
-:10443/*/*!$third-party
-:10443/*/*-*-*.html$subdocument,third-party
-:10443/*/*-*-*.js$third-party
+:10443/$script,subdocument,third-party
 :11211/t.js?MAC=
 :12443/*/*-*-*.$script,third-party
 :18443/*/*-*-*.html$subdocument,third-party
@@ -10222,8 +10220,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
-@@||jobmorgen.de/Scripts/ApiTracking.js$~third-party
-@@||jobs.pnp.de/Scripts/ApiTracking.js$~third-party
 @@||joyk.com^$generichide
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
@@ -10851,7 +10847,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
-@@||stellen.donaukurier.de/Scripts/ApiTracking.js?$script,~third-party
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 @@||store.usps.com/media/js/metrics/metrics.js
@@ -12159,7 +12154,6 @@ bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
-bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 bimibimi.cc##[src^='https://dd-static.jd.com']
 bing.com###BottomAppPro
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
@@ -24263,6 +24257,7 @@ zznews.cn##.ad:not([style])
 ||adashxgc.ut.taobao.com/rest^$app=com.huawei.hwvplayer.youku
 ||adashxgc.ut.taobao.com/rest^$app=com.hupu.games
 ||adashxgc.ut.taobao.com^
+||adayvquq.cn^
 ||adb-analytics.live-now.com^
 ||adbana.com^
 ||adbd.liuxue86.com^
@@ -35788,6 +35783,7 @@ zznews.cn##.ad:not([style])
 ||gz-data.com^
 ||gz5931-llm0.cn^
 ||gzads.com^
+||gzasiatech.net^
 ||gzckdg.cn^
 ||gzcl999.cn^
 ||gzcl999.com^
@@ -36631,6 +36627,7 @@ zznews.cn##.ad:not([style])
 ||hongfachn.com^
 ||hongjiaex.cn^
 ||honglingjin.co.uk/wp-content/uploads/*-Homepage-Takeover-BG-
+||hongmao39.top^
 ||hongruikt.com^
 ||hongshikai.com^
 ||hongtefm.com^
@@ -46954,6 +46951,7 @@ zznews.cn##.ad:not([style])
 ||qaq.lm665.com^
 ||qasqs.com^
 ||qatrhe.moonyamoonya.com^
+||qaxkwxpf.cn^
 ||qayenl.amberholl.ru^
 ||qayqa.com:6868/jquery/
 ||qaz3.wethenew.com^
@@ -52989,6 +52987,7 @@ zznews.cn##.ad:not([style])
 ||sxjfhh.usatoday.com^
 ||sxjkc.cn^
 ||sxjxhg.com^
+||sxk9m8x.cn^
 ||sxljldh.top^
 ||sxmcwlw.com^
 ||sxmdxy.com^
@@ -57803,6 +57802,7 @@ zznews.cn##.ad:not([style])
 ||wps.cn/wpsv6internet/infos.ads?
 ||wpshsdk.com^
 ||wpthemes.yusop.net.zooplus.de^
+||wpwpquse.cn^
 ||wpyvue.idealwine.com^
 ||wqdao.com/tu/
 ||wqdao.com/xin/
@@ -58379,6 +58379,7 @@ zznews.cn##.ad:not([style])
 ||www.qpwoei2.com^
 ||www.qq.com/?tag=getList
 ||www.qqads.com^
+||www.qsixi.com^
 ||www.qu.la/static/js/nrwzl.js
 ||www.qwupoq.com^
 ||www.qysfa.com^
@@ -58738,6 +58739,7 @@ zznews.cn##.ad:not([style])
 ||xcar.com.cn/bbs/adfocus.js
 ||xcar.com.cn/dsp/ad
 ||xcar.com.cn/exp/
+||xcc.nbfieef.cn^
 ||xcdf.cn^
 ||xcdzsw.com^
 ||xcf-bd-js.chuimg.com^
@@ -59493,6 +59495,7 @@ zznews.cn##.ad:not([style])
 ||yantuchina.com/Upload/Ad/
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
+||yanuvv.cn^
 ||yanyanbiji.com^
 ||yanzunyang.top^
 ||yaobao.cc^
@@ -59843,6 +59846,7 @@ zznews.cn##.ad:not([style])
 ||ykad-gateway.youku.com^
 ||ykanx.com^
 ||ykbei.com^
+||ykcjxvg.cn^
 ||ykhqhe.domain.com.au^
 ||ykimg.alicdn.com/product/image/2018-07-05/9aa3f25db2af72927302bd46ac9c7ff9.gif$app=com.huawei.hwvplayer.youku
 ||ykimg.alicdn.com/product^$third-party
@@ -60202,6 +60206,7 @@ zznews.cn##.ad:not([style])
 ||yuquad.com^
 ||yushengyuancaishui.com^
 ||yushuha.com^
+||yusnw.cc^
 ||yuu360.com^$third-party
 ||yuunion.com^
 ||yuuuxi.top^
@@ -60447,6 +60452,7 @@ zznews.cn##.ad:not([style])
 ||zdd-9.com^
 ||zdface.com/js/m/zw_banner.js
 ||zdfans.com/wp-content/themes/D7/img/ad
+||zdhm.cn^
 ||zdmimg.com/collect^
 ||zdnet.com.cn/js/pv.js
 ||zdovrb.cn^
@@ -62505,7 +62511,7 @@ zznews.cn##.ad:not([style])
 6789.com##.mm-force
 6789.com##.mm-sm26850,.billing,.mm-sm22060,#northeast-flash
 6789.com,hao.360.cn,hao.360.com###daily-hotwords
-7060.la,bimiacg4.net,bimiacg5.net,dodoge.me##.tuiguang
+7060.la##.tuiguang
 07073.com###Vsss00
 07073.com###rightDiv > div[style="height:250px"]
 07073.com###tanchuang
