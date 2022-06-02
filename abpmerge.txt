@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-02 08:23:25
-! Total count: 62671
+! Version: 2022-06-02 16:28:26
+! Total count: 62685
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1352,6 +1352,7 @@
 ##a[href*="/r3325.cc"]
 ##a[href*="/r3326.cc"]
 ##a[href*="/rg200.com/"]
+##a[href*="/shishangta.cn"]
 ##a[href*="/t4078.com:"]
 ##a[href*="/t4741.com"]
 ##a[href*="/tg.602.com/"]
@@ -11539,6 +11540,7 @@ ant.design###geektime
 ant.design###geektime-ads
 ant.design##.snd-ad
 antdv.com###right-bottom
+antdv.com##.main-menu-inner > div
 antpedia.com###luxury_car
 antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk,xinhuanet.com##.gg1
 antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk,xinhuanet.com,yuanliled.com##.gg1
@@ -14938,7 +14940,8 @@ ifeng.com,sohu.com##.ad950
 ifeng.com,~imall.ifeng.com##a[href*="imall.ifeng."]
 ifeng.com,~mall.ifeng.com##A[href*="mall.ifeng.com"]
 ifeng.com/showcode
-ifenpaidy.com###new_a
+ifenpaidy.com##.btn-copy + .btn
+ifenpaidy.com##.post > .div
 ifenpaidy.com,xunyingwang.com##.modal-body
 ifkdy.com##.hb
 ifkdy.com##a[href*=".yhm11.com"]
@@ -17117,6 +17120,7 @@ pharmnet.com.cn##.ad9502
 photofans.cn##[class^="ad-1"],.list-ad,.mod-ad
 php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
+php.cn##.wwads-cn
 php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
@@ -18409,8 +18413,9 @@ thepaper.cn###head_ask_app_down
 thepaper.cn##.news_imgad,.rt_ad
 thepiratebay.org##.ads,#sky-right
 thepiratebay.se##a#image,iframe[src^="//cdn1.adexprt.com/"],iframe[src^="//cdn2.adexprt.com/"]
-theporn.cc##.pp > .none + div[id]
+theporn.cc##.pp > .none + div
 theporn.cc##.pt-70 > div[id]
+theporn.cc##.video-player-container > .none + div
 theporn.cc##.video_playr_sider
 theporn.cc##div > div[align="center"]
 theporn.cc##div[class^="_"]
@@ -27396,6 +27401,7 @@ zznews.cn##.ad:not([style])
 ||bh100.com.cn^
 ||bhaoea.cn^
 ||bhcumsc.com^
+||bhj691.com^
 ||bhj699.com^
 ||bhlianhe.com^
 ||bhphotovideo.com/imp/
@@ -35003,6 +35009,7 @@ zznews.cn##.ad:not([style])
 ||gexing.com/j/??zmask.js,easing.js?
 ||gez.io^$third-party
 ||gezaehlt.de^$third-party
+||gezkdx7.com^
 ||gf108.com^
 ||gfan.com/press/
 ||gfd80.com^
@@ -35872,6 +35879,7 @@ zznews.cn##.ad:not([style])
 ||h51.com^
 ||h559.stamfordadvocate.com^
 ||h5634t.site^
+||h56trh.site^
 ||h5f2.com/image/ll/
 ||h5jww.com^
 ||h5log.zongheng.com^
@@ -35992,7 +36000,6 @@ zznews.cn##.ad:not([style])
 ||haoerer.cn^
 ||haofs.com/haofs/ggapi.asp
 ||haogame.me^
-||haogo.cc^$popup,third-party
 ||haohud.cc^
 ||haohuisheng555.cn^
 ||haohuo.snssdk.com^
@@ -36743,6 +36750,7 @@ zznews.cn##.ad:not([style])
 ||howsmyssl.com^$third-party
 ||hp.smiler-ad.com^
 ||hpd.baidu.com^
+||hpdwfd2.com^
 ||hpejlsb.com^
 ||hpr.outbrain.com^
 ||hpr.outbrain.com^$domain=focus.de
@@ -40201,6 +40209,7 @@ zznews.cn##.ad:not([style])
 ||lajimeiguo.top^
 ||lakerspreferences.gleague.nba.com^
 ||lakerspreferences.nba.com^
+||lakjdskls.zhdchb.com^
 ||lalaaal.cn^
 ||lalaziosiamonoi.it/pixel
 ||lameletters.com^$third-party
@@ -45928,6 +45937,7 @@ zznews.cn##.ad:not([style])
 ||photorank.me^$third-party
 ||photovms.tv.sohu.com/*/*_1.jpg$app=com.sohu.sohuvideo
 ||php.cn/ad1.
+||php.cn/upload/course/
 ||php1.cn/uploads/huayun.jpg
 ||php?*=cpv
 ||phpad.cqnews.net^
@@ -49399,6 +49409,7 @@ zznews.cn##.ad:not([style])
 ||sgtld.cn^
 ||sgxkm.com^$third-party
 ||sgyebd.com^
+||sh-qiruizx.com^
 ||sh-xianghe.com^
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
@@ -49954,6 +49965,7 @@ zznews.cn##.ad:not([style])
 ||sleepcartoon.com^
 ||sleepzn.com^
 ||slewvr.gp.se^
+||slfango.ltd^
 ||slgioxv.cn^
 ||slgnt.us/track
 ||slgo.club^
@@ -53447,7 +53459,6 @@ zznews.cn##.ad:not([style])
 ||taobao.com^$popup,domain=baike567.com|wuhaozhan.net
 ||taobao.com^$popup,domain=dlkoo.cc
 ||taobao.com^$popup,domain=dlkoo.com
-||taobao.com^$popup,domain=ifenpaidy.com
 ||taobao.qq.com^
 ||taobaoad.com^
 ||taobaocdn.com^$domain=www.aknba.com|xiaoer.tv|whnight.com
@@ -53705,6 +53716,7 @@ zznews.cn##.ad:not([style])
 ||tenddata.com^
 ||tendersugar.com^
 ||tendertest.com^$third-party
+||tengbaiwan.com^
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengtv.com/skin/xin/Picture/800-70.gif
@@ -57828,6 +57840,7 @@ zznews.cn##.ad:not([style])
 ||wpdstat.com^$third-party
 ||wpfc.ml^$third-party
 ||wph2.destinia.us^
+||wpib0jr.cn^
 ||wpkfti.1300k.com^
 ||wples.com/pc/common.js
 ||wppei.cn^
@@ -58745,6 +58758,7 @@ zznews.cn##.ad:not([style])
 ||xazhuozhi.com^
 ||xb20.tv/js/m-
 ||xb588.net^
+||xbiqu5.com/12345678.
 ||xbiquge*.com/js/script.js
 ||xbiquge.la/4P44D9EF^
 ||xbiquge.me/api/stat/novel^
