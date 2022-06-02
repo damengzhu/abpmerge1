@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-02 01:42:01
-! Total count: 62658
+! Version: 2022-06-02 08:23:25
+! Total count: 62671
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1479,8 +1479,8 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:973px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -10981,6 +10981,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tuhu.cn^
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
+@@||tunein.com/api/v1/comscore$~third-party
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
 @@||tvb.com/social/share_
 @@||tvb.com^*/videojs.ads.
@@ -25955,6 +25956,7 @@ zznews.cn##.ad:not([style])
 ||apicloud.zol.com.cn/Events/Reserve_Show
 ||apilog.app.acfun.cn^
 ||apio.ink^
+||apissl.xinweiyun.com/weixin/index.php/books/check_shop_closed_AD
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apiwz.midukanshu.com^
@@ -26470,6 +26472,7 @@ zznews.cn##.ad:not([style])
 ||awfzfs.kwantum.nl^
 ||awifi.cn^$third-party
 ||awin1.com^$third-party
+||awkdjfkdsjk.duxingangtiaoban.com^
 ||awleo.cn^
 ||awogtl.1stopbedrooms.com^
 ||aws-native.com/ping/
@@ -28300,6 +28303,7 @@ zznews.cn##.ad:not([style])
 ||calculatorstatement.com^$third-party
 ||calendarrate.com^
 ||caliente.mx/integration-scripts/tracking.min.js
+||californiatimes.com/privacy/$image
 ||calistabeverly.com^
 ||call-tracking.by^$third-party
 ||call-tracking.co.uk^$third-party
@@ -35326,6 +35330,7 @@ zznews.cn##.ad:not([style])
 ||gold.szonline.net^
 ||gold678.com/news/js/layer/layer.js
 ||golden1.sogou.com^
+||goldenlee.cn^
 ||goldenwind.icu^
 ||goldoffer.online^$third-party
 ||goldsilbershop.de/go.cgi?
@@ -35422,6 +35427,7 @@ zznews.cn##.ad:not([style])
 ||gotadd.cn^
 ||gotdns.com/track/blank.aspx?
 ||goteacher.cn^
+||gotie.tunein.com^
 ||gotmojo.com/track/
 ||goto.benchmarkeducation.com^
 ||goto.dresslily.com^
@@ -38792,6 +38798,7 @@ zznews.cn##.ad:not([style])
 ||jianshuapi.com/v3/my/misc
 ||jianshuapi.com/v4/youzan/kdt_info
 ||jianshuapi.com/v5/my/canary_releases
+||jiantiquan.cn^
 ||jianxinshanghai.com^
 ||jianxun.io/ad/
 ||jianyihang.com^
@@ -46088,6 +46095,7 @@ zznews.cn##.ad:not([style])
 ||pix.airbusgroup.com^
 ||pix.eads.com^
 ||pix.hyj.mobi^
+||pix.pub^
 ||pix.revjet.com^
 ||pix.speedbit.com^$third-party
 ||pix.spot.im^
@@ -47951,6 +47959,7 @@ zznews.cn##.ad:not([style])
 ||reports-api.sqreen.io^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
+||reports.tunein.com^
 ||reportsk.web.sdo.com^
 ||representativeray.com^
 ||represented.cn^
@@ -49495,6 +49504,7 @@ zznews.cn##.ad:not([style])
 ||shenwupower.com.cn^
 ||shenxiangkeji.com^
 ||shenyunkeji.com^
+||shequdaohang.com^$third-party
 ||shequn.online^
 ||sherrycha.cn^
 ||shesubscriptions.com^$third-party
@@ -53283,6 +53293,7 @@ zznews.cn##.ad:not([style])
 ||t13.cl/hit/
 ||t157.com^
 ||t1g2.cn^
+||t1tgame.com^
 ||t2.612.com^
 ||t2.hulu.com^
 ||t2.t2b.click^
@@ -59003,6 +59014,7 @@ zznews.cn##.ad:not([style])
 ||xin365.org^$third-party
 ||xinbo-lora.cn^
 ||xinchenyang.cn^
+||xindong.fun^
 ||xindream.cn^
 ||xinerdact.com^
 ||xineurope.com/static/image/banner/
@@ -61062,6 +61074,7 @@ zznews.cn##.ad:not([style])
 ||zuyapixel.com^$third-party
 ||zuzab.com^$third-party
 ||zvfzqw.cotta.jp^
+||zvkoukk.cn^
 ||zvqbbj.cn^
 ||zvsuhljiha-a.akamaihd.net^
 ||zwdq.xyz^
