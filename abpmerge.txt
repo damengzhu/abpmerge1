@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-01 16:27:17
-! Total count: 62631
+! Version: 2022-06-02 01:42:01
+! Total count: 62658
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1793,7 +1793,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .GoogleAnalytics/
 .PageHitServlet?
 .PixelNedstatStatistic/
-.acemlna.com/Prod/link-tracker?
+.acemlna.com/Prod/link-tracker?$image
+.acemlnb.com/Prod/link-tracker?$image
 .adsense.
 .adserver.
 .alcmpn.com/
@@ -5825,6 +5826,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /lightspeed_tracker.
 /lingabot.
 /link-tracker-
+/link-tracker?*&l=open&
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
 /link.e-mail.*/mo/*$image
@@ -5883,6 +5885,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /log.php?*http
 /log.php?id
 /log.php?owa_timestamp=
+/log.php?referrer=
 /log/*_time
 /log/?pixel=
 /log/analytics
@@ -13283,6 +13286,7 @@ douyu.com##a[href*=".youzan.com"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
+douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
 douyu.com,huya.com##a[href^="https://g.wan."]
 douyu.com,oschina.net#@#.follow-btn
 douyutv.com,douyu.com,douyutv.wasu.cn##div.dy_bottom_gg,div.chat-right-ad,div#chat-top-ad,a.ad_shadow,div.lol_ad,div.lol-ad,div.offi_ad,div.other_ad,div.dy_top_gg,[class$=" sign_posid"],div.lyzm-prevent,div.bglink,#downwrapper,[class^="room-ad-"],.no-login,.chat-top-ad,.tab-content.promote,.vcode9-sign,[class="row row-3"],[class="super-rmd-bg tggcontrol"],[class^="hot-sign-"],[class^="theatre-"],[data-type="dyrec"],[data-dysign-adid]
@@ -18892,6 +18896,7 @@ viphd.co##.j_advert
 vipleague.tv##.b365ban
 vipmv.co##div[style^="position: fixed;bottom: -10px;"]
 visj.pw,94lsj.com,liusiji.com##[class*="-top-adv"],[src*=".sinaimg.cn"],[class^="mobile-adv"]
+viu.com##div[id^="info"]
 vjmedia.com.hk###author-spotlight + .clear + div
 vjmedia.com.hk###text-33
 vjmedia.com.hk##.code-block
@@ -21206,6 +21211,7 @@ zznews.cn##.ad:not([style])
 ||1buu1.penyouw.com^
 ||1bva.societegenerale.fr^
 ||1ccbt.com^
+||1cros.net^
 ||1ctc.sfr.fr^
 ||1d1a.com^
 ||1dmp.io^$third-party
@@ -24192,6 +24198,7 @@ zznews.cn##.ad:not([style])
 ||ad-beacon-v01.uliza.jp^
 ||ad-ebis.bookpass.auone.jp^
 ||ad-ebis.mynavi-job20s.jp^
+||ad-fam.com^$third-party
 ||ad-img.diyidan.net^
 ||ad-log.dable.io^
 ||ad-plus.cn^$third-party
@@ -24199,6 +24206,7 @@ zznews.cn##.ad:not([style])
 ||ad-shield.io^$third-party
 ||ad-srv-track.com^$third-party
 ||ad-survey.com^$third-party
+||ad-track.jp^$third-party
 ||ad-track.paravi.jp^
 ||ad.
 ||ad.12306.cn/res/*.html
@@ -24727,6 +24735,7 @@ zznews.cn##.ad:not([style])
 ||affilae.com^$third-party
 ||affilate.hh.ru^
 ||affilbox.cz^$third-party
+||affiliate.gearbest.com^$image,third-party
 ||affiliate.rakuten.co.jp^$script
 ||affiliate6.com^
 ||affiliateedge.eu^$third-party
@@ -25527,6 +25536,7 @@ zznews.cn##.ad:not([style])
 ||analytics.lendio.com^
 ||analytics.live.com^
 ||analytics.liveact.cri-mw.jp^
+||analytics.livesense.marketing^
 ||analytics.livestream.com^
 ||analytics.logsss.com^
 ||analytics.loop-cloud.de^$third-party
@@ -25841,6 +25851,7 @@ zznews.cn##.ad:not([style])
 ||api.7017k.com^
 ||api.abcxs.org^
 ||api.afdback.ppsimg.com^
+||api.all-internet.jp^$third-party
 ||api.appodeal.com/stats
 ||api.autopilothq.com^
 ||api.baike.sogou.com/dr/p1.gif?
@@ -25892,6 +25903,7 @@ zznews.cn##.ad:not([style])
 ||api.pcsysoft.com/api/app/video/ver2/sys/queryAppAddr/
 ||api.pinyin.sogou.com/v1/bubble/ad
 ||api.poll.aiseet.atianqi.com^
+||api.popin.cc/conversion2.js
 ||api.qvpublish.com^
 ||api.ryanyao.design^
 ||api.scwsf.com^
@@ -28342,6 +28354,7 @@ zznews.cn##.ad:not([style])
 ||canddi.com^$third-party
 ||candid.zone^
 ||canecto.info/analytics.js
+||canem-auris.com^$third-party
 ||cangnews.com^
 ||canimgs.com/images/
 ||canlytics.com^$third-party
@@ -30463,6 +30476,7 @@ zznews.cn##.ad:not([style])
 ||csxsyp.cn^
 ||csxvsd.cn^
 ||csyfe.com^
+||csygxdym.com^
 ||csyqts.tmon.co.kr^
 ||csyys0731.com^
 ||cszz.ru^$third-party
@@ -30755,6 +30769,7 @@ zznews.cn##.ad:not([style])
 ||d28g9g3vb08y70.cloudfront.net^
 ||d2as12kgjg8gw5.cloudfront.net^
 ||d2axgrpnciinw7.cloudfront.net^
+||d2c.ne.jp^$third-party
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -30913,6 +30928,7 @@ zznews.cn##.ad:not([style])
 ||daisycontroversy.com^
 ||daitianyu.vip^
 ||daiwofei2019.top^
+||daixishuai.pw^
 ||daiyanbao.com/flash/md
 ||daizhangguanjia.com.cn^
 ||dajdnet.com/Public/config/Couplet/
@@ -31700,6 +31716,7 @@ zznews.cn##.ad:not([style])
 ||dlesjf.jutarnji.hr^
 ||dlevpmd.cn^
 ||dlfvgndsdfsn.com^
+||dlhyfl.cn^
 ||dlhygj.com^
 ||dlkjgjmy.com^
 ||dlkoo.cc/down/$subdocument
@@ -31855,6 +31872,7 @@ zznews.cn##.ad:not([style])
 ||doclix.com^$third-party
 ||docodoco.jp^$third-party
 ||docomo-analytics.com^$third-party
+||docomo.ne.jp/scripts/retargeting/retargeting.js
 ||docs.github.com/events
 ||doczj.com/js/common.js
 ||dodo8.com/template/*/images/g_js/
@@ -34749,6 +34767,7 @@ zznews.cn##.ad:not([style])
 ||gannettdigital.com/capture_logger/
 ||ganon.yahoo.com^
 ||gansudaily.com.cn/2017zt/images/*gg
+||gaoai.wang^
 ||gaobata.com^
 ||gaoduan.cc^
 ||gaofen.com/source/plugin/gaofen_ad/
@@ -35577,6 +35596,7 @@ zznews.cn##.ad:not([style])
 ||gstatic.com/shopping?
 ||gstatic.com/wcm/impl-
 ||gstatic.com/wcm/loader.js
+||gsyc.icu^
 ||gsycdb.com^
 ||gsycl.top^
 ||gt.duowan.com^
@@ -41807,6 +41827,7 @@ zznews.cn##.ad:not([style])
 ||ma.baiducdn2.com^*/main.js?t=
 ||ma.birkocorp.com^
 ||ma.hmhco.com^
+||ma.logsss.com^
 ||ma.meritmind.se^
 ||ma.mvr.se^
 ||ma.mw-ind.com^
@@ -46592,6 +46613,7 @@ zznews.cn##.ad:not([style])
 ||prism.pandora.tv^
 ||prism.raumgleiter.com^
 ||prismaconnect.fr/prd/ping
+||priv.gc.ca/m/m.js
 ||privacy-api.9gag.com^
 ||privacy-center.org^*/events
 ||privacy-policy.truste.com^$third-party
@@ -48430,6 +48452,7 @@ zznews.cn##.ad:not([style])
 ||s.insidehalton.com^
 ||s.insideottawavalley.com^
 ||s.jpush.cn^
+||s.logsss.com^
 ||s.mannes.tech^
 ||s.maxrozen.com^
 ||s.mississauga.com^
@@ -54712,6 +54735,7 @@ zznews.cn##.ad:not([style])
 ||tr.servicesclients.canalplus.fr^
 ||tr.servicoaocliente.younited-credit.com^
 ||tr.silvera-contact.fr^
+||tr.slvrbullet.com^
 ||tr.smtp1.email-mediapost.fr^
 ||tr.snapchat.com^
 ||tr.solution.uneo.fr^
@@ -60742,6 +60766,7 @@ zznews.cn##.ad:not([style])
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhululm.com^$third-party
 ||zhuna.cn/static/knowledge_pc/img/bussness
+||zhuogego8.top^
 ||zhuoyuanxcl.cn^
 ||zhuozhongfangshui.cn^
 ||zhushicm.com^
@@ -61007,6 +61032,8 @@ zznews.cn##.ad:not([style])
 ||zuanke123.com^
 ||zuche321.com^
 ||zuciwang.com^
+||zucks.net.zimg.jp^
+||zucks.net^$third-party
 ||zudver.matsmart.se^
 ||zug.sbb.ch^
 ||zuiacg.com/images/client/
