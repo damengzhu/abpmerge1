@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-02 16:28:26
-! Total count: 62685
+! Version: 2022-06-03 01:18:54
+! Total count: 62694
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1480,8 +1480,9 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:974px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -9333,7 +9334,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -22012,6 +22013,7 @@ zznews.cn##.ad:not([style])
 ||51posuiji.org.cn^
 ||51roadway.com^
 ||51showmy.com^
+||51sm.vip^
 ||51sxzz.com^
 ||51teach.club^
 ||51test.net/js_new/a/right_wx.js
@@ -33468,6 +33470,7 @@ zznews.cn##.ad:not([style])
 ||events.demoup.com^
 ||events.engage.cebglobal.com^
 ||events.enigen.co.uk^
+||events.framer.com^
 ||events.georgiancollege.ca^
 ||events.gfe.nvidia.com^
 ||events.gogoair.com^
@@ -40472,6 +40475,7 @@ zznews.cn##.ad:not([style])
 ||leletuitui.com^
 ||lem.nouvelobs.com^
 ||lemmotx.cn^
+||lemoncai.xyz^
 ||lencool.cn^
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -41088,6 +41092,7 @@ zznews.cn##.ad:not([style])
 ||lmcdn.ru^*/statistics.js
 ||lmgvur.scbt.com^
 ||lmiutil.com^$third-party
+||lmjy.us^
 ||lmmaoo.com^
 ||lmnqof.littletoncoin.com^
 ||lmorsb.highstreettv.com^
@@ -53437,6 +53442,7 @@ zznews.cn##.ad:not([style])
 ||tangequan.co^
 ||tanggoushequ.xyz^
 ||tangibleteam.com^$third-party
+||tangli.ltd^
 ||tangxue.me^
 ||tangyaols.com^
 ||tanjs.com^
@@ -58926,6 +58932,7 @@ zznews.cn##.ad:not([style])
 ||xiangshengw.com/cp.js
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
+||xiangwuquan.cn^
 ||xiangyudj.cn^
 ||xiangzhengjinshu.com^
 ||xianka.cloud^
@@ -59057,6 +59064,7 @@ zznews.cn##.ad:not([style])
 ||xingyou46.icu^
 ||xingyou64.xyz^
 ||xingyou65.xyz^
+||xingyou71.asia^
 ||xingzhu.top^
 ||xingzuomeixue.com^
 ||xinhaogong.xyz^
@@ -59851,6 +59859,7 @@ zznews.cn##.ad:not([style])
 ||yiren00.com/js/$script
 ||yiren34.com/js/
 ||yirendajiankang.com^
+||yirui.wang^
 ||yisd.press^
 ||yishengad.com^
 ||yishu.red^
