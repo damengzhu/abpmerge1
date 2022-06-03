@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-03 08:20:17
-! Total count: 62705
+! Version: 2022-06-03 16:24:00
+! Total count: 62710
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -583,6 +583,7 @@
 ##.chat-sysbroadcast-ad
 ##.chat-top-ad
 ##.col-ad
+##.col-lg-3 > .well[data-height="250"][data-width="300"]
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.comiis_ad
@@ -4572,7 +4573,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~github.com|~github.io
+/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynimpression?rkey=
 /dyxia/js/ny
 /dzwww/ad_dzw_inner.js
@@ -36656,6 +36657,7 @@ zznews.cn##.ad:not([style])
 ||home.xdf.cn/lee_sq/js/
 ||homedepot-static.com/data-collection/
 ||homedepot.com/YJvc1C/M4Hw/
+||homeieped.cn^
 ||homelycrown.com^$third-party
 ||homepage-gw.jd.com/npromotion^$third-party
 ||homestore.com/srv/
@@ -51721,6 +51723,9 @@ zznews.cn##.ad:not([style])
 ||srvmath.com^*/analytics.js
 ||ss.chelaile.net.cn^
 ||ss.lv/counter/
+||ss.photospecialist.at^
+||ss.photospecialist.co.uk^
+||ss.photospecialist.de^
 ||ss.ting55.com^
 ||ss.zuixinyiqi.com^
 ||ss229.com^
@@ -60303,6 +60308,7 @@ zznews.cn##.ad:not([style])
 ||ywrcqa.ksdk.com^
 ||ywrcqa.wgrz.com^
 ||ywrcqa.wthr.com^
+||ywsywh.cn^
 ||ywwm.net^
 ||ywxi.net^
 ||ywxi.net^$third-party,domain=~trustedsite.com
@@ -61559,7 +61565,6 @@ zznews.cn##.ad:not([style])
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 18h.avmimi.com##body > p[align="center"]:first-child
