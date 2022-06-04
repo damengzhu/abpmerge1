@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-04 08:19:32
-! Total count: 62726
+! Version: 2022-06-04 16:21:31
+! Total count: 62731
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -748,6 +748,7 @@
 ##.mod_ad_text
 ##.mod_ads
 ##.mod_index_ad
+##.module-adslist
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -771,6 +772,7 @@
 ##.player + .sponsor
 ##.player-bottom-gg
 ##.player-info > .recommend-two.recommend-list
+##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm-float
 ##.playtop.col-pd
 ##.pop[style="right: 10px;"]
@@ -35340,6 +35342,7 @@ zznews.cn##.ad:not([style])
 ||goaww.com/stats.php
 ||goazlf.mytoys.de^
 ||gobali.cn^
+||gobankingrates.com/fp/
 ||goblin.hupu.com^
 ||gocertiport.pearsonvue.com^
 ||godaddy.com/js/gdwebbeacon.js
@@ -44432,6 +44435,7 @@ zznews.cn##.ad:not([style])
 ||nextinpact.com/image/*=.jpg
 ||nextstat.com^$third-party
 ||nexx.cloud/play/beacon.
+||nfhlink.com^
 ||nflks.cn^
 ||nflshop.com/api/track
 ||nfmovies.com/pic/tu/*_863x59.
@@ -47883,6 +47887,7 @@ zznews.cn##.ad:not([style])
 ||recoset.com^$third-party
 ||recruitics.com^$third-party
 ||recsys-crawl.4paradigm.com^
+||recurly.com/js/v1/events
 ||redcounter.net^$third-party
 ||reddit.com/counters/$xmlhttprequest
 ||reddit.com/static/pixel.png$image
