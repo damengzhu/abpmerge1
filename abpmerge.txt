@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-05 01:40:26
-! Total count: 62737
+! Version: 2022-06-05 08:19:53
+! Total count: 62748
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -424,6 +424,7 @@
 ##.ad-site
 ##.ad-text
 ##.ad-top
+##.ad.mi_btcon
 ##.ad01
 ##.ad02
 ##.ad03
@@ -11183,6 +11184,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 MRelateFeedAd
 MoBi*.baidu.js$script,third-party
+Mplay/kk1.js
 \:[0-9]{4,5}\/sogou\/
 ^adreaper^
 ^ads.swf|
@@ -12874,6 +12876,7 @@ codes51.com##div[id^="f21ac82b21eeb7322631b6aa94e17f"],div.imageplus-append-sing
 codexiu.cn##.blog-twitter:first-child
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 cokemine.com,eveaz.com,jubuzz.com,tianfateng.cn#@#.category-share
+com/js/lp365.js
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comic.qq.com##.ad-mid,#nqsnqsad02
@@ -15570,6 +15573,7 @@ jrlt2.com###hd + .wp
 jrzj.com##.Advertisement,[class^="guanggao_"]
 jrzj.com##[src^="https://img.jrzj.com/img_index/newsadv"],.infor_comment
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
+js/yys/Pfhl365.js
 js0573.com###adv1
 js0573.com###adv2
 js0573.com###gotopl
@@ -18213,6 +18217,7 @@ start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 startos.com##div.test-240
 static.g.iqiyi.com
+static/pull/qwe1021.js
 statics.weiyuedu.cc/skin/v3/js/dibu.js
 stc.gov.cn###mov
 steachs.com##.adsense,[id^="div-gpt-ad-"],.adsbygoogle
@@ -19944,7 +19949,7 @@ yam.com##.axdBox
 yam.com##div[id^="adgshp"]
 yamibo.com##a[href*="xqsp.club"]
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
-yanetflix.com##div[style="padding: 5px; background-color: #2b2a2a; border-radius: 30px; text-align: center;"]
+yanetflix.com##.player-recommend
 yangluo.cn###frame51RcxP
 yangluo.cn###frameVw7574
 yangmaodang.org##.autumn-single-bottom-a-d
@@ -21174,6 +21179,7 @@ zznews.cn##.ad:not([style])
 ||183yf.cn/img/nz.png
 ||185.165.169.108^
 ||185.193.38.148^
+||18600441156.cn^
 ||187cn.cn^
 ||188soft.com/js/PCsoftDetailAD.js
 ||188xiaoba.net^
@@ -27740,6 +27746,7 @@ zznews.cn##.ad:not([style])
 ||bmuju.com^
 ||bmw100.cn^
 ||bmw100.cn^$third-party
+||bmzdysi.cn^
 ||bmzuyj.nifty.com^
 ||bnc.autopass.xyz^
 ||bnd-ybb.cn^
@@ -28993,6 +29000,7 @@ zznews.cn##.ad:not([style])
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
 ||chnt.wang^
+||chocolate521.online^
 ||choicestream.com^*/pixel/
 ||chong-wu.net^
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
@@ -31686,6 +31694,7 @@ zznews.cn##.ad:not([style])
 ||divergentoffer.com^
 ||divolution.com^$third-party
 ||diwebstatics.carte-gr.total.fr^
+||diwenganzaoji.com^
 ||diwuyu.com^
 ||diyibanzhu*/js/cdn.js
 ||diyibanzhu*/js/html*.js
@@ -57811,6 +57820,7 @@ zznews.cn##.ad:not([style])
 ||wof.arkn81.com^
 ||wof.betylife.com^
 ||wof.hnltcw.com^
+||wof.matchkj.com^
 ||wofan.net^$third-party
 ||wofjhs.com^
 ||wohong5.com^
@@ -60780,6 +60790,7 @@ zznews.cn##.ad:not([style])
 ||zhiyoo.com/mplus/images/banner.jpg
 ||zhiys.com/img_new/mobilemo2.jpg
 ||zhizhunbao.top^
+||zhizhuzhijia.cn^
 ||zhizi.qq.com^
 ||zhizones.com^
 ||zhjfad.com^
