@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-05 16:22:02
-! Total count: 62750
+! Version: 2022-06-06 01:38:33
+! Total count: 62753
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1485,9 +1485,9 @@
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:976px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:977px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -1567,7 +1567,7 @@ $image,third-party,domain=258zw.com
 $image,third-party,domain=avtb6677.com|lady1.top
 $image,third-party,domain=lady1.top
 $ping,third-party
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com|youtubeto.com
 $popup,third-party,domain=downdv.com|rmdown.com|soyunpan.com|youtubeto.com
 $popup,third-party,domain=webkaka.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
@@ -10236,7 +10236,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
-@@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch|pizzahut.com.au
+@@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||js.tudouui.com/bin/player2/$object
 @@||js.tv.itc.cn/gg.seed.js
@@ -17799,7 +17799,7 @@ seehd.so##.tac + table
 seemh.com##div.top_banner,div.mtb16.cf,div[style][class="mt10"],div[class^="gg_"]
 sejie4.com##.ad
 senao.com.tw#@#.ad-wrap
-senfun.net##.player-recommend
+senfun.net,yanetflix.com##.player-recommend
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 serengeseba.com##.content > li > a[href^="http"]
 seseda90.com###clone_ad
@@ -19950,7 +19950,6 @@ yam.com##.axdBox
 yam.com##div[id^="adgshp"]
 yamibo.com##a[href*="xqsp.club"]
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
-yanetflix.com##.player-recommend
 yangluo.cn###frame51RcxP
 yangluo.cn###frameVw7574
 yangmaodang.org##.autumn-single-bottom-a-d
@@ -21942,7 +21941,6 @@ zznews.cn##.ad:not([style])
 ||4wad.com^
 ||4wens.org^
 ||5.gzfenda.com^
-||5.sc126.com^
 ||500xxxx.com/go.js
 ||504537168.com/Public/system/system.
 ||504pk.com^
@@ -24890,6 +24888,7 @@ zznews.cn##.ad:not([style])
 ||ahyuns.com^
 ||ahzhongzhan.cn^
 ||ahzqgr.au-sonpo.co.jp^
+||ai-gis.club^
 ||ai.bioon.com^
 ||ai.idg.se^
 ||ai.iol.io^
@@ -30477,6 +30476,7 @@ zznews.cn##.ad:not([style])
 ||csbew.com^$domain=~lbldy.com|~afp.csbew.com|~xoyo.com|~51feels.com
 ||csbew.com^$third-party
 ||csdata1.com^$third-party
+||csdn.love^
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
 ||csdn.net^*/counter.js
@@ -41056,6 +41056,7 @@ zznews.cn##.ad:not([style])
 ||lixuanbaojie.com^
 ||lixudong.top^
 ||liyelaowu.cn^
+||liyuan.cloud^
 ||lizardslaugh.com^$third-party
 ||lizehuandian.top^
 ||lizhuo.fun^
@@ -48802,6 +48803,7 @@ zznews.cn##.ad:not([style])
 ||sc.nick.com^
 ||sc.shayugg.com/esolc.png$domain=m.biquge.com.tw
 ||sc.wa.gto.db.com^
+||sc126.com^
 ||sc1369.com^
 ||scadobe.paybooc.co.kr^
 ||scadobe.vpay.co.kr^
@@ -60011,6 +60013,7 @@ zznews.cn##.ad:not([style])
 ||ynfzxh.com^
 ||ynhuya.cn^
 ||ynjkkj.com^
+||ynlmsc.pw^
 ||ynlsgw.com^
 ||ynmpzs.cn^
 ||ynslvyou.com^
