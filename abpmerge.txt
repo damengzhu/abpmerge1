@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-06 08:19:33
-! Total count: 62759
+! Version: 2022-06-06 16:25:09
+! Total count: 62767
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -943,6 +943,7 @@
 ##[href="javascript:GoDb();"]
 ##[href='#'][onclick='openurl(); return false'][target='_blank']
 ##[href='/ad.html']
+##[href='/ad/bfy.html']
 ##[href='/cwm2.html'][rel='nofollow']
 ##[href='/gg1.html'][rel='nofollow']
 ##[href='/hy-66-90.php']
@@ -5988,6 +5989,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /logger?d=
 /logger?description=
 /logging-code.
+/logging/ClientEvent
 /logging/React-
 /logging/log-
 /logging/log.do
@@ -24645,6 +24647,7 @@ zznews.cn##.ad:not([style])
 ||adt100.com^$third-party
 ||adtaily.com^
 ||adtarget.me^$third-party
+||adtbcs.cn^
 ||adtd.douglas.at^
 ||adtd.douglas.be^
 ||adtd.douglas.ch^
@@ -25258,6 +25261,7 @@ zznews.cn##.ad:not([style])
 ||allocine.fr/_/geolocalize
 ||allowmailbox.com^$third-party
 ||alltracked.com^$third-party
+||allvideometrika.com^
 ||allxing.net^
 ||allyes.
 ||allyes.$third-party
@@ -26001,6 +26005,7 @@ zznews.cn##.ad:not([style])
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||apm.tnet.nl^
 ||apnews.com/logger
+||apohki.cn^
 ||apollofind.com^$third-party
 ||apolloprogram.io^$third-party
 ||app-analytics-cn.huami.com^
@@ -30789,6 +30794,7 @@ zznews.cn##.ad:not([style])
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1uanozc5el74n.cloudfront.net^
 ||d1wirc5qsdb1y5.cloudfront.net^
+||d1wix2gc2cgqis.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
 ||d1yu67rmchodpo.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
@@ -31080,6 +31086,7 @@ zznews.cn##.ad:not([style])
 ||data.glamour.ru^
 ||data.goertz.de^
 ||data.gosquared.com^$third-party
+||data.gzuzfa.cn^
 ||data.hicloud.com:8089^$app=com.huawei.hwvplayer.youku
 ||data.hicloud.com^$third-party
 ||data.imakenews.com^$third-party
@@ -56458,6 +56465,7 @@ zznews.cn##.ad:not([style])
 ||v.greenere.cn^
 ||v.irs01.com/hvt-cfg^$app=com.huawei.hwvplayer.youku
 ||v.irs01.com/hvt-cfg^$app=com.qiyi.video
+||v.jsczde.cn^
 ||v.miguvideo.com^
 ||v.njcengpianwang.cn^
 ||v.oui.sncf^
