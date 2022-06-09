@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-08 16:23:25
-! Total count: 62818
+! Version: 2022-06-09 01:34:49
+! Total count: 62830
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -4582,7 +4582,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
-/dynatrace.$domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
+/dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.udemy.com|~github.com|~github.io
 /dynimpression?rkey=
 /dyxia/js/ny
 /dzwww/ad_dzw_inner.js
@@ -9473,6 +9473,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-analytics.magstimconnect.net^$~third-party
+@@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.ads.tvb.com^
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
@@ -10983,6 +10984,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||translate.googleapis.com/translate_
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||travelbags.nl^*/web-vitals.$~third-party
+@@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc.taboola.com/inncoil/log/3/available$subdocument,domain=inn.co.il
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trip-jam.com/resources/js/adsense.js
@@ -13592,6 +13594,7 @@ elecfans.com##div[class^="banner_ad"]
 elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
+element-plus.gitee.io##.sidebar > .page-content
 element-plus.org##.sponsor-container
 element-plus.org##.sponsors
 empflix.com##[id^="player_top_"]
@@ -26212,6 +26215,7 @@ zznews.cn##.ad:not([style])
 ||arsdev.net^$third-party
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||artbluesea.xyz^
+||arte.tv/log-player/
 ||artefact.is^$third-party
 ||artfin.club^
 ||artfut.com^$third-party
@@ -28463,6 +28467,7 @@ zznews.cn##.ad:not([style])
 ||carambo.la^$third-party
 ||caramel.press^$third-party
 ||carbon38.com/A44kxi5a/init.js
+||carbonch.mobi^
 ||carburanalyticsspace.carte-gr.total.fr^
 ||carburantsanalyticsa.carte-gr.total.fr^
 ||carburez-a-l-emotion.carte-gr.total.fr^
@@ -35807,6 +35812,7 @@ zznews.cn##.ad:not([style])
 ||guoshipartners.com^$third-party
 ||guotaotaoci.net^
 ||guoxintdh.com^
+||guoyu.link^
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||guq9.vente-unique.it^
 ||guqu.net/Cooperate/
@@ -38950,6 +38956,7 @@ zznews.cn##.ad:not([style])
 ||jinbao888.com^
 ||jinbaozy.com/images/tb/
 ||jinbaozy.com/images/zhangshang.jpg
+||jinchanjs.top^
 ||jindongsheng.top^
 ||jindowins.com^
 ||jindu179.com^
@@ -41654,6 +41661,7 @@ zznews.cn##.ad:not([style])
 ||lvxingzhe.store^
 ||lvyinba.com/templets/*/js/couplet-ad.
 ||lvylv.cn^
+||lvytzpu.cn^
 ||lvzi.store^
 ||lw54.com/js/
 ||lw88.site^
@@ -44046,6 +44054,7 @@ zznews.cn##.ad:not([style])
 ||mydancecn.online^
 ||mydas.mobi
 ||mydifile.com/view.php/*.gif
+||mydirtyhobby.de/tracker
 ||mydisplay.ctfile.com^
 ||mydownba.com^
 ||mydrivers.com/2018/ad/
@@ -46716,6 +46725,7 @@ zznews.cn##.ad:not([style])
 ||primate.dmarcdigests.com^
 ||primedia.co.za/analytics/
 ||primer.typekit.net^$xmlhttprequest
+||princesses.asia^
 ||princetonreview.com/logging/
 ||principles.wang^
 ||printerplasma.com^
@@ -51153,6 +51163,7 @@ zznews.cn##.ad:not([style])
 ||smileyhost.net^$third-party
 ||smilingshake.com^
 ||smilingwaves.com^
+||smilk.cc^
 ||sminerva.healthcentral.com^
 ||smitionsory.co^
 ||smncden.cn^
@@ -53974,6 +53985,7 @@ zznews.cn##.ad:not([style])
 ||thetopfivevpn.com/tv5appf5cc137e72b40469905a.js
 ||thewhizproducts.com^$third-party
 ||thewindowsclub.com^*/skip-links.min.js
+||thewindrun.com^
 ||thewise.com^$third-party
 ||thickticket.com^
 ||thicktrucks.com^
@@ -56299,7 +56311,6 @@ zznews.cn##.ad:not([style])
 ||unnqyqq.cn^
 ||unpk41.online^
 ||unpkg.com/web-vitals?
-||unpkg.com^
 ||unsplash.com/a/third-party/snow-
 ||unsplash.com/nmetrics
 ||unta.cn^
@@ -56479,6 +56490,7 @@ zznews.cn##.ad:not([style])
 ||uvgxhu.sharemods.com^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
+||uwnvcxb.cn^
 ||uwy4.aegon.es^
 ||uxpolqk.cn^
 ||uxrpkgh.cn^
