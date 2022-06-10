@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-10 01:42:33
-! Total count: 62837
+! Version: 2022-06-10 08:20:55
+! Total count: 62840
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -532,6 +532,7 @@
 ##.anniversary-wrap-2018
 ##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
+##.area > .tuiguang
 ##.area_ad
 ##.artad
 ##.article_ad
@@ -1331,6 +1332,7 @@
 ##a[href*="/htvip21.app"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
+##a[href*="/jianjianjiao.top"]
 ##a[href*="/kanxiuren.com?"]
 ##a[href*="/kst6632.com/"]
 ##a[href*="/kt169.com"]
@@ -1492,8 +1494,8 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -5307,6 +5309,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hjstore/system/banner/*.txt
 /hkStatCms/ViewCount?
 /hlog.asp
+/hm.js?$xmlhttprequest,third-party
 /hm.js^$third-party
 /hm.pl?p=
 /hmapxy.js
@@ -9352,7 +9355,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|ing.com.au|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -22376,6 +22379,7 @@ zznews.cn##.ad:not([style])
 ||6613167.cn^
 ||6665432.com^*.gif
 ||666574.xyz^
+||666576.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -26528,6 +26532,7 @@ zznews.cn##.ad:not([style])
 ||awseukpi.whisbi.com^$third-party
 ||awsfjlalsf.huiyigou111.com^
 ||awstrack.me^$third-party
+||awsxc.live^
 ||awtks.com^
 ||awwlcx.cn^
 ||awwlfb.cn^
@@ -27402,6 +27407,7 @@ zznews.cn##.ad:not([style])
 ||bestgong.top^
 ||besti.ga^
 ||bestnfd.com^
+||bestnfq.com^
 ||bestpush.pconline.com.cn^
 ||bestqikan.com/static/js/swt.js
 ||bestvogue.com/fans/
@@ -37110,7 +37116,6 @@ zznews.cn##.ad:not([style])
 ||hxsxw.net^
 ||hxtrack.com^$third-party
 ||hxtwl.cn^
-||hxwygsk2.xyz^
 ||hxyifu.com^
 ||hxyssd.cn^
 ||hxyx360.com^
@@ -38711,8 +38716,6 @@ zznews.cn##.ad:not([style])
 ||javs.actonservice.com^
 ||jb.dianshu119.com^
 ||jb.ecar168.cn^
-||jb2v9sv.shop^
-||jb2v9sv.world^
 ||jb51.net/good/$script
 ||jb51.net/good/arc.js
 ||jb51.net/imgby/logo_
@@ -39359,6 +39362,7 @@ zznews.cn##.ad:not([style])
 ||jsiqql.xyz^
 ||jsjs.jbzj.com^
 ||jsjxhd.com^$third-party
+||jsk.wang^
 ||jskang.cn^
 ||jslmtdgf.xyz^
 ||jslog.post.cz^
@@ -39400,9 +39404,9 @@ zznews.cn##.ad:not([style])
 ||jt.dangbei.net/dbfs.js
 ||jtdxz.top^
 ||jti.husky.sogou.com^
-||jtj7tq6c.xyz^
 ||jtjsmp.top^
 ||jtkshop.net^
+||jtrgzj9.com^
 ||jttcbj.cn^
 ||jtu24k.aoqinglv.cn^
 ||jtu24k.grandcomms.cn^
@@ -40064,7 +40068,6 @@ zznews.cn##.ad:not([style])
 ||kpshx.douguo.com^
 ||kq7it3c6.club^
 ||kq7it3c6.xyz^
-||kqiekmsq.world^
 ||kqirf.xyz^
 ||kqkydl.postel-deluxe.ru^
 ||kqmhog.tbmmarket.ru^
@@ -41680,6 +41683,7 @@ zznews.cn##.ad:not([style])
 ||lwmbc.cn^
 ||lwobol.cloud^
 ||lwtxt.net/gaogao/
+||lwxqaq.club^
 ||lwxs99.cc^
 ||lwz.ffhre.com^
 ||lx167.com^
@@ -56028,6 +56032,7 @@ zznews.cn##.ad:not([style])
 ||u.txuesoft.cn^
 ||u.zuoyesou.com^
 ||u0056.com^
+||u0065.com^
 ||u0067.com^
 ||u0r9.cn^
 ||u1.2048sj.com^
@@ -60181,7 +60186,6 @@ zznews.cn##.ad:not([style])
 ||your-analytics.org^$third-party
 ||your-counter.be^$third-party
 ||youramigo.com^$third-party
-||youre123.com^
 ||yousee.com^
 ||youshouge513.cn^
 ||yousuode.cn^
@@ -60238,7 +60242,6 @@ zznews.cn##.ad:not([style])
 ||youyouluming.xyz^
 ||youyoumw.com^
 ||youzhizi.com^
-||youzonggw.com^
 ||yovkr.xyz^
 ||yoyi.com.cn^
 ||yoyi.com.cn^$third-party
@@ -60252,6 +60255,7 @@ zznews.cn##.ad:not([style])
 ||ypcdbw.drive2.ru^
 ||ypdzb.cn^
 ||ypgdnrz.cn^
+||yping.online^
 ||ypjmvdfxqw.com^
 ||ypmob.com^
 ||ypojie.com/wp-content/uploads/*.js
@@ -60902,7 +60906,6 @@ zznews.cn##.ad:not([style])
 ||zhongzizye.cn^
 ||zhongzk.com^
 ||zhoumo.site^
-||zhouqin520.top^
 ||zhouwutrip.cn^
 ||zhouyi.cool^
 ||zhouziwang.cn^
