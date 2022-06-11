@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-11 08:19:50
-! Total count: 62873
+! Version: 2022-06-11 16:21:28
+! Total count: 62883
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1494,8 +1494,8 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:984px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -3790,6 +3790,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /bin/stats?
 /bineos.min.js
 /bing-bat.js
+/bingimpression?
 /bipixel/*
 /bitcoin-plus-miner/*
 /bitcoincore/?ref=
@@ -5269,6 +5270,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /healthanalytics.js
 /heatmap_log.js
 /heituad/*
+/heji/mei00*.js
 /helper.wasm$third-party
 /hengfu.js
 /hg?hc=&hb=*&vjs=
@@ -7991,6 +7993,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /track_outbound_
 /track_page_view?
 /track_pageview?
+/track_pixel?
 /track_proxy?
 /track_social.
 /track_stat?
@@ -10088,7 +10091,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
@@ -17993,6 +17996,9 @@ sina.com.hk##.sbAds,.adsbygoogle,[id^="div-gpt-ad-"]
 sina.com.tw###cboxOverlay
 sina.com.tw###colorbox
 sina.com.tw##.adbig300_mid
+sina.com.tw##.tablet_above_ad
+sina.com.tw##div[style*="min-height"][style*="250px"]
+sina.com.tw##div[style="height:156px;width:570px;margin:0px auto;display:block;"]
 sinami.com##.banner_centerLeft
 sinami.com##.banner_centerRight
 sinami.com##.banner_rightBottom
@@ -21714,7 +21720,6 @@ zznews.cn##.ad:not([style])
 ||360buyimg.com^$domain=1024pz.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
 ||360che.com/article2014/AjaxAD.ashx?
 ||360doc.com/js/index7/mask_index_yc.js
-||360doc.com/js/showarticle.js
 ||360doc.com^*.html?t=
 ||360doo.com^$third-party
 ||360i.com^$third-party
@@ -22383,6 +22388,7 @@ zznews.cn##.ad:not([style])
 ||6665432.com^*.gif
 ||666574.xyz^
 ||666576.xyz^
+||666577.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -28680,8 +28686,10 @@ zznews.cn##.ad:not([style])
 ||cdn.imvkan.com^
 ||cdn.pg88cdn.com^
 ||cdn.shdsp.net/ad
+||cdn.smilk.cc^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
+||cdn.vue-js.cyou^
 ||cdn.weiye.net^
 ||cdn.wenzhangba.cn^
 ||cdn.wo.cc/wo.js
@@ -34805,6 +34813,7 @@ zznews.cn##.ad:not([style])
 ||gagkf.top^
 ||gaglxx.com/5_
 ||gaiaonline.com/internal/mkt_t.php?
+||gaijin.net/tag?
 ||gainings.biz/counter.php?
 ||gak.webtoons.com^
 ||gala.spiceworks.com^
@@ -36963,6 +36972,7 @@ zznews.cn##.ad:not([style])
 ||huanjugu.com/dm
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
+||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||huanrentv.cn^
 ||huapuzs.com^
 ||huarenjie.com/attachment/myfiles/
@@ -59310,7 +59320,6 @@ zznews.cn##.ad:not([style])
 ||xiulishanzhuang.com^
 ||xiumei.com/yeyou/
 ||xiuqixuan.cn^
-||xiurenji.net/heji/mei
 ||xixianad.com^
 ||xixianad.com^$third-party
 ||xixizaix.cn^
@@ -62309,6 +62318,7 @@ zznews.cn##.ad:not([style])
 360che.com##div[id^="PAGE_AD_"]
 360doc.cn###artnewdiv
 360doc.cn##.overAnner
+360doc.com###arttopbdad
 360doc.com###btn_freeread
 360doc.com###divaboveReflectionAd1
 360doc.com###divaboveReflectionAd2
