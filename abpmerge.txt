@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-12 01:45:24
-! Total count: 62906
+! Version: 2022-06-12 08:19:36
+! Total count: 62923
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -326,6 +326,7 @@
 ###tanx-fold-main
 ###taotaole
 ###td_tpc > .ads
+###test333
 ###textad
 ###textggs
 ###timedfuo
@@ -565,6 +566,7 @@
 ##.bottom-pic,.col-pd.mb10
 ##.bottomAd
 ##.bottomSponsor
+##.bottom_fixed > #imgs_link4
 ##.bottom_mengcheng_ad_wrap
 ##.bottomads + .leftd
 ##.bottomd + .leftd
@@ -1494,8 +1496,8 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -4424,6 +4426,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ctrack?
 /ctracker/*$domain=~charmtracker.com
 /ctrl.gif?ref=
+/cupfox/_next/static/chunks/webpack-52be397443c1d38b.js
 /custom-analytics.js
 /custom-tracking.
 /cv/conversion.js
@@ -13043,6 +13046,7 @@ ctrip.com###mt_cpm_box,div.img_show,div.pic-banner
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
+cupfox.app#@#.adsbygoogle
 cw.com.tw##.emailorder
 cw.com.tw##[class$="-ad"],[id^="div-gpt-ad-"],#iframe
 cww.net.cn##.adlinkL
@@ -21405,6 +21409,7 @@ zznews.cn##.ad:not([style])
 ||2312s.cn^
 ||2324av.com/Public/js/jquery.index.js
 ||2324av.com/zz/
+||2329.ink^
 ||233.com/js/side.htm
 ||233wo.com^
 ||2345.cn^
@@ -22394,6 +22399,8 @@ zznews.cn##.ad:not([style])
 ||666574.xyz^
 ||666576.xyz^
 ||666577.xyz^
+||666579.xyz^
+||666582.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -23854,6 +23861,7 @@ zznews.cn##.ad:not([style])
 ||aa.wenxue6.com^
 ||aa.xiangxiangmf.com^
 ||aa808.com^$third-party
+||aa9z.cn^
 ||aaa.tumanyi.com^
 ||aaaa.gakkikaitori.co.jp^
 ||aaaa8.top^
@@ -26000,6 +26008,7 @@ zznews.cn##.ad:not([style])
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||api.youtu.qq.com^
+||api.yuanzun888.com^
 ||api.yuedu.iqiyi.com^
 ||api.zhihu.com/ab/api/v1/config
 ||api.zhihu.com/ad-
@@ -27820,6 +27829,7 @@ zznews.cn##.ad:not([style])
 ||boardx.huanqiu.com^
 ||bob.gitclear.com^
 ||bob4915.com^
+||bob4994.com^
 ||bobaidu8.com^
 ||bobo.163.com^
 ||bobo.com/special/$subdocument
@@ -30155,6 +30165,7 @@ zznews.cn##.ad:not([style])
 ||convertro.com^$third-party
 ||conveyor.lewcoinc.com^
 ||convsgmp.taboola.com^
+||coodawei.cn^
 ||cooguo.com^
 ||cookie-guard-erdee.ey.r.appspot.com^
 ||cookie.amerigas.com^
@@ -30206,6 +30217,7 @@ zznews.cn##.ad:not([style])
 ||core.unit-sense.net^
 ||coremetrics.com^$third-party
 ||coremotives.com^$third-party
+||cornpic.com/images/*.gif
 ||cornplus.cn^
 ||corporate-marketing.hrs.com^
 ||corporate.americanexpress.com^
@@ -34999,6 +35011,7 @@ zznews.cn##.ad:not([style])
 ||gegeyingshi.com/template/*/images/g_js/
 ||geili.co^
 ||geili201911.ink^
+||geilicdn.com/img*_960_60.
 ||geistm.com^$third-party
 ||gej.effectivehealthy.cn^
 ||gekko.spiceworks.com^
@@ -43471,6 +43484,7 @@ zznews.cn##.ad:not([style])
 ||minescripts.info^$third-party
 ||minewhat.com^$third-party
 ||minexmr.com^$third-party
+||mingchacn.top^
 ||mingcidianzi162.cn^
 ||minglee.vip^
 ||mingyueqingfengshe.com^
@@ -43656,6 +43670,7 @@ zznews.cn##.ad:not([style])
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnsd.xyz^
 ||mnszpr.cn^
+||mnvde.com^
 ||mnwan.com^
 ||mnwor.xuanlishi.com^
 ||mnxhj.com^
@@ -48433,6 +48448,7 @@ zznews.cn##.ad:not([style])
 ||rp-rep.net^$third-party
 ||rp.hpplay.cn^
 ||rpfkgf.rp-online.de^
+||rppg.pro^
 ||rprgn.cn^
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
@@ -49853,6 +49869,7 @@ zznews.cn##.ad:not([style])
 ||sicentlife.com^
 ||sicksmash.com^$third-party
 ||sid.nordstrom.com^
+||sifa.aak7.cn^
 ||sifakaoshi360.com^
 ||sifomedia.se^$third-party
 ||sift.com^$third-party
