@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-12 08:19:36
-! Total count: 62923
+! Version: 2022-06-12 16:22:17
+! Total count: 62927
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1309,6 +1309,7 @@
 ##a[href*="/?Intr="]
 ##a[href*="/?intr="]
 ##a[href*="/Register?a="]
+##a[href*="/ad/"] > img[src*="hdslb.com"]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/aiyoubet178.com/"]
 ##a[href*="/av888822.vip/"]
@@ -6698,6 +6699,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pixel.gif?
 /pixel.json?
 /pixel.jsp?
+/pixel.mathtag.com/*
 /pixel.php?
 /pixel.png?
 /pixel.swf?
@@ -57777,6 +57779,7 @@ zznews.cn##.ad:not([style])
 ||whycywhivu.pro^
 ||whytoss.com^
 ||whyxqoc.cn^
+||whzshoes.com^
 ||whzxpm.cn^
 ||whzz.shop^
 ||wickedreports.com^$third-party
@@ -59314,6 +59317,7 @@ zznews.cn##.ad:not([style])
 ||xinshijue6080.com/Runtime/js/
 ||xinshijue6080.com/gg
 ||xinshijueba.com/js/home/
+||xinshizongqin.com^
 ||xintengfeiyang.info^
 ||xinterface.cn^
 ||xintianxia.cc^
