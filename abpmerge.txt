@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-14 16:26:34
-! Total count: 63022
+! Version: 2022-06-15 01:41:45
+! Total count: 63026
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -919,9 +919,6 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
-##A[href*=".erolabs.cloud"]
-##A[href*=".jgg18.me"]
-##A[href*=".sky1818.net"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1190,6 +1187,7 @@
 ##a[href*=".dongtaisteel.com/"]
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
+##a[href*=".erolabs.cloud"]
 ##a[href*=".ex068.com"]
 ##a[href*=".fancyzf.com/"]
 ##a[href*=".fllkf.com/"]
@@ -1226,6 +1224,7 @@
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".iziyo.com/"]
+##a[href*=".jgg18.me"]
 ##a[href*=".jiq339.com/"]
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".lacquermall.com/"]
@@ -1241,6 +1240,7 @@
 ##a[href*=".rrrmrm.com/"]
 ##a[href*=".sandebg.com/"]
 ##a[href*=".sjzbqnxx.com/"]
+##a[href*=".sky1818.net"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".tbb168.com"]
 ##a[href*=".tea123.me"]
@@ -13091,6 +13091,7 @@ d1net.com##div[style="width:1000px;height:90px;margin:15px auto 15px auto;"]
 d1xz.net##.base_ad_300_250
 d1xz.net##.base_ad_640_90
 d1xz.net##.base_ad_960_90
+d58zz.com
 d7zy.com,bipuge.com##.slide-ad
 d9soft.com##.spec-link,.soft-attr_ad
 da-fan-shu.cn##div[style*="468"][style*="60"]
@@ -13255,7 +13256,6 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dm530.net,it168.com###adv
-dmh8.com##body > a
 dmhy.org$$a[href="taobao.com"]
 dmhy.org$$a[href="tapdb.net"]
 dmhy.org$$div[id="_adv"]
@@ -14640,7 +14640,6 @@ hlgnet.com,sina.com##.tad
 hljtv.com##div.listAd1
 hlyy.cc##[src^="http://s1.limeishang.com:8081"],[width="960"],.ui-sponsor,[id$="_couplet"]
 hm.baidu.com$third-party
-hmoe11.net##A[href*=".taobao.com"]
 hmog.me##.ml_ad_widget
 hmog.me##.side_widget:last-child
 hmog.me##a[href^="http://www.masadora.net/"]
@@ -21189,6 +21188,7 @@ zznews.cn##.ad:not([style])
 ||1722t.com/js/jquery.js
 ||17265111.com^
 ||17271819.com^
+||172872.com^
 ||173app.com/hot/666/alipay-
 ||174.123.15.43:8080
 ||174.139.53.195^
@@ -26686,6 +26686,7 @@ zznews.cn##.ad:not([style])
 ||b.prod1.youroffers.dominos.ca^
 ||b.qchannel03.cn/n^$app=com.huawei.hwvplayer.youku
 ||b.rwjf.org^
+||b.sli-spark.com^
 ||b.smartvideo.youku.com^
 ||b.unjs.com^
 ||b.wal.co/rum.js$domain=samsclub.com
@@ -29783,7 +29784,6 @@ zznews.cn##.ad:not([style])
 ||codata.ru^$third-party
 ||code.ditiezu.net^
 ||code.randomhouse.com^
-||code.ts166.net^
 ||code.tui80.com^
 ||code222.com^
 ||code668.com^
@@ -47354,6 +47354,7 @@ zznews.cn##.ad:not([style])
 ||qhimg.com^$domain=1024li.com|mir300.com
 ||qhimg.com^$domain=1024pz.com|hero3g.com
 ||qhimgs1.com/t029762bc960d5104ef.jpg
+||qhimgs4.com/t01d8315ddb1a5adcce.gif
 ||qhl.bealge.sogou.com^
 ||qhlmb.com^
 ||qhmsg.com^$domain=1024li.com
@@ -48297,6 +48298,7 @@ zznews.cn##.ad:not([style])
 ||restorationbowelsunflower.com^
 ||resu.io/scripts/resclient.min.js
 ||resulticks.com^$third-party
+||resultspage.com/js/sli-spark.js
 ||retag.xyz^$third-party
 ||retargeter.com.br^$third-party
 ||retargeting.biz^$third-party
@@ -50270,7 +50272,7 @@ zznews.cn##.ad:not([style])
 ||smallpdf.com/build/track-js.js
 ||smallseotools.com^$third-party
 ||smallvideoapp.com^
-||smart-bdash.com^$third-party
+||smart-bdash.com/tracking-script/
 ||smart-counter.net^$third-party
 ||smart-digital-solutions.com^$third-party
 ||smart-dmp.com^$third-party
@@ -54653,7 +54655,7 @@ zznews.cn##.ad:not([style])
 ||toutiao.eastday.com/?qid=
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.tv|mgtv.cc|agemys.com|acgndmku.com|subaibaiys.com
 ||toutiaoimg.com^$domain=1024pz.com
 ||toutiaoyule.com/n/dspshow.
 ||touxiang.la/js/book.js
@@ -55241,6 +55243,7 @@ zznews.cn##.ad:not([style])
 ||trackedlink.net^$third-party
 ||trackedweb.net^$third-party
 ||tracker*.qcloud.com^
+||tracker-rec.smart-bdash.com^
 ||tracker.$xhr,websocket,script,ping
 ||tracker.520call.me^
 ||tracker.adbinead.com^
@@ -55918,6 +55921,7 @@ zznews.cn##.ad:not([style])
 ||ts.fi^*/spring.js
 ||ts.market.mi-img.com/thumbnail/gif/*/MusicServer^
 ||ts.tradetracker.net^
+||ts166.net^
 ||ts6.net^
 ||ts9.cc^
 ||tsai.ltd^
@@ -62048,7 +62052,7 @@ zznews.cn##.ad:not([style])
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com###testLinkA
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,hmog.me,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 52movieba.com,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pili.com,7060.la,bimibimi.tv##.tuiguang
@@ -62612,7 +62616,7 @@ zznews.cn##.ad:not([style])
 1024pz.com###header > center
 1024pz.com##.leftd
 1024pz.com##.t[style="margin-top:8px"]
-1024pz.com,2cycomic.com,yemancomic.com##body > a
+1024pz.com,2cycomic.com,dmh8.com,yemancomic.com##body > a
 1024pz.com,99syy1.com##div[class^="ps_"]
 1090ys8.com##.col-lg-wide-8 > p[style="text-align:center;"]
 1090ys8.com##a[href*="yb6277."]
