@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-17 01:25:28
-! Total count: 62353
+! Version: 2022-06-17 08:22:56
+! Total count: 62370
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1455,13 +1455,13 @@
 ##a[target="_blank"] > img[height="120px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="120px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".126.net"][src$=".gif"]
-##a[target="_blank"] > img[height="60px"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".alicdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".c-ctrip.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".lenovo.com"][src$=".png"]
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
+##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
@@ -11548,6 +11548,9 @@ ali213.net##.zadmainholder
 ali213.net##div[class^="GG"]
 ali213.net##div[id^="ali-ad-js-"]
 ali213.net#@#.subscribe-container
+alibabacloud.com###carousel-whois
+alibabacloud.com##.b-alicloud-bottom
+alibabacloud.com##.hmod-alicloud-contact-sales-support
 alipay.com###J-cooperant-banner
 aliyun.com###yq-a-r-bottom
 aliyun.com##.aliyun-delivery-view-container
@@ -22407,6 +22410,7 @@ zznews.cn##.ad:not([style])
 ||666584.xyz^
 ||666585.xyz^
 ||666587.xyz^
+||666589.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -26090,6 +26094,7 @@ zznews.cn##.ad:not([style])
 ||app.video.baidu.com/bootimg^
 ||app.wvusports.com^
 ||app.yesware.com/t/$third-party
+||app0003.xyz^
 ||app03.ikk-classic.de^
 ||app1.maatwerkonline.nl^
 ||appadhoc.com^
@@ -26508,6 +26513,7 @@ zznews.cn##.ad:not([style])
 ||avseesee.com/twad
 ||avsplow.com^$third-party
 ||avstat.it^$third-party
+||avtej.com^
 ||avtiaozhuan.com^
 ||avvenire.it/content/js/track.es5.min.js?
 ||avvr.club^
@@ -27677,6 +27683,7 @@ zznews.cn##.ad:not([style])
 ||blacktri.com^$third-party
 ||blaick.com^$third-party
 ||blb2s77r.cn^
+||blddnwt.cn^
 ||bldr.mkt.samsung.com^
 ||blingbling.wiki^
 ||blink.net/e/
@@ -31488,6 +31495,7 @@ zznews.cn##.ad:not([style])
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||dhsuiat.xyz^
 ||dhtdig.xyz/static/js/dht_default.js
+||dhtv6.xyz^
 ||dhxuiho.cn^
 ||dhxyzx.cn^
 ||dhyns.cn^
@@ -31869,6 +31877,7 @@ zznews.cn##.ad:not([style])
 ||dmzj.com/public/js/app_banner.js
 ||dmzj1.com/js/ad/
 ||dn*.ixinwei.com^
+||dn0qt3r0xannq.cloudfront.net^
 ||dn34cbtcv9mef.cloudfront.net^
 ||dna.uol.com.br^
 ||dnab.info^$third-party
@@ -32431,6 +32440,7 @@ zznews.cn##.ad:not([style])
 ||ea.dcshoes-europe.com^
 ||ea.deguisetoi.fr^
 ||ea.diamant-unique.com^
+||ea.epochbase.com^
 ||ea.evaway.com^
 ||ea.fleurancenature.fr^
 ||ea.francoisesaget.com^
@@ -33878,6 +33888,7 @@ zznews.cn##.ad:not([style])
 ||fc2fan.net/js/check_focus.js
 ||fcai.com/ifengIndex.html
 ||fcapi.jpush.cn^
+||fcgjewelry.com^
 ||fcheng.top^
 ||fchio.com^
 ||fclick.baidu.com^
@@ -35696,6 +35707,7 @@ zznews.cn##.ad:not([style])
 ||guirui-clothes.com^
 ||guitarchina.com/1/*.gif
 ||guitargrandmother.com^
+||guixie.info^
 ||guiyimq.fun^
 ||guji.store^
 ||guli21.com/PNEW/
@@ -41720,6 +41732,7 @@ zznews.cn##.ad:not([style])
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
 ||m19ud.cn^
+||m1saka.love^
 ||m2.lelemh.com^
 ||m2.yqxs.cc/js^
 ||m3.51minbingtuan.net^
@@ -46767,6 +46780,7 @@ zznews.cn##.ad:not([style])
 ||pvd.to^$third-party
 ||pvfbav.sportler.com^
 ||pvgzoqc.cn^
+||pvhgws7.com^
 ||pvkvga.cn^
 ||pvmax.net^$third-party
 ||pvnapp.zol.com.cn^
@@ -54108,6 +54122,7 @@ zznews.cn##.ad:not([style])
 ||topmalaysia.com^$third-party
 ||topmba.mobi/ad/
 ||topn.xyz^
+||topnfm.com^
 ||topofblogs.com^$third-party
 ||topolino.it^*/omniture.php?
 ||topqualitylink.com^$third-party
@@ -56762,6 +56777,7 @@ zznews.cn##.ad:not([style])
 ||wagenlux.cn^
 ||waggishpig.com^
 ||wai69.com/js/baidu/
+||waikuai.vip^
 ||waipian1.com/statics/recommend/
 ||waiyuyou.com^
 ||wakamoment.tk^
@@ -60442,6 +60458,7 @@ zznews.cn##.ad:not([style])
 ||zhouziwang.cn^
 ||zhoz.com^
 ||zhpfl.cn^
+||zhrrrec.cn^
 ||zhswzxfw.com^
 ||zhsxs.com/js/gg$script
 ||zhty.club^
