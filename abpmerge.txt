@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-16 16:26:22
-! Total count: 62343
+! Version: 2022-06-17 01:25:28
+! Total count: 62353
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1264,6 +1264,7 @@
 ##a[href*=".xlgqy.com/"]
 ##a[href*=".xmluodi.com/"]
 ##a[href*=".xrzzk.com/"]
+##a[href*=".xxgxqscl.com/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".yabo414.com"]
 ##a[href*=".yabo816.com"]
@@ -7823,6 +7824,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
 /templates/*/js/_banner.js
+/templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /tenant.min.js
 /tencentvideo/script/webtips/*
@@ -9144,8 +9146,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
-@@/adview_pic_$domain=bigpixel.cn|1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -9807,8 +9809,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cpro.baidu.com/cpro/ui/baiduLoader_as3.swf
 @@||cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|tangdoucdn.com
-@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=bigpixel.cn
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cq.qq.com/js/cody/*scroll_ad.js
@@ -10189,6 +10190,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||hmvod.com.hk/website/static/skin/images/share/
 @@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hoge.cn/advertisement.swf
+@@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
@@ -15392,6 +15394,7 @@ jandown.com##[target="_new"]
 javazhijia.com##[style="padding:4px;"]
 javbus.com##div.container-fluid:nth-child(9) > div.row > div.ad-list:nth-child(3)
 javcc.net##.row div.col-lg-12,[class^="ad-left-"],[class^="ad-right-"]
+javdb002.com##.moj-content
 javdove.com##a.recommend-link
 javdove.com##div.position_fix_bottom
 javdove.com,javdove2.club,porn5f.com##.preroll-adv-popup-overlay
@@ -18051,8 +18054,8 @@ site.ip138.com###link
 siyu88.cn##[src^="http://www.siyu88.net/g"],[width="728"][height="90"]
 sj.net.cn##div[id^="diy_col_1-3"].area,div[id^="diy_vk_ad_"].area,div.wp.a_h
 sju.wang###dl_tips,a[href="/vip.php"]
-skinme.cc##.huodong
 skinme.cc,ts.cn,xinhuanet.com##.gg2
+skinme.cc,yuntue.com##.huodong
 skyarea.cn#@#.post-share
 skycn.com##.couplet-ad-left,.couplet-ad-right,#show_top,.relate,#ppfootads
 skydy.top##.swiper-slide[style="width: 1170px;"]
@@ -20203,7 +20206,6 @@ yuanliled.com###bottomNav
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 yun.cn##div[class*="ad-block"]
 yunpan.cn###clientDl
-yuntue.com##.huodong
 yunvs.com##img[height="270"]
 yusuan123.com##a[href*="/goto/"]
 yutu.cn###botfocus-res
@@ -21935,6 +21937,7 @@ zznews.cn##.ad:not([style])
 ||45.32.105.134^
 ||4567.org^$third-party
 ||466128.com^
+||469716.top^
 ||46pj.com/go.js
 ||46pj.com/nr.js
 ||46rib.cn^
@@ -32088,6 +32091,7 @@ zznews.cn##.ad:not([style])
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||drrykr.com^
+||drrzzl.cn^
 ||drudgereport.com/204.png
 ||drudgereport.com/js/responsive-
 ||drugs.com/api/logger/
@@ -41458,7 +41462,6 @@ zznews.cn##.ad:not([style])
 ||lvsechufang.com^
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvxingzhe.store^
-||lvyinba.com/templets/*/js/couplet-ad.
 ||lvylv.cn^
 ||lvytzpu.cn^
 ||lvzi.store^
@@ -44562,6 +44565,7 @@ zznews.cn##.ad:not([style])
 ||nouzhu.cn^
 ||nova.dice.net^
 ||novaleafgroup.cn^
+||novanthealth.org/v1/tagular/beam
 ||novel.pangolin-sdk-toutiao.com^
 ||novelcool.com/files/js/yh_tj.js
 ||now.cummins.com^
@@ -46877,6 +46881,7 @@ zznews.cn##.ad:not([style])
 ||qbse.intuit.com^
 ||qbwkux.home24.at^
 ||qbyyvg3.com^
+||qc-meta.com^
 ||qc.wqshui.com^
 ||qceyjl.cellularoutfitter.com^
 ||qcgg.net^
@@ -48072,6 +48077,7 @@ zznews.cn##.ad:not([style])
 ||rnybul.gismeteo.lt^
 ||rnybul.gismeteo.ru^
 ||roay.cn^
+||roblox.com/report
 ||roblox.com/www/e.png?
 ||roblox.com^*/_/1px.gif
 ||robustbelieve.com^
@@ -51219,6 +51225,7 @@ zznews.cn##.ad:not([style])
 ||soso.ws^
 ||sosocili.xyz/assets/js/app.js?v=
 ||sosodo.xyz^
+||sosrom.cn^
 ||soua.com^
 ||soua.com^$third-party
 ||souacode.com^
@@ -53803,6 +53810,7 @@ zznews.cn##.ad:not([style])
 ||tiimg.com^$domain=678cn.com
 ||tiimg.com^*.gif
 ||tijd.be/fb/?
+||tijd.be/fb2?
 ||tijd.be/track/
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
@@ -54765,6 +54773,7 @@ zznews.cn##.ad:not([style])
 ||tracker.euroweb.net^
 ||tracker.financialcontent.com^
 ||tracker.icerocket.com^
+||tracker.idocdn.com^
 ||tracker.iltrovatore.it^
 ||tracker.jawcloud.co^
 ||tracker.keywordintent.com^
@@ -59251,6 +59260,7 @@ zznews.cn##.ad:not([style])
 ||yanu.qiniudn.com/270300.jpg
 ||yanuvv.cn^
 ||yanyanbiji.com^
+||yanzunyang.top^
 ||yaobao.cc^
 ||yaodaipeishi.cn^
 ||yaofaweb.xyz^
