@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-18 08:20:31
-! Total count: 62230
+! Version: 2022-06-18 16:22:24
+! Total count: 62231
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -5430,7 +5430,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /images/ggzz/*.gif
 /images/masha*.gif
 /images/masha*.png
+/images/mobileads*.jpg
 /images/mxl.gif?
+/images/segucrwj*.gif
 /images/sgcrwj*.gif
 /images/sgcrwj*.jpg
 /images/ta1234.js
@@ -17549,8 +17551,10 @@ qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
 qq.com#@#.side_ad
+qq.com,sogou.com##.banner-vda
 qq.com,sogou.com##.cs_dropbox[pbflag="xialaresou"]
 qq.com,sogou.com##.m[pbflag="bt_mai"]
+qq.com,sogou.com##div[class^="page-top-banner"]
 qq.com,sogou.com##div[pbflag="bt_newsb_ad"]
 qq.com,sogou.com##div[pbflag="coolsitefeed_ad"]
 qq.com,yxad.com##.l_qq_com
@@ -18391,13 +18395,11 @@ taobao.com##.recomand-item
 taobao.com##DIV._2-Q7hSLdmo7eAQs6ypio1m,SECTION._17RmLD-GpgOKhfzcBdoxTJ,#r203ae9_open,DIV._2IjaJJcGLxfhZizlEvNf6I
 taobao.com##div.smartbanner-wrapper
 taobao.com#?#.item-ad
-taoguba.com.cn###ad_tgb_list
 taoguba.com.cn###headerggContent
 taoguba.com.cn###joinTGB
 taoguba.com.cn###tbgzInstall
 taoguba.com.cn###tbgzInstallBG
 taoguba.com.cn###wrap_footer > div[style^="width: 957px;"]
-taoguba.com.cn##.NH_ad
 taoguba.com.cn##.NewH_top_left + .left
 taoguba.com.cn##.ct_app
 taoguba.com.cn##.wz_ad
@@ -18493,7 +18495,6 @@ tianya.com##[class^="tybc-"]
 tianyancha.com###banner_web
 tianyatorrents.info##[height="60"],[height="70"]
 tianyibook.com###adtop
-tiboo.cn###read_hd1
 tiboo.cn##.sectionAd
 tie.163.com###top-banner
 tieba.baidu.com###diversBanner
@@ -18830,11 +18831,9 @@ up01.cc##.ads,.pagead,#popad,iframe[height="90"],iframe[height="60"]
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 upan.cc###ShowDIV
 upan.so##a[href^="http://union.138178.cc"]
-upanso.com##.coupon
 upxin.net##ins.adsbygoogle,div[id^="ad_"]
 uschinapress.com##.baner_pictur
 uschinapress.com##img[width="290"]
-usefultools.icu##.Advertising_all
 user.qzone.qq.com###QM_Container_11
 user.qzone.qq.com###qz_notification
 user.qzone.qq.com###site_hot_btn
@@ -22362,6 +22361,7 @@ zznews.cn##.ad:not([style])
 ||666585.xyz^
 ||666587.xyz^
 ||666589.xyz^
+||666592.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -28688,6 +28688,7 @@ zznews.cn##.ad:not([style])
 ||ceruchina.com^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||ceshi2.ink^
+||ceshi5.ink^
 ||cetlog.jp^$third-party
 ||cetrk.com^$third-party
 ||ceztv.com^
@@ -32711,6 +32712,7 @@ zznews.cn##.ad:not([style])
 ||eicyds.qoo10.jp^
 ||eidsign.com.cn^
 ||eiv.baidu.com^
+||eiya.net^
 ||eiyxjls.cn^
 ||ejcgtv.spim.ru^
 ||ejd3q.life^
@@ -35108,6 +35110,7 @@ zznews.cn##.ad:not([style])
 ||glossysense.com^
 ||glpen08.com^
 ||glrcy.cn^
+||glspjvy.cn^
 ||glxdlf.tickets.ua^
 ||glzsji.nordman.ru^
 ||glzy8.com/img/ceo/js.js
@@ -36427,6 +36430,7 @@ zznews.cn##.ad:not([style])
 ||hkitblog.com^*-banner
 ||hkj8.evobanco.com^
 ||hkjs.shuake.ink^
+||hklst.top^
 ||hkmte.com/seo.js
 ||hkosgxn.cn^
 ||hkoytvx.cn^
@@ -41735,8 +41739,7 @@ zznews.cn##.ad:not([style])
 ||makedosupport.club^
 ||makeshiftmine.com^
 ||maliciousmusic.com^
-||malimali3.com/upload/site/*.gif
-||malimali3.com/upload/site/*/640.
+||malimali5.com/ad1.png
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
 ||mals.shop^
@@ -44213,6 +44216,7 @@ zznews.cn##.ad:not([style])
 ||nfmovies.com/static/210203.png
 ||nfmovies.com/static^
 ||nfmovies.com^$replace=/adsTime = 15/adsTime = 1/
+||nfqplus.com^
 ||nfwebminer.com^$third-party
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
@@ -48346,6 +48350,7 @@ zznews.cn##.ad:not([style])
 ||sal.isanook.com^
 ||salary.xiao84.com^
 ||salecycle.com^$third-party
+||salemarket.online^
 ||salemove.com^$third-party
 ||saleonce.top^
 ||sales-frontier.com^$third-party
@@ -53182,9 +53187,7 @@ zznews.cn##.ad:not([style])
 ||taobso.cn^
 ||taocangjituan.com^
 ||taoguanda.com^
-||taoguba.com.cn/js/tgbduilian
 ||taoguba.com.cn/res/js/tgbgg/
-||taoguba.com.cn/res/libs/tgbxc.js
 ||taoguohe.com^
 ||taohanpai.com^
 ||taohuazu.tw/tool
@@ -55760,8 +55763,6 @@ zznews.cn##.ad:not([style])
 ||uluai.com.cn/api/sc/j/moni.min.js$domain=m.ftchinese.com
 ||uluai.com.cn/rcmd^$domain=m.ftchinese.com
 ||ulxypyg.cn^
-||ulzdk.com/Uploads/ulzdkgif/bfq.gif
-||ulzdk.com/statics/v2/js/kulis.js
 ||um*.com^$third-party
 ||um.afcav.com^
 ||um29.com/$third-party,~font,popup
@@ -55886,7 +55887,6 @@ zznews.cn##.ad:not([style])
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||upan.cc/images/pay/
-||upanso.com/taoke/
 ||upantool.com/a/
 ||upapi.net^$third-party
 ||uparpu.com^
@@ -56804,6 +56804,7 @@ zznews.cn##.ad:not([style])
 ||wbtrkk.teufelaudio.it^
 ||wbtrkk.teufelaudio.nl^
 ||wbtrkk.teufelaudio.pl^
+||wbxsw.com/js/app_wap.
 ||wbxsw.com/js/gg
 ||wc.yahoodns.net^$image
 ||wc4.net^$image,third-party
