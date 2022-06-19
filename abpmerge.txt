@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-19 08:19:29
-! Total count: 62249
+! Version: 2022-06-19 16:21:57
+! Total count: 62253
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10147,6 +10147,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||haokoubei.top/check_img_block.js
 @@||haokoubei.top/dl/rfo_v_f_pc.js
 @@||haokoubei.top/sz/to_v_f.js
 @@||haoweichi.com/Public/js/ads.js
@@ -18612,6 +18613,8 @@ tmall.com###J_Recommend
 tmall.com##.app-download-popup
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
+tmioe.com##.ad_single_0
+tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmtpost.com##.open-app
 to8to.com##.ad-commom
 to8to.com##.ask_side_opa
@@ -28269,6 +28272,7 @@ zznews.cn##.ad:not([style])
 ||caibaojian.com/d/uploads/*0-
 ||caichenguang.cn^
 ||caicj.club^
+||caicnax.cn^
 ||caigoubao.cc^*/960
 ||caihongxuan.com^
 ||caijingzz.cn^
