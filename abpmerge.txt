@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-18 16:22:24
-! Total count: 62231
+! Version: 2022-06-19 01:45:10
+! Total count: 62243
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1460,7 +1460,6 @@
 ##a[target="_blank"] > img[height="60px"][src*=".meituan.net"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
-##a[target="_blank"] > img[height^="60"][src*=".360buyimg.com"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
@@ -5068,6 +5067,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /gcui_vidtracker/*
 /gd-stat.
 /gd.stat?
+/gd_tracker_
 /gemius.3.15.js
 /gemius.js
 /gemius/*
@@ -5433,6 +5433,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /images/mobileads*.jpg
 /images/mxl.gif?
 /images/segucrwj*.gif
+/images/segucrwj*.jpg
 /images/sgcrwj*.gif
 /images/sgcrwj*.jpg
 /images/ta1234.js
@@ -13266,6 +13267,7 @@ docin.com###docindex_ad
 docin.com##.cpro_mod
 docin.com##.sider_gg
 docin.com##DIV#endSwfAd,div.beforeAd,.adBox,[id^="view_adv"]
+docsmall.com##.modal-connection.show
 dodoca.com##div#ad_box
 dogedoge.com##.tag-home__item
 dongao.com##div[class^="fu_"]
@@ -13941,8 +13943,6 @@ fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_ui_slider
 fuliba2021.net##.orbui-post-footer
-fuliba2021.net##.widget_custom_html
-fuliba2021.net##.widget_ui_slider
 fuliba2021.net,itdog.cn##.orbui
 fulibac.com##.ad_two,.ad_free
 fulibar.net##.banner.banner-contenttop,.d_banner,.d_slidebanner,.adsbygoogle
@@ -18817,7 +18817,6 @@ ufanw.com##.duilian,.top_11
 ui.cn$$div[class="down-app"]
 uisdc.com##.archive-pm-top
 uisdc.com##.post-pm-content
-uliba.net###focusslide
 uliba.net##.widget_new,.tool_news1,[id^="ad_"],li[style="margin-top:5px; "],div[style],a[href="http://www.zhaoquanle.com/"]
 ulmdb.cn
 unikoshardware.com##.elementor-popup-modal
@@ -21571,6 +21570,7 @@ zznews.cn##.ad:not([style])
 ||301pk.com^
 ||302br.net^
 ||3055t.cn^
+||306842.com^
 ||307.cc^
 ||30edu.com.cn^
 ||31.media.tumblr.com^
@@ -21910,6 +21910,7 @@ zznews.cn##.ad:not([style])
 ||4btbtt.com/slade.js
 ||4d0m.cn^
 ||4dyt.cn^
+||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com^
 ||4excel.cn^
 ||4gamers.com.tw/ads-
 ||4gamers.com.tw/site/iframe-aols/
@@ -22697,6 +22698,7 @@ zznews.cn##.ad:not([style])
 ||888888888888.online^
 ||88888888vip.top^
 ||8889573.com^
+||8889888.vip^
 ||888dizhi.com/888/
 ||888lianmeng.com^
 ||88cpc.com^
@@ -24783,6 +24785,7 @@ zznews.cn##.ad:not([style])
 ||afj.cc^
 ||afj0.com^
 ||afjlb.com^
+||afk3rs.xyz^
 ||afocus.com.cn/s?
 ||afoykb.ebook.de^
 ||afp.alicdn.com/afp-creative/$image,object-subrequest
@@ -31641,6 +31644,7 @@ zznews.cn##.ad:not([style])
 ||diyibanzhu*/js/cdn.js
 ||diyibanzhu*/js/html*.js
 ||diyifanwen.com/siteimages/jiqiren
+||diyiguanggao.xyz^
 ||diyijjj.com/data/content
 ||diyijs.duapp.com/cp
 ||dizhonghaihotel.com^
@@ -31935,7 +31939,6 @@ zznews.cn##.ad:not([style])
 ||doupuer.com^
 ||doutula.com/img/upupoo/
 ||douyaobuy.com^
-||douyu.com/dygev/*.swf
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
 ||douyucdn.cn/adxdsp/$image
@@ -33705,6 +33708,7 @@ zznews.cn##.ad:not([style])
 ||fanfanhuiben.com^
 ||fang.com/house/ajaxrequest/adverTlGet.
 ||fang99.com^*/advjs/
+||fangbaba.xyz^
 ||fangfeeling.com^
 ||fanghua2.cn^
 ||fangjslc.com^
@@ -36207,7 +36211,6 @@ zznews.cn##.ad:not([style])
 ||hexp.xyz^
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
-||hexun.com/2016/pc/618.swf
 ||hexun.com/2017-11-07/191534592.jpg
 ||hexun.com/gphqtc/
 ||hexun.com/hxpage_jrtj2020/
@@ -41337,6 +41340,7 @@ zznews.cn##.ad:not([style])
 ||luofei38.top^
 ||luolikong.net^$third-party
 ||luoshihua.club^
+||luotuoma.cool^
 ||luoyangjinmeii.com^
 ||lupoporno.com/js/analytics
 ||lusrg.cn^
@@ -47443,6 +47447,7 @@ zznews.cn##.ad:not([style])
 ||rampanel.com^$third-party
 ||rampmetrics.com^$third-party
 ||rand.com.ru^
+||randolph.love^
 ||rangecake.com^$third-party
 ||rank-hits.com^$third-party
 ||rank-power.com^$third-party
@@ -49034,6 +49039,7 @@ zznews.cn##.ad:not([style])
 ||sensic.net^$third-party
 ||sensor.org.ua^$third-party
 ||sensors.cloud.tencent.com^
+||sensorsdata.cn^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.arc.io^
 ||sentry.io^$third-party
@@ -53691,6 +53697,7 @@ zznews.cn##.ad:not([style])
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tihushuo.com^
 ||tiimg.com^$domain=678cn.com
 ||tiimg.com^*.gif
 ||tijd.be/fb/?
@@ -53835,6 +53842,7 @@ zznews.cn##.ad:not([style])
 ||tkelq.genesys.com^
 ||tkkdoc.com^
 ||tkl.meizhebao.cn^
+||tklm77.top^
 ||tklyfe.esthetic-nails.ru^
 ||tkmdng.cn^
 ||tkqlhce.com^$third-party
@@ -55355,6 +55363,7 @@ zznews.cn##.ad:not([style])
 ||ttbaods.com^$script
 ||ttbc33.com^
 ||ttdbj.com^
+||ttdds.top^
 ||ttffhe.top^
 ||ttklg.net^
 ||ttkong.com^
@@ -58602,6 +58611,7 @@ zznews.cn##.ad:not([style])
 ||xiaotong.pink^
 ||xiaoxiangmovie.com^
 ||xiaoxiaoyd.cn^
+||xiaoxiaozhijia.shop^
 ||xiaoyang.mobi^
 ||xiaoyaunbao.club^
 ||xiaoyida.com^$third-party
@@ -60003,6 +60013,7 @@ zznews.cn##.ad:not([style])
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
 ||zaitouwang.com^
+||zaixianweiyuanchuang.cn^
 ||zalo.me/v3/w/_zaf.gif
 ||zam.nextinpact.com^
 ||zampda.net^$third-party
@@ -60763,6 +60774,7 @@ zznews.cn##.ad:not([style])
 ~hrtsea.com##.widget_ui_ads
 ~hupu.com##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ~ix8.la##div[class^="ADTOPLB_"]
+~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ~jxedu.com###haoetv
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
