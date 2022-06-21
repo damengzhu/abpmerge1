@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-20 16:27:41
-! Total count: 62277
+! Version: 2022-06-21 01:42:35
+! Total count: 62289
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1224,6 +1224,7 @@
 ##a[href*=".huluhuluhuluhulu8.work"]
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
+##a[href*=".impreshunz.com/"]
 ##a[href*=".iziyo.com/"]
 ##a[href*=".jgg18.me"]
 ##a[href*=".jiq339.com/"]
@@ -9504,6 +9505,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.ads.tvb.com^
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
+@@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
@@ -9681,7 +9683,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.bootcss.com^$script,domain=59xs.com|ahzwx.com|biqudd.com|gllmh8.com|luoqiuzw.com|shudai.cc|xbiqugela.com|xhtxt.cc|xiaoshuwu5.com|ysxs8.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|rijutv.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
 @@||cdn.cxense.com/cx.cce.js$domain=tarzanweb.jp
-@@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|wpb.shueisha.co.jp
+@@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
@@ -10114,7 +10116,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -10620,7 +10622,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pixel.quantserve.com/api/segments.xml?a=$domain=associatedcontent.com|cbs.com|cbsatlanta.com|centurylink.net|comedy.com|eurweb.com|fox5vegas.com|foxcarolina.com|grabnetworks.com|kctv5.com|kpho.com|kptv.com|theimproper.com|thenewsroom.com|tv.com|tvguide.com|wfsb.com|wnem.com|wsmv.com
 @@||pixelexperience.org^$generichide
 @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
-@@||pl.smotrim.ru/js/stat.js$script,domain=player.vgtrk.com
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
@@ -10831,6 +10832,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sjsmitaa.org/bin/showads.
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
+@@||smotrim.ru/js/stat.js$script
 @@||smtcaw.com^$generichide
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
@@ -27738,6 +27740,7 @@ zznews.cn##.ad:not([style])
 ||boardx.huanqiu.com^
 ||bob-recs.com^$third-party
 ||bob.gitclear.com^
+||bob4885.com^
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
@@ -36081,6 +36084,7 @@ zznews.cn##.ad:not([style])
 ||hdbaichuan.cn^
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
+||hddss.top^
 ||hdfdm.com^
 ||hdherpc.cn^
 ||hdjlkj.vip^
@@ -37341,6 +37345,7 @@ zznews.cn##.ad:not([style])
 ||ijaabm.nbcsports.com^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
+||ijshh.com^
 ||ijshs.com^
 ||ijsks.com^
 ||ijswq.com^
@@ -43606,6 +43611,7 @@ zznews.cn##.ad:not([style])
 ||msr.p-antiaging.com^
 ||msri.club^
 ||mssheng.com^
+||mssmkj.com^
 ||msstatic.com/huya/*/p2plib.js$script
 ||msstatic.com/huya/main/img/mc-recom_
 ||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
@@ -44243,6 +44249,7 @@ zznews.cn##.ad:not([style])
 ||nfmovies.com/static^
 ||nfmovies.com^$replace=/adsTime = 15/adsTime = 1/
 ||nfqplus.com^
+||nftcpw.com^
 ||nfwebminer.com^$third-party
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
@@ -53293,6 +53300,7 @@ zznews.cn##.ad:not([style])
 ||tbi7.cn^
 ||tbl1.cn^
 ||tbm.snssdk.com^
+||tbs1.xyz^
 ||tbskip.taobao.com^$script
 ||tbxprvf.cn^
 ||tc2.hometogo.net^
@@ -58776,6 +58784,7 @@ zznews.cn##.ad:not([style])
 ||xiqqq.com^
 ||xiqvza.dickblick.com^
 ||xiseba.org/js/abc^
+||xitang.love^
 ||xitao3.com^
 ||xitao3.com^$third-party
 ||xitek.com/idzone
@@ -58801,6 +58810,7 @@ zznews.cn##.ad:not([style])
 ||xizi.com/js/rotator.js
 ||xj-n-tax.gov.cn^
 ||xjbaisi.cn^
+||xjfyx.com^
 ||xjhjtz.cn^
 ||xjhmap.cn^
 ||xjjkjo.pw^
@@ -59627,6 +59637,7 @@ zznews.cn##.ad:not([style])
 ||yougouquanqiu.xyz^
 ||youhehuixiangxinxi.top^
 ||youhuixia1210.cn^
+||youhuotiyu.asia^
 ||youivr.com/image/*-960x80
 ||youjizzlive.com/api/metrics
 ||youkewangluo.cn^$third-party,script
@@ -60618,6 +60629,7 @@ zznews.cn##.ad:not([style])
 ||zrsetz.shutterstock.com^
 ||zrw1.destinia.jp^
 ||zrwba.cn^
+||zrys.xyz^
 ||zs.dhl.de^
 ||zs.dingyar.top^
 ||zs.zyzlpt.com^
