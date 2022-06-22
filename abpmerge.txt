@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-22 08:25:55
-! Total count: 62341
+! Version: 2022-06-22 16:25:58
+! Total count: 62355
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1201,6 +1201,7 @@
 ##a[href*=".gzwtgm.com/"]
 ##a[href*=".hbjimin.com/"]
 ##a[href*=".hhjs20.com"]
+##a[href*=".hjikv.cc/"]
 ##a[href*=".hjneng.com/"]
 ##a[href*=".hmwang.cc"]
 ##a[href*=".hndazhan.com/"]
@@ -2795,7 +2796,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /[a-z]+\d+\.cnzz\./
 /\(com\?\d+/$third-party
 /\/ad\d*\./$script
-/\/data\/cache\/(?!(common\.|common_extra\.|bbcode\.|editor\.|forum\.|forum_post\.|forum_viewthread\.js|home\.|portal\.|seditor|smilies))[a-z_]+\.js/$script,domain=pcbeta.com
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
@@ -10606,6 +10606,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 @@||pbskids.org/js/ga-current.js
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
+@@||pcbeta.com/data/cache//common_
+@@||pcbeta.com/data/cache/common_extra.js
+@@||pcbeta.com/data/cache/forum_post.js
+@@||pcbeta.com/data/cache/forum_viewthread.js
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
@@ -27383,6 +27387,7 @@ zznews.cn##.ad:not([style])
 ||bestgong.top^
 ||besti.ga^
 ||bestnfd.com^
+||bestnff.com^
 ||bestnfq.com^
 ||bestnfz.com^
 ||bestpush.pconline.com.cn^
@@ -27540,6 +27545,7 @@ zznews.cn##.ad:not([style])
 ||biquge96.com/123.
 ||biquger.net/ts^
 ||biqugetv.com/js/lm_
+||biqugexx.com/js/jamq.
 ||biqugexx.com/static/js/wap.js
 ||biquguan.com/guan/
 ||biqumo.com^*billing
@@ -28564,7 +28570,6 @@ zznews.cn##.ad:not([style])
 ||ccjxybj.cn^
 ||cckke.com/fanhao/v/ad
 ||cclnuzn.cn^
-||ccm19.de^
 ||ccmd.coveredca.com^
 ||ccmdgg.com^
 ||ccmeng.com^$third-party
@@ -34991,6 +34996,7 @@ zznews.cn##.ad:not([style])
 ||gf108.com^
 ||gfan.com/press/
 ||gfd80.com^
+||gfghr.com^
 ||gfgywe.abril.com.br^
 ||gflcsiot.com^
 ||gfn1.ugap.fr^
@@ -38833,6 +38839,7 @@ zznews.cn##.ad:not([style])
 ||jintengli.mobi^
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
+||jinxian.co^
 ||jinxiangyu.ltd^
 ||jinxiuzhilv.com^
 ||jinyici.com/qq.js
@@ -40449,6 +40456,7 @@ zznews.cn##.ad:not([style])
 ||lhesqk.karatov.com^
 ||lhewdj.fnac.pt^
 ||lhhlkj.yoursuperfoods.de^
+||lhippac.cn^
 ||lhj.asia^
 ||lhxwnzht.cn^
 ||lhy1.xyz^
@@ -41827,6 +41835,7 @@ zznews.cn##.ad:not([style])
 ||manguan.vip^
 ||manhuabei.com/assets/xiwang.js
 ||maniacalappliance.com^
+||maniconclavis.com^
 ||manparis.cn^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
@@ -44269,6 +44278,7 @@ zznews.cn##.ad:not([style])
 ||nextinpact.com/image/*=.jpg
 ||nextstat.com^$third-party
 ||nexx.cloud/play/beacon.
+||nfflife.com^
 ||nfhlink.com^
 ||nflks.cn^
 ||nflshop.com/api/track
@@ -45588,6 +45598,7 @@ zznews.cn##.ad:not([style])
 ||pcauto.com.cn/forum/fz/hots/
 ||pcauto.com.cn/zt/*_dialog/cjx-pc-half_
 ||pcauto.com.cn/zt/halfprice/
+||pcbeta.com/data/cache/*_*.js
 ||pcbeta.com/static/image/biz/$image
 ||pccoo.cn/js/dlv1.0.js
 ||pcejsc.hellomolly.com^
@@ -47758,6 +47769,7 @@ zznews.cn##.ad:not([style])
 ||relevant-digital.com^$third-party
 ||reliablecounter.com^$third-party
 ||reliancevalve.com^
+||relliun.cn^
 ||relmaxtop.com^$third-party
 ||rem-track.bild.de^
 ||remailtarget.com^$third-party
@@ -59131,6 +59143,7 @@ zznews.cn##.ad:not([style])
 ||xywy.com/mobile_$script
 ||xywy.com/zhixing/
 ||xyxgbs.lezhin.com^
+||xyxhtyy.cn^
 ||xyxy01.com^
 ||xyy9.xyz^
 ||xyz.bestool.pl^
@@ -60329,6 +60342,7 @@ zznews.cn##.ad:not([style])
 ||zhentao.shop^
 ||zhenxinchicken.xyz^
 ||zhenxingkuangchanpin.com^
+||zhetoutiao.top^
 ||zhev.com.cn/file/weixin/
 ||zhflodsix.cn^
 ||zhh8886.com^
