@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-21 16:27:51
-! Total count: 62315
+! Version: 2022-06-22 01:50:06
+! Total count: 62327
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1231,6 +1231,7 @@
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".lacquermall.com/"]
 ##a[href*=".madeqr.com/"] > img[src*=".pstatp.com/"]
+##a[href*=".meta-hh.com/"]
 ##a[href*=".mieseng.com/"]
 ##a[href*=".nktxv.com/"]
 ##a[href*=".open0317.top/"]
@@ -1392,7 +1393,7 @@
 ##a[href*="/yhbet50.vip"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
-##a[href*=":10443/"]
+##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*="?channelCode="] > img[src*=".com:"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="itoon.app"]
@@ -4057,6 +4058,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /click-tracker
 /click.*/q/*$image
 /click.cgi?callback=
+/click.em.nike.com/*$image
 /click.email.$image
 /click.php
 /click.php?c=
@@ -9040,6 +9042,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 =stats&action=
 =stats&apiVersion=
 =vip_skip_ad*
+=window.awall.adblockwalltemplatefetchdef&
 =ws://*?pool=
 =ws://*?pools=
 =wss://*?pool=
@@ -13867,6 +13870,7 @@ firefoxchina.cn##.theme-side-bar-couplet
 firefoxchina.cn##.w-full[track_key="adv_top_banner"]
 firefoxchina.cn##a[track_key="outside_left_adv"]
 firefoxchina.cn##a[track_key="outside_right_bottom_adv"]
+firefoxchina.cn##a[track_key="sites_saoma"]
 firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 firefoxchina.cn##div[trace-key="mh_channel_rec_tpth"]
 firefoxchina.cn##ul[track-key="adv_links"]
@@ -22530,6 +22534,7 @@ zznews.cn##.ad:not([style])
 ||77kpw.cc/pc/?wz=
 ||77nnv9.xyz^
 ||77power.com^
+||77tel.com^
 ||77tracking.com^$third-party
 ||77u.com^
 ||77union.cn^
@@ -28049,6 +28054,7 @@ zznews.cn##.ad:not([style])
 ||budibu.saksfifthavenue.com^
 ||buf.lemonde.fr^
 ||bufamy.com^
+||bufan.in^
 ||bufferapp.com/wf/open?upn=$third-party
 ||bugcreator.cn^
 ||bugherd.com^$third-party
@@ -30927,6 +30933,7 @@ zznews.cn##.ad:not([style])
 ||daimude.com^
 ||dainifei3.com^
 ||daishu.shop^
+||daisiyao.love^
 ||daisycontroversy.com^
 ||daitianyu.vip^
 ||daiwofei2019.top^
@@ -35689,6 +35696,7 @@ zznews.cn##.ad:not([style])
 ||guoshipartners.com^$third-party
 ||guotaotaoci.net^
 ||guoxintdh.com^
+||guoyang.us^
 ||guoyu.link^
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||guq9.vente-unique.it^
@@ -36485,6 +36493,7 @@ zznews.cn##.ad:not([style])
 ||hljyjm.cn^
 ||hlokux.cn^
 ||hlrml.cn^
+||hlryy.top^
 ||hlstlyy.com^
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/scripts/hltv-tracking.js
@@ -36790,6 +36799,7 @@ zznews.cn##.ad:not([style])
 ||huafujr.com^
 ||huahuagoudc.com^
 ||huahuaka.com^
+||huahuaxiji.love^
 ||huaiduoduo.info/Runtime/js/
 ||huaisq.com^
 ||hualongyichuangkj.com^
@@ -44270,6 +44280,7 @@ zznews.cn##.ad:not([style])
 ||nfntime.com^
 ||nfqplus.com^
 ||nftcpw.com^
+||nftqpw.com^
 ||nfwebminer.com^$third-party
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
@@ -59879,6 +59890,7 @@ zznews.cn##.ad:not([style])
 ||yun.baidu.com/act/api/activityentry?
 ||yunchong6.cn^
 ||yundaquan.com/data/attachment/portal/
+||yundaxue.love^
 ||yundingez.top^
 ||yundingmap.com^
 ||yunfanlm.com^$third-party
