@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-22 01:50:06
-! Total count: 62327
+! Version: 2022-06-22 08:25:55
+! Total count: 62341
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -623,6 +623,7 @@
 ##.ec-ad
 ##.edtj
 ##.eis_muad
+##.embed-responsive-trendmd
 ##.error > #qqs
 ##.event_fullscreen_gg_modal
 ##.f-sign-cont[data-dysign-adid]
@@ -10400,6 +10401,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||manhua.weibo.com/adv/
+@@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||masterkong.com.cn/adimages/
@@ -10810,6 +10812,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
+@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -16482,7 +16485,6 @@ me360.com##.footer-booking-open
 med66.com##.banner
 med66.com##.coach_pic
 med66.com##[id^="ad"],[class$="container"],.banner,.gao
-medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 medsci.cn##.adv1201
 megatime.com.tw###ad_type_9
 megatime.com.tw,pchome.com.tw###sixi
@@ -21533,9 +21535,10 @@ zznews.cn##.ad:not([style])
 ||2d-c.cn^
 ||2d4f.com/love/
 ||2d941.site^
+||2dehands.be/px/
 ||2efj.up.coop^
 ||2ememain.be/c3650cdf-
-||2ememain.be/px/fbif?
+||2ememain.be/px/
 ||2f.com^$third-party
 ||2fzb.com/config/adv.js
 ||2g2h.com^
@@ -22380,6 +22383,7 @@ zznews.cn##.ad:not([style])
 ||666593.xyz^
 ||666595.xyz^
 ||666596.xyz^
+||666597.xyz^
 ||6665kkk.com/ggvip^
 ||66666119.com^
 ||666666666666.site^
@@ -24850,6 +24854,8 @@ zznews.cn##.ad:not([style])
 ||agrantsem.com^$third-party
 ||agreeablestew.com^
 ||agreeabletouch.com^$third-party
+||agrointel.ro/ga.js
+||agrointel.ro/track.js
 ||agroserver.ru/ct/
 ||agrvt.com^$third-party
 ||agstat.html5.qq.com^
@@ -25019,7 +25025,7 @@ zznews.cn##.ad:not([style])
 ||akamaihd.net/p1lakjen.gif
 ||akamaihd.net/paay6hyr.gif?
 ||akamaihd.net/push.gif?
-||akamaihd.net^$image,domain=globalnews.ca
+||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
 ||akamaihd.net^*.gif?d=
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
@@ -34148,6 +34154,7 @@ zznews.cn##.ad:not([style])
 ||flzyw.com/js/foot.js
 ||fmbankva.actonservice.com^
 ||fmei.wang^
+||fmgfqwe.xyz^
 ||fmh.guangzhengtwentynine.top^
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmk.dsqzk.cn^
@@ -40396,6 +40403,7 @@ zznews.cn##.ad:not([style])
 ||levexis.com^$third-party
 ||levi247.levi.com^
 ||lexity.com^$third-party
+||lexology.com/pd.js
 ||lexph.com^
 ||leyxue.cn^
 ||lezai.com^$third-party
@@ -40977,6 +40985,7 @@ zznews.cn##.ad:not([style])
 ||lnzq5.com/js/
 ||lnzqw.net/js/
 ||lo83cs.space^
+||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||local.adguard.org^
 ||local.ch/track/
@@ -43524,6 +43533,7 @@ zznews.cn##.ad:not([style])
 ||mowenxi.com/1.png
 ||mowfruit.com^$third-party
 ||mowvra.idlookmall.com^
+||moxiang.plus^
 ||moxiaoqihuoguo.com^
 ||mozilla.org/page/*/open.gif$third-party
 ||mozuoshop.net^
@@ -44867,7 +44877,7 @@ zznews.cn##.ad:not([style])
 ||olpv.onlylady.com^
 ||olsnb.haiwanli.com^
 ||olx.com.br^*/lurker.
-||olytics.omeda.com^$script,third-party
+||olytics.omeda.com^
 ||om.a1vacations.com^
 ||om.aopa.org^
 ||om.cn/api/ad-om/
@@ -48017,6 +48027,7 @@ zznews.cn##.ad:not([style])
 ||rmoeu.mercury.sogou.com^
 ||rmpad.imtt.qq.com^
 ||rms.meituan.com/diancan/api/queryAdBoard
+||rmt.plus^
 ||rmtag.com^$third-party
 ||rmwdn.com^
 ||rmzbfum.cn^
@@ -53178,6 +53189,7 @@ zznews.cn##.ad:not([style])
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
+||tags.fullcontact.com^
 ||tags.globo.com^
 ||tags.johnlewis.com^
 ||tags.master-perf-tools.com^
@@ -56317,6 +56329,7 @@ zznews.cn##.ad:not([style])
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||vidazoo.com/report/?
+||vidcrunch.com/integrations/*_Responsive_*_DFP_$domain=discuss.com.hk
 ||videa.hu/flvplayer_setcookie.php?
 ||video-ad-stats.googlesyndication.com^
 ||video-cdn.net/event?
@@ -56688,6 +56701,7 @@ zznews.cn##.ad:not([style])
 ||w3t.cn^*/fx.js
 ||w3track.com/newtrk/$third-party
 ||w4m.rs/tracker.js
+||w4o7aea80ss3-a.akamaihd.net^
 ||w51t.com^$subdocument
 ||w55c.net^$third-party
 ||w65p.com^
