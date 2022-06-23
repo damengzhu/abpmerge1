@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-22 16:25:58
-! Total count: 62355
+! Version: 2022-06-23 01:26:23
+! Total count: 62369
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -286,6 +286,7 @@
 ###qj960b
 ###qrcodeDownloadBar
 ###qrcodeWrap
+###recommend-float + .footer + .popup
 ###reportPop
 ###results.content-main > .eLeft
 ###rightAD
@@ -844,6 +845,7 @@
 ##.tm3all2h4b
 ##.tmall_ad_container
 ##.tooltip > #tp
+##.top > a > .topline[src^="/photo/"]
 ##.top-ads
 ##.top-gg
 ##.top-read-ad
@@ -1189,6 +1191,7 @@
 ##a[href*=".dongtaisteel.com/"]
 ##a[href*=".downok.com"]
 ##a[href*=".dpcpfw.com/"]
+##a[href*=".dztjy.com/"]
 ##a[href*=".eampakt.com/"]
 ##a[href*=".erolabs.cloud"]
 ##a[href*=".ex068.com"]
@@ -1425,7 +1428,7 @@
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
-##a[href] > img[id][src*="hdslb.com"]
+##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
@@ -1495,6 +1498,7 @@
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
 ##div[class][id][style] > .pic_container
+##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="ps_"][value="20"]
 ##div[data-gg-zone]
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
@@ -1510,6 +1514,7 @@
 ##div[onclick*=".leyu"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
+##div[onclick*=".yyav5.top"]
 ##div[onclick*="?i_code="]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -6142,6 +6147,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /meta-tracker/*
 /metatraffic/track.asp?
 /metric/?mid=
+/metric/?wid=
 /metric/gauge
 /metrica/sp.js
 /metricool.js
@@ -10570,6 +10576,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
+@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
@@ -10591,7 +10598,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||paginegialle.it/js/shinystat.js
-@@||pagure.io/static/issues_stats.js?
+@@||pagure.io/static/issues_stats.js$~third-party
 @@||panjiachen.github.io^$generichide
 @@||panorama.it/wp-content/themes/panorama/js/google-nielsen-analytics.js?
 @@||papi-service.jd.com/ads/
@@ -10604,7 +10611,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||paypalobjects.com/pa/js/min/pa.js
 @@||paypalobjects.com/tagmgmt/bootstrap.js
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
-@@||pbskids.org/js/ga-current.js
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
 @@||pcbeta.com/data/cache//common_
 @@||pcbeta.com/data/cache/common_extra.js
@@ -10637,7 +10643,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
-@@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
@@ -26241,6 +26246,7 @@ zznews.cn##.ad:not([style])
 ||asdkfjskl.guiliangtechnology.com^
 ||asdklfjal.shanxicloud.net^
 ||asdklsdkfj.ahpengjie.com^
+||asdqwe.ltd^
 ||asdsdvd4.com^
 ||asf1v.vancuongthinh.com^
 ||ashow.pcpop.com^
@@ -28898,6 +28904,7 @@ zznews.cn##.ad:not([style])
 ||childlikecook.com^
 ||childlikecrowd.com^
 ||childlikeform.com^
+||china-india.wang^
 ||china-netwave.com^$third-party
 ||china.chemnet.com/cnbanner/
 ||china.cn/js/common/daniel_pop/
@@ -33482,6 +33489,7 @@ zznews.cn##.ad:not([style])
 ||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
+||events.mercadolibre.com^
 ||events.mywd.com^
 ||events.newsroom.bi^
 ||events.newyorklifeinvestments.com^
@@ -33754,6 +33762,7 @@ zznews.cn##.ad:not([style])
 ||fangfeeling.com^
 ||fanghua2.cn^
 ||fangjslc.com^
+||fangshan.us^
 ||fangyuan365.com/js/fangyuan5.js
 ||fangzhixinxi.cn^
 ||fanhaodang.org/Runtime/js/
@@ -35774,6 +35783,7 @@ zznews.cn##.ad:not([style])
 ||gyro-n.com^$third-party
 ||gyt168.com.cn^
 ||gythsg.com^
+||gytty.top^
 ||gyvcwd.cdiscount.com^
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
@@ -39659,6 +39669,7 @@ zznews.cn##.ad:not([style])
 ||kguke.com^
 ||kh.whyfate.cn^
 ||khcdhu.saraschool.net^
+||khdry.top^
 ||khgj.cn^
 ||khgj.cn^$third-party
 ||khimxz.shoesforcrews.com^
@@ -55806,6 +55817,7 @@ zznews.cn##.ad:not([style])
 ||ueg.cc^
 ||uestat.video.qiyi.com^
 ||ufanw.com/js/hongbao.js
+||ufile.cc/crod.js
 ||ufojr.golden1.sogou.com^
 ||ufolm.com^$third-party
 ||ufstone.com^$third-party
@@ -58402,6 +58414,7 @@ zznews.cn##.ad:not([style])
 ||wxt999.net/template/*/images/g_js/
 ||wxtp.cdn.bcebos.com^$popup
 ||wxxfqc.com^
+||wy123.fun^
 ||wy213.com^$popup,third-party
 ||wy95.xyz^
 ||wyb128.com/js/pc/
@@ -60308,6 +60321,7 @@ zznews.cn##.ad:not([style])
 ||zhangyue.com/zycl/api/ad^
 ||zhangyumo.top^
 ||zhangyunxiawinner.top^
+||zhangzhiyang01.cn^
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
 ||zhannei-dm.csdn.net^
