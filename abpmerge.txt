@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-24 08:22:37
-! Total count: 62398
+! Version: 2022-06-24 16:25:08
+! Total count: 62416
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1066,6 +1066,7 @@
 ##[onclick="window.open('/statics/js/hth1111.html')"]
 ##[onclick="window.open('/statics/js/hth112.html')"]
 ##[onclick="window.open('/statics/js/hth906.html')"]
+##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZEpZc2pOaFdXa0tD');"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick='gourl()'][src^='/images/bfq/']
@@ -1240,6 +1241,7 @@
 ##a[href*=".mieseng.com/"]
 ##a[href*=".nktxv.com/"]
 ##a[href*=".open0317.top/"]
+##a[href*=".picoville.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
 ##a[href*=".qutaoka.com/"]
@@ -4616,6 +4618,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamicyield/*
 /dynatrace-$~image,domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynatrace.$~third-party,domain=~dynatrace.com|~dynatrace.jbhunt.com|~dynatrace.udemy.com|~dynatrace.zoom.us|~github.com|~github.io
+/dynatrace/*$domain=~dynatrace-managed.com|~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /dyxia/js/ny
 /dzwww/ad_dzw_inner.js
@@ -8461,6 +8464,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /v.gif?logtype=
 /v.php?siteid=&id=
 /v1/analytics.js
+/v1/analytics/*
 /v1/custom-metrics
 /v1/impressions
 /v1/log_event
@@ -9453,7 +9457,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||ak77now.pixnet.net^$generichide
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
-@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/js/tracking/ninja.js$script,domain=olx.ua
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||akamaized.net^*/tracking/ninja.js$domain=olx.pl
@@ -10127,7 +10131,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
@@ -14451,6 +14455,7 @@ hao123.com##.cn_tips
 hao123.com##.enter1
 hao123.com##.guess-recommend
 hao123.com##.hao123-search > .notice-fixed
+hao123.com##.insertad_wrapper
 hao123.com##.leftbanner
 hao123.com##.mp-app-ad
 hao123.com##.navrecommend-hjw
@@ -22268,6 +22273,7 @@ zznews.cn##.ad:not([style])
 ||59jd.com^
 ||59kaixuan.com^
 ||5aa.lm811.com^
+||5atxt.com/1*.js
 ||5atxt.com/js/*_
 ||5atxt.com/js/jhhe.
 ||5b1d.com^
@@ -24292,6 +24298,7 @@ zznews.cn##.ad:not([style])
 ||ad1.greedland.net^
 ||ad1.tone.ne.jp^
 ||ad123.ynet.com^
+||ad1x.com^$third-party
 ||ad44.cc^
 ||ad4game.com^
 ||ad4m.at^$third-party
@@ -35345,6 +35352,7 @@ zznews.cn##.ad:not([style])
 ||golden1.sogou.com^
 ||goldenlee.cn^
 ||goldenwind.icu^
+||goldnfn.com^
 ||goldoffer.online^$third-party
 ||goldsilbershop.de/go.cgi?
 ||goldstats.com^$third-party
@@ -41663,6 +41671,7 @@ zznews.cn##.ad:not([style])
 ||m.piaov.com/js/iscroll.js
 ||m.pmtong.shop^
 ||m.premier.info.shutterstock.com^
+||m.qc-meta.com^
 ||m.qiqipu.com/ajs^
 ||m.qu.la/cp/cp.js
 ||m.qu.la/jsa/p.js
@@ -43444,6 +43453,7 @@ zznews.cn##.ad:not([style])
 ||mobilelog.upqzfile.com^
 ||mobilityware.com^
 ||mobisage.cn^
+||mobivx.smfjfgie.xyz^
 ||mobixc.vnfjsus.xyz^
 ||mobrkbb.com^
 ||mobtop.az^$third-party
@@ -45981,6 +45991,7 @@ zznews.cn##.ad:not([style])
 ||piquantprice.com^
 ||piquantstove.com^
 ||piratepx.com^$third-party
+||pirsch.io^$third-party
 ||pites.cc/js/top.php
 ||piti.bplaced.net^
 ||pitudashen.top^
@@ -46379,6 +46390,7 @@ zznews.cn##.ad:not([style])
 ||poster.weather.com.cn^
 ||postgraduate.smu.edu.sg^
 ||postgraduate2.smu.edu.sg^
+||posthog.com^$third-party
 ||postuler.bpost.be^
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
 ||pouitgy.cn^
@@ -46809,6 +46821,7 @@ zznews.cn##.ad:not([style])
 ||px.staticfiles.at^
 ||px.wp.pl^
 ||px.xiaomifood.cn^
+||px.yangzheqing.cn^
 ||pxaction.com^$third-party
 ||pxblmj.com^
 ||pxbnou.ig.com.br^
@@ -46833,6 +46846,7 @@ zznews.cn##.ad:not([style])
 ||pyk.imrworldwide.com/cgi-bin^$app=com.huawei.hwvplayer.youku
 ||pyk.in-neo.cn^
 ||pylon.micstatic.com^
+||pymby.top^
 ||pymx5.com^$third-party
 ||pyouad.autonvaraosat24.fi^
 ||pyroactive.de/counter/
@@ -47436,6 +47450,7 @@ zznews.cn##.ad:not([style])
 ||qxxys.com^
 ||qxyu.top^
 ||qyafndr.cn^
+||qybs.mclseww.top^
 ||qycjrkfzx.com^
 ||qyctj.com^
 ||qydoc.com^$third-party
@@ -49830,6 +49845,7 @@ zznews.cn##.ad:not([style])
 ||slickdeals.net/ajax/stats/
 ||slidedeck.com^$image,third-party
 ||slideshare.net/frontend_tracking/
+||slieindy.top^
 ||slifindy.top^
 ||slimopinion.com^
 ||slimyscarf.com^
@@ -55673,6 +55689,7 @@ zznews.cn##.ad:not([style])
 ||tyjnwg.top^
 ||tyjnwj.top^
 ||tykor.net^
+||tylll.allykitchen.com^
 ||tylll.com^
 ||tylll.igame2steam.com^
 ||tylll.paohao.com^
@@ -58098,6 +58115,7 @@ zznews.cn##.ad:not([style])
 ||www.keet1liod.com^
 ||www.kick1pore.com^
 ||www.kilo6alga.com^
+||www.kjfxzeggca.com^
 ||www.kldsam.com^
 ||www.kota3chat.com^
 ||www.koudaikeji.info^
