@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-24 01:44:14
-! Total count: 62394
+! Version: 2022-06-24 08:22:37
+! Total count: 62398
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1509,6 +1509,7 @@
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
 ##div[id^="div-gpt-ad"]
+##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".leyu"]
@@ -10198,6 +10199,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||home.mobile.de^*/trackingService.js$script,~third-party
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 @@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
+@@||hopto.org/js/prebid-ads.
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||hudong.pl.youku.com/n/setplugins/id_
@@ -12440,7 +12442,6 @@ c114.com.cn,chemicalbook.com,china.com.cn,foodmate.net,hibiquan.com,qingdaonews.
 c114.net##img[src^="images_a/"],embed[src^="images_a/"],img[src^="http://www.c114.net/ftth/images_a/"],embed[src^="images/c114/ad_"],[src^="http://bbs.c114.net/data/attachment/common/cf/"],div[class^="a_cu_"],.barrage_ad,.tab.ad2
 c4dsky.com##a[href*="ibaotu.com"]
 c8yy.com##[height="90px"]
-c9e9.com,u3c3.cc,u3c3.co,u3c3.com,u3c3.org##div[id^="em"]
 ca168.com###slideshow_wrapper
 ca168.com##.admarket
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
@@ -15896,6 +15897,8 @@ kt51.com,nfstar.net##.bottom_fixed
 ktkkt.com##.top980
 ktkkt.com##.top980a
 ktkkt.com##.vod980
+ktsf.com###sow-slider-18
+ktsf.com###sow-slider-7
 ku6.com##div[id^="hzp1"],div.bottom-ad,div#hzi03,[class^="gg-img"],.top-aku6,.gg-bottom,[id^="goodplayMain"],[id^="FTAPI_container_"],#adTime,#video-getbanner-cont-playMain1,#bgSkinAdCont,.adv-background
 kuai.xunlei.com##DIV.adv_area
 kuai8.com###left_Ad
@@ -22399,6 +22402,7 @@ zznews.cn##.ad:not([style])
 ||666597.xyz^
 ||6665kkk.com/ggvip^
 ||666624.xyz^
+||666625.xyz^
 ||66666119.com^
 ||666666666666.site^
 ||6667778882021.site^
@@ -26301,6 +26305,7 @@ zznews.cn##.ad:not([style])
 ||astyk.cn^
 ||asukahan.xyz^
 ||asumi.shinobi.jp^
+||asunbc.cn^
 ||aswpsdkeu.com^$third-party
 ||aswpsdkus.com^
 ||asyy6.com/dm/
@@ -34361,6 +34366,7 @@ zznews.cn##.ad:not([style])
 ||free.fr/services/compteur_page.php?
 ||freebiesms.com/tracker.aspx?
 ||freebloghitcounter.com^$third-party
+||freebuy.top^
 ||freecontent.bid
 ||freecontent.date
 ||freecontent.stream
@@ -40094,6 +40100,7 @@ zznews.cn##.ad:not([style])
 ||l45.xyz^
 ||l4elb.cn^
 ||l570mb.cn^
+||l90.xyz^
 ||l936.expressnews.com^
 ||la-sync.taboola.com^
 ||la/style/vue.js?v=
@@ -40217,6 +40224,7 @@ zznews.cn##.ad:not([style])
 ||laughablelizards.com^
 ||laughcloth.com^$third-party
 ||laughdrum.com^
+||laura.fun^
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
 ||lauvlku.cn^
@@ -44400,7 +44408,6 @@ zznews.cn##.ad:not([style])
 ||ninja.onap.io^
 ||ninjacat.io^$third-party
 ||nirentang.com^
-||nitropay.com^$third-party
 ||niu.axcdy.cn^
 ||niu.tzlit.cn^
 ||niuacc.com/static/common/js/145.js
@@ -48797,6 +48804,7 @@ zznews.cn##.ad:not([style])
 ||sdtagging.azureedge.net^
 ||sdtieta.com^
 ||sdurhnd.com^
+||sdutmedia.com^
 ||sdweldrobot.cn^
 ||sdxctr.com^
 ||sdxkdj.cn^
@@ -55724,11 +55732,6 @@ zznews.cn##.ad:not([style])
 ||u26u.com^$popup,third-party
 ||u299.libelle-lekker.be^
 ||u2c8.cn^
-||u3c3.cc^*.gif
-||u3c3.cc^*.png
-||u3c3.com^*.gif
-||u3c3.org/3.png
-||u3c3.org^*.gif
 ||u47.pnc.com^
 ||u5274.cn^
 ||u5e.com^$third-party
@@ -57289,6 +57292,7 @@ zznews.cn##.ad:not([style])
 ||wfeiso.top^
 ||wffengtai.com.cn^
 ||wfhxssg.com^
+||wfkspcs.cn^
 ||wfpersonal.site^
 ||wfslj.cn^
 ||wfwpok.impressionen.de^
