@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-26 01:48:42
-! Total count: 62441
+! Version: 2022-06-26 08:19:32
+! Total count: 62456
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1261,6 +1261,7 @@
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".ttz5.cn"]
 ##a[href*=".umtrack.com/"]
+##a[href*=".urfatek.com/"]
 ##a[href*=".usharecloud.com/"]
 ##a[href*=".vldbd.com/"]
 ##a[href*=".vxzmok.com"]
@@ -1574,6 +1575,7 @@
 ##oxk
 ##script + #coupletBox
 ##script + #rbbox
+##script + a[href^="https://l.hyenadata.com/"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -4399,7 +4401,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /countstat.php?
 /countubn.
 /countus.php
-/coveo.analytics.js/*
 /cp2.gif?*=qc_
 /cpc/*.ashx?u=$script,third-party
 /cpeEvent.
@@ -10058,7 +10059,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
@@ -10365,6 +10366,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||laredoute.pt/js/byside_webcare.js
 @@||lazada.co.th/js/tracking.js
 @@||ldxinyong.com^$generichide
+@@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||league-funny.com^$script,~third-party
 @@||lefile.cn/??*,
 @@||legendstracking.com/js/legends-tracking.js$~third-party
@@ -25523,6 +25525,7 @@ zznews.cn##.ad:not([style])
 ||analytics.churchthemes.com^
 ||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
+||analytics.cloud.coveo.com^
 ||analytics.cmn.com^
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.cocolog-nifty.com^
@@ -30634,6 +30637,7 @@ zznews.cn##.ad:not([style])
 ||cwc494e.cn^
 ||cwhsmgs1.cn^
 ||cwmlm.com^
+||cwphgqu.cn^
 ||cwpush.com^
 ||cws.conviva.com^
 ||cww.net.cn/include/show.asp?boardID=
@@ -36244,6 +36248,7 @@ zznews.cn##.ad:not([style])
 ||heiye.cc/js/xuanfu.js
 ||hej.henriksommerfeld.se^
 ||hejing.cloud^
+||helilong.xyz^
 ||hello-jm.com/foot.js
 ||hello.bpost.be^
 ||hello.emergeinteractive.com^
@@ -36647,6 +36652,7 @@ zznews.cn##.ad:not([style])
 ||home.xdf.cn/lee_sq/js/
 ||homedepot-static.com/data-collection/
 ||homedepot.com/YJvc1C/M4Hw/
+||homegate.ch/g/collect?
 ||homeieped.cn^
 ||homelycrown.com^$third-party
 ||homepage-gw.jd.com/npromotion^$third-party
@@ -40344,7 +40350,7 @@ zznews.cn##.ad:not([style])
 ||leadlab.click^$third-party
 ||leadlife.com^$third-party
 ||leadmanagerfx.com^$third-party
-||leadpages.net^$third-party
+||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
 ||leads.api.autohome.com.cn^
 ||leads.autohome.com.cn^
@@ -40442,6 +40448,7 @@ zznews.cn##.ad:not([style])
 ||letong.xyz^
 ||letro.jp^$third-party
 ||letsgo.anaheimducks.com^
+||letsread.club^
 ||letterboxtrail.com^$third-party
 ||lettucecopper.com^
 ||lettucelimit.com^
@@ -44684,6 +44691,7 @@ zznews.cn##.ad:not([style])
 ||ntvsw.com^
 ||ntwaafv.cn^
 ||ntxiru.com^
+||ntyrt.top^
 ||ntzfly.cn^
 ||nuaaad.cn^
 ||nuanqipian.pw^
@@ -45344,6 +45352,7 @@ zznews.cn##.ad:not([style])
 ||oylyaz.mrkoll.se^
 ||oyotii.sportokay.com^
 ||oystertown.net^
+||oyybgs.cn^
 ||oyyqan.hejoscar.dk^
 ||oyyqkdf879f.asleyty.com^
 ||ozhbccs.cn^
@@ -45814,6 +45823,7 @@ zznews.cn##.ad:not([style])
 ||pflrv.cn^
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
+||pfskzj.cn^
 ||pfuyhr.schutz.com.br^
 ||pg-ad-b1.nosdn.127.net^
 ||pg-ad-b1.ws.126.net^
@@ -47467,6 +47477,7 @@ zznews.cn##.ad:not([style])
 ||qxtwkq.cn^
 ||qxxys.com^
 ||qxyu.top^
+||qy0.ru/data/game/
 ||qyafndr.cn^
 ||qybs.mclseww.top^
 ||qycjrkfzx.com^
@@ -49851,6 +49862,7 @@ zznews.cn##.ad:not([style])
 ||slashdot.org/images/js.gif
 ||slaunch.shopcanopy.com^
 ||slaysweater.com^
+||slcgngo.cn^
 ||sleepcartoon.com^
 ||sleepzn.com^
 ||slewvr.gp.se^
@@ -49865,6 +49877,7 @@ zznews.cn##.ad:not([style])
 ||slideshare.net/frontend_tracking/
 ||slieindy.top^
 ||slifindy.top^
+||sliiindy.top^
 ||slimopinion.com^
 ||slimyscarf.com^
 ||slingpic.com^$third-party
@@ -53174,6 +53187,7 @@ zznews.cn##.ad:not([style])
 ||t.signalayer.com^
 ||t.skimresources.com^
 ||t.smile.eu^
+||t.splicky.com^
 ||t.spot.im^
 ||t.toxbuddy.com^
 ||t.tulsahurricane.com^
@@ -54166,6 +54180,7 @@ zznews.cn##.ad:not([style])
 ||topmalaysia.com^$third-party
 ||topmba.mobi/ad/
 ||topn.xyz^
+||topnfj.com^
 ||topnfm.com^
 ||topofblogs.com^$third-party
 ||topolino.it^*/omniture.php?
