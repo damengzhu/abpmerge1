@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-27 01:49:36
-! Total count: 62446
+! Version: 2022-06-27 08:24:16
+! Total count: 62459
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -763,7 +763,6 @@
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
-##.myui-vodlist__thumb[data-original*=".pstatp.com/"]
 ##.nQIAj
 ##.nQIAj1
 ##.nav-area + .wrapper .tuiguang
@@ -1240,9 +1239,9 @@
 ##a[href*=".jiq339.com/"]
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".lacquermall.com/"]
-##a[href*=".madeqr.com/"] > img[src*=".pstatp.com/"]
 ##a[href*=".meta-hh.com/"]
 ##a[href*=".meta-kp.com/"]
+##a[href*=".meta-wg.com/"]
 ##a[href*=".mieseng.com/"]
 ##a[href*=".nktxv.com/"]
 ##a[href*=".open0317.top/"]
@@ -2079,6 +2078,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .gif?Log=
 .gif?event=
 .gif?hit_
+.gif?stat=open
 .gif|$domain=7mshipin.org|viidii.info|xgan.cn
 .gif|$domain=99a67.com|99re.com
 .goodwell18.com/track/
@@ -2197,6 +2197,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .oculus.com/collect/
 .oeya.com/$domain=realtw.com
 .one/ads/
+.online.costco.com/t?$image
 .openx.
 .org/?js|
 .org/ad/
@@ -4402,6 +4403,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /countstat.php?
 /countubn.
 /countus.php
+/cp.gap.com/o/*$image
 /cp2.gif?*=qc_
 /cpc/*.ashx?u=$script,third-party
 /cpeEvent.
@@ -6090,6 +6092,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /lytics/*
 /lzdmailer.letter.open?
 /lzdtracker.
+/m-email/t.png?
 /m.gif?
 /m/140008|$script,third-party
 /m/5142?x=
@@ -6109,6 +6112,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /mail.sparksport.co.nz/mail/read/*
 /mail_tracking-cg.php
 /mail_tracking.php
+/maillist.*/t/$image
 /mailstatstrk/*
 /main.app.e081f97c6d9521b4b613.js
 /main.js?v=*&sp=*&ty=
@@ -8737,6 +8741,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wisdom_tracking.
 /wiseRtSvcVisit.
 /wiseatom/banner/pack_
+/wizrocketmail.net/r?$image
 /wjcounter-
 /wjcounter.
 /wjcountercore.
@@ -9403,7 +9408,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -9733,7 +9738,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
 @@||certona.net^*/resonance.js$domain=zooplus.fi
-@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|tumi.com
+@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||cgmodel.com/plugin/share/
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||chancro.jp/assets/lib/googleanalytics-$script
@@ -14245,6 +14250,7 @@ goodcome.com.tw###jad-right
 goodcome.com.tw###jad-top
 goodcome.com.tw##.Phase2_BigAdbox
 goodcome.com.tw,sporttery.cn###mask
+google-analytics.com$third-party
 google-analytics.com/analytics.js
 google.com.hk##DIV#tads
 googleads.g.doubleclick.net###mys-wrapper
@@ -15854,6 +15860,7 @@ keywin.org##.appdownload
 keywin.org##.pindaolist
 kikinote.ne###Popup
 kikinote.net##.pc_ad
+killcovid2021.com/*.mp4
 kindle114.com##[class="portal_block_summary"]
 kindleren.com##DIV.a_pb,DIV.a_pt,DIV.a_mu
 kingkong.com.tw##.public-activity
@@ -18802,7 +18809,6 @@ tzfdc.com##.AD_B
 tzfdc.com.cn##div[id^="LMT_"]
 tzuqiu.cc##.carouselThumbmsc_3,.linktozjtz,[src^="http://ov6k0d941.bkt.clouddn.com/xds20"]
 u-car.com.tw##.contad
-u-car.com.tw##.contad_text
 u148.net##DIV[id^="BAIDU_DUP_wrapper_"],div.sponsor-250,div.sponsor-100,div.sponsor-abeam,.relate-google
 u17.com##.auto_ad
 u17.com##div.ad_wrap,div[id^="u17-advert-"],div.banner_tonglan,div.banner_left,div.side_bot,div.ad_box,div.auto_ad,DIV#rdpop,DIV.mylife,div#down_load
@@ -18844,7 +18850,9 @@ udn.com##.ad_mag,#google_ad,#article_bottom_ad,.DisplayVideo,.more_ad,#ec
 udn.com##.ad_mask
 udn.com##.only_web > .DisplayVideo
 udn.com##.overlay-container
+udn.com##.sponsor-wrapper
 udn.com##.udn-ads
+udn.com##div[class*="edn-ads"]
 udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
 uf.haoyu666.top/uploads*%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
 ufanw.com###banne
@@ -18891,9 +18899,6 @@ uwants.com###foruminfo + div[align="center"]
 uwants.com##.showpx1
 uwants.com##[id^="ad_type_"]
 uxrpkgh.cn
-uzzf.com##.boxl
-uzzf.com##.f-uzzf-down
-uzzf.com##.topdown
 uzzf.com,fxxz.com##.azgg,#top_970,[href^=" http://url.222bz.com/down/"],[class="address_like"]
 v*-dy.ixigua.com/*/video/m/$app=~com.ss.android.ugc.aweme
 v.163.com###v_shapeLeft_divId
@@ -22409,6 +22414,7 @@ zznews.cn##.ad:not([style])
 ||666625.xyz^
 ||666627.xyz^
 ||666632.xyz^
+||666637.xyz^
 ||66666119.com^
 ||666666666666.site^
 ||6667778882021.site^
@@ -23078,6 +23084,7 @@ zznews.cn##.ad:not([style])
 ||a-mo.net^
 ||a-pagerank.net^$third-party
 ||a-reporting.nytimes.com^
+||a.10tianqi.com^
 ||a.20minutes.fr^
 ||a.4aqq.com^
 ||a.52wubi.com^
@@ -36113,6 +36120,7 @@ zznews.cn##.ad:not([style])
 ||hbt.gz-hongxin.com^
 ||hbt.haihongzg.com^
 ||hbttcc.com^
+||hbtyk.top^
 ||hbuweb.net^
 ||hbv.tobeacon.cn^
 ||hbx.df-srv.de^
@@ -37528,6 +37536,7 @@ zznews.cn##.ad:not([style])
 ||img.263y.com^
 ||img.3sjt.com^
 ||img.90bfw.com^*.gif
+||img.91p51.com^
 ||img.baidu.com/hunter/musicmonkey.min.js
 ||img.ckcgsy.cn^
 ||img.dubyc.com^
@@ -38606,6 +38615,7 @@ zznews.cn##.ad:not([style])
 ||jbdz.shop^
 ||jbezdi.ilsole24ore.com^
 ||jbpbox.com^
+||jbr.lhippac.cn^
 ||jbyy010.com^
 ||jbzyw.com/Application/M/adv/
 ||jc.0351dvd.cn^
@@ -39863,6 +39873,7 @@ zznews.cn##.ad:not([style])
 ||knt.viplp.top^
 ||kntb.sglyd.cn^
 ||knzqjr.pult.ru^
+||ko2v.eiya.net^
 ||ko3aql2d.zczcjx.com^$script
 ||kochava.com/track/$third-party
 ||kocpc.com.tw/adsbyso.js
@@ -41419,6 +41430,7 @@ zznews.cn##.ad:not([style])
 ||ltecrf.dhgate.com^
 ||ltg69t.com^
 ||lthhiw.medpets.nl^
+||ltht.tech^
 ||lthwsj.com^
 ||lthzd.cn^
 ||ltn.com.tw/js/ad_door.js
@@ -46556,6 +46568,7 @@ zznews.cn##.ad:not([style])
 ||privacypolicies.com/track/
 ||private.roche.com^
 ||privateadx.com^
+||privymktg.com^$third-party
 ||prjslxhtx003.top^$third-party
 ||prjslxhtx005.top^
 ||prnetwork.de^$third-party
@@ -56063,7 +56076,6 @@ zznews.cn##.ad:not([style])
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||upan.cc/images/pay/
-||upantool.com/a/
 ||upapi.net^$third-party
 ||uparpu.com^
 ||update.pigqq.com/v5^$app=com.biquge.ebook.app
@@ -56223,7 +56235,6 @@ zznews.cn##.ad:not([style])
 ||uzerly.net^$third-party
 ||uzpmrbek.com^
 ||uzrating.com^$third-party
-||uzzf.com/skin/know/
 ||v-*.71edge.com/videos/other^$empty
 ||v-dd*.*edge.com/videos/other^$domain=iqiyi.com,redirect=noopmp4-1s
 ||v-h.tv/pixel/
@@ -56707,6 +56718,7 @@ zznews.cn##.ad:not([style])
 ||vstat.my.tv.sohu.com^
 ||vstat.v.blog.sohu.com^
 ||vsuda.cn/data/upload/20
+||vsw2.21cnbm.com^
 ||vt863.cn^
 ||vtex.com.br/rc/rc.js
 ||vtf2f.banque-casino.fr^
@@ -59761,6 +59773,7 @@ zznews.cn##.ad:not([style])
 ||yoochoose.net^$third-party
 ||yootui19999.com^
 ||yoox.it/storage/rd/yorb/
+||yoqrbof.cn^
 ||yorkbbs.ca/crm/section/v1/get/list/open
 ||yosjob.cn^
 ||yottaa.com/rapid.min.js
