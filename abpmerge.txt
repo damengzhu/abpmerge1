@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-27 08:24:16
-! Total count: 62459
+! Version: 2022-06-27 16:25:33
+! Total count: 62455
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9550,6 +9550,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.nyda.pro^$websocket
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||apk.tw^*/ads.js$script,~third-party
 @@||app-advertise.zhihuishu.com^
@@ -10433,6 +10434,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||material.io/inline-tools/direct-embed/bower_components/angularytics/$script,~third-party
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
@@ -10599,6 +10601,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+@@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||orientaldaily.on.cc/js/oncc-ad.js
@@ -18839,21 +18842,16 @@ uctxt.com##.bd960
 udb.duowan.com##DIV.mod-left
 udn.com###ad-pall
 udn.com###ad_curtain
-udn.com###ad_mag
-udn.com###content_body_banner
 udn.com###doctop
 udn.com###ec
 udn.com###simplemodal-container
 udn.com###simplemodal-overlay
-udn.com###udn_scupio_responsive_wrapper
 udn.com##.ad_mag,#google_ad,#article_bottom_ad,.DisplayVideo,.more_ad,#ec
 udn.com##.ad_mask
-udn.com##.only_web > .DisplayVideo
 udn.com##.overlay-container
 udn.com##.sponsor-wrapper
 udn.com##.udn-ads
 udn.com##div[class*="edn-ads"]
-udn.com##table[bgcolor="#FFFFFF"][width="298"][height="375"]
 uf.haoyu666.top/uploads*%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
 ufanw.com###banne
 ufanw.com##.duilian,.top_11
@@ -37431,6 +37429,7 @@ zznews.cn##.ad:not([style])
 ||iiilab.com/sponsor/getByPage
 ||iiiuuu.top^
 ||iipbuas.cn^
+||iirpvchv.cn^
 ||iis7.com/ys/css2018/ggw.js
 ||iivt.com^$third-party
 ||ijaabm.bravotv.com^
@@ -40200,7 +40199,6 @@ zznews.cn##.ad:not([style])
 ||langger76.site^
 ||langkefaye.top^
 ||langren85.com^
-||language-center.com.tw/udn/
 ||languagelake.com^
 ||langxi.org/langxi/*900$image,object
 ||langya.cn/2014html/2014ad_
@@ -55875,8 +55873,6 @@ zznews.cn##.ad:not([style])
 ||udkcrj.com^$third-party
 ||udn.com.tw/upf/*_banners/BD/
 ||udn.com.tw/upf/2015_money/SSI/ad/
-||udn.com/2010MAIN/inc/t03-CMS.html
-||udn.com/SSI/neckFrame
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
 ||udn.com^*/ad/
