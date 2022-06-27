@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-26 16:21:52
-! Total count: 62435
+! Version: 2022-06-27 01:49:36
+! Total count: 62446
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -576,6 +576,7 @@
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
 ##.broadcastMe[style="width: 1200px;"]
 ##.btn-outline-primary[href*=".com:"]
+##.btn.btn-success.text-white[href*=".com:"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*="/viphktv.com/"]
 ##.bus_adsbox
@@ -5559,6 +5560,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /index.php?m=book/ad&
 /index.track?
 /indexad*
+/indexpc.html?agent=$popup,third-party
 /indextools.js
 /indraeventsapi.
 /inetlog.ru/*
@@ -10126,7 +10128,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
-@@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
+@@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|cbslocal.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
@@ -10137,7 +10139,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
-@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|savethechildren.it|unieuro.it|video.repubblica.it
+@@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
@@ -28030,6 +28032,7 @@ zznews.cn##.ad:not([style])
 ||bt1.patexplorer.com^
 ||bt121.net/ats/
 ||bt888bf.com/da.aspx
+||btaawy.cn^
 ||btbbt.cc/bt.js
 ||btbbt.cc/jslb.js
 ||btbbt.cc/jstb.js
@@ -31752,6 +31755,7 @@ zznews.cn##.ad:not([style])
 ||dkskbu.demae-can.com^
 ||dkupaw9ae63a8.cloudfront.net^
 ||dkvuey.xyz^
+||dkxobcs.cn^
 ||dl-stage.zola.com^
 ||dl.benefits.express-scripts.com^
 ||dl.health-programs.express-scripts.com^
@@ -33403,6 +33407,7 @@ zznews.cn##.ad:not([style])
 ||etui8.cn^
 ||etwun.com:8080/counter.php?
 ||etx.indiatimes.com^
+||etxggi.cn^
 ||etyper.com^$third-party
 ||eu-survey.com^$third-party
 ||eu.business.samsung.com^
@@ -33684,6 +33689,7 @@ zznews.cn##.ad:not([style])
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
 ||f.email.bjs.com^*/1x2.gif
+||f05.xyz^
 ||f0nn.oney.fr^
 ||f1.06ps.com^
 ||f1.ichong123.com^
@@ -35037,6 +35043,7 @@ zznews.cn##.ad:not([style])
 ||gft.yifujing.com^
 ||gft2.de^$third-party
 ||gfv4.destinia.co.za^
+||gfvip06af.com^
 ||gg*.miguvideo.com^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
@@ -35356,6 +35363,7 @@ zznews.cn##.ad:not([style])
 ||goldenlee.cn^
 ||goldenwind.icu^
 ||goldnfn.com^
+||goldnfu.com^
 ||goldoffer.online^$third-party
 ||goldsilbershop.de/go.cgi?
 ||goldstats.com^$third-party
@@ -40624,6 +40632,7 @@ zznews.cn##.ad:not([style])
 ||lingdianshuwu.com/js/
 ||lingdianshuwu.com/js/content
 ||linghangshouji.com^
+||lingke03.top^
 ||linglingccc.xyz^
 ||linglong001.com^
 ||lingows.appspot.com/page_data/?
@@ -49862,6 +49871,7 @@ zznews.cn##.ad:not([style])
 ||slieindy.top^
 ||slifindy.top^
 ||sliiindy.top^
+||slimindy.top^
 ||slimopinion.com^
 ||slimyscarf.com^
 ||slingpic.com^$third-party
@@ -56465,6 +56475,7 @@ zznews.cn##.ad:not([style])
 ||vimeocdn.com/add/player-stats?
 ||vimeocdn.com/ga/
 ||vimeocdn.com/js_opt/logging_combined.min.js
+||vine.eu/track/
 ||vinlens.com^$third-party
 ||vinsight.de^$domain=tvspielfilm.de
 ||vinsight.de^$third-party
