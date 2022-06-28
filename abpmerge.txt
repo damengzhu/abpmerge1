@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-28 08:24:46
-! Total count: 62490
+! Version: 2022-06-28 16:28:55
+! Total count: 62483
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9513,7 +9513,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
-@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
@@ -10974,6 +10973,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
+@@||tag.aticdn.net^*/smarttag.js$domain=rte.ie
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tagcommander.com^*/tc_$script
 @@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
@@ -13024,7 +13024,7 @@ cr173.com##.downurl[data^="viewAds"]
 cr173.com##.xiazaiqi
 cr173.com##div.g-ad-box,div.show_970,[src^="/show/hm"],#down_a_1,#show_top,[data="viewAds"],#info_left_ad,#azbt,#colbt
 cr173.com,downcc.com##.downnowgaosu
-cr173.com,downcc.com,downyi.com,itmop.com,v5pc.com,xfdown.com##.downnowgaosu
+cr173.com,downcc.com,downyi.com,itmop.com,xfdown.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
@@ -18824,7 +18824,6 @@ tzfdc.com.cn##div[id^="LMT_"]
 tzuqiu.cc##.carouselThumbmsc_3,.linktozjtz,[src^="http://ov6k0d941.bkt.clouddn.com/xds20"]
 u-car.com.tw##.contad
 u148.net##DIV[id^="BAIDU_DUP_wrapper_"],div.sponsor-250,div.sponsor-100,div.sponsor-abeam,.relate-google
-u17.com##.auto_ad
 u17.com##div.ad_wrap,div[id^="u17-advert-"],div.banner_tonglan,div.banner_left,div.side_bot,div.ad_box,div.auto_ad,DIV#rdpop,DIV.mylife,div#down_load
 u17.com##div[id^="u17-advert"]
 u2mtv.com#@##slider-ad
@@ -18879,7 +18878,6 @@ uotan.cn###fuck-ads
 up01.cc###popad
 up01.cc##.ads,.pagead,#popad,iframe[height="90"],iframe[height="60"]
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
-upan.cc###ShowDIV
 upan.so##a[href^="http://union.138178.cc"]
 upxin.net##ins.adsbygoogle,div[id^="ad_"]
 user.qzone.qq.com###QM_Container_11
@@ -18894,12 +18892,8 @@ uu114.cn##.side_top_banner
 uu234.net##.a980
 uu898.com##div.Curtain,div#s956,div#game41
 uubqp.com##.a_cb,.a_mu,#frame5Gn3gR_left
-uuu9.com###cm1337
 uuu9.com###top
 uuu9.com##.c_box
-uuu9.com##.sindex_ad1
-uuu9.com##.tgbox
-uuu9.com##.yoyofc
 uuu9.com##DIV[class^="top"][class$="bar mt10"],DIV#top,DIV#cm1337,DIV.top2box,section.sindex_ad1,div.ad_v,div#cm13377,div.ad_140_l,div.ad_140_r,div.skinad,div.yoyofc,.index_ad2,[class^="adbox"]
 uuu9.com##div[class^="ad_140"]
 uuxs.net##.bd980
@@ -18950,10 +18944,11 @@ v2ex.com##.sidebar_units
 v2ex.com##div[style="width: 240px; margin: 0px auto 0px auto; text-align: left;"]
 v2ex.com##div[style][onclick*="geekhub."]
 v2rayssr.com###gg-box
+v2rayssr.com##.slider-4-box1
+v2rayssr.com##a[href*="goii.cc"]
 v4dwkcv.com
 v4p.co##iframe[SRC^="http://fans.bestvogue.com/fans/"]
 v5bjq.com##.ad-Shrink,.ad960-90,.ad336-280,.gg810,.gg-wrap
-v5pc.com###full_downad
 v6p.co##iframe[SRC^="http://fans.bestvogue.com/fans/"]
 vafuli.com,v5gege.com##[id^="text-"],div.ad-widget,div[id^="jtheme-ad-"]
 vanpeople.com##.banneradv-newbox
@@ -44120,6 +44115,7 @@ zznews.cn##.ad:not([style])
 ||naquan.com/packages/assets/js/jquery.reveal.js
 ||narrowad.org^
 ||narutom.com/stat.js
+||nasi.etherscan.com^
 ||nastydollars.com/trk/
 ||nasza-klasa.pl^*/pp_gemius
 ||natero.com^$third-party
@@ -55811,7 +55807,6 @@ zznews.cn##.ad:not([style])
 ||u1.idongde.com^
 ||u1.qyxxpd.com^
 ||u1.shuaiku.com^
-||u17i.com/readad/
 ||u26u.com/$third-party,~font,popup
 ||u26u.com^$popup,third-party
 ||u299.libelle-lekker.be^
@@ -56101,7 +56096,6 @@ zznews.cn##.ad:not([style])
 ||up1ep9mauzpsblrhtg.youku6.top^
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
-||upan.cc/images/pay/
 ||upapi.net^$third-party
 ||uparpu.com^
 ||update.pigqq.com/v5^$app=com.biquge.ebook.app
@@ -56233,9 +56227,7 @@ zznews.cn##.ad:not([style])
 ||uum6.com/$third-party,~font,popup
 ||uunak.cn^
 ||uurykr.pizzahut.com.mx^
-||uuu9.com/news/css/news_content_in.js
 ||uuu9.com/photolog.html
-||uuu9.com/yoyo_
 ||uuu9.tieba.com^$subdocument
 ||uuwhg.com^
 ||uuwn7ho.cn^
@@ -56303,7 +56295,6 @@ zznews.cn##.ad:not([style])
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v5ad.com^
-||v5pc.com/static/images/dn
 ||v6jt.cn^
 ||va-endpoint.com^$third-party
 ||va.tawk.to/log
@@ -59083,6 +59074,8 @@ zznews.cn##.ad:not([style])
 ||xopf.lhy1.xyz^
 ||xothl.gbcnvip15.com^
 ||xovq5nemr.com^
+||xox8956.com^
+||xox9325.com^
 ||xp.apple.com^$~ping
 ||xp3366.com^
 ||xp3366.com^$third-party
