@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-28 01:45:49
-! Total count: 62476
+! Version: 2022-06-28 08:24:46
+! Total count: 62490
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -136,6 +136,7 @@
 ###cs_right_couplet
 ###ct > div.mn:last-child > div:nth-child(4) > table
 ###ct > div.mn:last-child > table:nth-child(3)
+###cxense-recs-in-article
 ###dbgg
 ###dgf_pc
 ###divExoLayerWrapper
@@ -6303,6 +6304,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /mpl/mpulse.
 /mpulse.js
 /mpulse.min.js
+/ms.analytics-
 /msa-vowels/1/OP/*
 /msftaudience.
 /mshow.aspx?AID=
@@ -9770,6 +9772,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
 @@||cl9a.com/static/ad/main.js
+@@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
@@ -16524,6 +16527,7 @@ me360.com##.footer-booking-open
 med66.com##.banner
 med66.com##.coach_pic
 med66.com##[id^="ad"],[class$="container"],.banner,.gao
+mediaadjustment.com
 medsci.cn##.adv1201
 megatime.com.tw###ad_type_9
 megatime.com.tw,pchome.com.tw###sixi
@@ -17402,6 +17406,7 @@ qdmm.com##DIV[id^="down_3g_201"],DIV[id^="down2_3g_201"],div#div_10029118,div.sh
 qdmm.com,qidian.com##.qdRead_client
 qdmm.com,qidian.com##.qdRead_redscan
 qdwght.com
+qfnoyix.cn
 qger.net##body > :not(div):not(header):not(img):not(ocjx):not(span):not(ui)
 qhnews.com###xwyc
 qianhua.biz###framelzHoHY
@@ -18730,6 +18735,7 @@ ttmeiju.com##A[href^="http://lnk8.cn/"],#bottomad,div.super_notice,ul.headad,div
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttmeiju.vip##.duilian,#miaov_float_layer,[title$=".jpg"]
 ttshuba.com##.con_ad,.ad250left,.adsbygoogle
+ttsp.tv##.play_list_adbox
 ttzmz.vip###footer > div[style]
 ttzmz.vip###otherad
 ttzmz.vip##div[style^="margin-top:2"]
@@ -39620,6 +39626,7 @@ zznews.cn##.ad:not([style])
 ||kbneks00.online^
 ||kbs-services.actonservice.com^
 ||kbstyn.com^
+||kbt.yhbsk.cn^
 ||kc-valves.com^
 ||kc.gouchezj.com^
 ||kc.mindopu.com^
@@ -45212,6 +45219,7 @@ zznews.cn##.ad:not([style])
 ||ordergroove.com/log/offer?
 ||ordidc.com^
 ||org/topjs/
+||organiccdn.io/assets/sdk/monitor.unit-sdk.js
 ||organicfruitapps.com/analytics/
 ||oribi.io^$third-party
 ||original-empire.com^
@@ -45954,6 +45962,7 @@ zznews.cn##.ad:not([style])
 ||pigewang.com.cn^
 ||pigol.cn/myinc/
 ||pigspie.com^
+||piilvhtu.cn^
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
 ||piimg.com^$image,domain=fulidh.org|lsjsoso.com
@@ -47089,6 +47098,7 @@ zznews.cn##.ad:not([style])
 ||qiaoxiaomiao.com^
 ||qibalmm.com^
 ||qibxdwe1.com^
+||qichegongxiang.xyz^
 ||qichenx.com^
 ||qichetuoyun.com.cn^
 ||qicqn.cn^
@@ -55522,6 +55532,7 @@ zznews.cn##.ad:not([style])
 ||trysera.com^$third-party
 ||tryst.net.cn^
 ||tryzens-analytics.com^
+||trznrug.cn^
 ||ts.delfi.lt^
 ||ts.fi/Statistics/Log$image
 ||ts.fi^*/spring.js
@@ -56939,6 +56950,7 @@ zznews.cn##.ad:not([style])
 ||wap.2f.com^
 ||wap.9txs.cc/react/native_
 ||wap.bntxt.com^
+||wap.embnvut.com^
 ||wap.kanmaoxian.com/js/xx.js
 ||wap.sobiquge.com/js/gksijee.js
 ||wap.sobiquge.com/js/hosief.js
@@ -57157,7 +57169,6 @@ zznews.cn##.ad:not([style])
 ||weblog2.eseoul.go.kr^
 ||weblogger-dynamic-lb.playdom.com^
 ||webmasterplan.com^$third-party
-||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||webmet.creditreform.de^
 ||webmeter.ws^$third-party
@@ -59389,6 +59400,7 @@ zznews.cn##.ad:not([style])
 ||yaoyl.com/js/ds.js
 ||yaozui.com/ref/index?
 ||yapusheji.com^
+||yardianalytics.com^
 ||yarpp.org/pixels/
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
@@ -60159,6 +60171,7 @@ zznews.cn##.ad:not([style])
 ||yyo876.com^*.php
 ||yyp17.com^
 ||yypd.top^
+||yyrrw.top^
 ||yyrtv.com/static/js/dsp.js
 ||yyslate.com^
 ||yystzl.cn^
@@ -60986,6 +60999,7 @@ zznews.cn##.ad:not([style])
 ||zzxlhwyp.com^
 ||zzxxli.club^
 ||zzyanhushi.com^
+||zzycj.com^
 ||zzyonghao.com^
 ||zzyytt.top^
 ||zzz4.com/JS_AD/
