@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-30 01:44:34
-! Total count: 62512
+! Version: 2022-06-30 08:24:05
+! Total count: 62529
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1057,6 +1057,7 @@
 ##[href^='https://x7463.com:']
 ##[href^='https://xcc.nbfieef.cn/cc/']
 ##[href^='https://xcc.nvnxxrk.cn']
+##[href^='https://xcc.ztdzpyf.cn/']
 ##[href^='https://xt.nktxv.com'],[href^='https://xe.vldbd.com']
 ##[href^='https://yh.133svip.com/']
 ##[id^="_vdo_ads_player"]
@@ -1193,6 +1194,7 @@
 ##a[href*=".d2mzb.com"]
 ##a[href*=".dajiang99.com"]
 ##a[href*=".dapengchejiuye.com/"]
+##a[href*=".dbrows.com/"]
 ##a[href*=".demobbe.com/"]
 ##a[href*=".dongtaisteel.com/"]
 ##a[href*=".downok.com"]
@@ -4265,7 +4267,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /collect_v3.
 /collection.php?data=
 /collector-*/event
-/collector.php?
 /collector/beacon
 /collector/event
 /collector/hit?
@@ -6256,6 +6257,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /mms.*/pv?
 /mms/get_loaders?
 /mmt.gif?
+/mn-collector.
 /mngi/tracking/*
 /mnppixellibrary.
 /mnt/imp?
@@ -7018,6 +7020,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /questus/*
 /quidsi.ga.js?
 /r.gif?
+/r.rnc?
 /r/collect?
 /r/ucb.js$script,~third-party
 /r/video/*$domain=youxi.baidu.com
@@ -20341,6 +20344,7 @@ zhenhaoba.com##center,div.a_pt,div.a_pb
 zhenhaoclub.com,zhenhaobbs.com##div.a_mu,div.a_pb,div.a_pt
 zhenhaosq.com##center,div.a_pt,div.a_pb,div.t_f
 zhev.com.cn##[href^="https://item.taobao.com/item.htm?spm="],[src^="http://www.zhev.com.cn/file/weixin/"],[style="height:90px;"],[src^="/file/weixin/"],#wrap.wrap
+zhhbqg.com/ww/*.js
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
 zhibo8.cc##.ad_box_250
@@ -22414,6 +22418,7 @@ zznews.cn##.ad:not([style])
 ||666637.xyz^
 ||666638.xyz^
 ||666642.xyz^
+||666643.xyz^
 ||66666119.com^
 ||666666666666.site^
 ||6667778882021.site^
@@ -23912,6 +23917,7 @@ zznews.cn##.ad:not([style])
 ||abb.ycdywl.com^
 ||abbao.cn^*adblock
 ||abblm.com^
+||abbqhst.cn^
 ||abc.bayer04.de^
 ||abc.douguo.com^
 ||abc.es/pixel/
@@ -25871,6 +25877,7 @@ zznews.cn##.ad:not([style])
 ||aoshi.com/jpseek.jpg
 ||aoshi.com/rbc.jpg
 ||aotetu.cn^
+||aoxiang.fun^
 ||aoyinn.com^
 ||aoyou2.top^
 ||aoyou3.top^
@@ -36405,6 +36412,7 @@ zznews.cn##.ad:not([style])
 ||hhvip86.com^
 ||hhvip87.com^
 ||hhytrace.sogoucdn.com^
+||hhyyt.top^
 ||hi.hellobar.com^
 ||hi.koalendar.com^
 ||hi.streetworkoutlist.com^
@@ -36564,6 +36572,7 @@ zznews.cn##.ad:not([style])
 ||hks.lhy1.xyz^
 ||hktracker.hankookilbo.com^
 ||hktv10.com^
+||hktvmall.com/api/event
 ||hktvmall.com/api/preroll/getList?
 ||hkzzacp.cn^
 ||hl.brownfox.top^
@@ -36636,6 +36645,7 @@ zznews.cn##.ad:not([style])
 ||hnr.sbldw.cn^
 ||hnrhyy.com/vip/$script
 ||hnruisheng.cn^
+||hnshangzhongxia.com^
 ||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
@@ -36831,6 +36841,7 @@ zznews.cn##.ad:not([style])
 ||hsforms.com^*/counters.gif
 ||hsforms.com^*/timings.gif$image
 ||hsforms.net^
+||hsiaik.com^
 ||hskj.net^
 ||hsleadflows.net^$third-party
 ||hslyqs.com^
@@ -40378,6 +40389,7 @@ zznews.cn##.ad:not([style])
 ||leadintelligence.co.uk^$third-party
 ||leadium.com^$third-party
 ||leadlab.click^$third-party
+||leadliaison.com/tracking_engine/
 ||leadlife.com^$third-party
 ||leadmanagerfx.com^$third-party
 ||leadpages.net/leadboxes/current/embed.js
@@ -47862,6 +47874,7 @@ zznews.cn##.ad:not([style])
 ||refytq.camp-fire.jp^
 ||reg.enterpriseconnect.com^
 ||reg.informationweek.com^
+||regimeal.hk/apis/track_view_product
 ||register.dnv.com^
 ||regularplants.com^$third-party
 ||reichelt.com/setsid.php?
@@ -53563,6 +53576,7 @@ zznews.cn##.ad:not([style])
 ||tds.io^$third-party
 ||tdstats.com^$third-party
 ||tdtsd.com^
+||tdtxkvj.cn^
 ||tdtxt.xyz/js/baidu.js
 ||tdum.alibaba.com/dss.js
 ||tdzvm.pw^
@@ -57287,6 +57301,7 @@ zznews.cn##.ad:not([style])
 ||wei2008.com/js/jump
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
+||weibo.cn/status/banner?
 ||weibo.com/aj/log/
 ||weibo.com/ajax/feed/getTipsAd?
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
@@ -58653,6 +58668,7 @@ zznews.cn##.ad:not([style])
 ||xc.nimaxrv.cn^
 ||xc.nuheoub.cn^
 ||xc.ognujxj.cn^
+||xc.qaxkwxpf.cn^
 ||xc.shigl.top^
 ||xc.wagzqhq.cn^
 ||xc.yynncbn.cn^
@@ -58742,6 +58758,7 @@ zznews.cn##.ad:not([style])
 ||xg.s4zqj3m.cn^
 ||xg.sciillr.cn^
 ||xg.svvbrkk.cn^
+||xg.unypud.cn^
 ||xg.wdswgjn.cn^
 ||xg.y0764.cn^
 ||xg4ken.com^$third-party
