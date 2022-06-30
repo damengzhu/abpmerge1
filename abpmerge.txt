@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-06-29 16:44:02
-! Total count: 62500
+! Version: 2022-06-30 01:44:34
+! Total count: 62512
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1189,6 +1189,7 @@
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
+##a[href*=".covasco.com/"]
 ##a[href*=".d2mzb.com"]
 ##a[href*=".dajiang99.com"]
 ##a[href*=".dapengchejiuye.com/"]
@@ -10353,6 +10354,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kfcorder.com.tw/web/Script/Analytics.js
 @@||kfcorder.com.tw^*/Advert
 @@||killcovid2021.com/*/*.mp4
+@@||kissfm.es/wp-content/themes/kissfm/assets/js/comscore.js$~third-party
 @@||kissjav.com^$generichide
 @@||kk665403.pixnet.net^$generichide
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
@@ -14878,7 +14880,6 @@ idanmu.ee##aside > div[class="widget "]
 idanmu.ee##div[class^="g "]
 idanmu.org##.adbox,.ad-container
 idaybreak.com##testwidget
-iduba.com###topBanner
 ieeod0.com
 iefans.net##.ad,.mod-media-340
 ieforex.com##.header > .left
@@ -21355,6 +21356,7 @@ zznews.cn##.ad:not([style])
 ||2048hd1.com/js/tc.js
 ||204st.us^$third-party
 ||206solutions.com^$third-party
+||2077.tech^
 ||20dcr.com/static/js/base.js
 ||20mao.com/52
 ||20mao.com/js/sj.
@@ -23127,6 +23129,7 @@ zznews.cn##.ad:not([style])
 ||a.getflowbox.com^
 ||a.gougou88.xyz^
 ||a.hbf23.cn^
+||a.hcaptcha.com^
 ||a.hellonext.co^
 ||a.hibbett.com^
 ||a.hrewards.com^
@@ -30962,6 +30965,7 @@ zznews.cn##.ad:not([style])
 ||dai.siyuetian.net^
 ||dai18.mumu01.com^
 ||dai18.shangc.net^
+||daibu.me^
 ||daifez.thebay.com^
 ||daikuanfanli.com^
 ||dail01.wanmeilr.com^
@@ -35060,6 +35064,7 @@ zznews.cn##.ad:not([style])
 ||gfvip06af.com^
 ||gfvip08af.com^
 ||gfvip08as.com^
+||gfvip09aa.com^
 ||gg*.miguvideo.com^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
@@ -35079,6 +35084,7 @@ zznews.cn##.ad:not([style])
 ||gg.sonhoo.com^
 ||gg.uuu9.com^
 ||gg.yxdown.com^
+||gg.zhhbqg.com^
 ||gg1.jc001.cn^
 ||gg1.mengchongzu.com^
 ||gg123456789gg.com^*.js
@@ -40240,6 +40246,7 @@ zznews.cn##.ad:not([style])
 ||lantern.kronos.mx^
 ||lantern.kronosglobal.de^
 ||lantern.kronosglobal.fr^
+||lantian.love^
 ||lantuyj.com^
 ||lanyes.org/content/templates/lanye2015/images/hb_banner.png
 ||lanyue.ink^
@@ -48236,6 +48243,7 @@ zznews.cn##.ad:not([style])
 ||rrgapzw.cn^
 ||rrimpl.com^$third-party
 ||rrjc.com/home/seo/ad/
+||rrkky.top^
 ||rrogfhs.cn^
 ||rrr.plus^
 ||rrsubway.com^
@@ -59491,6 +59499,9 @@ zznews.cn##.ad:not([style])
 ||yehyqc.hugoboss.com^
 ||yektanet.com^$third-party
 ||yellowbrix.com^$third-party
+||yelp.com/ad_acknowledgment
+||yelp.com/ad_syndication_user_tracking
+||yelp.com/bunsen/
 ||yema.shop^
 ||yemnn.cn^
 ||yengo.com^
@@ -60576,6 +60587,7 @@ zznews.cn##.ad:not([style])
 ||zhongyoo.com/shuju/
 ||zhongzijun.com/js/adurl.js
 ||zhongzizye.cn^
+||zhoudm.love^
 ||zhoumo.site^
 ||zhouwutrip.cn^
 ||zhouyi.cool^
@@ -61668,7 +61680,7 @@ zznews.cn##.ad:not([style])
 91danji.com###bg_ad
 91danji.com##.JS-xzq-down,div.m-tool-down-left > H5:first-child,DIV.w392 > H4:first-child + UL.down-way-2,.hr48,#bg_ad,.page-down-right,.w277-banner1,[src^="http://www.91danji.com/attachments/"],iframe,div.m-app + div[style]
 91danji.com##.zlVideTowNav
-91duba.com###topBanner
+91duba.com,iduba.com###topBanner
 91lai.com##.D_guanggaotu11
 91lai.com##.D_guanggaotu2
 91lai.com##.D_guanggaotu3
