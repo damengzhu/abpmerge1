@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-01 08:22:55
-! Total count: 62564
+! Version: 2022-07-01 16:28:01
+! Total count: 62572
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9829,6 +9829,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$script,~third-party
 @@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -10157,7 +10158,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -11076,6 +11077,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||twitter.com/oct.js$domain=jp.square-enix.com
+@@||type.jp/common/js/clicktag.js
 @@||uaprom.net/image/blank.gif?$image
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
 @@||udn.com/mall/images/spacer.gif?
@@ -19633,6 +19635,9 @@ www.tvbfsy.com##div.a_mu,div.bm.a_c,div.a_pt
 www.tvf4.com##iframe
 www.txahz.com##div[class^="wp ad"],div.a_mu,IMG[width="468"][height="60"]
 www.tyzrcs.com###__^HFa,DIV.box top_box
+www.tz659.com/js/cdn.js
+www.tz659.com/js/chapte*.js
+www.tz659.com/js/html*.js
 www.u77.com##div.game-ad-item.positiona
 www.uc123.com##.header-push-inner,div#J_shoppingPush,div#J_banner,[class="mod mbm"],#J_closeBackground,.bg-wrapper
 www.uhaoye.com##aside.widget.picturead,img[width="1000"][height="92"]
@@ -56483,6 +56488,7 @@ zznews.cn##.ad:not([style])
 ||vfd2dyn.vodafone.de^
 ||vfiles.gtimg.cn/pub/video_float_ad_config.config_list^
 ||vfo.voyage-prive.co.uk^
+||vfq1.xmsrd.com^
 ||vg.no/stats/
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 ||vgao.xyz/images/*.gif
@@ -57228,6 +57234,7 @@ zznews.cn##.ad:not([style])
 ||weblog2.eseoul.go.kr^
 ||weblogger-dynamic-lb.playdom.com^
 ||webmasterplan.com^$third-party
+||webmd.com/pixel/
 ||webmd.com/static/v/c?
 ||webmet.creditreform.de^
 ||webmeter.ws^$third-party
@@ -57607,6 +57614,7 @@ zznews.cn##.ad:not([style])
 ||wkdown.info/bt.php?
 ||wkdspy.locondo.jp^
 ||wknd.ai^
+||wknfr6791.zdhm.cn^
 ||wknniyu.cn^
 ||wknvmj.cocooncenter.com^
 ||wknydhz.cn^
