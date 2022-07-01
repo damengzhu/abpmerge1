@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-01 01:55:16
-! Total count: 62554
+! Version: 2022-07-01 08:22:55
+! Total count: 62564
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -4764,6 +4764,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /event?eventType=
 /event?pmo=
 /event?ref=
+/event?sendBeacon=
 /event?stat_
 /event?t=view&
 /event?token=
@@ -9002,6 +9003,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
+://posthog.$domain=~posthog.com
 ://segment-api.
 ://segment-cdn.
 ://stats.*/index.js
@@ -28467,6 +28469,7 @@ zznews.cn##.ad:not([style])
 ||capitalone.com/collector/
 ||capriciouscorn.com^$third-party
 ||capsquirrel.com^$third-party
+||captcha-display.com^
 ||captify.co.uk^$third-party
 ||captivate.ai^$third-party
 ||captivias.site^
@@ -32134,6 +32137,7 @@ zznews.cn##.ad:not([style])
 ||dropbox.com/alternate_
 ||dropbox.com/log/
 ||dropbox.com/log_
+||dropboxfingerprintjs.com^$third-party
 ||drrykr.com^
 ||drrzzl.cn^
 ||drudgereport.com/204.png
@@ -44410,6 +44414,7 @@ zznews.cn##.ad:not([style])
 ||nexx.cloud/play/beacon.
 ||nfflife.com^
 ||nfhlink.com^
+||nfhtech.com^
 ||nflks.cn^
 ||nflshop.com/api/track
 ||nfmovies.com/pic/tu/*_863x59.
@@ -45183,6 +45188,7 @@ zznews.cn##.ad:not([style])
 ||openapi-mobile.youku.com/statis^$app=com.huawei.hwvplayer.youku
 ||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 ||openclick.com^$third-party
+||openfpcdn.io^
 ||opengam.com^
 ||openguid.org^$third-party
 ||openhit.com^$third-party
@@ -48798,6 +48804,7 @@ zznews.cn##.ad:not([style])
 ||scize.com^$third-party
 ||scjcgj.top^
 ||scjlpq.navitime.co.jp^
+||scktmdv.cn^
 ||sclick.baidu.com^
 ||scloud.online/stat/
 ||scmetrics.shell.com^
@@ -52901,6 +52908,7 @@ zznews.cn##.ad:not([style])
 ||superjob.ru/ws/
 ||superli666.top^
 ||supernff.com^
+||superpointlesshamsters.com^
 ||supersonicads.com^
 ||superstat.info^$third-party
 ||superstats.com^$third-party
@@ -55779,6 +55787,7 @@ zznews.cn##.ad:not([style])
 ||txahz.com/static/image/tp/
 ||txdwc.cn^
 ||txgg2022bisheng.com^
+||txie.club^
 ||txmsw.mobi^
 ||txpbnm.sevellia.com^
 ||txscn.cn^
@@ -56303,6 +56312,7 @@ zznews.cn##.ad:not([style])
 ||uyan.cc/$third-party
 ||uyueread.com^
 ||uyunad.com^
+||uyzdcun.cn^
 ||uz4cb.cn^
 ||uzd1.madeindesign.com^
 ||uzerly.net^$third-party
