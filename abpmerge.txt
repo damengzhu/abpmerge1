@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-01 16:28:01
-! Total count: 62572
+! Version: 2022-07-02 01:42:06
+! Total count: 62584
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9829,7 +9829,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
-@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$script,~third-party
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$~third-party,xmlhttprequest
 @@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -26601,6 +26601,7 @@ zznews.cn##.ad:not([style])
 ||axoncoho.tk^$third-party
 ||axpvy.cn^
 ||axqpn.cn^
+||axt.cool^
 ||axuns.com^
 ||ayazsth.cn^
 ||aybe.me^
@@ -26741,7 +26742,9 @@ zznews.cn##.ad:not([style])
 ||bacon.section.io^
 ||bad996.com/dakaads.js
 ||badao37.net^
+||badcniop.top^
 ||badding.oss-ap-southeast-1.aliyuncs.com^
+||badeniop.top^
 ||badirectoryz.carte-gr.total.fr^
 ||badjs.weixinbridge.com^
 ||badmintoncn.com/cbo_include/js/cboaaa.js
@@ -35242,6 +35245,7 @@ zznews.cn##.ad:not([style])
 ||globetrackr.com^$third-party
 ||globo.com/geo?
 ||glomera.com/stats
+||glomex.com^$ping
 ||glookup.info^
 ||glores2.lanzoui.com^
 ||gloriousbeef.com^$third-party
@@ -38612,6 +38616,7 @@ zznews.cn##.ad:not([style])
 ||ja.yushuha.com^
 ||ja1.gamersky.com^$script
 ||ja9377.com^
+||jab88.com^
 ||jable.tv/assets/*0.gif
 ||jable.tv/assets/images/*-slider.
 ||jacklm1.com^
@@ -39910,6 +39915,7 @@ zznews.cn##.ad:not([style])
 ||kmt.cslpf.cn^
 ||kmt.xkzjq.cn^
 ||kmtx.io^$third-party
+||kmvbre.com^
 ||kmwqxqh.com^
 ||kmy.tlsgq.cn^
 ||kn.zhangdujia.com^
@@ -42477,6 +42483,7 @@ zznews.cn##.ad:not([style])
 ||mbt.hongmao39.top^
 ||mbt.tangk.top^
 ||mbww.com^$third-party
+||mbxsku.cn^
 ||mbxt.net^
 ||mc.a48505.cn^
 ||mc.aefmbeq.cn^
@@ -43454,6 +43461,7 @@ zznews.cn##.ad:not([style])
 ||mlhtmc.macnificos.com^
 ||mlinks.fluz.app^
 ||mlion.cn^
+||mlm-tracking-service.meinestadt.de^
 ||mlm.de/counter/
 ||mlm.de/pagerank-ranking/
 ||mlmswk.janpara.co.jp^
@@ -44186,6 +44194,7 @@ zznews.cn##.ad:not([style])
 ||navdmp.com^$third-party
 ||naver.com/PostView.nhn?$image
 ||naver.net/wcslog.js
+||navigation-timing.meinestadt.de^
 ||navigator.io^$third-party
 ||navilytics.com^$third-party
 ||navlink.com/__utmala.js
@@ -57347,6 +57356,7 @@ zznews.cn##.ad:not([style])
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
 ||weiboyaya.cn^
 ||weichongyisheng.cn^
+||weicun.xyz^
 ||weidianyuedu.com^
 ||weidianyuedu.com^$third-party
 ||weifengi.xyz^
@@ -58872,6 +58882,7 @@ zznews.cn##.ad:not([style])
 ||xiaochengzhixue.com^
 ||xiaodigufz.com/ggt/
 ||xiaodongjun.com^
+||xiaodongrui.com^
 ||xiaodutv.com/xda?
 ||xiaoertuina.top^
 ||xiaofashi.top^
@@ -60536,6 +60547,7 @@ zznews.cn##.ad:not([style])
 ||zhcps.cn^
 ||zhctrack.net^
 ||zhduni.rizap.jp^
+||zhe8000.pw^
 ||zhekoudajie.com^
 ||zhemaijs.net^
 ||zhenben.cc/2000/
