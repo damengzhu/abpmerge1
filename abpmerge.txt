@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-05 16:29:10
-! Total count: 62508
+! Version: 2022-07-06 01:56:37
+! Total count: 62512
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10193,7 +10193,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
-@@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
+@@||guce.advertising.com/collectIdentifiers$~third-party
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hanjubaike.com^$script,~third-party
@@ -10243,7 +10243,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||hvemder.no/api/hitcount/$~third-party
 @@||hvemder.no/js/hitcount.min.js$script,~third-party
-@@||i-scmp.com/production/mixpanel.$domain=scmp.com
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
 @@||ibf.tw^$generichide
@@ -10285,7 +10284,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
-@@||innovelsolutions.com^*/tracking/$~third-party
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=elisa.fi|kauppahalli24.fi
@@ -10370,6 +10368,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kissfm.es/wp-content/themes/kissfm/assets/js/comscore.js$~third-party
 @@||kissjav.com^$generichide
 @@||kk665403.pixnet.net^$generichide
+@@||klarnaservices.com/images/$image,domain=cosmeticsnow.nz
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
 @@||klpinteraktiv.klp.no^*/Tracking.js?
 @@||kohls.com/b/ss/$image
@@ -10386,7 +10385,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lager.com.tw/images/layer6_adbanner/
 @@||lancdn.com/landian/public/js/ads.js
 @@||landtop.com.tw/images/ad/
-@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
+@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
 @@||laotiesao.vip^$generichide
 @@||laredoute.pt/js/byside_webcare.js
 @@||lazada.co.th/js/tracking.js
@@ -10420,8 +10419,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
-@@||live.bbc.co.uk^*/comscore.js$script,~third-party
-@@||live.house.gov/js/analytics.$script,~third-party
+@@||live.bbc.co.uk^*/comscore.js$~third-party
+@@||live.house.gov/js/analytics.$~third-party
 @@||livew.l.qq.com/crossdomain.xml
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||lncn.org/ad.json
@@ -10431,7 +10430,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||loc.map.baidu.com/sdk.php$app=com.baidu.BaiduMap
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
-@@||logging.apache.org^$domain=apache.org
+@@||logging.apache.org^$~third-party
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||loltmcheck.com/js/ads.js
@@ -10521,7 +10520,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||msn.wrating.com/a1.js
 @@||msn.wrating.com^
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
-@@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
@@ -10605,7 +10603,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
 @@||ondemand.sas.com^$subdocument
-@@||onecall.whoson.com/stat.js$xmlhttprequest
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||online.mps-gba.de/praeludium/ams.js?$domain=auto-motor-und-sport.de
@@ -10682,7 +10679,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||player.letvcdn.com/*/letvPlayer.swf
 @@||player.mgtv.com/mgtv_*/ad.swf
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
-@@||player.sundaysky.com^$subdocument
 @@||player.vgtrk.com/js/stat.js?
 @@||playty.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||playy.online/log_event$~third-party,xmlhttprequest
@@ -10715,7 +10711,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pv.sohu.com/suv/
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
-@@||q-examiner.online/api/Ping?
 @@||qbox.me/static/js/ads.js$domain=linux.cn
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
@@ -10761,7 +10756,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
-@@||redbull.com/gtm.js
+@@||redbull.com/gtm.js$~third-party
 @@||redguide.top^*/ad.css?$stylesheet
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
@@ -10770,7 +10765,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||res.yyets.com/ads/mediav-250.js
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||retailmenot.com/__wsm.gif$ping,xmlhttprequest
+@@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||right.com.cn/forum/*300*250$image
 @@||rmdown.com/ads.js
@@ -10794,7 +10789,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
-@@||sahibinden.com/assets/analytics*.js$script
+@@||sahibinden.com/assets/analytics*.js$~third-party
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
@@ -10891,7 +10886,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sohu.com/upload/static/share/share_play.html
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
-@@||songza.com/static/*/songza/systems/$script
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
 @@||soufunimg.com/??*/fshare.
 @@||soufunimg.com/count/uvbforpc.js
@@ -10905,9 +10899,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||sport5.co.il/js/angulartics-google-analytics.js
-@@||spot.im^*/ab_test/$xmlhttprequest
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
-@@||src.fedoraproject.org/static/issues_stats.js?
+@@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||ss999.me/i.php?i=
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
@@ -10944,7 +10937,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
-@@||store.usps.com/media/js/metrics/metrics.js
+@@||store.usps.com/media/js/metrics/metrics.js$~third-party
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||studioclassroom.com/ad/
 @@||stuttgarter-nachrichten.de/cre-1.0/tracking/call.js?$script,~third-party
@@ -10998,7 +10991,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tbcdn.cn^*/click_track.js
 @@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tbskip.taobao.com/json/
-@@||tc.bankofamerica.com/c?
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
 @@||tce.alicdn.com^$domain=alimama.com
 @@||tcss.qq.com^$domain=55you.com
@@ -11035,7 +11027,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
-@@||tools.usps.com/go/scripts/tracking.js
+@@||tools.usps.com/go/scripts/tracking.js$~third-party
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||totheglory.im/pic/ttg_logo
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
@@ -11092,7 +11084,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ukrposhta.ua/js/tracking.js
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
-@@||ultimedia.com/js/common/jquery.gatracker.js
 @@||union.bokecc.com/player
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
@@ -11103,7 +11094,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||upxin.net/advertisement.js
 @@||upxin.net^$generichide
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
-@@||usbank.com^*/adrum.js?$script
+@@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uwants.com/include/*/swfaddress.js
@@ -11132,7 +11123,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||vmall.com/data/attachment/common/ad/
 @@||vmallres.com/pimages//pages/ads
 @@||vod.midas-i.com^$media,domain=pandora.tv
-@@||vodafone.com.au/analytics/js/$script
 @@||vodgc.net^*/genoa-event-tracking.min.js
 @@||vodjk.com/offlights.js
 @@||vpro.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
@@ -11144,8 +11134,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||wancaibb.com/share/js/share.min.js
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wargag.ru/public/js/counter.js?
-@@||washingtonpost.com/wp-stat/analytics/latest/main.js
-@@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
@@ -11213,7 +11201,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
-@@||yandex.ru/metrika/watch.js$domain=engwords.net
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
 @@||yantuchina.com/gg/tmp/hong.gif
@@ -11259,7 +11246,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||zmtt.net^$script,domain=luoqiuzw.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zpmobi.cn^*/ad.css?$stylesheet
-@@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 MRelateFeedAd
 Mplay/kk1.js
@@ -22424,6 +22410,7 @@ zznews.cn##.ad:not([style])
 ||666648.xyz^
 ||666649.xyz^
 ||666653.xyz^
+||666657.xyz^
 ||66666119.com^
 ||666666666666.site^
 ||6667778882021.site^
@@ -26730,6 +26717,8 @@ zznews.cn##.ad:not([style])
 ||badjniop.top^
 ||badjs.weixinbridge.com^
 ||badlniop.top^
+||badlnniop.top^
+||badloniop.top^
 ||badmintoncn.com/cbo_include/js/cboaaa.js
 ||badmniop.top^
 ||bagbeam.com^$third-party
@@ -30821,6 +30810,7 @@ zznews.cn##.ad:not([style])
 ||d1yu67rmchodpo.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
+||d1z9vm58yath60.cloudfront.net^
 ||d2-apps.net^$third-party
 ||d2.sina.com.cn^$object,script
 ||d20903hof2l33q.cloudfront.net^
@@ -31697,6 +31687,7 @@ zznews.cn##.ad:not([style])
 ||discover.zumtobelgroup.com^
 ||discovertrail.net^$third-party
 ||discovery.com^*/events
+||discoveryplus.com/events/
 ||discreetfield.com^$third-party
 ||discuss.com.hk/dfp_forum.php?au=Discuss_Web_
 ||discuss.com.hk/oath/
@@ -32267,6 +32258,7 @@ zznews.cn##.ad:not([style])
 ||dw0c.sfr.fr^
 ||dw998.com^
 ||dwbotr.ssg.com^
+||dwchenzlforever.love^
 ||dwin1.com^$third-party
 ||dwin2.com^$third-party
 ||dwjle.cn^
@@ -33512,6 +33504,7 @@ zznews.cn##.ad:not([style])
 ||events.btw.so^
 ||events.chaordicsystems.com^
 ||events.demoup.com^
+||events.devcycle.com^
 ||events.engage.cebglobal.com^
 ||events.enigen.co.uk^
 ||events.framer.com^
@@ -34896,6 +34889,7 @@ zznews.cn##.ad:not([style])
 ||gdgy56.com^
 ||gdhzpmh.com^
 ||gdicoou.com^
+||gdls114.com^
 ||gdlvbiaokeji.cn^
 ||gdm1.toner.fr^
 ||gdmjskjx.com^
@@ -35051,6 +35045,7 @@ zznews.cn##.ad:not([style])
 ||gf108.com^
 ||gfan.com/press/
 ||gfd80.com^
+||gfdh56.site^
 ||gfghr.com^
 ||gfgywe.abril.com.br^
 ||gflcsiot.com^
@@ -36852,6 +36847,7 @@ zznews.cn##.ad:not([style])
 ||hstrck.com^$third-party
 ||hswenwan.cn^
 ||hswfj.cn^
+||hsy0616.love^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||htai.co/tb$script
 ||htai.me/tb$script
@@ -37003,6 +36999,7 @@ zznews.cn##.ad:not([style])
 ||huoche.net/public/huoche/ad/
 ||huodiyun.cn^
 ||huodong.m.taobao.com/act^$third-party
+||huodong.press^
 ||huofayu.com^
 ||huojua.com^
 ||huojua1.com^
@@ -40177,6 +40174,7 @@ zznews.cn##.ad:not([style])
 ||labuladong.github.io/algo/pictures/ad/
 ||lacentrale.fr/collect
 ||lacentrale.fr/static/fragment-layout/tracking-
+||lacerate.club^
 ||lacinfo.motorolasolutions.com^
 ||lackadaisicalkite.com^
 ||lacoccinelle.net/g.js
@@ -43201,6 +43199,7 @@ zznews.cn##.ad:not([style])
 ||mi-de-ner-nis3.info^
 ||mi.academy.com/p/js/1.js
 ||mi.com/stat/
+||mi.dickssportinggoods.com/p/js/1.js
 ||mi.miliboo.be^
 ||mi.miliboo.ch^
 ||mi.miliboo.co.uk^
@@ -43354,6 +43353,7 @@ zznews.cn##.ad:not([style])
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
 ||mitbbs.com/img/app
+||miuspzkmn.bar^
 ||miwifi.com^*ads/
 ||mix.sina.com.cn^
 ||mixedreading.com^
@@ -43559,6 +43559,7 @@ zznews.cn##.ad:not([style])
 ||momotaro.craigmod.com^
 ||momotaro.walkkumano.com^
 ||momzs.com^$third-party
+||mon.domdog.io^
 ||mon.ingservices.nl^
 ||mon.snssdk.com^
 ||mond.post.ch^
@@ -44415,6 +44416,7 @@ zznews.cn##.ad:not([style])
 ||nfwvip.com^
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
+||nfzplus.com^
 ||nga.cn/common_res/js_dscommon.js^
 ||ngacm.com^$third-party
 ||ngacn.cc/common_res/js_dscommon.js^
@@ -52724,6 +52726,7 @@ zznews.cn##.ad:not([style])
 ||strossle.it^$third-party
 ||strs.jp^$third-party
 ||strtapeadblock.club/stat/
+||strtapeadblocker.xyz/stat/
 ||strtpe.link/stat/
 ||structurerod.com^
 ||sts.eccmp.com^
@@ -56415,6 +56418,7 @@ zznews.cn##.ad:not([style])
 ||verifypow.com^$third-party
 ||verifyvegetable.com^
 ||verseballs.com^$third-party
+||vertebrae-axis.com^
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||vertical-n.de/scripts/*/immer_oben.js
