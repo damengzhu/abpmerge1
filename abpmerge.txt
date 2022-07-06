@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-06 08:21:49
-! Total count: 62519
+! Version: 2022-07-06 16:27:10
+! Total count: 62532
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1270,6 +1270,7 @@
 ##a[href*=".tbb168.com"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
+##a[href*=".tholikiranam.com/"]
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".ttz5.cn"]
 ##a[href*=".umtrack.com/"]
@@ -9746,6 +9747,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
+@@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
@@ -12532,6 +12534,7 @@ cctime.com##.nav_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com##[id^="div-gpt-ad-"],[src^="http://pubads.g.doubleclick.net/gampad/"],.adv
+cdn.sosrom.cn
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhangjunseo.com,zhujiceping.com##.advert
 ce.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhujiceping.com##.advert
 ceiea.com##.adclass2019
@@ -20344,7 +20347,9 @@ zhenhaoba.com##center,div.a_pt,div.a_pb
 zhenhaoclub.com,zhenhaobbs.com##div.a_mu,div.a_pb,div.a_pt
 zhenhaosq.com##center,div.a_pt,div.a_pb,div.t_f
 zhev.com.cn##[href^="https://item.taobao.com/item.htm?spm="],[src^="http://www.zhev.com.cn/file/weixin/"],[style="height:90px;"],[src^="/file/weixin/"],#wrap.wrap
+zhhbqg.com/ee/*.js
 zhhbqg.com/ww/*.js
+zhhbqg.com/xxgg/*.js
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
 zhibo8.cc##.ad_box_250
@@ -42448,6 +42453,7 @@ zznews.cn##.ad:not([style])
 ||mc.aefmbeq.cn^
 ||mc.bruker.com^
 ||mc.eedudwr.cn^
+||mc.hpg786n.cn^
 ||mc.kmhmyaj.cn^
 ||mc.lingcde.cn^
 ||mc.maljxp.cn^
@@ -43158,6 +43164,7 @@ zznews.cn##.ad:not([style])
 ||mg.rywnvzd.cn^
 ||mg.shengminsy.com^
 ||mg.tumeite.cn^
+||mg.xhkvff.cn^
 ||mg.yhp4an7.cn^
 ||mg.yunchong6.cn^
 ||mg.yznwyng.cn^
@@ -43566,6 +43573,7 @@ zznews.cn##.ad:not([style])
 ||mon.domdog.io^
 ||mon.ingservices.nl^
 ||mon.snssdk.com^
+||mon.us.tiktokv.com^
 ||mond.post.ch^
 ||mond.postauto.ch^
 ||monerise.com^$third-party
@@ -43805,6 +43813,7 @@ zznews.cn##.ad:not([style])
 ||mtracking.com^$third-party
 ||mts.mansion.com^$third-party
 ||mtsry.top^
+||mttty.top^
 ||mtty.com^$third-party
 ||mtv.it/flux/trackingcodes/
 ||mtv3.fi/remarketing.js
@@ -46351,6 +46360,7 @@ zznews.cn##.ad:not([style])
 ||pm.i7pnx0t.cn^
 ||pm.mdkjefq.cn^
 ||pm.pexnjio.cn^
+||pm.poqwua.cn^
 ||pm.redbull.com^
 ||pm.sbdebcz.cn^
 ||pm0.net^$third-party
@@ -46936,6 +46946,7 @@ zznews.cn##.ad:not([style])
 ||pyzx.xyz^
 ||pzd.rakuten.co.jp^
 ||pziad.com^
+||pzimff.com^
 ||pzpevk.newbalance.ru^
 ||pzrj6.top^
 ||pzsq.xyz^
@@ -54293,7 +54304,7 @@ zznews.cn##.ad:not([style])
 ||toutiao.eastday.com/?qid=
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=mgtv1.tv|mgtv.cc|agemys.cc|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.tv|agemys.cc|acgndmku.com|subaibaiys.com
 ||toutiaoimg.com^$domain=1024pz.com
 ||toutiaoyule.com/n/dspshow.
 ||touxiang.la/js/book.js
@@ -59719,6 +59730,7 @@ zznews.cn##.ad:not([style])
 ||yitongfang.com^
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
 ||yituo-patibao.cn^
+||yiuspekmn.bar^
 ||yivian.com/repo/ad/
 ||yiwad.com^$third-party
 ||yiwanuu.com^
@@ -60679,6 +60691,7 @@ zznews.cn##.ad:not([style])
 ||zio.xcar.com.cn^
 ||zion-telemetry.api.cnn.io^
 ||zion.qbo.intuit.com^
+||zipperxray.com^
 ||zippyfrog.co^
 ||zippywind.com^
 ||zipstat.dk^$third-party
