@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-06 16:27:10
-! Total count: 62532
+! Version: 2022-07-07 01:50:38
+! Total count: 62548
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -602,6 +602,7 @@
 ##.common-topad
 ##.common_ad
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
+##.con_section > .da
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
@@ -937,6 +938,7 @@
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##IFRAME[src*="//pos.baidu.com/"]
+##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -1585,6 +1587,9 @@
 ##img[onclick^="window.open"][src*="pc.qq.com"]
 ##img[src$=".gif"][style="width:100%;max-width: 960px;height:45px;margin-bottom:2px;"]
 ##img[src$="/img/tianbo.gif"]
+##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
+##img[src*=".jd.com"][style="width:100%;height:70px;"]
+##img[src*=".meituan.net"][style="width:100%;height:70px;"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
@@ -4323,7 +4328,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /contador.gif?
 /containerTag.js
 /containertag?
-/content-targeting-
 /content.php?id=148&type=g|$xmlhttprequest
 /content/clyscontent.js
 /content/plugins/em_ad/*
@@ -5977,6 +5981,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/businessEvent?
 /log/collect/*
 /log/counter?
 /log/error?
@@ -10163,8 +10168,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
-@@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=netcombo.com.br|saraiva.com.br|superesportes.com.br|tugatech.com.pt
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
@@ -10615,7 +10620,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
-@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|wallapop.com
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||optimove.net^$domain=app.touchnote.com
 @@||orginio.com/api/analytics/$~third-party,xmlhttprequest
@@ -21983,6 +21988,7 @@ zznews.cn##.ad:not([style])
 ||4wad.com^
 ||4wens.org^
 ||5.gzfenda.com^
+||50039tk.com^
 ||500img.com^
 ||500xxxx.com/go.js
 ||504537168.com/Public/system/system.
@@ -22355,6 +22361,7 @@ zznews.cn##.ad:not([style])
 ||62wm.com^
 ||63007.com:82/haodxi.js
 ||634lj7p7g3lv.unstoppabledomains.com^
+||6399tp.com^
 ||63ef.com^*.js
 ||63ig.com/*nr.js
 ||63ig.com/go.js
@@ -22418,6 +22425,7 @@ zznews.cn##.ad:not([style])
 ||666657.xyz^
 ||66666119.com^
 ||666666666666.site^
+||666672.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -22459,6 +22467,7 @@ zznews.cn##.ad:not([style])
 ||688mob.com^
 ||6899.fun^
 ||693836.com^$popup
+||69688qp.com^
 ||69adu.com/bootstrap.
 ||69shi.cn/p.php?id=
 ||69shu.org/cnm.js
@@ -26469,6 +26478,7 @@ zznews.cn##.ad:not([style])
 ||autumnleaf.ltd^
 ||auuux.com^
 ||auwkd7fdk23x.zhengshaoze.com^
+||auwrtou.cn^s
 ||av-yoyo.com/images/*.gif
 ||av01.tv/av01/floating_video_ads
 ||av01.tv/images/partners/
@@ -29099,6 +29109,7 @@ zznews.cn##.ad:not([style])
 ||cimage.adobe.com^
 ||cinemafacil.com/js.php
 ||cintnetworks.com^$third-party
+||ciqtracking.com^
 ||cir-smart.baidu.com^
 ||circadence.actonservice.com^
 ||circle.am^$third-party
@@ -29809,6 +29820,7 @@ zznews.cn##.ad:not([style])
 ||colossalclouds.com^
 ||colossalcoat.com^$third-party
 ||colossusssp.com^$third-party
+||colour5.top^
 ||colvk.viki.io^
 ||com*/ps/psCreat.js
 ||com-csn.com^
@@ -32525,8 +32537,8 @@ zznews.cn##.ad:not([style])
 ||eanalyzer.de^$third-party
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
+||early-birds.fr/events/
 ||early-birds.fr/tracker/
-||early-birds.fr^$third-party
 ||early-birds.io^$third-party
 ||earthquakeend.com^
 ||earthquakescarf.com^
@@ -35556,7 +35568,6 @@ zznews.cn##.ad:not([style])
 ||gpshk.cc/api.php?mod=ad&
 ||gpxz.com/js2/
 ||gqswg.com^
-||gqyy8.com^
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
@@ -43704,6 +43715,7 @@ zznews.cn##.ad:not([style])
 ||mqejtk.theproteinworks.com^
 ||mqesfg.bpm-power.com^
 ||mqhaxf.keds.com^
+||mqjeut5.com^
 ||mqjs.jsdocker.com^
 ||mql5.com/rq?
 ||mql5.com^$third-party
@@ -46944,6 +46956,7 @@ zznews.cn##.ad:not([style])
 ||pyzjhd.com^
 ||pyzkk.com^
 ||pyzx.xyz^
+||pzapi-ij.com^
 ||pzd.rakuten.co.jp^
 ||pziad.com^
 ||pzimff.com^
@@ -56100,6 +56113,7 @@ zznews.cn##.ad:not([style])
 ||unknowntray.com^$third-party
 ||unnaturalcaption.com^
 ||unnqyqq.cn^
+||unpfqc9.com^
 ||unpk41.online^
 ||unpkg.com/web-vitals?
 ||unsplash.com/a/third-party/snow-
@@ -58773,6 +58787,7 @@ zznews.cn##.ad:not([style])
 ||xg.y0764.cn^
 ||xg4ken.com^$third-party
 ||xgapi-hl.snssdk.com/video/app/article/information/v25/?$replace=/ad_/fuck/
+||xgckudv.cn^
 ||xghylt.com/api.php?mod=ad&adid=
 ||xglryxd.cn^
 ||xgo.com.cn/pv.js
@@ -59122,6 +59137,7 @@ zznews.cn##.ad:not([style])
 ||xopf.lhy1.xyz^
 ||xothl.gbcnvip15.com^
 ||xovq5nemr.com^
+||xox8829.com^
 ||xox8956.com^
 ||xox9298.com^
 ||xox9325.com^
