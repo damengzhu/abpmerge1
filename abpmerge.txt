@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-08 01:49:14
-! Total count: 62580
+! Version: 2022-07-08 08:24:16
+! Total count: 62588
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -6634,7 +6634,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
+/pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /parsely-events.
@@ -7048,7 +7048,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /radio-analytics.htm
 /radium-one.js
 /rainbow/master-js
-/rainbow/track
+/rainbow/track|
 /randm.js*
 /ravelin-*-track.min.js
 /rbcmetrika-
@@ -10496,6 +10496,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||microsoft.com/translate/auth
 @@||microsofttranslator.com/translate?
 @@||minigame.qq.com^
+@@||minkou.jp/js/tracking.js$~third-party
 @@||mirror*.mangafunc.fun/comic/
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=eloan.co.il
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
@@ -17360,6 +17361,8 @@ pptv.com##.mod_960x90
 pptv.com##div.ad.sp,.re_980.sp_h90,[tj_id^="www_adv"],.module-video2016-ppdownload,.game_banner,[class^="main-adv-"],.qipao
 pqworld.com##.left-float
 pqworld.com##.left-float-tx
+preface.ai##.cs-sidebar__inner > .widget_media_image
+preface.ai##a[href*="bit.ly"]
 price.com.hk###ad0
 price.com.hk###ad5
 price.com.hk,uwants.com##.MFV
@@ -29660,6 +29663,7 @@ zznews.cn##.ad:not([style])
 ||cnstats.ru^$third-party
 ||cnstrc.com/behavior?
 ||cnt.3dmy.net^
+||cnt.hd21.com^
 ||cnt.iceporn.com^
 ||cnt.iol.it^
 ||cnt.krasland.ru^
@@ -30215,6 +30219,7 @@ zznews.cn##.ad:not([style])
 ||cosmosjackson.com^$third-party
 ||cost1action.com^$third-party
 ||cosxcos.cc/uploads/aaybabc/
+||cosyroom.biz^
 ||couas.com^
 ||couchsurfing.com/bEcn7fQX/init.js
 ||count.asnetworks.de^
@@ -41127,7 +41132,6 @@ zznews.cn##.ad:not([style])
 ||lo83cs.space^
 ||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
-||local.adguard.org^
 ||local.ch/track/
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
@@ -45616,6 +45620,7 @@ zznews.cn##.ad:not([style])
 ||panelsave.com^$third-party
 ||pangolin-dsp-toutiao.com/api/common/ads^
 ||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao.com^
 ||pangolin.snssdk.com^
 ||pangu.cc^
 ||panickycurtain.com^$third-party
@@ -47425,6 +47430,7 @@ zznews.cn##.ad:not([style])
 ||qqtn.com/skin/know/
 ||qqtz.com/ad$document
 ||qqwwmm.com^
+||qqwxi.xyz^
 ||qqxiazai.com/index.*adver&
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -52947,7 +52953,7 @@ zznews.cn##.ad:not([style])
 ||surls.cn^
 ||survey.interquest.com^
 ||survey.io/log?
-||surveymonkey.com/collect/
+||surveymonkey.com/collect/$third-party
 ||surveymonkey.com/resp/api/metrics
 ||surveyscout.com^$third-party
 ||surveywall-api.survata.com^$third-party
@@ -54804,6 +54810,7 @@ zznews.cn##.ad:not([style])
 ||track.cafu.com^
 ||track.cedsdigital.it^
 ||track.clubcar.com^
+||track.coherentpath.com^
 ||track.contently.com^
 ||track.cordial.io^
 ||track.custora.com^
@@ -56679,6 +56686,7 @@ zznews.cn##.ad:not([style])
 ||viswcnb.cn^
 ||visx.net^$third-party
 ||viu.actonservice.com^
+||viuspbkmn.bar^
 ||vivaciousveil.com^
 ||vivi87.cn^
 ||vivid.money/projectx/$ping
