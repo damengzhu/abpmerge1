@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-07 16:29:06
-! Total count: 62562
+! Version: 2022-07-08 01:49:14
+! Total count: 62580
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -938,7 +938,6 @@
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##IFRAME[src*="//pos.baidu.com/"]
-##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -1038,6 +1037,7 @@
 ##[href^='https://jd.dangbei.com/']
 ##[href^='https://jwmic.91lu001.com']
 ##[href^='https://l.h-ero.games/']
+##[href^='https://mcc.rhwg4js.cn/']
 ##[href^='https://nf.brushshopy.com/']
 ##[href^='https://stock.weibo.cn/zh/match']
 ##[href^='https://t2406.com:']
@@ -1269,6 +1269,7 @@
 ##a[href*=".sjzbqnxx.com/"]
 ##a[href*=".sky1818.net"]
 ##a[href*=".ssmh"][href*="?u="]
+##a[href*=".supernfp.com/"]
 ##a[href*=".tbb168.com"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
@@ -1597,6 +1598,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + a[href^="https://l.hyenadata.com/"]
+##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -7045,6 +7047,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /radar/trace?
 /radio-analytics.htm
 /radium-one.js
+/rainbow/master-js
+/rainbow/track
 /randm.js*
 /ravelin-*-track.min.js
 /rbcmetrika-
@@ -17223,6 +17227,7 @@ php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
+pianba.tv##.a-loading
 pianhd.com###myCarousel
 pianyuan.la/slade.js
 pianyuan.org###myModal
@@ -22425,6 +22430,7 @@ zznews.cn##.ad:not([style])
 ||66666119.com^
 ||666666666666.site^
 ||666672.xyz^
+||666673.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -25944,6 +25950,7 @@ zznews.cn##.ad:not([style])
 ||api.decentralize.today^
 ||api.elliehuxtable.com^
 ||api.fanmatics.com/event
+||api.ffm.to/sl/e/$image
 ||api.huoshan.com/gecko/server^$app=com.ss.android.article.news
 ||api.installer.xiaomi.com^
 ||api.iplay.163.com^
@@ -27928,6 +27935,7 @@ zznews.cn##.ad:not([style])
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bpimg.com^$domain=ref.so
 ||bpmonline.com^$third-party
+||bpnhgan.cn^
 ||bptxcg.xyz^
 ||bqg.tw/js/common.js
 ||bqgdd.net/images//banner.png
@@ -28732,6 +28740,7 @@ zznews.cn##.ad:not([style])
 ||cdsoso.me/static/image/760x60.jpg
 ||cdu.cc^
 ||cdum.vq7736.com^
+||cdweikebaba.xin^
 ||cdxyb.cn^
 ||cdyee.com/external/5070.files/ad/
 ||cdyqc.com^
@@ -29192,6 +29201,7 @@ zznews.cn##.ad:not([style])
 ||claz.com.cn^
 ||clb.biz/Public/static/js/common-v2.js
 ||cleananalytics.com^$third-party
+||clear7.love^
 ||clearbitjs.com^$third-party
 ||clearcabbage.com^
 ||clearsale.com.br^$third-party
@@ -30178,6 +30188,7 @@ zznews.cn##.ad:not([style])
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
+||copilot-telemetry.githubusercontent.com^
 ||copperchickens.com^
 ||copperegg.com^$third-party
 ||copush.com^$third-party
@@ -35591,6 +35602,7 @@ zznews.cn##.ad:not([style])
 ||greasemotion.com^
 ||greasysquare.com^$third-party
 ||greatnfq.com^
+||greatnfw.com^
 ||greatservice.online^
 ||greatviews.de^$third-party
 ||greatwit.cn^
@@ -38591,6 +38603,7 @@ zznews.cn##.ad:not([style])
 ||j1ybkf.cn^
 ||j45.xyz^
 ||j46.xyz^
+||j46rwh.site^
 ||j49.xyz^
 ||j6zh4g0.cn^
 ||j8.ai36588.com^
@@ -40938,6 +40951,7 @@ zznews.cn##.ad:not([style])
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyangyang.cn^
+||liuzhen.love^
 ||liuziqiu.cn^
 ||liuzishen.com^
 ||live-partner.com/tags?
@@ -42520,6 +42534,7 @@ zznews.cn##.ad:not([style])
 ||mdhv.io^
 ||mdiyay.vseinstrumenti.ru^
 ||mdjxa.com^
+||mdjxm.com^
 ||mdjxz.com^
 ||mdkjefq.cn^
 ||mdklc.top^
@@ -49413,6 +49428,7 @@ zznews.cn##.ad:not([style])
 ||shakytaste.com^
 ||shallowblade.com^
 ||shallowsmile.com^
+||shalltry.com^$third-party
 ||shama5.com^
 ||shandian.biz/a/guga.js
 ||shandian.biz/wp-content/themes/inove/js/comment.js
@@ -52901,6 +52917,7 @@ zznews.cn##.ad:not([style])
 ||superjob.ru/ws/
 ||superli666.top^
 ||supernff.com^
+||supernfq.com^
 ||superpointlesshamsters.com^
 ||supersonicads.com^
 ||superstat.info^$third-party
@@ -60255,6 +60272,7 @@ zznews.cn##.ad:not([style])
 ||yytcdn.com/user/bugles/
 ||yytcdn.com/user/bugles/*_*x*.jpg
 ||yyttc.top^
+||yyttm.top^
 ||yywz123.com/file/A*.js
 ||yyxjt.cloud^
 ||yyxrm.com^
