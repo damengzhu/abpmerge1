@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-08 16:28:08
-! Total count: 62604
+! Version: 2022-07-09 01:26:35
+! Total count: 62613
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9850,7 +9850,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.otc.t-systems.com/mrs/rest/api/v1/log?type=$~third-party,xmlhttprequest
-@@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
+@@||console.statsig.com/_next/$~third-party
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||coolinet.com^$generichide
@@ -17365,7 +17365,6 @@ pptv.com##div.ad.sp,.re_980.sp_h90,[tj_id^="www_adv"],.module-video2016-ppdownlo
 pqworld.com##.left-float
 pqworld.com##.left-float-tx
 preface.ai##.cs-sidebar__inner > .widget_media_image
-preface.ai##a[href*="bit.ly"]
 price.com.hk###ad0
 price.com.hk###ad5
 price.com.hk,uwants.com##.MFV
@@ -22437,6 +22436,7 @@ zznews.cn##.ad:not([style])
 ||666666666666.site^
 ||666672.xyz^
 ||666673.xyz^
+||666674.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -23878,6 +23878,7 @@ zznews.cn##.ad:not([style])
 ||aaaimg.com/images*.gif
 ||aaalian.com^
 ||aaan.xyz^
+||aaapvu.cn^
 ||aaaw.xyz^
 ||aabelle.com^
 ||aabook.cc/images/apps/
@@ -27710,6 +27711,7 @@ zznews.cn##.ad:not([style])
 ||blb2s77r.cn^
 ||blddnwt.cn^
 ||bldr.mkt.samsung.com^
+||blend.com/event/
 ||blingbling.wiki^
 ||blink.net/e/
 ||blinks.mindoktor.se^
@@ -33261,6 +33263,7 @@ zznews.cn##.ad:not([style])
 ||enormousearth.com^$third-party
 ||enquisite.com^$third-party
 ||enread.com/img/185-50.gif
+||enrosr.cn^
 ||ens-sh.cn^
 ||ens.luzernerzeitung.ch^
 ||ens.nzz.ch^
@@ -35091,6 +35094,7 @@ zznews.cn##.ad:not([style])
 ||gflcsiot.com^
 ||gfn1.ugap.fr^
 ||gfncg.cn^
+||gfnormal00aa.com^
 ||gft.aobuygo.com^
 ||gft.xuanyaosp.com^
 ||gft.yifujing.com^
@@ -38765,6 +38769,7 @@ zznews.cn##.ad:not([style])
 ||jelr1.dili.fr^
 ||jen.jiji.com/cookie.html
 ||jenniferlaurax.com^
+||jeproadylabs.com^
 ||jeremiahlee.com/fanboynz.js
 ||jerkmate.com^*/tracking-hasoffers-
 ||jesgoo.com^
@@ -39009,6 +39014,7 @@ zznews.cn##.ad:not([style])
 ||jiujiupk.com^
 ||jiujiushishi.com^
 ||jiuku.cc^
+||jiulela.ltd^
 ||jiulingdl.cn^
 ||jiuyuntian3.cn^
 ||jiuzhilan.com^$third-party
@@ -47225,6 +47231,7 @@ zznews.cn##.ad:not([style])
 ||qingsedhhh.xyz^$third-party
 ||qingshu.so/templets/qs/qsjs/
 ||qingsj.cn^
+||qingtian.love^
 ||qingyanmjg.com^
 ||qingyiso.cn^
 ||qingzhencai.net^
@@ -52862,6 +52869,7 @@ zznews.cn##.ad:not([style])
 ||suddenstructure.com^
 ||sudupan.com^*.gif
 ||suedtirol.live/slc.js
+||sueed.love^
 ||sufesj.shop4runners.com^
 ||sufficient.cn^
 ||sufile.com/jsa/
@@ -53420,6 +53428,7 @@ zznews.cn##.ad:not([style])
 ||tagtic.cn^
 ||tagtracking.vibescm.com^
 ||tagtray.com/api^$third-party
+||tahoe.com/imp
 ||tahuixin.club^
 ||taidi.net.cn^
 ||taiji.sina.cn^
@@ -61888,7 +61897,7 @@ zznews.cn##.ad:not([style])
 141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
 141jj.com##.moboad + .webad
 141jj.com#?#li:-abp-contains(/贊助|推廣/)
-141jj.com,99kubo.tv,jumi.su,r3sub.com##a[href*="bit.ly"]
+141jj.com,99kubo.tv,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 158pic.com###gaosu
 159i.com###body > table[width="100%"]
 159i.com###header + div > style + div[class]
