@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-09 01:26:35
-! Total count: 62613
+! Version: 2022-07-09 08:20:33
+! Total count: 62626
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1907,7 +1907,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .cmail20.com/t/$image
 .cn/?ss=$script,third-party
 .cn/ads/
-.cn/gg/*?x=$script,third-party
+.cn/gg/$script,third-party
 .cn/jc.gif?
 .cn/js/ads/
 .cn/s.php?id=$script,third-party
@@ -4851,6 +4851,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /facash.
 /facebook-retargeting-
 /facebook-tracking/*
+/facebook/pixel.js
 /facebook_fbevents.
 /facebook_pixel_
 /facebookpixel.
@@ -10599,6 +10600,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||oakley.com^*/tealium.js$~third-party
+@@||oakleysi.com/_ui/dist/scripts/vendor/tealium.js$~third-party
 @@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 @@||oceanstatejoblot.com^*/widget/osjl-google-analytics/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
@@ -10893,6 +10895,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
+@@||sohotheatre.com^*/PageView.js$~third-party
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|dilidili.one|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|yxdm.tv
 @@||sohu.com/integration-api/mix/region/*&refer=http
@@ -12486,6 +12489,7 @@ cam4.tw##.hbanner
 cam4.tw##.subfoot-section
 camerabay.tv##.popupad
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
+cangku.icu##.mb-4.slider
 cangku.in##.ad-index,.single-top-ad,.sidebar-game,.panel-zan
 cangku.in,cangku.moe,enjoymore.fun,got001.com,iwan.baidu.com,qq.com,qtv.com.cn,xinhuanet.com,zol.com.cn##.ad-box
 cangku.in,galacg.me,moneyweekly.com.tw###carousel-example-generic
@@ -21113,6 +21117,7 @@ zznews.cn##.ad:not([style])
 ||159i.com/video/usr/uploads/bd/$image
 ||159i.com^*.php|
 ||15gifts.com^$third-party
+||15h3na0.xyz^
 ||15hn.net/data/content
 ||15min.lt/cached/tgif$~third-party
 ||15tianqi.com^$third-party
@@ -24922,6 +24927,7 @@ zznews.cn##.ad:not([style])
 ||ahjucs.loberon.de^
 ||ahjzys.com^
 ||ahlife.com/api.php?mod=adv&
+||ahm.135320.com^
 ||ahm.jiankang123.net^
 ||ahmibai.cn^
 ||ahov1.top^
@@ -32792,6 +32798,7 @@ zznews.cn##.ad:not([style])
 ||eduuu.com/website/public_js/pc_aso.js
 ||eduzzjy.com^
 ||edysn.cn^
+||edzyhx.cn^
 ||ee.shixunwang.net^
 ||ee021.com/Runtime/js/
 ||ee035.cn^
@@ -32865,6 +32872,7 @@ zznews.cn##.ad:not([style])
 ||ekmpinpoint.co.uk^$third-party
 ||ekmpinpoint.com^$third-party
 ||ekphpa.perfectlypriscilla.com^
+||ekwibgl.cn^
 ||ela-3-tnk.com^$third-party
 ||ela42v.xyz^
 ||eladies.zhmyq.cn^
@@ -34564,6 +34572,7 @@ zznews.cn##.ad:not([style])
 ||fugka.cn^
 ||fugufeimaotui.cn^
 ||fuhaimuye.cn^
+||fuigixk.cn^
 ||fuimg.com/1/66795b80a792fb96.png
 ||fuimg.com^$domain=678cn.com
 ||fuimg.com^$domain=678cn.com|cfzhushou.com
@@ -42827,6 +42836,7 @@ zznews.cn##.ad:not([style])
 ||meiyuedu.vip^
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
+||melife.love^
 ||melodicminute.com^
 ||membership.mortonarb.org^
 ||memeaisese.com^
@@ -46968,6 +46978,7 @@ zznews.cn##.ad:not([style])
 ||pxf.io^$image,script,third-party
 ||pxfeiws.cn^
 ||pxi.pub^$third-party
+||pxl.indeed.com^
 ||pxl2015x1.com^
 ||pxlgnpgecom-a.akamaihd.net^
 ||pxptpv.jobup.ch^
@@ -57482,6 +57493,7 @@ zznews.cn##.ad:not([style])
 ||wfeiso.top^
 ||wffengtai.com.cn^
 ||wfhxssg.com^
+||wfil.bpnhgan.cn^
 ||wfkspcs.cn^
 ||wfpersonal.site^
 ||wfslj.cn^
@@ -57822,6 +57834,7 @@ zznews.cn##.ad:not([style])
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpcnzz.com^
 ||wpdstat.com^$third-party
+||wpercent.ksadrewrty.com^
 ||wpfc.ml^$third-party
 ||wph2.destinia.us^
 ||wpib0jr.cn^
@@ -60598,7 +60611,7 @@ zznews.cn##.ad:not([style])
 ||zhev.com.cn/file/weixin/
 ||zhflodsix.cn^
 ||zhh8886.com^
-||zhhbqg.com/ww/
+||zhhbqg.com/ee/
 ||zhiad.com^
 ||zhiai.space^
 ||zhibo.me/js/fd.js
