@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-10 08:19:51
-! Total count: 62656
+! Version: 2022-07-10 16:23:06
+! Total count: 62665
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1260,6 +1260,7 @@
 ##a[href*=".nktxv.com/"]
 ##a[href*=".open0317.top/"]
 ##a[href*=".picoville.com/"]
+##a[href*=".qilinsb.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
 ##a[href*=".qutaoka.com/"]
@@ -10833,7 +10834,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||seasungame.com/ad/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||securemetrics.apple.com/b/ss/$image
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=league-funny.com
@@ -17239,6 +17239,7 @@ phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
 pianba.tv##.a-loading
+pianba.tv##.cpcad
 pianhd.com###myCarousel
 pianyuan.la/slade.js
 pianyuan.org###myModal
@@ -32649,6 +32650,9 @@ zznews.cn##.ad:not([style])
 ||ebayadservices.com/marketingtracking/
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
 ||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
+||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
+||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
+||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_RaptorheaderJS.js
@@ -35188,6 +35192,7 @@ zznews.cn##.ad:not([style])
 ||gh1024.xyz^
 ||ghacks.net/statics/px.gif
 ||ghghgf.51dongshi.com^
+||ghhtt.top^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
 ||ghl8.com^
@@ -35901,6 +35906,7 @@ zznews.cn##.ad:not([style])
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxqzz.7766.org^
 ||gxtytj.com^
+||gxzhshop.com^
 ||gxzxiww.com^
 ||gybyxsy1588.com^
 ||gycy2.com^
@@ -42581,6 +42587,7 @@ zznews.cn##.ad:not([style])
 ||mdffun.cn^
 ||mdhv.io^
 ||mdiyay.vseinstrumenti.ru^
+||mdjf9vh9.xyz^
 ||mdjxa.com^
 ||mdjxm.com^
 ||mdjxz.com^
@@ -43878,6 +43885,7 @@ zznews.cn##.ad:not([style])
 ||mtburn.com^$third-party
 ||mtcat.cn^
 ||mtcvyv.sporx.com^
+||mthdqs.cn^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
 ||mtime.cn/tg/
 ||mtkure.gazin.com.br^
@@ -55657,6 +55665,7 @@ zznews.cn##.ad:not([style])
 ||trustev.com/trustev.min.js$third-party
 ||trustiseverything.de^$third-party
 ||trustmeiamapro.de^$third-party
+||trustpilot.com/stats/
 ||trustutn.org^
 ||trwl1.com/ascripts/gcrt.js
 ||trx-hub.com^
@@ -57601,7 +57610,6 @@ zznews.cn##.ad:not([style])
 ||widgeo.net/tracking.php?
 ||widget.ezprice.com.tw^$third-party
 ||widget.quantcast.com^
-||widget.trustpilot.com^$third-party
 ||widgetbe.com^
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
@@ -60960,6 +60968,7 @@ zznews.cn##.ad:not([style])
 ||zopbdp.aceronline.ru^
 ||zope.net/resources/global/ghs_wa.js
 ||zougg.com^
+||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouxinyan.xyz^
 ||zp0573.cn^
 ||zp0737.com^
