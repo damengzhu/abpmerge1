@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-11 01:46:39
-! Total count: 62670
+! Version: 2022-07-11 08:23:31
+! Total count: 62682
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -8928,6 +8928,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /yna_stat.
 /yoqooads_
 /youku.js$third-party
+/youtubeVideoAnalytic.js
 /yozons-lib/*
 /yryy/css/javamy.js
 /yryy/css/javatop.js
@@ -9730,6 +9731,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cb.baidu.com/ecom?*.baomihua.$domain=v.baidu.com
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cbjs.baidu.com/js/o.js$domain=jkpan.cc
+@@||cbsi.map.fastly.net^
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
@@ -11199,6 +11201,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||www.lanzous.com/includes/js/jquery.js$domain=lanzous.com,important
 @@||www.statcounter.com/images/$image,third-party
 @@||www.ups.com/WebTracking/processInputRequest
+@@||wwwimage-tve.cbsstatic.com^
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
 @@||wx3.sinaimg.cn/large^$app=com.xiaoyin.love
@@ -28651,6 +28654,7 @@ zznews.cn##.ad:not([style])
 ||ccjudian.com^
 ||ccjxwlkj.com^
 ||ccjxybj.cn^
+||cckb.online^
 ||cckke.com/fanhao/v/ad
 ||cclnuzn.cn^
 ||ccmd.coveredca.com^
@@ -30759,6 +30763,7 @@ zznews.cn##.ad:not([style])
 ||cysd.7kww.net^
 ||cytcm.com^
 ||cytoclause.com^$third-party
+||cytrd0.site^
 ||cytxt.com^
 ||cyveillance.com^$third-party
 ||cz.ifeng0.com^
@@ -35124,6 +35129,7 @@ zznews.cn##.ad:not([style])
 ||gfncg.cn^
 ||gfnormal00aa.com^
 ||gfnormal00aj.com^
+||gfnormal00an.com^
 ||gft.aobuygo.com^
 ||gft.xuanyaosp.com^
 ||gft.yifujing.com^
@@ -35327,6 +35333,7 @@ zznews.cn##.ad:not([style])
 ||gnaunbiu.rest^
 ||gnavi.co.jp/analysis/
 ||gnbunbiv.rest^
+||gncunbiw.rest^
 ||gnezdo.ru^$third-party
 ||gnfvwfo.cn^
 ||gng5.cn^
@@ -41091,6 +41098,7 @@ zznews.cn##.ad:not([style])
 ||ljk.ink^
 ||ljlxy.cn^
 ||ljmei.com^
+||ljmzugo.cn^
 ||ljrtb.cn^
 ||ljwckj.love^
 ||lkjbrd.signals.com^
@@ -41720,6 +41728,7 @@ zznews.cn##.ad:not([style])
 ||lzzqqc.com^$third-party
 ||m-ali.ykimg.com/product/image^
 ||m-brain.fi^$third-party
+||m-oo-m.com/data/report/
 ||m-pathy.com^$third-party
 ||m-t.io^$third-party
 ||m-vali.cp31.ott.cibntv.net*.mp4
@@ -44519,6 +44528,7 @@ zznews.cn##.ad:not([style])
 ||nftcpw.com^
 ||nftqpw.com^
 ||nfwebminer.com^$third-party
+||nfwtime.com^
 ||nfwvip.com^
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
@@ -56309,6 +56319,7 @@ zznews.cn##.ad:not([style])
 ||url9609.account.experience-muse.com^
 ||urlat.cn^
 ||urlbrief.com^$third-party
+||urldefense.com^$image,third-party
 ||urlet.cn^
 ||urlself.com^$third-party
 ||urs.metacritic.com^
@@ -60535,6 +60546,7 @@ zznews.cn##.ad:not([style])
 ||zeroao.cn^
 ||zerohedge.com/statistics-ajax?
 ||zeronaught.com^$third-party
+||zerostats.com^$third-party
 ||zesep.com^$third-party
 ||zestycrime.com^
 ||zeustechnology.com^$third-party
