@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-13 01:46:10
-! Total count: 62684
+! Version: 2022-07-13 08:22:20
+! Total count: 62701
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -8910,8 +8910,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /xxd.php?id=$script,third-party
 /xxgg/app.js
 /xxgg/book.js
+/xxgg/dj*.js
 /xxgg/goodad.js
 /xxgg/gzh.js
+/xxgg/pf*.js
 /xxgg/pv.js
 /xxgg/xsggs.js
 /xy.gif?
@@ -11986,8 +11988,10 @@ baidu.com$$div[class="ec_wise_ad"]
 baidu.com$$div[class="hotword-container"]com^
 baidu.com$$script[tag-content="AdsContainer"]
 baidu.com$$section[class="hint-fold-results-wrapper hint-no-fold"]
+baidu.com,bdimg.com###aside-ad
 baidu.com,bdimg.com##.fengchao-wrap
 baidu.com,bdimg.com##.fengchao-wrap-feed
+baidu.com,bdimg.com##.shield-agent-tb-feed
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,ifeng.com##.ad-list
@@ -22434,6 +22438,7 @@ zznews.cn##.ad:not([style])
 ||666674.xyz^
 ||666679.xyz^
 ||666683.xyz^
+||666684.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -25521,6 +25526,7 @@ zznews.cn##.ad:not([style])
 ||analytics.avanser.com.au^
 ||analytics.aweber.com^
 ||analytics.belgacom.be^
+||analytics.bestreviews.com^
 ||analytics.betterplaces.nl^
 ||analytics.bigcommerce.com^
 ||analytics.bitrix.info^
@@ -26183,6 +26189,7 @@ zznews.cn##.ad:not([style])
 ||appwk.baidu.com/xpage/interface/ydad?$app=com.baidu.yuedu
 ||aprtn.com^$third-party
 ||aprtx.com^$third-party
+||apsgo.com/assets/js/union.
 ||apsgo.com/go/
 ||apsis1.com^$third-party
 ||apsislead.com^$third-party
@@ -27597,6 +27604,8 @@ zznews.cn##.ad:not([style])
 ||bioon.com/xy/article/img/zhi_neng_xibao_fenxi.png
 ||biqiugege8.com/js/d
 ||biqiugege8.com/js/p
+||biqkan.com/js/dj
+||biqkan.com/js/pf
 ||biqqc.com/ps/data.js
 ||biquge.com.cn/hit.php
 ||biquge.com.cn/js/ffvvddf.js
@@ -30075,6 +30084,7 @@ zznews.cn##.ad:not([style])
 ||consultant.ru/js/counter.js
 ||consulting.guidehouse.com^
 ||consulting.ramboll.com^
+||consumer.org.nz/session/ping/
 ||contact-us.adp.ca^
 ||contact.adaptavist.com^
 ||contact.dksh.com^
@@ -40176,6 +40186,7 @@ zznews.cn##.ad:not([style])
 ||kvecc.com^
 ||kveii.com^
 ||kvemm.com^
+||kvevv.com^
 ||kveww.com^
 ||kvexx.com^
 ||kvezz.com^
@@ -48184,6 +48195,7 @@ zznews.cn##.ad:not([style])
 ||rfksrv.com/rfkj/$image
 ||rflrlt.divano.ru^
 ||rfr-69.com^$third-party
+||rftslb.com^
 ||rfyqtv2.com^
 ||rg.nukebomb.cn^
 ||rgd.com.cn/counter/
@@ -48653,6 +48665,7 @@ zznews.cn##.ad:not([style])
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
 ||s8x1.com^
+||s9o.co^
 ||s9w.cc^
 ||sa.adidas.com.au^
 ||sa.adidas.com^
@@ -49450,6 +49463,7 @@ zznews.cn##.ad:not([style])
 ||sessions.exchange^$third-party
 ||sessionstack.com^$third-party
 ||setn.com/js/advertisement?
+||sevenmax.cn^
 ||sex141.com/img/banner/
 ||sex169.info/*/sta2rt.js
 ||sex169.info/*/xxx169.php?FID=
@@ -49467,6 +49481,7 @@ zznews.cn##.ad:not([style])
 ||sexyno1.com/mk-banner/
 ||sexystat.com^$third-party
 ||seyfwl.interia.pl^
+||sezzle.com/v1/event/log
 ||sf*-ttcdn-tos.pstatp.com/img/web.business.image^
 ||sf-ifc.cn^
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
@@ -54222,6 +54237,7 @@ zznews.cn##.ad:not([style])
 ||tkshyp.com^
 ||tkvied.levi.com.my^
 ||tkvxdj.cars.com^
+||tkx.mp.lura.live/rest/v2/server_time
 ||tl.tradetracker.net^
 ||tl813.com^$third-party
 ||tl86tv.com/52
@@ -55522,6 +55538,7 @@ zznews.cn##.ad:not([style])
 ||trbo.com^$third-party
 ||trc.caravas.jp^
 ||trc.pushnami.com^
+||trc.taboola.com^
 ||trck.bdi-services.de^
 ||trck.rework-s.com^
 ||trck.spoteffects.net^
