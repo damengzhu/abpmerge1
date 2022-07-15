@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-15 08:22:52
-! Total count: 62724
+! Version: 2022-07-15 16:27:48
+! Total count: 62739
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -928,6 +928,7 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
+##A[href*="/register/?i_code="] > img
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1192,7 +1193,6 @@
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
@@ -1361,7 +1361,6 @@
 ##a[href*="/blfanss.com"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/d27.tv"]
-##a[href*="/entry/register/?i_code="]
 ##a[href*="/h91.tv"]
 ##a[href*="/hhvip66.cn"]
 ##a[href*="/htbet1536.com"]
@@ -1555,7 +1554,6 @@
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
-##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2522,6 +2520,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /CofinaHits.
 /ComScorePlugin.
 /ComScoreSWF.
+/ComscoreAnalytics.
 /ContentTrackingCall.
 /Cookie?merchant=
 /CookieLawStats/*
@@ -2544,6 +2543,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /DNATracking.
 /DNSCheck.js
 /DNSChecker.js
+/DatazoomAnalytics.
 /DavplusAnalytics.
 /DecideDNATrackingCode-
 /DeepbiEventAdapter.
@@ -2620,6 +2620,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /KISSmetricsTrackCode.
 /Kelkooid?
 /KenticoActivityLogger/*
+/KochavaAnalytics.
 /LandingPageHitLog.aspx?
 /LastClick/js?
 /LoadAudienceSegs-
@@ -5278,6 +5279,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /googletag.js
 /googletagmanager.js
 /googletagmanager_backend.js
+/googletagmanageranalytics.
 /googletrack.js
 /googletracker/*
 /googlytics-
@@ -11112,6 +11114,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||ukrposhta.ua/js/tracking.js
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
+@@||ultimaterewardspoints.chase.com/web-analytics/ur-reporting.js$~third-party
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
@@ -21646,6 +21649,7 @@ zznews.cn##.ad:not([style])
 ||321tui.cn^$third-party
 ||321tui.com/images/topbushantie.gif
 ||321tui.com^$third-party
+||32258228.com^
 ||324.com^
 ||324.com^$third-party
 ||32414.com^$third-party
@@ -22574,6 +22578,7 @@ zznews.cn##.ad:not([style])
 ||775mz.com/js/jquery.js
 ||777.qweewq2021.online^
 ||7773180.com^
+||777753.net^
 ||77777.org^$third-party
 ||777g.me/cs$script
 ||778669.com^
@@ -22760,6 +22765,7 @@ zznews.cn##.ad:not([style])
 ||883ads.com^*.js
 ||884069349.ltd^
 ||884329.com^
+||884352.com^
 ||88448.com/images/appkai980x100.gif
 ||8848skins.com^
 ||885842.com^
@@ -22997,6 +23003,7 @@ zznews.cn##.ad:not([style])
 ||99496.com/static/
 ||99496.com/v9/head.js
 ||997.000123456789.site^
+||998k.at^
 ||999.com^
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
@@ -25271,6 +25278,7 @@ zznews.cn##.ad:not([style])
 ||aliyun.cdn.chengzilte.top^
 ||aliyun.com/actionlog/
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
+||aliyuncs.com/gg/
 ||aliyuncs.com/ghdb.gif
 ||aliyuncs.com/pool/20180829220557.png
 ||aliyuncs.com/pool/20180829221932.png
@@ -27838,6 +27846,7 @@ zznews.cn##.ad:not([style])
 ||bob4915.com^
 ||bob4942.com^
 ||bob4994.com^
+||bob5379.com^
 ||bobaidu8.com^
 ||bobo.163.com^
 ||bobo.com/special/$subdocument
@@ -28251,6 +28260,7 @@ zznews.cn##.ad:not([style])
 ||bytravel.cn/js/ad_
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
+||byznb.xyz^
 ||bz-berlin.de/_stats/
 ||bzclk.baidu.com^
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
@@ -28862,6 +28872,7 @@ zznews.cn##.ad:not([style])
 ||chanet.com.cn^
 ||chanet.com.cn^$third-party
 ||chang555.cn^
+||changchunyitian.online^
 ||changhehengqi.com^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
 ||changshuohr.net^
@@ -37155,6 +37166,7 @@ zznews.cn##.ad:not([style])
 ||hxbt.alading123.com^
 ||hxbylm.vip^
 ||hxclove.club^
+||hxcrlt.cn^
 ||hxf1688.xyz^
 ||hxfree.vip^
 ||hxiak.com^
@@ -46987,6 +46999,7 @@ zznews.cn##.ad:not([style])
 ||pushpro.io/api/logging/
 ||pushprofit.ru^$third-party
 ||pushpushgo.com^$third-party
+||pushspring.com^$third-party
 ||pushsquare.com/blank.gif
 ||pushwoosh.com^$third-party
 ||pussy.org^*.cgi?pid=
@@ -56007,6 +56020,7 @@ zznews.cn##.ad:not([style])
 ||u0065.com^
 ||u0067.com^
 ||u0071.com^
+||u0083.com^
 ||u0r9.cn^
 ||u1.2048sj.com^
 ||u1.20q.cn^
@@ -59300,6 +59314,7 @@ zznews.cn##.ad:not([style])
 ||xothl.gbcnvip15.com^
 ||xovq5nemr.com^
 ||xox8829.com^
+||xox8863.com^
 ||xox8956.com^
 ||xox9298.com^
 ||xox9325.com^
@@ -60471,7 +60486,7 @@ zznews.cn##.ad:not([style])
 ||z2blog.com^$third-party
 ||z444o.com^$third-party
 ||z492.ctinsider.com^
-||z4a.net^
+||z4a.net/images/2022/05/12/pNOqhb.gif
 ||z4bbs.com/adst/
 ||z680.beaumontenterprise.com^
 ||z888.izhufu.net^
