@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-15 16:27:48
-! Total count: 62739
+! Version: 2022-07-16 01:46:19
+! Total count: 62755
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -928,7 +928,6 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
-##A[href*="/register/?i_code="] > img
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1409,6 +1408,7 @@
 ##a[href*="/ppffj.me/"]
 ##a[href*="/r3325.cc"]
 ##a[href*="/r3326.cc"]
+##a[href*="/register/?i_code="] > img
 ##a[href*="/rg200.com/"]
 ##a[href*="/shishangta.cn"]
 ##a[href*="/t4078.com:"]
@@ -7475,6 +7475,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /slot_cmp.js
 /sluurpy_track.js
 /sm/xycms.
+/smart-pixel.min.
 /smartTag.bundle.
 /smartpixel-1.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
@@ -10663,6 +10664,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||panjiachen.github.io^$generichide
 @@||papi-service.jd.com/ads/
+@@||parsely.com/keys/wrif.com/p.js$script,domain=wrif.com
 @@||pass.1688.com^$subdocument
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
@@ -13027,6 +13029,7 @@ cqsq.com##.mumucms_index_tlad
 cqsq.com##.tanx_banner,.cqsq_banner,.index_banner,[src^="//res.cq.cm/temp/201"]
 cqsq.com,jisuxz.com,jmnews.com.cn##.index_banner
 cqwb.com.cn##div.ggbox,div.gg306,div[style*="width:860px;height:250px;"],div[style*="width:860px;height:60px;"],div[style*="width:875px;height:90px;"]
+cqzjt.com,pianba.tv##.a-loading
 cr-nielsen.com
 cr173.com##.downurl[data^="viewAds"]
 cr173.com##.xiazaiqi
@@ -17243,7 +17246,6 @@ php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
-pianba.tv##.a-loading
 pianba.tv##.cpcad
 pianhd.com###myCarousel
 pianyuan.la/slade.js
@@ -22441,6 +22443,7 @@ zznews.cn##.ad:not([style])
 ||666683.xyz^
 ||666684.xyz^
 ||666722.xyz^
+||666723.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -24926,6 +24929,7 @@ zznews.cn##.ad:not([style])
 ||aheadday.com^$third-party
 ||aheadmachine.com^$third-party
 ||ahgame.com/js/new_ad.js
+||ahh6.cn^
 ||ahhrtt.pixnet.net^
 ||ahhwy.com^
 ||ahjinhuayi.com^
@@ -27848,6 +27852,7 @@ zznews.cn##.ad:not([style])
 ||bob4994.com^
 ||bob5379.com^
 ||bobaidu8.com^
+||bobdz.com^
 ||bobo.163.com^
 ||bobo.com/special/$subdocument
 ||bobo.com/special/mod-follow/
@@ -29543,6 +29548,7 @@ zznews.cn##.ad:not([style])
 ||cmavfl.cn^
 ||cmaxisolation.com^
 ||cmcore.com^$third-party
+||cmgjqqu.cn^
 ||cmm.xmfish.com^
 ||cmme.actonservice.com^
 ||cmmeglobal.com/evt?
@@ -35148,6 +35154,7 @@ zznews.cn##.ad:not([style])
 ||gfnormal00aj.com^
 ||gfnormal00ak.com^
 ||gfnormal00an.com^
+||gfnormal01ae.com^
 ||gfnormal07ae.com^
 ||gft.aobuygo.com^
 ||gft.xuanyaosp.com^
@@ -39459,6 +39466,7 @@ zznews.cn##.ad:not([style])
 ||juhepen.com/getadvcode.php?id=
 ||juhepen.com^$third-party
 ||juhuisuan.com^$third-party
+||juhuitongcheng.life^
 ||juicyads.com^
 ||juji.tv/Runtime/js/
 ||jujiaocheng.com^
@@ -39656,6 +39664,7 @@ zznews.cn##.ad:not([style])
 ||k31bpzf.xyz^
 ||k3851.com^$third-party
 ||k3node.com^$third-party
+||k3uihu.xyz^
 ||k4fu.verif.com^
 ||k54nw.pw^
 ||k5a.io^
@@ -40023,6 +40032,7 @@ zznews.cn##.ad:not([style])
 ||kn.zhangdujia.com^
 ||kn007.net/snmp.php
 ||knaxfbg.cn^
+||knb.cmgjqqu.cn^
 ||kneadface.com^
 ||knet.cn^
 ||knet.cn^$third-party
@@ -42641,6 +42651,7 @@ zznews.cn##.ad:not([style])
 ||mdffun.cn^
 ||mdhv.io^
 ||mdiyay.vseinstrumenti.ru^
+||mdjf9vh9.shop^
 ||mdjf9vh9.xyz^
 ||mdjxa.com^
 ||mdjxm.com^
@@ -46586,6 +46597,7 @@ zznews.cn##.ad:not([style])
 ||poll-maker.com^*/scpolls.js
 ||polobook.club^
 ||polymorphicads.jp^$third-party
+||poneer.hnlczgjx.com^
 ||ponymi.xyz^
 ||ponyo.cheriefm.fr^
 ||poobaj.bhg.com^
@@ -47203,6 +47215,7 @@ zznews.cn##.ad:not([style])
 ||qfbles.elefant.ro^
 ||qfcdgy.cn^
 ||qfdzba.sport-schuster.de^
+||qfgall.cn^
 ||qfgsdg.flamingo-royale.de^
 ||qfihdr.com^
 ||qflm.net^$third-party
@@ -48428,6 +48441,7 @@ zznews.cn##.ad:not([style])
 ||rrimpl.com^$third-party
 ||rrjc.com/home/seo/ad/
 ||rrkky.top^
+||rrll.love^
 ||rrogfhs.cn^
 ||rrr.plus^
 ||rrsubway.com^
@@ -52512,6 +52526,7 @@ zznews.cn##.ad:not([style])
 ||stats.huysmanbouw.be^
 ||stats.iamzero.dev^
 ||stats.ibtimes.co.in^
+||stats.ibtimes.sg^
 ||stats.igevia.com^
 ||stats.immunefi.com^
 ||stats.inergizedigitalmedia.com^
@@ -61149,6 +61164,7 @@ zznews.cn##.ad:not([style])
 ||zwrj999.cn^
 ||zwwooooo.com/images/hengtian.
 ||zwychain.cn^
+||zx-adnet.com^$third-party
 ||zx.kuanxin.top^
 ||zx.tiandesign.top^
 ||zx123.cn/templates/zx123cs/theme-2015/js/right_xh.js
