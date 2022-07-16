@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-16 08:20:30
-! Total count: 62761
+! Version: 2022-07-16 16:22:01
+! Total count: 62766
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1604,6 +1604,7 @@
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[title="neteasefooter"]
+##style + .a-loading
 ##style + .topd
 ##style + .topd + .bottomd
 ##style + .vdgdo
@@ -9449,7 +9450,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -13030,7 +13031,6 @@ cqsq.com##.mumucms_index_tlad
 cqsq.com##.tanx_banner,.cqsq_banner,.index_banner,[src^="//res.cq.cm/temp/201"]
 cqsq.com,jisuxz.com,jmnews.com.cn##.index_banner
 cqwb.com.cn##div.ggbox,div.gg306,div[style*="width:860px;height:250px;"],div[style*="width:860px;height:60px;"],div[style*="width:875px;height:90px;"]
-cqzjt.com,pianba.tv##.a-loading
 cr-nielsen.com
 cr173.com##.downurl[data^="viewAds"]
 cr173.com##.xiazaiqi
@@ -17981,6 +17981,7 @@ shulou.cc##.content_ad
 shuowan.com##.side_flash
 shuqi.com##div.appBanner
 shuqu8.com###ad_c_top
+shuquge.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 shurua.com###advbox
 shxd.net##div.footadbox,div.addown,div.myad,div.downbtna
 sihmar.com##[width="300"],[height="280"]
@@ -34006,6 +34007,7 @@ zznews.cn##.ad:not([style])
 ||fchio.com^
 ||fclick.baidu.com^
 ||fclog.baidu.com^
+||fcluqg.cn^
 ||fcm.baidu.com^
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
@@ -34858,6 +34860,7 @@ zznews.cn##.ad:not([style])
 ||gallery.pandora.xiaomi.com^
 ||gallupnet.fi^$third-party
 ||galop.leferacheval-saintcloud.com^
+||galopelikeantelope.com^
 ||game-data.xyz^
 ||game.466.com^$third-party
 ||game.5xen.com^
@@ -35371,6 +35374,7 @@ zznews.cn##.ad:not([style])
 ||gng5.cn^
 ||gngunbib.rest^
 ||gnhunbia.rest^
+||gnkunbie.rest^
 ||gnmbd.top^
 ||gnn01wl.cn^
 ||gnncc.cc^
@@ -51306,6 +51310,7 @@ zznews.cn##.ad:not([style])
 ||soaspx.com/images/js/dropdown.js
 ||sobaidupan.com/top_txtad.asp
 ||sobaigu.com/images/server_tourist.jpg
+||sobakenchmaphk.com^
 ||sobeycloud.com/Services/Stat.
 ||sobiquge.com/js/wuyi.js
 ||sobt8.com/Public/static/js/home-common-v2.js?v=
