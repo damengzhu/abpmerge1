@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-17 16:22:40
-! Total count: 62784
+! Version: 2022-07-18 01:48:41
+! Total count: 62795
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -252,6 +252,7 @@
 ###my_dp_a
 ###my_gd_a
 ###nav + .slider-spons
+###nav-home > .coment-bottom
 ###navcontainer + .moneyarea
 ###netease_mail_footer
 ###news_top_advert
@@ -9685,6 +9686,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw^$generichide
+@@||bioaksxter.com/files/*/Tracking.min.js$script,~third-party
 @@||biqupai.com^$domain=shudai.cc
 @@||bitauto.com/bglogpostlog.js
 @@||bitrix.info/ba.js$domain=galamart.ru
@@ -31086,6 +31088,7 @@ zznews.cn##.ad:not([style])
 ||daixishuai.pw^
 ||daiyanbao.com/flash/md
 ||daizhangguanjia.com.cn^
+||daizi.love^
 ||dajdnet.com/Public/config/Couplet/
 ||dajean.com^
 ||dajiadu8.com/17.js
@@ -34095,6 +34098,7 @@ zznews.cn##.ad:not([style])
 ||fengniao.com*/pv.js
 ||fengousm.com^
 ||fengspw.xyz^
+||fengxi.in^
 ||fengxiangstore.com^$third-party
 ||fengyigc.xyz^
 ||fengying5.com^
@@ -35385,6 +35389,7 @@ zznews.cn##.ad:not([style])
 ||gngunbib.rest^
 ||gnhunbia.rest^
 ||gniunbic.rest^
+||gnjunbio.rest^
 ||gnkunbie.rest^
 ||gnlunbii.rest^
 ||gnmbd.top^
@@ -36757,6 +36762,7 @@ zznews.cn##.ad:not([style])
 ||hn.sportsdream.top^
 ||hn163fck.com^$third-party
 ||hnasd.com^
+||hnbhrt.xyz^
 ||hncpz.cn^
 ||hncsdayu.com^
 ||hnctsm.com^
@@ -40724,6 +40730,7 @@ zznews.cn##.ad:not([style])
 ||lhhlkj.yoursuperfoods.de^
 ||lhippac.cn^
 ||lhj.asia^
+||lhpzz.love^
 ||lhxwnzht.cn^
 ||lhy1.xyz^
 ||lhyang.top^
@@ -45674,6 +45681,7 @@ zznews.cn##.ad:not([style])
 ||p4vip.com/z*.js
 ||p4vip.com^*.html$subdocument
 ||p77777777.com^
+||p7ivj09f.xyz^
 ||p8s.oxbowshop.com^
 ||p8u.hinet.net^
 ||p9jhxqlkmn.miniso.com.gr^
@@ -48119,6 +48127,7 @@ zznews.cn##.ad:not([style])
 ||renting.aldautomotive.es^
 ||rentiyishu.org/*.js
 ||rentracks.jp^$third-party
+||renxinghuan.com^
 ||reofamily.cn^
 ||repeatsweater.com^$third-party
 ||repian.com/a/
@@ -48595,6 +48604,7 @@ zznews.cn##.ad:not([style])
 ||rwjfs.com^
 ||rwmoej.wadiz.kr^
 ||rwpt.top^
+||rwwfmb.cn^
 ||rxdsj.com/Runtime/js/vod
 ||rxwan.com^
 ||rxys.cn^
@@ -61626,6 +61636,7 @@ zznews.cn##.ad:not([style])
 18avinin.com,sunnylife.tw###custom_html-5
 18board.com##[height="60"],[height="70"],[height="80"],[height="500"],[src^="http://dioimg.net"],[href="http://www.554400.com"],[href="http://zdpdfb.co/"],[href="http://mws3032.tk"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="25%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="320"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="330"]
