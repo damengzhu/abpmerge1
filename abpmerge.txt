@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-19 16:26:34
-! Total count: 62828
+! Version: 2022-07-20 01:45:21
+! Total count: 62841
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -934,6 +934,7 @@
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
+##BODY[ontouchstart] > #topBox
 ##DIV#ad-index.col-12.position-relative
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
@@ -7133,7 +7134,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /reporting/metrics
 /request_tracker+
 /resmeter.js
-/resonance.js
 /resource/common/tongzhuo/game_info.json
 /resource?zones=
 /resourcestat.
@@ -8523,6 +8523,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /v.gif?
 /v.gif?logtype=
 /v.php?siteid=&id=
+/v1/adn/visit|
 /v1/analytics.js
 /v1/custom-metrics
 /v1/impressions
@@ -8997,9 +8998,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 0du123.com,24en.com,3gsc.com.cn,591hx.com,5g0a.com,acgnx.se,aguitar.cn,btzx2017.com,e0514.com,eastmoney.com,guitarchina.com,gz0668.com,hk.on.cc,iguaji.com,iqiyi.com,jia360.com,joy.cn,kdnet.net,kumi.cn,manyuancs8.xyz,newnet.cc,rain2.top,tiboo.cn,toocle.com,wallstreetcn.com,xingkbjm.com,xizi.com,zgfznews.com,zyue.com##.banner
 ://*.tv/ad/$domain=~moviedj.tv
 ://*:*/api/v4/g?kyurl=$script,third-party
+://*:*/chunyu.html?k=$csp=script-src
 ://*:*/jscode/*.js$script,third-party
 ://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
+://*:*/yeyue.html?k=$csp=script-src
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
@@ -24718,6 +24721,7 @@ zznews.cn##.ad:not([style])
 ||adstats.tencentmusic.com^
 ||adsterra.com^
 ||adstextview.qq.com^
+||adstk.io^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
 ||adsview.qq.com^
@@ -24856,7 +24860,7 @@ zznews.cn##.ad:not([style])
 ||affilate.hh.ru^
 ||affilbox.cz^$third-party
 ||affiliate.gearbest.com^$image,third-party
-||affiliate.rakuten.co.jp^$script
+||affiliate.rakuten.co.jp^$script,third-party
 ||affiliate6.com^
 ||affiliateedge.eu^$third-party
 ||affiliates.mgmmirage.com^
@@ -27083,6 +27087,7 @@ zznews.cn##.ad:not([style])
 ||bat.bing.com^
 ||bat.maydream.com^
 ||batbuilding.com^
+||bathandbodyworks.com/lsXlyYa5/init.js
 ||batiactu.com/cap_
 ||bats.video.yahoo.com^
 ||battlebalance.com^
@@ -28173,6 +28178,7 @@ zznews.cn##.ad:not([style])
 ||buf.lemonde.fr^
 ||bufamy.com^
 ||bufan.in^
+||bufan.space^
 ||bufferapp.com/wf/open?upn=$third-party
 ||bugcreator.cn^
 ||bugherd.com^$third-party
@@ -30052,6 +30058,7 @@ zznews.cn##.ad:not([style])
 ||config.parsely.com^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com/wix/inline.aspx?
+||congsons.uno^
 ||congtad.com^
 ||conimicutlighthouse.viessmann-us.com^
 ||connect-qa.netapp.com^
@@ -37277,6 +37284,7 @@ zznews.cn##.ad:not([style])
 ||hytcsh.cn^
 ||hytzp.cn^
 ||hyvyd.com/count$image,domain=mobile.de
+||hyxn.net^
 ||hyz86.com^
 ||hyzhongchuang.com^
 ||hz-sllace.com^
@@ -41194,6 +41202,7 @@ zznews.cn##.ad:not([style])
 ||ljmei.com^
 ||ljmzugo.cn^
 ||ljrtb.cn^
+||ljth.hk^
 ||ljwckj.love^
 ||lkjbrd.signals.com^
 ||lkkskdkfjdk.qiangquanvip.com^
@@ -44950,6 +44959,7 @@ zznews.cn##.ad:not([style])
 ||ntpnmx.zlato.ua^
 ||ntppyc.cn^
 ||ntpr.xyz^
+||ntsibo.com^
 ||ntt.postserviceuk.com^
 ||nturnm.unisport.dk^
 ||ntvsw.com^
@@ -46089,6 +46099,7 @@ zznews.cn##.ad:not([style])
 ||pflrv.cn^
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
+||pfpmmxa.xyz^
 ||pfskzj.cn^
 ||pfuyhr.schutz.com.br^
 ||pg-ad-b1.nosdn.127.net^
@@ -46254,6 +46265,7 @@ zznews.cn##.ad:not([style])
 ||pings.vidpulse.com^
 ||pingseli.com^
 ||pingshetrip.com^
+||pingtaiba.asia^
 ||pingtas.qq.com^
 ||pingtcss.qq.com^
 ||pingwest.com/api/news_ad
@@ -54093,6 +54105,7 @@ zznews.cn##.ad:not([style])
 ||this-is-living.cn^
 ||thisav.com/0*.js
 ||thisav.com/index.js
+||thisav.com/js/bioep.
 ||thisav.com/nb/
 ||thisav.video/v3/nb/
 ||thishare.com^
@@ -56705,7 +56718,6 @@ zznews.cn##.ad:not([style])
 ||verifypow.com^$third-party
 ||verifyvegetable.com^
 ||verseballs.com^$third-party
-||vertebrae-axis.com^
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||vertical-n.de/scripts/*/immer_oben.js
@@ -57719,6 +57731,7 @@ zznews.cn##.ad:not([style])
 ||whoaremyfriends.com^$third-party
 ||whoaremyfriends.net^$third-party
 ||whoclick.cn^
+||whoican.love^
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
 ||wholehk.com/atttuop.js
