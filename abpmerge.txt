@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-22 08:25:02
-! Total count: 62913
+! Version: 2022-07-22 16:29:10
+! Total count: 62931
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1119,6 +1119,7 @@
 ##[src^='https://p.jngdg.top/'][alt]
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qing.hellocdn.top/Cartoon/sss']
+##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[src^='https://www.zxucii.com:']
 ##[src^='https://yngdms.com:']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
@@ -14473,8 +14474,8 @@ hao.lenovo.com.cn##.IconLink
 hao.lenovo.com.cn##.left.icons
 hao.lenovo.com.cn##.right.icons
 hao.lenovo.com.cn,hi.lenovo.com.cn##.bxslider-wrap
-hao.qq.com##.guess.m
 hao.qq.com##[id^="AD_"]
+hao.qq.com,123.sogou.com##.guess
 hao.rising.cn###bbTao
 hao.rising.cn###box_taobao2,#box_taobao1,#bbTao,.bd-lmhot,.banner-ad,.channel-adimg
 hao.rising.cn###change
@@ -14694,6 +14695,7 @@ hk.yahoo.com###mntl1
 hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
+hk01.com##.md\:min-h-\[90px\]
 hkdm123.com##div.ad990x90,div.Content_yad
 hkepc.com###headBanner,.advertisement,.headBanner,#sideBanner
 hkepc.com##.headBanner
@@ -23269,6 +23271,7 @@ zznews.cn##.ad:not([style])
 ||a.yiyuancq.com^$domain=m.shuquge.com
 ||a.youdao.com^
 ||a.yuzhainan.com^
+||a.zuowenku.net^
 ||a.zuowenxuan.cn^
 ||a01.abovede6.com^
 ||a01.yxhjt.com^
@@ -24371,6 +24374,7 @@ zznews.cn##.ad:not([style])
 ||ad.kddi-fs.com^
 ||ad.kshuiz.top^
 ||ad.mail.ru^$image
+||ad.mazc.org^
 ||ad.muyang888.top^
 ||ad.qn.img-space.com^
 ||ad.takasu.co.jp^
@@ -27497,6 +27501,7 @@ zznews.cn##.ad:not([style])
 ||beneficios.davivienda.cr^
 ||beneficios.davivienda.hn^
 ||benfkw.cn^
+||bengbaly.fun^
 ||bengbeng.com^
 ||bensxw.cn^
 ||bentengcn.com^
@@ -37363,6 +37368,7 @@ zznews.cn##.ad:not([style])
 ||i-part.com.tw/js2/newShineStar
 ||i-services.net^*/compteur.php?
 ||i-stats.com^$third-party
+||i.6v6.work^
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.cidianwang.com^
 ||i.compendium.com^
@@ -39265,6 +39271,7 @@ zznews.cn##.ad:not([style])
 ||jmcnwr.bricoprive.com^
 ||jmhai.com^
 ||jmhfw.com/index.php?/ajax/get_adv/
+||jmking.cn^
 ||jmkxinfekxa.com^
 ||jmqxbeo.cn^
 ||jmulab.cn^
@@ -40771,6 +40778,7 @@ zznews.cn##.ad:not([style])
 ||lftxali.fancyapi.com^
 ||lfuzec.bglen.net^
 ||lfzxcp.com^
+||lg.mbxsku.cn^
 ||lg.nvlangre.com/js/db^
 ||lg.tr.pandora.tv^
 ||lggbxf.com^
@@ -44103,6 +44111,7 @@ zznews.cn##.ad:not([style])
 ||murdoog.com^$third-party
 ||murdoog.com^*/Pixel/$image
 ||murkymeeting.com^
+||musan.love^
 ||museter.com/track.php?
 ||music.163.com/eapi/ad
 ||music.163.com/weapi/feedback/weblog
@@ -45146,6 +45155,7 @@ zznews.cn##.ad:not([style])
 ||obhxvb.tmktools.ru^
 ||obihmnb.cn^
 ||obj9.cn^
+||obnpazq.cn^
 ||obqetks.cn^
 ||obscenesidewalk.com^
 ||observantice.com^
@@ -46657,6 +46667,8 @@ zznews.cn##.ad:not([style])
 ||pmweb.com.br^$third-party
 ||pn.birjkhm.cn^
 ||pn.mdkjefq.cn^
+||pn.pogwua.cn^
+||pn.poqwua.cn^
 ||pn.qijpaih.cn^
 ||pn.sbdebcz.cn^
 ||pn.vg^$third-party
@@ -54409,6 +54421,7 @@ zznews.cn##.ad:not([style])
 ||tk.transavia.com^
 ||tk.viapresse.com^
 ||tk001.com/$third-party
+||tka.tiki.vn/pixel/
 ||tkd777.cn^
 ||tkelq.genesys.com^
 ||tkkdoc.com^
@@ -58098,6 +58111,7 @@ zznews.cn##.ad:not([style])
 ||wpkfti.1300k.com^
 ||wples.com/pc/common.js
 ||wppei.cn^
+||wpqmiq.cn^
 ||wpqsmse.cn^
 ||wprixk.brocard.ua^
 ||wps.cn/api/pre_download?dist=
@@ -58834,6 +58848,7 @@ zznews.cn##.ad:not([style])
 ||www.yueyuego.com^
 ||www.yuyue008.cn^
 ||www.ywquyq.com^
+||www.zbinview.com^
 ||www.zcbmn14.com^
 ||www.zddjq.com/adpos.json
 ||www.zhangjiaqi.top^
@@ -59016,10 +59031,12 @@ zznews.cn##.ad:not([style])
 ||xbwpfs.fotocasa.es^
 ||xc.afablca.cn^
 ||xc.ejboayh.cn^
+||xc.f8ejqxp.cn^
 ||xc.gouchezj.com^
 ||xc.hubeijieshikj.cn^
 ||xc.ksqfwxu.cn^
 ||xc.macd.cn^
+||xc.mcdwfed.cn^
 ||xc.muhnbc.cn^
 ||xc.mydrivers.com^
 ||xc.nhpwwd.cn^
@@ -61334,6 +61351,7 @@ zznews.cn##.ad:not([style])
 ||zxglpj.cn^
 ||zxhrq.cn^
 ||zxhstudy.online^
+||zxiaochun.site^
 ||zxip.com/2013_ad/
 ||zxjjzx.com^
 ||zxlmnet.com^
