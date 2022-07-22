@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-21 16:24:51
-! Total count: 62895
+! Version: 2022-07-22 01:50:15
+! Total count: 62906
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -934,7 +934,6 @@
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
-##BODY[ontouchstart] > #topBox
 ##DIV#ad-index.col-12.position-relative
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
@@ -1221,6 +1220,7 @@
 ##a[href*=".fllkf.com/"]
 ##a[href*=".gghktv.com/"]
 ##a[href*=".gongnou.com/"]
+##a[href*=".greatnff.com/"]
 ##a[href*=".gsxzq.com/"]
 ##a[href*=".guzaosf.com/"]
 ##a[href*=".gzwtgm.com/"]
@@ -1514,6 +1514,7 @@
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body[class|="view"] > .ad-box
 ##body[onload*="u()"] > #x
+##body[ontouchstart] > #topBox
 ##button[onclick*=".xacg.info/"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
@@ -10291,6 +10292,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||hvemder.no/api/hitcount/$~third-party
 @@||hvemder.no/js/hitcount.min.js$script,~third-party
+@@||hyper.ag/api/sites/*/analytics/$~third-party
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
 @@||ibf.tw^$generichide
@@ -10678,8 +10680,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p.jwpcdn.com^$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xbeibeix.com|xiebruce.top|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wuyong.fun
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -12265,6 +12266,7 @@ bilibili.com##.ad-f
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
+bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -14030,8 +14032,8 @@ fuliba.net,fulibba.net##DIV.widget > TABLE[width="265"][align="center"],a[rel="n
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_ui_slider
-fuliba2021.net##.orbui-post-footer
 fuliba2021.net,itdog.cn##.orbui
+fuliba2021.net,ypojie.com##.orbui-post-footer
 fulibac.com##.ad_two,.ad_free
 fulibar.net##.banner.banner-contenttop,.d_banner,.d_slidebanner,.adsbygoogle
 fulibba.com##div.tool_news,div.widget,A[href^="http://mp.weixin.qq.com/"],A[href="http://fulibba.com/go/BTBiBi/"],aside#text-5,UL[style] IMG,aside#text-3
@@ -16512,6 +16514,7 @@ manhuadb.com##a.d-block
 manhuagui.com##[class^="gg_"]
 manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuatai.com$$div[class="acgn-dynamic-content"]
+manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
 manqian.cn###adLocationConfig,.node-ad-bg
 mao-123.com##div.cate.ad
@@ -20225,7 +20228,6 @@ youzhidy.com##iframe[src^="data"]
 yoyi.com.cn
 yoyojie.com##div.float-bigpic
 yoyozz.com##.a_mu,.a_pt
-ypojie.com##.orbui-post-footer
 ypppt.com##.login_panel
 yqdown.com##.pgzs,#wrapper1
 ys168.com##div[style="position:fixed; width:200px; top: 330px;right:10px;font-size:9pt;text-align:left;"]
@@ -21361,6 +21363,7 @@ zznews.cn##.ad:not([style])
 ||1r49n.cn^
 ||1rongzi.cn^
 ||1sapp.com^
+||1so8inqb.cn^
 ||1stchina.net/static/js/jquery.in.
 ||1tlm.cn^
 ||1to1.bbva.com^
@@ -24865,6 +24868,7 @@ zznews.cn##.ad:not([style])
 ||ae4.ifeng.com^
 ||aegis.qq.com^
 ||aem-collector.daumkakao.io^
+||aengbalz.fun^
 ||aeoprw.cn^
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
@@ -27576,6 +27580,7 @@ zznews.cn##.ad:not([style])
 ||bhphotovideo.com/imp/
 ||bhtbnb.qqqwww987.space^
 ||bhu9.bankia.es^
+||bhujiwwb.top^
 ||bhxemw.charleskeith.com^
 ||bhyblanket.cn^
 ||bhyddc.com^
@@ -32006,6 +32011,7 @@ zznews.cn##.ad:not([style])
 ||dmdt.io/collect
 ||dmfhqzo.cn^
 ||dmfjeu.xyz^
+||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dmgjwy.xyz^
 ||dmkt.solutions.cas.org^
 ||dmm.aizhan.com^
@@ -33886,6 +33892,7 @@ zznews.cn##.ad:not([style])
 ||fabricww.com^$third-party
 ||fabuye.vip/zhuanfa/
 ||fac.fanucamerica.com^
+||facai383.oss-cn-guangzhou.aliyuncs.com^
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de|focus.de|kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tellows.de|transfermarkt.de
 ||facebook.com/a/bz?
@@ -45745,6 +45752,7 @@ zznews.cn##.ad:not([style])
 ||p2r14.com^
 ||p30rank.ir^$third-party
 ||p3tt.com^
+||p4f52tll.cn^
 ||p4p.sina.com.cn^
 ||p4vip.com/f*.js
 ||p4vip.com/z*.js
@@ -48355,6 +48363,7 @@ zznews.cn##.ad:not([style])
 ||rfyqtv2.com^
 ||rg.nukebomb.cn^
 ||rgd.com.cn/counter/
+||rggtt.top^
 ||rgiixp.sperry.com^
 ||rgjeow3.com^
 ||rgks.net^
@@ -56448,6 +56457,7 @@ zznews.cn##.ad:not([style])
 ||uogo.net/uogoplus/
 ||uol.com.br/stats?
 ||uolwbz.heine.de^
+||uongsona.uno^
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
 ||uoyrsd.com^
@@ -58186,6 +58196,7 @@ zznews.cn##.ad:not([style])
 ||wttd.madeleine.fr^
 ||wttd.madeleine.gr^
 ||wty007.xyz^
+||wu3wl2g7.cn^
 ||wudang05.com^
 ||wudang05.com^$third-party
 ||wudejia.com^
