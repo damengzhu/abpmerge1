@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-23 01:46:51
-! Total count: 62943
+! Version: 2022-07-23 08:22:12
+! Total count: 62954
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -8929,6 +8929,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /xtroi.js
 /xuanfusige.js
 /xxd.php?id=$script,third-party
+/xxgg/0dd*.js
 /xxgg/app.js
 /xxgg/book.js
 /xxgg/dj*.js
@@ -14253,7 +14254,9 @@ ggdoc.com.cn#@#.addiv
 ghoffice.com##.tac > a > img[src*=".gif?"]
 ghoffice.com##[class="tac"],[class="mb5 tac cc"],[id^="ads_"],.textMes
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
+ghxi.com###respond + div
 ghxi.com##.ad_single_12
+ghxi.com##div[style="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: 99999;background-color: #cc4444;color: #fff"]
 ghxi.com#@#.social-item
 ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 gimy.tv##.playadbox
@@ -16519,6 +16522,8 @@ manhuatai.com$$div[class="acgn-dynamic-content"]
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
 manqian.cn###adLocationConfig,.node-ad-bg
+manwa.life##.index-banner
+manwa.life##a[href*=".hyenadata.com/"]
 mao-123.com##div.cate.ad
 maodh.com##[width="960"][height="60"]
 maolihui.com##.con-ad
@@ -22493,6 +22498,7 @@ zznews.cn##.ad:not([style])
 ||666728.xyz^
 ||666729.xyz^
 ||666732.xyz^
+||666733.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -22822,6 +22828,7 @@ zznews.cn##.ad:not([style])
 ||884352.com^
 ||88448.com/images/appkai980x100.gif
 ||8848skins.com^
+||885741.com^
 ||885842.com^
 ||8866786.com^
 ||88818122.cn^
@@ -42198,6 +42205,7 @@ zznews.cn##.ad:not([style])
 ||manparis.cn^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manwa.life/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
 ||manyou.com^
 ||mao1.jsnovel.com^
 ||maobujie.com^
@@ -45609,6 +45617,7 @@ zznews.cn##.ad:not([style])
 ||oufuqh.kant.ru^
 ||oukj73ljf.ynslvyou.com^
 ||oumazg.com^
+||ouno.site^
 ||ouo.us/nyad/
 ||oupai.cc^
 ||ournet-analytics.com^$third-party
@@ -47605,6 +47614,7 @@ zznews.cn##.ad:not([style])
 ||qncye.com/ads/
 ||qncye.com/templets/default/js/mb.js
 ||qndown.com^
+||qnmvqdl.cn^
 ||qnsb.com/news/index.php?m=poster&
 ||qnvod.net/qna/
 ||qnwxk.com^$third-party
@@ -60431,6 +60441,7 @@ zznews.cn##.ad:not([style])
 ||yu0123456.com^$third-party
 ||yu987.com^$third-party
 ||yuailairuci.com^
+||yuanan.love^
 ||yuanbao777.com/download/*.gif
 ||yuandongoffice.com^
 ||yuanhsu.com^$third-party
