@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-25 08:25:03
-! Total count: 63012
+! Version: 2022-07-25 16:25:27
+! Total count: 63018
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -11022,6 +11022,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||support.brother.com^*/js/analytics.js$script,~third-party
+@@||survey.userneeds.com^$subdocument,domain=foreca.com|forecaweather.com
+@@||survey.userneeds.com^$subdocument,domain=foreca.fi
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||swjoy.com^
@@ -11169,7 +11171,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
-@@||userneeds.com^$domain=foreca.fi
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uwants.com/include/*/swfaddress.js
 @@||v.17173.com/advideo/*.mp4
@@ -15602,6 +15603,7 @@ jin10.com##.l-main_body ~ .jin-timeline
 jin10.com##.l-main_wrap > .jin-timeline > div:not(.jin-declaration):not(.jin-qq-cooperation)
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
+jinbaodm.com##div[id^="a-loading"]
 jinbaozy.com##.dtk-fixed-ads
 jinghua.cn##[style*="height: 250px;"],iframe[height="270px"]
 jinghuasoft.com##.zhifubao
@@ -28938,6 +28940,7 @@ zznews.cn##.ad:not([style])
 ||cfhijdsb.cn^
 ||cfhlrai.cn^
 ||cfhy.xyz^
+||cfkkdhs.cn^
 ||cformanalytics.com^$third-party
 ||cfpl.online^
 ||cfqc.me^
@@ -46731,6 +46734,7 @@ zznews.cn##.ad:not([style])
 ||pnhesw.jtb.co.jp^
 ||pniao99.com/statics/js/stat.js
 ||pnnpan.cv-library.co.uk^
+||pnrqz.xyz^
 ||pnstat.com^$third-party
 ||pntra.com^$third-party
 ||pntrac.com^$third-party
@@ -46843,6 +46847,7 @@ zznews.cn##.ad:not([style])
 ||ppa18.com^
 ||ppcdn.it/iol/tracklib.3.js
 ||ppcprotect.com^$third-party
+||ppcwzry.cn^
 ||ppdb.pl^$third-party
 ||ppddxx.com/mobi.js
 ||ppddxx.com/tonglan
@@ -48535,6 +48540,7 @@ zznews.cn##.ad:not([style])
 ||rlinks.one.in^
 ||rlog.popin.cc^
 ||rlogs.youdao.com^
+||rlojitu.xyz^
 ||rltd.io/tags/
 ||rm.lomark.cn^
 ||rmdown.com^$replace=/var rmJson/var fuck/
