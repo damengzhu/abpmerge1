@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-25 01:48:06
-! Total count: 63001
+! Version: 2022-07-25 08:25:03
+! Total count: 63012
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -939,6 +939,7 @@
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
 ##IFRAME[src*="//pos.baidu.com/"]
+##[alt="要恰饭的嘛"]
 ##[alt=' 腐乐漫 '],[alt=' 西瓜社 ']
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -12093,6 +12094,7 @@ baike567.com,wuhaozhan.net##div[class^="hongbao"]
 baike567.com,wuhaozhan.net##div[id$="eBox"]
 baike567.com,wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/[0-9]元|生鲜|双1|美团|活动|京东|年货|红包|支付|天猫/))
 baike567.com,wuhaozhan.net#?#:-abp-has(> .ad_top_close)
+baikebcs.bdimg.com/*banner*.jpg
 baishi.baidu.com##.video-adv,.adv-container,#playerPauseAdv
 baiten.cn##.JS_advertisement
 baixbbs.net##div#wp>table,div.a_cn,div.a_fl.a_cb,div.a_fr.a_cb
@@ -12363,6 +12365,7 @@ bkill.com##.half-ads
 bkill.com##.index-a,.cross-ad,.half-ads,.softdza,.alliance-ad,.xiangguan-ad,.yinsu_xz,div.ad960,div.adcb,div.soft_ad,.h66,.bcb.h210,.b728,.h300.w338
 bkill.com##.xiangguan-ad
 bkill.com##body > a:first-child
+bkimg.cdn.bcebos.com/pic/4b90f603738da9773912c418c702ef198618367a45fe?x-bce-process=image/format,f_auto
 bkjia.com##.ad_top,[style*="height:90px;"]
 bkjia.com##.art_rightad1
 bkjia.com,zol.com.cn##.hot_tj
@@ -21852,6 +21855,7 @@ zznews.cn##.ad:not([style])
 ||376zf.com^
 ||377zt.cn^
 ||3798.com^$third-party
+||37b57c.91xzba.com^
 ||37cs.com^
 ||37cs.com^$third-party
 ||37kx1.com^$third-party
@@ -23027,6 +23031,7 @@ zznews.cn##.ad:not([style])
 ||958so.cn^
 ||9596yy.com^
 ||95wvb.xyz^
+||961020.91xzba.com^
 ||96138.net^
 ||962.net/show/all.js
 ||962.net/show/all_$script
@@ -28449,6 +28454,7 @@ zznews.cn##.ad:not([style])
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||c4dv.copinesdevoyage.com^
 ||c4tracking01.com^$third-party
+||c55735.91xzba.com^
 ||c6.friok.com^
 ||ca.bxwx3.org^
 ||ca.cbsi.com.cn/rpv?
@@ -32534,6 +32540,7 @@ zznews.cn##.ad:not([style])
 ||dyxsmj.net^
 ||dyzx6688.top^
 ||dyzyhj.com/Jk/
+||dz.kengi.top^
 ||dz19.net/addimg/
 ||dzais.com^
 ||dzbrr144kh0m6.cloudfront.net^
@@ -35742,6 +35749,7 @@ zznews.cn##.ad:not([style])
 ||gouweida.cn^
 ||gouwupianyi.cn^
 ||gouyb.mobi^
+||gov.oiuqwppcsdf.com^
 ||govchaozhou.cn^
 ||govchengdu.cn^
 ||govchongqing.cn^
@@ -39013,6 +39021,7 @@ zznews.cn##.ad:not([style])
 ||jh3pin.com^
 ||jheva.com^
 ||jhgff23az.biqugetv.com^
+||jhkj.work^
 ||jhlxfw.cn^
 ||jhm3.ifgexecutive.com^
 ||jhqku.cn^
@@ -44547,6 +44556,7 @@ zznews.cn##.ad:not([style])
 ||neki.org^$third-party
 ||neko-san.fr/stats
 ||nelonenmedia.fi/hitcounter$image
+||nelonenmedia.fi/logger/
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||nend.net^
@@ -56868,6 +56878,7 @@ zznews.cn##.ad:not([style])
 ||vesti.ru/counter/
 ||vet0.carrefour-banque.fr^
 ||veyu.idubwz.cn^
+||vfcwij.cn^
 ||vfd2dyn.vodafone.de^
 ||vfiles.gtimg.cn/pub/video_float_ad_config.config_list^
 ||vfo.voyage-prive.co.uk^
