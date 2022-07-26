@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-25 16:25:27
-! Total count: 63018
+! Version: 2022-07-26 01:57:46
+! Total count: 63031
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1269,6 +1269,7 @@
 ##a[href*=".meta-wg.com/"]
 ##a[href*=".mieseng.com/"]
 ##a[href*=".nffhome.com/"]
+##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
 ##a[href*=".nfrgeek.com:"]
 ##a[href*=".nfylife.com/"]
@@ -9963,6 +9964,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||detik.com/urchin.js
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
+@@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
+@@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
@@ -10220,7 +10223,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
@@ -22518,6 +22521,7 @@ zznews.cn##.ad:not([style])
 ||666733.xyz^
 ||666734.xyz^
 ||666735.xyz^
+||666736.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -31571,6 +31575,7 @@ zznews.cn##.ad:not([style])
 ||demizhe.com^
 ||denakop.com^$third-party
 ||dengage.com^$third-party
+||dengbalt.fun^
 ||dengzhou.us^
 ||deovr.com/api_logs/
 ||dep-x.com^$third-party
@@ -33879,6 +33884,7 @@ zznews.cn##.ad:not([style])
 ||eylqbeu.cn^
 ||eymiwj.cancan.ro^
 ||eyny.com/data/cache/js_show_ads.js
+||eyoupie.cn^
 ||eyouv.cn^
 ||eyouv.cn^$third-party
 ||eyusky.net/weixin-img/zhifubao.jpg
@@ -35396,6 +35402,7 @@ zznews.cn##.ad:not([style])
 ||gk1.zjbiz.net^
 ||gk596.cn^
 ||gk99.com/static/js/a-d-sys.js
+||gkenql.cn^
 ||gksqfw.reverso.net^
 ||gl5g98t0vfjb.panprices.com^
 ||glam.com/cece/agof/
@@ -36598,7 +36605,6 @@ zznews.cn##.ad:not([style])
 ||heyi.shop^
 ||heylink.com^$third-party
 ||heylookhere.top^
-||heyloyalty.com^$third-party
 ||heymatic.com^$third-party
 ||heystaks.com^$third-party
 ||heyux.cn^
@@ -38330,6 +38336,7 @@ zznews.cn##.ad:not([style])
 ||inphonic.com/tracking/
 ||inphonic.com^$third-party
 ||inping.com^$third-party
+||inpnjq.cn^
 ||inpref.com^$third-party
 ||inpref.s3.amazonaws.com^$third-party
 ||input.shouji.sogou.com/SogouServlet?cmd=expPkgAd
@@ -40150,6 +40157,7 @@ zznews.cn##.ad:not([style])
 ||km1.muhoujiemi.com^
 ||kmaa45.com^
 ||kmb.gaoyuhu.top^
+||kmbikv.cn^
 ||kme.dncvj.cn^
 ||kmf.com/da/do
 ||kmgfjc.cn^
@@ -40793,6 +40801,7 @@ zznews.cn##.ad:not([style])
 ||letvimg.com/gugwl/201*.jpg
 ||letvimg.com/lc06_gugwl/20$image
 ||letvimg.com^*/108x70$object
+||letzgr.cn^
 ||levelaccess.net/analytics/
 ||levelbehavior.com^$third-party
 ||levexis.com^$third-party
@@ -43079,6 +43088,7 @@ zznews.cn##.ad:not([style])
 ||meiyouad.com/static/pc/img/111.gif
 ||meiyouad.com/user/admin?
 ||meiyouad.com/user/union?t=
+||meiyouguang.top^
 ||meiyuedu.vip^
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
@@ -47774,6 +47784,7 @@ zznews.cn##.ad:not([style])
 ||qs01.cn^
 ||qsart.cn^
 ||qscwdv.top^
+||qsdqyf.cn^
 ||qshxc.com^
 ||qsixi.com^
 ||qskj.club^
@@ -56551,6 +56562,7 @@ zznews.cn##.ad:not([style])
 ||uol.com.br/stats?
 ||uolwbz.heine.de^
 ||uongsona.uno^
+||uongsono.uno^
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
 ||uoyrsd.com^
@@ -58052,6 +58064,7 @@ zznews.cn##.ad:not([style])
 ||wmgroup.us^
 ||wmgt.xyz^
 ||wmk0099.xyz^
+||wmmty.top^
 ||wmpyuyj.cn^
 ||wmrmb.cn^$third-party
 ||wmspw.com^
