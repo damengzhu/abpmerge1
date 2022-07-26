@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-26 08:21:47
-! Total count: 63034
+! Version: 2022-07-26 16:25:33
+! Total count: 63037
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -12032,6 +12032,7 @@ baidu.com##section.bottom-intro
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
+baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
@@ -13158,6 +13159,7 @@ ctrip.com###mt_cpm_box,div.img_show,div.pic-banner
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
+cupfox.app##.banner-box
 cupfox.app#@#.adsbygoogle
 cw.com.tw##.emailorder
 cw.com.tw##[class$="-ad"],[id^="div-gpt-ad-"],#iframe
@@ -25015,6 +25017,7 @@ zznews.cn##.ad:not([style])
 ||ahdeka.kazanexpress.ru^
 ||aheadday.com^$third-party
 ||aheadmachine.com^$third-party
+||ahfy.me^
 ||ahgame.com/js/new_ad.js
 ||ahh6.cn^
 ||ahhrtt.pixnet.net^
