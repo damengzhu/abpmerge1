@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-28 08:24:26
-! Total count: 63086
+! Version: 2022-07-28 16:29:14
+! Total count: 63099
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -4475,6 +4475,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /cpro.$popup,third-party
 /cpro/ui/*
 /cqcounter.
+/cradleError.
 /crai_tracker.
 /crazyad.
 /create-lead.js
@@ -6727,7 +6728,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /performance_timing/*
 /performance_tracker-
 /performancetimer.js
-/perimeterx/*
+/perimeterx/*$domain=~github.com|~github.io
 /permalink-tracker.html?
 /pf?pid=
 /pg*.js?PID=$xmlhttprequest
@@ -22673,6 +22674,7 @@ zznews.cn##.ad:not([style])
 ||777.qweewq2021.online^
 ||7773180.com^
 ||777753.net^
+||777755.net^
 ||77777.org^$third-party
 ||777g.me/cs$script
 ||778669.com^
@@ -22985,6 +22987,7 @@ zznews.cn##.ad:not([style])
 ||91mh.me^
 ||91mjw.com/wp-author/tga^
 ||91nrtt.com/vod/
+||91office.club^
 ||91p20.space/fans/
 ||91p20.space^
 ||91rb.net/fc/
@@ -24949,6 +24952,8 @@ zznews.cn##.ad:not([style])
 ||affiliates.vpn.ht^
 ||affiliation.planethoster.info^$third-party
 ||affiliatly.com^$third-party
+||affilimate.com^$third-party
+||affilimate.io^$third-party
 ||affilired.com^$third-party
 ||affilizr.com^$third-party
 ||affinesystems.com^$third-party
@@ -26416,6 +26421,7 @@ zznews.cn##.ad:not([style])
 ||asdqwe.ltd^
 ||asdsdvd4.com^
 ||asf1v.vancuongthinh.com^
+||asf56165.xyz^
 ||ashow.pcpop.com^
 ||asiafriendfinder.com^
 ||asimgs.cp61.ott.cibntv.net/imgs/materials/
@@ -35077,6 +35083,7 @@ zznews.cn##.ad:not([style])
 ||gardens.shjha.top^
 ||gas-sensing.spec-sensors.com^
 ||gasaq.com/public/flash/
+||gass.top^
 ||gassales.eversource.com^
 ||gasxf.com^
 ||gatan.actonservice.com^
@@ -39244,6 +39251,7 @@ zznews.cn##.ad:not([style])
 ||jinzhao99.com^
 ||jinzpeng.cn^
 ||jipezy.cn^
+||jipinyouwu.com^
 ||jipinzw.com^*.php?aid=
 ||jirafe.com^$third-party
 ||jishulink.com/images/activity/invite_
@@ -43153,6 +43161,7 @@ zznews.cn##.ad:not([style])
 ||mercury-sdk.snssdk.com^
 ||mercurymage.top^
 ||mercy.ga^$third-party
+||meredithnice.com^
 ||meremark.com^
 ||mergedeep.xyz^
 ||meritiny.top^
@@ -45887,6 +45896,7 @@ zznews.cn##.ad:not([style])
 ||pa.opqr.co^
 ||pa.travelwhiz.app^
 ||pabgey.siepomaga.pl^
+||pabidding.io^$third-party
 ||pabxoe.olx.ua^
 ||pac.thesun.co.uk^
 ||package12.com/index.php?id=
@@ -47616,6 +47626,7 @@ zznews.cn##.ad:not([style])
 ||qiruidea.com^
 ||qishenga.com^*.gif$domain=meiju11.com
 ||qishu.cc/skins/common.js
+||qishuk.com/css/wap.
 ||qitdsl.ralf.ru^
 ||qitete.com/mid/
 ||qitete.com/sp/$script
@@ -48565,6 +48576,7 @@ zznews.cn##.ad:not([style])
 ||rivrai.com^$third-party
 ||riy9qqfu.club^
 ||riy9qqfu.xyz^
+||riy9qqfushop.xyz^
 ||rizlhvb.cn^
 ||rjakwq.cn^
 ||rjgw.theta.sogou.com^
@@ -60588,6 +60600,7 @@ zznews.cn##.ad:not([style])
 ||yueduyy.com^
 ||yuegepiano.cn^
 ||yuehesh.com^
+||yueka.com^
 ||yueleshenghuo.cn^
 ||yueli.me^
 ||yuemmu.com^
