@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-27 16:27:25
-! Total count: 63069
+! Version: 2022-07-28 01:46:12
+! Total count: 63078
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -557,6 +557,7 @@
 ##.baiduad
 ##.banner-ad-section
 ##.banner[align='center']
+##.bannerliststyle[style^="min-height"]
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bg_ad
@@ -10701,8 +10702,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p.jwpcdn.com^$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xugaoxiang.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -17873,9 +17873,9 @@ ruanjianxia.com###gaosu_downloads
 ruanyifeng.com###gd1
 ruanyifeng.com###homepage_pos
 ruanyifeng.com##.entry-sponsor
-ruanyifeng.com##A[href*=".apeclass.com"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 ruanyifeng.com##a[href*=".100offer.com"]
+ruanyifeng.com##a[href*=".apeclass.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
@@ -22912,6 +22912,7 @@ zznews.cn##.ad:not([style])
 ||8jrc564wtf.cn^
 ||8jzw.com/js/$script
 ||8k8k.me^
+||8kuwoyi.xyz^
 ||8le8le.com^
 ||8le8le.com^$third-party
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru
@@ -28775,6 +28776,7 @@ zznews.cn##.ad:not([style])
 ||ccjxybj.cn^
 ||cckb.online^
 ||cckke.com/fanhao/v/ad
+||cckoza.cn^
 ||cclnuzn.cn^
 ||ccmd.coveredca.com^
 ||ccmdgg.com^
@@ -33552,6 +33554,7 @@ zznews.cn##.ad:not([style])
 ||ersfyt.xyz^
 ||ert.pengwenli.top^
 ||ert5.rmcsport.tv^
+||ertdsi.cc^
 ||ertongjiaju360.com^
 ||erweiblog.xyz^
 ||es.secure.sonosite.com^
@@ -37542,6 +37545,7 @@ zznews.cn##.ad:not([style])
 ||icu.getstorybox.com^
 ||icxmlt.decathlon.ru^
 ||icyrd.com^
+||iczgls.cn^
 ||id-visitors.com^$third-party
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
@@ -38983,6 +38987,7 @@ zznews.cn##.ad:not([style])
 ||jd.com^$domain=gw54.com|xgw5.com
 ||jd.com^$popup,domain=baike567.com|wuhaozhan.net
 ||jd100.com/cwmpc/
+||jd6pq31f.site^
 ||jddaw.com^
 ||jdgcjx.cn^
 ||jdgsgl.com^
@@ -39337,6 +39342,7 @@ zznews.cn##.ad:not([style])
 ||jm166.cn^
 ||jmbbs.cn/sjgg/
 ||jmcnwr.bricoprive.com^
+||jmcomic.asia/iframe_
 ||jmhai.com^
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmking.cn^
@@ -45142,6 +45148,7 @@ zznews.cn##.ad:not([style])
 ||nvshuyun.com^
 ||nvwlm.com^$third-party
 ||nvxin.in^
+||nvzffl.cn^
 ||nwbpsg.amso.pl^
 ||nwhvceb.cn^
 ||nwk6in.cn^
@@ -48638,6 +48645,7 @@ zznews.cn##.ad:not([style])
 ||rongnews.com^
 ||rongnuo.pw^
 ||rongnuo.top^
+||rongsonm.uno^
 ||rongxunet.top^
 ||roofrelation.com^$third-party
 ||roomyreading.com^
@@ -56413,6 +56421,7 @@ zznews.cn##.ad:not([style])
 ||uedvam.tatilsepeti.com^
 ||uefzsx.xxxlutz.cz^
 ||ueg.cc^
+||uekjbr.cn^
 ||uestat.video.qiyi.com^
 ||ufile.cc/crod.js
 ||ufojr.golden1.sogou.com^
