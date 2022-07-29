@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-07-29 08:21:53
-! Total count: 63118
+! Version: 2022-07-29 16:26:41
+! Total count: 63127
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -818,6 +818,7 @@
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
+##.row > a[href="/hth.html"]
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.scupioadslot
@@ -1236,6 +1237,7 @@
 ##a[href*=".hhjs20.com"]
 ##a[href*=".hjikv.cc/"]
 ##a[href*=".hjneng.com/"]
+##a[href*=".hldbld.com/"]
 ##a[href*=".hmwang.cc"]
 ##a[href*=".hndazhan.com/"]
 ##a[href*=".hth379.com/"]
@@ -1631,6 +1633,7 @@
 ##script + #strl
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##script + div[id^="a-loading-"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -20995,6 +20998,7 @@ zznews.cn##.ad:not([style])
 ||1024mzs.pw^$popup,third-party
 ||1024wanzhai.$popup,third-party
 ||102tv.cn/js/main.js
+||103.21.91.144^
 ||103bees.com^$third-party
 ||104.197.140.120^
 ||104.198.198.188^
@@ -37168,6 +37172,7 @@ zznews.cn##.ad:not([style])
 ||htg-x.com^$third-party
 ||htgogogo.cn^
 ||htgsbk.top^
+||htjrlm.com^
 ||htjsk.com^
 ||htm1.ch^$third-party
 ||html.696157.com^
@@ -39943,6 +39948,7 @@ zznews.cn##.ad:not([style])
 ||kanqiuba.net/js/
 ||kansascity.com/nyb-zsooli/
 ||kanseen.com^
+||kanshu.buzz^
 ||kanshu5.net/js/index.js
 ||kantartns.lt^$third-party
 ||kantie.org/a/images/car.jpg
@@ -46034,6 +46040,7 @@ zznews.cn##.ad:not([style])
 ||pap.qualityunit.com^$third-party
 ||papa9394.com^$third-party
 ||papaqq.com^
+||papathp.cn^
 ||papbp.com^
 ||paperfree.cx^
 ||papoto.com^$third-party
@@ -49329,6 +49336,7 @@ zznews.cn##.ad:not([style])
 ||sdd.dzsc.com^
 ||sdd.hi1718.com^
 ||sddan.com^$third-party
+||sdfafds6.com^
 ||sdfjtwp.com^
 ||sdfp.snssdk.com^
 ||sdgmyj.cn^
@@ -54247,6 +54255,7 @@ zznews.cn##.ad:not([style])
 ||tg876.cn^
 ||tgdaudience.com^$third-party
 ||tget.me^$third-party
+||tgfyq.cn^
 ||tgjkbx.cn^$third-party
 ||tgknt.com^$third-party
 ||tglyr.co^$third-party
