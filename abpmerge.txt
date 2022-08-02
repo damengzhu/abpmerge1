@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-02 02:01:35
-! Total count: 62734
+! Version: 2022-08-02 08:23:16
+! Total count: 62741
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -588,6 +588,7 @@
 ##.c-ad
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
+##.carousel-inner > a[href="/hth.html"]
 ##.cc5278_banner_ad
 ##.cfa_popup
 ##.chat-ad
@@ -18893,7 +18894,6 @@ tvsou.com##.story_ad_android
 tvsou.com##.story_ad_content_footer
 tvsou.com##.story_ad_ios
 tvsou.com##[class="clearfix border-btn relative"],[class="shadow recommend-img mt-20"],[class="clearfix border-btn"][style],[class="shadow recommend-img"],.adv-box
-tvyb02.com##script + div[style="text-align:center;"]
 tw.beanfun.com###flybeanfun
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com##.gn_sub_blue
@@ -25645,6 +25645,7 @@ zznews.cn##.ad:not([style])
 ||analytics.clickpathmedia.com^
 ||analytics.cloud.coveo.com^
 ||analytics.cmn.com^
+||analytics.cnblogs.com^
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.cocolog-nifty.com^
 ||analytics.codeforscience.org^
@@ -43571,6 +43572,7 @@ zznews.cn##.ad:not([style])
 ||mkn.hlzyb.cn^
 ||mkoh.top^
 ||mkpzmq.crocs.ru^
+||mkqdj.cn^
 ||mkscuty.cn^
 ||mksogv.oneclickdrive.com^
 ||mkt.animalsafety.neogen.com^
@@ -43914,6 +43916,7 @@ zznews.cn##.ad:not([style])
 ||mseeru.faz.net^
 ||msfvwi.sieuthiyte.com.vn^
 ||msg-intl.qy.net^
+||msg-intl.qy.net^$image
 ||msg.71.am^
 ||msg.c002.ottcn.com^
 ||msg.douyu.com^
@@ -46887,6 +46890,7 @@ zznews.cn##.ad:not([style])
 ||propertypotato.com^
 ||prophet.heise.de^
 ||props.id^$third-party
+||propsad.com^
 ||prospecteye.com^$third-party
 ||prospex.actonservice.com^
 ||protectcrev.com^$third-party
@@ -46937,6 +46941,7 @@ zznews.cn##.ad:not([style])
 ||pstatp.com^*/raven.js
 ||pstatp.com^*/ttstatistics.
 ||pstats.com^$third-party
+||pstdzxu.cn^
 ||pstv.tv/pstv.jpg
 ||pswec.com/px/$third-party
 ||psychedelicchess.com^
@@ -56077,6 +56082,7 @@ zznews.cn##.ad:not([style])
 ||u47.pnc.com^
 ||u5e.com^$third-party
 ||u5fsqf.com^
+||u5ree6.com^
 ||u652.myplainview.com^
 ||u88.cn^$third-party
 ||u8ad.com^
@@ -61118,6 +61124,7 @@ zznews.cn##.ad:not([style])
 ||zuixingkong.com/gao/
 ||zuixingkong.com/show-g/
 ||zuixingkong.com^*mygg/
+||zujilife.online^
 ||zum7cc.oui.sncf^
 ||zunchengmaoyi.cn^
 ||zunmi.cn^
