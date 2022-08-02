@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-02 08:23:16
-! Total count: 62741
+! Version: 2022-08-02 16:24:16
+! Total count: 62759
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9504,6 +9504,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
 @@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
@@ -10892,6 +10893,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
 @@||sax.sina.com.cn/video/newimpress?
+@@||sc.omtrdc.net^$domain=cibc.com
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
@@ -16882,6 +16884,7 @@ mydrivers.com##.btnNext + div:last-child
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 mydrivers.com##.duilian2
 mydrivers.com##.fbh_float
+mydrivers.com##.main_right_div[style="padding-top: 10px;"]
 mydrivers.com##.news_info > div[style*="height:"]
 mydrivers.com##.news_left > div[style*="height:"]
 mydrivers.com##.news_n + div[style*="height"]
@@ -21546,6 +21549,7 @@ zznews.cn##.ad:not([style])
 ||234y.com^
 ||235123.net^
 ||23532451.com^
+||23539355.com^
 ||23617710.com^
 ||23696187.com^
 ||23873645.com^
@@ -22541,6 +22545,7 @@ zznews.cn##.ad:not([style])
 ||666736.xyz^
 ||666737.xyz^
 ||666738.xyz^
+||666739.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -32140,6 +32145,7 @@ zznews.cn##.ad:not([style])
 ||dongsiping.xyz^
 ||dongsonn.uno^
 ||dongtian.buzz^
+||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||dongzhixia1688.com^
 ||doniv.net^$third-party
 ||donkeyleaf.com^
@@ -40458,7 +40464,8 @@ zznews.cn##.ad:not([style])
 ||lastminute.com/ose/tracking/
 ||lastminute.com/service/track/
 ||lastminute.com^*/metrics
-||lastpass.com/dist/scripts/analyticsjs
+||lastpass.com/lpapi/content/pixels
+||lastpass.com/m.php/proxy_tracker
 ||latam.thomsonreuters.com^
 ||lattestatic.lattebank.com/huanbapp.apk
 ||laughablecopper.com^
@@ -44270,6 +44277,9 @@ zznews.cn##.ad:not([style])
 ||n.mailfire.io^$third-party
 ||n.mark.letv.com^
 ||n.sapxg.cn^$domain=m.630shu.com
+||n0211.com^
+||n0244.com^
+||n0255.com^
 ||n0399.com^
 ||n0909.com^
 ||n2.hk/apps/car_feed/tb/*/banner.html
@@ -44615,6 +44625,7 @@ zznews.cn##.ad:not([style])
 ||nghdp.cn^
 ||ngmco.net^$third-party
 ||ngpvan.com/v1/Track/
+||ngqph.cn^
 ||ngs.ru/s/
 ||ngueja.2ememain.be^
 ||ngwadzu.cn^
@@ -45577,6 +45588,7 @@ zznews.cn##.ad:not([style])
 ||oxidy.com^$third-party
 ||oxifwsabgd.nzz.ch^
 ||oxmun.com^
+||oxneww.co^
 ||oxrm.com^$third-party
 ||oxtrmw.marinarinaldi.com^
 ||oxzwsxs.cn^
@@ -56065,8 +56077,10 @@ zznews.cn##.ad:not([style])
 ||u.riju.com/click.php
 ||u.txuesoft.cn^
 ||u.zuoyesou.com^
+||u0062.com^
 ||u0065.com^
 ||u0067.com^
+||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
 ||u1.2048sj.com^
@@ -56618,6 +56632,7 @@ zznews.cn##.ad:not([style])
 ||vbillplus.cn^
 ||vbsjdd.olx.pt^
 ||vbtdzb.fyndiq.se^
+||vbutjg.com^
 ||vccyb.ltd^
 ||vch.voyage-prive.ch^
 ||vchim.com^
@@ -56688,6 +56703,7 @@ zznews.cn##.ad:not([style])
 ||very010.com^
 ||verycleaner.cn^
 ||verypopularwebsite.com^$third-party
+||vesdsp.com^
 ||vesti.ru/counter/
 ||vet0.carrefour-banque.fr^
 ||veyu.idubwz.cn^
@@ -59397,6 +59413,7 @@ zznews.cn##.ad:not([style])
 ||xs177.com/js/shangbu.js
 ||xs8.cn/qreport?
 ||xs8888.vip^
+||xsbiqugew.com^*.php
 ||xscmzs.tenki.jp^
 ||xsdizch.cn^
 ||xsdj.lm663.com^
@@ -61335,6 +61352,7 @@ zznews.cn##.ad:not([style])
 2mi.tv##[height="95"]
 2mmei.com##div#xm.xm
 2ujj.com#@#.ad350
+2yjw.com##.orbui
 2yjw.com##.widget-tops
 3boys2girls.com###displayadb1
 3boys2girls.com###displayadbu3
