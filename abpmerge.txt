@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-02 16:24:16
-! Total count: 62759
+! Version: 2022-08-03 01:48:46
+! Total count: 62788
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -6579,6 +6579,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /onetag/*
 /onetagv2/*
 /onfocus-tag.
+/onl/track.php?
 /onlinecount.php
 /onsitegeo.
 /onstuimig-tag-
@@ -7779,6 +7780,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /stats/tracker.js
 /stats/tracking.
 /stats/transp.bmp
+/stats/v2/visit?
 /stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
@@ -7887,6 +7889,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /tags?session_id=
 /tagx.js
 /tailtarget.js
+/taiyangchengjituantupian.
 /talpa-analytics/*
 /tan.js
 /tan1.js
@@ -7927,6 +7930,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /telemetry/log/*
 /template/*/adm/*
 /template/*/ads/*
+/template/1/images/t2.gif
 /template/23ttav/js/aa.htm
 /template/bingfeng/statics/js/pingbi.js
 /template/conch/asset/js/hlhtml.
@@ -12335,10 +12339,10 @@ bilibili.com##a[data-target-url*=".taobao.com"]
 bilibili.com##a[href$="_suning.html"]
 bilibili.com##a[href*=".doubleclick."]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
-bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
@@ -14083,7 +14087,6 @@ fuliba.net,fulibba.net##DIV.widget > TABLE[width="265"][align="center"],a[rel="n
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net###focusslide
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_custom_html
 fuliba2020.net,fuliba2021.net,fuliba2022.net,uliba.net##.widget_ui_slider
-fuliba2021.net,itdog.cn##.orbui
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fulibac.com##.ad_two,.ad_free
 fulibar.net##.banner.banner-contenttop,.d_banner,.d_slidebanner,.adsbygoogle
@@ -17749,6 +17752,8 @@ quanmin.tv##.rbananer,.middleBananer,.starbananer,.star-ad-bottom,.play-bottom-h
 qudao.com###wechat
 qudong.com##.advert_bottom
 quickapp.cn
+quiet-quiet.com###fleft
+quiet-quiet.com###float
 qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 qunar.com##DIV.b_banner,[id^="ad_"],OBJECT[id^="banner_home_"],div.qn_slide,div#QNT_box,div.mp-download,#js_bannerContent
@@ -21386,6 +21391,7 @@ zznews.cn##.ad:not([style])
 ||1cros.net^
 ||1ctc.sfr.fr^
 ||1d1a.com^
+||1dfsdfg.com^
 ||1dmp.io^$third-party
 ||1e4y54ve.cn^
 ||1f3k.com^
@@ -22546,6 +22552,7 @@ zznews.cn##.ad:not([style])
 ||666737.xyz^
 ||666738.xyz^
 ||666739.xyz^
+||666742.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -23016,6 +23023,7 @@ zznews.cn##.ad:not([style])
 ||92qj1u.cn^
 ||92sales.com^
 ||92uq.com/Ads/
+||9304hhh999.vip^
 ||930cn.top^
 ||933m.com/1.js
 ||9377.com/api/client_data_receive.php?
@@ -29429,7 +29437,9 @@ zznews.cn##.ad:not([style])
 ||clickguardian.co.uk^$third-party
 ||clicki.cn^
 ||clicki.cn^$third-party
+||clickiocdn.com/clickiotag_log/
 ||clickiocdn.com/consent/log/
+||clickiocdn.com/utr/
 ||clickmail.stubhub.com^$image,script
 ||clickmanage.com^$third-party
 ||clickmap.ch^$third-party
@@ -33927,6 +33937,7 @@ zznews.cn##.ad:not([style])
 ||factors.ai/sdk/event/
 ||factortg.com^$third-party
 ||factory.redbull.racing^
+||fadacaitp.com^
 ||fadama.com^$third-party
 ||fadedprofit.com^
 ||fadedsnow.com^$third-party
@@ -35544,6 +35555,7 @@ zznews.cn##.ad:not([style])
 ||go2av.com/js/AM.js
 ||go2link.net^$third-party
 ||go2tutor.com/lifebox.asp
+||go2yd.com^
 ||goadservices.com^$third-party
 ||goadv.com^*/track.js
 ||goaffpro.com/track
@@ -36370,6 +36382,7 @@ zznews.cn##.ad:not([style])
 ||hdchina.*/styles/topshow/AD/
 ||hddss.top^
 ||hdfdm.com^
+||hdgzta.com^
 ||hdherpc.cn^
 ||hdjlkj.vip^
 ||hdjxmf.com^
@@ -36389,6 +36402,7 @@ zznews.cn##.ad:not([style])
 ||hdslb.com/js/bfd.js
 ||hdslb.com/js/core-v5/picment.
 ||hdsrc-a.akamaihd.net^
+||hdtu.oss-cn-beijing.aliyuncs.com^
 ||hdvkl.cn^
 ||hdw0.top^
 ||hdypw.com^
@@ -37799,6 +37813,7 @@ zznews.cn##.ad:not([style])
 ||img6.126.net^
 ||img999.com^$popup,domain=tt1069.com
 ||imgadsame.liba.com^
+||imgapp.top^
 ||imgbaiduxz.xyz/jsjsjs/
 ||imgbus.com^$domain=88files.net
 ||imgbus.com^$domain=ref.so
@@ -44281,6 +44296,7 @@ zznews.cn##.ad:not([style])
 ||n0244.com^
 ||n0255.com^
 ||n0399.com^
+||n0488.com^
 ||n0909.com^
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
@@ -44773,6 +44789,7 @@ zznews.cn##.ad:not([style])
 ||nmwbank.cn^
 ||nmykf.mobi^
 ||nmyp.ltd^
+||nngzfd.cn^
 ||nnivvr.zimmo.be^
 ||nnllupyu.top^
 ||nnocsin.cn^
@@ -47104,6 +47121,7 @@ zznews.cn##.ad:not([style])
 ||pvtest.zol.com.cn^
 ||pvx.xcar.com.cn^
 ||pvxymnz.cn^
+||pvzdrx.cn^
 ||pw.gigazine.net^
 ||pw321.com/bulu/
 ||pw321.com^
@@ -49742,6 +49760,7 @@ zznews.cn##.ad:not([style])
 ||shimo.im^*/ads?
 ||shinesavage.com^
 ||shinestuart.com^
+||shino3ur.xyz^
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
 ||shinystat.com^$third-party
@@ -49820,6 +49839,7 @@ zznews.cn##.ad:not([style])
 ||shrillspoon.com^
 ||shrink-service.it/js/cM.js
 ||shroughtened.com^$third-party
+||shscva.cn^
 ||shsdw.cn^
 ||shspdt.com^
 ||shspdt.com^$domain=11papapa.com
@@ -54422,6 +54442,7 @@ zznews.cn##.ad:not([style])
 ||tonghuacun.com/js/uc.js
 ||tonghuaji.com^
 ||tongj.xilu.com^
+||tongji-badu.cc/listplay.
 ||tongji.info^
 ||tongji.mafengwo.cn^
 ||tongji.meizu.com^
@@ -56009,6 +56030,7 @@ zznews.cn##.ad:not([style])
 ||txgg2022bisheng.com^
 ||txie.club^
 ||txmsw.mobi^
+||txnnhz.cn^
 ||txpbnm.sevellia.com^
 ||txscn.cn^
 ||txshuku.com/js/
@@ -56077,9 +56099,12 @@ zznews.cn##.ad:not([style])
 ||u.riju.com/click.php
 ||u.txuesoft.cn^
 ||u.zuoyesou.com^
+||u0056.com^
+||u0057.com^
 ||u0062.com^
 ||u0065.com^
 ||u0067.com^
+||u0071.com^
 ||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
@@ -56192,6 +56217,7 @@ zznews.cn##.ad:not([style])
 ||uefzsx.xxxlutz.cz^
 ||ueg.cc^
 ||uekjbr.cn^
+||uengbalc.fun^
 ||uestat.video.qiyi.com^
 ||ufile.cc/crod.js
 ||ufojr.golden1.sogou.com^
@@ -58987,6 +59013,7 @@ zznews.cn##.ad:not([style])
 ||xeihy.com^
 ||xektyy.cn^
 ||xenaly.sozcu.com.tr^
+||xengbale.fun^
 ||xerhibx.cn^
 ||xfast.host^$third-party
 ||xfdqxfpm.cn^
@@ -59476,6 +59503,7 @@ zznews.cn##.ad:not([style])
 ||xuhaijun.pw^
 ||xujie.xyz^
 ||xujingch.com^
+||xujmcrc.cn^
 ||xujx8.com^
 ||xulilin.ltd^
 ||xulizui6.com^
@@ -61146,6 +61174,7 @@ zznews.cn##.ad:not([style])
 ||zunchengmaoyi.cn^
 ||zunmi.cn^
 ||zunxiangjiazheng07712444061.com^
+||zuoai99hair.com^
 ||zuofang05.com/template/mytheme/statics/image/1/
 ||zuolgc.cn^
 ||zuopp.com^
@@ -61352,8 +61381,8 @@ zznews.cn##.ad:not([style])
 2mi.tv##[height="95"]
 2mmei.com##div#xm.xm
 2ujj.com#@#.ad350
-2yjw.com##.orbui
 2yjw.com##.widget-tops
+2yjw.com,fuliba2021.net,itdog.cn##.orbui
 3boys2girls.com###displayadb1
 3boys2girls.com###displayadbu3
 3boys2girls.com###div3_display3
