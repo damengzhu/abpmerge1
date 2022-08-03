@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-03 08:24:17
-! Total count: 62793
+! Version: 2022-08-03 16:25:12
+! Total count: 62798
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -588,7 +588,6 @@
 ##.c-ad
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
-##.carousel-inner > a[href="/hth.html"]
 ##.cc5278_banner_ad
 ##.cfa_popup
 ##.chat-ad
@@ -821,7 +820,6 @@
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
-##.row > a[href="/hth.html"]
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.scupioadslot
@@ -848,7 +846,6 @@
 ##.tab-content + .col-pd
 ##.table_ad
 ##.text-ad
-##.text-center > a[href="/hth.html"]
 ##.textAd
 ##.textad
 ##.textadlist
@@ -1536,6 +1533,7 @@
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
+##a[title][href="/hth.html"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body[class|="view"] > .ad-box
@@ -8943,6 +8941,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /xiti_oas/*
 /xitistatus.js
 /xitongxiaoxi.
+/xiwang/dfumeiti.js
+/xiwang/fumeiti.js
 /xminer.js
 /xminer.min.js
 /xmint/?js
@@ -9276,7 +9276,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -37659,6 +37659,7 @@ zznews.cn##.ad:not([style])
 ||ijaabm.nbcsports.com^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
+||ijre.club^
 ||ijshh.com^
 ||ijshs.com^
 ||ijsks.com^
@@ -39546,6 +39547,7 @@ zznews.cn##.ad:not([style])
 ||juqingba.cn/templets/Default/css_juqingba/cont.js
 ||juqingw.com/js/tad
 ||juren0.com^
+||juringupstage.com^
 ||jurl.pw^
 ||jus.198dh.cn:811^
 ||jusdq.com^
@@ -46394,6 +46396,7 @@ zznews.cn##.ad:not([style])
 ||pjatr.com^$third-party
 ||pjbjzf.com^
 ||pjbncv.ode.co.kr^
+||pjcdjtn.cn^
 ||pjcn.org^$third-party
 ||pjh7.us.chantelle.com^
 ||pji2.r36ku.site^
@@ -56023,6 +56026,7 @@ zznews.cn##.ad:not([style])
 ||twrank.com^
 ||twrank.com^$third-party
 ||twtiq.xyz^
+||twuafbj.cn^
 ||twuekgl.cn^
 ||twunbbs.com/images/
 ||twus-mms.theweek.com^
@@ -56079,6 +56083,7 @@ zznews.cn##.ad:not([style])
 ||tz284.com^$third-party
 ||tz88.store^
 ||tzbtw.com^
+||tzcfyre.cn^
 ||tzegilo.com^
 ||tzfdc.com.cn/userfiles/flash/
 ||tzfdc.com/Images/09/flv/flv_index.js
