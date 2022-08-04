@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-03 16:25:12
-! Total count: 62798
+! Version: 2022-08-04 01:45:04
+! Total count: 62772
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -853,7 +853,6 @@
 ##.theme_custom_slidebox-ad-below
 ##.themepark_advertisement
 ##.title > .gg
-##.tm3all2h4b
 ##.tmall_ad_container
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
@@ -1472,7 +1471,6 @@
 ##a[href="/goto.php?url=hth"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="http://hqbet2191.com"]
-##a[href="http://t.cn/E2PgiG1"]
 ##a[href="http://t.cn/Ex0cCbt"]
 ##a[href="http://www.tw787.com/"]
 ##a[href="http://www.yabovip5.cc/"]
@@ -7790,7 +7788,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /stats?event=
 /stats?object
 /stats?referer=
-/stats?sid=
 /stats?style$~xmlhttprequest
 /statsVisitesAnnonces?
 /stats_adcalls/*
@@ -10639,6 +10636,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 @@||nceea.cn/Content/images/ad/
+@@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||netded.com/plus/ad_js.php?aid=3|
 @@||netflav.com^$generichide
@@ -10948,7 +10946,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
-@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -12119,18 +12116,7 @@ baike.com###ad-xnsc
 baike.com###newsfix-on
 baike.com##.ad_xuanban
 baike.haosou.com##div#bnbtm-banner,#dwAdBox,div#rightbanner
-baike567.com,wuhaozhan.net##.aaaaa
 baike567.com,wuhaozhan.net##.pure-u-md-8-24 iframe
-baike567.com,wuhaozhan.net##[onclick*=".tb.cn"]
-baike567.com,wuhaozhan.net##[onclick*="open"]
-baike567.com,wuhaozhan.net##a[href*=".click"]
-baike567.com,wuhaozhan.net##a[href*="otb."]
-baike567.com,wuhaozhan.net##a[onclick*=".tmall.com"]
-baike567.com,wuhaozhan.net##div[class*="main-righ"] iframe
-baike567.com,wuhaozhan.net##div[class^="hongbao"]
-baike567.com,wuhaozhan.net##div[id$="eBox"]
-baike567.com,wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/[0-9]元|生鲜|双1|美团|活动|京东|年货|红包|支付|天猫/))
-baike567.com,wuhaozhan.net#?#:-abp-has(> .ad_top_close)
 baikebcs.bdimg.com/*banner*.jpg
 baishi.baidu.com##.video-adv,.adv-container,#playerPauseAdv
 baiten.cn##.JS_advertisement
@@ -17889,8 +17875,6 @@ rrys2019.com##.float_middel_ad_bk
 rrys2019.com##.key-result > li > a[href*=".taobao.com"]
 rrys2020.com###indexNav1
 rrys2020.com##.corner > LI > A[href*="yyets."]
-rs05.com##.adv_bottom
-rs05.com##.side-bar-first
 rs05.com##[class^="adv_"]
 rs66.com##.arttopad1
 rsdown.cn##.cq-tips
@@ -19159,7 +19143,6 @@ wanghualang.com##.theiaStickySidebar
 wanghualang.com##div.ad_h
 wangpan007.com##[width="160"][height="350"]
 wangpanwu.com##TABLE[width="978"][align="center"],TABLE[width="720"]:first-child,[href*=".taobao.com"]
-wangqianfang.cn##a[href^="http://mai.qnfuli.com/"]
 wangshu.la###cs_right_bottom,.adhtml,.adlist
 wangyesifu.com##div.a_fr.a_cb,div.wp.a_t
 wangyueblog.com##div.widget.wigget_sponsors,ul.weibo,div.hsponsor,div.ad
@@ -19272,7 +19255,6 @@ wenda.haosou.com##div#e_idea_wenda_detail_rightBox,.mod-top-ad,div.garllery_ad,d
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wenda.so.com##div#tuiguang,.js-show-data,.garllery_ad
 wenda.tianya.cn##.s1Tit + .sideBox
-wendangwang.com###divActivity
 wendangxiazai.com###ft_hb
 wendu.cn###banner,#topads,div.summary,.duilian,[class^="t_2015_"],#top
 wendu.cn###topads
@@ -19318,10 +19300,7 @@ whnews.cn###gd_r
 whnews.cn###panel
 whnews.cn##.whnews_a_dv
 whnight.com##DIV.a_mu,DIV.wp.a_t,DIV.a_pb
-whsir.com###adswidget1-quick-adsense-2
 widgets.outbrain.com/outbrain.js
-wigcw.cn##.alert-block
-wigcw.cn##a[href*=".gwents.com"]
 wiley.com##.advert-leaderboard__container,.skyscraper--left
 win007.com##[id^="ad_"]
 win007.com##a[href^="http://www.edewin.com/"]
@@ -19350,7 +19329,6 @@ wise99.com###ad_001,#rightConDIV_ad,#mid_banner
 wise99.com###top_menu01{height: 130px;}
 wiseway.com.cn##.float-kefu
 wishdown.com##img[href*=".41gw.com/"]
-witcp.com##.global_ifmobile_mask
 wj001.com###guanggao,#ad,#ad1
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 wjyhao.com^
@@ -19391,8 +19369,6 @@ wps.cn##.school
 wszhibo.com##.ads_block,#rightAD,#leftAD
 wuchajian.net##.UPAD,.TopAD,.headAD,[class^="TextAd"]
 wucuowx.com##[height="90"]
-wuhaozhan.net##.xsl111
-wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 wuhaozhan.net$$div[class="item-box"]
 wuhaozhan.net$$dl[class="item-fifth-dd shadow"]
 wuxi.cn##.ada1,.ada2,.ada3,.adgood
@@ -20032,7 +20008,6 @@ xs8.cn###show_down
 xs99.cc##ins.adsbygoogle,iframe[height="345"],div.ad,div[style="MARGIN: 3px; WIDTH: 360px; FLOAT:right; HEIGHT: 300px"],table[height="130"]
 xsbashi.com##ins.adsbygoogle,div#winpop,div#zuo
 xskhome.com##div[id$="cs_right_bottom"],#adbg,.startgame
-xsldh6.com##div[id^="slide"] > .pure-g:nth-child(3)
 xt70.com##.xzbox-ad1
 xtgreat.com
 xtuan.com###foot_zhaobiao_bar
@@ -22553,6 +22528,7 @@ zznews.cn##.ad:not([style])
 ||666738.xyz^
 ||666739.xyz^
 ||666742.xyz^
+||666744.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -29543,7 +29519,6 @@ zznews.cn##.ad:not([style])
 ||clouderrorreporting.googleapis.com^
 ||cloudflare.com/_cf/analytics.js
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
-||cloudflare.com/ajax/libs/jquery.blockUI/$domain=wantgoo.com
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
 ||cloudflareinsights.com^$third-party
 ||cloudfront-666.kxcdn.com/v4.js
@@ -33459,6 +33434,7 @@ zznews.cn##.ad:not([style])
 ||epromote.co.za/track/
 ||eproof.com^$third-party
 ||eproof.drudgereport.com^
+||eprxasz.cn^
 ||eps-analyzer.de^$third-party
 ||epu.1024txt.xyz^
 ||eqbyc.com^
@@ -36366,7 +36342,6 @@ zznews.cn##.ad:not([style])
 ||hcjpbc.okmagazine.com^
 ||hcjpbc.usmagazine.com^
 ||hcll20.oxjaus.com^
-||hcmoo.com/mm.js
 ||hcmyfni.cn^
 ||hcnegb.cn^
 ||hcvhhj.cc^
@@ -36831,6 +36806,7 @@ zznews.cn##.ad:not([style])
 ||hnksln.com^
 ||hnkuangshan.cn^
 ||hnltcw.com^
+||hnmucsm.cn^
 ||hnnuaa.willhaben.at^
 ||hnnuange.com^
 ||hnol.net^
@@ -36905,6 +36881,7 @@ zznews.cn##.ad:not([style])
 ||honorablehall.com^
 ||honorablehydrant.com^
 ||honorableland.com^$third-party
+||honqdyg.cn^
 ||hoo.be/api/hoobe/analytics
 ||hoopchina.com.cn/common/lazyLoadAd.js
 ||hoopchina.com.cn/gamecenter/side-stg.js
@@ -37092,6 +37069,7 @@ zznews.cn##.ad:not([style])
 ||huancaicp.com/?pid=$popup
 ||huangyeqing.cn^
 ||huanjugu.com/dm
+||huanleshijie.top^
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
@@ -37390,6 +37368,7 @@ zznews.cn##.ad:not([style])
 ||iadvize.com/collector/
 ||iagc.com.cn^
 ||iahjoni.cn^
+||ialmwof.cn^
 ||ianimes.org/img/tracker.gif
 ||ianpos.com^$third-party
 ||iapolo.com/myjs/
@@ -38884,7 +38863,6 @@ zznews.cn##.ad:not([style])
 ||jd.com/static/js/auto.js
 ||jd.com/static/js/cpc.js
 ||jd.com^$domain=gw54.com|xgw5.com
-||jd.com^$popup,domain=baike567.com|wuhaozhan.net
 ||jd100.com/cwmpc/
 ||jd6pq31f.site^
 ||jddaw.com^
@@ -47090,7 +47068,6 @@ zznews.cn##.ad:not([style])
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
 ||puui.qpic.cn/vcolumn_pic/0/logo_qing_xi_color_336_108.png/0$app=com.tencent.qqlive
-||puui.qpic.cn^
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
 ||puwxbcb.cn^
@@ -52982,6 +52959,7 @@ zznews.cn##.ad:not([style])
 ||strategy.beacon.qq.com^
 ||strategycompanion.actonservice.com^
 ||strawberry.basf.com^
+||strcloud.in/stat/
 ||streamads.com/view?
 ||streambeam.io^$third-party
 ||streamsend.com^$third-party
@@ -53200,6 +53178,7 @@ zznews.cn##.ad:not([style])
 ||svem.cc^
 ||svip.wxiansen.cn^
 ||svjxuba.cn^
+||svlzckw.cn^
 ||svm6ryo.cn^
 ||svnlnk.com/aff/trk.html
 ||svoywu.autoscout24.de^
@@ -53685,7 +53664,6 @@ zznews.cn##.ad:not([style])
 ||taobao.com/js/smartbanner/
 ||taobao.com/tracker.
 ||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com|xibupan.com
-||taobao.com^$popup,domain=baike567.com|wuhaozhan.net
 ||taobao.com^$popup,domain=dlkoo.cc
 ||taobao.com^$popup,domain=dlkoo.com
 ||taobao.qq.com^
@@ -54354,6 +54332,7 @@ zznews.cn##.ad:not([style])
 ||tklm77.top^
 ||tklyfe.esthetic-nails.ru^
 ||tkmdng.cn^
+||tkngckh.cn^
 ||tkqlhce.com^$third-party
 ||tkshyp.com^
 ||tkvied.levi.com.my^
@@ -54377,7 +54356,6 @@ zznews.cn##.ad:not([style])
 ||tm.uol.com.br^
 ||tm.urssaf.fr^
 ||tm.vendemore.com^
-||tmall.com^$popup,domain=baike567.com|wuhaozhan.net
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmbsxx.oxybul.com^
@@ -57231,7 +57209,6 @@ zznews.cn##.ad:not([style])
 ||wangkeduo.cn^
 ||wangketuan.com^
 ||wangkuang.net.cn^
-||wangpan007.com/themes/default/js/global.js
 ||wangqing7.top^
 ||wangqipu.com^
 ||wangxiankang.top^
@@ -57746,7 +57723,6 @@ zznews.cn##.ad:not([style])
 ||whosread.com/counter/
 ||whrsen.itemmania.com^
 ||whsia.cn^
-||whsir.com/image/2021600x100.png
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whusihgq.cn^
 ||whwdzgykybnfg.com^
@@ -57778,8 +57754,6 @@ zznews.cn##.ad:not([style])
 ||wifeo.com/compteurs/$third-party
 ||wifi.com^
 ||wifi33.com^
-||wigcw.cn/20180109150051.png
-||wigcw.cn/240X355.jpg
 ||wigglygeese.com^
 ||wigglyindustry.com^
 ||wigkxx.jetcost.com^
@@ -58143,7 +58117,6 @@ zznews.cn##.ad:not([style])
 ||wudejia.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
-||wuhaozhan.net/img/sponsors-
 ||wujinzy.com/images/ok.gif
 ||wujiupic.com^
 ||wukelansm.top^
@@ -59817,6 +59790,7 @@ zznews.cn##.ad:not([style])
 ||yelp.com/bunsen/
 ||yema.shop^
 ||yemnn.cn^
+||yengbalf.fun^
 ||yengo.com^
 ||yenlm.com^
 ||yeptube.com/collect
