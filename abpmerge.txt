@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-05 16:26:30
-! Total count: 62825
+! Version: 2022-08-06 01:28:20
+! Total count: 62819
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9249,7 +9249,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/adblockDetector.$domain=softwarebrother.com
 @@/adblock_$domain=xingk.cc
 @@/adfile/*$domain=cidianwang.com
-@@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
@@ -9264,7 +9263,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/adsbygoogle.$domain=moa.tw
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=mndxy.org
-@@/adsimg/*$domain=wdxuexi.com
 @@/adslider/*$domain=firstbank.com.tw
 @@/adsystem/*$domain=adcenter.dhgate.com
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
@@ -10540,7 +10538,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||macauo2o.com/advertise/
-@@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||manhua.weibo.com/adv/
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
@@ -10647,7 +10644,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||netflav.com^$generichide
 @@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
-@@||newad.mail.wo.cn^
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||news.u17i.com/advert/
@@ -11248,7 +11244,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
-@@||websetnet.com^$generichide
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||weibo.com/adshow/
 @@||weibo.com/api/weipan/getAds
@@ -11271,7 +11266,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||wix.com/_api/*count?type$~third-party
 @@||wl.jd.com/joya.js
 @@||wl.jd.com/wl.js
-@@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@||wowsai.com/data/files/ad/
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
@@ -11547,7 +11541,7 @@ acgking.com##.asst
 acgking.com,dbtmn.com##.asst
 acglala.me##a[href*=".h-ero.games"]
 acglala.net##.gg_img
-acglala.net,boke112.com,ruanyifeng.com,techug.com,vaikan.com,webhek.com##a[href^="http://t.cn/"]
+acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 acgsou.com##[href^="/qxads/ads"]
@@ -18589,9 +18583,11 @@ tech.sina.cn##SECTION[class='s_card j_article_relevent_news z_c2']
 tech.sina.com.cn##iframe[src^="http://pfp.sina.com.cn/iframe/tech/"]
 techbang.com###stickies
 techbang.com##.google-dfp
-techug.com##.mug
 techug.com##.mysense,.adsbygoogle,.google-ad,[class$=" content inline"],.mug.cup
 techug.com##[href$=".taobao.com/"]
+techug.com##a[href*="/222.html"]
+techug.com##a[href*="/eee.html"]
+techug.com,webhek.com##a[href*="/4r4.html"]
 techweb.com.cn##[href^="http://click.aliyun.com"],[href="http://itest.techweb.com.cn/smcs.shtml?test"]
 techweb.com.cn##div.xxbox_news,A[href^="http://s.click.taobao.com/t?"],div#liepin,IMG[src^="http://s1.techweb.com.cn/static/images/"],img[alt="aliyun"],div[class^="xxbox"],div.right_yl.guanggaowei,.adsbygoogle,[id="Javascript.LeftDiv"],[id="Javascript.RightDiv"]
 teddysun.com##.sidebar > .widget:nth-child(2)
@@ -19153,7 +19149,6 @@ wangshu.la###cs_right_bottom,.adhtml,.adlist
 wangyesifu.com##div.a_fr.a_cb,div.wp.a_t
 wangyueblog.com##div.widget.wigget_sponsors,ul.weibo,div.hsponsor,div.ad
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
-wanqu.co##.brand-ad
 wanqu.co##.left-nav-panel:first-child
 wantgoo.com###FixModal
 wantgoo.com#@#.shareBtns
@@ -28165,6 +28160,7 @@ zznews.cn##.ad:not([style])
 ||bsshw.net^
 ||bstn-14-ma.com^$third-party
 ||bsytjc.com^
+||bsytkas.cn^
 ||bt-tt.com/ad.js
 ||bt-xd.com^
 ||bt.cn/bbs/newsimg/
@@ -28963,6 +28959,7 @@ zznews.cn##.ad:not([style])
 ||chang555.cn^
 ||changchunyitian.online^
 ||changhehengqi.com^
+||changqingteng.ltd^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
 ||changshuohr.net^
 ||changxu.cool^
@@ -29481,7 +29478,6 @@ zznews.cn##.ad:not([style])
 ||clickzzs.nl^$third-party
 ||client-analytics.braintreegateway.com^
 ||client-log.box.com^
-||client.88tours.com^
 ||client.tahono.com^$third-party
 ||client.tv.uc.cn^
 ||clientaccess.10086.cn/biz-orange/DN/init/startInit
@@ -40010,6 +40006,7 @@ zznews.cn##.ad:not([style])
 ||kiwisizing.com/api/log
 ||kj-gov.cn^
 ||kj733.com^
+||kjbyuguv12.com^
 ||kjcenter.com^$third-party
 ||kjfoqi.cn^
 ||kjgen.com^
@@ -40250,8 +40247,6 @@ zznews.cn##.ad:not([style])
 ||kuhou.com^$third-party
 ||kuk8.com^
 ||kuk8.com^$third-party
-||kukan5.com/ad
-||kukan5.com/indexxzad.jpg
 ||kukanlm-lubu1.com^
 ||kukanlm-my1.com^
 ||kukanlm-youeryuan.com^
@@ -45881,6 +45876,7 @@ zznews.cn##.ad:not([style])
 ||parsimoniouspolice.com^$third-party
 ||partenaireslld.temsys.fr^
 ||particularaudience.com^$third-party
+||partieseclipse.com^
 ||partner.cynapse.com^
 ||partner.googleadservices.com^$third-party
 ||partner.haru-shop.jp^
@@ -46042,6 +46038,7 @@ zznews.cn##.ad:not([style])
 ||pendo.io/data/ptm.gif
 ||penghy.top^
 ||pengjunjun.site^
+||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||penspade.com^$third-party
@@ -49185,6 +49182,7 @@ zznews.cn##.ad:not([style])
 ||sdljvrf.cn^
 ||sdlmhb.com^
 ||sdo.com/static/image/mkads/
+||sdqinghong.cn^
 ||sdqoi2d.com^
 ||sdqoi2d.com^$third-party
 ||sdrenbang.com^
@@ -50067,6 +50065,7 @@ zznews.cn##.ad:not([style])
 ||sinaimg.cn^*/yyy_pop
 ||sinaimg.cn^*_wap_ad_
 ||sinaimg.com^$domain=dayanzai.me
+||sinaimges.com^
 ||sinajs.cn/open/analytics/
 ||sinajs.cn/open/api/js/wb.js
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
@@ -53928,7 +53927,6 @@ zznews.cn##.ad:not([style])
 ||techsolutions.com.tw^$third-party
 ||techssl.net.zooplus.de^
 ||techtarget.com^*/GetCookiesWithCallback?
-||techug.com/mug/
 ||techweb.com/beacon/
 ||ted-club.com^
 ||ted.dailymail.co.uk^
@@ -55969,6 +55967,7 @@ zznews.cn##.ad:not([style])
 ||tukj.net^
 ||tukkpixabay.com^
 ||tukuru.cotta.jp^
+||tuliglsd.space^
 ||tulip18.com^$third-party
 ||tumblebirds.com^
 ||tumblr.com/impixu?
@@ -57281,6 +57280,7 @@ zznews.cn##.ad:not([style])
 ||wangzj.top^
 ||wanm.lm335.com^
 ||wanmei.com/public/js/stat.js
+||wanmei.la/a*.js
 ||wansan66.top^
 ||wanshangyin.icu^
 ||wantaiss.com^
@@ -57681,7 +57681,6 @@ zznews.cn##.ad:not([style])
 ||wenku.baidu.com/browse/interface/getrec?
 ||wenku.baidu.com/tongji/
 ||wenku.baidu.com/xpage/$xmlhttprequest
-||wenku1.com/js/head.js
 ||wenku8.net/js/
 ||wenkuxiazai.com^*reward
 ||wenlang.com^$third-party
@@ -57916,7 +57915,6 @@ zznews.cn##.ad:not([style])
 ||wlxww.com/html/analytics/
 ||wm.mipcdn.com^
 ||wm.szdushi.com.cn^
-||wm114.cn/0images/hlbxd3.jpg
 ||wmbd.gamersky.com^
 ||wmbuilr.cn^
 ||wmcdn.net^$domain=liyuans.com
@@ -57931,9 +57929,6 @@ zznews.cn##.ad:not([style])
 ||wmrmb.cn^$third-party
 ||wmspw.com^
 ||wmtools.it/wmtcounter.php?
-||wmzhe.com/pics/ae/d3/
-||wmzhe.com/static/wmzhe/images/cjzg/
-||wmzhe.com/static/wmzhe/images/suishenbao/
 ||wn.com/count.js
 ||wn68din.cn^
 ||wn789.com/wp-content/uploads/*/SugarHosts
@@ -57970,7 +57965,6 @@ zznews.cn##.ad:not([style])
 ||woaijiba.com^
 ||woaiseo.com.cn^
 ||wobo888.cc^
-||wobuka2.com/js/
 ||wodemeitu.com^
 ||wodemeitu.com^$third-party
 ||wodenongtian.com^
@@ -58868,7 +58862,6 @@ zznews.cn##.ad:not([style])
 ||wxs.qq.com^
 ||wxskqy.cn^
 ||wxsohu.com^
-||wxt999.net/template/*/images/g_js/
 ||wxtp.cdn.bcebos.com^$popup
 ||wy123.fun^
 ||wy213.com^$popup,third-party
@@ -60373,6 +60366,7 @@ zznews.cn##.ad:not([style])
 ||yular.cn^
 ||yule8.net^
 ||yulidianshang.com^
+||yuliglsd.space^
 ||yulonginvest.com.cn^
 ||yumi06.com^
 ||yumingdan.top^
