@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-07 08:20:10
-! Total count: 62651
+! Version: 2022-08-07 16:22:17
+! Total count: 62628
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -222,6 +222,7 @@
 ###left_top_ad
 ###left_up_float_ad
 ###leftad
+###ljPz
 ###login_wp.foot_flwp
 ###lovexin1
 ###lovexin11
@@ -376,6 +377,7 @@
 ##.C1U,.C1M,.C2L,.C2R
 ##.Flagrow-Ads-under-header
 ##.MacPlayer > #play-pause
+##.RMss1
 ##.Text-Advertising
 ##.__isboostOverContent
 ##._cggp
@@ -17129,14 +17131,11 @@ oneinstack.com##.w-ad
 onenews.vip
 onhax.net##div#mid_promo_right
 online.sh.cn##DIV.adpic,div#ad_top
-onlinedown.net###xzbtn1:first-child
-onlinedown.net##.down-box > iframe
-onlinedown.net##.down-list > iframe
 onlinedown.net##.g-huodong
-onlinedown.net##.g-main-top > a:first-child
 onlinedown.net##.gaosu
-onlinedown.net##.gaosu + #down_url
 onlinedown.net##.gg300
+onlinedown.net##.m-safedown-center
+onlinedown.net##.u-btn-safe
 onlinedown.net##DIV.adr,DIV.adv,DIV.gameunion,DIV.banner_1,DIV#leftad514,DIV[class^="ad_right_"],div.indexad,div.taobaoad,.downxzqad,.downgs,.btmAD
 ooopic.com##.fix-newUser
 op.gg##.vm-placement,[class^="ads"]
@@ -19890,9 +19889,7 @@ xiaoz.me##.gg6
 xiaoz.me##.sidebar-left,[src^="https://cdn.xiaoz.me/wp-content/uploads/"]
 xiaoz.me,xingkbjm.com##.sidebar a > img
 xiashanet.com###top_content
-xiazai.zol.com.cn###downBoxGaosu > .clearfix:first-child
-xiazai.zol.com.cn##.down-btn-yd + div[class]
-xiazai.zol.com.cn#?#.tanceng:-abp-contains(高速)
+xiazai.zol.com.cn###downBoxGaosu > a
 xiazaiba.com##.down-btn1
 xiazaiba.com##.down-btn2
 xiazaiba.com##.gdown-btns
@@ -20563,43 +20560,21 @@ zol.com##.youxuan-shop
 zol.com.cn###Article_Top_Banner
 zol.com.cn###J_alpha_link
 zol.com.cn###btmLoginLayer
-zol.com.cn###downloadTop
 zol.com.cn###downloader_main
-zol.com.cn###downloader_main1
 zol.com.cn###iframe_zmall
-zol.com.cn###nowDown
+zol.com.cn###official_url
 zol.com.cn##.ad-soft-box
-zol.com.cn##.down-dxlt
-zol.com.cn##.down-gaosu
-zol.com.cn##.down-gaosua
-zol.com.cn##.down-gaosub
-zol.com.cn##.down-gaosuc
-zol.com.cn##.down-jisu
-zol.com.cn##.down-linka
-zol.com.cn##.down-sugao
-zol.com.cn##.high
-zol.com.cn##.highSpeed
+zol.com.cn##.down-append-mol__pic
 zol.com.cn##.item-sale
+zol.com.cn##.local-spe-bottom
 zol.com.cn##.member-button-yellow
 zol.com.cn##.sidebar > .n1-pad-entrance-wrap
-zol.com.cn##.xiazai-top-box
-zol.com.cn##.xiazaia-topa-box
-zol.com.cn##.xiazaib-topa-box
-zol.com.cn##.xiazaic-topa-box
-zol.com.cn##.xiazaic-topb-box
 zol.com.cn##.zol-eshop
 zol.com.cn##.zolapp
-zol.com.cn##a#downloader_main
-zol.com.cn##a[class*="member-button"]
-zol.com.cn##a[href*="downloader_main"]
 zol.com.cn##div.banner.mt,div.banner1.mt,div#rightAd,div#rightAdDiv1,div#right_banner,div.bannerleft,div#top_tl_ad,div.ad_div,DIV.gmine_ad,.adSpace,#commentTopAd,#Bar3733_big,div.ad-box.article-cont-ad,DIV[class="ad-box ad-box"],div#activeEntry0703,ul.ad-window,div[id^="Bar37"],div[id^="Bar38"],div.ecma-baokuan-main,div[id^="ad_"],div[id^="Bar"][id$="_small"],div[id^="Bar"][id$="_big"],div.side-news,ul#soft-sj-rank.soft-list.clearfix,div.winbox,div[class^="default-head"],div.advert,#youdao,#youdao2,div#baoban,div#blank,div#luo-ad,div#luo-small,.zplus_ad,[id^="AD_"],[id^="_AD_"],.dcmads,#ZOL-shop,#bgad,.download-top,[src^="http://www.zol.com.cn/ad/"],.ad_001,.zmall-ad-1000,.gmine_ad,.zol-mall-area,[class^="jd-banner"],iframe[src^="https://icon.zol-img.com.cn/ad/"]
 zol.com.cn##div[class^="box-top-xiaza"]
-zol.com.cn##div[class^="top-box-xiazai"]
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
-zol.com.cn##span[class*="-dxlt"]
 zol.com.cn##span[class^="down-dxlt"]
-zol.com.cn##span[class^="dxlt-down"]
-zol.com.cn##span[class^="jisu-down"]
 zol.com.cn$$a[href="click.taobao.com"]
 zol.com.cn$$a[href="e.cn.miaozhen.com"]
 zol.com.cn$$section[id="relevant-product-module"]
@@ -24892,6 +24867,7 @@ zznews.cn##.ad:not([style])
 ||ae.cobweb.com^
 ||ae4.ifeng.com^
 ||aegis.qq.com^
+||aeimmmj.cn^
 ||aem-collector.daumkakao.io^
 ||aengbalz.fun^
 ||aeoprw.cn^
@@ -34700,6 +34676,7 @@ zznews.cn##.ad:not([style])
 ||fx678.com/htcount/count.js
 ||fxbqag.znak.com^
 ||fxc.ink^
+||fxdwdwv.cn^
 ||fxfhjs.com^
 ||fxhfxhf.cc^
 ||fxipreferral.americanexpress.com^
@@ -45234,7 +45211,6 @@ zznews.cn##.ad:not([style])
 ||online-umwandeln.de/analytics.js
 ||online.yodle.com^
 ||onlinedown.net/Public/img/bomAD.jpg
-||onlinedown.net/Public/js/headAd.js
 ||onlinepbx.ru^$third-party
 ||onlinepresse.info/counter.php?
 ||onlines.su/counter.php?
@@ -49778,6 +49754,7 @@ zznews.cn##.ad:not([style])
 ||shutseashore.com^
 ||shuying.run^
 ||shweiwen.cn^
+||shxsh1.top^
 ||shygkl.com^
 ||shypqc.com^
 ||shyseed.com^$third-party
@@ -51942,7 +51919,6 @@ zznews.cn##.ad:not([style])
 ||ssp.hinet.net^
 ||ssp.kdnet.net^
 ||ssp.lionmobo.com^
-||ssp.njxzwh.com^
 ||ssp.qq.com^
 ||ssp.rambler.ru^
 ||ssp.seznam.cz^
@@ -58013,6 +57989,7 @@ zznews.cn##.ad:not([style])
 ||wumii.com^
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
+||wurnbx.xyz^
 ||wuseng.net^$third-party
 ||wutaixian.shop^
 ||wuwaii.com^
@@ -61644,7 +61621,7 @@ zznews.cn##.ad:not([style])
 51wangdai.com##.cx_xx_lis_c01_right_lis_c_ad
 51wangdai.com##.top_AD
 51xiazai.cn###xzbtn1:nth-child(2)
-51xiazai.cn,onlinedown.net##.downgs
+51xiazai.cn##.downgs
 51xuediannao.com##.h_ad1,div.un-banner,.h-ad1,.un-article-bottom
 51yfx.com###widget-gouwu
 51yfx.com###widget-test
@@ -62125,7 +62102,7 @@ zznews.cn##.ad:not([style])
 365xuet.com##.cd-items
 0372.cn##div.pic1.pic_hd
 0379home.com##div.ad,div[id^="ad_"]
-0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,onlinedown.net,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
+0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
 0379home.com,2345.cn,234fang.com,265g.com,3gsc.com.cn,52youpiao.com,72g.com,9dcj.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chddh.com,chinaiiss.com,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jiligame.com,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,loveshang.com,luo8.com,lyd.com.cn,lyreader.com,lzep.cn,maxpda.com,mm111.net,moxing.net,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,olevod.com,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,r3sub.com,shenchuang.com,sj998.com,sogou.com,sozi.cn,titan24.com,toocle.com,tpy888.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yqxs.net,zjstv.com##.ad
 400gb.com,pipipan.com,ctfile.com,bego.cc##a[id^="__lgUnion_a__"],div#advLeft,div#advRight,div[id^="cproIframe"][id$="holder"],DIV[id^="BAIDU_DUP_wrapper_"],DIV.viewfile_content_main_r,DIV.downpage_r,DIV.widget-main.ad_area,.adsbygoogle
 423down.com###d_theme-2
@@ -62482,7 +62459,7 @@ zznews.cn##.ad:not([style])
 3987.com##.c-gg
 3987.com##.showdown > .mt20:first-child
 3987.com,588230.com,pilipali.cc###hongbao
-3987.com,downza.cn,drv5.cn,onlinedown.net,pcsoft.com.cn,win7w.com##.gaosu
+3987.com,downza.cn,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
 4399.cn##div.cn-app_guide
 4399.com###ads1_1
 4399.com###defaultbglink
