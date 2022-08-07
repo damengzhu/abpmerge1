@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-07 01:48:50
-! Total count: 62626
+! Version: 2022-08-07 08:20:10
+! Total count: 62651
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1045,6 +1045,7 @@
 ##[href^='https://item.taobao.com/item.htm'][rel='nofollow']
 ##[href^='https://jd.dangbei.com/']
 ##[href^='https://jwmic.91lu001.com']
+##[href^='https://kcc.qrjxween.com/cc/']
 ##[href^='https://l.h-ero.games/']
 ##[href^='https://m.jgg18.org/']
 ##[href^='https://mcc.rhwg4js.cn/']
@@ -1506,6 +1507,8 @@
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img
+##a[id][href*="/?aff="]
+##a[id][href*="/?register="]
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
@@ -1536,6 +1539,7 @@
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body.page > .popup
 ##body[class|="view"] > .ad-box
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
@@ -5109,6 +5113,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ga_footer.
 /ga_gwo.
 /ga_header.
+/ga_helper.
 /ga_keyword2.
 /ga_link_tracker_
 /ga_loader.
@@ -12076,8 +12081,8 @@ baidu.com,bdimg.com###aside-ad
 baidu.com,bdimg.com##.fengchao-wrap
 baidu.com,bdimg.com##.fengchao-wrap-feed
 baidu.com,bdimg.com##.shield-agent-tb-feed
-baidu.com,bdimg.com#?#.j_thread_list:-abp-has(>.fengchao-wrap-feed)
 baidu.com,bdimg.com#?#.l_post:-abp-has(>.fengchao-wrap-feed)
+baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>.fengchao-wrap-feed)
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,ifeng.com##.ad-list
@@ -22521,6 +22526,7 @@ zznews.cn##.ad:not([style])
 ||666745.xyz^
 ||666746.xyz^
 ||666747.xyz^
+||666748.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -25133,6 +25139,7 @@ zznews.cn##.ad:not([style])
 ||ajiekeji.club^
 ||ajiez.com^
 ||ajwssds.com^
+||ajxukah.cn^
 ||ajzs.xyz^
 ||ajzsa.xyz^
 ||ak-d.tripcdn.com^
@@ -32056,6 +32063,7 @@ zznews.cn##.ad:not([style])
 ||domodomain.com^$third-party
 ||domodomain.com^*/ddsense.aspx?
 ||domp4.cc/Style/*/images/640200.gif
+||dong.aeimmmj.cn^
 ||dongbeisurewin.com^
 ||dongchedi.com/motor/ad/
 ||dongdm.cn^
@@ -32742,6 +32750,8 @@ zznews.cn##.ad:not([style])
 ||eclick.360doc.com^
 ||eclick.baidu.com^
 ||eclkspbn.com^
+||eclmy.vip/static/js/fc.js
+||eclmy.vip/static/js/xf.js
 ||ecma.bdimg.com^
 ||ecmb.bdimg.com^
 ||ecmeilin.xyz^
@@ -34233,6 +34243,7 @@ zznews.cn##.ad:not([style])
 ||flash.cn/success/$popup
 ||flash.mycar168.com/data/js/
 ||flashadengine.com^$third-party
+||flashb.id^$third-party
 ||flashstats.libsyn.com^
 ||flashwing.net^$third-party
 ||flashx.*/bootstrap.min.js
@@ -36256,6 +36267,7 @@ zznews.cn##.ad:not([style])
 ||hcadv.video.ums.uc.cn^
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hcbjwt.com^
+||hcbmg.cn^
 ||hcbmq.cn^
 ||hccms.com.cn^
 ||hcdz.site^
@@ -39708,6 +39720,7 @@ zznews.cn##.ad:not([style])
 ||kaoyan.com/school/final_class.html
 ||kaoyan.com/school/js/yz.school.packed.js
 ||kaoyan1v1.com/IAA/
+||kaqweqrdf.com^
 ||karelia.info/counter/
 ||kat.how/popup.js
 ||katelin.top^
@@ -39877,6 +39890,7 @@ zznews.cn##.ad:not([style])
 ||kimdate2019.xyz^
 ||kimiaexirteb.com^
 ||kingkongapp.com^*/web/adv/list?
+||kingleo.hk^
 ||kingpolo.com.cn^
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kingsoft-office-service.com/ad?
@@ -41909,6 +41923,7 @@ zznews.cn##.ad:not([style])
 ||ma.tarnkappe.info^
 ||ma1.meishij.net^
 ||ma716.cn^
+||maaijun.top^
 ||mabaya.com^$third-party
 ||mabipa.com^$third-party
 ||maccms.com^
@@ -47130,6 +47145,7 @@ zznews.cn##.ad:not([style])
 ||qcmlw.com/js/service.js
 ||qcmxuy.hardloop.de^
 ||qcvf.ifeng.com^
+||qcyunnan.cn^
 ||qd.wanjuanba.com^
 ||qd.x4399.com^
 ||qd3zn.xyz^
@@ -47530,6 +47546,7 @@ zznews.cn##.ad:not([style])
 ||qr3dz.gzfzcj.cn^
 ||qreport.qunar.com^
 ||qrfladd.cn^
+||qrjxween.com^
 ||qrnmyn.cn^
 ||qrzogzy.cn^
 ||qs.lagowang.com^$object-subrequest
@@ -55962,6 +55979,7 @@ zznews.cn##.ad:not([style])
 ||u0065.com^
 ||u0067.com^
 ||u0071.com^
+||u0075.com^
 ||u0081.com^
 ||u0083.com^
 ||u0r9.cn^
@@ -56158,6 +56176,7 @@ zznews.cn##.ad:not([style])
 ||umm6.cn^
 ||umsns.com^
 ||umvspj.cn^
+||umyrn.xyz|
 ||un-acs.youku.com^
 ||un.ubaike.cn^
 ||un.xz6.com^
@@ -56415,11 +56434,14 @@ zznews.cn##.ad:not([style])
 ||uwdspsh.cn^
 ||uwnvcxb.cn^
 ||uwy4.aegon.es^
+||uxbd4id.xyz^
 ||uxpolqk.cn^
 ||uxrpkgh.cn^
 ||uxszams.cn^
 ||uxxux.com/js/zd.js
 ||uyan.cc/$third-party
+||uyf1u0x7.xyz^
+||uyflu0x7.xyz^
 ||uyueread.com^
 ||uyunad.com^
 ||uyzdcun.cn^
@@ -59279,6 +59301,7 @@ zznews.cn##.ad:not([style])
 ||xsdj.lm663.com^
 ||xshengyan.com/xxgg/bookll111.js
 ||xshijie.xyz^
+||xsjh002.xyz^
 ||xsjyun.cn^
 ||xsolid.baidu.com^
 ||xspadvertising.com^
@@ -59893,6 +59916,7 @@ zznews.cn##.ad:not([style])
 ||ym193.com^$script
 ||ymapp.com^
 ||ymcdn.cn^
+||ymdxl.com^
 ||ymdxxkj.icu^
 ||ymetrica1.com^$third-party
 ||ymlykj.com/nuxt/static/liveBanner.jpg
@@ -60455,6 +60479,7 @@ zznews.cn##.ad:not([style])
 ||zdd-9.com^
 ||zdface.com/js/m/zw_banner.js
 ||zdfans.com/wp-content/themes/D7/img/ad
+||zdhfff.xyz^
 ||zdhm.cn^
 ||zdmimg.com/collect^
 ||zdnet.com.cn/js/pv.js
