@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-08 08:25:33
-! Total count: 62654
+! Version: 2022-08-08 16:26:00
+! Total count: 62665
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1700,9 +1700,9 @@ $script,third-party,domain=dybee.tv
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $script,third-party,xmlhttprequest,domain=btio.pw
-$third-party,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biqu.ge|biqubao.com|biquduge.com|biqug.org|biquga.com|biquge.info|biquge.tv|biquge001.com|biquge123.com|biquge5200.cc|biqugedu.com|biqugeg.com|biquger.com|biquges.com|biqugewx.com|biqugle.com|biquku.la|biquw.com|biquwu.cc|gebiqu.com|hehuamei.com|ibqg5200.com|m.fengyunok.com|mybooks8.com|shuquge.com|snzb.org|xbiquge.la|xsbiquge.com|xshengyan.com|xswang.com|yiyi120.com|yuanzunxs.cc|zuimeng8.com|zzbiquge.com
 $third-party,xmlhttprequest,domain=alltube.pl|alltube.tv
 $third-party,xmlhttprequest,domain=opensubtitles.org
+$third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biqu.ge|biqubao.com|biquduge.com|biqug.org|biquga.com|biquge.info|biquge.tv|biquge001.com|biquge123.com|biquge5200.cc|biqugedu.com|biqugeg.com|biquger.com|biquges.com|biqugewx.com|biqugle.com|biquku.la|biquw.com|biquwu.cc|gebiqu.com|hehuamei.com|ibqg5200.com|m.fengyunok.com|mybooks8.com|shuquge.com|snzb.org|xbiquge.la|xsbiquge.com|xshengyan.com|xswang.com|yiyi120.com|yuanzunxs.cc|zuimeng8.com|zzbiquge.com|75dr.com|bggee.com|biquge96.com|biqugeabc.com|aishu5.com|biquger.net|senwy.com|biqugeso.org|whzh-xs.com|bqg.org|mmbqg.com
 $websocket,domain=123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|btstors.com|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|deltabit.co|djs.sk|dragonballzpolo.blogspot.com|estream.to|estream.xyz|fileone.tv|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hentai-online.pl|ianimes.co|idope.tv|jkanime.net|kinokrad.co|kinoprofi.org|kinostuff.com|lafmacun.net|lewd.ninja|love-drama.pl|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|sherlockonline.ru|shrink-service.it|skyback.ru|skytorrents.me|sleeptimer.org|sorteosrd.com|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|theappguruz.com|thepiratebay.org|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|void.cat|wallpoper.com|wearesaudis.net|yazilir.com|zenexplayer.com
 $websocket,domain=5nj.com|cechi8.com
 $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv
@@ -17706,6 +17706,7 @@ qq.com##.yw-gg-float
 qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div.ad-box,DIV.ad-box1.mar-b-30,div.ad90,div.ad960,div.mian-ad.mar-b-10,div#topAd,div.mod-left.bottom-Article-QQ.sildPic-Article-QQ,DIV[class^="ad_"],div[style=" width:300px; height:250px; overflow:hidden"],DIV#QQ_HP_bottom_Width.l_qq_com,div.adRight,DIV.adLeft,DIV.l_qq_com[display="banner"],DIV.l_qq_com[style^="width:"],DIV.kjad2,DIV.ad_96001,DIV.wrapper.AdTop-Article-QQ,DIV#AdRight-Article-QQ,DIV.sidBoxNoborder.mar-b8,DIV.body-Top-Ad.body-Article-QQ,DIV.mod-right.adbutton-Aritcle-QQ,DIV.wrap.tl_ad.tl_ad,DIV[class^="adv"][style],DIV#tenyearad.tenyearad,[class^="right_ad_"],.AdBox-Article-QQ,div.juzhong2,div.pop_ads_wide,div.pop_ads_content,div.action_ad,DIV#advertisement,div#News_2nd_GD_Width1.l_qq_com,div#qqadv,div.ad-banner,.topbanner,.adv,.ad11,.ad22,.bottom_ad,.yw-gg-float,.qq_topAD
 qq.com##img[data-module="advertisement"]
+qq.com#@#+js(nowebrtc)
 qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
@@ -22504,6 +22505,7 @@ zznews.cn##.ad:not([style])
 ||666746.xyz^
 ||666747.xyz^
 ||666748.xyz^
+||666749.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -24920,6 +24922,7 @@ zznews.cn##.ad:not([style])
 ||afi-b.com^$third-party
 ||afi.ssl.gmobb.jp^
 ||aficv.finebase.jp^
+||afij001.xyz^
 ||afj.cc^
 ||afj0.com^
 ||afjlb.com^
@@ -27650,6 +27653,7 @@ zznews.cn##.ad:not([style])
 ||biquge66.com/bcc.php
 ||biquge66.com/js/chapter.js
 ||biquge96.com/123.
+||biquger.net/donlod^
 ||biquger.net/ts^
 ||biqugetv.com/js/lm_
 ||biqugexx.com/js/jamq.
@@ -31847,6 +31851,7 @@ zznews.cn##.ad:not([style])
 ||dl.weshineapp.com^
 ||dl.zola.com^
 ||dl1d2m8ri9v3j.cloudfront.net^
+||dl66d.com^
 ||dl8.me^$third-party
 ||dlads.cn^
 ||dlads.cn^$third-party
@@ -34721,6 +34726,7 @@ zznews.cn##.ad:not([style])
 ||fzb5.laboratoire-giphar.fr^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzbymy.com^
+||fzchpos.com^
 ||fzdeng.com^
 ||fzjchj.com^
 ||fzlnk.com^
@@ -37104,6 +37110,7 @@ zznews.cn##.ad:not([style])
 ||huojutt.com^
 ||huomob.com^
 ||huosai.net.cn^
+||huoxingtan66.com^
 ||huoyan.tv/yb/img/*.gif
 ||huoyun.site^
 ||hupneyv.cn^
@@ -42924,6 +42931,7 @@ zznews.cn##.ad:not([style])
 ||meteorsolutions.com^$third-party
 ||meter.bref.sh^
 ||metering.pagesuite.com^$third-party
+||metheny.cn^
 ||metka.ru/counter/
 ||metmt.com^
 ||metosk.com^
@@ -45425,6 +45433,7 @@ zznews.cn##.ad:not([style])
 ||ou12.dl12349.net^
 ||ouc82i67pytg.www.emanualonline.com^
 ||oudtwj.tekstil-vsem.ru^
+||ouedkniss.com/spf/page-view
 ||ouedkniss.com/static/alexa.js
 ||ouedkniss.com/static/pixel.js
 ||oufrqs.kunduz.com^
@@ -56608,6 +56617,7 @@ zznews.cn##.ad:not([style])
 ||vesdsp.com^
 ||vesti.ru/counter/
 ||vet0.carrefour-banque.fr^
+||veugcz8.com^
 ||veyu.idubwz.cn^
 ||vfcwij.cn^
 ||vfd2dyn.vodafone.de^
@@ -56806,6 +56816,7 @@ zznews.cn##.ad:not([style])
 ||vizury.com^$third-party
 ||vizzit.se^$third-party
 ||vjie.com^$third-party
+||vjksa.com^
 ||vjmqdx.nozhikov.ru^
 ||vjptye.cn^
 ||vk.com/js/lib/px.js
