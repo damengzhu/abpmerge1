@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-09 08:21:52
-! Total count: 62693
+! Version: 2022-08-09 16:24:44
+! Total count: 62696
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -10111,6 +10111,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||eslite.com^*/ad
 @@||estafeta.com/shared/js/tracking.js
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
+@@||eu4cn.com^$generichide
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||events.raceresult.com^$~third-party,xmlhttprequest
@@ -10739,6 +10740,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eu4cn.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -14168,6 +14170,7 @@ g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 g.pconline.com.cn##DIV#pc-aptgA,div[class="m-header-top"],#JucLogin,#pTit-5,DIV.m-more + UL.news
 g.pconline.com.cn##div.pc-client
+g1c5.com
 gagays.com##div#ad_rb_fixed
 galacg.me##.sidebar-top
 galacg.me##a[href*="/game"]
@@ -17646,7 +17649,6 @@ qq.com###pop_apps_sponsors
 qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
-qq.com##+js(aopr, Beacon.prototype.fail)
 qq.com##+js(json-prune,adList.item)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
@@ -22110,6 +22112,7 @@ zznews.cn##.ad:not([style])
 ||51fishplace.com^
 ||51foodsafe.cn^
 ||51gpt.com^
+||51grow.club^
 ||51gugu.com/popwin/AutoHAdShow.aspx
 ||51gugu.com^$third-party
 ||51gxqm.com^
@@ -46613,7 +46616,6 @@ zznews.cn##.ad:not([style])
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||postageapp.com/receipt/$third-party
-||postclickmarketing.com^$third-party
 ||poster.weather.com.cn^
 ||postgraduate.smu.edu.sg^
 ||postgraduate2.smu.edu.sg^
@@ -60233,6 +60235,7 @@ zznews.cn##.ad:not([style])
 ||yuhho.group^
 ||yuhuanjiuye.com^
 ||yuhui.run^
+||yuhuka.cc^
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 ||yujianmeihao179.cn^
