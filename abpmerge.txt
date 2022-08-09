@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-09 01:51:13
-! Total count: 62676
+! Version: 2022-08-09 08:21:52
+! Total count: 62693
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3371,6 +3371,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /amp-analytics/*
 /amp-omniture-iframe?
 /amp-skimlinks-
+/amp-tealium?
 /amp.gif?
 /amp/?rid=
 /amp/analytics
@@ -12084,7 +12085,9 @@ baidu.com,bdimg.com##.fengchao-wrap
 baidu.com,bdimg.com##.fengchao-wrap-feed
 baidu.com,bdimg.com##.shield-agent-tb-feed
 baidu.com,bdimg.com#?#.l_post:-abp-has(>.fengchao-wrap-feed)
+baidu.com,bdimg.com#?#.l_post:-abp-has(>style)
 baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>.fengchao-wrap-feed)
+baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>style)
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,ifeng.com##.ad-list
@@ -17433,6 +17436,7 @@ pornhub.com##DIV.topAdContainter
 pornhub.com##div.adContainer.clearfix
 pornhub.com##div.topAdContainter
 pornhub.com$$div[class="bottomNav clearfix"]
+pornlulu.com##.container-fluid > .links
 portable.easylife.tw##div.googleplus,div#ddr
 portablesoft.org##.downcenter
 portablesoft.org##.postads,.adsbygoogle
@@ -22507,6 +22511,7 @@ zznews.cn##.ad:not([style])
 ||666747.xyz^
 ||666748.xyz^
 ||666749.xyz^
+||666752.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -30619,6 +30624,8 @@ zznews.cn##.ad:not([style])
 ||cstm.baidu.com^
 ||cstoa.com^
 ||csv4.ebs-paris.fr^
+||csx365.com/h
+||csx365.com/v
 ||csxsyp.cn^
 ||csxvsd.cn^
 ||csyfe.com^
@@ -30678,6 +30685,7 @@ zznews.cn##.ad:not([style])
 ||cui.m.1688.com^
 ||cuit.shop^
 ||cul.rrgapzw.cn^
+||culiglsm.space^
 ||cultofmac.com/djrxqhzkbsgf.js
 ||culturaltracking.ru^$third-party
 ||culture.intermedes.com^
@@ -34253,6 +34261,7 @@ zznews.cn##.ad:not([style])
 ||flimsythought.com^
 ||flipboard.com/usage?
 ||flipkart.com/api/3/data/collector/
+||flipp.com/beacons
 ||flirt4free.com/pixel/
 ||flix360.com/beat?
 ||flixcar.com/*/tracking/
@@ -36421,6 +36430,7 @@ zznews.cn##.ad:not([style])
 ||henzhuan.com^
 ||hepburn.net.cn^
 ||heraldandtimeslabs.com/sugar.js
+||herky.com.cn^
 ||herman.ink^
 ||heroclick.cn^
 ||heroesdom.com^$third-party
@@ -36487,6 +36497,7 @@ zznews.cn##.ad:not([style])
 ||hgdnd.cc^
 ||hgf4.zanzicar.fr^
 ||hggtt.top^
+||hgkzl.cn^
 ||hguas.com^
 ||hgxy.info^
 ||hgyouxi.com/data/hgyouxiad/
@@ -46275,6 +46286,7 @@ zznews.cn##.ad:not([style])
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
 ||pixels.afcdn.com^
+||pixels.ai^$third-party
 ||pixels.asia^
 ||pixels.boxberry.ru^
 ||pixelzirkus.gameforge.com^
@@ -48225,6 +48237,7 @@ zznews.cn##.ad:not([style])
 ||rftslb.com^
 ||rfyqtv2.com^
 ||rg.nukebomb.cn^
+||rgbsl.com^
 ||rgd.com.cn/counter/
 ||rggtt.top^
 ||rgiixp.sperry.com^
@@ -55831,6 +55844,7 @@ zznews.cn##.ad:not([style])
 ||tunka.com.cn/images/1234.gif
 ||tunnl.com^$third-party
 ||tuoshi168.com^
+||tuotianxia.top^
 ||tupian55.com^*.gif
 ||turboeagle.co^
 ||turbolion.io^
@@ -58854,6 +58868,7 @@ zznews.cn##.ad:not([style])
 ||xcjy876.com^
 ||xclaimwords.net^$third-party
 ||xcli.xyz^
+||xcmno.xyz^
 ||xcms.shop^
 ||xcmz999.com^
 ||xcounter.ch^$third-party
@@ -60141,6 +60156,8 @@ zznews.cn##.ad:not([style])
 ||ys2727.xyz^
 ||ys6ot.cn^
 ||ys9mw1u.cn^
+||ysapp20.xyz/slf120.
+||ysapp20.xyz^*.gif
 ||ysclub.top^
 ||yse1234.com/template/phone/imagess/p4.js^
 ||ysfc360.cn^
