@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-10 01:37:12
-! Total count: 62702
+! Version: 2022-08-10 08:21:29
+! Total count: 62720
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -4579,6 +4579,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /data_collect.js
 /datacapture/track
 /datacollectcode?
+/datacollectionapi-client/*
 /datadome/*
 /dbdm-events.
 /dbdm-events/*
@@ -5935,6 +5936,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /kissmetrics/*
 /kiwip.js
 /klaviyo_analytics.
+/koko-analytics/*
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -6705,6 +6707,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /pageview?pageviewId
 /pageview?t=
 /pageview?user_guid=
+/pageview_candidate.
 /pageviews-counter-
 /pageviews.gif?
 /pageviews/*$domain=~mediawiki.org|~pageviews.wmcloud.org|~quiz.mkpo.li|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
@@ -7157,6 +7160,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /recstatsv2.
 /red2/ad/*
 /redirectexittrack.php?
+/redis_stats/*
 /reelevant.js
 /ref_analytics.
 /refer-tracking.
@@ -19083,6 +19087,8 @@ vgtime.com##.vgart_top
 vgugu.com##div#bn_ad,div[id^="test"],div.in_br
 vhiphop.com##.slides
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
+vikacg.com###home-row-lunbo
+vikacg.com##div[id^="home-row-ads"]
 vikacg.com$$a[href="asnebula.xyz"]
 vikacg.com$$a[onclick="trackOutboundLink"]
 vip-free.com###adpic
@@ -22882,6 +22888,7 @@ zznews.cn##.ad:not([style])
 ||8ehhtsv9bo7i.monkeylearn.com^
 ||8en.net^$third-party
 ||8ezc.sfr.fr^
+||8feichai.com^
 ||8g0j.cn^
 ||8gl.com.cn^
 ||8gustis.xyz^
@@ -30759,6 +30766,7 @@ zznews.cn##.ad:not([style])
 ||cxense.com^$third-party
 ||cxfzw.cn^
 ||cxgfq.pinlue.com^
+||cxiwn.xyz^
 ||cxmygp.xyz^
 ||cxnroh6u.xyz^
 ||cxojob.com.cn^
@@ -40502,6 +40510,7 @@ zznews.cn##.ad:not([style])
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
+||leadfamly.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -41046,6 +41055,7 @@ zznews.cn##.ad:not([style])
 ||liushuaib.xyz^
 ||liusuqin.fun^
 ||liutt.online^
+||liuxiangxiang.top^
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyangyang.cn^
@@ -41450,6 +41460,7 @@ zznews.cn##.ad:not([style])
 ||lord.actonservice.com^
 ||lore.circulate.com^
 ||lorenzourban.com^$third-party
+||lorlsblh.cyou^
 ||losecounter.de^$third-party
 ||losstrack.com^$third-party
 ||lotour.net/analytics/statsv2.js
@@ -47471,6 +47482,7 @@ zznews.cn##.ad:not([style])
 ||qnwxk.com^$third-party
 ||qo4nkz03dy.cn^
 ||qoepkc.top^
+||qofvpbo.cn^
 ||qoijertneio.com^$third-party
 ||qomdf.top^
 ||qongsonw.uno^
@@ -47880,6 +47892,7 @@ zznews.cn##.ad:not([style])
 ||rayjump.com^
 ||rayli.com.cn^$third-party
 ||rays-counter.com^$third-party
+||razasot.cn^
 ||rbc.magna.ru^
 ||rbc.ru/click?
 ||rbc.ru/count/
@@ -48513,6 +48526,7 @@ zznews.cn##.ad:not([style])
 ||ruiwen.com/js/p.js
 ||ruiwen.com/sp/
 ||ruiyijy.xyz^
+||ruliglso.space^
 ||rum.api.intuit.com^
 ||rum.azion.com^
 ||rum.azioncdn.net^
@@ -54941,6 +54955,7 @@ zznews.cn##.ad:not([style])
 ||track.atgstores.com^$third-party
 ||track.auckland.ac.nz^
 ||track.bannedcelebs.com^
+||track.buyma.com^
 ||track.byzon.swelen.net^$third-party
 ||track.cafu.com^
 ||track.cedsdigital.it^
@@ -56914,6 +56929,7 @@ zznews.cn##.ad:not([style])
 ||voocl.com^
 ||vooxe.com/analytics.js
 ||voraciousgrip.com^
+||vorlsblf.cyou^
 ||vortex.data.microsoft.com^
 ||vortex.hulu.com^
 ||votistics.com^$third-party
@@ -59821,6 +59837,7 @@ zznews.cn##.ad:not([style])
 ||yigujin.cn/wp-content/themes/Three/js/singley
 ||yigujin.cn/wp-content/themes/Three/js/tuij
 ||yigujin.cn/wp-content/themes/Three/js/yierlin
+||yihoo.biz^
 ||yihubaiying.com^$third-party
 ||yiichina.com/images/yisu-
 ||yiihuu.com/assets/common/yh/js/yh.ad.
@@ -60176,6 +60193,7 @@ zznews.cn##.ad:not([style])
 ||ysm.ezprice.net^$third-party
 ||ysont.cn^
 ||ysrmy1.com^
+||yswphit.cn^
 ||yswuen.top^
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
