@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-10 16:26:18
-! Total count: 62724
+! Version: 2022-08-11 01:39:05
+! Total count: 62734
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2182,6 +2182,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
+.inxmail-commerce.com/tracking/$image
+.inxserver.com/transparent.gif
 .io/js/ads/
 .io/track?
 .jp/pv?
@@ -7159,6 +7161,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /record_visitor.
 /recstatsv2.
 /red2/ad/*
+/redir.inxmail-commerce.com/r/*$image
 /redirectexittrack.php?
 /redis_stats/*
 /reelevant.js
@@ -10067,6 +10070,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dwstatic.com/b=amkit
 @@||dwstatic.com/b=amkit&f=*/adjoin.
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|harborfreight.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dyncdn.me/static/20/js/jquery$script
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
@@ -10743,8 +10747,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p.jwpcdn.com^$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eu4cn.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -12090,11 +12093,8 @@ baidu.com,bdimg.com###aside-ad
 baidu.com,bdimg.com##.fengchao-wrap
 baidu.com,bdimg.com##.fengchao-wrap-feed
 baidu.com,bdimg.com##.shield-agent-tb-feed
-baidu.com,bdimg.com#?#.l_post:-abp-has(>.fengchao-wrap-feed)
-baidu.com,bdimg.com#?#.l_post:-abp-has(>style)
+baidu.com,bdimg.com##div.thread_item_box[style="position: relative;"]
 baidu.com,bdimg.com#?#.l_post:-abp-has(div[class*=" fc-"])
-baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>.fengchao-wrap-feed)
-baidu.com,bdimg.com#?#.thread_item_box:-abp-has(>style)
 baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
@@ -18340,6 +18340,7 @@ sohu.com##.adB
 sohu.com##.adv_960
 sohu.com##.god-main
 sohu.com##.godR
+sohu.com##.left-bottom-float
 sohu.com##.lottery-box
 sohu.com##.sogouService
 sohu.com##.x-adv-band-panel
@@ -28402,6 +28403,7 @@ zznews.cn##.ad:not([style])
 ||c4dv.copinesdevoyage.com^
 ||c4tracking01.com^$third-party
 ||c6.friok.com^
+||c60china.com^
 ||ca.bxwx3.org^
 ||ca.cbsi.com.cn/rpv?
 ||ca.creditacceptance.com^
@@ -37574,6 +37576,7 @@ zznews.cn##.ad:not([style])
 ||ihtqqws.cn^
 ||ihuajian.com^
 ||ihualun.com^$third-party
+||ihvwak.cn^
 ||ii.joqtfa.cn^
 ||ii1.chajiaotong.com^
 ||iia1.pikacn.com^
@@ -40469,6 +40472,7 @@ zznews.cn##.ad:not([style])
 ||lciapi.ninthdecimal.com^
 ||lcjubw.fiksuruoka.fi^
 ||lcloc.com^
+||lcmnyfk.cn^
 ||lcodff.uta-net.com^
 ||lcs.comico.jp^$image
 ||lcs.naver.com^
@@ -40817,6 +40821,7 @@ zznews.cn##.ad:not([style])
 ||lingdianshuwu.com/js/
 ||lingdianshuwu.com/js/content
 ||linghangshouji.com^
+||lingke02.xyz^
 ||lingke03.top^
 ||lingke05.top^
 ||linglingccc.xyz^
@@ -41523,6 +41528,7 @@ zznews.cn##.ad:not([style])
 ||lps.qantas.com^
 ||lpsgc.cn^
 ||lpsxssm.com^
+||lptssbs.cn^
 ||lpw80d.online^
 ||lpwx.xyz^
 ||lpzxed.em.com.br^
@@ -45296,6 +45302,7 @@ zznews.cn##.ad:not([style])
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||ooqiu.com/ad_js/
 ||oor.ooreka.fr^
+||oorlsblk.cyou^
 ||ootyx24.com^
 ||ooyala.com/3rdparty/comscore_
 ||ooyala.com/authorized?analytics
@@ -45627,7 +45634,7 @@ zznews.cn##.ad:not([style])
 ||p2.danskebank.no^
 ||p2.danskebank.se^
 ||p24.hu^$third-party
-||p2p.$xhr,websocket,ping,domain=~huya.com
+||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
@@ -46613,6 +46620,7 @@ zznews.cn##.ad:not([style])
 ||popup.laybuy.com^$subdocument,third-party
 ||popupmaker.com^$third-party
 ||popwang.top^
+||porlsbll.cyou^
 ||porn87.com/static/stream_ads/
 ||porngraph.com^$third-party
 ||pornhublive.com/api/events
@@ -56336,6 +56344,7 @@ zznews.cn##.ad:not([style])
 ||uongsono.uno^
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
+||uorlsblg.cyou^
 ||uoyrsd.com^
 ||up-rank.com^$third-party
 ||up.hiao.com^
@@ -59610,6 +59619,7 @@ zznews.cn##.ad:not([style])
 ||yanjunbo.com^
 ||yanko.cc^
 ||yanliang.vip^
+||yanping521.vip^
 ||yanpoly.com^
 ||yantairuide.com^
 ||yantuchina.com/Upload/Ad/
