@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-11 08:21:21
-! Total count: 62746
+! Version: 2022-08-11 16:24:04
+! Total count: 62756
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1576,6 +1576,7 @@
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id^="a"] > a[target="_blank"][style="margin-top:3px;"]
+##div[id^="a-loading-"] > span
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
 ##div[id^="div-gpt-ad"]
@@ -13393,8 +13394,8 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dm530.net,it168.com###adv
+dmh8.com##div[id^="test"]
 dmh8.com##div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
-dmh8.com,pianba.tv##div[id^="test"]
 dmhy.org$$a[href="taobao.com"]
 dmhy.org$$a[href="tapdb.net"]
 dmhy.org$$div[id="_adv"]
@@ -17225,6 +17226,7 @@ paoshuba.cc##.con_ad,.ad250left
 papa8888.com,papashequ.com##div.wp.a_h,div.wp.a_mu
 papalah.com##.video-ads,.ads-leaderboard
 passiontimes.hk##.rectAd680
+pbpb.tv##.cpcad
 pbtxt.com##.topads,.rd,.left_ad,.hot_txt_down
 pc.qq.com##.detail-install-fast
 pc.xunlei.com##.info_banner
@@ -17342,7 +17344,6 @@ php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
-pianba.tv##.cpcad
 pianhd.com###myCarousel
 pianyuan.la/slade.js
 pianyuan.org###myModal
@@ -27162,6 +27163,7 @@ zznews.cn##.ad:not([style])
 ||bbsbaba.com/js/1.js
 ||bbsbaba.com/js/2.js
 ||bbsg.club^
+||bbt114.cn^
 ||bbthat.com^$script,third-party
 ||bbttkk.com^
 ||bbuni.com^
@@ -27801,6 +27803,7 @@ zznews.cn##.ad:not([style])
 ||blog-stat.com^$third-party
 ||blog-webkatalog.de^$third-party
 ||blog.csdn.net/*/phoenix/comment/list/
+||blog.csdn.net//phoenix/web/v2/skill-tree-info?
 ||blog.sina.com.cn/lm/mini/
 ||blog.xuite.net/_public/js/ysmad.js
 ||blog104.com^$third-party
@@ -29209,6 +29212,7 @@ zznews.cn##.ad:not([style])
 ||circle.am^$third-party
 ||circlelevel.com^
 ||circonus.com/hit?
+||cis.sohu.com^
 ||cisco-eagle.actonservice.com^
 ||ciszhp.finanzfrage.net^
 ||ciszhp.gesundheitsfrage.net^
@@ -34437,6 +34441,7 @@ zznews.cn##.ad:not([style])
 ||fpaxu.net^
 ||fpb*.51edu.com^
 ||fpb.sohu.com^
+||fpb0.sohu.com^
 ||fpb1.apple886.com^
 ||fpb1.chinacar.
 ||fpb1.gxfin.com^
@@ -35770,6 +35775,7 @@ zznews.cn##.ad:not([style])
 ||gsjlfs.com^
 ||gsmatch.edm.globalsources.com^
 ||gsnlc.cn^
+||gsp0.baidu.com^
 ||gsp0.kj-gov.cn^
 ||gsp1.baidu.com^
 ||gsqweb.cn^
@@ -39962,6 +39968,7 @@ zznews.cn##.ad:not([style])
 ||kjltxn.com^
 ||kjlzt.cn^
 ||kjmx.shop^
+||kjshenghuo.com^
 ||kju369.cn^
 ||kjwx8.com^
 ||kjxmcn.eset.com^
@@ -46113,7 +46120,6 @@ zznews.cn##.ad:not([style])
 ||pi.technik3d.com^
 ||pia.jp/akam/$script
 ||pia.jp/images/pt.gif$image
-||pianba.tv/api/*.js
 ||pianba.tv/api/new_
 ||pianjicdn.com^*.php
 ||pianku.li/ajax/matomo
@@ -46817,6 +46823,7 @@ zznews.cn##.ad:not([style])
 ||productsup.com^$third-party
 ||proewildfire.cn/fd.js
 ||proext.com^$third-party
+||profile.csdnimg.cn^
 ||profilesnitch.com^$third-party
 ||profiling.avandor.com^
 ||profiling.eurofins.fi^
@@ -55791,6 +55798,7 @@ zznews.cn##.ad:not([style])
 ||tsdmw.net/img01/MP3/pm_
 ||tsds.tech^
 ||tse.telerama.fr^
+||tsearch.snssdk.com^
 ||tsgyg.cn^
 ||tshuxi.bbqguys.com^
 ||tsis.jpush.cn^
@@ -60297,6 +60305,7 @@ zznews.cn##.ad:not([style])
 ||yumi06.com^
 ||yumingdan.top^
 ||yummycuisine.club^
+||yumnxwvd.ink^
 ||yumu.pro^
 ||yun-pdm2000.cn^
 ||yun-pdm5000.cn^
@@ -60821,6 +60830,7 @@ zznews.cn##.ad:not([style])
 ||zhoudm.love^
 ||zhoumo.site^
 ||zhouwutrip.cn^
+||zhouxingyu.xyz^
 ||zhouyi.cool^
 ||zhouziwang.cn^
 ||zhoz.com^
