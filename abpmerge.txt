@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-11 16:24:04
-! Total count: 62756
+! Version: 2022-08-12 01:43:31
+! Total count: 62772
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -222,6 +222,7 @@
 ###left_top_ad
 ###left_up_float_ad
 ###leftad
+###lefttd.lefttd
 ###ljPz
 ###login_wp.foot_flwp
 ###lovexin1
@@ -309,6 +310,7 @@
 ###right_float.close_discor
 ###right_up_float_ad
 ###rightad2
+###rightd.rightd
 ###rip[href*=".taobao.com"]
 ###rm-float + .popup
 ###rm-float3
@@ -348,6 +350,7 @@
 ###topad1
 ###toperAd2
 ###toptb + div[align="center"]
+###toptd.toptd
 ###tr_ad1
 ###tr_ad10
 ###tr_ad11
@@ -360,6 +363,7 @@
 ###tr_ad8
 ###tr_ad9
 ###tripadvisor-ad
+###undertd.undertd
 ###upprev_box
 ###videoADPIC
 ###whYuTlxF
@@ -1539,6 +1543,7 @@
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
+##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body.page > .popup
@@ -5747,6 +5752,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /jltracking.
 /join/tracking/*
 /jp-coremetrics-
+/jquery.24_ef3e.
 /jquery.analytics.js|
 /jquery.audiencetarget.
 /jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
@@ -22036,6 +22042,7 @@ zznews.cn##.ad:not([style])
 ||4hds.com/js/camstats.js
 ||4htixb.cn^
 ||4hw.com.cn/js/common.js
+||4jfggh.com^
 ||4jnzhl0d0.com^
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4kddyfd.cn^
@@ -26453,6 +26460,7 @@ zznews.cn##.ad:not([style])
 ||atljkcq.cn^
 ||atm.cp31.ott.cibntv.net$media,redirect=noopmp4-1s
 ||atm.youku.com^
+||atmcdn.com/www/*.js
 ||atmib.com^
 ||atom-data.io/session/latest/track.html?$third-party
 ||atom-log.3.cn^
@@ -28708,6 +28716,7 @@ zznews.cn##.ad:not([style])
 ||cckke.com/fanhao/v/ad
 ||cckoza.cn^
 ||cclnuzn.cn^
+||cclw.xyz^
 ||ccmd.coveredca.com^
 ||ccmdgg.com^
 ||ccmeng.com^$third-party
@@ -38389,6 +38398,7 @@ zznews.cn##.ad:not([style])
 ||ionia.pro^
 ||iono.fm/tracking?
 ||ioomb.cn^
+||iorlsblj.cyou^
 ||ios.426g.com^
 ||ios.xyadtlyy.com^
 ||iot.informaengage.com^
@@ -39813,6 +39823,8 @@ zznews.cn##.ad:not([style])
 ||keen.io^$third-party,domain=~keen.github.io|~keen.io
 ||keeyekey.xyz^
 ||kefeng56.com^$third-party
+||kefu3254.cn^
+||kefuxt2022.cn^
 ||kehuduan.com^
 ||kejet.com^
 ||kejet.net^
@@ -40129,6 +40141,7 @@ zznews.cn##.ad:not([style])
 ||kropka.onet.pl^
 ||krpano.org^
 ||krt.zhengxiaoliu.top^
+||krurkex.com^
 ||krw.yrehdfer.com^
 ||krxd.net^
 ||krxd.net^$domain=focus.de
@@ -48602,6 +48615,7 @@ zznews.cn##.ad:not([style])
 ||ruyig.com/730x76.png
 ||rv.modanisa.com^$script
 ||rv.shijixinrui.cn^
+||rvbztg.cn^
 ||rverxn.autosphere.fr^
 ||rvlmpo.xyz^
 ||rvpbdcf.cn^
@@ -57944,6 +57958,7 @@ zznews.cn##.ad:not([style])
 ||worldssl.net^
 ||worldwide.sogou.com^
 ||worldztool.com^*/dotraceuser.php
+||worlsbld.cyou^
 ||worriednumber.com^
 ||worthpoint.com/lIUjcOwl/init.js
 ||wos.lv^$third-party
@@ -58782,6 +58797,7 @@ zznews.cn##.ad:not([style])
 ||wxtp.cdn.bcebos.com^$popup
 ||wy123.fun^
 ||wy213.com^$popup,third-party
+||wy520.love^
 ||wyb128.com/js/pc/
 ||wydong.top^
 ||wyhzzy.com^
