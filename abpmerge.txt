@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-16 08:18:34
-! Total count: 62895
+! Version: 2022-08-16 16:25:44
+! Total count: 62910
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1041,6 +1041,7 @@
 ##[href^='https://at.umtrack.com/']
 ##[href^='https://bvipsa.com']
 ##[href^='https://ccs.holor0701.cn/']
+##[href^='https://ccs.holor0803.cn']
 ##[href^='https://dcc.sclanlian.com/cc/']
 ##[href^='https://detail.tmall.com/item.htm'][rel='nofollow']
 ##[href^='https://dt.mydrivers.com/b.ashx']
@@ -2356,6 +2357,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .top/ads/
 .top/s.php?id=$script,third-party
 .top/upload/ad.js
+.tor*/js/jquery.bpopup.
 .track.actions.get?
 .trackArticleAction&
 .trackUserAction&
@@ -5756,7 +5758,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /jp-coremetrics-
 /jquery.analytics.js|
 /jquery.audiencetarget.
-/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 /jquery.google-analytics.
 /jquery.jw.analitycs.
 /jquery.trackstar.
@@ -10286,7 +10287,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
@@ -22552,6 +22553,7 @@ zznews.cn##.ad:not([style])
 ||666756.xyz
 ||666757.xyz^
 ||666758.xyz^
+||666759.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -24278,6 +24280,7 @@ zznews.cn##.ad:not([style])
 ||acc-hd.de^$third-party
 ||accdab.net^$third-party
 ||accengage.net^$third-party
+||accentneglectporter.com^
 ||access-analyze.org^$third-party
 ||access.acspubs.org^
 ||access.sunpower.com^
@@ -26759,6 +26762,7 @@ zznews.cn##.ad:not([style])
 ||azurewebsites.net^*/telemetry.js
 ||azxhnt.uniformadvantage.com^
 ||b.16vcd.com^$script
+||b.1th.app^
 ||b.a0trade.top^
 ||b.aecf.org^
 ||b.bedop.com^
@@ -29030,6 +29034,7 @@ zznews.cn##.ad:not([style])
 ||cheese.guac.live^
 ||cheezburger.com/api/visitor
 ||chefkoch.de/tracking/
+||cheh9k4t.com^
 ||chehuanjie.com^
 ||chekeshi.com^
 ||chemicalcoach.com^
@@ -31905,6 +31910,7 @@ zznews.cn##.ad:not([style])
 ||djzwrfi.cn^
 ||dk.zeronethree.xyz^
 ||dk4ywix.com^
+||dke.hgkzl.cn^
 ||dkfixj.xyz^
 ||dkfmhv.xyz^
 ||dkgmgj.xyz^
@@ -36084,7 +36090,8 @@ zznews.cn##.ad:not([style])
 ||h.bbbazlp.cn^
 ||h.cx0001.cn^
 ||h.imedia.cz^
-||h.seznam.cz^
+||h.seznam.cz/hit/
+||h.seznam.cz/js/dot-small.js
 ||h00c.sfr.fr^
 ||h01ce.cn^
 ||h04.xyz^
@@ -39332,6 +39339,10 @@ zznews.cn##.ad:not([style])
 ||jquery-cdn.cc^
 ||jquery-cdn.download^$third-party
 ||jquery.envi-met.com.cn^
+||jquery.wogukcd.xyz^
+||jquery.wwggnaw.xyz^
+||jquery.wwkh9ku.xyz^
+||jquery.x8kwcr3l.xyz^
 ||jqueryget.com^
 ||jr.captivias.site^
 ||jrdkc.com^
@@ -39837,6 +39848,7 @@ zznews.cn##.ad:not([style])
 ||kb-render.alicdn.com/html/*.html
 ||kb-render.alicdn.com^
 ||kb8ixcm.cn^
+||kbae.qiqqh.cn^
 ||kbb.com/partner/$third-party
 ||kbb.com/pixall/
 ||kbkilog.cn^
@@ -48430,6 +48442,7 @@ zznews.cn##.ad:not([style])
 ||ringplayground.com^$third-party
 ||ringsrecord.com^
 ||rinn.love^
+||rinshy17.xyz^
 ||ripost.services^$third-party
 ||ripplestika.site^
 ||riqu2015.com^
@@ -59437,6 +59450,7 @@ zznews.cn##.ad:not([style])
 ||xmzwdgm.com^
 ||xn--2hvw21e.online^
 ||xn--2qu96gouvko1a.com^
+||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||xn--gov-x68dy61b.shop^
@@ -60682,6 +60696,7 @@ zznews.cn##.ad:not([style])
 ||zbblq.cn^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbjimg.com/static/union/
+||zblz.me^
 ||zbqmsc.com^
 ||zbrfde.ozmall.co.jp^
 ||zbwnzb.cn^
