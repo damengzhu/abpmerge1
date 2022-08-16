@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-16 01:53:35
-! Total count: 62887
+! Version: 2022-08-16 08:18:34
+! Total count: 62895
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -604,7 +604,7 @@
 ##.chat-top-ad
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3 > .well[data-height="250"][data-width="300"]
+##.col-lg-3 > .well[data-group][style]
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.comiis_ad
@@ -1602,6 +1602,7 @@
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
+##div[style="display: flex;justify-content: center;"] > .well[data-group][style]
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -5753,7 +5754,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /jltracking.
 /join/tracking/*
 /jp-coremetrics-
-/jquery.24_ef3e.
 /jquery.analytics.js|
 /jquery.audiencetarget.
 /jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
@@ -9660,6 +9660,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
 @@||api-analytics.magstimconnect.net^$~third-party
+@@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.ads.tvb.com^
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
@@ -10450,6 +10451,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||joyk.com^$generichide
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
@@ -21474,6 +21476,7 @@ zznews.cn##.ad:not([style])
 ||21cnbm.com^
 ||21edu8.com/js/mymoney/
 ||21fit3-wnro.cn^
+||21fsdf.com^
 ||21gebd.store^
 ||21kk.cc^
 ||21mob.com^
@@ -25783,6 +25786,7 @@ zznews.cn##.ad:not([style])
 ||analytics.pgncs.notion.so^
 ||analytics.piksel.com^
 ||analytics.pinterest.com^$third-party
+||analytics.pixels.ai^
 ||analytics.plex.tv^
 ||analytics.pointdrive.linkedin.com^
 ||analytics.pop2watch.com^
@@ -41470,8 +41474,8 @@ zznews.cn##.ad:not([style])
 ||logs.amap.com^
 ||logs.animaapp.com^
 ||logs.chelaile.net.cn^
-||logs.datadoghq.com^$domain=~app.datadoghq.com
-||logs.datadoghq.eu^$domain=~app.datadoghq.eu
+||logs.datadoghq.com^$third-party
+||logs.datadoghq.eu^$third-party
 ||logs.gaana.com^
 ||logs.ggweb.nl^
 ||logs.hotstar.com^
@@ -46406,7 +46410,6 @@ zznews.cn##.ad:not([style])
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
 ||pixels.afcdn.com^
-||pixels.ai^$third-party
 ||pixels.asia^
 ||pixels.boxberry.ru^
 ||pixelzirkus.gameforge.com^
@@ -53301,6 +53304,7 @@ zznews.cn##.ad:not([style])
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||swxun.com^
 ||sx9zy.cn^
+||sxbexrv.cn^
 ||sxbme.club^
 ||sxbxzc.com^
 ||sxdech.cn^
@@ -53731,6 +53735,7 @@ zznews.cn##.ad:not([style])
 ||tanx.com/t/tanxcollect.js
 ||tanx.com^$third-party
 ||tanx.com^$third-party,domain=~1688.com|~alimama.com|~tmall.com|~www.taobao.com
+||tanyp.xyz^
 ||taobao.com/api/data/v2/d9543feac7c9433a98bc85be3ba856b1.js
 ||taobao.com/go/$third-party,domain=~alimama.com|~alitrip.com|~tanx.com|~tmall.com
 ||taobao.com/js/smartbanner/
@@ -54243,6 +54248,7 @@ zznews.cn##.ad:not([style])
 ||tiebac.baidu.com/ala^
 ||tiendeo.*/_statsapi/
 ||tienu.tech^
+||tierzf.xyz^
 ||tietuku.$domain=papa1024.com
 ||tietuku.cn^$image,domain=fulidh.com
 ||tietuku.com/b975a9f7c494738b.gif
@@ -56980,6 +56986,7 @@ zznews.cn##.ad:not([style])
 ||visx.net^$third-party
 ||viu.actonservice.com^
 ||viuspbkmn.bar^
+||vivachina.co^
 ||vivaciousveil.com^
 ||vivi87.cn^
 ||vivid.money/projectx/$ping
@@ -61393,6 +61400,7 @@ zznews.cn##.ad:not([style])
 ||zzxxli.club^
 ||zzyanhushi.com^
 ||zzycj.com^
+||zzyl.mobi^
 ||zzyytt.top^
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
