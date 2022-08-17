@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-17 08:24:01
-! Total count: 62930
+! Version: 2022-08-17 16:27:12
+! Total count: 62927
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -592,7 +592,6 @@
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*="/viphktv.com/"]
 ##.bus_adsbox
-##.buyaoa-below
 ##.c-ad
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
@@ -604,7 +603,7 @@
 ##.chat-top-ad
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3 > .well[style]
+##.col-lg-3[style="z-index: 0;"] > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.comiis_ad
@@ -690,7 +689,6 @@
 ##.gpost-below
 ##.gpt_ads_box
 ##.gr_slide_car_inner
-##.guangjiaodebupachuanxiede
 ##.guruin-ads
 ##.hao123-unionad-pic
 ##.hbp > .wp_banner
@@ -11296,7 +11294,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||wenxuecity.com^$generichide
 @@||wgun.net^$elemhide
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
-@@||wholehk.com^$generichide
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
@@ -11568,7 +11565,6 @@ acfun.cn##.pause-display
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 acfun.cn##.right-activity
 acfun.cn##a[href^="https://click.dsp.com/"]
-acg12.com##a[href*="%2F"]
 acg17.com##.yhq
 acg17.com,secretmine.net##.e3lan
 acg18.me##div.row-fluid.ggggtop,.gggpost-below,.abptext,.gggtop,.ggpost-below
@@ -29268,6 +29264,7 @@ zznews.cn##.ad:not([style])
 ||citibank.com.ph/tmx/js/
 ||citizensclimate.actonservice.com^
 ||citrusad.net^$third-party
+||citstmc.cn^
 ||city.baiwb.com^
 ||city.cbh365.club^
 ||city.youpukeji.cn^
@@ -37062,6 +37059,7 @@ zznews.cn##.ad:not([style])
 ||hstrck.com^$third-party
 ||hsy0616.love^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
+||hsywzx.cn^
 ||htai.co/tb$script
 ||htai.me/tb$script
 ||htds.vip^
@@ -46765,6 +46763,7 @@ zznews.cn##.ad:not([style])
 ||postgraduate.smu.edu.sg^
 ||postgraduate2.smu.edu.sg^
 ||posthog.com^$third-party
+||postimg.cc^*-960x60.
 ||postuler.bpost.be^
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
 ||pouitgy.cn^
@@ -48892,6 +48891,7 @@ zznews.cn##.ad:not([style])
 ||saa.paramountplus.com^
 ||saa.poptv.com^
 ||saa.tescomobile.com^
+||saasexch.com/bapi/fe/usd/report/
 ||sabavision.com^$third-party
 ||sablesmile.com^
 ||sablesong.com^$third-party
@@ -57828,8 +57828,6 @@ zznews.cn##.ad:not([style])
 ||whoican.love^
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
-||wholehk.com/atttuop.js
-||wholehk.com/ptpptt.js
 ||whooshkaa.com/identify
 ||whooshkaa.com/listen/track
 ||whosclickingwho.com^$third-party
@@ -57945,7 +57943,6 @@ zznews.cn##.ad:not([style])
 ||wk.eccbb.com^
 ||wka8.com^
 ||wkanx.com^
-||wkcdn.com/style_
 ||wkctj.baidu.com^
 ||wkdown.info/bmw*.gif$image
 ||wkdown.info/bt.php?
@@ -62323,7 +62320,7 @@ zznews.cn##.ad:not([style])
 189.cn#@#.share-panel
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 189.cn,zdzdm.com#@##share_list
-199it.com,softwarebrother.com,wholehk.com##.adsbygoogle
+199it.com,softwarebrother.com##.adsbygoogle
 200sht.info,sehuatang.org##.show-text
 233.com##.gads
 233.com##.gads2
