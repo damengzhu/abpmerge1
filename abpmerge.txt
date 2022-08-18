@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-18 01:57:15
-! Total count: 62935
+! Version: 2022-08-18 08:21:41
+! Total count: 62943
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -603,8 +603,9 @@
 ##.chat-top-ad
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3[style="z-index: 0;"] > .well
+##.col-lg-3[style^="z-index: 0"] > .well
 ##.col-md-10 > .banner-table-block
+##.col-xs-12[style^="display"] > .well
 ##.col5 > dl#randomBox
 ##.comiis_ad
 ##.comiis_adbox
@@ -1601,7 +1602,6 @@
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
-##div[style="display: flex;justify-content: center;"] > .well[data-group][style]
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -27609,6 +27609,7 @@ zznews.cn##.ad:not([style])
 ||bhj691.com^
 ||bhj699.com^
 ||bhlianhe.com^
+||bhny.asia^
 ||bhphotovideo.com/aperture/client/logs
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bhphotovideo.com/imp/
@@ -31072,6 +31073,7 @@ zznews.cn##.ad:not([style])
 ||d67p.com/love/
 ||d6jkenny8w8yo.cloudfront.net^
 ||d761erxl2qywg.cloudfront.net^
+||d7y5grtl.site^
 ||d80.xyz^
 ||d810.mysanantonio.com^
 ||d81mfvml8p5ml.cloudfront.net^
@@ -38707,9 +38709,11 @@ zznews.cn##.ad:not([style])
 ||iubenda.com/write?
 ||iuiweb.com^
 ||iuliglsh.space^
+||iumnxwvh.ink^
 ||iupian.com/mstyle/js/topinfo.js
 ||iusnajah.cn^
 ||iuuff.com^
+||iuyuwh.cn^
 ||iv.aliyune.xyz^
 ||ivcbrasil.org.br^$third-party
 ||iviewui.com/v1/*?name=
@@ -40046,6 +40050,7 @@ zznews.cn##.ad:not([style])
 ||kj733.com^
 ||kjbyuguv12.com^
 ||kjcenter.com^$third-party
+||kjcnve.xyz^
 ||kjfoqi.cn^
 ||kjgen.com^
 ||kjggk1.xyz^
@@ -45209,6 +45214,7 @@ zznews.cn##.ad:not([style])
 ||ogb2.eauthermalejonzac.com^
 ||ogb2.leanatureboutique.com^
 ||ogb2.natessance.com^
+||ogcyshr.cn^
 ||oghdnp.cn^
 ||oghub.io^$third-party
 ||ogt.jp^$third-party
@@ -47194,6 +47200,7 @@ zznews.cn##.ad:not([style])
 ||pw321.com^
 ||pw321.com^*.gif
 ||pwjmzqx.cn^
+||pwqtkap.cn^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/s
@@ -57923,6 +57930,7 @@ zznews.cn##.ad:not([style])
 ||wirecomic.com^
 ||wiredminds.de^$third-party
 ||wirewuss.com^$third-party
+||wisafnie.space^
 ||wisesoftsh.com.cn^
 ||wisetrack.net^$third-party
 ||wishabi.net/attribution.js
