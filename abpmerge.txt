@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-19 01:52:02
-! Total count: 62973
+! Version: 2022-08-19 08:21:54
+! Total count: 63013
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -3431,6 +3431,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /analytics-events-
 /analytics-facade.
 /analytics-gcp.
+/analytics-gjc/*
 /analytics-helper.
 /analytics-hit?
 /analytics-ingestion/*
@@ -4726,6 +4727,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dy_66jjss/*
 /dygg_
 /dynaTraceMonitor^
+/dynamic.ziftsolutions.com/*
 /dynamic_ytrack_
 /dynamictag.
 /dynamicyield/*
@@ -9607,6 +9609,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||ak77now.pixnet.net^$generichide
+@@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
+@@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com|ubisoftconnect.com
 @@||akamaized.net^*/js/tracking/ninja.js$script,domain=olx.ua
@@ -10427,6 +10431,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$domain=elisa.fi|kauppahalli24.fi
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
+@@||intersport.peerius.com/tracker/tracker.page$script,domain=intersport.de
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
@@ -18373,6 +18378,7 @@ sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
 sohu.com##.x-adv-pause-nonlinear-panel
+sohu.com##A[href='javascript:void(0);']
 sohu.com##DIV#bottomBanner[data-spm='b-mb'][data-spm-stop='init']
 sohu.com##DIV#middleBanner[data-spm='a-mb'][data-spm-stop='init']
 sohu.com##DIV.middle-insert-ad
@@ -21679,6 +21685,7 @@ zznews.cn##.ad:not([style])
 ||2kandy.com/js/123/
 ||2kjg.xyz^
 ||2l0g3xd.cn^
+||2l6ddsmnm.de^
 ||2laezi9.cn^
 ||2lian.com^$third-party
 ||2m2n.com^
@@ -25022,6 +25029,7 @@ zznews.cn##.ad:not([style])
 ||agates.ru/counters/
 ||agathazanna.com^
 ||agcs-knowledge.allianz.com^
+||agent.contentsanalyst.com^
 ||agentanalytics.com^$third-party
 ||agentinteractive.com^$third-party
 ||aghtag.tech^$third-party
@@ -25571,6 +25579,7 @@ zznews.cn##.ad:not([style])
 ||amnet.tw^$third-party
 ||amoad.com^$third-party
 ||amp-error-reporting.appspot.com^
+||amp.vg^$third-party
 ||amplify.outbrain.com^$third-party
 ||amplify.strategic-i.com^
 ||amplifypixel.outbrain.com^
@@ -25628,6 +25637,7 @@ zznews.cn##.ad:not([style])
 ||analytics-api.smzdm.com^
 ||analytics-cdiscount.com^$third-party
 ||analytics-cms.whitebeard.me^
+||analytics-coletor-site.ojc.com.br^
 ||analytics-gw.games.wanmei.com^
 ||analytics-production.hapyak.com^
 ||analytics-proxy.springboard.com^
@@ -25864,6 +25874,7 @@ zznews.cn##.ad:not([style])
 ||analytics.tio.ch^
 ||analytics.tntdramma.com^
 ||analytics.top10-charts.com^
+||analytics.touchnote.io^
 ||analytics.tout.com^
 ||analytics.tradedoubler.com^
 ||analytics.traderlink.com^
@@ -26625,6 +26636,7 @@ zznews.cn##.ad:not([style])
 ||automaticairplane.com^
 ||automaticflock.com^
 ||automaticside.com^$third-party
+||automizely-analytics.com^$third-party
 ||automobile.it/fb/
 ||autonet.com.tw/90/
 ||autoretro.com.ua/smtop/
@@ -26715,6 +26727,7 @@ zznews.cn##.ad:not([style])
 ||awyys.com^
 ||awzbijw.com^$third-party
 ||ax.*.ifeng.com^
+||ax.babe.today^
 ||ax.idg.se^
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
@@ -26777,6 +26790,7 @@ zznews.cn##.ad:not([style])
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
 ||azureedge.net/wp-content/uploads/*-AD0
+||azureedge.net^*/fnix.js
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net/api/views?
 ||azurewebsites.net^*/telemetry.js
@@ -27227,6 +27241,7 @@ zznews.cn##.ad:not([style])
 ||bbuni.com^$third-party
 ||bbvdd.com^
 ||bbvms.com/zone/js/zonestats.js
+||bbzerk.cn^
 ||bc.geocities.
 ||bc.marfeelcache.com^
 ||bc.qunar.com^
@@ -28493,6 +28508,7 @@ zznews.cn##.ad:not([style])
 ||cad.chosun.com^
 ||cad.youku.com^
 ||cadreon.com^$third-party
+||cadsuta.net^
 ||caduka.cn^
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
@@ -28833,6 +28849,7 @@ zznews.cn##.ad:not([style])
 ||cdn.pg88cdn.com^
 ||cdn.shdsp.net/ad
 ||cdn.smilk.cc^
+||cdn.stroeerdigitalgroup.de^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn.vue-js.cyou^
@@ -30735,6 +30752,7 @@ zznews.cn##.ad:not([style])
 ||ct.thegear-box.com^$third-party
 ||ct.xn--0et88ccz6awh1a.biz^
 ||ct372.cn^
+||ct4s.top^
 ||ct5m.citadium.com^
 ||ctags.cn/9/j2.js
 ||ctags.cn^$third-party
@@ -31509,6 +31527,7 @@ zznews.cn##.ad:not([style])
 ||deepchannel.com^$third-party
 ||deepl.com/web/statistics
 ||deeplacer.com^
+||deeplearning.red^
 ||deeplink.aspiration.com^
 ||deeplink.instacartemail.com^
 ||deeplinks.padmapper.com^
@@ -33657,6 +33676,7 @@ zznews.cn##.ad:not([style])
 ||event-api.rdstation.com.br^
 ||event-api.reverb.com^
 ||event-listener.air.tv^
+||event-service.letslinc.com^
 ||event-stream.spot.im^
 ||event.api.drift.com^
 ||event.csdn.net^
@@ -35364,6 +35384,7 @@ zznews.cn##.ad:not([style])
 ||gj.ityangstudy.cn^
 ||gj.mmstat.com^
 ||gjapplog.uc.cn^
+||gjeonh.cn^
 ||gjh9v.tianshilv.cn^
 ||gjohvhf.cn^
 ||gjr.ink^
@@ -37675,6 +37696,7 @@ zznews.cn##.ad:not([style])
 ||ihear123.com^
 ||iheart.com/api/v3/playback/reporting
 ||iheart.com/events
+||iherb.com/VtidNbtC/init.js
 ||ihero.pub
 ||ihfwer.aboutyou.com^
 ||ihhii.xyz^
@@ -41256,6 +41278,7 @@ zznews.cn##.ad:not([style])
 ||livestats.la7.tv^
 ||livestats.matrix.it^
 ||livestatsnet.services^$third-party
+||livestory.io/*/collect
 ||livetex.ru^$third-party
 ||livetrafficfeed.com^$third-party
 ||liveviewer.ez.no^
@@ -42742,6 +42765,7 @@ zznews.cn##.ad:not([style])
 ||mc.yandex.ru^
 ||mc63rs.life^
 ||mcad.mods-clinic.com^
+||mcangelus.com^
 ||mcaspkd.cn^
 ||mcchou.com/wp-content/themes/begin/js/mcchou.js
 ||mcdhshlsboom.com^
@@ -43105,6 +43129,7 @@ zznews.cn##.ad:not([style])
 ||metaffiliation.com^*^mclic=
 ||metalyzer.com^$third-party
 ||metauniverse88.com^
+||metaversn.site^$third-party
 ||meteorsolutions.com^$third-party
 ||meter.bref.sh^
 ||metering.pagesuite.com^$third-party
@@ -43774,6 +43799,7 @@ zznews.cn##.ad:not([style])
 ||mnsd.xyz^
 ||mnuy56.site^
 ||mnvde.com^
+||mnver.xyz^
 ||mnvrwq.xyz^
 ||mnwan.com^
 ||mnwor.xuanlishi.com^
@@ -43878,6 +43904,7 @@ zznews.cn##.ad:not([style])
 ||monitus.net^$third-party
 ||monkeytracker.cz^$third-party
 ||monnsutogatya.com/himg/monst/
+||monsido.com^$third-party
 ||monstat.com^$third-party
 ||montpalatin.handicap.fr^
 ||monu.delivery^$third-party
@@ -44000,6 +44027,7 @@ zznews.cn##.ad:not([style])
 ||mrksmm.yumegazai.com^
 ||mrksys.com^
 ||mroft.gubgonx.cn^
+||mrpdata.net^
 ||mrpjcd.tensunits.com^
 ||mrqls.to/info/
 ||mrqpcy.biggreensmile.nl^
@@ -44127,6 +44155,7 @@ zznews.cn##.ad:not([style])
 ||mulanphone.cn^
 ||muliglsn.space^
 ||multicounter.de^$third-party
+||mumnxwvn.ink^
 ||mumulian.com^
 ||munchkin.marketo.net^
 ||mundanepollution.com^$third-party
@@ -45254,6 +45283,7 @@ zznews.cn##.ad:not([style])
 ||oidah.com^$third-party
 ||oimg.nbcsports.com^
 ||oioiio.top^
+||oisafnik.space^
 ||oiuqwppcsdf.com^
 ||oizn.club^
 ||ojbknb.com^
@@ -46679,6 +46709,7 @@ zznews.cn##.ad:not([style])
 ||pluto.r.powuta.com^
 ||plwan.com^
 ||pm.birjkhm.cn^
+||pm.boostintegrated.com^
 ||pm.dailykos.com^
 ||pm.i7pnx0t.cn^
 ||pm.mdkjefq.cn^
@@ -47821,6 +47852,7 @@ zznews.cn##.ad:not([style])
 ||qudaoweiwang.com^
 ||quehq.com^
 ||queqh.com^
+||quesid.com^
 ||questintegrity.actonservice.com^
 ||questionmarket.com^
 ||questionpro.com^$third-party,domain=~questionpro.com.au|~questionpro.eu
@@ -48306,6 +48338,7 @@ zznews.cn##.ad:not([style])
 ||reporting.singlefeed.com^
 ||reportlog.dftoutiao.com^
 ||reports-api.sqreen.io^
+||reports-tsi.tangerine.io^
 ||reports.pagesuite-professional.co.uk^
 ||reports.sdiapi.com^
 ||reports.tunein.com^
@@ -48381,6 +48414,7 @@ zznews.cn##.ad:not([style])
 ||resulticks.com^$third-party
 ||resultspage.com/js/sli-spark.js
 ||retag.xyz^$third-party
+||retailads.net^$third-party
 ||retargeter.com.br^$third-party
 ||retargeting.biz^$third-party
 ||retargeting.newsmanapp.com^
@@ -48479,6 +48513,7 @@ zznews.cn##.ad:not([style])
 ||rights.wang^
 ||rightstats.com^$third-party
 ||rigidrobin.com^
+||rigill.com^
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rijutv.*/statics/alljs/rijutvapp.
 ||rijutv.*/statics/alljs/rijutvpc.js
@@ -49625,6 +49660,7 @@ zznews.cn##.ad:not([style])
 ||sellpoint.net^$third-party
 ||sellpoints.com^$third-party
 ||sellsy.com^$third-party,domain=~sellsy.fr
+||selphiu.com^
 ||sem.triboomedia.it^
 ||semantic-finder.com^$third-party
 ||semanticverses.com^$third-party
@@ -55180,6 +55216,7 @@ zznews.cn##.ad:not([style])
 ||track.dws.de^
 ||track.e7r.com.br^
 ||track.eadv.it^
+||track.emerse.com^
 ||track.emeza.ch^
 ||track.emeza.com^
 ||track.express.de^
@@ -55229,6 +55266,7 @@ zznews.cn##.ad:not([style])
 ||track.readdsp.com^
 ||track.realtimeboard.com^
 ||track.recreativ.ru^
+||track.rheinpfalz.de^
 ||track.roomster.com^
 ||track.rundschau-online.de^
 ||track.searchignite.com^
@@ -55339,6 +55377,7 @@ zznews.cn##.ad:not([style])
 ||tracker.wigzopush.com^
 ||tracker.winload.de^
 ||tracker.wpserveur.net^
+||tracker.xgen.dev^
 ||trackerapi.truste.com^
 ||trackertest.org^$third-party
 ||trackfeed.com^$third-party
@@ -55534,7 +55573,6 @@ zznews.cn##.ad:not([style])
 ||tracking.mizuhogroup.com^
 ||tracking.mkt-email.samsungsds.com^
 ||tracking.mollyladies.de^
-||tracking.monsido.com^
 ||tracking.motorimagazine.it^$script
 ||tracking.motorolasolutions.com^
 ||tracking.musixmatch.com^
@@ -57876,6 +57914,7 @@ zznews.cn##.ad:not([style])
 ||whosclickingwho.com^$third-party
 ||whoseesyou.com^$third-party
 ||whosread.com/counter/
+||whpfl.cn^
 ||whrsen.itemmania.com^
 ||whsia.cn^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
@@ -60275,6 +60314,7 @@ zznews.cn##.ad:not([style])
 ||yorkbbs.ca/crm/section/v1/get/list/open
 ||yosjob.cn^
 ||yottaa.com/rapid.min.js
+||yottlyscript.com^
 ||you6ka.cn^
 ||you85.*/ling/
 ||you85.com/cy2/
