@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-18 16:45:48
-! Total count: 62961
+! Version: 2022-08-19 01:52:02
+! Total count: 62973
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -603,9 +603,8 @@
 ##.chat-top-ad
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3[style^="z-index: 0"] > .well
+##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
-##.col-xs-12[style^="display"] > .well
 ##.col5 > dl#randomBox
 ##.comiis_ad
 ##.comiis_adbox
@@ -859,6 +858,7 @@
 ##.theme-dark>.ayx>a
 ##.theme_custom_slidebox-ad-below
 ##.themepark_advertisement
+##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
 ##.tooltip > #tp
@@ -965,6 +965,7 @@
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="chapter_"] > .baiduCenter
 ##[class^=c_c][style^='text-align:']
+##[data-url='http://xixi.stylar.hk/']
 ##[evhrumjx]
 ##[href*="/entry/register/?i_code="]
 ##[href*='sohu.com/hy-op']
@@ -7981,6 +7982,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
 /templates/*/js/_banner.js
+/templates/frontend/airav/js/*.js$image
 /templets/*/js/couplet-ad.
 /templets/yycms3/img/*
 /tenant.min.js
@@ -10220,6 +10222,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
@@ -18373,7 +18376,9 @@ sohu.com##.x-adv-pause-nonlinear-panel
 sohu.com##DIV#bottomBanner[data-spm='b-mb'][data-spm-stop='init']
 sohu.com##DIV#middleBanner[data-spm='a-mb'][data-spm-stop='init']
 sohu.com##DIV.middle-insert-ad
+sohu.com##DIV.nice-img-clz
 sohu.com##DIV.top-bill-wrapper[data-spm='a-tb'][data-spm-stop='init']
+sohu.com##DIV[id^="ceans_"]
 sohu.com##[data-spm^='ad-']
 sohu.com##[id^="ads_"],#miaozhenad
 sohu.com##div.adA.area,div.adB.area,div#adList.area,div.ad-listB.clear,div.ad680,div.ad300,div[id^="ad_"],SOHUADCODE,DIV#turn-ad.area,DIV.adarea.area,DIV.adtop.area,DIV[class^="ad"].area,#vcr_60_1,DIV.columnC > DIV.titleA[collection="Y"],[class^="active_highQuality"],div.ad,#referr_bd_box,.ad650,.AD-new2,iframe[src^="http://images.sohu.com/bill/"],.god_header,.godR,[data-role="god_column"],[width="400"][height="40"]
@@ -22567,6 +22572,7 @@ zznews.cn##.ad:not([style])
 ||666759.xyz^
 ||666762.xyz^
 ||666763.xyz^
+||666764.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
@@ -25493,7 +25499,6 @@ zznews.cn##.ad:not([style])
 ||am-vid-events.taboola.com^
 ||am.belambra.com^
 ||am.cupid.iqiyi.com/am
-||am.i.mullvad.net^$third-party
 ||am.szhome.com^
 ||am15.net^
 ||am77p.cn^
@@ -25798,6 +25803,7 @@ zznews.cn##.ad:not([style])
 ||analytics.ovh.com^
 ||analytics.paddle.com^
 ||analytics.pagefly.io^
+||analytics.partcommunity.com^
 ||analytics.pgatour.com^
 ||analytics.pgncs.notion.so^
 ||analytics.piksel.com^
@@ -26734,6 +26740,7 @@ zznews.cn##.ad:not([style])
 ||axqpn.cn^
 ||axt.cool^
 ||axuns.com^
+||axvnsla.top^
 ||ayazsth.cn^
 ||aybe.me^
 ||aybnn.cn^
@@ -35372,6 +35379,7 @@ zznews.cn##.ad:not([style])
 ||gk596.cn^
 ||gk99.com/static/js/a-d-sys.js
 ||gkenql.cn^
+||gkiyvbk.cn^
 ||gksqfw.reverso.net^
 ||gl5g98t0vfjb.panprices.com^
 ||glam.com/cece/agof/
@@ -36608,6 +36616,7 @@ zznews.cn##.ad:not([style])
 ||hgdnd.cc^
 ||hgf4.zanzicar.fr^
 ||hggtt.top^
+||hgjxp.cn^
 ||hgkzl.cn^
 ||hguas.com^
 ||hgxy.info^
@@ -47259,6 +47268,7 @@ zznews.cn##.ad:not([style])
 ||pymx5.com^$third-party
 ||pyouad.autonvaraosat24.fi^
 ||pyroactive.de/counter/
+||pyrrtep.cn^
 ||pythontab.com/statics/images/*abc
 ||pythontab.com/statics/images/*ads
 ||pythontab.com/statics/images/*comp
@@ -47540,6 +47550,7 @@ zznews.cn##.ad:not([style])
 ||qiqiyii.com^
 ||qiqqh.cn^
 ||qiruidea.com^
+||qisafniy.space^
 ||qishenga.com^*.gif$domain=meiju11.com
 ||qishu.cc/skins/common.js
 ||qishuk.com/css/wap.
@@ -57078,6 +57089,7 @@ zznews.cn##.ad:not([style])
 ||vkygseu.cn^
 ||vl665.cn^
 ||vlbvgtj.cn^
+||vliao365.com^
 ||vlion.cn^$third-party
 ||vlive.qqvideo.tc.qq.com^
 ||vlogs.deja.media^
