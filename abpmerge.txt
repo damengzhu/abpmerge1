@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-21 08:20:56
-! Total count: 63071
+! Version: 2022-08-21 09:48:29
+! Total count: 63076
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -1130,6 +1130,7 @@
 ##[src='https://new.163.com/xf.ts']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
 ##[src^="https://763667.com/"][src*=".gif"],[src^="https://763667.com/"][width="100%"],[onclick^="tj('menu','text'"]
+##[src^='../211109/player.gif']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/static/'][onclick='openurl()'][lazyload][importance='low']
 ##[src^='https://img.hylmxing.com:']
@@ -9396,6 +9397,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@f*.baidu.com/it/u=*,*&fm=*PNG
 @@guokr.com/apis/flowingboard/item/m_article
 @@guokr.com/apis/flowingboard/item/m_home_
+@@qhres2.com$domain=baike.so.com
 @@www.cocomanga.com/js/ad_/ad2.js
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@||*/assets/js/common/juqery/
@@ -12170,6 +12172,7 @@ baike.com###ad-xnsc
 baike.com###newsfix-on
 baike.com##.ad_xuanban
 baike.haosou.com##div#bnbtm-banner,#dwAdBox,div#rightbanner
+baike.so.com##section#business-flow.business-flow
 baike567.com,wuhaozhan.net##.pure-u-md-8-24 iframe
 baikebcs.bdimg.com/*banner*.jpg
 baishi.baidu.com##.video-adv,.adv-container,#playerPauseAdv
@@ -13665,6 +13668,8 @@ dysfz.cc##[class^="adv-"],[class^="adv_"]
 dytt5.net##.detail-body > .fly-panel
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 dyxia.com##[id^="qj960"],#xinxi
+dyxs13.com##[src$='/player.gif']
+dyxs13.com##div.close-player_pic
 dz19.net##.a_mu,.a_h,.a_f
 dzbhdm.net##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.net##a[href*=".weixin.qq.com/"]
