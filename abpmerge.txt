@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-21 09:48:29
-! Total count: 63076
+! Version: 2022-08-21 16:23:39
+! Total count: 63086
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -799,6 +799,7 @@
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player_pic_link > [src*='/player.gif']
 ##.playtop.col-pd
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-mobile-overlay
@@ -938,6 +939,7 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
+##A[href*="/uu5566.cn.com/"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -978,6 +980,7 @@
 ##[href='#'][onclick='openurl(); return false'][target='_blank']
 ##[href='/ad.html']
 ##[href='/ad/bfy.html']
+##[href='/aga2/1661087']
 ##[href='/cwm2.html'][rel='nofollow']
 ##[href='/gg1.html'][rel='nofollow']
 ##[href='/hy-66-90.php']
@@ -1130,7 +1133,6 @@
 ##[src='https://new.163.com/xf.ts']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
 ##[src^="https://763667.com/"][src*=".gif"],[src^="https://763667.com/"][width="100%"],[onclick^="tj('menu','text'"]
-##[src^='../211109/player.gif']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/static/'][onclick='openurl()'][lazyload][importance='low']
 ##[src^='https://img.hylmxing.com:']
@@ -1151,6 +1153,7 @@
 ##[style="width:100%;height:30vw;"][src^="https://oddsds.com/img/"]
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^="position:fixed;left:0;top:3px;height:122px;width:100%"]
+##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##[target='_blank'][href='https://u.jd.com/J7NwrL ']
 ##[width='100%'][src^='/js/ad_/mobile'][src*='jpg']
 ##a > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
@@ -1574,6 +1577,7 @@
 ##div.ads-footer
 ##div.ads-player
 ##div.box.bottom-adv
+##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##div.m_avs
 ##div.row.abs-text
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -6269,6 +6273,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /media-analytics/*
 /media.sailthru.com/5ik/1k4/9/*.gif
 /media/miner.
+/media/users/*.js$image
 /media_viewed_tracking.
 /medialaanUniversalTracker.
 /mediametrie.js
@@ -13668,8 +13673,6 @@ dysfz.cc##[class^="adv-"],[class^="adv_"]
 dytt5.net##.detail-body > .fly-panel
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 dyxia.com##[id^="qj960"],#xinxi
-dyxs13.com##[src$='/player.gif']
-dyxs13.com##div.close-player_pic
 dz19.net##.a_mu,.a_h,.a_f
 dzbhdm.net##.inn-nav__placeholder + .poi-container > a[target="_blank"]
 dzbhdm.net##a[href*=".weixin.qq.com/"]
@@ -21586,6 +21589,7 @@ zznews.cn##.ad:not([style])
 ||23991511.com^
 ||23aitt.com/zz/
 ||23dsf.top^
+||23img.com^*/qomnyi.
 ||23kmm.com^$third-party
 ||23l1b.cn^
 ||23qb.com/ak
@@ -22936,6 +22940,7 @@ zznews.cn##.ad:not([style])
 ||8889888.vip^
 ||888dizhi.com/888/
 ||888lianmeng.com^
+||888yh.xyz^
 ||88cpc.com^
 ||88cpc.com^$third-party
 ||88eg.cn^
@@ -25776,6 +25781,7 @@ zznews.cn##.ad:not([style])
 ||analytics.hiome.com^
 ||analytics.hotelclub.com^
 ||analytics.humanautomation.ai^
+||analytics.ikyu.com^
 ||analytics.infobae.com^
 ||analytics.inform.com^
 ||analytics.iraiser.eu^
@@ -37909,6 +37915,7 @@ zznews.cn##.ad:not([style])
 ||img2.win007.com/image/*.jpg
 ||img3.126.net^
 ||img3.eguu8.com/a/*/*.jpg
+||img301.com^
 ||img50.pingguolv.com^
 ||img588.net/images/*.gif
 ||img599.net/images/*.gif$domain=javccc.net
@@ -50349,6 +50356,7 @@ zznews.cn##.ad:not([style])
 ||sk1n.fr^$third-party
 ||sk8t.fr^$third-party
 ||skads.gxsky.com^$script
+||skbao.co^
 ||skechers.com/dL6GOSf9/init.js
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
@@ -56764,6 +56772,7 @@ zznews.cn##.ad:not([style])
 ||uttermosthobbies.com^
 ||uty.micocc.com/api/ad^
 ||uu1.3gu.com^
+||uu2e.com^
 ||uu99k.com^
 ||uucm.cn^
 ||uue2.destinia.ir^
@@ -61280,6 +61289,7 @@ zznews.cn##.ad:not([style])
 ||zllnb.top^
 ||zllqoxidate.com^
 ||zllxy.love^
+||zlmbnh.cn^
 ||zlnmzc.top^
 ||zlolhl.3dnews.ru^
 ||zlolhl.anekdot.ru^
