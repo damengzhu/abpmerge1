@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-25 08:24:30
-! Total count: 63183
+! Version: 2022-08-25 16:24:12
+! Total count: 63194
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9114,6 +9114,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://*:*/yeyue.html?k=$csp=script-src
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
+://18comic.*/media/albums/*?
 ://a.ads.
 ://a02342.
 ://ads.
@@ -10686,6 +10687,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||msn.wrating.com/a1.js
 @@||msn.wrating.com^
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
+@@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||muumuu-domain.com/common/js/ga_social_tracking.js
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
@@ -16370,6 +16372,7 @@ ludashi.com##.div_mask
 ludashi.com##.div_text
 lufuli.com##ins.adsbygoogle
 luogu.com.cn##.side > div:last-child:not([class])
+luoqiuzw.com##DIV[id^="a-loading-"]
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -21383,7 +21386,6 @@ zznews.cn##.ad:not([style])
 ||18ap945.cn^
 ||18avday.*/aa/
 ||18comic.*/iframe
-||18comic.*/media/albums/*?
 ||18comic.*/media/logo/
 ||18comic.*/static/resources/files/*0x
 ||18comic.*/static/resources/images/*.gif
@@ -33893,6 +33895,7 @@ zznews.cn##.ad:not([style])
 ||exelator.com^$domain=disqus.com
 ||exelator.com^$third-party
 ||exeqzb.cn^
+||exevcl.cn^
 ||exgrao.cn^
 ||exgzyg.cn^
 ||exhmuxe.cn^
@@ -38905,6 +38908,10 @@ zznews.cn##.ad:not([style])
 ||iztwp.com/images/
 ||izuis.com^
 ||izuiyou.com/ad^
+||izzcwww7.live^
+||izzcwww7.world^
+||izzcwww8.xyz^
+||izzcwww9.xyz^
 ||izzs.cc/wp-content/mm/
 ||j.55555555555.xyz^
 ||j.5idoy8p7.live^
@@ -47232,6 +47239,7 @@ zznews.cn##.ad:not([style])
 ||ptengine.cn^$third-party
 ||ptengine.com^$third-party
 ||ptengine.jp^$third-party
+||ptenwy.cn^
 ||ptfish.com/*/ad$image,object
 ||ptfish.com/08html/ggf/cptdgg.html$document
 ||ptgdb.cn^
@@ -47527,6 +47535,7 @@ zznews.cn##.ad:not([style])
 ||qdsfzz.cn^
 ||qdt.lxksalary.com^
 ||qdt.zjzh2019.com^
+||qdvideo.xyz^
 ||qdwght.com^
 ||qdxrhg.com^$third-party
 ||qdxsodq.cn^
@@ -48888,6 +48897,7 @@ zznews.cn##.ad:not([style])
 ||rumanalytics.com^$third-party
 ||rumble.com/l/
 ||rumble.com^$ping,third-party
+||rumnxwvo.ink^
 ||rumpelstiltskinhead.com^$third-party
 ||run.app/data.log?
 ||run.app/metrics/
@@ -61119,6 +61129,7 @@ zznews.cn##.ad:not([style])
 ||zhangzhiyang01.cn^
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
+||zhanlan.asia^
 ||zhannei-dm.csdn.net^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhantai.com^$third-party
