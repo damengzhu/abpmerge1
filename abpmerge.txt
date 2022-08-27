@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-26 16:25:17
-! Total count: 63224
+! Version: 2022-08-27 01:57:33
+! Total count: 63238
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -939,7 +939,6 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
-##A[href*="/ybhth689.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1481,6 +1480,7 @@
 ##a[href*="/xchina.fun/redirect/ad"]
 ##a[href*="/xmkgc.com/"]
 ##a[href*="/yb6277.vip"]
+##a[href*="/ybhth689.com"]
 ##a[href*="/yhbet50.vip"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
@@ -3428,6 +3428,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /analytic_data_
 /analyticcdn.
 /analytics-2.
+/analytics-amplitude-
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
@@ -3682,6 +3683,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api/v3/getPageVisits
+/api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
 /api_ip_info.
 /apilog?
@@ -15319,7 +15322,6 @@ iplaysoft.com##DIV.d336,DIV.d250,UL#section_event,DIV#sidebar_scroll_bdad,DIV.wi
 iplaysoft.com##[style*="width:3"][style*="height:2"]
 iptv444.com$$a[target="_blank"]
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###con-ar > .result-op[mu*="nourl.ubs.baidu.com"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > ul
@@ -26462,6 +26464,7 @@ zznews.cn##.ad:not([style])
 ||ark.letv.com/t?
 ||arkayne.com^$third-party
 ||arkn81.com^
+||arlbper.cn^
 ||arlime.com^$third-party
 ||arlt.com/analytics/
 ||aromamirror.com^
@@ -29057,6 +29060,7 @@ zznews.cn##.ad:not([style])
 ||cfts1tifqr.com^
 ||cfyao.club^
 ||cfzhushou.com^*/King_Chance_Layer.js
+||cgdiqvn.cn^
 ||cgdjy.top^
 ||cgfdjz.net/xia.js
 ||cggf.xyz^
@@ -32973,6 +32977,7 @@ zznews.cn##.ad:not([style])
 ||ecpoc.com/style/ad
 ||ecranlarge.com/stat
 ||ecuc123.net^
+||ecudsc.cn^
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^$third-party
 ||ecustomeropinions.com^*/i.php?
@@ -34112,6 +34117,7 @@ zznews.cn##.ad:not([style])
 ||fangbaba.xyz^
 ||fangfeeling.com^
 ||fangfeng001.xyz^
+||fangfeng005.xyz^
 ||fanghua2.cn^
 ||fangjslc.com^
 ||fangshan.us^
@@ -50468,6 +50474,7 @@ zznews.cn##.ad:not([style])
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
 ||skf.actonservice.com^
+||skfjdf.xyz^
 ||skfqxkk.cn^
 ||ski1.skiset.com^
 ||skillfuldrop.com^
@@ -52159,6 +52166,7 @@ zznews.cn##.ad:not([style])
 ||splashqqlive.gtimg.com/website^
 ||splitbee.io^$third-party
 ||splittag.com^$third-party
+||splunkcloud.com/services/collector/
 ||splyt.com^$third-party
 ||spmaeu.gumtree.com.au^
 ||spmyma.moscowfresh.ru^
@@ -56164,6 +56172,7 @@ zznews.cn##.ad:not([style])
 ||try.abtasty.com^
 ||trys5.com^$third-party
 ||trysera.com^$third-party
+||trysogsii.uno^
 ||tryst.net.cn^
 ||tryzens-analytics.com^
 ||trznrug.cn^
@@ -57420,6 +57429,7 @@ zznews.cn##.ad:not([style])
 ||vstat.my.tv.sohu.com^
 ||vstat.v.blog.sohu.com^
 ||vsw2.21cnbm.com^
+||vt3a.top^
 ||vt863.cn^
 ||vtex.com.br/rc/rc.js
 ||vtf2f.banque-casino.fr^
@@ -59758,6 +59768,7 @@ zznews.cn##.ad:not([style])
 ||xne1ocient87zxz.360doc.cn^
 ||xnewsletter.de/count/counter.php?
 ||xng02.com/api.php?mod=ad&
+||xniexnz.cn^
 ||xnimg.cn^*/liveinc/rightlive.js
 ||xnjpg.com^
 ||xnjzsn.com^
@@ -60446,6 +60457,7 @@ zznews.cn##.ad:not([style])
 ||ylbx.me^
 ||ylc.ink^
 ||yldr.io^$third-party
+||yleaxs.cn^
 ||ylkjit.com^
 ||ylnet.com.cn/dl*.js
 ||ylnet.com.cn/gj.js
@@ -61036,6 +61048,7 @@ zznews.cn##.ad:not([style])
 ||zdfans.com/wp-content/themes/D7/img/ad
 ||zdhfff.xyz^
 ||zdhm.cn^
+||zdktgps.cn^
 ||zdmimg.com/collect^
 ||zdnet.com.cn/js/pv.js
 ||zdovrb.cn^
@@ -62778,6 +62791,7 @@ zznews.cn##.ad:not([style])
 776dm.com,qiqidongman.com##.topAA
 778buy.com##.ads
 789xz.com##[id^="__lgUnion_a__"],.adsbygoogle,#dl_tips
+789ys.com##ul[style="display: flex; margin: 0px; padding: 0px; font-size: 0px;"]
 0830bbs.com##DIV[id^="comiis_19bad0"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
