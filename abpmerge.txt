@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-28 16:23:16
-! Total count: 63257
+! Version: 2022-08-29 02:05:03
+! Total count: 63265
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -25,6 +25,7 @@
 ###ZAML
 ###\31 280_adv
 ###\31 x1_container.float-banner-footer
+###__long_gg_container
 ###aafoot.top_box
 ###aafoot[class^="top_box"]
 ###aaheadtop
@@ -10327,7 +10328,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
@@ -15847,8 +15848,8 @@ jsphp.net##.rightAdBtm-wrap
 jsphp.net##.widget_tuijian
 jspoo.com###module2748
 jspoo.com##img[id^="float_img_"]
+jsr9.com##.vod-gd
 jsr9.com##div[onclick*="location"]
-jsr9.com,qmia.cn##.vod-gd
 jstv.com###vplayad
 jstv.com##.TuiGuang
 jstv.com##.jadv
@@ -18726,7 +18727,6 @@ thepaper.cn##.news_imgad,.rt_ad
 thepiratebay.org##.ads,#sky-right
 thepiratebay.se##a#image,iframe[src^="//cdn1.adexprt.com/"],iframe[src^="//cdn2.adexprt.com/"]
 theporn.cc###__ads_dp
-theporn.cc###alert_windows
 theporn.cc##.gg-config
 theporn.cc##.pp > div:not([class])
 theporn.cc##.pp > div[class]:first-child
@@ -18736,7 +18736,6 @@ theporn.cc##.video-player-container > script + div
 theporn.cc##.video_playr_sider
 theporn.cc##div > div[align="center"]
 theporn.cc##div[class^="_"]
-theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 theworld.cn##.download-now
 thinbug.com###inktokad
 thinkphp.cn##.a6
@@ -25152,6 +25151,7 @@ zznews.cn##.ad:not([style])
 ||ahmibai.cn^
 ||ahov1.top^
 ||ahp28.site^
+||ahp29.site^
 ||ahrefa.com^
 ||ahszgog.com^
 ||ahtj365.com^
@@ -29771,6 +29771,7 @@ zznews.cn##.ad:not([style])
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^$third-party
 ||cmmeglobal.com^*/page-view?
+||cmntjzf.cn^
 ||cmp.courrierinternational.com^
 ||cmp.dreamlab.pl^
 ||cmp.finn.no^
@@ -34563,6 +34564,7 @@ zznews.cn##.ad:not([style])
 ||folderz.nl/clickstream/
 ||followercounter.com^$third-party
 ||followistic.com/widget/stat/
+||fomwvqu.cn^
 ||foncc.cn^
 ||fontke.com/custom/
 ||food.informaengage.com^
@@ -37642,6 +37644,7 @@ zznews.cn##.ad:not([style])
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||id5-sync.com^
+||id5a.top^
 ||id6.me^
 ||idaima.com/ycz/ajax/get_items_for_bejson/
 ||idasai.com^
@@ -38831,6 +38834,7 @@ zznews.cn##.ad:not([style])
 ||itc.cn^*/tracker.js
 ||itchaxun.cn^
 ||itchess.cn^
+||itdcrmv.cn^
 ||itechwall.com^$third-party
 ||iterable.com/analytics.js
 ||iterable.convoy.com^
@@ -39798,6 +39802,7 @@ zznews.cn##.ad:not([style])
 ||jwmfxp.xyz^
 ||jwmhqs.fsk.ru^
 ||jwmstats.com^$third-party
+||jwoglda.top^
 ||jwpcdn.com^
 ||jwpepper.actonsoftware.com^
 ||jwtkw2w.cn^
@@ -40520,6 +40525,7 @@ zznews.cn##.ad:not([style])
 ||kwflvcdn.000dn.com^*.flv
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||kwjfoeq.cn^
+||kwogldd.top^
 ||kwqpix.ravenna.gr^
 ||kwsjy9.oui.sncf^
 ||kwvbhj.jcpenney.com^
@@ -47798,6 +47804,7 @@ zznews.cn##.ad:not([style])
 ||qiyue.com/statics/js/3g.js
 ||qiyukf.com^$third-party
 ||qiyun.org/images/js/*.htm
+||qiyushangmao.top/public/1/plugins/js/common/plugins/jquery/jquery.dataTables.
 ||qizhao.com^
 ||qizhihaotian.com^*.js
 ||qj.ituanhui.com^
@@ -54419,7 +54426,6 @@ zznews.cn##.ad:not([style])
 ||thepam.cn^
 ||thepaper.cn/bottomBanner_
 ||theporn.cc/anyalytics?
-||theporn.xyz/static/tmp/
 ||therapeuticcars.com^
 ||therealreal.com/ev56mY37/init.js
 ||thermstats.com^$third-party
@@ -60467,6 +60473,7 @@ zznews.cn##.ad:not([style])
 ||ykimg.com/material/*/ad/
 ||ykktwv.titivate.jp^
 ||ykl.qnipkk.xyz^
+||ykoz.cn^
 ||yktj.yzz.cn^
 ||ykwh.store^
 ||ykxwn.com^
@@ -62370,6 +62377,7 @@ zznews.cn##.ad:not([style])
 66rpg.com###left_overlay
 66rpg.com###right_overlay
 66wz.com##.rblock.shopping,.ad,.ads,.shop,#topad
+69xx.one,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 70bt.cn###ShowAD
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
 72g.com##.recommended
