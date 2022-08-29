@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-29 02:05:03
-! Total count: 63265
+! Version: 2022-08-29 08:22:52
+! Total count: 63270
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -2933,6 +2933,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 /_/lite/performance/*
+/_/oh-noes$~third-party,xmlhttprequest
 /_/trace/trace/*
 /__analytics/*
 /__dam.gif?
@@ -22640,6 +22641,7 @@ zznews.cn##.ad:not([style])
 ||666775.xyz^
 ||666776.xyz^
 ||6667778882021.site^
+||666779.xyz^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
 ||666video.asia^
@@ -39830,6 +39832,7 @@ zznews.cn##.ad:not([style])
 ||jxin.xyz^
 ||jxiwdw.ufret.jp^
 ||jxjzny.com^
+||jxlida.ink^
 ||jxlqgs.com^
 ||jxmzyg.com^
 ||jxnews.com.cn/assets/js/dspshow.js
@@ -56059,7 +56062,7 @@ zznews.cn##.ad:not([style])
 ||triggit.com^$third-party
 ||trilogyed.com^$third-party
 ||trinitymedia.ai/api/collect?
-||tripadvisor.com/data/2.0/rum
+||tripadvisor.*/wm/record
 ||triptease.io^$third-party
 ||triptease.net^$third-party
 ||trisn.top^
@@ -57508,6 +57511,7 @@ zznews.cn##.ad:not([style])
 ||vzovmzc.cn^
 ||vzuu.com/SD/*adbidding&
 ||w-profiling.cibc.com^$script
+||w-profiling.simplii.com^
 ||w.anmeihe.cn^
 ||w.cnzz.com^
 ||w.fancyapi.com^
@@ -58476,6 +58480,7 @@ zznews.cn##.ad:not([style])
 ||wsmcdn.audioeye.com^
 ||wsnew.cn^
 ||wspeed.qq.com^
+||wspisp.net/logger.php
 ||wss.haoyundm.com^
 ||wssgmstats.vibbo.com^
 ||wsstats.coches.net^
