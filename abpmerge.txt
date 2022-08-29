@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-29 08:22:52
-! Total count: 63270
+! Version: 2022-08-29 16:25:02
+! Total count: 63283
 -1688-wp-media/ads/
 -960x*0.gif
 -880-80-4.jpg
@@ -9384,6 +9384,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/img_ad/*$domain=tkec.com.tw
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jquery/*$domain=dm530.net|sobooks.cc
+@@/js/prebid-$domain=huruwo.top
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
@@ -10218,6 +10219,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||forum.51nb.com/images/*/
 @@||fotor.com.cn/static/web/share/js/
 @@||fplay.online/log_event$~third-party,xmlhttprequest
+@@||freedidi.com^$generichide
 @@||friday.tw/backend/uploadpic/adindex/
 @@||friendbuy.com^$domain=butcherbox.com
 @@||front-go.lemall.com^
@@ -10806,7 +10808,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p.jwpcdn.com^$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -14136,6 +14139,8 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 free.aliyun.com##div.module-wrap.J_tb_lazyload.aliyun-bottom
 free.com.tw###custom_html-11
 freecodecamp.cn,freecodecamp.one#@#.btn-social
+freedidi.com##a[href*="/bittly.cc"]
+freedidi.com##div[id^="text-"]
 freejavbt.com##div[data-selector*="ai-insert-"]
 freepik.com###layer_coupon,.ad
 fsclzs.com###qvod
@@ -15827,8 +15832,8 @@ jrj.com.cn##.jrj-ad
 jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
 jrj.com.cn##DIV.jrj-ad,DIV.adbox.mt,DIV.text-right > DIV.ad + DIV.md.mt,div.sidebar-style-sheet,div.adtop,div.ad,div.list-blue.mt15,a[href^="http://finance.jrj.com.cn/pingan/?from=jrj&"],div.posimg.piboxtwo,iframe[src*=".jrj.com.cn/s?z=jrj"],div.rdtj,div.data-collect,div#adDiv,div[class^="bg"],.topad,[class$="itg-widget-show"]
-jrlt6.com###hd + .wp
-jrlt6.com##a[href^="ad."]
+jrlt7.com###hd + .wp
+jrlt7.com##a[href^="ad."]
 jrzj.com##.Advertisement,[class^="guanggao_"]
 jrzj.com##[src^="https://img.jrzj.com/img_index/newsadv"],.infor_comment
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
@@ -21747,6 +21752,7 @@ zznews.cn##.ad:not([style])
 ||2pogg4c.cn^
 ||2ppgsmeh.cn^
 ||2qqfxz5kecr4.www.eldorado.gg^
+||2r45.cn^
 ||2smt6mfgo.de^$third-party
 ||2te.com^
 ||2te.com^$third-party
@@ -27164,7 +27170,7 @@ zznews.cn##.ad:not([style])
 ||balmoralmkt.com^$third-party
 ||bam-x.com^$third-party
 ||bamcsfm.com^
-||bamgrid.com/dust
+||bamgrid.com/dust$domain=~disneyplus.com
 ||bamgrid.com/telemetry
 ||banana.le.com/
 ||banana.le.com^
@@ -39737,6 +39743,7 @@ zznews.cn##.ad:not([style])
 ||jufengputao.com^
 ||jugao.com^
 ||juhepen.com/getadvcode.php?id=
+||juhn.cn^
 ||juhuiguoji.wang^
 ||juhuisuan.com^$third-party
 ||juhuitongcheng.life^
@@ -47402,6 +47409,7 @@ zznews.cn##.ad:not([style])
 ||pv.xcar.com.cn^
 ||pv.zhiding.cn^
 ||pv4b.com^$popup
+||pv8n.cn^
 ||pv966.us/js/tw.js
 ||pvd.to^$third-party
 ||pvfbav.sportler.com^
@@ -57200,6 +57208,7 @@ zznews.cn##.ad:not([style])
 ||vidigital.ru^$third-party
 ||vidstat.taboola.com^
 ||vidstream.pro/log/
+||vieldeold.xyz^
 ||view.news.qq.com/PL_ad$subdocument
 ||viewar.org^$third-party
 ||views.arabnews.com^
@@ -60583,6 +60592,7 @@ zznews.cn##.ad:not([style])
 ||youhuotiyu.asia^
 ||youivr.com/image/*-960x80
 ||youjizzlive.com/api/metrics
+||youkan.shop^
 ||youkewangluo.cn^$third-party,script
 ||youku-crm-product.youku.com^
 ||youku.com/QVideo/~ajax/getDefaultItem?
@@ -60697,6 +60707,7 @@ zznews.cn##.ad:not([style])
 ||yrbfol5.cn^
 ||yrehdfer.com^
 ||yrlfnyx.cn^
+||yrlyjc.cn^
 ||yrqwnc.cn^
 ||yrrcc.top^
 ||yrrudp.inven.co.kr^
@@ -61440,6 +61451,7 @@ zznews.cn##.ad:not([style])
 ||zjol.com.cn/www/zzhzbd/
 ||zjqhyx.cn^
 ||zjrbwb.markenschuhe.de^
+||zjsdsports.cn^
 ||zjst.net/3.gif
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||zjxkdq.cn^
@@ -61593,6 +61605,7 @@ zznews.cn##.ad:not([style])
 ||zrw1.destinia.jp^
 ||zrwba.cn^
 ||zrys.xyz^
+||zrysogsiq.uno^
 ||zs.dhl.de^
 ||zs.dingyar.top^
 ||zs.zyzlpt.com^
