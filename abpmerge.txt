@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，adgk，jiekouAD
-! Version: 2022-08-29 16:25:02
+! Version: 2022-08-30 02:07:26
 ! Total count: 63283
 -1688-wp-media/ads/
 -960x*0.gif
@@ -1401,6 +1401,7 @@
 ##a[href*="/7699j.com:"]
 ##a[href*="/7763349.com/"]
 ##a[href*="/8616.tech"]
+##a[href*="/9716t.com"]
 ##a[href*="/?INTR="]
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
@@ -1617,8 +1618,8 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -10808,8 +10809,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p.jwpcdn.com^$script
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freedidi.com 
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -14140,7 +14140,7 @@ free.aliyun.com##div.module-wrap.J_tb_lazyload.aliyun-bottom
 free.com.tw###custom_html-11
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 freedidi.com##a[href*="/bittly.cc"]
-freedidi.com##div[id^="text-"]
+freedidi.com,ottawazine.com##div[id^="text-"]
 freejavbt.com##div[data-selector*="ai-insert-"]
 freepik.com###layer_coupon,.ad
 fsclzs.com###qvod
@@ -17267,7 +17267,6 @@ oschina.net##div[data-tracepid="question_detai_above"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-ottawazine.com##div[id^="text-"]
 ourjav.com##[width="300"]
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outofmemory.cn##.iloveoutofmemory660
@@ -19421,9 +19420,6 @@ win7china.com,win8china.com##ins.adsbygoogle,div[class^="site-ad"],.hl_ad,div.si
 win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
-windows7en.com###ad_btm_down
-windows7en.com###fu_box_logo
-windows7en.com###index_long_first
 windows7en.com##.fu-welcome
 winning11cn.com##.eis_topad
 winning11cn.com##.hdc > div > div[align="center"]
@@ -22648,6 +22644,7 @@ zznews.cn##.ad:not([style])
 ||666776.xyz^
 ||6667778882021.site^
 ||666779.xyz^
+||666782.xyz^
 ||6669667.com^
 ||666av.me/js/youxiaojiao.js
 ||666video.asia^
@@ -28622,6 +28619,7 @@ zznews.cn##.ad:not([style])
 ||caiwuwang.ltd^
 ||caixin.com/file/content/js/mobile_news_app_banner.js
 ||caixin.com/s?z=
+||caiyeml.pw^
 ||caiyifz.com^
 ||calcul-pagerank.fr/client/$third-party
 ||calculated.cn^
@@ -35528,6 +35526,7 @@ zznews.cn##.ad:not([style])
 ||gk99.com/static/js/a-d-sys.js
 ||gkenql.cn^
 ||gkiyvbk.cn^
+||gkspde.cn^
 ||gksqfw.reverso.net^
 ||gl5g98t0vfjb.panprices.com^
 ||glam.com/cece/agof/
@@ -41866,6 +41865,7 @@ zznews.cn##.ad:not([style])
 ||lrswl.com^
 ||lrtjvd.wordans.com^
 ||lrupwq.freedomdebtrelief.com^
+||lrysogsil.uno^
 ||lrytas.lt/counter/
 ||ls.cartecarburant.leclerc^
 ||ls.e-cartecadeauleclerc.fr^
@@ -46690,6 +46690,7 @@ zznews.cn##.ad:not([style])
 ||pjbncv.ode.co.kr^
 ||pjcdjtn.cn^
 ||pjcn.org^$third-party
+||pjewriw.top^
 ||pjh7.us.chantelle.com^
 ||pji2.r36ku.site^
 ||pjljqp.gap.ru^
@@ -47037,6 +47038,7 @@ zznews.cn##.ad:not([style])
 ||pphqq.com^
 ||pphwrevr.com^$third-party
 ||ppj338.cn^
+||ppjipuk.cn^
 ||ppl.xunzhuo123.com^
 ||ppmakl.oscarcalcados.com.br^
 ||ppoi.org^
@@ -53601,6 +53603,7 @@ zznews.cn##.ad:not([style])
 ||swlmd.com^
 ||swml.xyz^
 ||swnptn.cn^
+||swogldb.top^
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||swordgoose.com^
@@ -57056,6 +57059,7 @@ zznews.cn##.ad:not([style])
 ||vbsjdd.olx.pt^
 ||vbtdzb.fyndiq.se^
 ||vbutjg.com^
+||vcawmm.com^
 ||vccyb.ltd^
 ||vch.voyage-prive.ch^
 ||vchim.com^
@@ -58212,10 +58216,6 @@ zznews.cn##.ad:not([style])
 ||winasdaq.com^$third-party
 ||winde.cc^
 ||windows.net/732d.js
-||windows7en.com/d/imgs/pic/huoting_
-||windows7en.com/images/
-||windows7en.com/static/images/xiaobai_
-||windows7en.com/statistics/statistics.js
 ||windowsxi.com^
 ||windteam.xyz^
 ||windy.com/sedlina/ga/
