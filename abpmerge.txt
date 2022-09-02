@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-02 01:58:23
-! Total count: 110557
+! Version: 2022-09-02 08:23:35
+! Total count: 110566
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -825,6 +825,7 @@
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.overBanner.dowloadBtn
+##.padding-0 > ul > li
 ##.pagead_3
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
@@ -982,6 +983,7 @@
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
+##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##DIV#ad-index.col-12.position-relative
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
@@ -10059,7 +10061,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /hlog.asp
 /hm.js?$third-party,xmlhttprequest
 /hm.js?$third-party,xmlhttprequest
-/hm.js?$xmlhttprequest,third-party
 /hm.pl?p=
 /hmapxy.js
 /hmzn_*_*_*.js?$script,third-party
@@ -18395,6 +18396,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logging.apache.org^$~third-party
+@@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lokopromo.com^*/adsimages/$~third-party
@@ -28714,6 +28716,7 @@ keywin.org##.appdownload
 keywin.org##.pindaolist
 keywin.org##.pindaolist
 kfm.co.za##.itunes-sml
+kgsz.cn$third-party
 khaama.com##.ad8
 kickasstorrents.to##.dssdffds
 kickoff.com#@#.takeover-ad
@@ -34690,13 +34693,11 @@ wallpapers-room.com##.recommendations-468x60
 wallpapersmania.com###backgroundPopup
 wallpapersmania.com###wm_cpa
 wallpapersmania.com##.top_pad_10
-wallstreetcn.com##.download-coantainer
 wallstreetcn.com##.node-main-ad
 wallstreetcn.com##.omg-container
 wallstreetcn.com##.side-money
 wallstreetcn.com##.wscn-ad
 wallstreetcn.com##.wscn-page-ad
-wallstreetcn.com##.xinren-wrapper
 walmart.ca##a[href*=".criteo.com/"]
 walmart.com##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 wan.douyu.com
@@ -38750,6 +38751,7 @@ zznews.cn##.ad:not([style])
 ||4nzrqw.cn^
 ||4oney.com^$third-party
 ||4onqfs7iv4.com^
+||4p85.cn^
 ||4paradigm.com^$domain=sina.com.cn
 ||4paradigm.com^$domain=sina.com.cn
 ||4pda.ru/stat/
@@ -60275,6 +60277,7 @@ zznews.cn##.ad:not([style])
 ||f70123.com^
 ||f70123.com^
 ||f775.thehour.com^
+||f77j6t2b.com^
 ||f7ds.liberation.fr^
 ||f8260adbf8558d6.com^
 ||f8272.com^$third-party
@@ -66210,6 +66213,7 @@ zznews.cn##.ad:not([style])
 ||hollercatastrophe.co^
 ||hollercatastrophe.com^
 ||hollerscanelos.com^
+||hollg8023.745c.cn^
 ||hollowafterthought.com^
 ||holor0804.cn^
 ||holor857.cn^
@@ -69879,6 +69883,7 @@ zznews.cn##.ad:not([style])
 ||jewgn8une.com^
 ||jewhouca.net^
 ||jewishcontentnetwork.com^$third-party
+||jf2v.mnpool.cn^
 ||jf71qh5v14.com^
 ||jfapiprod.optimonk.com^
 ||jfcqucxvvpwgp.com^
@@ -81891,6 +81896,7 @@ zznews.cn##.ad:not([style])
 ||pagetest.top^
 ||pagetest.top^
 ||pageturnpro.com/tracker.aspx?
+||pageview.kgsz.cn^
 ||pageview.shenfire.cn^
 ||paginaseloqua.unisabana.edu.co^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
@@ -100001,6 +100007,7 @@ zznews.cn##.ad:not([style])
 ||utirev.com^
 ||utkuslbdpwehmr.com^
 ||utle.tech426.com^
+||utll.cn^
 ||utlnjry.top^
 ||utlnjry.top^
 ||utmostsecond.com^
@@ -102614,6 +102621,7 @@ zznews.cn##.ad:not([style])
 ||wjlzs.cn^
 ||wjlzs.cn^
 ||wjq.ma.tarnkappe.info^
+||wjr9.cn^
 ||wjxs.xyz^
 ||wjxs.xyz^
 ||wjyhyl.cn^
@@ -109859,6 +109867,7 @@ zznews.cn##.ad:not([style])
 717dyw.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 720yun.com##DIV[class^="Ads_ads_"]
 728x90.jpg|
+745c.cn$third-party
 0772fang.com###v_topAD_1
 0772fang.com###v_topAD_1
 0772fang.com##.box0
