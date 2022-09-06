@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-05 16:25:13
-! Total count: 110586
+! Version: 2022-09-06 02:07:11
+! Total count: 110577
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -985,7 +985,6 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##DIV#ad-index.col-12.position-relative
-##DIV[style^="position"][onclick^="window.open"]
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
 ##[alt="要恰饭的嘛"]
@@ -1650,6 +1649,7 @@
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style^="position"][onclick^="window.open"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="opacity: 100;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -19592,8 +19592,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xia1ge.com/wp-content/plugins/detect-adblock/js/ads.js
-@@||xia1ge.com/wp-content/plugins/detect-adblock/js/ads.js
-@@||xia1ge.com^$generichide
 @@||xianzhenyuan.cn^$generichide
 @@||xianzhenyuan.cn^$script,~third-party
 @@||xianzhenyuan.cn^$script,~third-party
@@ -20487,7 +20485,7 @@ aardvark.co.nz##.tinyprint
 aarp.org##.hot-deals
 abbao.cn#@##adContent
 abbao.cn#@##adContent
-abbao.cn,tt1069.com,xietui.com#@##adcontent
+abbao.cn,tt1069.com#@##adcontent
 abbao.cn,tt1069.com,xietui.com#@##adcontent
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
 abbreviations.com,definitions.net,grammar.com,kamus.net,lyrics.com,rhymes.net,scripts.com,symbols.com###sela-container
@@ -22310,6 +22308,7 @@ boylove.cc##.header_slide
 boylove.cc##.owl-carousel
 boylove.cc##.zrrmdomi
 boylove.cc##div[data-type="1"]
+boylove.cc#?#:-abp-has(>.adsbyexoclick)
 boylove.cc,instrument.com.cn,tool.lu##.swiper-container
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
@@ -22554,7 +22553,7 @@ carousell.com#@#.fb-b
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
-carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
+carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 cars.mitula.ae#@#.adsList
 carsales.com.au,technobuffalo.com##.page-header
 carsdirect.com###TopBanner
@@ -26912,7 +26911,7 @@ honglingjin.co.uk##.rs-side-ads
 honglingjin.co.uk##.rsads
 honglingjin.co.uk##.rsads
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
-hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,youneed.win,zhaoze.party,zhuihd.com#@##adsense
 hope1032.com.au##.s-supported-by
 hot933hits.com###simpleimage-5
 hotcelebshome.com##.bcpsttl_name_listing
@@ -35246,7 +35245,6 @@ x-mol.com##.news-white-content-right
 x-mol.com##.news-white-content-right
 x3cn.com###portal_block_12045
 x3cn.com###portal_block_12045
-x3cn.com#?#.commonDiv:-abp-has(.ad)
 x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
@@ -35308,10 +35306,7 @@ xgrb.cn##.d_2016_ggw
 xgroovy.com##.headP
 xgw5.com,gw54.com#?#li:-abp-has(>.ads)
 xh127.com###isubpi
-xh127.com###isubpi
 xh127.com###pzlhdd
-xh127.com###pzlhdd
-xh127.com###teinka
 xh127.com###teinka
 xhaiwai.com##.baoru
 xhamster.com##.video-view-ads
@@ -35372,7 +35367,7 @@ xiaoz.me##.gg5
 xiaoz.me##.gg5
 xiaoz.me##.gg6
 xiaoz.me##.gg6
-xiaoz.me,xingkbjm.com##.sidebar a > img
+xiaoz.me##.sidebar a > img
 xiaoz.me,xingkbjm.com##.sidebar a > img
 xiashanet.com###top_content
 xiashanet.com###top_content
@@ -35438,12 +35433,9 @@ xineurope.com###qmenu_menu + .wp
 xineurope.com##.adft
 xineurope.com##.adft
 xingkbjm.com###wowslider-container1
-xingkbjm.com###wowslider-container1
 xingkbjm.com##.d_postlist > ul > li:nth-child(-n+2)
-xingkbjm.com##.d_postlist > ul > li:nth-child(-n+2)
+xingkbjm.com##.d_textbanner
 xingkbjm.com##script + div + .excerpt
-xingkbjm.com##script + div + .excerpt
-xingkbjm.com##script + div + .excerpt + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv-column2
@@ -35470,10 +35462,7 @@ xitek.com##a[href*="/adclick"]
 xitek.com##a[href*="adclick"] + .info
 xitek.com##a[href*="adclick"] + .info
 xitongcheng.com##.hzj_adv
-xitongcheng.com##.hzj_adv
 xitongcheng.com##.r_adv
-xitongcheng.com##.r_adv
-xitongcheng.com,yxdown.com##.gsdown
 xitongcheng.com,yxdown.com##.gsdown
 xitonghe.com##.sidebar-wx
 xitongtiandi.net##.btn-dr
@@ -35535,7 +35524,6 @@ xtube.com##.ZBTBTTr93ez9.ktZk9knDKFfB
 xtube.com##.adContainer
 xtube.com##.bm6LRcdKEZAE
 xuebuyuan.com##.ss_gateway
-xuehuile.com###logoBanner
 xuehuile.com###logoBanner
 xueqiu.com##.ad-right-aside
 xueqiu.com##.ad-right-aside
@@ -36061,6 +36049,7 @@ yxdown.com###sy
 yxdown.com###sy
 yxdown.com###tl_adv
 yxdown.com###tl_adv
+yxdown.com##.gsdown
 yxdown.com##.gsxz_ydw
 yxdown.com##.gsxz_ydw
 yxdown.com##.pc_down
@@ -39076,6 +39065,7 @@ zznews.cn##.ad:not([style])
 ||52zhekou.online^
 ||52zpi.com/gg/
 ||52zpi.com/gg/
+||52zxdai.com^
 ||52zy.com/other/js/
 ||52zy.com/other/js/
 ||5328t.com/js/jquery.js
@@ -39620,6 +39610,7 @@ zznews.cn##.ad:not([style])
 ||666792.xyz
 ||666793.xyz^
 ||666794.xyz^
+||666795.xyz^
 ||6669667.com^
 ||6669667.com^
 ||666video.asia^
@@ -66628,6 +66619,7 @@ zznews.cn##.ad:not([style])
 ||hsxmxmsootyl.com^
 ||hsy0616.love^
 ||hsy0616.love^
+||hsybe0m5.site^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||hsykicwjl.com^
@@ -69950,7 +69942,6 @@ zznews.cn##.ad:not([style])
 ||jialingmm.net/tj.js
 ||jialingmm.net/tj.js
 ||jianbaimei.com^
-||jianbaimei.com^
 ||jianbangjiaoyu.com^
 ||jianbangjiaoyu.com^
 ||jianbuxing.cn^
@@ -71005,7 +70996,6 @@ zznews.cn##.ad:not([style])
 ||justwkj.xyz^
 ||justwkj.xyz^
 ||jutarnji.hr/template/js/eph_analytics.js
-||jutou5.com^
 ||jutou5.com^
 ||jutprolificlax.com^
 ||jutyledu.pro^
@@ -72300,6 +72290,7 @@ zznews.cn##.ad:not([style])
 ||kuaidibox.cn^
 ||kuaidiwo.cn/kdwkxmlt.jpg
 ||kuaidiwo.cn/kdwkxmlt.jpg
+||kuaidou.xin^
 ||kuaidube.cn^
 ||kuaidube.cn^
 ||kuaihou.com/c/shuoming.js
@@ -74907,6 +74898,7 @@ zznews.cn##.ad:not([style])
 ||lwlwlw.com/js/FVgg.js
 ||lwobol.cloud^
 ||lwobol.cloud^
+||lwogldl.top^
 ||lwtlock.cn^
 ||lwtlock.cn^
 ||lwxjg.com^$third-party
@@ -78473,6 +78465,7 @@ zznews.cn##.ad:not([style])
 ||mvlzxlcmsrqjc.com^
 ||mvtmkpysz.com^
 ||mvtracker.com^$third-party
+||mvusq.xyz^
 ||mvxz.com/bar3.js
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
@@ -78864,6 +78857,7 @@ zznews.cn##.ad:not([style])
 ||n258.cc^
 ||n26-trusted.n26.com^
 ||n2s.co.kr^$third-party
+||n38chz7m.site^
 ||n5725.com^
 ||n5725.com^
 ||n6579.com^
@@ -81133,6 +81127,7 @@ zznews.cn##.ad:not([style])
 ||op02.biz^
 ||op7s.top^
 ||op7s.top^
+||opalaix.cn^
 ||opapxq.com^
 ||opapxq.com^
 ||opawyzoh.xyz^
@@ -83558,6 +83553,7 @@ zznews.cn##.ad:not([style])
 ||poereawer.top^
 ||poesonk.com^
 ||poeticgum.com^
+||poeticmetric.com^$third-party
 ||poeupvcvruuizk.com^
 ||poewage.top^
 ||poewage.top^
@@ -87851,7 +87847,7 @@ zznews.cn##.ad:not([style])
 ||rumnxwvo.ink^
 ||rumpelstiltskinhead.com^$third-party
 ||run-syndicate.com^
-||run.app/data.log?
+||run.app/data.log
 ||run.app/metrics/
 ||run.fintechpi.com^
 ||run5.b1byou.com^
@@ -89486,6 +89482,7 @@ zznews.cn##.ad:not([style])
 ||sexytorrents.info/njUFyPRXaC7H.js
 ||seyevjpcjkcnka.com^
 ||seyfwl.interia.pl^
+||sezuleg.cn^
 ||sezzle.com/v1/event/log
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sf14g.com^$third-party
@@ -94935,6 +94932,7 @@ zznews.cn##.ad:not([style])
 ||szjjzs.com/js/piao.js
 ||szjjzs.com/js/piao.js
 ||szkbyo.zkai.co.jp^
+||szlhsc.cn^
 ||szm.com/reklama
 ||szmjskjx.com^
 ||szmjskjx.com^
@@ -104291,7 +104289,6 @@ zznews.cn##.ad:not([style])
 ||xhzmjs.com^
 ||xhzugaqnqo.com^
 ||xia1ge.com/wp-content/uploads/*/wechat-ad.png
-||xia1ge.com/wp-content/uploads/*/wechat-ad.png
 ||xiacaidd.com/xiacai/ad/
 ||xiacaidd.com/xiacai/ad/
 ||xiachouchou.com^
@@ -104364,8 +104361,6 @@ zznews.cn##.ad:not([style])
 ||xiaolipc.cn^
 ||xiaolipc.cn^
 ||xiaoma.com/images/form/getclueforxiaomazonghe.js
-||xiaoma.com/images/form/getclueforxiaomazonghe.js
-||xiaoma.com/images/form/overlay
 ||xiaoma.com/images/form/overlay
 ||xiaoma.com/kf.php?arg=
 ||xiaoma.com/xiaoma/www/js/article_right
@@ -104392,7 +104387,6 @@ zznews.cn##.ad:not([style])
 ||xiaopi.com/statics/skin_js/jquery.posrj.js
 ||xiaopinwo.com^
 ||xiaopinwo.com^
-||xiaoshuotxt.*/skin/v3/js/
 ||xiaoshuotxt.*/skin/v3/js/
 ||xiaoshuoyun.cn^
 ||xiaoshuoyun.cn^
@@ -104500,8 +104494,6 @@ zznews.cn##.ad:not([style])
 ||xingjuhe.com^
 ||xingjuhe.com^
 ||xingkbjm.com/hengchuang.gif
-||xingkbjm.com/hengchuang.gif
-||xingkbjm.com/wp-content/uploads/*/Ad
 ||xingkbjm.com/wp-content/uploads/*/Ad
 ||xingpingmaoyi.cn^
 ||xingpingmaoyi.cn^
@@ -104942,7 +104934,6 @@ zznews.cn##.ad:not([style])
 ||xsjyun.cn^
 ||xsjyun.cn^
 ||xspic.com/css/asd
-||xspic.com/css/asd
 ||xsrs.com^
 ||xsrypte.cn^
 ||xsrypte.cn^
@@ -105025,7 +105016,6 @@ zznews.cn##.ad:not([style])
 ||xuehelei.com^
 ||xuehi.cn/reward/reward
 ||xuehi.cn/reward/reward
-||xuehuile.com/resource/images/banner/
 ||xuehuile.com/resource/images/banner/
 ||xuekalun.com^
 ||xuekalun.com^
@@ -108191,6 +108181,7 @@ zznews.cn##.ad:not([style])
 ||zwmosu.xyz^
 ||zwmosu.xyz^
 ||zwmunz.com^
+||zwogldq.top^
 ||zwrj999.cn^
 ||zwrj999.cn^
 ||zwtvcdnb.com^
