@@ -2,7 +2,7 @@
 
 # 下载规则
 curl -o i-1.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-curl -o i-2.txt http://msedl.360safe.com/360mse/bcdbgimoikiapdjnifgghhgcfoclpchk/100129/bcdbgimoikiapdjnifgghhgcfoclpchk.txt
+curl -o i-2.txt http://msedl.360safe.com/360mse/bcdbgimoikiapdjnifgghhgcfoclpchk/100130/bcdbgimoikiapdjnifgghhgcfoclpchk.txt
 curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad3.txt
 
 # 合并规则并去除重复项
