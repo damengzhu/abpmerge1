@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-07 08:25:50
-! Total count: 89031
+! Version: 2022-09-07 16:26:04
+! Total count: 89037
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -3623,6 +3623,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /YahooAd_
 /YuduStatistics/*
 /ZagUser.js
+/\.(com|cn|top)\/k\/[0-9]{6}$/$third-party,script
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
@@ -31296,6 +31297,7 @@ zznews.cn##.ad:not([style])
 ||7search.com^$third-party
 ||7t955.com^$third-party
 ||7two0.rocks^
+||7v46.icu^
 ||7w.ro/js/trk.js
 ||7wen.cn^
 ||7wkw.com^$popup
@@ -31671,6 +31673,7 @@ zznews.cn##.ad:not([style])
 ||9af7e8a8cc.com^
 ||9anime.id/E/
 ||9anime.to/E/
+||9as3.xyz^
 ||9c40a04e9732e6a6.com^
 ||9c921e15c8d17.com^
 ||9ca6865332.com^
@@ -68182,6 +68185,7 @@ zznews.cn##.ad:not([style])
 ||ptwmjmp.com^
 ||ptwrvh.seedspost.ru^
 ||ptystuthyglo.com^
+||ptzkjko.cn^
 ||pu1.biz^
 ||pu3.biz^
 ||pu5hk1n2020.com^
@@ -72625,6 +72629,7 @@ zznews.cn##.ad:not([style])
 ||showcasead.com^$third-party
 ||showcasethat.com^
 ||showcoopda.xyz^
+||showcoopdb.xyz^
 ||showcoorcb.xyz^
 ||showdronefavorite.com^
 ||showeveresz.club^
@@ -86217,6 +86222,7 @@ zznews.cn##.ad:not([style])
 ||ykbeeweifodyyb.com^
 ||ykccgrmto.com^
 ||ykcjxvg.cn^
+||ykg5.cn^
 ||ykghl.top^
 ||ykhqhe.domain.com.au^
 ||ykimg.com/material/*/ad/
