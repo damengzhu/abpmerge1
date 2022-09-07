@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-06 16:26:35
-! Total count: 110917
+! Version: 2022-09-07 02:02:57
+! Total count: 110928
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -23041,6 +23041,7 @@ cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
+cn.bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 cna.com.tw##.ad_970
 cna.com.tw##.ad_970
 cnbc.com##.TopBanner-container
@@ -26025,6 +26026,7 @@ gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
 gmgard.com,hggard.com###blog > div[style="overflow:hidden"]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
 gmgard.com,hggard.com##A[onclick*="Advertisement"]
+gmtv1.xyz##.pc_rb_float
 gmw.cn###rightad1 + .contentColumnRight
 gmw.cn###rightad1 + .contentColumnRight
 gmw.cn###ysp_gmrbAppLayer
@@ -38707,7 +38709,7 @@ zznews.cn##.ad:not([style])
 ||4dyt.cn^
 ||4e37b45877.com^
 ||4e39c772dc.com^
-||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com^
+||4e4356b68404a5138d2d-33393516977f9ca8dc54af2141da2a28.ssl.cf1.rackcdn.com/sa7d76sa/
 ||4excel.cn^
 ||4excel.cn^
 ||4exlkjnngs.com^
@@ -44010,6 +44012,7 @@ zznews.cn##.ad:not([style])
 ||ahp4.site^
 ||ahp5.site^
 ||ahp6.site^
+||ahp7.site^
 ||ahqpqpdjpj.com^
 ||ahrefa.com^
 ||ahrefa.com^
@@ -50258,6 +50261,7 @@ zznews.cn##.ad:not([style])
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||bwinpartypartners.com^$third-party
 ||bwj4.hrhibiza.com^
+||bwogldv.top^
 ||bwsvftq.cn^
 ||bwsvftq.cn^
 ||bx9000.top^
@@ -56307,6 +56311,7 @@ zznews.cn##.ad:not([style])
 ||deyidesign.com^
 ||df-srv.de^$third-party
 ||df.szhszxfw.cn^
+||df5b.top^
 ||df77.com^
 ||df77.com^
 ||df888.eastday.com^
@@ -66741,6 +66746,7 @@ zznews.cn##.ad:not([style])
 ||hpdwfd2.com^
 ||hpejlsb.com^
 ||hpejlsb.com^
+||hpiekt.cn^
 ||hpjhmgip.com^
 ||hpkqtd.com^
 ||hpkqtd.com^
@@ -72615,6 +72621,7 @@ zznews.cn##.ad:not([style])
 ||kuloffer.com^
 ||kumpulblogger.com^
 ||kumteerg.com^
+||kunlunshitou.com^
 ||kuntic.com^
 ||kununu.com^*/tracking/
 ||kuoxing.mobi^
@@ -89827,6 +89834,7 @@ zznews.cn##.ad:not([style])
 ||sfoimvwyyf.com^
 ||sfp.safe.baidu.com^
 ||sfp7.eco-conscient.com^
+||sfstfiz.cn^
 ||sftapi.com^
 ||sftrack.searchforce.net^
 ||sfultraight.xyz^
@@ -94957,6 +94965,7 @@ zznews.cn##.ad:not([style])
 ||svlzckw.cn^
 ||svm6ryo.cn^
 ||svm6ryo.cn^
+||svnfgib.cn^
 ||svnlnk.com/aff/trk.html
 ||svoywu.autoscout24.de^
 ||svscomics.com/templates/defaultm/images/fboomadz.png
@@ -95637,6 +95646,7 @@ zznews.cn##.ad:not([style])
 ||takefile.link/promo/$third-party
 ||takemore-prizes.life^
 ||takeoverpushy.com^
+||takingbackjuly.com^
 ||takiparkrb.site^
 ||takychasing.com^
 ||talaropa.com^$third-party
@@ -108145,6 +108155,7 @@ zznews.cn##.ad:not([style])
 ||zlink2.com^
 ||zlink6.com^
 ||zlinkm.com^
+||zljycst.cn^
 ||zllnb.top^
 ||zllnb.top^
 ||zllqoxidate.com^
