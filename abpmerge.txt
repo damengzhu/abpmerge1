@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-07 16:26:04
-! Total count: 89037
+! Version: 2022-09-08 02:01:02
+! Total count: 89049
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -1221,6 +1221,7 @@
 ##a[href*=".222bz.com/"]
 ##a[href*=".233787.com/"]
 ##a[href*=".3366722.com"]
+##a[href*=".516624.com/"]
 ##a[href*=".51gogogou.com"]
 ##a[href*=".5250.cn"]
 ##a[href*=".5599722.com"]
@@ -3623,7 +3624,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /YahooAd_
 /YuduStatistics/*
 /ZagUser.js
-/\.(com|cn|top)\/k\/[0-9]{6}$/$third-party,script
+/\.(com|cn|top)\/k\/[0-9]{6}$/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
@@ -16155,7 +16156,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|mediuutiset.fi|mikrobitti.fi|rumba.fi|soundi.fi|talouselama.fi|tekniikkatalous.fi|tilt.fi|tivi.fi|veho.fi|www.kauppalehti.fi|www.uusisuomi.fi
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -17103,6 +17104,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
+@@||winwk.com^$generichide
 @@||wishpost.cn/api/tracking/
 @@||wix.com/_api/*count?type$~third-party
 @@||wl.jd.com/joya.js
@@ -25850,6 +25852,7 @@ qqaiqin.com#@#.ad_468
 qqjia.com###myadsL
 qqjia.com##.mainad
 qqxiazai.com##.bt_abtn2
+qqxiuzi.cn##div[onclick][style]
 qqyouyue.com##.table-responsive
 qqyy.com##.ind_ad
 qqyy.com##.right_dcotor_tab
@@ -31030,6 +31033,7 @@ zznews.cn##.ad:not([style])
 ||666793.xyz^
 ||666794.xyz^
 ||666795.xyz^
+||666796.xyz^
 ||6669667.com^
 ||666video.asia^
 ||668559.com^$third-party
@@ -34664,6 +34668,7 @@ zznews.cn##.ad:not([style])
 ||ahp5.site^
 ||ahp6.site^
 ||ahp7.site^
+||ahp8.site^
 ||ahqpqpdjpj.com^
 ||ahrefa.com^
 ||ahreprh2kfk8rfjr09.com^
@@ -56446,6 +56451,7 @@ zznews.cn##.ad:not([style])
 ||jpysvip.net/ad/
 ||jpzwomhbxoalxu.com^
 ||jq65pd47n1.jcheys.com^
+||jq6b.top^
 ||jqad.vip^
 ||jqcgyjwidktu.xyz^
 ||jqdldk.cn^
@@ -57072,6 +57078,7 @@ zznews.cn##.ad:not([style])
 ||katecrochetvanity.com^
 ||katelin.top^
 ||katerigordas.pro^
+||katlacw.cn^
 ||katoptristhemirr.com^
 ||kattepush.com^$third-party
 ||katukaunamiss.com^
@@ -57793,6 +57800,7 @@ zznews.cn##.ad:not([style])
 ||kvkaa.com^
 ||kvkddd.top^
 ||kvlzsbxn.com^
+||kvrtuse.cn^
 ||kvskic.jadore-jun.jp^
 ||kvt5.blesscollectionhotels.com^
 ||kw3y5otoeuniv7e9rsi.com^
@@ -59822,6 +59830,7 @@ zznews.cn##.ad:not([style])
 ||lxgmgalmrxqlj.xyz^
 ||lxiaoxin.com^
 ||lxiu.shop^
+||lxlidl.ink^
 ||lxlx.shop^
 ||lxoemc.libero.it^
 ||lxphwibrkt.xyz^
@@ -62863,6 +62872,7 @@ zznews.cn##.ad:not([style])
 ||mwbiwypvprg.com^
 ||mwbsvh.cn^
 ||mwfpyr.santistadecora.com.br^
+||mwogldx.top^
 ||mwor.gq^
 ||mworkh.buzz^
 ||mworkhovd.com^
@@ -63403,6 +63413,7 @@ zznews.cn##.ad:not([style])
 ||negotiatetime.com^
 ||negusnozzles.com^
 ||negyuk.com^
+||nehagex.cn^
 ||nehersheteen.pro^
 ||nehodyshy.pro^
 ||nehuihkn.com^
@@ -77531,6 +77542,7 @@ zznews.cn##.ad:not([style])
 ||taoyao.tech^
 ||taoyinbiacid.com^
 ||taoyuay.top^
+||taozen.cn^
 ||taozib8.com/a*.js
 ||taozib8.com/sys
 ||tapad.app^$third-party
