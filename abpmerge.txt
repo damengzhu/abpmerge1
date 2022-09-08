@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-08 08:23:13
-! Total count: 89058
+! Version: 2022-09-08 16:27:27
+! Total count: 89066
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -980,6 +980,7 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##DIV#ad-index.col-12.position-relative
+##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
 ##[alt="要恰饭的嘛"]
@@ -1787,10 +1788,12 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &trackingserver=
 &visitorUuid=
 &xhtml?$script,third-party
+*.*.*:*/*/*.add.*.add
 *.gif$domain=m.imomoe.live
 */ads.
 */letv-gug/$media,object-subrequest,xhr
 */preroll/$media,domain=91porn.com
+*:*/*.html?k=*&_=*
 *_ad_$media,domain=youtube.com,3p
 *tplv-noop.gif*
 ,160x600;
@@ -16159,7 +16162,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|mediuutiset.fi|mikrobitti.fi|rumba.fi|soundi.fi|talouselama.fi|tekniikkatalous.fi|tilt.fi|tivi.fi|veho.fi|www.kauppalehti.fi|www.uusisuomi.fi
-@@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
+@@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|hostingvergelijker.nl|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
 @@||googletagmanager.com/gtm.js$script,domain=sport-wear.com.ua
@@ -32886,7 +32889,7 @@ zznews.cn##.ad:not([style])
 ||absolveparticlesanti.com^
 ||absorbedexistence.com^
 ||absorbedswept.com^
-||absorbingband.com^$third-party
+||absorbingband.com^
 ||absorbingconstitution.com^
 ||absorbingcorn.com^$third-party
 ||absorbinginject.com^
@@ -33926,7 +33929,7 @@ zznews.cn##.ad:not([style])
 ||adschoom.com^$third-party
 ||adsclick.yx.js.cn^
 ||adsco.re^
-||adscore.com^$third-party
+||adscore.com^
 ||adscpm.net^$third-party
 ||adscreendirect.com^
 ||adscustsrv.com^
@@ -36456,6 +36459,7 @@ zznews.cn##.ad:not([style])
 ||artsmalle.pro^
 ||aruba.it/servlet/counterserver?
 ||arwartortleer.com^
+||arwh4scr.xyz^
 ||arwhismura.com^
 ||arzanphearse.com^
 ||as-farm.com^
@@ -36770,6 +36774,7 @@ zznews.cn##.ad:not([style])
 ||attestationlived.com^
 ||attn.tv^*/dtag.js
 ||attracta.com^$third-party
+||attractionbanana.com^
 ||attractiveafternoon.com^
 ||attractivecap.com^$third-party
 ||attractiveimpertinencejoint.com^
@@ -37848,7 +37853,7 @@ zznews.cn##.ad:not([style])
 ||baufaich.com^
 ||bauwezou.net^
 ||bavei.com/img/*.png
-||bawdybalance.com^$third-party
+||bawdybalance.com^
 ||bawdybeast.com^
 ||bawdypets.com^
 ||bawkedaimyos.casa^
@@ -39557,7 +39562,7 @@ zznews.cn##.ad:not([style])
 ||btjapxtpernyg.com^
 ||btkat.com/style/l.js
 ||btkbei.courir.com^
-||btloader.com^$third-party
+||btloader.com^
 ||btmao.cc/Public/yd/
 ||btmp4.net^
 ||btmpgcgpjwagnx.com^
@@ -43429,8 +43434,8 @@ zznews.cn##.ad:not([style])
 ||cxccm.com^
 ||cxcxt.com^
 ||cxdcn9c.fjshxjs.cn^
+||cxense.com^
 ||cxense.com^$domain=focus.de
-||cxense.com^$third-party
 ||cxfzw.cn^
 ||cxgfq.pinlue.com^
 ||cxiwn.xyz^
@@ -44262,7 +44267,7 @@ zznews.cn##.ad:not([style])
 ||data.fans.williamsf1.com^
 ||data.glamour.ru^
 ||data.goertz.de^
-||data.gosquared.com^$third-party
+||data.gosquared.com^
 ||data.guide.photobucket.com^
 ||data.gzuzfa.cn^
 ||data.hicloud.com^$third-party
@@ -44293,7 +44298,7 @@ zznews.cn##.ad:not([style])
 ||data.younow.com^
 ||data.zhongquanjy.com^
 ||data1.virginplus.ca^
-||data2.gosquared.com^$third-party
+||data2.gosquared.com^
 ||databasestelevision.com^
 ||databrain.com^$third-party
 ||datacaciques.com^$third-party
@@ -46201,8 +46206,8 @@ zznews.cn##.ad:not([style])
 ||dwchenzlforever.love^
 ||dwepmhhyigfb.com^
 ||dwetwdstom1020.com^
-||dwin1.com^$third-party
-||dwin2.com^$third-party
+||dwin1.com^
+||dwin2.com^
 ||dwirow.com^
 ||dwjle.cn^
 ||dwnm2295blvjq.cloudfront.net^
@@ -56862,6 +56867,7 @@ zznews.cn##.ad:not([style])
 ||jy135.com^$third-party
 ||jy5izgies.xyz^
 ||jy7izgie.xyz^
+||jy8izgie.xyz^
 ||jybnuw.mudah.my^
 ||jycdnjnz.com^
 ||jycwqeo.cn^
@@ -57682,6 +57688,7 @@ zznews.cn##.ad:not([style])
 ||ks66666661.com^
 ||ksadrewrty.com^
 ||ksaggspp.xyz^
+||ksdayhtj.shop^
 ||ksdlzcmvmj.com^
 ||ksdqhiaythajdv.com^
 ||ksdr.xyz^
@@ -61862,7 +61869,7 @@ zznews.cn##.ad:not([style])
 ||mickeysdim.com^
 ||micky.com.au/wp-content/uploads/manual_banners/
 ||micodigo.com^$third-party
-||micpn.com^$third-party
+||micpn.com^
 ||micreative-china.cn^
 ||microad.jp^$third-party
 ||microad.net^
@@ -62907,7 +62914,7 @@ zznews.cn##.ad:not([style])
 ||mxmwqo.biosante.com.br^
 ||mxowrwb.cn^
 ||mxpdsu.bhv.fr^
-||mxpnl.com^$third-party
+||mxpnl.com^
 ||mxpopad.com^$third-party
 ||mxptint.net^$third-party
 ||mxsuikhqaggf.com^
@@ -66742,8 +66749,8 @@ zznews.cn##.ad:not([style])
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
 ||piplep.com^
+||pippio.com^
 ||pippio.com^$domain=disqus.com
-||pippio.com^$third-party
 ||pipsol.net^
 ||piquantpigs.com^
 ||piquantprice.com^
@@ -70237,6 +70244,7 @@ zznews.cn##.ad:not([style])
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
+||rfigekm.cn^
 ||rfihub.com^
 ||rfihub.com^$third-party
 ||rfihub.net^
@@ -72649,6 +72657,7 @@ zznews.cn##.ad:not([style])
 ||showcasethat.com^
 ||showcoopda.xyz^
 ||showcoopdb.xyz^
+||showcoopdc.xyz^
 ||showcoorcb.xyz^
 ||showdronefavorite.com^
 ||showeveresz.club^
@@ -81492,7 +81501,6 @@ zznews.cn##.ad:not([style])
 ||urgesick.com^
 ||urgoldpie.club^
 ||uriports.com/reports/$third-party
-||url.3400.org^
 ||url1020.keycollectorcomics.com^
 ||url1451.careerkarma.info^
 ||url3630.newsletter.experience-muse.com^
@@ -86379,9 +86387,9 @@ zznews.cn##.ad:not([style])
 ||youaima.com/rest/
 ||youaima.com/zz/
 ||youbora.com^$third-party
-||youborafds01.com^$third-party
-||youboranqs01.com^$third-party
-||youboranqs02.com^$third-party
+||youborafds01.com^
+||youboranqs01.com^
+||youboranqs02.com^
 ||youdao.com/cf.gif?
 ||youdao.com/ctlog?
 ||youdao.com/imp/cac.js
