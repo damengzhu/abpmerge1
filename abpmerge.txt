@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-09 09:56:20
-! Total count: 89093
+! Version: 2022-09-09 16:32:00
+! Total count: 89095
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -7404,6 +7404,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /calameo-beacon.
 /calendar-ads/*
 /call-tracking.js
+/call.tracker.js
 /call/pubif/*
 /call/pubj/*
 /callAdserver?
@@ -14939,7 +14940,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://email.*/blankpixel.gif
 ://email.*/e/o/
 ://ensighten.
-://fathom.$domain=~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.video|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
 ://ivwextern.
@@ -63131,6 +63132,7 @@ zznews.cn##.ad:not([style])
 ||myuosid.cn^
 ||myusersonline.com^$third-party
 ||myv-img.de/m2/e?
+||myvisitorcounter.com^$third-party
 ||myvisitors.se^$third-party
 ||myvisualiq.net^$image,script,third-party
 ||mywb3.com^
