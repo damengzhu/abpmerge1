@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-10 08:27:59
-! Total count: 89128
+! Version: 2022-09-10 16:30:00
+! Total count: 89142
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -1360,6 +1360,7 @@
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".tsguozikeji.cn"]
 ##a[href*=".ttz5.cn"]
+##a[href*=".tv699.cc"]
 ##a[href*=".umtrack.com/"]
 ##a[href*=".uqubsb.com/"]
 ##a[href*=".urfatek.com/"]
@@ -14946,6 +14947,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://geoip.*/country.json
 ://ivw.*/get?referrer=
 ://ivwextern.
+://jmcomic1.*/media/albums/*?
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://metrika.*/analytics.
@@ -16163,7 +16165,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
@@ -19247,7 +19249,9 @@ boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc##.header_slide
 boylove.cc##.owl-carousel
 boylove.cc##.zrrmdomi
+boylove.cc##a[style="display: block;"]
 boylove.cc##div[data-type="1"]
+boylove.cc##div[style="display: block"]
 boylove.cc#?#:-abp-has(>.adsbyexoclick)
 boylove.cc,instrument.com.cn,tool.lu##.swiper-container
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
@@ -23396,6 +23400,8 @@ jmb.izzcwww*.*
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
+jmcomic1.city##a[href^="http"]:not([href*="jmcomic1."]) > img
+jmcomic1.city#?#:-abp-has(>.adsbyexoclick)
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -29286,6 +29292,7 @@ zznews.cn##.ad:not([style])
 ||0emm.com^$third-party
 ||0emn.com^
 ||0f461325bf56c3e1b9.com^
+||0f4l.xyz^
 ||0fd94232df.com^
 ||0fmm.com^
 ||0gw7e6s3wrao9y3q.pro^
@@ -29441,6 +29448,7 @@ zznews.cn##.ad:not([style])
 ||110160.com^$third-party
 ||110380d053f716c4.com^
 ||110hack.com/article/UploadPic/
+||11111.host^
 ||11129.com/800X80
 ||1118cctv.ltd^
 ||111cn.net/gg_ad/
@@ -38354,6 +38362,7 @@ zznews.cn##.ad:not([style])
 ||beonixom.com^
 ||beparaspr.com^
 ||bephamema.com^
+||bephb.in^
 ||bepiletussar.casa^
 ||bepolite.eu^$third-party
 ||beqmwvupsowvls.com^
@@ -44629,7 +44638,6 @@ zznews.cn##.ad:not([style])
 ||deepchannel.com^$third-party
 ||deepermagnes.com^
 ||deepintent.com^$third-party
-||deepl.com/web/statistics
 ||deeplacer.com^
 ||deeplearning.red^
 ||deeplink.aspiration.com^
@@ -46371,6 +46379,7 @@ zznews.cn##.ad:not([style])
 ||dzwww.com/k.js
 ||dzxwnews.com^
 ||dzxzx.cn^
+||dzytvcx.cn^
 ||e-activist.com^*/broadcast.record.message.open.do?
 ||e-click.jp^$third-party
 ||e-contenta.com^$third-party
@@ -51554,7 +51563,6 @@ zznews.cn##.ad:not([style])
 ||gqsbxqfyxvjveb.xyz^
 ||gqswg.com^
 ||gqvdcek.cn^
-||gqyy8.com^
 ||gr8y7z1xaq30.com^
 ||grabbedyearhireling.com^
 ||grabify.link/api/js
@@ -64508,6 +64516,7 @@ zznews.cn##.ad:not([style])
 ||o.xbox.com^
 ||o.zjjrlx4.com^
 ||o06.xyz^
+||o0dn.icu^
 ||o0o29lj2.kaiguangdou.com^
 ||o1.jyjyj.cn^
 ||o2.cz^*-ga_o2cz_bundle.js?
@@ -81671,6 +81680,7 @@ zznews.cn##.ad:not([style])
 ||utherverse.com^$third-party
 ||uthorner.info^
 ||utiesh.com^
+||utijs.xyz^
 ||utility.rogersmedia.com/wrapper.js
 ||utillib.xyz^
 ||utils.global-e.com/set?
@@ -85772,6 +85782,7 @@ zznews.cn##.ad:not([style])
 ||xyhkj.vip^
 ||xyhly.xyz^
 ||xyhojp.lacoste.com^
+||xyhx.org^
 ||xyimg.net^$domain=~xy.com
 ||xyj321.com/static/xyj/js/foot_slide_bar_
 ||xyj321.com/static/zx/js/zx-con-jsq_
@@ -88202,6 +88213,9 @@ zznews.cn##.ad:not([style])
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.vip##.bot-per-context
+18comic.vip##DIV.bot-per-times
+18comic.vip##DIV.col-lg-3.col-md-3
 18h.avmimi.com##body > p[align="center"]:first-child
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.org##.alignnone[alt="恰饭广告"]
