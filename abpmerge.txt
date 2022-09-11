@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-11 08:26:27
-! Total count: 91156
+! Version: 2022-09-11 16:30:12
+! Total count: 91164
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -6708,6 +6708,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ape-ad-
 /api-ads.
 /api-analytics.
+/api-insights/log?
 /api.ad.
 /api.ads.$domain=~ads.instacart.com
 /api/0/stats
@@ -13293,7 +13294,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /superads_
 /supercookie.
 /supernorthroomad.
-/superstats.
+/superstats.$domain=~superstats.dk
 /supertracking.
 /surphace_track.
 /surveyoverlay/*
@@ -14176,7 +14177,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /usr.gif?openratetracking=
 /usrtrck-
 /usrtrck_
-/ut-z3.php?
 /utag-dit.js
 /utag.ga.
 /utag.handler.js
@@ -15590,6 +15590,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.ipify.org^$xmlhttprequest,domain=offering-flower.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
+@@||api.ipstack.com^$domain=ride.guru
 @@||api.nyda.pro^$websocket
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -16355,7 +16356,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kameleoon.com/ip.gif$domain=welt.de
 @@||kameleoon.eu/ip.gif$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
-@@||kaptcha.com/collect/sdk?$domain=wyze.com
+@@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
@@ -16628,6 +16629,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagure.io/static/issues_stats.js$~third-party
+@@||palmettostatearmory.com/static/$script,~third-party
 @@||panjiachen.github.io^$generichide
 @@||papalah.com^$generichide
 @@||papi-service.jd.com/ads/
@@ -40237,6 +40239,7 @@ zznews.cn##.ad:not([style])
 ||bmcdn4.com^
 ||bmcm.pw^
 ||bmfeed.ru^$third-party
+||bmjs.xzw.com^
 ||bmkz57b79pxk.com^
 ||bmlmedia.com^$third-party
 ||bmmetrix.com^$third-party
@@ -44932,6 +44935,7 @@ zznews.cn##.ad:not([style])
 ||d1.1ppt.com^
 ||d1.3158.cn^
 ||d1.5h.com^
+||d1.gocye.com^
 ||d1.handdiy.com^
 ||d1.sina.com.cn^$object,script
 ||d1.zhuangxiu6.com^
@@ -45892,6 +45896,7 @@ zznews.cn##.ad:not([style])
 ||dcard.tw/v1/events
 ||dcbnameapneas.com^
 ||dcbpm.suning.cn^
+||dccc.cloud^
 ||dcclaa.bunte.de^
 ||dcclaa.daskochrezept.de^
 ||dcclaa.einfachbacken.de^
@@ -49612,7 +49617,6 @@ zznews.cn##.ad:not([style])
 ||events.jokerly.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^$third-party
-||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
 ||events.mercadolibre.com^
@@ -55499,6 +55503,7 @@ zznews.cn##.ad:not([style])
 ||id.google.com/verify/
 ||id.promo.skf.com^
 ||id.verticalhealth.net/script.js?partnerid=
+||id08.top^
 ||id5-sync.com^
 ||id5a.top^
 ||idahoanpavies.com^
@@ -59757,6 +59762,7 @@ zznews.cn##.ad:not([style])
 ||leasecount.com^
 ||leatheroughtrisk.com^
 ||leavilysover.site^
+||lebkrli.cn^
 ||lecai.com/page/zhuanti/baidu/
 ||leche69.com^$third-party
 ||lecho.be/fb2?
@@ -64868,6 +64874,7 @@ zznews.cn##.ad:not([style])
 ||netbiscuits.net^*/analytics/
 ||netc.sfr.fr^
 ||netcatx.com^
+||netcentric.biz^$third-party
 ||netclickstats.com^$third-party
 ||netcore.co.in^$third-party
 ||netcoresmartech.com^$third-party
@@ -68641,6 +68648,7 @@ zznews.cn##.ad:not([style])
 ||pocrd.cc^
 ||pocrowpush.com^
 ||pod.xpress.com^
+||podcorn.com^$third-party
 ||poder360.com.br/_tracker
 ||podfdch.com^$third-party
 ||podiumpresto.com^
