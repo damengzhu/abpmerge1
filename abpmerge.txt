@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-13 08:28:53
-! Total count: 91209
+! Version: 2022-09-13 16:31:33
+! Total count: 91218
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -75,6 +75,7 @@
 ###ZAML
 ###\31 280_adv
 ###\31 x1_container.float-banner-footer
+###__ads_dp
 ###__long_gg_container
 ###aafoot.top_box
 ###aafoot[class^="top_box"]
@@ -15242,7 +15243,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/advertisement/*$domain=ininin.com|midea.com|muyingzhijia.com|nmkjxy.com
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|yanyue.cn|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|xiaoz.me|yanyue.cn|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -15491,6 +15492,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ads.alafish.cn^$~third-party
 @@||ads.cdn.tvb.com^*.key
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
+@@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$~third-party
 @@||adsense.woso.cn^$~third-party
@@ -16531,7 +16533,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||mycleverpush.com/iframe?$domain=bsdex.de
-@@||myqqjd.com/wp-content/plugins/open-
 @@||myqqjd.com^
 @@||myqqjd.com^$generichide
 @@||myssl.com/scripts/analyze.js
@@ -19124,6 +19125,7 @@ bjd.com.cn##.screenad
 bjhockey.org###homeVideoModal
 bjnews.com.cn##a[href*="/ads/"]
 bjx.com.cn##.layer_right2
+bjxfqc.net##script ~ ul[style]
 bkill.com##.alliance-ad
 bkill.com##.cross-ad
 bkill.com##.half-ads
@@ -22407,6 +22409,7 @@ hltv.org##.thunderpick
 hmog.me##.ml_ad_widget
 hmog.me##.side_widget:last-child
 hmog.me##a[href^="http://www.masadora.net/"]
+hmqg.net##DIV#bottommob.bottommob
 hnntube.com##.jumbotron
 hnt.58jingxuan.top/115
 hnt.58jingxuan.top/dhbioperhbvoprwm
@@ -24695,6 +24698,7 @@ mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 myqqjd.com###advert_widget
 myqqjd.com##.adsbygoogle
 myqqjd.com##.qz-box
+myqqjd.com##.tg-site
 myreadingmanga.info##a[href^="https://www.dlsite.com/"]
 myreadingmanga.info##a[href^="https://www.gaming-adult.com/"]
 myrealgames.com##.block_adv_mix_top2
@@ -33920,6 +33924,7 @@ zznews.cn##.ad:not([style])
 ||ad.samsungadhub.com^
 ||ad.smartmediarep.com^
 ||ad.style^$third-party
+||ad.szhsx.net^
 ||ad.takasu.co.jp^
 ||ad.tempstaff.co.jp^
 ||ad.theatreacademy.jp^
@@ -46172,7 +46177,7 @@ zznews.cn##.ad:not([style])
 ||delivery.hunterycity.com^
 ||delivery.playallvideos.com^
 ||delivery.porn.com^
-||delivery.satr.jp^
+||delivery.satr.jp/event/
 ||delivery.smashing.services^
 ||delivery.thebloggernetwork.com^
 ||delivery.vidible.tv/jsonp/
@@ -50115,6 +50120,7 @@ zznews.cn##.ad:not([style])
 ||fangbaba.xyz^
 ||fangfeeling.com^
 ||fangfeng001.xyz^
+||fangfeng002.xyz^
 ||fangfeng005.xyz^
 ||fangfeng007.xyz^
 ||fanghua2.cn^
@@ -50520,6 +50526,7 @@ zznews.cn##.ad:not([style])
 ||fhgh9sd.com^
 ||fhihabactcuk.com^
 ||fhisownkindt.xyz^
+||fhitagd.cn^
 ||fhlong2000.xyz^
 ||fhlwetaynptikef.xyz^
 ||fhngty.vetsecurite.com^
@@ -55751,6 +55758,7 @@ zznews.cn##.ad:not([style])
 ||ijaabm.nbcsports.com^
 ||ijaabm.telemundo.com^
 ||ijaabm.telemundodeportes.com^
+||ijgocb.cn^
 ||ijhlca.lulus.com^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
@@ -64493,7 +64501,6 @@ zznews.cn##.ad:not([style])
 ||myqcloud.com/ad/
 ||myqip.icu^
 ||myqqjd.com/wp-content/plugins/*.js
-||myqqjd.com^$csp=script-src 'self' * 'unsafe-inline'
 ||myrealty.su/counter/
 ||myreferer.com^$third-party
 ||myro.shop^
@@ -68008,6 +68015,7 @@ zznews.cn##.ad:not([style])
 ||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/renrenxiaxuan980.gif
 ||phpstudyimg.com/all/xiaojieqiantie.gif
+||phputils.wc-os.com^
 ||phrait.com^
 ||phrasetech.com/api/collect
 ||phsism.com^
@@ -89941,7 +89949,6 @@ zznews.cn##.ad:not([style])
 ~jxedu.com###haoetv
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
-~lechinois.com##.container > .ads
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
@@ -90178,6 +90185,8 @@ zznews.cn##.ad:not([style])
 7x7n.com##.down_load_2
 8bo.com##.mad
 8field.net,deployhappiness.com,dmitrysotnikov.wordpress.com,faravirusi.com,freedom-shift.net,kotan.link,lovepanky.com,markekaizen.jp,netafull.net,photopoint.com.ua,posh-samples.com#@#.category-ad:not(html):not(body)
+8mav.cc##.video_playr_sider
+8mav.cc#?#div[class]:-abp-has(>a>.q-responsive)
 8xia.com,9553.com##.high-down + .high-down-icon1
 8xia.com,9553.com,99danji.com##.high-down
 8ziyuan.com##.deanadsside
