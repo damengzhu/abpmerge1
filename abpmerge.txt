@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-14 02:25:20
-! Total count: 91235
+! Version: 2022-09-14 08:29:20
+! Total count: 91247
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -3085,6 +3085,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /99rejs/js/adv
 /99vjj/*$third-party
 /9CCMSPC/images/*.gif
+/://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /?affiliateId=*&realDomain=
 /?dm=*&blogid=$script
 /?dsp_uid=
@@ -3634,7 +3635,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ZagUser.js
 /\.(cc|com|top|xyz)\/i\/v$/$xmlhttprequest,third-party
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
-/\.(cyou)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
+/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
@@ -10707,6 +10708,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/event?
 /metrics/ga.html?
 /metrics/image.gif?
 /metrics/init?
@@ -31212,6 +31214,7 @@ zznews.cn##.ad:not([style])
 ||666824.xyz^
 ||666826.xyz^
 ||666827.xyz^
+||666829.xyz^
 ||6669667.com^
 ||666video.asia^
 ||668559.com^$third-party
@@ -34775,6 +34778,7 @@ zznews.cn##.ad:not([style])
 ||adobeanalytics.populusgroup.com^
 ||adobeanalytics.serveone.co.kr^
 ||adobeanalytics.teksystems.com^
+||adobedc.net/collector/
 ||adobedtm.com^$third-party,domain=~adobe.com
 ||adobeedge.my.gov.au^
 ||adobes.marugame-seimen.com^
@@ -35851,6 +35855,7 @@ zznews.cn##.ad:not([style])
 ||airtable.com/internal/$xmlhttprequest
 ||airtable.com^*/reports
 ||aisastore.club^
+||aisdd.xyz^
 ||aishangcan.com^
 ||aisixiang.com/images/*-20
 ||aistolsu.net^
@@ -41930,6 +41935,7 @@ zznews.cn##.ad:not([style])
 ||ced.sascdn.com^$domain=spiegel.de
 ||cedartheoreticalcounting.com^
 ||cedexis.com^$third-party
+||cedon2bea.xyz^
 ||cee1.iteye.com^
 ||ceehimur.uk^
 ||ceeleeca.com^
@@ -51476,6 +51482,7 @@ zznews.cn##.ad:not([style])
 ||furnishings.bellacor.com^
 ||furoidrewash.com^
 ||furongcloud.email^
+||furrnbb.cn^
 ||furryfork.com^
 ||furryhorses.com^
 ||furstraitsbrowse.com^
@@ -57409,6 +57416,7 @@ zznews.cn##.ad:not([style])
 ||jd.com/static/js/cpc.js
 ||jd.com^$domain=gw54.com|xgw5.com
 ||jd100.com/cwmpc/
+||jd5c.top^
 ||jd6pq31f.site^
 ||jdbjhd.saniweb.nl^
 ||jdbzurmhiixqm.com^
@@ -57816,6 +57824,7 @@ zznews.cn##.ad:not([style])
 ||jmnvxpgmcbrk.xyz^
 ||jmpmedia.club^
 ||jmqxbeo.cn^
+||jmr.nnxiant.cn^
 ||jmrnews.pro^
 ||jmtomcgqnsczl.com^
 ||jmuaoupnykie.com^
@@ -65824,6 +65833,7 @@ zznews.cn##.ad:not([style])
 ||nxhkkm.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxl791.com^
+||nxlidc.ink^
 ||nxnszu.ettoday.net^
 ||nxqdqtvirwj.com^
 ||nxrhs.com^
@@ -71900,6 +71910,7 @@ zznews.cn##.ad:not([style])
 ||rmgmggg.cn^
 ||rmgserving.com^
 ||rmipoz.com/dp.js
+||rmirha.cn^
 ||rmkflouh.com^
 ||rmndme.com^
 ||rmoeu.mercury.sogou.com^
@@ -81721,6 +81732,7 @@ zznews.cn##.ad:not([style])
 ||track.manawa-mai.ac.nz^
 ||track.mituo.cn^
 ||track.mp4.center^
+||track.mrgugu.com^
 ||track.mycliplister.com^
 ||track.netzero.net^
 ||track.noddus.com^
