@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-14 16:33:10
-! Total count: 91254
+! Version: 2022-09-15 08:32:16
+! Total count: 91279
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -9267,6 +9267,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /googleAnal.js
 /googleAnalytics1.
 /googleAnalytics2.
+/googleAnalytics4.
 /googleAnalyticsBase_
 /googleAnalyticsBottom.
 /googleAnalyticsDataLayer.
@@ -12905,6 +12906,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /sp-analytics-
 /sp-analytics.
 /sp/delivery/*
+/sp_analytics.
 /sp_logging.
 /sp_tracker.
 /spac_adx.
@@ -16445,6 +16447,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
+@@||logo.clearbit.com^$image,third-party
 @@||loltmcheck.com/js/ads.js
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
@@ -16610,8 +16613,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ondemand.sas.com^$subdocument
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.bcs.ru^*/piwik.bcs.js$script
-@@||online.mps-gba.de/praeludium/ams.js?$domain=auto-motor-und-sport.de
-@@||online.mps-gba.de/praeludium/caravAFW.js?$domain=caravaning.de
+@@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
@@ -31215,6 +31217,7 @@ zznews.cn##.ad:not([style])
 ||666826.xyz^
 ||666827.xyz^
 ||666829.xyz^
+||666832.xyz^
 ||6669667.com^
 ||666video.asia^
 ||668559.com^$third-party
@@ -31282,6 +31285,7 @@ zznews.cn##.ad:not([style])
 ||6fe24753fb.com^
 ||6feb9e3f20.com^
 ||6ff2f7bf3d.com^
+||6fxo.icu^
 ||6fxtpu64lxyt.com^
 ||6g.sybnzs.cn^
 ||6gt.cc^
@@ -41286,6 +41290,7 @@ zznews.cn##.ad:not([style])
 ||ca6ac9b0e5.com^
 ||ca72472d7aee.com^
 ||caanalytics.com^$third-party
+||caast.tv/v1/record.gif?
 ||cab-too-low.com^
 ||cabbagehomme.casa^
 ||cabbingpolynya.cam^
@@ -41824,7 +41829,6 @@ zznews.cn##.ad:not([style])
 ||cdn.pg88cdn.com^
 ||cdn.shdsp.net/ad
 ||cdn.smilk.cc^
-||cdn.stroeerdigitalgroup.de^
 ||cdn.thejournal.ie/media/hpto/$image
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
@@ -42688,7 +42692,9 @@ zznews.cn##.ad:not([style])
 ||clear7.love^
 ||clearac.com^
 ||clearadnetwork.com^
+||clearbit.com^$third-party
 ||clearbitjs.com^$third-party
+||clearbitscripts.com^
 ||clearbrands.actonservice.com^
 ||clearcabbage.com^
 ||clearonclick.com^
@@ -44182,6 +44188,7 @@ zznews.cn##.ad:not([style])
 ||couriersticky.com^
 ||coursehero.com/v1/data-tracking
 ||courthouseworseflaw.com^
+||coveo.com/coveo.analytics.js/
 ||coverapparatus.com^
 ||coveredbetting.com^
 ||covertarget.com^*_*.php
@@ -44640,6 +44647,7 @@ zznews.cn##.ad:not([style])
 ||ctsywy.com^
 ||cttghjfhsw.com^
 ||cttracking02.com^$third-party
+||ctuhn2cop.xyz^
 ||ctur.idubwz.cn^
 ||ctwqxs.autoscout24.at^
 ||ctxtfl.com^$third-party
@@ -46401,6 +46409,7 @@ zznews.cn##.ad:not([style])
 ||dewretpartook.com^
 ||dexchangeinc.com^
 ||deximedia.com^
+||dexinyi.cn^
 ||dexplatform.com^
 ||dexpredict.com^
 ||dexun.lzjzyjh.com^
@@ -47655,6 +47664,7 @@ zznews.cn##.ad:not([style])
 ||dtoo1.space^
 ||dtpqhwk.cn^
 ||dtprofit.com^
+||dtqiow.cn^
 ||dtqkuzuhzwklm.com^
 ||dtrcw.cc^
 ||dtrk.slimcdn.com^
@@ -49718,6 +49728,7 @@ zznews.cn##.ad:not([style])
 ||evyy.net^$third-party
 ||ew3.io^$third-party
 ||ew740.cn^
+||ewadakesw.cyou^
 ||ewalxb.epicsports.com^
 ||ewasadirec.com^
 ||ewcgnifqlm.com^
@@ -54693,6 +54704,7 @@ zznews.cn##.ad:not([style])
 ||hogyp.com^
 ||hoidenbinate.com^
 ||hoistchart.com^
+||hoiwcg.cn^
 ||hokespotheen.com^
 ||hokuspokus.tarnkappe.info^
 ||hola.xebel.co^
@@ -57123,6 +57135,7 @@ zznews.cn##.ad:not([style])
 ||iubenda.com/write?
 ||iuliglsh.space^
 ||iumnxwvh.ink^
+||iuou.myadobe.cn^
 ||iupian.com/mstyle/js/topinfo.js
 ||iupot.com^
 ||iusnajah.cn^
@@ -60864,6 +60877,7 @@ zznews.cn##.ad:not([style])
 ||loggly.com^$third-party
 ||loggychops.paulsmith.site^
 ||logicalmodelvisible.com^
+||logicanalytics.io^
 ||logicsfort.com^$third-party
 ||loginfra.com^$third-party
 ||loginhood.io^$third-party
@@ -62527,6 +62541,7 @@ zznews.cn##.ad:not([style])
 ||mediaplex.com^*?mpt=
 ||mediaplus.fm/cntr.php?
 ||mediapush1.com^
+||mediapxv.com^
 ||mediaquark.com/tracker.js
 ||mediarithmics.com^$third-party
 ||mediaseeding.com^$third-party
@@ -64368,6 +64383,7 @@ zznews.cn##.ad:not([style])
 ||mxlwmp.cn^
 ||mxmfb.com/rsps/img/
 ||mxmrt.com^
+||mxnr.xyz^
 ||mxowrwb.cn^
 ||mxpnl.com^
 ||mxpopad.com^$third-party
@@ -64626,6 +64642,7 @@ zznews.cn##.ad:not([style])
 ||n38chz7m.site^
 ||n5725.com^
 ||n6579.com^
+||n7181.com^
 ||n74s9.com^$third-party
 ||n8kt7gf.cn^
 ||n9nedegrees.com^$third-party
@@ -68661,6 +68678,7 @@ zznews.cn##.ad:not([style])
 ||pmb*.tj.ali213.net/js/
 ||pmbox.biz^$third-party
 ||pmdatabase.xyz^
+||pmetrics.performancing.com^
 ||pmlw0efk4x.com^
 ||pmo.ee/stats/
 ||pmpubs.com^
@@ -71837,7 +71855,6 @@ zznews.cn##.ad:not([style])
 ||rising.cn/rxbox/
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
-||risk.clearbit.com^
 ||riskelaborate.com^
 ||riskid.security^$third-party
 ||riskoccur.com^
@@ -72418,6 +72435,7 @@ zznews.cn##.ad:not([style])
 ||rwwynfpwdnorsg.xyz^
 ||rxehwaddupxlmlx.com^
 ||rxhsry.sortiraparis.com^
+||rxlidz.ink^
 ||rxrtvynxp.com^
 ||rxthdr.com^
 ||rxtolo.domiporta.pl^
@@ -82292,6 +82310,7 @@ zznews.cn##.ad:not([style])
 ||travelingturtleharmonious.com^
 ||travelmarketreport.actonservice.com^
 ||travelnourhai.com^
+||travelrobotflower.com^$third-party
 ||travelscream.com^
 ||traversedlp.com^$third-party
 ||travidia.com^
@@ -83392,6 +83411,7 @@ zznews.cn##.ad:not([style])
 ||universityofinternetscience.com^
 ||uniworldgroup.asia^
 ||unjointbobbed.com^
+||unjs.com/css_js/
 ||unjs.jingyanben.com^
 ||unkemptscance.com^
 ||unkindvanilla.com^
@@ -83695,6 +83715,7 @@ zznews.cn##.ad:not([style])
 ||userreport.com^$third-party
 ||users-api.com^$third-party
 ||usersegment.wpdigital.net^
+||usersonline.org/ping.php?
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
 ||userzoom.com^$third-party
@@ -83987,6 +84008,7 @@ zznews.cn##.ad:not([style])
 ||vbrw.xyz^
 ||vbscgrnkoceya.com^
 ||vbshybwwkywkhsw.com^
+||vbt.io^$third-party
 ||vbtrax.com^
 ||vbutjg.com^
 ||vcawmm.com^
@@ -85503,6 +85525,7 @@ zznews.cn##.ad:not([style])
 ||weeragedeafer.com^
 ||weethery.com^
 ||wegetpaid.net^
+||weglot.com/pageviews?
 ||wegotmedia.com^
 ||wegowan.com^
 ||wehgprpfrx.xyz^
@@ -89558,6 +89581,7 @@ zznews.cn##.ad:not([style])
 ||zjxkdq.cn^
 ||zjzs.club^
 ||zk.91post.com^
+||zk6c.top^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
 ||zkbkcdhieqcoev.com^
 ||zkc5.fleurancenature.fr^
@@ -90317,6 +90341,7 @@ zznews.cn##.ad:not([style])
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="330"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="900"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
+18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 18comic.org,18comic.vip#?#:-abp-has(>.adsbyexoclick)
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
