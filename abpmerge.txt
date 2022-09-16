@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-16 08:28:38
-! Total count: 91305
+! Version: 2022-09-16 16:32:27
+! Total count: 91314
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -8276,6 +8276,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /directadvert.
 /directrev.
 /disabled_adBlock.
+/discourse-fingerprint_
 /discuss_ad/*
 /disp_cnt.
 /dispatch.fcgi?
@@ -15265,7 +15266,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
-@@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
+@@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/friendbuy.min.js$script,domain=butcherbox.com
@@ -37284,6 +37285,7 @@ zznews.cn##.ad:not([style])
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api.06fgej.com^
 ||api.140proof.com^
+||api.36dfsa.com^
 ||api.557400.com^
 ||api.7017k.com^
 ||api.abcxs.org^
@@ -42658,7 +42660,7 @@ zznews.cn##.ad:not([style])
 ||clarifysuper.com^
 ||clariniwoald.com^
 ||clarity.abacast.com^
-||clarity.ms^$third-party
+||clarity.ms^
 ||clarityray.com^
 ||claritytag.com^$third-party
 ||clarium.global.ssl.fastly.net^
@@ -47802,6 +47804,7 @@ zznews.cn##.ad:not([style])
 ||duyixpy.top^
 ||duyousxtd.com^
 ||duzt6rhr7wo8p.cloudfront.net^
+||dv.amtwcvh.cn^
 ||dv.chemie.de^
 ||dv.taolingjing.com^
 ||dv59b.montecarlomeeting.com^
@@ -50122,6 +50125,7 @@ zznews.cn##.ad:not([style])
 ||fakeporn.tv/bb/
 ||fakesorange.com^
 ||fakinggivewacko.com^
+||fakjkwp.cn^
 ||fakrg0e.cn^
 ||faktor.io^$third-party
 ||falangerewires.com^
@@ -54811,6 +54815,7 @@ zznews.cn##.ad:not([style])
 ||hoowooze.net^
 ||hop.clickbank.net^$script
 ||hopedwishfulpercent.com^
+||hopefullyapricot.com^
 ||hopefulserversnecklace.com^
 ||hopelessna.xyz^
 ||hopfeed.com^$third-party
@@ -58671,6 +58676,7 @@ zznews.cn##.ad:not([style])
 ||kccdk.com/Content/img/*.gif
 ||kcdn.xyz^
 ||kcehdslfcqva.com^
+||kcfuzhj.cn^
 ||kcgkxha.cn^
 ||kck.st/web/track
 ||kcogjewebvtbk.com^
@@ -72896,7 +72902,7 @@ zznews.cn##.ad:not([style])
 ||salidzini.lv^*/logo_button.gif?$third-party
 ||salinasbhut.com^
 ||sallyfundamental.com^
-||salsify-ecdn.com^$third-party
+||salsify-ecdn.com^
 ||salsifyballone.com^
 ||saltateblit.com^
 ||saltinourhairtv.com^
@@ -74951,6 +74957,7 @@ zznews.cn##.ad:not([style])
 ||sjardw.footlocker.fr^
 ||sjbaiduadv1.redou.com^
 ||sjcnnddcx.com^
+||sjeklqx.cn^
 ||sjgnskf.com^
 ||sjjz8.cn^
 ||sjmwkj.cn^
@@ -84211,6 +84218,7 @@ zznews.cn##.ad:not([style])
 ||vhpxa.top^
 ||vhqlda.cn^
 ||vhrtgvzcmrfoo.com^
+||vhullfc.cn^
 ||vi-serve.com^
 ||vi-serve.com^$domain=spiegel.de
 ||vi1.souid.com^
@@ -88532,6 +88540,7 @@ zznews.cn##.ad:not([style])
 ||ymvhbeuadqhwx.com^
 ||ymxlm.cc^
 ||ymyh.club^
+||ymzcapp.shop^
 ||ymzrrizntbhde.com^
 ||ynagqs.vidaxl.pl^
 ||ynaxckzmreo.com^
@@ -89279,7 +89288,7 @@ zznews.cn##.ad:not([style])
 ||zerodestructive.com^
 ||zerohedge.com/statistics-ajax?
 ||zeroidtech.com^
-||zeronaught.com^$third-party
+||zeronaught.com^
 ||zeropark.com^$third-party
 ||zerostats.com^$third-party
 ||zesep.com^$third-party
