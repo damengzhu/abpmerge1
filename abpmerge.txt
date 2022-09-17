@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-16 16:32:27
-! Total count: 91314
+! Version: 2022-09-17 02:15:41
+! Total count: 91319
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -962,12 +962,6 @@
 ##.xstui-content__acc
 ##.xzbox-gh
 ##.y.mtw[style="padding: 0px 10px;"]
-##.yd_ad
-##.yd_ad1
-##.yd_ad2
-##.yd_ad3
-##.yd_ad5
-##.yd_ad6
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -17159,11 +17153,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||wx.qq.com/mmbizwap/*/framead.
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
-@@||xianzhenyuan.cn^$generichide
-@@||xianzhenyuan.cn^$script,~third-party
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide
-@@||xilinjie.com^$generichide
 @@||xinhuanet.com/gsstatics/*/images/ad/
 @@||xiuren.org^$generichide
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
@@ -18151,6 +18142,7 @@ airplaydirect.com,cultofcalcio.com,dailynews.lk,economicconfidential.com,newzimb
 aiscore.com##.bet365
 aiscore.com##.justify-center.w100
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
+aishoujizy.com##a[target="_blank"] > img[src^="/upload/1/"]
 aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 aishs.top###frameu9916W_left > .block:nth-child(-n+6)
 aiweibk.com##.lili
@@ -19517,6 +19509,7 @@ cdn.sosrom.cn
 cdromance.com##.game-container[style="grid-column: span 2;"]
 cdromance.com##.support-us
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,xywy.com,zhangjunseo.com,zhujiceping.com##.advert
+ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,zhangjunseo.com,zhujiceping.com##.advert
 ceiea.com##.adclass2019
 celeb.gate.cc##a[href*="//goo.gl/"]
 celebjihad.com###pud
@@ -20464,6 +20457,7 @@ dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530.net,hdshare.cn,it168.com###adv
 dmh8.com##.padding-0 > ul
+dmh8.com##.padding-0 > ul[style]
 dmh8.com##[style^='box-sizing: border-box; position: relative']
 dmh8.com##[style^='display: block; z-index: ']
 dmh8.com##[style^='display: flex']
@@ -21701,6 +21695,7 @@ gcn.com###ph_pcontent3_0_lvItemList_liNativeArticleAd_0
 gcn.com,groovyhistory.com,lifebuzz.com,toocool2betrue.com,videogameschronicle.com##.adwrapper
 gcxa.cn###edu_ad63
 gd163.cn##.bbs_ad
+gd163.cn,itavcn.com,jmnews.com.cn###msg_win
 gd163.cn,itavcn.com,jmnews.com.cn,xt700.com###msg_win
 gdmm.com###ad_cover
 gdmm.com###diy3
@@ -25220,6 +25215,7 @@ pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
 pcccp.cn##DIV[id^="xydl"]
 pccomponentes.com#@#.dfp-banner
+pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
 pcdown.net,xz7.com##.bzxz
 pcgamebenchmark.com##.nova_wrapper
@@ -28332,6 +28328,7 @@ x-mol.com##.news-white-content-right
 x3cn.com###portal_block_12045
 x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xd0.com,xiaodao0.com##a[href^="/ad."]
+x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
 xanimu.com##.alrt
 xbabe.com##.bnnrs-aside
@@ -30012,6 +30009,8 @@ zznews.cn##.ad:not([style])
 ||22pixx.xyz/l/
 ||23.109.87.101^
 ||23.109.87.42^
+||23.234.217.11^
+||23.234.217.12^
 ||23.244.43.212^
 ||23.89.50.180^
 ||23.91.3.114^
@@ -34139,6 +34138,7 @@ zznews.cn##.ad:not([style])
 ||addfreestats.com^$third-party
 ||addictedsweetness.com^
 ||addictionestimated.com^
+||addihj.cn^
 ||addinginstancesroadmap.com^
 ||addiply.com^
 ||additionalcasualcabinet.com^
@@ -41680,7 +41680,7 @@ zznews.cn##.ad:not([style])
 ||cauthaushoas.com^
 ||cautiouscooperativegentlemen.com^
 ||cautiouscrate.com^$third-party
-||cautiouscredit.com^$third-party
+||cautiouscredit.com^
 ||cav.cavuc.com^
 ||cavelyamun.com^
 ||cawbarthe.com^
@@ -43312,6 +43312,7 @@ zznews.cn##.ad:not([style])
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
+||cnwebperformance.biz^$third-party
 ||cnwnews.com/ad-nrtop/
 ||cnwnews.com/gg
 ||cnwnews.com/images/kgt
@@ -45191,6 +45192,7 @@ zznews.cn##.ad:not([style])
 ||d2fbvay81k4ji3.cloudfront.net^
 ||d2fe475c69.com^
 ||d2focgxak1cn74.cloudfront.net^
+||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2g8ksx1za632p.cloudfront.net^
 ||d2g9nmtuil60cb.cloudfront.net^
 ||d2ga0x5nt7ml6e.cloudfront.net^
@@ -63912,7 +63914,7 @@ zznews.cn##.ad:not([style])
 ||montpalatin.handicap.fr^
 ||montpdp.top^
 ||montwam.top^
-||monu.delivery^$third-party
+||monu.delivery^
 ||monumenteducategem.com^
 ||monumentfake.com^
 ||monxserver.com^
@@ -66138,6 +66140,7 @@ zznews.cn##.ad:not([style])
 ||oevery.com^$third-party
 ||oewabox.at^$third-party
 ||oewdfyhdfq.xyz^
+||oewtuho.cn^
 ||oextraordu.one^
 ||oey53uw-1ye.cn^
 ||oeya.com^$domain=myptt.cc
@@ -77439,7 +77442,7 @@ zznews.cn##.ad:not([style])
 ||stakingsmile.com^
 ||stalefigure.com^
 ||staleseat.com^
-||staleshow.com^$third-party
+||staleshow.com^
 ||stalesummer.com^
 ||stalihuwi.com^
 ||stambashimmy.com^
@@ -80237,7 +80240,7 @@ zznews.cn##.ad:not([style])
 ||thiptumuce.com^
 ||third-tracking.com^
 ||thirdbranch.zulln.se^
-||thirdrespect.com^$third-party
+||thirdrespect.com^
 ||thirstylettuce.com^
 ||thirstyswing.com^
 ||thirstytwig.com^$third-party
@@ -90877,6 +90880,7 @@ zznews.cn##.ad:not([style])
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
 0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
+0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,weather.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
 411mania.com##.banner-homebottom-all
 423down.com###d_theme-2
 423down.com###d_theme-3
@@ -90952,8 +90956,8 @@ zznews.cn##.ad:not([style])
 999thehawk.com##div[data-alias="Sweetjack"]
 1010dy1.com##.text-center[style]
 1010dy1.com##a[href^="/go"]
-1010dy2.com##.text-center[style]
-1010dy2.com##a[href^="/go"]
+1010dy3.com##.text-center[style]
+1010dy3.com##a[href^="/go"]
 1010jiajiao.com###daan_recommend + .xiti
 1010jiajiao.com###yueyu3
 1010jiajiao.com##.bdgg
@@ -91281,6 +91285,7 @@ zznews.cn##.ad:not([style])
 40407.com##.bg_l
 40407.com##.bg_r
 40407.com##.con_tj
+40407.com,lzep.cn,qudong.com,xitong8.com##.top_banner
 40407.com,lzep.cn,qudong.com,xitong8.com,xt700.com##.top_banner
 55188.com###center-pic
 55188.com###top-pic
