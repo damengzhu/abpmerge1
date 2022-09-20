@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-19 16:32:48
-! Total count: 91439
+! Version: 2022-09-20 02:23:15
+! Total count: 91448
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -454,7 +454,6 @@
 ##.ad-below-related-post
 ##.ad-block
 ##.ad-body
-##.ad-bottomfixedwrap
 ##.ad-cell
 ##.ad-couplet-common
 ##.ad-desktop
@@ -892,7 +891,6 @@
 ##.textadlist
 ##.theme-dark>.ayx>a
 ##.theme_custom_slidebox-ad-below
-##.themepark_advertisement
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
@@ -1369,7 +1367,6 @@
 ##a[href*=".wjLkj.com/"]
 ##a[href*=".woyicanyin.com"]
 ##a[href*=".wpwpquse.cn/"]
-##a[href*=".wuyichunqiu.com/"]
 ##a[href*=".xacg.info/"]
 ##a[href*=".xinghuolm.top"]
 ##a[href*=".xingxingdm.com:"]
@@ -15257,7 +15254,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
-@@/bannerAds/*$domain=yuanchuan.cn
 @@/build/js/analytics.$script,domain=lx.com|nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
@@ -15296,6 +15292,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
+@@/show_ads_$domain=ygo-sem.cn
 @@/site/ad/*$domain=islide.cc
 @@/social-share.$domain=patentguru.com
 @@/store_ad/*$domain=pcstore.com.tw
@@ -15312,7 +15309,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
 @@_cpa_cpm_$domain=52xkdy.com
-@@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
+@@_cpc_cpm/$domain=youranshare.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@f*.baidu.com/it/u=*,*&fm=*JPEG
 @@f*.baidu.com/it/u=*,*&fm=*PNG
 @@guokr.com/apis/flowingboard/item/m_article
@@ -16639,8 +16637,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|youneed.win
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
@@ -18305,6 +18303,7 @@ ancient-origins.net##.content_add_block
 ancient-origins.net,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
 ancient.eu,fanatix.com,gamertweak.com,gematsu.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 andoveradvertiser.co.uk,asianimage.co.uk,autoexchange.co.uk,banburycake.co.uk,barryanddistrictnews.co.uk,basildonstandard.co.uk,basingstokegazette.co.uk,bicesteradvertiser.net,borehamwoodtimes.co.uk,bournemouthecho.co.uk,braintreeandwithamtimes.co.uk,brentwoodlive.co.uk,bridgwatermercury.co.uk,bridportnews.co.uk,bromsgroveadvertiser.co.uk,bucksfreepress.co.uk,burnhamandhighbridgeweeklynews.co.uk,burytimes.co.uk,campaignseries.co.uk,chardandilminsternews.co.uk,chelmsfordweeklynews.co.uk,chesterlestreetadvertiser.co.uk,chorleycitizen.co.uk,clactonandfrintongazette.co.uk,cotswoldessence.co.uk,cotswoldjournal.co.uk,cravenherald.co.uk,creweguardian.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,droitwichadvertiser.co.uk,dudleynews.co.uk,ealingtimes.co.uk,echo-news.co.uk,enfieldindependent.co.uk,eppingforestguardian.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,freepressseries.co.uk,gazette-news.co.uk,gazetteherald.co.uk,gazetteseries.co.uk,guardian-series.co.uk,halesowennews.co.uk,halsteadgazette.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,harwichandmanningtreestandard.co.uk,heraldseries.co.uk,herefordtimes.com,hillingdontimes.co.uk,ilkleygazette.co.uk,keighleynews.co.uk,kidderminstershuttle.co.uk,knutsfordguardian.co.uk,lancashiretelegraph.co.uk,ledburyreporter.co.uk,leighjournal.co.uk,ludlowadvertiser.co.uk,maldonandburnhamstandard.co.uk,malverngazette.co.uk,messengernewspapers.co.uk,milfordmercury.co.uk,newsshopper.co.uk,northwichguardian.co.uk,oxfordmail.co.uk,penarthtimes.co.uk,prestwichandwhitefieldguide.co.uk,redditchadvertiser.co.uk,redhillandreigatelife.co.uk,richmondandtwickenhamtimes.co.uk,romseyadvertiser.co.uk,runcornandwidnesworld.co.uk,salisburyjournal.co.uk,somersetcountygazette.co.uk,southendstandard.co.uk,southwalesargus.co.uk,southwalesguardian.co.uk,southwestfarmer.co.uk,stalbansreview.co.uk,sthelensstar.co.uk,stourbridgenews.co.uk,surreycomet.co.uk,suttonguardian.co.uk,swindonadvertiser.co.uk,tewkesburyadmag.co.uk,theargus.co.uk,theboltonnews.co.uk,thenational.scot,thenorthernecho.co.uk,thescottishfarmer.co.uk,thetelegraphandargus.co.uk,thetottenhamindependent.co.uk,thewestmorlandgazette.co.uk,thisisthewestcountry.co.uk,thurrockgazette.co.uk,times-series.co.uk,wandsworthguardian.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,westerntelegraph.co.uk,wharfedaleobserver.co.uk,wiltsglosstandard.co.uk,wiltshiretimes.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yeovilexpress.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.promoted-block
+android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe123.net,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#.adsbygoogle
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe123.net,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com,yabook.org#@#.adsbygoogle
 androidadult.com##.adswait
 androidauthority.com##.--qc
@@ -18381,8 +18380,8 @@ antimusic.com##.am-center
 antimusic.com##.mad
 antimusic.com##.zerg
 antpedia.com###luxury_car
+antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk##.gg1
 antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk,xinhuanet.com,yuanliled.com##.gg1
-antpedia.com,chinamedevice.cn,lcxw.cn,msdn.hk,yuanliled.com##.gg1
 anyporn.com,bravoporn.com,bravoteens.com,bravotube.net##.inplb
 anyporn.com,cartoon-sex.tv,oncam.me,pervertslut.com,theyarehuge.com,webanddesigners.com##.adv
 anysex.com###main_video_fluid_html_on_pause
@@ -22447,7 +22446,7 @@ homo.xxx##.spot.column
 honglingjin.co.uk##.rs-side-ads
 honglingjin.co.uk##.rsads
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,xingkbjm.com,youneed.win,zhaoze.party,zhuihd.com#@##adsense
-hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,youneed.win,zhaoze.party,zhuihd.com#@##adsense
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party,zhuihd.com#@##adsense
 hope1032.com.au##.s-supported-by
 hot933hits.com###simpleimage-5
 hotcelebshome.com##.bcpsttl_name_listing
@@ -26008,6 +26007,7 @@ readmng.com##.scroll_target_top
 readmoo.com#@#.navbar-social
 readonepiece.com##div > b
 reaff.com##.entry-content > p[style="text-indent:0"]
+reaff.com,yangmaodang.org##.entry-content > p[style="text-indent:0"]
 realclearhistory.com###warning_empty_div
 realclearpolitics.com###realclear_jwplayer_container
 realestate.com.au##.header-leaderboard
@@ -26329,6 +26329,7 @@ semiconductor-today.com###topheaderimage
 semiconductor-today.com##.searchmidbox
 semiconductor-today.com##[href="https://www.appliedenergysystems.com/stakes/"]
 senao.com.tw#@#.ad-wrap
+senfun.net##.player-recommend
 senfun.net,yanetflix.com##.player-recommend
 senmanga.com##.box300x250
 senmanga.com##.box480x90
@@ -26979,8 +26980,8 @@ swisscows.com##.advrts
 switchboard.com##.business_premium_results
 swoole.com##.swoole-resource
 swoole.com##.wiki-resource
+sxqjdy.com##.gg2
 sxqjdy.com,xinhuanet.com,yuanliled.com##.gg2
-sxqjdy.com,yuanliled.com##.gg2
 sxrom.com##.tmk
 sxyprn.com##.cbd
 sxyprn.com##.tbd
@@ -49761,7 +49762,6 @@ zznews.cn##.ad:not([style])
 ||events.yourcx.io^
 ||eventsancientreject.com^
 ||eventstream.dodopizza.com^
-||eventtracker.videostrip.com^$third-party
 ||eveonline.com/redir.asp$third-party
 ||everalwerf.xyz^
 ||everestjs.net^$third-party
@@ -52748,6 +52748,7 @@ zznews.cn##.ad:not([style])
 ||gnoyvsielusbi.xyz^
 ||gnpge.com^$third-party
 ||gnqxd.cn^
+||gnrnws.cn^
 ||gntwnrdui.xyz^
 ||gnyergfy.com^
 ||go-mpulse.net^
@@ -54176,6 +54177,7 @@ zznews.cn##.ad:not([style])
 ||hegiraquirl.com^
 ||hegrem.com^
 ||heguoya.work^
+||heha2cpoe.icu^
 ||hehehe.buzz^
 ||hehighursoo.com^
 ||hehongmei.top^
@@ -55340,6 +55342,7 @@ zznews.cn##.ad:not([style])
 ||huuto.net/js/analytic/
 ||huuyluwjkyd.xyz^
 ||huyc.info^
+||huyccuy.cn^
 ||huzalor.cn^
 ||hv740pyh.cn^
 ||hvato.info^
@@ -55523,6 +55526,7 @@ zznews.cn##.ad:not([style])
 ||i7pnx0t.cn^
 ||i8023.icu^
 ||i884.info^
+||i8wi.icu^
 ||i99i.org^
 ||i9w8p.pw^
 ||ia.51.la^
@@ -57080,6 +57084,7 @@ zznews.cn##.ad:not([style])
 ||isorv.com^
 ||isparkmedia.com^
 ||isrckajaxwu.com^
+||isroeiq.cn^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||ist-track.com^$third-party
@@ -67174,6 +67179,7 @@ zznews.cn##.ad:not([style])
 ||ovulgmeo.com^
 ||ovwbobnyy.com^
 ||ovxeeiuhjoenoeb.xyz^
+||owadakesk.cyou^
 ||owcdcamldcu.com^
 ||owdfxgc.cn^
 ||owenexposure.com^
@@ -82067,6 +82073,7 @@ zznews.cn##.ad:not([style])
 ||tracking.atea.fi^
 ||tracking.athlon.com^
 ||tracking.att.com^
+||tracking.audio.thisisdax.com^
 ||tracking.aupairinamerica.com^
 ||tracking.avladies.de^
 ||tracking.badeladies.de^
@@ -88558,6 +88565,7 @@ zznews.cn##.ad:not([style])
 ||yiqifa.com^*.js$third-party
 ||yiqikanba.cn/wp-content/uploads/*.gif
 ||yiqima.xyz^
+||yiqiqgmy.cn^
 ||yiqiv.com^$third-party
 ||yiren34.com/js/
 ||yisd.press^
@@ -89056,6 +89064,7 @@ zznews.cn##.ad:not([style])
 ||yunsennet.com^$popup
 ||yunshipei.com^
 ||yunsoka.com^
+||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yuntue.com/zb_users/plugin/MoreLinks/MoreLinks.php
 ||yuntuiguang.co^
 ||yunuo.online^
