@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-21 16:35:23
-! Total count: 91494
+! Version: 2022-09-22 02:22:42
+! Total count: 91508
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -19039,6 +19039,7 @@ bilibili.com###slide_ad + .ad-report
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
 bilibili.com##.ad-report, .ad-floor
+bilibili.com##.adblock-tips
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
 bilibili.com##.desktop-download-tip
@@ -25864,7 +25865,7 @@ qq.com##.member_ads
 qq.com##.mian-ad
 qq.com##.mod-ad-full
 qq.com##.mod-download-tips
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap
+qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
 qq.com##.mod_ad_square
@@ -26716,6 +26717,7 @@ sogou.com##.top_adv_wrap
 sogou.com##.trans-side-banner
 sogou.com##.u-page-gg
 sogou.com##A[data-log*="PicAd"]
+sogou.com##div[class^="news-top-banner"]
 sogou.com#?#div[class^="right-feedback"]:-abp-has(>.list-step-title:-abp-contains(网游))
 sohu.com###apkBanner
 sohu.com###hotpicnew
@@ -39184,6 +39186,7 @@ zznews.cn##.ad:not([style])
 ||bazinga12138.online^
 ||baztnnews24.com^
 ||baztrack.com^$third-party
+||bb-bbjsyuming.cc^
 ||bb1acb0ea5ddb1fed8.com^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
@@ -47561,12 +47564,14 @@ zznews.cn##.ad:not([style])
 ||dpyaareaqv.xyz^
 ||dpypzvjarj.com^
 ||dq06u9lt5akr2.cloudfront.net^
+||dq3e.top^
 ||dq3yxnlzwhcys.cloudfront.net^
 ||dq8c.top^
 ||dq95d35.com^$third-party
 ||dqcztxmu.com^
 ||dqh.ink^
 ||dqhi3ea93ztgv.cloudfront.net^
+||dqhxczj.cn^
 ||dqqfrs.qatarairways.com^
 ||dqruhue.cn^
 ||dqs3.darjeeling.fr^
@@ -59181,6 +59186,7 @@ zznews.cn##.ad:not([style])
 ||knk95.cn^
 ||knkkpmtdesg.com^
 ||knmbgepqi.com^
+||knmnamr.cn^
 ||knonoi.com^
 ||knopnf.asambeauty.com^
 ||knorex.com^$third-party
@@ -60136,6 +60142,7 @@ zznews.cn##.ad:not([style])
 ||lgad.cjpowercast.com.edgesuite.net^
 ||lggbxf.com^
 ||lggff.com^
+||lgh2.fun^
 ||lghdoxzulv.com^
 ||lgiufpmd.com^
 ||lgjygg.com^
@@ -61533,6 +61540,7 @@ zznews.cn##.ad:not([style])
 ||m.addthisedge.com^
 ||m.aty.sohu.com^
 ||m.b.xiangwangdesh.com^
+||m.bjdcfy.net^*.js
 ||m.bonawuzi.xyz^
 ||m.chinachooses.com^
 ||m.delltechnologies.com^
@@ -67044,6 +67052,9 @@ zznews.cn##.ad:not([style])
 ||otracks.workday.com^
 ||otrwaram.com^
 ||otthonterkep.hu/c.js
+||otto.de/error-logging/
+||otto.de/pass/scale-beacon-service/
+||otto.de/tracking-bct/
 ||ottogroup.media/ogm.nitro.
 ||ou12.dl12349.net^
 ||ouc82i67pytg.www.emanualonline.com^
@@ -72575,6 +72586,7 @@ zznews.cn##.ad:not([style])
 ||rvv.emol.com^
 ||rvwtpwmtnfj.com^
 ||rvz9.destinia.co.ro^
+||rwadakesz.cyou^
 ||rwdito.carsguide.com.au^
 ||rwjfs.com^
 ||rwlfznyvivh.com^
@@ -88396,6 +88408,7 @@ zznews.cn##.ad:not([style])
 ||yefbmjqdjkpr.com^
 ||yefu365.com/rebo/function.js
 ||yehaobo5.com/js/
+||yeip5aehi.icu^
 ||yeiydrlkojywhf.com^
 ||yektanet.com^$third-party
 ||yellads.com^$third-party
@@ -88603,6 +88616,7 @@ zznews.cn##.ad:not([style])
 ||yinyuetai.com/proment/get-play-medias?*&position=pauseroll
 ||yinyuetai.com/proment/get-play-medias?json=true&position=preroll
 ||yinzantouzi.com^
+||yiop2bace.icu^
 ||yiopse.com^
 ||yiotufp.cn^
 ||yipanhaocai.com^
