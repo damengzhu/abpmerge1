@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-23 02:27:50
-! Total count: 91534
+! Version: 2022-09-23 08:29:59
+! Total count: 91543
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -1097,6 +1097,7 @@
 ##[href^='https://record.brave108.com/']
 ##[href^='https://stock.weibo.cn/zh/match']
 ##[href^='https://t2406.com:']
+##[href^='https://tz.kefuyuming.vip/']
 ##[href^='https://v44868.com:']
 ##[href^='https://vip.huijujiavip.com']
 ##[href^='https://vip.infobbs.xyz/atl.php']
@@ -1787,8 +1788,9 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 &trackingserver=
 &visitorUuid=
 &xhtml?$script,third-party
-*.*.*:*/*/*.add.*.add
 *.gif$domain=m.imomoe.live
+*.tfptlgrw.*
+*.u8hdqyug.*
 */ads.
 */letv-gug/$media,object-subrequest,xhr
 */preroll/$media,domain=91porn.com
@@ -12095,6 +12097,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /r.gif?
 /r.rnc?
 /r/collect?
+/r/t1/16/
 /r/ucb.js$script,~third-party
 /r/video/*$domain=youxi.baidu.com
 /r_ads/*
@@ -19262,6 +19265,7 @@ boundhub.com##.to1p
 boundhub.com##noindex
 box10.com#@##prerollAd
 boxingstreams.cc,crackstreams.gg,cricketstreams.cc,footybite.cc,formula1stream.cc,mlbshow.com,nbabite.com###nordd
+boxmp4.com/js/foot.js
 boxthislap.org##img[width="300px"]
 boxthislap.org##img[width="728px"][height="90px"]
 boxthislap.org,ticgn.com,wtf1.co.uk##.td-footer-wrapper
@@ -31539,6 +31543,7 @@ zznews.cn##.ad:not([style])
 ||7r227ut.cn^
 ||7scs.com/Public/img/list-
 ||7search.com^$third-party
+||7sqa.icu^
 ||7t955.com^$third-party
 ||7two0.rocks^
 ||7v46.icu^
@@ -48720,6 +48725,7 @@ zznews.cn##.ad:not([style])
 ||efangcdn.com^
 ||efatik.me^$third-party
 ||efd3b86a5fbddda.com^
+||efdlfh.cn^
 ||efe0df50ac.com^
 ||efe3e01295.com^
 ||eferjqjtdhehr.com^
@@ -57362,6 +57368,7 @@ zznews.cn##.ad:not([style])
 ||j.bg.adresult-sp.jp^
 ||j.dailiqing.net^
 ||j.diangon.com^
+||j.guanjiabo.net^
 ||j.guotaotaoci.net^
 ||j.gxlsjt.com^
 ||j.iklda.cn^
@@ -70240,6 +70247,7 @@ zznews.cn##.ad:not([style])
 ||qaykb.com^
 ||qayqa.com:6868/jquery/
 ||qbaka.net^$third-party
+||qbazhaheiy.top^
 ||qbc1.cn^
 ||qbccpgljgxc.com^
 ||qbgrmsk.cn^
@@ -89870,6 +89878,7 @@ zznews.cn##.ad:not([style])
 ||zlys.store^
 ||zm232.com^
 ||zmags.com/a/p/p.js
+||zmakj.xyz^
 ||zmctrack.net^$third-party
 ||zmescience.com/1u8t4y8jk6rm.js
 ||zmgod.com^
