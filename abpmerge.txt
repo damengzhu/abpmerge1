@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-22 16:35:45
-! Total count: 91519
+! Version: 2022-09-23 02:27:50
+! Total count: 91534
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -1531,7 +1531,6 @@
 ##a[href="/hth.html"][target="_blank"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="http://hqbet2191.com"]
-##a[href="http://t.cn/Ex0cCbt"]
 ##a[href="http://www.tw787.com/"]
 ##a[href="http://www.yabovip5.cc/"]
 ##a[href="https://368259.com"]
@@ -1718,7 +1717,7 @@ $image,third-party,domain=258zw.com
 $image,third-party,domain=lady1.top
 $media,domain=damimage.com|imagedecode.com|imageteam.org
 $ping,third-party
-$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com|youtubeto.com
+$popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.com|up-4ever.org
 $script,subdocument,third-party,domain=dlkoo.com
@@ -15230,7 +15229,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com
-@@/adjs_pic_$domain=168gamer.net|91wii.com|slit.cn
+@@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
 @@/ads.js$domain=iyf.tv
@@ -15927,7 +15926,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
-@@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
+@@||developers.google.*/analytics/$~third-party,xmlhttprequest
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/ortc.js$domain=social.economico.pt
@@ -17189,7 +17188,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
-@@||ymso.cc^$generichide
 @@||yottaa.com/rapid.min.js$script,domain=corkcicle.com|wineenthusiast.com
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
@@ -20650,6 +20648,7 @@ drvsky.com##.zhongdian
 drwealth.com##[width="640"]
 drweil.com##.promo-blurb
 drweil.com##.promo-blurb-label
+dshangyan.com##.advHeader
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
 duanwenxue.com##.shuang11_mb
@@ -22780,6 +22779,7 @@ ifeng.com,sohu.com##.ad950
 ifeng.com,~mall.ifeng.com##A[href*="mall.ifeng.com"]
 ifeng.com/showcode
 ifenpaidy.com##.btn-copy + .btn
+ifenpaidy.com##.modal-body
 ifenpaidy.com##.post > .div
 ifenpaidy.com,xunyingwang.com##.modal-body
 ifkdy.com##.hb
@@ -23488,6 +23488,8 @@ jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
 jrlt7.com###hd + .wp
 jrlt7.com##a[href^="ad."]
+jrlt8.com###hd + .wp
+jrlt8.com##a[href^="ad."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 js/yys/Pfhl365.js
 js0573.com###adv1
@@ -37833,6 +37835,7 @@ zznews.cn##.ad:not([style])
 ||asianbutterflies.com/potd/
 ||asiangfsex.com^
 ||asimad.com^
+||asjsbew.cn^
 ||ask.legalsolutions.thomsonreuters.info^
 ||askdfjk.qiangquanvip.com^
 ||askdfjkls.moxiaoqihuoguo.com^
@@ -47556,6 +47559,7 @@ zznews.cn##.ad:not([style])
 ||dpjszs.com^
 ||dplbjpdd.com^
 ||dpmsrv.com^
+||dpncnct.cn^
 ||dppublishinginc.actonservice.com^
 ||dprograp.online^
 ||dprtb.com^
@@ -47700,6 +47704,7 @@ zznews.cn##.ad:not([style])
 ||dsfjhfhyry2hh8jo09.com^
 ||dsg.interia.pl^
 ||dsh7ky7308k4b.cloudfront.net^
+||dshangyan.com/pc/advertising/
 ||dsie7h4lo9wxu.cloudfront.net^
 ||dslenggui.com^
 ||dsmmadvantage.com^$third-party
@@ -51694,7 +51699,7 @@ zznews.cn##.ad:not([style])
 ||fxyg168.com^
 ||fxyjmp.top^
 ||fy4zb.cn^
-||fy6b.com^$third-party
+||fy6b.com^$image,third-party
 ||fyan.tech^
 ||fyccsw.eobuwie.com.pl^
 ||fych.uranus.sogou.com^
@@ -53565,6 +53570,7 @@ zznews.cn##.ad:not([style])
 ||guxin.me^
 ||guyun03.cn^
 ||guzijie.top^
+||gv4e.top^
 ||gvcmiz3vze3n.com^
 ||gvdqzy.milanoo.com^
 ||gvisit.com^$third-party
@@ -56909,6 +56915,7 @@ zznews.cn##.ad:not([style])
 ||iorlsblj.cyou^
 ||ios.426g.com^
 ||ios.xyadtlyy.com^
+||iosppk.com^
 ||iotechnologies.com^$third-party
 ||iotewq.xyz^
 ||iovation.com^$third-party
@@ -57246,6 +57253,7 @@ zznews.cn##.ad:not([style])
 ||itweedler.com^
 ||itweepinbelltor.com^
 ||itxinrou.com^
+||ityou2tcdb.icu^
 ||itzekromom.com^
 ||iubenda.com/write?
 ||iuliglsh.space^
@@ -65978,6 +65986,7 @@ zznews.cn##.ad:not([style])
 ||nvzffl.cn^
 ||nwadakesc.cyou^
 ||nwajdf.zakzak.co.jp^
+||nweon.com/wp-content/repo/ad/
 ||nwfhalifax.com^
 ||nwgqcwhoqp.com^
 ||nwhvceb.cn^
@@ -70257,6 +70266,7 @@ zznews.cn##.ad:not([style])
 ||qcjycg.com/template/conch/asset/js/hl
 ||qcloud.com/report.go?
 ||qcmm01.com^
+||qcmm02.com^
 ||qcppad.merrell.com^
 ||qcvf.ifeng.com^
 ||qcyunnan.cn^
@@ -83213,6 +83223,9 @@ zznews.cn##.ad:not([style])
 ||u5ree6.com^
 ||u652.myplainview.com^
 ||u88.cn^$third-party
+||u8hdqyug.co^
+||u8hdqyug.live^
+||u8hdqyugs.xyz^
 ||u8hexo5v.com^
 ||u927.sfgate.com^
 ||u989.theweek.com^
@@ -85177,6 +85190,7 @@ zznews.cn##.ad:not([style])
 ||wakiupswacken.com^
 ||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
+||walbusch.de^$ping
 ||walibao.com^$third-party
 ||walkinghonoured.com^
 ||wall.vgr.com^
@@ -90100,6 +90114,7 @@ zznews.cn##.ad:not([style])
 ||zvvpcz.puravita.ch^
 ||zvvsvr.kettner-edelmetalle.de^
 ||zwaar.org^$third-party
+||zwadakesq.cyou^
 ||zwatgf.megaknihy.cz^
 ||zwdq.xyz^
 ||zwgege.cn^
