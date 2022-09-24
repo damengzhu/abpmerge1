@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-24 08:28:04
-! Total count: 91567
+! Version: 2022-09-24 16:30:18
+! Total count: 91586
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -28100,6 +28100,7 @@ weibo.com#?#.card-content > ul > li:-abp-has(>a[action-type="realtimehot_ad"])
 weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
@@ -28236,6 +28237,9 @@ wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
 wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
 wnacg.com,wnacg.org##img[width="399"][height*="6"]
 wnacg.com,wnacg.org##script + div > a > img
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@##adsbox
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.aasdwa
+wnacg.top,htmanga.top,htcomic.top,wnacg.com,wnacg.org#@#.google-ads
 wncv.com##.simple-image
 woego.cn#@##topAds
 wolfstream.tv##.cover2
@@ -31957,6 +31961,7 @@ zznews.cn##.ad:not([style])
 ||9itmr1lzaltn.com^
 ||9j1y.cn^
 ||9j3a.cn^
+||9js6.icu^
 ||9jsp.com/pay.png
 ||9k9k.com/jscode/js/
 ||9kkf51ovqex1.com^
@@ -35785,6 +35790,7 @@ zznews.cn##.ad:not([style])
 ||ahp18.site^
 ||ahp19.site^
 ||ahp2.site^
+||ahp24.site^
 ||ahp28.site^
 ||ahp29.site^
 ||ahp3.site^
@@ -41900,6 +41906,7 @@ zznews.cn##.ad:not([style])
 ||cdn.ex.co/player/
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
+||cdn.hanaya-m.com^
 ||cdn.haocaa.com^
 ||cdn.haokongbu1.com^*.js
 ||cdn.hiido.cn^$third-party
@@ -41907,6 +41914,7 @@ zznews.cn##.ad:not([style])
 ||cdn.house^
 ||cdn.http.anno.channel4.com/m/1/$media,domain=uktvplay.co.uk
 ||cdn.imvkan.com^
+||cdn.jquery-cdn.cc^
 ||cdn.neighbourly.co.nz/widget/$subdocument
 ||cdn.pg88cdn.com^
 ||cdn.sb4you1.com^
@@ -47641,6 +47649,7 @@ zznews.cn##.ad:not([style])
 ||dreamsky.xin^
 ||dreamware.com.cn^
 ||drebz4f.shop^
+||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||dressedincidentchildbirth.com^
 ||dressexpansion.com^
 ||dressuresl.top^
@@ -48674,6 +48683,7 @@ zznews.cn##.ad:not([style])
 ||eduynp.fcl-hid.com^
 ||eduzzjy.com^
 ||edvfwlacluo.com^
+||edwad.co^
 ||edysn.cn^
 ||edzyhx.cn^
 ||ee.shixunwang.net^
@@ -52983,6 +52993,7 @@ zznews.cn##.ad:not([style])
 ||gongshu168.cn^
 ||gongwuyuan.name^
 ||gongxifc.com^
+||gongyong002.xyz^
 ||goo.ne.jp^*/vltracedmd.js
 ||gooblesdd.com^
 ||good8866.com/js/*.js
@@ -53483,6 +53494,7 @@ zznews.cn##.ad:not([style])
 ||guahao.cn/blank.gif?
 ||guang.sdsgwy.com^
 ||guang1.zhakao.cn^
+||guanggao28.xyz^
 ||guanggaolianmeng.net/plushuan/ad_js.php?aid=
 ||guangweixinxi345.cn^
 ||guangzhengtwentynine.top^
@@ -79467,6 +79479,7 @@ zznews.cn##.ad:not([style])
 ||t.nevadawolfpack.com^
 ||t.newsletter.thetimes.co.uk^
 ||t.nusports.com^
+||t.nypost.com^
 ||t.ofsys.com^
 ||t.paydirekt.de^
 ||t.paypal.com^$image
@@ -84133,6 +84146,7 @@ zznews.cn##.ad:not([style])
 ||v2cigs.com^
 ||v2nginxowaoid.development.net.zooplus.nl^
 ||v2rayssr.com/wp-content/plugins/eazy-
+||v2zn.xyz^
 ||v3.fstats.xyz^
 ||v3.mail.net.shop.com.mm^
 ||v34ffs.site^
@@ -86318,6 +86332,7 @@ zznews.cn##.ad:not([style])
 ||wnacg.org/img/500_60
 ||wnacg.org/img/wap
 ||wnacg4.com/data/game/
+||wnacgcdn.top/data/game/
 ||wnacgs.com/data/game/
 ||wnbeiskivkkmpy.xyz^
 ||wnbssfaitzgt.com^
@@ -88006,6 +88021,8 @@ zznews.cn##.ad:not([style])
 ||xrdatsuclxrvpx.com^
 ||xrecord.xyz^
 ||xrfabakydcwngov.xyz^
+||xrkadslmgg.top^
+||xrkadslmgg.xyz^
 ||xroqbkk.cn^
 ||xryecggeczcvpk.com^
 ||xryrylt.cn^
@@ -89597,6 +89614,7 @@ zznews.cn##.ad:not([style])
 ||zhandi.cc/Runtime/js/index
 ||zhandi.cc^$third-party
 ||zhangbaochang.top^
+||zhangchi.work^
 ||zhangdujia.com^
 ||zhangfeiyijuepifa.com^
 ||zhangheng.me^
@@ -90044,6 +90062,7 @@ zznews.cn##.ad:not([style])
 ||zrav2wkbrs.com^
 ||zrbl21.cn^
 ||zrblog.net/zzimg/
+||zrbn.ltd^
 ||zrkwtf.proidee.de^
 ||zrlcr.com^
 ||zrmxswrl.com^
