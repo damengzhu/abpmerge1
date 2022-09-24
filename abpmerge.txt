@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-23 16:34:55
-! Total count: 91547
+! Version: 2022-09-24 02:28:32
+! Total count: 91561
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -582,6 +582,7 @@
 ##.area > .tuiguang
 ##.area_ad
 ##.artad
+##.article-pop-up-ad
 ##.article_ad
 ##.article_ad_top
 ##.asb-index
@@ -27836,6 +27837,7 @@ v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
 v2ex.com##.sidebar_compliance
 v2ex.com##.sidebar_units
 v2ex.com##div[style][onclick*="geekhub."]
+v2ex.com#?#.box:-abp-has(>.inner>div>span[style]:-abp-contains(Sponsored))
 v2rayssr.com###b2-widget-html-12
 v2rayssr.com###gg-box
 v2rayssr.com##.slider-4-box1
@@ -31062,6 +31064,7 @@ zznews.cn##.ad:not([style])
 ||5fzd.com/gg/
 ||5glyqw.com^
 ||5gustis.xyz^
+||5h7370j8.cn^
 ||5hte21mz.com^
 ||5htftu.com^
 ||5i103xb.wuplexv.cn^
@@ -38479,6 +38482,7 @@ zznews.cn##.ad:not([style])
 ||axvnsla.top^
 ||axwndephseraj.com^
 ||axwxrnk5ydzy.com^
+||axybcz.cn^
 ||ay.delivery^
 ||ayads.co^
 ||ayahtyros.com^
@@ -48789,6 +48793,7 @@ zznews.cn##.ad:not([style])
 ||egsxdp.cn^
 ||eguo.info^
 ||egvemw.aboutyou.ee^
+||egyfgsq.cn^
 ||egyptmiane3mao7uw.com^
 ||egyptpolarity.com^
 ||eharmony.ca/fd/
@@ -51125,6 +51130,7 @@ zznews.cn##.ad:not([style])
 ||forensics1000.com^$third-party
 ||forepresently.com^
 ||foreseeresults.com^$third-party
+||forestseasons.com.cn^
 ||forever-k.com.cn^
 ||foreverhealthsculptor.com^
 ||foreveryoung.gz01.bdysite.com^
@@ -53324,6 +53330,7 @@ zznews.cn##.ad:not([style])
 ||gristleupanaya.com^
 ||gritchuw.com^
 ||grivupie.net^
+||grjasq.com^
 ||grjjngkemtpjqp.com^
 ||grjs02.com^
 ||grmtas.com^
@@ -57142,6 +57149,7 @@ zznews.cn##.ad:not([style])
 ||istudyenglish.pro^
 ||istxtrxphwoh.com^
 ||isupopc.com^
+||iswgnn.com^
 ||it.conres.com^
 ||it.promo.skf.com^
 ||it.sharpmarketing.eu^
@@ -57698,6 +57706,7 @@ zznews.cn##.ad:not([style])
 ||jg3i17759nd0nhh9q53zpy.com^
 ||jg88.wang^
 ||jgchq.com^
+||jgcyjx.cn^
 ||jgdguc.arcteryx.com^
 ||jghcy.com^
 ||jgirlvlh.com^
@@ -57962,6 +57971,7 @@ zznews.cn##.ad:not([style])
 ||jlklnwmj.com^
 ||jlmhk.com/images/data/
 ||jln3.clstudios.com^
+||jlosuiq.cn^
 ||jlpcn.net/img/300p-
 ||jlt47.lxg8s.xyz^
 ||jlvqhftliz.com^
@@ -64473,6 +64483,7 @@ zznews.cn##.ad:not([style])
 ||muvhqe.graodegente.com.br^
 ||muvimtim.com^
 ||muwootch.com^
+||muxing.city^
 ||muyang888.top/js/
 ||muybjar.cn^
 ||muyijia.shop^
@@ -65733,7 +65744,7 @@ zznews.cn##.ad:not([style])
 ||notification-centar.com^
 ||notification-list.com^
 ||notification.best^
-||notifpush.com^$third-party
+||notifpush.com^
 ||notifstar.com^
 ||notify-guru.com^
 ||notify-master.net^
@@ -68892,6 +68903,7 @@ zznews.cn##.ad:not([style])
 ||pnyllove.com^
 ||po.ponant.com^
 ||poacawhe.net^
+||poae2klya.icu^
 ||poagroul.com^
 ||poasotha.com^
 ||pobliba.info^
@@ -68929,6 +68941,7 @@ zznews.cn##.ad:not([style])
 ||pointclicktrack.com^$third-party
 ||pointeretards.com^
 ||pointillist.com^$third-party
+||pointlesshour.com^
 ||pointlesspocket.com^
 ||pointlessrifle.com^
 ||pointlimitedzen.online^
@@ -71174,6 +71187,7 @@ zznews.cn##.ad:not([style])
 ||rc.aol.de^*/getrcmd.js
 ||rc.ie13.com^
 ||rc.vtex.com.br^
+||rc7e.top^
 ||rcblkkhfvrxyn.com^
 ||rcbsrm.fivefoxes.co.jp^
 ||rccsekuitas.com^
@@ -73730,7 +73744,7 @@ zznews.cn##.ad:not([style])
 ||secretivecub.com^
 ||secretmedia.com^$third-party
 ||secretspiders.com^
-||secretturtle.com^$third-party
+||secretturtle.com^
 ||sectsenior.com^
 ||secu.hagerty.ca^
 ||secu.hagerty.com^
@@ -74119,7 +74133,7 @@ zznews.cn##.ad:not([style])
 ||selfbiological.com^
 ||selfcampaign.com^$third-party
 ||selfconfidencecap.com^
-||selfishsea.com^$third-party
+||selfishsea.com^
 ||selfishsnake.com^
 ||selflessaboriginessweetness.com^
 ||selfpua.com^$third-party
