@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-28 08:33:04
-! Total count: 90267
+! Version: 2022-09-28 16:38:30
+! Total count: 90271
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -291,6 +291,7 @@
 ###modalgg
 ###movieInfoRight
 ###movietp > .movietp
+###mui-player + #player_pic
 ###mv_ad_dom
 ###mv_float_layer
 ###my-adsFPR
@@ -17553,6 +17554,7 @@ cbmay.com##.widget
 cbmland.com##div[id^="ads_"]
 cbn.com###cbn_leaderboard_atf
 cbn.com##.partners-block
+cbndata.com##.Toastify
 cbssports.com##.skybox-top-wrapper
 cbssports.com,nowthisnews.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
 cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
@@ -53395,6 +53397,7 @@ zznews.cn##.ad:not([style])
 ||htxourpo.com^
 ||hu.xbhy.com^
 ||hu4c.top^
+||huadiximeng.cn^
 ||huaerduo.com^
 ||huahuagoudc.com^
 ||huahuaxiji.love^
@@ -73394,6 +73397,7 @@ zznews.cn##.ad:not([style])
 ||simg.bwin.com^
 ||simg.gamebookers.com^
 ||simility.com^$third-party
+||similm.me^
 ||similt.com^
 ||simiyue2.com^
 ||simon.com/46SCNLxs/init.js
