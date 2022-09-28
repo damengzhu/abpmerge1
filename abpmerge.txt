@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-27 16:37:52
-! Total count: 90251
+! Version: 2022-09-28 02:26:02
+! Total count: 90258
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -20518,7 +20518,7 @@ hqq.tv##a[title="Free money easy"]
 hsck.org##img[height="60px"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ads-all
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ad_hf
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
 htcui.com##.carousel
 htcui.com##.qqanimate
@@ -21420,7 +21420,6 @@ jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
 jmcomic1.city##a[href^="http"]:not([href*="jmcomic1."]) > img
-jmcomic1.city#?#:-abp-has(>.adsbyexoclick)
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -22968,6 +22967,7 @@ notes.io##.directMessageBanner
 novinite.com##.banner300x250
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
+novipnoad.com##DIV:not([id]):not([class])
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nowinstock.net###leftBannerBar
@@ -33955,6 +33955,7 @@ zznews.cn##.ad:not([style])
 ||akqrt.cn^
 ||aksb-a.akamaihd.net^
 ||aksdkfj.biexsite.net^
+||aksfrxd.cn^
 ||aksjdfk.guohexinxiang.com^
 ||aksldkjfd.11jianzhan.com^
 ||akspecuaa.xyz^
@@ -36450,6 +36451,7 @@ zznews.cn##.ad:not([style])
 ||ayst.love^
 ||ayuki.ink^
 ||ayunzhizuo.ltd^
+||ayverwe.cn^
 ||aywfsjpglvhzdk.com^
 ||aywgucxmh.com^
 ||ayxz.com/images/$script
@@ -37132,6 +37134,7 @@ zznews.cn##.ad:not([style])
 ||bbaannrr05.com^
 ||bbaannrr11.com^
 ||bbagnw.sedaily.com^
+||bbazhaheiv.top^
 ||bbbb.goace.jp^
 ||bbbihe.vertbaudet.es^
 ||bbbx.xyz^
@@ -51762,6 +51765,7 @@ zznews.cn##.ad:not([style])
 ||gwzqbnh.cn^
 ||gx.idg.se^
 ||gx101.com^
+||gx2f.top^
 ||gxbnp.cn^
 ||gxcaxz.cresus.fr^
 ||gxdianhua.com^
@@ -64484,6 +64488,7 @@ zznews.cn##.ad:not([style])
 ||ob3o3r7.cn^
 ||obahet.com^
 ||obashwmzrfofi.com^
+||obazhaheik.top^
 ||obbtix.eolo.it^
 ||obcimuoahijkdy.xyz^
 ||obctooauvzjo.com^
@@ -81922,6 +81927,7 @@ zznews.cn##.ad:not([style])
 ||udn.com/common2/iframe/
 ||udn.com^*/ad/
 ||udookrou.com^
+||udpztkb.cn^
 ||udr9.livera.nl^
 ||udraokrou.com^
 ||udsagemylyqkrew.com^
@@ -85230,6 +85236,7 @@ zznews.cn##.ad:not([style])
 ||wslits.cn^
 ||wsmcdn.audioeye.com^
 ||wsnew.cn^
+||wsnoownme.fun^
 ||wspeed.qq.com^
 ||wspisp.net/logger.php
 ||wss.haoyundm.com^
@@ -89311,13 +89318,13 @@ zznews.cn##.ad:not([style])
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
-18comic.org,18comic.vip#?#:-abp-has(>.adsbyexoclick)
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,jmcomic1.city#?#:-abp-has(>ins[class])
 18comic.vip##.bot-per-context
 18comic.vip##DIV.bot-per-times
 18comic.vip##DIV.col-lg-3.col-md-3
