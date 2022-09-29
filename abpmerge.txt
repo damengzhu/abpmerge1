@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-28 16:38:30
-! Total count: 90271
+! Version: 2022-09-29 02:28:56
+! Total count: 90282
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -13477,7 +13477,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/js/prebid-$domain=huruwo.top
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
-@@/pic/ad/*$domain=ybjk.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/sensorsdata-$domain=zkh.com
@@ -14193,7 +14192,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||editorx.com/_api/*count?type$~third-party
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
-@@||eiv.baidu.com/hmt/icon/21.gif
 @@||elconfidencial.com^*/AnalyticsEvent.js
 @@||elconfidencial.com^*/EventTracker.js
 @@||eldiario.es/static/BBTCore/images/pixel.gif?hash=$image,domain=eldiario.es
@@ -19746,7 +19744,7 @@ gdmm.com###separatorline + script + tbody:not([id])
 gdmm.com##.adtop > .module
 gdmm.com##a[href="http://www.gdmm.com/appdown/"]
 gdmm.com##img[width="1200"]
-gdmm.com,gkstk.com,youquba.net#@#.adtop
+gdmm.com,gkstk.com#@#.adtop
 gdot.me,sc115.com##script + a
 gdrc.com#@#.midAd
 gdzjdaily.com.cn##.big_news + div
@@ -22969,7 +22967,7 @@ notes.io##.directMessageBanner
 novinite.com##.banner300x250
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
-novipnoad.com##DIV:not([id]):not([class])
+novipnoad.com##div:not([id]):not([class])
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nowinstock.net###leftBannerBar
@@ -26553,6 +26551,7 @@ ye120.com##.fixed_bottom
 yeecloud.com###adFirefox
 yeeyi.com##.boardnav > #ct > .sd
 yeeyi.com##.sd.pph > .mbm.hm
+yeeyi.com##div[style="width: 300px; margin-right: -30px; position: relative; top: 0px;"] > a
 yellowise.com##.g-widget-block
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
 yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
@@ -29012,6 +29011,7 @@ zznews.cn##.ad:not([style])
 ||625c9289e60793.com^
 ||627sf.cn^
 ||62b70ac32d4614b.com^
+||62kjjhg.com^
 ||62mao.com/52
 ||62wm.com^
 ||63007.com:82/haodxi.js
@@ -35676,6 +35676,7 @@ zznews.cn##.ad:not([style])
 ||arts-cloud.net^
 ||artsai.com^$third-party
 ||artsmalle.pro^
+||artz3keya.cyou^
 ||aruba.it/servlet/counterserver?
 ||arwartortleer.com^
 ||arwh3scr.world^
@@ -53768,6 +53769,7 @@ zznews.cn##.ad:not([style])
 ||ia.ekstrabladet.dk^
 ||ia22.com^
 ||iabao.com/sladewap.js
+||iabgqd.cn^
 ||iabusprivacy.pmc.com^
 ||iad-*.blaze.com^
 ||iadqqgpjno.com^
@@ -55006,6 +55008,7 @@ zznews.cn##.ad:not([style])
 ||intermediarypurchaser.com^
 ||intermediatetonightsituation.com^
 ||intermundomedia.com^$third-party
+||internal-analytics.odoo.com^
 ||internal-matomo.
 ||internalsink.com^
 ||internebula.net^$third-party
@@ -66513,6 +66516,7 @@ zznews.cn##.ad:not([style])
 ||pfcdnc.com^
 ||pffw8mgd.com^
 ||pfiparts.com^
+||pfjfj45.xyz^
 ||pfklopud.xyz^
 ||pflhnpu.cn^
 ||pflrv.cn^
@@ -69163,6 +69167,7 @@ zznews.cn##.ad:not([style])
 ||qsixi.com^
 ||qskj.club^
 ||qslychhjeo.com^
+||qsnoownmy.fun^
 ||qsnyswg.cn^
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qsstats.com^$third-party
@@ -69646,6 +69651,7 @@ zznews.cn##.ad:not([style])
 ||rc7e.top^
 ||rcblkkhfvrxyn.com^
 ||rcbsrm.fivefoxes.co.jp^
+||rccrb.cn^
 ||rccsekuitas.com^
 ||rcgi.video.qq.com^
 ||rcjww9.xyz^
@@ -79058,6 +79064,7 @@ zznews.cn##.ad:not([style])
 ||threechurch.com^
 ||threetruck.com^
 ||thresholdeliminate.com^
+||threzeins.com^
 ||thricemodestsuffix.com^
 ||thriftbooks.com/scripts/sp.js
 ||thrilledaliasoil.com^
@@ -86509,6 +86516,7 @@ zznews.cn##.ad:not([style])
 ||xjq5.belambra.be^
 ||xjqxrpwlfg.com^
 ||xjsq.xyz^
+||xjwrq.com^
 ||xjzcbddnj.com^
 ||xk2012.com^
 ||xk3b.top^
@@ -88269,6 +88277,7 @@ zznews.cn##.ad:not([style])
 ||zgktxx.com^
 ||zglecc.com^
 ||zglww.net/jsnew/pfkf.js
+||zglzkg.com^
 ||zgmtw.mobi^
 ||zgnz020.mobi^
 ||zgnzhymh.mobi^
@@ -88802,6 +88811,7 @@ zznews.cn##.ad:not([style])
 ||ztwf8lr.cn^
 ||ztxbd.com^
 ||ztyumn.ifeng.com^
+||zu3f.top^
 ||zuahaqz.cn^
 ||zubivu.com^
 ||zucks.net.zimg.jp^
@@ -90231,6 +90241,7 @@ zznews.cn##.ad:not([style])
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
+28188.com,28188.net###nav
 28188.com,28188.net,yxad.com###nav
 40407.com###nei_fmt
 40407.com###tcdgg
