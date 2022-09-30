@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-30 08:37:15
-! Total count: 90301
+! Version: 2022-09-30 16:38:12
+! Total count: 90316
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -741,6 +741,7 @@
 ##.hzxld
 ##.iHead960x90
 ##.ibtad
+##.imgBox > div[class^="ad"]
 ##.imgad
 ##.index-top-aassd
 ##.index-top-ad
@@ -922,6 +923,7 @@
 ##.vodads
 ##.w100b > .m_adv
 ##.w_ad
+##.wbalist_thumb[style*="/upload/site/"]
 ##.wemziguanggao
 ##.wf_ad_block
 ##.widget-ad
@@ -1336,6 +1338,7 @@
 ##a[href*=".pesqfmu.cn"]
 ##a[href*=".picoville.com/"]
 ##a[href*=".qilinsb.com/"]
+##a[href*=".qingniao.me"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
 ##a[href*=".qutaoka.com/"]
@@ -14812,6 +14815,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|blogtalkradio.com|swisscom.ch
 @@||ondemand.sas.com^$subdocument
+@@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
@@ -20419,6 +20423,8 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 hk01.com##.md\:min-h-\[90px\]
+hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
+hkcards.com#@##ad-slot
 hkepc.com##.headBanner
 hkwb.net##.guanggao2
 hkwb.net##.leftadv2
@@ -20520,7 +20526,9 @@ hqq.tv##a[title="Free money easy"]
 hsck.org##img[height="60px"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ad_hf
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ads-all
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
 htcui.com##.carousel
 htcui.com##.qqanimate
@@ -40298,6 +40306,7 @@ zznews.cn##.ad:not([style])
 ||chemicalcoach.com^
 ||chemicalsnake.com^
 ||chenaiwx.xyz^
+||chenfoo.cn^
 ||chengaib.net^
 ||chengdahdf.cn^
 ||chengdayong.in^
@@ -51776,6 +51785,7 @@ zznews.cn##.ad:not([style])
 ||gwrtheyrn-rot.com^
 ||gwtc.sfr.fr^
 ||gwwhheahisrtld.com^
+||gwwsevy.cn^
 ||gwylm.com^
 ||gwzqbnh.cn^
 ||gx.idg.se^
@@ -65947,6 +65957,7 @@ zznews.cn##.ad:not([style])
 ||paiwhoki.com^
 ||pajikrqhbqth.xyz^
 ||pajinse.top^
+||pajirosandal.com^
 ||pakbanners.com^$third-party
 ||palasidesdoor.com^
 ||paleleaf.com^
@@ -68692,6 +68703,7 @@ zznews.cn##.ad:not([style])
 ||q.baminw.com.cn^
 ||q.e49.xyz^
 ||q.stricaik.com^
+||q0ibic08.cn^
 ||q1.yyxwzx.com^
 ||q1media.com^$third-party
 ||q1mediahydraplatform.com^
@@ -68885,6 +68897,7 @@ zznews.cn##.ad:not([style])
 ||qianzhan.com/qiye/images/qcm_
 ||qiaobaba.top^
 ||qiaofu.shop^
+||qiaohuailong.work^
 ||qiaopiguniang.com^
 ||qiaoxiaomiao.com^
 ||qibalmm.com^
@@ -87877,6 +87890,7 @@ zznews.cn##.ad:not([style])
 ||yulunanews.name^
 ||yumenetworks.com^
 ||yumingdan.top^
+||yumingroot.xyz^
 ||yumkelis.com^
 ||yummycuisine.club^
 ||yumnxwvd.ink^
@@ -89019,6 +89033,7 @@ zznews.cn##.ad:not([style])
 ~baidu.com##a[href*="/cpro."]
 ~baidu.com##a[href*="/cpro/"]
 ~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,olehd.com,olevod.com,olevod.eu,olevod.tv,pchome.net,rznews.cn##div[class^="ad"]
+~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cityheaven.net###gg1
 ~etao1.com##a[href*=".etao1.com/"]
