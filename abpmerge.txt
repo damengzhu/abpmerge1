@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-09-30 16:38:12
-! Total count: 90316
+! Version: 2022-10-01 02:40:27
+! Total count: 90344
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -6364,6 +6364,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /bundles/cm.js|
 /bundles/metrics.
 /bundles/tracciamento?
+/bunsen/events/*
 /bunyad_
 /burt/adv_
 /busting/*/gtm-
@@ -13151,6 +13152,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://analytics.*/page_entry
 ://analytics.*/pageview/
 ://analytics.*/tracker.
+://api.*.com/sh/*.js$script,third-party
 ://banner.$third-party
 ://banners.$third-party
 ://beacon.*/track
@@ -13387,6 +13389,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ?sponsor_pixel=
 ?statify_referrer=
 ?type=ad&
+?type=page&event=
 ?type=pageview&
 ?view=ad&
 ?wm=*&prm=rev&
@@ -17396,6 +17399,7 @@ btime.com###ad_full_button_placehoder
 btime.com###download
 btime.com##.shop-guid
 btime.com##.top-bar
+btmovi.in##body > span[style]
 btmulu.com#?#.item:-abp-has(> a[target="_blank"])
 btnull.org###ly
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
@@ -20527,7 +20531,7 @@ hsck.org##img[height="60px"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ad_hf
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.adHF3
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ads-all
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
 htcui.com##.carousel
@@ -22792,6 +22796,7 @@ netbardh.com##.pos-navbar-ad
 netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_video_overlay_mobile
 netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
+netflix.mom,netflixya.com,yanetflix.com##.rm-list.player-rm
 netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
 netweather.tv##.billheight
@@ -27810,6 +27815,7 @@ zznews.cn##.ad:not([style])
 ||1n4o.icu^
 ||1nimo.com^
 ||1p1eqpotato.com^
+||1papa.top^
 ||1pel.com^$third-party
 ||1phads.com^
 ||1pwx.com/js/ck.js
@@ -29286,11 +29292,13 @@ zznews.cn##.ad:not([style])
 ||71d7511a4861068.com^
 ||71edge.com/videos/other/202$xmlhttprequest
 ||71efe2183b8663ad5bf9d7a9320aeb48.leboncoin.fr^
+||71sas.com^
 ||71sem.com^
 ||720-trail.co.uk^$third-party
 ||7282818wednesday.1905715.com^
 ||72880178a6767.com^
 ||729dcbaa57e80c1e.com^
+||72asa.com^
 ||72d77336c1.com^
 ||733.so/template/wap1/js/all_css.js
 ||745c.cn$third-party
@@ -35175,6 +35183,7 @@ zznews.cn##.ad:not([style])
 ||anxioushomelessastray.com^
 ||anxiouslyconsistencytearing.com^
 ||any.gs/visitScript/
+||anyany.cc^
 ||anybest.site
 ||anybunny.tv/js/main.ex.js
 ||anycent.com/analytics/
@@ -36849,6 +36858,7 @@ zznews.cn##.ad:not([style])
 ||baidujs.cnys.com^
 ||baidulao.com^
 ||baidutuapi.com^
+||baiduwudi929.xyz^
 ||baiduyoukualiyun.com^
 ||baiduyubaidu.com^
 ||baifen.music.baidu.com^
@@ -38913,6 +38923,7 @@ zznews.cn##.ad:not([style])
 ||btloader.com^
 ||btmao.cc/Public/yd/
 ||btmean.cardosystems.com^
+||btmovi.in/static/js/xf.js
 ||btmp4.net^
 ||btmpgcgpjwagnx.com^
 ||btmulu.com/assets/*/ad02.gif
@@ -43032,6 +43043,7 @@ zznews.cn##.ad:not([style])
 ||cz-mktg.vodafone.com^
 ||cz09.com^
 ||cz0nm0sg-hk.cn^
+||cz5f.top^
 ||cz9k8b.top^
 ||czbk.site^
 ||czechose.com^
@@ -43748,6 +43760,7 @@ zznews.cn##.ad:not([style])
 ||daredstrapelinor.com^
 ||darendaisuki.com^
 ||darersan.co^
+||darghinruskin.com^
 ||dargtabet.com^
 ||daribahactaea.com^
 ||dariolunus.com^
@@ -44585,6 +44598,7 @@ zznews.cn##.ad:not([style])
 ||dfd1ec534a.com^
 ||dfdjilnzqgtow.com^
 ||dfdybylchujl.com^
+||dfes68.com^
 ||dffaernr.com^
 ||dfgbalon.com^
 ||dfggb.cc^
@@ -47645,6 +47659,7 @@ zznews.cn##.ad:not([style])
 ||esheprice.online^
 ||eshouloo.net^
 ||esignificanvi.info^
+||esiws.com^
 ||eskimi.com^$third-party
 ||eslipdd.ltd^
 ||esm1.net^$third-party
@@ -47815,6 +47830,7 @@ zznews.cn##.ad:not([style])
 ||eurovision.tv/dist/assets/images/esc_partner_
 ||euscaroversing.com^
 ||eutehj.com^
+||euvsgap.cn^
 ||euxgfqkgpmyvo.com^
 ||euz.net^
 ||ev.tpocdm.com^
@@ -52066,6 +52082,7 @@ zznews.cn##.ad:not([style])
 ||haodewl.cn^
 ||haodiwh.top^
 ||haodong.site^
+||haoduofangs.com^$third-party
 ||haofs.com/haofs/ggapi.asp
 ||haogame.me^
 ||haohud.cc^
@@ -55794,6 +55811,7 @@ zznews.cn##.ad:not([style])
 ||jcaik.com^
 ||jcaqvl.twinset.com^
 ||jcboloni.cn^
+||jcdbae.cn^
 ||jcde.site^
 ||jcdf99.com/hzz/scripts/new
 ||jcdixdh.cn^
@@ -58377,6 +58395,7 @@ zznews.cn##.ad:not([style])
 ||lenosoft.net/js/ad
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clientType=
+||lensdump.com/i/*.gif
 ||lensesunduke.website^
 ||lentainform.com^$third-party
 ||lentduskyscold.com^
@@ -68771,6 +68790,8 @@ zznews.cn##.ad:not([style])
 ||qcmm02.com^
 ||qcmm05.com^
 ||qcmm06.com^
+||qcmm07.com^
+||qcmm09.com^
 ||qcppad.merrell.com^
 ||qcvf.ifeng.com^
 ||qcyunnan.cn^
@@ -77125,6 +77146,7 @@ zznews.cn##.ad:not([style])
 ||storyren.top/imgg/
 ||stoshewyho.pro^
 ||stoshoos.com^
+||stossfussily.com^
 ||stotoowu.net^
 ||stougnee.com^
 ||stoveseashore.com^
@@ -82606,6 +82628,7 @@ zznews.cn##.ad:not([style])
 ||usmetric.rediff.com^
 ||usmhimw.cn^
 ||usnews.com/static/esi/usn-geo.json
+||usnoownmt.fun^
 ||usounoul.com^
 ||ussele.com^
 ||ussiagoverse.xyz^
@@ -82803,6 +82826,7 @@ zznews.cn##.ad:not([style])
 ||vaipsouw.com^
 ||vak345.com^
 ||vakagdnj.com^
+||valadygators.com^
 ||valetisolate.com^
 ||validclick.com^$third-party
 ||validsquatcyber.com^
@@ -84879,6 +84903,7 @@ zznews.cn##.ad:not([style])
 ||winvvv.com^$subdocument
 ||winwin7.com/statics/js/pos_js/
 ||winzevrocht.com^
+||wioe3quod.cyou^
 ||wipe.de^$~script,third-party
 ||wipedhypocrite.com^
 ||wipowaxe.com^
@@ -85192,6 +85217,7 @@ zznews.cn##.ad:not([style])
 ||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/bugsfighter.com/wp-content/uploads/2016/07/adguard-banner.png
 ||wp.com/i/mu.gif$image
+||wp.com/netflixya.com/upload/$image
 ||wp.com/stripe.rs-stripe.com/
 ||wp.com/wp-content/js/bilmur.min.js
 ||wp.pl/?rid=
@@ -87035,6 +87061,7 @@ zznews.cn##.ad:not([style])
 ||yandex.ru/metrika/
 ||yandexadexchange.net^
 ||yanend.com^
+||yanetflix.com/upload/vod/$image
 ||yang123.ltd^
 ||yangchunblog.club^
 ||yanghuaer.mobi^
@@ -87190,6 +87217,7 @@ zznews.cn##.ad:not([style])
 ||yellowbrix.com^$third-party
 ||yellowpages.com.lb/uploaded/banners/
 ||yelmlrq.cn^
+||yelp.*/sit_rep
 ||yelp.com/ad_acknowledgment
 ||yelp.com/ad_syndication_user_tracking
 ||yelp.com/bunsen/
