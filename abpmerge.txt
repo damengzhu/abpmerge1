@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-03 08:32:50
-! Total count: 90398
+! Version: 2022-10-03 16:39:44
+! Total count: 90413
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -1358,6 +1358,7 @@
 ##a[href*=".trustarticle.com/"]
 ##a[href*=".tsguozikeji.cn"]
 ##a[href*=".ttz5.cn"]
+##a[href*=".tv688.cc"]
 ##a[href*=".tv699.cc"]
 ##a[href*=".umtrack.com/"]
 ##a[href*=".uqubsb.com/"]
@@ -13166,6 +13167,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://beacon.*/track
 ://blue.*/script.js
 ://btt*/Runtime/js/psData.
+://cognito-identity.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
@@ -14796,6 +14798,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||nostv.pt^*/angulartics-google-analytics.js?
 @@||notafree.host^$generichide
 @@||nowscore.com/script/common/adHelper.js
+@@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nthu.edu.tw^*ad
 @@||ntou.edu.tw/bin/showads.
@@ -31178,6 +31181,7 @@ zznews.cn##.ad:not([style])
 ||aax-us-iad.amazon.com^$script
 ||aaxads.com^
 ||aaxdetect.com^$third-party
+||aaxwall.com^
 ||aaz1.xyz^
 ||aazfby.auto.de^
 ||ab-machine.forbes.com^
@@ -31749,6 +31753,7 @@ zznews.cn##.ad:not([style])
 ||acstat.com^$third-party
 ||act-on.ioactive.com^
 ||act-on.up.edu.pe^
+||act-server-prod.7swnm9dm8q.eu-west-1.elasticbeanstalk.com^
 ||act.boxerproperty.com^
 ||act.chinatimes.com/aimg/
 ||act.cwsglobal.org^
@@ -34761,6 +34766,7 @@ zznews.cn##.ad:not([style])
 ||analytics.greenmountainenergy.com^
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^
+||analytics.growthphysics.com^
 ||analytics.gvim.mobi^
 ||analytics.hashnode.com^
 ||analytics.haworth.com^
@@ -35472,7 +35478,7 @@ zznews.cn##.ad:not([style])
 ||appledaily.hk/banners/subscription/
 ||applequan.com^
 ||applescringe.com^
-||applicationinsights.azure.com^$third-party
+||applicationinsights.azure.com^$third-party,domain=~azure.net
 ||appliedsemantics.com/images/x.gif
 ||applink.getbambu.com^
 ||applinzi.com^$domain=soyunpan.com
@@ -40646,6 +40652,7 @@ zznews.cn##.ad:not([style])
 ||circumscribevetofurther.com^
 ||circumstancesrectangle.com^
 ||cirsepuh.net^
+||cisco.com/c/dam/cdc/j/at.js
 ||cisheeng.com^
 ||cismovernm.com^
 ||cistusbram.website^
@@ -57355,6 +57362,7 @@ zznews.cn##.ad:not([style])
 ||kindjalvitalic.com^
 ||kindleloving.com^
 ||kindlyfeebleremembered.com^
+||kinesis.eu-west-1.amazonaws.com^
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
 ||kingkongapp.com^*/web/adv/list?
@@ -60922,6 +60930,7 @@ zznews.cn##.ad:not([style])
 ||mcaril.com^
 ||mcaspkd.cn^
 ||mcbzq.xyz^
+||mcc-tags.cisco.com^
 ||mcc.godaddy.com/park/
 ||mcdhshlsboom.com^
 ||mcdmetrics.aaa.com^
@@ -62142,6 +62151,7 @@ zznews.cn##.ad:not([style])
 ||mkt51.net^$third-party
 ||mkt6333.com^$third-party
 ||mkt941.com^$third-party
+||mktcs.cloudapps.cisco.com^
 ||mktg.aa.f5.com^
 ||mktg.aicipc.com^
 ||mktg.jeffersonhealth.org^
@@ -64509,6 +64519,7 @@ zznews.cn##.ad:not([style])
 ||nzydzsw.com^
 ||o-oo.ooo^
 ||o-s.io^$third-party
+||o.027eat.com^
 ||o.addthis.com^
 ||o.alimb.top^
 ||o.aolcdn.com/js/mg1.js
@@ -68999,6 +69010,7 @@ zznews.cn##.ad:not([style])
 ||qingrektmkt.com^
 ||qingsedhh.com/images/gg.gif
 ||qingsedhhh.xyz^$third-party
+||qingshu.live^
 ||qingtian.love^
 ||qingyanmjg.com^
 ||qingzhencai.net^
@@ -69490,6 +69502,7 @@ zznews.cn##.ad:not([style])
 ||qzpmx.cn^
 ||qzqd2.com^
 ||qzqyw.cn^
+||qzthueo.cn^
 ||qzvlbjatsgzgn.com^
 ||qzwb.com/phpstat/
 ||qzwbod.blackdiamondequipment.com^
@@ -77276,6 +77289,7 @@ zznews.cn##.ad:not([style])
 ||stripchat.com/api/external/
 ||stripchat.com^*/widget/$third-party
 ||stripe.com/?event=
+||stripe.com/tracking/
 ||stripedburst.com^
 ||stripedcollar.net^$third-party
 ||stripsaver.com^$third-party
@@ -77285,6 +77299,7 @@ zznews.cn##.ad:not([style])
 ||strivenramplor.com^
 ||strivesidewalk.com^
 ||strk.chegg.com^
+||strnguz.cn^
 ||stroeerdigitalmedia.de^$domain=planetsnow.de
 ||stroeerdigitalmedia.de^$third-party
 ||stroeerdp.de^*_gtm.js
