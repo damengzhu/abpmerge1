@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-02 16:32:29
+! Version: 2022-10-03 02:01:05
 ! Total count: 90396
 -1688-wp-media/ads/
 -988x60.
@@ -13631,7 +13631,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||acb.com/javascripts/jv_feeder_stats.js
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
-@@||ace.advertising.com^$domain=mail.yahoo.com
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
 @@||actiris.be/urchin.js
@@ -14671,7 +14670,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||macauo2o.com/advertise/
-@@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||manhua.weibo.com/adv/
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
@@ -15390,13 +15388,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||yesiget.i234.me^$generichide
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
-@@||yimg.com/ud/fp/js/ADPositions.*.min.js$domain=mobi.yahoo.com
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/combo?*/ad/
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
-@@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yottaa.com/rapid.min.js$script,domain=corkcicle.com|wineenthusiast.com
 @@||yottaa.net^*/analytics/gtm-analytics-events.min.js$domain=hannaandersson.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
@@ -17704,6 +17700,7 @@ china.com.cn##.Banner_left
 china.com.cn##.Banner_right
 china.com.cn##a[href*="dwz.cn"]
 china.com.cn##img[width="665"]
+china.com.cn,csdn.net,cyol.net,lenovo.com.cn,wxrb.com##.AD
 china.com.cn,csdn.net,cyol.net,lenovo.com.cn,wxrb.com,yam.com##.AD
 china.com.cn,foodmate.net##.ad6
 chinaacc.com##.leftBox
@@ -26531,8 +26528,7 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.js-stream-content:-abp-has(p:-abp-contains(熱門搜尋))
 yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
-yahoo.com#?#.stream-items:-abp-has(> div > div > span:-abp-contains(即日熱搜))
-yahoo.com#?#.stream-items[data-wf-beacons]
+yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
 yahoo.com#?#div[class^="Pos(a) H"]:-abp-has(> a[class^="LineClamp"][href^="https://b.gemini."])
 yam.com##.axdBox
 yam.com##div[id^="adgshp"]
@@ -27197,6 +27193,7 @@ zznews.cn##.ad:not([style])
 ||0598yu.com/api.php?mod=ad&
 ||059e025e7484.com^
 ||05ee3a24ed11df058c8.com^
+||05fc725q.cn^
 ||0606kk.com/js/index/index.js
 ||0653216.com^
 ||0668gz.com/data/attachment/portal/
@@ -28992,6 +28989,7 @@ zznews.cn##.ad:not([style])
 ||5pub.com^
 ||5qg9ibt1a6.com^
 ||5qqn.com/js/js/
+||5s34y422.cn^
 ||5s98.com/img/
 ||5t15.cn^
 ||5toft8or7on8tt.com^
@@ -59659,6 +59657,7 @@ zznews.cn##.ad:not([style])
 ||lskdkfjskdl.muchenzhongguo.com^
 ||lskrfj.outletcenter.gr^
 ||lslld.xyz^
+||lsnoownml.fun^
 ||lsntzzy3.com/Runtime/js/psData.js
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||lspfuw.siwonschool.com^
@@ -62347,6 +62346,7 @@ zznews.cn##.ad:not([style])
 ||moekyepkd.com^
 ||moengage.com^$third-party
 ||moerats.com/usr/affpc/
+||moes3quba.cyou^
 ||mofa.go.jp^*/count.cgi?
 ||moffreelance.biz^
 ||mogihovi.com^
@@ -89954,7 +89954,7 @@ zznews.cn##.ad:not([style])
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
 0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,weather.com.cn,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
-0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,weather.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxs.net,zhihu.com,ziyuanyo.com,zjstv.com##.ad
+0379home.com,100ec.cn,123.com.cn,159i.com,22vd.com,2345.cn,234fang.com,265g.com,2j0.cn,3gsc.com.cn,52youpiao.com,72g.com,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landian.vip,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,luo8.com,maxpda.com,mengzhan521.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,tv.sohu.com,u-car.com.tw,weather.com.cn,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com,zjstv.com##.ad
 411mania.com##.banner-homebottom-all
 423down.com###d_theme-2
 423down.com###d_theme-3
