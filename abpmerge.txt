@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-04 02:10:26
+! Version: 2022-10-04 08:33:16
 ! Total count: 90419
 -1688-wp-media/ads/
 -988x60.
@@ -276,10 +276,6 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main:nth-child(3) > .container-fluid.mb-0.p-0
-###main:nth-child(3) > .container-fluid.mb-0.p-0 + .jsv-g1
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
-###main:nth-child(3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -1652,6 +1648,10 @@
 ##div[style^="width: 100%;"][style$="visibility: visible;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##dl#listwoBox
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0
+##header + #main:nth-child(n+3) > .container-fluid.mb-0.p-0 + .jsv-g1
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 + .container-fluid.mb-3.p-0
+##header + #main:nth-child(n+3) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##iframe[src*=".xxmh"][src*="?u="]
 ##iframe[src*=".xxmh891.com/"]
 ##img#adv1
@@ -13168,7 +13168,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://beacon.*/track
 ://blue.*/script.js
 ://btt*/Runtime/js/psData.
-://cognito-identity.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
@@ -62805,6 +62804,7 @@ zznews.cn##.ad:not([style])
 ||mu722.com^
 ||muchotrust.com^
 ||mucinshasht.com^
+||mucinyak.com^
 ||mucums.com^
 ||mud4.destinia.com.eg^
 ||mudcxq.cn^
