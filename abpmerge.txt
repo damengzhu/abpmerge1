@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-04 16:37:50
-! Total count: 90446
+! Version: 2022-10-05 01:37:55
+! Total count: 90463
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -961,6 +961,7 @@
 ##.zone_wap_banner2
 ##.zozoads
 ##A[href*=".com/?Agent="]
+##A[href*="/?channelCode="] > img[src*="hitv.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1067,6 +1068,7 @@
 ##[href^='https://65564535.com']
 ##[href^='https://6f2929.com']
 ##[href^='https://7segu.taobao.com/'],[href='http://m.shokuhou.com/download/']
+##[href^='https://97749516.com/']
 ##[href^='https://aisite.wejianzhan.com/site/m.vip.com/']
 ##[href^='https://at.umtrack.com/']
 ##[href^='https://bvipsa.com']
@@ -1099,6 +1101,8 @@
 ##[href^='https://vip.huijujiavip.com']
 ##[href^='https://vip.infobbs.xyz/atl.php']
 ##[href^='https://w5979.com:']
+##[href^='https://www.00285164.com']
+##[href^='https://www.00426740.com']
 ##[href^='https://www.44553606.com:']
 ##[href^='https://www.ex312.com:']
 ##[href^='https://www.ex329.com:']
@@ -17190,7 +17194,7 @@ bitauto.com###video_floatBox
 bitauto.com##.advertise-nav-down
 bitauto.com##div > ins[data-type="ad_play"]
 bitauto.com##ins[type="ad_play"]
-bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
+bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
 bitcoiner.tv##[href^="https://go.stormgain.com/"]
 bitcomet.com##.gg728
@@ -22002,6 +22006,7 @@ ltn.com.tw##.ltn_ad
 ltn.com.tw##.suggest_full .C5
 ltn.com.tw##A[href*="draw.ltn.com.tw"]
 ltn.com.tw#@#.adright
+ltn.com.tw,stheadline.com##.ad_w300
 ltn.com.tw,stheadline.com,yinyuetai.com##.ad_w300
 luanren.com##.luanren_dbhfad
 luanren.com##.luanren_dbhfad2
@@ -32011,6 +32016,7 @@ zznews.cn##.ad:not([style])
 ||adblockeronstrtape.xyz/stat/
 ||adblockervideo.com^
 ||adblockmetrics.ru^$third-party
+||adblockplustape.xyz/stat/
 ||adblockrelief.com^$third-party
 ||adblockstreamtape.art/stat/
 ||adblockstreamtape.fr/stat/
@@ -35830,6 +35836,7 @@ zznews.cn##.ad:not([style])
 ||asktiava.com/promotion/
 ||aslaironer.com^
 ||aslaprason.com^
+||asldmlws.cn^
 ||asleepnancy.com^
 ||aslkdjfkdls.lzljhs.com^
 ||aslmyoxscfr.com^
@@ -45218,6 +45225,7 @@ zznews.cn##.ad:not([style])
 ||dkjdnq.cn^
 ||dkjrvgfozzhc.com^
 ||dkksrclpfqmmtp.com^
+||dklwddl.cn^
 ||dkm6b5q0h53z4.cloudfront.net^
 ||dko.vente-unique.nl^
 ||dkre4lyk6a9bt.cloudfront.net^
@@ -46027,6 +46035,7 @@ zznews.cn##.ad:not([style])
 ||dvigukindal.com^
 ||dvitohrrmq.xyz^
 ||dviwjuggl.com^
+||dvmsmm.cn^
 ||dvnfo.com^$third-party
 ||dvnmyltt.xyz^
 ||dvo.assurandme.fr^
@@ -48006,6 +48015,7 @@ zznews.cn##.ad:not([style])
 ||ewstv.abcactionnews.com^
 ||ewstv.kypost.com^
 ||ewtdjgsaip.com^
+||ewwgqjn.cn^
 ||ewwstx.trussardi.com^
 ||ex.co/content/monetization/legacy-pixels/
 ||ex0jcjx.cn^
@@ -50731,6 +50741,7 @@ zznews.cn##.ad:not([style])
 ||girlsofdesire.org/edge/
 ||girlsofdesire.org/paper/
 ||giroud.top^
+||gisp6piot.cyou^
 ||gitechiphy.pro^
 ||github.com/_private/browser/stats
 ||githubusercontent.com/vip888vip/ug/main/*.gif
@@ -72275,6 +72286,7 @@ zznews.cn##.ad:not([style])
 ||sdgkffgbbddk.com^
 ||sdgmyj.cn^
 ||sdhfbvd.com^
+||sdhjqz.com^
 ||sdhongjia.com^
 ||sdhzstone.net^
 ||sdiapi.com/reporter/
@@ -73780,6 +73792,7 @@ zznews.cn##.ad:not([style])
 ||sjaidu.com^
 ||sjardw.footlocker.fr^
 ||sjbaiduadv1.redou.com^
+||sjdfuvz.cn^
 ||sjeklqx.cn^
 ||sjgnskf.com^
 ||sjjz8.cn^
@@ -73953,6 +73966,7 @@ zznews.cn##.ad:not([style])
 ||slryca.meyou.jp^
 ||sls2.loisirsencheres.com^
 ||slshiye.cn^
+||slsynmlb.fun^
 ||sltcp.cn^
 ||sluicejell.com^
 ||sluiceliable.com^
@@ -76133,6 +76147,7 @@ zznews.cn##.ad:not([style])
 ||sshopee.beauty^
 ||sshsnahw.com^
 ||ssiapawz.com^
+||ssio6xepo.cyou^
 ||ssite.johnlewis.com^
 ||ssite.johnlewisfinance.com^
 ||ssite.waitrose.com^
@@ -77277,6 +77292,7 @@ zznews.cn##.ad:not([style])
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
 ||streamta.site/stat/
+||streamtape.cc/stat/
 ||streamtape.com/adult
 ||streamtape.com/stat/
 ||streamtape.site/adult
@@ -88681,6 +88697,7 @@ zznews.cn##.ad:not([style])
 ||zio.xcar.com.cn^
 ||zion-telemetry.api.cnn.io^
 ||zion.qbo.intuit.com^
+||zipeyrp.cn^
 ||ziphentai.com^
 ||ziphoumt.net^
 ||zipperxray.com^
