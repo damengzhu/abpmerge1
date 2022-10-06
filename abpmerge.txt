@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-06 02:04:42
-! Total count: 90476
+! Version: 2022-10-06 08:32:05
+! Total count: 90484
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -992,6 +992,7 @@
 ##[data-url='http://xixi.stylar.hk/']
 ##[evhrumjx]
 ##[href$='/ads.aspx']
+##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
 ##[href*="/entry/register/?i_code="]
 ##[href*='sohu.com/hy-op']
 ##[href*='taobao.com/'][target='_blank']
@@ -59466,6 +59467,7 @@ zznews.cn##.ad:not([style])
 ||logsbin.dantri.com.vn^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
+||logstash-3.radio-canada.ca^
 ||logstat.caixin.com^
 ||logtake.weidian.com^
 ||logua.com^$third-party
@@ -65129,6 +65131,7 @@ zznews.cn##.ad:not([style])
 ||oncahh.boxlunch.com^
 ||oncerensky.cam^
 ||oncertaino.xyz^
+||oncinu.com^
 ||onclarck.com^
 ||onclasrv.com^
 ||onclck.ru^$third-party
@@ -71342,6 +71345,7 @@ zznews.cn##.ad:not([style])
 ||s.crackedthecode.co^
 ||s.cuoresportivo.no^
 ||s.dc-tag.jp^
+||s.deepl.com^
 ||s.durhamregion.com^
 ||s.ergotherapieblog.de^
 ||s.eybstar.com^
@@ -81693,6 +81697,7 @@ zznews.cn##.ad:not([style])
 ||tulipinventpins.com^
 ||tumblebirds.com^
 ||tumblr.com/impixu?
+||tumblr.com/services/bblog
 ||tumedhan.com^
 ||tumgcmu.cn^
 ||tumi.com/4i06uv8M/init.js
@@ -82193,6 +82198,7 @@ zznews.cn##.ad:not([style])
 ||uisafnit.space^
 ||uissm.com^
 ||uiswtr3.xyz^
+||uiteo.xyz^
 ||uiuspakmn.bar^
 ||uj0g7.com^
 ||ujccccb.com^
@@ -85343,6 +85349,7 @@ zznews.cn##.ad:not([style])
 ||wp20.ru^
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpadmngr.com^
+||wpcihg.com^
 ||wpdaxue.com/img/*/txy-
 ||wpdstat.com^$third-party
 ||wpercent.ksadrewrty.com^
@@ -87935,6 +87942,7 @@ zznews.cn##.ad:not([style])
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^
 ||ys2727.xyz^
+||ys3g.top^
 ||ys9mw1u.cn^
 ||ysapp20.xyz/slf120.
 ||ysapp20.xyz^*.gif
