@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-05 16:54:01
-! Total count: 90469
+! Version: 2022-10-06 02:04:42
+! Total count: 90476
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -960,8 +960,8 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##A[href$="ky9402.com"]
 ##A[href*=".com/?Agent="]
-##A[href*="/?channelCode="] > img[src*="hitv.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -1596,6 +1596,7 @@
 ##a[target="_blank"] > img[height="60px"][src*=".tripcdn.com"][src$=".gif"]
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
+##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
@@ -23918,6 +23919,7 @@ qwant.com##div[class^="ProductAdsMicrosoft-"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 qwant.com##div[data-testid^="snippet"]
 qwerwrrt.one##div[class^="show-text"]
+qwerwrrt.one,sehuatang.org##div[class^="show-text"]
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
 qyer.com###zpui-head-ad
@@ -47435,6 +47437,7 @@ zznews.cn##.ad:not([style])
 ||enifeygqued.com^
 ||enihongo.cn^
 ||eniobs.moncler.com^
+||eniro.com/pixel/
 ||eniunifiiegma.xyz^
 ||enjuk.com^
 ||enkjaq.cn^
@@ -47530,6 +47533,7 @@ zznews.cn##.ad:not([style])
 ||eonsmedia.com^
 ||eonwayaha.com^
 ||eoof.net/PicZone/qzgg
+||eoop6vepv.cyou^
 ||eoopersed.one^
 ||eooslfyhziubo.com^
 ||eopa5tepa.icu^
@@ -59672,6 +59676,7 @@ zznews.cn##.ad:not([style])
 ||lrxlbekpmav.com^
 ||lrysogsil.uno^
 ||lrytas.lt/counter/
+||lrzsksw.cn^
 ||lsaeb.com^
 ||lsariz.com^
 ||lsawards.com^$third-party
@@ -64317,6 +64322,7 @@ zznews.cn##.ad:not([style])
 ||nsm.dell.com^
 ||nsmartad.com^
 ||nsmetrics.ni.com^
+||nsnoownmc.fun^
 ||nsontrackso.online^
 ||nsparket.top^
 ||nspmotion.com^
@@ -86930,6 +86936,7 @@ zznews.cn##.ad:not([style])
 ||xuchuang.com^$third-party
 ||xudawhuwa.com^
 ||xue.zbyw.cn^
+||xueaaai.cn^
 ||xueaaaw.cn^
 ||xuebim.top^
 ||xuehelei.com^
