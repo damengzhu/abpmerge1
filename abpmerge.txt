@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-07 02:21:19
-! Total count: 90500
+! Version: 2022-10-07 06:36:46
+! Total count: 90510
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -22061,6 +22061,7 @@ m.babytree.com##a[class$="-join"]
 m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
+m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@#div[class*="ads"]
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
@@ -23343,6 +23344,8 @@ photojpl.com###google01
 php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
 php.cn##.wwads-cn
+php.cn##.zwwad
+php.cn##a[href*="/go."]:not([href*="Fwww.php"])
 phpbb.com###footer_banner_leaderboard
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
@@ -49596,6 +49599,7 @@ zznews.cn##.ad:not([style])
 ||freshclip.tv/tracking/
 ||freshcounter.com^$third-party
 ||freshintimate.com^
+||freshmall.shop^
 ||freshmarketer.com^$third-party
 ||freshmate.com.cn^
 ||freshplum.com^$third-party
@@ -51871,6 +51875,7 @@ zznews.cn##.ad:not([style])
 ||gx.idg.se^
 ||gx101.com^
 ||gx2f.top^
+||gx4g.top^
 ||gxbnp.cn^
 ||gxcaxz.cresus.fr^
 ||gxdianhua.com^
@@ -64350,6 +64355,7 @@ zznews.cn##.ad:not([style])
 ||nsumrwmgq.com^
 ||nsurethatthe.biz^
 ||nsuucewqbukeba.xyz^
+||nsweq.xyz^
 ||nswith.com^
 ||nsybcghuv.xyz^
 ||nszmz.com^$third-party
@@ -69204,6 +69210,7 @@ zznews.cn##.ad:not([style])
 ||qongsonw.uno^
 ||qontent.pouvideo.cc^
 ||qopeqi13913fjajba123nfd1344.top^
+||qopj.xyz^
 ||qoredi.com^
 ||qorlsbls.cyou^
 ||qorosmall.com^
@@ -86601,6 +86608,7 @@ zznews.cn##.ad:not([style])
 ||xijgedjgg5f55.com^
 ||xiji-express.com^
 ||xijinfa.com^$third-party
+||xijkye.top^
 ||xilbalar.com^
 ||xilele.com^
 ||xilu.com/iframe/pagepic/
@@ -87414,6 +87422,7 @@ zznews.cn##.ad:not([style])
 ||yf898.com^
 ||yfetyg.com^
 ||yfhlghhkb.com^
+||yfkgnqu.cn^
 ||yfot.com.cn^
 ||yfum.com^
 ||yfunkgk.cn^
@@ -89010,6 +89019,7 @@ zznews.cn##.ad:not([style])
 ||zt.imgwdyey.com^
 ||zt2088.com^
 ||zt5.com/statics/img/
+||zt5g.top^
 ||ztcadx.com^$third-party
 ||ztdsp.com^$third-party
 ||ztffac.com^
