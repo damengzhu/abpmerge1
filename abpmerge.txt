@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-06 16:38:01
-! Total count: 90490
+! Version: 2022-10-07 02:21:19
+! Total count: 90500
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -960,7 +960,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
-##A[href$="ky9402.com"]
 ##A[href*=".com/?Agent="]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -1213,6 +1212,7 @@
 ##a[href$="/xh8k.vip"]
 ##a[href$="/xha77.com"]
 ##a[href$="/xhg23.com"]
+##a[href$="ky9402.com"]
 ##a[href$="s.hw226.cn"]
 ##a[href*=".05bq.com/"]
 ##a[href*=".08an.com/"]
@@ -5816,6 +5816,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /api.ads.$domain=~ads.instacart.com
 /api/0/stats
 /api/ComScorePageView
+/api/Video/GetAdsData?
 /api/aaaac/list
 /api/ad/*
 /api/ads/*
@@ -13196,7 +13197,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 ://mint.*/?js
 ://ox-d.
 ://piwik.$domain=~matomo.org|~piwik.pro
-://posthog.$domain=~posthog.com
 ://promo.$third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://rou*/_next/static/chunks/pages/home-
 ://rs-stripe.wsj.com/stripe/image?
@@ -13803,10 +13803,11 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.babbel.io/gamma/v1/$ping,domain=my.babbel.com
 @@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/persisted/execute$script,domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$script,domain=handelsblatt.com
-@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|nippon.com|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
@@ -15012,7 +15013,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp|nippon.com
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 @@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||science-net.kahaku.go.jp/app/js/analytics.js$~third-party
@@ -16125,6 +16126,7 @@ acg17.com##.yhq
 acg17.com,secretmine.net##.e3lan
 acgbuster.moe##.tg-inner
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
+acgdoge.net,acglala.me,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgdoge.net,acglala.me,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com,youku.com##a[href*=".tmall.com"]
 acggd.com##a[href*=".apk"]
 acgking.com,dbtmn.com##.asst
@@ -36212,6 +36214,7 @@ zznews.cn##.ad:not([style])
 ||autand.com^
 ||autchoog.net^
 ||autcokncufjp.com^
+||autdjng.cn^
 ||auteboon.net^
 ||authcaptcha.com^
 ||authedmine.eu^$third-party
@@ -47271,6 +47274,7 @@ zznews.cn##.ad:not([style])
 ||embedly.com/widgets/xcomm.html$third-party
 ||emberads.com^$third-party
 ||embesognassent.xyz^
+||emblvw.cn^
 ||emblyjustin.com^
 ||embodimentabstain.com^
 ||embodyheadlight.com^
@@ -53846,6 +53850,7 @@ zznews.cn##.ad:not([style])
 ||i010b048d3e4a1e4b70aba72b169e70c90971f9.xyz^
 ||i03.xyz^
 ||i04.ipc08dt.com^
+||i0l7.icu^
 ||i218435.net^
 ||i22lo.com^$third-party
 ||i2ad.jp^$third-party
@@ -71024,6 +71029,7 @@ zznews.cn##.ad:not([style])
 ||rskillsplu.club^
 ||rsngelaqprud.xyz^
 ||rsnogpgohyo.com^
+||rsnoownmz.fun^
 ||rsnvboidrvqjso.com^
 ||rsrwmpsiii.com^
 ||rss-loader.com/track/
@@ -71350,7 +71356,6 @@ zznews.cn##.ad:not([style])
 ||s.crackedthecode.co^
 ||s.cuoresportivo.no^
 ||s.dc-tag.jp^
-||s.deepl.com^
 ||s.durhamregion.com^
 ||s.ergotherapieblog.de^
 ||s.eybstar.com^
@@ -76331,6 +76336,7 @@ zznews.cn##.ad:not([style])
 ||stankyrich.com^
 ||stansoam.com^
 ||stape.fun/stat/
+||stapewithadblock.xyz/stat/
 ||star-advertising.com^
 ||star-cntr-5.com^$third-party
 ||star-media.cn^$third-party
@@ -84647,6 +84653,7 @@ zznews.cn##.ad:not([style])
 ||weimeicar.cn^
 ||weimeiwangluo.site^
 ||weinin99.cn^
+||weio6nkoe.cyou^
 ||weipapa.top^
 ||weirdbetorn.com^
 ||weiv1fl.cn^
@@ -86978,6 +86985,7 @@ zznews.cn##.ad:not([style])
 ||xuningk.xyz^
 ||xunjiu.online^
 ||xunlei.com/api/stat/rt/js?
+||xunsilu.com^
 ||xunsu.cc/js/indexbottom.js
 ||xunucegy.com^
 ||xunyugong.xyz/sitejs/xunyugong.js
@@ -89586,6 +89594,7 @@ zznews.cn##.ad:not([style])
 21ic.com,pyccoo.cn,qq.com##.topbanner
 21uscity.com##.R300x70
 21uscity.com##.ad300x60
+21yq.com###AD1
 21yq.com##div[style^="width:980px;height:80px;"]
 21yq.com,yaolan.com###AD1
 22pixx.xyz,imagevenue.com###overlayBg
@@ -89688,6 +89697,7 @@ zznews.cn##.ad:not([style])
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,hmog.me,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.lol,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,hmog.me,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.lol,whsir.com,xxshe.info,xxshe.xyz,zhideqiang.com##a[href*=".taobao.com"]
 52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pk.com###baidutop
 52pk.com###baidutop2
