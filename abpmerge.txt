@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-08 08:30:30
-! Total count: 90523
+! Version: 2022-10-08 16:32:34
+! Total count: 90530
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -17180,6 +17180,7 @@ bing.com##.productAd
 bing.com##.ra_car_block
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
+bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -17853,7 +17854,6 @@ cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 cna.com.tw##.ad_970
 cnbc.com##.TopBanner-container
 cnbc.com##div[class^="BoxRail-Styles-"]
@@ -20554,9 +20554,9 @@ hsck.org##img[height="60px"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.adHF3
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ads-all
 htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.pasuAD
+htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.pcd_ad
 htcui.com##.carousel
 htcui.com##.qqanimate
 htcui.com##.yanshibtn
@@ -29671,6 +29671,7 @@ zznews.cn##.ad:not([style])
 ||8xia.com/otherhtml/
 ||8zhou.wang^
 ||8ziyuan.com/images/infolinksad.jpg
+||8zzo.icu^
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||90158js.com^
@@ -53821,6 +53822,7 @@ zznews.cn##.ad:not([style])
 ||hzlm.cc^
 ||hznvtg.com^
 ||hznzcn.com/moban/youxiajiao.js
+||hzrrmh.cn^
 ||hzs1202.site^
 ||hzuheh.palcloset.jp^
 ||hzuok.com^
@@ -55739,6 +55741,7 @@ zznews.cn##.ad:not([style])
 ||j.zlszw.com^
 ||j.zykxjt.com^
 ||j04.xyz^
+||j04r.top^
 ||j05.xyz^
 ||j1.ax.xrea.com^
 ||j1.piaobing.com^
@@ -63428,6 +63431,7 @@ zznews.cn##.ad:not([style])
 ||nbcnews.com/_next/static/chunks/ads.$script,domain=msnbc.com|nbcnews.com
 ||nbcudigitaladops.com/hosted/housepix.gif
 ||nbcudigitaladops.com/hosted/util/geo_data.js
+||nbd56.cn^
 ||nbegame.com/nbeos/*.jpg
 ||nbgairiest.com^
 ||nbgsintl.com^
@@ -73246,6 +73250,7 @@ zznews.cn##.ad:not([style])
 ||shengchaopiao.cn^
 ||shengduobao.shop^
 ||shenghemy.mobi^
+||shenglishamo.com^
 ||shengshipump.cn^
 ||shengtaiyuan.mobi^
 ||shengxinrong.net^
@@ -74006,6 +74011,7 @@ zznews.cn##.ad:not([style])
 ||sls2.loisirsencheres.com^
 ||slshiye.cn^
 ||slsynmlb.fun^
+||slsyuulb.cam^
 ||sltcp.cn^
 ||sluicejell.com^
 ||sluiceliable.com^
@@ -88967,6 +88973,7 @@ zznews.cn##.ad:not([style])
 ||zprelandappslab.com^
 ||zprelandings.com^
 ||zprk.io^$third-party
+||zpsh.shop^
 ||zptxjlh.cn^
 ||zpxalcnnafyy.com^
 ||zpxw.vip^
