@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD
-! Version: 2022-10-09 08:29:48
-! Total count: 90550
+! Version: 2022-10-09 16:33:20
+! Total count: 90559
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -14612,6 +14612,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kk665403.pixnet.net^$generichide
 @@||klarnaservices.com/images/$image,domain=cosmeticsnow.nz
 @@||klarnaservices.com/lib.js$script,domain=brooksrunning.com
+@@||kledgeb.github.io/UbuntuKledgeb/JavaScript/GoogleAnalytics.js$domain=kledgeb.blogspot.com
 @@||klpinteraktiv.klp.no^*/Tracking.js?
 @@||kohls.com/b/ss/$image
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
@@ -15310,6 +15311,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
+@@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uwants.com/include/*/swfaddress.js
 @@||v2rayssr.com/wp-content/plugins/dh-anti-adblocker/public/js/prebid-ads.js
@@ -15344,6 +15346,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wargag.ru/public/js/counter.js?
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
+@@||web.dev/patterns/web-vitals-$~third-party
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
@@ -19682,6 +19685,8 @@ gamer.com.tw,pili.com.tw#@#.text_ad
 gamer.com.tw,pili.com.tw#@#.text_ads
 gamerdvr.com##div[style^="min-height:"]
 gamersky.com##.dl_url:nth-child(4)
+gamersky.com##.downLoadGame-2
+gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##.ngg_down
 gamersky.com##header[class^="ymw-header20"]
 gamertweak.com##.bannerdiv
@@ -31248,6 +31253,7 @@ zznews.cn##.ad:not([style])
 ||abc.rwpt.top^
 ||abc.yebaike.com^
 ||abc.zdfjas.top^
+||abc2022.ys137.com.cn^
 ||abc88866.com^
 ||abc98.cc^
 ||abcache.com/tg/
@@ -45338,6 +45344,7 @@ zznews.cn##.ad:not([style])
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm50.ys137.com^
 ||dm530.net/js/ne10/
 ||dm530.net/js/newjs/
 ||dm530.net/pic/fgr/*.js
@@ -47648,6 +47655,7 @@ zznews.cn##.ad:not([style])
 ||ericanteeho.com^
 ||ericantpas.com^
 ||ericaunct.com^
+||ericdraken.com/a/$script
 ||erihj.com^
 ||erimal.com^
 ||erinitesorchin.com^
@@ -65366,6 +65374,7 @@ zznews.cn##.ad:not([style])
 ||openedinfractructureilliterate.com^
 ||openerworryrecite.com^
 ||openexaminationgist.com^
+||openfpcdn.io^
 ||opengam.com^
 ||openguid.org^$third-party
 ||openhit.com^$third-party
