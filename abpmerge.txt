@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-10-10 02:05:16
-! Total count: 115476
+! Version: 2022-10-10 05:34:32
+! Total count: 115483
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -1603,6 +1603,7 @@
 ##.zozoads
 ##A[href*=".com/?Agent="]
 ##A[href*=".com/?Agent="]
+##A[href*="/?channelCode="] > img[src*="hitv.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -2657,7 +2658,6 @@
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
-##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##a[target="_blank"][onclick*="广告点击"]
@@ -61757,6 +61757,7 @@ zznews.cn##.ad:not([style])
 ||erate.co.il^$third-party
 ||eravanquishultimate.com^
 ||erb.tremblant.ca^
+||ercnrxa.cn^
 ||erdeally.com^
 ||erdecisesgeorg.info^
 ||erdsyzb.com^
@@ -75195,6 +75196,7 @@ zznews.cn##.ad:not([style])
 ||kxmusic.top/tc/js/script.js
 ||kxmusic.top/tc/js/script.js
 ||kxnggkh2nj.com^
+||kxp7.xyz^
 ||kxtxt.com^$third-party
 ||kxtxt.com^$third-party
 ||kxvsldtf.com^
@@ -82695,6 +82697,7 @@ zznews.cn##.ad:not([style])
 ||nmcdn.us^
 ||nmetrics.boostmobile.com^
 ||nmetrics.samsung.com^
+||nmfww.xyz^
 ||nmgch.top^
 ||nmgch.top^
 ||nmgnews.com.cn/sys/online_calc.js
@@ -88489,6 +88492,7 @@ zznews.cn##.ad:not([style])
 ||qiditrade.com^
 ||qidou.com^$third-party
 ||qidou.com^$third-party
+||qiej445.top^
 ||qienews.cn^$third-party
 ||qiezijs.cc^
 ||qiezijs.cc^
@@ -98221,6 +98225,7 @@ zznews.cn##.ad:not([style])
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
 ||suigeng.shop^
 ||suigeng.shop^
+||suilingxian.cn^
 ||suined.com^
 ||suinglygaggler.com^
 ||suissemicron.com^
@@ -99256,6 +99261,7 @@ zznews.cn##.ad:not([style])
 ||tahoe.com/imp
 ||tahuixin.club^
 ||tahuixin.club^
+||taidi.info^
 ||taidi.net.cn^
 ||taidi.net.cn^
 ||taigrooh.net^
@@ -111791,6 +111797,7 @@ zznews.cn##.ad:not([style])
 ||zdw.w8.com.cn/p.ht?
 ||zdwsh.tech^
 ||zdwsh.tech^
+||zdx10.site^
 ||zdx9.site^
 ||zdx9.site^
 ||zdyldoijanx.com^
