@@ -23,7 +23,12 @@ echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
 cat i-tpdate.txt i-tmp.txt > abpmerge.txt
 
-cat "abpmerge.txt" | grep -e "\w##" -e "\w#@#" -e "^##" -e "^#@#" -e "^#?#" -e "\w#?#" > "CSSRule.txt"
+cat "abpmerge.txt" | grep \
+-e "\(^\|\w\)#@\?#" \
+-e "\(^\|\w\)#@\??#" \
+-e "\(^\|\w\)#@\?\$#" \
+-e "\(^\|\w\)#@\?\$?#" \
+> "CSSRule.txt"
 
 # 删除缓存
 rm i-*.txt
