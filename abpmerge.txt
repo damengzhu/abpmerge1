@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-10-10 06:37:26
-! Total count: 115483
+! Version: 2022-10-10 07:38:06
+! Total count: 115489
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -1604,6 +1604,7 @@
 ##A[href*=".com/?Agent="]
 ##A[href*=".com/?Agent="]
 ##A[href*="/?channelCode="] > img[src*="hitv.com"]
+##A[href*="/?channelCode="] > img[src*="hitv.com"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -2658,7 +2659,6 @@
 ##a[target="_blank"] > img[height="60px"][src*="qlogo.cn"][src$=".png"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
-##a[target="_blank"] > img[src*="hitv.com"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
@@ -75197,6 +75197,7 @@ zznews.cn##.ad:not([style])
 ||kxmusic.top/tc/js/script.js
 ||kxnggkh2nj.com^
 ||kxp7.xyz^
+||kxp7.xyz^
 ||kxtxt.com^$third-party
 ||kxtxt.com^$third-party
 ||kxvsldtf.com^
@@ -82698,6 +82699,7 @@ zznews.cn##.ad:not([style])
 ||nmetrics.boostmobile.com^
 ||nmetrics.samsung.com^
 ||nmfww.xyz^
+||nmfww.xyz^
 ||nmgch.top^
 ||nmgch.top^
 ||nmgnews.com.cn/sys/online_calc.js
@@ -88492,6 +88494,7 @@ zznews.cn##.ad:not([style])
 ||qiditrade.com^
 ||qidou.com^$third-party
 ||qidou.com^$third-party
+||qiej445.top^
 ||qiej445.top^
 ||qienews.cn^$third-party
 ||qiezijs.cc^
@@ -98226,6 +98229,7 @@ zznews.cn##.ad:not([style])
 ||suigeng.shop^
 ||suigeng.shop^
 ||suilingxian.cn^
+||suilingxian.cn^
 ||suined.com^
 ||suinglygaggler.com^
 ||suissemicron.com^
@@ -99261,6 +99265,7 @@ zznews.cn##.ad:not([style])
 ||tahoe.com/imp
 ||tahuixin.club^
 ||tahuixin.club^
+||taidi.info^
 ||taidi.info^
 ||taidi.net.cn^
 ||taidi.net.cn^
@@ -111797,6 +111802,7 @@ zznews.cn##.ad:not([style])
 ||zdw.w8.com.cn/p.ht?
 ||zdwsh.tech^
 ||zdwsh.tech^
+||zdx10.site^
 ||zdx10.site^
 ||zdx9.site^
 ||zdx9.site^
