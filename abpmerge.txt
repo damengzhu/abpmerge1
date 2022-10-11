@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-10-10 07:40:00
-! Total count: 115489
+! Version: 2022-10-11 01:13:52
+! Total count: 115506
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -1446,10 +1446,6 @@
 ##.ssr1
 ##.static-a2d
 ##.static-a2d
-##.stui-warp-content > a[target="_blank"] > img[height="120px"]
-##.stui-warp-content > a[target="_blank"] > img[height="120px"]
-##.stui-warp-content > a[target="_blank"] > img[height="60px"]
-##.stui-warp-content > a[target="_blank"] > img[height="60px"]
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
 ##.svg-icon + #player_pause
@@ -1605,6 +1601,8 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="/?channelCode="] > img[src*="hitv.com"]
 ##A[href*="/?channelCode="] > img[src*="hitv.com"]
+##A[href="/k023.html"]
+##A[href="/k023.html"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -2305,6 +2303,8 @@
 ##a[href*="/2486090.com/"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/2e9c9aa9.com/"]
+##a[href*="/333663.xyz"]
+##a[href*="/333663.xyz"]
 ##a[href*="/3337818.com/"]
 ##a[href*="/3337818.com/"]
 ##a[href*="/33966676.com/"]
@@ -2736,12 +2736,10 @@
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:979px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
-##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
@@ -7557,6 +7555,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /awp.log
 /awpys.log
 /aws-analytics.js
+/aws-analytics/*
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
@@ -17117,7 +17116,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
@@ -19481,6 +19480,7 @@ afzhan.com,iqiyi.com##.rightAdv
 agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 age.tv,agemys.cc##+js(noeval-if, devtoolsDetector)
 agedbeauty.net,data18.com,pornpics.com,vipergirls.to##a[href*="/go/"]
+agirls.aotter.net##.row > div.col.hidden a[href^="https://supr.one/"]
 agmov.com,huaban.com##.promotion
 agmov.com,huaban.com##.promotion
 aguitar.cn##.banner7
@@ -26222,7 +26222,6 @@ hqporner.com##.black_friday
 hqpornstream.com##.lds-hourglass
 hqq.tv##a[title="Free money easy"]
 hsck.org##img[height="60px"]
-hsck.org##img[height="60px"]
 hsex.men###container > div:not([class])
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
@@ -26383,6 +26382,7 @@ huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 huya.com##.nav-expand-list #J_tt_hd_category_ad
 huya.com##.room-business-game
 huya.com##.room-business-game
+huya.com##.room-gg-chat
 huya.com##.tt[style*="1200px"]
 huya.com##.tt[style*="1200px"]
 hwbot.org###partner-tiles
@@ -45977,6 +45977,7 @@ zznews.cn##.ad:not([style])
 ||amazonaws.com/s?z=
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
+||amazonaws.com/v1/apps/*/events
 ||amazonaws.com^$domain=1337x.to|1337xx.to|bluemediafiles.com|daddylive.click|downloadpirate.com|hexupload.net|igg-games.com|krunkercentral.com|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentgalaxy.tv|torrentmac.net|upload-4ever.com|vshare.eu|yify-movies.net
 ||amazononline.xyz/mp4/*.mp4$redirect=noopmp3-0.1s,domain=iyingshi7.tv|localmv1.com
 ||amazononline.xyz/mp4/*.mp4$rewrite=abp-resource:blank-mp3,domain=iyingshi7.tv|localmv1.com
@@ -46973,6 +46974,8 @@ zznews.cn##.ad:not([style])
 ||app.arizonawildcats.com^
 ||app.bceagles.com^
 ||app.bncontacto.fi.cr^
+||app.box.com/app-api/split-proxy/api/metrics
+||app.box.com/gen204
 ||app.budweisergardens.com^
 ||app.business.westernunion.com^
 ||app.byutickets.com^
@@ -49814,6 +49817,8 @@ zznews.cn##.ad:not([style])
 ||berserkpl.net.pl^$websocket
 ||berthsorry.com^
 ||berush.com^
+||beryl3.cc^
+||beryl3.cc^
 ||besc.baidustatic.com^
 ||besc.baidustatic.com^
 ||besequda.xyz^
@@ -50984,6 +50989,7 @@ zznews.cn##.ad:not([style])
 ||bowmoolog.com^
 ||bowpinfrow.com^
 ||box.bossdata.be^
+||box.com/index.php?rm=box_gen204_batch_record
 ||boxin1688.cn^
 ||boxin1688.cn^
 ||boxix.online^
@@ -68513,6 +68519,8 @@ zznews.cn##.ad:not([style])
 ||hm.baidu.com^$third-party
 ||hmakpa.saksoff5th.com^
 ||hmcfuqtjrhb.com^
+||hmcpub.xyz^
+||hmcpub.xyz^
 ||hmeqvp.essencemakeup.com^
 ||hmfcyy.com^
 ||hmfcyy.com^
@@ -83823,6 +83831,8 @@ zznews.cn##.ad:not([style])
 ||olpv.onlylady.com^
 ||olsnb.haiwanli.com^
 ||olspyo.laredoute.co.uk^
+||olsynmlk.fun^
+||olsynmlk.fun^
 ||olveddel.xyz^
 ||olwsx.com^
 ||olwsx.com^
@@ -88179,6 +88189,8 @@ zznews.cn##.ad:not([style])
 ||q4ee.top^
 ||q6idnawboy7g.com^
 ||q777.sfchronicle.com^
+||q7tl.icu^
+||q7tl.icu^
 ||q8.ttly888.com^
 ||q8ntfhfngm.com^
 ||qa-brc.emails.rakuten.com^
@@ -102215,6 +102227,7 @@ zznews.cn##.ad:not([style])
 ||tracking.customerly.io^
 ||tracking.deutscheladies.de^
 ||tracking.devoteladies.de^
+||tracking.digitalocean.com^
 ||tracking.dominanteladies.de^
 ||tracking.donnemagazine.it^$script
 ||tracking.drsfostersmith.com^$third-party
@@ -104753,6 +104766,8 @@ zznews.cn##.ad:not([style])
 ||vcommission.com^
 ||vcsoat.cn^
 ||vcsoat.cn^
+||vcwcrd.cn^
+||vcwcrd.cn^
 ||vczkzswrjais.com^
 ||vddf0.club^
 ||vddoxukqwh.xyz^
@@ -111534,6 +111549,8 @@ zznews.cn##.ad:not([style])
 ||yyujke.top^
 ||yyujke.top^
 ||yywridi.cn^
+||yywvruv.cn^
+||yywvruv.cn^
 ||yywz123.com/file/A*.js
 ||yywz123.com/file/A*.js
 ||yyxjt.cloud^
