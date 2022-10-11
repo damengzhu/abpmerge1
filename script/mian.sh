@@ -2,9 +2,8 @@
 
 # 下载规则
 curl -o i-1.txt https://filters.adtidy.org/android/filters/224_optimized.txt
-curl -o i-2.txt https://code.gitlink.org.cn/damengzhu/filelink/raw/branch/master/360%e6%8b%a6%e6%88%aa%e8%a7%84%e5%88%99.txt
-curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad3.txt
-curl -o i-4.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+curl -o i-2.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad3.txt
+curl -o i-3.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
