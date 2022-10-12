@@ -11,6 +11,7 @@ cat i*.txt > i-mergd.txt
 cat i-mergd.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' > i-tmpp.txt
 sort -n i-tmpp.txt | uniq > i-tmp.txt
 
+python rule.py i-tmp.txt
 
 # 计算规则数
 num=`cat i-tmp.txt | wc -l`
