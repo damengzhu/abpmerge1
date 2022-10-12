@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-10-12 01:39:06
-! Total count: 115549
+! Version: 2022-10-12 06:27:34
+! Total count: 115564
 -1688-wp-media/ads/
 -1688-wp-media/ads/
 -988x60.
@@ -1660,6 +1660,8 @@
 ##[href='/gg1.html'][rel='nofollow']
 ##[href='/hy-66-90.php']
 ##[href='/jump.html']
+##[href='/my/dp.html']
+##[href='/my/gd.html']
 ##[href='/qp-3.html']
 ##[href='/sswj.html'][target='_self'][rel='nofolllow']
 ##[href='/tiao/'][target='_blank']
@@ -1809,6 +1811,7 @@
 ##[src*='/chen-xing/figure_bed_']
 ##[src="https://i.hhhjiimg.com/xall/sp37.gif"]
 ##[src='/gold.jpg'][alt='温馨提醒']
+##[src='/images/c_l.png']
 ##[src='/js/ad_/mobile_bottom.gif']
 ##[src='/js/ad_/mobile_f.jpg']
 ##[src='/js/detail_bottom.gif'][alt='detail_bottom']
@@ -2369,6 +2372,8 @@
 ##a[href*="/bucd.icu/"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/cslpldyc.me"]
+##a[href*="/ctyitopo17.com"]
+##a[href*="/ctyitopo17.com"]
 ##a[href*="/d27.tv"]
 ##a[href*="/d27.tv"]
 ##a[href*="/h91.tv"]
@@ -2515,6 +2520,8 @@
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="/yyh.net/"]
 ##a[href*="/yyh.net/"]
+##a[href*="://2"] > img[src*=".qlogo.cn"]
+##a[href*="://2"] > img[src*=".qlogo.cn"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*=":10443/"] > img[src$="gif"]
@@ -7080,6 +7087,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /amp-ad-
 /amp-analytics-
 /amp-analytics/*
+/amp-call-tracking-
 /amp-connatix-
 /amp-omniture-iframe?
 /amp-skimlinks-
@@ -17116,7 +17124,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|mercell.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
@@ -17208,6 +17216,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
+@@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||histock.tw/JScript/AD/
 @@||histock.tw/JScript/AD/
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
@@ -71871,6 +71880,8 @@ zznews.cn##.ad:not([style])
 ||itresource.vip^
 ||itroggenrolaa.com^
 ||itrustzone.site^
+||itrww.xyz^
+||itrww.xyz^
 ||itrxx.com^$third-party
 ||itseedotor.com^
 ||itskiddoan.club^
@@ -75263,6 +75274,8 @@ zznews.cn##.ad:not([style])
 ||kzeaa.com^
 ||kzecc.com^
 ||kzecc.com^
+||kzeii.com^
+||kzeii.com^
 ||kzerr.com^
 ||kzerr.com^
 ||kzhtgnv.cn^
@@ -83819,6 +83832,7 @@ zznews.cn##.ad:not([style])
 ||okx.com/jsstat/sb?
 ||okytgxmxonxim.com^
 ||ol-img.com/channel/tuku/js/tukuPopup.js
+||oladyip.cn^
 ||olatumal.com^
 ||olayomad.com^
 ||oldart.shop^
@@ -102945,6 +102959,7 @@ zznews.cn##.ad:not([style])
 ||tt123.eastday.com^
 ||tt14q0p2.cn^
 ||tt14q0p2.cn^
+||tt4266acb88a1.ltd^
 ||ttapuycpjvjz.com^
 ||ttavav6.com/zz/
 ||ttavav6.com/zz/
