@@ -462,6 +462,7 @@
 ##.ad_right
 ##.ad_right_1
 ##.ad_right_2
+##.ad_sd #a_d1
 ##.ad_sd #ad1
 ##.ad_text
 ##.ad_thread
@@ -589,6 +590,7 @@
 ##.con_section > .da
 ##.container > .index-ad
 ##.container > .slide-baidu
+##.container > a > img[src*=".qhimg.com"]
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.containeradvertising
@@ -1162,7 +1164,6 @@
 ##a[href*=".123ch.cn"]
 ##a[href*=".1317yb.com"]
 ##a[href*=".1956hl.com/"]
-##a[href*=".233787.com/"]
 ##a[href*=".3366722.com"]
 ##a[href*=".516624.com/"]
 ##a[href*=".51gogogou.com"]
@@ -2830,6 +2831,7 @@
 7808.cn###float-chat
 7808.cn###force-popup
 789ys.com##ul[style]
+789ys.com,fffdm.com##ul[style]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -8787,8 +8789,8 @@ jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
 jrlt7.com###hd + .wp
 jrlt7.com##a[href^="ad."]
-jrlt8.com###hd + .wp
-jrlt8.com##a[href^="ad."]
+jrlt9.com###hd + .wp
+jrlt9.com##a[href^="ad."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 js0573.com###adv1
 js0573.com###adv2
@@ -10405,7 +10407,6 @@ notes.io##.directMessageBanner
 novinite.com##.banner300x250
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
-novipnoad.com##div:not([id]):not([class])
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nowinstock.net###leftBannerBar
