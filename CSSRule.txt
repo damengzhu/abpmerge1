@@ -754,6 +754,7 @@
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
+##.myui-extra + .noticetext
 ##.nQIAj
 ##.nQIAj1
 ##.nav-area + .wrapper .tuiguang
@@ -854,6 +855,7 @@
 ##.topads
 ##.toy52_outer
 ##.toy52apparel_ALL
+##.trad3
 ##.trc-content-sponsored
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
@@ -8639,6 +8641,7 @@ jb51.net###gaosu
 jb51.net##.gsdw
 jb51.net##.idc3
 jb51.net##.tipsa_ds
+jb51.net##p[style$="text-align: center; padding: 0px; margin: 20px 0px;"]
 jb51.net,makaidong.com###txtlink
 jb51.net,makaidong.com##.topimg
 jbaaza.com##.notice-img
@@ -10113,6 +10116,7 @@ mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[href*="/a.ashx"]
 mydrivers.com##a[href*="/zt.ashx"]
+mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[id$="_tab"] > ul > li:first-child
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style="width:728px;height:90px; margin: auto; padding-top: 5px;"]
@@ -10289,7 +10293,10 @@ news.hf365.com##.main-r > div:first-child
 news.ifeng.com##.right1
 news.lyd.com.cn##table[cellspacing="5"]:nth-child(3)
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
+news.mydrivers.com##.baidu_left
 news.mydrivers.com##div[style="width:1000px;padding-top:16px;padding-bottom:12px;"]
+news.mydrivers.com#?#.news_info > p:-abp-has(> a[href^="https://dt.mydrivers.com/"])
+news.mydrivers.com#?#.news_info > p:-abp-has(> strong:contains(双11红包活动推荐))
 news.net##.banner-wr
 news.net##.right-banner-wr > .right
 news.qq.com###focus-bar
