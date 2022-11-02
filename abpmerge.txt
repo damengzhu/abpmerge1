@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-01 16:29:08
-! Total count: 93091
+! Version: 2022-11-02 16:28:28
+! Total count: 93113
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1390,6 +1390,7 @@
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/3525v.com:"]
+##a[href*="/3970t.com:"]
 ##a[href*="/3kmg.top"]
 ##a[href*="/445.ee/"]
 ##a[href*="/5537220.com/"]
@@ -3570,7 +3571,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /\.(com|cn|top)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
-/\.zdx[0-9]{2}\.site:/$script,third-party
+/\.zdx[0-9]{1,2}\.site:/$script,third-party
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=ebay-kleinanzeigen.de
@@ -15280,6 +15281,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||alotof.software/wp-content/themes/alosss/ads.php
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
+@@||amagi.tv/beacon?$xmlhttprequest
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
@@ -23503,6 +23505,7 @@ jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jinbaodm.com##div[id^="a-loading"]
+jinbaodm.com##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 jingdianlaoge.com##.baidu
 jingdianlaoge.com##.leisure-popup
 jingdianlaoge.com##div[style="width: 300px; height: 250px; background:#eee"]
@@ -24961,6 +24964,7 @@ mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*=".ashx?to="]
 mydrivers.com##a[href*="/a.ashx"]
 mydrivers.com##a[href*="/bp.ashx"]
+mydrivers.com##a[href*="/huodong.ashx"]
 mydrivers.com##a[href*="/zt.ashx"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[id$="_tab"] > ul > li:first-child
@@ -40292,6 +40296,7 @@ zztt24.com##.no-mask
 ||beacon.samsclub.com^
 ||beacon.searchspring.io^
 ||beacon.securestudies.com^
+||beacon.sftoaa.com^
 ||beacon.shazam.com^
 ||beacon.shutterfly.com^
 ||beacon.sina.com.cn^
@@ -42778,6 +42783,7 @@ zztt24.com##.no-mask
 ||ccn08sth.de^
 ||ccoo.cn/mystat.asp
 ||ccpa.psg.nexstardigital.net^
+||ccpufcj.cn^
 ||ccpvmjh.cn^
 ||ccrgxye.cn^
 ||ccrtvi.com^$third-party
@@ -46573,6 +46579,7 @@ zztt24.com##.no-mask
 ||d8d4ab7673.com^
 ||d8fb9b701c.com^
 ||d8r7.xyz^
+||d94gz.cn^
 ||d95d7d7060.com^
 ||d9kvn70l4ogn.com^
 ||da-ads.com^
@@ -48429,6 +48436,7 @@ zztt24.com##.no-mask
 ||docyjy.ryderwear.com^
 ||doczj.com/js/common.js
 ||dodgiercuvy.cam^
+||dodhvug.cn^
 ||dodo8.com/template/*/images/g_js/
 ||dodolive.cn^
 ||dodurantom.com^
@@ -48485,6 +48493,7 @@ zztt24.com##.no-mask
 ||domankeyan.com^
 ||dombnrs.com^
 ||domccktop.com^
+||domddcut.cyou^
 ||domdex.com^
 ||domeleco.top^
 ||domicileperil.com^
@@ -50616,6 +50625,7 @@ zztt24.com##.no-mask
 ||eqlidke.cn^
 ||eqpcc.cn^
 ||eqsstvfotd.com^
+||equalweb.com/statistics.taf
 ||equirodi.*/addstat.php
 ||equityjesusdisappointment.com^
 ||eqy.link^
@@ -53468,6 +53478,7 @@ zztt24.com##.no-mask
 ||geo-idm.fr^$third-party
 ||geo-targetly.com^$third-party
 ||geo.bluedot.io^
+||geo.brobible.com^
 ||geo.dailymotion.com/libs/player/$script,domain=mb.com.ph
 ||geo.emol.cl^
 ||geo.ertya.com^
@@ -54814,6 +54825,7 @@ zztt24.com##.no-mask
 ||guanxingyule.com^
 ||guanxs.com^
 ||guanyou.ltd^
+||guarantee-cdn.com^$third-party
 ||guaranteelamp.com^
 ||guardedfebruaryenclosed.com^
 ||guardedschool.com^
@@ -60431,6 +60443,7 @@ zztt24.com##.no-mask
 ||kejia.pw^
 ||kejiadoor.cn^
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
+||kejlfxh.cn^
 ||kekenet.com/Images/*/tom640X40.gif
 ||kekenet.com/images/*/akasuo
 ||kekenet.com/images/*/app
@@ -64262,6 +64275,7 @@ zztt24.com##.no-mask
 ||mbww.com^$third-party
 ||mbxsku.cn^
 ||mbxt.net^
+||mbxw.club^
 ||mbzgogo.xyz^
 ||mc-nudes.com^$third-party
 ||mc.a48505.cn^
@@ -64489,6 +64503,7 @@ zztt24.com##.no-mask
 ||medium.com/_/clientele/reports/performance/
 ||mediumpimpin.com^$third-party
 ||medleyads.com^
+||medoucine.com/tracking/
 ||medsci.cn/aimgs/$script
 ||medsci.cn/images/wyg.jpg
 ||medusasailor.com^
@@ -66478,6 +66493,7 @@ zztt24.com##.no-mask
 ||mygtmn.com^$third-party
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
+||myhao.club^
 ||myhard.com/s?z=
 ||myhg.healthgrades.com^
 ||myhome.usg.com^
@@ -67717,6 +67733,7 @@ zztt24.com##.no-mask
 ||nsm.dell.com^
 ||nsmartad.com^
 ||nsmetrics.ni.com^
+||nsnignsc.xyz^
 ||nsnoownmc.fun^
 ||nsontrackso.online^
 ||nsparket.top^
@@ -74035,6 +74052,7 @@ zztt24.com##.no-mask
 ||rfksrv.com/rfk/$third-party
 ||rfksrv.com/rfkj/$image
 ||rflvxoexouyftg.com^
+||rfnhwaj.cn^
 ||rfpx1.com^
 ||rfr-69.com^$third-party
 ||rftqvbgisqke.com^
@@ -74051,6 +74069,7 @@ zztt24.com##.no-mask
 ||rgiixp.sperry.com^
 ||rgjeow3.com^
 ||rglvbpi.cn^
+||rgnlaigz.fun^
 ||rgpvgoej.com^
 ||rgrd.xyz^
 ||rgsuixxwncmkj.com^
@@ -77106,6 +77125,7 @@ zztt24.com##.no-mask
 ||simastudio.cn^
 ||simg.bwin.com^
 ||simg.gamebookers.com^
+||simi345.me^
 ||simility.com^$third-party
 ||similm.me^
 ||similt.com^
@@ -85836,6 +85856,7 @@ zztt24.com##.no-mask
 ||uglyp.club^
 ||ugmarketing.smu.edu.sg^
 ||ugmvoys.cn^
+||ugnlaigt.fun^
 ||ugonwcxwo.com^
 ||ugroocuw.net^
 ||uguhpfo.cn^
@@ -92956,6 +92977,7 @@ zztt24.com##.no-mask
 ||zxc.yijiayi07.top^
 ||zxcdn.com^
 ||zxclan.com^
+||zxcv1.com^
 ||zxdb123caducn.xyz^
 ||zxdy777.com/myimg/
 ||zxeotdjlzvcsa.com^
