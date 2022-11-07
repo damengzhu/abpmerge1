@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-06 16:24:20
-! Total count: 93180
+! Version: 2022-11-07 16:25:09
+! Total count: 93208
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7130,6 +7130,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /css/adv.
 /css/adz.
 /css/gg.js
+/css_js/site/kfeeo/*
 /cssjs/ads/*
 /cta-loaded.js
 /ctd-sourcepoint.
@@ -15209,7 +15210,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -18634,6 +18635,7 @@ baike.com##.ad_xuanban
 baike.so.com##section#business-flow.business-flow
 baikebcs.bdimg.com/*banner*.jpg
 baiten.cn##.JS_advertisement
+baiten.cn##.news2ad
 baixing.com###port-info
 baixing.com##.a_d_s_hidden_link
 baixing.com##.guide-video-app
@@ -24740,6 +24742,7 @@ mobile01.com##.fast-ad
 mobile01.com##.u-ad-image
 mobile01.com#$#.modal-backdrop { display: none!important; }
 mobile01.com#$#body { overflow: visible!important; }
+mobile01.com#?#.l-articlePage:-abp-has(> .l-articlePage__author .c-authorInfo__id > a[href^="/marketstore.php?"])
 mobile01.com#@#.googlead
 mobile01.com$$script[tag-content="$.cookie(""fullscreenad"""][max-length="550"]
 mobilemagazinehk.com##.adv2
@@ -27582,6 +27585,7 @@ techbang.com###stickies
 techbang.com##.ad_grey_floor
 techbang.com##.article > #post-additional
 techbang.com##.google-dfp
+techbang.com##.phone-ads
 techbang.com##.post-side > .related-article
 techbang.com##.techbang_i_m_970x250_1
 techbang.com##div[class^="techbang_inline_"]
@@ -29902,6 +29906,7 @@ zztt24.com##.no-mask
 ||0302.pghwwjd.com/777dvd/gg.html
 ||0302.pghwwjd.com/777dvd/wapbb.html
 ||0302.pghwwjd.com/777dvd/wapbb.js
+||031dfgh.com^
 ||033.com^$third-party
 ||0346420d60.com^
 ||0351dvd.cn^
@@ -30211,6 +30216,7 @@ zztt24.com##.no-mask
 ||1100i.com^
 ||110160.com^$third-party
 ||110380d053f716c4.com^
+||1104piaoba2022.xyz^
 ||1105yh.com^
 ||110hack.com/article/UploadPic/
 ||11111.host^
@@ -32919,6 +32925,7 @@ zztt24.com##.no-mask
 ||a1.gexing.me^
 ||a1.lshou.com^
 ||a1.q6u.com^
+||a1.qqan.com^
 ||a1.qqtn.com^
 ||a1.shusanqi.com^
 ||a1.sumiaowang.com^
@@ -36264,6 +36271,7 @@ zztt24.com##.no-mask
 ||aedqunriyswthc.com^
 ||aeeg5idiuenbi7erger.com^
 ||aeesy.com^
+||aeg32y.top^
 ||aeheymuatansp.xyz^
 ||aehjtauekqjtvc.com^
 ||aehudh.rakumachi.jp^
@@ -36856,6 +36864,7 @@ zztt24.com##.no-mask
 ||akielf.com^
 ||akilifox.com^
 ||akimboeloiner.com^
+||akk1556.com^
 ||aklamator.com^$third-party
 ||aklienyxjhdn.com^
 ||akmh001.vip^
@@ -39590,6 +39599,7 @@ zztt24.com##.no-mask
 ||b8cdn.com/assets/v1/analytics-
 ||b8cf0fd3179ef.com^
 ||b8e437d3a3.com^
+||b8f40t2i.cn^
 ||b8pfulzbyj7h.com^
 ||b9490c0b38.com^
 ||ba01n.com^
@@ -47661,6 +47671,7 @@ zztt24.com##.no-mask
 ||dffaernr.com^
 ||dfgbalon.com^
 ||dfggb.cc^
+||dfggq.com^
 ||dfjbgfldsjdsnldksjalld1235.cn^
 ||dfmngtubtdfxnq.com^
 ||dfokydq.cn^
@@ -50383,6 +50394,7 @@ zztt24.com##.no-mask
 ||employedlawn.com^
 ||emptyescort.com^
 ||emptyspaceads.com^
+||emptz.cyou^
 ||ems.youku.com/event?
 ||emsservice.de^
 ||emsservice.de^$domain=spiegel.de
@@ -50864,6 +50876,7 @@ zztt24.com##.no-mask
 ||etoexukpre.com^
 ||etology.com^$third-party
 ||etongxs.com/mb/meng/
+||etop.ro^
 ||etoro.com/tradesmonitor/
 ||etp-prod.com^$third-party
 ||etracker.com^$third-party
@@ -51905,6 +51918,7 @@ zztt24.com##.no-mask
 ||ffflxue.cn^
 ||ffhre.com^
 ||ffkdxymyji.com^
+||ffnvhig.cn^
 ||ffpp.xyz^
 ||ffrmwn.musinsa.com^
 ||ffrxuokerqsi.com^
@@ -52994,6 +53008,7 @@ zztt24.com##.no-mask
 ||fwpixel.com^$third-party
 ||fwsir.com/static/cpt/
 ||fwvwural.xyz^
+||fwwjbvz.cn^
 ||fwwpnhdssbqofu.xyz^
 ||fx110.*/Pub/Ghz/GetModel
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
@@ -54488,7 +54503,6 @@ zztt24.com##.no-mask
 ||gouqi.asia^
 ||gourmetads.com^$third-party
 ||gousouse.com^
-||goutee.top^$third-party
 ||goutong.baidu.com^
 ||gouweida.cn^
 ||gouyb.mobi^
@@ -55173,6 +55187,7 @@ zztt24.com##.no-mask
 ||hahamx.cn/upload/data/detail_
 ||hahamx.cn/upload/data/list_sidebar_
 ||hahazl.com^
+||haiao.wang^
 ||haibomuye.com/forever/
 ||haichengdzsp.com^
 ||haidongqing.top^
@@ -57607,6 +57622,7 @@ zztt24.com##.no-mask
 ||img1.126.net^
 ||img1.biyan8.com^
 ||img1.eywdf.com^
+||img1.hblds.com^
 ||img1.leyun365.com^
 ||img1.qqwangming6.com^
 ||img1.yulu99.com^
@@ -57876,6 +57892,7 @@ zztt24.com##.no-mask
 ||induis.com^
 ||industry.promo.skf.com^
 ||industrybrains.com^$third-party
+||ineed2s.ro^
 ||ineedhits.com^$third-party
 ||inenau.com^
 ||inencr.woodhouseclothing.com^
@@ -59061,7 +59078,6 @@ zztt24.com##.no-mask
 ||javdove.com/templates/frontend/javdove/*/partialviewslider.
 ||javgg.eu^
 ||javguru.top/126_*.js
-||javhd.com/*/300x250.html?
 ||javhd.com/ascripts/gcu.js
 ||javhd.com/banners-mainpage/
 ||javhd.com/rstat
@@ -62569,6 +62585,7 @@ zztt24.com##.no-mask
 ||lmgvur.scbt.com^
 ||lmiutil.com^$third-party
 ||lmjy.us^
+||lmlmvip.com^
 ||lmn-pou-win.com^
 ||lmxxxz.com^
 ||ln.ameba.jp^
@@ -65763,6 +65780,7 @@ zztt24.com##.no-mask
 ||mobile-10.com^$third-party
 ||mobile.sina.cn/public/files/image/600x150_
 ||mobile.sina.cn/public/files/image/620x300_
+||mobile01.com/groupbuying.php
 ||mobileadspopup.com^
 ||mobiledevel.com^
 ||mobilehdmi.com^
@@ -66224,6 +66242,7 @@ zztt24.com##.no-mask
 ||mt.64foot.com^
 ||mt34iofvjay.com^
 ||mt48.net^
+||mt66g.com^
 ||mtag.mman.kr^
 ||mtbjupleyqy.xyz^
 ||mtbraqc.cn^
@@ -67462,6 +67481,7 @@ zztt24.com##.no-mask
 ||nkcfhm.cn^
 ||nkepulqeetn.com^
 ||nkevca.cn^
+||nkgutoa.cn^
 ||nkjiashi.com^
 ||nkmsite.com^
 ||nknowledcon.one^
@@ -72713,6 +72733,7 @@ zztt24.com##.no-mask
 ||qksz.net^
 ||qktbbiavkqcqmn.com^
 ||qktfwkftgqeynnp.com^
+||qktmwiq.cn^
 ||qkuvmwf.cn^
 ||qkxzdm.stellenanzeigen.de^
 ||qkycbbarwyuef.com^
@@ -73265,6 +73286,7 @@ zztt24.com##.no-mask
 ||ralijqugghwqil.com^
 ||rallynabdoomed.com^
 ||ralphabnegation.com^
+||ralphlauren.com^*/init.js
 ||rambler.ru/counter.js
 ||rambler.ru/metrics/
 ||rambler.ru/ts-metrics/
@@ -78660,6 +78682,7 @@ zztt24.com##.no-mask
 ||smetrics.ragsdaleair.com^
 ||smetrics.ralphlauren.co.kr^
 ||smetrics.ralphlauren.com.au^
+||smetrics.ralphlauren.com^
 ||smetrics.ralphlauren.global^
 ||smetrics.ralphlauren.nl^
 ||smetrics.rate.com^
@@ -81770,6 +81793,7 @@ zztt24.com##.no-mask
 ||szmsao.com^
 ||szmxwjm.com^
 ||sznews.com/s?z=
+||sznj91.com^
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
 ||szpl0.com^
@@ -85606,6 +85630,7 @@ zztt24.com##.no-mask
 ||twwkrcec.com^
 ||twzui6.com^
 ||tx.sunriseoutdoor.cn^
+||tx99y.net^
 ||txahz.com/static/image/tp/
 ||txcmjo.com^
 ||txcsudkymdq.com^
@@ -88516,6 +88541,7 @@ zztt24.com##.no-mask
 ||werelateral.com^
 ||wererxrzmp.com^
 ||werese.com^
+||wergy.xyz^
 ||werpig.com^
 ||wervp.com^
 ||weshuhori.com^
@@ -89227,6 +89253,7 @@ zztt24.com##.no-mask
 ||writtenanonymousgum.com^
 ||writtenlistened.com^
 ||wrivedipnoi.com^
+||wrjgeh.com^
 ||wrkdih.com^
 ||wrkl.xyz^
 ||wrongpotato.com^
@@ -92409,6 +92436,7 @@ zztt24.com##.no-mask
 ||zglww.net/jsnew/pfkf.js
 ||zglzkg.com^
 ||zgmtw.mobi^
+||zgnlaigq.fun^
 ||zgnz020.mobi^
 ||zgnzhymh.mobi^
 ||zgrsq.cn^
