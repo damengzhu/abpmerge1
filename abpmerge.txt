@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-08 16:29:08
-! Total count: 93221
+! Version: 2022-11-09 16:26:10
+! Total count: 93240
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12677,6 +12677,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /vTracker_
 /va-stat.
 /valnet-header-ads.
+/valnet-header.
 /valor_analytics.
 /valor_analytics/*
 /valuad.
@@ -20063,6 +20064,8 @@ cumlouder.com##div[class^="resumecard__banner"]
 cuntest.net###banners
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner-box
+cupfox.app#?##outer-container > .model:-abp-has(> .model-content > a[href*=".jd.com"])
+cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
 cupfox.app#@#.adsbygoogle
 cupfox.app,zuoyesou.com##.banner-box
 curioustic.com##.grey
@@ -23022,6 +23025,7 @@ imgbabes.com##div[style^="width:604px;"]
 imgbb.com##.abnr
 imgbox.com###full-page-redirect
 imgburn.com##font[face="Arial"][size="1"]
+imgse.com##.ad-banner
 imgtaxi.com##.bottom_abs
 imgur.com##.PrimisPlayerContainer
 imgur.com##.Top300x600
@@ -23511,6 +23515,8 @@ jianshu.com##.top
 jianshu.com##a[id^="web-note-ad"]
 jianshu.com##div[aria-label="amc-ad"]
 jianshu.com##section[aria-label="jianshu-ad"]
+jianshu.com##section[class][aria-label="ad360-ad"]
+jianshu.com#%#//scriptlet("set-constant", "NEWS_FEED", "noopFunc")
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
@@ -31524,6 +31530,7 @@ zztt24.com##.no-mask
 ||51dianji.cn^
 ||51dmn.top^
 ||51ertong.com^
+||51fa.shop^
 ||51fanli.net/misc/images/invite-v4/banner.gif
 ||51fishplace.com^
 ||51foodsafe.cn^
@@ -44051,6 +44058,7 @@ zztt24.com##.no-mask
 ||clickzs.com^$third-party
 ||clickzzs.nl^$third-party
 ||client-analytics.braintreegateway.com^
+||client-analytics.mts.ru^
 ||client-log.box.com^
 ||client-metrics.chess.com^
 ||client.tahono.com^$third-party
@@ -48889,6 +48897,7 @@ zztt24.com##.no-mask
 ||dscex7u1h4a9a.cloudfront.net^
 ||dscloud.ltd^
 ||dscmcbov.com^
+||dsfhr.xyz^
 ||dsfjhfhyry2hh8jo09.com^
 ||dsg.interia.pl^
 ||dsh7ky7308k4b.cloudfront.net^
@@ -50685,6 +50694,7 @@ zztt24.com##.no-mask
 ||equirodi.*/addstat.php
 ||equityjesusdisappointment.com^
 ||eqy.link^
+||eqyzc.cyou^
 ||er.5ykj.cn^
 ||er.5ykj.com^
 ||er.sanoma-sndp.fi/stats/
@@ -53751,6 +53761,7 @@ zztt24.com##.no-mask
 ||gfvip09at.com^
 ||gfwiygrvi.xyz^
 ||gfxa.sheetmusicplus.com^
+||gfxjjpo.cn^
 ||gg-baidu.xyz^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
@@ -57056,6 +57067,7 @@ zztt24.com##.no-mask
 ||i3yz.icu^
 ||i3z.cn^$third-party
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
+||i46.xyz^
 ||i4gk3rxn.cn^
 ||i4rsrcj6.top^
 ||i54.xyz^
@@ -57340,6 +57352,7 @@ zztt24.com##.no-mask
 ||ifrwam.com^$third-party
 ||ifsdg.xyz^
 ||ifsmatbeg.site^
+||iftjwuu.cn^
 ||ifufen.com^
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
@@ -60463,6 +60476,7 @@ zztt24.com##.no-mask
 ||kcfuzhj.cn^
 ||kcgkxha.cn^
 ||kck.st/web/track
+||kcmomkn.cn^
 ||kcogjewebvtbk.com^
 ||kcolbda.com^$third-party
 ||kcqoej.roborock.com^
@@ -70843,6 +70857,7 @@ zztt24.com##.no-mask
 ||plausible.redchamp.net^
 ||plausible.regex.help^
 ||plausible.riok.ch^
+||plausible.safing.io^
 ||plausible.simplelogin.io^
 ||plausible.slope.io^
 ||plausible.staging.sketch.com^
@@ -73854,6 +73869,7 @@ zztt24.com##.no-mask
 ||rentingketch.com^
 ||rentiyishu.org/*.js
 ||rentracks.jp^$third-party
+||renxingganwu.com^
 ||renxinghuan.com^
 ||reofamily.cn^
 ||reojou.com^
@@ -79712,6 +79728,7 @@ zztt24.com##.no-mask
 ||sqiwfbgqohfmb.com^
 ||sqjagvoe.com^
 ||sqlick.com^
+||sqnggnsb.fun^
 ||sqpgncbm.com^
 ||sqr3.xyz^
 ||sqs.quoka.de^
@@ -81025,6 +81042,7 @@ zztt24.com##.no-mask
 ||streamtape.com/stat/
 ||streamtape.site/adult
 ||streamtapeadblock.art/stat/
+||streamtapeadblockuser.homes/stat/
 ||streamtheworld.com/imp?
 ||streamtoclick.com^
 ||streamyourvid.com^
@@ -85768,6 +85786,7 @@ zztt24.com##.no-mask
 ||u0082.com^
 ||u0083.com^
 ||u05.xyz^
+||u09.xyz^
 ||u0crsrah75fy.camberlion.com^
 ||u0r9.cn^
 ||u1.2048sj.com^
