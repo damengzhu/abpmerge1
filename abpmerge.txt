@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-10 16:25:44
-! Total count: 93442
+! Version: 2022-11-11 16:25:18
+! Total count: 93429
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -735,6 +735,7 @@
 ##.main-ad-r
 ##.main-ad-r + .topad
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
+##.mainbg > #s11navtop
 ##.maomi-content > #main-container > .row.mob40 + .row
 ##.maomi-content > .section-banner
 ##.maomi-content > .section-menu > .row > a[target="_blank"]
@@ -844,6 +845,7 @@
 ##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
+##.tmall_bg15
 ##.tooltip > #tp
 ##.top > a > .topline[src^="/photo/"]
 ##.top-ads
@@ -1171,7 +1173,6 @@
 ##a[href$="/108mg8.com"]
 ##a[href$="/186ob.com"]
 ##a[href$="/1c626.com"]
-##a[href$="/244017.cc"]
 ##a[href$="/6626596.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/88hjd7.com"]
@@ -1181,15 +1182,11 @@
 ##a[href$="/ky6y.com"]
 ##a[href$="/liyusheng.com"]
 ##a[href$="/lol8.co"]
-##a[href$="/my15.tv"]
-##a[href$="/od567.net"]
 ##a[href$="/q522p.com"]
-##a[href$="/sangmookwan-texas.com"]
 ##a[href$="/xh8k.vip"]
 ##a[href$="/xha77.com"]
 ##a[href$="/xhg23.com"]
 ##a[href$="ky9402.com"]
-##a[href$="s.hw226.cn"]
 ##a[href*=".05bq.com/"]
 ##a[href*=".08an.com/"]
 ##a[href*=".123ch.cn"]
@@ -1383,7 +1380,6 @@
 ##a[href*="/10093813.com"]
 ##a[href*="/1015219.com/"]
 ##a[href*="/1033776.com/"]
-##a[href*="/111.231.78.194/"]
 ##a[href*="/1180595.com/"]
 ##a[href*="/1198976.com/"]
 ##a[href*="/1205682.com/"]
@@ -1419,6 +1415,7 @@
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
+##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/aiyoubet178.com/"]
@@ -1461,33 +1458,17 @@
 ##a[href*="/ky7993.com:"]
 ##a[href*="/l1y5.com"]
 ##a[href*="/l1y9.com"]
-##a[href*="/leyu001.ee"]
 ##a[href*="/leyu178.ee"]
-##a[href*="/ly0909.com"]
-##a[href*="/ly1111.vip"]
-##a[href*="/ly288.net"]
 ##a[href*="/mda1.site/"]
 ##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
 ##a[href*="/mt86k.xyz"]
-##a[href*="/nba9.lol"]
 ##a[href*="/nf.brushshopy.com"]
-##a[href*="/od005.cn"]
-##a[href*="/od005.com"]
-##a[href*="/od005.net"]
-##a[href*="/od005.tv"]
-##a[href*="/od005.vip"]
-##a[href*="/od006.net"]
-##a[href*="/od05.vip"]
 ##a[href*="/odnb.vip"]
-##a[href*="/odty55.cc"]
 ##a[href*="/ppffj.me/"]
-##a[href*="/r3325.cc"]
-##a[href*="/r3326.cc"]
 ##a[href*="/register/?i_code="] > img
-##a[href*="/rg200.com/"]
 ##a[href*="/shishangta.cn"]
 ##a[href*="/t4078.com:"]
 ##a[href*="/t4741.com"]
@@ -1495,16 +1476,12 @@
 ##a[href*="/tv668.cc"]
 ##a[href*="/tv688.cc"]
 ##a[href*="/uu5566.cn.com/"]
-##a[href*="/uuzb50.cc/"]
 ##a[href*="/v9038.com:"]
-##a[href*="/winbox.plus"]
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xchina.fun/redirect/ad"]
-##a[href*="/xmkgc.com/"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/ybhth689.com"]
-##a[href*="/yhbet50.vip"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="/yyh.net/"]
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
@@ -1513,7 +1490,6 @@
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
-##a[href*="itoon.app"]
 ##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
@@ -1525,22 +1501,16 @@
 ##a[href="http://www.tw787.com/"]
 ##a[href="http://www.yabovip5.cc/"]
 ##a[href="https://368259.com"]
-##a[href="https://537687.com"]
-##a[href="https://5385442.com"]
-##a[href="https://8646543.com"]
-##a[href="https://87nn.cc/"]
 ##a[href="https://guapitv.app/"]
-##a[href="https://tongchengkongjiangyp0002.com"]
-##a[href="https://uu14.vip/"]
 ##a[href="https://www.ledlandi.com"]
 ##a[href="https://www.ybvip1879.vip"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
+##a[href] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
-##a[href^="http"] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -1659,7 +1629,6 @@
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".5408h.cn"]
 ##img[onclick*=".aiyou305.com/"]
-##img[onclick*=".dxsdkw.cn"]
 ##img[onclick*=".gghktv.com/"]
 ##img[onclick*=".hth390.com"]
 ##img[onclick*=".qq.com/doc/"]
@@ -7131,7 +7100,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /css/adv.
 /css/adz.
 /css/gg.js
-/css_js/*$domain=jy135.com|yuwenmi.com|aiyangedu.com|oh100.com|duanmeiwen.com|qunzou.com|unjs.com|yjbys.com
+/css_js/*$domain=aiyangedu.com|duanmeiwen.com|jy135.com|oh100.com|qunzou.com|unjs.com|yjbys.com|yuwenmi.com
 /cssjs/ads/*
 /cta-loaded.js
 /ctd-sourcepoint.
@@ -13313,6 +13282,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 0439.com###kanfang
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
 0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com###diynavtop
+0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 0517w.com,lysq.com###diyad
 0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
 0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com,ytshe.com###diy1
@@ -15129,6 +15099,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||520cc.cc/ad/ad_1.php
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
+@@||520cc.cc^*/ad.php
 @@||5278.cool^$generichide
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
@@ -29163,7 +29134,6 @@ xxxsm.vip##a[href="ilupian8.html"]
 xxxvogue.net##.banners-container
 xxxvogue.net##.link-adv
 xxxymovies.com##.kt_imgrc
-xydai.cn###diynavtop
 xydai.cn##.deanad4s
 xyg39.xyz###__top_header + script + div
 xyj321.com##.foot_alert_wrap
@@ -31227,6 +31197,7 @@ zztt24.com##.no-mask
 ||377zt.cn^
 ||3798.com^$third-party
 ||37cs.com^$third-party
+||380.tw^$popup,third-party
 ||387635.com^
 ||38ra.com^$third-party
 ||38taobao.com^
@@ -35958,6 +35929,7 @@ zztt24.com##.no-mask
 ||adslvr.com^
 ||adsmarket.com^
 ||adsmart.hk^$third-party
+||adsmatcher.com^$third-party
 ||adsnative.com^
 ||adsnetworkserver.com^
 ||adsninja.ca^$third-party
@@ -36730,6 +36702,7 @@ zztt24.com##.no-mask
 ||aidspectacle.com^
 ||aidsro.ostin.com^
 ||aiedduop.cyou^
+||aiedwhb.cn^
 ||aifaka.cc^
 ||aifei0755.net/123/
 ||aifenka.cn^
@@ -41711,6 +41684,7 @@ zztt24.com##.no-mask
 ||br.ac.travelocity.com^
 ||br.ac2.cheaptickets.com^
 ||br.backmarket.fr^
+||br.bendan.shop^
 ||br.email.lifesum.com^
 ||br.eml.walgreens.com^
 ||br.fling.com^
@@ -43205,6 +43179,7 @@ zztt24.com##.no-mask
 ||cestyraten.club^
 ||cetlog.jp^$third-party
 ||cetrk.com^$third-party
+||ceu5.icu^
 ||cevementalc.xyz^
 ||cevowesty.com^
 ||cewaugaz.net^
@@ -44642,6 +44617,7 @@ zztt24.com##.no-mask
 ||coinadv.com^$third-party
 ||coinadvert.net^
 ||coincheck.com/images/affiliates/
+||coincheckup.com/report_ga_events/
 ||coincodex.com^$subdocument,~third-party
 ||coinerra.com^$third-party
 ||coingolive.com/assets/img/partners/
@@ -46077,6 +46053,7 @@ zztt24.com##.no-mask
 ||cv1.stefany.co.jp^
 ||cv252.chinachooses.com^
 ||cvastico.com^
+||cvcddno.cn^
 ||cvlb.dev^
 ||cvqgnkeqme.com^
 ||cvs.com/tnadstlinj.js
@@ -51418,6 +51395,7 @@ zztt24.com##.no-mask
 ||ezlian.com^$third-party
 ||ezmob.com^$third-party
 ||ezmppjg.cn^
+||ezngisyw.xyz^
 ||ezobam.jdsports.nl^
 ||ezodn.com^
 ||ezojs.com^
@@ -53169,6 +53147,7 @@ zztt24.com##.no-mask
 ||fyijt.cn^
 ||fyjyhm.com^
 ||fykqixiyyd.com^
+||fypcy.cyou^
 ||fyreball.com^$third-party
 ||fyrsbckgi-c.global.ssl.fastly.net^
 ||fythavoshu.com^
@@ -59519,6 +59498,7 @@ zztt24.com##.no-mask
 ||jibn12.jintang114.org^
 ||jiedaibao.gs^
 ||jiedaibao120.cn^
+||jiedu.fun^
 ||jiegeng.com/static/json/jg_topFixed.
 ||jiehe.me^
 ||jiejiemimu.cn^
@@ -63095,6 +63075,7 @@ zztt24.com##.no-mask
 ||lousyfastened.com^
 ||lovapy.com^
 ||love-banner.com^$third-party
+||love-yy.company^
 ||love.furenkeji.com^
 ||lovecam.com.br^$third-party
 ||lovecat.online^
@@ -68579,6 +68560,7 @@ zztt24.com##.no-mask
 ||ojskdlfjkdk.hdypw.com^
 ||ojvxtz.junonline.jp^
 ||ojwejqeqvxn.xyz^
+||ok-11-cai.cc^
 ||ok-app.online^
 ||ok-ddjsyuming.com^
 ||ok-qqzzjsyuming.com^
@@ -69418,6 +69400,7 @@ zztt24.com##.no-mask
 ||ouwmdvd.cn^
 ||ouxutong.com^
 ||ouyaoxiazai.com/static/img/cqthree.gif
+||ouyhh.xyz^
 ||ouzhijie.top^
 ||ouzoadru.net^
 ||ovalweek.com^
@@ -71490,6 +71473,7 @@ zztt24.com##.no-mask
 ||potd.onlytease.com^
 ||potentill3afr5ui7ticosa.com^
 ||potentingaknt.club^
+||pothouse.cn^
 ||potionutilize.com^
 ||potlikivmpaugt.com^
 ||potnormal.com^
@@ -86758,6 +86742,7 @@ zztt24.com##.no-mask
 ||uslioert.com^
 ||usmetric.rediff.com^
 ||usmhimw.cn^
+||usnczrq.cn^
 ||usnews.com/static/esi/usn-geo.json
 ||usnignst.xyz^
 ||usnoownmt.fun^
@@ -86916,6 +86901,7 @@ zztt24.com##.no-mask
 ||v.tysjkw.cn^$third-party
 ||v.wsnew.cn^
 ||v.zhuozhongfangshui.cn^
+||v09.xyz^
 ||v1-preview-wwwowa-csr12.assets.net.zooplus.de^
 ||v1-preview-wwwowa-datasvcbackend.idsdataingsvcanalytics-lax-getter.net.zooplus.de^
 ||v1-preview-wwwowa-emea.dockertrial.net.zooplus.de^
@@ -89452,6 +89438,7 @@ zztt24.com##.no-mask
 ||wqkxlke.cn^
 ||wqlkp.com^
 ||wqmfbqpbnmgyi.com^
+||wqnggnse.fun^
 ||wqnmbecaugfpl.com^
 ||wqprtyg.cn^
 ||wqqhhrrakip.xyz^
