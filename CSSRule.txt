@@ -2144,7 +2144,9 @@
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.vip##.bot-per-context
 18comic.vip##DIV.bot-per-times
 18comic.vip##DIV.col-lg-3.col-md-3
@@ -2676,6 +2678,7 @@
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn503.com##.GzList
 52ghai.com##.a_xiu_t
 52ghai.com##.yttl_x_g
 52kd.com###frame2cu3VU
@@ -4120,9 +4123,10 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:-abp-has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:-abp-has(.bypb-icon) { remove: true; }
-bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--ad)
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
+bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
+bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -4943,8 +4947,8 @@ cnbeta.com#?#.items-area > .item:-abp-has(> dl > dt > a[href^="http"]:not([href*
 cnbeta.com,cnbeta.com.tw##.cbv:not(#cb_share)
 cnbeta.com,cnbeta.com.tw##.tks
 cnbeta.com,cnbeta.com.tw,qudong.com##a[href*=".ctyun."]
+cnbeta.com,editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent."]
-cnbeta.com,itboth.com,itkeyword.com,ruyo.net##a[href*="cloud.tencent.com"]
 cnbeta.com,qudong.com##a[href*=".ctyun."]
 cnbeta.com,sojson.com##a[href*=".upyun."]
 cnbeta.com,thinkphp.cn##.cooperation
@@ -5089,7 +5093,7 @@ comedycentral.com.au##.pane-vimn-coda-gpt-panes
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 cometbird.com##.gg_250x250
 comic.qq.com###fixed_right > div
-comicat.org,cupfox.app,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
+comicat.org,cupfox.app,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com##a[href*=".jd.com"]
 comicat.org,kisssub.org##a[href*="db."]
 comicbook.com##.embedVideoContainer
@@ -11911,6 +11915,7 @@ setn.com##.rightFloat
 setn.com,eprice.com.tw##div[class^="ad-"]
 seura.fi##.nativead:not(.list)
 sevenforums.com##.chill
+sex-gen.com##.navi
 sex3.com##.add-box
 sex3.com##.adv-leftside
 sex8.cc###nv > ul.cl > li > a[href^="http"]
@@ -14640,8 +14645,6 @@ zhanqi.tv##.js-activity-show
 zhanqi.tv##.new-advertising-area
 zhanqi.tv##a[href*=".bfun.cn/ad."]:not([href*=".zhanqi."])
 zhanqi.tv##a[href^="http://www.2133."]
-zhanzhangb.com##a[href*=".jd.com"]
-zhanzhangb.com##a[href*="cloud.tencent.com"]
 zhaogepu.com##.banner_top
 zhaohuangpian.net##a[href="https://galaxymedia.xyz/app/"]
 zhaolianmeng.com###wzgg
@@ -14727,6 +14730,7 @@ zhujiceping.com###footer-widget-box
 zhujiceping.com###text-12
 zhujiceping.com##aside[id^="custom_html-"]
 zhujiwiki.com##.msg
+zhujiwiki.com##.ssrtop
 zhuna.cn##a[href*="quchuchai."]
 zhuwang.cc###ALayer1
 zhuwang.cc###ALayer2
