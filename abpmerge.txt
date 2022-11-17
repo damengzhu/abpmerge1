@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-16 16:23:48
-! Total count: 93609
+! Version: 2022-11-17 16:24:28
+! Total count: 93640
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -82,6 +82,7 @@
 ###advt
 ###adx_cggp
 ###app > .publicAllContentBg > .bigBannerBg
+###app.app > .topic-big
 ###appBottomIn
 ###appIn
 ###appqrcode
@@ -553,6 +554,8 @@
 ##.b_sxp + .zxy
 ##.baiduad
 ##.banner-ad-section
+##.banner-cctv-A2
+##.banner-cctv-Topping
 ##.banner[align='center']
 ##.bannerliststyle[style^="min-height"]
 ##.bdyp-sygg-ul
@@ -1573,6 +1576,7 @@
 ##div#xinxi
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##div.main div.content div[id].is_mb a[id] img[id]
+##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div>span>[href='###']
@@ -7817,6 +7821,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /fp/clear1.png
 /fp/clear2.png
 /fp/clear3.png
+/fp/es.js
 /fp/fp.swf
 /fp/ls_fp.
 /fp/tags.js
@@ -9097,6 +9102,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /lenovo/pc/all*.js
 /lenovo/pc/piaofu2.js
 /lenovo/pc/top.js
+/letv-gug/*$media,domain=le.com
 /lftracker.
 /lftracker_
 /lg.php?adid=
@@ -14462,6 +14468,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.story > .placeholderWrapper
+6park.com##A[href*=".php?key="]
 6park.com##a[href*="/link.php?key="]
 6park.com##img[width="980"][height="90"]
 6park.com##table[width="89%"][height="60"]
@@ -15034,7 +15041,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/webtracking/*$domain=pasts.lv
 @@/wp-content/*/social_$domain=servercat.me
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
-@@://*/gg/$domain=gg.go.kr
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
@@ -28134,11 +28140,12 @@ tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
 tubepornclassic.com##.___it0h1l3u2se2lo
 tuberel.com##.fel-list
 tuberel.com##.vda-item
+tucao.eu##.alert_windows
+tucao.eu##.header_rmb
 tucao.lol###t7_att
 tucao.lol##.td1
 tucao.lol##a[href*=".onelink.me"]
 tucao.lol##div[class^="c_c"]
-tucao.mom##.header_rmb
 tuchong.com##.float
 tui18.com##.wp[style^="width:"]
 tuko.co.ke##.c-adv
@@ -29818,6 +29825,8 @@ zzbaike.com###topnav
 zzbaike.com###topnav + div[style]
 zzbaike.com##.imglistbg-ad
 zzbaike.com##.imglistbg_ad
+zzkdhb.com##li[style*="important;"]
+zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn##.ad:not([style])
 zztt24.com##.no-mask
 |.gif$domain=fashangji.com
@@ -32138,6 +32147,7 @@ zztt24.com##.no-mask
 ||6snjvxkawrtolv2x.pro^
 ||6tj.com/ent/fkbg/20191220/a46326c6a57fc066a6d985ceabdc42f6.jpg
 ||6travel.com^$third-party
+||6u4j.icu^
 ||6ujk8x9soxhm.com^
 ||6v4.cn^$third-party
 ||6v6.work^
@@ -34155,6 +34165,7 @@ zztt24.com##.no-mask
 ||abcccccc.club^
 ||abcd.5lu.com^
 ||abcd.yiq.com^
+||abcd.zle.com^
 ||abcdcfasda.gushiwen.cn^
 ||abcdlm.com^
 ||abcj.dooccn.com^
@@ -38656,6 +38667,7 @@ zztt24.com##.no-mask
 ||arizonapuzzle.com^
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?res=
+||ark.letv.com/s?res=$badfilter
 ||ark.letv.com/s?vid=
 ||ark.letv.com/t?
 ||arkalealb.site^
@@ -42272,6 +42284,7 @@ zztt24.com##.no-mask
 ||bxumze.dispatch.com^
 ||bxumze.jacksonville.com^
 ||bxw666.com/storage/*.gif
+||bxwccii.cn^
 ||bxwpekad.com^
 ||bxwxorg.com/ui/vue/element.
 ||by.bollore-logistics.com^
@@ -46878,6 +46891,7 @@ zztt24.com##.no-mask
 ||daima.diaoben.net^
 ||daima.dsxdn.com^
 ||daima.ijq.tv^
+||daima.ssata.cn^
 ||daima.ysdui.com^
 ||daima.yuzhulin.com^
 ||daimude.com^
@@ -47871,6 +47885,7 @@ zztt24.com##.no-mask
 ||dgzhbvifnjo.com^
 ||dh956.com^
 ||dhakatribune.com/dynamics/dhakaadvs/
+||dharkyu.cn^
 ||dhbxsgdu.com^
 ||dhcguxefkuhfkhi.com^
 ||dhdgkj.com^
@@ -48184,6 +48199,7 @@ zztt24.com##.no-mask
 ||directaclick.com^
 ||directadvert.net^
 ||directadvert.ru^$third-party
+||directavenue.tech^
 ||directchat.tv^$third-party
 ||directcounter.de^$third-party
 ||directcrm.ru^$third-party
@@ -58995,6 +59011,7 @@ zztt24.com##.no-mask
 ||itinerarycarter.com^
 ||itinerarymonarchy.com^
 ||itineraryupper.com^
+||itjew.xyz^
 ||itjie.xyz^
 ||itjsb.com/itjsbwx.jpg
 ||itkdlu.howrse.si^
@@ -60979,6 +60996,7 @@ zztt24.com##.no-mask
 ||kiynew.com^
 ||kizpfrvi518a.www.crystalmathlabs.com^
 ||kj-gov.cn^
+||kjanfwss.xyz^
 ||kjbipwznkbtybs.com^
 ||kjbwuq.cn^
 ||kjbyuguv12.com^
@@ -61496,6 +61514,8 @@ zztt24.com##.no-mask
 ||kyxw9itc.xyz^
 ||kyxw9itv.club^
 ||kyyydxpptcl.com^
+||kyzx.xyZ^
+||kyzx.xyz^
 ||kz.zf678.com^
 ||kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes^
 ||kzeaa.com^
@@ -62793,6 +62813,7 @@ zztt24.com##.no-mask
 ||lltmch.zurifurniture.com^
 ||lltrck.com^
 ||llyhbqn.cn^
+||lm-zl.oss-accelerate.aliyuncs.com^
 ||lm.ijq.tv^
 ||lm1.tuliu.com^
 ||lm1.wkpcw.cn^
@@ -63256,6 +63277,7 @@ zztt24.com##.no-mask
 ||lqcqhkgoer.com^
 ||lqe3.icu^
 ||lqmohun.com^$third-party
+||lqnggnsl.fun^
 ||lqpbkobabvfqvil.com^
 ||lqpzdi.coppel.com^
 ||lqqrvip.cn^
@@ -63272,6 +63294,7 @@ zztt24.com##.no-mask
 ||lraa.xiaoniutui.com^
 ||lreust.joshinweb.jp^
 ||lrhyty.weeronline.nl^
+||lrkporm.cn^
 ||lrlptkumwpcck.com^
 ||lrqugqq.cn^
 ||lrxlbekpmav.com^
@@ -63569,6 +63592,7 @@ zztt24.com##.no-mask
 ||lzkj.shop^
 ||lzljhs.com^
 ||lzls.ltd^
+||lzngisyl.xyz^
 ||lzqicpumq.com^
 ||lzrikate.com^
 ||lzrljv.tradera.com^
@@ -68017,6 +68041,7 @@ zztt24.com##.no-mask
 ||npecialukize.lol^
 ||npftmqv.cn^
 ||nphqw.cn^
+||npmeingm7.shop^
 ||npo-data.nl/tag/v3/npotag.js
 ||npo-data.nl/tags/tag.min.js
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
@@ -72254,6 +72279,7 @@ zztt24.com##.no-mask
 ||ptezyluny.com^
 ||ptfish.com/*/ad$image,object
 ||ptgdb.cn^
+||pthezjl.cn^
 ||ptilytiga.com^
 ||ptinouth.com^
 ||ptipsixo.com^
@@ -75870,6 +75896,7 @@ zztt24.com##.no-mask
 ||sanwukeji.xyz^
 ||sanxiucaiwu.top^
 ||sanxueshufa.cn^
+||saohu*.com/config/json/cctv.json?
 ||saouknatst.com^
 ||sapagallic.com^
 ||sapclasped.com^
@@ -83732,6 +83759,7 @@ zztt24.com##.no-mask
 ||tmenttoget.com^
 ||tmetrics.hdfcbank.com^
 ||tmetrics.webex.com^
+||tmetrix.my.chick-fil-a.com^
 ||tmfkuesmlpto.com^
 ||tmioe.com/img/att/boom.jpg
 ||tmjhdyghjm.com^
@@ -85773,13 +85801,13 @@ zztt24.com##.no-mask
 ||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
 ||tubxporn.xxx/js/xp.js
 ||tubzmfmqovh.com^
+||tucao.eu/uploadfile/*/300-86.
 ||tucao.lol/uploadfile/*/1000_150.
 ||tucao.lol/uploadfile/*/960-80.
 ||tucao.lol/uploadfile/*1000X100
 ||tucao.lol/uploadfile/*_365.gif
 ||tucao.lol/uploadfile/20*/1000-*.gif
 ||tucao.lol/uploadfile/20*/20*.gif
-||tucao.mom/uploadfile/*/300-86.
 ||tuckbos.lol^
 ||tuckednecessityonline.com^
 ||tudotecnologia.site^
@@ -88959,6 +88987,7 @@ zztt24.com##.no-mask
 ||wg-aff.com^
 ||wgcsxqkyry.com^
 ||wgdacc.com^
+||wglbx.ltd^
 ||wgnlaige.fun^
 ||wgnlz.com^
 ||wgpsjcpdulptl.com^
@@ -90758,6 +90787,7 @@ zztt24.com##.no-mask
 ||xhqg.xyz^
 ||xhr0.xyz^
 ||xhrxb.com^
+||xhsrw.xyz^
 ||xhsxgmt.cn^
 ||xhuwypebxqlt.com^
 ||xhvtkbnecqd.com^
@@ -93045,6 +93075,7 @@ zztt24.com##.no-mask
 ||zicyqbpqsg.com^
 ||zidedge.com^
 ||zidoudsa.net^
+||ziedwr.com^
 ||ziffdavis.com^$third-party
 ||ziffdavisb2b.com^*/tracker.js
 ||ziffstatic.com/pg/
