@@ -91,6 +91,7 @@
 ###bannerAd
 ###bd-hl-content
 ###bfad.rm-one
+###bfad1
 ###bfad2
 ###bgad
 ###bgframe[style^="position: fixed;"]
@@ -756,6 +757,7 @@
 ##.mod_ads
 ##.mod_index_ad
 ##.module-adslist
+##.module-adslists
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -1165,6 +1167,7 @@
 ##[width='100%'][src^='/js/ad_/mobile'][src*='jpg']
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
+##a.ad_links
 ##a.gggg[href^="https"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".anwangdaohang.com"]
@@ -1504,10 +1507,10 @@
 ##a[href="https://guapitv.app/"]
 ##a[href="https://www.ledlandi.com"]
 ##a[href="https://www.ybvip1879.vip"]
+##a[href="https://xq97.com"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
-##a[href] > .img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
@@ -1659,6 +1662,7 @@
 ##script + #coupletBox
 ##script + #rbbox
 ##script + #strl
+##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -2803,6 +2807,7 @@
 6090ba.com,717dyw.com,duodada.com##[ontouchstart]
 6090ba.com,duodada.com,fny4.cc##[ontouchstart]
 61.hz.letv.com,61.iqiyi.com,v.61.com###J_videoBox > .view
+61.iqiyi.com,v.61.com###J_videoBox > .view
 62422.cn##body > table[width="778"][align="center"]
 62422.cn##td[width="760"][height="75"]
 6665.com###fgdiy01
@@ -4104,6 +4109,7 @@ bilibili.com##.ad-report, .ad-floor
 bilibili.com##.adblock-tips
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
+bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
 bilibili.com##.gg-floor-module
@@ -4121,6 +4127,8 @@ bilibili.com##A[href*="cm.bilibili.com"][data-target-url*=".biligame."] + .bili-
 bilibili.com##a[data-target-url*=".taobao.com"]
 bilibili.com##a[href$="_suning.html"]
 bilibili.com##a[href*=".doubleclick."]
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
+bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"] + .bili-video-card__info
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"])
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info
 bilibili.com##a[href="/video/av8587236/?tg"]
@@ -6394,6 +6402,7 @@ fanyi.baidu.com##.banner_img_container
 fanyi.baidu.com##.extra-banners
 fanyi.baidu.com##.hot-link-middle
 fanyi.baidu.com##.trans-side-ad-wrap
+fanyi.baidu.com##H1,H3,DIV.intro-nav.clearfix,DIV.intro-copyrigh,A.app-bar,DIV.intro-copyright
 fanyi.baidu.com,longzhu.com##.banner-wrap
 fanyi.sogou.com##.img-banner
 fanyi.sogou.com##.survey
@@ -6519,6 +6528,7 @@ finbold.com###bottom_anchor
 finbold.com##.cta-block
 finbold.com##.holder-bg
 find.ruten.com.tw##.site_evt
+findlaw.cn###wlcommonbot
 findmysoft.com###as_336
 findprice.com.tw###divBestBuy
 finextra.com##.module--sponsor
@@ -7101,7 +7111,7 @@ ghoffice.com##.tac > a > img[src*=".gif?"]
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 ghxi.com###respond + div
 ghxi.com##.ad_single_12
-ghxi.com##div[style="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: 99999;background-color: #cc4444;color: #fff"]
+ghxi.com##div[style^="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index"]
 ghxi.com#@#.social-item
 ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 giantfreakinrobot.com##.pw-leaderboard-atf-container
@@ -7892,6 +7902,7 @@ huanqiu.com##.adindexList
 huanqiu.com##.itemAd
 huanqiu.com##.r-hqFashion
 huanqiu.com##.r-hqNext-ad
+huanqiu.com##.right-box > article-other-template
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
 huaren.tv##a[style*="height:"]
@@ -8639,6 +8650,7 @@ jamendo.com##.col_extra
 jamieoliver.com##.top-avocado
 jandan.net###random-ads
 jandan.net##.goods2-list
+jandan.net##a[href*="/money.php?"]
 jandan.net##a[href^="//api.jandan.net/money.php?"]
 japan-whores.com##.b-sidebar
 japan-whores.com##.js-advConsole
@@ -13513,6 +13525,10 @@ video.laxd.com###owDmcIsUc
 video.laxd.com##.ads-container
 video.laxd.com##.c-ad-103
 video.laxd.com##.side_banner
+video.qq.com#@#+js(json-prune,ads adList.item)
+video.qq.com#@#+js(no-fetch-if,/trace\.|beacon\./)
+video.qq.com#@#+js(no-xhr-if,/trace\.|\/collect/)
+video.qq.com#@#+js(set,RTCPeerConnection,null)
 videobb.com##.promo_tab
 videobin.co###startpopupcode
 videocelebs.net##.fp-brand
