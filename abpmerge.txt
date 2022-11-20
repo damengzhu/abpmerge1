@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-19 16:22:28
-! Total count: 93719
+! Version: 2022-11-20 16:22:36
+! Total count: 93735
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7116,6 +7116,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /css/adz.
 /css/gg.js
 /css_js/*$domain=aiyangedu.com|duanmeiwen.com|jy135.com|oh100.com|qunzou.com|unjs.com|yjbys.com|yuwenmi.com
+/css_js/*$domain=aiyangedu.com|duanmeiwen.com|jy135.com|oh100.com|ruiwen.com|qunzou.com|unjs.com|yjbys.com|yuwenmi.com
 /cssjs/ads/*
 /cta-loaded.js
 /ctd-sourcepoint.
@@ -15975,7 +15976,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=lacomer.com.mx
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
-@@||googletagmanager.com/gtag/js$script,domain=acornonline.com|carhartt-wip.com|cbslocal.com|devclass.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
+@@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|carhartt-wip.com|cbslocal.com|devclass.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|nihontsushin.com
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
@@ -16252,8 +16253,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
 @@||leroymerlin.ru/config/analytics.js$script
 @@||lesports.com/pc/??*/click_statistics/
-@@||letv.com/tuiguang/$subdocument
-@@||letvcloud.com^*&showAd=
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lexpress.fr/tagcommander.js$script,~third-party
 @@||lib.baomitu.com^$domain=meituhe.com
@@ -26367,6 +26366,7 @@ qq.com##.yscoin-box
 qq.com##.yw-gg-float
 qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div[class^=ad-type-]
+qq.com##div[id^="couplet_auto_"]
 qq.com##img[data-module="advertisement"]
 qq.com#@#+js(nowebrtc)
 qq.com#@#.ad-icon
@@ -29976,6 +29976,7 @@ zztt24.com##.no-mask
 ||027whht.com^
 ||029mxhs.cn^
 ||02aa19117f396e9.com^
+||02asdf.com^
 ||02b57bb965.com^
 ||02m830l.cn^
 ||02wq.com/script/
@@ -30302,6 +30303,7 @@ zztt24.com##.no-mask
 ||1104piaoba2022.xyz^
 ||1105yh.com^
 ||1106yh.com^
+||1107piaoliang2022.xyz^
 ||1108jiuba2022.xyz^
 ||110hack.com/article/UploadPic/
 ||11111.host^
@@ -32481,6 +32483,7 @@ zztt24.com##.no-mask
 ||86saohu.com/api/cctvs/show?
 ||86uk.com/uploads/*0.gif
 ||86uk.com/uploads/*0x
+||86uk.com^$subdocument
 ||86uk.com^$subdocument,domain=6parknews.com
 ||86zml3w.cn^
 ||87159d7b62fc885.com^
@@ -37260,6 +37263,7 @@ zztt24.com##.no-mask
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
 ||aliyuncs.com^$domain=5kym.com
+||aliyuncs.com^$domain=5kym.com|zzkdhb.com
 ||aliyuncss.com^
 ||aliyune.xyz^
 ||aliyunf.xyz^
@@ -42741,8 +42745,6 @@ zztt24.com##.no-mask
 ||capacitygrid.com^$third-party
 ||caperedlevi.com^
 ||caphaiks.com^
-||capi.connatix.com/rtb/
-||capi.connatix.com/tr/
 ||capital.com/widgets/$third-party
 ||capitalone.com/collector/
 ||cappens-dreperor.com^
@@ -45054,6 +45056,8 @@ zztt24.com##.no-mask
 ||conjectwatson.com^
 ||conjeller-chikemon.com^
 ||conjunctionbanner.com^
+||connatix.com/rtb/
+||connatix.com/tr/
 ||connatix.com^$third-party
 ||connect.acams.org^
 ||connect.acspubs.org^
@@ -52392,6 +52396,7 @@ zztt24.com##.no-mask
 ||fkjdz.cyou^
 ||fkjjpwzkrfdg.com^
 ||fkkse.com^
+||fknrtpp.cn^
 ||fkondate.com^$third-party
 ||fkpnyinj.com^
 ||fkrkkmxsqeb5bj9r.s3.amazonaws.com^
@@ -53318,6 +53323,7 @@ zztt24.com##.no-mask
 ||fznkjk.bonprix.sk^
 ||fzpchome.com/txt/$script
 ||fztattoo.cn^
+||fztimyc.cn^
 ||fztmn.top^
 ||fzu4.bysidecar.com^
 ||fzvve.cn^
@@ -57367,6 +57373,7 @@ zztt24.com##.no-mask
 ||iask.sina.com.cn/s-b/mxbg
 ||iasninancukan.lol^
 ||iasrv.com^
+||iatf16949.pw^
 ||iatmaihn.xyz^
 ||iaudienc.com^$third-party
 ||iauto.wang^
@@ -61055,6 +61062,7 @@ zztt24.com##.no-mask
 ||kjgen.com^
 ||kjggk1.xyz^
 ||kjhfy.com^
+||kjhxw.xyz^
 ||kjhzwvq.cn^
 ||kjjzx.cn^
 ||kjkhgtwft.com^
@@ -62865,7 +62873,6 @@ zztt24.com##.no-mask
 ||lltmch.zurifurniture.com^
 ||lltrck.com^
 ||llyhbqn.cn^
-||lm-zl.oss-accelerate.aliyuncs.com^
 ||lm.ijq.tv^
 ||lm1.tuliu.com^
 ||lm1.wkpcw.cn^
@@ -67051,6 +67058,7 @@ zztt24.com##.no-mask
 ||n0488.com^
 ||n0499.com^
 ||n0622.com^
+||n0633.com^
 ||n0909.com^
 ||n12qga4ld3zk.com^
 ||n161adserv.com^
@@ -68112,6 +68120,7 @@ zztt24.com##.no-mask
 ||nqfwx.cn^
 ||nqgmcp.chairish.com^
 ||nqn7la7.de^
+||nqnggnsc.fun^
 ||nqrkzcd7ixwr.com^
 ||nqsc567.com^
 ||nqslmtuswqdz.com^
@@ -75244,6 +75253,7 @@ zztt24.com##.no-mask
 ||runwaff.com^
 ||ruoci666.cn^
 ||ruogesfshygsj.com^
+||ruohe.fun^
 ||ruokareseptit.online^
 ||rup5.destinia.ru^
 ||ruscams.com/promo/
@@ -82323,6 +82333,7 @@ zztt24.com##.no-mask
 ||t.nusports.com^
 ||t.nypost.com^
 ||t.ofsys.com^
+||t.pagesix.com^
 ||t.paydirekt.de^
 ||t.paypal.com^$image
 ||t.perigold.com^
@@ -85660,6 +85671,7 @@ zztt24.com##.no-mask
 ||troubledtail.com^$third-party
 ||trourted.pro^
 ||trovus.co.uk^$third-party
+||troxa.xyz^
 ||trpreviews.bp01.net^
 ||trqhf.xyz^
 ||trrsf.com.br/metrics/
@@ -91526,6 +91538,7 @@ zztt24.com##.no-mask
 ||y7o9rh.cn^
 ||y7r.930cn.top^
 ||y820.darientimes.com^
+||y88m2.top^
 ||y8ht.xyz^
 ||y8hxgv9m.kobetsu.co.jp^
 ||y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me^
@@ -92116,6 +92129,7 @@ zztt24.com##.no-mask
 ||ynvusittae.com^
 ||ynwqls.com^
 ||ynwsyl.com^
+||ynyikk.com^
 ||ynyn.shop^
 ||ynyyczx.cn^
 ||ynyyx168.com^
@@ -92135,6 +92149,7 @@ zztt24.com##.no-mask
 ||yogurtrole.com^
 ||yogyn.com^
 ||yoiprqtykkhhfq.com^
+||yoiqacw.cn^
 ||yoka.com/s?z=
 ||yoke.039nez.com^
 ||yoke.jyhlo0.com^
@@ -93215,6 +93230,7 @@ zztt24.com##.no-mask
 ||zizcy.com^
 ||zizikagle.com^
 ||zizpjdnvkks.com^
+||zjai.xyz^
 ||zjcxyh.cn^
 ||zjdb2b.wang^
 ||zjg.js.cn/Public/config/Couplet/Index4
