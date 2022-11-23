@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-22 16:24:29
-! Total count: 93794
+! Version: 2022-11-23 16:22:23
+! Total count: 93818
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1456,6 +1456,7 @@
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/ihezu.run"]
+##a[href*="/industrialproductsfind.com"]
 ##a[href*="/jdr29jlir.com"]
 ##a[href*="/jianjianjiao.top"]
 ##a[href*="/kanxiuren.com/?"]
@@ -9047,6 +9048,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /kiwip.js
 /klaviyo_analytics.
 /klesd7.*.js^$script,domain=vjav.com
+/klicks.nebenan.de/q/*$image
 /koko-analytics-
 /koko-analytics/*/script.js
 /kontera.js
@@ -9116,7 +9118,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /lenovo/pc/piaofu2.js
 /lenovo/pc/top.js
 /letv-gug/*
-/letv-gug/*$media,domain=le.com
 /lftracker.
 /lftracker_
 /lg.php?adid=
@@ -13777,6 +13778,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 18comic.*##.modal-body > ul.pop-list
 18comic.*##.top-a2db
 18comic.*##body .bot-per
+18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
 18comic.org##div[data-height="250"][data-width="300"]
@@ -13788,7 +13790,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.vip##.bot-per-context
 18comic.vip##DIV.bot-per-times
 18comic.vip##DIV.col-lg-3.col-md-3
@@ -14284,6 +14287,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 51wangdai.com##.top_AD
 51xiazai.cn###xzbtn1:nth-child(2)
 51xiazai.cn##.downgs
+51xiazai.cn##.relateSoft > div#xzbtn1:not([class*="btn_blue"])
 51yfx.com###widget-gouwu
 51yfx.com###widget-test
 51yfx.com,htcui.com###tmall_1111
@@ -16479,6 +16483,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ondemand.sas.com^$subdocument
 @@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
+@@||online-metrix.net^$script,domain=eki-net.com
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
@@ -19055,6 +19060,8 @@ bmlink.com##.Tg_gg
 bmlink.com##.fixedBg
 bmlink.com##.tg
 bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+bnext.com.tw##div[data-aid]
+bnext.com.tw##div[id^="sponsor-"]
 bnnbloomberg.ca###promotions
 bnonews.com##.bnone-widget
 boards.net,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
@@ -28511,6 +28518,7 @@ vidxnet.com##.sidebar_banner
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vigilantcitizen.com##.vigil-leaderboard-article
 vigilantcitizen.com##.vigil-leaderboard-home
+vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
 vikacg.com##div[id^="home-row-ads"]
 vipmv.co##div[style^="position: fixed;bottom: -10px;"]
@@ -30054,6 +30062,7 @@ zztt24.com##.no-mask
 ||05fc725q.cn^
 ||0606kk.com/js/index/index.js
 ||0653216.com^
+||065yuyu.com^
 ||0668gz.com/data/attachment/portal/
 ||06789.xyz^
 ||06a2b66f11.com^
@@ -30614,6 +30623,7 @@ zztt24.com##.no-mask
 ||18comic.*/static/resources/images/168/
 ||18comic.*/static/resources/images/300
 ||18comic.*/static/resources/images/JGG/
+||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 ||18dui.com^
 ||18naked.com^$third-party
@@ -38726,7 +38736,6 @@ zztt24.com##.no-mask
 ||arizonapuzzle.com^
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?res=
-||ark.letv.com/s?res=$badfilter
 ||ark.letv.com/s?vid=
 ||ark.letv.com/t?
 ||arkalealb.site^
@@ -40929,6 +40938,7 @@ zztt24.com##.no-mask
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bfqcx.xyz^
 ||bfrmye5.com^
+||bfsqtsn.cn^
 ||bft5.destinia.fr^
 ||bftrlhesrlfjp.com^
 ||bfts.xyz^
@@ -43166,6 +43176,7 @@ zztt24.com##.no-mask
 ||cdnjke.com^
 ||cdnjs.hro-cosmetics.com^
 ||cdnjs.mopair-erm.net^
+||cdnjs.work/metrics.js
 ||cdnjs.z-face.cn^
 ||cdnjsp.wang^
 ||cdnlog.zhenai.com^
@@ -55389,6 +55400,7 @@ zztt24.com##.no-mask
 ||gzx8670vhome.xyz^
 ||gzxxty168.com^
 ||gzz123.com^
+||gzzb.xyz^
 ||gzzcxxzx.com^
 ||gzzkjdam.cn^$third-party
 ||gzzza.com/html/
@@ -57573,6 +57585,7 @@ zztt24.com##.no-mask
 ||if37.com^
 ||ifactz.com^$third-party
 ||ifaeqvt.cn^
+||ifautzg.cn^
 ||ifc-edu.cn^$third-party
 ||ifczkst.cn^
 ||ifdcvns.cn^
@@ -59289,6 +59302,7 @@ zztt24.com##.no-mask
 ||j1.piaobing.com^
 ||j198.registercitizen.com^
 ||j1ybkf.cn^
+||j41.xyz^
 ||j45.xyz^
 ||j46.xyz^
 ||j46rwh.site^
@@ -62240,6 +62254,7 @@ zztt24.com##.no-mask
 ||lgh2.fun^
 ||lghdoxzulv.com^
 ||lgiufpmd.com^
+||lgjxw.xyz^
 ||lgjygg.com^
 ||lgkwytmgkcwgsa.com^
 ||lgl.ink^
@@ -62880,6 +62895,7 @@ zztt24.com##.no-mask
 ||lkoqbgyin.com^
 ||lkpmprksau.com^
 ||lkqd.net^
+||lksdj.com^
 ||lksw1.top^
 ||lksw3.top^
 ||lktxelg.cn^
@@ -72382,6 +72398,7 @@ zztt24.com##.no-mask
 ||ptfish.com/*/ad$image,object
 ||ptgdb.cn^
 ||pthezjl.cn^
+||ptijx.xyz^
 ||ptilytiga.com^
 ||ptinouth.com^
 ||ptipsixo.com^
@@ -72854,6 +72871,7 @@ zztt24.com##.no-mask
 ||qaops.jgwsmqx.com^$third-party
 ||qapm.baidu.com^
 ||qappcenterv6.3g.qq.com^
+||qapsmny.cyou^
 ||qaq.lm665.com^
 ||qarewien.com^
 ||qarsza.cn^$third-party
@@ -73427,6 +73445,7 @@ zztt24.com##.no-mask
 ||quellstubble.com^
 ||quenchskirmishcohere.com^
 ||quensillo.com^
+||querulous-type.com^
 ||querylead.com^
 ||quesid.com^
 ||questionmarket.com^
@@ -73568,6 +73587,7 @@ zztt24.com##.no-mask
 ||qyxwfe.com^
 ||qyzyd.top^
 ||qz.com/log
+||qz15.top^
 ||qz496amxfh87mst.com^
 ||qz828.com/css/2010/script/*ad
 ||qzbpamhgqy.com^
@@ -75230,7 +75250,6 @@ zztt24.com##.no-mask
 ||ruiwen.com/sp/
 ||ruiyijy.xyz^
 ||rujioimped.xyz^
-||rujume.top^
 ||rukoval.com^
 ||rukplaza.com^$third-party
 ||rule34hentai.net^$subdocument,~third-party
@@ -77193,6 +77212,7 @@ zztt24.com##.no-mask
 ||sg01.top^
 ||sg3.notarize.com^
 ||sgaga.xyz^
+||sganilglb.cyou^
 ||sgdgh15.com^
 ||sgftrrs.com^
 ||sgg.southcn.com^
@@ -83506,6 +83526,7 @@ zztt24.com##.no-mask
 ||ti3av8k3ikwm.resume.gerardbosch.xyz^
 ||ti583.com^
 ||ti863.cn^
+||tian-ting.ink^
 ||tianfus.com^$third-party
 ||tiangu99.com^
 ||tianhenggo.xyz^
@@ -89010,6 +89031,7 @@ zztt24.com##.no-mask
 ||weilekangnet.com:59188/wz/dingpiao_
 ||weilekangnet.com:59188/wz/vod_shang.js
 ||weilekangnet.com:59188/wz/wz.js
+||weilin.xin^
 ||weimeicar.cn^
 ||weimeiwangluo.site^
 ||weinin99.cn^
@@ -90816,6 +90838,7 @@ zztt24.com##.no-mask
 ||xcy8.com^
 ||xcycm.com^$third-party
 ||xd4a.top^
+||xdaigua.cn^
 ||xdbnwjtpyvfu.com^
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdcqcyp.com^
@@ -91163,6 +91186,7 @@ zztt24.com##.no-mask
 ||xleqs.xyz^
 ||xlgirls.com/banner/$third-party
 ||xlgqy.com^
+||xlhnkpw.cn^
 ||xlhufubaul.com^
 ||xlingdi.com^$third-party
 ||xlirdr.com^
