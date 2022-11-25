@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-24 16:21:58
-! Total count: 93859
+! Version: 2022-11-25 16:21:51
+! Total count: 93890
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -931,7 +931,10 @@
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##DIV#ad-index.col-12.position-relative
 ##DIV.bot-per-context[data-width='728'][data-height='90']
+##DIV.box-width.ec-ad
+##DIV.box-width.ec-ad.ec-ad-double.flex
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
+##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
@@ -2441,6 +2444,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .com/s/at?site
 .com/sc/*?n=$script,third-party
 .com/sh/to/$script,third-party
+.com/sh/to/$script,xmlhttprequest,third-party
 .com/show?id=$script,third-party
 .com/showpage.asp?u=$script,third-party
 .com/ss/*sessionId=
@@ -24074,6 +24078,9 @@ ld0766.com##.rsf_pull_screen_adv
 ldjam.com##.sidebar-sponsor
 ldmnq.com##.dialog-game
 ldqk.xyz#@#.google-ad
+ldqk.xyz,masuit.com##.bs-slider
+ldqk.xyz,masuit.com##.ibox-content > .wow[id]
+ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
 le.com###a_body_11628
 le.com###a_title_11628
 le.com##+js(set, isAdLoaded, true)
@@ -24583,7 +24590,6 @@ masuit.com###bootstrap-touch-slider
 masuit.com###list > .box-right > .wow[id]
 masuit.com##.ibox-content > .wow[id]
 masuit.com##.protected
-masuit.com#?#.panel:-abp-has(>.panel-body>a[href^="/partner/Redirect/"])
 materialtools.com#@#.ad-center
 mati.hk##.banner_middle
 matongwu.com.cn##div[style="height:90px;clear:both;"]
@@ -27945,6 +27951,7 @@ tianya.cn##.slider_box
 tianyancha.com###banner_web
 tiboo.cn##.sectionAd
 tie.163.com###top-banner
+tie.163.com,uump4.com,uump4.net###top-banner
 tie.163.com,uump4.net###top-banner
 tieba.baidu.com###j_light_see_index
 tieba.baidu.com##.client_ad_banner
@@ -28957,7 +28964,9 @@ wtop.com##.post--sponsored
 wuchajian.net##.UPAD
 wuxiaworld.site##.dcads
 wuxiaworld.site##[id^="wuxia-"]
+wuyong.fun##.content-area .adsbygoogle
 wuyong.fun##.riplus_ads_wrap
+wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:-abp-has(.adsbygoogle)
 wwe.com##.l-hybrid-col-frame_rail-wrap
 wweek.com##.pb-f-phanzu-phanzu-ad-code
 www.163.com##.float-bar
@@ -30059,6 +30068,7 @@ zztt24.com##.no-mask
 ||0531kt.com^
 ||053tyfg.com^
 ||0554xx.cn/gg2.js
+||056opui.com^
 ||0573fang.com/ads/
 ||0575bbs.com/js/float.js
 ||0575bbs.com/updateimeags/
@@ -31268,6 +31278,7 @@ zztt24.com##.no-mask
 ||360.cn/int/getadurls?
 ||360.cn/mapping_service?
 ||360.cn/popup/popinfo/
+||360600.xyz^
 ||360640.com^
 ||360ads.com^$third-party
 ||360buyimg.com$domain=28th.cc
@@ -31933,6 +31944,7 @@ zztt24.com##.no-mask
 ||5odjin7ipi.com^
 ||5ovrmmmoubi71efvatfd.com^
 ||5p0utbv2mjq1.www.earthclassmail.com^
+||5pe6.fun^
 ||5pi13h3q.de^
 ||5pub.com^
 ||5qg9ibt1a6.com^
@@ -34455,6 +34467,7 @@ zztt24.com##.no-mask
 ||abminbuy.com/QQ
 ||abminbuy.com^*.gif
 ||abmr.net^$third-party
+||abn.lczk.cn^
 ||abnad.net^$third-party
 ||abncx.amv.fr^
 ||abnegatedigging.com^
@@ -47368,6 +47381,7 @@ zztt24.com##.no-mask
 ||dblcs.cn^
 ||dblks.net^$third-party
 ||dblpmp.com^$third-party
+||dbmcmhh.cn^
 ||dbmp4.com/js/foot.
 ||dbncp.com^
 ||dbnghpxnbqpquh.com^
@@ -56576,6 +56590,7 @@ zztt24.com##.no-mask
 ||hntiantai.cn^
 ||hntymg.com^
 ||hnwjlhg.cn^
+||hnws.xyz^
 ||hnxahz.com^
 ||hnxbls.cn^
 ||hnycwh.cn^
@@ -56892,6 +56907,7 @@ zztt24.com##.no-mask
 ||hqcqz2.cn^
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
+||hqdfh.mobi^
 ||hqdoor.com/Web/
 ||hqf.aldkfsd.cn^
 ||hqmetrics.sony.com^
@@ -58534,6 +58550,7 @@ zztt24.com##.no-mask
 ||inside-graph.com^$third-party
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
 ||insideall.com^$third-party
+||insiderdata360online.com/service/platform.js
 ||insideyork.co.uk/assets/images/sponsors/
 ||insight.fonecta.fi^
 ||insight.mintel.com^$third-party
@@ -60767,6 +60784,7 @@ zztt24.com##.no-mask
 ||kapotlyka.com^
 ||kappalinks.com^
 ||kaprila.com^$third-party
+||kapsmnd.cyou^
 ||kaptytypso.com^
 ||kaqmshynxe.com^
 ||kaqweqrdf.com^
@@ -61615,6 +61633,7 @@ zztt24.com##.no-mask
 ||kxclorpruisyo.com^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
+||kxizloe.cn^
 ||kxji.com^$third-party
 ||kxla.xyz^
 ||kxldvcytb.xyz^
@@ -62912,6 +62931,7 @@ zztt24.com##.no-mask
 ||lk.4jzl.cn^$third-party
 ||lkcgvcdmc.com^
 ||lkdvvxvtsq6o.com^
+||lkjrx.xyz^
 ||lkkskdkfjdk.qiangquanvip.com^
 ||lklrmjbmnhnn.com^
 ||lkm.bangyuandianzi.top^
@@ -68682,6 +68702,7 @@ zztt24.com##.no-mask
 ||oddyqw.com^
 ||odessaaccommodations.com/counter.php
 ||odfnxnzrmvxw.com^
+||odfykc.cn^
 ||odhrnejegx.com^
 ||odhwfjrwlcq.xyz^
 ||odinistromneya.com^
@@ -69988,6 +70009,7 @@ zztt24.com##.no-mask
 ||page.evergage.com^
 ||page.terguspharma.com^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=youneed.win
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=wuyong.fun,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=xiebruce.top
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=linovelib.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=m.twfanti.com,important
@@ -72683,6 +72705,7 @@ zztt24.com##.no-mask
 ||pushorg.com^
 ||pushosub.com^
 ||pushosubk.com^
+||pushowl.com^$third-party
 ||pushpro.io/api/logging/
 ||pushprofit.net^
 ||pushprofit.ru^$third-party
@@ -78077,6 +78100,7 @@ zztt24.com##.no-mask
 ||sl00ufi.cn^
 ||sl6.top^
 ||slabshookwasted.com^
+||slack-edge.com/bv1-10/slack_beacon.
 ||slack.com/beacon/
 ||slack.com/clog/track/
 ||slackb.com^
@@ -86288,6 +86312,7 @@ zztt24.com##.no-mask
 ||tz.yuanmengbi.com^
 ||tz88.store^
 ||tzcfyre.cn^
+||tzegilo.com^
 ||tzfdc.com.cn/userfiles/flash/
 ||tzfdc.com/Images/09/flv/flv_index.js
 ||tzfdc.com/fdcSell/
@@ -89180,6 +89205,7 @@ zztt24.com##.no-mask
 ||wfveippeyhtegob.com^
 ||wfyqc.com^
 ||wg-aff.com^
+||wganilgle.cyou^
 ||wgcsxqkyry.com^
 ||wgdacc.com^
 ||wglbx.ltd^
@@ -89245,6 +89271,7 @@ zztt24.com##.no-mask
 ||where.ud783c02.com^
 ||whereasplaid.com^
 ||wheredoyoucomefrom.ovh^$third-party
+||wheregoes.com/api/event
 ||wherevermere.com^
 ||wheripsupi.com^
 ||whetic.com^
@@ -89815,6 +89842,7 @@ zztt24.com##.no-mask
 ||wpnjs.com^
 ||wpnrtnmrewunrtok.xyz^
 ||wpnsrv.com^
+||wpozwh.com^
 ||wppdgupelr.com^
 ||wpqmiq.cn^
 ||wpqsmse.cn^
@@ -90792,6 +90820,7 @@ zztt24.com##.no-mask
 ||xapi.ozon.ru^
 ||xarqnuelxtvajgp.xyz^
 ||xatczs.cn^
+||xav*.icu/base/js/other.js
 ||xawmgspvdvyrnrd.com^
 ||xaxdwz.xyz^
 ||xaxeupvn.com^
@@ -91374,6 +91403,7 @@ zztt24.com##.no-mask
 ||xpx7heciz9.com^
 ||xpysozb.cn^
 ||xqc23.jnyayk.xyz^
+||xqcjfcb.cn^
 ||xqigou.top^
 ||xqiyi.top^
 ||xqobmjbwxu.com^
@@ -91944,6 +91974,7 @@ zztt24.com##.no-mask
 ||yfkgnqu.cn^
 ||yfot.com.cn^
 ||yfp.intuit.com^
+||yfue99.xyz^
 ||yfum.com^
 ||yfunkgk.cn^
 ||yfupfhqxmwvu.com^
