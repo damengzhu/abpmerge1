@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-25 16:21:51
-! Total count: 93890
+! Version: 2022-11-26 16:20:59
+! Total count: 93925
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1194,6 +1194,7 @@
 ##a[href$="/liyusheng.com"]
 ##a[href$="/lol8.co"]
 ##a[href$="/q522p.com"]
+##a[href$="/tv826.com"]
 ##a[href$="/xh8k.vip"]
 ##a[href$="/xha77.com"]
 ##a[href$="/xhg23.com"]
@@ -2443,8 +2444,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .com/s.php?id=$script,third-party
 .com/s/at?site
 .com/sc/*?n=$script,third-party
-.com/sh/to/$script,third-party
-.com/sh/to/$script,xmlhttprequest,third-party
+.com/sh/to/$script,third-party,xmlhttprequest
 .com/show?id=$script,third-party
 .com/showpage.asp?u=$script,third-party
 .com/ss/*sessionId=
@@ -15398,6 +15398,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.transcend.io/privacy/graphql$xmlhttprequest,domain=privacy.patreon.com
+@@||api.us1.exponea.com^$script,xmlhttprequest,domain=walmartpetrx.com
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkpure.com^$generichide
 @@||app-advertise.zhihuishu.com^
@@ -16004,6 +16005,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=setn.com
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=ulifestyle.com.hk
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=setn.com
+@@||googleads4.g.doubleclick.net^$domain=renfei.net
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=lacomer.com.mx
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
@@ -16105,6 +16107,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||hopto.org/js/prebid-ads.
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
 @@||howtonote.jp/google-analytics/$image,~third-party
+@@||hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
 @@||humaninterest.com/api/analytics/$script,~third-party
@@ -16633,6 +16636,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||redguide.top^*/ad.css?$stylesheet
 @@||refworks.proquest.com/public/js/tracking.js$~third-party
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||renfei.net^$generichide
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||res-x.com^*/Resonance.aspx?
@@ -20761,6 +20765,7 @@ dytt5.net##.detail-body > .fly-panel
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 dyttw.com.cn##td[align="center"][valign="middle"][bgcolor="#FFFFFF"] > table[width="1210"] > tbody > tr > td[height="55"]
 dyxs11.com###play-pause
+dyxs11.com,dianyingim.com##.shortcuts-m-overlay
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com###player_pic
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##.popup-tips
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##body > .shortcuts-mobile-overlay
@@ -27952,7 +27957,6 @@ tianyancha.com###banner_web
 tiboo.cn##.sectionAd
 tie.163.com###top-banner
 tie.163.com,uump4.com,uump4.net###top-banner
-tie.163.com,uump4.net###top-banner
 tieba.baidu.com###j_light_see_index
 tieba.baidu.com##.client_ad_banner
 tieba.baidu.com##.client_ad_topBanner
@@ -41272,6 +41276,7 @@ zztt24.com##.no-mask
 ||bjdianyue.com^
 ||bjeai.com^
 ||bjfbac.hyundaivaudreuil.com^
+||bjfc.xyz^
 ||bjgtsh.com^
 ||bjhengdiao.com^
 ||bjhockey.org/public/pc/video/test.mp4
@@ -43753,6 +43758,7 @@ zztt24.com##.no-mask
 ||chokefirmbeauty.com^
 ||choksail.com^
 ||chokupsupto.com^
+||cholor201015.cn^
 ||cholosfuhrer.com^
 ||chonenusi.com^
 ||chong-wu.net^
@@ -47376,6 +47382,7 @@ zztt24.com##.no-mask
 ||dbex-tracker-v2.driveback.ru^
 ||dbf1405f9c.com^
 ||dbfocus.jp^$third-party
+||dbhsejcg-meetup-com.cdnjs.network^
 ||dbkdwe1.com^
 ||dbkhhkzhdjkhqh.com^
 ||dblcs.cn^
@@ -56198,6 +56205,7 @@ zztt24.com##.no-mask
 ||hgibbei.cyou^
 ||hgjxp.cn^
 ||hgkzl.cn^
+||hgpbhuj.cn^
 ||hgrjndavdfe.com^
 ||hgtcfbqjtuesggc.com^
 ||hguas.com^
@@ -56918,6 +56926,7 @@ zztt24.com##.no-mask
 ||hqpornstream.com/pub/
 ||hqq.tv/cdn-cgi/trace
 ||hqq.tv/js/counters.js
+||hqqpw.mobi^
 ||hqsjc.com^
 ||hqtlw.cn^
 ||hqtrnoqfvqao.xyz^
@@ -60326,6 +60335,7 @@ zztt24.com##.no-mask
 ||jsrdn.com/s/cs.js
 ||jsretra.com^
 ||jss.tvzhe.com^
+||jssav6hk.club^
 ||jssearch.net^
 ||jsshuiyuan.com^
 ||jssxpb.cn^
@@ -60866,6 +60876,7 @@ zztt24.com##.no-mask
 ||kdnuggets.com/aps/
 ||kdou.com/ad_js.php?adid=
 ||kdpxgr.travellink.no^
+||kdqnaec.cn^
 ||kdslife.com/ui/ad/
 ||kdsnw.today^
 ||kdw*.com/layer/layer.js
@@ -61417,6 +61428,7 @@ zztt24.com##.no-mask
 ||kpuqwdqsol.xyz^
 ||kq7it3c6.club^
 ||kq7it3c6.xyz^
+||kq7k.icu^
 ||kqchxa.denizbutik.com^
 ||kqeehoptcroxf.com^
 ||kqimuhkxnh.xyz^
@@ -61535,6 +61547,7 @@ zztt24.com##.no-mask
 ||kubicserves.icu^
 ||kubrer.com^
 ||kudrunoptime.com^
+||kufmbwm.cn^
 ||kuglijuthi.com^
 ||kugo.cc^$third-party
 ||kugoucdn.com^*?_t=$xmlhttprequest
@@ -62168,6 +62181,7 @@ zztt24.com##.no-mask
 ||leisurelypizzascarlet.com^
 ||leixigroup.com^
 ||lejlb.com^
+||lejso.com^
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
 ||leju.com^*=abs.processReqChange
@@ -63683,6 +63697,7 @@ zztt24.com##.no-mask
 ||lxlx.shop^
 ||lxphwibrkt.xyz^
 ||lxqcgj.com^
+||lxrhw.xyz^
 ||lxsway.blogg.se^
 ||lxsway.nyheter24.se^
 ||lxting.com^
@@ -65725,6 +65740,7 @@ zztt24.com##.no-mask
 ||mgefhu.seiska.fi^
 ||mgid.com%$third-party
 ||mgid.com^$third-party
+||mgivkqk.cn^
 ||mgksgxavfhx.com^
 ||mgmteventss.mail01-docker.profiles-pass-testing.net.zooplus.de^
 ||mgmtmanagement-uploadsmanagement.idsdata-api-backend.alpha-disabled.net.zooplus.de^
@@ -67139,6 +67155,7 @@ zztt24.com##.no-mask
 ||mzwfrp.cn^
 ||mzwfu.xyz^
 ||mzwfw.club^
+||mzxvib.com^
 ||mzy1.xyz^
 ||mzy2014.com^$third-party
 ||mzya5718.xyz^
@@ -67368,6 +67385,7 @@ zztt24.com##.no-mask
 ||ncoeqz.today^
 ||ncom.dk^$third-party
 ||nct.ui-portal.de/gmx/gmx/s?$image,ping
+||nct.ui-portal.de^
 ||nctrk.abmail.com.br^
 ||nctylivpwhpby.com^
 ||ncx2.voyage-prive.it^
@@ -67799,6 +67817,7 @@ zztt24.com##.no-mask
 ||niblewren.co^
 ||nibzitgas.com^
 ||nice264.com/data?$third-party
+||nicelinks.site/ad-block-
 ||nicelook.cn^
 ||nicequest.com^$third-party
 ||nicertie.com^
@@ -68586,6 +68605,7 @@ zztt24.com##.no-mask
 ||oaphoace.net^
 ||oaphooftaus.com^
 ||oapseele.net^
+||oapsmnk.cyou^
 ||oaptukeh.net^
 ||oaraunal.com^
 ||oardilin.com^
@@ -71461,6 +71481,7 @@ zztt24.com##.no-mask
 ||pm2b.top^
 ||pmb*.tj.ali213.net/js/
 ||pmbox.biz^$third-party
+||pmcppla.cn^
 ||pmdatabase.xyz^
 ||pmetrics.performancing.com^
 ||pmlw0efk4x.com^
@@ -72793,6 +72814,7 @@ zztt24.com##.no-mask
 ||pvx.xcar.com.cn^
 ||pvxfkublrecbtjb.xyz^
 ||pvxymnz.cn^
+||pvymlsvo.xyz^
 ||pvyvglaf.com^
 ||pvzdrx.cn^
 ||pw.gigazine.net^
@@ -73039,6 +73061,7 @@ zztt24.com##.no-mask
 ||qg1v.adroition.net^
 ||qg8bq.top^
 ||qg9z.cn^
+||qganilgly.cyou^
 ||qgbtd.com^
 ||qgdvyvd.cn^
 ||qgenjqyvq.com^
@@ -75647,6 +75670,7 @@ zztt24.com##.no-mask
 ||s83ovp6qyhco.com^
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
+||s93isp.top^
 ||s99i.org^
 ||s9jp9xogfz.com^
 ||s9o.co^
@@ -76099,6 +76123,7 @@ zztt24.com##.no-mask
 ||sappmetrics.boostmobile.com^
 ||sappmetrics.sprint.com^
 ||sapsixysho.pro^
+||sapsmnb.cyou^
 ||saptiledispatch.com^
 ||saqtgrre.com^
 ||sarcasmhickbits.com^
@@ -77758,6 +77783,7 @@ zztt24.com##.no-mask
 ||simastudio.cn^
 ||simg.bwin.com^
 ||simg.gamebookers.com^
+||simi1234.com^
 ||simi345.me^
 ||simi456.me^
 ||simi567.me^
@@ -78016,6 +78042,7 @@ zztt24.com##.no-mask
 ||sixtybirthsuperstition.com^
 ||sixtyhardwarepreference.com^
 ||siyfihrtsdgyb.com^
+||siz3wxt8p.shop^
 ||sizeilksohs.com^
 ||sizesidewalk.com^
 ||sjaidu.com^
@@ -80619,6 +80646,7 @@ zztt24.com##.no-mask
 ||startrekk.flaconi.de^
 ||startrekk.flaconi.fr^
 ||startrekk.flaconi.pl^
+||starttui.xyz^
 ||startwebpromo.com^$third-party
 ||starvationdefence.com^
 ||stas.outbrain.com^
@@ -83258,6 +83286,7 @@ zztt24.com##.no-mask
 ||tfeluikknbiq.com^
 ||tffavlypd.xyz^
 ||tffkroute.com^
+||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
 ||tfg2.com/images/upfile/banner/
 ||tfiph.com^
@@ -83291,6 +83320,9 @@ zztt24.com##.no-mask
 ||tguomcq.cn^
 ||tguxiijalpaoggr.xyz^
 ||tgvtlpi.cn^
+||tgw.gmx.ch^
+||tgw.gmx.net^
+||tgw.web.de^
 ||tgxcmcoikpgek.com^
 ||th-make.com^
 ||th.bing.com/th/*&riu=$image,third-party
@@ -88509,6 +88541,7 @@ zztt24.com##.no-mask
 ||walmart.com/cp/api/wpa?
 ||walmart.com/px/PXu6b0qd2S/init.js
 ||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
+||walmartpetrx.com/1Ct9c6G3/init.js
 ||walmeric.com^$third-party
 ||wamcash.com^$third-party
 ||wamnetwork.com^
@@ -91229,6 +91262,7 @@ zztt24.com##.no-mask
 ||xjpnycwqr.com^
 ||xjq5.belambra.be^
 ||xjqxrpwlfg.com^
+||xjrvwz.com^
 ||xjsq.xyz^
 ||xjwrq.com^
 ||xjzcbddnj.com^
@@ -91856,6 +91890,7 @@ zztt24.com##.no-mask
 ||yctamonieomgb.com^
 ||yctrs.top^
 ||ycurrentjobis.biz^
+||ycyipha.cn^
 ||yczbb.*/ggimg/
 ||yd.game4343.com^
 ||yd.gxdianhua.com^
