@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-26 16:20:59
-! Total count: 93925
+! Version: 2022-11-27 16:20:58
+! Total count: 93945
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -757,6 +757,7 @@
 ##.ml_ad3
 ##.ml_ad5
 ##.mlad
+##.mobadsq
 ##.mod + #bottomBox
 ##.mod-ad
 ##.mod_ad_text
@@ -3577,7 +3578,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /ZagUser.js
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
-/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{4}\.js\?[a-z0-9]{10,}/$script,third-party
+/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
 /\.zdx[0-9]{1,2}\.site:/$script,third-party
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
@@ -5988,6 +5989,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /app/ads.
 /app/ads/*
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
+/app/pcBanner/getBannerConfig/v2
 /app/tracking/*
 /app/tracking_
 /appGoogleAnalytics-
@@ -16757,6 +16759,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smotrim.ru/js/stat.js$script
+@@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
@@ -20379,6 +20382,7 @@ diantai.ifeng.com#@#.ad-b
 dianyingim.com##iframe[src="/buffer.html"]
 dianyingim.com#%#//scriptlet("set-constant", "dy_card_dyrun", "undefined")
 dianyingim.com,dyxs11.com##.popup-tips
+dianyingim.com,dyxs11.com##.shortcuts-m-overlay
 dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 dict.baidu.com##.tran-download-ad
 dict.cc###rectcompactbot
@@ -20765,7 +20769,6 @@ dytt5.net##.detail-body > .fly-panel
 dytt5.net##body > div[style="overflow: hidden;"]:nth-child(3)
 dyttw.com.cn##td[align="center"][valign="middle"][bgcolor="#FFFFFF"] > table[width="1210"] > tbody > tr > td[height="55"]
 dyxs11.com###play-pause
-dyxs11.com,dianyingim.com##.shortcuts-m-overlay
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com###player_pic
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##.popup-tips
 dyxs11.com,dyxs12.com,dyxs13.com,dyxs14.com,dyxs15.com,dyxs20.com##body > .shortcuts-mobile-overlay
@@ -22865,6 +22868,7 @@ iciba.com##.footer_baidu
 iciba.com##.info-product
 iciba.com##.pc-entry
 iciba.com##.recommend-item:not([href*=".iciba."])
+iciba.com##div[class^="Kyad_"]
 icon-icons.com###bsa-placeholder-search
 icon-icons.com###istockphoto-placeholder
 icon-icons.com##.apu
@@ -24799,6 +24803,7 @@ mlsbd.shop##.notice-board
 mm-cg.com###ArticlesEx_box
 mm-cg.com###ioshowAD
 mm-cg.com##.TW_UTtoy
+mm-cg.com##.ut1_img_content_js
 mma-core.com###tlbrd
 mma-core.com##.crec
 mma-core.com##.grec
@@ -29274,6 +29279,7 @@ yahoo.com###crazyad_mask
 yahoo.com###defaultLREC
 yahoo.com###hp-ad-left
 yahoo.com###hp-ad-right
+yahoo.com###module-appPromoBanner
 yahoo.com###my-adsHPSPON
 yahoo.com###my-adsMBAR
 yahoo.com###sda-LDRB
@@ -36957,6 +36963,7 @@ zztt24.com##.no-mask
 ||aisy19.com/dm/
 ||aitaoshegnqian.cn^$third-party
 ||aitaotu.com/style/js/aitaotu
+||aiupiyd.cn^
 ||aiuw.com/images/*?from=ad
 ||aivalabs.com^$third-party
 ||aiviy.com/assets/js/union.js
@@ -50335,6 +50342,7 @@ zztt24.com##.no-mask
 ||eic.org.cn^*/analytics
 ||eicyds.qoo10.jp^
 ||eidccepu.cyou^
+||eidphap.cn^
 ||eidsign.com.cn^
 ||eifold.com^
 ||eiftfa.fashionette.de^
@@ -61897,6 +61905,7 @@ zztt24.com##.no-mask
 ||lapblra5do4j7rfit7e.com^
 ||laplamed.com^
 ||lapre28rmcat2.com^
+||lapsmnl.cyou^
 ||lapwlbz.cn^
 ||lapypushistyye.com^
 ||laraliaethnol.com^
@@ -65772,6 +65781,7 @@ zztt24.com##.no-mask
 ||mhdjkx.cn^
 ||mhdnspro.com^
 ||mhebbkfyhsu.com^
+||mhhsa.xyz^
 ||mhi9da.cn^
 ||mhidwg.elgiganten.se^
 ||mhqx.store^
@@ -71503,6 +71513,7 @@ zztt24.com##.no-mask
 ||pnd.gs^
 ||pndagz.com^
 ||pnekru6pxrum-a.akamaihd.net^
+||pnesemr.cn^
 ||pnhesw.jtb.co.jp^
 ||pniao99.com/statics/js/stat.js
 ||pnirrb.cn^
@@ -77784,6 +77795,7 @@ zztt24.com##.no-mask
 ||simg.bwin.com^
 ||simg.gamebookers.com^
 ||simi1234.com^
+||simi2345.com^
 ||simi345.me^
 ||simi456.me^
 ||simi567.me^
@@ -78049,6 +78061,7 @@ zztt24.com##.no-mask
 ||sjardw.footlocker.fr^
 ||sjarvis.taobao.com^
 ||sjbaiduadv1.redou.com^
+||sjcm.fun^
 ||sjdfuvz.cn^
 ||sjeklqx.cn^
 ||sjgnskf.com^
@@ -83512,6 +83525,7 @@ zztt24.com##.no-mask
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
 ||thisav.com/nb/
+||thisav.com/player/video-js-banner/
 ||thisav.video/v3/nb/
 ||thisbestreward.com^
 ||thiscdn.com^
@@ -87218,6 +87232,7 @@ zztt24.com##.no-mask
 ||utle.tech426.com^
 ||utll.cn^
 ||utlnjry.top^
+||utlove02.com^$third-party
 ||utmostsecond.com^
 ||utndln.com^
 ||utokapa.com^
@@ -88225,6 +88240,7 @@ zztt24.com##.no-mask
 ||vq1qi.pw^
 ||vq7736.com^
 ||vqdjcy.com^
+||vqjxlie.cn^
 ||vqlrwgj.cn^
 ||vqnqrs53.com^
 ||vqnqrs54.com^
@@ -89779,6 +89795,7 @@ zztt24.com##.no-mask
 ||word168.cn^
 ||wordego.com^$third-party
 ||wordennutcake.com^
+||wordmonetize.com^$third-party
 ||wordpress.com/geo/
 ||woredi.com^
 ||worersie.com^
@@ -90837,6 +90854,7 @@ zztt24.com##.no-mask
 ||xad.com^
 ||xadcentral.com^
 ||xadsmart.com^
+||xafc.xyz^
 ||xafengzhij.xyz^
 ||xafxs.cn^
 ||xaholica.com^
@@ -92113,6 +92131,7 @@ zztt24.com##.no-mask
 ||yigujin.cn/wp-content/themes/Three/js/singley
 ||yigujin.cn/wp-content/themes/Three/js/tuij
 ||yigujin.cn/wp-content/themes/Three/js/yierlin
+||yihehe.xyz^
 ||yihoo.biz^
 ||yiichina.com/images/yisu-
 ||yiihuu.com/assets/common/yh/js/yh.ad.
@@ -93134,6 +93153,7 @@ zztt24.com##.no-mask
 ||zgcydvu.cn^
 ||zgdshoes.com^
 ||zgfckf.mobi^
+||zgfdczj.mobi^
 ||zgfshoes.com^
 ||zgfushi.mobi^
 ||zghowanhgcxbpf.com^
