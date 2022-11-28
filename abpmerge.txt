@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-27 16:20:58
-! Total count: 93945
+! Version: 2022-11-28 16:18:53
+! Total count: 93984
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1023,6 +1023,7 @@
 ##[href^="http://ldy.fanlimanhua.cn/"]
 ##[href^="https://9996867.com"]
 ##[href^="https://l.tyrantdb.com/"]
+##[href^="https://lantianyong"]
 ##[href^="https://www.ex311.com:"]
 ##[href^="openapp.jdmobile://virtual?params="]
 ##[href^='/client/getapp.aspx']
@@ -1223,6 +1224,7 @@
 ##a[href*=".aiyouxi56.com"]
 ##a[href*=".apple1818.net"]
 ##a[href*=".asada-kairyo.com/"]
+##a[href*=".ax10a.com/"]
 ##a[href*=".ayx300.com/"]
 ##a[href*=".bet365.gdn"]
 ##a[href*=".betbar168.net"]
@@ -15512,7 +15514,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
 @@||briian.com/advert.
-@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|timesprime.com|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
@@ -15672,6 +15674,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
+@@||collect.igodigital.com/collect.js$domain=berkley-fishing.com|goodwillfinds.com|samash.com|vitalsource.com|wilsonparking.com.au
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
 @@||collectandgo.be^*/utag.sync.js
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
@@ -15734,7 +15737,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
-@@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
+@@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|dashboard.getdriven.app|usa.experian.com
 @@||dayanzai.me/image/ad/$image
 @@||daziba.cn/Images/share.css
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
@@ -28141,6 +28144,7 @@ trademe.co.nz##.tm-display-ad__wrapper
 trademe.co.nz##tm-display-ad
 tradetrucks.com.au##.middle-banner-list
 traditionalmusic.co.uk##.skys-right
+trafficstars.com$third-party
 trakt.tv###hu-ck-s-t-er-de-sk-top-sidenav
 trakt.tv###hu-ck-s-t-er-de-sk-top-wrapper
 trakt.tv##[data-snigel-id]
@@ -28281,6 +28285,8 @@ tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com###sda-MON
 tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##li[id^="ad-"]
+tw.nextapple.com##[class^="na-ad-"]
+tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 tw.stock.yahoo.com##td > div.ysm
@@ -29009,6 +29015,8 @@ www.duba.com##.tiyan_a
 www.duodada.com/Tpl/default/system.js
 www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
+www.jjtyss.com##ins[class],#div.myui-player.clearfix p,div.container p
+www.jmhongyan.com##ins[class],div.container p
 www.kafan.cn##.comeing_show_box[style="padding:10px;"]
 www.mhhanman.xyz/data/my/myjs.js
 www.nangua5.com##[id*="_"][class*="_"],[id^="k"],[style*='height: 130px;'],[style*='left: 0px; ']
@@ -30024,6 +30032,7 @@ zztt24.com##.no-mask
 ||025613.com^
 ||025suyu.com^
 ||025yimei.com/templets/default/js/swt.js
+||025zxcv.com^
 ||0265331.com^
 ||0272aa.com^
 ||0272bb.com^
@@ -30372,6 +30381,7 @@ zztt24.com##.no-mask
 ||11111.host^
 ||11129.com/800X80
 ||1113dage2022.xyz^
+||1116yitiao2022.xyz^
 ||1118cctv.ltd^
 ||111cn.net/gg_ad/
 ||111cn.net/js/downc*.js
@@ -31723,6 +31733,7 @@ zztt24.com##.no-mask
 ||51wan.com/img/js/xyadjs_
 ||51wangdai.com/Images/bad_*0
 ||51xuediannao.com/uploads/un/
+||51xuex.com.cn^
 ||51xumei.com^
 ||51yes.com^$third-party
 ||51yhzp.com^$third-party
@@ -32813,6 +32824,7 @@ zztt24.com##.no-mask
 ||99520.xyz^
 ||996f0a8.com^
 ||997.000123456789.site^
+||99886aaa.com^
 ||998k.at^
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
@@ -38112,8 +38124,10 @@ zztt24.com##.no-mask
 ||analytics.yolacdn.net^
 ||analytics.yomedia.vn^
 ||analytics.yourbankcard.com^
+||analytics.yugen.to^
 ||analytics.ziftsolutions.com^
 ||analytics00.meride.tv^
+||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
 ||analyticschecker.com^$third-party
 ||analyticsip.net^$third-party
@@ -40278,6 +40292,7 @@ zztt24.com##.no-mask
 ||bashfulweaponsscratch.com^
 ||bashiyy.com/static/js/plugin.js
 ||basicstat.com^$third-party
+||basicthinking.de/stats/
 ||basilic.io^$third-party
 ||basis.net/assets/up.js
 ||basketballbelieve.com^$third-party
@@ -40407,6 +40422,7 @@ zztt24.com##.no-mask
 ||bcebos.com/im-cs/79fb7a5e77433a8760e4ba703ef71154.png
 ||bcebos.com/im-cs/a69c0123ae867534560f1a0df1b6b2a8.png
 ||bcf8fbea24.com^
+||bcfeat2.com^
 ||bcglkfu.cn^
 ||bch8.destinia.co^
 ||bchina-1.xsfaya.com^
@@ -40703,6 +40719,7 @@ zztt24.com##.no-mask
 ||begun.ru^$third-party
 ||begunprescription.com^
 ||behalfplead.com^
+||behance.net/v2/an/pv
 ||behangneurin.casa^
 ||beharmalted.info^
 ||behave.com^$third-party
@@ -44488,6 +44505,7 @@ zztt24.com##.no-mask
 ||clutchsavage.com^
 ||cluttercallousstopped.com^
 ||clvkg.xyz^
+||clw99.mobi^
 ||clxgmlpfkoj.com^
 ||clxxkz.com.cn^
 ||clypejailage.com^
@@ -44884,6 +44902,7 @@ zztt24.com##.no-mask
 ||collect.elvia.ch^
 ||collect.helsana-preprod.ch^
 ||collect.helsana.ch^
+||collect.igodigital.com^
 ||collect.iteam-dress.com^
 ||collect.meilleurtaux.com^
 ||collect.rewardstyle.com^
@@ -52352,6 +52371,9 @@ zztt24.com##.no-mask
 ||findicaterperty.site^
 ||findingupsetabstinence.com^
 ||findlnk.com^
+||findmatches.com/bts.js
+||findmatches.com/t/tr/lp/intg.js?
+||findmatches.com/tri?tid=
 ||findnewline.com^
 ||findswiftresults.com^
 ||finedergotic.com^
@@ -57430,6 +57452,7 @@ zztt24.com##.no-mask
 ||i7by.top^
 ||i7ece0xrg4nx.com^
 ||i7pnx0t.cn^
+||i7x3.fun^
 ||i8023.icu^
 ||i884.info^
 ||i8wi.icu^
@@ -58444,6 +58467,7 @@ zztt24.com##.no-mask
 ||infogr.am/logger.php?
 ||infolinks.com^$third-party
 ||infomine.com/imcounter.js
+||infonu.nl/t.php?
 ||infopicked.com^
 ||infopolit.com/counter/
 ||infopro-insight.com^$third-party
@@ -60343,6 +60367,7 @@ zztt24.com##.no-mask
 ||jsrdn.com/s/cs.js
 ||jsretra.com^
 ||jss.tvzhe.com^
+||jssav4hk.xyz^
 ||jssav6hk.club^
 ||jssearch.net^
 ||jsshuiyuan.com^
@@ -68697,6 +68722,7 @@ zztt24.com##.no-mask
 ||ocexikc.cn^
 ||ocgijsxnu.xyz^
 ||ochaugly.net^
+||ocive.xyz^
 ||ocjeg2ca9uh9.mailfloss.com^
 ||ockfjk3kjk7kjkf.xmangoculture.com^
 ||oclaserver.com^
@@ -69527,6 +69553,7 @@ zztt24.com##.no-mask
 ||orthronsmatter.com^
 ||orts.wixawin.com^$third-party
 ||ortslucres.com^
+||orxsq.xyz^
 ||orysogsik.uno^
 ||orzx.im/Document/recommend/flashpoint.html
 ||orzx.im/Document/union/
@@ -69905,6 +69932,7 @@ zztt24.com##.no-mask
 ||p-log.ykimg.com^
 ||p-td.com^$third-party
 ||p.7060.la^
+||p.a2d.io/plx.js
 ||p.aty.sohu.com^
 ||p.barrera.io^
 ||p.bohanhengtian.cn^
@@ -72666,6 +72694,7 @@ zztt24.com##.no-mask
 ||push-free.com^$third-party
 ||push-house.net^$third-party
 ||push-me-up.com^
+||push-sdk.net^
 ||push.bearad.com^
 ||push.house^
 ||push.m.youku.com^
@@ -73352,6 +73381,7 @@ zztt24.com##.no-mask
 ||qpl9.destinia.dk^
 ||qpmue.xyz^
 ||qpslgfcsbvgm.com^
+||qptnew.com^
 ||qpwgmphwnejfp.com^
 ||qpwiyfmlkhbxop.com^
 ||qpwtovicespr.com^
@@ -74857,6 +74887,7 @@ zztt24.com##.no-mask
 ||riqu2015.com^
 ||risafniz.space^
 ||risausso.com^
+||risextube.com/t/
 ||rishenglaw.cn^
 ||rising.cn/js/haoAdData.js
 ||rising.cn/rxbox/
@@ -74926,6 +74957,7 @@ zztt24.com##.no-mask
 ||rldwideorga.com^
 ||rlets.com^$third-party
 ||rljjt.cn^
+||rlllwby.cn^
 ||rloddo.olx.bg^
 ||rlog.popin.cc^
 ||rlogs.youdao.com^
@@ -82409,6 +82441,7 @@ zztt24.com##.no-mask
 ||szyepu8.com/data/AADDimg/
 ||szyhqj.com/js/
 ||szyuke.cn^
+||szzb.xyz^
 ||szzd.ltd^
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 ||t-analytics.com^$third-party
@@ -85375,6 +85408,7 @@ zztt24.com##.no-mask
 ||tracking.listhub.net^
 ||tracking.live.wetter.at^
 ||tracking.livingsocial.com^
+||tracking.lqm.io^
 ||tracking.magnetmail.net^
 ||tracking.mammemagazine.it^$script
 ||tracking.markethero.io^
@@ -89110,6 +89144,7 @@ zztt24.com##.no-mask
 ||weeplypriapic.website^
 ||weeragedeafer.com^
 ||weethery.com^
+||weeuqek.cn^
 ||wegetpaid.net^
 ||weglot.com/pageviews?
 ||wegotmedia.com^
@@ -89583,6 +89618,7 @@ zztt24.com##.no-mask
 ||withoutmotivation.com^
 ||witlingdandie.com^
 ||witnessfeast.com^
+||witt-weiden.de^$ping
 ||wittilyfrogleg.com^
 ||wiuspckmn.bar^
 ||wivesdandyemulation.com^
@@ -89852,6 +89888,7 @@ zztt24.com##.no-mask
 ||wowad.xyz^
 ||wowanalytics.co.uk^$third-party
 ||wowebahugoo.com^
+||wowfan.net/static/js/index.
 ||wowhofoo.com^
 ||wowips.com^
 ||wowjogsot.com^
@@ -91046,6 +91083,7 @@ zztt24.com##.no-mask
 ||xgrwjbui.top^
 ||xgsnjl.com^
 ||xgsx.club^
+||xgvfkge.cn^
 ||xgwqjjgwhgke.com^
 ||xgzdys.com^
 ||xhamstercams.com^$third-party
@@ -92057,6 +92095,7 @@ zztt24.com##.no-mask
 ||ygudtbdnhkhlmkd.xyz^
 ||yguo.xyz^
 ||yguuoibdsscki.com^
+||ygwdai.cn^
 ||ygyl.xyz^
 ||ygzkedoxwhqlzp.com^
 ||yh.jialingmm.net^
