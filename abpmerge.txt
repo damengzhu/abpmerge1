@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-11-28 16:18:53
-! Total count: 93984
+! Version: 2022-11-29 16:22:57
+! Total count: 94035
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -796,6 +796,7 @@
 ##.playtop.col-pd
 ##.plc > .a_p
 ##.pop[style="right: 10px;"]
+##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
 ##.privilege-promote
 ##.propa_bottom
@@ -938,6 +939,7 @@
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
+##IMG[onclick='golh()'][src$='.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
@@ -1071,6 +1073,7 @@
 ##[href^='https://jwmic.91lu001.com']
 ##[href^='https://kcc.qrjxween.com/cc/']
 ##[href^='https://l.h-ero.games/']
+##[href^='https://luodi.aitaokeji.top/']
 ##[href^='https://m.jgg18.org/']
 ##[href^='https://mcc.rhwg4js.cn/']
 ##[href^='https://mtyshi.com/']
@@ -1133,6 +1136,7 @@
 ##[onclick^='window.open("https://www.zxucii.com:']
 ##[ontouchstart='this.click();'][href^='https://wd.haoyundm.com']
 ##[poster^="https://yun.lhqykq.cn/shandong/"],[poster^='https://yun.fayscb.cn/shandong/']
+##[poster^='https://dingbu.bj.bcebos.com/']
 ##[poster^='https://i.opiwb.com:']
 ##[poster^='https://img.hylmxing.com:']
 ##[rel='nofollow'][href*='com:'][target='_blank']
@@ -1157,6 +1161,7 @@
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/static/'][onclick='openurl()'][lazyload][importance='low']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
+##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://img.hylmxing.com:']
 ##[src^='https://mydisplay.ctfile.com/popview.php']
 ##[src^='https://n5893.com'],[src^='https://gezkdx7.com'],[src^='https://n8182.com']
@@ -1588,6 +1593,7 @@
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
 ##div.ad-frame-container
+##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
@@ -8936,6 +8942,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /js/mob/cpc_bottom.js
 /js/mts.js
 /js/mts66.js
+/js/news2zz.js
 /js/oas-
 /js/oas.
 /js/pcbook.js?
@@ -12891,6 +12898,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /wadsAdsLoaded/*
 /wanalytics/*
 /wap/js/gg/*
+/wap88ysw/jk/toubu.js
 /wap_advpic/*
 /watchonline_cookies.
 /wbstats/index/*
@@ -16330,6 +16338,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||macauo2o.com/advertise/
+@@||mail.td^$generichide
 @@||manhua.weibo.com/adv/
 @@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
@@ -20385,7 +20394,6 @@ diantai.ifeng.com#@#.ad-b
 dianyingim.com##iframe[src="/buffer.html"]
 dianyingim.com#%#//scriptlet("set-constant", "dy_card_dyrun", "undefined")
 dianyingim.com,dyxs11.com##.popup-tips
-dianyingim.com,dyxs11.com##.shortcuts-m-overlay
 dianyingim.com,dyxs11.com##.shortcuts-mobile-overlay
 dict.baidu.com##.tran-download-ad
 dict.cc###rectcompactbot
@@ -28965,6 +28973,7 @@ wowway.net###sc_home_news_banner
 wowway.net###sc_home_recommended_banner
 wowway.net###sc_read_header_banner
 wowway.net##.blocks_container-size_containerSize
+wpadmngr.com
 wpjam.com###wpjam_blog_300x250_1
 wplift.com##.widget_bsa
 wpneon.com##.banner-week
@@ -29965,7 +29974,7 @@ zztt24.com##.no-mask
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=canyoublockit.com
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=shink.me|shon.xyz
 |https://$image,script,third-party,xmlhttprequest,domain=damimage.com|imagedecode.com|imageteam.org
-|https://$script,subdocument,popup,3p,domain=btsow.click|dandanzan10.top|nunuyy3.org|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.beauty|dandanzan10.top|nunuyy3.org|rarbgprx.org
 |https://$script,third-party,xmlhttprequest,domain=bc.vc
 |https://$script,third-party,xmlhttprequest,domain=embedscr.to|embedsr.to|iembedrip.com
 |https://$script,xmlhttprequest,domain=urlcash.net
@@ -31994,6 +32003,7 @@ zztt24.com##.no-mask
 ||600z.com^
 ||60198956.jcpecb.com^
 ||602d76e204c032.com^
+||60355.net^
 ||605296.com^
 ||6064cb4b81.com^
 ||6068a17eed25.com^
@@ -32102,6 +32112,7 @@ zztt24.com##.no-mask
 ||666679.xyz^
 ||666683.xyz^
 ||666684.xyz^
+||66668aaa.com^
 ||666722.xyz^
 ||666723.xyz^
 ||666724.xyz^
@@ -32242,6 +32253,7 @@ zztt24.com##.no-mask
 ||6gt.cc^
 ||6gukaitu.xyz^
 ||6gustis.xyz^
+||6hejing.cn^
 ||6huu.com^
 ||6kup12tgxx.com^
 ||6l1twlw9fy.com^
@@ -32571,6 +32583,7 @@ zztt24.com##.no-mask
 ||8761f9f83613.com^
 ||876920.com^
 ||876porn.com/attachment/
+||87asa.com^
 ||87d.xv5b.com^
 ||87fgr4.site^
 ||87mao.com/52
@@ -32826,6 +32839,7 @@ zztt24.com##.no-mask
 ||997.000123456789.site^
 ||99886aaa.com^
 ||998k.at^
+||99997aaa.com^
 ||9999961.com/JS/bofang.js
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
@@ -34305,6 +34319,7 @@ zztt24.com##.no-mask
 ||abebooks.com/timer.gif?
 ||abedwest.com^
 ||abeehing.net^
+||abenshishabi.com^
 ||abergently.club^
 ||aberr.cn^
 ||abevc.club^
@@ -37088,6 +37103,8 @@ zztt24.com##.no-mask
 ||akmh043.vip^
 ||akmh047.vip^
 ||akmh049.vip^
+||akmh074.vip^
+||akmh080.vip^
 ||akmqmypoqyn.com^
 ||akmxts.com^
 ||akpemd.com^
@@ -40402,6 +40419,7 @@ zztt24.com##.no-mask
 ||bc.vc/js/link-converter.js
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
+||bc0a.com/be_ixf_js_sdk.js
 ||bc34.wijnvoordeel.nl^
 ||bc5049654b.com^
 ||bcanl.bca-autoveiling.nl^
@@ -40502,6 +40520,7 @@ zztt24.com##.no-mask
 ||bdg.com/event?
 ||bdgffuqodbhrb.xyz^
 ||bdgg.qjy168.com^
+||bdhcpll.cn^
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||bdimg.com/newmap/static/common/images/nav-ad_
@@ -42188,7 +42207,7 @@ zztt24.com##.no-mask
 ||btschool.net/images/*/HDYGR
 ||btser.cn^
 ||btserve.com^$third-party
-||btsow.click/app/jav$image
+||btsow.beauty/app/jav$image
 ||btstatic.com^$third-party
 ||btstats.devtribu.fr^
 ||bttmkj.diesel.com^
@@ -42499,6 +42518,7 @@ zztt24.com##.no-mask
 ||c.admaster.com.cn^$popup
 ||c.amazinglybrilliant.com.au^
 ||c.bannerflow.net^
+||c.bdhcpll.cn^
 ||c.bigmir.net^
 ||c.caijing123.com^
 ||c.cdngeek.com^
@@ -44563,6 +44583,7 @@ zztt24.com##.no-mask
 ||cms.lv^$third-party
 ||cmsjs.eastmoney.com^$subdocument
 ||cmspapp83.com^
+||cmspapp84.com^
 ||cmstool.youku.com^
 ||cmtrsrlyyiche.com^
 ||cmttvv.bonprix.se^
@@ -44804,7 +44825,7 @@ zztt24.com##.no-mask
 ||codezap.com^
 ||cody-stats.coupa.engineering^
 ||coedmediagroup.com^
-||coefficy.com^$third-party
+||coefficy.com/ip/
 ||coeliacclung.com^
 ||coenobeullucu.com^
 ||coenuriauge.com^
@@ -46014,6 +46035,7 @@ zztt24.com##.no-mask
 ||cshield.io^$third-party
 ||csi.gstatic.com^
 ||csiasvapqrccq.com^
+||csiteadmin.com^
 ||csjs.ltd^
 ||csjwawe.top^
 ||cslpf.cn^
@@ -47480,6 +47502,7 @@ zztt24.com##.no-mask
 ||dcf0698a21.com^
 ||dcfh7vk.cn^
 ||dchxxvk.cn^
+||dcinfos-cache.abtasty.com^
 ||dcjfoei.cn^
 ||dckquo.holzprofi24.de^
 ||dcl5.cn^
@@ -54098,6 +54121,7 @@ zztt24.com##.no-mask
 ||gforanoppo.com^
 ||gfppeqelk.com^
 ||gfpplflrif.com^
+||gfqfjau.cn^
 ||gfrevenge.com/vbanners/
 ||gfsdloocn.com^
 ||gfstrck.com^
@@ -55158,6 +55182,7 @@ zztt24.com##.no-mask
 ||gsecondscreen.com^$third-party
 ||gsght.com/twizards.js
 ||gsght.com^$third-party
+||gshsne.xyz^
 ||gshtrl.top^
 ||gsimedia.net^$third-party
 ||gsjdzx.com^$third-party
@@ -55227,6 +55252,7 @@ zztt24.com##.no-mask
 ||gtop.ro^$third-party
 ||gtopstats.com^$third-party
 ||gtpso.com/Home/TopSdk/getFavCoupItems
+||gtpxvpi.cn^
 ||gtrd.xyz^
 ||gtreus.aliexpress.com^
 ||gtrk.s3.amazonaws.com^
@@ -57830,6 +57856,7 @@ zztt24.com##.no-mask
 ||ijhlca.lulus.com^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
+||ijkmafsf.xyz^
 ||ijkqwopm.xyz^
 ||ijqgefuq.com^
 ||ijrah.top^$third-party
@@ -57850,6 +57877,7 @@ zztt24.com##.no-mask
 ||ikdxfh.jollyroom.se^
 ||ikjnwd.xyz^
 ||ikjocef.cn^
+||ikjwmfeds.xyz^
 ||ikmstxasipnuyi.com^
 ||ikoptaud.com^
 ||ikrweb.cn^
@@ -58837,6 +58865,7 @@ zztt24.com##.no-mask
 ||io.narrative.io/?$third-party
 ||io1g.net^$third-party
 ||ioadserve.com^
+||ioaiaou.cn^
 ||ioam.de/?$domain=autobild.de|focus.de|spiegel.de|stern.de|tellows.de|transfermarkt.de
 ||ioam.de/?$domain=comunio.de
 ||ioam.de/?$domain=notebookcheck.com
@@ -60076,6 +60105,7 @@ zztt24.com##.no-mask
 ||jobvite.com/analytics.js
 ||joccupangno.xyz^
 ||jocelynlaura.com^
+||jocelynrace.com^
 ||jockeryfgtu.club^
 ||jocowhab.com^
 ||jodellbrought.pro^
@@ -62561,6 +62591,7 @@ zztt24.com##.no-mask
 ||linglingccc.xyz^
 ||lingows.appspot.com/page_data/?
 ||lingquan.vip^
+||lingting.xin^
 ||linguee.fr/white_pixel.gif
 ||lingzhushijie.cn^
 ||linicom.co.il^
@@ -64217,6 +64248,7 @@ zztt24.com##.no-mask
 ||mapp.yesstyle.com^
 ||mapping.fun^
 ||mapquest.com/logger
+||mapsmnx.cyou^
 ||maptrackpro.com/track/
 ||maqiang520.online^
 ||maquiags.com^
@@ -65903,6 +65935,7 @@ zztt24.com##.no-mask
 ||miixtocmpfjwlw.com^
 ||mikanani.me/images/Masha/
 ||mikofs.com^
+||mikongdd.top^
 ||mikuclub.*/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
@@ -68785,6 +68818,7 @@ zztt24.com##.no-mask
 ||oebwcdrmpx.com^
 ||oedlmz.underarmour.it^
 ||oedlwhcqfpfup.xyz^
+||oehhq.xyz^
 ||oei1.gq^
 ||oeitlgqjw.com^
 ||oek7.april-moto.com^
@@ -68855,6 +68889,7 @@ zztt24.com##.no-mask
 ||ofweek.com/pop/ad/
 ||og-affiliate.com^$third-party
 ||og.zyzjpx.cn^$third-party
+||oganilglk.cyou^
 ||ogb2.biopur-leanature.fr^
 ||ogb2.biovie.com^
 ||ogb2.eauthermalejonzac.com^
@@ -72952,6 +72987,7 @@ zztt24.com##.no-mask
 ||q-stats.nl^$third-party
 ||q.baminw.com.cn^
 ||q.e49.xyz^
+||q.f05.xyz^
 ||q.stricaik.com^
 ||q0ibic08.cn^
 ||q1.yyxwzx.com^
@@ -73657,6 +73693,7 @@ zztt24.com##.no-mask
 ||qwant.com/v2/api/ux/surveys?
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwe0231141.bj.bcebos.com^
+||qweasd.vip^
 ||qweewq2021.site^
 ||qwer0001.top^
 ||qwerfdx.com^
@@ -75493,6 +75530,7 @@ zztt24.com##.no-mask
 ||rvttrack.com^
 ||rvv.emol.com^
 ||rvwtpwmtnfj.com^
+||rvyjbwr.cn^
 ||rvz9.destinia.co.ro^
 ||rwadakesz.cyou^
 ||rwdito.carsguide.com.au^
@@ -77635,6 +77673,7 @@ zztt24.com##.no-mask
 ||shouyefrom.xyz^
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
 ||shouyouyou.com^
+||shouzhi.biz^
 ||shouzhuanfs.com^
 ||shovedrailwaynurse.com^
 ||shovelimetreekit.com^
@@ -78311,6 +78350,7 @@ zztt24.com##.no-mask
 ||smanes.com^
 ||smart-bdash.com/tracking-script/
 ||smart-counter.net^$third-party
+||smart-data-systems.com^$third-party
 ||smart-digital-solutions.com^$third-party
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
@@ -81149,6 +81189,7 @@ zztt24.com##.no-mask
 ||stats.kongressen.com^
 ||stats.krauss.io^
 ||stats.kryptoslogic.com^
+||stats.ksearchnet.com^
 ||stats.larsroettig.dev^
 ||stats.lastfm.matthiasloibl.com^
 ||stats.laxallstars.com^
@@ -83540,6 +83581,7 @@ zztt24.com##.no-mask
 ||thinkablerice.com^
 ||thinkabletrick.com^
 ||thinkcode.cc^
+||thinkmd.cn^
 ||thinkphp.pro^
 ||thinkseducation.com^
 ||thinktot.com^$third-party
@@ -84405,7 +84447,7 @@ zztt24.com##.no-mask
 ||toutiao.com^*/user_log/
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=mgtv1.tv|agemys.net|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.org|agemys.net|acgndmku.com|subaibaiys.com
 ||toutiaoimg.com^$domain=1024pz.com
 ||toutiaoyule.com/n/dspshow.
 ||touzi110.mobi^
@@ -86335,6 +86377,7 @@ zztt24.com##.no-mask
 ||ty.szhszxfw.cn^
 ||ty121.cn/IAA/
 ||ty123.ltd^
+||tyawwj.cn^
 ||tybfxw.puma.com^
 ||tycc.info^
 ||tydouke.com^
@@ -88483,6 +88526,7 @@ zztt24.com##.no-mask
 ||w3t.cn^*/fx.js
 ||w3track.com/newtrk/$third-party
 ||w4.com^
+||w41.i7x3.fun^
 ||w4m.rs/tracker.js
 ||w4o7aea80ss3-a.akamaihd.net^
 ||w4vecl1cks.com^$third-party
@@ -88876,6 +88920,7 @@ zztt24.com##.no-mask
 ||web.bankofscotland.de^
 ||web.campaign.miriade.com^
 ||web.campaign.v73.it^
+||web.cdn.openinstall.io^
 ||web.collisionservices.com^
 ||web.comunicazioni.iol.it^
 ||web.de/monitoring/
@@ -90443,6 +90488,7 @@ zztt24.com##.no-mask
 ||www.jsifaja.com^
 ||www.jsnzoe301m.com^
 ||www.kanglingjiu.com^
+||www.kcc4445.top^
 ||www.keet1liod.com^
 ||www.kick1pore.com^
 ||www.kilo6alga.com^
@@ -90509,6 +90555,7 @@ zztt24.com##.no-mask
 ||www.mnbvc34.com^
 ||www.mon-com-01.com^
 ||www.mon-com-net.com^
+||www.moneyziyouwm.com^
 ||www.mown5gaze.com^
 ||www.mqhzdl.com^
 ||www.n-core-pipe.com^
@@ -90611,6 +90658,7 @@ zztt24.com##.no-mask
 ||www.sl-ct5.com^
 ||www.slim2disc.com^
 ||www.smart-business-intuition.com^
+||www.smtlm.cc^
 ||www.snta0034.com^
 ||www.softtrack08.com^
 ||www.soil5hear.com^
@@ -91136,6 +91184,7 @@ zztt24.com##.no-mask
 ||xianwei.tech^
 ||xianxhwy.com^
 ||xianzhenyuan.cn/data/attachment^$image
+||xianzhice.com^
 ||xiaobaipan.com/tb.html
 ||xiaobao8888.com^
 ||xiaobi*.com/layer/layer.js
@@ -92120,6 +92169,7 @@ zztt24.com##.no-mask
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
 ||yhz18.com^
+||yhzm.xyz^
 ||yi.ximizi.com^
 ||yibaosenlin.top^
 ||yibivacaji.com^
@@ -92348,6 +92398,7 @@ zztt24.com##.no-mask
 ||ymvhbeuadqhwx.com^
 ||ymxlm.cc^
 ||ymyh.club^
+||ymyile.xyz^
 ||ymzcapp.shop^
 ||ymzrrizntbhde.com^
 ||ynagqs.vidaxl.pl^
