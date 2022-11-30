@@ -4,6 +4,7 @@
 ###Layeraa2
 ###MsnDialog.ad
 ###MyMoveAd
+###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###QEff1
 ###QEff2
 ###QQ_Full
@@ -25,6 +26,7 @@
 ###ad-SNSSplashAd
 ###ad-box
 ###ad-header-mobile-contener
+###ad-index.position-relative
 ###ad1[onclick="window.open(this.url)"]
 ###ad1[url][onclick='window.open(this.url)'][src^='https://bj.bcebos.com/im-cs/'][width='100%']
 ###ad900
@@ -34,6 +36,7 @@
 ###adBody04
 ###adBody06
 ###adBody07
+###adDisabledBtn
 ###adLeftFloat
 ###adRightFloat
 ###adUn_1
@@ -358,6 +361,7 @@
 ###wrapper > .topad
 ###wrapper > div[style="padding:3px;"] > #pic
 ###xinnxi
+###xqad
 ###xqad[style="margin-bottom: 5px;"]
 ##.AD_TAC_BOX
 ##.AdTop
@@ -773,6 +777,7 @@
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.overBanner.dowloadBtn
+##.page-wwads
 ##.pagead_3
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
@@ -926,6 +931,7 @@
 ##A[href^="/e/public/ClickAd?adid="]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
 ##DIV#ad-index.col-12.position-relative
+##DIV#bl_mobile_float
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
 ##DIV.box-width.ec-ad.ec-ad-double.flex
@@ -1060,6 +1066,7 @@
 ##[href^='https://e.akmhw.com/c.html']
 ##[href^='https://fcc.hxaxfcc.cn/']
 ##[href^='https://gougew.lanzoub.com/']
+##[href^='https://iluluweb.club']
 ##[href^='https://item.taobao.com/item.htm'][rel='nofollow']
 ##[href^='https://jd.dangbei.com/']
 ##[href^='https://jincai.sohu.com/']
@@ -1157,6 +1164,7 @@
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://img.hylmxing.com:']
+##[src^='https://l.bt5v.com/v.php']
 ##[src^='https://mydisplay.ctfile.com/popview.php']
 ##[src^='https://n5893.com'],[src^='https://gezkdx7.com'],[src^='https://n8182.com']
 ##[src^='https://p.jngdg.top/'][alt]
@@ -1226,6 +1234,7 @@
 ##a[href*=".ax10a.com/"]
 ##a[href*=".ayx300.com/"]
 ##a[href*=".bet365.gdn"]
+##a[href*=".bet927.bet"]
 ##a[href*=".betbar168.net"]
 ##a[href*=".bfq04.com/"]
 ##a[href*=".birthcaker.cn"]
@@ -1271,6 +1280,7 @@
 ##a[href*=".guzaosf.com/"]
 ##a[href*=".gzwtgm.com/"]
 ##a[href*=".hbjimin.com/"]
+##a[href*=".hgty411.bet"]
 ##a[href*=".hhjs20.com"]
 ##a[href*=".hjikv.cc/"]
 ##a[href*=".hjneng.com/"]
@@ -1503,6 +1513,7 @@
 ##a[href*="/yyds101.com"]
 ##a[href*="/yyh.net/"]
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
+##a[href*="://4"] > img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*="?channelCode="] > img[src*=".com"]
@@ -1579,6 +1590,7 @@
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
 ##button[onclick*=".xacg.info/"]
+##center > [href^='https://docs.qq.com/doc'][target='_blank']
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
@@ -1589,6 +1601,7 @@
 ##div.ad-frame-container
 ##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
+##div.container > div.row div.yalayi_box
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
@@ -4315,6 +4328,7 @@ bmlink.com##.tg
 bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 bnext.com.tw##div[data-aid]
 bnext.com.tw##div[id^="sponsor-"]
+bnext.com.tw#?#.v-card:-abp-has(.grey--text:-abp-contains(Sponsored by))
 bnnbloomberg.ca###promotions
 bnonews.com##.bnone-widget
 boards.net,mtaeta.info,notbanksyforum.com,pimpandhost.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
@@ -9359,6 +9373,7 @@ lihkg.com##iframe[src^="https://pb.lihkg.com/"][style^="height:"]
 lihkg.com##iframe[src^="https://pb.lihkg.com/primis?"]
 lihkg.com#?##rightPanel div[id^="page-"] ~ div[class] > div > div[style^="display:"] ins.adsbygoogle:upward(div[style^="display:"])
 liisex.com###apDiv22
+likefont.com##.advert
 likr.tw###avivid_waterfall_wp_product_area
 lilymanga.com,msn.com##a[href^="https://amzn.to/"]
 limetorrents.pro##a[href^="/leet/?"] > img[src^="/static/images/download"]
@@ -10131,6 +10146,8 @@ musescore.com##.js-musescore-hb-728--wrapper
 music-news.com###buy-tickets
 music-news.com##.amazon
 muslimobserver.com##.add2
+muve.org.tw#@#.sponsor-area
+muve.org.tw#@#.sponsor-wrap
 muzhi.baidu.com##.leftnest
 muzhi.baidu.com##.quick-ask-2 + .android + div
 muzhi.baidu.com##.rightnest
@@ -10446,6 +10463,8 @@ newxue.com##.left336280
 newyorkyimby.com##img[height="280"]
 newyx.net,yxbao.com##.gs
 newzit.com##.big_WcxYT
+nextapple.com###lrec01
+nextapple.com##div[class^="na-ad-"]
 nextcity.org##.desktop-display
 nextofwindows.com##.rtsidebar-cm
 nexusmods.com##.agroup
@@ -14469,6 +14488,7 @@ ynet.com###ynetG_B1
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 yodu.org#$##byspider { display: none !important; }
 yodu.org#$#body[style] { overflow: auto !important; }
+yomahub.com##.sidebar-slot
 yopmail.com,yopmail.fr,yopmail.net##.pindexhautctn
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
