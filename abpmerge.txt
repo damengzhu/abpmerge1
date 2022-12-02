@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-01 16:23:19
-! Total count: 95156
+! Version: 2022-12-02 09:06:49
+! Total count: 95182
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -190,6 +190,7 @@
 ###hj-right-aside[style="float: right;"]
 ###homead
 ###hongbao20201217
+###hplogo
 ###img-txt-wrapper > #title_desc_div
 ###imgad
 ###imgs5[height="60px"]
@@ -936,8 +937,11 @@
 ##A[href='/xinghuo-20.html']
 ##A[href^="/e/public/ClickAd?adid="]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
+##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
+##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##DIV#ad-index.col-12.position-relative
 ##DIV#bl_mobile_float
+##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
 ##DIV.box-width.ec-ad.ec-ad-double.flex
@@ -948,6 +952,7 @@
 ##DIV[class^='ads_border_']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##IMG[onclick='golh()'][src$='.gif']
+##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
@@ -1228,7 +1233,6 @@
 ##a[href*=".5250.cn"]
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
-##a[href*=".6291lu.com/"]
 ##a[href*=".7wkw.com"]
 ##a[href*=".91lu001.com/"]
 ##a[href*=".9377s.com/"]
@@ -1327,7 +1331,6 @@
 ##a[href*=".kefuyuming.vip"]
 ##a[href*=".kluvcc.com/"]
 ##a[href*=".ktvxn.com/"]
-##a[href*=".lacquermall.com/"]
 ##a[href*=".las88889999.com:"]
 ##a[href*=".meta-hh.com/"]
 ##a[href*=".meta-jt.com/"]
@@ -1337,7 +1340,6 @@
 ##a[href*=".nffhome.com/"]
 ##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
-##a[href*=".nfrgeek.com:"]
 ##a[href*=".nfylife.com/"]
 ##a[href*=".nktxv.com/"]
 ##a[href*=".ohakaguide.com/"]
@@ -1375,10 +1377,8 @@
 ##a[href*=".uxfqh.com/"]
 ##a[href*=".vldbd.com/"]
 ##a[href*=".vloua.com/"]
-##a[href*=".vpoor.net"]
 ##a[href*=".vxzmok.com"]
 ##a[href*=".wenpie.com/"]
-##a[href*=".wensixuetang.com/"]
 ##a[href*=".wjLkj.com/"]
 ##a[href*=".woyicanyin.com"]
 ##a[href*=".wpwpquse.cn/"]
@@ -1406,7 +1406,6 @@
 ##a[href*=".youxi126.com"]
 ##a[href*=".youxi141.com"]
 ##a[href*=".youxi142.com"]
-##a[href*=".yuanmengbi.com/"]
 ##a[href*=".yyk2.com/"]
 ##a[href*=".yypls.com/"]
 ##a[href*=".zhongguogaokaozongpingwang.com/"]
@@ -1417,7 +1416,6 @@
 ##a[href*="/1180595.com/"]
 ##a[href*="/1198976.com/"]
 ##a[href*="/1205682.com/"]
-##a[href*="/1240486.com/"]
 ##a[href*="/1266p.com:"]
 ##a[href*="/1298860.com/"]
 ##a[href*="/136ayx.vip"]
@@ -1435,7 +1433,6 @@
 ##a[href*="/3970t.com:"]
 ##a[href*="/3kmg.top"]
 ##a[href*="/445.ee/"]
-##a[href*="/5537220.com/"]
 ##a[href*="/602034.com"]
 ##a[href*="/6298crsyzh.com:"]
 ##a[href*="/682kg.com"]
@@ -1476,7 +1473,6 @@
 ##a[href*="/hth907.com"]
 ##a[href*="/hth908.com"]
 ##a[href*="/hthty21.app"]
-##a[href*="/htt331.com"]
 ##a[href*="/htvip21.app"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
@@ -1488,7 +1484,6 @@
 ##a[href*="/kanxiuren.com?"]
 ##a[href*="/kk80.cc"]
 ##a[href*="/ksbz1017.com"]
-##a[href*="/kst6632.com/"]
 ##a[href*="/kt169.com"]
 ##a[href*="/ky010.vip"]
 ##a[href*="/ky7993.com:"]
@@ -1496,7 +1491,6 @@
 ##a[href*="/l1y9.com"]
 ##a[href*="/leyu178.ee"]
 ##a[href*="/mda1.site/"]
-##a[href*="/mdapp03.com/"]
 ##a[href*="/mdapp2.cc/"]
 ##a[href*="/mdb1.site/"]
 ##a[href*="/mobads.php?"]
@@ -1528,7 +1522,6 @@
 ##a[href*="?channelCode="] > img[src*=".com"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
-##a[href*="mdapp01.com/"]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
@@ -1575,7 +1568,6 @@
 ##a[style$="2147483647;"][ontouchstart]
 ##a[style*=".ajzsa.xyz/"]
 ##a[style*=".e-years.net/"]
-##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##a[target="_bank"] > img[src*=".360buyimg.com"][style="width:100%;height:auto;"]
 ##a[target="_blank"] > img.king
@@ -1595,6 +1587,7 @@
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body.page > .popup
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
@@ -2209,6 +2202,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .bz/ads/
 .ca/ads-
 .ca/ads/
+.cam/*_*_*?*$third-party
 .cam/ads/
 .cc/ad/
 .cc/ads/
@@ -2484,6 +2478,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .info/js/alls_top.js
 .info/topjs/
 .informz.net/z/$image
+.ink/*_*_*_*?*$third-party
 .innologica.com/t/
 .intad/
 .intercom-mail.com/q/
@@ -2524,6 +2519,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .lazyload-ad-
 .lazyload-ad.
 .life/ads/
+.lijie.*/*_*_*_*?
 .list-manage.com/track/
 .live/r/*/*_r=*==
 .lk/ads/
@@ -2721,6 +2717,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .titus.de/oo/$image
 .to/ads/
 .top/*/*-*-*-*.*?_=*
+.top/*_*_*_*.js?*$third-party
+.top/*q=*form=*&*url=http*$third-party
 .top/Report/*-*-*-*-*
 .top/ad-
 .top/ads/
@@ -2776,6 +2774,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .work/ads/
 .ws/ads/
 .wxAdTargeting.
+.xin/*_*_*_*.js?*$third-party
 .xn--fiqs8s:7385/
 .xxx/ads/
 .xyz$domain=yinghuacd.com
@@ -2787,7 +2786,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .xyz/ads/
 .xyz/base*.js?
 .xyz/g21934*.v3h
-.xyz/hm.js?
+.xyz/hm.js?$third-party
+.xyz/jque*.js?$third-party
 .xyz/js/ads/
 .xyz/upload/ad/
 .za/ads.
@@ -3466,6 +3466,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
 /\.ahp[0-9]{2}\.site:/$script,third-party
+/\.htkk[0-9]{1,2}\.top:/$script,third-party
 /\.zdx[0-9]{1,2}\.site:/$script,third-party
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
@@ -6195,6 +6196,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /bluekaicookieinfo.
 /bluetracker.
 /bluetracker/*
+/blxn_*_*_*?*$third-party
 /bm-analytics-trk.js
 /bm-analytics/*
 /bm-bam-trk.
@@ -8688,6 +8690,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /js/google_stats.
 /js/guanggao_gg.js
 /js/hbx.js
+/js/hhsyw.js
 /js/home/ad/ad.
 /js/index_adfloat.js
 /js/indextools/*
@@ -13342,6 +13345,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 18av.mm-cg.com###primary_content > #Dfrom
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
+18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,ting56.com,txzqw.me,youxi.baidu.com###banner
 18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,ting56.com,txzqw.me,youxi.baidu.com###banner
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
@@ -14557,7 +14561,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@/adshow/*$domain=mndxy.org
 @@/adslider/*$domain=firstbank.com.tw
 @@/adsystem/*$domain=adcenter.dhgate.com
-@@/advert/*$domain=csxbank.com|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|locuspublishing.com|moretv.com.cn
 @@/advert_$domain=pisen.com.cn|wb.qq.com
 @@/advertise/*$domain=ceair.com|sfbuy.com
@@ -14775,7 +14778,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||ad.kazakinfo.com^
 @@||ad.ourgame.com^
 @@||ad.thsi.cn/siteHome/
-@@||ad.unimhk.com/show.php?$domain=mnighthk.net
 @@||ad.vivo.com.cn^$~third-party
 @@||ad4.on.cc/web/www/delivery/ajs.php
 @@||ad4.on.cc/web/www/delivery/fl.js
@@ -18802,6 +18804,7 @@ callofwar.com,macworld.co.uk,supremacy1914.com,techadvisor.com##img[referrerpoli
 calmlab.com##[style="position:relative;z-index:2147483647"]
 calorieking.com##.jss2
 calorieking.com##.jss356
+cam/*_*.apk$third-party
 cam4.com##.presentation
 cam4.com##.removeAds
 cam4.tw###newTippingViewer + div[data-ab]
@@ -18954,7 +18957,6 @@ chajia123.com###dy2
 chajia123.com##.foot_dybox
 chajiaotong.com##div[id^="cjtad_"]
 challonge.com##.cake-unit
-chanet.com.cn#@##ad_content
 channel4.com###c4ad-Top
 chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindashi."])
 chaomi.cc##.cm-ads
@@ -23293,7 +23295,6 @@ justthenews.com##.region-pre-content
 juxia.com###fmt
 juxia.com##.game_img_list
 juxia.com##.index_bttg
-juxiangyou.com,juxiangzuan.com,senao.com.tw#@#.ad-img
 juxiangzuan.com,senao.com.tw#@#.ad-img
 jwire.com.au##div[style^="width:468px;"]
 jx.la##[onclick*="apk"]
@@ -28581,6 +28582,7 @@ www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.bde4.cc##[src*='p.qpic.cn/vshpic']
 www.bimiacg.com##[class='ssr1']
 www.bimiacg4.net/template/JOELEO/asset/js/jquery.common.js
+www.cartoon18.com/assets/*/jquery.js
 www.cocomanga.com/js/atmp.html
 www.daishudy.com/js/g/b_1.js
 www.dldxdyfsyy.com##DIV[style='position:relative;']
@@ -29420,6 +29422,7 @@ zztt24.com##.no-mask
 ||00d1n000002btifuae.net.zooplus.com^
 ||00da0000000ya3ymag.net.zooplus.com^
 ||00eeekk.com//html5/activityPage/
+||00px.net^
 ||00xvppy.cn^
 ||01-csr31.net.zooplus.de^
 ||01-csr41.net.zooplus.de^
@@ -29528,6 +29531,7 @@ zztt24.com##.no-mask
 ||0735ce74e7.com^
 ||073img.com/*/|
 ||073img.com^$subdocument
+||074adzx.com^
 ||0755rc.com^$third-party
 ||0758net.com/data/attachment/portal/
 ||0772fang.com/assets/js/Newhouse/inserAds.js
@@ -37573,6 +37577,7 @@ zztt24.com##.no-mask
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
 ||analytics.google.com^$third-party
+||analytics.googlepeer.cloud^
 ||analytics.greenmountainenergy.com^
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^
@@ -40709,6 +40714,7 @@ zztt24.com##.no-mask
 ||beastbeef.com^
 ||beastintruder.com^
 ||beastsclassbiscuit.com^
+||beat.yourtv.jp^
 ||beataemusky.com^
 ||beatbase.live^
 ||beatenoxonium.com^
@@ -41208,6 +41214,7 @@ zztt24.com##.no-mask
 ||bgvcmkltugalqc.com^
 ||bgxerhrcqkdpjib.xyz^
 ||bh0874.online^
+||bh2q.fun^
 ||bh3.net^
 ||bhaabom.cn^
 ||bhaailla.com^
@@ -41819,6 +41826,7 @@ zztt24.com##.no-mask
 ||bmlmedia.com^$third-party
 ||bmmetrix.com^$third-party
 ||bmmncj.anacondastores.com^
+||bmmogb.xyz^
 ||bmnr.pw^
 ||bmoharris.com/www/assets/analytics/loader.js
 ||bmojjb.scienceinsport.com^
@@ -46127,6 +46135,7 @@ zztt24.com##.no-mask
 ||courierregistered.com^
 ||couriersticky.com^
 ||coursehero.com/v1/data-tracking
+||coursera.org/eventing
 ||courthouseworseflaw.com^
 ||courtlyuns.com^
 ||coveo.com/coveo.analytics.js/
@@ -46942,6 +46951,9 @@ zztt24.com##.no-mask
 ||d-agency.net^
 ||d-bi.fr^$third-party
 ||d-kint.d-kintetsu.co.jp^
+||d-log.asahi.co.jp^
+||d-log.bs-asahi.tv^
+||d-log.tv-asahi.co.jp^
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
 ||d-test.39.net^
@@ -46966,6 +46978,7 @@ zztt24.com##.no-mask
 ||d.skk.moe^
 ||d.sourcepoint.capitalfm.com^
 ||d.toutiao.com^
+||d.tv-asahi.co.jp^
 ||d.uni-medias.com^
 ||d.wi-fi.ru^
 ||d.win10com.com^
@@ -56243,6 +56256,7 @@ zztt24.com##.no-mask
 ||gycy2.com^
 ||gyehtm.thebridge.it^
 ||gyfumobo.com^
+||gyhyhyq.website^
 ||gyjffdsp.com^
 ||gyjinchuang.vip^
 ||gykj.xyz^
@@ -57421,6 +57435,7 @@ zztt24.com##.no-mask
 ||hn163fck.com^$third-party
 ||hnasd.com^
 ||hnbhrt.xyz^
+||hndfw.com.cn^
 ||hndshop.cn^
 ||hnfuboqaopdweu.com^
 ||hnfxty.cn^
@@ -57871,6 +57886,7 @@ zztt24.com##.no-mask
 ||htjrlm.com^
 ||htjsk.com^
 ||htkk1.top^
+||htkk2.top^
 ||htl.bid^
 ||htlbid.com^
 ||htm1.ch^$third-party
@@ -60599,6 +60615,7 @@ zztt24.com##.no-mask
 ||jgdguc.arcteryx.com^
 ||jgejqdddslxry.com^
 ||jghklz.xyz^
+||jghmrie.cn^
 ||jgirlvlh.com^
 ||jglvmvsdv.xyz^
 ||jgnlaiga.fun^
@@ -62901,6 +62918,7 @@ zztt24.com##.no-mask
 ||lbwcdnjpy.com^
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
+||lbzx.xyz^
 ||lc442.com^
 ||lccfjszp.cn^
 ||lccnkspairqeem.com^
@@ -74040,6 +74058,7 @@ zztt24.com##.no-mask
 ||qbazhaheiy.top^
 ||qbc1.cn^
 ||qbccpgljgxc.com^
+||qbcydxr.cn^
 ||qbgrmsk.cn^
 ||qbgvgw.angeloni.com.br^
 ||qbhdn.com^
@@ -75247,6 +75266,8 @@ zztt24.com##.no-mask
 ||recurbate.com/b/
 ||recurly.com/js/v1/events
 ||recurseagin.com^
+||recv-entry.tbs.co.jp^
+||recv-jnn.tbs.co.jp^
 ||recyclingbees.com^
 ||redads.biz^
 ||redanludb.xyz^
@@ -78066,6 +78087,7 @@ zztt24.com##.no-mask
 ||securedata.monspar.be^
 ||securedata.solucious.be^
 ||securedata.unsw.edu.au^
+||securedvisit.com^
 ||securegate.xyz^
 ||securegate9.com^
 ||securely-send.com^
@@ -85029,6 +85051,7 @@ zztt24.com##.no-mask
 ||timber.sendtonews.com^
 ||time.is/img/nod.png
 ||time4news.net^
+||timecn.cn/image/alipay.jpg
 ||timecrom.com^
 ||timejs.game.163.com^
 ||timeone.pro^
@@ -86415,6 +86438,7 @@ zztt24.com##.no-mask
 ||track.mp4.center^
 ||track.mrgugu.com^
 ||track.mycliplister.com^
+||track.myli.io^
 ||track.netzero.net^
 ||track.noddus.com^
 ||track.nopaperforms.com^
@@ -86451,7 +86475,6 @@ zztt24.com##.no-mask
 ||track.rundschau-online.de^
 ||track.searchignite.com^
 ||track.searchiq.co^
-||track.securedvisit.com^
 ||track.shop2market.com^
 ||track.sitetag.us^
 ||track.slickinbox.com^
@@ -89219,6 +89242,7 @@ zztt24.com##.no-mask
 ||viency-vering.com^
 ||viensvoircesite.com^$third-party
 ||view-flix.com^
+||view.fujitv.co.jp^
 ||viewablemedia.net^
 ||viewar.org^$third-party
 ||viewclc.com^
@@ -91043,6 +91067,7 @@ zztt24.com##.no-mask
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wlsynmle.fun^
+||wlsyuule.cam^
 ||wltt.xyz^
 ||wlw.de/unified_search_backend/api/v1/tracking/
 ||wlwblog.top^
@@ -91240,6 +91265,7 @@ zztt24.com##.no-mask
 ||wosade.xyz^
 ||woshiyunying.com^
 ||wosork.com^
+||wotmvdc.cn^
 ||wotmyjkdit.com^
 ||wotto.cn^
 ||wotythowe.pro^
