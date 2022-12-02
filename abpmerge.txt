@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-02 10:59:30
-! Total count: 95182
+! Version: 2022-12-02 16:20:37
+! Total count: 95192
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -190,7 +190,6 @@
 ###hj-right-aside[style="float: right;"]
 ###homead
 ###hongbao20201217
-###hplogo
 ###img-txt-wrapper > #title_desc_div
 ###imgad
 ###imgs5[height="60px"]
@@ -1516,6 +1515,7 @@
 ##a[href*="/yyds101.com"]
 ##a[href*="/yyh.net/"]
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
+##a[href*="://4"] > img[src*=".woshipm.com"]
 ##a[href*="://4"] > img[src*="lbsugc.cdn.bcebos.com"]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*=":10443/"] > img[src$="gif"]
@@ -1792,7 +1792,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 *.tfptlgrw.*
 *.u8hdqyug.*
 */ads.
-*/blsx_*_1_*?*
+*/blsx_*_*_*?*
 */letv-gug/$media,object-subrequest,xhr
 */preroll/$media,domain=91porn.com
 *:*/*.html?k=*&_=*
@@ -14164,6 +14164,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 9191aa.me##.banner-wrap
 91danji.com###bg_ad
 91danji.com##.zlVideTowNav
+91duba.com###leftBar
+91duba.com##.m_guess_like
 91duba.com,iduba.com###topBanner
 91hs.top,hsex.men##.col-xs-12 > a[target="_blank"]
 91lai.com##.D_guanggaotu11
@@ -46411,6 +46413,7 @@ zztt24.com##.no-mask
 ||critictruck.com^
 ||crjpingate.com^
 ||crlcdptjshitd.com^
+||crleii.xyz^
 ||crm-analytics.imweb.ru^
 ||crm-vwg.com/tracker/
 ||crm.casabaca.com^
@@ -51608,6 +51611,7 @@ zztt24.com##.no-mask
 ||envyindebted.com^
 ||enwingdondia.com^
 ||enyayinxiang.com^
+||enzagpt.cn^
 ||eo.chaungpin.top^
 ||eo.dongdm.cn^
 ||eo.huitiankuaiji.com^
@@ -56090,6 +56094,7 @@ zztt24.com##.no-mask
 ||guang.sdsgwy.com^
 ||guang1.zhakao.cn/common/ni_h/common/ffx_f/ek.js
 ||guang1.zhakao.cn^
+||guanggao1257.com^
 ||guanggao28.xyz^
 ||guanggaolianmeng.net/plushuan/ad_js.php?aid=
 ||guangweixinxi345.cn^
@@ -57410,6 +57415,7 @@ zztt24.com##.no-mask
 ||hmg.wiwo.de^
 ||hmghmg.com/tb
 ||hmgnjf.autoscout24.it^
+||hmgzhqe.cn^
 ||hmikw.com^
 ||hmikxktkmccfoyq.xyz^
 ||hmjeiak.cn^
@@ -60458,6 +60464,7 @@ zztt24.com##.no-mask
 ||jcpecb.com^
 ||jcr3.onlyyouhotels.com^
 ||jcrb.com/ZYW$subdocument
+||jcreje.com^
 ||jcrlrwwosud.xyz^
 ||jcsppgv.cn^
 ||jcyunk2.com^
@@ -62504,6 +62511,7 @@ zztt24.com##.no-mask
 ||kuxinqi.com^
 ||kv61xc8.xyz^
 ||kvartirant.ru/counter.php?
+||kvbgoc.com^
 ||kveaa.com^
 ||kvecc.com^
 ||kveii.com^
@@ -65775,6 +65783,7 @@ zztt24.com##.no-mask
 ||mcloudglobal.com^$third-party
 ||mclseww.top^
 ||mcmo22.com^
+||mcmod.cn/editor/upload/20221126/1669399546_2_ONBt.
 ||mcncc.com/yeyou/*.htm
 ||mcning.com^
 ||mcnqmssjjwdd.com^
@@ -76049,6 +76058,7 @@ zztt24.com##.no-mask
 ||rkdms.com^
 ||rkfswfjgixoglq.com^
 ||rkgednmxrjvpo.xyz^
+||rkkhuwl.cn^
 ||rkllcrwtftx.com^
 ||rkoepfotesi.com^
 ||rkohksa.cn^
