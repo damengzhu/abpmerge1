@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-05 16:21:20
-! Total count: 95261
+! Version: 2022-12-06 16:21:38
+! Total count: 95282
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -932,6 +932,7 @@
 ##.zozoads
 ##A#mhbottom_ad_img,[href='https://ys.44766.cc/m/download'][style*='/adcarsku/sku'],[src*='/adcarsku/sku']
 ##A[href*=".com/?Agent="]
+##A[href*="/ky9897.cn"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
 ##A[href='/xinghuo-20.html']
@@ -10700,6 +10701,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /rum/events
 /rum/id?
 /rum/performance
+/rum?ddsource=
 /rum_analytics/*
 /rum_cmp?
 /rumcdn.
@@ -13660,6 +13662,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 360kuai.com###xunjia-modal-btn
 360kuai.com##.bottom_rectangle_gg_outer_box
 360kuai.com##.detail-top-banner
+360kuai.com##.novel_galery_icon
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
 360zbz.com#@#.rightad
@@ -14695,7 +14698,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
-@@||1vkx.cn/public/1/assets/js/common/plugins/jquery/jquery.min.jss
+@@||1vkx.cn/public/1/assets/js/common/plugins/jquery/jquery.min.js
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||230book.com/images/bqg.js$domain=230book.net
@@ -14752,6 +14755,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||8maple.ru/*/ad.php
 @@||8maple.ru/comic.jpg$domain=video.bilibili.to
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.cc
+@@||91p49.com/*/*.mp4
 @@||91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
 @@||930mh.com/js/config.js
 @@||939394.xyz^$generichide
@@ -15813,7 +15817,6 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||kfcclub.com.tw/web/*/ad
 @@||kfcorder.com.tw/web/Script/Analytics.js
 @@||kfcorder.com.tw^*/Advert
-@@||killcovid2021.com/*/*.mp4
 @@||kissfm.es/wp-content/themes/kissfm/assets/js/comscore.js$~third-party
 @@||kissjav.com^$generichide
 @@||kk665403.pixnet.net^$generichide
@@ -19051,6 +19054,7 @@ chinacbe.com##div[style="width:960px; padding:0px; margin:4px 0; border:0px soli
 chinacsbs.com##a[href^="/plus/view.php?aid="]
 chinafix.com###diy_col_1-3
 chinafix.com##div[id^="diy_vk_ad_"]
+chinagwy.org##.ewm0610
 chinairn.com##.bizrpt
 chinakaoyan.com##.side-wx
 chinamedevice.cn##.ads_img
@@ -23128,6 +23132,9 @@ jianshu.com#%#//scriptlet("set-constant", "NEWS_FEED", "noopFunc")
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
+jieav.com##.b300
+jieav.com##ul[id^="jieav_"]
+jieav.com#$##comment { margin-bottom: 0 !important; }
 jiegeng.com##.banner_1212
 jiegeng.com##.coolsite-recommend-linked
 jiegeng.com##.header__item--fr
@@ -32167,6 +32174,7 @@ zztt24.com##.no-mask
 ||91office.club^
 ||91p20.space/fans/
 ||91p20.space^
+||91p49.com/*.mp4
 ||91pk.love^
 ||91rb.com/*x90.gif
 ||91rb.net/fc/
@@ -37603,6 +37611,7 @@ zztt24.com##.no-mask
 ||analytics.global.sky.com^
 ||analytics.google.com^$third-party
 ||analytics.googlepeer.cloud^
+||analytics.gooogol.com^
 ||analytics.greenmountainenergy.com^
 ||analytics.greensender.pl^$third-party
 ||analytics.groupe-seb.com^
@@ -40985,6 +40994,7 @@ zztt24.com##.no-mask
 ||bephb.in^
 ||bepolite.eu^$third-party
 ||beqmwvupsowvls.com^
+||beqokg.xyz^
 ||beqyexeqof.com^
 ||ber2g8e3keley.com^
 ||berchbulletin.com^
@@ -42872,6 +42882,7 @@ zztt24.com##.no-mask
 ||bytemgdd.com^$third-party
 ||byteoversea.com/captcha/report
 ||byteoversea.com/monitor_browser/
+||byteoversea.com/monitor_web/
 ||bytogeticr.com^
 ||bytravel.cn/images/cus/
 ||bytravel.cn/images/t/usa_250_120.gif
@@ -51018,6 +51029,7 @@ zztt24.com##.no-mask
 ||effusedprankle.com^
 ||efgh.5lu.com^
 ||efinauknceiw.work^
+||efizobj.cn^
 ||efjbjykvyxpil.com^
 ||efmqnhbbqyko.xyz^
 ||efplso.epost.go.kr^
@@ -55786,6 +55798,7 @@ zztt24.com##.no-mask
 ||gpiljd.thetiebar.com^
 ||gpiyhj.leopalace21.com^
 ||gpneofgeo.com^
+||gposrzz.cn^
 ||gppppq.newcars.com^
 ||gpr.hu/pr.pr?
 ||gpr.hu^$third-party
@@ -62996,6 +63009,7 @@ zztt24.com##.no-mask
 ||lcwfabt3.com^$third-party
 ||lcxw.cn/d/js/thea
 ||lcxw.cn/i/*dl.js
+||lczk.cn^$third-party
 ||ld0766.com/*20*a/
 ||ld0766.com/index.php?m=call&id=10
 ||ldb.cc/js/top.js
@@ -73986,6 +74000,7 @@ zztt24.com##.no-mask
 ||pwk.nextinpact.com^
 ||pwmctl.com^
 ||pwmyqojtdwhqqr.com^
+||pwoqauh.cn^
 ||pwqtkap.cn^
 ||pwrads.net^
 ||pwrbpgapi.xyz^
@@ -76161,6 +76176,7 @@ zztt24.com##.no-mask
 ||rmm7ss.top^
 ||rmndme.com^
 ||rmpad.imtt.qq.com^
+||rmqz.xyz^
 ||rmt.plus^
 ||rmtag.com^$third-party
 ||rmwdn.com^
@@ -76366,6 +76382,7 @@ zztt24.com##.no-mask
 ||rozamimo9za10.com^
 ||rozsnxbpbf.com^
 ||rp-rep.net^$third-party
+||rpacnud.cn^
 ||rpahyhn.cn^
 ||rpersonals.com^
 ||rpfkgf.rp-online.de^
@@ -88048,6 +88065,7 @@ zztt24.com##.no-mask
 ||ujautifuleed.xyz^
 ||ujccccb.com^
 ||ujeejoan.net^
+||ujfqohk.cn^
 ||ujian.cc^$third-party
 ||ujiasm.com^
 ||ujljbwnr.com^
@@ -93961,11 +93979,13 @@ zztt24.com##.no-mask
 ||ys2000.cdn.bcebos.com^
 ||ys2727.xyz^
 ||ys3g.top^
+||ys630.com^$third-party
 ||ys9mw1u.cn^
 ||ysapp20.xyz/slf120.
 ||ysapp20.xyz^*.gif
 ||ysclub.top^
 ||ysczggasfx.com^
+||ysdm.ys137.com.cn^
 ||ysdtcdnoox.com^
 ||ysfc360.cn^
 ||yshbklgje.com^
@@ -94622,6 +94642,7 @@ zztt24.com##.no-mask
 ||zhinengcd.cn^
 ||zhipet.cn^
 ||zhipinbook.cn^
+||zhiqi.pub^
 ||zhiqingchun.top^
 ||zhisuyunonline.cn^
 ||zhixiuchang.com^
