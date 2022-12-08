@@ -82,6 +82,7 @@
 ###appIn
 ###appqrcode
 ###appss[style="padding:15px;"]
+###arBRyGHxuDYU
 ###asdw
 ###asdw2
 ###asdw2 + img
@@ -874,6 +875,7 @@
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
+##.txtguanggao
 ##.ui-ad
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
@@ -1112,6 +1114,7 @@
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
 ##a[href*=".7wkw.com"]
+##a[href*=".832103.top"]
 ##a[href*=".91lu001.com/"]
 ##a[href*=".9377s.com/"]
 ##a[href*=".9xiazaiqi.com"]
@@ -1270,6 +1273,7 @@
 ##a[href*=".xxgxqscl.com/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
+##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*=".yabo414.com"]
 ##a[href*=".yabo816.com"]
 ##a[href*=".yabo824.com"]
@@ -1361,6 +1365,7 @@
 ##a[href*="/jianjianjiao.top"]
 ##a[href*="/kanxiuren.com/?"]
 ##a[href*="/kanxiuren.com?"]
+##a[href*="/kk5377.com:"]
 ##a[href*="/kk80.cc"]
 ##a[href*="/ksbz1017.com"]
 ##a[href*="/kt169.com"]
@@ -1387,6 +1392,7 @@
 ##a[href*="/tv688.cc"]
 ##a[href*="/uu5566.cn.com/"]
 ##a[href*="/v9038.com:"]
+##a[href*="/wns8499608.xyz"]
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xchina.fun/redirect/ad"]
@@ -11396,11 +11402,13 @@ qq.com##.adword
 qq.com##.app-qrcode
 qq.com##.body-Top-Ad
 qq.com##.business-Article-QQ
+qq.com##.card-wrap[dt-params^="ad_creative_"]
 qq.com##.code-content
 qq.com##.cps_inner
 qq.com##.dongfengad
 qq.com##.elevator[class^="jsx-"]
 qq.com##.father-ad
+qq.com##.focus-item[dt-params^="ad_creative_"]
 qq.com##.g-qzp-bottom
 qq.com##.in-top-ad
 qq.com##.jpBanner
@@ -13479,9 +13487,11 @@ v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
+v.qq.com##.video-card-module > div[dt-params^="ad_creative_id="]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
+v.qq.com#$?#.video-card-module > div[dt-params^="ad_creative_id="] { remove: true; }
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0

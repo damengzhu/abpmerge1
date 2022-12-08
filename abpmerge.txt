@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-07 16:21:24
-! Total count: 95214
+! Version: 2022-12-08 16:21:39
+! Total count: 95252
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -87,6 +87,7 @@
 ###appIn
 ###appqrcode
 ###appss[style="padding:15px;"]
+###arBRyGHxuDYU
 ###asdw
 ###asdw2
 ###asdw2 + img
@@ -879,6 +880,7 @@
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
+##.txtguanggao
 ##.ui-ad
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
@@ -1117,6 +1119,7 @@
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
 ##a[href*=".7wkw.com"]
+##a[href*=".832103.top"]
 ##a[href*=".91lu001.com/"]
 ##a[href*=".9377s.com/"]
 ##a[href*=".9xiazaiqi.com"]
@@ -1275,6 +1278,7 @@
 ##a[href*=".xxgxqscl.com/"]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
+##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*=".yabo414.com"]
 ##a[href*=".yabo816.com"]
 ##a[href*=".yabo824.com"]
@@ -1366,6 +1370,7 @@
 ##a[href*="/jianjianjiao.top"]
 ##a[href*="/kanxiuren.com/?"]
 ##a[href*="/kanxiuren.com?"]
+##a[href*="/kk5377.com:"]
 ##a[href*="/kk80.cc"]
 ##a[href*="/ksbz1017.com"]
 ##a[href*="/kt169.com"]
@@ -1392,6 +1397,7 @@
 ##a[href*="/tv688.cc"]
 ##a[href*="/uu5566.cn.com/"]
 ##a[href*="/v9038.com:"]
+##a[href*="/wns8499608.xyz"]
 ##a[href*="/x5092.com"]
 ##a[href*="/xapps5.xyz"]
 ##a[href*="/xchina.fun/redirect/ad"]
@@ -2711,6 +2717,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /130x600-
 /130x600.
 /145sd*.js?$script,third-party
+/145tdww/*.js
 /150x200-
 /150x300_
 /150x600_
@@ -2725,6 +2732,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /160x600/*
 /160x600_
 /168mj*.js?$script,third-party
+/168tjsdsdsiqxxvi93.js
 /170x700.
 /190_900.
 /190x600.
@@ -7474,6 +7482,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /flyads/*
 /flyers/ads/*
 /flytead.
+/fn666/shouye.php
 /footad-
 /footad.
 /footer-ad-
@@ -7536,6 +7545,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /frm_adv.aspx
 /frnads.
 /fro_lo.js
+/front-metrics/*
 /front/ad/*
 /front/ads-
 /front/adv/getpmadvlist
@@ -12422,6 +12432,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /web-analytics.
 /web-analytics/*
 /web-api/log/*
+/web-data-ingress?
 /web-js-telemetry-service/*
 /web-vitals-
 /web-vitals.
@@ -14574,7 +14585,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
-@@||1vkx.cn/public/1/assets/js/common/plugins/jquery/jquery.min.js
+@@||1vkx.cn/public/*/jquery.min.js
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||230book.com/images/bqg.js$domain=230book.net
@@ -15968,6 +15979,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||palmettostatearmory.com/static/$script,~third-party
+@@||pals.pa.gov/vendor/analytics/appinsights.js$third-party
 @@||panjiachen.github.io^$generichide
 @@||papalah.com^$generichide
 @@||papi-service.jd.com/ads/
@@ -25818,11 +25830,13 @@ qq.com##.adword
 qq.com##.app-qrcode
 qq.com##.body-Top-Ad
 qq.com##.business-Article-QQ
+qq.com##.card-wrap[dt-params^="ad_creative_"]
 qq.com##.code-content
 qq.com##.cps_inner
 qq.com##.dongfengad
 qq.com##.elevator[class^="jsx-"]
 qq.com##.father-ad
+qq.com##.focus-item[dt-params^="ad_creative_"]
 qq.com##.g-qzp-bottom
 qq.com##.in-top-ad
 qq.com##.jpBanner
@@ -27947,9 +27961,11 @@ v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
+v.qq.com##.video-card-module > div[dt-params^="ad_creative_id="]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
+v.qq.com#$?#.video-card-module > div[dt-params^="ad_creative_id="] { remove: true; }
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -34379,6 +34395,7 @@ zztt24.com##.no-mask
 ||ad.lgappstv.com^
 ||ad.linksynergy.com^
 ||ad.magokoro-care-shoku.com^
+||ad.mail.ru/static/sync-loader.js
 ||ad.mail.ru^$domain=~mail.ru|~sportmail.ru
 ||ad.mail.ru^$image
 ||ad.mazc.org^
@@ -41770,6 +41787,7 @@ zztt24.com##.no-mask
 ||bmzdysi.cn^
 ||bmzuyj.nifty.com^
 ||bn5x.net^
+||bnamic.com/referrer/
 ||bnbsagevcuca.com^
 ||bnbvd.xyz^
 ||bnc.autopass.xyz^
@@ -44377,6 +44395,7 @@ zztt24.com##.no-mask
 ||cjjjs.com/script/ad.js
 ||cjkeiekf.com^
 ||cjkfkratwkls.com^
+||cjkl.online^
 ||cjkqxrjo.xyz^
 ||cjn.cn^*/ad/
 ||cjnxs.com^
@@ -46803,6 +46822,7 @@ zztt24.com##.no-mask
 ||cybba.solutions^
 ||cyber-pages.att.com^
 ||cyber-tracking.att.com^
+||cyberanalytics.nl^$third-party
 ||cybermonitor.com^$third-party
 ||cybernetentertainment.com^$third-party
 ||cyberscoop.com/advertising/
@@ -49780,6 +49800,7 @@ zztt24.com##.no-mask
 ||ds88pc0kw6cvc.cloudfront.net^
 ||ds9e.top^
 ||dsa.iigs9.com^
+||dsail-tech.com^$third-party
 ||dsb6jelx4yhln.cloudfront.net^
 ||dsbahmgppc0j4.cloudfront.net^
 ||dscenn.com^
@@ -50222,6 +50243,7 @@ zztt24.com##.no-mask
 ||e.kc-education.com^
 ||e.kuaishou.com^
 ||e.m6web.fr/events
+||e.metarouter.io^
 ||e.passfolio.us^
 ||e.qbj8.com^
 ||e.qq.com^
@@ -53807,6 +53829,7 @@ zztt24.com##.no-mask
 ||frizzerfoehns.digital^
 ||frnwvialjbey.xyz^
 ||frodx.com^$third-party
+||frog.editorx.com^
 ||frog.wix.com/da-client?
 ||frog.wix.com/fed?
 ||frog.wix.com/hls2?
@@ -54895,6 +54918,7 @@ zztt24.com##.no-mask
 ||ggmm777.com^$third-party
 ||ggrywyonmyvh.com^
 ||ggs.myzaker.com^
+||ggsdogn.cn^
 ||ggsfq.com^
 ||ggtewaf.cn^
 ||ggtp-1255424916.cos.ap-chengdu.myqcloud.com^
@@ -57037,6 +57061,7 @@ zztt24.com##.no-mask
 ||hhbxcs.tylko.com^
 ||hhff.xsbooktxt.com^
 ||hhgeuqjhmpylxm.com^
+||hhgxbxk.cn^
 ||hhhedv.luxauto.lu^
 ||hhhfe.cn^
 ||hhiacjmkwe.xyz^
@@ -57213,6 +57238,7 @@ zztt24.com##.no-mask
 ||hitprn.com/c_
 ||hits-secure.guardian.co.uk^
 ||hits.antena3.com^
+||hits.cyberdrop.me^
 ||hits.dealer.com^
 ||hits.eluniversal.com.mx^
 ||hits.guardian.co.uk^
@@ -57944,6 +57970,7 @@ zztt24.com##.no-mask
 ||huigun.top^
 ||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
 ||huijiamei.cn^
+||huilianji.com^
 ||huimee.com^$third-party
 ||huimee.net^
 ||huimg.cn/e/hd.e.wap.
@@ -61718,6 +61745,7 @@ zztt24.com##.no-mask
 ||kdata.fr^$third-party
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
+||kdegznb.cn^
 ||kdhome.net/images/banner
 ||kdhome.net/templets/default/img/tpfd.jpg
 ||kdkhip.bookoffonline.co.jp^
@@ -62463,6 +62491,7 @@ zztt24.com##.no-mask
 ||kvbgoc.com^
 ||kveaa.com^
 ||kvecc.com^
+||kveff.com^
 ||kveii.com^
 ||kvemm.com^
 ||kvevv.com^
@@ -62480,6 +62509,7 @@ zztt24.com##.no-mask
 ||kvkaa.com^
 ||kvkddd.top^
 ||kvlzsbxn.com^
+||kvmaa.com^
 ||kvrtuse.cn^
 ||kvt5.blesscollectionhotels.com^
 ||kvtfff.top^$third-party
@@ -67502,6 +67532,7 @@ zztt24.com##.no-mask
 ||mqvyob.vidaxl.fi^
 ||mr-rank.de^$third-party
 ||mr2cnjuh34jb.com^
+||mradx.net^
 ||mrelko.com^
 ||mrewq.xyz^
 ||mrf.io/statics/marfeel/chunks/metrics-
@@ -69708,6 +69739,7 @@ zztt24.com##.no-mask
 ||oedlwhcqfpfup.xyz^
 ||oedspoiletkni.xyz^
 ||oehhq.xyz^
+||oehwv.xyz^
 ||oei1.gq^
 ||oeitlgqjw.com^
 ||oek7.april-moto.com^
@@ -74191,6 +74223,7 @@ zztt24.com##.no-mask
 ||qiaolianshu.com^
 ||qiaopiguniang.com^
 ||qiaoxiaomiao.com^
+||qibmrq.xyz^
 ||qibxdwe1.com^
 ||qicaihong.xyz^
 ||qicewar.cn^
@@ -74227,6 +74260,7 @@ zztt24.com##.no-mask
 ||qin.1111.fx-blog.top^
 ||qinbing.cn/data/upload/ueditor/
 ||qinger.name^
+||qingfeng.homes^
 ||qingjiedi.com^
 ||qingkai.com/2009/html/top.htm
 ||qingkai.com/gg_img/
@@ -87760,6 +87794,7 @@ zztt24.com##.no-mask
 ||u1.idongde.com^
 ||u1.qyxxpd.com^
 ||u1.shuaiku.com^
+||u1885.com^
 ||u1trkqf.com^
 ||u21drwj6mp.com^
 ||u26u.com^$popup,third-party
@@ -91110,6 +91145,7 @@ zztt24.com##.no-mask
 ||wmcdn.net^$domain=liyuans.com
 ||wmcdp.io^$third-party
 ||wmeng.feihuadns.com^
+||wmgocya.cn^
 ||wmgroup.us^
 ||wmgtr.com^
 ||wmk0099.xyz^
@@ -92901,6 +92937,7 @@ zztt24.com##.no-mask
 ||xtroyfwcmn.xyz^
 ||xtxa.net^
 ||xtyizilaijx.cn^
+||xtzx.xyz^
 ||xu5ctufltn.com^
 ||xuakak.com^
 ||xuanmingyc.com^
@@ -94760,6 +94797,7 @@ zztt24.com##.no-mask
 ||zjzh2019.com^
 ||zjzs.club^
 ||zk.91post.com^
+||zk6.me^
 ||zk6c.top^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
 ||zkc5.fleurancenature.fr^
