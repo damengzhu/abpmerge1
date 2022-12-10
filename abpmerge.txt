@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-09 16:21:02
-! Total count: 95270
+! Version: 2022-12-10 16:21:05
+! Total count: 95296
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -1498,7 +1498,9 @@
 ##div.container > div.row div.yalayi_box
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
+##div.play_boxbg div[class$='_acmsd']
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
+##div.stui-pannel__bd > #t-img-box
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div>span>[href='###']
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
@@ -2283,6 +2285,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .de/l.gif?
 .delivery-status.com/open?
 .demdex.net/event?
+.doctolib.de/tr/op/$image
 .doubleclick.net/$image
 .drive-analytics.
 .duolingo.com/open/
@@ -2307,6 +2310,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 .fi/ads/
 .flipboard.com/usage?
 .fm/ads/
+.fun/*_*_rony.js
 .fun/ad/
 .fun/scripts/my_33.js
 .ga/*.wasm
@@ -8890,6 +8894,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /log/businessEvent?
 /log/collect/*
 /log/counter?
+/log/debug?
 /log/error?
 /log/event?
 /log/exposed?
@@ -9058,7 +9063,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /mail.sparksport.co.nz/mail/read/*
 /mail_tracking-cg.php
 /mail_tracking.php
-/maillist.*/t/$image
+/maillist.*/t/*$image
 /mailstatstrk/*
 /main.js?v=*&sp=*&ty=
 /main/ad/*
@@ -13559,6 +13564,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 360kuai.com###xunjia-modal-btn
 360kuai.com##.bottom_rectangle_gg_outer_box
 360kuai.com##.detail-top-banner
+360kuai.com##.k-float-btn__qrcode__body
 360kuai.com##.novel_galery_icon
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
@@ -14699,8 +14705,8 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|homedepot.ca|nbarizona.com
+@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -14970,6 +14976,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
+@@||btgpactualdigital.com/digital/static/js/libraries/thirdparty/angulartics-google-analytics/
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
@@ -15973,7 +15980,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -16535,6 +16542,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||xxxxx520.com^$generichide
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
@@ -28729,6 +28737,7 @@ xxxsm.vip##.ad280x165
 xxxsm.vip##a[href="ilupian8.html"]
 xxxvogue.net##.banners-container
 xxxvogue.net##.link-adv
+xxxxx520.com##.ripro_gg_wrap
 xxxymovies.com##.kt_imgrc
 xydai.cn##.deanad4s
 xyg39.xyz###__top_header + script + div
@@ -32284,6 +32293,7 @@ zztt24.com##.no-mask
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||9wcn.com/gcld/500.gif
 ||9xeqynu3gt7c.com^
+||9xg2.fun^
 ||9xob25oszs.com^
 ||9xu.com^$third-party
 ||9ye.com/Files/Editor/ad/
@@ -37578,6 +37588,7 @@ zztt24.com##.no-mask
 ||analytics.metro.ua^
 ||analytics.mhpod.gov.au^
 ||analytics.midwesternmac.com^
+||analytics.ml.homedepot.ca^
 ||analytics.mlstatic.com^
 ||analytics.mobile.yandex.net^
 ||analytics.mondotv.jp^
@@ -38441,6 +38452,7 @@ zztt24.com##.no-mask
 ||aqqehupwcg.com^
 ||aqqrfksdx.com^
 ||aqrhddwipyo.com^
+||aqsj.xyz^
 ||aqskkeipxyjdn.com^
 ||aqsvwnaodrjubmo.com^
 ||aqtracker.com^$third-party
@@ -43509,6 +43521,7 @@ zztt24.com##.no-mask
 ||cdn-channels-pixel.ex.co^
 ||cdn-data-cloud.com/history/
 ||cdn-files.prsmedia.fr^*/xiti/
+||cdn-go.net^
 ||cdn-net.com^$third-party
 ||cdn-rum.ngenix.net^
 ||cdn-server.cc^
@@ -46697,6 +46710,7 @@ zztt24.com##.no-mask
 ||curvycry.com^$third-party
 ||cuseccharm.com^
 ||cusecwhitten.com^
+||cusfcif.cn^
 ||cushionpig.com^$third-party
 ||cusptumbak.com^
 ||custom.plausible.io^
@@ -47259,6 +47273,7 @@ zztt24.com##.no-mask
 ||d2v02itv0y9u9t.cloudfront.net^
 ||d2va1d0hpla18n.cloudfront.net^
 ||d2vwl2vhlatm2f.cloudfront.net^
+||d2wa5sea6guof0.cloudfront.net^
 ||d2werg7o2mztut.cloudfront.net^
 ||d2wu036mkcz52n.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
@@ -53925,6 +53940,7 @@ zztt24.com##.no-mask
 ||ftchinese.com/m/marketing/
 ||ftcpvpgdga.xyz^
 ||ftd.agency^
+||ftdmfxq.cn^
 ||ftfnewu.cn^
 ||ftheplansa.com^
 ||fthkmwrkqg.com^
@@ -57077,6 +57093,7 @@ zztt24.com##.no-mask
 ||hhhfe.cn^
 ||hhiacjmkwe.xyz^
 ||hhit.xyz^
+||hhizcfv.cn^
 ||hhklc.com^
 ||hhkld.com^
 ||hhllryxtfgypz.com^
@@ -57517,6 +57534,7 @@ zztt24.com##.no-mask
 ||home4loans.info^
 ||homebao.me^
 ||homedepot-static.com/data-collection/
+||homedepot.ca/mr/thd-ca-prod.js
 ||homegate.ch/g/collect?
 ||homeieped.cn^
 ||homelycrown.com^$third-party
@@ -61269,6 +61287,7 @@ zztt24.com##.no-mask
 ||jtubvaewvijfk.xyz^
 ||jtwlj.cn^
 ||jtxh.net^$third-party
+||jtxw.cloud^
 ||jtyutq.chaussures.fr^
 ||ju427bv7an9n.com^
 ||juanbanji.biz^
@@ -64085,6 +64104,7 @@ zztt24.com##.no-mask
 ||log.mofa.go.kr^
 ||log.mtime.cn^
 ||log.music.baidu.com^
+||log.nordot.jp^
 ||log.nordot.jp^$~script
 ||log.olark.com^
 ||log.outbrain.com^
@@ -67546,6 +67566,7 @@ zztt24.com##.no-mask
 ||mqthslhcj.com^
 ||mqvyob.vidaxl.fi^
 ||mr-rank.de^$third-party
+||mr.homedepot.ca^
 ||mr2cnjuh34jb.com^
 ||mradx.net^
 ||mrelko.com^
@@ -69660,6 +69681,7 @@ zztt24.com##.no-mask
 ||observantice.com^
 ||observare.de^$third-party
 ||observativus.com^
+||observe.metarouter.io^
 ||observer.ip-label.net^
 ||observerapp.com^$third-party
 ||observerbd.com/ad/
@@ -74173,6 +74195,7 @@ zztt24.com##.no-mask
 ||qg9z.cn^
 ||qganilgly.cyou^
 ||qgbtd.com^
+||qgcbht.xyz^
 ||qgdvyvd.cn^
 ||qgenjqyvq.com^
 ||qgevavwyafjf.com^
@@ -81917,6 +81940,7 @@ zztt24.com##.no-mask
 ||standtrouble.com^
 ||stankyrich.com^
 ||stansoam.com^
+||stapadblockuser.info/stat/
 ||stape.fun/stat/
 ||stapewithadblock.beauty/stat/
 ||stapewithadblock.monster/stat/
@@ -84970,6 +84994,7 @@ zztt24.com##.no-mask
 ||thrtle.com^$third-party
 ||thrube.com^
 ||thrustlumpypulse.com^
+||thsrh.xyz^
 ||thterras.com^
 ||thtugernvd.com^
 ||thuary.com^
@@ -91463,6 +91488,7 @@ zztt24.com##.no-mask
 ||ws.audioeye.com^
 ||ws.sharethis.com^$script
 ||ws.wenshenxiu.com^
+||ws3.smartp.com^
 ||wsacjdg.cn^
 ||wscdn.com/analytics/
 ||wsec.multiscreensite.com^$third-party
