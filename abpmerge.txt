@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则
-! Version: 2022-12-11 16:19:51
-! Total count: 95314
+! Version: 2022-12-12 16:22:06
+! Total count: 95333
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -491,6 +491,7 @@
 ##.adbox-bg.adscounter
 ##.adclass
 ##.add-gg
+##.addddddwarp
 ##.adline
 ##.adlist
 ##.ads
@@ -885,6 +886,7 @@
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-item-ads
+##.video_details > .banner
 ##.vodads
 ##.w100b > .m_adv
 ##.w_ad
@@ -950,6 +952,7 @@
 ##DIV[class^='ads_border_']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##IMG[onclick='golh()'][src$='.gif']
+##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
@@ -1505,6 +1508,7 @@
 ##div>span>[href='###']
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
+##div[bannerlist]
 ##div[class][id][style] > .pic_container
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
@@ -1528,6 +1532,7 @@
 ##div[onclick*="?i_code="]
 ##div[onclick*="bdtz5.com"]
 ##div[onclick*="kiropa.com"]
+##div[onclick*="ky0222.cn"]
 ##div[onclick*="ky165.cn"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
@@ -15207,6 +15212,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||devclass.com/wp-content/plugins/google-analytics-for-wordpress/$script,~third-party
+@@||developer.apple.com$generichide
 @@||developers.google.*/analytics/$~third-party,xmlhttprequest
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJ.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
@@ -15893,6 +15899,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||netflav.com^$generichide
 @@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
+@@||new.abb.com/ruxitagentjs_$~third-party
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||news.u17i.com/advert/
@@ -29472,6 +29479,7 @@ zztt24.com##.no-mask
 ||074adzx.com^
 ||0755rc.com^$third-party
 ||0758net.com/data/attachment/portal/
+||076lvo.xyz^
 ||0772fang.com/assets/js/Newhouse/inserAds.js
 ||0772fang.com/assets/js/lffoi.js
 ||07908.com/images/
@@ -31843,6 +31851,7 @@ zztt24.com##.no-mask
 ||7wen.cn^
 ||7wkw.com^$popup
 ||7wtic7ru.com^
+||7x1u.icu^
 ||7x4.fr^$third-party
 ||7x5.fr^$third-party
 ||7x7n.com/static/image/888.jpg
@@ -32189,6 +32198,7 @@ zztt24.com##.no-mask
 ||99496.com/v9/head.js
 ||99520.xyz^
 ||996f0a8.com^
+||99885aaa.com^
 ||99886aaa.com^
 ||998k.at^
 ||99997aaa.com^
@@ -51623,6 +51633,7 @@ zztt24.com##.no-mask
 ||eopa5tepa.icu^
 ||eoqbefxjvzw.com^
 ||eoqocart.com^
+||eoqygep.cn^
 ||eoredi.com^
 ||eosads.com^
 ||eotglx.top^
@@ -54548,6 +54559,7 @@ zztt24.com##.no-mask
 ||gconfirmat.fun^
 ||gcouncer.buzz^
 ||gcpvkfe.cn^
+||gctd.xyz^
 ||gcudsn.tradetested.co.nz^
 ||gcugfwxmcmmr.com^
 ||gcw*.2liang.cn^
@@ -54596,6 +54608,7 @@ zztt24.com##.no-mask
 ||gdtimg.com^
 ||gdufpjrhran.com^
 ||gdugga.com^
+||gdxinya.com^
 ||gdxxb.com^$third-party
 ||gdyjs.com^
 ||gdzmqquwkuzw.com^
@@ -56250,6 +56263,7 @@ zztt24.com##.no-mask
 ||gxmbr.cn^
 ||gxms.vip^
 ||gxnews.com.cn/clientscript/index_duilian_
+||gxniihk.cn^
 ||gxordgtvjr.com^
 ||gxqrjjcsyh.com^
 ||gxqzz.7766.org^
@@ -64446,6 +64460,7 @@ zztt24.com##.no-mask
 ||lsaeb.com^
 ||lsariz.com^
 ||lsawards.com^$third-party
+||lsbebm.xyz^
 ||lscckgm.cn^
 ||lsdm.co^
 ||lsfinteractive.com^$third-party
@@ -68425,6 +68440,7 @@ zztt24.com##.no-mask
 ||necessarywax.com^
 ||neciqetlqkrajma.com^
 ||necklaceboarupstairs.com^
+||necmdow.cn^
 ||nedassiu.buzz^
 ||nedaugha.buzz^
 ||nedstat.com^$third-party
@@ -75362,7 +75378,6 @@ zztt24.com##.no-mask
 ||redcounter.net^$third-party
 ||reddenjaguarsuitcase.com^
 ||reddenmusician.com^
-||reddit.com/counters/$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
@@ -85651,6 +85666,7 @@ zztt24.com##.no-mask
 ||topblockchainsolutions.nl^
 ||topblogarea.com^$third-party
 ||topblogging.com^$third-party
+||topboo.xyz^
 ||topbucks.com^$third-party
 ||topclickguru.com^$third-party
 ||topcpmnetwork.com^
@@ -91644,6 +91660,7 @@ zztt24.com##.no-mask
 ||wuyulou.com^*.php
 ||wuzbhjpvsf.com^
 ||wuzitao.xyz^
+||wvggzak.cn^
 ||wvjjnb.cn^
 ||wvpkoyjoq.com^
 ||wvubjgl.cn^
@@ -92530,6 +92547,7 @@ zztt24.com##.no-mask
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfrena.com^
+||xfwxhyd.cn^
 ||xfxssqakis.com^
 ||xg.binkens.cn^
 ||xg.hbcygs518.com^$third-party
@@ -92843,6 +92861,7 @@ zztt24.com##.no-mask
 ||xn--2hvw21e.online^
 ||xn--2qu92fhtxsxexqab.xn--fiqs8s^
 ||xn--2qu96gouvko1a.com^
+||xn--2qus9awz1a6ygowgbua.xn--fiqs8s^
 ||xn--2quv4et7i4yno8fbua.xn--fiqs8s^
 ||xn--2qux23confgml.club^$third-party
 ||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
