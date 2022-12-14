@@ -19,7 +19,7 @@ num=`cat i-tmp.txt | wc -l`
 # 添加标题和时间
 echo "[Adblock Plus 2.0]" >> i-tpdate.txt
 echo "! Title: abpmerge Rules" >> i-tpdate.txt
-echo "! Description: 该规则合并自AdFilters，360，jiekouAD，AdGuard国内规则" >> i-tpdate.txt
+echo "! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，AdGuard英文语言规则" >> i-tpdate.txt
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> i-tpdate.txt
 echo "! Total count: $num" >> i-tpdate.txt
 cat i-tpdate.txt i-tmp.txt > abpmerge.txt
