@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-16 16:19:47
-! Total count: 67112
+! Version: 2022-12-17 16:18:23
+! Total count: 67131
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1535,8 +1535,10 @@
 ##a[href*="/ksbz1017.com"]
 ##a[href*="/kt169.com"]
 ##a[href*="/ky010.vip"]
+##a[href*="/ky1010.cn"]
 ##a[href*="/ky7993.com:"]
 ##a[href*="/ky9897.cn"]
+##a[href*="/kyky199.com"]
 ##a[href*="/l1y5.com"]
 ##a[href*="/l1y9.com"]
 ##a[href*="/leyu178.ee"]
@@ -1763,6 +1765,7 @@
 ##script + a[href^="https://l.hyenadata.com/"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
+##script + div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
@@ -5307,6 +5310,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /etology.$domain=~etology.com
 /ettoday/gemini/*
 /euads/*$domain=~euads.org
+/eucjhfxh/*.js
 /eureka-ads.
 /eureka/eureka.js
 /eureka_ban/*
@@ -13923,6 +13927,7 @@ axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
 axutongxue.com##body > div[id] > ul[class] > li > A[href^='http'],body > div[id] > ul[class] > li > img.icon
+axutongxue.com##style + div[id]
 azcardinals.com###adblock-notice
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
@@ -15802,7 +15807,6 @@ ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored))
 ebay.co.uk,ebay.com,ebay.com.au#?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#?#.s-item:-abp-has(span[class^="s-item__title--tagblock__SPONSORED"])
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be#?#:xpath(.//div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[starts-with(@class,"s-item")]//span[@aria-labelledby=//div[@class="hide"]/@data-key]/ancestor::li[starts-with(@class,"s-item")])
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -25820,6 +25824,7 @@ zztt24.com##.no-mask
 ||abbreviateprejudice.com^
 ||abbronzongor.com^
 ||abburmyer.com^
+||abc.colayun.cn^
 ||abc.douguo.com^
 ||abc.hkepc.com^
 ||abc.hkepc.net^
@@ -30190,6 +30195,7 @@ zztt24.com##.no-mask
 ||bd1.flfgw.cn^
 ||bd1.guancha.cn^
 ||bd1.jinbaozy.com^
+||bd1.moguvet.com^
 ||bd1.ningboseo0574.com^
 ||bd1.pipaw.com^
 ||bd1.qcjslm.com^
@@ -31443,6 +31449,7 @@ zztt24.com##.no-mask
 ||bptxcg.xyz^
 ||bqalutdhoqmk.xyz^
 ||bqg99.cc^
+||bqge.xyz^
 ||bqgyy.com^
 ||bqiapp.com/api/config/ad?
 ||bqljxttwwdvrw.xyz^
@@ -31945,6 +31952,7 @@ zztt24.com##.no-mask
 ||c1.4qx.net^
 ||c1.chajiaotong.com^
 ||c1.china.cn^
+||c1.czcol.cn^
 ||c10ed2b8b417880.com^
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
@@ -35242,6 +35250,7 @@ zztt24.com##.no-mask
 ||dberthformtte.xyz^
 ||dberthformtte.xyz^$popup
 ||dbf1405f9c.com^
+||dbixooy.cn^
 ||dbkdwe1.com^
 ||dblchymhlbcvot.xyz^
 ||dblcs.cn^
@@ -38515,6 +38524,7 @@ zztt24.com##.no-mask
 ||fhesrohah.com^
 ||fhfgg.com^
 ||fhgh9sd.com^
+||fhhvdzr.cn^
 ||fhiiyi.cn^
 ||fhisladyloveh.xyz^
 ||fhisownkindt.xyz^
@@ -38984,6 +38994,7 @@ zztt24.com##.no-mask
 ||fpb1.kedabai.com^
 ||fpb1.tabuzhe.com^
 ||fpbnmoise.com^
+||fpbone.ihowguide.com^
 ||fpbsnc.com/Runtime/js/psData.js
 ||fpcplugs.com/do.cgi?widget=
 ||fpctraffic2.com^$popup,third-party
@@ -42638,6 +42649,7 @@ zztt24.com##.no-mask
 ||ie3wisa4.com^
 ||ie8eamus.com^
 ||ieatlu.xyz^
+||iecetun.cn^
 ||ieeod0.com^
 ||ieeod0.com^$popup
 ||ieeod0.com^$third-party
@@ -42810,6 +42822,7 @@ zztt24.com##.no-mask
 ||ikafan.com/upload/image/iqiyi_
 ||ikajeoes.com^
 ||ikaka.com/globalad/
+||ikimhg.xyz^
 ||ikjnwd.xyz^
 ||ikjocef.cn^
 ||ikjwmfeds.xyz^
@@ -43390,6 +43403,7 @@ zztt24.com##.no-mask
 ||intimlife.net^$third-party
 ||intnative.com^
 ||intnotif.club^
+||into4g.mobi^
 ||intopicmedia.com^$third-party
 ||intorterraon.com^
 ||intorterraon.com^$popup
@@ -44534,6 +44548,7 @@ zztt24.com##.no-mask
 ||js.yjbys.com^
 ||js.ysfzf.cn^
 ||js0573.com/images/cus/
+||js1.dadiniu.cn^
 ||js1.haoge500.com^
 ||js6.efyt6.com^
 ||js7k.com^
@@ -46977,6 +46992,7 @@ zztt24.com##.no-mask
 ||lw88.site^
 ||lw881.com/public/js/gw.js
 ||lwckcytdbsg.com^
+||lwcsytn.cn^
 ||lwddrhp.cn^
 ||lwfcipd.cn^
 ||lwgadm.com^
@@ -58870,6 +58886,7 @@ zztt24.com##.no-mask
 ||t4sb9dq7.site^
 ||t57.cn/cert.php
 ||t5lxz7dtq4iz.com^
+||t5wm.cc^
 ||t7x22m7c.com^
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
 ||ta.trs.cn^$third-party
@@ -61076,6 +61093,7 @@ zztt24.com##.no-mask
 ||u1.idongde.com^
 ||u1.qyxxpd.com^
 ||u1.shuaiku.com^
+||u1099.com^
 ||u1557.com^
 ||u1885.com^
 ||u1trkqf.com^
@@ -62831,6 +62849,7 @@ zztt24.com##.no-mask
 ||vytand.com^
 ||vyule.com^
 ||vz1m.com^
+||vz81m4.top^
 ||vzadtu.cn^
 ||vzigttqgqx.com^
 ||vzmz.com/template/paody/aaaa/*0
