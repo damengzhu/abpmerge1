@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-17 16:18:23
-! Total count: 67131
+! Version: 2022-12-18 16:18:42
+! Total count: 67154
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -128,6 +128,7 @@
 ###app.app > .topic-big
 ###appBottomIn
 ###appIn
+###appad.cate
 ###appqrcode
 ###appss[style="padding:15px;"]
 ###arBRyGHxuDYU
@@ -236,6 +237,8 @@
 ###header_global_ad
 ###hellobox > .mylist
 ###hengfu > #jiukan
+###hengfu1.banner
+###hengfu2.banner
 ###hfad
 ###hj-right-aside[style="float: right;"]
 ###homead
@@ -871,6 +874,7 @@
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
+##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.main_adbalert
 ##.mainbg > #s11navtop
@@ -1014,6 +1018,7 @@
 ##.top_func_ad
 ##.topad1
 ##.topads
+##.topbanner + .nav + .banner
 ##.toy52_outer
 ##.toy52apparel_ALL
 ##.trad3
@@ -1486,6 +1491,7 @@
 ##a[href*="/7699j.com:"]
 ##a[href*="/7763349.com/"]
 ##a[href*="/7900y.com?"]
+##a[href*="/84992020.xyz"]
 ##a[href*="/8616.tech"]
 ##a[href*="/9716t.com"]
 ##a[href*="/?INTR="]
@@ -14120,6 +14126,7 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##DIV.brand-entry
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
 baidu.com##[class^='ball-wrapper']
 baidu.com##[style^="bottom:"][class^="ball-wrapper__"]
@@ -16379,6 +16386,8 @@ fuyang.net###portal_block_502
 fuyang.net##.eis_fbox_260:nth-child(n+3)
 fuyang.net##.eis_fbox_980
 fuzhou.baixing.com#@#.ad-title
+fwwang.cn###n_s_300250
+fwwang.cn###n_s_300250ad
 fwxgx.com###jPpo_sc
 fwxgx.com##.baibaoxiang
 fwxgx.com##.float_ad
@@ -23176,6 +23185,7 @@ zztt24.com##.no-mask
 ||113.105.248.169^
 ||113.17.188.*.js
 ||1133.cc^$third-party
+||1138555.com^
 ||113o.com^
 ||114com.cc^
 ||114la.com/static/js/egg.js
@@ -33553,6 +33563,7 @@ zztt24.com##.no-mask
 ||cod.southmoney.com^
 ||codbankauthors.com^
 ||code.ditiezu.net^
+||code.piano.io/api/tinypass.min.js$domain=delfi.lv
 ||code668.com^
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
@@ -34015,6 +34026,7 @@ zztt24.com##.no-mask
 ||cpcmart.com^
 ||cperformmedia-a.akamaihd.net^
 ||cpfclassifieds.com^$third-party
+||cpgo.xyz^
 ||cpkshop.com/campaign/$third-party
 ||cpl1.ru^
 ||cpm-ad.com^
@@ -34499,6 +34511,7 @@ zztt24.com##.no-mask
 ||cz5f.top^
 ||cz9k8b.top^
 ||czbk.site^
+||czdffsa.top^
 ||czechose.com^
 ||czgjhotel.com^
 ||czh5aa.xyz^
@@ -36721,6 +36734,7 @@ zztt24.com##.no-mask
 ||dwnews.net/js/common/dwnews.dwcn.ad.js
 ||dwnews.net/js/common/dwnews.ga.js
 ||dwnm2295blvjq.cloudfront.net^
+||dwqfmvc.cn^
 ||dwr3zytn850g.cloudfront.net^
 ||dwrz5az.cn^
 ||dwstatic.com^*/newsPopup/
@@ -39285,6 +39299,7 @@ zztt24.com##.no-mask
 ||fwrpq.cyou^
 ||fwsir.com/static/cpt/
 ||fwvwural.xyz^
+||fwwang.cn/templets/fw/js/art
 ||fwwjbvz.cn^
 ||fwwpnhdssbqofu.xyz^
 ||fx110.*/Pub/Ghz/GetModel
@@ -39837,6 +39852,7 @@ zztt24.com##.no-mask
 ||gfnormal07ae.com^
 ||gforanoppo.com^
 ||gfqfjau.cn^
+||gfqquls.cn^
 ||gfrevenge.com/vbanners/
 ||gfsdloocn.com^
 ||gfstrck.com^
@@ -39994,6 +40010,7 @@ zztt24.com##.no-mask
 ||gkcmei.xyz^
 ||gkenql.cn^
 ||gkidgpdvpe.xyz^
+||gkiho.xyz^
 ||gkijlmbgf.xyz^
 ||gkiyvbk.cn^
 ||gkngokwjmykp.xyz^
@@ -43060,6 +43077,7 @@ zztt24.com##.no-mask
 ||immunepine.com^
 ||imonomy.com^$third-party
 ||imooc.com/open/courselistrandjs
+||imoote.xyz^
 ||imp.accesstra.de^
 ||imp.zol.com.cn^
 ||imp2aff.com^
@@ -45683,6 +45701,7 @@ zztt24.com##.no-mask
 ||kzerr.com^
 ||kzett.com^
 ||kzeww.com^
+||kzezz.com^
 ||kzhtgnv.cn^
 ||kzkmmbrrzn.com^
 ||kzngisyd.xyz^
@@ -55207,6 +55226,7 @@ zztt24.com##.no-mask
 ||rsationhesa.one^
 ||rsationhesaid.xyz^
 ||rscxwmj.cn^
+||rsdkk26.xyz^
 ||rsdown.cn/statics/images/rs-banner.jpg
 ||rskillsplu.club^
 ||rslnmcxhopsmtuk.com^
@@ -56709,6 +56729,7 @@ zztt24.com##.no-mask
 ||shyheglasy.com^
 ||shyhuetub.site^
 ||shypqc.com^
+||shyww.mobi^
 ||shzq8888.com^
 ||shzuggo.cn^
 ||shzzzz.dftoutiao.com^
@@ -64111,6 +64132,7 @@ zztt24.com##.no-mask
 ||wuyulou.com^*.php
 ||wuzbhjpvsf.com^
 ||wuzitao.xyz^
+||wv86s.fun^
 ||wvggzak.cn^
 ||wvpkoyjoq.com^
 ||wvubjgl.cn^
@@ -66893,6 +66915,7 @@ zztt24.com##.no-mask
 ||zrlcr.com^
 ||zrljkhcwhxhh.com^
 ||zrmxswrl.com^
+||zrpyfgt.cn^
 ||zrukecdcv.com^
 ||zrvnhlwypqpwjw.com^
 ||zrwba.cn^
