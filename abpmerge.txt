@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-21 16:21:09
-! Total count: 67204
+! Version: 2022-12-22 16:20:12
+! Total count: 67230
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -911,6 +911,7 @@
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
 ##.no-ad-reminder
+##.no-mobile[style="position: fixed;right:0px;bottom: 0px;"]
 ##.noadblock
 ##.nordvpn-popup + .sidebar-vpn
 ##.nr_all > .m_f_a.sw_sp
@@ -932,6 +933,7 @@
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player_ggw
 ##.player_pic_link > [src*='/player.gif']
 ##.playtop.col-pd
 ##.plc > .a_p
@@ -962,6 +964,7 @@
 ##.room-ad-top
 ##.room-ad-video-down
 ##.rotate-adv
+##.row > .gao-bg
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.scupioadslot
@@ -1547,6 +1550,7 @@
 ##a[href*="/tg.602.com/"]
 ##a[href*="/tv668.cc"]
 ##a[href*="/tv688.cc"]
+##a[href*="/ty523.com/"]
 ##a[href*="/uu5566.cn.com/"]
 ##a[href*="/v9038.com:"]
 ##a[href*="/wns8499608.xyz"]
@@ -1759,8 +1763,8 @@
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
 ##script + div[style="width:300px;height:300px;position:fixed;bottom:0;left:0;z-index:2147483647;"]
+##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
-##script[src="/static/base.js"] + #couplet
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -2018,7 +2022,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -banner-ad/
 -banner-ad_
 -banner-ads-$~script
--bobnotime-$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|designbump.com|ipatriot.com|naturalblaze.com|patriotnationpress.com
+-bobnotime-$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com
 -bobo_recommend_
 -content-ad-
 -content-ad.
@@ -13808,7 +13812,8 @@ atyun.com##.coupletbox
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audiofanzine.com#$#abort-on-property-read TextDecoder; abort-on-property-read require; abort-current-inline-script _audiofanzineProductStack
 audiofanzine.com#$#hide-if-matches-xpath './/img[contains(@src,"/advert/label-ad-")]/parent::div[1]'
-aupetitparieur.com,meilleurpronostic.fr#$#abort-on-property-read document.getElementsByClassName; abort-on-property-read following-ad-container
+aupetitparieur.com,meilleurpronostic.fr##aside[class] > span[class*="mdeyheadline-"]
+aupetitparieur.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id][role]
 aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
@@ -14253,8 +14258,8 @@ beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
 beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,naturalblaze.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,dailylol.com,designbump.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
@@ -15289,6 +15294,7 @@ dahe.cn###adsg
 dailiantong.com##.appDwn
 dailybitcoins.org#@#.ad-img
 dailydoge.org#@#.adsbygoogle
+dailylol.com,procoinnews.com##div[class] > div[id] > div[class][id][role]
 dailymail.co.uk###billBoard
 dailymail.co.uk###js-sky-left
 dailymail.co.uk###js-sky-right
@@ -20031,6 +20037,8 @@ popbee.com##.adblocker
 popeoftheplayers.eu###html4
 popeoftheplayers.eu###mask1
 popo.tw#@#.header_ad
+populistpress.com##div[id^="secondary-sidebar"] > article[class]
+populistpress.com##li[id^="main_feed_post_"] > article[class]
 poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 porn-blog.me###dbx_light
 porn-w.org#?#.align-items-center.list-row:-abp-has(.col:empty)
@@ -20101,6 +20109,7 @@ privatestream.tv###timer2
 privatestream.tv###timer3
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
 proboards.com,freeforums.net,boards.net###support-message
+procoinnews.com##div[id^="adcovery-"]
 procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined ; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
 proewildfire.cn##.comiis_nav ~ a
 professorweb.ru###submain > div[class^="a"][style]
@@ -20467,7 +20476,7 @@ ri1.site,www.wenxuecity.com###rightside
 ria.ru##.antiblock
 riaway.com##.info_message_container
 right.com.cn##a[href^="https://jd.dangbei.com/"]
-rightwingnews.com#$#abort-on-property-read document.getElementsByTagName
+rightwingnews.com##.z-ad-inline
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
 rijutv.co##.union-list-item
@@ -21292,7 +21301,8 @@ teledeporteonline.pw###divPanel
 teledeporteonline.pw##[id^="total"]
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telesputnik.ru##.adbPopup
-telexplorer.com.ar#$#abort-current-inline-script MutationObserver compareDocumentPosition
+telexplorer.com.ar##aside[class] > span[class*="mdeyheadline-"]
+telexplorer.com.ar##div[class] > div[id] > main[class][id][role]
 template/m1938pc/ads/*.js
 tencentmind.com
 tgbus.com###guide-download
@@ -22249,6 +22259,9 @@ xcar.com.cn##div[class^="adset"]
 xchina.co##.push-top
 xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 xclient.info###pop_business
+xcyy.tv##body > a
+xcyy.tv##body > style + [id]
+xcyy.tv##body > style + [id] + img
 xdf.cn##.footadv
 xdf.cn##.middleadv
 xdf.cn##.popup-wrap
@@ -34571,7 +34584,6 @@ zztt24.com##.no-mask
 ||d1.1ppt.com^
 ||d1.3158.cn^
 ||d1.5h.com^
-||d1.gocye.com^
 ||d1.handdiy.com^
 ||d1.sina.com.cn^$object,script
 ||d1.zhuangxiu6.com^
@@ -38067,7 +38079,7 @@ zztt24.com##.no-mask
 ||ezxws.cyou^
 ||ezyenrwcmo.com^
 ||ezyenrwcmo.com^$popup
-||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com
+||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
 ||f.zgbmw.com.cn^$third-party
 ||f05.xyz^
 ||f07neg4p.de^
@@ -42496,6 +42508,7 @@ zztt24.com##.no-mask
 ||hzdwjc.com^
 ||hzhyhm.com^
 ||hzkachqd.com^
+||hzma.xyz^
 ||hznzcn.com/moban/youxiajiao.js
 ||hzrrmh.cn^
 ||hzs1202.site^
@@ -44343,6 +44356,7 @@ zztt24.com##.no-mask
 ||jjwxc.net/jjad*.html$popup
 ||jk4lmrf2.de^
 ||jk5t7g6.cn^
+||jkasn.com^
 ||jke1.jianke.com^
 ||jkgvxgtfudip.com^
 ||jkha742.xyz^
@@ -44354,6 +44368,7 @@ zztt24.com##.no-mask
 ||jkttvpoxmk.com^
 ||jkvbiry.cn^
 ||jkxtd77.com^
+||jkxty.mobi^
 ||jl1130.com^
 ||jlhygy.com^
 ||jlklnwmj.com^
@@ -48797,6 +48812,7 @@ zztt24.com##.no-mask
 ||multifarewell.com^
 ||multimater.com^
 ||multiview.com^$third-party
+||mumessn.cn^
 ||mumnxwvn.ink^
 ||mumuendakuthyfo.xyz^
 ||munchenviableski.com^
@@ -50259,6 +50275,7 @@ zztt24.com##.no-mask
 ||oddsresemble.com^
 ||oddyqw.com^
 ||odfykc.cn^
+||odghlwo.cn^
 ||odhwfjrwlcq.xyz^
 ||odinistromneya.com^
 ||odkxgwl.cn^
@@ -50503,6 +50520,7 @@ zztt24.com##.no-mask
 ||omplacearbit.xyz^
 ||omsawkan.com^
 ||omshedinjaor.com^
+||omtend.com^
 ||omynews.net^$third-party
 ||omzpbbz.cn^
 ||omzylhvhwp.com^
@@ -51774,6 +51792,7 @@ zztt24.com##.no-mask
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
 ||phca85g3n400.com^
+||phcoal.com^
 ||pheasantcardboardcohort.com^
 ||pheasantgobetweenyearbook.com^
 ||phee1oci.com^
@@ -52024,6 +52043,7 @@ zztt24.com##.no-mask
 ||pityneedsdads.com^
 ||pitysuffix.com^
 ||pitysuffix.com^$popup
+||pivlzt.xyz^
 ||pivotrunner.com^
 ||piwhecyfo.pro^$popup
 ||piwvk.cn^
@@ -52195,6 +52215,7 @@ zztt24.com##.no-mask
 ||plywoodenchant.com^
 ||pm.poqwua.cn^
 ||pm2b.top^
+||pm8lw.xyz^
 ||pmb*.tj.ali213.net/js/
 ||pmcppla.cn^
 ||pmdatabase.xyz^
@@ -53928,6 +53949,7 @@ zztt24.com##.no-mask
 ||qvpublish.com^
 ||qvqcfau.cn^
 ||qvuehosxuzhagv.com^
+||qvxhgni.cn^
 ||qvyzdox.cn^
 ||qw2v.taoxiehui.cn^
 ||qwa3ldhn9u0t.com^
@@ -55315,6 +55337,7 @@ zztt24.com##.no-mask
 ||rtk.io^
 ||rtkyvd.xyz^
 ||rtmark.net^
+||rtmtgf.xyz^
 ||rtnews.pro^
 ||rtnigaz.cyou^
 ||rtnjcplpuxdq.com^
@@ -61044,6 +61067,7 @@ zztt24.com##.no-mask
 ||twzui6.com^
 ||tx888.wang^
 ||tx99y.net^
+||tx9ff.top^
 ||txahz.com/static/image/tp/
 ||txcmjo.com^
 ||txcsudkymdq.com^
@@ -62652,6 +62676,7 @@ zztt24.com##.no-mask
 ||vnr83.com^
 ||vnrherdsxr.com^
 ||vnrkbnmoow.com^
+||vns86.oss-*.aliyuncs.com^
 ||vntsm.com^
 ||vntsm.io^
 ||vnuccenky.com^
@@ -66004,6 +66029,7 @@ zztt24.com##.no-mask
 ||yrphdyztfgfv.com^
 ||yrqr-ping.com^
 ||yrqwnc.cn^
+||yrr56.com/mp4/pt_720.
 ||yrrcc.top^
 ||yrvzqabfxe.com^
 ||yrxhybwq.com^
