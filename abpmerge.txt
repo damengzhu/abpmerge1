@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-23 02:13:29
-! Total count: 50351
+! Version: 2022-12-23 16:19:22
+! Total count: 50375
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1112,6 +1112,7 @@
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 ##SPAN#qdSZ2
 ##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
@@ -1280,6 +1281,7 @@
 ##a[href*=".asada-kairyo.com/"]
 ##a[href*=".ax10a.com/"]
 ##a[href*=".ayx300.com/"]
+##a[href*=".beiren.cc"]
 ##a[href*=".bet365.gdn"]
 ##a[href*=".bet927.bet"]
 ##a[href*=".betbar168.net"]
@@ -1657,6 +1659,7 @@
 ##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##div.container > div.row div.yalayi_box
+##div.container > div.t-img-box > A[href][target='_blank']
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
@@ -5361,7 +5364,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 0516city.com,cnpingpang.com,jdbbs.com##.a_h
 0517w.com,1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 0517w.com,lysq.com###diyad
-0562.cc,114shouji.com,1x6666.com,2fzw.cn,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+0562.cc,114shouji.com,1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bansha.com,bbs.52life.cc,bestcclm.com,chcj.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
 0579.cn##.top_gg
 0594.com##div[id^="PCMSAD_"]
 0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,meiyouad.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,wokao.co,yeeyi.com##.ads
@@ -6005,8 +6008,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
-2fzb.com###hd + .wp
-2fzb.com##a[href^="ad."]
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 2ip.me,2ip.ua##.alert-mess > .row
 2phimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
@@ -13675,6 +13676,7 @@ ca168.com##.admarket
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 cableabc.com##a[href*="/img1/"]
 cad.youku.com
+cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#abort-on-property-write ADMStorageFileCDN
 caibaojian.com##.aliyun-inner
 caibaojian.com##a[data-href*="aliyun"]
 caibaojian.com##a[onclick*="aliyun"]
@@ -17195,6 +17197,8 @@ jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidd
 jq.131458.com##.soso_02
 jq22.com##.fdad
 jqzb.com.cn##.zk_xf
+jrfz.xyz###hd + .wp
+jrfz.xyz##a[href^="ad."]
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
 jrj.com.cn##.jrj-ad
@@ -17822,7 +17826,9 @@ m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
 m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
+m.baidu.com##DIV.barea-ad
 m.baidu.com##DIV[data-module='rec:undefined-undefined']
+m.baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@#div[class*="ads"]
 m.biqiugege8.com##+js(set-constant, lists, undefined)
@@ -18365,6 +18371,7 @@ mydrivers.com##.news_xg + style + div
 mydrivers.com##.taobao_tab
 mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*=".ashx?to="]
+mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##a[href*="/a.ashx"]
 mydrivers.com##a[href*="/bp.ashx"]
 mydrivers.com##a[href*="/huodong.ashx"]
@@ -22019,6 +22026,7 @@ zztt24.com##.no-mask
 ||01fen.com^
 ||01tn.cn^
 ||01u.net/js/tj.js
+||021jf.com^
 ||025613.com^
 ||025suyu.com^
 ||025yimei.com/templets/default/js/swt.js
@@ -22137,6 +22145,7 @@ zztt24.com##.no-mask
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0p7w.cn^
 ||0pyn37dv3m.com^
+||0r17374.com^
 ||0redird.com^
 ||0redire.com^$all
 ||0rg.pw^
@@ -22784,7 +22793,6 @@ zztt24.com##.no-mask
 ||2e8dgn8n0e0l.com^
 ||2f.com^$third-party
 ||2fd8c0e9fc.com^
-||2fzb.com/config/adv.js
 ||2g2h.com^
 ||2g9x9uf.cn^
 ||2gb8fnh.cn^
@@ -23319,6 +23327,7 @@ zztt24.com##.no-mask
 ||52zxdai.com^
 ||52zy.com/other/js/
 ||5328t.com/js/jquery.js
+||537882736.com^
 ||5399.com^$third-party
 ||53gem.com^
 ||53kf.com^$third-party
@@ -23654,6 +23663,7 @@ zztt24.com##.no-mask
 ||6glece4homah8dweracea.com^
 ||6gukaitu.xyz^
 ||6gustis.xyz^
+||6ha03.icu^
 ||6hejing.cn^
 ||6huu.com^
 ||6likosy.com^$domain=pronpic.org
@@ -23701,6 +23711,7 @@ zztt24.com##.no-mask
 ||749cad1027.com^
 ||75.125.41.29:8080/
 ||7540.com^$third-party
+||75625358935.com^
 ||7676.com^$third-party
 ||7676f1cc6c.com^
 ||767drv.cn^
@@ -28683,6 +28694,7 @@ zztt24.com##.no-mask
 ||chudongcaiwu.xyz^
 ||chultoux.com^
 ||chunaisese12.com^
+||chunmiaosh.com^
 ||chuntian.buzz^
 ||chunyuqiufeng.com^
 ||churchalexis.com^
@@ -32106,6 +32118,7 @@ zztt24.com##.no-mask
 ||fenhao14.com^
 ||fentent.streampiay.fun^
 ||fentent.streampiay.fun^$popup
+||fenxi.com^$third-party
 ||fenxiangdashi.com/Res/js/detail_
 ||fenxiangdashi.com/img/banner/
 ||fer2oxheou4nd.com^
@@ -35044,6 +35057,7 @@ zztt24.com##.no-mask
 ||ikkdm.com/mg/show2.js
 ||iklda.cn^
 ||iklghjooyj.com^
+||ikoplvp.cn^
 ||ikrweb.cn^
 ||iktree.xyz^
 ||ikuailian.com^$third-party
@@ -36803,6 +36817,7 @@ zztt24.com##.no-mask
 ||kkeji.com/img/*300250
 ||kkeji.com/img/2005/m_info_720.png
 ||kkggy.top^
+||kkizyys.cn^
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkmacsqsbf.info^
@@ -36923,6 +36938,7 @@ zztt24.com##.no-mask
 ||kowqd7.top^
 ||koxeebee.net^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
+||kppav.info^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpshx.douguo.com^
@@ -38184,6 +38200,7 @@ zztt24.com##.no-mask
 ||m32.media^
 ||m4clicks.com^
 ||m73lae5cpmgrv38.com^
+||m7dmtv.top^
 ||ma.baiducdn2.com^*/main.js?t=
 ||ma1.meishij.net^
 ||ma2gs3wne3gfej70osium.com^
@@ -38470,6 +38487,7 @@ zztt24.com##.no-mask
 ||mdsop.com^
 ||mdszz.com^
 ||mdt.qq.com^
+||mducc.cc^
 ||me360.com/swt/swt.js
 ||me511.win^
 ||me680.com/js/*.js
@@ -38708,6 +38726,7 @@ zztt24.com##.no-mask
 ||mignished-sility.com^
 ||migrantspiteconnecting.com^
 ||miguyu.com/AD/
+||mihouse.pw^
 ||mikanani.me/images/Masha/
 ||mikhainpretts.xyz^
 ||mikongdd.top^
@@ -39410,6 +39429,7 @@ zztt24.com##.no-mask
 ||naifei.shop/static/banner/banner_mobile.jpg
 ||naifei.shop^$third-party
 ||naigristoa.com^
+||naiki.top^
 ||nairaland.com/vertipics/
 ||nakamasweb.com^
 ||nakedfulfilhairy.com^
@@ -42516,6 +42536,7 @@ zztt24.com##.no-mask
 ||rdrceting.com^
 ||rdsb2.club^
 ||rdsb21.club^
+||rdsmod.cc^
 ||rdsvsh.com^
 ||rdtk.io^
 ||rdtrck2.com^
@@ -44032,6 +44053,7 @@ zztt24.com##.no-mask
 ||sirpmqmrrett.xyz^
 ||sisafnib.space^
 ||sisewepod.com^
+||sisgirlav.info^
 ||sisihl.cn^
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||siteencore.com^$third-party
@@ -47750,6 +47772,7 @@ zztt24.com##.no-mask
 ||wjjhzs.cn^
 ||wjlzs.cn^
 ||wjr9.cn^
+||wjslw.mobi^
 ||wjxs.xyz^
 ||wjylfla.cn^
 ||wk4y.cn^
@@ -47985,6 +48008,7 @@ zztt24.com##.no-mask
 ||wuliao.juqingba.cn^
 ||wuliglsg.space^
 ||wulongqiyi.com^
+||wumei91.cc^
 ||wumii.cn/ext/relatedItemsWidget
 ||wumnxwvg.ink^
 ||wunteetoco.com^
