@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-24 16:19:01
-! Total count: 50290
+! Version: 2022-12-25 16:18:48
+! Total count: 50311
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -979,6 +979,7 @@
 ##.smcms-wrap > a[target="_blank"] > img
 ##.spon-img[src*=".alicdn."]
 ##.sponsor_image
+##.spot_nav_under_ad
 ##.ssr1
 ##.static-a2d
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
@@ -1672,6 +1673,7 @@
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".lyty49.com"]
+##div[onclick*=".open"][onclick*="ky"]
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick*=".yyav5.top"]
@@ -1809,7 +1811,7 @@ $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m
 $script,third-party,denyallow=disquscdn.com|disqus.com|fastlylb.net,domain=bluelockmanga.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net
 $script,third-party,domain=cilimao.co|cilimao.one
-$script,third-party,domain=cocomanga.com|cocomanhua.com
+$script,third-party,domain=colamanhua.com
 $script,third-party,domain=dybee.tv
 $script,third-party,domain=faselhd.top,badfilter
 $script,third-party,domain=imgbox.com
@@ -6296,6 +6298,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 5278.cc##.pct > div[style="width: 600px;"]
 5278.cc,hboav.com##+js(no-setTimeout-if, /ad block stop|warm_msg/)
 528500.com###wp > div[align="center"]
+52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
 52bdys.com###ayx
 52bdys.com##center[style*="background"]
@@ -6765,9 +6768,8 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@.com/ad.aspx|$domain=xdingdian.cc
 @@.com/adv/$domain=my.ctrip.com
 @@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
-@@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
+@@.com/js/a_d/$domain=colamanhua.com
+@@.com/logo/ad.$domain=colamanhua.com
 @@.dmf.link/dl/$stealth
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
@@ -8174,7 +8176,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
-@@||cloudflare.net^$script,domain=cocomanga.com|cocomanhua.com
+@@||cloudflare.net^$script,domain=colamanhua.com
 @@||cloudsdestruction.com^$script,xmlhttprequest
 @@||cloudtime.to/banner.php$script
 @@||club.tgfcer.com^$generichide
@@ -14144,11 +14146,6 @@ co188.com##.suspen
 coco01.net##.scupioadslot
 cocomanga.com##+js(no-setTimeout-if, loadErrorTip)
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
-cocomanga.com#@#.gg_728
-cocomanga.com#@#.gg_950
-cocomanga.com,cocomanhua.com##iframe[style*="important"]
-cocomanga.com,cocomanhua.com#@#.gg430
-cocomanga.com,cocomanhua.com#@#.gg_300
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(no-setTimeout-if, checkSiteNormalLoad)
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(set-constant, NativeAd, noopFunc)
 cocomanga.com,ohmanhua.com,onemanhua.com##+js(set-constant, __jsadsuccess, true)
@@ -14171,6 +14168,9 @@ codexiu.cn##.blog-twitter:first-child
 coding.net##.smart-app-banner
 cofp.ru##.admitad-checker-popup
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
+colamanhua.com##+js(no-setTimeout-if, loadErrorTip)
+colamanhua.com##iframe[style*="important"]
+colamanhua.com#@#.gg_950
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
 com/js/lp365.js
@@ -21540,6 +21540,7 @@ yocast.tv###notice
 yocast.tv###ra9e
 yocast.tv##.player_div + #video_ads_overdiv + div
 yocast.tv#@##adblock
+yocoolnet.in###mobile_inplayer
 yodu.org#$##byspider { display: none !important; }
 yodu.org#$#body[style] { overflow: auto !important; }
 yomahub.com##.sidebar-slot
@@ -22045,6 +22046,7 @@ zztt24.com##.no-mask
 ||086f39952a.com^
 ||0885.net^$third-party
 ||08af0e4303.com^
+||093yuht.com^
 ||095c32183c.com^
 ||096iokj.com^
 ||09jsufg.com^
@@ -23221,6 +23223,7 @@ zztt24.com##.no-mask
 ||52996.me/upload/ad/
 ||52996.me/upload/ad/$media,redirect=noop-1s.mp4
 ||52aoteman.com^
+||52av.be^$popup,third-party
 ||52card.net/img/
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
@@ -23779,6 +23782,7 @@ zztt24.com##.no-mask
 ||8341.store^
 ||8456.xyz^
 ||8499223.com^
+||8499683.com^
 ||8500.pro^
 ||8585go.com/recommend
 ||8592fb1c1d.com^
@@ -25886,6 +25890,7 @@ zztt24.com##.no-mask
 ||api-access.pangolin-sdk-toutiao.com^
 ||api-shoulei-ssl.xunlei.com^
 ||api-v*.soundcloud.com/audio-ads?
+||api.*.com/sh/to/$third-party
 ||api.06fgej.com^
 ||api.1101yh.com^
 ||api.36dfsa.com^
@@ -27415,6 +27420,7 @@ zztt24.com##.no-mask
 ||bmp1.ali213.net/js/
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
+||bmsgznx.cn^
 ||bmt4578.xyz^
 ||bmuju.com^
 ||bmw100.cn^$third-party
@@ -27442,6 +27448,7 @@ zztt24.com##.no-mask
 ||bnqlgdj.cn^
 ||bnrs.it^
 ||bnrslks.com^
+||bnsdk.top^
 ||bnserving.com^
 ||bnster.com^
 ||bntxt.com^
@@ -28998,7 +29005,6 @@ zztt24.com##.no-mask
 ||cocoachviver.com^
 ||cocomanga.com/js/atmp.html
 ||cocomanga.com/sw.js
-||cocomanhua.com/sw.js
 ||coconutsumptuousreseptivereseptive.com^
 ||cocoonelectronicsconfined.com^
 ||cod.onemanandhisblog.com^
@@ -29039,6 +29045,7 @@ zztt24.com##.no-mask
 ||coinzillatag.com^$third-party
 ||coixclamps.com^
 ||cojia.net^
+||colamanhua.com/sw.js
 ||colanbalkily.com^
 ||colarak.com^
 ||coldflownews.com^
@@ -31389,6 +31396,7 @@ zztt24.com##.no-mask
 ||ejotdqfjazg.com^
 ||ejunshi.com^
 ||ekfottltamc.com^
+||ekhnbwe.cn^
 ||eksiup.com^$third-party
 ||ekwibgl.cn^
 ||elaboratehall.pro^
@@ -32227,6 +32235,7 @@ zztt24.com##.no-mask
 ||fla4n6ne7r8ydcohcojnnor.com^
 ||flabbyyolkinfection.com^
 ||flagmantensity.com^
+||flan.fun^
 ||flash.banners-service.info^
 ||flash.cn/success/$popup
 ||flash.mycar168.com/data/js/
@@ -32426,6 +32435,7 @@ zztt24.com##.no-mask
 ||freshmall.shop^
 ||freshmate.com.cn^
 ||freychang.fun^
+||frgeob.xyz^
 ||fri4esianewheywr90itrage.com^
 ||friend17.net^
 ||friendliness.work^
@@ -35726,6 +35736,7 @@ zztt24.com##.no-mask
 ||jcdf99.com/hzz/scripts/new
 ||jcelyj.com^
 ||jcheys.com^
+||jckdusa.cn^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcpecb.com^
 ||jcrb.com/ZYW$subdocument
@@ -35747,6 +35758,7 @@ zztt24.com##.no-mask
 ||jd6pq31f.site^
 ||jdaa22.top^
 ||jddaw.com^
+||jdexcgb.cn^
 ||jdgsgl.com^
 ||jdiaveu.cn^
 ||jdoqocy.com^
@@ -36584,6 +36596,7 @@ zztt24.com##.no-mask
 ||kefeng56.com^$third-party
 ||kefu3254.cn^
 ||kefuxt2022.cn^
+||keiscithy.com^
 ||kejia.pw^
 ||kejiadoor.cn^
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
@@ -39899,6 +39912,7 @@ zztt24.com##.no-mask
 ||nvyrgsqdqh.com^
 ||nvzffl.cn^
 ||nwadakesc.cyou^
+||nwdjlx.xyz^
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
 ||nwogldc.top^
@@ -42016,6 +42030,7 @@ zztt24.com##.no-mask
 ||qisafniy.space^
 ||qishenga.com^*.gif$domain=meiju11.com
 ||qishuk.com/css/wap.
+||qishula.com/css/ding.js
 ||qiutian.buzz^
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
@@ -45610,6 +45625,7 @@ zztt24.com##.no-mask
 ||tiwhaiph.net^
 ||tiwom.com^
 ||tixnd.xyz^
+||tizf7.top^
 ||tizru.com^$domain=pronpic.org
 ||tj-cmys.com^
 ||tj-cyhg.com^
@@ -45833,6 +45849,7 @@ zztt24.com##.no-mask
 ||tpmedia-reactads.com^$third-party
 ||tpool.cn^
 ||tpqokqi.cn^
+||tprwnvk.cn^
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp001.buzz^
 ||tpvdcqw.cn^
@@ -46659,6 +46676,7 @@ zztt24.com##.no-mask
 ||uwnvcxb.cn^
 ||uwoaptee.com^
 ||uwogldt.top^
+||uwuzpxt.cn^
 ||uxbd4id.xyz^
 ||uxlidt.ink^
 ||uxngqd.cn^
@@ -47115,6 +47133,7 @@ zztt24.com##.no-mask
 ||voqally.com/hub/app/
 ||vorlsblf.cyou^
 ||vounaipu.net^
+||vouninked.com^
 ||voyageconcise.com^
 ||voyeurhit.com^$third-party
 ||vpbbc.cn^
@@ -47192,6 +47211,7 @@ zztt24.com##.no-mask
 ||vx2e.top^
 ||vx4n.icu^
 ||vxjcalk.cn^
+||vxlysbz.cn^
 ||vxotu.com/i/*.gif
 ||vxs.mibaoge.com^
 ||vxsnk.com^
@@ -47690,6 +47710,7 @@ zztt24.com##.no-mask
 ||wjylfla.cn^
 ||wk4y.cn^
 ||wka8.com^
+||wkbslub.cn^
 ||wkfwdki.cn^
 ||wkhhwkp.cn^
 ||wkjoehzlkl.com^
