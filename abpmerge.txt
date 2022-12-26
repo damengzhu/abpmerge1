@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-25 16:18:48
-! Total count: 50311
+! Version: 2022-12-26 16:19:15
+! Total count: 50329
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1080,6 +1080,7 @@
 ##.zozoads
 ##A#mhbottom_ad_img,[href='https://ys.44766.cc/m/download'][style*='/adcarsku/sku'],[src*='/adcarsku/sku']
 ##A[href*=".com/?Agent="]
+##A[href*="/ky0666.cn"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href="http://goo.gl/jQ9bcz"]
@@ -1093,6 +1094,7 @@
 ##A[href^="http://www.yourfilezone.com/play?lng="]
 ##A[href^="https://action.metaffiliation.com/trk.php?"]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
+##A[href^='https://tv2356.cc']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##DIV#ad-index.col-12.position-relative
@@ -13197,7 +13199,6 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
-baidu.com##DIV.brand-entry
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
 baidu.com##[
 baidu.com##[class^='ball-wrapper']
@@ -17800,6 +17801,7 @@ m.baidu.com##.news_ad
 m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 m.baidu.com##DIV.barea-ad
+m.baidu.com##DIV.brand-entry
 m.baidu.com##DIV[data-module='rec:undefined-undefined']
 m.baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 m.baidu.com##a[href*="m.lecai.com"]
@@ -18920,7 +18922,7 @@ pianba.net###jiedoubanban
 pianba.tv,pianba.net##.play-btn > a[target="_blank"]
 pianhd.com###myCarousel
 pianku.me###playad
-pianmm.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
+pianmax.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
 pianyuan.org###myModal
 pianyuan.org,qixingquan.com##.modal-backdrop
 piaoliang.com##.hot990
@@ -20100,6 +20102,7 @@ spbo1.com##td[width="100%"][height="18"][bgcolor="#ffffff"][align="center"][cols
 speedpan.com###float-window
 speedtest.cn##.aP-box
 speedtest.cn##.advertisingSpace
+speedtest.cn##.index-advertising
 speedtest.cn##.shade
 speedtest.cn##.speed-bottom-ads
 speedtest.cn##.speed-top-ads
@@ -24328,6 +24331,7 @@ zztt24.com##.no-mask
 ||abdurantom.com^
 ||abenshishabi.com^
 ||aberr.cn^
+||abgxxc.com^
 ||abh.jp^
 ||abhorboring.com^
 ||abiaobai.cn^$third-party
@@ -28691,6 +28695,7 @@ zztt24.com##.no-mask
 ||ciwhacheho.pro^
 ||cj-cy.com^
 ||cj7g.top^
+||cja-1223.cc^
 ||cjdby.net/Public/home/images/advImg/
 ||cjde.xyz^
 ||cjgcedu.com^
@@ -34434,6 +34439,7 @@ zztt24.com##.no-mask
 ||hqdoor.com/Web/
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
+||hqoqbs.xyz^
 ||hqporn.su/myvids/
 ||hqq.to/js/script-*js
 ||hqqpw.mobi^
@@ -34567,6 +34573,7 @@ zztt24.com##.no-mask
 ||huishij.net^
 ||huishunhang.net^
 ||huitiankuaiji.com^
+||huitoukao.com^
 ||huixiangdou.xyz^
 ||huixianjiaoyuedu.com^
 ||huixiaoqian.com^
@@ -35047,6 +35054,7 @@ zztt24.com##.no-mask
 ||imall.cctv.com^
 ||imall.cntv.cn^
 ||imanhuapi.com/style/js/mpmh.js
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=tarnowska.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|fraudclatterflyingcar.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=videostar.pl|o2.pl|dobreprogramy.pl
@@ -36772,6 +36780,7 @@ zztt24.com##.no-mask
 ||klcylwcgxvepo.xyz^
 ||kld666.com^
 ||kldtmki.cn^
+||klgzjaw.cn^
 ||kliksaya.com^
 ||kliqz.com^
 ||klj4rw.site^
@@ -37029,6 +37038,7 @@ zztt24.com##.no-mask
 ||kxapctq.cn^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
+||kxgo.xyz^
 ||kxizloe.cn^
 ||kxji.com^$third-party
 ||kxla.xyz^
@@ -38936,6 +38946,7 @@ zztt24.com##.no-mask
 ||montkyodo.top^
 ||montlusa.top^
 ||monumentsmaterialeasel.com^
+||monzexn.cn^
 ||moochescramper.com^
 ||mookie1.com^
 ||moolasghazism.guru^
@@ -39696,6 +39707,7 @@ zztt24.com##.no-mask
 ||njupt-sacc.com^
 ||njvfidke.xyz^
 ||njxczy.com^
+||njxjrar.cn^
 ||njxyh66.cn^
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||njygp.cn^
@@ -41934,6 +41946,7 @@ zztt24.com##.no-mask
 ||qhimg.com^$domain=1024pz.com|hero3g.com
 ||qhimgs1.com/t029762bc960d5104ef.jpg
 ||qhimgs4.com/*.gif$domain=hdmoli.com
+||qhimgs4.com/*.gif$domain=www.jiaozi.me
 ||qhimgs4.com/t01d8315ddb1a5adcce.gif
 ||qhip.com^
 ||qhiqgrf.cn^
@@ -43064,6 +43077,7 @@ zztt24.com##.no-mask
 ||runecrispin.com^
 ||runetki.co^
 ||runmang.vip/img/
+||runn.fun^
 ||runningman.site^
 ||runoob.com/images/re/
 ||runsky.com/phpstat/
@@ -44627,6 +44641,7 @@ zztt24.com##.no-mask
 ||static.popads.net/js/trustguard.js$script,redirect=noopjs,important
 ||static.ptoahaistais.com^
 ||static.qksrv.cc^
+||static.rongkao.com^
 ||static.saturndynamic.pt^
 ||static.surfe.pro/js/net.js$script,xmlhttprequest,redirect=nooptext,domain=rlxtech.tech
 ||static.tianyaui.com^*/stat_20080313.js
@@ -47152,6 +47167,7 @@ zztt24.com##.no-mask
 ||vptjabo.cn^
 ||vq7736.com^
 ||vqdjcy.com^
+||vqhifd.xyz^
 ||vqjxlie.cn^
 ||vqlrwgj.cn^
 ||vrank.org/go/adblock_detect$subdocument
@@ -49621,12 +49637,14 @@ zztt24.com##.no-mask
 ||z7yru.com^
 ||zabanit.xyz^
 ||zabanit.xyz^$third-party
+||zabdybod*.club^
 ||zacao.wang^
 ||zadauque.net^
 ||zahl4tf5z.world^
 ||zahl4tf5z.xyz^
 ||zahl4tf5zclub.xyz^
 ||zahl4tf5zs.xyz^
+||zahrvfbd*.xyz^
 ||zahrvfbd.xyz^
 ||zaiaplb.cn^
 ||zaihu99.ltd^
