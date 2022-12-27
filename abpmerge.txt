@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: abpmerge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-27 03:17:00
-! Total count: 50331
+! Version: 2022-12-27 16:19:40
+! Total count: 50342
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6480,6 +6480,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 77mh.cc###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
+789ys.com##h1[style]
 789ys.com,fffdm.com##ul[style]
 78dm.net###qpgg
 78dm.net##.ad_logor
@@ -14585,6 +14586,7 @@ dom.wp.pl,twojeip.wp.pl#$#abort-on-property-read rekid
 dom.wp.pl,wiadomosci.wp.pl,wawalove.wp.pl,turystyka.wp.pl,teleshow.wp.pl,opinie.wp.pl,gwiazdy.wp.pl,ksiazki.wp.pl,film.wp.pl,facet.wp.pl,kobieta.wp.pl,kuchnia.wp.pl,moto.wp.pl,tech.wp.pl,gry.wp.pl,finanse.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
 domahatv.com,piratam.net,piratca.net,sexitorrent.com,sextor.org,xtorrent.net,xxxrip.net,torrent-pirat.com,porn720.biz,pornoakt.vip,pornopuk.com,hentai-share.one,huyamba.tv,xxxtor.com#$#abort-current-inline-script document.querySelectorAll popMagic
 dominus.kiev.ua##body > #myModal
+domp4.cc##h1[style]
 dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
 dongtw.com#@#.post-share-container
@@ -15621,7 +15623,7 @@ gcxa.cn###edu_ad63
 gd163.cn##.bbs_ad
 gd163.cn,itavcn.com,jmnews.com.cn###msg_win
 gdekluet.ru##body > div[class^="stop-block"]
-gdespaces.com,gdespaces.net,spac1.info,spac.me,spac1.com,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs.me,spcs.news,spcs.social,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
+gdespaces.com,gdespaces.net,spac1.info,spac.me,spac1.com,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs.me,spcs.news,spcs.pro,spcs.social,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
 gdmm.com###ad_cover
 gdmm.com###diy3
 gdmm.com###hd > .wp > .module
@@ -17675,7 +17677,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-on-property-read open;override-property-read Math.floor null
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-property-read Math.floor null
 linkneverdie.net$$script[tag-content="DetecAdBlock"][min-length="500"][max-length="3000"]
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
@@ -32759,6 +32761,7 @@ zztt24.com##.no-mask
 ||gbzumh.cn^
 ||gca.sh/static/linkreplacer.js$script,third-party
 ||gccode.gongchang.com^
+||gcihkyd.cn^
 ||gclick.cn^$third-party
 ||gconfirmat.fun^
 ||gcpvkfe.cn^
@@ -33340,6 +33343,7 @@ zztt24.com##.no-mask
 ||gravatkitysol.com^
 ||gravelspell.com^
 ||gravidtrekker.com^
+||gravvxa.cn^
 ||greatappland.com^
 ||greatdexchange.com^
 ||greatdexchange.com^$popup
@@ -33464,6 +33468,7 @@ zztt24.com##.no-mask
 ||gtimg.com/www/mobi/js/app-bar-
 ||gtimg.com^*/ad/
 ||gtimg.com^*/adv/
+||gtlpai.com^
 ||gtoonfd.com^
 ||gtoyouin.biz^
 ||gtpso.com/Home/TopSdk/getFavCoupItems
@@ -34585,6 +34590,7 @@ zztt24.com##.no-mask
 ||huiyutz.cn^
 ||huizai.top^
 ||huizeyoupin.com^
+||huizhoumi.com^
 ||huizu100.com/data/attachment/portal/
 ||hujiang.com/Web/tx.ashx
 ||hujiang.com/ciku/getDetailSoftText/
@@ -34931,6 +34937,7 @@ zztt24.com##.no-mask
 ||ifulidh.*/images/xb.jpg
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||ifvpetu.cn^
+||ifyso.icu^
 ||ig1a.top^
 ||igame2steam.com^
 ||igamepark.biz/ads_output.php
@@ -36221,6 +36228,7 @@ zztt24.com##.no-mask
 ||js0573.com/images/cus/
 ||js1.dadiniu.cn^
 ||js1.haoge500.com^
+||js22f.net^
 ||js6.efyt6.com^
 ||js7k.com^
 ||jsb.qianzhan.com^
@@ -49774,6 +49782,7 @@ zztt24.com##.no-mask
 ||zgktxx.com^
 ||zglww.net/jsnew/pfkf.js
 ||zglzkg.com^
+||zgm1.com^
 ||zgmtw.mobi^
 ||zgnlaigq.fun^
 ||zgnz020.mobi^
@@ -49842,6 +49851,7 @@ zztt24.com##.no-mask
 ||zhenbuka.com/gg/lunbo.js
 ||zhengjie.com/a_d?
 ||zhengshaoze.com^
+||zhengtong.link^
 ||zhengxiaoliu.top^
 ||zhenjiang365.cn/*/ad_
 ||zhenniu.shop^
@@ -50257,6 +50267,7 @@ zztt24.com##.no-mask
 ||zymro.com^
 ||zype.com^$third-party,domain=bossip.com|hiphopwired.com|madamenoire.com
 ||zyqtc.cn^
+||zytsbro.cn^
 ||zywhjd.com^
 ||zyyz.pro^
 ||zyzjpx.cn^
