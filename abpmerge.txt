@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2022-12-30 03:46:53
-! Total count: 50385
+! Version: 2022-12-30 16:18:50
+! Total count: 50398
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5723,6 +5723,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 16888.com##.cardataclass
 168gamer.com,168gamer.net##.b_tad
 16fan.com,jianshen8.com,manwa.life,manwa.site##.index-banner
+16fan.com,jianshen8.com,manwa2.me##.index-banner
 16rd.com###diy_ad_article_right IMG
 16rd.com###diy_bbs_list_right IMG
 16rd.com###quick_pub_form
@@ -9998,6 +9999,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||manhua.weibo.com/adv/
 @@||maniacalappliance.com^$script,xmlhttprequest
 @@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
+@@||manwa.me/static/custom/files/300X250.gif
 @@||manwa.me^
 @@||mapquest.com^$generichide
 @@||maps.2gis.com^$stealth
@@ -11517,6 +11519,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||static.adf.ly/static/image/
 @@||static.adf.ly/static/image/ad*.png$image,third-party
 @@||static.adman.gr^$domain=naftemporiki.gr
+@@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.adsafeprotected.com/iasPET*.js$domain=independent.co.uk
 @@||static.adsafeprotected.com/skeleton.js$domain=cwtv.com
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=forbes.com
@@ -17950,12 +17953,15 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
+manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##DIV.swiper-container.swiper-container-horizontal
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
 manwa1.me,manwa2.me,manwa.me##[style*='15px'][style*='background-color:'][style*='margin: 10px'][style*='margin-top: 14px'][style*='border-radius: 20px'],.fas.fa-times
 manwa1.me,manwa2.me,manwa.me##[style='transform-origin: left top; margin: 0px auto;']
 manwa1.me,manwa2.me,manwa.me##div.ad-area-close
+manwa2.me##.ad-area > a
+manwa2.me#@#.ad-area
 manyak.info$$script[tag-content="[][(![]+[])[+[]]"][min-length="15000"][max-length="25000"]
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
@@ -24606,6 +24612,7 @@ zztt24.com##.no-mask
 ||adbot.tw^
 ||adbottw.net^$third-party
 ||adbox.lv^
+||adbpfnh.cn^
 ||adbrite.com^
 ||adbro.me^
 ||adbuck.cc^$third-party
@@ -27857,6 +27864,7 @@ zztt24.com##.no-mask
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
 ||byxxxporn.com/300x250.html
+||byytogm.cn^
 ||byznb.xyz^
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzhanyy.com^*.gif
@@ -30448,6 +30456,7 @@ zztt24.com##.no-mask
 ||discuss.com.hk/oath/
 ||discuss.com.hk/overture/
 ||discuss.com.hk^*_prod.html
+||discuz.fit^
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||dishesha.net^
 ||dishphysics.com^
@@ -34590,6 +34599,7 @@ zztt24.com##.no-mask
 ||huibaihe.net/js/dddd.js
 ||huibaihe.net/static/730-580.
 ||huichuan.sm.cn^
+||huidaiqing.com^
 ||huifangwen.com^
 ||huigoushop.com^
 ||huigun.top^
@@ -34691,6 +34701,7 @@ zztt24.com##.no-mask
 ||hxdwsfg.cn^
 ||hxiak.com^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
+||hxles.top^
 ||hxnzyy.com^
 ||hxoewq.com^
 ||hxqu.com^$third-party
@@ -37380,6 +37391,7 @@ zztt24.com##.no-mask
 ||leoyard.com^
 ||leparisien.fr/espace-securise/shield/read-article/*?fingerprint=
 ||lephaush.net^
+||lepjrh.xyz^
 ||lequipe.fr/v6/js/popinVideo.js$script
 ||lesbian8.com/*/frot_lod.js
 ||lesbian8.com/frd5/s/s/sum.php
@@ -38316,10 +38328,10 @@ zztt24.com##.no-mask
 ||mantisadnetwork.com/mantodea.min.js
 ||manualcasketlousy.com^
 ||manwa.fun/static/upload/ads/$image,redirect=1x1.gif,important
-||manwa.life/static/upload/ads/$image,redirect=1x1.gif,~third-party
 ||manwa.life/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
-||manwa.site/static/upload/ads/$image,redirect=1x1.gif,~third-party
+||manwa.me/static/custom/files/300X250.gif$image,redirect=1x1.gif,important
 ||manwa.site/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
+||manwa2.me/static/custom/files/300X250.$image,redirect=1x1.gif,~third-party
 ||manytoon.com/script/$script
 ||mao1.jsnovel.com^
 ||maobujie.com^
@@ -46130,6 +46142,7 @@ zztt24.com##.no-mask
 ||ttbc33.com^
 ||ttbm.com^
 ||ttdds.top^
+||ttfkof.xyz^
 ||ttgmjfgldgv9ed10.com^
 ||tthefireanddrs.work^
 ||ttigacl.com^
