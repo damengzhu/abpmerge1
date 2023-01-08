@@ -2997,11 +2997,11 @@
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
-939394.xyz##DIV[style*="position: fixed;"]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 939394.xyz##div[id^="left_layer"]
+939394.xyz##div[style*="position: fixed;"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
@@ -4418,6 +4418,14 @@ chyangwa.net,motorfans.com.cn##img[width^="1200"]
 chysg.com##img[width="232"][height="90"]
 ci123.com###fixed-recom
 ci123.com##div[onclick^="window.location="]
+cibaipuki.com##A[href^='/article-list-id'][target='_blank']
+cibaipuki.com##DIV.box.width-full:has([href*=":"])
+cibaipuki.com##DIV.table2
+cibaipuki.com##DIV.titletablerow:has([href*=":"])
+cibaipuki.com##DIV.topnotice a:not([href='http://7a7c.com'])
+cibaipuki.com##IMG[border='0'][width='100%']
+cibaipuki.com##SECTION[id^='download_']
+cibaipuki.com##[href*=":"]
 cilil.cn,magnet2048.com##.hotwords
 cilimao.co,cilimao.one##div[class^="FixBanner"]
 cima-club.cam#$#abort-on-property-read window.zfgstorage
@@ -8528,6 +8536,7 @@ mobanwang.com##.box960x90
 mobanwang.com##.g960
 mobanwang.com##.teagg
 mobile.baidu.com##.p_fixed_lb
+mobile.baidu.com##SECTION.detail-banner.banner-ck
 mobile01.com###_popIn_recommend_side
 mobile01.com###ad-control
 mobile01.com###show-play-ad
