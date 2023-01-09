@@ -1047,7 +1047,6 @@
 ##.widget_ads
 ##.widget_adsensem
 ##.widget_advert
-##.widget_image_ad
 ##.widget_ui_asb
 ##.widget_ui_aub
 ##.widget_ui_textasb
@@ -1060,7 +1059,6 @@
 ##.wp.a_h
 ##.wp_adblock_detect
 ##.wp_headline + .ad1
-##.wpcom_ad_wrap
 ##.wrap + #btmBox
 ##.wrap + #midBox
 ##.wrap.mt10.clearfix > .box.top_box
@@ -1068,6 +1066,7 @@
 ##.wrapper > a[target="_blank"] > .ads
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
+##.wwads-cn
 ##.wzad
 ##.xstui-content__acc
 ##.xzbox-gh
@@ -2999,13 +2998,15 @@
 9312.net##.pop-up
 939394.xyz##.j_r_w
 939394.xyz##.j_r_w + a
-939394.xyz##IMG[src^="/"]
+939394.xyz##A[href*="base."]
+939394.xyz##IMG[src^="\\"]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 939394.xyz##div[id^="left_layer"]
 939394.xyz##div[style*="position: fixed;"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
+939394.xyz##img[src^="/"]
 939394.xyz#?#a:-abp-has(img[src*=".alicdn."])
 939394.xyz#?#a:-abp-has(img[src*="/ddimg/"])
 94itv.app##a[href="https://leo535.com/"]
@@ -3264,7 +3265,7 @@ angelweb.cn##table[height="250"]
 anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anibatch.net##.su-box.su-box-style-default
-anidub.vip,anidubonline.com,tr.anidub.com#$#prevent-listener click window.open; abort-on-property-read brblob
+anidub.vip,anidubonline.com#$#prevent-listener click window.open; abort-on-property-read brblob
 anifap.com,anitokyo.tv,hcdn.online,kinofilm.co,anipoisk.org#$#abort-on-property-read ClickUndercookie
 anime-bit.ru##.layer_box > #header
 anime-shinden.info#@##ads_video
@@ -6634,6 +6635,7 @@ home.ifeng.com##.fengjc02
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-child
 honglingjin.co.uk##.rs-side-ads
 honglingjin.co.uk##.rsads
+hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party#@##adsense
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party,zhuihd.com#@##adsense
 hornmatters.com#@#.footer_ad
 horo.mail.ru,pogoda.mail.ru,tv.mail.ru#$#abort-on-property-read MrgContext
@@ -7099,6 +7101,8 @@ ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 iphones.ru##DIV[style="background-color: rgb(222, 71, 0); margin-bottom: 20px; padding: 60px 0px;"]
 iphonesoft.fr,iphonetweak.fr###msgUser
 ipip.net##.row[style="width:1000px;margin:0px auto 25px auto;"]
+iplaysoft.com###link1111
+iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 iplaysoft.com##.crumb_ad
 iplaysoft.com##.d250x90
 iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
@@ -10401,7 +10405,9 @@ sohu.com##.godR
 sohu.com##.hot-article > div.pic-txt[data-spm-content*="_saletype="]
 sohu.com##.left-bottom-float
 sohu.com##.lottery-box
+sohu.com##.sidebar.right > div.extend-mod
 sohu.com##.sogouService
+sohu.com##.wrapper-box > div.god_header
 sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
@@ -10419,6 +10425,7 @@ sohu.com##a[href*="_Click_Flow_recommend_"]
 sohu.com##a[href^="https://m.sohu.com/promotion?"]
 sohu.com##div.cbd-plate-bill.common-ad
 sohu.com##div[data-spm-content="promotion"]
+sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
 sohu.com#@#.label-ad
 sojson.com##.banner1
 sojson.com##.fly-hezuo
@@ -12040,8 +12047,6 @@ zhoushan.cn###Headtop
 zhuankebar.com###article-cnt > a
 zhufaner.com###dist_footer
 zhufaner.com##.book
-zhujiboke.com##.cjtz-border
-zhujiboke.com##.posts-top-cjtz
 zhujiceping.com###footer-widget-box
 zhujiceping.com###text-12
 zhujiceping.com##aside[id^="custom_html-"]
@@ -12053,7 +12058,6 @@ zimuku.org###rbad
 zimushe.com###rightFixed
 ziqiangxuetang.com###tutorial_btm
 ziqiangxuetang.com##a[href="/j/coding/"]
-ziyuanwu.com###modules-17
 ziyuanyo.com##.index-ad-text
 zj.com##.adnav
 zj.com##.adnav2
@@ -12132,6 +12136,8 @@ zzbaike.com###topnav
 zzbaike.com###topnav + div[style]
 zzbaike.com##.imglistbg-ad
 zzbaike.com##.imglistbg_ad
+zzbaike.com##.left > .bottom[style]
+zzbaike.com##.link2
 zzkdhb.com##li[style*="important;"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn##.ad:not([style])
