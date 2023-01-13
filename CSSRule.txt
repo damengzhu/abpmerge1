@@ -1642,7 +1642,6 @@
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 ##div.container > div.row div.yalayi_box
 ##div.container > div.t-img-box > A[href][target='_blank']
-##div.container a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
@@ -2999,6 +2998,8 @@
 9312.net##.pop-up
 939394.xyz##.j_r_w
 939394.xyz##.j_r_w + a
+939394.xyz##.wrap.mb8.mt5 + DIV[class]:not(.outer)
+939394.xyz##A[style="display: block;"]
 939394.xyz##a[href*="base."]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
@@ -7606,13 +7607,13 @@ jq-school.com##div[style="width:1060px; height:auto; margin:0 auto;overflow:hidd
 jq.131458.com##.soso_02
 jq22.com##.fdad
 jqzb.com.cn##.zk_xf
-jrfz.xyz###hd + .wp
-jrfz.xyz##a[href^="ad."]
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
 jrj.com.cn##.jrj-ad
 jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
+jrlt1.xyz###hd + .wp
+jrlt1.xyz##a[href^="ad."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 js0573.com###adv1
 js0573.com###adv2
@@ -8253,6 +8254,8 @@ m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.qidian.com###fixBoxs, #read_app_download
+m.qidian.com##A.catalog-download
+m.qidian.com##I.icon-logo
 m.qu.la#?#:-abp-has(> a[href*=".bcebos."])
 m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
 m.so.com##.e_idea_list
