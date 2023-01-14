@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-14 01:55:12
-! Total count: 49954
+! Version: 2023-01-14 08:10:42
+! Total count: 49964
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1650,6 +1650,7 @@
 ##div.container > div.t-img-box > A[href][target='_blank']
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.main div.content div[id].is_mb a[id] img[id]
+##div.padding-0 > A[href][target='_blank']
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
@@ -6580,9 +6581,10 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
+939394.xyz##.allBg > DIV[style="display: block;"]
 939394.xyz##.j_r_w
 939394.xyz##.j_r_w + a
-939394.xyz##.wrap.mb8.mt5 + div[class]:not(.outer)
+939394.xyz##.wrap.mb8.mt5 ~ DIV[class]:not(.outer)
 939394.xyz##a[href*="base."]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
@@ -21337,6 +21339,7 @@ www.playno1.com##.eis_box_s
 www.qq.com##div[class^="adRight"]
 www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
+www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]; hide-if-matches-xpath './/a[@href][text()]/ancestor::div[@class][1]/parent::div[@class][@style]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'
@@ -26375,6 +26378,7 @@ zzzyk.com###Tinfo
 ||awvnhoa.com^
 ||awxczujifw.com^
 ||awyys.com^
+||awyyzx.com^
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
@@ -34451,6 +34455,7 @@ zzzyk.com###Tinfo
 ||huihemou.com^
 ||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
 ||huijiamei.cn^
+||huikouhuo.com^
 ||huilianji.com^
 ||huimee.com^$third-party
 ||huimee.net^
@@ -38429,6 +38434,7 @@ zzzyk.com###Tinfo
 ||mfav88.com/yinzi/
 ||mfcewkrob.com^
 ||mfe.paqpq.com^
+||mffdn.xyz^
 ||mfk-cpm.com^
 ||mfr.cdn.dopc.cz^$script,domain=www.idnes.cz|expres.cz
 ||mfxyqh.cn^
@@ -39682,6 +39688,7 @@ zzzyk.com###Tinfo
 ||nudepatch.net/dynbak.min.js
 ||nudepatch.net/edaea0fd3b2c.js
 ||nudography.com/photos/banners/
+||nudpqt.com^
 ||nuevonoelmid.com^
 ||nuggetschou.com^
 ||nuheoub.cn^
@@ -42104,6 +42111,7 @@ zzzyk.com###Tinfo
 ||qz828.com/css/2010/script/*ad
 ||qzbxfs.com^
 ||qzda.cc^
+||qzeqjvo.cn^
 ||qzlkqsl.cn^
 ||qzngisyy.xyz^
 ||qzone.la/Scripts/m.js
@@ -48051,6 +48059,7 @@ zzzyk.com###Tinfo
 ||xgsx.club^
 ||xgvfkge.cn^
 ||xgzdys.com^
+||xh33g.net^
 ||xhandfuk.com^
 ||xhd.cn/topic/leyu-piaofu/
 ||xheqbc.cn^
@@ -48217,6 +48226,7 @@ zzzyk.com###Tinfo
 ||xjfyx.com^
 ||xjhjtz.cn^
 ||xjjkxcg.cn^
+||xjpphoto.com^
 ||xjrvwz.com^
 ||xjsq.xyz^
 ||xjwrq.com^
