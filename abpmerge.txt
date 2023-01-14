@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-14 08:10:42
-! Total count: 49964
+! Version: 2023-01-14 16:10:25
+! Total count: 49973
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1081,6 +1081,7 @@
 ##.zozoads
 ##A#mhbottom_ad_img,[href='https://ys.44766.cc/m/download'][style*='/adcarsku/sku'],[src*='/adcarsku/sku']
 ##A[href*=".com/?Agent="]
+##A[href*="/k023055.com"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href="http://goo.gl/jQ9bcz"]
@@ -7774,7 +7775,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||bdcraft.net/download/?$content
 @@||bdfrm.bidvertiser.com/BidVertiser.dbm$subdocument,domain=exrapidleech.info
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|1biqug.com|23xstxt.net|24kwx.cc|52biquge.com|abcxs.net|b520.cc|b5200.net|biqiuge8.cc|biqiugexsw.com|biquge99.cc|biqugecd.com|biqugeq.com|biqugesk.org|biqugewu.net|biqulu.net|biquw.com|bixia.org|boquku.com|bqg999.net|bqkan8.com|bqwxg8.com|cascoo.net|cits0871.com|ddbqgtxt.cc|exiaoshuo.com|gdbzkz.com|ggkxs.com|huanyue123.com|huixsw.com|ishuquge.com|janpn.com|jx.la|lindiankanshu.cc|lingdianxs.net|mxguan5.com|paoshu8.com|piaotian5.net|qbiqu.com|qianqianxsw.net|qianrenge.cc|quge66.com|shuyy8.com|sytxt.cc|taiuu.com|ttzw.tv|txtwan.com|u33.me|viviyzw.com|x23us.me|xbiqugecc.com|xiaoshuwu5.com|xinxs.la|xmalshenzu.com|xqianqian.com|xxbiqudu.com|xxqb5200.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com|zbzw.la
+@@||bdimg.com/libs/$domain=bxwx.tw|00ksw.com|147xiaoshuo.com|1biqug.com|23xstxt.net|24kwx.cc|52biquge.com|abcxs.net|b520.cc|b5200.net|biqiuge8.cc|biqiugexsw.com|biquge99.cc|biqugecd.com|biqugeq.com|biqugesk.org|biqugewu.net|biqulu.net|biquw.com|bixia.org|boquku.com|bqg999.net|bqkan8.com|bqwxg8.com|cascoo.net|cits0871.com|ddbqgtxt.cc|exiaoshuo.com|gdbzkz.com|ggkxs.com|huanyue123.com|huixsw.com|ishuquge.com|janpn.com|jx.la|lindiankanshu.cc|lingdianxs.net|mxguan5.com|paoshu8.com|piaotian5.net|qbiqu.com|qianqianxsw.net|qianrenge.cc|quge66.com|shuyy8.com|sytxt.cc|taiuu.com|ttzw.tv|txtwan.com|u33.me|viviyzw.com|x23us.me|xbiqugecc.com|xiaoshuwu5.com|xinxs.la|xmalshenzu.com|xqianqian.com|xxbiqudu.com|xxqb5200.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com|zbzw.la
 @@||bdimg.com/libs/$domain=dybee.tv
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
@@ -8068,7 +8069,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.stat-rock.com/player/*player.js$domain=4shared.com
 @@||cdn.statically.io/img^$stealth
-@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
+@@||cdn.staticfile.org^$script,domain=bxwx.tw|00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.taboola.com/magazine/$domain=taboolanews.com
 @@||cdn.turner.com/*.swf
@@ -31077,6 +31078,7 @@ zzzyk.com###Tinfo
 ||e706.net^
 ||e708.net^
 ||e7ckr.icu^
+||e8jp9.com^
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||ea0jlu8jie.cn^
@@ -31924,6 +31926,7 @@ zzzyk.com###Tinfo
 ||fde1403147.com^
 ||fdelphaswcealifornica.com^
 ||fdfghgfdd.yunqishi.net^
+||fds-1230.cc^
 ||fdsousf.cn^
 ||fdveqpc.cn^
 ||fdxpfeb.cn^
@@ -37606,6 +37609,7 @@ zzzyk.com###Tinfo
 ||logoquan.com/upload/prd/
 ||logs.amap.com^
 ||logystowtencon.info^
+||loispp.com^
 ||loldyttw.com/blr.js
 ||loldyttw.com/skin/lol/js/ds.js
 ||loli.io^$domain=kisssub.org
@@ -41919,6 +41923,7 @@ zzzyk.com###Tinfo
 ||qpb.sohu.com^
 ||qpb0.sohu.com^
 ||qpgyy.com/add01.html
+||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qpmue.xyz^
@@ -41992,6 +41997,7 @@ zzzyk.com###Tinfo
 ||qsdsejarkznkqa.com^
 ||qsearch-a.akamaihd.net^
 ||qservz.com^
+||qsezjy.cn^
 ||qshxc.com^
 ||qsixi.com^
 ||qsj8fd.com^
@@ -47124,6 +47130,7 @@ zzzyk.com###Tinfo
 ||wcnmd.top^
 ||wct.link^
 ||wctcudh.cn^
+||wdasa.top^
 ||wdbtiwn.cn^
 ||wdfhbx.zdpeanut.com^
 ||wdjptto.cn^
@@ -47443,6 +47450,7 @@ zzzyk.com###Tinfo
 ||wjdmprn.cn^
 ||wjikxopltjp.xyz^
 ||wjjhzs.cn^
+||wjl58.icu^
 ||wjlzs.cn^
 ||wjr9.cn^
 ||wjslw.mobi^
@@ -47669,6 +47677,7 @@ zzzyk.com###Tinfo
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
 ||wugabts.com^
+||wuge20230104.live^
 ||wuhaolin.cn/c/ls
 ||wujinzy.com/images/ok.gif
 ||wujiupic.com^
