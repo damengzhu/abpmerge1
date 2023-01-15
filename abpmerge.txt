@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-15 08:10:45
-! Total count: 49989
+! Version: 2023-01-15 16:10:27
+! Total count: 49995
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1096,6 +1096,8 @@
 ##A[href^="http://www.yourfilezone.com/play?lng="]
 ##A[href^="https://action.metaffiliation.com/trk.php?"]
 ##A[href^='http'][style^='display:block;left:0;right:0;position:fixed;border-left:']
+##A[href^='http://h5.shangjinssp.com/sjprom'][style='display:block;']
+##A[href^='https://chmjmff.com/']
 ##A[href^='https://d1-dm.online/go/']
 ##A[href^='https://tv2356.cc']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
@@ -1649,6 +1651,7 @@
 ##div.ad-frame-container
 ##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
+##div.container > IFRAME[align][width][src][border][height]
 ##div.container > div.row div.yalayi_box
 ##div.container > div.t-img-box > A[href][target='_blank']
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
@@ -14412,7 +14415,7 @@ dalipan.com##.hongbao-wrap
 dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-cdn\d+/)
+dandanzan.com,dandanzan10.top,nunuyy5.org##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
@@ -18219,6 +18222,7 @@ moe.best##.alert
 moe.best##.markdown-body + div[style="text-align:center;margin-top:40px"]
 moe.gov.cn,qspfw.com#@#.ad_title
 moeci.com##+js(no-setTimeout-if, _0x)
+moegirl.org.cn##.moe-card[region="oversea"]
 moerats.com##div[style="box-shadow: 1px 1px 5px 5px rgba(17, 150, 196, 0.35);border-radius: 15px;"]
 mojevideo.sk#@##video_ad
 molure.cn##.adplan
@@ -32266,6 +32270,7 @@ zzzyk.com###Tinfo
 ||forecastsinglegait.com^
 ||foremedia.net^$third-party
 ||forestseasons.com.cn^
+||forestwo1f.ltd^
 ||foreverhealthsculptor.com^
 ||foreveryoung.gz01.bdysite.com^
 ||forex.com.cn/index.php/Invoking/tanchukuang
@@ -37548,6 +37553,7 @@ zzzyk.com###Tinfo
 ||lmp3.org^
 ||lmp3.org^$popup
 ||lmxxxz.com^
+||lmxzlb.xyz^
 ||lnbswijsipf.com^
 ||lnd.com.cn/sys/real_calc.js
 ||lndayp.com/4567/
