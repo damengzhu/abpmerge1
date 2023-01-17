@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-16 16:11:52
-! Total count: 50012
+! Version: 2023-01-17 08:11:51
+! Total count: 50030
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1080,7 +1080,6 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
-##A#mhbottom_ad_img,[href='https://ys.44766.cc/m/download'][style*='/adcarsku/sku'],[src*='/adcarsku/sku']
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
@@ -1105,6 +1104,7 @@
 ##A[target='_blank'][href*='/auth/register?code=']
 ##DIV#ad-index.col-12.position-relative
 ##DIV#bl_mobile_float
+##DIV#mhbottom_ad_box
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
@@ -13514,8 +13514,10 @@ bkjia.com,zol.com.cn##.hot_tj
 blablastream.rip,frstream.rip,nusaslots.one,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 blackdesert-info.ru##div[class][style*="z-index"][style*="999999;"][style*="background"][style*="rgb"]
 bleachmx.co#@##adsense
+blesk.cz###px-wallwrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
 blesk.cz##.gam-wrapper
+blesk.cz##article[data-track-element-id*="prPremium"]
 blisseyhusband.in,freecoursesite.com,novelmultiverse.com$$script[wildcard="*var *""slice""*return decodeURIComponent*"]
 bljiex.com###player_pause
 blog.163.com###blog-163-com-toptips
@@ -17174,6 +17176,7 @@ jisuxz.com##.dl_gaosu
 jitashe.org##.bc_side_250
 jitashe.org,mumujita.com##a[href*=".makeding.com/"]
 jiumodiary.com###forum-panel
+jiuse390.xyz##.container-fluid.p-0[class*="mb-"]
 jiyingdm.com###otherWindowBox
 jiyingdm.com##.abcde
 jiyingw.vip##.textwidget > p > a > img
@@ -18629,12 +18632,12 @@ novinky.cz##article[class$="advert-item--default"]
 novinky.cz##article[data-dot^="advert-item"]
 novinky.cz##div[class*="advert-static"]
 novinky.cz##div[class*="banner-ad"]
-novinky.cz##div[class^="g_cW"] > div
 novinky.cz##div[style^="background-Image:"], [style^="bACkgrOund-imAge:"]
 novinky.cz##section[role^="complementary"]
 novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'
 novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
 novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
+novinky.cz#$#hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'
 novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
 novinky.cz,kupi.cz,sport.cz,super.cz###sf0
 novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
@@ -18681,6 +18684,7 @@ novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[frameporder]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[hehehe="no"][scrolling="no"][style*="display: block;"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##iframe[ramefamorderx]
 novinky.cz,seznamzpravy.cz,sport.cz##div[data-adtrackingtemporaryurl]
+novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
 novinky.cz,sport.cz,super.cz##[class$="_main__ad"]
 novinky.cz,super.cz,sport.cz##[class*="ClickThrough"]
 novinky.cz,super.cz,sport.cz,expres.cz##.barMan
@@ -19775,16 +19779,16 @@ sex8.cc##.gd-list
 sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
 sexphimhd.net,gvnvh18.com,g18vn.com,vlxxs.net#$#abort-current-inline-script Math
-seznamzpravy.cz##[class^="drtg"]
+seznam.cz#$#hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/a[@href][text()]/ancestor::div[@class][1]/parent::div[@class][@style]'; hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]'
 seznamzpravy.cz##[class^="dynamic_banner"]
-seznamzpravy.cz##div[class^="d_bh"] > div
-seznamzpravy.cz##div[class^="mol-timeline-advert"]
+seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
 seznamzpravy.cz#$#abort-on-property-write sznIVA
 seznamzpravy.cz#$#hide-if-contains-visible-text /Rek̃lama/ 'div[class*="g_bd"]'
 seznamzpravy.cz#$#override-property-read Object.prototype.aabPagePostMessageType false
 seznamzpravy.cz#$#override-property-read Object.prototype.antiAdblock.postMessageSentinel null
 seznamzpravy.cz#$#prevent-listener message window.top
+seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-advert"]'
 seznamzpravy.cz/*cmp*$script
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
 seznamzpravy.cz/*ssp.js
@@ -20201,7 +20205,6 @@ sport.cz###adSklikUnderArticle
 sport.cz##.combi_text__ad
 sport.cz##div#page > .combi
 sport.cz##div[class*="ogm-advert-static"]
-sport.cz##div[class^="d_c9"]
 sport.cz##iframe[frameborder][scrolling][src^="https://www.sport.cz/"]
 sport.cz##li[class$="ogm-timeline-advert"]
 sportowefakty.wp.pl#$#hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'
@@ -20314,7 +20317,11 @@ sunnylife.tw##.post-entry > div[style="min-width: 300px; min-height:300px;"]
 sunofbeach.net##div[id$="-ad"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
+super.cz##.sklikReklama
+super.cz##div[class*="color-0"]
+super.cz##div[id*="superPrclanek-"][class$="timeline-content"]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
+super.cz##img[id^="rs-bg-img"]
 super.cz#$#override-property-read sspPositions null
 super.cz$$script[tag-content=" if (adbCookie == "]
 super.cz$$script[tag-content="adCommercialBackground"]
@@ -21314,6 +21321,7 @@ www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type div>svg' '/./' '/(margin-right: -[3-5][0-9].*width: 10)|(margin-right: -[4-6][0-9].*width: 11)|(margin-right: -[5-7][0-9].*width: 12)|(margin-right: -[6-8][0-9].*width: 13)/'
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type div>svg' '/./' '/(width: [4-6])/'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads") or contains(@href,"socialads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[@aria-labelledby][@role="button"]/ancestor::div[@role="article"]';
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
@@ -21353,7 +21361,6 @@ www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz#$#cookie-remover adform
-www.seznam.cz#$#hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]; hide-if-matches-xpath './/a[@href][text()]/ancestor::div[@class][1]/parent::div[@class][@style]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'
 www.seznamc.cz#$#cookie-remover pubmatic
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
@@ -21608,6 +21615,7 @@ yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
 ygdy8.cc##.container > a[href^="/"]
 ygdy8.cc##body > a[href^="/"]
+yhdmp.net##[style^='bottom:'][style$='block;']
 yibian.hopto.org###no-adblock-box
 yicai.com##.dfb-ad
 yicai.com##.gg_loadpage
@@ -26180,6 +26188,7 @@ zzzyk.com###Tinfo
 ||asunbc.cn^
 ||asuntiljusttyere.xyz^
 ||aswaystumbly.com^
+||aswtai.xyz^
 ||asycxtz.cn^
 ||asyndiesserged.xyz^
 ||asyy6.com/dm/
@@ -33888,6 +33897,7 @@ zzzyk.com###Tinfo
 ||helilong.xyz^
 ||hello-jm.com/foot.js
 ||helloavgirls.com/public/hg/
+||hellobody.online^
 ||helloc.xyz^
 ||hellocdn.top^
 ||hellocenter.xyz^*.mp4$redirect=noop-1s.mp4,domain=localmv1.com,media
@@ -37845,6 +37855,7 @@ zzzyk.com###Tinfo
 ||lwgadm.com^
 ||lwhqa.xyz^
 ||lwjvyd.com^
+||lwlqsgr.cn^
 ||lwlscy.com^
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js
@@ -38596,6 +38607,7 @@ zzzyk.com###Tinfo
 ||miraclejay.work^
 ||miracslubs.com^
 ||mirishkeeps.com^
+||misadw1.cn^
 ||misafnix.space^
 ||misbornsubitem.space^
 ||missav.com/static/img/partners/
@@ -39752,6 +39764,7 @@ zzzyk.com###Tinfo
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
 ||nwogldc.top^
+||nwrazu.cn^
 ||nwxs5.com/js/
 ||nxdfg.xyz^
 ||nxflv.com/nxflv.js
@@ -45157,6 +45170,7 @@ zzzyk.com###Tinfo
 ||tgfyq.cn^
 ||tgnlaigi.fun^
 ||tgpsew.com^
+||tgryfh.xyz^
 ||tguungdbocevnh.xyz^
 ||tgvtlpi.cn^
 ||th-make.com^
@@ -48543,6 +48557,7 @@ zzzyk.com###Tinfo
 ||xxba.cc^
 ||xxbughz.cn^
 ||xxccdshj.com^
+||xxczdfb.cn^
 ||xxdm.in/js/union/
 ||xxdongfa.com^
 ||xxffo.com^*_slett.php
@@ -49754,6 +49769,7 @@ zzzyk.com###Tinfo
 ||zn46.com/images/*0x
 ||zndsssp.dangbei.net^
 ||znfg6677.top^
+||znktkt.cn^
 ||znnhmzumod.com^
 ||znqip.net^
 ||zo6g.top^
@@ -49792,6 +49808,7 @@ zzzyk.com###Tinfo
 ||zoujitea.hk^
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouloafi.net^
+||zoute.cyou^
 ||zoutubephaid.com^
 ||zouxinyan.xyz^
 ||zovgdpj.cn^
@@ -49829,6 +49846,7 @@ zzzyk.com###Tinfo
 ||zsgwed.cn^
 ||zsjjob.com/user/member/google.htm
 ||zsjxwj.com^
+||zsjyuet.cn^
 ||zsmyzg.cn^
 ||zsnews.cn/js/adControl-
 ||zsnignsq.xyz^
