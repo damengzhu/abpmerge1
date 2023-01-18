@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-18 08:11:47
-! Total count: 50055
+! Version: 2023-01-18 16:12:08
+! Total count: 50060
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2140,6 +2140,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
+.cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 .cz/*/area=adblock$script,popup,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -6579,8 +6580,8 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 91p20.space
 91porn.com##.preroll-blocker
 91porn.com##iframe[src$="/fans/ad.php"]
-91porny.com,jiuse205.com,jstv7.cc##.container-fluid.p-0[class*="mb-"]
-91porny.com,jiuse205.com,jstv7.cc##.jsv-g1
+91porny.com,jiuse205.com,jiuse390.xyz##.container-fluid.p-0[class*="mb-"]
+91porny.com,jiuse205.com,jiuse390.xyz##.jsv-g1
 91rb99.com##.top
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
@@ -33653,6 +33654,7 @@ zzzyk.com###Tinfo
 ||handbagcordial.com^
 ||handsomelyhealth.com^$third-party
 ||handy-tab.com^
+||hangchen.icu^
 ||hangersbozal.com^
 ||hangfly.net^
 ||hangoutairbags.com^
@@ -39765,6 +39767,7 @@ zzzyk.com###Tinfo
 ||nuqqcgb.cn^
 ||nuslzkb.cn^
 ||nutaku.net^
+||nuyqiolnc.cyou^
 ||nv43.com^
 ||nvdst.com/templates/base_master/js/jquery.shows.min.js
 ||nvdst.com/templates/frontend/white/js/_pnuvid.js
@@ -49293,6 +49296,7 @@ zzzyk.com###Tinfo
 ||yuqingby.fun^
 ||yuquad.com^
 ||yuretb.site^
+||yuske2.xyz^
 ||yusnw.cc^
 ||yuvvddt.cn^
 ||yvajogj.cn^
@@ -49632,6 +49636,7 @@ zzzyk.com###Tinfo
 ||zhihui.ink^
 ||zhihuichuxing.pw^
 ||zhihuizeyuan.com^
+||zhijiangweidu.top^
 ||zhilii.com^
 ||zhimengweike.com^
 ||zhimg.com^*_600x250
