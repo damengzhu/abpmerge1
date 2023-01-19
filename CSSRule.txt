@@ -193,6 +193,7 @@
 ###eis_pad1
 ###eis_pad2
 ###everydayadv_mask
+###fc_foot > #f_skyf
 ###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
 ###fk_faiVisitStateAd
 ###flashad
@@ -867,6 +868,7 @@
 ##.lyad
 ##.lyzm-prevent
 ##.m1938-container
+##.m_acmsd
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
@@ -3404,8 +3406,6 @@ atyun.com##.coupletbox
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audiofanzine.com#$#abort-on-property-read TextDecoder; abort-on-property-read require; abort-current-inline-script _audiofanzineProductStack
 audiofanzine.com#$#hide-if-matches-xpath './/img[contains(@src,"/advert/label-ad-")]/parent::div[1]'
-aupetitparieur.com,meilleurpronostic.fr##aside[class] > span[class*="mdeyheadline-"]
-aupetitparieur.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id][role]
 aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
@@ -3846,8 +3846,6 @@ beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
 beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,dailylol.com,designbump.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
 bejson.com##.alert-dismissable
@@ -4868,7 +4866,6 @@ dahe.cn###adsg
 dailiantong.com##.appDwn
 dailybitcoins.org#@#.ad-img
 dailydoge.org#@#.adsbygoogle
-dailylol.com,procoinnews.com##div[class] > div[id] > div[class][id][role]
 dailymail.co.uk###billBoard
 dailymail.co.uk###js-sky-left
 dailymail.co.uk###js-sky-right
@@ -5638,7 +5635,7 @@ fastadmin.net##a[href^="https://www.fastadmin.net/go/"]
 fastadmin.net##body > a[target="_blank"]
 fastconverter.net#$#abort-on-property-read afScript
 fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
-fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; abort-current-inline-script Math.floor ExoLoader;
+fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; prevent-listener /click|load/ popMagic; prevent-listener getexoloader;
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
@@ -7120,7 +7117,6 @@ instrument.com.cn,tool.lu##.swiper-container
 internet-law.ru###fab-enabled
 inwestycje.pl###show-message
 ip.cn##.well > p > a
-ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
@@ -8122,7 +8118,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-property-read Math.floor null
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
 linovelib.com#$##byspider { display: none !important; }
@@ -8170,7 +8166,7 @@ longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 lostfilm.tv##div[class^="alarm"]
 loveshang.com##div[class^="float-ad-"]
-lphim.net,subnhanhz.net,iphimchillzz.net,phimmoikf.com#$#abort-on-property-read localStorage
+lphim.net,subnhanhz.tv,subnhanh.cc,iphimchillzz.net,phimmoikf.com#$#abort-on-property-read localStorage
 lqz.cn###ad_index
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
@@ -9503,8 +9499,6 @@ popbee.com##.adblocker
 popeoftheplayers.eu###html4
 popeoftheplayers.eu###mask1
 popo.tw#@#.header_ad
-populistpress.com##div[id^="secondary-sidebar"] > article[class]
-populistpress.com##li[id^="main_feed_post_"] > article[class]
 poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 porn-blog.me###dbx_light
 porn00.org#$#abort-current-inline-script popup_url
@@ -10739,8 +10733,6 @@ teledeporteonline.pw###divPanel
 teledeporteonline.pw##[id^="total"]
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telesputnik.ru##.adbPopup
-telexplorer.com.ar##aside[class] > span[class*="mdeyheadline-"]
-telexplorer.com.ar##div[class] > div[id] > main[class][id][role]
 tgbus.com###guide-download
 tgbus.com###neck_970
 tgfcer.com##.ad_headerbanner

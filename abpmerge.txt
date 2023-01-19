@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-19 08:11:57
-! Total count: 50073
+! Version: 2023-01-19 16:12:18
+! Total count: 50069
 
 ###AdBlockDialog
 ###Ad_windows
@@ -199,6 +199,7 @@
 ###eis_pad1
 ###eis_pad2
 ###everydayadv_mask
+###fc_foot > #f_skyf
 ###fixed-bottom-modal[style^="right:"][style$="px; display: block;"]
 ###fk_faiVisitStateAd
 ###flashad
@@ -873,6 +874,7 @@
 ##.lyad
 ##.lyzm-prevent
 ##.m1938-container
+##.m_acmsd
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
@@ -1953,7 +1955,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 -banner-ad.
 -banner-ad_
 -banner-ads-$~script
--bobnotime-$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com
 -bobo_recommend_
 -content-ad-
 -contrib-ads.$~stylesheet
@@ -10966,7 +10967,13 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||razem.tv/Scripts/InsysPlayer.v0.1.0/adTest.png$image,domain=razem.tv
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
+@@||rddywd.com/adcode.png^$image,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
+@@||rddywd.com/adcode.png^$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
+@@||rddywd.com/adcode.png^$image,domain=telexplorer.com.ar
 @@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
+@@||rddywd.com/advertising.js^$script,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
+@@||rddywd.com/advertising.js^$script,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
+@@||rddywd.com/advertising.js^$script,domain=telexplorer.com.ar
 @@||read.amazon.*/ads-prebid.js
 @@||readgoldfish.com^$script,xmlhttprequest
 @@||readingguilt.com^$script,xmlhttprequest
@@ -12916,8 +12923,6 @@ atyun.com##.coupletbox
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audiofanzine.com#$#abort-on-property-read TextDecoder; abort-on-property-read require; abort-current-inline-script _audiofanzineProductStack
 audiofanzine.com#$#hide-if-matches-xpath './/img[contains(@src,"/advert/label-ad-")]/parent::div[1]'
-aupetitparieur.com,meilleurpronostic.fr##aside[class] > span[class*="mdeyheadline-"]
-aupetitparieur.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id][role]
 aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
@@ -13361,8 +13366,6 @@ beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
 beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,dailylol.com,designbump.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div > aside[class] > span[class*="mdeyheadline-"]
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,rightwingnews.com,patriotnationpress.com##div[class] > div[id] > main[class][id][role]
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
@@ -14411,7 +14414,6 @@ dahe.cn###adsg
 dailiantong.com##.appDwn
 dailybitcoins.org#@#.ad-img
 dailydoge.org#@#.adsbygoogle
-dailylol.com,procoinnews.com##div[class] > div[id] > div[class][id][role]
 dailymail.co.uk###billBoard
 dailymail.co.uk###js-sky-left
 dailymail.co.uk###js-sky-right
@@ -15199,7 +15201,7 @@ fastadmin.net##body > a[target="_blank"]
 fastconv.com$$script[tag-content="afScript"][min-length="5000"][max-length="7000"]
 fastconverter.net#$#abort-on-property-read afScript
 fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
-fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; abort-current-inline-script Math.floor ExoLoader;
+fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-current-inline-script document.createElement Math.random; prevent-listener /click|load/ popMagic; prevent-listener getexoloader;
 fastshare.cz/top*?utm_source=*&utm_medium=*&utm_campaign=$domain=warforum.cz
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
@@ -16721,7 +16723,6 @@ internet-law.ru###fab-enabled
 intoday.in$$script[tag-content="checkAds"][max-length="1550"]
 inwestycje.pl###show-message
 ip.cn##.well > p > a
-ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
@@ -17743,7 +17744,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-property-read Math.floor null
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 linkneverdie.net$$script[tag-content="DetecAdBlock"][min-length="500"][max-length="3000"]
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
@@ -17796,7 +17797,7 @@ lookae.com##.zhongjian
 lookmovie100.xyz,lookmovie101.xyz,lookmovie102.xyz,lookmovie103.xyz,lookmovie104.xyz,lookmovie105.xyz,lookmovie106.xyz,lookmovie107.xyz,lookmovie108.xyz,lookmovie109.xyz,lookmovie110.xyz,lookmovie111.xyz,lookmovie112.xyz,lookmovie113.xyz,lookmovie114.xyz,lookmovie115.xyz,lookmovie116.xyz,lookmovie117.xyz,lookmovie118.xyz,lookmovie119.xyz,lookmovie120.xyz,lookmovie121.xyz,lookmovie122.xyz,lookmovie123.xyz,lookmovie124.xyz,lookmovie125.xyz,lookmovie126.xyz,lookmovie127.xyz,lookmovie128.xyz,lookmovie129.xyz,lookmovie130.xyz,lookmovie131.xyz,lookmovie132.xyz,lookmovie133.xyz,lookmovie134.xyz,lookmovie135.xyz,lookmovie136.xyz,lookmovie137.xyz,lookmovie138.xyz,lookmovie139.xyz,lookmovie140.xyz,lookmovie141.xyz,lookmovie142.xyz,lookmovie143.xyz,lookmovie144.xyz,lookmovie145.xyz,lookmovie146.xyz,lookmovie147.xyz,lookmovie148.xyz,lookmovie149.xyz,lookmovie150.xyz,lookmovie151.xyz,lookmovie152.xyz,lookmovie153.xyz,lookmovie154.xyz,lookmovie155.xyz,lookmovie156.xyz,lookmovie157.xyz,lookmovie158.xyz,lookmovie159.xyz,lookmovie160.xyz,lookmovie161.xyz,lookmovie162.xyz,lookmovie163.xyz,lookmovie164.xyz,lookmovie165.xyz,lookmovie166.xyz,lookmovie167.xyz,lookmovie168.xyz,lookmovie169.xyz,lookmovie170.xyz,lookmovie171.xyz,lookmovie172.xyz,lookmovie173.xyz,lookmovie174.xyz,lookmovie175.xyz,lookmovie176.xyz,lookmovie177.xyz,lookmovie178.xyz,lookmovie179.xyz,lookmovie180.xyz,lookmovie181.xyz,lookmovie182.xyz,lookmovie183.xyz,lookmovie184.xyz,lookmovie185.xyz,lookmovie186.xyz,lookmovie187.xyz,lookmovie188.xyz,lookmovie189.xyz,lookmovie190.xyz,lookmovie191.xyz,lookmovie192.xyz,lookmovie193.xyz,lookmovie194.xyz,lookmovie195.xyz,lookmovie196.xyz,lookmovie197.xyz,lookmovie198.xyz,lookmovie199.xyz,lookmovie200.xyz$$script[wildcard="*function*break;case*"][min-length="30000"][max-length="100000"]
 lostfilm.tv##div[class^="alarm"]
 loveshang.com##div[class^="float-ad-"]
-lphim.net,subnhanhz.net,iphimchillzz.net,phimmoikf.com#$#abort-on-property-read localStorage
+lphim.net,subnhanhz.tv,subnhanh.cc,iphimchillzz.net,phimmoikf.com#$#abort-on-property-read localStorage
 lqz.cn###ad_index
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
@@ -19165,8 +19166,6 @@ popbee.com##.adblocker
 popeoftheplayers.eu###html4
 popeoftheplayers.eu###mask1
 popo.tw#@#.header_ad
-populistpress.com##div[id^="secondary-sidebar"] > article[class]
-populistpress.com##li[id^="main_feed_post_"] > article[class]
 poringapic.com##IMG[src^="http://poringapic.com/image.php?"]
 porn-blog.me###dbx_light
 porn00.org#$#abort-current-inline-script popup_url
@@ -20450,8 +20449,6 @@ telesputnik.ru##.adbPopup
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[tag-content="Element.prototype,""shadowRoot"""][min-length="5000"][max-length="8000"]
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[wildcard="*.name)throw *=""ABP"",*"][min-length="5000"][max-length="8000"]
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[wildcard="*getOwnPropertyDescriptor*contentWindow*ABP*"][min-length="5000"][max-length="8000"]
-telexplorer.com.ar##aside[class] > span[class*="mdeyheadline-"]
-telexplorer.com.ar##div[class] > div[id] > main[class][id][role]
 template/m1938pc/ads/*.js
 tencentmind.com
 tgbus.com###guide-download
@@ -29727,7 +29724,6 @@ zzzyk.com###Tinfo
 ||d2j71mqxljhlck.cloudfront.net^
 ||d2jgp81mjwggyr.cloudfront.net^
 ||d2juccxzu13rax.cloudfront.net^
-||d2kadvyeq051an.cloudfront.net^
 ||d2kadvyeq051an.cloudfront.net^$third-party
 ||d2kd9y1bp4zc6.cloudfront.net^
 ||d2kk0o3fr7ed01.cloudfront.net^
@@ -30978,7 +30974,6 @@ zzzyk.com###Tinfo
 ||dwnews.net/images/www/ad/
 ||dwnews.net/js/common/dwnews.dwcn.ad.js
 ||dwnews.net/js/common/dwnews.ga.js
-||dwnm2295blvjq.cloudfront.net^
 ||dwqfmvc.cn^
 ||dwr3zytn850g.cloudfront.net^
 ||dwrz5az.cn^
@@ -49301,6 +49296,7 @@ zzzyk.com###Tinfo
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yuntuiguang.co^
 ||yunupload.net/jsa/
+||yunwu.red^
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
 ||yunzuowen.com^$third-party
 ||yupei.love^
