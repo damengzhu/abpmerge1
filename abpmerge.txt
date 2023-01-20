@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-20 11:22:57
-! Total count: 50080
+! Version: 2023-01-20 16:12:00
+! Total count: 50083
 
 ###AdBlockDialog
 ###Ad_windows
@@ -433,6 +433,7 @@
 ###wrapperBlocker
 ###xinnxi
 ###xqad
+###xqad1
 ###xqad[style="margin-bottom: 5px;"]
 ##.AD_TAC_BOX
 ##.AdTop
@@ -18734,7 +18735,7 @@ nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
-nsportal.ru#$#simulate-event-poc click a#downloadURL[href^="https://nsportal.ru/sites/"]
+nsportal.ru#$#simulate-event-poc click a#downloadLink[href^="https://nsportal.ru/sites/"]
 ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
 ntpcb.com##img[width="1195"]
@@ -44333,6 +44334,7 @@ zzzyk.com###Tinfo
 ||ssh.dkjdnq.cn^
 ||ssh.q4hwkg.cn^
 ||ssio6xepo.cyou^
+||ssjiancai.com^
 ||ssjv1.com/dm/
 ||ssjy.shop^
 ||sskmnews.pro^
@@ -48022,6 +48024,7 @@ zzzyk.com###Tinfo
 ||wzl05.xyz^
 ||wzngisye.xyz^
 ||wzqbte.xyz^
+||wzrdbwf.cn^
 ||wzsygdl.com^
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x.aigobook.com^
