@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-19 16:12:18
-! Total count: 50069
+! Version: 2023-01-20 08:11:55
+! Total count: 50074
 
 ###AdBlockDialog
 ###Ad_windows
@@ -5066,6 +5066,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 /td_ads_ckbeck.js
 /template/*/adm/*
 /template/*/ads/*
+/template/*/lele36.html
 /template/1/images/t2.gif
 /template/bingfeng/statics/js/pingbi.js
 /template/chiav/img/*.mp4
@@ -8951,7 +8952,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com|weather.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|physicianspractice.com|standard.co.uk|theta.tv|weather.com|webmd.com
-@@||g.w.bilicdn1.com/$script,domain=bilibili.com
 @@||g17media.com/detect.html$domain=lcpdfr.com
 @@||g2a.com/toolbar/$document
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
@@ -13809,7 +13809,6 @@ centoschina.cn##a[href="https://www.linuxprobe.com/"]
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
-ch-hr12333.com
 chacuo.net###mailtooltipss
 chacuo.net##.a96090
 chahid4u.tk###unblocker
@@ -14279,7 +14278,6 @@ cpnn.com.cn##.leftgg
 cpnn.com.cn##.part3-adverd
 cpnn.com.cn##.rightewm
 cpnn.com.cn##.rightgg
-cppoc.com
 cps.com.cn##.couplet-le
 cpu.baidu.com##A[href*='cpro.baidu.com']
 cq.qq.com##div.clearfix[style*="1000"]
@@ -15355,7 +15353,7 @@ flightradar24.com##.noads
 flighty.cn###searchBox + #sidebarBox
 flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 flyblog.cc##.pixnavbar__top-bar__main-sites
-flyblog.cc#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
+flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
 flymer.ru#@#.ad-unit
 flystream.fr,filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,extreme-down.in,extreme-down.link,extreme-down.live,extreme-down.ninja,extreme-down.one,extreme-down.pro,extreme-down.top,extreme-down.tv,extreme-down.work,extreme-down.video,extreme-down.xyz,extreme-download.im,extreme-download.ninja,extreme-download.xyz#$#abort-current-inline-script Math zfgloaded
 flyzy2005.com##.baidu_ad
@@ -15563,7 +15561,6 @@ fzdao.cn##.adlan
 fznews.com.cn##.kuang100_right
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
-g1c5.com
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
 gaara-fr.com###ga-skin-top
@@ -15701,7 +15698,6 @@ generatupremium.biz##[href="http://www.hostunder.net/windows-rdp/"]
 genshin.honeyhunterworld.com#@#.a_p
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
-geoparker.net
 getitfree.cn##+js(abort-current-script, document.getElementById, /!document\.getElementById\([\s\S]*?\.style\.display=/)
 getrelax.cc##+js(abort-current-script, $, #adisblock)
 getrelax.cc#$#iframe[src^="//adserver.juicyads.com/"] { display: none!important; }
@@ -17171,7 +17167,6 @@ jinhua.com.cn##.banner1200
 jinhua.com.cn##.banner260
 jinhua.com.cn##.banner465
 jinhua.com.cn##.banner935
-jinrongwang.net
 jinse.com##.js-spread__main
 jinti.com###mei
 jinti.com##.fix-kefu
@@ -18059,7 +18054,6 @@ mavanimes.co,japscan.me#$#abort-current-inline-script JSON.parse;
 mavanimes.co,toonanime.cc#$#abort-current-inline-script document.documentElement /atob|break|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/;
 maxedtech.com#@#.a160x600
 maxfoodfun.com###links > div[id] > div.hslice:not(#search):not(#qrcode):not(#category):not([id*="-article"]):not(#latest-comment)
-maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
 maxthon.cn###festival-bottom-wrapper
 maxthon.cn###festival-center-wrapper
 maxthon.cn###festival-fix-bottom
@@ -21957,6 +21951,7 @@ zzzyk.com###Tinfo
 |https://$script,third-party,xmlhttprequest,domain=video-download.co,badfilter
 |https://$script,third-party,xmlhttprequest,domain=xvideos.com,badfilter
 |https://$xmlhttprequest,domain=swatchseries.to,badfilter
+|https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://tellme.pw/go/jav$popup
 |https://undefined/|$script,redirect=noopjs
@@ -24099,6 +24094,7 @@ zzzyk.com###Tinfo
 ||9ads.net^$third-party
 ||9as3.xyz^
 ||9be814e81e.com^
+||9cgms.xyz^
 ||9desires.xyz^$third-party
 ||9duw.com/js/sj
 ||9duw.com/pic/
@@ -31957,6 +31953,7 @@ zzzyk.com###Tinfo
 ||fd5orie8e.com^
 ||fd7c.com^
 ||fdasew.top^
+||fdbskb.cn^
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
 ||fde1403147.com^
@@ -33455,6 +33452,7 @@ zzzyk.com###Tinfo
 ||guerrilla-links.com^
 ||guess.h.qhimg.com^
 ||guesswhatnews.com^
+||guge.red^
 ||gugulm.net^
 ||guhai.com.cn/AD/
 ||guidedhacking.com/gh/img/aids/
@@ -35949,6 +35947,7 @@ zzzyk.com###Tinfo
 ||jkvbiry.cn^
 ||jkxtd77.com^
 ||jkxty.mobi^
+||jkxvvv.xyz^
 ||jl1130.com^
 ||jldbnjghezv.com^
 ||jlhygy.com^
@@ -37239,7 +37238,6 @@ zzzyk.com###Tinfo
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
 ||leju.com^*=abs.processReqChange
 ||lele36.com/p/*.gif
-||lele36.com/template/*/lele36.html
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
 ||lemoncai.xyz^
@@ -40560,6 +40558,7 @@ zzzyk.com###Tinfo
 ||panther.dividesignservice.com^
 ||panyh123456.cn^
 ||paohao.com^
+||paongfh.cn^
 ||paopaoche.net/public/bd/article_inc.js
 ||paopaoche.net/skins/count.js
 ||paopic.com/imguang/
@@ -42147,6 +42146,7 @@ zzzyk.com###Tinfo
 ||qw2v.taoxiehui.cn^
 ||qwadakesy.cyou^
 ||qwblog.cn/localfile/20200612230036.gif
+||qwcqqw.xyz^
 ||qwe0231141.bj.bcebos.com^
 ||qweasd.vip^
 ||qweewq2021.online^
@@ -42155,6 +42155,7 @@ zzzyk.com###Tinfo
 ||qwerty24.net^$third-party
 ||qwertyuadf.com^
 ||qwogldy.top^
+||qwrot.cyou^
 ||qwsad.com^
 ||qwtag.com^$third-party
 ||qwxcs.com^$third-party
@@ -44908,6 +44909,7 @@ zzzyk.com###Tinfo
 ||t23o.cn^
 ||t34kk9.top^
 ||t3nlink.com^$third-party
+||t3p58.com^
 ||t4sb9dq7.site^
 ||t57.cn/cert.php
 ||t5lxz7dtq4iz.com^
@@ -45646,7 +45648,7 @@ zzzyk.com###Tinfo
 ||toutao.pro^
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=mgtv1.org|agemys.net|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=agemys.net|acgndmku.com|subaibaiys.com
 ||toutiaoimg.com^$domain=1024pz.com
 ||toutiaoyule.com/n/dspshow.
 ||touzi110.mobi^
@@ -46003,6 +46005,7 @@ zzzyk.com###Tinfo
 ||twinstanglebroken.com^
 ||twisteryirr.com^
 ||twjsx.cn^
+||twlcyc.cn^
 ||twn2e.cn^
 ||twnb.xyz^
 ||two.fsylr.com^
@@ -46067,6 +46070,7 @@ zzzyk.com###Tinfo
 ||tzjovzs.cn^
 ||tzlit.cn^
 ||tzngisyi.xyz^
+||tzsvodu.cn^
 ||u-q.net.cn^
 ||u.63kc.com^
 ||u.ctrip.com/showcaseadvertisementsit/
@@ -48860,6 +48864,7 @@ zzzyk.com###Tinfo
 ||yhdm.tv/bar/yfyh.js
 ||yhilnc.cn^
 ||yhjccj.cn^
+||yhjh04.com^
 ||yhkiain.cn^
 ||yhkt.online^
 ||yhlvgpqsr.com^
