@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-20 16:12:00
-! Total count: 50083
+! Version: 2023-01-21 02:16:56
+! Total count: 50089
 
 ###AdBlockDialog
 ###Ad_windows
@@ -5007,6 +5007,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 /static/chunks/pages/_app-*.js$replace=/Request\("https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js"/Request\("https:\/\/example\.com"/,domain=investing.com
 /static/common/js/djlib_
 /static/exnb/froloa.js$domain=hd-easyporn.com|hdpornos.net
+/static/images/ky888.gif
 /static/js/a22082021.
 /static/js/aall.js
 /static/js/amvn.js
@@ -10968,13 +10969,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=zdam.xyz
 @@||razem.tv/Scripts/InsysPlayer.v0.1.0/adTest.png$image,domain=razem.tv
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
-@@||rddywd.com/adcode.png^$image,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
-@@||rddywd.com/adcode.png^$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
-@@||rddywd.com/adcode.png^$image,domain=telexplorer.com.ar
 @@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
-@@||rddywd.com/advertising.js^$script,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
-@@||rddywd.com/advertising.js^$script,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
-@@||rddywd.com/advertising.js^$script,domain=telexplorer.com.ar
 @@||read.amazon.*/ads-prebid.js
 @@||readgoldfish.com^$script,xmlhttprequest
 @@||readingguilt.com^$script,xmlhttprequest
@@ -12924,6 +12919,7 @@ atyun.com##.coupletbox
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 audiofanzine.com#$#abort-on-property-read TextDecoder; abort-on-property-read require; abort-current-inline-script _audiofanzineProductStack
 audiofanzine.com#$#hide-if-matches-xpath './/img[contains(@src,"/advert/label-ad-")]/parent::div[1]'
+aupetitparieur.com,meilleurpronostic.fr,mamieastuce.com,vitamiiin.com##div[class] > div[id] > main[class][id]
 aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
@@ -13367,6 +13363,7 @@ beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
 beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
+beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net#$#abort-current-inline-script Math zfgloaded
@@ -14413,6 +14410,8 @@ dahe.cn###adsg
 dailiantong.com##.appDwn
 dailybitcoins.org#@#.ad-img
 dailydoge.org#@#.adsbygoogle
+dailylol.com##div > aside[class] > span[class*="mdeyheadline-"]
+dailylol.com##div[class] > div[id] > div[class][id][role]
 dailymail.co.uk###billBoard
 dailymail.co.uk###js-sky-left
 dailymail.co.uk###js-sky-right
@@ -16721,6 +16720,7 @@ internet-law.ru###fab-enabled
 intoday.in$$script[tag-content="checkAds"][max-length="1550"]
 inwestycje.pl###show-message
 ip.cn##.well > p > a
+ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ipcfun.com###crumb_r
 ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
@@ -18640,11 +18640,11 @@ novinky.cz##article[data-dot^="advert-item"]
 novinky.cz##div[class*="advert-static"]
 novinky.cz##div[class*="banner-ad"]
 novinky.cz##div[style^="background-Image:"], [style^="bACkgrOund-imAge:"]
+novinky.cz##img[src*="1T4PK70hS2C"]
 novinky.cz##section[role^="complementary"]
-novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'
+novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'; hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'; hide-if-matches-xpath './/div[@class]/span[text()][@*="atm-label"]/following::a[@target]/ancestor::article[@*="advert-item"]'; hide-if-matches-xpath './/div[@class][@style]/div[@style]//iframe[@width][@style]/ancestor::div[@*="RENDERED" or @*="mol-advert"]'
 novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
 novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
-novinky.cz#$#hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'
 novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
 novinky.cz,kupi.cz,sport.cz,super.cz###sf0
 novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
@@ -20445,6 +20445,7 @@ telesputnik.ru##.adbPopup
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[tag-content="Element.prototype,""shadowRoot"""][min-length="5000"][max-length="8000"]
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[wildcard="*.name)throw *=""ABP"",*"][min-length="5000"][max-length="8000"]
 televizeseznam.cz,hnonline.sk,ahaonline.cz,aktuality.sk,aktualne.cz,auto.cz,blesk.cz,centrum.cz,cnews.cz,e15.cz,extra.cz,idnes.cz,karaoketexty.cz,mobilmania.cz,novinky.cz,sport.cz,super.cz,tiscali.cz,zive.cz$$script[wildcard="*getOwnPropertyDescriptor*contentWindow*ABP*"][min-length="5000"][max-length="8000"]
+telexplorer.com.ar##div[class] > div[id] > main[class][id]
 template/m1938pc/ads/*.js
 tencentmind.com
 tgbus.com###guide-download
@@ -21363,7 +21364,7 @@ www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz#$#cookie-remover adform
-www.seznam.cz#$#hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[contains(@class,"advert")]/a[@target]/picture[contains(@class,"advert")]/ancestor::div[contains(@class,"position-relative")]/ancestor::li[translate(@*, "nativeSspAdvert", "NATIVESSPADVERT")]'
+www.seznam.cz#$#hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[contains(@class,"advert")]/a[@target]/picture[contains(@class,"advert")]/ancestor::div[contains(@class,"position-relative")]/ancestor::li[translate(@*, "nativeSspAdvert", "NATIVESSPADVERT")]'; hide-if-matches-xpath './/div[@class]/div[@class and @style]//iframe[@class]/ancestor::div[@id and @style]/parent::div/ancestor::div[@*="gadgetCommercial" or (contains(@style,"max"))]'
 www.seznamc.cz#$#cookie-remover pubmatic
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
@@ -30678,7 +30679,6 @@ zzzyk.com###Tinfo
 ||domnlk.com^
 ||domnovrek.com^$third-party
 ||domp4.cc/Style/*/images/640200.gif
-||domp4.cc/Style/2020/js/base.js
 ||domp4.cc/js/wcount.js
 ||domslc.com^
 ||dong.aeimmmj.cn^
@@ -31105,6 +31105,7 @@ zzzyk.com###Tinfo
 ||e49.xyz^
 ||e5asyhilodice.com^
 ||e5yx.com^$popup
+||e5z14.icu^
 ||e66gg.com^$third-party
 ||e67repidwnfu7gcha.com^
 ||e6g804q.cn^
@@ -32560,6 +32561,7 @@ zzzyk.com###Tinfo
 ||fz2c.top^
 ||fz8g.top^
 ||fzbjzlwcnd.com^
+||fzbkgni.cn^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzckwij.cn^
 ||fzlol.com/images/$script
@@ -36303,6 +36305,7 @@ zzzyk.com###Tinfo
 ||juyqiolna.cyou^
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
+||juzwrl.xyz^
 ||jv.curiousuraemia.com^
 ||jvpook.cn^
 ||jvyigg.biqugeq.com^
@@ -38551,6 +38554,7 @@ zzzyk.com###Tinfo
 ||michaelianice.com^
 ||michealmoyite.com^
 ||micreative-china.cn^
+||micrhfk.cn^
 ||microad.jp^$third-party
 ||microad.net^
 ||microadinc.com^
@@ -41784,6 +41788,7 @@ zzzyk.com###Tinfo
 ||qgbtd.com^
 ||qgcbht.xyz^
 ||qgdvyvd.cn^
+||qgermm.xyz^
 ||qgevavwyafjf.com^
 ||qgfdqjf.cn^
 ||qgfwets.cn^
@@ -45478,6 +45483,7 @@ zzzyk.com###Tinfo
 ||tjj.com^
 ||tjqonline.cn^
 ||tjqwb.cn^
+||tjxafmo.cn^
 ||tjys88.com^
 ||tk.504pk.com^
 ||tkbo.com^
