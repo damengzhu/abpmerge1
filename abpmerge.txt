@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-23 08:11:58
-! Total count: 50119
+! Version: 2023-01-23 16:11:47
+! Total count: 50126
 
 ###AdBlockDialog
 ###Ad_windows
@@ -13038,6 +13038,7 @@ avtb2022.com###menu-main-content > li:nth-child(n+5)
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
+awaliwa.com##.bottomAdsBox
 axiang.cc###photo-sliders + .widget_text
 axios-js.com###lagou-vip
 axios-js.com##.lessonlist
@@ -18736,7 +18737,7 @@ nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
-nsportal.ru#$#simulate-event-poc click a#downloadLink[href^="https://nsportal.ru/sites/"]
+nsportal.ru#$#simulate-event-poc click a#downloadLink[href^="https://nsportal.ru/sites/"]; simulate-event-poc click a#downloadURL[href^="https://nsportal.ru/sites/"]
 ntm.gov.tw#@#.ad-left
 ntp.msn.cn##recommended-sites
 ntpcb.com##img[width="1195"]
@@ -21363,8 +21364,8 @@ www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz##div[id*="nativeSspAdvert"]
 www.seznam.cz#$#cookie-remover adform
+www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/h2[contains(@class,"advert")]//a[@href][text()]/ancestor::div[contains(@class,"gadget")]/parent::div[starts-with(@class,"animated")]/ancestor::div[@class][@id]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex") and contains(@class,"advert")]//a[@rel][@aria-hidden]/picture[contains(@class,"advert")]/img/ancestor::div[@id]//parent::li/div[@data-dot]'; hide-if-matches-xpath './/li[starts-with(@class,"d-block")]//div[contains(@class,"promo-carousel")]/h2//div[@class]//following::div[contains(@class,"promo-carousel")]/a[@target][@rel]//img[starts-with(@class,"d-block")]/ancestor::div[contains(@class,"goods-promo")]'; hide-if-matches-xpath './/div[starts-with(@class,"gadget")]//ul[@class="product-list"]/li[contains(@class,"item")]//a[@aria-hidden]/picture[@class]/img[contains(@class,"block")]/ancestor::div[@id][@class][1]'; hide-if-matches-xpath './/div[@id][@class][@style]/div[@class][@style]/div/iframe[@class][@style]/ancestor::div[@class][@style][1]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[@*="ad-content"]//iframe[@class and @style]/ancestor::div[@id and @style]/parent::div[1]/ancestor::div[5]'; hide-if-matches-xpath './/div[contains(@class,"advert")]/a[@target]/picture[contains(@class,"advert")]/ancestor::div[contains(@class,"position-relative")]/ancestor::li[translate(@*, "nativeSspAdvert", "NATIVESSPADVERT")]'; hide-if-matches-xpath './/div[@class]/div[@class and @style]//iframe[@class]/ancestor::div[@id and @style]/parent::div/ancestor::div[@*="gadgetCommercial" or (contains(@style,"max"))]'
-www.seznamc.cz#$#cookie-remover pubmatic
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
 www.sina.com.cn##.part-l
@@ -33509,6 +33510,7 @@ zzzyk.com###Tinfo
 ||gussbkpr.website^
 ||gutjfeskwfk.xyz^
 ||gutouwang.net^
+||guyu8855.club^
 ||gv4e.top^
 ||gvcmiz3vze3n.com^
 ||gvqrclx.cn^
@@ -36749,6 +36751,7 @@ zzzyk.com###Tinfo
 ||kmvbre.com^
 ||kmwqxqh.com^
 ||kmyiubbv.xyz^
+||kmzayrt.cn^
 ||kn.zhangdujia.com^
 ||knbtpty.xyz^
 ||kneadface.com^
@@ -36872,6 +36875,7 @@ zzzyk.com###Tinfo
 ||kt51.com/images/kt51.gif
 ||kt51.com/wz.jpg
 ||kta.etherscan.com^
+||ktbelts.cn^
 ||ktdlsb.com^
 ||ktggbk.com^
 ||ktkjmp.com^
@@ -38722,6 +38726,7 @@ zzzyk.com###Tinfo
 ||mmaaxx.com^$third-party
 ||mmalrek.cn^
 ||mmctsvc.com^
+||mmevt.icu^
 ||mmfcezwqaz.com^
 ||mmfusheng.com^
 ||mmgg62.com^
@@ -43298,6 +43303,7 @@ zzzyk.com###Tinfo
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
 ||sdkconfig.ad.xiaomi.com^
+||sdkdfjksl.com^
 ||sdkfjxjertertry.com^
 ||sdljvrf.cn^
 ||sdnc.top^
@@ -48822,6 +48828,7 @@ zzzyk.com###Tinfo
 ||ydgsvls.cn^
 ||ydhwhz.cn^
 ||yditweb.cn^
+||ydjfdkcv.com^
 ||ydjs.zol.com.cn^
 ||ydqcjy.cn^
 ||ydqkpy.cn^
