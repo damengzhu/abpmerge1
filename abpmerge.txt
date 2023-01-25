@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-25 08:11:32
-! Total count: 65504
+! Version: 2023-01-25 16:11:35
+! Total count: 65511
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1877,6 +1877,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ,728x90,
 ,e8o,$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 -*-*-*-*.panda^$script,third-party
+--(blsx|xling)_\d{4,}_.+.js\?\d{5,}$
 -120-600.
 -120_600_
 -120x300.
@@ -2571,6 +2572,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .zone/ads/
 .zw/ads/
 /&*^$popup,domain=piracyproxy.app|piraproxy.info|unblocked.club|unblockedstreaming.net
+/(blsx|xling)_\d{4,}_.+.js\?\d{5,}$/
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -7829,6 +7831,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 159i.com#?#:-abp-has(> img[src*="gif"])
 159i.com#?#div:-abp-has(> img+a)
 159i.com,china.com.cn##.ab
+159i.com,movieffm.net#@#.adsBox
 159i.com,movieffm.net,zhaopin.com#@#.adsBox
 15min.lt#$#hide-if-matches-xpath '//div[@class][@style]/img[string-length(@src) >=180]/ancestor::div[@class][1]'
 15w.com###rec
@@ -14718,6 +14721,7 @@ centoschina.cn##a[href="https://www.linuxprobe.com/"]
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
+cgown.com,taohuayun.cn##img[width="980"]
 chacuo.net###mailtooltipss
 chacuo.net##.a96090
 chahid4u.tk###unblocker
@@ -22523,6 +22527,7 @@ zhidao.baidu.com#?#.wgt-ads
 zhideqiang.com##A[href*="quan.zhideqiang.com"]
 zhiding.cn###MgBox
 zhiding.cn##.headads
+zhiding.cn##DIV[id^="AD"]
 zhidiy.com###festival_float_bottom
 zhifang.com##.sytl
 zhihu.com##.AppMagicBanner
@@ -22640,6 +22645,7 @@ zzbaike.com##.link2
 zzkdhb.com##li[style*="important;"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn##.ad:not([style])
+zznews.cn#@#.ad-wrapper
 zztt24.com##.no-mask
 zzzyk.com###Tinfo
 |.gif$domain=fashangji.com
@@ -55282,6 +55288,7 @@ zzzyk.com###Tinfo
 ||saimone.com^
 ||saininglcm.live^
 ||saipel.com^
+||sairy.cyou^
 ||saishait.net^
 ||saitef.cn^
 ||saiwhute.com^
