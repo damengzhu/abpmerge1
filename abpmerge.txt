@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-01-26 16:10:49
-! Total count: 65500
+! Version: 2023-01-27 08:11:24
+! Total count: 65507
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2211,6 +2211,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com./$popup,domain=pornhub.com
 .com.ua^$popup,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 .com.ua^$third-party,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
+.com/0gg/gg*.js
 .com/?Intr=$popup,third-party
 .com/?ad=
 .com/?aff=$popup,third-party
@@ -16285,6 +16286,8 @@ forum.virtualdjing.com#@#.adFrame
 forumdz.com###breadcrumb + center > [color="red"] > b
 forumdz.com##body .breadcrumb + center > [color="red"] > b
 forums.openpli.org###content > [style="text-align:center;"] > DIV[style="margin 0 auto;display:inline-block;width:728px; height:84px; border:1px solid #000000; text-align:center; font-family:century gothic, arial, helvetica, sans serif;padding:4px;font-weight:bold;"]
+forums.socialmediagirls.com,biter.tv,indianpornvideo.org,hindixxxvideos.net,xxxhdporno.net#$#abort-on-property-read decodeURI
+forums.socialmediagirls.com,masahub.net#$#abort-on-property-write zfgloadedpopup;
 forusex.com##a[href^="http://redheartnext.com"] > img
 fossbytes.com#@##adsense
 fotoshop-online.org##.aslot
@@ -16329,7 +16332,7 @@ freelivesport.eu,cv55.eu,nowwatchtvlive.me,nowwatchtvlive.co,liguendirect.com,be
 freelogovectors.net##div[class^="popup"]
 freemulticoins.com#@#.adsbygoogle
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
-freeomovie.co.in#$#abort-on-property-read decodeURIComponent
+freeomovie.co.in,forums.socialmediagirls.com#$#abort-on-property-read decodeURIComponent
 freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclock.ru,picforall.ru#$#abort-current-inline-script JSON.parse
 freeskier.com###adb-enabled
 freeskier.com#@##adb-not-enabled
@@ -18877,7 +18880,6 @@ marketrealist.com##iframe[data-kiosked-adframe]
 marketrealist.com##img[onload="$aproxy.fetch_cookies(this)"]
 marketrealist.com#$#abort-on-property-read adHandler.cmd.push
 marketrealist.com,kansas.com,thenewstribune.com#$#abort-on-property-read $aproxy
-masahub.net#$#abort-on-property-write zfgloadedpopup;
 masahub.net,sbanh.com,sbembed.com,sblongvu.com,streamsb.com,streamsb.net,vidplay.ch#$#abort-on-property-read decodeURI; abort-on-property-read mm
 masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
@@ -19445,7 +19447,7 @@ niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 nlc.gov.cn###lovexin12xx
-nmgk2.com##li[style*="important"]
+nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
 nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm-club.ws,nnmclub.to,nontorclub.in.net##body > .request
 nobugin.com##.td-a-rec
@@ -22280,7 +22282,6 @@ xxt.cn#@##mainAd
 xxx-image.com###footer > font > b
 xxx-indian-porn.com#$#abort-current-inline-script popunder
 xxxdownloadsfree.blogspot.com##DIV[style*="position:fixed;width:100%;top:0px;height:100%;background-color:black;z-index:100;"]
-xxxhdporno.net,indianpornvideo.org,hindixxxvideos.net,biter.tv#$#abort-on-property-read decodeURI
 xxxsm.vip##.ad280x165
 xxxsm.vip##a[href="ilupian8.html"]
 xxxxx520.com##.ripro_gg_wrap
@@ -22634,7 +22635,6 @@ zzbaike.com##.imglistbg-ad
 zzbaike.com##.imglistbg_ad
 zzbaike.com##.left > .bottom[style]
 zzbaike.com##.link2
-zzkdhb.com##li[style*="important"]
 zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zznews.cn#@#.ad-wrapper
 zztt24.com##.no-mask
@@ -31397,6 +31397,7 @@ zzzyk.com###Tinfo
 ||britishinquisitive.com^
 ||britonswime.website^
 ||brkkqaqcgn.com^
+||brkxgfs.cn^
 ||brmzopt.cn^
 ||bro.kim^
 ||bro1.biz^
@@ -35443,6 +35444,7 @@ zzzyk.com###Tinfo
 ||deya.ink^
 ||deyangs.com/img/
 ||deyidesign.com^
+||df-long.cn^$third-party
 ||df253f3b96.com^
 ||df5b.top^
 ||df77.com^
@@ -35459,6 +35461,7 @@ zzzyk.com###Tinfo
 ||dfcfw.com/tg/
 ||dfcfw.com/zndh/
 ||dfd1ec534a.com^
+||dfdaaa12.com^
 ||dfdjilnzqgtow.com^
 ||dfepm.xyz^
 ||dfes68.com^
@@ -40967,6 +40970,7 @@ zzzyk.com###Tinfo
 ||haoyundmtaotao.com^
 ||haphazardfraudulent.com^
 ||hapic1.zhuangxiu22.com^
+||happi.cyou^
 ||happilydestructive.com^
 ||happy.new.year.kanwby.com^
 ||happycastle.me^
@@ -41655,6 +41659,7 @@ zzzyk.com###Tinfo
 ||hnmucsm.cn^
 ||hnnuange.com^
 ||hnpvnnhzazkl.com^
+||hnrjign.cn^
 ||hnruisheng.cn^
 ||hnshangzhongxia.com^
 ||hnsyjaeger.site^
@@ -52358,6 +52363,7 @@ zzzyk.com###Tinfo
 ||ppj338.cn^
 ||ppjipuk.cn^
 ||ppl.xunzhuo123.com^
+||ppltxv.xyz^
 ||pportunitytos.xyz^
 ||pppbr.com^
 ||pprq7.com^
@@ -61978,6 +61984,7 @@ zzzyk.com###Tinfo
 ||wboux.com^
 ||wboux.com^$popup
 ||wbphplqsrdexvt.com^
+||wbqosw.xyz^
 ||wbsadsdel.com^$popup
 ||wbsadsdel2.com^$popup
 ||wbshu.com^$third-party
