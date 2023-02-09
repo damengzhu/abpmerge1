@@ -1093,6 +1093,7 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
+##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/hth.html']
@@ -1102,6 +1103,8 @@
 ##A[href='http://k023055.com']
 ##A[href='http://kkyty29.cc/']
 ##A[href='http://x5123.cc/']
+##A[href][target='_blank'] > IMG[src$='.gif'][width='100%'][height='120px']
+##A[href][target='_blank'] > IMG[src$='.gif'][width='100%'][height='60px']
 ##A[href^="/e/public/ClickAd?adid="]
 ##A[href^="http://action.metaffiliation.com/trk.php?"]
 ##A[href^="http://get.d3b3e6340.website/as/clk?id="]
@@ -1129,13 +1132,16 @@
 ##DIV#bfad
 ##DIV#bl_mobile_float
 ##DIV#div1.div-relative[style='display:block;']
+##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
+##DIV#video-player-ads-wrap
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
 ##DIV.box-width.ec-ad.ec-ad-double.flex
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
+##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.module-adslist
@@ -1168,6 +1174,7 @@
 ##[alt='ad']
 ##[alt='西瓜社']
 ##[at*='尼斯人注册送']
+##[class$="_main_outstream"][style="right: 0px;"]
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##[class][onclick*=".ununxsxs.top"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -1553,6 +1560,7 @@
 ##a[href*="/kt169.com"]
 ##a[href*="/ky010.vip"]
 ##a[href*="/ky0666.cn"]
+##a[href*="/ky0777.cn"]
 ##a[href*="/ky1010.cn"]
 ##a[href*="/ky53362.com"]
 ##a[href*="/ky9897.cn"]
@@ -1727,10 +1735,10 @@
 ##div[id^="photo-header-title-content-text-dall"]
 ##div[onclick*=".8tse9.com"]
 ##div[onclick*=".lyty49.com"]
-##div[onclick*=".open"][onclick*="ky"]
 ##div[onclick*=".open"][onclick*="leyu"]
 ##div[onclick*=".rwnyou.com"]
 ##div[onclick*=".yyav5.top"]
+##div[onclick*="/ky0777.cn"]
 ##div[onclick*="?i_code="]
 ##div[onclick*="bdtz5.com"]
 ##div[onclick*="kiropa.com"]
@@ -6504,6 +6512,7 @@ hao123.com##.tvtip
 hao123.com##.widget-hlbar > span
 hao123.com##.widget-topbanner
 hao123.com##.wm
+hao123.com##DIV.popup
 hao123.com##a[class^="gameyixing-link-"]
 hao123.com##div[alog-alias="hot-goods"]
 hao123.com,jiegeng.com###siye
