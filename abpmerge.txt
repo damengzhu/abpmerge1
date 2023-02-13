@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-13 08:12:47
-! Total count: 48233
+! Version: 2023-02-13 16:12:10
+! Total count: 48241
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1737,7 +1737,6 @@
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="ps_"][value="20"]
-##div[id*='ad'][class*='text']
 ##div[id*='cat_'][id*='_ad']
 ##div[id][style="position: fixed; bottom: 40%; z-index: 19999 !important; right: 2px;"]
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -10029,6 +10028,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||overratedchalk.com^$script,xmlhttprequest
 @@||ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@||owlsr.us^$script,xmlhttprequest
+@@||ozabc.com^$generichide
 @@||p.jwpcdn.com/*/skins/$third-party
 @@||p.jwpcdn.com/player/*.js$domain=akwam.*
 @@||paddleangle.com^$script,xmlhttprequest
@@ -12862,8 +12862,9 @@ bkjia.com,zol.com.cn##.hot_tj
 blablastream.rip,frstream.rip,nusaslots.one,papadustream.co,papystreamings.com,voirseries.rip#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
 blackdesert-info.ru##div[class][style*="z-index"][style*="999999;"][style*="background"][style*="rgb"]
 bleachmx.co#@##adsense
-blesk.cz###p2-wall-wrap
+blesk.cz###px2-wall-wrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
+blesk.cz##.banner-ifortuna
 blesk.cz##.gam-wrapper
 blesk.cz##article[data-track-element-id*="prPremium"]
 blesk.cz##div[data-track-element-id^="prStandardZpravy"]
@@ -14461,7 +14462,8 @@ exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
 expedia.com,expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expres.cz,idnes.cz##.rma592n
+expres.cz,idnes.cz###alM-wwp
+expres.cz,idnes.cz##[class^="rma"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
 expres.cz,idnes.cz##a[href*="preroll"]
@@ -15006,7 +15008,7 @@ gcxa.cn###edu_ad63
 gd163.cn##.bbs_ad
 gd163.cn,itavcn.com,jmnews.com.cn###msg_win
 gdekluet.ru##body > div[class^="stop-block"]
-gdespaces.com,gdespaces.net,spac1.info,spac.me,spac1.com,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs.life,spcs.me,spcs.news,spcs.pro,spcs.pub,spcs.social,strip2.in,strip2.xxx#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
+gdespaces.com,gdespaces.net,spac1.info,spac.me,spac1.com,spac1.me,spac1.net,spac1.org,spac1.ru,spaces-blogs.com,spaces.im,spcs.global,spcs.life,spcs.me,spcs.news,spcs.pro,spcs.pub,spcs.social,strip2.in,strip2.xxx,usersporn.com#$#abort-on-property-read Object.prototype.initOnPlay; abort-current-inline-script __require /clickunder/
 gdmm.com###ad_cover
 gdmm.com###diy3
 gdmm.com###hd > .wp > .module
@@ -15792,7 +15794,6 @@ idanmu.ee##aside > div[class="widget "]
 idanmu.ee##div[class^="g "]
 ideya-biznesa.ru##.admania_adblock_detector
 idiva.com#?#div:-abp-has(> h2:-abp-contains(More From Web))
-idnes.cz###alM-wwp
 idnes.cz###foto-reklama
 idnes.cz,expres.cz##a[href*="/supertag=InstreamVideo/"]
 idnes.cz,expres.cz##a[href*=";cdata="]
@@ -15945,7 +15946,7 @@ iis7.com###QTGG
 ijiandao.com###index_top_ad
 ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
-ikan6.vip##IMG[src$='.gif']
+ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 ikjzd.com##.article-banner-wrap
 ikjzd.com##.foot-advert-box
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
@@ -17506,6 +17507,7 @@ mini.eastday.com###dsp_btxf
 mini.eastday.com##.ordernumad
 mini.eastday.com##li[class^="recommend_news recommend_ad_hot_"]
 mini.yyrtv.com##.right-gg
+minigames.mail.ru#$#abort-on-property-read MG_CONFIG.adv.fit_mimic
 miniie.com,tisai.com###gg_content
 minimultik.ru###abDetected
 mininova.org###content > #adspot-a + .maintable
@@ -20356,7 +20358,7 @@ vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pan
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.in#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
-viet69.page,ungtycomicsvip.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.page,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -20722,6 +20724,7 @@ www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/img
 www.xilinjie.com###xlj-da-block-overlay
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
+www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-event-poc click button.ytp-ad-skip-button
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
@@ -24567,6 +24570,7 @@ zzzyk.com###Tinfo
 ||alas4kanmfa6a4mubte.com^
 ||albaneverard.com^
 ||albeitinflame.com^
+||albertabelen.com^
 ||albyprd.cn^
 ||aldkfsd.cn^
 ||aldtop.com/scrtips/
@@ -31635,6 +31639,7 @@ zzzyk.com###Tinfo
 ||geili.co^
 ||geili201911.ink^
 ||geilicdn.com/img*_960_60.
+||gejulm1314.com^
 ||gelbooru.com/extras/
 ||gelbooru.com/script/application.js
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
@@ -36193,6 +36198,7 @@ zzzyk.com###Tinfo
 ||liunxgroup.top^
 ||liupan.asia^
 ||liushuaib.xyz^
+||liutou20230203.live^
 ||liutt.online^
 ||liuxiangxiang.top^
 ||liuxue86.com/css/liuxue_output.js
@@ -46106,7 +46112,7 @@ zzzyk.com###Tinfo
 ||www.dknindsl.com^
 ||www.dmhy.org^*.*?$image
 ||www.doca182.com^
-||www.expres.cz/*bg.jpg$image,domain=www.expres.cz
+||www.expres.cz/*?.jpg$image,domain=www.expres.cz
 ||www.gelbooru.com/thumbnails/
 ||www.geodeep.org^
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
@@ -46131,6 +46137,7 @@ zzzyk.com###Tinfo
 ||www.hiweha.com^
 ||www.hlgglm.com^
 ||www.huizai.top^
+||www.idnes.cz/*?.jpg$image,domain=www.idnes.cz
 ||www.ilaohuyou.xyz^
 ||www.jacklm1.com^
 ||www.jacklm2.com^
@@ -47677,6 +47684,7 @@ zzzyk.com###Tinfo
 ||zazgiyoh0s.xyz^
 ||zb.516624.com^
 ||zb7b.top^
+||zbc6hyepls.xyz^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbfiupq.cn^
 ||zbjimg.com/static/union/
