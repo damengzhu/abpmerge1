@@ -5632,13 +5632,14 @@ exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
 expedia.com,expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expres.cz,idnes.cz###alM-wwp
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
 expres.cz,idnes.cz##[class^="rma"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
 expres.cz,idnes.cz##a[href*="preroll"]
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
+expres.cz,idnes.cz,blesk.cz###alN-wwp
 expreview.com##.babaBox
 expreview.com##.colbaba
 expreview.com##.crossAd

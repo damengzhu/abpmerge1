@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-13 16:12:10
-! Total count: 48241
+! Version: 2023-02-14 08:12:28
+! Total count: 48254
 
 ###AdBlockDialog
 ###Ad_windows
@@ -14462,13 +14462,14 @@ exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
 expedia.com,expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expres.cz,idnes.cz###alM-wwp
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
 expres.cz,idnes.cz##[class^="rma"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
 expres.cz,idnes.cz##a[href*="preroll"]
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
+expres.cz,idnes.cz,blesk.cz###alN-wwp
 expreview.com##.babaBox
 expreview.com##.colbaba
 expreview.com##.crossAd
@@ -22054,6 +22055,7 @@ zzzyk.com###Tinfo
 ||2pwja.cn^
 ||2qj7mq3w4uxe.com^
 ||2r45.cn^
+||2r6.cn^
 ||2track.info^
 ||2ujj.com/js/bo.js
 ||2x8l63l0.cn^
@@ -26200,6 +26202,7 @@ zzzyk.com###Tinfo
 ||bgcnhux.cn^
 ||bgilefj.cn^
 ||bgjjwl.cn^
+||bglbsb.cn^
 ||bgnlaigv.fun^
 ||bgrndi.com^
 ||bh0874.online^
@@ -30126,6 +30129,7 @@ zzzyk.com###Tinfo
 ||ebod.7mmtv.top^
 ||eboundservices.com^$third-party
 ||ebp.renren.com^
+||ebpu2.top^
 ||ebrun.com/jfile/position/js/*.js
 ||ebz.io^
 ||ebzqyow.cn^
@@ -30298,6 +30302,7 @@ zzzyk.com###Tinfo
 ||ejktj.com^
 ||ejnjapw.cn^
 ||ejunshi.com^
+||ekcsqzo.cn^
 ||ekdbfu.cn^
 ||ekhnbwe.cn^
 ||ekkpaxli.xyz^
@@ -33150,6 +33155,7 @@ zzzyk.com###Tinfo
 ||hqycr.cn^
 ||hr44.com^
 ||hrahdmon.com^
+||hrecsxu.cn^
 ||hreerfdfgourg.com.ua^
 ||hrjg.com.cn^$third-party
 ||hrrbc.top^
@@ -39634,6 +39640,7 @@ zzzyk.com###Tinfo
 ||pointroll.com^
 ||points2shop.com^$third-party
 ||poisonencouragement.com^
+||pojjtt.xyz^
 ||pojkhufef.xyz^
 ||pokaroad.net^
 ||pokazuwka.com/popu/
@@ -41754,6 +41761,7 @@ zzzyk.com###Tinfo
 ||sdegwynml.bmaci.me^
 ||sdfafds6.com^
 ||sdfjtwp.com^
+||sdfv66.com^
 ||sdfxv57.com^
 ||sdg.desihamster.pro^
 ||sdgmyj.cn^
@@ -43148,6 +43156,7 @@ zzzyk.com###Tinfo
 ||suspendedflesh.com^
 ||suukcn.com^
 ||suwotsoukry.com^
+||suyuhao233.xyz^
 ||suzihaza.com^$badfilter
 ||sv.fanst.club^
 ||sv.wangchangye.xyz^
@@ -43581,6 +43590,7 @@ zzzyk.com###Tinfo
 ||tfosrv.com^
 ||tfptlgrw.co^
 ||tfptlgrw.live^
+||tfutcmail.com^
 ||tfzozf.xyz^
 ||tfzznclztl.com^
 ||tg.loclog.cn^
@@ -45007,6 +45017,7 @@ zzzyk.com###Tinfo
 ||veta.naver.com^
 ||vetdeberg.com^
 ||veugcz8.com^
+||vewdk.cyou^
 ||vexacion.com^
 ||vfcwij.cn^
 ||vfghc.com^
@@ -45425,6 +45436,7 @@ zzzyk.com###Tinfo
 ||wanwan.sina.com.cn/sinasupersport/back/
 ||wanwan.sina.com.cn/third_party/
 ||wanzikeji.com^
+||waoeou.xyz^
 ||wap.bntxt.com^
 ||wap.gxzhshop.com^
 ||wap.hfoyjg.cn^$third-party
@@ -46047,6 +46059,7 @@ zzzyk.com###Tinfo
 ||wunteetoco.com^
 ||wuplexv.cn^
 ||wurnbx.xyz^
+||wusuliriver.com^
 ||wutaixian.shop^
 ||wutian01.cc^
 ||wutou20230201.live^
