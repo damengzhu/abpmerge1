@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-15 08:12:27
-! Total count: 48276
+! Version: 2023-02-15 16:12:24
+! Total count: 48281
 ###AdBlockDialog
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1155,6 +1155,7 @@
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
+##DIV.stui-player.clearfix > [id*='ad'],div.stui-pannel > [id*='ad'],div.container > [id*='ad']
 ##DIV[class$='_ad_wrap']
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
@@ -1721,6 +1722,7 @@
 ##div.bf_qy DIV.copy_div_btn
 ##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
+##div.container > DIV.t-img-box
 ##div.container > IFRAME[align][width][src][border][height]
 ##div.container > div.row div.yalayi_box
 ##div.container > div.t-img-box > A[href][target='_blank']
@@ -12106,7 +12108,7 @@ alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-amedia.online#$#abort-on-property-read Ya; prevent-listener beforeunload '0x'; prevent-listener pagehide '0x';
+amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener beforeunload '0x'; prevent-listener pagehide '0x';
 amyscans.com##div[class*="code-block"]
 ana1.me##.videopos
 ananvod.com##.rbPicAll
@@ -12221,8 +12223,8 @@ appki.com.pl#@##adsense
 apple.com.cn##.adv-wrapper
 apple.com.cn#$##ac-globalnav { top: 0 !important; }
 apple.com.cn#$#.ac-gn-blur { top: 0 !important; }
+apple.com.cn#$#html #globalnav { top: 0 !important; }
 apple.com.cn#$#html { margin-top: 0 !important; }
-apple.com.cn#$#main[role="main"] { padding-top: var(--global-nav-main-height) !important; }
 applealmond.com##div[style*="height: 260px;"][style*="text-align: center;"]
 appledaily.com###ebBannerTopDiv + A[href^="http://bit.ly/"]
 appledaily.com.tw##.THISISANADHERE
@@ -22564,6 +22566,7 @@ zzzyk.com###Tinfo
 ||550c970411.com^
 ||550tg.com^
 ||551vip.xyz^
+||553aaa.us^
 ||55555555555.xyz^
 ||5555nt.com^
 ||55803.net^$third-party
@@ -22736,6 +22739,7 @@ zzzyk.com###Tinfo
 ||65432.shop^
 ||65688qp.com^
 ||65fsgsv.com^
+||65oml.cn^
 ||65tgh.com^
 ||66.fmx.cn/js/
 ||6604.org^$third-party
@@ -38302,6 +38306,7 @@ zzzyk.com###Tinfo
 ||nqbcf.cn/html/top
 ||nqcacox.cn^
 ||nqfwx.cn^
+||nqhqpq.cn^
 ||nqnggnsc.fun^
 ||nqsc567.com^
 ||nqxvevk.cn^
