@@ -1694,6 +1694,7 @@
 ##adblock-modal-component
 ##adblocker
 ##body .has-ad
+##body > A[ontouchstart='this.click();'][href]
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
@@ -5645,13 +5646,14 @@ exoav.com##.place
 exoav.com##.table
 expedia.com,expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
-expres.cz,idnes.cz##[class^="rma"]
+expres.cz,idnes.cz##[class^="r-main"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
 expres.cz,idnes.cz##a[href*="preroll"]
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
-expres.cz,idnes.cz,blesk.cz###alN-wwp
+expres.cz,idnes.cz#$#abort-on-property-read Object.prototype.kununu_mul
+expres.cz,idnes.cz#$#override-property-read pxReady null
 expreview.com##.babaBox
 expreview.com##.colbaba
 expreview.com##.crossAd
@@ -8366,6 +8368,7 @@ m.qidian.com###fixBoxs, #read_app_download
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
+m.qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 m.qu.la#?#:-abp-has(> a[href*=".bcebos."])
 m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
 m.so.com##.e_idea_list
@@ -8720,7 +8723,6 @@ motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerI
 mover.uz###oframeplayer > [class][style^="display: block"]
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
-movieffm.net##+js(abort-on-property-write, __aaZoneid)
 moxing.net##.pic_txt_list
 moxing.net##a[marked][href*=".taobao.com"]
 moyu16.com##.nav-banner
@@ -11690,6 +11692,9 @@ www.google.com##.ads-ad
 www.google.com,www.google.com.hk,www.google.co.jp##DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%E2%96%9B']),DIV[data-sokoban-container]:has([href*='%E3%80%90%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9E%BF%E3%80%91']),DIV[data-sokoban-container]:has([href*='%E2%8F%AA%29']),DIV[data-sokoban-container]:has([href*='%E2%9A%BD%E3%80%91']),DIV[data-sokoban-container]:has([href*='-%E3%80%90']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F'][href*='%E2%98%80%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='-('][href*='%E2%9C%94%EF%B8%8F']),DIV[data-sokoban-container]:has([href*='%E2%9C%94%EF%B8%8F%29']),DIV[data-sokoban-container]:has([href*='-%E2%9C%94%EF%B8%8F'])
 www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
+www.huadongty.com##DIV[id$=' img-containers']
+www.huadongty.com##SECTION
+www.hzw.com.cn##DIV.xfb_close_icon,DIV#xfb_lbox,DIV.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.ithome.com###lapin
 www.ithome.com##.content>a[href="http://m.ithome.com/ithome/"]
