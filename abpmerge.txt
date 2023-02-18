@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-17 16:11:49
-! Total count: 48344
+! Version: 2023-02-18 08:10:57
+! Total count: 48354
 
 ###AdBlockDialog
 ###Ad_windows
@@ -6869,7 +6869,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 97hj.net##.widget-zfb
 99.com.cn##.hzh_botleft
 99114.com##.indexcjgg
-996dm.com,dandanzan.com,dandanzan10.top,nunuyy5.org,btnull.*##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
+996dm.com,dandanzan.*,dandanzan10.top,nunuyingyuan.com,nunuyy5.org,btnull.*##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
 99a21.com##.wrap-head-spots
 99danji.com,eeyy.com##.top-bg
 99kubo.tv##.main > div[class="datal clear"]
@@ -14475,7 +14475,7 @@ exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
 expedia.com,expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 expres.cz,idnes.cz##[class^="r-main"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
 expres.cz,idnes.cz##a[href*="click?xai="]
@@ -14483,6 +14483,7 @@ expres.cz,idnes.cz##a[href*="preroll"]
 expres.cz,idnes.cz##div[data-redistribute="ad"]
 expres.cz,idnes.cz##videoplayer>video[data-io-video-title*="_idnestv_"]
 expres.cz,idnes.cz#$#abort-on-property-read Object.prototype.kununu_mul
+expres.cz,idnes.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
 expres.cz,idnes.cz#$#override-property-read pxReady null
 expreview.com##.babaBox
 expreview.com##.colbaba
@@ -15736,6 +15737,7 @@ huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com##.J_ad
+huya.com##.end-ab-banner
 huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 huya.com##.nav-expand-list #J_tt_hd_category_ad
 huya.com##.room-business-game
@@ -21285,7 +21287,7 @@ zzzyk.com###Tinfo
 |https:$popup,domain=openload.co|oload.tv|javno.me
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.umei.cc
 |https:$third-party,domain=linkshrink.net
-|https://$script,subdocument,popup,3p,domain=btsow.beauty|dandanzan10.top|nunuyy5.org|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://tellme.pw/go/jav$popup
@@ -26246,6 +26248,7 @@ zzzyk.com###Tinfo
 ||bhcont.com^
 ||bhcumsc.com^
 ||bhcwr.cn^
+||bhduan.xyz^
 ||bhicxb.cn^
 ||bhj691.com^
 ||bhj699.com^
@@ -26769,7 +26772,7 @@ zzzyk.com###Tinfo
 ||btpnav.com^
 ||btrace.qq.com^
 ||btschool.net/images/*/HDYGR
-||btsow.beauty/app/jav$image
+||btsow.mom/app/jav$image
 ||bttrack.com^
 ||btwan5.com^
 ||btwuji.com/jsj1/
@@ -32089,6 +32092,7 @@ zzzyk.com###Tinfo
 ||goohimom.net^
 ||goomaphy.com^
 ||gooods4you.com^
+||gooooogle.xyz^
 ||goopi.cyou^
 ||goosebomb.com^
 ||goourl.me^
@@ -33607,6 +33611,7 @@ zzzyk.com###Tinfo
 ||ie3wisa4.com^
 ||ieatlu.xyz^
 ||iecetun.cn^
+||ieda.live^
 ||ieeod0.com^
 ||ieeod0.com^$popup
 ||ieeod0.com^$third-party
@@ -37988,6 +37993,7 @@ zzzyk.com###Tinfo
 ||nchte.com^
 ||ncnfjasd.net^
 ||ncoeqz.today^
+||ncrkff.xyz^
 ||ncvkzz.cn^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndandinter.hair^
@@ -38268,6 +38274,7 @@ zzzyk.com###Tinfo
 ||nmrdnqn.cn^
 ||nmrlx.cn^
 ||nmsl.ink^
+||nmtibv.xyz^
 ||nmtlgbv.cn^
 ||nmwbank.cn^
 ||nngzfd.cn^
@@ -38785,6 +38792,7 @@ zzzyk.com###Tinfo
 ||op7s.top^
 ||opalaix.cn^
 ||opapxq.com^
+||opeci.cyou^
 ||opeem.cyou^
 ||open8.cn^$third-party
 ||opengam.com^
@@ -38866,6 +38874,7 @@ zzzyk.com###Tinfo
 ||orzx.im/Document/recommend/flashpoint.html
 ||orzx.im/Document/union/
 ||orzx.im/js/*pop
+||osalwqv.cn^
 ||osaud.com^
 ||oscarredwith.xyz^
 ||oschina.net/promotion/
@@ -44781,6 +44790,7 @@ zzzyk.com###Tinfo
 ||uooyoo.com/hz/*str.js
 ||uopsawxst.cyou^
 ||uorlsblg.cyou^
+||uowfag.xyz^
 ||uoyrsd.com^
 ||up-load.io/ds1/js/nt.js
 ||up.hiao.com^
