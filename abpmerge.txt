@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-20 16:11:57
-! Total count: 48389
+! Version: 2023-02-21 08:12:08
+! Total count: 48405
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1165,6 +1165,8 @@
 ##DIV[class^='ads_border_']
 ##DIV[data-text-ad]
 ##DIV[style*='.xyz/gif/']
+##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
+##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
@@ -1707,7 +1709,9 @@
 ##adblocker
 ##body .has-ad
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
+##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
@@ -9615,6 +9619,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||krebsonsecurity.com
 @@||krs-online.com.pl/js/showads.js
 @@||krs-online.com.pl/js/showads.js$script
+@@||ksapisrv.com/rest/wd/common/log/collect/
 @@||ksl.com/myAds/
 @@||kts.visitstats.com/in^$domain=txxx.com
 @@||ktu.sv2.biz/sv3/advertisement.js
@@ -13175,7 +13180,7 @@ chajia123.com###dy2
 chajia123.com##.foot_dybox
 chajiaotong.com##div[id^="cjtad_"]
 championsuefa.tv###closebutton
-changeua.com,ictv.ua,inter.ua,k1.ua,novy.tv,ntn.ua,starlight.digital,stb.ua,teleportal.ua#$#override-property-read Object.prototype.BannerManager undefined
+changeua.com,ictv.ua,inter.ua,k1.ua,novy.tv,ntn.ua,starlight.digital,stb.ua,teleportal.ua#$#override-property-read Object.prototype.ottAdvExt undefined
 channel1.livesportshd.us###ai_tapar_content
 chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindashi."])
 chaomi.cc##.cm-ads
@@ -13720,11 +13725,11 @@ ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner-box
-cupfox.app##.swiper
 cupfox.app##IMG.cupfox-img[width='100%']
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
 cupfox.app#@#.adsbygoogle
+cupfox.app,hcomic.net##.swiper
 cw.com.tw##.cw__advertising
 cw.com.tw##.emailorder
 cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
@@ -15448,7 +15453,6 @@ hclips.com$$script[tag-content="neverblock"][max-length="7000"]
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 hclips.com,upornia.com#$#abort-on-property-read adver
 hcomic.net##.main-container > .swiper
-hcomic.net##.swiper
 hcomic.net##div[class^="horizontalBanner_"]
 hcomic.net##div[class^="multiBanner_bannerBox"]
 hdcast.org##[id^="html"]
@@ -19130,7 +19134,7 @@ setn.com##.rightFloat
 setn.com,eprice.com.tw##div[class^="ad-"]
 settlersonlinemaps.com###prb
 sex-gen.com##.navi
-sex369.net,viet69.tv,sexvietnam.site,phimhoathinh3d.com#$#abort-on-property-read parseInt
+sex369.net,viet69.tv,sexvietnam.site,sexdiaryz.fun#$#abort-on-property-read parseInt
 sex8.cc###nv > ul.cl > li > a[href^="http"]
 sex8.cc##.V-video-float
 sex8.cc##.a_oscar1
@@ -23129,6 +23133,7 @@ zzzyk.com###Tinfo
 ||8861203.com^
 ||8881919.cc^
 ||8881img.com^
+||8886i.top^
 ||8889888.vip^
 ||888dizhi.com/888/
 ||888lianmeng.com^
@@ -23372,6 +23377,7 @@ zzzyk.com###Tinfo
 ||9v58v.com^
 ||9wcn.com/gcld/500.gif
 ||9xeqynu3gt7c.com^
+||9xf9qkz5.com^
 ||9xg2.fun^
 ||9xob25oszs.com^
 ||9xu.com^$third-party
@@ -26379,6 +26385,7 @@ zzzyk.com###Tinfo
 ||bjjabc.com^
 ||bjjabc.com^$third-party
 ||bjkedv*.xyz^
+||bjkedvvelwf.xyz^
 ||bjmama.net/a/spc_
 ||bjmantis.net^
 ||bjqwllp.cn^
@@ -31182,6 +31189,7 @@ zzzyk.com###Tinfo
 ||fmpub.net^
 ||fmzcdvx.cn^
 ||fmzxing.pw^
+||fn9u.fun^
 ||fnbauniukvi.com^
 ||fnkio.cyou^
 ||fnrdymekgohcsj.xyz^
@@ -32461,6 +32469,7 @@ zzzyk.com###Tinfo
 ||h1ek.xyz^
 ||h2aek6rv0ard.com^
 ||h2ji5.xyz^
+||h2n3c.top^
 ||h41s.com^
 ||h45pmx1.cn^
 ||h4b0srs.cn^
@@ -32491,6 +32500,7 @@ zzzyk.com###Tinfo
 ||hadesleta.com^
 ||hadlacrighterthen.pro^
 ||hadsimz.com^
+||haejkmm.cn^
 ||haglance.com^
 ||hahamx.cn/images/banner/
 ||hahamx.cn/images/float-ad/
@@ -34751,6 +34761,7 @@ zzzyk.com###Tinfo
 ||jiulingdl.cn^
 ||jiumai88.com^
 ||jiutiao20221212.xyz^
+||jiutou20230210.live^
 ||jiuyuntian3.cn/vs.php?id=
 ||jiuyuntian3.cn^
 ||jiuzhilan.com^$third-party
@@ -35649,6 +35660,7 @@ zzzyk.com###Tinfo
 ||ks66666661.com^
 ||ks9f.top^
 ||ksadrewrty.com^
+||ksccqu.xyz^
 ||kscly.com^
 ||ksdayhtj.shop^
 ||ksdayhtl.xyz^
@@ -43475,6 +43487,7 @@ zzzyk.com###Tinfo
 ||taghaugh.com^
 ||tags.catapultx.com^$third-party
 ||tags.orquideassp.com^$third-party
+||tahltanboutell.com^
 ||taicheetee.com^
 ||taidi.info^
 ||taigrooh.net^
@@ -43939,6 +43952,7 @@ zzzyk.com###Tinfo
 ||tinymarket.store^
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
+||tioew.cyou^
 ||tipcatscarola.com^
 ||tiresomethunder.com^$third-party
 ||tirongtech.cn^
@@ -45156,6 +45170,7 @@ zzzyk.com###Tinfo
 ||vgrovkb.cn^
 ||vguibased.com^
 ||vgvjkw.com^
+||vgxhvt.xyz^
 ||vh5g.top^
 ||vhanime.com/js/bnanime.js
 ||vhanime.com/js/popgogo.js
@@ -46667,6 +46682,7 @@ zzzyk.com###Tinfo
 ||xinmin.cn/framepage/left1.htm
 ||xinmin.cn/framepage/top
 ||xinmin.cn/framepage/yqLink1.htm
+||xinnianqinggan.xyz^
 ||xinqiannv.com^
 ||xinray.net^
 ||xinrern.cn^
