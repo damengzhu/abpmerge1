@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-24 08:12:20
-! Total count: 48474
+! Version: 2023-02-24 16:12:14
+! Total count: 48485
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1160,6 +1160,7 @@
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.footer-appload.js-footer-appload
+##DIV.index_adpic
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV[allowtransparency='true'][scrolling='no']
@@ -1729,6 +1730,7 @@
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body.active > div.myui-panel > DIV#home_slide
+##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.page > .popup
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
@@ -1760,6 +1762,7 @@
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
 ##div.play_boxbg div[class$='_acmsd']
+##div.post_list_ajax > A[target='_blank']
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
 ##div.stui-pannel__bd > #t-img-box
 ##div.video-box > div.hf > a
@@ -6889,7 +6892,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 97hj.net##.widget-zfb
 99.com.cn##.hzh_botleft
 99114.com##.indexcjgg
-996dm.com,dmlaa.com,dandanzan.com,dandanzan10.top,nunuyy5.org,btnull.*##+js(m3u-prune, /^http/, /^https:\/\/vip\.lz-?cdn\d*\./)
 99a21.com##.wrap-head-spots
 99danji.com,eeyy.com##.top-bg
 99kubo.tv##.main > div[class="datal clear"]
@@ -13804,6 +13806,7 @@ dalipan.com##.hongbao-wrap
 dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
+dandanzan.cf,nunuyingyuan.com,ddys.buzz##+js(m3u-prune, /^http/, /^https:\/\/vip\.ffzy-(?:play|online)\d*\..+\.m3u8$/)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
@@ -16062,6 +16065,7 @@ indiatimes.com#?#div:-abp-has(> a p:-abp-has(> span:-abp-properties(content: "Ad
 indiatimes.com#?#div:-abp-has(> h2:-abp-contains(Promoted Stories))
 indiatimes.com#@#div[id^="div-gpt-ad"]
 indoxx1.show##img[src^="blob:https://indoxx1.show/"]
+inews.qq.com,xw.qq.com##DIV.VideoArticleBottomAdContainer,DIV.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 info-mage.ru###helpme[style="display: block;"]
 info.cz,lupa.cz,karaoketexty.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 infoq.cn##.geo-banner
@@ -20859,6 +20863,7 @@ xiazaizhijia.com##.down_list
 xiebruce.top###ai_widget-2
 xiebruce.top##+js(addEventListener-defuser, , showRemoveAdBlocker)
 xijucn.com###topc
+ximalaya.com##.change-logo.S_q,DIV.packet-container._PC,div.less-tips._PC *
 ximalaya.com##.dl-pc
 xin99r2.com###index_tan
 xin99r2.com##.main > a[href][target="_blank"] > img
@@ -21852,6 +21857,7 @@ zzzyk.com###Tinfo
 ||1haosuo.com^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1jsskipuf8sd.com^
+||1kanz.cn^
 ||1kcx.hk^
 ||1ketang.com/Runtime/js/play
 ||1kmb.cn^
@@ -28906,6 +28912,7 @@ zzzyk.com###Tinfo
 ||d7016uqa4s0lw.cloudfront.net^
 ||d768p7cn.cn^
 ||d7dza8s7j2am6.cloudfront.net^
+||d7i.cn^
 ||d7po8h5dek3wm.cloudfront.net^
 ||d7y5grtl.site^
 ||d86.xyz^
@@ -38295,6 +38302,7 @@ zzzyk.com###Tinfo
 ||niuguwang.net.cn^
 ||niuhe.xyz^
 ||niulai0323166.space^
+||niumeng.xyz^
 ||niunai.buzz^
 ||niuspykmn.bar^
 ||niuxgame77.com^
@@ -40119,6 +40127,7 @@ zzzyk.com###Tinfo
 ||provincebarely.com^
 ||prowesshearing.com^
 ||prowlfertilisedkeeping.com^
+||prplads.com^
 ||prpops.com^
 ||prpops.com^$third-party
 ||prre.ru^
@@ -41939,6 +41948,7 @@ zzzyk.com###Tinfo
 ||sdefx.cloud/js/acheck.js
 ||sdegwynml.bmaci.me^
 ||sdfafds6.com^
+||sdfg68.com^
 ||sdfjtwp.com^
 ||sdfv66.com^
 ||sdfxv57.com^
@@ -42133,6 +42143,7 @@ zzzyk.com###Tinfo
 ||sfsft.com/ckplayer/1config.js
 ||sfstatic.net/build/js/chunk~propclick-js-main-js
 ||sfstfiz.cn^
+||sfsxl.xyz^
 ||sftapi.com^
 ||sftcdn.net/acmp^$image,domain=softonic.com
 ||sfultraight.xyz^
