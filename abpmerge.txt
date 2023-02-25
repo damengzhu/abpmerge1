@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-25 08:11:04
-! Total count: 48502
+! Version: 2023-02-25 16:10:53
+! Total count: 48498
 
 ###AdBlockDialog
 ###Ad_windows
@@ -890,7 +890,6 @@
 ##.lyad
 ##.lyzm-prevent
 ##.m1938-container
-##.m_acmsd
 ##.m_hot_rec_box_base[id^="right"]
 ##.main-ad-l
 ##.main-ad-r
@@ -948,7 +947,6 @@
 ##.pane-emediate
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
-##.pc_acmsd
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -1100,6 +1098,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
@@ -1108,7 +1107,6 @@
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
-##A[href='http://88yd.cc/']
 ##A[href='http://8hgpro.vip/']
 ##A[href='http://95710.vip']
 ##A[href='http://k023055.com']
@@ -1154,6 +1152,7 @@
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.box-width.ec-ad
 ##DIV.box-width.ec-ad.ec-ad-double.flex
+##DIV.code-block[style='margin: 8px 0; clear: both;']
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
 ##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
 ##DIV.div_adhost
@@ -1174,6 +1173,7 @@
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
 ##IMG.cupfox[src$='gif']
@@ -1213,7 +1213,6 @@
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
 ##[class^="chapter_"] > .baiduCenter
-##[data-url='http://xixi.stylar.hk/']
 ##[href$='/ads.aspx']
 ##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
 ##[href*="/entry/register/?i_code="]
@@ -1221,7 +1220,6 @@
 ##[href*='.xacg.info/']
 ##[href*='sohu.com/hy-op']
 ##[href="/ad/007.html"]
-##[href="http://www.28cpw.com"]
 ##[href='/ad.html']
 ##[href='/ad/bfy.html']
 ##[href='/aga2/1661087']
@@ -1229,24 +1227,17 @@
 ##[href='/my/dp.html']
 ##[href='/my/gd.html']
 ##[href='http://ky53362.com/']
-##[href='http://li.hmwang.cc']
-##[href='https://blfanss.com']
-##[href='https://cai35b9.com/']
 ##[href='https://click.aliyun.com/m/1000332699/']
 ##[href='https://dpurl.cn/HifSTUtz']
 ##[href='https://www.aiwajbh.com/mh.php']
-##[href='https://www.riqingxs.com/']
 ##[href^="//mage98rquewz.com/"]
 ##[href^="//x4pollyxxpush.com/"]
 ##[href^="https://9996867.com"]
 ##[href^="https://lantianyong"]
 ##[href^="openapp.jdmobile://virtual?params="]
-##[href^='http://akmh069.vip']
 ##[href^='http://j6597v.hjlego.com']
-##[href^='http://jg.awaliwa.com/tg']
+##[href^='http://jg.awaliwa.com/']
 ##[href^='http://mm.alameinv.com/']
-##[href^='http://www.hyd59.com/']
-##[href^='https://0414483.com/']
 ##[href^='https://65564535.com']
 ##[href^='https://97749516.com/']
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
@@ -1262,7 +1253,6 @@
 ##[href^='https://kcc.qrjxween.com/cc/']
 ##[href^='https://luodi.aitaokeji.top/']
 ##[href^='https://mtyshi.com/']
-##[href^='https://record.brave108.com/']
 ##[href^='https://tz.jingjiezhenkong.com']
 ##[href^='https://tz.kefuyuming.vip/']
 ##[href^='https://w5979.com:']
@@ -34387,6 +34377,7 @@ zzzyk.com###Tinfo
 ||ityou2tcdb.icu^
 ||iu9g.top^
 ||iuerxw.xyz^
+||iugbjkqwc.xyz^
 ||iuliglsh.space^
 ||iumnxwvh.ink^
 ||iuou.myadobe.cn^
@@ -34832,6 +34823,7 @@ zzzyk.com###Tinfo
 ||jizzberry.com/static/js/initsite.min.js
 ||jizzensirrah.com^
 ||jj.jaupsgrimes.com^
+||jjdk33.com^
 ||jjfopb.xyz^
 ||jjj*.com/static/js/common.js
 ||jjjak.com^
@@ -36948,6 +36940,7 @@ zzzyk.com###Tinfo
 ||maiche.com/iframe/rank.html
 ||maikashu.net^
 ||mail-ads.google.com^
+||mail.kguapp.com^
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.qq.com/lview?
 ||mailderef.mail.com^
@@ -40468,6 +40461,7 @@ zzzyk.com###Tinfo
 ||qdbh.store^
 ||qdc7y9x.xyz^
 ||qdchunyu.com^
+||qdczx66.com^
 ||qdglzx.com^
 ||qdhhdsw.cn^
 ||qdjimo.com/html/js/
@@ -48483,6 +48477,8 @@ zzzyk.com###Tinfo
 ~car.kdslife.com,enet.com.cn,fjsen.com,hupu.com,kdslife.com,~my.hupu.com,mysteel.com,news.cnyes.com,pchome.net,rznews.cn##div[class^="ad"]
 ~cbachina.sports.sohu.com,sohu.com##sohuadcode
 ~cityheaven.net###gg1
+~dongman8.com##.m_acmsd
+~dongman8.com##.pc_acmsd
 ~etao1.com##a[href*=".etao1.com/"]
 ~h5.dilidili.wang,dilidili.wang#$#a[href*=".11h5."] img { position: absolute!important; left: -3000px!important; }
 ~houdask.com###kfivtwin
