@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-02-28 16:12:25
-! Total count: 48581
+! Version: 2023-03-01 08:12:45
+! Total count: 48601
 
 ###AdBlockDialog
 ###Ad_windows
@@ -4761,7 +4761,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /nb/*$script,domain=bigtitslust.com|pornhex.com|159i.com|babesjoy.com|pornyfap.com|imgtorrnt.in|imgtornado.com|shameless.com|imgdone.com|webcamshows.org|ipicture.su|youav.com|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|maturetubehere.com|amateur8.com|freeporn8.com
 /nb/frot_lod.
 /nbk/frnd_ld.js
-/new/837*.html
+/new/27*.html
+/new/55*.html
+/new/83*.html
+/new/86*.html
 /new/ad/*
 /new/ads/*
 /newAd/*
@@ -7150,6 +7153,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@/advertising.js$script,domain=itespresso.fr
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
+@@/adview_*_ads_300x250.js$domain=yaociyuan.bid
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -13029,6 +13033,7 @@ brushes8.com###flxgg
 brushes8.com##.baidugg580
 brushes8.com##.zjianad
 bs.to,burningseries.co#$#abort-current-inline-script Object
+bstudy.net,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org#$#abort-on-property-read abl
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
 bt1207ma.xyz##a[href*="/uuribao.com/"]
@@ -20134,6 +20139,7 @@ tv.ci##a[target="_blank"] > img[src^="https://cdn.jsdelivr.net/gh/dsx0095/img/"]
 tv.sohu.com###miaozhenad
 tv.sohu.com###referr_bd_box
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
+tv.sohu.com##DIV.actv-banner.js-app-topbanner,DIV.banner_yunying,DIV.js-oper-pos,IMG.vrs-banner-act-img
 tv.tugastvs.com###adtugas1
 tv.tugastvs.com###adtugas2
 tv.tugastvs.com###adtugas3
@@ -20749,6 +20755,7 @@ www.playno1.com##.eis_box_s
 www.qq.com##div[class^="adRight"]
 www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
+www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz##div[class^="atm-advert-label"]
 www.seznam.cz##div[id*="nativeSspAdvert"]
@@ -20967,6 +20974,10 @@ yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz
 yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
+yaociyuan.bid##+js(set-constant, killads, true)
+yaociyuan.bid##.board a[target="_blank"] > img
+yaociyuan.bid##.content a[target="_blank"] > img
+yaociyuan.bid##.w-ad
 yaofangwang.com##.bad
 yaoshe67.com##.container > .top
 yarik-sat.com##.noadb
@@ -22147,7 +22158,6 @@ zzzyk.com###Tinfo
 ||325szdv.cn^
 ||3269x.com^
 ||32851897.com^
-||328888.xyz^
 ||32xp.com/upimg/
 ||3310238.notifysrv.com^
 ||3312054.notify6.com^
@@ -23349,6 +23359,7 @@ zzzyk.com###Tinfo
 ||99496.com/static/
 ||99496.com/v9/head.js
 ||99520.xyz^
+||996000996.xyz/ga/$image,domain=yaociyuan.bid
 ||99885aaa.com^
 ||99886aaa.com^
 ||99888aaa.com^
@@ -29329,6 +29340,7 @@ zzzyk.com###Tinfo
 ||dg.yaomuzhubao.com^
 ||dg186.cn^
 ||dgaoz.com^
+||dgaxxjq.cn^
 ||dgbaozhuang.cn^
 ||dgemanowhot.com.ua^
 ||dgfgflod.com^
@@ -30797,6 +30809,7 @@ zzzyk.com###Tinfo
 ||ezprice.com.tw/js/*_ysm_
 ||ezqmrd9tl9.cn^
 ||ezu6rd5.houge.in^
+||ezwxia.xyz^
 ||ezxws.cyou^
 ||ezyenrwcmo.com^
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
@@ -31206,6 +31219,7 @@ zzzyk.com###Tinfo
 ||fla4n6ne7r8ydcohcojnnor.com^
 ||flabbyyolkinfection.com^
 ||flagmantensity.com^
+||flagshipism.com^
 ||flan.fun^
 ||flannelbeforehand.com^
 ||flarebania.com^
@@ -32450,6 +32464,7 @@ zzzyk.com###Tinfo
 ||gunmi.cn^$third-party
 ||guntang.me^
 ||gunzblazingpromo.com^
+||guoandong.ltd^
 ||guode.cyou^
 ||guojinfeng123.top^
 ||guojitv.com/m/ad/
@@ -37323,6 +37338,7 @@ zzzyk.com###Tinfo
 ||meshpetrols.com^
 ||messagereceiver.com^
 ||messenger-notify.digital^
+||mestrip.com/widgets/
 ||metabet.io/js/global.js
 ||metaffiliation.com^$third-party,domain=~netaffiliation.com
 ||metahv.xyz^
@@ -38816,6 +38832,7 @@ zzzyk.com###Tinfo
 ||okmwfq.xyz^
 ||oknmalpxnjhe.xyz^
 ||oko.net^
+||okoc.top^
 ||okod.top^
 ||okokw.com^$third-party
 ||okooo.com/I/?method=system.data.ad&
@@ -42461,6 +42478,7 @@ zzzyk.com###Tinfo
 ||sidebyz.com^
 ||siduohua.top^
 ||siegepolitical.com^
+||siejp.cyou^
 ||sifa.aak7.cn^
 ||sifang.info^
 ||sifenews.com^
@@ -42687,6 +42705,7 @@ zzzyk.com###Tinfo
 ||sloth.goodtendency.app^
 ||slowbeat.fun^
 ||slshiye.cn^
+||slsuggestion.live^
 ||slsynmlb.fun^
 ||slsyuulb.cam^
 ||sltvhyjthx.com^
@@ -47018,6 +47037,7 @@ zzzyk.com###Tinfo
 ||xnklgas.cn/common/getBannerList
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
+||xnrcnz.xyz^
 ||xntk.org^*.html
 ||xnxonbf.cn^
 ||xnxx-cdn.com/*/js/static/header/sda/ppsuma*.js
