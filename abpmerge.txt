@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-02 08:12:39
-! Total count: 48624
+! Version: 2023-03-02 16:12:26
+! Total count: 48638
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1500,6 +1500,7 @@
 ##a[href*=".yyk2.com/"]
 ##a[href*=".yypls.com/"]
 ##a[href*="/10093813.com"]
+##a[href*="/1124024.xyz"]
 ##a[href*="/1266p.com:"]
 ##a[href*="/136ayx.vip"]
 ##a[href*="/1560045.cc"]
@@ -13014,7 +13015,7 @@ boylov.xyz,boylove.cc#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###yteggbue
 boylove.cc##.dzxvovcm
 boylove.cc##.reader-home-swiper
-boylove.cc##DIV[style='bottom: 80px;']
+boylove.today,boylove1.cc,boyloves.fun,boylove3.cc##DIV[style='bottom: 80px;']
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 brandsales.58.com#@#div[id^="ad_"]
 brazzers-hdx.club##.adblck
@@ -13038,7 +13039,7 @@ brushes8.com###flxgg
 brushes8.com##.baidugg580
 brushes8.com##.zjianad
 bs.to,burningseries.co#$#abort-current-inline-script Object
-bstudy.net,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org#$#abort-on-property-read abl
+bstudy.net#$#abort-on-property-read _0xddc4
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
 bt1207ma.xyz##a[href*="/uuribao.com/"]
@@ -19702,6 +19703,10 @@ strmh24.com###b1
 stroi-help.ru##.alert_warn
 strtape.cloud,adblockeronstape.me,streamadblockplus.com,shavetape.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,stape.fun,strcloud.link,streamtape.*$$script[wildcard="*window*googleAd*"]
 strtapeadblock.me#$#abort-on-property-write _pao
+studbooks.net#$#abort-on-property-read _0x8336
+studme.org#$#abort-on-property-read _0x5443
+studref.com#$#abort-on-property-read _0x308a
+studwood.net#$#abort-on-property-read _0x8cc0
 study.163.com###j-newpeople
 studygolang.com###ad-right1
 subaibai.com###note
@@ -20477,6 +20482,7 @@ vsaduidoma.com##.ABD_display_wrapper
 vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
 vuetifyjs.com##.v-sponsors
 vuukle.com##a[href*="news.vuukle.com/u/"]
+vuzlit.com#$#abort-on-property-read _0xc091
 vx666.com##.async[href^="http"]
 w3cplus.com###block-block-49
 w3cschool.cn##.abox-content
@@ -20917,6 +20923,7 @@ xoilac21.tv##.modal.fade.show
 xoilac21.tv#$#abort-current-inline-script jQuery overlay
 xoilac21.tv#$#abort-current-inline-script jQuery popupBanners
 xoilac21.tv#$#abort-on-property-read adsRedirectPopups
+xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
 xtuan.com###foot_zhaobiao_bar
 xueqiu.com##.ad-right-aside
@@ -23415,6 +23422,7 @@ zzzyk.com###Tinfo
 ||9f1i3az.cn^
 ||9f84a22351.com^
 ||9fh6m.cn^
+||9fum.ifeng.com^
 ||9fwz.com^
 ||9go.mobi^
 ||9h5qq.cn^$third-party
@@ -30623,6 +30631,7 @@ zzzyk.com###Tinfo
 ||erhsxv.top^
 ||erjiyouhuiquan.com^
 ||erm5aranwt7hucs.com^
+||ermao20230220.live^
 ||ero-advertising.com^
 ||eroadvertising.com^$third-party
 ||erofus.com/ass
@@ -33671,6 +33680,7 @@ zzzyk.com###Tinfo
 ||ibillboard.com^$third-party
 ||ibiquge.la/base
 ||ibjkafefertt.xyz^
+||ibjkdwsdko.com^
 ||iblimq.xyz^
 ||ibozys.cn^
 ||ibqswjdkpo.com^
@@ -34057,6 +34067,7 @@ zzzyk.com###Tinfo
 ||imgs.cc/images/ad_
 ||imgs.cc/img/8Pl6FJY.gif
 ||imgs.cc^$domain=fun1shot.com
+||imgs.itxueyuan.com/advPicture/
 ||imgshare.info^$badfilter
 ||imgsicily.it/dist/sweetalert
 ||imgsniper.com^
@@ -44705,6 +44716,7 @@ zzzyk.com###Tinfo
 ||txzqw.*/js/float.js
 ||txzqw.me/attachment88txzqw/*.gif
 ||txzqw.me/tupian/
+||ty-baidu.xyz^
 ||ty121.cn/IAA/
 ||ty123.ltd^
 ||tyatedgrogs.xyz^
@@ -44785,6 +44797,7 @@ zzzyk.com###Tinfo
 ||u25022.com^
 ||u2676.com^
 ||u26u.com^$popup,third-party
+||u33011.com^
 ||u5fsqf.com^
 ||u5ree6.com^
 ||u644.fun^
@@ -45403,6 +45416,7 @@ zzzyk.com###Tinfo
 ||video-ads.rubiconproject.com/video/*/vast.xml$redirect=nooptext,important
 ||video-serve.com^
 ||video.da.mgtv.com/$media
+||video.itxueyuan.com/1672473525178992.mp4
 ||video.new-eve.com^
 ||video.onnetwork.tv^$domain=demotywatory.pl
 ||video.onnetwork.tv^$domain=jbzd.com.pl
