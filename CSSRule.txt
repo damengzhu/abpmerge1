@@ -1756,6 +1756,7 @@
 ##div.flex-1.order-first > DIV.under_player
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.main div.content div[id].is_mb a[id] img[id]
+##div.maomi-content > SECTION.section.section-banner
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
@@ -1872,6 +1873,7 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##secion#ly LI[role='group'],secion#ly > H2
+##section.global_video_bottom_dbtc
 ##span > A[href='###']
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -2887,6 +2889,7 @@
 55188.com,g138.com##.gg_head_m
 55188.com,g138.com##.gg_head_r
 5555op.com,router.houzi-blog.top##.img
+555hd2.com##a[href^="https://57063683.com"]
 5588.tv##.ProDaTu
 5588.tv##.ringhttu
 55haitao.com##.bbs-bottom-popup
@@ -3333,6 +3336,7 @@ ali213.net##.newright
 ali213.net##.qztf
 ali213.net##.video-window
 ali213.net##.zadmainholder
+ali213.net##DIV.placeholderforpromotion
 ali213.net##div[class^="GG"]
 ali213.net##div[id^="ali-ad-js-"]
 ali213.net#@#.subscribe-container
@@ -11694,6 +11698,7 @@ www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"
 www.baidu.com#@#div[class*="ads"]
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
+www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
@@ -11706,7 +11711,6 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads") or contains(@href,"socialads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[@aria-labelledby][@role="button"]/ancestor::div[@role="article"]';
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;

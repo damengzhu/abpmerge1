@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-01 16:12:49
-! Total count: 48611
+! Version: 2023-03-02 08:12:39
+! Total count: 48624
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1762,6 +1762,7 @@
 ##div.flex-1.order-first > DIV.under_player
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.main div.content div[id].is_mb a[id] img[id]
+##div.maomi-content > SECTION.section.section-banner
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
@@ -1878,6 +1879,7 @@
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##secion#ly LI[role='group'],secion#ly > H2
+##section.global_video_bottom_dbtc
 ##span > A[href='###']
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -6651,6 +6653,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 55188.com,g138.com##.gg_head_m
 55188.com,g138.com##.gg_head_r
 5555op.com,router.houzi-blog.top##.img
+555hd2.com##a[href^="https://57063683.com"]
 5588.tv##.ProDaTu
 5588.tv##.ringhttu
 55haitao.com##.bbs-bottom-popup
@@ -12124,6 +12127,7 @@ ali213.net##.newright
 ali213.net##.qztf
 ali213.net##.video-window
 ali213.net##.zadmainholder
+ali213.net##DIV.placeholderforpromotion
 ali213.net##div[class^="GG"]
 ali213.net##div[id^="ali-ad-js-"]
 ali213.net#@#.subscribe-container
@@ -20702,6 +20706,7 @@ www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"
 www.baidu.com#@#div[class*="ads"]
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
+www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
@@ -20714,7 +20719,6 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][contains(@href,"doubleclick.net") or contains(@href,"Paid") or contains(@href,"paid") or contains(@href,"ad.atdmt.com") or contains(@href,"adform.net") or contains(@href,"serving-sys.com") or contains(@href,"adition.com") or contains(@href,"flashtalking.com") or contains(@href,"bid=") or contains(@href,"Advertising") or contains(@href,"click") or contains(@href,"utm_medium=cpc") or contains(@href,"onversions") or contains(@href,"ad_name") or contains(@href,"utm_content=promo") or contains(@href,"ad_id") or contains(@href,"social_ads") or contains(@href,"socialads")]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@target="_blank"][not(starts-with(@href,"https://l.facebook"))][contains(@href,"fbclid=")][not(text())]//div[@style="display: flex;"][count(./div) = 60]/ancestor::div[@role="article"]'; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//div[@aria-labelledby][@role="button"]/ancestor::div[@role="article"]';
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;
@@ -23268,6 +23272,7 @@ zzzyk.com###Tinfo
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||9191919199.com^
 ||91avv8.com/vU18BNDYo1ktVpge.js
+||91chaodijia.com^
 ||91cy.top^
 ||91danji.com/attachments/201810/12/10/2hdyj7ut9.jpg
 ||91danji.com/js/lmt.js
@@ -29461,6 +29466,7 @@ zzzyk.com###Tinfo
 ||diplomasewerivory.com^
 ||dipseymontia.com^
 ||diptaich.com^
+||diqizu.xyz^
 ||direct.apus.tech^$third-party
 ||directadvert.ru^$third-party
 ||directcpmfwr.com^
@@ -30439,6 +30445,7 @@ zzzyk.com###Tinfo
 ||ejktj.com^
 ||ejnjapw.cn^
 ||ejunshi.com^
+||ejyvgq.xyz^
 ||ekcsqzo.cn^
 ||ekdbfu.cn^
 ||ekhnbwe.cn^
@@ -33666,6 +33673,7 @@ zzzyk.com###Tinfo
 ||ibjkafefertt.xyz^
 ||iblimq.xyz^
 ||ibozys.cn^
+||ibqswjdkpo.com^
 ||ibrapush.com^
 ||ibugreeza.com^
 ||ibwqfpo.xyz^
@@ -34764,6 +34772,7 @@ zzzyk.com###Tinfo
 ||jiaohezhen.com^
 ||jiaoyou8.com^$domain=mitbbs.ca|mitbbs.com
 ||jiaoyu.baidu.com/tieba/
+||jiape.cyou^
 ||jiasheng-china.cn^
 ||jiasule.com/static/js/http_error.js
 ||jiatang.club^
@@ -35421,6 +35430,7 @@ zzzyk.com###Tinfo
 ||katlacw.cn^
 ||katodaf.com^
 ||katukaunamiss.com^
+||katynplum.ltd^
 ||kaurouby.net^
 ||kaushoag.net^
 ||kavanga.ru^
@@ -38822,6 +38832,7 @@ zzzyk.com###Tinfo
 ||ok-ddjsyuming.com^
 ||ok-qqzzjsyuming.com^
 ||ok.432kkk.com^
+||okag.top^
 ||okanjo.com^$third-party
 ||okayarab.com^
 ||okbmf.com/imgad/
@@ -39593,6 +39604,7 @@ zzzyk.com###Tinfo
 ||pgonews.pro^
 ||pgpartner.com^
 ||pgpkrrk.cn^
+||pgrjxpd.cn^
 ||pgssl.com^
 ||ph-query-1.looksmart.com^
 ||phabycebe.com^
@@ -47210,6 +47222,7 @@ zzzyk.com###Tinfo
 ||xxrsxs.cn^
 ||xxsmcps.com^
 ||xxsywxj.com^
+||xxtalp.xyz^
 ||xxvkwuk.cn^
 ||xxwd.ltd^
 ||xxx18.uno/*-code.js
