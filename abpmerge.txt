@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-02 16:12:26
-! Total count: 48638
+! Version: 2023-03-03 08:11:47
+! Total count: 48674
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1296,6 +1296,7 @@
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##a > I.gg-icon
+##a > IMG.img-responsive[src*='.gif']
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a#wrapper_left_bg[target="_blank"]
 ##a#wrapper_right_bg[target="_blank"]
@@ -1607,6 +1608,7 @@
 ##a[href*="/l1y9.com"]
 ##a[href*="/l76fh.com"]
 ##a[href*="/leyu178.ee"]
+##a[href*="/lm01c.com"]
 ##a[href*="/lm63m.vip"]
 ##a[href*="/mda1.site/"]
 ##a[href*="/mdapp2.cc/"]
@@ -7406,6 +7408,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
 @@||990.ro/functions/adgen2/adbanner.js$script,~third-party
+@@||996000996.xyz/ga/adview_
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9anime.nl/ajax/
@@ -12269,7 +12272,7 @@ apowersoft.cn##.activity-poster
 appchina.com###yyh-bottom
 appinn.com###ranshownow
 appinn.com###sidebar > .widget:first-child
-appinn.com###sidebar a[rel^="sponsored"]
+appinn.com###sidebar A[rel*="sponsored"]
 appinn.com##.ads-m
 appinn.com,hexieshe.cn###media_image-2
 appki.com.pl#@##adsense
@@ -21654,6 +21657,7 @@ zzzyk.com###Tinfo
 ||1200555.com^
 ||1201555.com^
 ||1202liutiao.xyz^
+||1203555.com^
 ||1205qitiao2022.xyz^
 ||12086.net^
 ||120askimages.com/ask/js/askfrom.js
@@ -21946,6 +21950,7 @@ zzzyk.com###Tinfo
 ||2048hd1.com/js/tc.js
 ||206ads.com^
 ||2077.tech^
+||208622.top^
 ||20mao.com/52
 ||20mao.com/js/sj.
 ||20tracks.com^
@@ -23374,6 +23379,7 @@ zzzyk.com###Tinfo
 ||99496.com/v9/head.js
 ||99520.xyz^
 ||996000996.xyz/ga/$image,domain=yaociyuan.bid
+||996000996.xyz^
 ||99885aaa.com^
 ||99886aaa.com^
 ||99888aaa.com^
@@ -23753,6 +23759,7 @@ zzzyk.com###Tinfo
 ||achievablecpmrevenue.com^
 ||achievehardboiledheap.com^
 ||achnic.com^
+||achost.top/banner/
 ||achuphaube.com^
 ||achyrepeatitchy.com^
 ||acidpigs.com^$third-party
@@ -23931,6 +23938,7 @@ zzzyk.com###Tinfo
 ||additionant.com^$third-party
 ||additionfeud.com^
 ||additionindianscontentment.com^
+||additionsmiracle.com^
 ||additionssurvivor.com^
 ||addoer.com^
 ||addoor.net^$third-party
@@ -26967,6 +26975,7 @@ zzzyk.com###Tinfo
 ||byambipoman.com^
 ||byfft.top^
 ||byfoongusor.com^
+||byj123.cn^
 ||bypassprofessordemonstrate.com^
 ||byqiu.xyz^
 ||byrledmtscmd.com^
@@ -27430,6 +27439,7 @@ zzzyk.com###Tinfo
 ||cdntxt.com/t2/
 ||cdnuapn.cn^
 ||cdnvideo3.com/api/spots/
+||cdrhjt.com^
 ||cdrvrs.com^
 ||cdsbnrs.com^
 ||cdsbnrs.com^$third-party
@@ -30281,6 +30291,7 @@ zzzyk.com###Tinfo
 ||ebp.renren.com^
 ||ebpu2.top^
 ||ebrun.com/jfile/position/js/*.js
+||ebten.xyz^
 ||ebz.io^
 ||ebzqyow.cn^
 ||ec5e727d37.com^
@@ -30741,6 +30752,7 @@ zzzyk.com###Tinfo
 ||ew740.cn^
 ||ewadakesw.cyou^
 ||ewaglongoo.com^
+||ewahj.cyou^
 ||ewaighee.xyz^
 ||ewayanplease.xyz^
 ||ewjakayndd.com^
@@ -31119,6 +31131,7 @@ zzzyk.com###Tinfo
 ||fhpjoqi.cn^
 ||fhsiqk.xyz^
 ||fhsmtrnsfnt.com^
+||fhvbhx.xyz^
 ||fieldofbachus.com^
 ||fiercedental.com^
 ||figgleimpregn.com^
@@ -31860,6 +31873,7 @@ zzzyk.com###Tinfo
 ||gettraffnews.com^
 ||gexing.com/i/*960x
 ||gexing.com/j/??zmask.js,easing.js?
+||geziyd.com^
 ||gezkdx7.com^
 ||gfan.com/press/
 ||gfd80.com^
@@ -32514,6 +32528,7 @@ zzzyk.com###Tinfo
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwertyuadf.com^
 ||gwf0.icu^
+||gwg51.com^
 ||gwmeinq.cn^
 ||gwmrb.cn^
 ||gwwsevy.cn^
@@ -33123,6 +33138,7 @@ zzzyk.com###Tinfo
 ||hkosgxn.cn^
 ||hktvmall.com/api/preroll/getList?
 ||hkzzacp.cn^
+||hlalliances.com^
 ||hlgglm.com^
 ||hljcq.xyz^
 ||hlmiq.com^
@@ -33448,6 +33464,7 @@ zzzyk.com###Tinfo
 ||huifuhuo.com^
 ||huigun.top^
 ||huihemou.com^
+||huihuiqi.com^
 ||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
 ||huijixian.com^
 ||huijizhen.com^
@@ -34454,6 +34471,8 @@ zzzyk.com###Tinfo
 ||itwasbrghttohi.com.ua^
 ||itweepinbelltor.com^
 ||itxinrou.com^
+||itxueyuan.com/advPicture/
+||itxueyuan.com^*.mp4
 ||ityangstudy.cn^
 ||ityou2tcdb.icu^
 ||iu9g.top^
@@ -35045,6 +35064,7 @@ zzzyk.com###Tinfo
 ||jqtzw.xyz^
 ||jquery-cdn.cc^
 ||jquery.envi-met.com.cn^
+||jqueryboots.com^
 ||jquerycdn.host^
 ||jqueryoi.com^
 ||jqyde7msbro2.com^
@@ -35058,6 +35078,7 @@ zzzyk.com###Tinfo
 ||jrmianban.com/img/images/g-g/
 ||jrnrpma.cn^
 ||jrpkizae.com^
+||jrrwsk.ltd^
 ||jrrxbz.net^
 ||jrysogsia.uno^
 ||jrzj.com/images/bgright_ad.jpg
@@ -35813,6 +35834,7 @@ zzzyk.com###Tinfo
 ||ksqfwxu.cn^
 ||kstj.baidu.com^
 ||ksxb.ltd^
+||kszxqq.com^
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
 ||kt51.com/wz.jpg
@@ -36190,6 +36212,7 @@ zzzyk.com###Tinfo
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
+||lelouch.tech^
 ||lemoncai.xyz^
 ||lemouwee.com^
 ||lencool.cn^
@@ -37189,6 +37212,7 @@ zzzyk.com###Tinfo
 ||maxbounty.com^
 ||maxcache.ml^
 ||maxim.pub^
+||maximpetus.com^
 ||maximumductpictorial.com^
 ||maxonclick.com^
 ||maxthonimg.com/v6/festival/
@@ -37847,6 +37871,7 @@ zzzyk.com###Tinfo
 ||mt.64foot.com^
 ||mt34iofvjay.com^
 ||mt66g.com^
+||mtawcy.xyz^
 ||mtburn.com^$third-party
 ||mthdqs.cn^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
@@ -38350,6 +38375,7 @@ zzzyk.com###Tinfo
 ||nhscv.cn^
 ||nhtieoo.cn^
 ||ni87.com^
+||niaideren.icu^
 ||niangaoxiansheng.com^
 ||nianshen.xyz^
 ||nibblebit.com/assets/media/adverts.php
@@ -40093,6 +40119,7 @@ zzzyk.com###Tinfo
 ||ppwrc.xyz^
 ||ppyibei.com^
 ||pqfgtp.cn^
+||pqjprom.cn^
 ||pqnnjjpzarpb.com^
 ||pqplkjwwezfrn.com^
 ||pqxbcydpv.xyz^
@@ -40532,6 +40559,7 @@ zzzyk.com###Tinfo
 ||qasqs.com^
 ||qat5.top^
 ||qawpicxuca.com^
+||qawxpzm.cn^
 ||qaxkwxpf.cn^
 ||qayqa.com:6868/jquery/
 ||qbazhaheiy.top^
@@ -40824,6 +40852,7 @@ zzzyk.com###Tinfo
 ||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qponfva.cn^
 ||qptnew.com^
 ||qq-hls.xyz^
 ||qq.com/Index/getAdsAndHotspot
@@ -43443,6 +43472,7 @@ zzzyk.com###Tinfo
 ||superonclick.com^
 ||superonclick.com^$third-party
 ||superxxxfree.com^
+||supfree.net/baotu.
 ||supfree.net/england/
 ||supfree.net/poland/mobile.js
 ||supfree.net/stat
@@ -44181,6 +44211,7 @@ zzzyk.com###Tinfo
 ||tjhhr.com^
 ||tjiaa.com^
 ||tjj.com^
+||tjnwfjy.cn^
 ||tjqonline.cn^
 ||tjqwb.cn^
 ||tjxafmo.cn^
@@ -45782,6 +45813,7 @@ zzzyk.com###Tinfo
 ||wanwan.sina.com.cn/kb/
 ||wanwan.sina.com.cn/sinasupersport/back/
 ||wanwan.sina.com.cn/third_party/
+||wanyi.pw^
 ||wanzikeji.com^
 ||waoeou.xyz^
 ||wap.bntxt.com^
@@ -47724,6 +47756,7 @@ zzzyk.com###Tinfo
 ||youmw.com^$third-party
 ||youngalsobeautiful.com^
 ||youngestdisturbance.com^
+||youp05.com^
 ||youpukeji.cn^
 ||youqunjx.com^$third-party
 ||your-notice.com^
@@ -48385,6 +48418,7 @@ zzzyk.com###Tinfo
 ||zlyk.com^*/ysapp.
 ||zmakj.xyz^
 ||zmdtcw.cn^
+||zmhqhuq.cn^
 ||zmjagawa.com^
 ||zmk.pw/zfb.png
 ||zmkj.club^
@@ -48586,6 +48620,7 @@ zzzyk.com###Tinfo
 ||zzc.cn/b1/live_b_
 ||zzdsjxsb.com^
 ||zzeblsg.cn^
+||zzgxqlzh.com^
 ||zzgyly.cn^
 ||zzkj.biz^
 ||zzmmkj.com^
@@ -48594,6 +48629,7 @@ zzzyk.com###Tinfo
 ||zzpzero.com^
 ||zzqqhb.com^
 ||zzsky.com/images/a_d_
+||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js
 ||zzwzsic.cn^
 ||zzxedr.xyz^
