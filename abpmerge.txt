@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-04 08:11:08
-! Total count: 48696
+! Version: 2023-03-04 16:10:43
+! Total count: 48708
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1104,6 +1104,7 @@
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
+##A[href*='//v.wanfumei.net']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -1148,6 +1149,7 @@
 ##DIV#div1.div-relative[style='display:block;']
 ##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
+##DIV#recommend-float.player-recommend-float > a
 ##DIV#tads
 ##DIV#video-player-ads-wrap
 ##DIV.JS_mid_ad
@@ -1178,6 +1180,7 @@
 ##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
+##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
@@ -1741,6 +1744,8 @@
 ##body.chapter > div.container div.slide-baidu *
 ##body.no_overflow strong
 ##body.page > .popup
+##body.page.player > DIV.shortcuts-mobile-overlay
+##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
 ##button[onclick*=".xacg.info/"]
@@ -1772,6 +1777,7 @@
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
 ##div.play_boxbg div[class$='_acmsd']
+##div.player-rm.rm-two.rm-list > a
 ##div.post_list_ajax > A[target='_blank']
 ##div.row > DIV.md-r-panel
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
@@ -23440,6 +23446,7 @@ zzzyk.com###Tinfo
 ||9ihome.com/info/ADTopvnet/
 ||9ist.com/others/ad/
 ||9j1y.cn^
+||9j5e.top^
 ||9js6.icu^
 ||9jsp.com/pay.png
 ||9k9k.com/jscode/js/
@@ -38938,6 +38945,7 @@ zzzyk.com###Tinfo
 ||omazeiros.com^
 ||omciecoa37tw4.com^
 ||omclyzyapf.com^
+||omegabest.cn^
 ||omfiydlbmy.com^
 ||omgid.qq.com^
 ||omgpm.com^
@@ -40616,6 +40624,7 @@ zzzyk.com###Tinfo
 ||qdczx66.com^
 ||qdglzx.com^
 ||qdhhdsw.cn^
+||qdiwbhjpo.com^
 ||qdjimo.com/html/js/
 ||qdp.qidian.com^
 ||qdross.com/vip/
@@ -40656,6 +40665,7 @@ zzzyk.com###Tinfo
 ||qgss8.com^
 ||qguwoq.cn^$third-party
 ||qgxbluhsgad.com^
+||qhapp.top^
 ||qhdbfjx.com^
 ||qhdlz.net/ssyyss/m.js
 ||qhdlz.net/uploads/glxs/980x120.jpg
@@ -40684,6 +40694,7 @@ zzzyk.com###Tinfo
 ||qhres.com^*/baidu_
 ||qhrixol.cn^
 ||qhyy8.com/template/default_wap/html/public/img/*.gif
+||qiabayyds.com^
 ||qianbaobbs.net^
 ||qianchengwenhua.xyz^
 ||qianduoduo.fit^
@@ -43965,6 +43976,7 @@ zzzyk.com###Tinfo
 ||tfzznclztl.com^
 ||tg.loclog.cn^
 ||tg0qu.top^
+||tgcfmh.com^
 ||tgfyq.cn^
 ||tgktw.xyz^
 ||tgnlaigi.fun^
