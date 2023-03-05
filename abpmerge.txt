@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-05 08:10:56
-! Total count: 47991
+! Version: 2023-03-05 16:10:39
+! Total count: 48001
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1101,6 +1101,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/ky55004.com"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
@@ -1137,7 +1138,6 @@
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
-##A[target='_blank'] > IMG[src*='.gif'][alt]
 ##A[target='_blank'] > IMG[width='100%'][src*='.gif']
 ##A[target='_blank'][href*='/auth/register?code=']
 ##BODY > DIV.ggcontainer
@@ -1196,6 +1196,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src='/js/imgs/taote.jpg']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
@@ -4765,7 +4766,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /nbk/frnd_ld.js
 /new/27*.html
 /new/55*.html
+/new/82*.html
 /new/83*.html
+/new/84*.html
+/new/85*.html
 /new/86*.html
 /new/ad/*
 /new/ads/*
@@ -27091,6 +27095,7 @@ zzzyk.com###Tinfo
 ||cdn.adoptum.net/ado.js$script,redirect=noopjs,domain=sms24.me|sms24.info
 ||cdn.affiliatable.io^
 ||cdn.afwpc.com^
+||cdn.anyshare.icu^
 ||cdn.applixir.com^$third-party
 ||cdn.ay.gy/js/display.js$script,third-party
 ||cdn.ay.gy/js/entry.js$script,third-party
@@ -34361,6 +34366,7 @@ zzzyk.com###Tinfo
 ||jddaw.com^
 ||jdexcgb.cn^
 ||jdgsgl.com^
+||jdh74bf.com^
 ||jdiaveu.cn^
 ||jdnlynb.cn^
 ||jdoqocy.com^
@@ -40270,6 +40276,7 @@ zzzyk.com###Tinfo
 ||qishuk.com/css/wap.
 ||qishula.com/css/ding.js
 ||qitou20230204.live^
+||qiudbjwhy.com^
 ||qiutian.buzz^
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
@@ -40484,6 +40491,7 @@ zzzyk.com###Tinfo
 ||quanta.la^$third-party
 ||quantumdex.io^$third-party
 ||quanxiaozi.com^
+||qubdjkqwl.com^
 ||qubo94.com^
 ||qucaigg.com^
 ||qucireideaux.com.ua^
@@ -44108,6 +44116,7 @@ zzzyk.com###Tinfo
 ||tuttotech.net/wp-content/plugins/ta2022-plugin-adblock/
 ||tutudao.net/js/gg*.js
 ||tutufu.com/bd/b-c1.js
+||tututu666.com^
 ||tuuu.me/gg*.js
 ||tuvtpxp.cn^
 ||tuwan.com/events/courseiframe?
@@ -45835,6 +45844,7 @@ zzzyk.com###Tinfo
 ||wuepo.cn^
 ||wuge20230104.live^
 ||wuhaolin.cn/c/ls
+||wuifbjdswsl.com^
 ||wujinzy.com/images/ok.gif
 ||wujiupic.com^
 ||wujrx.xyz^
