@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-06 08:12:45
-! Total count: 48008
+! Version: 2023-03-06 16:12:07
+! Total count: 48016
 
 ###AdBlockDialog
 ###Ad_windows
@@ -4543,6 +4543,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /js/index_adfloat.js
 /js/initsite.js^$domain=anysex.com|xcafe.com
 /js/jquery_size.js$domain=streamsb.net
+/js/js4.js
 /js/jsstyle-$third-party
 /js/layer1.js$domain=99re.com
 /js/lm.js$script,third-party
@@ -5605,6 +5606,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /xfsjgghsh_*.js
 /xgrghru981_23.js
 /xhfloatAdv.
+/xianbao_theme/script/intelligence.
 /xianbao_theme/ziyuan/1111/hongbao.
 /xiaoyi/360_
 /xiaoyi/960_
@@ -12291,6 +12293,7 @@ applefans.today#$#.timed-pup { display: none !important; }
 applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today#$#body { overflow: auto !important; }
 apprcn.com##a[href*=".lizhi."]
+aqicn.org#$#abort-on-property-read alert
 aqours.today
 arabseed.co,arabseed.com,arabseed.me,arabseed.net,arabseed.tv#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
 arabxd.com#$#abort-current-inline-script document.querySelectorAll popMagic
@@ -13831,7 +13834,6 @@ dalipan.com##.hongbao-wrap
 dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
 dan-teng.top##.nav
-dandanzan.cf,nunuyingyuan.com,ddys.buzz##+js(m3u-prune, /^http/, /^https:\/\/vip\.ffzy-(?:play|online)\d*\..+\.m3u8$/)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
@@ -18980,6 +18982,7 @@ redtube.com##.qb
 referencemega.com###hebdotop_t
 reflex.cz###gl-nat
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
+relax-fm.ru#$#abort-on-property-read Ya
 renfei.net#$#.ant-modal-root { display: none !important; }
 renfei.net#$#body { overflow-y: auto !important; }
 renren.com###videoAd12
@@ -20334,11 +20337,12 @@ v.baidu.com##div[id^="adv_asp_"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
-v.qq.com###player  .txp_zt_content
+v.qq.com###player .txp_zt_content
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
+v.qq.com##.quick_games.quick_item,div.card-wrap
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##.video-card-module > div[dt-params*="ad_creative_id="]
@@ -22365,6 +22369,7 @@ zzzyk.com###Tinfo
 ||3t769up6.com^
 ||3v4w.top^
 ||3v7c7y.com^
+||3v7c7y.online^
 ||3weg314.2conv.com^
 ||3wk.cc/images/*.gif
 ||3xuo.xyz^
@@ -33300,6 +33305,7 @@ zzzyk.com###Tinfo
 ||hzylhk.com^
 ||hzyouhejia.com^
 ||hzzfan.com^
+||i-fk.cn^
 ||i-gamer.net/promo_
 ||i-gamer.net^$domain=cartoonmad.com
 ||i-gp1pqs6f1.cn^
@@ -34867,6 +34873,7 @@ zzzyk.com###Tinfo
 ||jswz8.com/images/
 ||jsyd139.com^$third-party
 ||jsyefc.com^
+||jsyunmy.com^
 ||jsyzw132.com^
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
@@ -41257,6 +41264,7 @@ zzzyk.com###Tinfo
 ||rudimentarynuisancesynchronize.com^
 ||rugao35.com/Public/config/Couplet/Index
 ||ruguoapp.com^$domain=aixiaoju.com
+||rui61.cn^
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
 ||ruidekatao.pw^
@@ -45342,7 +45350,6 @@ zzzyk.com###Tinfo
 ||web-security.cloud^
 ||web.51fishplace.com^$third-party
 ||web.900.la^
-||web.cdn.openinstall.io^
 ||web0513.com^
 ||web1s.com^$third-party
 ||web3ads.net^$third-party
@@ -47215,6 +47222,7 @@ zzzyk.com###Tinfo
 ||ysjwj.com^
 ||ysm.ezprice.net^$third-party
 ||ysont.cn^
+||ysqlmpo.cn^
 ||ysstnh.com^
 ||ysuchtjhwasp.info^
 ||yswphit.cn^
