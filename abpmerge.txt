@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-05 16:10:39
-! Total count: 48001
+! Version: 2023-03-06 08:12:45
+! Total count: 48008
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1101,7 +1101,6 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
-##A[href*="/ky55004.com"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
@@ -1598,6 +1597,7 @@
 ##a[href*="/ky0777.cn"]
 ##a[href*="/ky1010.cn"]
 ##a[href*="/ky53362.com"]
+##a[href*="/ky55004.com"]
 ##a[href*="/ky9897.cn"]
 ##a[href*="/kyky199.com"]
 ##a[href*="/l1y5.com"]
@@ -13194,6 +13194,7 @@ cctime.com###ad_three
 cctime.com##.nav_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
+cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -17298,6 +17299,7 @@ m.qidian.com##P.text-content
 m.qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 m.qu.la#?#:-abp-has(> a[href*=".bcebos."])
 m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
+m.sm.cn##DIV[ad_seid],DIV.dl-banner-lg.card
 m.so.com##.e_idea_list
 m.sohu.com##.feed-list-scoped > div[data-spm-type="content"]
 m.taobao.com##.install-app
@@ -20721,7 +20723,6 @@ www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
 www.dmh8.me,dm88.me##DIV[style^='width:300px;height:300px;position:fixed;bottom:0;left:0;']
-www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 www.douyu.com##.giftbatter-box
 www.duba.com##.tiyan_a
 www.dwnews.com##.big2-gg
@@ -28374,6 +28375,7 @@ zzzyk.com###Tinfo
 ||cxdcn9c.fjshxjs.cn^$third-party
 ||cxfzw.cn^
 ||cxgfq.pinlue.com^
+||cxgwsu.xyz^
 ||cxiwn.xyz^
 ||cxmygp.xyz^
 ||cxnre.xyz^
@@ -30784,6 +30786,7 @@ zzzyk.com###Tinfo
 ||feisia1.cn^
 ||feiszw.com/style/t.js
 ||feiszw.com/style/w.js
+||feixun.info^
 ||feiyuchuanmei.love^
 ||feizl.com/images/smdd/
 ||fejla.com^
@@ -33354,6 +33357,7 @@ zzzyk.com###Tinfo
 ||iask.cn^*model.
 ||iask.sina.com.cn/s-b/mxbg
 ||iatf16949.pw^
+||iauto.wang^
 ||ib3i33.cob.autojournal.fr^$script
 ||ibdjdtmkq.xyz^
 ||ibeating.top^
@@ -33626,7 +33630,6 @@ zzzyk.com###Tinfo
 ||images8.gaotie.cn^
 ||imagespublic.tk/clothes/comeliness.php
 ||imagetwist.com/b9ng.js
-||imall.cctv.com/$subdocument
 ||imall.cctv.com^
 ||imall.cntv.cn^
 ||imalug.com^
@@ -38424,6 +38427,7 @@ zzzyk.com###Tinfo
 ||okayarab.com^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
+||okcf.top^
 ||okcy.top^
 ||okdigital.me^
 ||okew.top^
@@ -43364,6 +43368,7 @@ zzzyk.com###Tinfo
 ||tentionirreg.com^
 ||teoopx.cn^
 ||teoviyf.cn^
+||teowa.cyou^
 ||tepusi888.cn^
 ||teqcdnk.cn^
 ||teracreative.com^
@@ -45009,6 +45014,7 @@ zzzyk.com###Tinfo
 ||vkspeed.com/player*/vast.js
 ||vkygseu.cn^
 ||vl1m.cn^
+||vlbbxt.xyz^
 ||vlets.kydb.xyz^
 ||vliao365.com^
 ||vlion.cn^$third-party
@@ -46204,6 +46210,7 @@ zzzyk.com###Tinfo
 ||xflsj.com^
 ||xfwxhyd.cn^
 ||xfxssqakis.com^
+||xfzyun.com^
 ||xg.binkens.cn^
 ||xg.hbcygs518.com^$third-party
 ||xg.huataisangao.cn^
