@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-06 16:12:07
-! Total count: 48016
+! Version: 2023-03-07 08:13:01
+! Total count: 48029
 
 ###AdBlockDialog
 ###Ad_windows
@@ -5470,6 +5470,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /v2/a/push/js/*
 /v2/ads.
 /v2/ads/*
+/v2/stats/99*
 /v3/ads/*
 /v3/ads?
 /valnet-header-ads.
@@ -5515,6 +5516,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /virtuagirl.
 /virtuagirl3.
 /virtuagirlhd.
+/vj1/
 /vmind.qqvideo.tc.qq.com^
 /vnads.
 /vpaidad3.
@@ -6604,6 +6606,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 5253.com###android-qr
 526bt.com,daniao.org,eroacg.com,laod.cn,myqqjd.com,ninpang.com,zhujiceping.com##.tg-site
 526bt.com,guojitv.com###slider
+5278.cc###leftside_banner_top
+5278.cc###list_top_ad
+5278.cc###rightside_banner_top
 5278.cc##+js(remove-attr, onclick, a)
 5278.cc##+js(window.open-defuser, 88p2p.com)
 5278.cc##.pct > div[style="width: 600px;"]
@@ -12434,6 +12439,7 @@ avtb01.com##a[href^="http://xgn66.com/?aff="]
 avtb01.com##body > div[id^="haoetv"]
 avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
 avtb2022.com###menu-main-content > li:nth-child(n+5)
+avtovzglyad.ru,baby.ru,dni.ru,relax-fm.ru#$#abort-on-property-read Ya
 avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
@@ -13316,6 +13322,7 @@ chinaqking.com###cnt-ad
 chinaqking.com###newsAD
 chinaqking.com###readerServiceDIV
 chinasmartgrid.com.cn##.ht60ad
+chinaso.com##DIV.wrap-toolbar
 chinatimes.com##.l_ad
 chinatimes.com##.tab_4_box
 chinatimes.com##div[class*="googlead_"]
@@ -18982,7 +18989,6 @@ redtube.com##.qb
 referencemega.com###hebdotop_t
 reflex.cz###gl-nat
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
-relax-fm.ru#$#abort-on-property-read Ya
 renfei.net#$#.ant-modal-root { display: none !important; }
 renfei.net#$#body { overflow-y: auto !important; }
 renren.com###videoAd12
@@ -26540,6 +26546,7 @@ zzzyk.com###Tinfo
 ||bp.blogspot.com^*/s1600/dealer
 ||bp.blogspot.com^*/s300/poonam-pandey-hot.jpg
 ||bpbpxv.xyz^
+||bpewo.cyou^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bpnhgan.cn^
 ||bptxcg.xyz^
@@ -27569,6 +27576,7 @@ zzzyk.com###Tinfo
 ||chyfkf.cn^
 ||chyjobopse.pro^
 ||chykohija.pro^
+||chyuok.xyz^
 ||chyxyrothi.com^
 ||ciaeue.xyz^
 ||cibntv.net/youku/$media,mp4
@@ -30442,6 +30450,7 @@ zzzyk.com###Tinfo
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
 ||etgameshop.com^
+||ethandataserver.love^
 ||ethicalads.io^$third-party
 ||ethnicacknowledgedbeneficial.com^
 ||ethnicbrotherhoodunmoved.com^
@@ -30814,6 +30823,7 @@ zzzyk.com###Tinfo
 ||fenxiangdashi.com/img/banner/
 ||fer2oxheou4nd.com^
 ||fermacyupplow.com^
+||fernandou.online^
 ||ferret.itsf.red^
 ||fethungi.com^
 ||fetiseovisac.com^
@@ -38436,6 +38446,7 @@ zzzyk.com###Tinfo
 ||okbmf.com^*950_120
 ||okcf.top^
 ||okcy.top^
+||okdi.top^
 ||okdigital.me^
 ||okew.top^
 ||okforwardt.fun^
@@ -41037,6 +41048,7 @@ zzzyk.com###Tinfo
 ||rkcdmve.cn^
 ||rkkhuwl.cn^
 ||rkomf.com^
+||rkv9.top^
 ||rkxy.com.cn/js/text_
 ||rkzby.cn^
 ||rl-mb90b39t.cn^
@@ -45147,6 +45159,7 @@ zzzyk.com###Tinfo
 ||vviikig.cn^
 ||vvphznw.cn^
 ||vvsbwny.cn^
+||vvtztj.xyz^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
 ||vvvljeqasz.com^
