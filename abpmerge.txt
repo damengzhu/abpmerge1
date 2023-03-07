@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-07 08:13:01
-! Total count: 48029
+! Version: 2023-03-07 16:12:22
+! Total count: 48037
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1657,6 +1657,7 @@
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
+##a[href="/jump.php"] > img[src*=".bcebos.com"]
 ##a[href="/static/xzgg/index.html"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://www.tw787.com/"]
@@ -6764,7 +6765,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 69story.com###main > div[style="margin-top: 15px;"]
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
-69xx.one,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
+69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc#?#div[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 6park.com##a[href*=".php?key="]
 6park.com##img[width="980"][height="90"]
@@ -13098,6 +13099,7 @@ bytzbiorowy.pl###stickymsg
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
+c.biancheng.net##.ggxc-box > a[target="_blank"] > img
 c114.com.cn###ad_r1
 c114.com.cn###barrage_ad
 c114.com.cn###barrage_bg
@@ -17145,7 +17147,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;abort-on-property-read setTimeout
 linkneverdie.net$$script[tag-content="DetecAdBlock"][min-length="500"][max-length="3000"]
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
@@ -20720,6 +20722,7 @@ wuyong.fun##.content-area .adsbygoogle
 wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 www.1069gay.net###shortcut
+www.123pan.com##DIV.VipBanner,DIV[style='width:100%;position:fixed;bottom:80px'],DIV[style='width: 100%; position: fixed; bottom: 25px;']
 www.15yan.com##.tooltip
 www.163.com##.float-bar
 www.17173.com##.pn-tg
@@ -35789,6 +35792,7 @@ zzzyk.com###Tinfo
 ||lddpgn.cn^
 ||ldimnveryldgittl.com.ua^
 ||ldmnq.com^$third-party
+||ldmnq.com^$third-party,badfilter
 ||ldpiecesonth.xyz^
 ||ldpsfa.com^
 ||lduhtrp.net^
@@ -39731,6 +39735,7 @@ zzzyk.com###Tinfo
 ||primevalstork.com^
 ||princesses.asia^
 ||pringed.space^
+||printsmull.com^
 ||priorlypious.com^
 ||priry.com^
 ||privacywithholdrepose.com^
@@ -42249,6 +42254,7 @@ zzzyk.com###Tinfo
 ||slcgngo.cn^
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slfango.ltd^
+||slfindmarket.live^
 ||slfj564.xyz^
 ||slibb.xyz^
 ||slibindy.top^
@@ -45882,6 +45888,7 @@ zzzyk.com###Tinfo
 ||wuliao.jingyanben.com^
 ||wuliao.juqingba.cn^
 ||wuliglsg.space^
+||wumao20230301.live^
 ||wumei91.cc^
 ||wumii.cn/ext/relatedItemsWidget
 ||wumnxwvg.ink^
@@ -46891,6 +46898,7 @@ zzzyk.com###Tinfo
 ||yfetyg.com^
 ||yffjqvq.cn^
 ||yfkgnqu.cn^
+||yflog.me^
 ||yfmhik.xyz^
 ||yforaglasys.xyz^
 ||yfot.com.cn^
