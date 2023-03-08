@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-08 08:12:22
-! Total count: 48054
+! Version: 2023-03-08 16:12:22
+! Total count: 48066
 
 ###AdBlockDialog
 ###Ad_windows
@@ -5220,6 +5220,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /sinaLoginReward2014.
 /sinaLoginReward2014_comment.
 /site-advert.
+/site/mov*$third-party
 /site=*/size=*/viewid=
 /site=*/viewid=*/size=
 /site_ads.$~script
@@ -7448,6 +7449,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||aboardfork.com^$script,xmlhttprequest
 @@||aboardkettle.com^$script,xmlhttprequest
 @@||aboardlevel.com^$script,xmlhttprequest
+@@||aboluowang.com^$generichide
 @@||aboriginalboats.com^$script,xmlhttprequest
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||abovetopsecret.com/ads.html$subdocument
@@ -10127,6 +10129,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aboluowang.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akinator.com|akinator.mobi
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=apkmirror.com
@@ -11983,6 +11986,8 @@ _yad_jsonp_
 a-i-l-s-a.com,buscodepto.com##div[style^="position: fixed;"]
 a2zapk.com$$script[tag-content="'Adblock','Enabled'"][min-length="5000"][max-length="10000"]
 a9vg.com###guide-download
+a9vg.com###qrcode
+a9vg.com##.a9-back-top_qrcode
 aa25.cn###content_head
 aa25.cn,kafan.cn###content_top
 aaaweb.cn##a[href$=".yhzu.cn"]
@@ -13748,6 +13753,7 @@ csdn.net##.banner-ad-box
 csdn.net##.blog-column-pay
 csdn.net##.blog_star_enter
 csdn.net##.box.hot
+csdn.net##.csdn-common-logo-advert
 csdn.net##.csdn-tracking-statistics[style$="250px;"]
 csdn.net##.edu-promotion
 csdn.net##.el-dialog__wrapper + .activity
@@ -23515,6 +23521,7 @@ zzzyk.com###Tinfo
 ||aarswtcnoz.com^
 ||aassy4.com/dm/
 ||aasyy.com^
+||aaudaob.cn^
 ||aawcky.xyz^
 ||aaxads.com^
 ||ab.cnbanbao.com^
@@ -38439,6 +38446,7 @@ zzzyk.com###Tinfo
 ||oinlkwr.xyz^
 ||ointmentaloofpincers.com^
 ||oiqdjksgpo.com^
+||oiqwnfk.com^
 ||oisafnik.space^
 ||oiuqwppcsdf.com^
 ||oivgqnt.cn^
@@ -39531,6 +39539,7 @@ zzzyk.com###Tinfo
 ||pointlesshour.com^$third-party
 ||pointroll.com^
 ||points2shop.com^$third-party
+||poiqknfl.com^
 ||poisonencouragement.com^
 ||pojjtt.xyz^
 ||pojkhufef.xyz^
@@ -44404,6 +44413,7 @@ zzzyk.com###Tinfo
 ||ufzwoiu.cn^
 ||ug.snssdk.com^
 ||ugahutoa.com^
+||ugbjqwe.com^
 ||ugeolf.com^$script
 ||ugkmihh.cn^
 ||ugkmjojhgtqcohf.com^
@@ -45082,6 +45092,7 @@ zzzyk.com###Tinfo
 ||vnfjsus.xyz^
 ||vnghuw.xyz^
 ||vnjvupnrboobpz.com^
+||vnq3.top^
 ||vns86.oss-*.aliyuncs.com^
 ||vntsm.com^
 ||vntsm.io^
@@ -47287,6 +47298,7 @@ zzzyk.com###Tinfo
 ||ytop8.com^
 ||ytpae.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
+||ytvwhbejc.com'
 ||ytyug.com^
 ||yu.dlxxjsh.top^
 ||yu0123456.com^$third-party
