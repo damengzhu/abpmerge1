@@ -1552,6 +1552,7 @@
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
 ##a[href*="/b6314.com:"]
+##a[href*="/bgm9z.com"]
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
 ##a[href*="/bucd.icu/"]
@@ -1741,8 +1742,10 @@
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div#ad_id
+##div#beijing.article_content.layui-clear > div.left > div > a
 ##div#detail.selector-zero > div > DIV[style]
 ##div#h2_player_prevideo > A[href][target='_blank']
+##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
 ##div.ad-area > [href]
@@ -1886,6 +1889,7 @@
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##ul > li > A[href$='_list.html']
+##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
@@ -2505,7 +2509,7 @@
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
 24kplus.com###custom_html-3
-24smi.org#$#abort-on-property-read Object.prototype.setAdbCookie
+24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 24tv.ua##.b_reklama
 24video.xxx##.adt
 25xz.com##.p_ads
@@ -11771,13 +11775,13 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
-www.seznam.cz##div[class^="atm-advert-label"]
-www.seznam.cz##div[id*="nativeSspAdvert"]
-www.seznam.cz##li[data-analytics-spent-time-item^="nativeSspAdvert:"]
+www.seznam.cz##div[class*="mol-repeater-container__sticky-content"]
+www.seznam.cz##div[class^="gadget-container--full-width-item"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
 www.seznam.cz#$#override-property-read sssp noopFunc
+www.seznam.cz#?#:xpath(//li[@*="nativeSspAdvert"])
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
 www.sina.com.cn##.part-l
@@ -11803,7 +11807,6 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##DIV.KfeCollection-VipRecommendCard
 www.zol.com.cn#@##search_ad
-wwww.seznam.cz##div[class*="gadget-container"]
 wx.sina.com.cn###artibody > .article-video
 wybg666.com##.container div[id$="ad"] > a[target="_blank"]:only-child > img
 x-mol.com###floatWindow

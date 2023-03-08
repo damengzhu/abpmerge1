@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-07 16:12:22
-! Total count: 48037
+! Version: 2023-03-08 08:12:22
+! Total count: 48054
 
 ###AdBlockDialog
 ###Ad_windows
@@ -1558,6 +1558,7 @@
 ##a[href*="/ayx600.com/"]
 ##a[href*="/ayxbet846.vip"]
 ##a[href*="/b6314.com:"]
+##a[href*="/bgm9z.com"]
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
 ##a[href*="/bucd.icu/"]
@@ -1747,8 +1748,10 @@
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div#ad_id
+##div#beijing.article_content.layui-clear > div.left > div > a
 ##div#detail.selector-zero > div > DIV[style]
 ##div#h2_player_prevideo > A[href][target='_blank']
+##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
 ##div.ad-area > [href]
@@ -1892,6 +1895,7 @@
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##ul > li > A[href$='_list.html']
+##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
 ##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
@@ -6276,7 +6280,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
 24kplus.com###custom_html-3
-24smi.org#$#abort-on-property-read Object.prototype.setAdbCookie
+24smi.org#$#abort-on-property-write document.cookie; cookie-remover /^/
 24tv.ua##.b_reklama
 24video.xxx##.adt
 25xz.com##.p_ads
@@ -10845,6 +10849,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=midomi.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=portmiamiwebcam.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=purepeople.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=softonic.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=tetrads.io
@@ -10887,6 +10892,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||seyise8.com^$generichide
 @@||seyy66.space^$generichide
 @@||shaggytank.com^$script,xmlhttprequest
+@@||shahid.mbc.net^$generichide
 @@||shakegoldfish.com^$script,xmlhttprequest
 @@||shakesuggestion.com^$script,xmlhttprequest
 @@||shakysurprise.com^$script,xmlhttprequest
@@ -20788,13 +20794,13 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
-www.seznam.cz##div[class^="atm-advert-label"]
-www.seznam.cz##div[id*="nativeSspAdvert"]
-www.seznam.cz##li[data-analytics-spent-time-item^="nativeSspAdvert:"]
+www.seznam.cz##div[class*="mol-repeater-container__sticky-content"]
+www.seznam.cz##div[class^="gadget-container--full-width-item"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
 www.seznam.cz#$#override-property-read sssp noopFunc
+www.seznam.cz#?#:xpath(//li[@*="nativeSspAdvert"])
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
 www.sina.com.cn##.part-l
@@ -20820,7 +20826,6 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##DIV.KfeCollection-VipRecommendCard
 www.zol.com.cn#@##search_ad
-wwww.seznam.cz##div[class*="gadget-container"]
 wx.sina.com.cn###artibody > .article-video
 wybg666.com##.container div[id$="ad"] > a[target="_blank"]:only-child > img
 x-mol.com###floatWindow
@@ -21478,6 +21483,7 @@ zzzyk.com###Tinfo
 ||0798ls.com^
 ||07xm.fun^
 ||080644.com^
+||08088.top^
 ||080999.cn^
 ||085cczz.com^
 ||0885.net^$third-party
@@ -25134,6 +25140,7 @@ zzzyk.com###Tinfo
 ||ascensionmonksurround.com^
 ||ascensionpatterbearable.com^
 ||ascensionrookieweapon.com^
+||ascloud.tech^
 ||ascomamizzen.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdasdad.net^
@@ -26046,6 +26053,7 @@ zzzyk.com###Tinfo
 ||belgud.com^
 ||belickitungchan.com^
 ||beliet.com^
+||believer.ltd^
 ||believersheet.com^
 ||bellmandrawbar.com^
 ||belombrea.com^
@@ -27534,6 +27542,7 @@ zzzyk.com###Tinfo
 ||cholor201115.cn^
 ||chong-wu.net^
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
+||chongyayakk.xyz^
 ||choobinoobi.com^
 ||choogeet.net^
 ||chooxail.com^
@@ -27626,6 +27635,7 @@ zzzyk.com###Tinfo
 ||civilizationthose.com^
 ||ciwhacheho.pro^
 ||cj-cy.com^
+||cj-sys.club^
 ||cj7g.top^
 ||cja-1223.cc^
 ||cjdby.net/Public/home/images/advImg/
@@ -28688,6 +28698,7 @@ zzzyk.com###Tinfo
 ||d3ep3jwb1mgn3k.cloudfront.net^
 ||d3evio1yid77jr.cloudfront.net^
 ||d3f1wcxz2rdrik.cloudfront.net^
+||d3f3.xyz^
 ||d3f4nuq5dskrej.cloudfront.net^
 ||d3fkv551xkjrmm.cloudfront.net^
 ||d3flai6f7brtcx.cloudfront.net^
@@ -29133,6 +29144,7 @@ zzzyk.com###Tinfo
 ||dftoutiao.com/dfpcitv/pcitv?type=
 ||dftoutiao.com/jrdftt/static/javascript/ad/
 ||dftoutiao.com/ssp/
+||dfvarz.xyz^
 ||dfvvx58.com^
 ||dfwskw7.com^
 ||dfxwdc.com^
@@ -29329,6 +29341,7 @@ zzzyk.com###Tinfo
 ||diversecrashconcern.com^
 ||dividedscientific.com^
 ||divorceseed.com^
+||diwok.cyou^
 ||diygnmo.cn^
 ||diyifanwen.com/siteimages/jiqiren
 ||diyiguanggao.xyz^
@@ -35450,6 +35463,7 @@ zzzyk.com###Tinfo
 ||kqwip.cyou^
 ||kr.sdykcloud.cn^
 ||kraism.com^
+||kravma.xyz^
 ||krill.spoonrage.com^
 ||krilor.com^
 ||krjxhvyyzp.com^
@@ -38229,6 +38243,7 @@ zzzyk.com###Tinfo
 ||nvqjpzxufp.com^
 ||nvsheng.com/js/gg.js
 ||nvswnur.cn^
+||nvwanyyds.com^
 ||nvzffl.cn^
 ||nvzrirxwhj.com^
 ||nwadakesc.cyou^
@@ -39141,6 +39156,8 @@ zzzyk.com###Tinfo
 ||pelisnetwork.com^$third-party
 ||pemainedperio.com^
 ||penangpropertytalk.com/wp-content/uploads/*-bg.
+||pengauto.cn^
+||penglangyyds.com^
 ||pengobyzant.com^
 ||pengtu.cc^*.png
 ||penguin.revolana.com^
