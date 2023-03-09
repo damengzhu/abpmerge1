@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-09 08:12:34
-! Total count: 48076
+! Version: 2023-03-09 16:12:32
+! Total count: 48093
 
 ###AdBlockDialog
 ###Ad_windows
@@ -2203,6 +2203,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/tonglan2.js
 .com/topjs/
 .com/uploads/*-860x250.gif
+.com/vh1/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -2415,6 +2416,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .xyz/o.js
 .xyz/svelte?$third-party
 .xyz/upload/ad/
+.xyz/vh1/$script,third-party
 .xyz/xling_*_*_*.js?*
 .za/ads/$domain=~ananzi.co.za
 .zone/ads/
@@ -10310,6 +10312,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||pagead2.googlesyndication.com^$script,domain=hackintosh.computer
 @@||pagerank.fr/js*/advert.js?$script
 @@||pailcrime.com^$script,xmlhttprequest
+@@||painstakingpickle.com^$script,xmlhttprequest
 @@||paintplantation.com^$script,xmlhttprequest
 @@||paleleaf.com^$script,xmlhttprequest
 @@||pamelarandom.com^$script,xmlhttprequest
@@ -19169,6 +19172,10 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"/click?adurl")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"adtext-variant")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"advert-top")]/ancestor::div[@class="molecularization-leftColumnMargin"]/parent::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot,"zbozi-product-advert")][contains(@data-dot-data,"reporter_click_pos")]'
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -22140,6 +22147,7 @@ zzzyk.com###Tinfo
 ||2i1m.xyz^
 ||2iiyrxk0.com^
 ||2kandy.com/js/123/
+||2kxs.org/6ADyQNkC/
 ||2lian.com^$third-party
 ||2llmonds4ehcr93nb.com^
 ||2m2n.com^
@@ -22645,6 +22653,7 @@ zzzyk.com###Tinfo
 ||550c970411.com^
 ||550tg.com^
 ||551vip.xyz^
+||552aaa.us^
 ||553aaa.us^
 ||55555555555.xyz^
 ||5555nt.com^
@@ -22854,6 +22863,7 @@ zzzyk.com###Tinfo
 ||6868edu.com^
 ||68710266.com^
 ||6888i.top^
+||688aaa.us^
 ||6916508c78.com^
 ||693836.com^$popup
 ||69688qp.com^
@@ -27901,6 +27911,7 @@ zzzyk.com###Tinfo
 ||cnprint.org/bbs/images/gg/
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
+||cnredg.xyz^
 ||cns.wxdal.cn^
 ||cnscdj.com^
 ||cnscg.com/api.php?mod=ad&
@@ -33412,6 +33423,7 @@ zzzyk.com###Tinfo
 ||ibiquge.la/base
 ||ibjkafefertt.xyz^
 ||ibjkdwsdko.com^
+||ibjknmqw.com^
 ||iblimq.xyz^
 ||ibozys.cn^
 ||ibqswjdkpo.com^
@@ -38499,6 +38511,7 @@ zzzyk.com###Tinfo
 ||okokw.com^$third-party
 ||okooo.com/I/?method=system.data.ad&
 ||okoy.top^
+||okpoiione.com^
 ||okueroskynt.com^
 ||okupsudd.work^
 ||okwa.top^
@@ -38674,6 +38687,7 @@ zzzyk.com###Tinfo
 ||opxnwz.shop^
 ||opymgaj.cn^
 ||oq68.com^
+||oqeohuc.cn^
 ||oqfdan.cn^
 ||oqnggnsk.fun^
 ||oqshoyd.cn^
@@ -39566,6 +39580,7 @@ zzzyk.com###Tinfo
 ||polflq.cn^
 ||policityseriod.info^
 ||politenesscalmantiquarian.com^
+||polkkqm.com^
 ||polkmerth.com^
 ||polkmerty.xyz^
 ||polkmnhytgb.com^
@@ -42523,6 +42538,7 @@ zzzyk.com###Tinfo
 ||sosrom.cn^
 ||sotetahe.pro^
 ||sottagejalur.uno^
+||souche.com^$third-party
 ||soufunimg.com/common_m/m_public/js/wa
 ||soufunimg.com/homepage/new/*/buttomLayer.js
 ||soufunimg.com/imgd/viewimage/*/640x210
@@ -48036,6 +48052,7 @@ zzzyk.com###Tinfo
 ||zzwzsic.cn^
 ||zzxedr.xyz^
 ||zzxlhwyp.com^
+||zzxmcp.com^
 ||zzxxli.club^
 ||zzycj.com^
 ||zzyl.mobi^

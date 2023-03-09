@@ -10209,6 +10209,10 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"/click?adurl")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"adtext-variant")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"advert-top")]/ancestor::div[@class="molecularization-leftColumnMargin"]/parent::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot,"zbozi-product-advert")][contains(@data-dot-data,"reporter_click_pos")]'
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
 secretmine.net###main-content > center
