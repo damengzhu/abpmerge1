@@ -961,7 +961,6 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
-##A[href*="/k849.top"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
@@ -1446,6 +1445,7 @@
 ##a[href*="/jdr29jlir.com"]
 ##a[href*="/jianjianjiao.top"]
 ##a[href*="/k023055.com"]
+##a[href*="/k849.top"]
 ##a[href*="/kanxiuren.com/?"]
 ##a[href*="/kanxiuren.com?"]
 ##a[href*="/kk5377.com:"]
@@ -1634,6 +1634,7 @@
 ##div.player-rm.rm-two.rm-list > a
 ##div.post_list_ajax > A[target='_blank']
 ##div.row > DIV.md-r-panel
+##div.row > div[id] > ul > li.cpn > a
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
 ##div.stui-pannel__bd > #t-img-box
 ##div.video-box > div.hf > a
@@ -11364,13 +11365,13 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
-www.seznam.cz##div[class*="mol-repeater-container__sticky-content"]
-www.seznam.cz##div[class^="gadget-container--full-width-item"]
+www.seznam.cz##div[class$="mol-repeater-container"]
+www.seznam.cz##div[data-dnd-content-ignore="true"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header")]/following::div[contains(@class,"mol-json-ssp-advert")]/parent::div[@id]'
 www.seznam.cz#$#override-property-read sssp noopFunc
-www.seznam.cz#?#:xpath(//li[@*="nativeSspAdvert"])
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
 www.sina.com.cn##.part-l
@@ -11379,6 +11380,7 @@ www.sogou.com##.tgad-box + div
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.thepaper.cn##.pdtt01
 www.wangjing.cn##.content > div[style*="980px;"]
+www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
