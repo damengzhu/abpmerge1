@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-13 08:12:33
-! Total count: 47425
+! Version: 2023-03-13 16:12:05
+! Total count: 47443
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -11943,7 +11943,7 @@ alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener beforeunload '0x'; prevent-listener pagehide '0x';
+amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener /beforeunload|DOMContentLoaded|pagehide|readystatechange/ '0x';
 amyscans.com##div[class*="code-block"]
 ana1.me##.videopos
 ananvod.com##.rbPicAll
@@ -16936,6 +16936,7 @@ m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
+m.nxnba.com##DIV.bootom-fixed
 m.qidian.com###fixBoxs, #read_app_download
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
@@ -17893,6 +17894,7 @@ paopaoche.net##.down_btn2.green
 papalah.com##+js(abort-on-property-read, adBlockDetected)
 parenting.pl#$#abort-on-property-read slot
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
+partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 passiontimes.hk##.rectAd680
 pc.qq.com##.detail-install-fast
 pc.yiyouliao.com##.yyl-ads-main > .yyl-ads-swiper:first-child + .yyl-ads-title
@@ -20011,6 +20013,7 @@ vpsmm.com##div[class*="xx"]
 vpsmm.com#?#.sidexbar div:-abp-has(>a>img)
 vrhlehhm.net$$iframe[id="content"]
 vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
+vuejs.org##.text-ad
 vuetifyjs.com##.v-sponsors
 vuukle.com##a[href*="news.vuukle.com/u/"]
 vuzlit.com#$#abort-on-property-read _0xc091
@@ -21944,6 +21947,7 @@ zzzyk.com###Tinfo
 ||4936.cn^$third-party
 ||49468220.com^
 ||49n7wqynho5u.top^
+||4bds.xyz^
 ||4btbtt.com/slade.js
 ||4d0m.cn^
 ||4dex.io^
@@ -25018,6 +25022,7 @@ zzzyk.com###Tinfo
 ||b4dg.life/love/
 ||b4jy.top^
 ||b53.xyz^
+||b59.xyz^
 ||b62.xyz^
 ||b67.xyz^
 ||b6750bc2a1.com^
@@ -29729,6 +29734,7 @@ zzzyk.com###Tinfo
 ||eloer.cn^
 ||elomf.xyz^
 ||elonreptiloid.com^
+||elopatchwork.com^
 ||elsbfby.com^$popup,third-party
 ||elsekeyseat.com^
 ||elsmom.xyz^
@@ -30318,6 +30324,7 @@ zzzyk.com###Tinfo
 ||fff.dailymail.co.uk/accessorise_ad
 ||ffflxue.cn^
 ||ffhre.com^
+||ffmehcg.cn^
 ||ffnvhig.cn^
 ||ffpp.xyz^
 ||ffujdjd.cn^
@@ -30958,6 +30965,7 @@ zzzyk.com###Tinfo
 ||gblvuim.cn^
 ||gblvwv.com^
 ||gbpofla.cn^
+||gbrtyhnsc.xyz^
 ||gbsp002.com^
 ||gbzumh.cn^
 ||gca.sh/static/linkreplacer.js$script,third-party
@@ -32361,6 +32369,7 @@ zzzyk.com###Tinfo
 ||hnylb8.cn^
 ||hnzhengtongkj.cn^
 ||hnzls8.cn^
+||hnzzff.club^
 ||ho3ia.cn^
 ||hoaiig.com^$script
 ||hoanaijo.com^
@@ -34409,6 +34418,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
 ||jvpook.cn^
+||jvpyxve.cn^
 ||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
 ||jwadakesa.cyou^
@@ -36030,6 +36040,7 @@ zzzyk.com###Tinfo
 ||m.ysxs8.com/js/content_db.js
 ||m.zwsteel.cn^$third-party
 ||m.zzcm5.com^
+||m09mm.xyz^
 ||m1.100how.com^
 ||m1.27com.com^
 ||m1.51kaowang.com^
@@ -37071,6 +37082,7 @@ zzzyk.com###Tinfo
 ||myhack58.com^*0$script
 ||myhao.club^
 ||myhypestories.com^
+||mykch.top^
 ||mylikechat.com^$third-party
 ||mylink.vc/nordcode.php
 ||mylmad.com^
@@ -38054,6 +38066,7 @@ zzzyk.com###Tinfo
 ||ophwrh.cn^
 ||opikervop.xyz^
 ||opnked*.xyz^
+||opnkedfdye.xyz^
 ||opoxv.com^
 ||oppu778.top^
 ||oprmewb.cn^
@@ -38682,6 +38695,7 @@ zzzyk.com###Tinfo
 ||phoaptee.net^
 ||phokukse.com^
 ||phoobsoo.net^
+||phoorned.com^
 ||phoossax.net^
 ||phortaub.com^
 ||phosphatepossible.com^
@@ -39907,6 +39921,7 @@ zzzyk.com###Tinfo
 ||qs0jfd.xyz^
 ||qs9jfd.com^
 ||qs9jfd.xyz^
+||qscvli.com^
 ||qsdqyf.cn^
 ||qsdr.mysunnylawn.com^
 ||qsdsejarkznkqa.com^
@@ -42758,6 +42773,7 @@ zzzyk.com###Tinfo
 ||techonthenet.com/javascript/pb.js
 ||techritual.com/wp-content/uploads/*/HDcource_
 ||techsolutions.com.tw^$third-party
+||techspecndt.com^
 ||tecominchisel.com^
 ||teeglimu.com^
 ||teemooge.net^
@@ -46654,6 +46670,7 @@ zzzyk.com###Tinfo
 ||ytpae.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvwhbejc.com'
+||ytvwhbejc.com^
 ||ytyug.com^
 ||yu.dlxxjsh.top^
 ||yu0123456.com^$third-party
@@ -46725,6 +46742,7 @@ zzzyk.com###Tinfo
 ||yuvdqnpo.com^
 ||yvajogj.cn^
 ||yvmads.com^
+||yvsnhc.com^
 ||yw800.com.cn^
 ||ywbmed.cn^
 ||ywg.jobui.com^
