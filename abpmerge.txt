@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-13 16:12:05
-! Total count: 47443
+! Version: 2023-03-14 08:13:28
+! Total count: 47451
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -18709,11 +18709,10 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
-search.seznam.cz#$#hide-if-matches-xpath './/a[@data-e-a="sitelinks"][@href]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
 search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"/click?adurl")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
-search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"adtext-variant")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
-search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot,"zbozi-product-advert")]/ancestor::div[contains(@data-dot-data,"zbozi")]'
-search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot-data,"zbozi-shop-offer")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"utm_campaign")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"boxWithShadow")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot-data,"reporter_pos")][1]/div[@class="molecularization-leftColumnMargin"]'
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -20298,12 +20297,12 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
-www.seznam.cz##div[class$="mol-repeater-container"]
-www.seznam.cz##div[data-dnd-content-ignore="true"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"click?") or contains(@href,"adur_")]/div[@class="banner_image--container"]/img[contains(@src,"img_")]/ancestor::div[@id="page"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header")]/following::div[contains(@class,"mol-json-ssp-advert")]/parent::div[@id]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-text-content")]/preceding::div[contains(@class,"mol-advert-header__source")]/parent::div[@class]/ancestor::div[@id][1]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"sticky-content")]'
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
@@ -21664,6 +21663,7 @@ zzzyk.com###Tinfo
 ||3.ssqzj.com^
 ||301848.com^
 ||302y.fun^
+||304p.xyz^
 ||306842.com^
 ||30929d3de9.com^
 ||310v.com/images/lingdai.gif
@@ -25918,6 +25918,7 @@ zzzyk.com###Tinfo
 ||bngpt.com^
 ||bngwlt.com^
 ||bnhtml.com^
+||bnhxxj.xyz^
 ||bnlg.fun^
 ||bnman.net/static/manhua/bd/
 ||bnman.net^*/com1
@@ -30928,6 +30929,7 @@ zzzyk.com###Tinfo
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
 ||gaofuwu.org/js/dd2.js
+||gaohexiang.xyz^
 ||gaoimg.xyz/images/
 ||gaojiedesign.cn^
 ||gaomingbo.com^
@@ -33030,6 +33032,7 @@ zzzyk.com###Tinfo
 ||iia1.pikacn.com^
 ||iiauu.cn/777/
 ||iicheewi.com^
+||iicke.cyou^
 ||iid97.com/bdgo/
 ||iid97.com/wp-content/cache/autoptimize/js/
 ||iifvcfwiqi.com^
@@ -33510,6 +33513,7 @@ zzzyk.com###Tinfo
 ||ironerrooser.com^
 ||ironthro5man.com^
 ||irousbisayan.com^
+||irqqwqk.cn^
 ||irrationaldistress.com^
 ||irreparablewretchsurrogate.com^
 ||irrisoranemone.com^
@@ -33683,6 +33687,7 @@ zzzyk.com###Tinfo
 ||iyurw.xyz^
 ||iyxuude.cn^
 ||izitrckr.com^
+||izmssk.xyz^
 ||izpcocomarfbrs.com^
 ||izrnvo.com^
 ||iztwp.com/images/
@@ -33845,6 +33850,7 @@ zzzyk.com###Tinfo
 ||jd.com/static/js/cpc.js
 ||jd.com^$domain=gw54.com|xgw5.com
 ||jd100.com/cwmpc/
+||jd186.club^
 ||jd2ujc.cn^
 ||jd5c.top^
 ||jd6pq31f.site^
@@ -43305,6 +43311,7 @@ zzzyk.com###Tinfo
 ||tqlkg.com^
 ||tqmcj.cn^
 ||tqnggnsi.fun^
+||tqxthzy.cn^
 ||tr-usual.xyz^
 ||trace.qq.com^
 ||track-victoriadates.com^
@@ -44670,6 +44677,7 @@ zzzyk.com###Tinfo
 ||wangyuekun.xyz^
 ||wangzezhong.top^
 ||wangzhanmeng.com/link/link.html
+||wangzhe.cx^
 ||wangzj.top^
 ||wanmei.la/a*.js
 ||wannestfooled.com^
