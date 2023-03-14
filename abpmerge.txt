@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-14 08:13:28
-! Total count: 47451
+! Version: 2023-03-14 16:14:16
+! Total count: 47469
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1522,6 +1522,7 @@
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="nnqp.vip"]
 ##a[href="/ad2.html"]
+##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
@@ -1830,7 +1831,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ,728x90,
 ,e8o,$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 -*-*-*-*.panda^$script,third-party
---(blsx|xling)_\d{4,}_.+.js\?\d{5,}$
 -120x300.
 -120x600-
 -120x600_
@@ -2289,7 +2289,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .za/ads/$domain=~ananzi.co.za
 .zone/ads/
 /(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com|bdsmx.tube|blackporn.tube|mrgay.tube|bigdick.tube|xmilf.com|voyeurhit.tube|hdzog.tube
-/(blsx|xling)_\d{4,}_.+.js\?\d{5,}$/
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /*.gif$domain=manga168.com
 /*/*.add.*.add
@@ -18709,10 +18708,8 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@data-e-a,"offer")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
 search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"/click?adurl")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
-search.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"utm_campaign")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
-search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"boxWithShadow")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
-search.seznam.cz#$#hide-if-matches-xpath './/div[contains(@data-dot-data,"reporter_pos")][1]/div[@class="molecularization-leftColumnMargin"]'
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -19956,7 +19953,7 @@ vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pan
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.in#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
-viet69.page,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
+viet69.love,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -20284,6 +20281,7 @@ www.le.com###full_Column_small
 www.le.com###rightBottomPop
 www.linkedin.com#$#simulate-event-poc click 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])' 10
 www.lofter.com###appdownloadbanner
+www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mgtv.com##.m-headgg
 www.mydrivers.com###weixin_box
 www.olevod.com##DIV.B1Lss,.B1Rss
@@ -20647,6 +20645,7 @@ ytmp3.cc$$script[wildcard="*function*break;case*"][min-length="30000"][max-lengt
 ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 yun.cn##div[class*="ad-block"]
+yunduanxin.xyz###adb-mask
 yutu.cn###botfocus-res
 yuudrive.me,hdhub4u.website,thevid.net,biter.tv,flashx.pw,flashx.tv#$#abort-on-property-read _pop
 yx.kimg.cn##ul#feedList > li.feed-list-ad
@@ -21491,6 +21490,7 @@ zzzyk.com###Tinfo
 ||21edu8.com/js/mymoney/
 ||21fit3-wnro.cn^
 ||21fsdf.com^
+||21qma3vs.com^
 ||21sq.org/js/downloadbanner.js
 ||21uscity.com/static/allbusiness/
 ||21uscity.com/zonelist.php
@@ -25879,6 +25879,7 @@ zzzyk.com###Tinfo
 ||blueseed.tv^$third-party
 ||blueswordksh.com^
 ||blushmossy.com^
+||blvhq.com^
 ||blz105.com/player/ad.html
 ||blzz.xyz^$third-party
 ||bm999999.com^$popup
@@ -30324,6 +30325,7 @@ zzzyk.com###Tinfo
 ||ffdcpvv.cn^
 ||fff.dailymail.co.uk/accessorise_ad
 ||ffflxue.cn^
+||ffgpol.com^
 ||ffhre.com^
 ||ffmehcg.cn^
 ||ffnvhig.cn^
@@ -31135,6 +31137,7 @@ zzzyk.com###Tinfo
 ||gg86.pinggu.org^
 ||gga.xhamster.com^
 ||ggcode.2345.com^
+||ggdfrl.com^
 ||ggdm1.nhaidu.net^
 ||ggedandoscarr.xyz^
 ||ggg*.com/static/js/common.js
@@ -31749,6 +31752,7 @@ zzzyk.com###Tinfo
 ||gyhyhyq.website^
 ||gyjinchuang.vip^
 ||gykj.xyz^
+||gypowdr.com^
 ||gypsiedjilt.com^
 ||gyt168.com.cn^
 ||gytty.top^
@@ -32201,6 +32205,7 @@ zzzyk.com###Tinfo
 ||hh.jiankang.com^
 ||hh010.com/static/image/fff/
 ||hh0212.cc^
+||hh9uv6tq.com^
 ||hhaobcj.cn^
 ||hhdmh.net/bd/36mh.js
 ||hhdmh.net/js/g1.js
@@ -32498,6 +32503,7 @@ zzzyk.com###Tinfo
 ||hpzosbx.cn^
 ||hq3x.com^
 ||hqae.cn^
+||hqbuoh.com^
 ||hqcqz2.cn^
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
@@ -32749,6 +32755,7 @@ zzzyk.com###Tinfo
 ||hygieneretorted.com^
 ||hyhfimgg.com^
 ||hyhfsj.com^
+||hyidlu.com^
 ||hyjdz.cn^
 ||hykerewasn.xyz^
 ||hykrrersrl.com^
@@ -34027,6 +34034,7 @@ zzzyk.com###Tinfo
 ||jiphihizi.com^
 ||jipinyouwu.com^
 ||jipo.io^
+||jiqgsh.com^
 ||jirvlo.cn^
 ||jisafnia.space^
 ||jishiben.info^
@@ -38071,6 +38079,7 @@ zzzyk.com###Tinfo
 ||ophoacit.com^
 ||ophwrh.cn^
 ||opikervop.xyz^
+||opjnbmk.com^
 ||opnked*.xyz^
 ||opnkedfdye.xyz^
 ||opoxv.com^
@@ -39416,6 +39425,7 @@ zzzyk.com###Tinfo
 ||pufei.cc/skin/middle.js
 ||pufei8.com/skin/t6.html
 ||puffin.nex4.net^
+||pufhzpt.cn^
 ||pugsgivehugs.com^
 ||puhtml.com^
 ||pulsemgr.com^
@@ -40800,10 +40810,12 @@ zzzyk.com###Tinfo
 ||rz261.cn^$third-party
 ||rzgvdm5.com^
 ||rzijjeb.cn^
+||rzkptd.com^
 ||rzlib.net^
 ||rzlp.xyz^
 ||rzneekilff.com^
 ||rzngisyz.xyz^
+||rzsgxmm.cn^
 ||rzxov.cn^
 ||s*emagst.akamaized.net/assets/*/js/ads_script.js$domain=emag.ro,important
 ||s-adzone.com^
@@ -42755,6 +42767,7 @@ zzzyk.com###Tinfo
 ||tdbwgrm.cn^
 ||tdedqqv.cn^
 ||tdid.m.qq.com^
+||tdigcw.com^
 ||tdjc.shop^
 ||tdmd.us^$third-party
 ||tdtxkvj.cn^
@@ -43844,7 +43857,6 @@ zzzyk.com###Tinfo
 ||ulfex.cn^$third-party
 ||ulink.cc^$third-party
 ||ulmoyc.com^
-||ulog*.*^
 ||ulogs.umeng.com^
 ||ulogs.umengcloud.com^
 ||ulourgaz.net^
@@ -44025,6 +44037,7 @@ zzzyk.com###Tinfo
 ||urmilan.info^
 ||ursegreatm.fun^
 ||urtirepor.com^
+||urtr4hrq.com^
 ||uruswan.com^
 ||urutricae.com^
 ||urwnsq.xyz^
@@ -44032,6 +44045,7 @@ zzzyk.com###Tinfo
 ||usbkngf.cn^
 ||usbvhzg.cn^
 ||uscdn.top^
+||usejj.makepolo.cn^
 ||usejj.wangkl.com^
 ||usemax.de^$third-party
 ||usenetjunction.com^$third-party
@@ -44523,6 +44537,7 @@ zzzyk.com###Tinfo
 ||vpqpbgvgly.com^
 ||vptadv.com^
 ||vptjabo.cn^
+||vpubmi.com^
 ||vq7736.com^
 ||vqdjcy.com^
 ||vqhifd.xyz^
@@ -45041,6 +45056,7 @@ zzzyk.com###Tinfo
 ||wintjaywolf.org^
 ||winwin7.com/statics/js/pos_js/
 ||wioe3quod.cyou^
+||wipew.com^
 ||wirelessannexwren.com^
 ||wirratailage.com^
 ||wirsauco.com^
@@ -45823,6 +45839,7 @@ zzzyk.com###Tinfo
 ||xjssjc.com^
 ||xjwrq.com^
 ||xk3b.top^
+||xkcxh.com^
 ||xkd*.com/layer/layer.js
 ||xkd.hk^
 ||xkeo6sleo.cyou^
@@ -46215,6 +46232,7 @@ zzzyk.com###Tinfo
 ||yaozh.com/Public/js/widget/dbAdDownload.
 ||yaozui.com/ref/index?
 ||yapusheji.com^
+||yaqurc.com^
 ||yarlnk.com^
 ||yarmtangled.com^
 ||yaseok.com//static/src/images/loading.gif
