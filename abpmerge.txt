@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-16 16:13:58
-! Total count: 47515
+! Version: 2023-03-17 08:11:41
+! Total count: 47527
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4057,6 +4057,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /getvideoad.
 /gexternalad.
 /gg.php
+/gg54.oss-
 /gg7f5kv/*
 /gg_d.php
 /gg_details_
@@ -4067,6 +4068,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ggao/*
 /ggclass/*
 /ggdata1.
+/ggg530.oss-
 /ggjs/*
 /ggpic/*
 /ggtp/*
@@ -6471,7 +6473,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 52pk.com##span[style*="gaosu"]
 52pk.com,downmsn.com##.bzClick
 52pk.com,hao.rising.cn,vpgame.com##.add
-52solution.com##div[class*="banner"]
+52solution.com,imydl.com##div[class*="banner"]
 52tian.net##.sidebar960
 52tian.net,starbaby.cn##.bdad
 52vfx.com#@##head_ad
@@ -15753,8 +15755,7 @@ imgse.com##.ad-banner
 imkan.tv##.bottom__card
 imooc.com##.redrain-bg-shade
 imydl.com###enhancedtextwidget-5
-imydl.com##DIV[class*="banner"]
-imydl.com##DIV[id*="banner"]
+imydl.com##div[id*="banner"]
 indiatimes.com##a[onclick*="timesofindia.indiatimes.com/tilockbk/"]
 indiatimes.com##a[onclick][rel*="nofollow"]
 indiatimes.com##div > a[onclick*="utm_source"]
@@ -18718,8 +18719,10 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
-search.seznam.cz#$#hide-if-matches-xpath './/div/span[contains(@class,"a3cddc")][@data-e-b-ae]/parent::div/ancestor::div[@data-dot-data]/parent::div[1]'
-search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@data-dot-data,"reporter_pos")]'
+search.seznam.cz#$#hide-if-matches-xpath './/div/span[contains(@class,"a3cddc")][@data-e-b-ae]/ancestor::div[@data-e-b-n]'
+search.seznam.cz#$#hide-if-matches-xpath './/div[@class][contains(@data-dot-data,"zpi")]/parent::div[@data-e-b-n][1]'
+search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/parent::div[1]'
+search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/preceding::div[contains(@class,"Ze2dfbec313")]'
 searchenginereports.net#$#abort-on-property-read adsbygoogle
 secretmine.net###main-content > br
 secretmine.net###main-content > center
@@ -20308,11 +20311,11 @@ www.sbdm.net##.ads_all:remove()
 www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
-www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"click?")]/div/img/ancestor::div[@id]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@class][@style="flex-basis: 1800px; height: 1800px;"]/div[@class][@style="top: 62px;"]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"utm_campaign")]/div/img/ancestor::div[@id]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class]/preceding::div[contains(@class,"mol-advert-header__source")]/parent::div[@class]/ancestor::div[@id][1]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[@class][contains(@style,"flex-basis:")]/div[@class][@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header__advert-label")]/preceding::div[contains(@class,"mol-advert-header__source")]/parent::div[@class]/ancestor::div[@id][1]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@style,"height: 300px; width: 480px;")]/div[@style]/div/ancestor::div[@class="gadget__content"]'
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@style,"height: 300px; width: 480px;")]/div[@style]/ancestor::div[@class][2]'
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
@@ -24033,6 +24036,7 @@ zzzyk.com###Tinfo
 ||aj2550.bid^
 ||aj4j.icu^
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=darkcomet-rat.com
+||ajcnz1.com^
 ||ajestigie.com^
 ||ajfkwwpo.xyz^
 ||ajfnee.com^
@@ -30642,6 +30646,7 @@ zzzyk.com###Tinfo
 ||frame.enet.com.cn/a.php
 ||framentyder.pro^
 ||frameperfect.speedrun.com^
+||franchiseworld.hk^
 ||francoistsjacqu.info^
 ||franecki.net^
 ||franeski.net^
@@ -33959,6 +33964,7 @@ zzzyk.com###Tinfo
 ||jianchajingmk.net^
 ||jiandan100.cn/images/site/union/
 ||jiangsm.club^
+||jiangzhou.ltd^
 ||jianhuadaily.com/wp-content/plugins/popup-
 ||jianjianjiao.top^
 ||jiankang13.com^$third-party
@@ -36668,6 +36674,7 @@ zzzyk.com###Tinfo
 ||mjita.cn^
 ||mjkyydz.cn^
 ||mjrvkv5.com^
+||mjxtiht.cn^
 ||mk6n4ym.cn^
 ||mkd88.cc/16.32.jpg
 ||mkjsqrpmxqdf.com^
@@ -37394,6 +37401,7 @@ zzzyk.com###Tinfo
 ||newsmaxfeednetwork.com^
 ||newsnow.co.uk/pharos.js
 ||newspage.xilu.com/model/visitlog.js
+||newspress.name^
 ||newsres.cn/temp/tempad
 ||newstarads.com^
 ||newsunads.com^
@@ -40343,6 +40351,7 @@ zzzyk.com###Tinfo
 ||rentingimmoderatereflecting.com^
 ||rentiyishu.org/*.js
 ||renxingganwu.com^
+||renxlx.xyz^
 ||renzhongjiaoyu.xyz^
 ||renzw.xyz^
 ||reofamily.cn^
@@ -42074,6 +42083,7 @@ zzzyk.com###Tinfo
 ||spybuildsoccasional.com^
 ||spycock.com/coco/$script
 ||spyoff.com^$third-party
+||sqfg002.xyz^
 ||sqfh001.xyz^
 ||sqnggnsb.fun^
 ||squatdisloyal.com^
@@ -46346,6 +46356,7 @@ zzzyk.com###Tinfo
 ||yenyshy.com^
 ||yepteaswont.com^
 ||yerecpa.cn/uploadsb/app_adv/
+||yeriri.ltd^
 ||yerto.info^
 ||yes-24-go.cc^
 ||yes1.feng.com^$domain=feng.com
@@ -46686,6 +46697,7 @@ zzzyk.com###Tinfo
 ||yqgzaewe.cn^
 ||yqmxfz.com^
 ||yqrta.xyz^$third-party
+||yqspiy.xyz^
 ||yquqoj.com^
 ||yqxs.xyz^
 ||yrcicbo.cn^
