@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-17 08:11:41
-! Total count: 47527
+! Version: 2023-03-17 16:11:54
+! Total count: 47531
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -967,6 +967,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/ck345.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
@@ -6139,7 +6140,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
-2phimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
 2ujj.com#@#.ad350
 2yjw.com##.widget-tops
 2yjw.com,fuliba2021.net,itdog.cn##.orbui
@@ -6546,6 +6546,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 58pic.com##.activitySettings-fixedBottom
 58pic.com##.xyyh
 591hx.com##.banner_w
+5dm.app##.top1
 5dm.app##[src*="sinaimg.cn"]
 5dm.app#@#.tm-share-this
 5eplay.com##img[width="1240"]
@@ -12508,7 +12509,7 @@ bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;
 bbs.my0511.com##embed[width="970"][height="70"]
 bbs.my0511.com##span.smalltxt
 bbs.pcbeta.com###diynavtop + style + div[class]
-bbs.pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
+bbs.pcbeta.com#?#:matches-path(/^\/$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 bbs.xmfish.com##.cmp_v
 bcbay.com##.ad_txt_box
 bcbay.com##.discuss + table
@@ -12617,6 +12618,7 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -13189,7 +13191,6 @@ cl.wpio.xyz##.tpc_content > a[target="_blank"][onmouseover]
 clanky.seznam.cz,search.seznam.cz##.Result-ico:not([class="Result-ico"])
 clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([class="Result-ico"]) + .Result-contentContainer
 clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > :not(.Result-contentContainer):not(.Result-ico):not(.Result-title)
-clanky.seznam.cz,search.seznam.cz#?#.Result.Result--organic:-abp-has(.Result-title + .Result-contentContainer > :not(.Result-url):not(.Result-dw-wrapper):not(.Result-image) > :not([class="Result-url-link Result-url-link--cr-result"]):not(span):not(.AnchorList-list))
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 click108.com.tw##.AD_300250
@@ -15272,6 +15273,7 @@ hinet.net###media_ad_popup_overlay
 hinet.net###pop_media_ad
 hinews.cn##div[id^="hi_gg_"]
 hipertextual.com#@#.ad-above-footer
+hiphimmoi.net#$#abort-current-inline-script $ urlAdsMbIntro
 hireteen.com###adb-enabled
 hispasexy.org#$#abort-current-inline-script _cpp
 hispasexy.org#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
@@ -16841,7 +16843,6 @@ longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 lookmovie100.xyz,lookmovie101.xyz,lookmovie102.xyz,lookmovie103.xyz,lookmovie104.xyz,lookmovie105.xyz,lookmovie106.xyz,lookmovie107.xyz,lookmovie108.xyz,lookmovie109.xyz,lookmovie110.xyz,lookmovie111.xyz,lookmovie112.xyz,lookmovie113.xyz,lookmovie114.xyz,lookmovie115.xyz,lookmovie116.xyz,lookmovie117.xyz,lookmovie118.xyz,lookmovie119.xyz,lookmovie120.xyz,lookmovie121.xyz,lookmovie122.xyz,lookmovie123.xyz,lookmovie124.xyz,lookmovie125.xyz,lookmovie126.xyz,lookmovie127.xyz,lookmovie128.xyz,lookmovie129.xyz,lookmovie130.xyz,lookmovie131.xyz,lookmovie132.xyz,lookmovie133.xyz,lookmovie134.xyz,lookmovie135.xyz,lookmovie136.xyz,lookmovie137.xyz,lookmovie138.xyz,lookmovie139.xyz,lookmovie140.xyz,lookmovie141.xyz,lookmovie142.xyz,lookmovie143.xyz,lookmovie144.xyz,lookmovie145.xyz,lookmovie146.xyz,lookmovie147.xyz,lookmovie148.xyz,lookmovie149.xyz,lookmovie150.xyz,lookmovie151.xyz,lookmovie152.xyz,lookmovie153.xyz,lookmovie154.xyz,lookmovie155.xyz,lookmovie156.xyz,lookmovie157.xyz,lookmovie158.xyz,lookmovie159.xyz,lookmovie160.xyz,lookmovie161.xyz,lookmovie162.xyz,lookmovie163.xyz,lookmovie164.xyz,lookmovie165.xyz,lookmovie166.xyz,lookmovie167.xyz,lookmovie168.xyz,lookmovie169.xyz,lookmovie170.xyz,lookmovie171.xyz,lookmovie172.xyz,lookmovie173.xyz,lookmovie174.xyz,lookmovie175.xyz,lookmovie176.xyz,lookmovie177.xyz,lookmovie178.xyz,lookmovie179.xyz,lookmovie180.xyz,lookmovie181.xyz,lookmovie182.xyz,lookmovie183.xyz,lookmovie184.xyz,lookmovie185.xyz,lookmovie186.xyz,lookmovie187.xyz,lookmovie188.xyz,lookmovie189.xyz,lookmovie190.xyz,lookmovie191.xyz,lookmovie192.xyz,lookmovie193.xyz,lookmovie194.xyz,lookmovie195.xyz,lookmovie196.xyz,lookmovie197.xyz,lookmovie198.xyz,lookmovie199.xyz,lookmovie200.xyz$$script[wildcard="*function*break;case*"][min-length="30000"][max-length="100000"]
 loveshang.com##div[class^="float-ad-"]
-lphim.net,subnhanhz.tv,subnhanh.cc,iphimchillzz.net,phimmoikf.com#$#abort-on-property-read localStorage
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -16877,7 +16878,7 @@ ludashi.com##.div_mask
 ludashi.com##.div_text
 luogu.com.cn##.side > div:last-child:not([class])
 luoqiuzw.com##DIV[id^="a-loading-"]
-luotphim2.com,luotphim.to,luotphimtv.live,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
+luotphim1.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -17620,7 +17621,7 @@ nfuwow.com##.crightbtad
 nfuwow.com##.midbgdbox
 nfuwow.com##a[href*="myyj.net"]
 nfxhd.com##a[href*=".fa510.com"]
-nguontv.org#$#abort-current-inline-script encodeURIComponent popunder
+nguontvhd.com#$#abort-current-inline-script encodeURIComponent popunder
 nhentai.net#$#override-property-read _n_app.popunder null;
 niaogebiji.com##.adImgBox
 nick18.com###img a
@@ -18004,12 +18005,10 @@ pg-wuming.com##+js(abort-current-script, $, !document.getElementById(btoa)
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 pherotruth.com$$script[wildcard="*.shift()*void 0===*"][min-length="50000"][max-length="250000"]
-phimgif.tv,ophimhd.net,phimraphot.net#$#abort-current-inline-script jQuery popurl
-phimhanz.me#$#abort-current-inline-script jQuery showPopupSearchKey
-phimhays.com#$#abort-current-inline-script jQuery window.open
+phimgiff.net,ophimhd.net,phimraphot.net#$#abort-current-inline-script jQuery popurl
 phimlau.online#$#abort-current-inline-script atob /Y1/
+phimmoi2s.com#$#json-prune ads
 phimmoiiii123.com,ophimmoi.net#$#abort-on-property-read matchMedia
-phimmoik.com#$#json-prune ads
 phonearena.com##.adblock_awareness
 php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
@@ -18626,7 +18625,6 @@ root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
-rphangs.com,mrcong.com#$#abort-on-property-read open; abort-on-property-write window.location.href
 rrjc.com###alertBox
 rrjc.com##.coupletbox
 rrys2019.com###globalNav1
@@ -18756,7 +18754,7 @@ setn.com##.rightFloat
 setn.com,eprice.com.tw##div[class^="ad-"]
 settlersonlinemaps.com###prb
 sex-gen.com##.navi
-sex369.net,viet69.tv,sexvietnam.site,sexdiaryz.fun#$#abort-on-property-read parseInt
+sex68.link,viet69.love,sexvietnam.site,sexdiaryz.fun#$#abort-on-property-read parseInt
 sex8.cc###nv > ul.cl > li > a[href^="http"]
 sex8.cc##.V-video-float
 sex8.cc##.a_oscar1
@@ -18766,7 +18764,7 @@ sex8.cc##.fnwehjnc12
 sex8.cc##.gd-list
 sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
-sexphimhd.net,gvnvh18.com,g18vn.com,vlxxs.net#$#abort-current-inline-script Math
+sexphimhd.net,gvnvh18.com,g18vn.com,sex68.link#$#abort-current-inline-script Math
 seznamzpravy.cz##[class^="dynamic_banner"]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
@@ -19575,6 +19573,7 @@ tmall.com##.mui-mbarp-qrcode
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.adtag + .entry-copyright
+tmioe.com##.entry-copyright
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmtpost.com##.open-app
 to8to.com##.ad-commom
@@ -19646,7 +19645,7 @@ trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-l
 trueachievements.com,pockettactics.com$$script[tag-content="={""isIframeNetworking"":false,""mappings"":[{""selector"":""link[href*="][max-length="15000"]
 trustedreviews.com,nme.com$$script[tag-content="Object.defineProperties?Object.defineProperty:function"][max-length="120000"]
 truyen2u.net#$#abort-current-inline-script eval
-truyentranhtuan.com#$#abort-current-inline-script $ btpop
+truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
@@ -19965,7 +19964,6 @@ vidlii.com$$script[tag-content="|babasbmsgx|"][min-length="5000"][max-length="27
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.in#$#abort-current-inline-script JSON.parse /atob|btoa|break/; abort-current-inline-script String.fromCharCode /atob|btoa|break/; abort-current-inline-script Math /atob|btoa|break/
 viet69.love,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
@@ -20459,10 +20457,10 @@ xmfish.com##.readCon_right
 xmh/200/200-*.gif
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xoilac21.tv##.modal.fade.show
-xoilac21.tv#$#abort-current-inline-script jQuery overlay
-xoilac21.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac21.tv#$#abort-on-property-read adsRedirectPopups
+xoilac4.com##.modal.fade.show
+xoilac4.com#$#abort-current-inline-script jQuery overlay
+xoilac4.com#$#abort-current-inline-script jQuery popupBanners
+xoilac4.com#$#abort-on-property-read adsRedirectPopups
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
 xtuan.com###foot_zhaobiao_bar
@@ -20475,7 +20473,7 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
-xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,2phimmoi.net,quangcaoyenbai.com,fullcrackpc.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,hiphimmoi.net,quangcaoyenbai.com,fullcrackpc.com#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com$$div[class="remove-ads"]
 xvna.com##.articleAD
@@ -27288,6 +27286,7 @@ zzzyk.com###Tinfo
 ||cloudioo.net^
 ||cloudlogobox.com^
 ||cloudroad.shop^
+||clqrdxc.cn^
 ||clrstm.com^
 ||cls.cn/v2/web/ad?
 ||clscsbcj.com^$third-party
@@ -31886,6 +31885,7 @@ zzzyk.com###Tinfo
 ||hamsterglobins.com^
 ||handanxinkai.com^
 ||handbagcordial.com^
+||handjob.tw/ad/
 ||handspiketha.xyz^
 ||handukeji.top^
 ||handuwangluo.top^
@@ -32199,6 +32199,7 @@ zzzyk.com###Tinfo
 ||hexun.com/js/att_count.js
 ||hexun.com^*/appDplus
 ||heybuddycn.me^
+||heytapimage.com^$third-party
 ||heyux.cn^
 ||hezhib.top^
 ||hf.soulplp.com^$third-party
@@ -32341,6 +32342,7 @@ zzzyk.com###Tinfo
 ||hktvmall.com/api/preroll/getList?
 ||hladalliance.com^
 ||hlalliances.com^
+||hlggimg.com^
 ||hlgglm.com^
 ||hljcq.xyz^
 ||hlmiq.com^
@@ -34664,6 +34666,7 @@ zzzyk.com###Tinfo
 ||kdslife.com/ui/ad/
 ||kdsnw.today^
 ||kdw*.com/layer/layer.js
+||ke4x.xyz^
 ||kebi1.top^
 ||kebi1.top^$third-party
 ||kecms.xyz^
@@ -39362,7 +39365,7 @@ zzzyk.com###Tinfo
 ||psoothie.xyz^
 ||psothoms.com^
 ||pssy.xyz^
-||pssy.xyz^$domain=animevi.net
+||pssy.xyz^$domain=animevisub.net
 ||pstatp.com/growth/mobile_list/image/bonus_
 ||pstatp.com/large/pgc-image/e8bd997e82874259a66207d2f77f0c6c
 ||pstatp.com/obj/game-files/e30c81a77b8c2d45ca8d6f99aae969dc
@@ -45047,6 +45050,7 @@ zzzyk.com###Tinfo
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whugesto.net^
 ||whulsaux.com^
+||whum.top^
 ||whuptaiz.net^
 ||whwxxny.com^
 ||whxva.com^
