@@ -581,7 +581,7 @@
 ##.bannerliststyle[style^="min-height"]
 ##.bdyp-sygg-ul
 ##.below_ads
-##.bg > IMG[src*=".meituan.net"]
+##.bg > img[src*=".meituan.net"]
 ##.bg_ad
 ##.bjxhf
 ##.bm.a_c
@@ -2385,6 +2385,7 @@
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 24en.com##.article_part_top
 24en.com##A[href*="/ClickAd?"]
+24h.pchome.com.tw##div[id^="Block"][class="grab_box"]
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
@@ -3357,6 +3358,7 @@ aqicn.org#$#abort-on-property-read alert
 arabseed.co,arabseed.com,arabseed.me,arabseed.net,arabseed.tv#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
 arabxd.com#$#abort-current-inline-script document.querySelectorAll popMagic
 articlerewritertool.com#@#.adsbygoogle
+ashdi.vip,tortuga.wtf#$#json-prune vast
 asken.jp#@##top_box > a[onclick^="javascript"]
 asksiirleri.org#$#abort-current-inline-script Math zfgloaded
 asmag.com.cn###adRightFix
@@ -3809,7 +3811,6 @@ bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:-abp-has(> .ti_item > .ti_infos
 bdimg.com,tieba.baidu.com,tieba.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
 bdinfo.net###header_AD
 bdp.cn#@#.adv-list
-bdys03.com##+js(nano-setInterval-booster, _0x, , 0.02)
 beanfun.com#@#.ad-slider
 beauty321.com##.pc_ads
 beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abort-on-property-write ads_priv
@@ -4054,6 +4055,8 @@ boylov.xyz,boylove.cc##.swiper-wrapper
 boylov.xyz,boylove.cc##div[data-type="1"]
 boylov.xyz,boylove.cc##div[style="display: block"]
 boylov.xyz,boylove.cc#?#:-abp-has(>.adsbyexoclick)
+boylove.cc###fake_avivid_waterfall_webpush
+boylove.cc###floating_page
 boylove.cc###yteggbue
 boylove.cc##.dzxvovcm
 boylove.cc##.reader-home-swiper
@@ -4701,7 +4704,6 @@ cpu.baidu.com##A[href*='cpro.baidu.com']
 cq.qq.com##div.clearfix[style*="1000"]
 cq.qq.com##div[class^="ad-box"]
 cq.qq.com##div[style*="1000"][style*="60"]
-cq.ru#$#hide-if-matches-xpath './/a[@class][@target="_blank"]/following::img[@class][string-length(@src) > 70]/ancestor::div[@class][1]'
 cq.ru#$#prevent-listener DOMContentLoaded 'banners'
 cqfishing.net###chs_bannerArea
 cqmmgo.com##.ad-160x40
@@ -7003,7 +7005,9 @@ instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//span[text()="Sponsored"]/ancestor::div[2][starts-with(@class,"css")]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][contains(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][contains(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/picture/following::div[@aria-hidden="true"][text()="Sponsored"]/parent::div[@id]/ancestor::div[@class][1]'
 instantmanga.com###notice
@@ -8725,6 +8729,7 @@ news.mydrivers.com##.baidu_left
 news.mydrivers.com##div[style="width:1000px;padding-top:16px;padding-bottom:12px;"]
 news.mydrivers.com#?#.news_info > p:has(> a[href^="https://dt.mydrivers.com/"])
 news.mydrivers.com#?#.news_info > p:has(> strong:contains(双11红包活动推荐))
+news.pchome.com.tw##div[class^="adnewlist"]
 news.qq.com###focus-bar
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
 news.sina.com.cn##.news_weixin_ercode
