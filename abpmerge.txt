@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-25 08:10:20
-! Total count: 47716
+! Version: 2023-03-25 16:09:52
+! Total count: 47726
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -246,7 +246,7 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main.site-main > div > div > a[href] > img[src*=".bcebos.com"]
+###main.site-main > div > div > a[href] > img
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -955,6 +955,7 @@
 ##.wp.a_f
 ##.wp.a_h
 ##.wp_headline + .ad1
+##.wpcom_ad_wrap
 ##.wrap + #btmBox
 ##.wrap + #midBox
 ##.wrap.mt10.clearfix > .box.top_box
@@ -1815,6 +1816,7 @@ $script,third-party,domain=faselhd.top,badfilter
 $script,third-party,domain=hitomi.la
 $script,third-party,domain=imgbox.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+$script,third-party,domain=torrkitty.com|torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
 $websocket,domain=5nj.com|cechi8.com
 $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
@@ -2207,6 +2209,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .net/adv/
 .net/bnr/
 .net/js/ads/
+.net/vh1/$script,third-party
+.net/vj1/$script,third-party
 .ng/ads/
 .niusnews.com/upload/banners/
 .nl/ads/
@@ -22370,6 +22374,7 @@ zzzyk.com###Tinfo
 ||614514.com^
 ||61586.shop^*.gif
 ||616182863.com^$third-party
+||6179a.com^
 ||61c3007cf3.com^
 ||61hhdp.com^
 ||62422.cn/ggimg/
@@ -31489,6 +31494,7 @@ zzzyk.com###Tinfo
 ||gold2762.com^
 ||gold678.com/news/js/layer/layer.js
 ||golden-gateway.com^
+||golden88.co^
 ||goldenlee.cn^
 ||goldenmoustache.com/wp-content/themes/golden-moustache/js/libs/modernizr-$script
 ||goldfish.untitledspreadsheet.com^
@@ -38052,6 +38058,7 @@ zzzyk.com###Tinfo
 ||oinlkwdsx.xyz^
 ||oinlkwr.xyz^
 ||ointmentaloofpincers.com^
+||oiqbdwjkl.com^
 ||oiqdjksgpo.com^
 ||oiqwnfk.com^
 ||oisafnik.space^
@@ -39149,6 +39156,7 @@ zzzyk.com###Tinfo
 ||points2shop.com^$third-party
 ||poiqknfl.com^
 ||poisonencouragement.com^
+||pojihfnkbllg.net^
 ||pojjtt.xyz^
 ||pojkhufef.xyz^
 ||pokaroad.net^
@@ -39213,6 +39221,7 @@ zzzyk.com###Tinfo
 ||popunderstar.com^
 ||popunderz.com^
 ||popxperts.com^
+||poqjnkdsou.net^
 ||poqoiwn.com^
 ||poqwua.cn^
 ||porcupine.simpleprax.de^
@@ -43309,6 +43318,7 @@ zzzyk.com###Tinfo
 ||tipcatscarola.com^
 ||tisafnii.space^
 ||tissuespectrumadulthood.com^
+||tisszhb.cn^
 ||titan007.com/ad/
 ||titan007.com/images/item.gif
 ||titan007.com/js/indexshow.
