@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-24 16:11:27
-! Total count: 47709
+! Version: 2023-03-25 08:10:20
+! Total count: 47716
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6641,9 +6641,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 77mh.cc###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
+789ys.com,calmlab.com,ruanyifeng.com##div[style*="important"]
 789ys.com,domp4.cc##h1[style]
 789ys.com,fffdm.com##ul[style]
-789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -12898,7 +12898,6 @@ caixin.com##.incubator
 calciomercato.com$$script[tag-content="AntiAdblock"][min-length="2000"][max-length="5000"]
 calciomercato.com$$script[tag-content="new FuckAdBlock"][max-length="30000"]
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
-calmlab.com##div[style*="important"]
 cam4.com###Cam4DialogContainer
 cam4.com###disclaimerModal
 cam4.com###goldNavbar
@@ -14075,9 +14074,9 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 easymp3converter.com$$script[tag-content="afScript"][min-length="5000"][max-length="7000"]
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be#?#:xpath(.//div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport])
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be#?#:xpath(.//ul[starts-with(@class,"b-list__items_")]/li[@class="s-item s-item--large"]//span[@class="s-item__sponsor"]/ancestor::li[@class="s-item s-item--large"])
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport])
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//ul[starts-with(@class,"b-list__items_")]/li[@class="s-item s-item--large"]//span[@class="s-item__sponsor"]/ancestor::li[@class="s-item s-item--large"])
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -19603,7 +19602,9 @@ tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[hre
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
 tiscali.it#$#hide-if-matches-xpath './/a[@class="slides-next"]/preceding::div[contains(@class,"active")]/ancestor::div[@data-mrc="ebay"]/parent::div[1]'
+tiscali.it#$#hide-if-matches-xpath './/a[@data-merchant="ebay"]/ancestor::div[starts-with(@class,"product-cnt")]/ancestor::div[contains(@class,"eby-cnt")]'
 tiscali.it#$#hide-if-matches-xpath './/a[@href="#"][contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
+tiscali.it#$#hide-if-matches-xpath './/a[@href="#"][contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][@href="#"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign=lucegas"))]/preceding::div[contains(@style,"height: ")][contains(@id,"SkinAuto")][2]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"campid") or contains(@href,"_trkparms")]/ancestor::div[@data-old]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"www.ebay.it")]/ancestor::div[@data-mrc="ebay"]/parent::div[starts-with(@class,"vsb-pos")]'
@@ -20982,7 +20983,6 @@ zzzyk.com###Tinfo
 ||012.tw^$third-party
 ||01fen.com^
 ||01u.net/js/tj.js
-||021jf.com^
 ||021jf.com^*.gif
 ||025613.com^
 ||025suyu.com^
@@ -26612,6 +26612,7 @@ zzzyk.com###Tinfo
 ||catastropheillusive.com^
 ||catbox.moe/bb5wdv.jpg
 ||catchvideo.net/static/android-banner-full-
+||catdomepimyth.com^
 ||catgride.com^
 ||catiligh.ru^
 ||cationinina.one^
@@ -30452,6 +30453,7 @@ zzzyk.com###Tinfo
 ||fg.daochengwowo.top^
 ||fg.satraefreath.com^
 ||fg.yilianqing.com^
+||fgdtln.xyz^
 ||fgn.cdn.serverable.com/common/images/nfr2ie0nd1s9^
 ||fgn.cdn.serverable.com^$image,domain=porcore.com
 ||fgo22.info^$third-party
@@ -31061,6 +31063,7 @@ zzzyk.com###Tinfo
 ||gaoqing.la/wp-content/uploads/*GOOVIS
 ||gaoqing.la/wp-content/uploads/*banner
 ||gaosan.com/js/b.js
+||gaowei.fit^
 ||gaoyuhu.top^
 ||gapscult.com^
 ||garacy.cn^
@@ -37072,6 +37075,7 @@ zzzyk.com###Tinfo
 ||msg.iqiyi.com^
 ||msg.video.qiyi.com^
 ||mshago.com^
+||msiogo.xyz^
 ||msite.baidu.com^
 ||msjj.tech^
 ||msn.ynet.com/c/tj_comm.js
@@ -45869,6 +45873,7 @@ zzzyk.com###Tinfo
 ||xfgctg.com^
 ||xfkujwt.cn^
 ||xflsj.com^
+||xfn1688.com^
 ||xfwxhyd.cn^
 ||xfxssqakis.com^
 ||xfzaimfq.xyz^
@@ -46226,6 +46231,7 @@ zzzyk.com###Tinfo
 ||xsjh001.xyz^
 ||xsjh002.xyz^
 ||xsjyun.cn^
+||xsplus.info^
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
 ||xswape.top^
@@ -47454,6 +47460,7 @@ zzzyk.com###Tinfo
 ||zlyk.com/Runtime/Js/m_footer_top.js
 ||zlyk.com/Runtime/Js/m_nav_bottom.js
 ||zlyk.com^*/ysapp.
+||zmadsvd.cn^
 ||zmakj.xyz^
 ||zmdtcw.cn^
 ||zmhqhuq.cn^
