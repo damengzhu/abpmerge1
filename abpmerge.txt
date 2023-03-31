@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-31 08:11:08
-! Total count: 33361
+! Version: 2023-03-31 16:09:39
+! Total count: 33375
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2867,6 +2867,8 @@ $websocket,domain=5nj.com|cechi8.com
 /new/27*.html
 /new/50*.html
 /new/55*.html
+/new/56*.html
+/new/57*.html
 /new/81*.html
 /new/82*.html
 /new/83*.html
@@ -3954,6 +3956,7 @@ $websocket,domain=5nj.com|cechi8.com
 3d66.com##.advertisement-carousel
 3d66.com##.botfocus
 3d66.com##.down-adver
+3dmgame.com###index_bg_box
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##.Content_L > p
@@ -10010,8 +10013,7 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport])
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//ul[starts-with(@class,"b-list__items_")]/li[@class="s-item s-item--large"]//span[@class="s-item__sponsor"]/ancestor::li[@class="s-item s-item--large"])
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#?#:xpath(.//li[@data-viewport]//span[@role="text"][substring(@class,string-length(@class)-(string-length(//div[@class="clipped" and not(text())]/@id)-1))=//div[@class="clipped" and not(text())]/@id]/ancestor::li[@data-viewport])
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -11721,7 +11723,7 @@ instacart.com#$#hide-if-matches-xpath './/div[2][starts-with(@class,"css")]//spa
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]/div[concat(normalize-space(.//div[1][contains(@style,"display: inline-block;")]/text()),normalize-space(.//div[2][contains(@style,"display: inline-block;")]/text()))="Sponsored"]/ancestor::div[contains(@class,"SearchResultsEngagementTracker") or contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"ShoppableList")]//span[text()="Sponsored"]/ancestor::div[contains(@class,"ShoppableList")]'
 instacart.com#$#hide-if-matches-xpath './/picture/following::div[@aria-hidden="true"][text()="Sponsored"]/parent::div[@id]/ancestor::div[@class][1]'
-instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::*[contains(@class,"ListHeaderDisclaimer")]/ancestor::div[contains(@class,"SearchLazyLoader")][1]'
+instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::*[contains(@class,"ListHeaderDisclaimer")]/ancestor::*[contains(@class,"SearchLazyLoader")][1]'
 instacart.com#$#race start; hide-if-matches-xpath './/a[contains(@href,"interaction_id=")]/ancestor::div[contains(@class,"Shop")]/parent::div[contains(@id,"a/")]'; hide-if-matches-xpath './/div[contains(@class,"ItemsList")]/preceding::a[contains(@href,"interaction_id=")]/ancestor::div[contains(@id,"a/")]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-sssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/span/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; hide-if-matches-xpath './/div[contains(@style,"display:") and contains(@style,"color") and contains(@style,"line-height:")]/span[2]/ancestor::div[contains(@class,"ItemCardHoverProvider")]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/span[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; hide-if-matches-xpath './/section[@class][@aria-hidden="true"]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/")]'; race stop;
@@ -11840,6 +11842,8 @@ ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div + div[id]
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#div:not([id]) > style[id^="s-"] + style + div[id]
 iqihang.com##.xf_right
+iqihang.com#$#.app.padding > .header { top: 0 !important; }
+iqihang.com#$#.app.padding { margin-top: 0 !important; }
 iqilu.com##.gg300250dbl
 iqilu.com##.gg580140
 iqilu.com##.kejie_ad
@@ -15109,6 +15113,7 @@ ssr.tools##.widget_custom_html:nth-child(n+2)
 ssr.tools,zhujiwiki.com##.asb-post-footer
 sssam.com##+js(set-constant, ads, '')
 sssam.com##.widget_html_ad
+sstv.pw##.container > a > img[style="width: 100%;"]
 ssuip.com###mask
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
@@ -18000,6 +18005,7 @@ zzzyk.com###Tinfo
 ||62mao.com/52
 ||63007.com:82/haodxi.js
 ||6318537ccc.com^
+||637o.top^
 ||6399tp.com^
 ||63ef.com^*.js
 ||63kc.com^$third-party
@@ -18020,6 +18026,7 @@ zzzyk.com###Tinfo
 ||66.fmx.cn/js/
 ||6604.org^$third-party
 ||6617398ccc.com^
+||6651tp.com^
 ||6665432.com^*.gif
 ||66668aaa.com^
 ||66669aaa.com^
@@ -24870,6 +24877,7 @@ zzzyk.com###Tinfo
 ||jiaodong.net/a/js/
 ||jiaohezhen.com^
 ||jiaojun.icu^
+||jiaopei.com^
 ||jiaoyou8.com^$domain=mitbbs.ca|mitbbs.com
 ||jiaoyu.baidu.com/tieba/
 ||jiape.cyou^
@@ -26055,6 +26063,7 @@ zzzyk.com###Tinfo
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyangyang.cn^
 ||liuye.club^
+||liuyun.name^
 ||liuzhen.love^
 ||liuziqiu.cn^
 ||live.prismamediadigital.com/ops/TRA/ab_ban/$image,domain=voici.fr
@@ -26634,6 +26643,7 @@ zzzyk.com###Tinfo
 ||metal-bitcoin.com/js/scroll1.js$script
 ||metal-bitcoin.com/libs/check.js$script
 ||metauniverse88.com^
+||metaword.cn^
 ||meteor.today/ad/
 ||metok.sys.miui.com^
 ||metvb.com/js/bofangwei.js
@@ -27093,6 +27103,7 @@ zzzyk.com###Tinfo
 ||naiki.top^
 ||nalapop.com^
 ||namemek.com^
+||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
 ||nanlisgc.fun^
 ||nanofine.cn^
@@ -28988,6 +28999,7 @@ zzzyk.com###Tinfo
 ||s1-a1.dnvodcdn.me^*.mp4
 ||s1-a1.dnvodcdn.me^*.svg
 ||s1.dugoogle.com^
+||s1.hanlinzhijia.com^
 ||s1.pipishu.com^
 ||s1.qiqutt.cn^
 ||s1.qiqutt.com^
@@ -32910,6 +32922,8 @@ zzzyk.com###Tinfo
 ||zdg-bend.xyz^
 ||zdgbend.buzz^
 ||zdhfff.xyz^
+||zdhpen.xyz^
+||zdhpenn.shop^
 ||zdktgps.cn^
 ||zdnet.com.cn/js/pv.js
 ||zdqx.com/statics/v1/images/gif/
