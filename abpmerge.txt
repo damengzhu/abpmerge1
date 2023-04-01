@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-03-31 16:09:39
-! Total count: 33375
+! Version: 2023-04-01 08:09:56
+! Total count: 33389
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3844,7 +3844,7 @@ $websocket,domain=5nj.com|cechi8.com
 2cto.com##div[style^="float:left;width:300px;"]
 2cycomic.com,yemancomic.com##body > div > center
 2ddl.ms,thevideobee.to,dropapk.com,2ddl.vg#$#abort-on-property-write _pop
-2dfan.com,galge.fun###index_bg_box
+2dfan.com,3dmgame.com,galge.fun###index_bg_box
 2dfan.com,galge.fun###popadv-container
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
@@ -3956,7 +3956,6 @@ $websocket,domain=5nj.com|cechi8.com
 3d66.com##.advertisement-carousel
 3d66.com##.botfocus
 3d66.com##.down-adver
-3dmgame.com###index_bg_box
 3dmgame.com###min_ad_con
 3dmgame.com###yxj_fmt_gg
 3dmgame.com##.Content_L > p
@@ -9674,6 +9673,10 @@ diyifanwen.com##.Hzh1
 diyifanwen.com##.Hzh2
 dizhanw.com,jiangjunzy.com##div[style="background: #fff;padding:5px;"]
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
+djljz.cn###djl_hdhb
+djljz.cn###toolbar
+djljz.cn##.bottom_slide_box
+djljz.cn##.left_fixed_ad
 djwma.com###logo
 dl.pconline.com.cn##.box-push
 dl.pconline.com.cn##.dlTips
@@ -15449,10 +15452,11 @@ tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
 tiscali.it#$#hide-if-matches-xpath './/a[@class="slides-next"]/preceding::div[contains(@class,"active")]/ancestor::div[@data-active]/parent::div[1]'
 tiscali.it#$#hide-if-matches-xpath './/a[@data-merchant="ebay"]/ancestor::div[starts-with(@class,"product-cnt")]/ancestor::div[contains(@class,"eby-cnt")]'
-tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign=lucegas"))]/preceding::div[contains(@style,"height: ")][@id][2]'
+tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign="))]/preceding::div[contains(@style,"height: ")][@id][1]'
+tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(@*,"https://www.ebay.it")]/preceding::div[contains(@style,"height: ")][@id][1]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"campid") or contains(@href,"_trkparms")]/ancestor::div[@data-old]'
+tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"campid") or contains(@href,"_trkparms")]/ancestor::div[@data-nosnippet]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"www.ebay.it")]/ancestor::div[@data-total]/parent::div[starts-with(@class,"vsb-pos")]'
 tiscali.it#$#hide-if-matches-xpath './/figcaption/preceding::img/preceding::a[@target="_blank"][contains(@title,"ebay")]/parent::figure'
 tiscali.it#$#hide-if-matches-xpath './/img/ancestor::a[@target="_blank"][contains(@*,"www.ebay.it")]/parent::div[@class]'
@@ -16918,7 +16922,6 @@ zzzyk.com###Tinfo
 ||1.idc100.com^
 ||1.isanxia.com^
 ||1.jeasyui.net^
-||1.jiaopei.com^
 ||1.jiqie.cn^
 ||1.jushtong.com^
 ||1.kuaidiwo.cn^
@@ -17682,6 +17685,7 @@ zzzyk.com###Tinfo
 ||44629.com^
 ||4480dy.net^
 ||44j4oo2a.cn^
+||44jq.cn^
 ||44pd.com^*xds/
 ||44pv.com^$third-party
 ||44r9fl.xyz^
@@ -20093,6 +20097,7 @@ zzzyk.com###Tinfo
 ||bizhub-cloud.cn^
 ||bj-gov-cn.website^
 ||bjbdlt.com.cn^
+||bjbrsfh.cn^
 ||bjcathay.com/s?z=
 ||bjcwwsc.xyz^
 ||bjdqxt.com^
@@ -20405,6 +20410,7 @@ zzzyk.com###Tinfo
 ||caibaojian.com/d/uploads/*0-
 ||caicnax.cn^
 ||caigoubao.cc^*/960
+||caihonglife.biz^
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caimei.me^
@@ -21658,6 +21664,7 @@ zzzyk.com###Tinfo
 ||djhrfus.xyz^
 ||djicdn.com/uploads/ad_image_file/
 ||djiybut.cn^
+||djljz.cn/Plugins/Template/XJLY/js/app.
 ||djs.baomihua.com^
 ||djv99sxoqpv11.cloudfront.net^
 ||dkfixj.xyz^
@@ -24284,6 +24291,7 @@ zzzyk.com###Tinfo
 ||ihdqpyc.cn^
 ||ihhii.xyz^
 ||ihhmh.com/mg/show
+||ihlurin.cn^
 ||ihmbpow.cn^
 ||ihngyjp.cn^
 ||ihqcndm.cn^
@@ -25027,6 +25035,7 @@ zzzyk.com###Tinfo
 ||jmgwh.cn^
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmm8a.xyz^
+||jmpnrh.xyz^
 ||jmqmbsn.cn^
 ||jmr.nnxiant.cn^
 ||jmw.com.cn/m_v2/js/active.js
@@ -28481,6 +28490,7 @@ zzzyk.com###Tinfo
 ||qpb*.sohu.com^
 ||qpb.sohu.com^
 ||qpb0.sohu.com^
+||qpb1.sohu.com^
 ||qpgyy.com/add01.html
 ||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
 ||qpic.ws/images/pk*.gif
@@ -28642,6 +28652,7 @@ zzzyk.com###Tinfo
 ||qysfa.com^
 ||qyshbf.ltd^
 ||qysyyg.com^
+||qyuimi.xyz^
 ||qyun.vip/pic/*.gif
 ||qyzyd.top^
 ||qz15.top^
@@ -29584,6 +29595,7 @@ zzzyk.com###Tinfo
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobakenchmaphk.com^
 ||sobt8.org/Public/static/js/common.js
+||socos.gitee.io/ss/poster/
 ||sodhef.com^
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -30651,6 +30663,7 @@ zzzyk.com###Tinfo
 ||u26u.com^$popup,third-party
 ||u33011.com^
 ||u33022.com^
+||u55011.com^
 ||u5fsqf.com^
 ||u5ree6.com^
 ||u644.fun^
@@ -31166,6 +31179,7 @@ zzzyk.com###Tinfo
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wadqfaj.cn^
 ||wafmedia3.com^$script,domain=online.dramacafe.in
+||wafxb.xyz^
 ||wagepulsate.com^
 ||wagzqhq.cn^
 ||wai69.com/js/baidu/
