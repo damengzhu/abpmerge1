@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-02 08:09:31
-! Total count: 32698
+! Version: 2023-04-02 16:09:17
+! Total count: 32701
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1192,6 +1192,7 @@
 ##a.gggg[href^="https"]
 ##a[href$=".120ydrayy.com"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
+##a[href$=".xyz:8443"]
 ##a[href$="/1c626.com"]
 ##a[href$="/77adc.com"]
 ##a[href$="/aa8a1j.com"]
@@ -1435,7 +1436,7 @@
 ##a[href*="/bgm9z.com"]
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
-##a[href*="/bucd.icu/"]
+##a[href*="/bucd.icu"]
 ##a[href*="/ck345.cc"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/ctyitopo17.com"]
@@ -1510,6 +1511,7 @@
 ##a[href*="/xchina.fun/redirect/ad"]
 ##a[href*="/yb6277.vip"]
 ##a[href*="/ybhth689.com"]
+##a[href*="/yfj8159.com"]
 ##a[href*="/yigeyuming3880.top"]
 ##a[href*="/yyds101.com"]
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
@@ -8723,12 +8725,12 @@ botanichka.ru,itech.co.ua,agronom.com.ua,mediasat.info,housechief.ru,fainaidea.c
 boxnews.com.ua##.bn-banner
 boxnews.com.ua##[style="padding-bottom: 20px;"]
 boyjackpot.com,letsjerk.tv#$#abort-current-inline-script asgPopScript
-boylov.xyz,boylove.cc###fake_avivid_waterfall_webpush
-boylov.xyz,boylove.cc##.owl-carousel
-boylov.xyz,boylove.cc##.swiper-wrapper
-boylov.xyz,boylove.cc##div[data-type="1"]
-boylov.xyz,boylove.cc##div[style="display: block"]
-boylov.xyz,boylove.cc#?#:-abp-has(>.adsbyexoclick)
+boylov.xyz,boylove.cc,boyloves.fun###fake_avivid_waterfall_webpush
+boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
+boylov.xyz,boylove.cc,boyloves.fun##.swiper-wrapper
+boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
+boylov.xyz,boylove.cc,boyloves.fun##div[style="display: block"]
+boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc###floating_page
 boylove.cc###yteggbue
@@ -20091,6 +20093,7 @@ zzzyk.com###Tinfo
 ||boylove.cc/bookimages/img/
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
+||boyloves.fun^*/img/20*.gif
 ||bozhihua.com^$third-party
 ||bozhixiang.top^
 ||bozhou666.com^
@@ -30471,7 +30474,6 @@ zzzyk.com###Tinfo
 ||videowood.tv/pop2
 ||videowood.tv/pop^$popup
 ||videowood.tv/popjavascript
-||vidhub.cc/huimee/
 ||vidwkd.com^
 ||viedemerde.fr/cuckolding^
 ||vieldeold.xyz^
@@ -32067,6 +32069,7 @@ zzzyk.com###Tinfo
 ||yular.cn^
 ||yulidianshang.com^
 ||yuliglsd.space^
+||yulingaa.xyz^
 ||yumingroot.xyz^
 ||yumnxwvd.ink^
 ||yun-hl.3g.qq.com^
