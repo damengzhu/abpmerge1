@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-01 16:09:21
-! Total count: 32694
+! Version: 2023-04-02 08:09:31
+! Total count: 32698
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1531,6 +1531,7 @@
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/static/xzgg/index.html"]
+##a[href="/vod/detail/id/118265.html"]
 ##a[href="http://hqbet2191.com"]
 ##a[href="http://www.tw787.com/"]
 ##a[href="http://www.yabovip5.cc/"]
@@ -1712,11 +1713,6 @@
 ##dl#listwoBox
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
-##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0
-##header + #main:nth-child(n+4) > .container-fluid.mb-0.p-0 + .jsv-g1
-##header + #main:nth-child(n+4) > .container-fluid.mb-3.p-0
-##header + #main:nth-child(n+4) > .container-fluid.mb-3.p-0 + .jsv-g1
-##header + #main:nth-child(n+4) > .jsv.jsv-g1.mb-0 > .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
@@ -2682,6 +2678,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jdzjgg/*
 /jfjs/ad.js
 /jianshen8/images/plan_banner_
+/jquery-ui.js?166$script,~third-party
 /jquery.adblock-detector.js|$script
 /jquery.adblock.js|$script
 /jquery.antiadsblock.js|$script
@@ -16993,6 +16990,7 @@ zzzyk.com###Tinfo
 ||113.17.188.*.js
 ||1133.cc^$third-party
 ||1134555.com^
+||1136999.com^
 ||1138555.com^
 ||114com.cc^
 ||114la.com/static/js/egg.js
@@ -17317,6 +17315,7 @@ zzzyk.com###Tinfo
 ||23.244.43.212^
 ||23.89.50.180^
 ||23.91.3.114^
+||230579.top^
 ||230book.net/js/sweetcake.js
 ||2324av.com/zz/
 ||2329.ink^
@@ -23103,6 +23102,7 @@ zzzyk.com###Tinfo
 ||gwg51.com^
 ||gwmeinq.cn^
 ||gwmrb.cn^
+||gwvzgjb.cn^
 ||gwwsevy.cn^
 ||gwzqbnh.cn^
 ||gx2f.top^
@@ -24949,6 +24949,7 @@ zzzyk.com###Tinfo
 ||jwhfkj.cn^
 ||jwoglda.top^
 ||jwpsrv.com/content/conversions/*/videos/*.mp4?token=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
+||jwronx.xyz^
 ||jwujvjo.cn^
 ||jx.flzyw.com/js/foot.js
 ||jx.renrensousuo.com^
@@ -27932,6 +27933,7 @@ zzzyk.com###Tinfo
 ||qiutian.buzz^
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
+||qiwjiy.xyz^
 ||qixin007.com/webbanner/
 ||qixingquan.com/api.php?mod=ad&adid=
 ||qixingquan.com/partner/
@@ -30634,6 +30636,7 @@ zzzyk.com###Tinfo
 ||wangduoduo.pw^
 ||wanghu2020.ltd^
 ||wangjianxd.site^
+||wangjiayi.fun^
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
 ||wangjing.cn/images/js/YlFloat.js
@@ -31375,6 +31378,7 @@ zzzyk.com###Tinfo
 ||xingshenfang.cn^$popup
 ||xingwangzz.com/123/
 ||xingxingdm.com^
+||xingyang.in^
 ||xingyou25.xyz^
 ||xingyou69.asia^
 ||xingyou70.asia^
