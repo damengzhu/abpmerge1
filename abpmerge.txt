@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-03 08:11:26
-! Total count: 32701
+! Version: 2023-04-03 16:10:32
+! Total count: 32722
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1057,6 +1057,7 @@
 ##DIV[data-text-ad]
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
+##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
 ##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
@@ -1626,6 +1627,7 @@
 ##div#beijing.article_content.layui-clear > div.left > div > a
 ##div#content.content div[id] > DIV[style*='z-index: 2147483647']
 ##div#detail.selector-zero > div > DIV[style]
+##div#gmright
 ##div#h2_player_prevideo > A[href][target='_blank']
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
@@ -2371,6 +2373,7 @@ $websocket,domain=5nj.com|cechi8.com
 /api/ads?
 /api/apiFetchAdsData
 /api/autosda.php
+/api/getPos?jspath=/videos/view//
 /api/goods/v1/get.script.core?
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
@@ -2847,6 +2850,10 @@ $websocket,domain=5nj.com|cechi8.com
 /new/21*.html
 /new/27*.html
 /new/50*.html
+/new/51*.html
+/new/52*.html
+/new/53*.html
+/new/54*.html
 /new/55*.html
 /new/56*.html
 /new/57*.html
@@ -3440,7 +3447,7 @@ $websocket,domain=5nj.com|cechi8.com
 12377.cn###notice
 123moviesgo.club#$#abort-current-inline-script Math /break|case/
 123moviesgo.club#$#abort-on-property-write atAsyncContainers
-123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,animepahe.com,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.ws,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,iframe-secured.com,komikcast.com,mavavid.com,mixdrop.co,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rlslog.net,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblockplus.xyz,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
+123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,animepahe.com,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.ws,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,iframe-secured.com,komikcast.com,mavavid.com,mixdrop.co,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rlslog.net,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
 123putlocker.club#$#abort-current-inline-script _0xbc13
 126.com,163.com##.gWel-promt
 131458.com###header_gg
@@ -5121,6 +5128,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||av30.xyz/cs/2.js
 @@||av4u.info/source/plugin/unadblock^
 @@||avalonalbum.com^$script,xmlhttprequest
+@@||averageactivity.com^$script,xmlhttprequest
 @@||averageamusement.com^$script,xmlhttprequest
 @@||avgle.com/embed/$genericblock,generichide
 @@||avmask.com/eroex.js$script
@@ -5417,6 +5425,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||colossalchance.com^$script,xmlhttprequest
 @@||colossalclouds.com^$script,xmlhttprequest
 @@||colossalcoat.com^$script,xmlhttprequest
+@@||combativecar.com^$script,xmlhttprequest
 @@||combativedetail.com^$script,xmlhttprequest
 @@||combbelief.com^$script,xmlhttprequest
 @@||combbit.com^$script,xmlhttprequest
@@ -5495,6 +5504,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||curtaincows.com^$script,xmlhttprequest
 @@||curvedsquirrel.com^$script,xmlhttprequest
 @@||curvycry.com^$script,xmlhttprequest
+@@||cushiondrum.com^$script,xmlhttprequest
 @@||cushionpig.com^$script,xmlhttprequest
 @@||cutecalculator.com^$script,xmlhttprequest
 @@||cutechin.com^$script,xmlhttprequest
@@ -7533,6 +7543,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||vipstatic.com/img/share/blank.png
 @@||virgoplato.com^$script,xmlhttprequest
 @@||virpe.com/includes/js/adver.js$script,domain=virpe.com
+@@||virtualvincent.com^$script,xmlhttprequest
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
 @@||vivaciousveil.com^$script,xmlhttprequest
@@ -7684,6 +7695,7 @@ $websocket,domain=5nj.com|cechi8.com
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
 Mplay/kk1.js
 ^monitor.jpg?xcode^
+_/bigREDdog.css?
 _/bigREDdog.js
 _300_250.
 _300_250_
@@ -7771,7 +7783,7 @@ ad-survey.com
 ad0R$xmlhttprequest,domain=expres.cz|idnes.cz
 adageindia.in#?#div:-abp-has(> h2:-abp-contains(From the WEB))
 adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
-adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblockplus.xyz,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
+adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 adbuck.cc###col_publi
 adbug.cn#@#.google_ads
 admaimai.com##.in16_w01 > div[class*="_ad0"]
@@ -7907,7 +7919,6 @@ alu.cn##.Tg_290x60
 alu.cn##.Tg_390x60
 alu.cn##.Tg_590x60
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
-amedia.online#$#override-property-read Object.prototype.renderTo undefined; prevent-listener /beforeunload|DOMContentLoaded|pagehide|readystatechange/ '0x';
 amyscans.com##div[class*="code-block"]
 ana1.me##.videopos
 ananvod.com##.rbPicAll
@@ -7936,7 +7947,7 @@ animeflv.ac,bajarpelisgratis.com,jkanime.top,pelismart.com,pelismartv.com,pelisp
 animeflv.cc#$#abort-current-inline-script JSON.parse
 animeflv.net,estrenosdoramas.net#$#abort-on-property-read __DOMAIN
 animeheaven.pro,emturbovid.com,sexlivesex.net,spankbang.com,supjav.com#$#abort-on-property-write window.open
-animekun.ru,doramakun.ru,nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#abort-current-inline-script document.createElement Math.random
+animekun.ru,doramakun.ru,nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to#$#abort-current-inline-script document.createElement Math.random; abort-current-inline-script setInterval Math.random
 animepahe.com#$#abort-on-property-read _0x43d1; abort-on-property-read _0x53b5
 animepahe.com,fuxporn.com,gogoplay1.com,komikcast.com,lookmovie.la,manhuascan.io,prmovies.bz,speedostream.com,yomovies.cam,watchseri.net,wiflix.pw,yomovies.ws#$#abort-current-inline-script JSON.parse
 animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.querySelector
@@ -8717,6 +8728,7 @@ book118.com##div[style*="width: 252px;height: 260px;"]
 bookgew.com###AdsT
 booklink.me,p9.com.tw###ad2
 bookrb.com##a[href="/rmtj.html"]
+bookrbx.com##a[href="/rmtj.html"]
 books.com.tw##.header_box_pop > [class^="flash_banner"]
 booom.net,x6d.com##.tmall_tab
 bootcss.com##.bs-docs-sidebar a[href^="http://click.aliyun.com/"]
@@ -9597,6 +9609,9 @@ delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/
 delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
 demaxiya.com##.tp_box
 deviantart.com###block-notice
+dhaomu.com##.ceo-ad
+dhaomu.com##.ceo-footer-h
+dhaomu.com##.sidebar > .slide
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
 dianping.com##.J_mkt-group-2
@@ -12578,7 +12593,7 @@ laowang.vip###frameYl5IOf
 laozuo.org##.s_ad125
 las.ac.cn###img
 latinblog.tv#$#abort-on-property-write _cpp
-latinblog.tv,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,baytorrent.eu.org,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.la,dood.ws,doodstream.co,doodstream.com,voe.sx,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javmost.com,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblockplus.xyz,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,streamta.pe,strtape.cloud,strtape.site,strtape.tech,adblockstrtape.link,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,youdbox.com,mixdrop.co#$#abort-on-property-write _pop
+latinblog.tv,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,baytorrent.eu.org,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.la,dood.ws,doodstream.co,doodstream.com,voe.sx,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javmost.com,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,streamta.pe,strtape.cloud,strtape.site,strtape.tech,adblockstrtape.link,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,youdbox.com,mixdrop.co#$#abort-on-property-write _pop
 latinblog.tv,peladas69.com#$#abort-on-property-read __formatsGetters
 lawtv.com.cn##div[style=" width:664px; height:260px;  margin-top:10px;"]
 layui.com##.layui-layer-tips
@@ -20343,6 +20358,7 @@ zzzyk.com###Tinfo
 ||cc.xiaodapei.com^
 ||cc.xwscg.com^
 ||cc599.com^
+||ccav.website^
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.com/wp-content/uploads/bMShkpexGYJd/
 ||ccav1.me/block.js
@@ -23922,6 +23938,7 @@ zzzyk.com###Tinfo
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||iejsk.com^
 ||iemwbu.cn^
+||iepda.xyz^
 ||ifautzg.cn^
 ||ifc-edu.cn^$third-party
 ||ifdvlh.cn^
@@ -25738,6 +25755,7 @@ zzzyk.com###Tinfo
 ||ljth.hk^
 ||ljwckj.love^
 ||lk.4jzl.cn^$third-party
+||lkancklanklcav.com^
 ||lkdhlp.xyz^
 ||lkjrx.xyz^
 ||lknlkndasda.top^
@@ -27168,6 +27186,7 @@ zzzyk.com###Tinfo
 ||oq68.com^
 ||oqeohuc.cn^
 ||oqfdan.cn^
+||oqjfekdkc.net^
 ||oqnggnsk.fun^
 ||oqshoyd.cn^
 ||oqxep.cn^
@@ -27571,6 +27590,7 @@ zzzyk.com###Tinfo
 ||pojkhufef.xyz^
 ||poke88.com^
 ||polaccafaison.com^$third-party
+||polfaqgvsd.net^
 ||polflq.cn^
 ||polkkqm.com^
 ||polkmerth.com^
@@ -28014,6 +28034,7 @@ zzzyk.com###Tinfo
 ||qopj.xyz^
 ||qorlsbls.cyou^
 ||qosbbzw.cyou^
+||qowfknlds.net^
 ||qowg.top^
 ||qpb*.sohu.com^
 ||qpb.sohu.com^
