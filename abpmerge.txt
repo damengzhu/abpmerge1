@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-04 08:11:09
-! Total count: 47068
+! Version: 2023-04-04 16:10:49
+! Total count: 47077
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4153,6 +4153,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /heji/mei00*.js
 /hillpop.php|$script,~third-party
 /hjstore/system/banner/*.txt
+/hm.html?s=*=http
 /hm.js?$third-party,xmlhttprequest
 /hmzn_*_*_*.js?$script,third-party
 /hndxweb/push$popup,third-party
@@ -12255,6 +12256,7 @@ axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:das
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
 axutongxue.com,axutongxue.net##style + div[id]
+axutongxue.net###uuuui
 axutongxue.net##+js(no-setTimeout-if, getCookie(")
 axutongxue.net##body > article[style]
 azcardinals.com###adblock-notice
@@ -20090,6 +20092,7 @@ vostfr-vf.com##.fixe
 vostfr-vf.com##A[href="/100Mbs.html"]
 vostfr-vf.com##A[href^="http://api.adlure.net/partner/click/"]
 vostfree.com,vostfree.cx#$#abort-on-property-write _pop
+vprognoze.ru#$#abort-on-property-read bannersBillboard
 vpsdx.cn,vpsdx.com##.span4 > a > img
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
 vpsdx.com##.gsfha3-form
@@ -24418,6 +24421,7 @@ zzzyk.com###Tinfo
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anicli.click^$third-party
 ||anida.info^
+||aniem44.cc^
 ||anightsregalia.cam^
 ||animated-button.pro^
 ||anime-kimuchi.com/image/*.gif
@@ -30320,6 +30324,7 @@ zzzyk.com###Tinfo
 ||fiercedental.com^
 ||figgleimpregn.com^
 ||fightingleatherconspicuous.com^
+||fijipic.xyz^
 ||filchimpossible.com^
 ||file.imgprox.net/728x90
 ||fileboom.me/images/i/$third-party
@@ -32127,6 +32132,7 @@ zzzyk.com###Tinfo
 ||hgjxp.cn^
 ||hgkzl.cn^
 ||hgpbhuj.cn^
+||hgpdoa.cn^
 ||hgsly.buzz^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
@@ -43985,6 +43991,7 @@ zzzyk.com###Tinfo
 ||vfqnhif.cn^
 ||vfreecams.com^$third-party
 ||vfsdgjrr.xyz^
+||vfsdsdeq.xyz^
 ||vftqmnqopdf.xyz^
 ||vfyxjsclor.com^
 ||vg4u8rvq65t6.com^
@@ -46562,6 +46569,7 @@ zzzyk.com###Tinfo
 ||zdabnt.live^
 ||zdama.xyz^
 ||zdamybi.xyz^
+||zdcfta.buzz^
 ||zdcfta.live^
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
@@ -46572,6 +46580,7 @@ zzzyk.com###Tinfo
 ||zdgbend.buzz^
 ||zdhfff.xyz^
 ||zdhpen.xyz^
+||zdhpenn.live^
 ||zdhpenn.shop^
 ||zdktgps.cn^
 ||zdlnhv.xyz^
