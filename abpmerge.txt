@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-06 08:10:26
-! Total count: 47095
+! Version: 2023-04-06 16:10:21
+! Total count: 47109
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2289,20 +2289,26 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .xxx/ads/
 .xyz$domain=yinghuacd.com
 .xyz/*.sdk?$script,third-party
+.xyz/*0*0*==$third-party
 .xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/ad/
 .xyz/ads/
 .xyz/alpine?$third-party
 .xyz/base*.js?$third-party
+.xyz/foundation?$third-party
+.xyz/gatsby?$third-party
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
 .xyz/js/ads/
+.xyz/mithril?$third-party
 .xyz/o.js
+.xyz/stimulus?$third-party
 .xyz/svelte?$third-party
 .xyz/upload/ad/
 .xyz/vh1/$script,third-party
+.xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?*
 .za/ads/$domain=~ananzi.co.za
 .zone/ads/
@@ -15246,6 +15252,8 @@ hdcastream.com##.container
 hdchina.org##.sitead
 hdfree.tv##[href^="http://hdfree.tv/ads/"]
 hdkinoteatr.com#$#abort-on-property-read cuec
+hdmoli.com###index_banner
+hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 hdmovie14.net#@#.pub_300x250
 hdmovie14.net#@#.pub_300x250m
 hdmovie14.net#@#.pub_728x90
@@ -15839,8 +15847,8 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/") or contains(@id,"r/")]'
-instacart.com#$#hide-if-matches-xpath './/div[contains(@style,"color") and contains(@style,"font-size:") and contains(@style,"line-height:")]/span[2]/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][not(@class)]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@style,"font-size") and contains(@style,"line-height:")]/span[2]/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::*[contains(@class,"ListHeaderDisclaimer")]/ancestor::*[contains(@class,"SearchLazyLoader")][1]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -17954,6 +17962,7 @@ ouyaoxiazai.com##.qzhengfu
 ouyaoxiazai.com##div[id^="cs_"]
 ouyaoxiazai.com##div[id^="cs_"] > *
 owyb1688.com##.gray-show
+ozlib.com#$#abort-on-property-read _0xb7d3
 p2pcast.tv#@##adblock
 p2peye.com###article_content a[ref="nofollow"]
 p2peye.com##.red-box
@@ -20418,6 +20427,7 @@ www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PR
 www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/div[@id][@data-st-area]/div[1]/div/parent::div[@class]'
 www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
+www.xda-developers.com##DIV.adzone-above-latest
 www.xilinjie.com###xlj-da-block-overlay
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
@@ -31090,6 +31100,7 @@ zzzyk.com###Tinfo
 ||gg.miinaa.com^
 ||gg.miued.com^
 ||gg.sonhoo.com^
+||gg.taoseyy.cn^
 ||gg.uuu9.com^
 ||gg1.mengchongzu.com^
 ||gg123456789gg.com^*.js
@@ -38988,6 +38999,7 @@ zzzyk.com###Tinfo
 ||prjhvswdjoly.xyz^
 ||prju.top^
 ||prjwqs.xyz^
+||prlioxb.cn^
 ||prltmz.com^
 ||prmtracking3.com^
 ||prmtracks.com^
@@ -41681,7 +41693,7 @@ zzzyk.com###Tinfo
 ||sosodo.xyz^
 ||sotetahe.pro^
 ||sottagejalur.uno^
-||souche.com^$third-party
+||souche.com^*.gif
 ||soufunimg.com/common_m/m_public/js/wa
 ||soufunimg.com/homepage/new/*/buttomLayer.js
 ||soufunimg.com/imgd/viewimage/*/640x210
@@ -44623,6 +44635,7 @@ zzzyk.com###Tinfo
 ||wgdacc.com^
 ||wglbx.ltd^
 ||wgnlaige.fun^
+||wgoeisdnlk.com^
 ||wgpsfdg.cn^
 ||wgttjk.cn^
 ||whaavccifo.com^
@@ -46555,6 +46568,7 @@ zzzyk.com###Tinfo
 ||zbpx.xyz^
 ||zbsybh.cn^$third-party
 ||zbv7kxrteclub.xyz^
+||zbvchabjbcj.com^
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/

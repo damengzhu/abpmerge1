@@ -6438,6 +6438,8 @@ hdcastream.com##.container
 hdchina.org##.sitead
 hdfree.tv##[href^="http://hdfree.tv/ads/"]
 hdkinoteatr.com#$#abort-on-property-read cuec
+hdmoli.com###index_banner
+hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 hdmovie14.net#@#.pub_300x250
 hdmovie14.net#@#.pub_300x250m
 hdmovie14.net#@#.pub_728x90
@@ -7020,8 +7022,8 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::a[contains(@href,"interaction_id")]/parent::div/ancestor::div[contains(@id,"a/") or contains(@id,"r/")]'
-instacart.com#$#hide-if-matches-xpath './/div[contains(@style,"color") and contains(@style,"font-size:") and contains(@style,"line-height:")]/span[2]/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][not(@class)]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@style,"font-size") and contains(@style,"line-height:")]/span[2]/ancestor::div[contains(@class,"ItemCardHoverProvider")]'
 instacart.com#$#hide-if-matches-xpath './/span[contains(@class,"AddItemButtonExpandingAdd")]/preceding::*[contains(@class,"ListHeaderDisclaimer")]/ancestor::*[contains(@class,"SearchLazyLoader")][1]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -9088,6 +9090,7 @@ ouyaoxiazai.com##.qzhengfu
 ouyaoxiazai.com##div[id^="cs_"]
 ouyaoxiazai.com##div[id^="cs_"] > *
 owyb1688.com##.gray-show
+ozlib.com#$#abort-on-property-read _0xb7d3
 p2pcast.tv#@##adblock
 p2peye.com###article_content a[ref="nofollow"]
 p2peye.com##.red-box
@@ -11463,6 +11466,7 @@ www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PR
 www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/div[@id][@data-st-area]/div[1]/div/parent::div[@class]'
 www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
+www.xda-developers.com##DIV.adzone-above-latest
 www.xilinjie.com###xlj-da-block-overlay
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
