@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-06 16:10:21
-! Total count: 47109
+! Version: 2023-04-07 08:10:34
+! Total count: 47117
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -14110,7 +14110,7 @@ easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 easymp3converter.com$$script[tag-content="afScript"][min-length="5000"][max-length="7000"]
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/li[@data-viewport]//span[@role="text"][substring(@class,string-length(@class)-(string-length(//div[@class="clipped" and not(text())]/@id)-1))=//div[@class="clipped" and not(text())]/@id]/ancestor::li[@data-viewport]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ 'ul[class^="srp-results"]>li[data-viewport]' 'span.s-item__sep>span[role="text"]' 'position:absolute'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -26480,6 +26480,7 @@ zzzyk.com###Tinfo
 ||cammpaign.com^
 ||campaigns.williamhill.com^
 ||campongprecant.com^
+||campu.ltd^
 ||camsbanner.wtfgroup.co^
 ||camschat.net^
 ||camspic.com/imguang/*.gif
@@ -32168,6 +32169,7 @@ zzzyk.com###Tinfo
 ||hhkld.com^
 ||hhnlhl.cn^
 ||hhppy.top^
+||hhrnxr.xyz^
 ||hhrsecure.com^
 ||hhsoftinfo.com^
 ||hht687.site^
@@ -37398,6 +37400,7 @@ zzzyk.com###Tinfo
 ||nouivjv.cn^
 ||nourcomip.fun^
 ||novaleafgroup.cn^
+||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||nownews.com/assets/js/setAds.js
 ||nowtrk.com^
@@ -37995,6 +37998,7 @@ zzzyk.com###Tinfo
 ||otqxvqzdgl.com^
 ||otreh.xyz^
 ||otrwaram.com^
+||otwiss.xyz^
 ||oufteens.com^
 ||ougannike.com^
 ||ougribot.net^
@@ -38806,6 +38810,7 @@ zzzyk.com###Tinfo
 ||poolgmsd.com^
 ||poontown.net/Webservices/jsParseLinks.aspx$script,third-party
 ||poontown.net/visitScript/$script,third-party
+||poopd.xyz^
 ||poosoahe.com^
 ||pop.billionuploads.com/ppp/$popup
 ||pop.dojo.cc^
@@ -39938,6 +39943,7 @@ zzzyk.com###Tinfo
 ||rcswbr.cn^
 ||rcvlink.com^
 ||rcvlinks.com^
+||rcxysoj.cn^
 ||rcyl-uni.com^
 ||rdance.cn^
 ||rdbd.xsread.com^
@@ -42079,7 +42085,7 @@ zzzyk.com###Tinfo
 ||strictgrittwine.com^
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||stripchat.com/api/external/
-||stripe.com^$script,domain=~nextdns.io
+||stripe.com^$script,domain=~nextdns.io|~obsidian.md
 ||strnguz.cn^
 ||strodesoot.com^
 ||strossle.com^$third-party
@@ -42746,6 +42752,7 @@ zzzyk.com###Tinfo
 ||tianjiunion.cn^
 ||tianlans.xyz^
 ||tianlaoyyds.com^
+||tianma704.ltd^
 ||tianmaogroup.cn^
 ||tianmel.xyz^
 ||tianmenshan.top^
@@ -44299,6 +44306,7 @@ zzzyk.com###Tinfo
 ||vuftouks.com^
 ||vuhidf.cn^
 ||vuhxteakhsh.com^
+||vujhaib.cn^
 ||vukticlataf.com^
 ||vulcan.wiki^
 ||vulcanm.home.pl/_uonetads/$domain=vulcan.net.pl
