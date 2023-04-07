@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-07 08:10:34
-! Total count: 47117
+! Version: 2023-04-07 16:10:13
+! Total count: 47121
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1849,6 +1849,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -120x300.
 -120x600-
 -120x600_
+-1316632262.cos.
 -160x400-
 -160x600-
 -160x600.
@@ -3991,6 +3992,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /forum/ads/*
 /forum_ad.
 /fourapi/api/data/money?date=$xmlhttprequest
+/frambox.php?166$script,~third-party
 /framead.
 /frameads.
 /frameads1.
@@ -5209,6 +5211,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /suv4.js
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
+/swiper.php?166$script,~third-party
 /sxgg/12.js
 /sxgg/13
 /syads.
@@ -12666,11 +12669,11 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
-bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
+bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -25390,6 +25393,7 @@ zzzyk.com###Tinfo
 ||bcfeat2.com^
 ||bcglkfu.cn^
 ||bchina-1.xsfaya.com^
+||bcivqxd.cn^
 ||bclikeqt.com^
 ||bcloudhost.com^
 ||bcprm.com^
