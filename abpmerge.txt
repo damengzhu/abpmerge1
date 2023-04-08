@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-08 08:09:44
-! Total count: 47130
+! Version: 2023-04-08 16:09:21
+! Total count: 47138
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1316,6 +1316,7 @@
 ##a[href*=".meta-kp.com/"]
 ##a[href*=".meta-wg.com/"]
 ##a[href*=".mieseng.com/"]
+##a[href*=".mmrjmh.com/"]
 ##a[href*=".nffhome.com/"]
 ##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
@@ -2062,6 +2063,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
+.com/m-2594|$script,third-party
 .com/m.aspx?action=$third-party,script
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
@@ -20722,6 +20724,7 @@ youku.com###ykBottomBanner
 youku.com##+js(nano-setTimeout-booster, e-, , 0.02)
 youku.com##+js(nano-setTimeout-booster, r--, , 0.02)
 youku.com##.pop-prompt-box
+youku.com##.src_adwrap
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 youku.com##div[data-adext]
 youku.com##div[name="m_pos"] > #FullPromotion
@@ -24100,6 +24103,7 @@ zzzyk.com###Tinfo
 ||akamaihd.net^*/sid.html?p=
 ||akavita.com^$third-party
 ||akdashang.vip^
+||akdhiahcjojdkck.com^
 ||akfdpto.cn^
 ||akfhe.xyz^
 ||akh2o.cn^
@@ -32994,6 +32998,7 @@ zzzyk.com###Tinfo
 ||ijir.cn^
 ||ijkmafsf.xyz^
 ||ijkqwopm.xyz^
+||ijnuhb.top^
 ||ijogkae.churchserviceplanner.co.uk^
 ||ijre.club^
 ||ijshh.com^
@@ -36430,6 +36435,7 @@ zzzyk.com###Tinfo
 ||mimicbeeralb.com^
 ||mimilcnf.pro^
 ||mindamender.com^
+||mindopu.com^
 ||minglerpommelo.com^
 ||mingtians.top^
 ||mini.hao123.com^
@@ -37491,6 +37497,7 @@ zzzyk.com###Tinfo
 ||nuniceberg.com^
 ||nunuyingyuan.com/serviceworker.js^$script
 ||nuqqcgb.cn^
+||nurahf.xyz^
 ||nuslzkb.cn^
 ||nutaku.net^
 ||nuubi.cyou^
@@ -44678,6 +44685,7 @@ zzzyk.com###Tinfo
 ||whaugluw.com^
 ||whazugho.com^
 ||whbhsoft.cn^
+||whbn.xyz^
 ||whcajsb.com^
 ||whdx.cc/js/
 ||wheeksir.net^
