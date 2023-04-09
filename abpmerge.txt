@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-09 08:09:34
-! Total count: 47152
+! Version: 2023-04-09 16:09:19
+! Total count: 47167
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1183,6 +1183,10 @@
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style='top: 0vw; display: block;']
+##[style='top: 16.4vw; display: block;']
+##[style='top: 24.6vw; display: block;']
+##[style='top: 8.2vw; display: block;']
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
@@ -3996,12 +4000,11 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /forum/ads/*
 /forum_ad.
 /fourapi/api/data/money?date=$xmlhttprequest
-/frambox.php?166$script,~third-party
+/fram*.php?166$script,~third-party
 /framead.
 /frameads.
 /frameads1.
 /frameadsz.
-/frammjqkai.php?166
 /freead.
 /freead2.
 /frequencyads.
@@ -5216,8 +5219,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /suv4.js
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
-/swiper.php?166$script,~third-party
-/swiperyeehgy.php?166
+/swiper*.php?166$script,~third-party
 /sxgg/12.js
 /sxgg/13
 /syads.
@@ -11635,6 +11637,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 Banner468x60
 Mplay/kk1.js
 ^monitor.jpg?xcode^
+_/bigREDcat.css?
 _/bigREDdog.css?
 _/bigREDdog.js
 _120x240.
@@ -12675,6 +12678,7 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -16952,6 +16956,7 @@ luanren.com##.luanren_dbhfad
 luanren.com##.luanren_dbhfad2
 ludashi.com##.div_mask
 ludashi.com##.div_text
+lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 luogu.com.cn##.side > div:last-child:not([class])
 luoqiuzw.com##DIV[id^="a-loading-"]
 luotphim1.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
@@ -22161,6 +22166,7 @@ zzzyk.com###Tinfo
 ||520meirenyu.com^
 ||520myjj.xyz^
 ||520xingyun.com/images/*.gif$domain=mcpcourse.com
+||520xingyun.com/images/188*.gif
 ||520xs.la/js/dianrui-
 ||520z-2.com/uploadfile/sucai/
 ||521000.com/co/
@@ -29196,6 +29202,7 @@ zzzyk.com###Tinfo
 ||dt243100.com^
 ||dtckvpc.cn^
 ||dteamwoukr.com^
+||dtfyhdghsd.online^
 ||dtiserv2.com^$third-party
 ||dtmm9h2satghl.cloudfront.net^
 ||dtmpub.com^
@@ -33837,6 +33844,7 @@ zzzyk.com###Tinfo
 ||jewhouca.net^
 ||jewishcontentnetwork.com^$third-party
 ||jf2v.mnpool.cn^
+||jfanhao.com^
 ||jfivafkigju.com^
 ||jfmfmgj.cn^
 ||jfsdiwmnbsk009.top^
@@ -39673,6 +39681,7 @@ zzzyk.com###Tinfo
 ||qofvpbo.cn^
 ||qomdf.top^
 ||qongsonw.uno^
+||qonkdwwf.net^
 ||qopj.xyz^
 ||qoqv.com^
 ||qorlsbls.cyou^
@@ -42247,6 +42256,7 @@ zzzyk.com###Tinfo
 ||svnfgib.cn^
 ||svrilvrrvwyh.xyz^
 ||svvbrkk.cn^
+||sw9t.ml^
 ||swadakesb.cyou^
 ||swaycomplymishandle.com^
 ||sweepawejasper.com^
@@ -42568,6 +42578,7 @@ zzzyk.com###Tinfo
 ||techsolutions.com.tw^$third-party
 ||techspecndt.com^
 ||tecominchisel.com^
+||teddync.net^
 ||teeglimu.com^
 ||teemooge.net^
 ||teentitsass.com^
@@ -46645,6 +46656,8 @@ zzzyk.com###Tinfo
 ||zdcfta.live^
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
+||zdcoes.live^
+||zdcv5.xyz^
 ||zdfjas.top^
 ||zdfl.xyz^
 ||zdftqc.xyz^
@@ -46655,6 +46668,8 @@ zzzyk.com###Tinfo
 ||zdhpenn.live^
 ||zdhpenn.shop^
 ||zdkdwk.buzz^
+||zdkdwk.live^
+||zdkjr.xyz^
 ||zdktgps.cn^
 ||zdlnhv.xyz^
 ||zdnet.com.cn/js/pv.js
