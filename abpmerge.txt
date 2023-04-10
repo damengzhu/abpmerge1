@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-10 08:10:56
-! Total count: 47178
+! Version: 2023-04-10 16:10:16
+! Total count: 47183
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12679,12 +12679,12 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
 bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
-bilibili.com#?#.feed-card:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]))
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -23087,6 +23087,7 @@ zzzyk.com###Tinfo
 ||aaaa8.top^
 ||aaaaa599.com^
 ||aaaaa663.com^
+||aaaaa699.com^
 ||aaaaa855.com^
 ||aaaaaco.com^
 ||aaacompany.net^
@@ -35526,6 +35527,7 @@ zzzyk.com###Tinfo
 ||lktxelg.cn^
 ||ll.gxsky.com^
 ||ll.hudong.com^
+||ll.ibiqiuge.com/m.js
 ||ll.k743.com^
 ||ll38.com^
 ||llaxl.com^
@@ -39427,6 +39429,7 @@ zzzyk.com###Tinfo
 ||qbd4.site^
 ||qbj8.com^
 ||qbjsymmi0w.cn^
+||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbtd.xyz^
 ||qc1.cheshipin.com^
 ||qcffrrsyaxcccx.xyz^
@@ -42477,6 +42480,7 @@ zzzyk.com###Tinfo
 ||tangk.top^
 ||tangkai.ltd^
 ||tangli.ltd^
+||tangrenjie.tv/gg/
 ||tangrenjie.tv/gg/$image
 ||tangxiaodou.top^
 ||tanseb.com/vads/
@@ -42538,6 +42542,7 @@ zzzyk.com###Tinfo
 ||tbxqbvt.cn^
 ||tc600.com^
 ||tc6tc.com^
+||tc911.vip^
 ||tcache.ml^
 ||tcbox.baidu.com^
 ||tchep.com^
