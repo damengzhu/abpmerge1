@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-11 16:10:43
-! Total count: 47207
+! Version: 2023-04-12 08:11:00
+! Total count: 47214
 
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -14129,7 +14129,7 @@ easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 easymp3converter.com$$script[tag-content="afScript"][min-length="5000"][max-length="7000"]
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ 'ul[class^="srp-results"]>li[data-viewport]' 'span.s-item__sep>span[role="text"]' 'position:absolute'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-matches-xpath './/div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[@role="text"][starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport]'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ 'ul[class^="srp-results"]>li[data-viewport]' 'span.s-item__sep>span[role="text"]' 'position:absolute'; race stop;
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -21312,7 +21312,6 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
 ||120askimages.com^
 ||121.204.246.*.gif
-||121.204.246.13^
 ||121.40.25.88^
 ||121.43.114.38:8087/advs.js
 ||12112336.pix-cdn.org^
@@ -30339,6 +30338,7 @@ zzzyk.com###Tinfo
 ||ff.psd8.com^
 ||ff.qichetansuo.com^
 ||ff.xue163.net^
+||ffbjhl.xyz^
 ||ffdcpvv.cn^
 ||fff.dailymail.co.uk/accessorise_ad
 ||ffflxue.cn^
@@ -32529,6 +32529,7 @@ zzzyk.com###Tinfo
 ||hsmkj.net^$third-party
 ||hsnsdqd.cn^
 ||hspffjx.cn^
+||hsrgnac.cn^
 ||hss2y.com^
 ||hssapp.shop^
 ||hssebb.xyz^
@@ -34067,6 +34068,7 @@ zzzyk.com###Tinfo
 ||jlsynmla.fun^
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
+||jlzz.name^
 ||jmbbs.cn/sjgg/
 ||jmcomic.asia/iframe_
 ||jmcomic.asia/iframe_*&idzone=
@@ -36769,6 +36771,7 @@ zzzyk.com###Tinfo
 ||mr2cnjuh34jb.com^
 ||mrelko.com^
 ||mrewq.xyz^
+||mrgecm.xyz^
 ||mrhboe.xyz^
 ||mrjb7hvcks.com^
 ||mrjfsc.cn^
@@ -37544,6 +37547,7 @@ zzzyk.com###Tinfo
 ||nuubi.cyou^
 ||nuyqiolnc.cyou^
 ||nv43.com^
+||nvchmkw.cn^
 ||nvdst.com/templates/base_master/js/jquery.shows.min.js
 ||nvdst.com/templates/frontend/white/js/_pnuvid.js
 ||nveuiqh.cn^
@@ -39587,6 +39591,7 @@ zzzyk.com###Tinfo
 ||qimm.org/Uploads/ad/
 ||qimooc.wang^
 ||qinbing.cn/data/upload/ueditor/
+||qingdou.ltd^
 ||qinger.name^
 ||qingfeng.homes^
 ||qingfengxq.com^
@@ -44493,6 +44498,7 @@ zzzyk.com###Tinfo
 ||wangsf.ltd^
 ||wangxialin.top^
 ||wangyc.club^
+||wangyq.ltd^
 ||wangyuekun.xyz^
 ||wangzezhong.top^
 ||wangzhanmeng.com/link/link.html
@@ -46862,6 +46868,7 @@ zzzyk.com###Tinfo
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
 ||zhoudm.love^
+||zhouduanyyds.com^
 ||zhpfl.cn^
 ||zhrrrec.cn^
 ||zhuangxiu567.com^
