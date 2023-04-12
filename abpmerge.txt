@@ -1,9 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-12 08:11:00
-! Total count: 47214
-
+! Version: 2023-04-12 16:10:41
+! Total count: 47226
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -983,10 +982,12 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/st66st.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
 ##A[href*='//v.wanfumei.net']
+##A[href*='/adjump/?']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -1065,6 +1066,7 @@
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
@@ -1182,12 +1184,17 @@
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
+##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
 ##[style='top: 16.4vw; display: block;']
 ##[style='top: 24.6vw; display: block;']
 ##[style='top: 8.2vw; display: block;']
+##[style='width: 100%; height: 123.75px;']
+##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
+##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
@@ -1613,6 +1620,7 @@
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > h1 > strong > title > a
+##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body.active > div.myui-panel > DIV#home_slide
@@ -2274,9 +2282,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .test15./
 .th/ads/
 .to/ads/
-.top/*/*-*-*-*.*?_=*
 .top/*q=*form=*&*url=http*$third-party
-.top/Report/*-*-*-*-*
 .top/ad-
 .top/ads/
 .top/upload/ad.js
@@ -4945,7 +4951,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /r.js|$domain=kat.*|kickass.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|katbay.*|kickasshydra.*|kickasskat.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*|kickasstracker.*|katfreak.*|kickasshydra.*|katbay.*|kickasst.*|kkickass.*|kattracker.*|topkickass.*|thekat.*|kat.*|kat2.*|kick4ss.*|kickass.*|kickass2.*|kickasstorrents.*|kat.fun|kat2.app|kat2.space|kat2.website|kat2.xyz|kick4ss.net|kickass.cd|kickass.earth|kickass.id|kickass.kim|kickass.love|kickass.me.uk|kickass.name|kickass.one|kickass.red|kickass.vc|kickass.ws|kickass2.app|kickass2.fun|kickass2.mobi|kickass2.online|kickass2.space|kickass2.top|kickass2.website|kickass2.xyz|kickassgo.com|kickasstorrent.cr|kickasstorrents.fun|kickasstorrents.icu|kickasstorrents.mobi|kickasstorrents.to|kickasstorrents2.net|kickassz.com|kkat.net|thekickass.org|kickasstorrents.space|thekat.cc|topkickass.org|kattracker.com
 /r/*?_r=$object,subdocument,third-party
 /r/t1/*$subdocument,third-party
-/r/t1/16/
 /r/video/*$domain=youxi.baidu.com
 /radioAdEmbed.
 /radioAdEmbedGPT.
@@ -6307,6 +6312,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
 3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
 3dmgame.com##.Gmaeinfobtn_tab > span
+3dmgame.com##.Indexadd-100
 3dmgame.com##.R_qingtianzhu
 3dmgame.com##.Tonglan
 3dmgame.com##.abstergo
@@ -12088,7 +12094,6 @@ aoshitang.com###msg_win
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 aotu43.com##center > a[rel="nofollow"] > .king
 aovivoagora.com##div[id^="anuncio"]
-api.*.*/*/*?_=450*$third-party
 api.so.lianmeng.360.cn,pos.baidu.com##body
 apiref.com###navbarRightAd
 apiref.com,iodraw.com,matools.com###popAd
@@ -12685,7 +12690,6 @@ bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
-bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -15866,7 +15870,7 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-x9")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/aside[@class]/span[@style][2]/ancestor::section[@class]'
 instacart.com#$#hide-if-matches-xpath './/span[@style][2]/ancestor::div[@aria-label="Product"]/ancestor::li'
 instantmanga.com###notice
@@ -22501,7 +22505,6 @@ zzzyk.com###Tinfo
 ||72hdgb5o.de^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
-||745c.cn$third-party
 ||745c.cn^
 ||75.125.41.29:8080/
 ||75625358935.com^
@@ -23050,6 +23053,7 @@ zzzyk.com###Tinfo
 ||a1.yaozui.com^
 ||a1.zhanzhang.net^
 ||a15d55423.5tps.xyz^
+||a168888.top^
 ||a1714.com^$popup
 ||a19cd.xyz^
 ||a2.b310.com^
@@ -24314,6 +24318,7 @@ zzzyk.com###Tinfo
 ||allyes.$third-party
 ||allyes.com^$third-party
 ||allykitchen.com^
+||almabelen.com^
 ||almightypush.com^
 ||almostspend.com^
 ||almsmanmalthe.com^
@@ -26992,6 +26997,7 @@ zzzyk.com###Tinfo
 ||chidir.com^
 ||chihuoguo.me^
 ||chikiporn.com/sqkqzwrecy/
+||chiluyingxiao.com^
 ||chimamanndgaocozmi.com^
 ||china-india.wang^
 ||china-netwave.com^$third-party
@@ -30431,6 +30437,7 @@ zzzyk.com###Tinfo
 ||finnanregauge.com^
 ||fintechpi.com^
 ||fioem.cyou^
+||fionamignon.com^
 ||fiorenetwork.com^
 ||firearmtire.com^
 ||fireflyengagement.com^$third-party
@@ -32089,6 +32096,7 @@ zzzyk.com###Tinfo
 ||hejing.cloud^
 ||hekcctie.cyou^
 ||heleric.com^
+||helid.xyz^
 ||helilong.xyz^
 ||hello-jm.com/foot.js
 ||helloavgirls.com/public/hg/
@@ -34646,7 +34654,6 @@ zzzyk.com###Tinfo
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
 ||kgsrr.top^
-||kgsz.cn$third-party
 ||kgua0o66bcw8.com^
 ||kguke.com^
 ||kgymhc.com^
@@ -35556,6 +35563,7 @@ zzzyk.com###Tinfo
 ||lm.ijq.tv^
 ||lm1.tuliu.com^
 ||lm1.wkpcw.cn^
+||lm22.top^
 ||lm335.com^
 ||lm336.com^
 ||lm343.com^
@@ -38377,6 +38385,7 @@ zzzyk.com###Tinfo
 ||pb.s3wfg.com^
 ||pb.shuxigua.com^
 ||pbcde.com^
+||pbgtpjz.cn^
 ||pbhdwm.cn^
 ||pbkqidejmes.ru^
 ||pbmp.ali213.net/js/
@@ -40908,6 +40917,7 @@ zzzyk.com###Tinfo
 ||scripts.dailymail.co.uk/static/mol-adverts/*.css
 ||scriptvealpatronage.com^
 ||scrollisolation.com^
+||scrvw3.com^
 ||scsdcsdcs.top^
 ||scswuliu.com^
 ||scubaenterdane.com^
@@ -45625,6 +45635,8 @@ zzzyk.com###Tinfo
 ||xkyn.com/imgs/js/xx.js
 ||xkzjq.cn^
 ||xkzzyk.cn^
+||xkzzz.com/zb_users/plugin/MoreLinks*/show.
+||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||xl2d.top^
 ||xl720.com/tmp/
 ||xleqs.xyz^
