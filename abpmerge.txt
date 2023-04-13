@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-13 08:10:44
-! Total count: 47238
+! Version: 2023-04-13 16:09:39
+! Total count: 47249
+
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1247,6 +1248,7 @@
 ##a[href*=".asada-kairyo.com/"]
 ##a[href*=".ax10a.com/"]
 ##a[href*=".ayx300.com/"]
+##a[href*=".bd379.vip"]
 ##a[href*=".beiren.cc"]
 ##a[href*=".bet365.gdn"]
 ##a[href*=".bet927.bet"]
@@ -3516,6 +3518,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /api.ad.
 /api/Video/GetAdsData?
 /api/aaaac/list
+/api/ad/
 /api/ad/*
 /api/ads/*
 /api/ads?
@@ -15873,8 +15876,8 @@ instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
-instacart.com#$#hide-if-matches-xpath './/aside[@class]/span[@style][2]/ancestor::section[@class]'
-instacart.com#$#hide-if-matches-xpath './/span[@style][2]/ancestor::div[@aria-label="Product"]/ancestor::li'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -16861,6 +16864,7 @@ libaclub.com##.merchant-link
 libaclub.com##.ui-adsame
 libvio.me##.hidden-log
 libvio.me,smdyy.cc##.t-img-box
+libvio.me,smdyy.cc,libvio.cc##.t-img-box
 lien-torrent.com###ad_divl
 lien-torrent.com###ad_divr
 liepin.com##DIV[id^="nodetpl_g_"]
@@ -18387,6 +18391,7 @@ pythonthree.com##.sidebar-main
 pzzc.net##.portal_block_summary
 qbaobei.com###diyforumdisplaybottom
 qbasic.net#@#.adsbygoogle
+qcheng.cc#@#.google-ad
 qciss.net##+js(window.open-defuser, 0, qciss.net)
 qciss.net##.container-fluid > #lightbox
 qciss.net##div[style^="border-style:solid;"][style*="border-width:2px;"][style*="width: 80%;"]
@@ -20478,6 +20483,7 @@ x6g.com##.addd
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##img[alt*="广告"]
 xboxforum.pl##.noticeContainer:not(.hidden)
+xc*.cos.ap-*.myqcloud.com/*.js
 xc6b.com###leftbottbox
 xc6b.com###rightbottbox
 xc6b.com###sidebar > .box-b img
@@ -25275,6 +25281,7 @@ zzzyk.com###Tinfo
 ||baitaiad.com^$third-party
 ||baiten.cn/images/weInternation/
 ||baithoph.net^
+||baitu1llbkotsfthllcjeg.com^
 ||baitugu.com^$third-party
 ||baiwb.com^
 ||baixing.com/bb/*/?category=
@@ -30831,6 +30838,7 @@ zzzyk.com###Tinfo
 ||fzbkgni.cn^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzckwij.cn^
+||fzcsd33.com^
 ||fzd3.com/gg/
 ||fzf1.top^
 ||fzlol.com/images/$script
@@ -34329,6 +34337,7 @@ zzzyk.com###Tinfo
 ||jsyunmy.com^
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
+||jtjh.tw^
 ||jtxh.net^$third-party
 ||jtxw.cloud^
 ||ju427bv7an9n.com^
@@ -37642,6 +37651,7 @@ zzzyk.com###Tinfo
 ||oaftaijo.net^$third-party
 ||oagnatch.com^
 ||oahaurti.com^
+||oajfpqojev.net^
 ||oajxkah.cn^
 ||oalsauwy.net^
 ||oalsoagn.com^
@@ -38321,6 +38331,7 @@ zzzyk.com###Tinfo
 ||panpan.org/plus/img/
 ||panpan.org/templets/ad/
 ||panruo.net.cn^
+||pansclub.xyz^
 ||pansoso.com^*pss.
 ||pansymerbaby.com^
 ||panther.codyhatfield.me^
