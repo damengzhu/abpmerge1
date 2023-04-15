@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-15 08:09:46
-! Total count: 47423
+! Version: 2023-04-15 16:09:38
+! Total count: 47421
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -6525,7 +6525,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zn503.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,cupfox.app,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.net,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,cupfox.app,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.net,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pk.com###baidutop
 52pk.com###baidutop2
@@ -7128,7 +7128,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/sensorsdata.$domain=kuque.com|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -17443,8 +17443,11 @@ mrtzcmp3.net###hstp_interstitial
 mscbsc.com##.bao1
 mse.360.cn##a[id^="banner"]
 msn.cn##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
+msn.cn##.intra-article-ad-full
 msn.cn##.nativeadserversidecontentmodule
 msn.cn##.rc > a[href^="https://sp.booking.com/"]
+msn.cn##[class^="articlePage_eoabContent"]
+msn.cn##cs-native-ad-card
 msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###displayAdCard
 msn.com###taboola-above-homepage-thumbnails
@@ -18698,9 +18701,6 @@ riaway.com##.info_message_container
 ricettafitness.com,yts-subs.dev$$meta[http-equiv="refresh"]
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rightwingnews.com##.z-ad-inline
-rijutv.co###JU
-rijutv.co##.container > div[style="height: 128px;"]
-rijutv.co##.union-list-item
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 rireetchansons.fr###popins
 rireetchansons.fr###upsell
@@ -22716,6 +22716,7 @@ zzzyk.com###Tinfo
 ||89qp98.com^
 ||8a6549cded.com^
 ||8afb7f9e2c1a7a9e.vtube.to^
+||8b4v.cn^
 ||8b8r.icu^
 ||8bo.com/template/default/8bo/j/app.js
 ||8bobf.*/da.aspx
@@ -23105,6 +23106,7 @@ zzzyk.com###Tinfo
 ||aa9z.cn^
 ||aaa.tumanyi.com^
 ||aaaa8.top^
+||aaaaa288.com^
 ||aaaaa599.com^
 ||aaaaa663.com^
 ||aaaaa699.com^
@@ -32443,6 +32445,7 @@ zzzyk.com###Tinfo
 ||hmjiayi.com^
 ||hmjs.cnmo-img.com.cn^
 ||hmma.baidu.com^
+||hmoe12.com/wp-content/uploads/202*.gif
 ||hmong-miaojiuyi.com^
 ||hmpubc.xyz^
 ||hmreuj.com^
@@ -40477,11 +40480,6 @@ zzzyk.com###Tinfo
 ||rigies.com^
 ||rigvkgfepy.com^
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
-||rijutv.*/statics/alljs/rijutvapp.
-||rijutv.*/statics/alljs/rijutvpc.js
-||rijutv.*/statics/js/tb.js
-||rijutv.*/statics/skin/hjtv-wap/js/plus.js
-||rijutv.*/uploadfile/8c96dc2f564c1b56.png
 ||rikqo.cc^
 ||rilelogicbuy.com^
 ||riluaneth.com^
