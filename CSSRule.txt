@@ -276,6 +276,7 @@
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
+###playerContainer > .nav-ads
 ###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_banner[style*="fixed;"]
@@ -3925,13 +3926,13 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
+bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
-bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
-bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
-bilibili.com#?#.bili-video-card:has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
+bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
+bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
-bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -7049,7 +7050,7 @@ instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -10172,7 +10173,7 @@ sm.ms##.advertising_1
 sm.ms##.advertising_2
 sm.ms##.detail-advert
 sm.ms##div[class^="advertising_"]
-sm.news#$#abort-current-inline-script String.fromCharCode decodeURIComponent
+sm.news#$#abort-current-inline-script decodeURIComponent blocked
 smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config
 smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
 smartapps.cn##swan-nest-banner-ad.ad-expose
