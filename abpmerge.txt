@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-18 08:11:09
-! Total count: 47475
+! Version: 2023-04-18 16:09:20
+! Total count: 47481
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -98,8 +98,6 @@
 ###asdw
 ###asdw2
 ###asdw2 + img
-###asdw3
-###asdw3 + img + :not(div)
 ###aside_cat_ad_bottom
 ###asx_text
 ###bannerAd
@@ -2109,7 +2107,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/topjs/
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
+.com/vh2/$script,third-party
 .com/vj1/$script,third-party
+.com/vj2/$script,third-party
 .com/vodad.js
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
@@ -15887,9 +15887,9 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]'; hide-if-matches-xpath './/div[@data-sppppp-eligible]/ancestor::div[@aria-label="Product"]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -26754,6 +26754,7 @@ zzzyk.com###Tinfo
 ||cdcd.ink^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdend.com^$third-party
+||cdfda.xyz^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
 ||cdhhbyy.cn^
@@ -29586,6 +29587,7 @@ zzzyk.com###Tinfo
 ||eagle.sutton.io^
 ||eagletskoku.com^
 ||eaglid.com^
+||ealdi.xyz^
 ||ealooov.cn^
 ||eanddescri.com^
 ||eanddrsgankru.com.ua^
@@ -30546,6 +30548,7 @@ zzzyk.com###Tinfo
 ||finative.cloud^$domain=spiegel.de
 ||findanonymous.com^
 ||findingexchange.com^
+||findnam.xyz^
 ||findnewline.com^
 ||finedergotic.com^
 ||finisheddaysflamboyant.com^
@@ -39034,6 +39037,7 @@ zzzyk.com###Tinfo
 ||pointroll.com^
 ||points2shop.com^$third-party
 ||poiqknfl.com^
+||poiqwnekb.com^
 ||poisonencouragement.com^
 ||pojihfnkbllg.net^
 ||pojjtt.xyz^
@@ -39103,6 +39107,7 @@ zzzyk.com###Tinfo
 ||popxperts.com^
 ||poqjnkdsou.net^
 ||poqoiwn.com^
+||poqwnllkm.com^
 ||poqwua.cn^
 ||porcupine.simpleprax.de^
 ||porcupine.wtmap.co^
@@ -39929,6 +39934,7 @@ zzzyk.com###Tinfo
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qpoiwnelc.com^
 ||qponfva.cn^
 ||qptnew.com^
 ||qq-hls.xyz^
