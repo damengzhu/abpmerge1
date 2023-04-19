@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-19 08:11:07
-! Total count: 47496
+! Version: 2023-04-19 16:10:42
+! Total count: 47510
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -637,6 +637,7 @@
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 ##.con_section > .da
 ##.conch-ads-box
+##.container + .container > .warp > .cate
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > a.mid-wrapper
@@ -1454,6 +1455,7 @@
 ##a[href*="/blfanss.com"]
 ##a[href*="/bli2a.com/"]
 ##a[href*="/bucd.icu"]
+##a[href*="/bucd.top"]
 ##a[href*="/ck345.cc"]
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/ctyitopo17.com"]
@@ -7136,7 +7138,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
 @@/sensorsdata-$domain=zkh.com
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/sensorsdata.$domain=xinrenxinshi.com|36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
 @@/show_ad_$domain=wb.qq.com
@@ -7829,6 +7831,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
 @@||bchangtai.vip/static/ad/main.js
+@@||bcong.top/static/ad/main.js
 @@||bdcraft.net/download/?$content
 @@||bdfrm.bidvertiser.com/BidVertiser.dbm$subdocument,domain=exrapidleech.info
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
@@ -11900,6 +11903,7 @@ adageindia.in,bombaytimes.com#?#a:-abp-has(> div > p:-abp-contains(Ad: ))
 adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 adbuck.cc###col_publi
 adbug.cn#@#.google_ads
+adguard.com,adguard.app##.hello_from_adguard_chinese
 admaimai.com##.in16_w01 > div[class*="_ad0"]
 admin5.com##.float_both_index
 admin5.com##.notice
@@ -15891,9 +15895,9 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]'; hide-if-matches-xpath './/div[@data-sppppp-eligible]/ancestor::div[@aria-label="Product"]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]'; hide-if-matches-xpath './/div[@data-spppppp-eligible]/ancestor::div[@aria-label="Product"]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -17055,6 +17059,7 @@ m.mgtv.com##.mg-dcross
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
+m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.nxnba.com##DIV.bootom-fixed
@@ -17204,7 +17209,7 @@ marketrealist.com,kansas.com,thenewstribune.com#$#abort-on-property-read $aproxy
 masahub.net,sbanh.com,sbembed.com,sblongvu.com,streamsb.com,streamsb.net,vidplay.ch#$#abort-on-property-read decodeURI; abort-on-property-read mm
 masok.cn###bottomLayer
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
-match.tdping.com##P[style='text-align:left;margin:0;']
+match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 materialtools.com#@#.ad-center
 mathportal.org###noSenseCalculatorTop
 mathportal.org/temp/blocked/blockedCounter.php
@@ -17221,6 +17226,7 @@ maxthon.cn###festival-fix-bottom
 maxthon.cn###festival-rain-wrapper
 maxthon.cn###festival-skin-link
 maxthon.cn###header-float-promote
+maxthon.cn###mx3-popularization-float
 maxthon.cn###shopping
 maxthon.cn###side-game-pop
 maxthon.cn###top-slider-ad
@@ -18751,6 +18757,7 @@ root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@
 root-nation.com#$#hide-if-matches-xpath '//source/following::img[@src]/ancestor::a[@class]/ancestor-or-self::div[@id="tdi_29"]'
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
+rouman5.com#?#.col-md-4 > div.row:has(> div.col > h5:contains(支持一下吧))
 rrjc.com###alertBox
 rrjc.com##.coupletbox
 rrys2019.com###globalNav1
@@ -21536,6 +21543,7 @@ zzzyk.com###Tinfo
 ||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 ||18dui.com^
+||18so.vip^
 ||1905715.com^
 ||1909.me/upload/ad/
 ||192.151.218.66^$third-party
@@ -24546,6 +24554,7 @@ zzzyk.com###Tinfo
 ||animosityknockedgorgeous.com^
 ||anioz3b.cc^
 ||aniqfwz.cc^
+||aniqgsz.cc^
 ||aniview.com^$third-party
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
@@ -30139,6 +30148,7 @@ zzzyk.com###Tinfo
 ||everydaycarry.com^$popup
 ||everyonepiano.cn/Public/*0x
 ||evitingawabi.com^
+||evmnlpv.cn^
 ||evtubescms.phncdn.com^
 ||evunmc.xyz^
 ||ew740.cn^
@@ -30844,6 +30854,7 @@ zzzyk.com###Tinfo
 ||fsobjvtkew.com^
 ||fsojctdib.com^
 ||fspjjp.xyz^
+||fssxyiq.cn^
 ||fstats.xyz^
 ||ft.com/a.html
 ||ft8e.top^
@@ -35950,6 +35961,7 @@ zzzyk.com###Tinfo
 ||lucificassents.com^
 ||luciochen.cn^
 ||luckyads.pro^
+||luckydino.ren^
 ||luckyorange.com^$third-party
 ||luckypushh.com^
 ||lufbogazixz.com^
@@ -38906,6 +38918,7 @@ zzzyk.com###Tinfo
 ||pisism.com^
 ||pitchedfurs.com^
 ||pites.cc/js/top.php
+||pithjpf.cn^
 ||pitpastraja.com^
 ||pitudashen.top^
 ||pityneedsdads.com^
@@ -40161,6 +40174,7 @@ zzzyk.com###Tinfo
 ||r66net.com^
 ||r6pt6kfz.com^
 ||ra.poringa.net^
+||ra1.xyz^
 ||rabbitcloud.ltd^
 ||rabc1.iteye.com^
 ||rabidamoral.com^
