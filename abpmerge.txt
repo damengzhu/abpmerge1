@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-20 16:10:43
-! Total count: 47522
+! Version: 2023-04-21 08:10:33
+! Total count: 47534
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1627,6 +1627,7 @@
 ##body > h1 > strong > title > a
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
+##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
@@ -20502,6 +20503,8 @@ x3cn.com#?#body > div#qmenu_menu ~ div[style]:has(> a[target="_blank"])
 x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
+xbeibeix.com##+js(no-setTimeout-if, /\.height\(\) == 0|adsbygoogle/)
+xbeibeix.com#@#.google-ad
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 xblian.com##img[alt*="广告"]
 xboxforum.pl##.noticeContainer:not(.hidden)
@@ -22567,7 +22570,6 @@ zzzyk.com###Tinfo
 ||77qwq.com^
 ||77tel.com^
 ||77vcd.com/js/
-||77xn11.net/js/
 ||77xsw.la/novel/js/pagebottom.js
 ||77xsw.la/novel/js/pagetop.js
 ||77zz7.com^
@@ -24542,6 +24544,7 @@ zzzyk.com###Tinfo
 ||anicli.click^$third-party
 ||anida.info^
 ||aniem44.cc^
+||anifk71.cc^
 ||anightsregalia.cam^
 ||animated-button.pro^
 ||anime-kimuchi.com/image/*.gif
@@ -24739,6 +24742,7 @@ zzzyk.com###Tinfo
 ||apptry.easylife.tw/pub/js/common/common.js
 ||appzeyland.com^
 ||apritifunbid.com^
+||aprlitj.cn^
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
 ||aptimorph.com^
@@ -25814,6 +25818,7 @@ zzzyk.com###Tinfo
 ||beta.ad-maven.com^
 ||betads.xyz^
 ||beterrakionan.com^
+||betgdr.xyz^
 ||betgorebysson.club^
 ||betonpolite.com^
 ||betotodilea.com^
@@ -32237,6 +32242,7 @@ zzzyk.com###Tinfo
 ||heibaizhibo.com/_nuxt/87a5efd04908651591f7.js
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||heiguang.com/f/uad/
+||heild.xyz^
 ||heima8.com^$third-party
 ||heinndoorhises.info^
 ||heip3keop.cyou^
@@ -33653,6 +33659,7 @@ zzzyk.com###Tinfo
 ||iqmbao.xyz^
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
+||iqybys.xyz^
 ||ir.mildlydoucely.com^
 ||ir.turbotaedile.com^
 ||ir002423.cn^
@@ -37336,6 +37343,7 @@ zzzyk.com###Tinfo
 ||ncoeqz.today^
 ||ncrkff.xyz^
 ||ncvkzz.cn^
+||ncyx.ltd^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndandinter.hair^
 ||ndegj3peoh.com^
@@ -38672,6 +38680,7 @@ zzzyk.com###Tinfo
 ||peckleooze.com^
 ||pectationselea.xyz^
 ||pedailyu.com^
+||pedjqkl.xyz^
 ||peecht.com^
 ||peelismsenoras.com^
 ||peensthapes.cam^
@@ -43957,6 +43966,7 @@ zzzyk.com###Tinfo
 ||um5xcgngmart.xyz^
 ||umami.is^
 ||umbrellaomendear.com,^
+||umcpebi.cn^
 ||umdc.aliapp.org^
 ||umekana.ru^
 ||umeng.com^
@@ -45424,6 +45434,7 @@ zzzyk.com###Tinfo
 ||wwads.cn^$third-party
 ||wwfx.xyz^
 ||wwggnaw.xyz^
+||wwgqqq.com^
 ||wwkh9ku.xyz^
 ||wwnyubs.cn^
 ||wwoglde.top^
@@ -47114,6 +47125,7 @@ zzzyk.com###Tinfo
 ||zhe8000.pw^
 ||zhej78i1an8w6ceu.com^
 ||zhemaijs.net^
+||zhemu.xyz^
 ||zhenben.cc/2000/
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
 ||zhenbuka.com/gg/lunbo.js
