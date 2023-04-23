@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-22 16:10:09
-! Total count: 47554
+! Version: 2023-04-23 08:09:52
+! Total count: 47558
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -33,6 +33,7 @@
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-SNSSplashAd
 ###ad-box
+###ad-floatwin
 ###ad-header-mobile-contener
 ###ad-index.position-relative
 ###ad1[onclick="window.open(this.url)"]
@@ -131,6 +132,7 @@
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
+###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
 ###container > .item.title_normal
 ###container > .item.title_top
 ###container > .sectionBanner
@@ -244,7 +246,6 @@
 ###lovexin2
 ###lt-ad-radio
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
-###main.site-main > div > div > a[href] > img
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -588,7 +589,6 @@
 ##.banner-ad-section
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
-##.bannerliststyle[style^="min-height"]
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
@@ -597,6 +597,7 @@
 ##.bm.a_c
 ##.bn728-100
 ##.bn728-93
+##.book > #btmBox
 ##.bottom-adv
 ##.bottom-pic,.col-pd.mb10
 ##.bottomAd
@@ -846,6 +847,7 @@
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
 ##.popup + .shortcuts-mobile-overlay
+##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
@@ -2116,6 +2118,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/vj1/$script,third-party
 .com/vj2/$script,third-party
 .com/vodad.js
+.com/xz/*?token8=
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
@@ -4370,7 +4373,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /jquery.adi.
 /jquery.adx.
 /jquery.antiadsblock.js|$script
-/jquery.modal.$domain=8se.me|xchina.fun|xchina.co|1909.me|litu100.xyz|xchina.pro
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
 /jquery.peelback.
 /jqueryadvertising.
 /js.ad/size=
@@ -10960,7 +10963,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||srnk.co/js/ads.js$xmlhttprequest
 @@||srs.blastingnews.com/js/adv/_compiled.js$script
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
-@@||ss999.me/i.php?i=
 @@||ssl-images-amazon.com/images/$image,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
 @@||ssl.p.jwpcdn.com/player/*/jwpsrv.js$script,domain=bgr.com
 @@||ssl.sdcdn.com/cms/ads/*$domain=stardoll.com
@@ -13726,8 +13728,6 @@ ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 ddrk.me##a[onclick^="ClickobayST();"]
-ddrk.me,ddys.tv##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
-ddrk.me,ddys.tv##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddxsku.com##.adhtml
 ddys.tv,ddrk.me##+js(set-constant, Object.prototype.nopreroll_, true)
 ddys.tv,ddrk.me#$#a[href*="/kst6632.com/"] > img { width: 2px !important; }
@@ -15562,9 +15562,6 @@ hupu.com##div[class*="ad728-90"]
 hupu.com##div[class*="ad980-60"]
 hur.cn###ad810_2
 hur.cn###ad810_6
-hurigirls99.xyz###rightd
-hurigirls99.xyz###undertd
-hurigirls99.xyz###undertd + div[style]
 huya.com###J_roomGg2 + a
 huya.com###ggcomment
 huya.com###huya-ab
@@ -16656,7 +16653,6 @@ kkpan.com,qqtn.com,smzy.com,yxdj.com.cn##.u-gs-btn
 kkphm.com,haohaiyo.cc,51kkp.club##a[href*="kkpmh.com/"]
 kkw360.com##a[href^="https://sourl.cn/"]
 km.com##.downloadApp
-kmbb70.com###publicIndexBanner
 kmf.com##.g-kmf-906banner
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
 knowmore.cc##.ins
@@ -21937,6 +21933,7 @@ zzzyk.com###Tinfo
 ||37e5693aa7.com^
 ||37tek.fun^
 ||380.tw^$popup,third-party
+||380tv.com/upload/*-ad-
 ||3819544f76.com^
 ||3841f4b0c4.com^
 ||3869630.notify6.com^
@@ -24471,6 +24468,7 @@ zzzyk.com###Tinfo
 ||ampxchange.com^
 ||amradmin.5173.com^
 ||amre.work^
+||amryqmm.cn^
 ||ams.fx678.com^
 ||amtropiusr.com^
 ||amung.us^
@@ -25050,7 +25048,6 @@ zzzyk.com###Tinfo
 ||avcao.cc/js/p.js
 ||avcity.twavtv.com/iframe/
 ||avdao.pw/dist/js/sc_check
-||avdb.me/ad/
 ||aversionworkingthankful.com^
 ||avgle.com.7mmtv.top^
 ||avgle.com.jav-7mmtv.top^
@@ -26010,7 +26007,6 @@ zzzyk.com###Tinfo
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
 ||bkl72.com^
-||bku3.com/js/cctv-bf.js
 ||bkvps.com^$third-party
 ||bl.emotionalworld.cn^
 ||bla01.com^
@@ -29201,6 +29197,7 @@ zzzyk.com###Tinfo
 ||dongya.org^
 ||doninjaskr.com^
 ||doniv.net^$third-party
+||donku.club^
 ||dontblock.jaaavjavs1.buzz^
 ||dontblock.jav1jav2.buzz^
 ||donttbeevils.de^
@@ -29361,6 +29358,7 @@ zzzyk.com###Tinfo
 ||dtjhtp.xyz^
 ||dtmm9h2satghl.cloudfront.net^
 ||dtmpub.com^
+||dtnhjzl.xyz^
 ||dtoottuleringwe.xyz^
 ||dtprofit.com^
 ||dtqiow.cn^
@@ -33975,6 +33973,7 @@ zzzyk.com###Tinfo
 ||jbkmskjeaevkne.xyz^
 ||jbnmuye.cn^
 ||jbplm.com^
+||jbtfmis.xyz^
 ||jbuzacg.cn^
 ||jbyy010.com^
 ||jbzjegn.cn^
@@ -34030,6 +34029,7 @@ zzzyk.com###Tinfo
 ||jeepyy.com^$third-party
 ||jeeryzest.com^
 ||jefashivy.com^
+||jeidd.xyz^
 ||jellifytayer.com^
 ||jeltoocm.xyz^
 ||jemonews.com^
@@ -34625,6 +34625,7 @@ zzzyk.com###Tinfo
 ||jysbj.cn^
 ||jytjw.com^
 ||jyuyjxx.cn^
+||jyxfvp.xyz^
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
 ||jz8b.top^
@@ -39919,6 +39920,7 @@ zzzyk.com###Tinfo
 ||qjwpy.com^
 ||qjxys.cn^
 ||qk6.org/file/script/
+||qkcaqq.xyz^
 ||qkixi.com^
 ||qkkgish.cn^
 ||qkobbgs.cyou^
@@ -41872,6 +41874,7 @@ zzzyk.com###Tinfo
 ||smilewanted.com^$third-party
 ||smisit.com^
 ||smithersworonoco.com^$third-party
+||smlmupi.cn^
 ||smmmqq.com^
 ||smopy.com^$third-party
 ||smpop.icfcdn.com^
@@ -43411,6 +43414,7 @@ zzzyk.com###Tinfo
 ||tpcserve.com^
 ||tpdads.com^
 ||tpe163.com^
+||tpjmqq.com^
 ||tpool.cn^
 ||tpqokqi.cn^
 ||tprwnvk.cn^
@@ -44521,7 +44525,6 @@ zzzyk.com###Tinfo
 ||vip.min1319.com^$third-party
 ||vip.panggugu.com^
 ||vip1.loli.net/2020/02/17/A9jmsY41EwiUzou.png$domain=ddrk.me
-||vip27j.xyz/dh.js
 ||vipcaptcha.live^
 ||vipcpms.com^
 ||vipdage.com/wp-content/uploads/ad/
@@ -44580,6 +44583,7 @@ zzzyk.com###Tinfo
 ||vl1m.cn^
 ||vlbbxt.xyz^
 ||vlets.kydb.xyz^
+||vlinz.icu^
 ||vlion.cn^$third-party
 ||vliplatform.com^$third-party
 ||vlitag.com^
@@ -46055,7 +46059,6 @@ zzzyk.com###Tinfo
 ||xni.ink^
 ||xniexnz.cn^
 ||xnimg.cn^*/liveinc/rightlive.js
-||xnklgas.cn/common/getBannerList
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xnrcnz.xyz^
@@ -46899,6 +46902,7 @@ zzzyk.com###Tinfo
 ||yyv.co/Webservices/jsParseLinks.aspx$script,third-party
 ||yyv.co/visitScript/$script,third-party
 ||yywccbdy.cyou^
+||yywh.vip^
 ||yywridi.cn^
 ||yywvruv.cn^
 ||yywz123.com/file/A*.js
