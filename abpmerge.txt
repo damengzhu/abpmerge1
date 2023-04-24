@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-23 16:09:23
-! Total count: 47561
+! Version: 2023-04-24 08:11:52
+! Total count: 47571
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1077,6 +1077,7 @@
 ##IMG.cupfox[src$='gif']
 ##IMG.lazyload[src='/statics/img/load.gif']
 ##IMG[alt='155.fun']
+##IMG[alt='五一特惠']
 ##IMG[alt^='kaiybet']
 ##IMG[onclick='golh()'][src$='.gif']
 ##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
@@ -1463,6 +1464,7 @@
 ##a[href*="/cslpldyc.me"]
 ##a[href*="/ctyitopo17.com"]
 ##a[href*="/d27.tv"]
+##a[href*="/d6586.com:"]
 ##a[href*="/ddtz5.com"]
 ##a[href*="/ftyvrfy05.com"]
 ##a[href*="/g3656.com:"]
@@ -8211,7 +8213,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||cntv.cn^*_ad.js
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
-@@||cnzz.com/z_stat.php$domain=ddrk.me
 @@||cnzz.com/z_stat.php$domain=newsite.sherpa.com.cn
 @@||cnzz.com/z_stat.php?id=$domain=fapiao.bangnimang.net
 @@||cnzz.mmstat.com/*.gif$domain=400gb.com
@@ -10996,7 +10997,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=unilad.co.uk|unilad.com
 @@||static.bfmtv.com/ressources/js/ads.js$script
 @@||static.clmbtech.com/ad/commons/js/colombia_v2.js$domain=indiatimes.com
-@@||static.cloudflareinsights.com/beacon.min.js$domain=ddys.tv
 @@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
 @@||static.doubleclick.net/instream/ad_status.js$domain=game3rb.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
@@ -12295,6 +12295,7 @@ avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
 awaliwa.com##.bottomAdsBox
+awdc6.com
 axiang.cc###photo-sliders + .widget_text
 axios-http.cn###right-sider
 axios-js.com###lagou-vip
@@ -12562,6 +12563,7 @@ banid.pl#@#.ga
 banjiajia.com##.register-box
 banjiajia.com##.register-ten
 banma.com##div[id^="disapper"]
+banners-cdn77.trafficfactory.biz
 banzou.name###ads_1
 banzou.name###ads_2
 banzou.name###appfu
@@ -13729,10 +13731,7 @@ ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 ddrk.me##a[onclick^="ClickobayST();"]
 ddxsku.com##.adhtml
-ddys.tv,ddrk.me##+js(set-constant, Object.prototype.nopreroll_, true)
-ddys.tv,ddrk.me#$#a[href*="/kst6632.com/"] > img { width: 2px !important; }
-ddys.tv,ddrk.me#$#a[href*="/kst6632.com/"] { pointer-events: none !important; }
-ddys.tv,ddrk.me#@#a[href*="/kst6632.com/"]
+ddys.*##+js(set-constant, Object.prototype.nobpreroll_, true)
 de.adklick.net###w_ad.no_ad
 de.as.pptv.com
 dealmoon.com,weibo.com##.pic_ad
@@ -14031,6 +14030,7 @@ duba.com,uu114.cn##.adfixed
 duba.com,uu114.cn##.hotTitle
 duba.net###login_alert
 duelmeta.com##.single-bottom-html
+duelmeta.com##.single-top-html
 dujiaoshou.cn###ad1
 duodada.com##.row > div[class] > div.page-header ~ div[style^="width:100%;"]
 duodada.com##[style*="position: fixed; left: 0px;"]
@@ -20100,6 +20100,7 @@ vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gom
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.love,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
+vijnhyru.xyz
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
 vikacg.com##div[id^="home-row-ads"]
@@ -20208,6 +20209,7 @@ waw4free.pl$$style[tag-content="document.documentElement.scrollTop?document.docu
 wawa-film.org##A[href^="http://api.adlure.net/partner/click/"]
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
+wcdc5.com
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
 wdzj.com###ggao-article-bottom
@@ -27575,7 +27577,6 @@ zzzyk.com###Tinfo
 ||cnzz.c62v.cn^$third-party
 ||cnzz.cn/badu.gif
 ||cnzz.cn/ssp_
-||cnzz.com/z_stat.php$xmlhttprequest,script,redirect=noop.js,domain=ddrk.me,important
 ||cnzz.com^
 ||cnzz.com^$third-party
 ||cnzz.mmstat.com^
@@ -34999,6 +35000,7 @@ zzzyk.com###Tinfo
 ||koapsuha.net^
 ||koatkm.xyz^
 ||kocpc.com.tw/adsbyso.js
+||koekd.xyz^
 ||kogutcho.net^
 ||kohen.biz^
 ||koi.vyer.com^
@@ -36324,6 +36326,7 @@ zzzyk.com###Tinfo
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maonderndbeco.com.ua^
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
+||maoqxyl.xyz^
 ||map.baidu.com^$domain=laosiji.com
 ||mapping.fun^
 ||mapsmnx.cyou^
@@ -38073,6 +38076,7 @@ zzzyk.com###Tinfo
 ||omoonsih.net^
 ||omtend.com^
 ||omzylhvhwp.com^
+||on-you.cn^
 ||onandeggsiswe.com.ua^
 ||onaudience.com^$third-party
 ||onautcatholi.xyz^
@@ -40610,6 +40614,7 @@ zzzyk.com###Tinfo
 ||riy9qqfu.club^
 ||riy9qqfu.xyz^
 ||riy9qqfushop.xyz^
+||rizgtf.xyz^
 ||rizihao.top^
 ||rizlhvb.cn^
 ||rjnjjin.cn^
@@ -44244,6 +44249,7 @@ zzzyk.com###Tinfo
 ||uzerzn.cn^
 ||uzngisyt.xyz^
 ||uzpmrbek.com^
+||uzuarlv.cn^
 ||v-links.net^$third-party
 ||v-vlog.cn^
 ||v.center^$third-party
@@ -45942,6 +45948,7 @@ zzzyk.com###Tinfo
 ||xkcxh.com^
 ||xkd*.com/layer/layer.js
 ||xkd.hk^
+||xkdlqq.com^
 ||xkeo6sleo.cyou^
 ||xkhall.xyz^
 ||xkjcpl.cn^
@@ -45965,6 +45972,7 @@ zzzyk.com###Tinfo
 ||xlrdr.com^
 ||xlrm-tech.com^
 ||xls.go.sohu.com^
+||xlsds888.xyz^
 ||xlviiirdr.com^
 ||xlviirdr.com^
 ||xlvirdr.com^
@@ -46152,6 +46160,7 @@ zzzyk.com###Tinfo
 ||xuexi.wiki^
 ||xuexila.com^*-xxl.js
 ||xueyanshan.com^
+||xueyugaoyuan.xyz^
 ||xuhaijun.pw^
 ||xujingch.com^
 ||xujmcrc.cn^
@@ -46782,6 +46791,7 @@ zzzyk.com###Tinfo
 ||yuanlianghui.com^
 ||yubingyuan.top^
 ||yue78.online^
+||yuebog.xyz^
 ||yuedu.baidu.com/hybrid/wkrec/search?
 ||yueduyy.com^
 ||yuehesh.com^
