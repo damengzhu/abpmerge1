@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-24 16:10:40
-! Total count: 47579
+! Version: 2023-04-25 08:11:06
+! Total count: 47595
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1189,6 +1189,7 @@
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
+##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -1651,6 +1652,7 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
+##div > SCRIPT[data-url] ~ div
 ##div#ad_id
 ##div#apage.apage > div > ul > li > a
 ##div#beijing.article_content.layui-clear > div.left > div > a
@@ -12295,7 +12297,6 @@ avtovzglyad.ru,dni.ru,baby.ru#$#abort-on-property-read Ya
 awaker.cn###jiji + div[style="padding: 20px"]
 awaker.cn##.good-price
 awaliwa.com##.bottomAdsBox
-awdc6.com
 axiang.cc###photo-sliders + .widget_text
 axios-http.cn###right-sider
 axios-js.com###lagou-vip
@@ -12563,7 +12564,6 @@ banid.pl#@#.ga
 banjiajia.com##.register-box
 banjiajia.com##.register-ten
 banma.com##div[id^="disapper"]
-banners-cdn77.trafficfactory.biz
 banzou.name###ads_1
 banzou.name###ads_2
 banzou.name###appfu
@@ -20101,7 +20101,6 @@ vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gom
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.love,ungtycomicsvip.com,vlxx.info#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
-vijnhyru.xyz
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
 vikacg.com##div[id^="home-row-ads"]
@@ -20211,7 +20210,6 @@ waw4free.pl$$style[tag-content="document.documentElement.scrollTop?document.docu
 wawa-film.org##A[href^="http://api.adlure.net/partner/click/"]
 wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
-wcdc5.com
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
 wdzj.com###ggao-article-bottom
@@ -20433,7 +20431,6 @@ www.kafan.cn##.comeing_show_box[style="padding:10px;"]
 www.le.com###full_Column_big
 www.le.com###full_Column_small
 www.le.com###rightBottomPop
-www.lezhutv.com##DIV[style*='vw; display: block;']
 www.linkedin.com#$#simulate-event-poc click 'xpath(//*[text()="Promoted" or text()="Sponsored" or text()="Dipromosikan" or text()="Propagováno" or text()="Promoveret" or text()="Anzeige" or text()="Promocionado" or text()="促銷內容" or text()="Post sponsorisé" or text()="프로모션" or text()="Post sponsorizzato" or text()="广告" or text()="プロモーション" or text()="Treść promowana" or text()="Patrocinado" or text()="Promovat" or text()="Продвигается" or text()="Marknadsfört" or text()="Nai-promote" or text()="ได้รับการโปรโมท" or text()="Öne çıkarılan içerik" or text()="الترويج"]/ancestor::div[@data-id]//video[@autoplay="autoplay"])' 10
 www.lofter.com###appdownloadbanner
 www.meijuii.cc##DIV[style*='vw; display: block;']
@@ -20643,6 +20640,8 @@ xxxxx520.com##.ripro_gg_wrap
 xydai.cn##.deanad4s
 xyg39.xyz###__top_header + script + div
 xyj321.com##.foot_alert_wrap
+xyz/kallss?
+xyz/stimulus?
 xz.ccoo.cn##.index_banner
 xz7.com##div[class^="AD_"]
 xzbu.com##div[class^="xueshu-a"]
@@ -25434,6 +25433,7 @@ zzzyk.com###Tinfo
 ||bannerboo.com^$third-party
 ||bannerbridge.net^$third-party
 ||bannerflow.com^$third-party
+||banners-cdn77.trafficfactory.biz^
 ||banners.myads.ge^
 ||bannersnack.com^$third-party,domain=~bannersnack.dev
 ||bannertrack.net^$~script,third-party
@@ -27003,6 +27003,7 @@ zzzyk.com###Tinfo
 ||cfhlrai.cn^
 ||cfkkdhs.cn^
 ||cfqc.me^
+||cfxkluv.cn^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cg3.ilovejav.club^
 ||cgbmjsasm.xyz^
@@ -30265,6 +30266,7 @@ zzzyk.com###Tinfo
 ||f11.hackhome.com^
 ||f1190.com^
 ||f1t5pb.cn^
+||f23jjd8.xyz^
 ||f2dsex1.com/public/fb*.png
 ||f2zd.com^
 ||f3551539d6565853.com^
@@ -35424,6 +35426,7 @@ zzzyk.com###Tinfo
 ||lecuiwangluo.com^
 ||ledaoutrush.com^
 ||ledaren.cn^
+||ledni.xyz^
 ||ledrapti.net^
 ||ledslevier.com^
 ||leeleo.top^$third-party
@@ -36443,6 +36446,7 @@ zzzyk.com###Tinfo
 ||mc.mwgpg.cn^
 ||mc.tvzhe.com^
 ||mc.weather.com.cn^
+||mc3369.xyz^
 ||mc7clurd09pla4nrtat7ion.com^
 ||mcbzq.xyz^
 ||mcdotjezqozu.com^
@@ -36467,6 +36471,7 @@ zzzyk.com###Tinfo
 ||mdkjefq.cn^
 ||mdklc.top^
 ||mdqgwa.cn^
+||mdqhyxe.cn^
 ||mdt.qq.com^
 ||me360.com/swt/swt.js
 ||me680.com/js/*.js
@@ -40056,6 +40061,7 @@ zzzyk.com###Tinfo
 ||qqxiazai.com/index.*adver&
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
+||qqzbabc20.com^
 ||qrfladd.cn^
 ||qrjxween.com^
 ||qrlsx.com^
@@ -40659,6 +40665,7 @@ zzzyk.com###Tinfo
 ||rmqz.xyz^
 ||rmt.plus^
 ||rmwdn.com^
+||rmws8.com^
 ||rmxads.com^
 ||rmzbfum.cn^
 ||rnajzp.cn^
@@ -40756,6 +40763,7 @@ zzzyk.com###Tinfo
 ||rqpvevt.cn^
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
+||rqytqq.com^
 ||rr.pochengweiyuan.com^$third-party
 ||rr.tracker.mobiletracking.ru^
 ||rr3r.com/requestData.
@@ -40772,6 +40780,7 @@ zzzyk.com###Tinfo
 ||rs-stripe.com^
 ||rs.aoxx69.net/image/banner/
 ||rsationhesa.one^
+||rsbepv.xyz^
 ||rsc.cdn77.org^$domain=lnk.news|multileech.net
 ||rsdkk26.xyz^
 ||rsdown.cn/statics/images/rs-banner.jpg
@@ -44524,6 +44533,7 @@ zzzyk.com###Tinfo
 ||vigorous-hurt.pro^
 ||vihub.ru^
 ||viiigle.com^
+||vijnhyru.xyz^
 ||vilelaaccable.com^
 ||vilereasoning.com^
 ||viliaff.com^
@@ -45181,6 +45191,7 @@ zzzyk.com###Tinfo
 ||windows.net/732d.js
 ||windowsxi.com^
 ||windsplay.com^
+||windyang.xyz^
 ||wingerssetiger.com^
 ||wingontravel.com/Static/headerfooter/Content/js/masterpage.
 ||winporn.*/templates/base_master/js/jquery.shows.min.js
@@ -45642,6 +45653,7 @@ zzzyk.com###Tinfo
 ||wydnbnni.xyz^
 ||wyglyvaso.com^
 ||wyhifdpatl.com^
+||wyjbvoz.xyz^
 ||wykop.pl/api/v*/ads
 ||wykw.fun^
 ||wylqafraq7.com^
@@ -45655,6 +45667,7 @@ zzzyk.com###Tinfo
 ||wysyshypti.pro^
 ||wywsdx.com^
 ||wyxcb3.top^
+||wyynike.cn^
 ||wyzq.rehuwang.com^
 ||wz8g.top^
 ||wzbaohe.com/imgadnew/midad.js
@@ -45827,6 +45840,7 @@ zzzyk.com###Tinfo
 ||xiaochen1.cn^
 ||xiaodongrui.com^
 ||xiaodutv.com/xda?
+||xiaofangtongzhi.xy^
 ||xiaohui.ink^
 ||xiaohui668.club^
 ||xiaojifly.cn^
@@ -46396,6 +46410,7 @@ zzzyk.com###Tinfo
 ||yearbookhobblespinal.com^
 ||yecaoyun.com/AD/
 ||yefu365.com/rebo/function.js
+||yegzkw.xyz^
 ||yehaobo5.com/js/
 ||yeip5aehi.icu^
 ||yektanet.com^$third-party
@@ -47226,6 +47241,7 @@ zzzyk.com###Tinfo
 ||zhongyi.ifeng.com/a/zt.js
 ||zhongyoo.com/img/js/tongji.js
 ||zhongyoo.com/shuju/
+||zhoubo01.cn^
 ||zhoudm.love^
 ||zhouduanyyds.com^
 ||zhpfl.cn^
