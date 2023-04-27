@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-27 08:10:36
-! Total count: 47639
+! Version: 2023-04-27 16:09:04
+! Total count: 47648
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4146,6 +4146,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /glam300.
 /glam728.
 /glam_ads.
+/gmu-download.oss-
 /google-ad-
 /google-ads/*
 /google-adsense-$domain=~webst8.com
@@ -12065,7 +12066,7 @@ angelweb.cn##table[height="250"]
 anhuinews.com###ewm
 anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anibatch.net##.su-box.su-box-style-default
-anidub.vip,anidubonline.com#$#prevent-listener click window.open; abort-on-property-read brblob; override-property-read ad.active.timeout 0
+anidub.vip,anidubonline.com#$#prevent-listener click window.open; abort-on-property-read brblob
 anifap.com,anitokyo.tv,hcdn.online,kinofilm.co,anipoisk.org#$#abort-on-property-read ClickUndercookie
 anigogo.net,sendvid.com,uptostream.com,animeid.to,mcloud.to,vizcloud.cloud,uploadrar.com,gogoplay1.com,gogoplay2.com,membed.net,goload.*$$script[wildcard="*function*break;case*"][min-length="30000"][max-length="100000"]
 anime-odcinki.pl$$script[tag-content="zfgloadedpushopt"][min-length="30000"][max-length="50000"]
@@ -12610,7 +12611,6 @@ bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;
 bbs.my0511.com##embed[width="970"][height="70"]
 bbs.my0511.com##span.smalltxt
 bbs.pcbeta.com###diynavtop + style + div[class]
-bbs.pcbeta.com#?#:matches-path(/^\/$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 bbs.xmfish.com##.cmp_v
 bcbay.com##.ad_txt_box
 bcbay.com##.discuss + table
@@ -13060,6 +13060,8 @@ cctime.com##.nav_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cdiscount.com#$#hide-if-matches-xpath './/div[@class][normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::div[@id and @class][not(@id="main")]|.//div[@class][normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::li[@class]'
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsorisé")]/parent::div[@class and @id]'
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -13750,6 +13752,8 @@ delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/
 delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
 deloplen.com$$script[max-length="0"]
 demaxiya.com##.tp_box
+dep-family.hccg.gov.tw#@#.ad_1
+dep-family.hccg.gov.tw#@#.ad_2
 deviantart.com###block-notice
 dhaomu.com##.ceo-ad
 dhaomu.com##.ceo-footer-h
@@ -15899,7 +15903,7 @@ instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'
+instacart.com#$#hide-if-matches-xpath './/div[contains(@class,"css-1poj")]/ancestor::div[@aria-label="Product"]/ancestor::li'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
 instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sppppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spppppp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sspp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssspp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
 instantmanga.com###notice
@@ -17782,6 +17786,7 @@ niutuku.com,sina.cn##.bannerAD
 nivod4.tv,nivod5.tv##.nav-ads
 nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nivod5.tv,nivod4.tv##.nav-ads
+nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
 nlc.gov.cn###lovexin12xx
 nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
@@ -18061,6 +18066,7 @@ pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbaby.com.cn###jpopWinBottom
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
+pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
 pcccp.cn##DIV[id^="xydl"]
@@ -19697,7 +19703,7 @@ tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"linkCode") or contains(@href,"amazon.it")][@target="_blank"]/ancestor::div/parent::div[contains(@class,"-main")][@style]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@name,"shp-offerta-")][@target="_blank"]/ancestor::div[contains(@class,"tiscali-dx")]'
+tiscali.it#$#hide-if-matches-xpath './/a[contains(@name,"shp-offerta-")][@target="_blank"]/preceding::div[contains(@class,"active")]/ancestor::div[2]'
 tiscali.it#$#hide-if-matches-xpath './/figcaption/preceding::img/preceding::a[@target="_blank"][contains(@title,"ebay")]/parent::figure'
 tiscali.it#$#hide-if-matches-xpath './/img/ancestor::a[@target="_blank"][contains(@*,"www.ebay.it")]/parent::div[@class]'
 titan007.com###table_live > tbody > tr > td[height="18"] > a
@@ -20404,6 +20410,7 @@ www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"
 www.baidu.com#@#div[class*="ads"]
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
+www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
 www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
@@ -43026,6 +43033,7 @@ zzzyk.com###Tinfo
 ||tfexcludes.shop^
 ||tffindmarket.live^
 ||tffkroute.com^
+||tffulllist.shop^
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
 ||tfg2.com/images/upfile/banner/
@@ -44940,6 +44948,7 @@ zzzyk.com###Tinfo
 ||wbiao.co/src2/js/expand/fudong/
 ||wbidder.online^
 ||wbidder2.com^
+||wbnhqq.com^
 ||wboptim.online^
 ||wbphplqsrdexvt.com^
 ||wbqosw.xyz^
