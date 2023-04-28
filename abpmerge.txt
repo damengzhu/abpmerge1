@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-27 16:09:04
-! Total count: 47648
+! Version: 2023-04-28 08:10:18
+! Total count: 47659
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -12584,7 +12584,6 @@ baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##.sidebar-slot-top
-baomoi.com,zingnews.vn#$#abort-on-property-read URL.createObjectURL
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 batporno.com#$#abort-on-property-read decodeURI
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.fr,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -19698,12 +19697,13 @@ tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[hre
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 tiscali.cz,kinobox.cz,osobnosti.cz,karaoketexty.cz,nasepenize.cz,fights.cz,spisovatele.cz##.SC_TBlock
 tiscali.it#$#hide-if-matches-xpath './/a[@class="boxamazon"][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
+tiscali.it#$#hide-if-matches-xpath './/a[@data-merchant]/ancestor::div[starts-with(@class,"product-cnt")]/ancestor::div[contains(@class,"eby-cnt")]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign="))]/preceding::div[contains(@style,"height: ")][@id][1]'
 tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(@*,"https://www.ebay.it")]/preceding::div[contains(@style,"height: ")][@id][1]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
 tiscali.it#$#hide-if-matches-xpath './/a[contains(@href,"linkCode") or contains(@href,"amazon.it")][@target="_blank"]/ancestor::div/parent::div[contains(@class,"-main")][@style]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@name,"shp-offerta-")][@target="_blank"]/preceding::div[contains(@class,"active")]/ancestor::div[2]'
+tiscali.it#$#hide-if-matches-xpath './/a[contains(@name,"shp-offerta-")][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
 tiscali.it#$#hide-if-matches-xpath './/figcaption/preceding::img/preceding::a[@target="_blank"][contains(@title,"ebay")]/parent::figure'
 tiscali.it#$#hide-if-matches-xpath './/img/ancestor::a[@target="_blank"][contains(@*,"www.ebay.it")]/parent::div[@class]'
 titan007.com###table_live > tbody > tr > td[height="18"] > a
@@ -22412,6 +22412,7 @@ zzzyk.com###Tinfo
 ||5xd3jfwl9e8v.com^
 ||5xdmw.com/tb.jpg
 ||5xle.xyz^
+||5xur.top^
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
 ||6.cn/coop/pub/getRand.php?
@@ -23282,6 +23283,7 @@ zzzyk.com###Tinfo
 ||acdcdn.com^
 ||acdcdn.com^$third-party
 ||acediscover.com^
+||aceik.xyz^
 ||acendantoftheq.xyz^
 ||aceporntube.com^
 ||acertb.com^
@@ -29854,6 +29856,7 @@ zzzyk.com###Tinfo
 ||effetspositifs.com^
 ||effusedprankle.com^
 ||efgh.5lu.com^
+||efilgvz.cn^
 ||efizobj.cn^
 ||efukheretool.com^
 ||efyt6.com^$third-party
@@ -32912,6 +32915,7 @@ zzzyk.com###Tinfo
 ||hwaawsh.com^
 ||hwanjia.com^
 ||hwchvgpc.xyz^
+||hwhefj.xyz^
 ||hwpnocpctu.com^
 ||hwuzrko.cn^
 ||hx1.tubepornbase.com^
@@ -34131,6 +34135,7 @@ zzzyk.com###Tinfo
 ||jianchajingmk.net^
 ||jiandan100.cn/images/site/union/
 ||jiangzhou.ltd^
+||jiangzimeng1.cn^
 ||jianhuadaily.com/wp-content/plugins/popup-
 ||jianjianjiao.top^
 ||jiankang13.com^$third-party
@@ -34222,6 +34227,7 @@ zzzyk.com###Tinfo
 ||jiphihizi.com^
 ||jipinyouwu.com^
 ||jipo.io^
+||jiqadoi.cn^
 ||jiqgsh.com^
 ||jirvlo.cn^
 ||jisafnia.space^
@@ -37442,6 +37448,7 @@ zzzyk.com###Tinfo
 ||nehjnhektmg.com^
 ||neihhou.com^
 ||neipa.xyz^
+||nekomasu.ltd^
 ||nemesiacalesa.website^
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
@@ -38030,6 +38037,7 @@ zzzyk.com###Tinfo
 ||oigduusrva.com^
 ||oiknldwlkop.com^
 ||oikqwnm.com^
+||oimzak.xyz^
 ||oinjkenwok.xyz^
 ||oinlkwdsx.xyz^
 ||oinlkwr.xyz^
@@ -43717,6 +43725,7 @@ zzzyk.com###Tinfo
 ||tuffhf.xyz^
 ||tugarmyindistinct.com^
 ||tugflmw.cn^
+||tuhipkz.xyz^
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
 ||tui56.com/guanggao*.html
@@ -45804,6 +45813,7 @@ zzzyk.com###Tinfo
 ||xcvtg.xyz^
 ||xcvur.xyz^
 ||xcwzq.xyz^
+||xcysqq.com^
 ||xd4a.top^
 ||xdaigua.cn^
 ||xdcad.net/source/plugin/disad/disad.js
@@ -47474,6 +47484,7 @@ zzzyk.com###Tinfo
 ||zrblog.net/zanzhu/virpus.gif
 ||zrbn.ltd^
 ||zrpyfgt.cn^
+||zrrnqq.com^
 ||zrwba.cn^
 ||zrys.xyz^
 ||zrysogsiq.uno^
