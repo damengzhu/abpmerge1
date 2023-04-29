@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-29 08:09:39
-! Total count: 47693
+! Version: 2023-04-29 16:09:16
+! Total count: 47681
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2016,8 +2016,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .club/adv/
 .cn/*-*-*.xc$script,third-party
 .cn/a.gif?
+.cn/ack?s=*$third-party
 .cn/ads/
 .cn/b.gif?
+.cn/bid?url=*$third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/r.gif?
@@ -21072,7 +21074,6 @@ zzzyk.com###Tinfo
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.com/*b8121.js^$script,domain=mult34.com
 ||*.doppiocdn.com/hls/*/master/*.m3u8$domain=xhamster.*|xhamster18.*
-||*.gdt.qq.com^
 ||*.gentags.net^
 ||*.getui.com^
 ||*.go.sohu.com^
@@ -23285,7 +23286,6 @@ zzzyk.com###Tinfo
 ||acceleratedrummer.com^
 ||accentneglectporter.com^
 ||access.toggle.qq.com^
-||access1.tpns.tencent.com^
 ||accessiblescopevisitor.com^
 ||accidentalinfringementfat.com^
 ||accommodatingremindauntie.com^
@@ -23950,7 +23950,6 @@ zzzyk.com###Tinfo
 ||aeeg5idiuenbi7erger.com^
 ||aefmbeq.cn^
 ||aeg32y.top^
-||aegis.qq.com^
 ||aeimmmj.cn^
 ||aengbalz.fun^
 ||aerialmistaken.com^
@@ -25701,7 +25700,6 @@ zzzyk.com###Tinfo
 ||bea-s.dinghuoche.com^
 ||beachlinkz.com^$third-party
 ||beacon-api.aliyuncs.com^
-||beacon.qq.com^
 ||beaconads.com^$third-party
 ||beambroth.com^
 ||beamedshipwreck.com^
@@ -26421,7 +26419,6 @@ zzzyk.com###Tinfo
 ||btpian.com/static/wenquan.js
 ||btpnative.com^
 ||btpnav.com^
-||btrace.qq.com^
 ||btschool.net/images/*/HDYGR
 ||btsow.mom/app/jav$image
 ||bttrack.com^
@@ -27041,7 +27038,6 @@ zzzyk.com###Tinfo
 ||cfaxidtm.site^
 ||cfepws.com^
 ||cfff.net^$third-party
-||cfg.imtt.qq.com^
 ||cfgr1.com^
 ||cfhijdsb.cn^
 ||cfhlrai.cn^
@@ -29621,7 +29617,6 @@ zzzyk.com###Tinfo
 ||e.changyan.sohu.com/dataService/getData?
 ||e.hnr.cn/choose/view/
 ||e.kuaishou.com^
-||e.qq.com^
 ||e0514.com/do/js.
 ||e0514.com/gglist/
 ||e0575.cn/js/corea/jquery.popup.js
@@ -35892,8 +35887,6 @@ zzzyk.com###Tinfo
 ||log.music.baidu.com^
 ||log.pinterest.com^$third-party
 ||log.snssdk.com^
-||log.tbs.qq.com^
-||log.tpns.tencent.com^
 ||log.vdisk.cn^
 ||log.zongheng.com^
 ||log1.17173.com/
@@ -36720,7 +36713,6 @@ zzzyk.com###Tinfo
 ||mhrokfsdv.com^
 ||mhsksgj.cn^
 ||mhslbgk.cn^
-||mi.gdt.qq.com^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
 ||miaorentang.xyz^
@@ -37127,7 +37119,6 @@ zzzyk.com###Tinfo
 ||mtlsari.cn^
 ||mtoalv.cn^
 ||mtqdji.cn^
-||mtrace.qq.com^
 ||mtsoytt.cn^
 ||mtsry.top^
 ||mttty.top^
@@ -38861,7 +38852,6 @@ zzzyk.com###Tinfo
 ||pg88cdn.com^
 ||pgccaoy.cn^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
-||pgdt.gtimg.cn^
 ||pgjcbz.xyz^
 ||pgl7.cn^
 ||pglstatp-toutiao.com^
@@ -39002,7 +38992,6 @@ zzzyk.com###Tinfo
 ||pincai.com^$third-party
 ||pincidao.cn^
 ||pindenspat.com^
-||pingfore.qq.com^
 ||pinggu.org/api/bbsgg.
 ||pingma.qq.com^
 ||pingmeibang.com/zt/zx.jpg
@@ -39885,6 +39874,7 @@ zzzyk.com###Tinfo
 ||qhres.com/static/b4f92ac067a4768b/v4/modules/footer.js
 ||qhres.com^*/baidu_
 ||qhrixol.cn^
+||qhvszsl.cn^
 ||qhvws.com^
 ||qhyy8.com/template/default_wap/html/public/img/*.gif
 ||qiabayyds.com^
@@ -40736,7 +40726,6 @@ zzzyk.com###Tinfo
 ||rmipoz.com/dp.js
 ||rmirha.cn^
 ||rmm7ss.top^
-||rmpad.imtt.qq.com^
 ||rmqz.xyz^
 ||rmt.plus^
 ||rmwdn.com^
@@ -40829,7 +40818,6 @@ zzzyk.com###Tinfo
 ||rppg.pro^
 ||rprinc6etodn9kunjiv.com^
 ||rptjx.xyz^
-||rqd.qq.com^
 ||rqeyxceoyojbcc.xyz^
 ||rqkfhquz.cn^
 ||rqkgcd.xyz^
@@ -42947,7 +42935,6 @@ zzzyk.com###Tinfo
 ||tbib.org/tbib.
 ||tblr.pl/dyna/s.js
 ||tbs1.xyz^
-||tbsone.imtt.qq.com^
 ||tbtpezs.cn^
 ||tbxqbvt.cn^
 ||tc600.com^
@@ -43534,7 +43521,6 @@ zzzyk.com###Tinfo
 ||tqxthzy.cn^
 ||tr-usual.xyz^
 ||tr.iadsdk.apple.com^$third-party
-||trace.qq.com^
 ||track-victoriadates.com^
 ||track.10bet.com^
 ||track.effiliation.com/servlet/$popup,domain=referencemega.com
@@ -45925,6 +45911,7 @@ zzzyk.com###Tinfo
 ||xiaobaipan.com/tb.html
 ||xiaobao8888.com^
 ||xiaobi*.com/layer/layer.js
+||xiaobixiaobi.com^
 ||xiaochen1.cn^
 ||xiaodongrui.com^
 ||xiaodutv.com/xda?
@@ -47693,6 +47680,7 @@ zzzyk.com###Tinfo
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~upupoo.com##a[href^="http://www.upupoo.com"]
+~v2ny.org##a[href*=".v2ny.org"]
 ~weibo.com##.con_ad
 ~work.weixin.qq.com,qq.com##+js(json-prune, ad)
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
