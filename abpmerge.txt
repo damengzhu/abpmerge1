@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-30 08:09:40
+! Version: 2023-04-30 16:09:18
 ! Total count: 47704
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1360,6 +1360,7 @@
 ##a[href*=".snmlyshj.com/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
+##a[href*=".tdchat.in"]
 ##a[href*=".tea123.me"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".tholikiranam.com/"]
@@ -18741,8 +18742,6 @@ rfidworld.com.cn##.indexBanner
 rfidworld.com.cn##.rfidADClass
 rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
-ri1.site,www.wenxuecity.com###leftside
-ri1.site,www.wenxuecity.com###rightside
 ria.ru##.antiblock
 riaway.com##.info_message_container
 ricettafitness.com,yts-subs.dev$$meta[http-equiv="refresh"]
@@ -19288,7 +19287,6 @@ sojson.com##._right_ad
 sojson.com##.banner1
 sojson.com##.fly-hezuo
 sojson.com##a[href^="https://www.sojson.com/ad/"]
-sokankan51.cc##.item > .item > a[target="_blank"]
 sokoc2.com##.rHHc
 soku.com###\5f xbox_ad
 solarbe.com##.LT_banner
@@ -20511,6 +20509,8 @@ www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.thepaper.cn##.pdtt01
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
+www.wenxuecity.com###leftside
+www.wenxuecity.com###rightside
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
 www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PRELOAD randvar
 www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
@@ -22128,6 +22128,7 @@ zzzyk.com###Tinfo
 ||49n7wqynho5u.top^
 ||4bds.xyz^
 ||4btbtt.com/slade.js
+||4cjh.xyz^
 ||4d0m.cn^
 ||4dex.io^
 ||4dsbanner.net^
@@ -40666,7 +40667,6 @@ zzzyk.com###Tinfo
 ||rhufmpa.cn^
 ||rhxshop.com^
 ||rhythmxchange.com^
-||ri1.site/wp-content/uploads/*x400.
 ||riaway.com/statics/idea.jpg
 ||ribffmg.cn^
 ||ribsaiji.com^
