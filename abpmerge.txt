@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-04-30 16:09:18
-! Total count: 47704
+! Version: 2023-05-01 08:11:17
+! Total count: 47708
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2388,8 +2388,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /120x600_
 /121sdw/*$script,third-party
 /130x600.
-/145sd*.js?$script,third-party
-/145tdww/*.js
 /150x200-
 /160-600.
 /160_600.
@@ -2398,8 +2396,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /160x600.
 /160x600/*
 /160x600_
-/168mj*.js?$script,third-party
-/168tjsdsdsiqxxvi93.js
 /170x700.
 /190_900.
 /190x600.
@@ -2453,8 +2449,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /480x60.
 /500ad/*
 /527ldy.oss-
-/555hsdsj/*
-/555hsdsjTT/*
 /58pic/index.php?m=adManageSystem&
 /5ixcmbwj/js/ad.js
 /600-60.
@@ -2644,7 +2638,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /a/p?adid=
 /a/pop/js/*
 /aSer_$domain=9gui.net|miejw.com
-/aa_*_a1.js$script,third-party
 /aadb/script.js|$script
 /aas/r45d/vki/*
 /ab_fl.js$script
@@ -4223,7 +4216,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /hjstore/system/banner/*.txt
 /hm.html?s=*=http
 /hm.js?$third-party,xmlhttprequest
-/hmzn_*_*_*.js?$script,third-party
 /hndxweb/push$popup,third-party
 /home/ad_
 /home/diyjs$domain=avcc.vip
@@ -5492,7 +5484,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /welcomead.
 /widget-advert.
 /widgetad.
-/windowwap_*_*_*.js?$script,third-party
 /wiseatom/banner/pack_
 /wix-ad.
 /wixads.
@@ -6210,7 +6201,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 24en.com##.article_part_top
 24en.com##A[href*="/ClickAd?"]
-24h.pchome.com.tw##.site_evt
+24h.pchome.com.tw,find.ruten.com.tw##.site_evt
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink
 24k99.com,fx168.com##.yy_guangao
@@ -14429,6 +14420,7 @@ fanqiangzhe.com###mobile-bottom-ads
 fanqiangzhe.com###news-include + .text-center
 fanqiangzhe.com###popupModal
 fantuan.tv##.app-guide
+fantuanhd.com###t-img-box
 fanyi.baidu.com###app-read
 fanyi.baidu.com##.appbanner
 fanyi.baidu.com##.banner_img_container
@@ -14532,7 +14524,6 @@ finance.sina.com.cn##div[class^="side-btns-"]
 finance.sina.com.cn##div[data-sudaclick="right_ads2_p"]
 finance.sina.com.cn##div[id^="st01_cont0"]
 finanse.wp.pl#$#abort-on-property-read prebidConfig.hbA
-find.ruten.com.tw##.site_evt
 findlaw.cn###wlcommonbot
 findprice.com.tw###divBestBuy
 firefox.com.cn,firefoxchina.cn###promote-top-list
@@ -21366,6 +21357,7 @@ zzzyk.com###Tinfo
 ||115mm.com/js/
 ||116bea31bf.com^
 ||1170555.com^
+||118.107.47.88^
 ||118114.cn^$third-party
 ||1188.com^$third-party
 ||119.29.207.87^
@@ -21444,6 +21436,7 @@ zzzyk.com###Tinfo
 ||141.105.69.88/eticilbup/$image,subdocument,script
 ||141h.com/data/attachment/noblock/cf/
 ||142.0.129.74^
+||143.92.60.44^
 ||146.148.85.61^
 ||1493c7cc8b.com^
 ||14bobo.com/js/
@@ -21453,6 +21446,7 @@ zzzyk.com###Tinfo
 ||1512a.com^
 ||1527ego.com^
 ||154.196.143.171^
+||154.212.147.231^
 ||154.7.80.158^
 ||156.232.37.2^
 ||156.233.32.123^$third-party
@@ -23337,6 +23331,7 @@ zzzyk.com###Tinfo
 ||acodes.b2b.cn^
 ||acofrnsr44es3954b.com^
 ||acookie.*.gif?
+||acqc9.com^
 ||acquaintedpostman.com^
 ||acquirethem.com^
 ||acs4baichuan.m.taobao.com^
@@ -25788,6 +25783,7 @@ zzzyk.com###Tinfo
 ||beiyicc.cn^
 ||beiyz.com^
 ||bejson.com/static/ydxyt/
+||bekcd.xyz^
 ||bekco.xyz^
 ||beklefkiom.com^
 ||belgud.com^
@@ -30517,6 +30513,7 @@ zzzyk.com###Tinfo
 ||feignthat.com^
 ||feih.com.cn^$third-party
 ||feijisu5.com/js/huimi-
+||feiju12138.xyz^
 ||feilan5.cn^
 ||feild.xyz^
 ||feisia1.cn^
@@ -32819,6 +32816,7 @@ zzzyk.com###Tinfo
 ||hualu.live^
 ||huancaicp.com/?pid=$popup
 ||huang-biao.com^
+||huangji1.cn^
 ||huanjugu.com/dm
 ||huanleshijie.top^
 ||huanqiu.com/resource/js/base
@@ -34580,6 +34578,7 @@ zzzyk.com###Tinfo
 ||jssav4hk.xyz^
 ||jssav6hk.club^
 ||jssearch.net^
+||jstimiz.xyz^
 ||jstucdn.com/g3/
 ||jsuboyp.cn^
 ||jswz8.com/images/
@@ -39079,6 +39078,7 @@ zzzyk.com###Tinfo
 ||pkkylyx.xyz^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
+||pkynqq.com^
 ||pl520.com^$third-party
 ||placeofres.com^
 ||plaguealacritytwitter.com^
@@ -40880,6 +40880,7 @@ zzzyk.com###Tinfo
 ||rsykksw.cn^
 ||rsz.sk^$third-party
 ||rszimg.com^
+||rszqtry.cn^
 ||rtb-apac.adxfactory.com^
 ||rtb-as-uswest.pulsefintech.net^
 ||rtb-eu-v4.afkwa.com^
@@ -41233,6 +41234,7 @@ zzzyk.com###Tinfo
 ||sbpb1.qulishi.com^
 ||sbplay.one/js/*/*.min.js?*=*
 ||sbs-ad.com^$third-party
+||sbyueyue.xyz^
 ||sc-gov-cn.website^
 ||sc.csai.cn^
 ||sc.waapadaggled.com^
@@ -43896,6 +43898,7 @@ zzzyk.com###Tinfo
 ||tzfdc.com/fdcSell/
 ||tzjovzs.cn^
 ||tzlit.cn^
+||tzmhqll.cn^
 ||tzngisyi.xyz^
 ||tzsvodu.cn^
 ||u-q.net.cn^
@@ -44838,6 +44841,7 @@ zzzyk.com###Tinfo
 ||vxlysbz.cn^
 ||vxotu.com/i/*.gif
 ||vxsnk.com^
+||vydbvp.xyz^
 ||vyfrxuytzn.com^
 ||vyinglyfomites.com^
 ||vykeavz.cn^
