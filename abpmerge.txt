@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-02 16:10:25
-! Total count: 47101
+! Version: 2023-05-03 08:10:28
+! Total count: 47123
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1070,7 +1070,9 @@
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
+##I.fa.fa-close
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
+##IMG#diads
 ##IMG.cupfox[src$='gif']
 ##IMG.lazyload[src='/statics/img/load.gif']
 ##IMG[alt='155.fun']
@@ -1098,6 +1100,7 @@
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
+##[ad_dot_url]
 ##[alt="要恰饭的嘛"]
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -1172,6 +1175,7 @@
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
 ##[src$='/dibu.adadadad']
+##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
@@ -1657,6 +1661,7 @@
 ##div.flex-1.order-first > DIV.under_player
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.inn-content-reseter > a > IMG[decoding='async'][loading='lazy']
+##div.layout-box a > IMG[src*='.gif']
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.maomi-content > SECTION.section.section-banner
 ##div.mobile > div.content IMG[src*='.gif']
@@ -2315,6 +2320,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .xyz$domain=yinghuacd.com
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
+.xyz/*?16$third-party
 .xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/?token=
@@ -3538,6 +3544,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /app/ads/*
 /app/apx14.js
 /app/apx19.js
+/app/get*?t=*http$third-party
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 /app/pcBanner/getBannerConfig/v2
 /app/x12.js
@@ -6532,7 +6539,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zn503.com##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,zn503.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,cupfox.app,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,htcui.com,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.net,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -15900,8 +15907,9 @@ instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'; hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")]/preceding::source[@srcset][@media]/ancestor::picture'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ffp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-fffp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ffffp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-fpp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -21421,6 +21429,7 @@ zzzyk.com###Tinfo
 ||138vps.com/fa/
 ||139file.com/jsa/
 ||13hangpifa.com^
+||13niao20230422.live^
 ||13owamwp6c.cn^
 ||141.105.69.88/eticilbup/$image,subdocument,script
 ||141h.com/data/attachment/noblock/cf/
@@ -21705,6 +21714,7 @@ zzzyk.com###Tinfo
 ||2345.com^*/activity/20171
 ||2345cdn.net/js/index/activity/
 ||234fang.com/index.php?/ajax/get_adv/
+||234mx.club^
 ||239300.net/template/*_mh_gg
 ||23aitt.com/zz/
 ||23dsf.top^
@@ -22812,6 +22822,7 @@ zzzyk.com###Tinfo
 ||920share.com/wp-content/uploads/*/911
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
+||92f2m.top^
 ||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
@@ -23216,6 +23227,7 @@ zzzyk.com###Tinfo
 ||acacdn.com^
 ||academyenrage.com^
 ||acalraiz.xyz^
+||acbe.club^
 ||accedenonre.xyz^
 ||acceleratedrummer.com^
 ||accentneglectporter.com^
@@ -27014,6 +27026,7 @@ zzzyk.com###Tinfo
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
 ||cheno3yp5odt7iume.com^
+||chenyuzhou1.cn^
 ||cheon2buy.xyz^
 ||cherryblossoms.top^
 ||cherrynudes.com/t33638ba5008.js
@@ -28615,6 +28628,7 @@ zzzyk.com###Tinfo
 ||dendrito.name^
 ||denetsuk.com^
 ||dengbalt.fun^
+||denghaishan1.cn^
 ||dengzhou.us^
 ||denpvh.xyz^
 ||departedbeings.com^
@@ -28698,6 +28712,7 @@ zzzyk.com###Tinfo
 ||dgbaozhuang.cn^
 ||dgemanowhot.com.ua^
 ||dgfgflod.com^
+||dgfqqq.com^
 ||dggaenaawxe8z.cloudfront.net^
 ||dgnepemukk.com^$script,xmlhttprequest
 ||dgozp.com^
@@ -28752,6 +28767,7 @@ zzzyk.com###Tinfo
 ||diejs.com^
 ||dieka888.com/app_ad/
 ||dieka888.com^
+||diekd.xyz^
 ||dienesasides.com^
 ||dierguanggao.xyz^
 ||dietaryexpanded.com^
@@ -29225,6 +29241,7 @@ zzzyk.com###Tinfo
 ||dsfsdft4324.xyz^
 ||dsh7ky7308k4b.cloudfront.net^
 ||dshangyan.com/pc/advertising/
+||dshapv.xyz^
 ||dslenggui.com^
 ||dsp.ali213.net^
 ||dsp.lenovo.com.cn^*&clientType=api|
@@ -35011,6 +35028,7 @@ zzzyk.com###Tinfo
 ||kzezz.com^
 ||kzgmpu.com^
 ||kzhjpnv.cn^
+||kzjkexn.cn^
 ||kzjqraj.cn^
 ||kzngisyd.xyz^
 ||kzsfip3v.cfd^
@@ -36859,6 +36877,7 @@ zzzyk.com###Tinfo
 ||mwrf.net/images/mrf/
 ||mwzbp.iask.com.cn^
 ||mxdqfoo.cn^
+||mxevdii.cn^
 ||mxhbkj.cn^
 ||mxj.cx^
 ||mxlidx.ink^
@@ -41535,6 +41554,7 @@ zzzyk.com###Tinfo
 ||smartmail.cyou^
 ||smartmuchang.com^
 ||smartnews-ads.com^$third-party
+||smartnextusa.com^
 ||smartredirect.de^$third-party
 ||smartshare.tv/asset/*.min.js?*=*&
 ||smarttopchain.nl^
@@ -44971,6 +44991,7 @@ zzzyk.com###Tinfo
 ||wqnggnse.fun^
 ||wqprtyg.cn^
 ||wqshui.com^
+||wqweiog.xyz^
 ||wqyloitd.cn^
 ||wqzyxxrrep.com^
 ||wr.yiyouliao.com^
@@ -46605,6 +46626,7 @@ zzzyk.com###Tinfo
 ||zdkjr.xyz^
 ||zdktgps.cn^
 ||zdlnhv.xyz^
+||zdmbl.xyz^
 ||zdmybl.xyz^
 ||zdnet.com.cn/js/pv.js
 ||zdo-bdg.xyz^
