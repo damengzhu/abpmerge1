@@ -124,7 +124,6 @@
 ###breadCrumb + .t[style="margin-top:8px"]
 ###cat_intro_first_ad
 ###cat_intro_second_ad
-###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
@@ -1633,7 +1632,6 @@
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
-##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
 ##div#ad_id
 ##div#apage.apage > div > ul > li > a
 ##div#beijing.article_content.layui-clear > div.left > div > a
@@ -1712,12 +1710,9 @@
 ##div[onclick*="ky165.cn"]
 ##div[onclick*="ky55003.com"]
 ##div[onclick^="window.location.href"][onclick*=".bcebos."]
-##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[role="listitem"] > div > div > .bannerliststyle
 ##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style=" max-width:988px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
-##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display:none;"] + script + #container.container
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
@@ -3971,7 +3966,6 @@ bitauto.com##ins[type="ad_play"]
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 bitcoins4.me##.alert.alert-block
 bitvid.sx###aad
-bixia.org##dd[style*="bottom:"]
 biz.ifeng.com##.header
 biz.ifeng.com##.riodel
 biznetvigator.com#@##container_ad
@@ -4215,6 +4209,7 @@ cardu.com.tw##img[src*="/ad_images/"]
 careonline.com.tw##.wrapper > script + a[href][onclick]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 carousell.com#@#.fb-b
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
@@ -7051,8 +7046,8 @@ instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'; hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")]/preceding::source[@srcset][@media]/ancestor::picture'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-fp-eligible]) = 1 and count(.//div/span) = 2]]'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-sssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-ssssp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; hide-if-matches-xpath './/div[@data-spp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::li'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -7690,7 +7685,6 @@ juxia.com###fmt
 juxia.com##.game_img_list
 juxia.com##.index_bttg
 juxiangzuan.com,senao.com.tw#@#.ad-img
-jx.la##[onclick*="apk"]
 jx3pve.com##.m-banner-tool
 jxcn.cn,redianyule.com##.dsp_yxxf
 jxdbg.com##.indexmv
@@ -8892,8 +8886,18 @@ niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 nivod4.tv,nivod5.tv##.nav-ads
 nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.title, '')
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.jumpUrl, '')
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.mediaUrl, '')
+nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.title, '')
 nivod5.tv,nivod4.tv##.nav-ads
+nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
 nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
+nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
+nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
+nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
 nlc.gov.cn###lovexin12xx
 nmgk2.com,zzkdhb.com##li[style*="important"]
 nmgnews.com.cn###div_ad4
@@ -10630,6 +10634,7 @@ theextopia.com##.adsfoot2
 thegatewaypundit.com##a[href*="cloudfront.net"]
 thegatewaypundit.com##a[href="#"]
 thegatewaypundit.com#$#abort-on-property-read adtoniq; abort-on-property-write adtoniq; abort-on-property-write bomab; abort-on-property-write zacak; abort-on-property-write kozuq
+thegatewaypundit.com#$#hide-if-matches-xpath '//div[@class]/div[@class]//following-sibling::div[position() > 1]//main//div/text()[normalize-space()]/ancestor-or-self::div[@class and @id][1]'; abort-current-inline-script Math.random
 theguardian.com##.js-adblock-sticky
 theguardian.com##.site-message--adblock-message
 thenewslens.com##div[class^="help-tnl-"]
@@ -11447,7 +11452,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]>span>span>b; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Sponsrad" or .="Publicidad" or .="Sponsoreret" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ"]]/ancestor::div[@role="article"]'; race stop;
-www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(margin-left: -[3-4][0-9].*width: 10)|(margin-left: -[4-5][0-9].*width: 11)|(margin-left: -[5-6][0-9].*width: 12)|(margin-left: -[6-7][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(margin-right: -[3-4][0-9].*width: 10)|(margin-right: -[4-5][0-9].*width: 11)|(margin-right: -[5-6][0-9].*width: 12)|(margin-right: -[6-7][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="/ads/about/?"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href][target="_blank"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"]:last-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"][tabindex="0"] span:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span *>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3~div>div span>a[href^="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; race stop;
+www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href^="?__cft__"]:first-of-type *>svg' '/./' '/(margin-left: -[3-4][0-9].*width: 10)|(margin-left: -[4-5][0-9].*width: 11)|(margin-left: -[5-6][0-9].*width: 12)|(margin-left: -[6-7][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href^="?__cft__"]:first-of-type *>svg' '/./' '/(margin-right: -[3-4][0-9].*width: 10)|(margin-right: -[4-5][0-9].*width: 11)|(margin-right: -[5-6][0-9].*width: 12)|(margin-right: -[6-7][0-9].*width: 13)/; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(margin-left: -[3-4][0-9].*width: 10)|(margin-left: -[4-5][0-9].*width: 11)|(margin-left: -[5-6][0-9].*width: 12)|(margin-left: -[6-7][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) span[id='ssrb_feed_start']~*>h3+div>div' 'span[id='ssrb_feed_start']~*>h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(margin-right: -[3-4][0-9].*width: 10)|(margin-right: -[4-5][0-9].*width: 11)|(margin-right: -[5-6][0-9].*width: 12)|(margin-right: -[6-7][0-9].*width: 13)/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="/ads/about/?"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href][target="_blank"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"]:last-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href^="#"][tabindex="0"] span:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) div[class]~* h3+div>div' 'div[class]~* h3+div>div span *>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; hide-if-has-and-matches-style * 'html:not([lang="pl"]):not([lang="it"]) span[id="ssrb_feed_start"]~* h3~div>div' 'span[id="ssrb_feed_start"]~* h3~div>div span>a[href^="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'; race stop;
 www.freehao123.com##A[href*="/go/"]
 www.ghxi.com##DIV.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
