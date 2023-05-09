@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-09 08:10:36
-! Total count: 32776
+! Version: 2023-05-09 16:10:19
+! Total count: 32777
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9011,7 +9011,6 @@ chengdu.cn##.pop_box
 chengdu.cn,oeeee.com,ofweek.com##div[class^="ad-"]
 cheshi.com##.ad_980105
 cheshi.com##div[id^="ad_pos_"]
-chewy.com#@#[class^="kib-"]:-abp-has(.kib-product-sponsor)
 chexun.com##.ad1100
 chexun.com##.ad794
 chexun.com##.attr-outside-ad
@@ -9636,7 +9635,7 @@ ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 ddrk.me##a[onclick^="ClickobayST();"]
 ddxsku.com##.adhtml
-ddys.*##+js(set-constant, Object.prototype.cnobpreroll_, true)
+ddys.*##+js(set-constant, Object.prototype.canobpreroll_, true)
 de.adklick.net###w_ad.no_ad
 de.as.pptv.com
 dealmoon.com,weibo.com##.pic_ad
@@ -21476,6 +21475,7 @@ zzzyk.com###Tinfo
 ||dgtauto.com^
 ||dgxlm.xyz^
 ||dharkyu.cn^
+||dhaxhsa325.com^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhl.135320.com^
 ||dhl4.xyz^
@@ -27351,6 +27351,7 @@ zzzyk.com###Tinfo
 ||p1.zhongyoo.com^
 ||p23jac.top^
 ||p26.gejulm*.com^
+||p2oh1.xyz^
 ||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
