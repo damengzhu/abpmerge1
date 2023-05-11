@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-10 08:10:28
-! Total count: 32785
+! Version: 2023-05-11 08:10:28
+! Total count: 32807
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -519,6 +519,7 @@
 ##.adlist
 ##.adlistcss
 ##.adpc > .module
+##.adpc > .promote-link
 ##.ads
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -2077,8 +2078,10 @@ $websocket,domain=5nj.com|cechi8.com
 .swf?clicktag=
 .test15./
 .top/*q=*form=*&*url=http*$third-party
+.top/?token=$third-party
 .top/ad-
 .top/ads/
+.top/gluinfo.php?s=$third-party
 .top/qby_
 .top/upload/ad.js
 .tor*/js/jquery.bpopup.
@@ -2410,6 +2413,7 @@ $websocket,domain=5nj.com|cechi8.com
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 /app/pcBanner/getBannerConfig/v2
 /app_ad/slade.js
+/appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /apsti7.*.js^$script,domain=txxx.com
 /area=*/posid=*$subdocument,xmlhttprequest,script,domain=iprima.cz
@@ -8864,7 +8868,7 @@ ca168.com##.admarket
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 cableabc.com##a[href*="/img1/"]
 cad.youku.com
-cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#abort-on-property-read ADMStorageFileCDN
+cafef.vn,gamek.vn,genk.vn,kenh14.vn#$#override-on-property-read ADMStorageFileCDN noopFunc
 caibaojian.com##.aliyun-inner
 caibaojian.com##a[data-href*="aliyun"]
 caibaojian.com##a[onclick*="aliyun"]
@@ -11760,10 +11764,11 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class]'
-instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'; hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")]/preceding::source[@srcset][@media]/ancestor::picture'
-instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligible]) = 1 and count(.//div/span) = 2]]'
-instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::div[@class][1]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
+instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-fp-eligible]) = 1 and count(.//div/span) = 2]]'
+instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -12756,7 +12761,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;abort-on-property-read setTimeout
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-on-property-read setTimeout noopFunc
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
 linovelib.com##+js(abort-current-script, document.createElement, b.onerror)
@@ -13900,9 +13905,10 @@ pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbaby.com.cn###jpopWinBottom
 pcbeta.com##+js(abort-on-stack-trace, document.createElement, make_rand_div)
-pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
+pcbeta.com#?#:matches-path(/^((?!forum.php).)*$/)#toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:has(div[style="display:none"])
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
+pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcccp.cn##DIV[id^="xydl"]
 pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
@@ -14541,6 +14547,7 @@ rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
 ria.ru##.antiblock
 riaway.com##.info_message_container
+right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rightwingnews.com##.z-ad-inline
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
@@ -16195,7 +16202,7 @@ www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock; abort-on-prop
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
-www.facebook.com,web.facebook.com##span a[aria-labelledby][role="link"][target="_blank"][tabindex="0"]
+www.facebook.com,web.facebook.com##span a[aria-label][aria-labelledby][role="link"][target="_blank"][tabindex="0"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;
@@ -17515,6 +17522,7 @@ zzzyk.com###Tinfo
 ||321mh.com/v1/getadvertise?
 ||321tui.com^$third-party
 ||3269x.com^
+||32fi.com^
 ||32xp.com/upimg/
 ||331qka.cn^
 ||3324.cn^$third-party
@@ -19805,6 +19813,7 @@ zzzyk.com###Tinfo
 ||bcfeat2.com^
 ||bcglkfu.cn^
 ||bchina-1.xsfaya.com^
+||bcidnfers.live^
 ||bcivqxd.cn^
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
@@ -20637,6 +20646,7 @@ zzzyk.com###Tinfo
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
 ||chenyt.club^
+||chenyuhuan.icu^
 ||chenyuzhou1.cn^
 ||chenze1.cn^
 ||cheon2buy.xyz^
@@ -21143,6 +21153,7 @@ zzzyk.com###Tinfo
 ||cvshknd.cn^
 ||cw9twua9.shop^
 ||cw9twuas.xyz^
+||cwandlf.top^
 ||cwc494e.cn^
 ||cwmlm.com^$third-party
 ||cwobgp.cn^
@@ -21430,6 +21441,7 @@ zzzyk.com###Tinfo
 ||deude.ltd^
 ||develenv.com^$third-party
 ||device.fishmobi.com^
+||devofei.xyz^
 ||dewalt-sales.com^
 ||dewapa.top^
 ||dexinyi.cn^
@@ -23163,6 +23175,7 @@ zzzyk.com###Tinfo
 ||guitarchina.com/1/*.gif
 ||guixie.info^
 ||gujiadayuan.top^
+||gujkj.cn^
 ||guli21.com/PNEW/
 ||guli21.com/js/ggdm
 ||gumgo.cn^$third-party
@@ -23201,6 +23214,7 @@ zzzyk.com###Tinfo
 ||gwzqbnh.cn^
 ||gx2f.top^
 ||gx4g.top^
+||gx521.xyz^
 ||gxbnp.cn^
 ||gxemtes.xyz^
 ||gxhzv.cn^
@@ -25967,6 +25981,7 @@ zzzyk.com###Tinfo
 ||luciochen.cn^
 ||luckydino.ren^
 ||luckyorange.com^$third-party
+||ludie.xyz^
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
 ||lunt.cx^
@@ -26950,6 +26965,7 @@ zzzyk.com###Tinfo
 ||nnm-club.ws/forum/docs/requests.js$script
 ||nnocsin.cn^
 ||no1.168abc.net/upload/
+||nogff.top^
 ||noiea.xyz^
 ||nonabh.xyz^
 ||nongjih.cn^
@@ -28424,11 +28440,13 @@ zzzyk.com###Tinfo
 ||rhlxm.top^
 ||rhtc.quanminyouxi.cn^
 ||rhxshop.com^
+||rhxwnd.xyz^
 ||riaway.com/statics/idea.jpg
 ||ribffmg.cn^
 ||richh.cn^
 ||richshredinger.com^
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
@@ -30853,6 +30871,7 @@ zzzyk.com###Tinfo
 ||weipapa.top^
 ||weiqu.cyou^
 ||weixin.qq.huigun.top^
+||weixinnft.com^
 ||weixisiwang.com^
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
@@ -31592,6 +31611,7 @@ zzzyk.com###Tinfo
 ||xniexnz.cn^
 ||xnimg.cn^*/liveinc/rightlive.js
 ||xnjvn1.com^
+||xnmqqq.com^
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xnrcnz.xyz^
@@ -32381,6 +32401,8 @@ zzzyk.com###Tinfo
 ||zdyuoae.xyz^
 ||zdznsqb.com^
 ||ze5.com^$third-party
+||zebjlt.buzz^
+||zebjlt.xyz^
 ||zedo.com^$third-party
 ||zefmsbu.cn^
 ||zeipw.xyz^
