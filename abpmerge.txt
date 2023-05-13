@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-13 08:09:37
-! Total count: 32846
+! Version: 2023-05-13 16:09:14
+! Total count: 32854
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2132,6 +2132,7 @@ $websocket,domain=5nj.com|cechi8.com
 .zone/ads/
 /*/*.add.*.add
 /*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
+/*_*_aubi.js$third-party
 /*gek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
 //*.emgrt.com^$third-party
 //m.manhua123.net/js/com2.js
@@ -12475,6 +12476,7 @@ kdnet.net##a[href*=".tmall.com/?spm="] > img
 kdslife.com###ad_swip
 kdslife.com###tao
 kdslife.com###youhui
+kdslife.com##a[href*="kds.2144.cn"]
 kdslife.com,pchome.net##.weixin
 ke.qq.com##.bottom-bar
 keepfiles.fr###shadow
@@ -13218,9 +13220,10 @@ mo.fish##.list-item-content-ad
 mobanwang.com##.box960x90
 mobanwang.com##.g960
 mobanwang.com##.teagg
-mobi*.*.cam/*_*$third-party
-mobi*.*.cyou/*_*$third-party
-mobi*.*.xyz/*_*$third-party
+mobi*.*.cam/*_$third-party
+mobi*.*.cyou/*_$third-party
+mobi*.*.top/*_$third-party
+mobi*.*.xyz/*_$third-party
 mobile.baidu.com##.p_fixed_lb
 mobile.baidu.com##SECTION.detail-banner.banner-ck
 mobile01.com###_popIn_recommend_side
@@ -19718,6 +19721,7 @@ zzzyk.com###Tinfo
 ||baiduada.babihu.com^
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
+||baidudbvjksbvs.com^
 ||baidufkjnvbdsn.com^
 ||baidujavascript.com^
 ||baidujs.cnys.com^
@@ -22705,6 +22709,7 @@ zzzyk.com###Tinfo
 ||g2qb.top^
 ||g3f3.com/love/
 ||g3user.com^$third-party
+||g77ds2.xyz^
 ||g8ld.fun^
 ||g9o.cn^
 ||ga1.3dmgame.com^
@@ -24687,6 +24692,7 @@ zzzyk.com###Tinfo
 ||jhlxfw.cn^
 ||jhrtgt.site^
 ||jhuvybt.cn^
+||jhxcld.xyz^
 ||jia-huan.cn^
 ||jia.com/js/common/article_home_adv.js
 ||jia.com/js/common/jia-common.js
@@ -25130,6 +25136,7 @@ zzzyk.com###Tinfo
 ||k0lksy.xyz^
 ||k1.dancihu.com^
 ||k1.wanwenwan.cn^
+||k1.wendahu.com^
 ||k16e9b.com^
 ||k1815.com^
 ||k2.dancihu.com^
@@ -30756,6 +30763,7 @@ zzzyk.com###Tinfo
 ||w51t.com^$subdocument
 ||w80n.fun^
 ||w94.1qlgi.top^
+||w9f1r.top^
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wadqfaj.cn^
