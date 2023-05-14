@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-13 16:09:14
-! Total count: 32854
+! Version: 2023-05-14 08:09:18
+! Total count: 32870
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -121,6 +121,7 @@
 ###bottomAd
 ###bottomApp
 ###bottomNavad
+###bottom_ads.hl_bottom_ads
 ###bottom_qr_code
 ###bottomad
 ###bottombanner
@@ -989,6 +990,7 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='jialu6699h.vip']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
 ##A[href='/?'][target='_blank']
@@ -1035,6 +1037,7 @@
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.ad_js
+##DIV.adj
 ##DIV.advertisingConfiguration
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
@@ -1877,6 +1880,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/bid?url=*$third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
+.cn/o.js$third-party
 .cn/r.gif?
 .cn/s.gif?
 .cn/sc/*?n=$script,third-party
@@ -8469,6 +8473,7 @@ baike.com###ad-xnsc
 baike.com###newsfix-on
 baike.com##.ad_xuanban
 baike.so.com##section#business-flow.business-flow
+baikequ.com###bottommob
 baiten.cn##.JS_advertisement
 baiten.cn##.news2ad
 baixing.com###port-info
@@ -18636,6 +18641,7 @@ zzzyk.com###Tinfo
 ||aabook.cc/images/apps/
 ||aac.kegood.com^
 ||aafuck.xyz^$third-party
+||aagomsi.xyz^
 ||aamv.vip^
 ||aaread.space/images/*0.gif
 ||aassy4.com/dm/
@@ -18787,6 +18793,7 @@ zzzyk.com###Tinfo
 ||additionsmiracle.com^
 ||addthis.com/live/
 ||addtoany.com/menu/transparent.gif
+||adelaideceliacd.com^
 ||adelazanna.com^
 ||adf.dahe.cn^
 ||adf.ly/js/$third-party,domain=~j.gs|~q.gs
@@ -19081,6 +19088,7 @@ zzzyk.com###Tinfo
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||aksfrxd.cn^
 ||akuziti.com/tu/*.js
+||akyei.xyz^
 ||al.newxue.com^
 ||albertabelen.com^
 ||albyprd.cn^
@@ -22239,6 +22247,7 @@ zzzyk.com###Tinfo
 ||etxggi.cn^
 ||etxjbxs.top^$third-party
 ||eujxqgh.cn^
+||eulaliadoradl.com^
 ||euliglsp.space^
 ||eumnxwvp.ink^
 ||europacash.com^$third-party,script
@@ -23623,6 +23632,7 @@ zzzyk.com###Tinfo
 ||hktvmall.com/api/preroll/getList?
 ||hladalliance.com^
 ||hlalliances.com^
+||hldwdz.xyz^
 ||hlggimg.com^
 ||hlgglm.com^
 ||hlryy.top^
@@ -23706,6 +23716,7 @@ zzzyk.com###Tinfo
 ||hoopchina.com.cn/web/channel/nba/index/nbaposter/index.js
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
+||hoopchina.com.cn^*/ad-pc-sdk.
 ||hopefullyapricot.com^
 ||hornywood.tv/Webservices/jsParseLinks.aspx$script,third-party
 ||hornywood.tv/visitScript/$script,third-party
@@ -24059,6 +24070,7 @@ zzzyk.com###Tinfo
 ||iemwbu.cn^
 ||iepda.xyz^
 ||ifautzg.cn^
+||ifbqves.cn^
 ||ifc-edu.cn^$third-party
 ||ifdvlh.cn^
 ||ifeng.com/*&adids=
@@ -24932,6 +24944,7 @@ zzzyk.com###Tinfo
 ||jrnrpma.cn^
 ||jrtwi.xyz^
 ||jrysogsia.uno^
+||jrzaht.xyz^
 ||jrzj.com/images/bgright_ad.jpg
 ||jrzj.com/img_index/*adv
 ||jrzj.com/img_index/guanggao
@@ -27260,6 +27273,7 @@ zzzyk.com###Tinfo
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||ooeogk.xyz^
+||ooexkqj.cn^
 ||oohekxhvt.com^$script
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||ooqiu.com/ad_js/
@@ -29823,6 +29837,7 @@ zzzyk.com###Tinfo
 ||thztv.*/tool/
 ||tian-ting.ink^
 ||tian0.ltd^
+||tiancaiwei.wang^
 ||tiandesign.top^
 ||tianhuafund.cn^
 ||tianii.top^
@@ -30365,7 +30380,6 @@ zzzyk.com###Tinfo
 ||ulukaris.com^$third-party
 ||um29.com^$third-party
 ||um5xcgngmart.xyz^
-||umami.is^
 ||umbrellaomendear.com,^
 ||umcpebi.cn^
 ||umdc.aliapp.org^
@@ -30774,6 +30788,7 @@ zzzyk.com###Tinfo
 ||waikuai.vip^
 ||waipian*.com/statics/recommend/
 ||waituo.ren^
+||waixinren.ren^
 ||waizongguan.net^
 ||wake-up-neo.com/bnet/
 ||waking.pro^
@@ -31674,6 +31689,7 @@ zzzyk.com###Tinfo
 ||xpdjsd.cn^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpqy.xyz^
+||xpynqq.com^
 ||xpysozb.cn^
 ||xqcjfcb.cn^
 ||xqoekp.cn^
