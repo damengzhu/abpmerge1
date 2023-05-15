@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-14 16:09:06
-! Total count: 32874
+! Version: 2023-05-15 08:10:48
+! Total count: 32883
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -7819,6 +7819,7 @@ acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 acgdoge.net,acglala.me,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acggd.com##a[href*=".apk"]
 acgking.com,dbtmn.com##.asst
+acglala.me##DIV.topm,div.donghua_info > DIV[style='width:100%;'],div.donghua_info > a
 acglala.me##a[href*=".h-ero.games"]
 acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
@@ -8474,7 +8475,7 @@ baike.com###ad-xnsc
 baike.com###newsfix-on
 baike.com##.ad_xuanban
 baike.so.com##section#business-flow.business-flow
-baikequ.com###bottommob
+baikequ.com,coolhii.com,lkyw.net###bottommob
 baiten.cn##.JS_advertisement
 baiten.cn##.news2ad
 baixing.com###port-info
@@ -8922,7 +8923,7 @@ cardu.com.tw##img[src*="/ad_images/"]
 careonline.com.tw##.wrapper > script + a[href][onclick]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 carousell.com#@#.fb-b
-carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
@@ -9421,7 +9422,6 @@ cool3c.com##div[id^="gpt-c3c_all_side_"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 coolaler.com###hd
 coolapk.com##[style*="position: fixed;bottom: 0"]
-coolhii.com,lkyw.net###bottommob
 coolinet.com##.section-banner
 coolpc.com.tw##TD[onclick="cancelBubble()"]
 coolsaid.com##iframe[src="http://coolsaid.com/gmifr_lei.html"]
@@ -11604,7 +11604,7 @@ ifeng.com##.yc_con_r
 ifeng.com##.yiyuan
 ifeng.com##.yy_right_bottom
 ifeng.com##DIV[class^="enquiry_bottom"]
-ifeng.com##[href^='https://mall.ifeng.com'],IMG[src^='https://x0.ifengimg.com/']
+ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
 ifeng.com##a[class^="bookrack-"]
 ifeng.com##a[href*=".app"]
 ifeng.com##a[href^="http://ids.deliver.ifeng.com/"]
@@ -20225,6 +20225,7 @@ zzzyk.com###Tinfo
 ||boyloves.fun^*/img/20*.gif
 ||bozhihua.com^$third-party
 ||bozhou666.com^
+||bozumi.xyz^
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bpbpxv.xyz^
@@ -23904,6 +23905,7 @@ zzzyk.com###Tinfo
 ||huyccuy.cn^
 ||hv740pyh.cn^
 ||hvddf44.top^
+||hvfubp.xyz^
 ||hvhudp.xyz^
 ||hwanjia.com^
 ||hwhefj.xyz^
@@ -24536,6 +24538,7 @@ zzzyk.com###Tinfo
 ||ivy.pconline.com.cn^
 ||ivzfpwm.cn^
 ||iwanad.baidu.com^
+||iwandlo.top^
 ||iwansf.com^
 ||iweiweb.com^
 ||iwjgwis.cn^
@@ -25549,6 +25552,7 @@ zzzyk.com###Tinfo
 ||kxmusic.cn/tc/js/script.js
 ||kxmusic.top/tc/js/script.js
 ||kxp7.xyz^
+||kybzkiw.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
 ||kyliane.fr/pub.php
@@ -26648,6 +26652,7 @@ zzzyk.com###Tinfo
 ||msn.ynet.com/c/tj_comm.js
 ||msnignsx.xyz^
 ||msnoownmx.fun^
+||msqdqq.com^
 ||mssdhde.cn^
 ||mssdk-bu.bytedance.com^
 ||mssjxgfk.gos.autoplus.fr^$script
@@ -28390,6 +28395,7 @@ zzzyk.com###Tinfo
 ||rayss.host^
 ||razasot.cn^
 ||rbazhaheiz.top^
+||rbbbdj.xyz^
 ||rbgfxxt.cn^
 ||rbioclv.cn^
 ||rbrv9.cn^
@@ -29759,6 +29765,7 @@ zzzyk.com###Tinfo
 ||techspecndt.com^
 ||teddync.net^
 ||tehgfn.xyz^
+||tejiachong.co^
 ||tekproxy.com/$popup,domain=turkdown.com
 ||templates_pc/default/scripts/chapter_bottom.js
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
@@ -31581,6 +31588,7 @@ zzzyk.com###Tinfo
 ||xinzhanggui.wang^
 ||xiod.xyz^
 ||xiongdong.com^
+||xiongxiaoze12.cn^
 ||xiongyin.com^$third-party
 ||xiongzhangad.com^
 ||xiqqq.com^
@@ -32263,6 +32271,7 @@ zzzyk.com###Tinfo
 ||ywg.jobui.com^
 ||ywinterspace.ltd^
 ||ywqpgy.com^
+||ywsiqlg.cn^
 ||ywsywh.cn^
 ||ywtd.xyz^
 ||ywywjrlbsuv.com^$script
