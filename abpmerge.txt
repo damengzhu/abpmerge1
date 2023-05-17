@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-17 08:11:00
-! Total count: 32932
+! Version: 2023-05-17 16:10:07
+! Total count: 32942
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -11782,9 +11782,9 @@ instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-fp-eligible]) = 1 and count(.//div/span) = 2]]'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligible]) = 1 and count(.//div/span) = 2]]'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -14648,6 +14648,7 @@ ruten.com.tw##.side-advertise
 ruten.com.tw#@#.adslot
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 rutor.org#$#abort-on-property-read Light.Popup
+ruyo.net##.textwidget a > img
 ruyo.net##.widget_custom_html
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
@@ -14768,6 +14769,9 @@ sgcn.com##.bigaimg
 sgcn.com##.oyad2.cl
 sgcn.com,wangjing.cn##.fad
 shaiba.kz#$#abort-current-inline-script $ 1xbet
+shangyexinzhi.com##.advert
+shangyexinzhi.com##.hang-baidu_adv
+shangyexinzhi.com##.img2text-adv_wrapper
 shanson320.ru#$#abort-current-inline-script document.createElement atob
 shanxivideo.com##.ad_panelAR
 shanxivideo.com##.ads-container
@@ -17909,6 +17913,7 @@ zzzyk.com###Tinfo
 ||5442tu.com/style/ads5442.js
 ||54admin.net/images/ad_
 ||54askjdklm.xyz^
+||54ha.cn^
 ||54kefu.net^$third-party
 ||54new.com*/da/
 ||551vip.xyz^
@@ -20576,6 +20581,7 @@ zzzyk.com###Tinfo
 ||cdn.q.gs/js/link-converter.js$script,third-party
 ||cdn.shdsp.net/ad
 ||cdn.shorte.st/link-converter.min.js$script,third-party
+||cdn.sinam.top^
 ||cdn.tvdez.com^$third-party
 ||cdn.upthinking.cn^$third-party
 ||cdn.user-api.com^$domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -21443,6 +21449,7 @@ zzzyk.com###Tinfo
 ||dchxxvk.cn^
 ||dcmh.xyz^
 ||dcnjc4.com^
+||dcnytdpke.xyz^
 ||dcqs4.com^
 ||dcs.conac.cn/js/
 ||dcvbnzss.xyz^
@@ -26214,6 +26221,7 @@ zzzyk.com###Tinfo
 ||m1955.com/template/qq/images/playad/
 ||m1saka.love^
 ||m2.lelemh.com^
+||m5.66077.cn^
 ||m6ku1.cn^
 ||m7dmtv.top^
 ||ma.baiducdn2.com^*/main.js?t=
@@ -31076,6 +31084,7 @@ zzzyk.com###Tinfo
 ||wjlzs.cn^
 ||wjr9.cn^
 ||wjslw.mobi^
+||wjtij.top^
 ||wjylfla.cn^
 ||wk4y.cn^
 ||wkbslub.cn^
@@ -31760,6 +31769,7 @@ zzzyk.com###Tinfo
 ||xs.dmzj.com^
 ||xs.houyi.baofeng.net^
 ||xs8.cn/qreport?
+||xsbdj6.com^
 ||xsdizch.cn^
 ||xsjh001.xyz^
 ||xsjh002.xyz^
