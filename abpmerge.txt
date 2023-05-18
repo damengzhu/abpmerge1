@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-18 08:10:22
-! Total count: 32959
+! Version: 2023-05-18 16:10:03
+! Total count: 32965
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1040,6 +1040,7 @@
 ##DIV#video-player-ads-wrap
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
+##DIV.ad-content
 ##DIV.ad_js
 ##DIV.adj
 ##DIV.advertisingConfiguration
@@ -3509,6 +3510,7 @@ $websocket,domain=5nj.com|cechi8.com
 123moviesgo.club#$#abort-current-inline-script Math /break|case/
 123moviesgo.club#$#abort-on-property-write atAsyncContainers
 123movieshub.tc,123freemovies.net,123movies.ai,123movies.bike,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,animepahe.com,bigtitsxxxfree.com,configspc.com,dood.la,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.ws,doodstream.co,doodstream.com,fastream.to,govid.me,hclips.com,hd-analporn.com,hotmovs.com,hxfile.co,iframe-secured.com,komikcast.com,mavavid.com,mixdrop.co,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,onetouchtv.me,pandamovies.pw,perfectgirls.net,porn.com,porndollz.com,pornhat.com,prmovies.bz,realgfporn.com,rlslog.net,rule34hentai.net,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamta.pe,streamtape.cc,streamtape.com,streamtape.net,streamtape.to,streamtape.xyz,streamtapeadblock.art,strtape.cloud,strtape.site,strtape.tech,strtapeadblock.me,vidstreaming.io,vidstreamz.online,w-123movies.com,xnxxvideo.pro,xvideosxporn.com#$#abort-on-property-read open
+123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 123putlocker.club#$#abort-current-inline-script _0xbc13
 126.com,163.com##.gWel-promt
 131458.com###header_gg
@@ -3619,6 +3621,8 @@ $websocket,domain=5nj.com|cechi8.com
 1688.com###cpm-ad-2
 1688.com##.sm-offer-item[p4p*=".1688."]
 1688.com.au###pop-up
+1688.com.au###side-ads-wrapper
+1688.com.au###top-ad-layout-new
 1688.com.au##.ad_300_p
 16888.com##.cardataclass
 168gamer.com,168gamer.net##.b_tad
@@ -11787,9 +11791,9 @@ instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-fp-eligible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
 instacart.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligible]) = 1 and count(.//div/span) = 2]]'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-fp-eligible]) = 1 and count(.//div/span) = 2]]'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -16462,7 +16466,7 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
-xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,hiphimmoi.net,quangcaoyenbai.com,fullcrackpc.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,hiphimmoi.net,quangcaoyenbai.com,fullcrackpc.com,khoaiphim.com#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvna.com##.articleAD
 xvna.com##.rctad
@@ -18117,6 +18121,7 @@ zzzyk.com###Tinfo
 ||6fxo.icu^
 ||6g1a0138.cn^
 ||6gukaitu.xyz^
+||6h1cz.xyz^
 ||6ha03.icu^
 ||6hejing.cn^
 ||6likosy.com^$domain=pronpic.org
@@ -29548,7 +29553,6 @@ zzzyk.com###Tinfo
 ||static.zongheng.com^*/adClickStat.js
 ||static.zongheng.com^*/ad_click.js
 ||static.zongheng.com^*/logger.min.js
-||statics.123pan.com/static-by-custom/web-banner
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
 ||statics.woozooo.com^
 ||statics88.vip^
@@ -32535,6 +32539,7 @@ zzzyk.com###Tinfo
 ||zdreo.cyou^
 ||zdrvtmj.cn^
 ||zdryg.com^
+||zdvfpa.xyz^
 ||zdw.w8.com.cn/p.ht?
 ||zdx1.site^
 ||zdx10.site^
@@ -32550,6 +32555,7 @@ zzzyk.com###Tinfo
 ||zdyuoae.xyz^
 ||zdznsqb.com^
 ||ze5.com^$third-party
+||zeatse.buzz^
 ||zebjlt.buzz^
 ||zebjlt.xyz^
 ||zedo.com^$third-party
