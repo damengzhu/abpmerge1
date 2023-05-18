@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-17 16:10:07
-! Total count: 32942
+! Version: 2023-05-18 08:10:22
+! Total count: 32959
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -975,6 +975,7 @@
 ##.wrapper > a[target="_blank"] > .ads
 ##.wumii-bottom-popup
 ##.wumii-widget-ad
+##.wwads
 ##.wwads-cn
 ##.wzad
 ##.xstui-content__acc
@@ -1125,6 +1126,7 @@
 ##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
 ##[href*="/entry/register/?i_code="]
 ##[href*='.lookxmh3']
+##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='sohu.com/hy-op']
 ##[href="/ad/007.html"]
@@ -7962,6 +7964,7 @@ alientube.co###adblockContainer
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
+alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
 aliyun.com##.aliyun-delivery-view-container
 aliyun.com##.yq-ads-blog
@@ -10149,6 +10152,8 @@ elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
+element-plus.gitee.io,element-plus.org##.toc-content > .m-t-16px
+element-plus.gitee.io,element-plus.org##aside > .page-content
 element-plus.org##.sponsor-container
 element-plus.org##.sponsors
 embeducaster.com###impo_overlay
@@ -17626,6 +17631,7 @@ zzzyk.com###Tinfo
 ||360640.com^
 ||360buyimg.com$domain=73thz.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
+||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jzt/temp/js/
 ||360buyimg.com^$domain=1024pz.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
 ||360doc.com/js/index7/mask_index_yc.js
@@ -18014,6 +18020,7 @@ zzzyk.com###Tinfo
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
+||5wl8x.xyz^
 ||5xdmw.com/tb.jpg
 ||5xle.xyz^
 ||5xur.top^
@@ -20152,6 +20159,7 @@ zzzyk.com###Tinfo
 ||bjqwllp.cn^
 ||bjs.faxingzhan.com^
 ||bjsxt.com/statics/js/bjsxt/js.js
+||bjtel.cn^
 ||bjwh8.xyz^
 ||bjwj2y.com/JS/LsJS.aspx
 ||bjws.xyz^
@@ -20211,6 +20219,7 @@ zzzyk.com###Tinfo
 ||bobo.com/special/mod-follow/
 ||bobo.com^$third-party
 ||boce.com/statics/img/img27b.png
+||bockd.xyz^
 ||bocvb.xyz^
 ||bodu365.co/t/
 ||bofnhn.com^
@@ -22441,6 +22450,7 @@ zzzyk.com###Tinfo
 ||fdtrjz.xyz^
 ||fdveqpc.cn^
 ||fdxpfeb.cn^
+||fdytdc.xyz^
 ||fedlugk.cn^
 ||feed.baidu.com^
 ||feedou.com/nzq/style/pc/js/popbig.js
@@ -23583,6 +23593,7 @@ zzzyk.com###Tinfo
 ||hfawdgz.cn^
 ||hfctx.cn^
 ||hffxc.com^
+||hfhytx.xyz^
 ||hfjsbf.xyz^
 ||hflssy.com^
 ||hflwgg.xyz^
@@ -23740,6 +23751,7 @@ zzzyk.com###Tinfo
 ||hongshikai.com^
 ||hongyingbbs.com/jj/
 ||honqdyg.cn^
+||hontont.com^
 ||hoopchina.com.cn/common/lazyLoadAd.js
 ||hoopchina.com.cn/gamecenter/side-stg.js
 ||hoopchina.com.cn/static/www/*340-230.
@@ -23907,6 +23919,7 @@ zzzyk.com###Tinfo
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||huluxia.com^$third-party
+||humgrww.xyz^
 ||hunlimd.cn^
 ||huo720.com/back/ad_
 ||huobaowang.com/meeting/js/hbchat.
@@ -25486,6 +25499,7 @@ zzzyk.com###Tinfo
 ||krr894.top^
 ||krurkex.com^
 ||krw.yrehdfer.com^
+||kryjqq.com^
 ||krysogsid.uno^
 ||ks2g.top^
 ||ks66666661.com^
@@ -26075,6 +26089,7 @@ zzzyk.com###Tinfo
 ||luoyangjinmeii.com^
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
 ||lutouwang.net/static/js/mv_ad
+||luuss.cn^
 ||luyongkang.top^$third-party
 ||luyouxi.cn^
 ||luyuheng.love^
@@ -26458,7 +26473,6 @@ zzzyk.com###Tinfo
 ||mgowec.xyz^
 ||mgsue.cn^
 ||mgtcw.top^
-||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||mgwcn.com^
 ||mgzjin.cn^$third-party
 ||mgzs.cdn.bcebos.com^
@@ -27962,6 +27976,7 @@ zzzyk.com###Tinfo
 ||q7tl.icu^
 ||q88j2.top^
 ||qanduan.com^
+||qange.com^
 ||qaolyke.cn^
 ||qaops.jgwsmqx.com^$third-party
 ||qaou.top^
@@ -29190,6 +29205,7 @@ zzzyk.com###Tinfo
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
 ||sincetrade.com^
 ||singlove.com/qq/qq.js
+||singmwn51g.com^
 ||sinimb.top^
 ||sinolub.com/index.php?m=poster&
 ||siqwfy.cn^
@@ -31872,6 +31888,7 @@ zzzyk.com###Tinfo
 ||xyyejhm.cn^
 ||xyzyqq.com^
 ||xzji.com/data/block_js/softShow_
+||xzlurd.xyz^
 ||xznrtl.xyz^
 ||xzvfd.xyz^
 ||xzwk.hk^
