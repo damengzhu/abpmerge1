@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-21 08:09:37
-! Total count: 33028
+! Version: 2023-05-21 16:09:19
+! Total count: 33034
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1284,6 +1284,7 @@
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
+##a[href*=".com?s="]
 ##a[href*=".covasco.com/"]
 ##a[href*=".cvezsacxz.com/"]
 ##a[href*=".dbrows.com/"]
@@ -1663,6 +1664,7 @@
 ##div#xinxi
 ##div.ad-area > [href]
 ##div.ad-frame-container
+##div.appad
 ##div.bf_qy DIV.copy_div_btn
 ##div.callApp_fl_btn.an
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
@@ -2042,6 +2044,7 @@ $websocket,domain=5nj.com|cechi8.com
 .life/ads/
 .live/hm.js$third-party
 .live/o.js
+.live/o.js$script,third-party
 .live/r/*/*_r=*
 .live/ty/*-*-*
 .live:*/o.js
@@ -17697,6 +17700,7 @@ zzzyk.com###Tinfo
 ||3dmgame.com/tools/gamead?
 ||3dwwwgame.com^$third-party
 ||3ek9.cn^
+||3fa20230512.live^
 ||3fddkj.com^
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
@@ -19539,6 +19543,7 @@ zzzyk.com###Tinfo
 ||auction.unityads.unity3d.com^$third-party
 ||audid-api.taobao.com^
 ||audiofanzine.com/sorrier^$script
+||aup34.xyz^
 ||autdjng.cn^
 ||auto-online.com.tw/vendor_data/
 ||autofan.com.cn/UploadFiles/images/bAdImg.jpg
@@ -24476,6 +24481,7 @@ zzzyk.com###Tinfo
 ||ipeen.com.tw/photo/ad/
 ||ipip.net/loveapp/ipip/tools/theme/partner/
 ||ipkruu.xyz^
+||iplm.cc^
 ||ipm.atm.youku.com^
 ||iporn.world/attachment/ad/
 ||ipqc5ejfe.icu^
