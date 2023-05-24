@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-24 08:10:42
-! Total count: 33089
+! Version: 2023-05-24 16:10:27
+! Total count: 33101
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1661,6 +1661,7 @@
 ##div#gmright
 ##div#h2_player_prevideo > A[href][target='_blank']
 ##div#hengfu_wap_vod_xia > a
+##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
@@ -4993,6 +4994,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ad4.on.cc/web/www/delivery/fl.js
 @@||ad4.on.cc/web/www/delivery/spc.php
 @@||ad4.on.cc/web/www/delivery/spcjs.php
+@@||adamantsnail.com^$script,xmlhttprequest
 @@||adapi.zcool.com.cn/api/adstrategy/realtime/get_ad_info?location_id=$domain=zcool.com.cn
 @@||adblockanalytics.com/ads.js$script
 @@||adblockdetect.xyz^$script,domain=anitoonstv.com
@@ -6029,6 +6031,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
 @@||guaranteelamp.com^$script,xmlhttprequest
+@@||guardeddirection.com^$script,xmlhttprequest
 @@||guardedschool.com^$script,xmlhttprequest
 @@||guiltlessbasketball.com^$script,xmlhttprequest
 @@||guitargrandmother.com^$script,xmlhttprequest
@@ -6205,6 +6208,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||innocentwax.com^$script,xmlhttprequest
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
+@@||inquisitiveice.com^$script,xmlhttprequest
 @@||inquisitiveinvention.com^$script,xmlhttprequest
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||instrumentinsect.com^$script,xmlhttprequest
@@ -6967,6 +6971,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||readysnails.com^$script,xmlhttprequest
 @@||realizerecess.com^$script,xmlhttprequest
 @@||realizevacation.com^$script,xmlhttprequest
+@@||rebelhen.com^$script,xmlhttprequest
 @@||rebelsubway.com^$script,xmlhttprequest
 @@||receive-sms-online.info/advert*.js$script
 @@||receptivebranch.com^$script,xmlhttprequest
@@ -7093,6 +7098,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||seatsmoke.com^$script,xmlhttprequest
 @@||secret-zone.net/abp/adblock_detector.js$script
 @@||secretivecub.com^$script,xmlhttprequest
+@@||secretivesheep.com^$script,xmlhttprequest
 @@||secretspiders.com^$script,xmlhttprequest
 @@||secretturtle.com^$script,xmlhttprequest
 @@||securenetsystems.net/*/scripts/adv.js$script,~third-party
@@ -14575,6 +14581,7 @@ redocn.com###yc_adv_1_2
 redocn.com##.big_vip_gg
 redocn.com##.small_vip_gg
 redtube.com##.add-blocker-msg
+redtube.com,tube8.com,tube8.es,tube8.fr,tube8.net##a[href*="advertising"]
 referencemega.com###hebdotop_t
 reflex.cz###gl-nat
 reflex.cz##img[title$=".cz"][src^="https://www.reflex.cz/"]
@@ -16480,6 +16487,7 @@ xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
 xuongphim18z.com,phimdinhcao.com,phimtopz.com,truyensieuhay.com,tvchill.org,hiphimmoi.net,quangcaoyenbai.com,fullcrackpc.com,khoaiphim.com#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
+xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
 xvna.com##.rctad
 xw.qq.com##.globalThemeTip
@@ -21292,6 +21300,7 @@ zzzyk.com###Tinfo
 ||cz5f.top^
 ||cz9k8b.top^
 ||czdffsa.top^
+||czexrhl.cn^
 ||czghjt.com^
 ||czgjhotel.com^
 ||czlongle.cn^
@@ -24701,6 +24710,7 @@ zzzyk.com###Tinfo
 ||j04r.top^
 ||j05.xyz^
 ||j1.piaobing.com^
+||j1p6w.xyz^
 ||j1ybkf.cn^
 ||j41.xyz^
 ||j45.xyz^
@@ -25849,6 +25859,7 @@ zzzyk.com###Tinfo
 ||lflmdm.com^
 ||lfsenmei.com^
 ||lganilgll.cyou^
+||lgecqrb.com^
 ||lgh2.fun^
 ||lgjxw.xyz^
 ||lgjygg.com^
@@ -29126,6 +29137,7 @@ zzzyk.com###Tinfo
 ||shenglixueshan.com^
 ||shengminsy.com^
 ||shengshipump.cn^
+||shenguangai.com/upload/img/1683711111.
 ||shenhl.top^
 ||shenlinlive.cn^
 ||shequdaohang.com^$third-party
