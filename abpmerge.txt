@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-24 16:10:27
-! Total count: 33101
+! Version: 2023-05-25 08:10:33
+! Total count: 33112
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1031,12 +1031,14 @@
 ##DIV#bannerCtrl.source_container.swiper-wrapper
 ##DIV#bfad
 ##DIV#bl_mobile_float
+##DIV#bottom-ads
 ##DIV#div1.div-relative[style='display:block;']
 ##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
 ##DIV#pos_nei_content
 ##DIV#recommend-float.player-recommend-float > a
 ##DIV#tads
+##DIV#top-ads
 ##DIV#video-player-ads-wrap
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
@@ -1057,6 +1059,7 @@
 ##DIV.index_adpic
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
+##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
@@ -4725,9 +4728,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
 @@/adview_*_ads_300x250.js$domain=yaociyuan.bid
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
-@@/adview_pic_$domain=itbaoku.cn
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -6887,7 +6889,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||propertypotato.com^$script,xmlhttprequest
 @@||proudprose.com^$script,xmlhttprequest
 @@||ps3-infos.fr/adsense/openads/ads/ads.js$script
-@@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
 @@||psychedelicchess.com^$script,xmlhttprequest
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||ptwxz.com/scripts/readindex/tongji.js
@@ -9180,6 +9181,7 @@ chuandong.com,instrument.com.cn##a[href*="/ad/"]
 chunyuyisheng.com###ad_modal
 chunyuyisheng.com##.ad-modal-left
 chunyuyisheng.com##.ui-grid + .fixed-layer
+chushoushijian.cn
 chuzuche8.com##body > h4 > font[color="red"][size="6"]
 chuzuche8.com#?##container > font[color] > font[color] > div[style]:has(> table[width] > tbody > tr > th > a[href][target="_blank"])
 chuzuche8.com#?#body > font:contains(function)
@@ -13525,9 +13527,6 @@ netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_head_banner_container
 netflav.com##.ads_video_overlay_mobile
 netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
-netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
-netflix.mom,netflixya.com,yanetflix.com##.rm-list.player-rm
-netflix.mom,netflixya.com,yanetflix.com##.tips-box,#note.popup
 netfly.tv##.module-tglist
 netfly.tv##.tg-container
 netviagens.com###nvAdForm
@@ -16690,6 +16689,7 @@ yzl333.com#?#.row > div.col-sm-6:has(> div.well > a[href^="https://jump.9118ads.
 yzpsb.net###fc_foot
 yzz.cn###video_ff
 z0r.de##.adb
+z4a.net
 zarabiajnaokazjach.pl#@##adsense
 zavporn.net##.opt
 zbporn.com#$#abort-on-property-read popns
@@ -18977,6 +18977,7 @@ zzzyk.com###Tinfo
 ||aefmbeq.cn^
 ||aeg32y.top^
 ||aeimmmj.cn^
+||aeletheacd.com^
 ||aengbalz.fun^
 ||af29.com/banner/
 ||af31f.site^
@@ -20248,6 +20249,7 @@ zzzyk.com###Tinfo
 ||bnlg.fun^
 ||bnqlgdj.cn^
 ||bnsdk.top^
+||bnz9.cn^
 ||boardx.huanqiu.com^
 ||bob4885.com^
 ||bob4915.com^
@@ -21568,6 +21570,7 @@ zzzyk.com###Tinfo
 ||dexuanyu.top^
 ||deya.ink^
 ||deyangs.com/img/
+||dezstd.xyz^
 ||df-long.cn^$third-party
 ||df5b.top^
 ||df888.eastday.com^
@@ -21719,6 +21722,7 @@ zzzyk.com###Tinfo
 ||dkxobcs.cn^
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 ||dl12349.net^
+||dl520.fun^
 ||dl66d.com^
 ||dlads.cn^
 ||dlads.cn^$third-party
@@ -24480,6 +24484,7 @@ zzzyk.com###Tinfo
 ||inhe.net/Uploadfiles/inhegg2016/
 ||inkuae.com^
 ||inlishui.com/index.php?m=poster&
+||inmcd.xyz^
 ||innlzrs.cn^
 ||inone517.com^
 ||inoreader.com/adv/$domain=inoreader.com
@@ -24971,6 +24976,7 @@ zzzyk.com###Tinfo
 ||jjjak.com^
 ||jjjcyjj.cn^
 ||jjjgame.com/images/ad11.jpg
+||jjnrqq.com^
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
@@ -26012,6 +26018,7 @@ zzzyk.com###Tinfo
 ||lknlkndasda.top^
 ||lknmnnr.xyz^
 ||lkpmprksau.com^
+||lkqyqwk.xyz^
 ||lksdj.com^
 ||lktmgvw.cn^
 ||lktxelg.cn^
@@ -26557,6 +26564,7 @@ zzzyk.com###Tinfo
 ||mg.32r.com^
 ||mg.glwxw.net^
 ||mg.listc.cn^$third-party
+||mg.nezqmud.com^
 ||mg.xhkvff.cn^
 ||mg.yunchong6.cn^
 ||mg.zgcqxjzny.cn^
@@ -27149,6 +27157,7 @@ zzzyk.com###Tinfo
 ||nkevca.cn^
 ||nkgutoa.cn^
 ||nkscdn.com^
+||nkvwvx.xyz^
 ||nlark.com^$domain=qfg34.com
 ||nlrpfpq.cn^
 ||nlsynmlc.fun^
@@ -27347,6 +27356,7 @@ zzzyk.com###Tinfo
 ||ogkfuw.xyz^
 ||ognlaigk.fun^
 ||ognujxj.cn^
+||ogtphoj.cn^
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
 ||ohmpyq.xyz^
@@ -28078,6 +28088,7 @@ zzzyk.com###Tinfo
 ||q.f05.xyz^
 ||q0ibic08.cn^
 ||q1.yyxwzx.com^
+||q1zcp.com^
 ||q2p.pub^
 ||q4ee.top^
 ||q7tl.icu^
@@ -28486,6 +28497,7 @@ zzzyk.com###Tinfo
 ||qutyan8848.com^
 ||quxiangkeji.cn^$third-party
 ||qvbwras.cn^
+||qvcyeknp.xyz^
 ||qvkjkc.xyz^
 ||qvpublish.com^
 ||qvxhgni.cn^
@@ -28882,6 +28894,7 @@ zzzyk.com###Tinfo
 ||s1wq.top^
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
+||s3nycv.xyz^
 ||s3sng.cn^
 ||s3t3d2y8.afcdn.net^
 ||s4ls9.top^
@@ -31308,7 +31321,6 @@ zzzyk.com###Tinfo
 ||wowips.com^
 ||wowreality.info^
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
-||wp.com/netflixya.com/upload/$image
 ||wp8d.xyz^
 ||wpa.b.qq.com/cgi/wpa.php?
 ||wpcihg.com^
@@ -32052,7 +32064,6 @@ zzzyk.com###Tinfo
 ||yalingba.com/ggtxjs/
 ||yan007.com/js/sss/ad.js
 ||yanbenji.cn^
-||yanetflix.com/upload/vod/$image
 ||yang17.xyz^
 ||yanghetp.com^
 ||yangjie.asia^
