@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-26 16:10:14
-! Total count: 33109
+! Version: 2023-05-27 08:09:32
+! Total count: 33123
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -654,6 +654,7 @@
 ##.ct-ad-article-wrapper
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
+##.cupfox-content.right,.cupfox-content.left
 ##.d_banner_inner
 ##.davwheat-ad
 ##.deadblocker-header-bar
@@ -938,6 +939,7 @@
 ##.ui-ad
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
 ##.video_details > .banner
 ##.vodads
@@ -1987,6 +1989,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:12289/$script,third-party
 .com:2516/code/
 .com:8001/*/*?t=$3p
+.com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/*_*_an*js?$script,third-party
@@ -8450,7 +8453,11 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
+baidu.com##DIV.barea-ad
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##DIV[data-module='rec:undefined-undefined']
+baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class^='ball-wrapper']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div#J-super-layer-promote
@@ -12919,11 +12926,7 @@ m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
 m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
-m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
-m.baidu.com##DIV.barea-ad
 m.baidu.com##DIV.brand-entry
-m.baidu.com##DIV[data-module='rec:undefined-undefined']
-m.baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@#div[class*="ads"]
 m.biqiugege8.com##+js(set-constant, lists, undefined)
@@ -18517,6 +18520,7 @@ zzzyk.com###Tinfo
 ||9eu7c.top^
 ||9ez.me/embd.php?type=
 ||9f11.win^
+||9fa20230518.live^
 ||9fh6m.cn^
 ||9fum.ifeng.com^
 ||9fwz.com^
@@ -19631,6 +19635,7 @@ zzzyk.com###Tinfo
 ||ayverwe.cn^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
+||ayynsdp.xyz^
 ||azdadf.com^
 ||azfqoeq.cn^
 ||azfrij.cn^
@@ -20669,6 +20674,7 @@ zzzyk.com###Tinfo
 ||ceh.cehbh.com^
 ||ceisip.com/static/js/plugin.js
 ||celcxjb.cn^
+||celeste.work^
 ||cengbalx.fun^
 ||cennv.cn^
 ||centurys.net/promo_
@@ -25216,6 +25222,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
+||jv0rlf.com^
 ||jvkckeg.cn^
 ||jvmxrug.xyz^
 ||jvpook.cn^
@@ -25638,6 +25645,7 @@ zzzyk.com###Tinfo
 ||kunlunshitou.com^
 ||kunzhang.name^
 ||kuqi.com^$third-party
+||kuuda.xyz^
 ||kuuhv.cn^
 ||kuunmzg.cn^
 ||kuwo.cn/static/swf/xctg.swf
@@ -26220,6 +26228,7 @@ zzzyk.com###Tinfo
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
 ||lyd.com.cn^*950-90.
+||lydrnj.xyz^
 ||lyewe.xyz^
 ||lyfwpt.com.cn^$third-party
 ||lyggt.top^
@@ -26421,6 +26430,7 @@ zzzyk.com###Tinfo
 ||mbalib.com/common/a_mbalib/
 ||mbazhaheix.top^
 ||mbepa.xyz^
+||mbly0.xyz^
 ||mbmqgo.cn^
 ||mbqwwa.cn^
 ||mbtpzcb.cn^
@@ -26546,6 +26556,7 @@ zzzyk.com###Tinfo
 ||mffdn.xyz^
 ||mfifsux.xyz^
 ||mfjiaoyu.cn^
+||mfoevvy.com^
 ||mfwlis.xyz^
 ||mfxyqh.cn^
 ||mg.32r.com^
@@ -30809,6 +30820,7 @@ zzzyk.com###Tinfo
 ||verycleaner.cn^
 ||veugcz8.com^
 ||vewdk.cyou^
+||vezvpd.xyz^
 ||vfcwij.cn^
 ||vflzdrv.cn^
 ||vfqnhif.cn^
@@ -32176,6 +32188,7 @@ zzzyk.com###Tinfo
 ||yhdm.so/bar/
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
+||yhgumcr.xyz^
 ||yhilnc.cn^
 ||yhjccj.cn^
 ||yhjh04.com^
@@ -32265,6 +32278,7 @@ zzzyk.com###Tinfo
 ||yizhibo.com/special/h5corner.html
 ||yjcf360.com/ad.
 ||yjegf.com^
+||yjgqpfj.cn^
 ||yjrjmy.com^
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
@@ -32731,6 +32745,7 @@ zzzyk.com###Tinfo
 ||zgzlw.biz^
 ||zhainanba.org/ac/
 ||zhaishanghui.shop^
+||zhalinylqq.com^
 ||zhalinyyds.com^
 ||zhan.com^*/middle_ad_modal.js
 ||zhangbaochang.top^
@@ -32749,7 +32764,6 @@ zzzyk.com###Tinfo
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhanzhang.baidu.com/push.js
 ||zhanzhang.net^
-||zhanzhang.toutiao.com^
 ||zhaofuli.*/data/content
 ||zhcps.cn^
 ||zhe8000.pw^
