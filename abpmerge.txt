@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-05-29 08:11:01
-! Total count: 33152
+! Version: 2023-05-29 16:10:24
+! Total count: 33161
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -521,6 +521,7 @@
 ##.adlistcss
 ##.adpc > .module
 ##.adpc > .promote-link
+##.adpc > .promote-link-
 ##.ads
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -17552,6 +17553,7 @@ zzzyk.com###Tinfo
 ||2kxs.org/6ADyQNkC/
 ||2lian.com^$third-party
 ||2m2n.com^
+||2medo.top^
 ||2mfx.cn^
 ||2pmob.com^
 ||2pogg4c.cn^
@@ -18856,6 +18858,7 @@ zzzyk.com###Tinfo
 ||adf.dahe.cn^
 ||adf.ly/js/$third-party,domain=~j.gs|~q.gs
 ||adf.ly/puscript$script,domain=imgnova.xyz
+||adfec3.com^
 ||adfeifan.com^$third-party
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
 ||adfox.yandex.ru^$third-party
@@ -25500,6 +25503,7 @@ zzzyk.com###Tinfo
 ||kkggy.top^
 ||kkgytur.cn^
 ||kkizyys.cn^
+||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkpgv2.xunlei.com^
@@ -27132,6 +27136,7 @@ zzzyk.com###Tinfo
 ||nijj990.xyz^
 ||nijnqwem.xyz^
 ||nike666.com^
+||nilzq.xyz^
 ||nimajl.top^
 ||nimaxrv.cn^
 ||nimazhale.top^
@@ -27383,6 +27388,7 @@ zzzyk.com###Tinfo
 ||oicchina.com^$third-party
 ||oicode.com^
 ||oicvvnm.cn^
+||oiewpw.com^
 ||oiknldwlkop.com^
 ||oikqwnm.com^
 ||oiljomy.xyz^
@@ -31206,6 +31212,7 @@ zzzyk.com###Tinfo
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
 ||weste.net/js/showpagead.js
+||westover.cn^
 ||wew.dushiwenxue.net^
 ||wf321.com^
 ||wffengtai.com.cn^
@@ -32618,6 +32625,7 @@ zzzyk.com###Tinfo
 ||z4a.net^*/960x
 ||z66ggsh.top^
 ||z6ro5.xyz^
+||z74lb.com^
 ||z82v0.icu^
 ||zabdybod*.club^
 ||zahl4tf5z.world^
@@ -33145,6 +33153,7 @@ zzzyk.com###Tinfo
 ~market.yandex.ru,~market.yandex.kz,~market.yandex.by,~market.yandex.ua,~telephony.yandex.ru,yandex.ru,yandex.kz,yandex.uz,yandex.by,yandex.ua,yandex.fr##div[class*="item_type_"][class*="item_rendered"]
 ~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~rock-chips.com##.gglist
+~shenguangai.com##a[href*=".shenguangai.com/"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
