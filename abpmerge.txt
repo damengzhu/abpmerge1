@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-01 16:10:22
-! Total count: 33245
+! Version: 2023-06-02 08:10:09
+! Total count: 33254
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -990,7 +990,9 @@
 ##.zozoads
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
+##A[href*=".bright.cn/?utm_"]
 ##A[href*=".com/?Agent="]
+##A[href*="/nb66nb.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='//v.wanfumei.net']
@@ -1593,6 +1595,7 @@
 ##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://go.gotourl.xyz/"]
 ##a[href^="http://yunbofangbt."]
+##a[href^="https://91keep.tv"]
 ##a[href^="https://adm.beimg.com/"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
@@ -2189,6 +2192,7 @@ $websocket,domain=5nj.com|cechi8.com
 /468_60.
 /500ad/*
 /527ldy.oss-
+/5555vipqipai.oss-
 /58pic/index.php?m=adManageSystem&
 /5ixcmbwj/js/ad.js
 /640_120_javhd.jpg
@@ -16900,20 +16904,10 @@ zzzyk.com###Tinfo
 |https://tellme.pw/go/jav$popup
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
-||*.51y5.net^
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
-||*.aty.sohu.com^
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.com/*b8121.js^$script,domain=mult34.com
-||*.gentags.net^
-||*.getui.com^
-||*.go.sohu.com^
-||*.gtlpa*.com^
-||*.irs03.com^
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
-||*.miaozhen.com^
-||*.tuisong.baidu.com^
-||*.umengcloud.com^
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*^sdtfrom=^$media,redirect=noop-0.1s.mp3,domain=qq.com
@@ -17901,6 +17895,7 @@ zzzyk.com###Tinfo
 ||51xuediannao.com/uploads/un/
 ||51xuex.com.cn^
 ||51xumei.com^
+||51y5.net^
 ||51yhzp.com^$third-party
 ||51zdwy.cn^
 ||51zgjs.mobi^
@@ -18475,6 +18470,7 @@ zzzyk.com###Tinfo
 ||949949.com/2013/end/hot_news.js
 ||94ab.com^$third-party
 ||94as.com/cxlnb.php
+||94evd.xyz^
 ||94itv.app/casino/
 ||94itv.net/f/
 ||94pr.cn^
@@ -19441,7 +19437,6 @@ zzzyk.com###Tinfo
 ||apcilnf.cn^
 ||apfobmfr.cn^
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
-||api-access.pangolin-sdk-toutiao-*.com^
 ||api-adservices.apple.com^$third-party
 ||api-shoulei-ssl.xunlei.com^
 ||api.06fgej.com^
@@ -19581,6 +19576,7 @@ zzzyk.com###Tinfo
 ||atuhi.cyou^
 ||aty.sohu.com/
 ||aty.sohu.com/v?
+||aty.sohu.com^
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||au6w0.xyz^
 ||auction.unityads.unity3d.com^$third-party
@@ -19939,6 +19935,7 @@ zzzyk.com###Tinfo
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcvxfgy.xyz^
 ||bcykbhb.cn^
 ||bd*-ys.km.com^
 ||bd-js1.2345.com^
@@ -20783,6 +20780,7 @@ zzzyk.com###Tinfo
 ||chengjunjie.top^
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
+||chenhaishan.info^
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
 ||chenyt.club^
@@ -22661,6 +22659,7 @@ zzzyk.com###Tinfo
 ||fjsjsj.com^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
+||fka06.site^
 ||fkading38.xyz^
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
@@ -22999,6 +22998,7 @@ zzzyk.com###Tinfo
 ||gelbooru.com/script/application.js
 ||gemini.yahoo.com^$third-party
 ||genieessp.com^$third-party
+||gentags.net^
 ||geo.yahoo.com^$third-party
 ||geomon.top^
 ||geoparker.net^
@@ -23010,6 +23010,7 @@ zzzyk.com###Tinfo
 ||getitfree.cn/wp-content/plugins/anti-
 ||getscriptjs.com/p.js
 ||getsgroup.cn^
+||getui.com^
 ||gexing.com/i/*960x
 ||gexing.com/j/??zmask.js,easing.js?
 ||geziyd.com^
@@ -23334,6 +23335,7 @@ zzzyk.com###Tinfo
 ||gtimg.com/www/mobi/js/app-bar-
 ||gtimg.com^*/ad/
 ||gtimg.com^*/adv/
+||gtlpa*.com^
 ||gtlpaj.com^
 ||gtoyouin.biz^
 ||gtpso.com/Home/TopSdk/getFavCoupItems
@@ -24609,6 +24611,7 @@ zzzyk.com###Tinfo
 ||iqybys.xyz^
 ||ir002423.cn^
 ||irqqwqk.cn^
+||irs03.com^
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
@@ -25241,6 +25244,7 @@ zzzyk.com###Tinfo
 ||jstucdn.com/g3/
 ||jsuboyp.cn^
 ||jswz8.com/images/
+||jsx.luyouwang.com^
 ||jsyd139.com^$third-party
 ||jsyefc.com^
 ||jsyunmy.com^
@@ -25542,6 +25546,7 @@ zzzyk.com###Tinfo
 ||kjhzwvq.cn^
 ||kjndc.xyz^
 ||kju369.cn^
+||kjugr.xyz^
 ||kjuwxmi.xyz^
 ||kjvnfhdgb.com^
 ||kjwx8.com^
@@ -26135,7 +26140,6 @@ zzzyk.com###Tinfo
 ||lofter.com/blogPhotoAd?
 ||lofter.com/mailEntry.do?blogad
 ||lofter.com/mailEntryMobile.do
-||log-api.pangolin-sdk-toutiao-*.com^
 ||log-sdk.ksapisrv.com^
 ||log.byteoversea.com^$third-party
 ||log.daqi.com^
@@ -26660,6 +26664,7 @@ zzzyk.com###Tinfo
 ||mhslbgk.cn^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||miaozhen.com^
 ||miaozhen.com^$third-party
 ||miatip.cn^
 ||micaitu.net/js/dibu.js
@@ -28671,6 +28676,7 @@ zzzyk.com###Tinfo
 ||rayli.com.cn^$third-party
 ||rayss.host^
 ||razasot.cn^
+||razrzh.xyz^
 ||rbazhaheiz.top^
 ||rbbbdj.xyz^
 ||rbgfxxt.cn^
@@ -29182,7 +29188,6 @@ zzzyk.com###Tinfo
 ||seznam.cz/*/static/*/*?nocache=1^$domain=www.seznam.cz
 ||seznamzpravy.cz/*/static/js/*^$domain=seznamzpravy.cz
 ||sezuleg.cn^
-||sf*-fe-tos.pglstatp-toutiao.com^
 ||sf2.net/a/index.
 ||sfbixfd.cn^
 ||sfjmj.com^
@@ -30271,10 +30276,12 @@ zzzyk.com###Tinfo
 ||tnabucks.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tnabucks.com/visitScript/$script,third-party
 ||tnarzc.com^
-||tnc*.zijieapi.com^
 ||tnc3-aliec2.snssdk.com^
+||tnc3-aliec2.zijieapi^
 ||tnc3-alisc1.snssdk.com^
+||tnc3-alisc1.zijieapi^
 ||tnc3-bjlgy.snssdk.com^
+||tnc3-bjlgy.zijieapi^
 ||tngmn.com^$third-party
 ||tnjvz.cn^
 ||tnlowlo.cn^
@@ -30704,6 +30711,7 @@ zzzyk.com###Tinfo
 ||umcpebi.cn^
 ||umdc.aliapp.org^
 ||umeng.com^
+||umengcloud.com^
 ||umhfrtu.cn^
 ||umkezbh.cn^
 ||ummnam.xyz^
@@ -32515,6 +32523,7 @@ zzzyk.com###Tinfo
 ||yrqwnc.cn^
 ||yrr56.com/mp4/pt_720.
 ||yrrcc.top^
+||yrszy.com.cn^
 ||yruvnmn.cn^
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^
@@ -32548,7 +32557,6 @@ zzzyk.com###Tinfo
 ||ytse*.top/Static/Home/GongGao/img/
 ||yttc.ren^
 ||ytvwhbejc.com'
-||ytvwhbejc.com^
 ||ytyug.com^
 ||yu.dlxxjsh.top^
 ||yu0123456.com^$third-party
@@ -32947,6 +32955,7 @@ zzzyk.com###Tinfo
 ||zhoubo01.cn^
 ||zhoudm.love^
 ||zhouduanyyds.com^
+||zhouduayqq.com^
 ||zhpfl.cn^
 ||zhuangxiu567.com^
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
