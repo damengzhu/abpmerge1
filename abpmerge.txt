@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-03 08:09:34
-! Total count: 33273
+! Version: 2023-06-03 16:09:54
+! Total count: 33278
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -12359,6 +12359,8 @@ jrj.com.cn##.piboxtwo
 jrj.com.cn##.wbyy
 jrlt.cc###hd + .wp
 jrlt.cc##a[href^="ad."]
+jrlt.vip###hd + .wp
+jrlt.vip##a[href^="ad."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 js/yys/Pfhl365.js
 js0573.com###adv1
@@ -16302,6 +16304,7 @@ www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
+www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##DIV.xfb_close_icon,DIV#xfb_lbox,DIV.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -17394,6 +17397,7 @@ zzzyk.com###Tinfo
 ||19vcd.com/mid/
 ||1biqug.com/js/ajax.js
 ||1buu1.penyouw.com^
+||1cdhf.top^
 ||1d1a.com^
 ||1dfsdfg.com^
 ||1e4y54ve.cn^
@@ -30066,6 +30070,7 @@ zzzyk.com###Tinfo
 ||tcnnnzt.cn^
 ||tcsgcdn.top^
 ||tcss.qq.com^
+||tctltb.com^
 ||tdayi.com^
 ||tdbwgrm.cn^
 ||tdedqqv.cn^
