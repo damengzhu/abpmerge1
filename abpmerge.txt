@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-06 08:10:29
-! Total count: 32262
+! Version: 2023-06-06 16:10:26
+! Total count: 32276
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1847,6 +1847,7 @@ $websocket,domain=5nj.com|cechi8.com
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
+.buzz/*0*0*0*==$third-party
 .cam/ads/
 .cc/ad/
 .cc/ads/
@@ -2076,6 +2077,7 @@ $websocket,domain=5nj.com|cechi8.com
 .site:20443/*.js^$script,third-party
 .swf?clicktag=
 .test15./
+.top/*/*.js?ts=$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/ad-
@@ -9852,6 +9854,7 @@ douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
+douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
@@ -11787,13 +11790,13 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com##a[href*="category_hero_id_"]
 instacart.com##div[data-testid="ads-promoted-aisle"]
 instacart.com##div[data-testid="storefront-category-hero-banner"]
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::section[@class][1]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-sppp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
 instacart.com#$#hide-if-matches-xpath './/li[   descendant::*[(div[span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]) or (div[count(.//div[@*[contains(local-name(), "eligible")]]) = 1 and count(.//div/span[text()]) = 2])]]'
 instacart.com#$#hide-if-matches-xpath './/span[@class]/div[.//span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]//ancestor::div[@aria-label="Product"]'
-instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"ponsored")]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sppp-eligiible]) = 1 and count(.//div/span) = 2]]'
+instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"onsored")]/parent::div[@class][1]'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligiible]) = 1 and count(.//div/span) = 2]]'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -13446,6 +13449,7 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
+myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 myhack58.com##.adv32
 myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
 myk3.com##a[href*="?aid="]
@@ -14346,6 +14350,8 @@ qiushibaike.com##.shopwindow
 qiuw.com##.con > a:nth-child(n+2)
 qiuziti.com##.popularize
 qiuziti.com##.search_wordimg
+qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
+qiuziti.com#@#.banner
 qixin.com##.web-diversion-container
 qixingquan.com##.zdm
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
@@ -19052,6 +19058,7 @@ zzzyk.com###Tinfo
 ||aj4j.icu^
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=darkcomet-rat.com
 ||ajcnz1.com^
+||ajcode.co^
 ||ajfkwwpo.xyz^
 ||ajjgune.cn^
 ||ajkcdpm.cn^
@@ -21724,6 +21731,7 @@ zzzyk.com###Tinfo
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds9e.top^
+||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
 ||dsfhr.xyz^
@@ -22599,6 +22607,7 @@ zzzyk.com###Tinfo
 ||g2qb.top^
 ||g3f3.com/love/
 ||g77ds2.xyz^
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9o.cn^
 ||ga1.3dmgame.com^
@@ -23366,6 +23375,7 @@ zzzyk.com###Tinfo
 ||hepburn.net.cn^
 ||heqinyyds.com^
 ||heqishengcai1006.xyz^
+||heretrail.com^
 ||herky.com.cn^
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||heshun365.cn^
@@ -24205,6 +24215,7 @@ zzzyk.com###Tinfo
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
+||isancio.top^
 ||isdfbvkvsc.xyz^
 ||isdspeed.qq.com^
 ||isepcvsb.com^$script,xmlhttprequest
@@ -25820,6 +25831,8 @@ zzzyk.com###Tinfo
 ||m.audio699.com/template/m/js/qqwweef
 ||m.bjdcfy.net^*.js
 ||m.danmeixsw.com/js/mwap.js
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
 ||m.dglscm.cn^$third-party
 ||m.do.downcdn.top^
 ||m.ercos.cn^$third-party
@@ -31893,6 +31906,7 @@ zzzyk.com###Tinfo
 ||zero.wewakir.top^
 ||zetcul.xyz^
 ||zevbzn.xyz^
+||zewfbw.buzz^
 ||zewfbw.xyz^
 ||zff.co/Webservices/jsParseLinks.aspx$script,third-party
 ||zff.co/visitScript/$script,third-party
