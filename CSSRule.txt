@@ -983,6 +983,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##A#floating-banner
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
@@ -1051,10 +1052,12 @@
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
 ##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
 ##DIV.div_adhost
+##DIV.duilian[style*='z-index: 9999; top: 0px; ']
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.footer-appload.js-footer-appload
 ##DIV.index_adpic
+##DIV.loc_banner.only-app
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
@@ -1633,7 +1636,9 @@
 ##div#detail.selector-zero > div > DIV[style]
 ##div#gmright
 ##div#h2_player_prevideo > A[href][target='_blank']
+##div#header-wrapper.header_b > div#header
 ##div#hengfu_wap_vod_xia > a
+##div#liveline > l,div#liveline > ll
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
@@ -4604,7 +4609,7 @@ cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
 cnlmjx.com##.yw_ad
-cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com;
+cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
 cnool.net##.banner-ad001
 cnool.net##.meilai_box
 cnool.net##.second-banner

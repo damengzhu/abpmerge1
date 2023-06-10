@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-09 16:10:03
-! Total count: 32330
+! Version: 2023-06-10 08:09:24
+! Total count: 32346
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -988,6 +988,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##A#floating-banner
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
@@ -1056,10 +1057,12 @@
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
 ##DIV.col-lg-3.col-md-3.col-sm-4.col-12.item.p-0.px-1
 ##DIV.div_adhost
+##DIV.duilian[style*='z-index: 9999; top: 0px; ']
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.footer-appload.js-footer-appload
 ##DIV.index_adpic
+##DIV.loc_banner.only-app
 ##DIV.module-adslist
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
@@ -1638,7 +1641,9 @@
 ##div#detail.selector-zero > div > DIV[style]
 ##div#gmright
 ##div#h2_player_prevideo > A[href][target='_blank']
+##div#header-wrapper.header_b > div#header
 ##div#hengfu_wap_vod_xia > a
+##div#liveline > l,div#liveline > ll
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
@@ -6245,6 +6250,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.icu
 @@||jsjiami.com^$generichide
 @@||jsqsjn.com^$script,domain=fyxfcw.com
+@@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
 @@||jupako.uk/ads.php$subdocument
 @@||justicejudo.com^$script,xmlhttprequest
@@ -9336,7 +9342,7 @@ cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
 cnlmjx.com##.yw_ad
-cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com;
+cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
 cnool.net##.banner-ad001
 cnool.net##.meilai_box
 cnool.net##.second-banner
@@ -18783,6 +18789,7 @@ zzzyk.com###Tinfo
 ||ad.wurangxian.top^
 ||ad.zui.com^
 ||ad123.ynet.com^
+||ad2023.site^
 ||ad8888.top^
 ||ada.baidu.com^
 ||adadmin.house365.com^
@@ -21256,6 +21263,7 @@ zzzyk.com###Tinfo
 ||dada8828.com/js/aaa/
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
+||dadcc.cn^
 ||daf-rs.com/imageViewer/wpAd
 ||dafuhouse.com^
 ||dagamemisdeed.com^
@@ -22121,6 +22129,7 @@ zzzyk.com###Tinfo
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
 ||eq.af31f.site^
+||eqghuu.com^
 ||eqknlsw.xyz^
 ||eqlidke.cn^
 ||eqnggnsw.fun^
@@ -22318,6 +22327,7 @@ zzzyk.com###Tinfo
 ||fclick.baidu.com^
 ||fclog.baidu.com^
 ||fcm.baidu.com^
+||fcpnxx.xyz^
 ||fcqztan.cn^
 ||fcrdb.com^
 ||fcw45.com/js/layer1.js^
@@ -24241,6 +24251,7 @@ zzzyk.com###Tinfo
 ||ir002423.cn^
 ||irqqwqk.cn^
 ||irs03.com^
+||iruacwa.xyz^
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
@@ -26656,6 +26667,7 @@ zzzyk.com###Tinfo
 ||nfydd.com/template/wap1/js/dd.js
 ||ng8f.top^
 ||nghdp.cn^
+||ngishc.top^
 ||ngmnhc.xyz^
 ||ngnlaigc.fun^
 ||nhgds.xyz^
@@ -27226,6 +27238,7 @@ zzzyk.com###Tinfo
 ||pdqwaan.cn^
 ||pdrtcgfx.cn^
 ||pdss.xyz^
+||pdweigee.com^
 ||pdxubxc.cn^
 ||pe5a.top^
 ||pedailyu.com^
@@ -28242,6 +28255,7 @@ zzzyk.com###Tinfo
 ||rrysogsiz.uno^
 ||rryy99.com/statics/js/stat.js
 ||rrzxlt.xyz^
+||rsanciz.top^
 ||rsbepv.xyz^
 ||rsdkk26.xyz^
 ||rsdop.icu^
@@ -30318,6 +30332,7 @@ zzzyk.com###Tinfo
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
 ||vw66i.top^
+||vwtjvd.xyz^
 ||vwvjzd.xyz^
 ||vx2e.top^
 ||vx4n.icu^
@@ -30416,6 +30431,7 @@ zzzyk.com###Tinfo
 ||wbiao.co/src2/js/expand/fudong/
 ||wbnhqq.com^
 ||wbqosw.xyz^
+||wbupbv.com^
 ||wcdc5.com^
 ||wcehko.juankh.com^
 ||wcknxoy.cn^
