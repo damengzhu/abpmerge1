@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-12 16:09:55
-! Total count: 32384
+! Version: 2023-06-13 08:10:42
+! Total count: 32404
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1870,6 +1870,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/ads/
 .club/adv/
 .cn/*-*-*.xc$script,third-party
+.cn/2023/*/*.txt$third-party
 .cn/a.gif?
 .cn/ack?s=*$third-party
 .cn/ads/
@@ -1938,6 +1939,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/js/bnr_
 .com/js/ddd.js
 .com/js/discor_list.js
+.com/js/g.js
 .com/js/indextop.js
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 .com/js/youlian.js
@@ -1984,6 +1986,9 @@ $websocket,domain=5nj.com|cechi8.com
 .com:2516/code/
 .com:8001/*/*?n=$third-party
 .com:8001/*/*?t=$3p
+.com:8007/*/*?c=$third-party
+.com:8007/*/*?n=$third-party
+.com:8007/*/*?t=$third-party
 .com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
@@ -3968,6 +3973,7 @@ $websocket,domain=5nj.com|cechi8.com
 360thethao.net#$#abort-current-inline-script onload /puURL/
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
+368015.xyz##div[style="height:60px;width:100%;"]
 36dm.club,36dm.com,acgsou.com##.clear.text_center
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href*="show-"]
 36dm.club,36dm.com,acgsou.com##img[width="250"][height="250"]
@@ -4341,6 +4347,7 @@ $websocket,domain=5nj.com|cechi8.com
 69story.com###main > div[style="margin-top: 15px;"]
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
+69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 6park.com##a[href*=".php?key="]
@@ -15642,6 +15649,7 @@ touzi.com##.tck-cover
 toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 tpbay.link#$#abort-on-property-read _wm_settings
+trafficjunky.com$third-party
 trafictube.ro#@#.widget-adv
 trakt.tv###huckster-desktop-bottom
 trakt.tv###huckster-desktop-top
@@ -19726,6 +19734,7 @@ zzzyk.com###Tinfo
 ||baidu1.codejie.net^
 ||baiduada.babihu.com^
 ||baiduajbcjkabcav.com^
+||baidubvjsbvv.com^
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
 ||baidudbvjksbvs.com^
@@ -22480,6 +22489,7 @@ zzzyk.com###Tinfo
 ||fmild.xyz^
 ||fmzcdvx.cn^
 ||fn9u.fun^
+||fnfhjka.xyz^
 ||fnkio.cyou^
 ||fnnzr.cn^
 ||fo.iphonevip.cn^$third-party
@@ -24469,6 +24479,7 @@ zzzyk.com###Tinfo
 ||jched3.com^
 ||jcheys.com^
 ||jciske.top^
+||jciwztfj.com^
 ||jckdusa.cn^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcpecb.com^
@@ -25684,6 +25695,7 @@ zzzyk.com###Tinfo
 ||lnhsjob.com^$third-party
 ||lnnjnv.xyz^
 ||lnpqqq.com^
+||lnzjlr.xyz^
 ||lnzqw.net/js/
 ||lo9b.top^
 ||lobqpt.xyz^
@@ -28070,6 +28082,7 @@ zzzyk.com###Tinfo
 ||r5h6.icu^
 ||r6pt6kfz.com^
 ||ra1.xyz^
+||ra5.xyz/z/*/code.
 ||ra5.xyz^
 ||rabbitcloud.ltd^
 ||rabc1.iteye.com^
@@ -28089,7 +28102,7 @@ zzzyk.com###Tinfo
 ||rawgsjd.cn^
 ||rayli.com.cn^$third-party
 ||rayss.host^
-||razlozhi.ru^$header=X-Yandex-Req-Id
+||razlozhi.ru^$script,header=report-to
 ||razrzh.xyz^
 ||rbazhaheiz.top^
 ||rbbbdj.xyz^
@@ -28252,6 +28265,7 @@ zzzyk.com###Tinfo
 ||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
 ||ror12.cc^
 ||rorlsblm.cyou^
+||rou.video/_next/static/chunks/pages/fuli-
 ||rou1.xyz^
 ||rou3.xyz^
 ||rouman5.com/a2/*.gif
@@ -29306,6 +29320,7 @@ zzzyk.com###Tinfo
 ||t.quandangdang.net/vtdd
 ||t.yzwr588.com^$third-party
 ||t06.xyz^
+||t0pan.top^
 ||t1.612.com^
 ||t1.xuefen.com.cn^
 ||t1tgame.com^
@@ -29708,6 +29723,7 @@ zzzyk.com###Tinfo
 ||trk.pinterest.com^
 ||trognoi.com^
 ||troxa.xyz^
+||trp69.top^
 ||trqhf.xyz^
 ||trslw.cn^
 ||trustedcpmrevenue.com^
@@ -30092,6 +30108,7 @@ zzzyk.com###Tinfo
 ||urtr4hrq.com^
 ||urwnsq.xyz^
 ||urysogsit.uno^
+||usancit.top^
 ||usbkngf.cn^
 ||uscdn.top^
 ||usejj.makepolo.cn^
@@ -30344,6 +30361,7 @@ zzzyk.com###Tinfo
 ||vstat.v.blog.sohu.com^
 ||vt3a.top^
 ||vtfwgfo.cn^
+||vtvnnl.xyz^
 ||vue-js.cyou^
 ||vueegqt.xyz^
 ||vuetifyjs.com/notify.json
@@ -31194,6 +31212,7 @@ zzzyk.com###Tinfo
 ||xleqs.xyz^
 ||xlgqy.com^
 ||xlhnkpw.cn^
+||xlivrdr.com^
 ||xlpu.cc/adv/
 ||xls.go.sohu.com^
 ||xlsds888.xyz^
@@ -31428,6 +31447,7 @@ zzzyk.com###Tinfo
 ||ybayck.xyz^
 ||ybfljs.com^
 ||ybgo.xyz^
+||ybixvc.top^
 ||ybn4.top^
 ||ybsyyh.com^
 ||yc444.cn^
