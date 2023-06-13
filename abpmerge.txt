@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-13 08:10:42
-! Total count: 32404
+! Version: 2023-06-13 16:10:40
+! Total count: 32409
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4348,7 +4348,6 @@ $websocket,domain=5nj.com|cechi8.com
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
-69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 6park.com##a[href*=".php?key="]
 6park.com##img[width="980"][height="90"]
@@ -4726,6 +4725,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@/blockadblock.js$script,domain=vtele.ca
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
+@@/fingerprint.$domain=abchina.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
@@ -14611,6 +14611,7 @@ ria.ru##.antiblock
 riaway.com##.info_message_container
 right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
+right.com.cn#@##sitefocus.focus
 rightwingnews.com##.z-ad-inline
 ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 rireetchansons.fr###popins
@@ -18197,6 +18198,7 @@ zzzyk.com###Tinfo
 ||778669.com^$third-party
 ||7791.com.cn^
 ||7794.com^$third-party
+||77aiav.me^
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
 ||77nnv9.xyz^
@@ -21065,6 +21067,7 @@ zzzyk.com###Tinfo
 ||cqbuchouhua.com^
 ||cqfygc.xyz^
 ||cqjjlsy.com^
+||cqpczsu.cn^
 ||cqqwe2pea.xyz^
 ||cqvip.com/viewserver/ViewAD
 ||cqxykj.com.cn^
@@ -23372,6 +23375,7 @@ zzzyk.com###Tinfo
 ||hdherpc.cn^
 ||hdminfeng.com^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdozp.jciwztfj.com^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/bfs/sycp/creative_img/$image
@@ -26635,6 +26639,7 @@ zzzyk.com###Tinfo
 ||neets.cc/assets/js/dup.js
 ||nefroto.net^$script,domain=dada44230.fr
 ||neg.hk^
+||neg2zos.icu^
 ||neihhou.com^
 ||neipa.xyz^
 ||nekomasu.ltd^
@@ -27382,8 +27387,7 @@ zzzyk.com###Tinfo
 ||pigwin.net^
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=report-to
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=x-yandex-req-id
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=nel
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
@@ -28407,6 +28411,7 @@ zzzyk.com###Tinfo
 ||s4te24u.com^
 ||s4zqj3m.cn^
 ||s65m.win^
+||s6in.cc^
 ||s7tu.com/images/*.gif
 ||s7w53.icu^
 ||s8bbs.com/ad/
