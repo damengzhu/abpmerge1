@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-14 08:10:11
-! Total count: 32408
+! Version: 2023-06-14 16:10:20
+! Total count: 32432
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4296,7 +4296,6 @@ $websocket,domain=5nj.com|cechi8.com
 58b.tv#$#.playmar > .playr { visibility: hidden!important; }
 58b.tv#?#.datal.main:has(> table div[id^="revive_zoneid_"])
 58b.tv,8fun.tv#?#.datal.clear:has(> table div[id^="revive_zoneid_"])
-58b.tv,8fun.tv,99kubo.tv##div[style^="width:300px;height:250px;"]
 58cam.com###append_parent
 58cam.com###huyou_nologin
 58cam.com##.syads
@@ -9141,11 +9140,14 @@ chinaz.com##.adSpon
 chinaz.com##.adfixbug
 chinaz.com##.header-media__text
 chinaz.com##.kwLink
+chinaz.com##.media-banner__auto
+chinaz.com##.media-banner_auto
 chinaz.com##.newsMainBox-textad
 chinaz.com##.plate-layout
 chinaz.com##.red[href*=".wsisp.net/"]
 chinaz.com##.titright
 chinaz.com##.txtAdBox
+chinaz.com,58b.tv,8fun.tv,99kubo.tv##div[style^="width:300px;height:250px;"]
 chinaz.com,cnbeta.com,mydrivers.com,oschina.net##a[href^="http://click.aliyun.com/"]
 chinaz.com,gw54.com,ofweek.com,xgw5.com,yawin.cn##.adtext
 chine-informations.com###entete + div[id][class="nomobile"]
@@ -10200,6 +10202,7 @@ enorth.com.cn##div[class^="guanggao"]
 enread.com##.box > ul[style="width:100%;overflow:hidden;"]
 enread.com##.channel-nav > .back
 enread.com##td[width="326"][height="250"]
+ent.163.com##.hotset
 ent.qq.com###ent_ad
 envivotv.net,lucenpop.com.es,pokefanleoretrogames.com,topflix.tv#$#abort-current-inline-script Math zfgloaded
 eol.cn###adfloat_l
@@ -11817,11 +11820,11 @@ instacart.com##div[data-testid="storefront-category-hero-banner"]
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[@src][contains(@alt,"")][not(@type)]/preceding::source[@srcset][@media]/ancestor::picture[@class]/parent::*[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][contains(@class,"css-")][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="css-wbvail"]'
-instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sppp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'
 instacart.com#$#hide-if-matches-xpath './/li[   descendant::*[(div[span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]) or (div[count(.//div[@*[contains(local-name(), "eligible")]]) = 1 and count(.//div/span[text()]) = 2])]]'
 instacart.com#$#hide-if-matches-xpath './/span[@class]/div[.//span[normalize-space(.) = "Spons"] and span[normalize-space(.) = "ored"]]//ancestor::div[@aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"ponsored")]/ancestor::div[@class][1]/parent::div'
-instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligiible]) = 1 and count(.//div/span) = 2]]'
+instacart.com#$#hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sppp-eligiible]) = 1 and count(.//div/span) = 2]]'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::aside'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -12961,6 +12964,7 @@ m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 m.iqiyi.com##DIV.iqyGuide-content,.cover
 m.jd.com##.download-pannel
 m.jiemian.com###js-b-ad
+m.kdslife.com##DIV#app.Card.DownloadGuide
 m.kuaidi100.com##.adsbygoogle + a
 m.lelekan.com##div[id^="myads"]
 m.lelekan.com#$#body { padding-top: 0!important; }
@@ -13072,7 +13076,6 @@ manganelo.tv#$#abort-on-property-read document.createElement
 mangareader.net,kiss-anime.ws,animeland.us#$#abort-on-property-read bbHideDiv
 mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuadb.com##a.d-block
 manhuadb.com#@#a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
@@ -15244,6 +15247,7 @@ starmusiq.com###adblock-detector-fade-texture
 starmusiq.com###adblock-detector-popup-alert
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
+stat-nba.com###ad_video
 static.g.iqiyi.com
 static/pull/qwe1021.js
 statsy.net
@@ -19407,6 +19411,7 @@ zzzyk.com###Tinfo
 ||api.xyhx.org^
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
+||apiimg.com^
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apjiangte.com^
@@ -20333,6 +20338,7 @@ zzzyk.com###Tinfo
 ||bvmqkla.de/files/photo/$third-party
 ||bvnvx.xyz^
 ||bvpaovs.cn^
+||bvvb9.com^
 ||bvwxfok.cn^
 ||bw66.cn/template/default_pc/bbs/
 ||bwandlv.top^
@@ -21291,6 +21297,7 @@ zzzyk.com###Tinfo
 ||dagft.cn^
 ||dagou2018.com/js/item
 ||dagumanhua.com/style/mdagu.js
+||dagwi.cn^
 ||dahaifa.com^
 ||dahe.cn/indiboy/ads/
 ||dahounian.top^
@@ -21409,6 +21416,7 @@ zzzyk.com###Tinfo
 ||ddshu.net/a_d_code/
 ||ddtx.fun^
 ||dduu.buzz^
+||ddxolb.xyz^
 ||ddxs.xyz^
 ||de.as.pptv.com^
 ||dealmoon.com/build/js/www/home/activity-pop/index.
@@ -23633,6 +23641,7 @@ zzzyk.com###Tinfo
 ||howbuy.com/subject/js/layer/layer.js
 ||howtoremoveadblock.com/js/adblock-detector.js$script
 ||hozzs.hk^
+||hpcwwd.com^
 ||hpd.baidu.com^
 ||hpfbiu.com^
 ||hpg786n.cn^
@@ -23901,6 +23910,7 @@ zzzyk.com###Tinfo
 ||iciba.com/static/images/download_banner.png
 ||iciba.com/web/static/scripts/kds2_record.js
 ||iciba.com/www/img/activity/common/active-11-11.js
+||iciclle.com^
 ||ickd.cn/mobile/js/touch
 ||icnkr.com/cnkradv/
 ||icnkr.com/data/attachment/portal/
@@ -24001,6 +24011,7 @@ zzzyk.com###Tinfo
 ||igig87.cn^
 ||igo.cn/liuxue/js/slideBar
 ||igo99.cn/js/freetest.js
+||igscn.com^
 ||igtchzp.cn^
 ||igusoft.com^
 ||ih336.com^*a.js
@@ -26454,6 +26465,7 @@ zzzyk.com###Tinfo
 ||mtsry.top^
 ||mttty.top^
 ||mtur.xkmnbt.xyz^
+||mu6m1.com^
 ||muchenzhongguo.com^
 ||mucinyak.com^
 ||mudezs.com^
@@ -26605,6 +26617,7 @@ zzzyk.com###Tinfo
 ||nai7.xyz^
 ||naifei.shop/static/banner/banner_mobile.jpg
 ||naiki.top^
+||najnus.com^
 ||nakop.xyz^
 ||nalapop.com^
 ||naned.xyz^
@@ -26973,6 +26986,7 @@ zzzyk.com###Tinfo
 ||ok-qqzzjsyuming.com^
 ||ok.432kkk.com^
 ||okag.top^
+||okbd2ou.icu^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okcf.top^
@@ -27386,7 +27400,7 @@ zzzyk.com###Tinfo
 ||pigwin.net^
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=content-length
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=timing-allow-origin
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
@@ -27444,6 +27458,7 @@ zzzyk.com###Tinfo
 ||pliaoboer.top^
 ||plkmd.com^
 ||plmn5.com^
+||plnshao.xyz^
 ||plyuwqq.cn^
 ||pm.poqwua.cn^
 ||pm2b.top^
@@ -27671,6 +27686,7 @@ zzzyk.com###Tinfo
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbtd.xyz^
 ||qc1.cheshipin.com^
+||qcb2xeg.icu^
 ||qchannel03.cn$third-party
 ||qchannel03.cn^
 ||qcjycg.com/template/conch/asset/js/hl
@@ -28347,6 +28363,7 @@ zzzyk.com###Tinfo
 ||runoob.com/images/re/
 ||runsky.com/phpstat/
 ||ruohe.fun^
+||rusticaula.com^
 ||ruten.com.tw/js/gads_
 ||ruten.com.tw/search/imp_ad_
 ||ruten.com.tw^*/ahd_
@@ -29333,6 +29350,7 @@ zzzyk.com###Tinfo
 ||t2.picb.cc^$image,domain=dmxq1.com
 ||t22g.icu^
 ||t23o.cn^
+||t33ng.com^
 ||t34kk9.top^
 ||t3nlink.com^$third-party
 ||t3p58.com^
@@ -29852,6 +29870,7 @@ zzzyk.com###Tinfo
 ||tx99y.net^
 ||tx9ff.top^
 ||txahz.com/static/image/tp/
+||txbhhh.xyz^
 ||txjfso.com^
 ||txlidi.ink^
 ||txnwq.xyz^
@@ -30118,6 +30137,7 @@ zzzyk.com###Tinfo
 ||usejj.makepolo.cn^
 ||usejj.wangkl.com^
 ||userscontent.com^$image,domain=ahaonline.cz|auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|info.cz|iprima.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|onetv.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
+||usfw2eu.icu^
 ||usingde.com^$third-party
 ||usmhimw.cn^
 ||usnignst.xyz^
@@ -30167,6 +30187,7 @@ zzzyk.com###Tinfo
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
 ||uysdxmo.com^
+||uyt79.top^
 ||uyueread.com^
 ||uyydww.xyz^
 ||uz44x.xyz^
@@ -30304,6 +30325,7 @@ zzzyk.com###Tinfo
 ||vipwm.cc^
 ||vipyearha.com/uploads/20*.gif
 ||vipzhuan.xyz^
+||viroffyy.com^
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tuwan.com/s.js
 ||viuspbkmn.bar^
@@ -31491,6 +31513,7 @@ zzzyk.com###Tinfo
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yemueii.cn^
+||yenauddk.com^
 ||yengbalf.fun^
 ||yenyshy.com^
 ||yerecpa.cn/uploadsb/app_adv/
@@ -32213,6 +32236,7 @@ zzzyk.com###Tinfo
 ||zn46.com/images/*0x
 ||znchw.com^
 ||zndsssp.dangbei.net^
+||znegiu.top^
 ||znfg6677.top^
 ||znllfp.xyz^
 ||znnodl.xyz^
