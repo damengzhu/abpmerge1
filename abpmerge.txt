@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-14 16:10:20
-! Total count: 32432
+! Version: 2023-06-15 08:10:24
+! Total count: 32444
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9681,10 +9681,10 @@ ddooo.com##.guoasu
 ddooo.com##.xzbtn
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
-ddrk.me##+js(set-constant, Object.prototype.cnobpreroll_, true)
 ddrk.me##a[onclick^="ClickobayST();"]
 ddxsku.com##.adhtml
-ddys.*##+js(set-constant, Object.prototype.canobpreroll_, true)
+ddys.*,ddrk.me##+js(set-constant, Object.prototype.canobpreroll_, true)
+ddys.*,ddrk.me##+js(set-constant, Object.prototype.cnobpreroll_, true)
 de.adklick.net###w_ad.no_ad
 de.as.pptv.com
 dealmoon.com,weibo.com##.pic_ad
@@ -11841,12 +11841,15 @@ ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 iphones.ru##DIV[style="background-color: rgb(222, 71, 0); margin-bottom: 20px; padding: 60px 0px;"]
 ipinyou.com
 ipip.net##.row[style="width:1000px;margin:0px auto 25px auto;"]
+iplaysoft.com###_cblzx
 iplaysoft.com###link1111
+iplaysoft.com###section_postbanner
 iplaysoft.com###sidebar > ul > li[class^="widget"]:nth-child(-n+3)
 iplaysoft.com##.crumb_ad
 iplaysoft.com##.d250x90
 iplaysoft.com##.entry-content + div[style="margin:-10px 0 0 0;overflow:hidden"]
 iplaysoft.com##[style*="width:3"][style*="height:2"]
+iplaysoft.com##div[style="background:#fcf0ef;width:680px;height:130px;border-radius:8px;margin-top:28px;position:relative"]
 iprima.cz##.dekes_reblika
 iprima.cz##.px-type-banner
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
@@ -20440,6 +20443,7 @@ zzzyk.com###Tinfo
 ||camspic.com/imguang/*.gif
 ||cangnews.com^
 ||canimgs.com/images/
+||canser8.top^
 ||canton8.com/adphoto/
 ||cao0001.com/vip/js/
 ||cao0002.com/vip/js/
@@ -20684,6 +20688,7 @@ zzzyk.com###Tinfo
 ||chesonfetor.com^
 ||chexun.com/delivery?
 ||chexun.net/images/sales//cxgg/
+||chicmifi.com^
 ||chidir.com^
 ||chihuoguo.me^
 ||chiluyingxiao.com^
@@ -21682,6 +21687,7 @@ zzzyk.com###Tinfo
 ||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
 ||dnyzbp.cn^
+||dnzmhr.xyz^
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||dobwll.xyz^
 ||doc88.com^*/count.js
@@ -22702,7 +22708,6 @@ zzzyk.com###Tinfo
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
-||gamersky.com^*.htm$subdocument
 ||games.ifeng.com^$subdocument
 ||games.ifeng.com^*.shtml?v=
 ||games95.com^
@@ -23355,6 +23360,7 @@ zzzyk.com###Tinfo
 ||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
 ||hboav.com/guga/images/$xmlhttprequest,redirect=noop.txt
+||hbrmickt.com^
 ||hbtyk.top^
 ||hbv.tobeacon.cn^
 ||hbzhenquan.cn^
@@ -24961,6 +24967,7 @@ zzzyk.com###Tinfo
 ||jylgd.com^$script
 ||jyrd.com/statics/*/js/baizhu/
 ||jysbj.cn^
+||jyt58.top^
 ||jytjw.com^
 ||jyxfvp.xyz^
 ||jz5u.com/public/js/t$script
@@ -26958,6 +26965,7 @@ zzzyk.com###Tinfo
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
 ||ohmpyq.xyz^
+||ohoyao.com^
 ||oi1b.top^
 ||oi9rp7.online^
 ||oicchina.com^$third-party
@@ -27102,6 +27110,7 @@ zzzyk.com###Tinfo
 ||orzx.im/Document/union/
 ||orzx.im/js/*pop
 ||osalwqv.cn^
+||osancik.top^
 ||oschina.net/promotion/
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/
@@ -28882,6 +28891,7 @@ zzzyk.com###Tinfo
 ||skfjd1.xyz^
 ||skfjdf.xyz^
 ||skfqxkk.cn^
+||skidfqh.xyz^
 ||skluff.com^
 ||skogsborg.net^
 ||skxuueby.cn^
@@ -29257,6 +29267,7 @@ zzzyk.com###Tinfo
 ||supfree.net/xxx/
 ||supfree.net^$xmlhttprequest
 ||suqerc.com^$script
+||surperverse.com^
 ||surveys.hotjar.com^
 ||suukcn.com^
 ||svdpgmt.cn^
@@ -29489,6 +29500,7 @@ zzzyk.com###Tinfo
 ||thallus.net^
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
+||thdidx.xyz^
 ||theads.xyz^
 ||thefatherofsalmon.com^
 ||themaxmall.com^
