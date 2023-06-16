@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-16 08:10:19
-! Total count: 32459
+! Version: 2023-06-16 16:10:05
+! Total count: 32474
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1682,6 +1682,7 @@
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
 ##div.stui-pannel__bd > #t-img-box
 ##div.stui-player.col-pd DIV[style='text-align:center']
+##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
 ##div.video-box > div.hf > a
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2911,6 +2912,7 @@ $websocket,domain=5nj.com|cechi8.com
 /nForum/files/adv/*
 /naChotina=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 /new/2*.html
+/new/4*.html
 /new/5*.html
 /new/8*.html
 /new/ads/*
@@ -13235,6 +13237,9 @@ miercn.com##.hongbao
 miercn.com##.show-img-box
 mikanani.me##a[href][onclick*="'ad'"] > img[src^="/images/Masha/"]
 miliav.com##.b300
+military.china.com##.item_list > .medialist
+military.china.com##.slide_doubleimg > .baiBox
+military.china.com#$?#.slide_doubleimg > .baiBox { remove: true; }
 minecraftzw.com##.e3lan-top
 mingpao.com###photo_transition
 minhangcidian.com##div[id^="googleAd"]
@@ -16102,6 +16107,7 @@ wbiao.cn###popupImgCorner
 wbiao.cn##.wb-panel
 wcjbb.com###frame37boCx
 wcjbb.com###frameo834m9
+wd.znds.com##.dxb_bc
 wdzj.com###ggao-article-bottom
 wdzj.com##.ggao-everyone-rebeat
 wdzj.com##.left-gg-box > div.sl-ggao > div.gg
@@ -19392,6 +19398,7 @@ zzzyk.com###Tinfo
 ||api.557400.com^
 ||api.abcxs.org^
 ||api.ad.xiaomi.com^
+||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||api.bugsnag.com^
@@ -19418,6 +19425,7 @@ zzzyk.com###Tinfo
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
 ||apiimg.com^
+||apiimg.com^$badfilter
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apjiangte.com^
@@ -20423,6 +20431,7 @@ zzzyk.com###Tinfo
 ||ca.cbsi.com.cn/rpv?
 ||ca.cydp5.com^
 ||ca30f.top^
+||caaie.xyz^
 ||cacafly.net^
 ||cache.netease.com/cnews/js/qrcode.js
 ||cache1.value-domain.com/xrea_header.js
@@ -21301,6 +21310,7 @@ zzzyk.com###Tinfo
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
 ||dadcc.cn^
+||dadwu.cn^
 ||dadzz.cn^
 ||daf-rs.com/imageViewer/wpAd
 ||dafuhouse.com^
@@ -22030,6 +22040,7 @@ zzzyk.com###Tinfo
 ||ecmb.bdimg.com^
 ||eco.2t4fe.xyz^
 ||eco.taobao.com^
+||ecoefh.com^
 ||ecpoc.com/style/ad
 ||ecuc123.net^
 ||ecudsc.cn^
@@ -25132,6 +25143,7 @@ zzzyk.com###Tinfo
 ||kfyg.xyz^
 ||kgacp.cyou^
 ||kgcyvd.com^
+||kgfjrb711.com^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
@@ -27169,6 +27181,7 @@ zzzyk.com###Tinfo
 ||owlfolk.com^
 ||owlunimmvn.com^
 ||owogldk.top^
+||owrkwilxbw.com^
 ||oxj8hcfg.xyz^
 ||oxmun.com^
 ||oxneww.co^
@@ -31402,6 +31415,7 @@ zzzyk.com###Tinfo
 ||xxffo.com^*_slett.php
 ||xxgslt.com^
 ||xxhh.com/xh.js
+||xxhp2iz.icu^
 ||xxl.bt-xd.com^$third-party
 ||xxmh456.com^
 ||xxmh645.com^
@@ -31587,6 +31601,7 @@ zzzyk.com###Tinfo
 ||yhzm.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
+||yichengjiajupt.com^
 ||yidengfe.com/launches/01/yd.png
 ||yifujing.com^
 ||yifuls.com^$third-party
