@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-16 16:10:05
-! Total count: 32474
+! Version: 2023-06-17 08:09:31
+! Total count: 32492
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1207,6 +1207,7 @@
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
+##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
@@ -1871,6 +1872,7 @@ $websocket,domain=5nj.com|cechi8.com
 .club/ads/
 .club/adv/
 .cn/*-*-*.xc$script,third-party
+.cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
 .cn/a.gif?
 .cn/ack?s=*$third-party
@@ -1990,6 +1992,9 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8007/*/*?c=$third-party
 .com:8007/*/*?n=$third-party
 .com:8007/*/*?t=$third-party
+.com:8008/*/*?n=$third-party
+.com:8008/*/*?t=$third-party
+.com:8008/cc/2427?is_not=
 .com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
@@ -3243,7 +3248,6 @@ $websocket,domain=5nj.com|cechi8.com
 /yy_transv/js/cmp.js
 /z.zolapp.
 /zcool-analytics.js
-/zsls.com?s=
 /zz/*_box2.txt
 /zz/wenzi2.txt
 /zz/zuoxia2.txt
@@ -4586,6 +4590,7 @@ $websocket,domain=5nj.com|cechi8.com
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
+:8007/*/*?is_not=
 :8080/ad/
 :8080/advserver/
 :8080/js/v1.js$third-party
@@ -17243,6 +17248,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||1381a.xyz^
 ||1383a.xyz^
 ||1385a.xyz^
 ||138txt.net/js/ssgdd.
@@ -18310,6 +18316,7 @@ zzzyk.com###Tinfo
 ||8499234.com^
 ||8499258.com^
 ||8499683.com^
+||84zm8.xyz^
 ||8585go.com/recommend
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -19424,7 +19431,7 @@ zzzyk.com###Tinfo
 ||api.xyhx.org^
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
-||apiimg.com^
+||apiimg.com/huaer/xiahe.
 ||apiimg.com^$badfilter
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
@@ -21303,6 +21310,7 @@ zzzyk.com###Tinfo
 ||dabao.run^
 ||dabaoku.com^$object,script,subdocument
 ||dabin69.com/data/attachment/portal/
+||daccp.cn^
 ||dacedsfa.cn^
 ||dacyh.cyou^
 ||dada.dadawm.cc^
@@ -21420,6 +21428,7 @@ zzzyk.com###Tinfo
 ||dc.letv.com/op/?
 ||dccc.cloud^
 ||dcdf4.com^
+||dciep.xyz^
 ||dcmh.xyz^
 ||dcnjc4.com^
 ||dcnytdpke.xyz^
@@ -22291,6 +22300,7 @@ zzzyk.com###Tinfo
 ||eyuyao.com/yyad/
 ||ezf48.xyz^
 ||ezfxpuo.cn^
+||ezlgszdb.icu^
 ||ezngisyw.xyz^
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
@@ -22769,6 +22779,7 @@ zzzyk.com###Tinfo
 ||gccode.gongchang.com^
 ||gcejdac.cn^
 ||gcihkyd.cn^
+||gcqciiqk.com^
 ||gctd.xyz^
 ||gcw*.2liang.cn^
 ||gcxa.cn/a/gb.gif
@@ -23065,6 +23076,7 @@ zzzyk.com###Tinfo
 ||gr0z6.xyz^
 ||gralfusnzpo006.top^
 ||grandcomms.cn^
+||grduswfx.com^
 ||grecoi.xyz^
 ||greencompute.org^$third-party
 ||greenet.cn^*_popu_$popup
@@ -23261,6 +23273,7 @@ zzzyk.com###Tinfo
 ||h728.cn^
 ||h731.icu^
 ||habyc.com^
+||hacde6.icu^
 ||hackeraa.xyz^
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
@@ -23517,6 +23530,7 @@ zzzyk.com###Tinfo
 ||hhaobcj.cn^
 ||hhdmh.net/bd/36mh.js
 ||hhdmh.net/js/g1.js
+||hhff111222.com^
 ||hhgxbxk.cn^
 ||hhppy.top^
 ||hhrnxr.xyz^
@@ -24502,6 +24516,7 @@ zzzyk.com###Tinfo
 ||jb.ecar168.cn^
 ||jb51.net/imgby/logo_
 ||jbazhaheia.top^
+||jbhhxd.xyz^
 ||jbnmuye.cn^
 ||jbplm.com^
 ||jbtfmis.xyz^
@@ -25567,6 +25582,7 @@ zzzyk.com###Tinfo
 ||lh168.net^*/attachment/portal/
 ||lh54.top^
 ||lhare.xyz^
+||lhdlbp.xyz^
 ||lhippac.cn^
 ||lhot.xyz^
 ||lhpzz.love^
@@ -25823,6 +25839,7 @@ zzzyk.com###Tinfo
 ||lrkporm.cn^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
+||lsancil.top^
 ||lsbebm.xyz^
 ||lscckgm.cn^
 ||lsforum.net/cam2/*.gif
@@ -26255,6 +26272,7 @@ zzzyk.com###Tinfo
 ||mhi9da.cn^
 ||mhsksgj.cn^
 ||mhslbgk.cn^
+||mhysbwo.xyz^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
 ||miaozhen.com^
