@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-19 08:11:22
-! Total count: 32527
+! Version: 2023-06-19 16:10:29
+! Total count: 32538
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8498,7 +8498,6 @@ baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,youdao.com,yun.cn#@#.share-content
-baidu.com,~m.baidu.com##.ec_wise_ad
 baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baihe.com##.scrollULeft
@@ -14149,7 +14148,7 @@ planetatvonlinehd.blogspot.com.ar#@#.adsantilok
 play/safety=^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 playallvideos.com,pron.co##.rmedia
 player-cdn.com###playback-fake
-player-cdn.com#$#abort-on-property-read Math.random; override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
+player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 playerapp1.pw###divPanel
 playerapp1.pw##[id^="total"]
 playerhd1.pw,playerhd2.pw###divPanel
@@ -14928,6 +14927,7 @@ sina.com.cn##.ad_01_left
 sina.com.cn##.ad_01_right
 sina.com.cn##.ad_main_top
 sina.com.cn##.article-bottom-tg
+sina.com.cn##.article-botton-slide
 sina.com.cn##.blk_APP_JSl
 sina.com.cn##.blk_APP_JSr
 sina.com.cn##.center-pdps
@@ -16057,6 +16057,7 @@ vpsmm.com##.top_a1
 vpsmm.com##div[class*="xx"]
 vpsmm.com#?#.sidexbar div:-abp-has(>a>img)
 vsetut.su,animedia.tv#$#abort-on-property-read zfgformats
+vsviti.com.ua#$#abort-on-property-read tdAnimationStack.init
 vuejs.org##.text-ad
 vuetifyjs.com##.v-sponsors
 vuukle.com##a[href*="news.vuukle.com/u/"]
@@ -20015,6 +20016,7 @@ zzzyk.com###Tinfo
 ||beareyes.com.cn/2/cat/js/*_right
 ||beareyes.com.cn^*/ad/
 ||beatricecathy.com^
+||beatricenba.com^
 ||becode.xiao84.com^
 ||become.songche.net^
 ||bedrapiona.com^
@@ -22371,6 +22373,7 @@ zzzyk.com###Tinfo
 ||fanpingbi*.gaokao.com^
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
+||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanyuelin208.club^
 ||fanzhuang.net.cn^$third-party
@@ -26027,6 +26030,7 @@ zzzyk.com###Tinfo
 ||m.yinghuacd.com/bar
 ||m.ysxs8.com/js/content_db.js
 ||m.zwsteel.cn^$third-party
+||m03dv.xyz^
 ||m09mm.xyz^
 ||m1.100how.com^
 ||m1.27com.com^
@@ -26538,6 +26542,7 @@ zzzyk.com###Tinfo
 ||muer.cdn-baidu.fs-sywh.com^
 ||muhnbc.cn^
 ||muimg.com^$domain=lsjsoso.me
+||mujkdna.xyz^
 ||mukjozy.cn^
 ||muliglsn.space^
 ||mumessn.cn^
@@ -27471,7 +27476,7 @@ zzzyk.com###Tinfo
 ||pigwin.net^
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=timing-allow-origin
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=x-consumed-content-encoding
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
@@ -30118,6 +30123,7 @@ zzzyk.com###Tinfo
 ||uhyhdrh.cn^
 ||uibjhqwkl.com^
 ||uibqwl.xyz^
+||uifyeldt.top^
 ||uiiwzyv.cn^
 ||uiqatnpooq.com/0f8b73d477b554394e23077935e1fff4.js$script,domain=extratorrent.cc
 ||uisafnit.space^
@@ -30504,6 +30510,7 @@ zzzyk.com###Tinfo
 ||vyps.fun^
 ||vyule.com^
 ||vz81m4.top^
+||vzeuvcdi.icu^
 ||vzfizr.xyz^
 ||vzmz.com/template/paody/aaaa/*0
 ||vzmz.com/template/paody/aaaa/357.js
@@ -32226,6 +32233,10 @@ zzzyk.com###Tinfo
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||zhihu.xmcimg.com^
 ||zhijiangweidu.top^
+||zhimg.com/80/v2-503830bc48217331677fc5c7b67eee12.
+||zhimg.com/80/v2-725c659194eeebb8c6b970e52e2dc8aa.
+||zhimg.com/80/v2-c991beef44875fa5971c6bbfc6dc0ad2.
+||zhimg.com/80/v2-f4b209014eeea058dd5b43f085aaef02.
 ||zhimg.com^*_600x250
 ||zhimg.com^*adx
 ||zhipet.cn^
