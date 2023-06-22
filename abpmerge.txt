@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-22 08:10:15
-! Total count: 32604
+! Version: 2023-06-22 16:10:02
+! Total count: 32610
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1970,6 +1970,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/sc/*?n=$script,third-party
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/$third-party
+.com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
 .com/style/vue.js?v=
 .com/tonglan.js
@@ -21342,6 +21343,7 @@ zzzyk.com###Tinfo
 ||da.duowan.com/loc/
 ||da.mgtv.com/mediafiles/wiad_creative/$image
 ||da.mgtv.com^
+||daawx.cn^
 ||dabai28.com/img/*.gif
 ||dabaicai.ink^
 ||dabao.run^
@@ -29074,6 +29076,7 @@ zzzyk.com###Tinfo
 ||sn0hb.cn^
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
+||sncop.uioozpxq.com^$all
 ||snmi.cn^$third-party
 ||snsjiq.xyz^
 ||snuoen.com^
@@ -29599,6 +29602,7 @@ zzzyk.com###Tinfo
 ||tfallview.live^
 ||tfations.live^
 ||tfbulkidn.com^
+||tfcdn.jingmiuyyds.com^$all
 ||tfcoverss.live^
 ||tfexcludes.shop^
 ||tffindmarket.live^
@@ -30572,6 +30576,7 @@ zzzyk.com###Tinfo
 ||vzfizr.xyz^
 ||vzmz.com/template/paody/aaaa/*0
 ||vzmz.com/template/paody/aaaa/357.js
+||vzttq.brfvyrrp.com^$all
 ||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 ||w.anmeihe.cn^
 ||w.bnlg.fun^
@@ -32228,6 +32233,7 @@ zzzyk.com###Tinfo
 ||zff.co/Webservices/jsParseLinks.aspx$script,third-party
 ||zff.co/visitScript/$script,third-party
 ||zffymmdg.com^
+||zfnclk.buzz^
 ||zfood029.com^
 ||zg.mmyuer.com^
 ||zgcqxjzny.cn^
