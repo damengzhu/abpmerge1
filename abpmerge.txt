@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-23 16:11:30
-! Total count: 32611
+! Version: 2023-06-24 08:11:13
+! Total count: 32629
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -878,6 +878,7 @@
 ##.row > .gao-bg
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
+##.samBannerUnit
 ##.scupioadslot
 ##.search + #midBox
 ##.self-gg
@@ -2668,6 +2669,7 @@ $websocket,domain=5nj.com|cechi8.com
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
 /hm.html?s=*=http
+/hm.js?$third-party
 /hm.js?$third-party,xmlhttprequest
 /hndxweb/push$popup,third-party
 /home/ad_
@@ -8457,6 +8459,7 @@ baidu.com##DIV.barea-ad
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
+baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
 baidu.com##[class^='ball-wrapper']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div#J-super-layer-promote
@@ -8490,6 +8493,7 @@ baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baihe.com##.scrollULeft
 baihe.com##.scrollUpf
+baijiahao.baidu.com##DIV#bdrainrwDragButton
 baijiahao.baidu.com,feed.baidu.com##body > div[id$="-container"]:last-child
 baike.baidu.com##.baike-dynamic-wrapper
 baike.baidu.com##.pinzhuanWrap
@@ -12362,6 +12366,8 @@ js0573.com###gotopl
 js0573.com###gotopr
 js0573.com##.gg_bnr
 jsbooks.com.cn#@#.left-ads
+jsjiami.com##.asd > li > a.shaky
+jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
 json.cn##.tip[target="_blank"]
 jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
@@ -20841,6 +20847,7 @@ zzzyk.com###Tinfo
 ||chykohija.pro^
 ||chyuok.xyz^
 ||ciaeue.xyz^
+||ciarde.fun^
 ||cibntv.net/youku/$media,mp4
 ||cibntv.net/youku/*.mp4?$media,redirect=noop-1s.mp4,domain=v.youku.com,important
 ||cichiji.top^
@@ -21147,6 +21154,7 @@ zzzyk.com###Tinfo
 ||criteo.net^$third-party
 ||crleii.xyz^
 ||crobotb.com^
+||crookedchange.com^
 ||crpoy.com^$domain=pronpic.org
 ||crpvoxl.cn^
 ||crs.baidu.com^
@@ -21327,6 +21335,7 @@ zzzyk.com###Tinfo
 ||da.duowan.com/loc/
 ||da.mgtv.com/mediafiles/wiad_creative/$image
 ||da.mgtv.com^
+||daadr.cn^
 ||daawx.cn^
 ||dabai28.com/img/*.gif
 ||dabaicai.ink^
@@ -22227,6 +22236,7 @@ zzzyk.com###Tinfo
 ||eqlidke.cn^
 ||eqnggnsw.fun^
 ||eqpzy.cyou^
+||eqqi.cn^
 ||eqyzc.cyou^
 ||er.5ykj.cn^
 ||er.5ykj.com^
@@ -23926,6 +23936,7 @@ zzzyk.com###Tinfo
 ||hzoijcm.cn^
 ||hzrghx.xyz^
 ||hztv.xyz^
+||hzvcaadn.icu^
 ||hzxlly.com^
 ||hzylhk.com^
 ||hzyouhejia.com^
@@ -24764,6 +24775,7 @@ zzzyk.com###Tinfo
 ||jjjak.com^
 ||jjjcyjj.cn^
 ||jjjgame.com/images/ad11.jpg
+||jjkiahh.icu^
 ||jjnrqq.com^
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
@@ -25028,6 +25040,7 @@ zzzyk.com###Tinfo
 ||jxbtl.com^
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/js/hotpic_
+||jxcrnwc.xyz^
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$third-party
 ||jxgd1688.com^
@@ -25330,6 +25343,7 @@ zzzyk.com###Tinfo
 ||koolearn.com/v2/js/wxewm.js
 ||koolearn.com/www/subject/script/subject_form.js
 ||koolearn.com/zt/poster_js/$domain=~www.koolearn.com
+||kopde.xyz^
 ||korydwf.cn^
 ||kostool.cn/screenshot/
 ||koudaikeji.info^
@@ -27724,6 +27738,7 @@ zzzyk.com###Tinfo
 ||ptijx.xyz^
 ||ptnxa.xyz^
 ||pttwq.xyz^
+||ptvfzv.xyz^
 ||ptyw.yiche.com/ssp/
 ||ptzkjko.cn^
 ||puaabvs.cn^
@@ -30391,6 +30406,7 @@ zzzyk.com###Tinfo
 ||vaxfpal.cn^
 ||vaxgyly.cn^
 ||vbccbxv.top^
+||vbdbmqzu.com^
 ||vbgr7.cn^
 ||vbnmjjda.xyz^
 ||vciddepi.cyou^
@@ -31053,6 +31069,7 @@ zzzyk.com###Tinfo
 ||www.ostlon.com^
 ||www.pcbeta.com//data/cache/ggk.js
 ||www.pcuois.com^
+||www.pkmp*.xyz/template/piankuwap/js/afoot.js
 ||www.pksanb.com^
 ||www.planet.fr/foretimes^
 ||www.ppslsa.com^
@@ -32568,6 +32585,7 @@ zzzyk.com###Tinfo
 ||zzpzero.com^
 ||zzqqhb.com^
 ||zzqrr.com^
+||zzrjdp.xyz^
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js
