@@ -5526,7 +5526,8 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath './/div[@data-async-content]//div[@data-logger-id]//span[contains(@class,"wt-screen-reader-only") and not(@aria-hidden="true")][normalize-space(text())="Ad"]/ancestor::div[@data-logger-id][1]'
+etsy.com#$#hide-if-contains-visible-text '/ by Etsy seller/' '.responsive-listing-grid' 'div  li[class] .wt-text-caption>span'
+etsy.com#$#hide-if-contains-visible-text 'Ad vertisement by' 'div[data-listing-id].appears-ready' 'div[data-listing-id].appears-ready div.wt-text-caption>span:not(.wt-icon):not([aria-label])'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -6032,6 +6033,9 @@ games.qq.com##.dc-kf_list
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gametower.com.tw###tableAD
 gametv.vn#$#abort-current-inline-script $ homeModal
+gamicsoft.com##.mobileAd-slider
+gamicsoft.com##A[onclick*="'Advertisement"]
+gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
 gamingroom.tv#@#.adsbygoogle
 gamme.com.tw###bd
 gamme.com.tw##.ad_down
@@ -9635,6 +9639,7 @@ qingwk.com##.c-meiqia-Air
 qingwk.com##.c-meiqia-wrapper
 qingwk.com##.l-index-activity-entrance
 qingwk.com##.l-red-packet
+qiniu.com##.extra___2cdPz > div.pc___3nUEX.extraBlock___1mGPY
 qinzhou360.com##.Txtadv-show
 qinzhou8.com##div[id^="v4ad-"]
 qiuquan.cc##.sidebar .aligncenter
@@ -10470,7 +10475,6 @@ sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
-sports.ru,tribuna.com#$#override-property-read Object.prototype.getRandomArrayElement noopFunc
 sports.sohu.com##.allsee-list > .bd-wrap
 sports4u.tv,sports4u.live#@##adblock
 sportshubtv.com###ad_show
@@ -11536,6 +11540,7 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'html:is([lang="pl"]) div[class]~* h3~div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type *>svg' '/./' '/(width: [6-8])/'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//span/following::a[@aria-labelledby][@role="link"][@target="_blank"][@tabindex="0"]/ancestor-or-self::span'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'

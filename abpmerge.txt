@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-27 08:12:20
-! Total count: 32689
+! Version: 2023-06-27 16:11:50
+! Total count: 32700
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -7418,7 +7418,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
 @@||t2e.pl/www/js/ads.js$script
-@@||tacool.com^$domain=kafan.cn
 @@||tajs.qq.com/stats?$~third-party
 @@||talentedsteel.com^$script,xmlhttprequest
 @@||talktv.vn/resource/third-party/jwplayer/ads.js$object-subrequest
@@ -10267,7 +10266,8 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath './/div[@data-async-content]//div[@data-logger-id]//span[contains(@class,"wt-screen-reader-only") and not(@aria-hidden="true")][normalize-space(text())="Ad"]/ancestor::div[@data-logger-id][1]'
+etsy.com#$#hide-if-contains-visible-text '/ by Etsy seller/' '.responsive-listing-grid' 'div  li[class] .wt-text-caption>span'
+etsy.com#$#hide-if-contains-visible-text 'Ad vertisement by' 'div[data-listing-id].appears-ready' 'div[data-listing-id].appears-ready div.wt-text-caption>span:not(.wt-icon):not([aria-label])'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -10775,6 +10775,9 @@ games.qq.com##.dc-kf_list
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
 gametower.com.tw###tableAD
 gametv.vn#$#abort-current-inline-script $ homeModal
+gamicsoft.com##.mobileAd-slider
+gamicsoft.com##A[onclick*="'Advertisement"]
+gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
 gamingroom.tv#@#.adsbygoogle
 gamme.com.tw###bd
 gamme.com.tw##.ad_down
@@ -13620,6 +13623,7 @@ newsmth.net##.ns-ad
 newstm.in,3pm.in##a[href*="/click.htm?"][target="_blank"]
 newsyou.info#$#abort-on-property-read localStorage
 newtalk.tw,phbzj.com##.ad-container
+newtoki.*##.banner
 newxue.com##.bd500
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
@@ -14402,6 +14406,7 @@ qingwk.com##.c-meiqia-Air
 qingwk.com##.c-meiqia-wrapper
 qingwk.com##.l-index-activity-entrance
 qingwk.com##.l-red-packet
+qiniu.com##.extra___2cdPz > div.pc___3nUEX.extraBlock___1mGPY
 qinzhou360.com##.Txtadv-show
 qinzhou8.com##div[id^="v4ad-"]
 qiuquan.cc##.sidebar .aligncenter
@@ -15245,7 +15250,6 @@ sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
-sports.ru,tribuna.com#$#override-property-read Object.prototype.getRandomArrayElement noopFunc
 sports.sohu.com##.allsee-list > .bd-wrap
 sports4u.tv,sports4u.live#@##adblock
 sportshubtv.com###ad_show
@@ -16327,6 +16331,7 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'html:is([lang="pl"]) div[class]~* h3~div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type *>svg' '/./' '/(width: [6-8])/'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//span/following::a[@aria-labelledby][@role="link"][@target="_blank"][@tabindex="0"]/ancestor-or-self::span'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
@@ -19467,7 +19472,6 @@ zzzyk.com###Tinfo
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
 ||apiimg.com/huaer/xiahe.
-||apiimg.com^$badfilter
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apjiangte.com^
@@ -21172,6 +21176,7 @@ zzzyk.com###Tinfo
 ||creative.xtendmedia.com^
 ||creawww.top^
 ||creepingbrings.com^
+||crf999.cn^
 ||crfrf.com^
 ||crhyqq.com^
 ||criteo.com^$third-party
@@ -21634,6 +21639,7 @@ zzzyk.com###Tinfo
 ||dig.qbao.com^
 ||dig.zjurl.cn^
 ||diggtp001.com^
+||digitaloceanspaces.com^*-Banner
 ||dikematou.com^
 ||dikmnhyxz.xyz^
 ||dilidd.com^
@@ -22789,6 +22795,7 @@ zzzyk.com###Tinfo
 ||gadscc.xyz^
 ||gagaz.cn^
 ||gaglxx.com/5_
+||gahvy6ww.icu^
 ||gaiqgs.xyz^
 ||galacg.me/wp-content/uploads/*750x
 ||galaxymedia.xyz/app/images/banner.gif
@@ -24736,6 +24743,7 @@ zzzyk.com###Tinfo
 ||jieshimaya.xyz^
 ||jievf.cn^
 ||jiezoiq.cn^
+||jifyelda.top^
 ||jijidown.com/static/img/dongcidaci/
 ||jijidown.com/static/img/right_bottom.
 ||jijidy.com/640x200down.
@@ -26181,6 +26189,7 @@ zzzyk.com###Tinfo
 ||mail.qq.com/lview?
 ||main.jiukang.org^
 ||mainbx.com^
+||maiqi.xyz^
 ||majorleaguegaming.com/assets/ab.js$script
 ||majunguo.cn^
 ||makaidong.com/img/
@@ -26863,6 +26872,7 @@ zzzyk.com###Tinfo
 ||newspage.xilu.com/model/visitlog.js
 ||newspress.name^
 ||newsres.cn/temp/tempad
+||newtoki.*/banner/
 ||newume.com/v1/data/ume-
 ||newyx.net^*/down_yd.js
 ||nex.163.com/q?
@@ -27263,6 +27273,7 @@ zzzyk.com###Tinfo
 ||oqeohuc.cn^
 ||oqjfekdkc.net^
 ||oqnggnsk.fun^
+||oqpgq.top^
 ||oqshoyd.cn^
 ||oqxep.cn^
 ||orange-dc.youku.com^
@@ -29254,6 +29265,7 @@ zzzyk.com###Tinfo
 ||spl.ztvx8.com^$third-party
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf$domain=record.xl.pt
+||sports.ru^$script,header=x-yandex-req-id
 ||sports747.com^$popup
 ||sportscn.com/js/commerical
 ||sportsdream.top^
@@ -29562,7 +29574,6 @@ zzzyk.com###Tinfo
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
 ||ta.trs.cn^$third-party
 ||taboola.com^$domain=spaste.com
-||tacool.com^
 ||tad.suning.com^
 ||tafyeta.ru^$domain=pronpic.org
 ||tahltanboutell.com^
