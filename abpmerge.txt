@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-27 16:11:50
-! Total count: 32700
+! Version: 2023-06-28 08:11:46
+! Total count: 32724
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1790,6 +1790,7 @@
 ##secion#ly LI[role='group'],secion#ly > H2
 ##section > SPAN[style='display: block; clear: both; overflow: hidden;']
 ##section.global_video_bottom_dbtc
+##section.wrap > section.f0
 ##span > A[href='###']
 ##span[title="neteasefooter"]
 ##style + .a-loading
@@ -1998,7 +1999,6 @@ $websocket,domain=5nj.com|cechi8.com
 .com:10446/*/get*.html
 .com:12289/$script,third-party
 .com:2516/code/
-.com:8001/*/*?*=$3p
 .com:8001/*/*?*=$third-party
 .com:8004/*/*?*=$third-party
 .com:8007/*/*?*=$third-party
@@ -2037,6 +2037,7 @@ $websocket,domain=5nj.com|cechi8.com
 .icu/*_*_*.js$third-party
 .icu/*_*_rony.js
 .icu/ads/
+.icu/pssbk?$third-party
 .in/js/ads/
 .info/ad.js
 .info/ad/
@@ -2152,12 +2153,13 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/mithril?$third-party
 .xyz/o.js
 .xyz/o.js$third-party
+.xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
 .xyz/upload/ad/
 .xyz/vh1/$script,third-party
 .xyz/xefeliffng_$third-party
-.xyz/xling_*_*_*.js?*
+.xyz/xling_*_*_*.js?
 .zone/ads/
 /*/*.add.*.add
 /*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
@@ -2432,6 +2434,7 @@ $websocket,domain=5nj.com|cechi8.com
 /antiadblock.
 /antipubblicita.js
 /aoyou372down300_
+/api/LM/Report?placeUUID=$third-party
 /api/Video/GetAdsData?
 /api/aaaac/list
 /api/ad/*
@@ -2812,6 +2815,7 @@ $websocket,domain=5nj.com|cechi8.com
 /js/jsstyle-$third-party
 /js/layer1.js$domain=99re.com
 /js/lm.js$script,third-party
+/js/lmdas.js
 /js/mangoIndexBanner.js
 /js/mob/cpc_bottom.js
 /js/mts.js
@@ -3071,6 +3075,8 @@ $websocket,domain=5nj.com|cechi8.com
 /static/js/gold_daddy.js
 /static/js/headad.js
 /static/js/miniyyrtv-config.js
+/statics/js/dddd.js
+/statics/js/guding.js
 /statics/js/hth1111.html
 /statics/recommend/bense.gif
 /stuiA004/statics/asd/*
@@ -3157,6 +3163,7 @@ $websocket,domain=5nj.com|cechi8.com
 /v2/stats/9*$third-party
 /vbvb_*_pmpm.js
 /vh2/*$third-party
+/vhyoydie_*_*.js$third-party
 /videoJS/video-conrtib-ads.js
 /videoad.
 /videojs5/*vpaid.min.js$domain=91porn.com|email.91dizhi.at.gmail.com.8h9.space
@@ -9835,7 +9842,7 @@ dongao.com,zgsyz.com###ad
 dongmanhuayuan.myheartsite.com##DIV.card-body
 dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
-dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doodstream.co,doodstream.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
+dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -10109,7 +10116,7 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-matches-xpath './/div[@id="srp-river-results"]/ul[starts-with(@class,"srp-results")]/li[@data-viewport]//span[@role="text"][starts-with(@class,//span/@aria-labelledby)]/ancestor::li[@data-viewport]'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ 'ul[class^="srp-results"]>li[data-viewport]' 'span.s-item__sep>span[role="text"]' 'position:absolute'; race stop;
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|贊助/ 'div[id="srp-river-results"] li[data-viewport]' 'div[id="srp-river-results"] li[data-viewport] div[class="s-item__details clearfix"]>div:last-child>span>span>span' 'color: rgba(0,0,0,1)' '-disable-bg-color-check: true' '-check-is-contained: true'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -10515,6 +10522,7 @@ flashx.pw,flashx.tv#$#abort-on-property-read affLink
 flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 flightradar24.com##.noads
 flighty.cn###searchBox + #sidebarBox
+flipkart.com#$#hide-if-matches-xpath './/div[@class]/span[text()="Ad"]/ancestor::div[@class and @data-tkid]/parent::div[@data-id and @style]'; hide-if-matches-xpath './/div[@class]/span[text()="Ad"]/ancestor::div[@class and @data-tkid][1]/parent::div[@class and @style]'
 flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 flyblog.cc##.pixnavbar__top-bar__main-sites
 flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
@@ -10580,6 +10588,7 @@ fqlook.cn###rtj1009_iho3
 fqlook.cn###rtj1009_ren_imme1
 fqsousou.com,kengso.com#@#.user-share
 fqzww.net##a[onclick="qinlintes11t2()"]
+frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor::div[@class][1][not(contains(@class,"with-sidebar"))]'
 frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
@@ -18200,6 +18209,7 @@ zzzyk.com###Tinfo
 ||6h1cz.xyz^
 ||6ha03.icu^
 ||6hejing.cn^
+||6iwoif.com^
 ||6likosy.com^$domain=pronpic.org
 ||6mh8.com^
 ||6oja.cc^$domain=9xav.cc
@@ -19020,6 +19030,7 @@ zzzyk.com###Tinfo
 ||af29.com/banner/
 ||af31f.site^
 ||afablca.cn^
+||afafevk.com^
 ||afcav.com^
 ||afd.baidu.com^
 ||afdplay.xyz^
@@ -21541,6 +21552,7 @@ zzzyk.com###Tinfo
 ||dengzhou.us^
 ||denpvh.xyz^
 ||dertyhsf.xyz^
+||destc10.icu^
 ||detowd.com^*.php
 ||deude.ltd^
 ||develenv.com^$third-party
@@ -22534,6 +22546,7 @@ zzzyk.com###Tinfo
 ||fgre9.top^
 ||fh21.com.cn/js/passport/createQuickMenu.js
 ||fh21.com.cn/partners/
+||fhddnh.xyz^
 ||fhfgg.com^
 ||fhhvdzr.cn^
 ||fhiiyi.cn^
@@ -23281,6 +23294,7 @@ zzzyk.com###Tinfo
 ||guominziben.com^
 ||guoyang.us^
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
+||guqsqfmi.com^
 ||guqu.net/Cooperate/
 ||gushiwen.org/getTicket.aspx
 ||gutouwang.net^
@@ -23312,6 +23326,7 @@ zzzyk.com###Tinfo
 ||gxlsjt.com^
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxqzz.7766.org^
+||gxxie.com^
 ||gxzhshop.com^
 ||gxzxiww.com^
 ||gybyxsy1588.com^
@@ -24893,6 +24908,7 @@ zzzyk.com###Tinfo
 ||jp2468.com/addon/
 ||jp2468.com/api/vip/vipshow.php
 ||jpai.xyz^
+||jpayu6di.icu^
 ||jpfans.com/jpfans.jpg
 ||jpg.cm^$domain=ataoju.com
 ||jpg1.oss-cn-beijing.aliyuncs.com^
@@ -25135,6 +25151,7 @@ zzzyk.com###Tinfo
 ||k34jj.xyz^
 ||k366.com/images/smxs^
 ||k3gy2.xyz^
+||k42kw.top^
 ||k5ggua.xyz^
 ||k7f67a6s7.xyz^
 ||k99.cc^$third-party
@@ -25636,6 +25653,7 @@ zzzyk.com###Tinfo
 ||le258.cn^
 ||le4le.com^
 ||leabd.douguo.com^
+||leadc6.icu^
 ||leadc7.icu^
 ||lebkrli.cn^
 ||lecai.com/page/zhuanti/baidu/
@@ -26203,6 +26221,7 @@ zzzyk.com###Tinfo
 ||manage.wdfans.cn^
 ||manage88.com^
 ||manai521.com:88/bocai/index.html
+||manbag.net^
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||manguan.vip^
@@ -26794,6 +26813,7 @@ zzzyk.com###Tinfo
 ||nagmopd.cn^
 ||nahsfl.xyz^
 ||nai7.xyz^
+||naiep.xyz^
 ||naifei.shop/static/banner/banner_mobile.jpg
 ||naiki.top^
 ||najnus.com^
@@ -27666,6 +27686,7 @@ zzzyk.com###Tinfo
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
 ||pnrqz.xyz^
+||pnzhpb.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
 ||poco.cn/v1_1/rank/get_floating_layer_ad
@@ -29467,6 +29488,7 @@ zzzyk.com###Tinfo
 ||supfree.net/xxx/
 ||supfree.net^$xmlhttprequest
 ||suqerc.com^$script
+||surface361.com^
 ||surperverse.com^
 ||surveys.hotjar.com^
 ||suukcn.com^
@@ -29668,6 +29690,7 @@ zzzyk.com###Tinfo
 ||tertqm.cn^
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||tetiao9.com^
+||teusyxz.icu^
 ||tewzc.xyz^
 ||texnet.com.cn/images/cnbanner/
 ||tf.360.cn^
@@ -32320,6 +32343,7 @@ zzzyk.com###Tinfo
 ||zffymmdg.com^
 ||zfmqfh.xyz^
 ||zfmtyv.buzz^
+||zfmtyv.xyz^
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zg.mmyuer.com^
