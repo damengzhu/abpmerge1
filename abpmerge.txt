@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-06-30 16:11:07
-! Total count: 32742
+! Version: 2023-07-01 08:10:27
+! Total count: 32762
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1889,6 +1889,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/js/ads/
 .cn/o.js$third-party
 .cn/r.gif?
+.cn/redbaiduct.com?s=$third-party
 .cn/s.gif?
 .cn/sc/*?n=$script,third-party
 .cn/sc/*?x=$script,third-party
@@ -2136,6 +2137,7 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
+.xyz/*_*_1_*.js?$third-party
 .xyz/99x/
 .xyz/?channelCode=$csp=script-src
 .xyz/?token=
@@ -2483,6 +2485,7 @@ $websocket,domain=5nj.com|cechi8.com
 /bbhd_*_kkis.js
 /bcgg/*
 /bg5t4h.oss-
+/bigREDcat.js?$third-party
 /biz_icon/*$domain=cs090.com|wm090.com
 /blgg/*
 /blockBlock.jquery.js$script
@@ -3079,6 +3082,7 @@ $websocket,domain=5nj.com|cechi8.com
 /statics/js/guding.js
 /statics/js/hth1111.html
 /statics/recommend/bense.gif
+/stats.php?adsid=$third-party
 /stuiA004/statics/asd/*
 /stui_ads/xyz456e/*
 /sungg/*$domain=sun0769.com
@@ -8339,6 +8343,7 @@ baidu.com##.ad-platform-tips
 baidu.com##.ad-taishan
 baidu.com##.ad-vip-close
 baidu.com##.ad-vip-close-bottom
+baidu.com##.ad-wrapper
 baidu.com##.adLog
 baidu.com##.adTopImg
 baidu.com##.adver-one-item-wrapper
@@ -9579,6 +9584,7 @@ ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
+cupfox.app##.cupfox-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
 cupfox.app##IMG.cupfox-img[width='100%']
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
@@ -14342,6 +14348,9 @@ purepc.pl#@#.reklama
 purepc.pl#@#[class$="reklama"]
 purevid.com#@##ad
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
+pxedt.net##.ggtext
+pxedt.net##.index_nav_juzhong
+pxedt.net##.pf_dw
 pxstream.tv###ImpedeTela
 pxstream.tv###mg_dindin
 py.cn##.index-advert
@@ -18754,6 +18763,7 @@ zzzyk.com###Tinfo
 ||ab.cnbanbao.com^
 ||ab.rejushe.com^
 ||abab.com/pv.js
+||abalado.com^
 ||abb.lxiaoxin.com^
 ||abbao.cn^*adblock
 ||abc.colayun.cn^
@@ -19974,6 +19984,7 @@ zzzyk.com###Tinfo
 ||bdcpro*.techweb.com.cn^
 ||bdcse.xyz^
 ||bddwm.com^
+||bdfg9a.icu^
 ||bdfwzt.xyz^
 ||bdgg.qjy168.com^
 ||bdhcpll.cn^
@@ -21506,6 +21517,7 @@ zzzyk.com###Tinfo
 ||dcqs4.com^
 ||dcs.conac.cn/js/
 ||dcvbnzss.xyz^
+||dcvefz.xyz^
 ||dd1.diymianmo.com^
 ||dd112233dd.com^
 ||dd6364.com/js/777/
@@ -23677,6 +23689,7 @@ zzzyk.com###Tinfo
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjgrc.xyz^
 ||hjjkk66.xyz^
+||hjpqt.cn^
 ||hjtedf.xyz^
 ||hk-pub.com/forum/images/2009/gifbanner
 ||hk-pub.com/forum/images/banner/
@@ -26899,6 +26912,7 @@ zzzyk.com###Tinfo
 ||newsres.cn/temp/tempad
 ||newtoki.*/banner/
 ||newume.com/v1/data/ume-
+||newwcrsed.com^
 ||newyx.net^*/down_yd.js
 ||nex.163.com/q?
 ||nexyzh.com^
@@ -28998,6 +29012,7 @@ zzzyk.com###Tinfo
 ||siejp.cyou^
 ||sifa.aak7.cn^
 ||sifang.info^
+||sifyeldb.top^
 ||sige20221230.xyz^
 ||sihbb.com/yang/
 ||sikqcwz.cn^
@@ -29614,6 +29629,7 @@ zzzyk.com###Tinfo
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
 ||taijuwang.com/template/alifun/js/unFavui.
+||tainec.fun^
 ||taiqingjiu.com^
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
 ||taiwandaily.net/wp-content/uploads*_600x100.
@@ -29658,6 +29674,7 @@ zzzyk.com###Tinfo
 ||tb58.net/plugin.php?id=tb58_
 ||tbazhaheii.top^
 ||tbcdn.cn/mm/tanxssp-custom/sina_
+||tbcgumkadc.xyz^
 ||tbxqbvt.cn^
 ||tc600.com^
 ||tc6tc.com^
@@ -29671,6 +29688,7 @@ zzzyk.com###Tinfo
 ||tcsgcdn.top^
 ||tcss.qq.com^
 ||tctltb.com^
+||tdavopl.icu^
 ||tdbwgrm.cn^
 ||tdid.m.qq.com^
 ||tdigcw.com^
@@ -30103,6 +30121,7 @@ zzzyk.com###Tinfo
 ||twbqqq.com^
 ||twbymc.cn^
 ||twdjn.cn^
+||twgzgqqu.com^
 ||twjsx.cn^
 ||twlcyc.cn^
 ||twn2e.cn^
@@ -30116,6 +30135,7 @@ zzzyk.com###Tinfo
 ||twuipte.cn^
 ||twunbbs.com/images/
 ||twww.sbs^
+||twzadf.xyz^
 ||twzui6.com^
 ||tx888.wang^
 ||tx99y.net^
