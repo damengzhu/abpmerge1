@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-01 16:10:14
-! Total count: 32761
+! Version: 2023-07-02 08:11:18
+! Total count: 32777
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1217,6 +1217,7 @@
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
+##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
@@ -1452,6 +1453,7 @@
 ##a[href*="/?Intr="]
 ##a[href*="/?aff="][target="_blank"]
 ##a[href*="/?intr="]
+##a[href*="/?utm_source="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
@@ -3069,6 +3071,8 @@ $websocket,domain=5nj.com|cechi8.com
 /source/plugin/mama_tips/*
 /source/plugin/yw_alertlogin/*
 /spcjs.php
+/static/*/KdLmbuThM.js?v=
+/static/*/Lqho7OKcg.js?v=
 /static/ad-
 /static/ad/*
 /static/adsview/*
@@ -20124,6 +20128,7 @@ zzzyk.com###Tinfo
 ||bfxxcram.com^$script
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
+||bgbyzv.xyz^
 ||bgnlaigv.fun^
 ||bh0874.online^
 ||bh2q.fun^
@@ -21616,6 +21621,7 @@ zzzyk.com###Tinfo
 ||dgxlm.xyz^
 ||dharkyu.cn^
 ||dhaxhsa325.com^
+||dheear.site^
 ||dherea.site^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhl.135320.com^
@@ -21776,6 +21782,7 @@ zzzyk.com###Tinfo
 ||dms.fx678.com^
 ||dms.vancss.com^
 ||dms.xuexxing.com^
+||dmxfdp.xyz^
 ||dmym.aixyy.com^
 ||dmyrza.com^
 ||dmzj.com/js/ad/
@@ -21873,6 +21880,7 @@ zzzyk.com###Tinfo
 ||dp3.qq.com/qqcom/
 ||dp3.qq.com^
 ||dpaic.xyz^
+||dpijohb.icu^
 ||dpjszs.com^
 ||dpjzzgw.cn^
 ||dpqtdkf.cn^
@@ -22720,6 +22728,7 @@ zzzyk.com###Tinfo
 ||ftfnewu.cn^
 ||fthqzxq.cn^
 ||ftimg.net/s?z=
+||ftiodfqk.com^
 ||ftnthzv.cn^
 ||ftptjj.xyz^
 ||ftrtnr.xyz^
@@ -23627,6 +23636,7 @@ zzzyk.com###Tinfo
 ||hffxc.com^
 ||hfhytx.xyz^
 ||hfjsbf.xyz^
+||hfk7j.top^
 ||hflssy.com^
 ||hflwgg.xyz^
 ||hfwzbp.cn^
@@ -25382,6 +25392,7 @@ zzzyk.com###Tinfo
 ||kmf.com/da/do
 ||kmgfjc.cn^
 ||kmhmyaj.cn^
+||kmihknj.cn^
 ||kminker.xyz^
 ||kmjbwejnr.xyz^
 ||kmlxlkz.cn^
@@ -26060,6 +26071,7 @@ zzzyk.com###Tinfo
 ||lwddrhp.cn^
 ||lwh147.xyz^
 ||lwhqa.xyz^
+||lwksxs.com^
 ||lwlqsgr.cn^
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js
@@ -27882,6 +27894,7 @@ zzzyk.com###Tinfo
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||pyeditingpro.biz^
+||pygokay.cn^
 ||pygone.top^
 ||pyirw.xyz^
 ||pyjqhb.xyz^
@@ -30325,6 +30338,7 @@ zzzyk.com###Tinfo
 ||ukutuy.xyz^
 ||ulfex.cn^$third-party
 ||ulink.cc^$third-party
+||ulkoxbra.com^
 ||ulsynmlt.fun^
 ||ultrafiles.net/Webservices/jsParseLinks.aspx$script,third-party
 ||ultrafiles.net/visitScript/$script,third-party
@@ -31351,6 +31365,7 @@ zzzyk.com###Tinfo
 ||xdwan.com^$third-party
 ||xdyjt.com^
 ||xecner.top^
+||xegneils.com^
 ||xeiatmf.cn^
 ||xeiyt.cyou^
 ||xektyy.cn^
@@ -31842,6 +31857,7 @@ zzzyk.com###Tinfo
 ||ygqrki.xyz^
 ||ygshu.com/js/h
 ||ygwdai.cn^
+||ygxgk.cn^
 ||yh.zg-zxzx.net^
 ||yh20230625tu.com^
 ||yhbdrnr.cn^
