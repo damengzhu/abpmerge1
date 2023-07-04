@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-04 08:12:37
-! Total count: 32044
+! Version: 2023-07-04 16:11:50
+! Total count: 32043
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -11416,16 +11416,6 @@ hqew.com##.pop-banner
 hqew.com##div[class^="g-ad-"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@##adsbox
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Flagrow-Ads-under-header
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.RMss1
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.Text-Advertising
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_ssk_cn
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.a_xsfl
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ctm_ad
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.ff-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.google-ads
-htcomic.top,htmanga.top,wnacg.com,wnacg.org,wnacg.top#@#.hlol_ad
 htcui.com##.carousel
 htcui.com##.qqanimate
 htcui.com##.yanshibtn
@@ -14768,6 +14758,7 @@ se.pl###adb_popup
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 se8u.cc##.footAdv
 sea-group.org###text-7
+search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
 search.seznam.cz#$#hide-if-matches-xpath './/div/h3[contains(@class,"bd037d")]/a[@data-dot-data]/ancestor::div[@data-e-b-n]'
 search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[@data-e-b-n][@data-n-id]/parent::div[@class][1]'
 search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/ancestor::div[@data-e-b-n]'
@@ -16260,9 +16251,19 @@ wmzhe.com##.aibyte_ad
 wmzhe.com##.downloader
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
-wnacg.com,wnacg.org##a[href^="http"]:not([href*="wnacg."]) img
-wnacg.com,wnacg.org##img[width="399"][height*="6"]
-wnacg.com,wnacg.org##script + div > a > img
+wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
+wnacg.com##img[width="399"][height*="6"]
+wnacg.com##script + div > a > img
+wnacg.com#@##adsbox
+wnacg.com#@#.Flagrow-Ads-under-header
+wnacg.com#@#.RMss1
+wnacg.com#@#.Text-Advertising
+wnacg.com#@#.a_ssk_cn
+wnacg.com#@#.a_xsfl
+wnacg.com#@#.ctm_ad
+wnacg.com#@#.ff-ads
+wnacg.com#@#.google-ads
+wnacg.com#@#.hlol_ad
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
 woego.cn#@##topAds
@@ -30385,9 +30386,6 @@ zzzyk.com###Tinfo
 ||wnacg.*/w8z/
 ||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
-||wnacg.org/img/500_60
-||wnacg.org/img/wap
-||wnacgcdn.top/data/game/
 ||wneia.iaskhot.com^
 ||wo1990.com^
 ||woaidu.org/images/20180802/3.jpg
@@ -30796,6 +30794,7 @@ zzzyk.com###Tinfo
 ||xiaoshuoyun.cn^
 ||xiaosss.ren^
 ||xiaosunxin.cn^
+||xiaoxiuapp.com^
 ||xiaoyange.cn^
 ||xiaoyida.com^$third-party
 ||xiaoyunong13.top^
