@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-05 08:12:42
-! Total count: 32054
+! Version: 2023-07-05 16:12:00
+! Total count: 32059
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8056,6 +8056,8 @@ aoshitang.com###msg_win
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 aotu43.com##center > a[rel="nofollow"] > .king
 aovivoagora.com##div[id^="anuncio"]
+api.guailie.com##+js(set-constant, killAdKiller, noopFunc)
+api.guailie.com#@#.google-ad
 api.so.lianmeng.360.cn,pos.baidu.com##body
 apiref.com###navbarRightAd
 apiref.com,iodraw.com,matools.com###popAd
@@ -8580,6 +8582,7 @@ beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,
 bejson.com##.alert-dismissable
 bejson.com##.modal-backdrop
 bejson.com##.t-small-margin > ul:first-child
+bejson.com##.xf2-gg-left
 bejson.com##a[href*="/kuaikuai."]
 bejson.com##a[href*="layui.com"]
 bejson.com##div[id^="shua"] + font[color="red"]
@@ -9560,6 +9563,7 @@ ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
+cupfox.app##.a1-box[class^="jsx-"]
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.cupfox-box
@@ -27251,6 +27255,7 @@ zzzyk.com###Tinfo
 ||player.letvcdn.com/*/newplayer/1/WatchingBuy.swf
 ||playstats.v.duowan.com^
 ||playtv.com.cn/Pictuer/
+||plbs9k.icu^
 ||plerv.com^
 ||pliaoboer.top^
 ||plmn5.com^
