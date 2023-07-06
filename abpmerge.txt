@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-06 08:12:40
-! Total count: 32064
+! Version: 2023-07-06 16:12:03
+! Total count: 32068
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -10990,6 +10990,7 @@ gtloli.live,gtloli.one##.sd_recpic
 gtloli.one###topbanner
 guagua.cn###floatRoomDiv
 guahao.com##.link-modal
+guailie.com#@#.google-ad
 guancha.cn###ewm_app
 guancha.cn###goapp
 guancha.cn##.full_nav1
@@ -11821,13 +11822,12 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/ancestor::section[@class]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eliggiible]/ancestor::div[@aria-label="Product"]/ancestor-or-self::li'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'; hide-if-matches-xpath './/div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor::div[2]'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eliggible]) = 1 and count(.//div/span) = 2]]'; hide-if-matches-xpath '//li[descendant::div[count(.//div[@data-sp-eligiible]) = 1 and count(.//div/span) = 2]]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -12555,6 +12555,7 @@ kengso.com,pansoso.com,xgsoso.com##a[href*=".click.taobao.com"]
 keylol.com,steamcn.com##div[class*="rnd_"]
 keywin.org##.appdownload
 keywin.org##.pindaolist
+khoaiphim.com#$#abort-current-inline-script jQuery click_time
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 kickassanime.io##.ka-ax-wrapper
 kickassanime.io##.ka-ax-wrp.mb-3
@@ -13658,6 +13659,7 @@ nfuwow.com##.adtopnewnewbox
 nfuwow.com##.bannermid3box
 nfuwow.com##.crightbtad
 nfuwow.com##.midbgdbox
+nfuwow.com##DIV[style*="width: 1160px;"]
 nfuwow.com##a[href*="myyj.net"]
 nfxhd.com##a[href*=".fa510.com"]
 nhentai.net#$#override-property-read _n_app.popunder null;
@@ -17289,6 +17291,7 @@ zzzyk.com###Tinfo
 ||1512a.com^
 ||154.196.143.171^
 ||154.212.147.231^
+||154.22.214.2^
 ||154.7.80.158^
 ||156.232.37.2^
 ||156.233.32.123^$third-party
@@ -22176,6 +22179,7 @@ zzzyk.com###Tinfo
 ||evenyw.xyz^
 ||everydaycarry.com^$popup
 ||everyonepiano.cn/Public/*0x
+||evidhjksdtgyxrh.xyz^
 ||evmnlpv.cn^
 ||evtubescms.phncdn.com^
 ||evunmc.xyz^
