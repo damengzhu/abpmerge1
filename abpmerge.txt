@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-07 08:12:13
-! Total count: 32078
+! Version: 2023-07-07 16:11:33
+! Total count: 32081
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1844,7 +1844,7 @@ $websocket,domain=5nj.com|cechi8.com
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
-.buzz$domain=btsj6.com
+.buzz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
 .buzz/*=$object,third-party
 .cam/ads/
@@ -1855,7 +1855,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cfd/video/index/index/user_login/
 .cilipa*/js/os.js
 .cloud/ads/
-.club$domain=yinghuacd.com
 .club/ads/
 .club/adv/
 .cn/*-*-*.xc$script,third-party
@@ -2114,8 +2113,7 @@ $websocket,domain=5nj.com|cechi8.com
 .wap.x4399.com^
 .work/ads/
 .xn--fiqs8s:7385/
-.xyz$domain=btsj6.com
-.xyz$domain=yinghuacd.com
+.xyz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
@@ -12038,6 +12036,7 @@ itavcn.com##.topadvzone
 itavcn.com##img[width="722"]
 itbaoku.cn##+js(set-constant, killads, true)
 itbaoku.cn##.col-lg-12[style="padding-left: 0px;padding-top: 15px;padding-bottom: 15px;"]
+itblogcn.com#?#.sidebar > div.widget:has(> div.item > aside > div.textwidget > a[href="https://www.itblogcn.com/vultr/t"])
 itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 itboth.com,itkeyword.com##a[href*=".aliyun."]
@@ -20008,6 +20007,7 @@ zzzyk.com###Tinfo
 ||bephb.in^
 ||beqokg.xyz^
 ||beryl3.cc^
+||berylnbb.com^
 ||besc.baidustatic.com^
 ||bestialvehemence.com^
 ||bestpush.pconline.com.cn^
@@ -20119,6 +20119,7 @@ zzzyk.com###Tinfo
 ||bjytdqwx.com^
 ||bjzb.xyz^
 ||bkae.top^
+||bkhblj.xyz^
 ||bkill.com/css/js/*top
 ||bkill.com/css/js/abcbl.js
 ||bkill.com/css/js/xinbkill.js
@@ -23293,6 +23294,7 @@ zzzyk.com###Tinfo
 ||hdherpc.cn^
 ||hdminfeng.com^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdpdrandpd.xyz^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/bfs/sycp/creative_img/$image
@@ -31730,6 +31732,7 @@ zzzyk.com###Tinfo
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zfotrq.xyz^
+||zfteiv.xyz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
 ||zgdshoes.com^
