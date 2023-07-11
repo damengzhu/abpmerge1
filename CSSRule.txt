@@ -4594,6 +4594,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -6580,6 +6581,7 @@ hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
 hk01.com##.md\:min-h-\[90px\]
+hk01.com##.min-h-\[250px\].mb-3
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
@@ -8324,6 +8326,9 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-brand-banner"]
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-product"]
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[data-testid*="sponsored"] span'
 manwa.me##.ad-area > a
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
@@ -10330,6 +10335,8 @@ softonic.com,softonic.jp,softonic.nl,softonic.pl,softonic.com.br,softonic.ru#$#p
 softpedia.com#@#.ad
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 sogi.com.tw##div[class="row my-2 ad-slot-970"]
+sogi.com.tw#?##main > div.container:has(> div#ad)
+sogi.com.tw#?#.editable  > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn

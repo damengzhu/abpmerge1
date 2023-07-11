@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-11 08:12:09
-! Total count: 32232
+! Version: 2023-07-11 16:11:49
+! Total count: 32243
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9458,6 +9458,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
@@ -11453,6 +11454,7 @@ hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
 hk01.com##.md\:min-h-\[90px\]
+hk01.com##.min-h-\[250px\].mb-3
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
 hkcards.com###ad-slot-01
@@ -13205,6 +13207,9 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-brand-banner"]
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid^="sponsored-product"]
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[data-testid*="sponsored"] span'
 manwa.me##.ad-area > a
 manwa.me#$#.ad-area { position: absolute !important; left: -3000px !important; }
 manwa.me#@#.ad-area
@@ -15235,6 +15240,8 @@ softonic.com,softonic.jp,softonic.nl,softonic.pl,softonic.com.br,softonic.ru#$#p
 softpedia.com#@#.ad
 softportal.com#$#abort-on-property-read popupShowInterval; abort-on-property-read Object.prototype.str_replace
 sogi.com.tw##div[class="row my-2 ad-slot-970"]
+sogi.com.tw#?##main > div.container:has(> div#ad)
+sogi.com.tw#?#.editable  > div.text-center:has(> div.d-inline-block > div[id^="div-gpt-ad"])
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn
@@ -21354,6 +21361,7 @@ zzzyk.com###Tinfo
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
 ||dadcc.cn^
+||dadde.cn^
 ||daddq.cn^
 ||dadwu.cn^
 ||dadzz.cn^
@@ -23194,6 +23202,7 @@ zzzyk.com###Tinfo
 ||guzsjdl.cn^
 ||gv4e.top^
 ||gvqrclx.cn^
+||gw1jvhs.com^
 ||gwaaz.cn^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwertyuadf.com^
@@ -23225,6 +23234,7 @@ zzzyk.com###Tinfo
 ||gyjinchuang.vip^
 ||gykyec.xyz^
 ||gypowdr.com^
+||gyq3bew.icu^
 ||gysn001.com^
 ||gyt168.com.cn^
 ||gywb.cn/cs_mulu/
@@ -27489,6 +27499,7 @@ zzzyk.com###Tinfo
 ||pqomnfbg.com^
 ||pqxyqq.com^
 ||pr-bh.ybp.yahoo.com^
+||pr88vhg.com^
 ||prdohgp.cn^
 ||prelandappslab.com^
 ||prettyvirgin.com/images/banners/
