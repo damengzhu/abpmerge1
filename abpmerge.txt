@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-11 16:11:49
-! Total count: 32243
+! Version: 2023-07-12 08:12:24
+! Total count: 32255
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -630,6 +630,7 @@
 ##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
+##.col6 > A[onclick*="横幅"]
 ##.comiis_ad
 ##.comiis_adbox
 ##.comiis_guanggao
@@ -7890,6 +7891,7 @@ _fioiwhfo_
 _float_fuo.js
 _naimabdd_
 _popAds.
+_rony.js$script,third-party
 _tm11_pmt_
 _vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
@@ -11934,10 +11936,10 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@class][not(@id="store-wrapper") and not(@id="js-app")]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::div[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/ancestor::section[@class]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
-instacart.com#$#hide-if-matches-xpath './/div[@class]/preceding::button[@disabled][@type="button"]/ancestor::div[@aria-label="Product"]/ancestor-or-self::li'
+instacart.com#$#hide-if-matches-xpath './/div[@class]/preceding::button[@disabled][@type="button"]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
 instantmanga.com###notice
@@ -17570,6 +17572,7 @@ zzzyk.com###Tinfo
 ||1r7efqo.tjfmd.com^$script,xmlhttprequest,domain=pch.com
 ||1s8pj.cn^$third-party
 ||1u0oqad.diqx.namemc.com^$domain=namemc.com
+||1u5gy.xyz^
 ||1v7.cn^$third-party
 ||1v9d7vx.cob.autojournal.fr^$script
 ||1v9d7vx.jaz.sportauto.fr^$script
@@ -21784,6 +21787,7 @@ zzzyk.com###Tinfo
 ||dongya.org^
 ||dorangesource.alicdn.com^
 ||doremido.com^
+||dosre12.xyz^
 ||dota.sykty.com^
 ||dota2.uuu9.com^$subdocument
 ||douban.com/?unit=dale_movie_trailer_after_play&
@@ -22252,6 +22256,7 @@ zzzyk.com###Tinfo
 ||erwgj.xyz^
 ||es3984.review/02_cn_ad/
 ||esanciw.top^
+||esgher.site^
 ||esiws.com^
 ||esjzj.cyou^
 ||eskay.cn^
@@ -22528,6 +22533,7 @@ zzzyk.com###Tinfo
 ||fjsen.com:81/mysql/count/
 ||fjshxjs.cn^
 ||fjsytjs.cn^
+||fjtroip.cn^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
 ||fka06.site^
@@ -24725,6 +24731,7 @@ zzzyk.com###Tinfo
 ||jojog.com^
 ||jokerlu.com/upload/addon/
 ||jokerlu.com/upload/vod/
+||jokerlulm.com^
 ||jollyspring.com^
 ||jollytestpartying.com^
 ||jomwihn.cn^
@@ -25350,6 +25357,7 @@ zzzyk.com###Tinfo
 ||kygso.com/js/lrtk.js
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
+||kyq3hky.icu^
 ||kyqbifz.cn^
 ||kyrj.xyz^
 ||kyxw9itc.xyz^
@@ -26921,6 +26929,7 @@ zzzyk.com###Tinfo
 ||oicchina.com^$third-party
 ||oicvvnm.cn^
 ||oiewpw.com^
+||oifyeldk.top^
 ||oiknldwlkop.com^
 ||oikqwnm.com^
 ||oiljomy.xyz^
@@ -28082,6 +28091,7 @@ zzzyk.com###Tinfo
 ||rdqgllmny.com^$script
 ||rdsmod.cc^
 ||rdtjkwy.cn^
+||rdufuxr.icu^
 ||re.taotaosou.com^
 ||readme.red^
 ||readysugerfree.top^
@@ -30906,6 +30916,7 @@ zzzyk.com###Tinfo
 ||xcvsw.xyz^
 ||xcvtg.xyz^
 ||xcvur.xyz^
+||xcvwrj.xyz^
 ||xcwzq.xyz^
 ||xcysqq.com^
 ||xd4a.top^
@@ -32005,6 +32016,7 @@ zzzyk.com###Tinfo
 ||ziling.ink^
 ||zinzimo.info^$domain=pronpic.org
 ||zipeyrp.cn^
+||ziravd.xyz^
 ||zisafniq.space^
 ||zisu.cn.com^
 ||ziyuanm.com/js/g11.js
