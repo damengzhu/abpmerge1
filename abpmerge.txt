@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-12 16:11:25
-! Total count: 32254
+! Version: 2023-07-13 08:12:10
+! Total count: 32264
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -630,7 +630,7 @@
 ##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
-##.col6 > A[onclick*="横幅"]
+##.col6 > a[onclick*="横幅"]
 ##.comiis_ad
 ##.comiis_adbox
 ##.comiis_guanggao
@@ -991,6 +991,7 @@
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
 ##.zozoads
+##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
@@ -1031,6 +1032,7 @@
 ##A[href^='https://www.nonstopclub.xyz']
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
+##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##A[target='_blank'] > IMG[width='100%'][src*='.gif']
 ##A[target='_blank'][href*='/auth/register?code=']
@@ -1057,6 +1059,7 @@
 ##DIV.advertisingConfiguration
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
+##DIV.bot-per.visible-xs.visible-sm *
 ##DIV.box-width.ec-ad
 ##DIV.code-block[style='margin: 8px 0; clear: both;']
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
@@ -1657,6 +1660,7 @@
 ##div.maomi-content A[href='/baidu/index.html']
 ##div.mobile > div.content IMG[src*='.gif']
 ##div.module-list-right-title-wrap > div.normal-title-wrap > div > a
+##div.my-ad > a
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
@@ -2735,7 +2739,7 @@ $websocket,domain=5nj.com|cechi8.com
 /include/ad/*
 /include/ad_
 /includes/adv/*
-/index.html?channelCode=$~third-party
+/index.html?channelCode=
 /index.php/Customize/list?params=
 /index.php/Statistics/ads_show?
 /indexpc.html?agent=$popup,third-party
@@ -2870,8 +2874,8 @@ $websocket,domain=5nj.com|cechi8.com
 /local_p.js^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com|megatube.xxx
 /loooyu.js
 /lteee/ad/*
-/m.html?rmid=*&yd=$~third-party
-/m.html?shareName=*&proxyAccount=$~third-party
+/m.html?rmid=*&yd=
+/m.html?shareName=*&proxyAccount=
 /m/i.php?id=$script,third-party
 /m1938pc/static/css/sxy.css
 /m1938pc/static/js/dibu.js
@@ -3220,6 +3224,7 @@ $websocket,domain=5nj.com|cechi8.com
 /xxgg/app.js
 /xxgg/book.js
 /xxgg/dj*.js
+/xxgg/e13dj113a.js
 /xxgg/goodad.js
 /xxgg/pf*.js
 /xxgg/pv.js
@@ -11477,7 +11482,6 @@ hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
 hlgnet.com,sina.com##.tad
 hlouhopAes=no5$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-hm.js/
 hmitalk.com##div[class*="-pubadban "]
 hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
@@ -20129,6 +20133,7 @@ zzzyk.com###Tinfo
 ||bestqikan.com/static/js/swt.js
 ||bestvogue.com/fans/
 ||bet-at-home.com^$popup
+||betcss.site^
 ||betgdr.xyz^
 ||betgorebysson.club^
 ||betteredu.net/js/pop_tuiguang_
@@ -20290,6 +20295,7 @@ zzzyk.com###Tinfo
 ||bockd.xyz^
 ||bocvb.xyz^
 ||bodu365.co/t/
+||boewgph.icu^
 ||bofnhn.com^
 ||bohanhengtian.cn^
 ||bojebd.xyz^
@@ -22950,6 +22956,7 @@ zzzyk.com###Tinfo
 ||gk99.com/static/js/a-d-sys.js
 ||gkcmei.xyz^
 ||gkiho.xyz^
+||gkjmev3.com^
 ||gknybkl.cn^
 ||gkofzfi.cn^
 ||gkustph.cn^
@@ -23715,6 +23722,7 @@ zzzyk.com###Tinfo
 ||hsrgnac.cn^
 ||hssapp.shop^
 ||hssebb.xyz^
+||hstbrt.xyz^
 ||hswfj.cn^
 ||hsybe0m5.site^
 ||hsyfcenter.com^
@@ -28999,6 +29007,7 @@ zzzyk.com###Tinfo
 ||ssh.q4hwkg.cn^
 ||ssio6xepo.cyou^
 ||ssjiancai.com^
+||ssjuxsc.cn^
 ||ssjv1.com/dm/
 ||ssjy.shop^
 ||ssl.css.cdn120.com/js/application.js
@@ -31113,6 +31122,7 @@ zzzyk.com###Tinfo
 ||xmrc.com.cn/net/info/html/
 ||xmseaside.com^
 ||xmsrd.com^
+||xmxupz.xyz^
 ||xmywlyh.cn^
 ||xmzurh.xyz^
 ||xn--*.xn--fiqs8s:
