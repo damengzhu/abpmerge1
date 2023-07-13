@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-13 08:12:10
-! Total count: 32264
+! Version: 2023-07-13 16:11:34
+! Total count: 32276
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -998,6 +998,7 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
+##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
@@ -9786,6 +9787,7 @@ dayt.se#@##ads
 dayt.se#@##bottomcenterit
 dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:has(> div[class] > div > div[id^="div-gpt-ad"])
 dcard.tw#?#div[data-index] > article:contains(贊助活動)
+dcard.tw#?#div[role="main"] div[class^="atm_26_"]:has(> div[class^="atm_26_"] > div[style="min-height:90px"] > div[id^="div-gpt-ad"])
 dcast.tv###hideall
 dcfever.com##.col-md-right > div[style^="margin-bottom: 20px; text-align: center;"]
 dcfever.com##.container > .row > .col-md-12[style^="margin-top:"][style*="text-align: center; width:"][style*="min-height:"]
@@ -11952,6 +11954,7 @@ investing.com##div[class*="adBlock"]
 investing.com##div[class*="overlay_overlay"]
 inwestycje.pl###show-message
 ip.cn##.well > p > a
+ip138.com###banner
 ip138.com,av1868.com,edc1014070.pixnet.net###banner
 ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ipcfun.com###crumb_r
@@ -13040,7 +13043,7 @@ ludashi.com##.div_text
 lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 luogu.com.cn##.side > div:last-child:not([class])
 luoqiuzw.com##DIV[id^="a-loading-"]
-luotphim1.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
+luotphim1.net,luotphim2.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -20169,6 +20172,7 @@ zzzyk.com###Tinfo
 ||bian-min.com/javascript/a/detail.js
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||biancheng.net/uploads/ggxc/
+||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
 ||bianxianmao.com^$third-party
 ||bianzhirensheng.com/img/banner.jpg
 ||bianzhirensheng.com/img/bianzhiji.jpg
@@ -21095,6 +21099,7 @@ zzzyk.com###Tinfo
 ||connect.cointent.com^$domain=themarysue.com
 ||connect.facebook.net^*/fbds.js$third-party
 ||connectormwi.laterpay.net^$script,domain=schoener-wohnen.de
+||connectreadoasis.com^
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||coolaler.com/index_ads/
@@ -21367,6 +21372,7 @@ zzzyk.com###Tinfo
 ||dada8828.com/js/aaa/
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
+||dadbj.cn^
 ||dadcc.cn^
 ||dadde.cn^
 ||daddq.cn^
@@ -21968,6 +21974,7 @@ zzzyk.com###Tinfo
 ||dyhnbgtsl.xyz^
 ||dyjqd.com/images/js/dyjqd.js
 ||dykeep.com^
+||dykshao.cn/image/$third-party
 ||dymmt.com/skin/mzitu/js/foot.
 ||dyncdn.me/static/20/js/expla$script
 ||dyncdn.me/static/20/js/showads.js$script
@@ -22386,6 +22393,7 @@ zzzyk.com###Tinfo
 ||falal.cn^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||faloo.com/ou/site/
+||falsarywaybung.com^
 ||familydoctor.com.cn/c/a/000/ggw_
 ||famorlymal.com^
 ||fanfiktion.de/pics/*.gif$domain=fanfiktion.de
@@ -23599,6 +23607,7 @@ zzzyk.com###Tinfo
 ||hlbbn6ii.icu^
 ||hldwdz.xyz^
 ||hlggimg.com^
+||hlnr9q.icu^
 ||hlstlyy.com^$third-party
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hlzyb.cn^
@@ -25365,6 +25374,7 @@ zzzyk.com###Tinfo
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ||kyq3hky.icu^
+||kyq3xch.icu^
 ||kyqbifz.cn^
 ||kyrj.xyz^
 ||kyxw9itc.xyz^
@@ -25582,6 +25592,7 @@ zzzyk.com###Tinfo
 ||lieqinews.com/json/zhiketj/
 ||lifu11.com^
 ||lifvfr.xyz^
+||lifyeldl.top^
 ||lihong.ltd^
 ||lihuan.store^
 ||lihuasoft.net/images/ad_
@@ -26708,6 +26719,7 @@ zzzyk.com###Tinfo
 ||niangaoxiansheng.com^
 ||nibblebit.com/assets/media/adverts.php
 ||nicelinks.site/ad-block-
+||nieae.xyz^
 ||niebiaoyyds.com^
 ||nihuwo.asia^
 ||niik9494.top^
