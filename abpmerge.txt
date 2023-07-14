@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-13 16:11:34
-! Total count: 32276
+! Version: 2023-07-14 08:11:39
+! Total count: 32282
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -998,7 +998,6 @@
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
-##A[href*="kdocs.cn"] > IMG[src*="sstv."]
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
@@ -1539,6 +1538,7 @@
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
+##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="nnqp.vip"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
@@ -3658,7 +3658,7 @@ $websocket,domain=5nj.com|cechi8.com
 18av.mm-cg.com###primary_content > #Dfrom
 18av.mm-cg.com##.ut_ad_box
 18av.pro##.video-server > .inplayer
-18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
+18avhub.com,18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,ip138.com,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
 18avhub.com,18avtube.com,avmimi.com,mm-cg.com###friendLink
 18avhub.com,18avtube.com,mm-cg.com###partner
 18avhub.com,18avtube.com,mm-cg.com##.CN_qmvtoy
@@ -9123,6 +9123,7 @@ cenapaliw.pl#@#div[id^="div-gpt-ad"]
 cenapaliw.pl#@#iframe[id^="google_ads_iframe"]
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
+cger.com,pcsoft.com.cn#@#.share_box
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
 cgown.com,taohuayun.cn##img[width="980"]
@@ -10217,10 +10218,9 @@ easylearn.baidu.com##.feedback-icon
 easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
-ebay.at,ebay.de,ebay.ch#$#race start; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 40/' '/width: 40/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 41/' '/width: 41/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 42/' '/width: 42/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 43/' '/width: 43/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 44/' '/width: 44/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 45/' '/width: 45/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 46/' '/width: 46/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 47/' '/width: 47/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 48/' '/width: 48/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 49/' '/width: 49/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 50/' '/width: 50/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 51/' '/width: 51/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 52/' '/width: 52/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 53/' '/width: 53/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 54/' '/width: 54/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 55/' '/width: 55/'; race stop; hide-if-matches-xpath './/li[@data-viewport]//div[@aria-labelledby][contains(@style, "repeating") or contains(@style, "display: none")]/ancestor::li[@data-viewport]'
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 55/' '/width: 55/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 56/' '/width: 56/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 57/' '/width: 57/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 58/' '/width: 58/';hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 59/' '/width: 59/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 60/' '/width: 60/';hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 61/' '/width: 61/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 62/' '/width: 62/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 63/' '/width: 63/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 64/' '/width: 64/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 65/' '/width: 65/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 66/' '/width: 66/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 67/' '/width: 67/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 68/' '/width: 68/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 69/' '/width: 69/'; hide-if-has-and-matches-style * 'div.s-item__detail div[aria-labelledby]' 'div.s-item__detail div[aria-labelledby]>span' '/width: 70/' '/width: 70/'; race stop; hide-if-matches-xpath './/li[@data-viewport]//div[@aria-labelledby][contains(@style, "repeating") or contains(@style, "display: none")]/ancestor::li[@data-viewport]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-image '/(793d272d38..272066(.*)6528302039)|(793d272d37..272066(.*)6528302038)|(793d272d36..272066(.*)6528302037)|(793d272d35..272066(.*)6528302036)|(793d272d34..272066(.*)6528302035)|(793d272d33..272066(.*)6528302034)|(793d272d32..272066(.*)6528302033)|(793d272d31..272066(.*)6528302032)|(793d272d..272066(.*)6528302031)|(793d2739..2720(.*)652830202d38)|(793d2738..2720(.*)652830202d37)|(793d2737..2720(.*)652830202d36)|(793d2736..2720(.*)652830202d35)|(793d2735..2720(.*)652830202d34)|(793d2734..2720(.*)652830202d33)|(793d2733..2720(.*)652830202d32)|(793d2732..2720(.*)652830202d31)|(793d2731..27(.*)652830202d..2e)|(793d27..27(.*)65283020..2e)/' li[data-viewport] 'span.s-item__sep>span[aria-labelledby]'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -11954,7 +11954,6 @@ investing.com##div[class*="adBlock"]
 investing.com##div[class*="overlay_overlay"]
 inwestycje.pl###show-message
 ip.cn##.well > p > a
-ip138.com###banner
 ip138.com,av1868.com,edc1014070.pixnet.net###banner
 ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ipcfun.com###crumb_r
@@ -14163,7 +14162,6 @@ pcsoft.com.cn##.xzdz_huodong
 pcsoft.com.cn##a[onclick*="_ad"]
 pcsoft.com.cn##div[style^="width:100px;height:300px;position:fixed;"]
 pcsoft.com.cn##iframe[id]
-pcsoft.com.cn#@#.share_box
 pcstore.com.tw###id_index_ad_bimg
 pcstore.com.tw###keyad-right
 pcstore.com.tw##.bestshop_ad
@@ -20774,6 +20772,7 @@ zzzyk.com###Tinfo
 ||chexun.net/images/sales//cxgg/
 ||chicmifi.com^
 ||chidir.com^
+||chiese.site^
 ||chihuoguo.me^
 ||chiluyingxiao.com^
 ||china-netwave.com^$third-party
@@ -22700,6 +22699,7 @@ zzzyk.com###Tinfo
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
 ||fwwjbvz.cn^
+||fwzvlp.xyz^
 ||fx110.*/Pub/Ghz/GetModel
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
 ||fx110.*/Styles/1.0.0/dist/Ghz/MatrixAds.
@@ -24564,6 +24564,7 @@ zzzyk.com###Tinfo
 ||jhgtf.com^
 ||jhlxfw.cn^
 ||jhxcld.xyz^
+||jhzfwl.cn^
 ||jia-huan.cn^
 ||jia.com/js/common/article_home_adv.js
 ||jia.com/js/common/jia-common.js
@@ -25420,6 +25421,7 @@ zzzyk.com###Tinfo
 ||laladui.buzz^
 ||lalaping.com^
 ||lambda.center^
+||lamkghx.icu^
 ||lancdn.com/landian/public/recm/54181RECM.png
 ||lancdn.com/tmp3/GG_Notice.png
 ||lancdn.com^*/Alipay_HB.
@@ -27037,6 +27039,7 @@ zzzyk.com###Tinfo
 ||oofyjik.xyz^
 ||oohekxhvt.com^$script
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
+||oopej.xyz^
 ||ooqiu.com/ad_js/
 ||oorlsblk.cyou^
 ||ootyx24.com^
@@ -27265,6 +27268,7 @@ zzzyk.com###Tinfo
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
+||pcvzpj.xyz^
 ||pcworld.co.nz/*pipeline$script
 ||pcxtvr.xyz^
 ||pddbtn.xyz^
@@ -28561,6 +28565,7 @@ zzzyk.com###Tinfo
 ||seznamzpravy.cz/*/static/js/*^$domain=seznamzpravy.cz
 ||sf2.net/a/index.
 ||sfbixfd.cn^
+||sfg11rr.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
 ||sfsft.com/ckplayer/1config.js
@@ -31839,6 +31844,7 @@ zzzyk.com###Tinfo
 ||zchkz.cn^
 ||zcmnffq.cn^
 ||zcrui.com^
+||zcvyzsyd.icu^
 ||zcy821.com^
 ||zczcvx.com^
 ||zd518.cn/bfq2.html
