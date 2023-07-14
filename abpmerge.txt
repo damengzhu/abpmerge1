@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-14 08:11:39
-! Total count: 32282
+! Version: 2023-07-14 16:11:31
+! Total count: 32285
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -996,6 +996,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*=".taobao.com"] > .top1
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='//v.wanfumei.net']
@@ -4285,9 +4286,8 @@ $websocket,domain=5nj.com|cechi8.com
 58pic.com##.activitySettings-fixedBottom
 58pic.com##.xyyh
 591hx.com##.banner_w
-5dm.app##.top1
 5dm.app##[src*="sinaimg.cn"]
-5dm.app#@#.tm-share-this
+5dm.link#@#.tm-share-this
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 5eplay.com##img[width="1240"]
 5eplay.com##img[width="290"][height="360"]
@@ -9683,7 +9683,7 @@ ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
-cupfox.app##.a2-box[class^="jsx-"]
+cupfox.app##.a3-box[class^="jsx-"]
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.cupfox-box
@@ -11489,6 +11489,7 @@ hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hmoe12.com##.poi-container > div > a[href^="https://www.hmoe12.com/wp-admin/admin-ajax.php?action="][target="_blank"]
+hmoeh.com##+js(set-constant, google_tag_data, {})
 hmqg.net##DIV#bottommob.bottommob
 holavid.com,liivideo.com#$#abort-on-property-read Math.sin
 home.firefoxchina.cn##.border-gray-200.tuijian
@@ -26289,6 +26290,7 @@ zzzyk.com###Tinfo
 ||mkd88.cc/16.32.jpg
 ||mkqdj.cn^
 ||mlog.aipai.com^
+||mlstx.cn^
 ||mlsynmlx.fun^
 ||mlt01.com^
 ||mlzgazz.cn^
@@ -26310,7 +26312,6 @@ zzzyk.com###Tinfo
 ||mmgg62.com^
 ||mmkkhhnn.cn^
 ||mmonly.cc/js/mmonlyAPP.js
-||mmstat.com^
 ||mmszxc.top^
 ||mmtalk.net/images/banner
 ||mn123cass.xyz^
@@ -30781,6 +30782,7 @@ zzzyk.com###Tinfo
 ||www.kukulm.com^
 ||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
 ||www.leibish.com^
+||www.lezhutv.com/static/jquerys.js
 ||www.livemz.com^
 ||www.lm661.com^
 ||www.lmlmvip.com^
@@ -31224,6 +31226,7 @@ zzzyk.com###Tinfo
 ||xuexi.hydcd.com^
 ||xuexila.com^*-xxl.js
 ||xuhaijun.pw^
+||xukou.net^
 ||xuliglsw.space^
 ||xulizui6.com^
 ||xumnxwvw.ink^
