@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-15 08:11:04
-! Total count: 32293
+! Version: 2023-07-15 16:10:20
+! Total count: 32300
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3222,6 +3222,7 @@ $websocket,domain=5nj.com|cechi8.com
 /xiazxvbgyjw220923.js
 /xiwang/dfumeiti.js
 /xiwang/fumeiti.js
+/xtub_*_rony.js$third-party
 /xuanfusige.js
 /xxgg/0dd*.js
 /xxgg/app.js
@@ -8564,9 +8565,12 @@ baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
 baidu.com##DIV#bdrainrwDragButton
+baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 baidu.com##DIV.barea-ad
+baidu.com##DIV.brand-entry
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##DIV[class='qrcode call']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
@@ -8589,6 +8593,7 @@ baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 baidu.com#@#.share-line
+baidu.com#@#div[class*="ads"]
 baidu.com,bdimg.com###aside-ad
 baidu.com,bdimg.com##.fengchao-wrap
 baidu.com,bdimg.com##.fengchao-wrap-feed
@@ -9775,6 +9780,7 @@ dapenti.com##a[href*="sq.cc"]
 dasai8.com##.L > font[color="#0000FF"]
 dataguru.cn###bg
 dataguru.cn###popDiv
+datapps.org##+js(remove-attr, onclick, a[href][onclick^="setpos"])
 dav01.com##.adwraper
 daweijita.com##.sidebar-right > .widget-box:first-child
 dayanzai.me##.at1
@@ -11915,6 +11921,7 @@ imeee.cn##.DA336
 imgnova.xyz###boxes
 imgnova.xyz###mask
 imgse.com##.ad-banner
+imgur.com##.Ad.sas.Smart
 imkan.tv##.bottom__card
 imooc.com##.redrain-bg-shade
 imydl.com###enhancedtextwidget-5
@@ -13080,10 +13087,7 @@ m.babytree.com##a[class$="-join"]
 m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
-m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
-m.baidu.com##DIV.brand-entry
 m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com#@#div[class*="ads"]
 m.biqiugege8.com##+js(set-constant, lists, undefined)
 m.chouti.com##.m_download_box
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
@@ -16453,8 +16457,6 @@ www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='
 www.apkmirror.com##DIV.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click]
-www.baidu.com#@#div[class*="ads"]
-www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
 www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div div[data-testid^="property-card"]' 'span[aria-expanded] span'
 www.dbbqb.com##DIV.MuiPaper-root
@@ -20185,6 +20187,7 @@ zzzyk.com###Tinfo
 ||biedawo1004.xyz^
 ||bieqpf.cn^
 ||biexsite.net^
+||bifyeldv.top^
 ||bigcood.xyz^
 ||bigear.cn/cache/htmlcache/
 ||bihaipack.com^
@@ -20405,6 +20408,7 @@ zzzyk.com###Tinfo
 ||btpian.com/static/wenquan.js
 ||btschool.net/images/*/HDYGR
 ||btsow.mom/app/jav$image
+||bttazsyk.icu^
 ||btwuji.com/jsj1/
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
@@ -28110,6 +28114,7 @@ zzzyk.com###Tinfo
 ||rbxunao.cn^
 ||rc.ie13.com^
 ||rc7e.top^
+||rcqmvmq.cn^
 ||rcqqlwb.cn^
 ||rcsden.top^
 ||rcxysoj.cn^
@@ -30426,6 +30431,7 @@ zzzyk.com###Tinfo
 ||wbnhqq.com^
 ||wbqosw.xyz^
 ||wbupbv.com^
+||wcanj.com/2345/
 ||wcdc5.com^
 ||wcehko.juankh.com^
 ||wcknxoy.cn^
@@ -31943,6 +31949,7 @@ zzzyk.com###Tinfo
 ||zfood029.com^
 ||zfotrq.xyz^
 ||zfteiv.xyz^
+||zfticz.buzz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
 ||zgdshoes.com^
