@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-14 16:11:31
-! Total count: 32285
+! Version: 2023-07-15 08:11:04
+! Total count: 32293
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -996,7 +996,6 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
-##A[href*=".taobao.com"] > .top1
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='//v.wanfumei.net']
@@ -1376,6 +1375,7 @@
 ##a[href*=".snmlyshj.com/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
+##a[href*=".taobao.com"] > .top1
 ##a[href*=".tdchat.in"]
 ##a[href*=".thejierou.net"]
 ##a[href*=".tholikiranam.com/"]
@@ -1968,6 +1968,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/$third-party
+.com/sitejs/hansan.js
 .com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
 .com/style/vue.js?v=
@@ -6024,6 +6025,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gracefulsock.com^$script,xmlhttprequest
 @@||gram.pl/js/advertising.js$script
+@@||grandfatherguitar.com^$script,xmlhttprequest
 @@||grandioseguide.com^$script,xmlhttprequest
 @@||grandmotherunit.com^$script,xmlhttprequest
 @@||gratisbitco.in/scripts/ads.js$script
@@ -8561,6 +8563,7 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##DIV#bdrainrwDragButton
 baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 baidu.com##DIV.barea-ad
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
@@ -8600,7 +8603,6 @@ baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baihe.com##.scrollULeft
 baihe.com##.scrollUpf
-baijiahao.baidu.com##DIV#bdrainrwDragButton
 baijiahao.baidu.com,feed.baidu.com##body > div[id$="-container"]:last-child
 baike.baidu.com##.baike-dynamic-wrapper
 baike.baidu.com##.pinzhuanWrap
@@ -24895,6 +24897,7 @@ zzzyk.com###Tinfo
 ||jsyd139.com^$third-party
 ||jsyefc.com^
 ||jsyunmy.com^
+||jszavs1.com^
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
 ||jtjh.tw^
@@ -26706,6 +26709,7 @@ zzzyk.com###Tinfo
 ||nfxhd.com/pic/*.gif
 ||nfydd.com/template/wap1/js/dd.js
 ||ng8f.top^
+||ngbthf.xyz^
 ||nghdp.cn^
 ||ngishc.top^
 ||ngmnhc.xyz^
@@ -27458,6 +27462,7 @@ zzzyk.com###Tinfo
 ||pmensrl.cn^
 ||pmthinktank.shop^
 ||pmvlwjy.cn^
+||pmxalz.xyz^
 ||pnesemr.cn^
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
@@ -27944,6 +27949,7 @@ zzzyk.com###Tinfo
 ||qqjia.com/images/ad
 ||qqk19.com/data/content
 ||qqm98.com^
+||qqnde.xyz^
 ||qqnggnsy.fun^
 ||qqq123987.site^
 ||qqqwww987.site^
@@ -27964,6 +27970,7 @@ zzzyk.com###Tinfo
 ||qs9jfd.xyz^
 ||qsanciy.top^
 ||qscvli.com^
+||qselic.top^
 ||qsezjy.cn^
 ||qsj8fd.com^
 ||qsj8fd.xyz^
@@ -29566,6 +29573,7 @@ zzzyk.com###Tinfo
 ||tmochyf.cn^
 ||tmrhoe2.com^
 ||tmserver-1.com^$domain=pronpic.org
+||tmwbszn.icu^
 ||tnabucks.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tnabucks.com/visitScript/$script,third-party
 ||tnarzc.com^
