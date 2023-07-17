@@ -517,6 +517,7 @@
 ##.adpc > .module
 ##.adpc > .promote-link
 ##.adpc > .promote-link-
+##.adpc > .promote-link_
 ##.ads
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
@@ -652,7 +653,6 @@
 ##.ct-ad-article-wrapper
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
-##.cupfox-content.right,.cupfox-content.left
 ##.d_banner_inner
 ##.davwheat-ad
 ##.deadblocker-header-bar
@@ -3110,7 +3110,7 @@ adblockeronstreamtape.xyz,adblockplustape.com,adblockstreamtape.art,adblockstrea
 adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,tapewithadblock.org,mixdrop.co#$#abort-on-property-write _pao
 adbuck.cc###col_publi
 adbug.cn#@#.google_ads
-adguard.com,adguard.app##.hello_from_adguard_chinese
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 admaimai.com##.in16_w01 > div[class*="_ad0"]
 admin5.com##.float_both_index
 admin5.com##.notice
@@ -4825,10 +4825,9 @@ cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.cupfox-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
-cupfox.app##IMG.cupfox-img[width='100%']
+cupfox.app##IMG[class^='jsx-'][width='100%'],div.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
-cupfox.app#@#.adsbygoogle
 cupfox.app,hcomic.net##.swiper
 cvs.com##.stencil-criteo-shelf
 cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
@@ -5355,7 +5354,7 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
-ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-image '/(793d272d38..272066(.*)6528302039)|(793d272d37..272066(.*)6528302038)|(793d272d36..272066(.*)6528302037)|(793d272d35..272066(.*)6528302036)|(793d272d34..272066(.*)6528302035)|(793d272d33..272066(.*)6528302034)|(793d272d32..272066(.*)6528302033)|(793d272d31..272066(.*)6528302032)|(793d272d..272066(.*)6528302031)|(793d2739..2720(.*)652830202d38)|(793d2738..2720(.*)652830202d37)|(793d2737..2720(.*)652830202d36)|(793d2736..2720(.*)652830202d35)|(793d2735..2720(.*)652830202d34)|(793d2734..2720(.*)652830202d33)|(793d2733..2720(.*)652830202d32)|(793d2732..2720(.*)652830202d31)|(793d2731..27(.*)652830202d..2e)|(793d27..27(.*)65283020..2e)/' li[data-viewport] 'span.s-item__sep>span[aria-labelledby]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-image '/(6174652830202d(.+)302e35(.*)793d2[27]3(.+)322[27])|(6174652830202d(.+)312e35(.*)793d2[27]3(.+)332[27])|(6174652830202d(.+)322e35(.*)793d2[27]3(.+)342[27])|(6174652830202d(.+)332e35(.*)793d2[27]3(.+)352[27])|(6174652830202d(.+)342e35(.*)793d2[27]3(.+)362[27])|(6174652830202d(.+)352e35(.*)793d2[27]3(.+)372[27])|(6174652830202d(.+)362e35(.*)793d2[27]3(.+)382[27])|(6174652830202d(.+)372e35(.*)793d2[27]3(.+)392[27])|(6174652830202d(.+)382e35(.*)793d2[27]3(.+)302[27])|(6174652830202d(.+)392e35(.*)793d2[27]3(.+)312[27])|(793d2[27]3(.+)322[27](.*)6174652830202d(.+)302e35)|(793d2[27]3(.+)332[27](.*)6174652830202d(.+)312e35)|(793d2[27]3(.+)342[27](.*)6174652830202d(.+)322e35)|(793d2[27]3(.+)352[27](.*)6174652830202d(.+)332e35)|(793d2[27]3(.+)362[27](.*)6174652830202d(.+)342e35)|(793d2[27]3(.+)372[27](.*)6174652830202d(.+)352e35)|(793d2[27]3(.+)382[27](.*)6174652830202d(.+)362e35)|(793d2[27]3(.+)392[27](.*)6174652830202d(.+)372e35)|(793d2[27]3(.+)302[27](.*)6174652830202d(.+)382e35)|(793d2[27]3(.+)312[27](.*)6174652830202d(.+)392e35)|(6174652830203(.+)392e35(.*)793d2[27]2d(.+)382[27])|(6174652830203(.+)382e35(.*)793d2[27]2d(.+)372[27])|(6174652830203(.+)372e35(.*)793d2[27]2d(.+)362[27])|(6174652830203(.+)362e35(.*)793d2[27]2d(.+)352[27])|(6174652830203(.+)352e35(.*)793d2[27]2d(.+)342[27])|(6174652830203(.+)342e35(.*)793d2[27]2d(.+)332[27])|(6174652830203(.+)332e35(.*)793d2[27]2d(.+)322[27])|(6174652830203(.+)322e35(.*)793d2[27]2d(.+)312[27])|(6174652830203(.+)312e35(.*)793d2[27]2d(.+)302[27])|(6174652830203(.+)302e35(.*)793d2[27]2d(.+)392[27])|(793d2[27]2d(.+)392[27](.*)6174652830203(.+)302e35)|(793d2[27]2d(.+)382[27](.*)6174652830203(.+)392e35)|(793d2[27]2d(.+)372[27](.*)6174652830203(.+)382e35)|(793d2[27]2d(.+)362[27](.*)6174652830203(.+)372e35)|(793d2[27]2d(.+)352[27](.*)6174652830203(.+)362e35)|(793d2[27]2d(.+)342[27](.*)6174652830203(.+)352e35)|(793d2[27]2d(.+)332[27](.*)6174652830203(.+)342e35)|(793d2[27]2d(.+)322[27](.*)6174652830203(.+)332e35)|(793d2[27]2d(.+)312[27](.*)6174652830203(.+)322e35)|(793d2[27]2d(.+)302[27](.*)6174652830203(.+)312e35)/' li[data-viewport] 'span.s-item__sep>span[aria-labelledby]'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebb.io##+js(set-constant, ga, noopFunc)
 ebb.io##+js(set-constant, google_empty_script_included, true)
@@ -7076,6 +7075,7 @@ inmywordz.com,ants.tw##.acca-block
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
+instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]/preceding::button[@disabled][@type="button"]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
@@ -8475,6 +8475,7 @@ mianbao99.com##.downApp
 mianhuatang520.com###addiv2
 miaopai.com##.footer_banner
 miaopai.com,renren.com##.swiper-container
+miaoshangmanhua.com##.cy_menuright
 micast.tv###closediv
 micast.tv###up
 micast.tv##.adv
@@ -9304,7 +9305,7 @@ pg-wuming.com##+js(abort-current-script, $, !document.getElementById(btoa)
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
-phimgihd.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
+phimgivn.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimlau.online#$#abort-current-inline-script atob /Y1/
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimmoiiii123.com#$#abort-on-property-read matchMedia
