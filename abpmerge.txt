@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-18 08:11:45
-! Total count: 32341
+! Version: 2023-07-18 16:11:53
+! Total count: 32344
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -16862,6 +16862,7 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
+youtube.com##AD-SLOT-RENDERER
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
@@ -21400,6 +21401,7 @@ zzzyk.com###Tinfo
 ||daede.cn^
 ||daenf.cn^
 ||daf-rs.com/imageViewer/wpAd
+||dafdf.cn^
 ||dafuhouse.com^
 ||dagamemisdeed.com^
 ||dagft.cn^
@@ -27168,6 +27170,7 @@ zzzyk.com###Tinfo
 ||owihyg.xyz^
 ||owiurjngsd.com^
 ||owlfolk.com^
+||owlinggnomist.com^
 ||owlunimmvn.com^
 ||owogldk.top^
 ||owrkwilxbw.com^
