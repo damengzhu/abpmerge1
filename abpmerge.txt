@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-17 16:11:49
-! Total count: 32327
+! Version: 2023-07-18 08:11:45
+! Total count: 32341
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1365,6 +1365,7 @@
 ##a[href*=".ohakaguide.com/"]
 ##a[href*=".oidmwq2v.cn"]
 ##a[href*=".onazs.com/"]
+##a[href*=".pcjx365.com/"]
 ##a[href*=".picoville.com/"]
 ##a[href*=".qtj5.com/"]
 ##a[href*=".quankan.tv"]
@@ -2271,7 +2272,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=report-to
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=Nel
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /_xa/ads?
 /_xa/ads_
@@ -9943,6 +9944,7 @@ docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 docsmall.com##.modal-connection.show
 dogedoge.com##.tag-home__item
 dogfight360.com##+js(abort-current-script, document.write, document.write(ad);)
+doii.cc##.w-\[200px\].fixed
 dom.wp.pl,facet.wp.pl#?#.view-first:-abp-has(a[onclick*="var img = document.createElement('img');"])
 dom.wp.pl,twojeip.wp.pl#$#abort-on-property-read rekid
 dom.wp.pl,wiadomosci.wp.pl,wawalove.wp.pl,turystyka.wp.pl,teleshow.wp.pl,opinie.wp.pl,gwiazdy.wp.pl,ksiazki.wp.pl,film.wp.pl,facet.wp.pl,kobieta.wp.pl,kuchnia.wp.pl,moto.wp.pl,tech.wp.pl,gry.wp.pl,finanse.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
@@ -10225,6 +10227,7 @@ easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
+ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph##div[data-view]>a[class="srp-1p__link"]
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-contains-image '/(6174652830202d(.+)302e35(.*)793d2[27]3(.+)322[27])|(6174652830202d(.+)312e35(.*)793d2[27]3(.+)332[27])|(6174652830202d(.+)322e35(.*)793d2[27]3(.+)342[27])|(6174652830202d(.+)332e35(.*)793d2[27]3(.+)352[27])|(6174652830202d(.+)342e35(.*)793d2[27]3(.+)362[27])|(6174652830202d(.+)352e35(.*)793d2[27]3(.+)372[27])|(6174652830202d(.+)362e35(.*)793d2[27]3(.+)382[27])|(6174652830202d(.+)372e35(.*)793d2[27]3(.+)392[27])|(6174652830202d(.+)382e35(.*)793d2[27]3(.+)302[27])|(6174652830202d(.+)392e35(.*)793d2[27]3(.+)312[27])|(793d2[27]3(.+)322[27](.*)6174652830202d(.+)302e35)|(793d2[27]3(.+)332[27](.*)6174652830202d(.+)312e35)|(793d2[27]3(.+)342[27](.*)6174652830202d(.+)322e35)|(793d2[27]3(.+)352[27](.*)6174652830202d(.+)332e35)|(793d2[27]3(.+)362[27](.*)6174652830202d(.+)342e35)|(793d2[27]3(.+)372[27](.*)6174652830202d(.+)352e35)|(793d2[27]3(.+)382[27](.*)6174652830202d(.+)362e35)|(793d2[27]3(.+)392[27](.*)6174652830202d(.+)372e35)|(793d2[27]3(.+)302[27](.*)6174652830202d(.+)382e35)|(793d2[27]3(.+)312[27](.*)6174652830202d(.+)392e35)|(6174652830203(.+)392e35(.*)793d2[27]2d(.+)382[27])|(6174652830203(.+)382e35(.*)793d2[27]2d(.+)372[27])|(6174652830203(.+)372e35(.*)793d2[27]2d(.+)362[27])|(6174652830203(.+)362e35(.*)793d2[27]2d(.+)352[27])|(6174652830203(.+)352e35(.*)793d2[27]2d(.+)342[27])|(6174652830203(.+)342e35(.*)793d2[27]2d(.+)332[27])|(6174652830203(.+)332e35(.*)793d2[27]2d(.+)322[27])|(6174652830203(.+)322e35(.*)793d2[27]2d(.+)312[27])|(6174652830203(.+)312e35(.*)793d2[27]2d(.+)302[27])|(6174652830203(.+)302e35(.*)793d2[27]2d(.+)392[27])|(793d2[27]2d(.+)392[27](.*)6174652830203(.+)302e35)|(793d2[27]2d(.+)382[27](.*)6174652830203(.+)392e35)|(793d2[27]2d(.+)372[27](.*)6174652830203(.+)382e35)|(793d2[27]2d(.+)362[27](.*)6174652830203(.+)372e35)|(793d2[27]2d(.+)352[27](.*)6174652830203(.+)362e35)|(793d2[27]2d(.+)342[27](.*)6174652830203(.+)352e35)|(793d2[27]2d(.+)332[27](.*)6174652830203(.+)342e35)|(793d2[27]2d(.+)322[27](.*)6174652830203(.+)332e35)|(793d2[27]2d(.+)312[27](.*)6174652830203(.+)322e35)|(793d2[27]2d(.+)302[27](.*)6174652830203(.+)312e35)/' li[data-viewport] 'span.s-item__sep>span[aria-labelledby]'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
@@ -11853,7 +11856,7 @@ ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
-ikandy1.com##A[href*="/ky-a.html"]
+ikandy1.com##a[href*="/ky-a.html"]
 ikjzd.com##.article-banner-wrap
 ikjzd.com##.foot-advert-box
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
@@ -20161,6 +20164,7 @@ zzzyk.com###Tinfo
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
 ||bgbyzv.xyz^
+||bgdizsay.icu^
 ||bgnlaigv.fun^
 ||bh0874.online^
 ||bh2q.fun^
@@ -20621,6 +20625,7 @@ zzzyk.com###Tinfo
 ||ccl1.icu^
 ||cclw.xyz^
 ||ccmeng.com^$third-party
+||ccnim.xyz^
 ||ccoo.cn/mystat.asp
 ||ccpufcj.cn^
 ||cctg.cc^
@@ -21434,6 +21439,7 @@ zzzyk.com###Tinfo
 ||daliantong.com.cn^$third-party
 ||dalingjia.ren^
 ||dalipan.com/api/taobao
+||dalld.xyz^
 ||damai.cn/phpstat/
 ||dameyuan.com^
 ||damhixs.cn^
@@ -21794,6 +21800,7 @@ zzzyk.com###Tinfo
 ||dogfight360.com/Usbeam/*_ad/
 ||dogfight360.com/Usbeam/yuelun_ad/
 ||dohihf.com^
+||doii.cc/mmm/
 ||doiney.pandasone.com^
 ||dojyiu8.com^
 ||doko.moe^$domain=pantsu.cat
@@ -22279,6 +22286,7 @@ zzzyk.com###Tinfo
 ||erop.store^
 ||err.ifengcloud.ifeng.com^
 ||ert.pengwenli.top^
+||ertgbme.com^
 ||ertjo.xyz^
 ||erwgj.xyz^
 ||es3984.review/02_cn_ad/
@@ -22468,6 +22476,7 @@ zzzyk.com###Tinfo
 ||fdbskb.cn^
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
+||fddxbn.xyz^
 ||fdfghgfdd.yunqishi.net^
 ||fdgem.com^
 ||fdhvczd.cn^
@@ -26248,6 +26257,7 @@ zzzyk.com###Tinfo
 ||mhysbwo.xyz^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaozhen.com^
 ||miaozhen.com^$third-party
 ||micaitu.net/js/dibu.js
@@ -27736,6 +27746,7 @@ zzzyk.com###Tinfo
 ||qehaxkl.cn^
 ||qerbert78.xyz^
 ||qexitv.com^
+||qezpjlp.cn^
 ||qf1d.top^
 ||qfblqq.com^
 ||qfcdgy.cn^
@@ -30354,12 +30365,14 @@ zzzyk.com###Tinfo
 ||vvtztj.xyz^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
+||vvwuqxp.icu^
 ||vw66i.top^
 ||vwtjvd.xyz^
 ||vwvjzd.xyz^
 ||vx2e.top^
 ||vx4n.icu^
 ||vxhsj.cn^
+||vxhtxt.xyz^
 ||vxotu.com/i/*.gif
 ||vxvtzx.xyz^
 ||vydbvp.xyz^
@@ -31701,6 +31714,7 @@ zzzyk.com###Tinfo
 ||yuhunwang.net^
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
+||yuifgh.fun^
 ||yujianmeihao179.cn^
 ||yukariyakumo.cn^
 ||yulidianshang.com^
