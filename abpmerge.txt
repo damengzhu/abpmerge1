@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-19 16:10:36
-! Total count: 32359
+! Version: 2023-07-20 08:10:44
+! Total count: 32371
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2273,7 +2273,7 @@ $websocket,domain=5nj.com|cechi8.com
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$script,header=x-consumed-content-encoding
+/^https?://www\.liveinternet\.ru/[^\s]{100,}/$xmlhttprequest,header=X-Xss-Protection
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /_xa/ads?
 /_xa/ads_
@@ -9691,7 +9691,7 @@ ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
-cupfox.app##.a3-box[class^="jsx-"]
+cupfox.app##.a4-box[class^="jsx-"]
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.cupfox-box
@@ -19689,6 +19689,7 @@ zzzyk.com###Tinfo
 ||awdc6.com^
 ||awempire.com^$third-party
 ||awifi.cn^$third-party
+||awiudbyqbpo.com^
 ||awleo.cn^
 ||awoudsoo.xyz^
 ||awtks.com^
@@ -21198,6 +21199,7 @@ zzzyk.com###Tinfo
 ||craddockvillearnett.com^$third-party
 ||crayon.meishichina.com^
 ||creaders.net*/ad_func.js
+||creamaroc.com^
 ||createssque.club^
 ||creative.xtendmedia.com^
 ||creawww.top^
@@ -22242,6 +22244,7 @@ zzzyk.com###Tinfo
 ||enet.com.cn/counter.php
 ||enews10.yxlady.net^
 ||eng24.com/js_new/copyright_float.
+||enhad.xyz^
 ||enl2.96845.com^
 ||ennde.cyou^
 ||enread.com/img/185-50.gif
@@ -22734,6 +22737,7 @@ zzzyk.com###Tinfo
 ||fvtrx.cyou^
 ||fvzljv.xyz^
 ||fweia.xyz^
+||fwepd.xyz^
 ||fwmbjrl.cn^
 ||fwrpq.cyou^
 ||fwsir.com/static/cpt/
@@ -22984,6 +22988,7 @@ zzzyk.com###Tinfo
 ||ghhtt.top^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
+||ghland.site^
 ||ghoffice.com/bbs/js/float.js
 ||ghost.wang^
 ||ghost580.com/js/nei4.js
@@ -24733,6 +24738,7 @@ zzzyk.com###Tinfo
 ||jjjcyjj.cn^
 ||jjjgame.com/images/ad11.jpg
 ||jjkiahh.icu^
+||jjklrcw.com^
 ||jjnrqq.com^
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
@@ -25849,6 +25855,7 @@ zzzyk.com###Tinfo
 ||lr6e.top^
 ||lrah0.top^
 ||lrkporm.cn^
+||lrlsrz.xyz^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
 ||lsancil.top^
@@ -26879,6 +26886,7 @@ zzzyk.com###Tinfo
 ||ntce.com/images/js/ntce_public.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
+||ntozchv.icu^
 ||ntozr.top^
 ||ntppyc.cn^
 ||ntsibo.com^
@@ -26916,6 +26924,7 @@ zzzyk.com###Tinfo
 ||nwxs5.com/js/
 ||nxflv.com/nxflv.js
 ||nxhh.net/gw/gw.js
+||nxhwvt.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxl791.com^
 ||nxlidc.ink^
@@ -28262,6 +28271,7 @@ zzzyk.com###Tinfo
 ||right.com.cn/logo/yyb.png
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rikqo.cc^
+||rilwzsit.icu^
 ||rinshy17.xyz^
 ||riqnhxq.cn^
 ||risafniz.space^
@@ -29053,7 +29063,7 @@ zzzyk.com###Tinfo
 ||spl.ztvx8.com^$third-party
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf$domain=record.xl.pt
-||sports.ru^$script,header=x-yandex-req-id
+||sports.ru^$script,header=x-robots-tag
 ||sports747.com^$popup
 ||sportscn.com/js/commerical
 ||sportsdream.top^
@@ -30377,6 +30387,7 @@ zzzyk.com###Tinfo
 ||vuxxtn.xyz^
 ||vv.nettierbrakier.com^
 ||vv1.pyhfxdm.cn^
+||vvdzucs.cn^
 ||vvfht.fun^
 ||vvsbwny.cn^
 ||vvtztj.xyz^
@@ -30489,6 +30500,7 @@ zzzyk.com###Tinfo
 ||wcknxoy.cn^
 ||wd.adcolony.com^
 ||wdasa.top^
+||wddsva0.com^
 ||wdff.buzz/hengf.
 ||wdmdejd.cn^
 ||wdpkx.cn^
