@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-21 16:10:23
-! Total count: 32393
+! Version: 2023-07-22 08:09:20
+! Total count: 32415
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -431,6 +431,7 @@
 ##.ad-below-post-title
 ##.ad-below-related-post
 ##.ad-block
+##.ad-block-cn
 ##.ad-body
 ##.ad-cell
 ##.ad-couplet-common
@@ -815,6 +816,7 @@
 ##.mod_index_ad
 ##.module-adslist
 ##.module-adslists
+##.module-ttlist.tt_w-2
 ##.my-cat.my-cat-header
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
@@ -845,6 +847,7 @@
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player-tt-rm.rm-list
 ##.player_ggw
 ##.player_pic_link > [src*='/player.gif']
 ##.playtop.col-pd
@@ -1981,6 +1984,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/uploads/*-860x250.gif
 .com/vh1/$script,third-party
 .com/vh2/$script,third-party
+.com/vh5/$script,third-party
 .com/vj1/$script,third-party
 .com/vj2/$script,third-party
 .com/vodad.js
@@ -7471,6 +7475,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||sumeronline.com^$generichide
 @@||summerobject.com^$script,xmlhttprequest
 @@||suning.cn/project/msIndex/js/??
+@@||supercloudsms.com/static/js/taboola_ads.js
 @@||superficialeyes.com^$script,xmlhttprequest
 @@||superficialspring.com^$script,xmlhttprequest
 @@||superficialsquare.com^$script,xmlhttprequest
@@ -11960,7 +11965,9 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
+instacart.com#$#hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/div[@class]/preceding::button[@disabled][@type="button"]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@data-sp-eliggiible]/ancestor::div[@aria-label="Product"]/ancestor-or-self::li'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
 instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
@@ -17407,6 +17414,7 @@ zzzyk.com###Tinfo
 ||126.net/ntesrich/*/suning-
 ||126.net^$script,redirect=noop.js,domain=rjno1.com
 ||126.net^*analysis
+||1267a.xyz^
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
@@ -20304,6 +20312,7 @@ zzzyk.com###Tinfo
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
+||bnfyzszm.icu^
 ||bngpt.com^
 ||bnhxxj.xyz^
 ||bnl2bii.icu^
@@ -23074,6 +23083,7 @@ zzzyk.com###Tinfo
 ||godie.cyou^
 ||godloveme.cn^
 ||godlu.com^
+||godni.xyz^
 ||goeyxwhp.site^
 ||gog.cn/sys/online_calc.js
 ||gogfhq.xyz^
@@ -23480,6 +23490,7 @@ zzzyk.com###Tinfo
 ||hdc.maxli.cn^
 ||hdcast.info/adcompany.php$subdocument
 ||hdchina.*/styles/topshow/AD/
+||hdfdsdaw.com^
 ||hdgzta.com^
 ||hdherpc.cn^
 ||hdminfeng.com^
@@ -23764,6 +23775,7 @@ zzzyk.com###Tinfo
 ||hqcx.net/index.php?m=poster&
 ||hqdfh.mobi^
 ||hqdoor.com/Web/
+||hqgearb.icu^
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
 ||hqoqbs.xyz^
@@ -23910,6 +23922,7 @@ zzzyk.com###Tinfo
 ||hy.luassane.cn^
 ||hy5.com.cn/admin/
 ||hybbs.com/i/$image,object
+||hyeqp.xyz^
 ||hyfumxc.cn^
 ||hyhfimgg.com^
 ||hyidlu.com^
@@ -24754,6 +24767,7 @@ zzzyk.com###Tinfo
 ||jkasn.com^
 ||jke1.jianke.com^
 ||jkk7777.xyz^
+||jklhs7u.com^
 ||jknmsdpo.xyz^
 ||jknrwe.cn^
 ||jkvbiry.cn^
@@ -25561,6 +25575,7 @@ zzzyk.com###Tinfo
 ||ledni.xyz^
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
+||legdeh.fun^
 ||leiersuqd.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirsw.com^
@@ -25950,6 +25965,7 @@ zzzyk.com###Tinfo
 ||ly6080.com.cn/gg/
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
+||lycjsix.cn^
 ||lyd.com.cn^*950-90.
 ||lydrnj.xyz^
 ||lyewe.xyz^
@@ -27170,6 +27186,7 @@ zzzyk.com###Tinfo
 ||osnoownmk.fun^
 ||osp45qr.site^
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
+||ossfile001.com^
 ||osswc.pplive.cn/cccms/$image
 ||otantgi.cn^
 ||other.v.duowan.com^
@@ -28108,6 +28125,7 @@ zzzyk.com###Tinfo
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcqqw.xyz^
 ||qwcwnjk.com^
+||qwdbsjnql.com^
 ||qwe0231141.bj.bcebos.com^
 ||qweasd.vip^
 ||qweewq2021.online^
@@ -29640,6 +29658,7 @@ zzzyk.com###Tinfo
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlhlpcb.xyz^
+||tlprlf.xyz^
 ||tlsgq.cn^
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
@@ -29670,6 +29689,7 @@ zzzyk.com###Tinfo
 ||to8to.com/yezhu/zxbjWidget.
 ||to8to.com^$subdocument,third-party
 ||to8to.com^*_bottom_
+||toastspinner.com^
 ||todayapp.tv^$popup,third-party
 ||toggle.qq.com^
 ||toijr.xyz^
@@ -30384,6 +30404,7 @@ zzzyk.com###Tinfo
 ||vrank.org/go/adblock_detect$subdocument
 ||vreephay.com^
 ||vrffwbf.cn^
+||vrlvnz.xyz^
 ||vrmgwvz.cn^
 ||vrrw.net//templets/default/js/ad.js
 ||vs1.exo01.xyz^$image,third-party
@@ -31030,6 +31051,7 @@ zzzyk.com###Tinfo
 ||xchina.pro/upload/ad/
 ||xcisleoa.cn^
 ||xcjwq.world^
+||xckj0623.com^
 ||xckyqq.com^
 ||xcmno.xyz^
 ||xcmz999.com^
