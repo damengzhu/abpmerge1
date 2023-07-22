@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-22 08:09:20
-! Total count: 32415
+! Version: 2023-07-22 16:09:02
+! Total count: 32422
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1611,6 +1611,7 @@
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > h1 > strong > title > a
+##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
@@ -7035,6 +7036,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||record.xl.pt/pub/mrec_dynamic.aspx?pubvar=FOTOS
 @@||recordbutter.com^$script,xmlhttprequest
 @@||redguide.top^*/ad.css?$stylesheet
+@@||redian.news^$generichide
 @@||referdriving.com^$script,xmlhttprequest
 @@||reflectivereward.com^$script,xmlhttprequest
 @@||regapi.37.com/api/p_register.php?login_account=
@@ -14766,6 +14768,9 @@ record.xl.pt##A[href^="http://partner.sbaffiliates.com/"]
 recruit.com.hk###bottomBar
 recruit.com.hk###topBar
 recruit.com.hk##div[id^="banner"]
+redian.news##._ap_apex_ad[style^="width: 300px"]
+redian.news##.bottom-0.fixed
+redian.news##.md\:w-\[728px\].mx-auto
 redircdn.com##.al
 redocn.com###yc_adv_1_2
 redocn.com##.big_vip_gg
@@ -27733,6 +27738,7 @@ zzzyk.com###Tinfo
 ||pyjqhb.xyz^
 ||pyntr.xyz^
 ||pyyhkn.com^
+||pzjizsyf.icu^
 ||pzkrgcp.cn^
 ||pzlxnd.xyz^
 ||q.baminw.com.cn^
@@ -32062,6 +32068,7 @@ zzzyk.com###Tinfo
 ||zfotrq.xyz^
 ||zfteiv.xyz^
 ||zfticz.buzz^
+||zfticz.xyz^
 ||zfvltd.xyz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
