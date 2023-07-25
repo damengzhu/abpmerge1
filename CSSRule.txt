@@ -625,7 +625,6 @@
 ##.clearfix > a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
 ##.clearfix.col5.row > #listBox
 ##.col-ad
-##.col-lg-3.col-xs-6 > .well
 ##.col-md-10 > .banner-table-block
 ##.col5 > dl#randomBox
 ##.col6 > a[onclick*="横幅"]
@@ -1050,6 +1049,7 @@
 ##DIV#tads
 ##DIV#top-ads
 ##DIV#video-player-ads-wrap
+##DIV#xfb_lbox.zoomout_transition.zoomout
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.ad-content
@@ -1074,7 +1074,6 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
-##DIV.zoomout transition.zoomout
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
 ##DIV[class*='home'][class*='Ads']
@@ -1115,6 +1114,7 @@
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
+##INS[status='done'] A.external
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 ##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#VuMk2.IgpuN2
@@ -1605,6 +1605,7 @@
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
+##body > div#bottommob.bottommob
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > h1 > strong > title > a
@@ -1616,7 +1617,6 @@
 ##body#nr_body.nr_all.c_nr > section[id]
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
-##body.active div#bottommob.bottommob
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
 ##body.conch-hasone section > span > video
@@ -3934,6 +3934,7 @@ bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-ca
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
+bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
@@ -4509,6 +4510,7 @@ click108.com.tw##.AD_730280
 clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-current-inline-script String.fromCharCode shift
 clikcoin.pl#@##adsense
 cloud.jasaku.net##.adblock
+cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
 clubedohardware.com.br#@##banner
 clubedohardware.com.br#@#.ipsAd
@@ -6030,6 +6032,7 @@ gamer.com.tw,pili.com.tw#@#.text_ads
 gamersglobal.de#@#.gg-box
 gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
+gamersky.com##div[id^="adscontainer_"]
 gamersky.com##header[class^="ymw-header20"]
 games.qq.com##.dc-kf_list
 gamestorrents.com,gamestorrents.nu,perfectgirls.es#$#abort-on-property-read open
@@ -6631,7 +6634,6 @@ hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-p
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hmoe12.com##.poi-container > div > a[href^="https://www.hmoe12.com/wp-admin/admin-ajax.php?action="][target="_blank"]
 hmoeh.com##+js(set-constant, google_tag_data, {})
-hmqg.net###bottommob.bottommob
 holavid.com,liivideo.com#$#abort-on-property-read Math.sin
 home.firefoxchina.cn##.border-gray-200.tuijian
 home.firefoxchina.cn##a[title][track_key="sites_saoma"]
@@ -7310,9 +7312,9 @@ itboth.com,itkeyword.com##a[href*=".aliyun."]
 itdog.cn##+js(abort-current-script, _0xodP)
 itdog.cn##+js(no-setTimeout-if, _0x)
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
+itdog.cn##.col-12 > .card.mb-3[style="padding: 5px;"]
 itdog.cn##.div-tg
-itdog.cn##.div-top > div:last-child
-itdog.cn##.div-top > script + div
+itdog.cn##.div-top > .row > div[class]
 itdog.cn##.gg_link
 itdog.cn##.lantern_left
 itdog.cn##.link_gg
@@ -10713,6 +10715,7 @@ teledeporteonline.pw###divPanel
 teledeporteonline.pw##[id^="total"]
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 telexplorer.com.ar##div[class] > div[id] > main[class][id]
+tencent.com##.cdc-commercial-swiper
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
 tgbus.com###guide-download
 tgbus.com###neck_970
