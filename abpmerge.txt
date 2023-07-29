@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-28 16:10:05
-! Total count: 32532
+! Version: 2023-07-29 08:09:02
+! Total count: 32546
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4133,6 +4133,7 @@ $websocket,domain=5nj.com|cechi8.com
 51credit.com##.main-r-ka
 51credit.com,hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 51cto.com###ADsList
+51cto.com###advCanvas
 51cto.com###edu_adver
 51cto.com###f_close_box
 51cto.com###list4
@@ -12116,6 +12117,7 @@ iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
@@ -12144,6 +12146,8 @@ iqiyi.com##.m-downApp
 iqiyi.com##.m-hotWords-bottom
 iqiyi.com##.mod_focus-index_list > li:last-child
 iqiyi.com##.oppo
+iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
+iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
 iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
@@ -21617,6 +21621,7 @@ zzzyk.com###Tinfo
 ||denpvh.xyz^
 ||dertyhsf.xyz^
 ||destc10.icu^
+||destc8.icu^
 ||deude.ltd^
 ||develenv.com^$third-party
 ||device.fishmobi.com^
@@ -22509,6 +22514,7 @@ zzzyk.com###Tinfo
 ||fanpingbi*.gaokao.com^
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
+||fantuan.name^
 ||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^$third-party
@@ -24824,6 +24830,7 @@ zzzyk.com###Tinfo
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
+||jjztrz.xyz^
 ||jkasn.com^
 ||jke1.jianke.com^
 ||jkk7777.xyz^
@@ -25014,6 +25021,7 @@ zzzyk.com###Tinfo
 ||jsf.cnlinfo.net^
 ||jsinfo.net^$third-party
 ||jsl44w.xyz^
+||jslbaha.top^
 ||jsm.godloveme.cn^
 ||jsmxkj.com^
 ||jsnignsa.xyz^
@@ -25069,6 +25077,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
 ||jv0rlf.com^
+||jvjlkih.com^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -27219,6 +27228,7 @@ zzzyk.com###Tinfo
 ||ooo.0o0.ooo/2017/11/03/59fc6b3c5b723.jpg
 ||oopej.xyz^
 ||ooqiu.com/ad_js/
+||ooqwc.xyz^
 ||oorlsblk.cyou^
 ||ootyx24.com^
 ||op7s.top^
@@ -29516,6 +29526,7 @@ zzzyk.com###Tinfo
 ||tajs.qq.com^
 ||tajxgs.com^
 ||talkfx.*/showTKImg?
+||tamedia.com.tw^$third-party
 ||tan1dian.com^
 ||tan1dian.com^$third-party
 ||tangk.top^
@@ -29949,6 +29960,7 @@ zzzyk.com###Tinfo
 ||tuotianxia.top^
 ||tupian55.com^*.gif
 ||turifb.xyz^
+||tushwjp.icu^
 ||tusmangas.net/ama/oso.js$script
 ||tutudao.net/js/gg*.js
 ||tutufu.com/bd/b-c1.js
@@ -31665,6 +31677,7 @@ zzzyk.com###Tinfo
 ||yhhnjg.com^
 ||yhjccj.cn^
 ||yhjh04.com^
+||yhmeinv.com/mh/
 ||yhp4an7.cn^
 ||yhsfsdv*.com^
 ||yhsfsdv03.com^
@@ -32102,6 +32115,7 @@ zzzyk.com###Tinfo
 ||zdcj.net^*/ad
 ||zdcoes.live^
 ||zdcv5.xyz^
+||zddpnf.xyz^
 ||zdfjas.top^
 ||zdfl.xyz^
 ||zdftqc.xyz^
