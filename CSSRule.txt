@@ -520,7 +520,6 @@
 ##.adpc > .promote-link
 ##.adpc > .promote-link-
 ##.adpc > .promote-link_
-##.ads
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -1646,6 +1645,7 @@
 ##div#liveline > l,div#liveline > ll
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
+##div#playlistbtn > A[href='/ht.html']
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
 ##div.ad-area > [href]
@@ -6955,6 +6955,7 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950

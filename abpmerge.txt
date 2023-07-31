@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-07-31 08:11:44
-! Total count: 32577
+! Version: 2023-07-31 16:11:12
+! Total count: 32580
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -525,7 +525,6 @@
 ##.adpc > .promote-link
 ##.adpc > .promote-link-
 ##.adpc > .promote-link_
-##.ads
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -1651,6 +1650,7 @@
 ##div#liveline > l,div#liveline > ll
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
+##div#playlistbtn > A[href='/ht.html']
 ##div#reader-scroll.acgn-reader-chapter.v>div>center>strong>button
 ##div#xinxi
 ##div.ad-area > [href]
@@ -11844,6 +11844,7 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
@@ -26820,6 +26821,7 @@ zzzyk.com###Tinfo
 ||nbsxazr.icu^
 ||nbzabd.xyz^
 ||nccaer.xyz^
+||ncgqmzm.cn^
 ||nchte.com^
 ||nchxzmhr.com^
 ||ncmxwhf.icu^
@@ -28127,6 +28129,7 @@ zzzyk.com###Tinfo
 ||qpoiwnelc.com^
 ||qponfva.cn^
 ||qptnew.com^
+||qpztub.xyz^
 ||qq-hls.xyz^
 ||qq.com/Index/getAdsAndHotspot
 ||qq.com/PL_adT.htm
