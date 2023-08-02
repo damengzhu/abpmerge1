@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-02 08:10:03
-! Total count: 32270
+! Version: 2023-08-02 16:10:27
+! Total count: 32273
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3945,7 +3945,6 @@ $websocket,domain=5nj.com|cechi8.com
 360kuai.com##.novel_galery_icon
 360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
-360thethao.net#$#abort-current-inline-script onload /puURL/
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
 368015.xyz##div[style="height:60px;width:100%;"]
@@ -4080,7 +4079,7 @@ $websocket,domain=5nj.com|cechi8.com
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
 4kya.com###player_pause
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
-4spaces.org,fuliba2023.net,fuliba23.net,uliba.net,ypojie.com##.widget_ui_orbui
+4spaces.org,fuliba2023.net,fuliba.net,uliba.net,ypojie.com##.widget_ui_orbui
 4tuning.ro#@#.adsbygoogle
 500.com###live_top_ad
 500.com##.tz_pai
@@ -10756,7 +10755,7 @@ fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
-fuliba2023.net,fuliba23.net,uliba.net###focusslide
+fuliba2023.net,fuliba.net,uliba.net###focusslide
 fulibl.cc##.widget_text:last-child
 fulibl.com##.widget_banner
 fullmatchesandshows.com#@#.adsbox
@@ -12188,8 +12187,7 @@ itblogcn.com#?#.sidebar > div.widget:has(> div.item > aside > div.textwidget > a
 itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 itboth.com,itkeyword.com##a[href*=".aliyun."]
-itdog.cn##+js(abort-current-script, _0xodP)
-itdog.cn##+js(no-setTimeout-if, _0x)
+itdog.cn##+js(no-setTimeout-if, adblock_tip)
 itdog.cn##.card[style="padding: 6px 10px 5px 5px;"]
 itdog.cn##.col-12 > .card.mb-3[style="padding: 5px;"]
 itdog.cn##.div-tg
@@ -12200,8 +12198,6 @@ itdog.cn##.link_gg
 itdog.cn##.pic_gg
 itdog.cn##.top_contents
 itdog.cn##div[style="border: 1px solid #dadada;padding: 6px 10px 5px 5px;background-color: #ffffff;"]
-itdog.cn#$#.left_link { height: 1px !important; }
-itdog.cn#$#.right-pic { height: 1px !important; }
 itdog.cn#?#.card:-abp-has(.partner>a[href*=".jimcloud.net"])
 itheat.com##.hot_ad
 itheima.com##.nav1
@@ -13072,7 +13068,7 @@ ludashi.com##.div_text
 lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 luogu.com.cn##.side > div:last-child:not([class])
 luoqiuzw.com##DIV[id^="a-loading-"]
-luotphim1.net,luotphim2.net,luotphim.to,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
+luotphim1.net,luotphim2.net,luotphimtv1.com,webphim1.com#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -14455,6 +14451,9 @@ procoinnews.com,dailylol.com#$#override-property-read setTimeout noopFunc; abort
 proewildfire.cn##.comiis_nav ~ a
 proginn.com##div[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
+promodj.com##.adv_advmusic
+promodj.com##.banner_carousel
+promodj.com##.featured_hotspot
 proplanta.de#@##adDiv
 proplanta.de#@##ad_728_90
 proplanta.de#@##ad_img
@@ -16147,7 +16146,6 @@ vardembed.xyz,videovard.sx###NotReallyYouHaveSmallOne
 vardembed.xyz,videovard.sx#$#json-prune ads_mode
 vdianying.cc##div[style^="display:block !important;"]
 vdisk.weibo.com###ads_layer
-vebotv.today#$#abort-current-inline-script $ vb-pr-box
 verdirectotv.com###divPanel
 verdirectotv.com##[id^="total"]
 verdirectotv.com##div[id^="capa"]
@@ -16724,7 +16722,7 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
-xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,fullcrackpc.com,khoaiphim.com#$#abort-on-property-read document.cookie
+xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
@@ -16798,6 +16796,7 @@ yastatic.net#$#abort-on-property-read Object.prototype.vast
 yatu.tv###a_d1
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
+yaya0506.com##iframe[style="border: 0;"][width="100%"][height="280"][src^="//www.12beststar.com/"]
 yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
 yazhouse8.com##.banners
 yazhouse8.com##.mini-over-top
@@ -24062,6 +24061,7 @@ zzzyk.com###Tinfo
 ||ihlurin.cn^
 ||ihngyjp.cn^
 ||ihtqqws.cn^
+||ihwdun.xyz^
 ||ii.joqtfa.cn^
 ||ii1.chajiaotong.com^
 ||iia1.pikacn.com^
@@ -25624,6 +25624,7 @@ zzzyk.com###Tinfo
 ||liitwrz.icu^
 ||lijie.in^
 ||lijunkai.com^
+||likdie.com^
 ||limessy.xyz^
 ||limon.biz^$domain=pronpic.org
 ||lindanmiaoxiang.cn^
@@ -31216,6 +31217,7 @@ zzzyk.com###Tinfo
 ||xuexi.hydcd.com^
 ||xuexila.com^*-xxl.js
 ||xuhaijun.pw^
+||xukang09.cn^
 ||xukou.net^
 ||xuliglsw.space^
 ||xulizui6.com^
@@ -31813,6 +31815,7 @@ zzzyk.com###Tinfo
 ||zbsybh.cn^$third-party
 ||zbv7kxrteclub.xyz^
 ||zbvchabjbcj.com^
+||zbx01.com^
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
