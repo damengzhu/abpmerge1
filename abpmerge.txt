@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-02 16:10:27
-! Total count: 32273
+! Version: 2023-08-03 08:10:08
+! Total count: 32285
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2865,6 +2865,7 @@ $websocket,domain=5nj.com|cechi8.com
 /lenovo/pc/top.js
 /letv-gug/*
 /link?c=$image
+/live173/640320_
 /live173_*/46860.
 /live800.
 /local_p.js^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com|megatube.xxx
@@ -4079,7 +4080,7 @@ $websocket,domain=5nj.com|cechi8.com
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
 4kya.com###player_pause
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
-4spaces.org,fuliba2023.net,fuliba.net,uliba.net,ypojie.com##.widget_ui_orbui
+4spaces.org,fuliba.net,fuliba2023.net,uliba.net,ypojie.com##.widget_ui_orbui
 4tuning.ro#@#.adsbygoogle
 500.com###live_top_ad
 500.com##.tz_pai
@@ -10751,11 +10752,11 @@ ftvnews.com.tw##div[id^="div_gpt_"]
 fububu.com###wendibu
 fuckadblock.sitexw.fr#@#.pub_300x250
 fujieace.com##.single-goods
+fuliba.net,fuliba2023.net,uliba.net###focusslide
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
-fuliba2023.net,fuliba.net,uliba.net###focusslide
 fulibl.cc##.widget_text:last-child
 fulibl.com##.widget_banner
 fullmatchesandshows.com#@#.adsbox
@@ -12402,6 +12403,7 @@ jin10.com###J_wdgg_t
 jin10.com##.jin-popularize
 jin10.com##.l-main > div > .jin-timeline
 jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
+jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jinbaodm.com##div[id^="a-loading"]
@@ -19056,6 +19058,7 @@ zzzyk.com###Tinfo
 ||ads.exoclick.com^
 ||ads.linkedin.com^
 ||ads.pinterest.com^
+||ads.pubmatic.com^
 ||ads.service.kugou.com^
 ||ads.sohu.com^
 ||ads.superad.cc^
@@ -21285,6 +21288,7 @@ zzzyk.com###Tinfo
 ||cxiwn.xyz^
 ||cxnre.xyz^
 ||cxs.mibaoge.com^
+||cxsh.cn.com^
 ||cxy88.friok.com^
 ||cyboke.cn^
 ||cycyw.com/mf/
@@ -21586,6 +21590,7 @@ zzzyk.com###Tinfo
 ||dffrahax.com^
 ||dfggq.com^
 ||dfghaqea.xyz^
+||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
 ||dfncojkle.xyz^
@@ -27197,6 +27202,7 @@ zzzyk.com###Tinfo
 ||p3tt.com^
 ||p4p.sina.com.cn^
 ||p4pd.cn^
+||p52q.cn^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||p8u.hinet.net^
@@ -28200,6 +28206,7 @@ zzzyk.com###Tinfo
 ||rgvqddo.com^
 ||rgyfqq.com^
 ||rhcknl.xyz^
+||rhesed.site^
 ||rhinogo.cn^
 ||rhlxm.top^
 ||rhtc.quanminyouxi.cn^
@@ -29024,6 +29031,7 @@ zzzyk.com###Tinfo
 ||ssb.ah499.com^
 ||ssdfgq7.com^
 ||ssdp.xyz^
+||ssdtour.com^
 ||ssgg.chazidian.com^
 ||ssh.*.com^*!$script,third-party
 ||ssh.q4hwkg.cn^
@@ -29730,6 +29738,7 @@ zzzyk.com###Tinfo
 ||tuhipkz.xyz^
 ||tui.cnzz.net^$third-party
 ||tui.gtimg.com//res/
+||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
 ||tuisong.baidu.com^
@@ -30653,6 +30662,7 @@ zzzyk.com###Tinfo
 ||wsacjdg.cn^
 ||wschao.xyz^
 ||wsdd11.com^
+||wsdfame.com^
 ||wsdof.xyz^
 ||wsgblw.com^
 ||wshlcgj.com^
@@ -31082,6 +31092,7 @@ zzzyk.com###Tinfo
 ||xiurenji.cc/heji/
 ||xiuwaiyyds.com^
 ||xixhx.com^
+||xixrdn.xyz^
 ||xiyouence.com^$popup,third-party
 ||xizi.com/js/rotator.js
 ||xjhjtz.cn^
@@ -31678,6 +31689,7 @@ zzzyk.com###Tinfo
 ||yusnw.cc^
 ||yutew.cc^
 ||yuvdqnpo.com^
+||yuwangshe.net/astyle/wap.
 ||yuwenbin.host^
 ||yvsnhc.com^
 ||yw800.com.cn^
