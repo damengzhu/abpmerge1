@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-03 16:08:54
-! Total count: 32290
+! Version: 2023-08-04 08:10:17
+! Total count: 32300
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3010,7 +3010,6 @@ $websocket,domain=5nj.com|cechi8.com
 /s/i.php?id=$script,third-party
 /s/js/fshow.js$third-party
 /s/js/ssu.v2.js?v=*^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com
-/s/page_runtime_*.js
 /sbhf.js$script,third-party
 /sc_ifeng/*
 /scr/wtixyd.js
@@ -4078,7 +4077,6 @@ $websocket,domain=5nj.com|cechi8.com
 4gtv.tv,80s.ai,ft.com,ftchinese.com,ftchinese.com.sz-dns.net,kartinfo.me,long7.qq.com,reh.tw,typecho.wiki#@#.adsbox
 4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
-4kya.com###player_pause
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
 4spaces.org,fuliba.net,fuliba2023.net,uliba.net,ypojie.com##.widget_ui_orbui
 4tuning.ro#@#.adsbygoogle
@@ -9526,6 +9524,8 @@ cnxz.cn##[class*="-ad"]
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
 cnyes.com##a[data-proj-ga-category="FloatingBTN"]
+cnys.tv#@#.player-news > .news-list
+cnys.tv,4kya.com###player_pause
 co188.com##.suspen
 cocomanga.com##+js(no-setTimeout-if, loadErrorTip)
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
@@ -11964,13 +11964,12 @@ informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,
 inmywordz.com,ants.tw##.acca-block
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
+instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
-instacart.com#$#hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
+instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Spon")]/ancestor::div[@class][1]/parent::div'
-instacart.com#$#race start; hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'; hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::article'; race stop;
-instacart.com#$#race start; hide-if-matches-xpath './/div/li[@data-testid]//div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::li[@data-testid][@class]/parent::div[1]'; hide-if-matches-xpath './/div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/ancestor-or-self::li'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -20543,6 +20542,7 @@ zzzyk.com###Tinfo
 ||c6.friok.com^
 ||c6890.cn^$third-party
 ||c9cc.icu^
+||c9r05q.com^
 ||c9tt3jj.top^
 ||ca.cbsi.com.cn/rpv?
 ||ca.cydp5.com^
@@ -22310,6 +22310,7 @@ zzzyk.com###Tinfo
 ||esjzj.cyou^
 ||eskay.cn^
 ||eskowg.xyz^
+||eslbahw.top^
 ||esnignsw.xyz^
 ||esnoownmw.fun^
 ||esprit-click.com/display.php$subdocument,third-party
@@ -22690,6 +22691,7 @@ zzzyk.com###Tinfo
 ||fspjjp.xyz^
 ||fssxyiq.cn^
 ||fstats.xyz^
+||fszpzd.xyz^
 ||ft.com/a.html
 ||ft8e.top^
 ||ftanya.ltd^
@@ -25574,6 +25576,7 @@ zzzyk.com###Tinfo
 ||lgmi.com^*_gg
 ||lgnlaigl.fun^
 ||lgohse.fun^
+||lgoseh.fun^
 ||lgugsnp.cn^
 ||lgygy.cn^
 ||lh168.net^*/attachment/portal/
@@ -25833,6 +25836,7 @@ zzzyk.com###Tinfo
 ||lrah0.top^
 ||lrkporm.cn^
 ||lrlsrz.xyz^
+||lrqpyhn.icu^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
 ||lsancil.top^
@@ -26504,6 +26508,7 @@ zzzyk.com###Tinfo
 ||muyuge.com/fw.html/
 ||muyys.com/img/
 ||muzisoft.com/static/*_f.js
+||mvamnng.cn^
 ||mvbtp.xyz^
 ||mvcat.com/ad/
 ||mvcat.com/api/wx/follow.js
@@ -26988,6 +26993,7 @@ zzzyk.com###Tinfo
 ||oiqdjksgpo.com^
 ||oiqwnfk.com^
 ||oisafnik.space^
+||oiunga.com^
 ||oiuqwppcsdf.com^
 ||oivgqnt.cn^
 ||ojbkmcsdx.xyz^
@@ -28522,6 +28528,7 @@ zzzyk.com###Tinfo
 ||sdchb2.com^
 ||sdd.hi1718.com^
 ||sdfg68.com^
+||sdfgbuy.com^
 ||sdfjtwp.com^
 ||sdfqs2.com^
 ||sdfv66.com^
@@ -30272,6 +30279,7 @@ zzzyk.com###Tinfo
 ||vluvpdf.cn^
 ||vm.aty.sohu.com^
 ||vmax-ktv.com^
+||vmdlxj.xyz^
 ||vmewz.xyz^
 ||vmsolxc.cn^
 ||vmvps.com/aoyohost-com-bann
@@ -31512,6 +31520,7 @@ zzzyk.com###Tinfo
 ||yjcf360.com/ad.
 ||yjegf.com^
 ||yjgqpfj.cn^
+||yjnhndt.com^
 ||yjrjmy.com^
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
@@ -31649,6 +31658,7 @@ zzzyk.com###Tinfo
 ||yu0123456.com^$third-party
 ||yuanbao777.com/download/*.gif
 ||yuanlianghui.com^
+||yuanmengbi.com^
 ||yuanpinghengkangfuyouxiangongsi.top^$domain=9xav.cc
 ||yuanxiang19.fun^
 ||yubingyuan.top^
