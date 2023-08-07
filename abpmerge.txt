@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-06 16:09:42
-! Total count: 32339
+! Version: 2023-08-07 08:10:44
+! Total count: 32353
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2753,6 +2753,7 @@ $websocket,domain=5nj.com|cechi8.com
 /javhd-jp-970x170.jpg
 /jdzjgg/*
 /jfjs/ad.js
+/jianpian.obs.cn-
 /jianshen8/images/plan_banner_
 /jquery-ui.js?166$script,~third-party
 /jquery.adblock-detector.js|$script
@@ -5964,6 +5965,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||githubusercontent.com/reek/anti-adblock-killer/
 @@||givevacation.com^$script,xmlhttprequest
+@@||gk.sina.cn/v1/gkmatch?
 @@||gleamingtrade.com^$script,xmlhttprequest
 @@||glisteningguide.com^$script,xmlhttprequest
 @@||glisteningsign.com^$script,xmlhttprequest
@@ -15074,6 +15076,7 @@ sina.cn###j_toTop ~ .fl_suspension_template
 sina.cn###midThreeAds
 sina.cn###promotionCover
 sina.cn##.article-sax
+sina.cn##.callApp_fl_btn
 sina.cn##.dfz_sd_news > a[href*=".10086.cn"]
 sina.cn##.j_article_cutpic
 sina.cn##.js-voice-yyy
@@ -17455,6 +17458,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||1378a.xyz^
 ||1379a.xyz^
 ||1381a.xyz^
 ||1383a.xyz^
@@ -20770,6 +20774,7 @@ zzzyk.com###Tinfo
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||ceu5.icu^
 ||cex8jw.cn^
+||cfdns.vip^
 ||cfepws.com^
 ||cfff.net^$third-party
 ||cfx3d.xyz^
@@ -22981,6 +22986,7 @@ zzzyk.com###Tinfo
 ||ggg.xhamster.com/api/models/vast?*subid_3=preroll_preloada^$xmlhttprequest,domain=xhamster.com
 ||ggglxue.cn^
 ||gggppp666.com^
+||gghmef7.com^
 ||ggjs.d17.cc^
 ||ggqnre.xyz^
 ||ggrhsx.cn^
@@ -23329,6 +23335,7 @@ zzzyk.com###Tinfo
 ||h6cp.icu^
 ||h731.icu^
 ||habyc.com^
+||hacde3.icu^
 ||hacde5.icu^
 ||hacde6.icu^
 ||hackeraa.xyz^
@@ -25409,6 +25416,7 @@ zzzyk.com###Tinfo
 ||kvtlll.top^
 ||kvtnnn.top^$third-party
 ||kwadakesd.cyou^
+||kwcmrfb.cn^
 ||kwdgudw.cn^
 ||kweaake.cyou^
 ||kwflvcdn.000dn.com^*.flv
@@ -25860,6 +25868,7 @@ zzzyk.com###Tinfo
 ||lpxmall.com^
 ||lqe3.icu^
 ||lqglqq.com^
+||lqjinx.xyz^
 ||lqnggnsl.fun^
 ||lqrvkxk.cn^
 ||lr6e.top^
@@ -26349,6 +26358,7 @@ zzzyk.com###Tinfo
 ||mjxtiht.cn^
 ||mk795.cn^
 ||mkd88.cc/16.32.jpg
+||mkjnha.com^
 ||mkqdj.cn^
 ||mlog.aipai.com^
 ||mlstx.cn^
@@ -26669,6 +26679,7 @@ zzzyk.com###Tinfo
 ||nanlisgc.fun^
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
+||naqiwjj.icu^
 ||nawpush.com^
 ||nb.zol.com.cn/detail_*.html
 ||nbazhaheic.top^
@@ -28787,6 +28798,7 @@ zzzyk.com###Tinfo
 ||simiyue2.com^
 ||simplewebanalysis.com^
 ||sina.cn*/view?
+||sina.cn/check?
 ||sina.cn/cm/sinaads_
 ||sina.cn/interface/*_game_wap_home_mid_list_in.
 ||sina.cn^*/impress?
@@ -30378,6 +30390,7 @@ zzzyk.com###Tinfo
 ||vvvkp.com/template/ttk/img/
 ||vvwuqxp.icu^
 ||vw66i.top^
+||vwfppr.xyz^
 ||vwtjvd.xyz^
 ||vwvjzd.xyz^
 ||vx2e.top^
@@ -30717,6 +30730,7 @@ zzzyk.com###Tinfo
 ||wsgblw.com^
 ||wshlcgj.com^
 ||wshufa.com^$third-party
+||wslbahe.top^
 ||wsnew.cn^
 ||wsnignse.xyz^
 ||wsnoownme.fun^
