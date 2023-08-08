@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-08 08:10:46
-! Total count: 32372
+! Version: 2023-08-08 16:10:21
+! Total count: 32385
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -522,8 +522,10 @@
 ##.adlist
 ##.adlistcss
 ##.adpc > .module
+##.adpc > .promo-link-
 ##.adpc > .promot-link-
 ##.adpc > .promot-link_
+##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -9576,7 +9578,6 @@ comicat.org,cupfox.app,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,lib
 comicat.org,kisssub.org##a[href*="db."]
 comicsporno.xxx,eshentai.tv,felizporno.com,hentaila.com,hentaila.tv,hentaisenpai.org,latinohentai.com,mespornogratis.com,orgasmatrix.com,pornoreino.com,pornocolombiano.net,subtaboo.com,xculitos.com#$#abort-current-inline-script document.querySelectorAll popMagic
 commonhealth.com.tw##div[class*="ad--"]
-commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,99kubo.tv,manhuafen.com##.ad
 comopremium.com.ar###blanuncio
 comopremium.com.ar##IMG[src="templates/plugmod/images/a.png"]
 comprovendolibri.it#@#.myTestAd
@@ -9949,6 +9950,8 @@ dmzj.com##a[href*="qunhei.com"]
 dngz.net##.listright > a[target="_blank"] > img
 dnwx.com##.mt5_23
 dnwx.com#@#.ad_250
+dnxtc.net##.header > div[style*="margin-top:"]
+dnxtc.net##div[style="width:1200px;height:108px;margin:0 auto;margin-top:15px;"]
 dobreprogramy.pl#$#abort-on-property-read wp_adv_labels
 doc88.com##.adpx250
 doc88.com##.dk-side-gif
@@ -11501,6 +11504,7 @@ hkcards.com##.row > .col-12 > #ad-slot
 hkcards.com#@##ad-slot
 hkdm688.com##.bb01
 hkepc.com##.headBanner
+hkgolden.com##.hkg-ad
 hkmovie6.com##.hotmobad
 hktvyb.com##.myui-content__operate > a.btn-danger
 hktvyb.com##.myui-content__operate > a.btn-warm
@@ -12467,6 +12471,7 @@ jiuse710.com#?##main div.row > div.colVideoList:has(> div.video-elem > a[href][t
 jiyingdm.com###otherWindowBox
 jiyingdm.com##.abcde
 jiyingw.vip##.textwidget > p > a > img
+jiyingw.vip##div[style="text-align:center"] > a > img
 jjcast.com###timer1
 jjcast.com###timer2
 jjcast.com###timer3
@@ -13339,6 +13344,8 @@ mcdulll.com##body div[class*="-mib-ad-"]
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
 mcmod.cn###McmodDonate
+md.hkgolden.com##.hkg-ad
+md.hkgolden.com#?##viewpage > .post:has(> :is(div[id^="div-gpt-"], .hkg-ad))
 me360.com##.footer-booking-open
 med66.com##.banner
 med66.com##.coach_pic
@@ -13758,6 +13765,7 @@ news.gamebase.com.tw##.PcRightHomeMiddleAds
 news.gamebase.com.tw##.rightMiddleAD
 news.hf365.com##.main-r > div:first-child
 news.ifeng.com##.right1
+news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,99kubo.tv,manhuafen.com##.ad
 news.lyd.com.cn##table[cellspacing="5"]:nth-child(3)
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
 news.mydrivers.com##.baidu_left
@@ -20574,6 +20582,7 @@ zzzyk.com###Tinfo
 ||caaie.xyz^
 ||caardinal.com^
 ||cacafly.net^
+||cache.ltn.com.tw/js/cache_ads_h1.js
 ||cache.netease.com/cnews/js/qrcode.js
 ||cache1.value-domain.com/xrea_header.js
 ||cachead.com^*.js
@@ -21823,6 +21832,9 @@ zzzyk.com###Tinfo
 ||dnwx.com*/ad$image
 ||dnwx.com/pic/*_978x60.
 ||dnwx.com/pic_ad/
+||dnxtc.net/images/xiaobing
+||dnxtc.net/xiaobing/
+||dnxtc.net^*/xiaobing
 ||dnyzbp.cn^
 ||dnzmhr.xyz^
 ||dobiez.com/statics/wap_v1/js/qwd.
@@ -22921,7 +22933,6 @@ zzzyk.com###Tinfo
 ||gdoibwfvjqf.com^
 ||gdsoq.com^
 ||gdt.qq.com^
-||gdtimg.com^
 ||gdugga.com^
 ||gdxxb.com^$third-party
 ||gdyjs.com^
@@ -23702,6 +23713,7 @@ zzzyk.com###Tinfo
 ||hntezhi.com^
 ||hnwjlhg.cn^
 ||hnws.xyz^
+||hnxxt.net^
 ||hnyishidengbao.com^$third-party
 ||hnylb8.cn^
 ||hnzhengtongkj.cn^
@@ -28065,6 +28077,7 @@ zzzyk.com###Tinfo
 ||qsjfd5.xyz^
 ||qsjfd6.com^
 ||qsjfd6.xyz^
+||qslbahy.top^
 ||qsmdeyz.cn^$third-party
 ||qsnignsy.xyz^
 ||qsnoownmy.fun^
@@ -28361,6 +28374,7 @@ zzzyk.com###Tinfo
 ||rpkcqtf.cn^
 ||rppihz.xyz^
 ||rptjx.xyz^
+||rpyor0k.xyz^
 ||rqnggnsz.fun^
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
@@ -29440,7 +29454,6 @@ zzzyk.com###Tinfo
 ||tcss.qq.com^
 ||tctltb.com^
 ||tdavopl.icu^
-||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdjc.shop^
 ||teads.tv^$third-party
