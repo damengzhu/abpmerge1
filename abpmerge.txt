@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-09 08:11:28
-! Total count: 32400
+! Version: 2023-08-09 16:11:59
+! Total count: 32407
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8053,6 +8053,7 @@ aishoujizy.com##a[target="_blank"] > img[src^="/upload/1/"]
 aishs.top###frameu9916W_left > .block:nth-child(-n+6)
 aiweibk.com##.lili
 aiweibk.com##.pc
+aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldPlayAds)
 aiyifan.tv,iyf.tv##+js(set-constant, Object.prototype.captions, {})
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
@@ -8798,11 +8799,12 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
+bilibili.com#$?#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
-bilibili.com#?#.container > div[class*="-card"]:has(div[style="display: none !important;"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
@@ -11990,8 +11992,8 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
-instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"sored")]/ancestor::div[@class][1]/parent::div'
-instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"sore")]/ancestor::div[@class][1]/parent::div'
+instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -18877,6 +18879,7 @@ zzzyk.com###Tinfo
 ||aaaimg.com/images*.gif
 ||aab-proxy.tld^
 ||aac.kegood.com^
+||aaenv48847h.com^
 ||aafuck.xyz^$third-party
 ||aagomsi.xyz^
 ||aamv.vip^
@@ -19620,6 +19623,7 @@ zzzyk.com###Tinfo
 ||aqpvglv.cn^
 ||aqsj.xyz^
 ||aquvg.com^
+||aqvwn18102h.com^
 ||aqy103.com/js/aqy/
 ||arejug.xyz^
 ||ark.le.com/s?vid=
@@ -19798,6 +19802,7 @@ zzzyk.com###Tinfo
 ||b2xy4m.xyz^
 ||b477.life^$popup,third-party
 ||b4dg.life/love/
+||b4g7k9d2.com^
 ||b4jy.top^
 ||b53.xyz^
 ||b59.xyz^
@@ -22165,6 +22170,7 @@ zzzyk.com###Tinfo
 ||ebpu2.top^
 ||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
+||ebscb0l.xyz^
 ||ebten.xyz^
 ||ebuqxsjq.com^
 ||ecav5.com^
@@ -31257,6 +31263,7 @@ zzzyk.com###Tinfo
 ||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--gov-x68dy61b.shop^
+||xn--jvrp4x1zyfta.net^
 ||xn--mtso8sj6menhyil.online^$third-party
 ||xn--wxtr44c.video^
 ||xn--wxtr9fwyxk9c.club^$third-party
