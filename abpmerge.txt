@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-10 08:10:55
-! Total count: 32417
+! Version: 2023-08-10 16:10:23
+! Total count: 32424
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -11162,6 +11162,7 @@ gucheng.com##.fixed_img
 gucheng.com##.gcw_r_ad_pc
 gucheng.com##.gcw_r_ad_pc2
 gucheng.com##.right_info
+gucheng.com##.s_news_qc
 gucheng.com##.title_ad_time
 gucheng.com##.title_down_ad
 gucheng.com##a[href*=".liaogu.com"]
@@ -11994,8 +11995,8 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
-instacart.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"sore")]/ancestor::div[@class][1]/parent::div'
-instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"red")]/parent::div[1]'
+instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -19530,6 +19531,7 @@ zzzyk.com###Tinfo
 ||antpedia.com/images/advimages/
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
+||anwqj0i.xyz^
 ||any.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||any.gs/visitScript/$script,third-party
 ||anyany.cc^
@@ -19632,6 +19634,7 @@ zzzyk.com###Tinfo
 ||ark.le.com/s?vid=
 ||ark.letv.com/t?
 ||arkn81.com^
+||arpg2.com^
 ||artaslangdon.com^$third-party
 ||artimwapo.com^$script
 ||arts-cloud.net^
@@ -20186,6 +20189,7 @@ zzzyk.com###Tinfo
 ||bejson.com/static/ydxyt/
 ||bekcd.xyz^
 ||bekco.xyz^
+||belindanbd.com^
 ||bendan.shop^
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/js/count.js
@@ -21517,6 +21521,7 @@ zzzyk.com###Tinfo
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||darzkrx.cn^
 ||daspic.top^
+||dasv10rewq.xyz^
 ||dat.yl-zipper.com^
 ||dat1.jzjxmj.com^$third-party
 ||dat8.cc^
@@ -29813,6 +29818,7 @@ zzzyk.com###Tinfo
 ||tseda6.icu^
 ||tshtbh.xyz^
 ||tsiyun.cn^
+||tslbahi.top^
 ||tslianm.com^
 ||tsmirk.xyz^
 ||tsnignsi.xyz^
@@ -32077,6 +32083,7 @@ zzzyk.com###Tinfo
 ||zgfckf.mobi^
 ||zgfdczj.mobi^
 ||zgfshoes.com^
+||zghsfh.xyz^
 ||zglww.net/jsnew/pfkf.js
 ||zgm1.com^
 ||zgnlaigq.fun^
