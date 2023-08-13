@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-12 16:08:35
-! Total count: 32502
+! Version: 2023-08-13 08:08:56
+! Total count: 32511
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1806,8 +1806,7 @@ $script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampp
 $script,third-party,domain=52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=torrentkitty.asia|torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torrentkitty.ink|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
 $websocket,domain=5nj.com|cechi8.com
@@ -4341,10 +4340,10 @@ $websocket,domain=5nj.com|cechi8.com
 69vj.com###nta
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
-6park.com##A[href*="bpropolis."]
-6park.com##A[href*="geekbuying."]
-6park.com##A[href*="jdoqocy."]
 6park.com##a[href*=".php?key="]
+6park.com##a[href*="bpropolis."]
+6park.com##a[href*="geekbuying."]
+6park.com##a[href*="jdoqocy."]
 6park.com##img[width="980"][height="90"]
 6park.com##table[width="89%"][height="60"]
 6parknews.com##.other_list_ad
@@ -8255,6 +8254,7 @@ appinn.com###ranshownow
 appinn.com###sidebar > .widget:first-child
 appinn.com###sidebar a[rel*="sponsored"]
 appinn.com##.ads-m
+appinn.com##.widget_media_image
 appinn.com,hexieshe.cn###media_image-2
 appki.com.pl#@##adsense
 apple.com.cn##.adv-wrapper
@@ -25149,6 +25149,7 @@ zzzyk.com###Tinfo
 ||jysbj.cn^
 ||jyt58.top^
 ||jytjw.com^
+||jyvith.xyz^
 ||jyxfvp.xyz^
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
@@ -25411,6 +25412,7 @@ zzzyk.com###Tinfo
 ||koekd.xyz^
 ||kokojia.com^$third-party
 ||koksin.fun^
+||koljnda.com^
 ||kolsh.cn^$third-party
 ||kolur.top^$third-party
 ||kongzhong.com/style/newindex/js/tad.js
@@ -25677,6 +25679,7 @@ zzzyk.com###Tinfo
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
 ||legdeh.fun^
+||legopq.site^
 ||leiersuqd.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirsw.com^
@@ -25821,6 +25824,7 @@ zzzyk.com###Tinfo
 ||lisafnil.space^
 ||littlecdn.com^
 ||liu16.com/vip.png
+||liugaohao.com^
 ||liunxgroup.top^
 ||liutou20230203.live^
 ||liuxiangxiang.top^
@@ -27786,6 +27790,7 @@ zzzyk.com###Tinfo
 ||ptgdb.cn^
 ||pthezjl.cn^
 ||ptijx.xyz^
+||ptmabek.cn^
 ||ptnxa.xyz^
 ||pttwq.xyz^
 ||ptvfzv.xyz^
@@ -27935,6 +27940,7 @@ zzzyk.com###Tinfo
 ||qhimgs4.com/*.gif$domain=www.jiaozi.me
 ||qhimgs4.com/t01d8315ddb1a5adcce.gif
 ||qhiqgrf.cn^
+||qhjm600.com^
 ||qhmsg.com^$domain=1024pz.com
 ||qhnews.com/tupian/
 ||qhonzpl.cn^
@@ -28496,6 +28502,7 @@ zzzyk.com###Tinfo
 ||rsnignsz.xyz^
 ||rsnoownmz.fun^
 ||rss9f.top^
+||rssxsjh.icu^
 ||rst2.y3600.cn^
 ||rsvqlz.cn^
 ||rszqtry.cn^
@@ -29572,6 +29579,7 @@ zzzyk.com###Tinfo
 ||tenmax.io^$third-party
 ||teowa.cyou^
 ||tepusi888.cn^
+||termvb.xyz^
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||tetiao9.com^
@@ -31520,6 +31528,7 @@ zzzyk.com###Tinfo
 ||y8ht.xyz^
 ||ya*.dwstatic.com^
 ||yaba.org.cn^
+||yac5t.cn^
 ||yahekby.cn^
 ||yahoo.com/embed/tv?site=buzzhand&
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
