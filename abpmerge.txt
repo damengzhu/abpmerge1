@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-16 08:10:25
-! Total count: 32554
+! Version: 2023-08-16 16:09:46
+! Total count: 32561
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1218,6 +1218,7 @@
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
+##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://immmg.owowqrf.cn']
@@ -4794,7 +4795,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
-@@css.yhdmtu.xyz$domain=yinghuavideo.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
@@ -4808,6 +4808,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@||$xmlhttprequest,domain=last.fm
+@@||/template/conch/asset/js/hlhtml.js$domain=www.gqdm.net|1anime.me
 @@||012.tw^$script,domain=apk.tw
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
@@ -5585,6 +5586,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cruisecenter.com.tw/data/ad/
 @@||crunchyroll.com/*/ads_enabled_flag.js$script
 @@||csdn.net/static/static/js/apps/popShow.js
+@@||css.yhdmtu.xyz^$domain=yinghuavideo.com
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||cubchannel.com^$script,xmlhttprequest
@@ -13783,10 +13785,11 @@ netbian.com##a[href^="https://ibaotu.com/guanggao/"]
 netflav.com##.ads_head_banner_container
 netflav.com##.ads_video_overlay_mobile
 netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
+netfly.fun,netfly.tv##.module-tg-box
+netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
+netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
+netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.tv##.module-tglist
-netfly.tv##.tg-container
-netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
-netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netviagens.com###nvAdForm
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com#@##TopAd
@@ -15958,6 +15961,7 @@ tropica.cn##.bm.a_c1
 tropica.cn##.wp1.a_t
 trovesaurus.com###blocked
 truyen2u.net#$#abort-current-inline-script eval
+truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -22138,6 +22142,7 @@ zzzyk.com###Tinfo
 ||dydab.com^
 ||dydujb.xyz^
 ||dyeperd.icu^
+||dygtulfe.icu^
 ||dyguo.com/pc/*0.js
 ||dyguo.com/pc/nr336.js
 ||dyhjw.com/Public/v3/appdown/images/AppEntrance.png
@@ -22431,6 +22436,7 @@ zzzyk.com###Tinfo
 ||eqyzc.cyou^
 ||er.5ykj.cn^
 ||er.5ykj.com^
+||eraaoec.cn^
 ||ercnrxa.cn^
 ||ere.wew.92kkdy.cc^
 ||erebor.douban.com^
@@ -26545,6 +26551,7 @@ zzzyk.com###Tinfo
 ||mnks.cn/jk/appAD_
 ||mnlgsjh.cn^
 ||mnnmnn.com^
+||mnpbxjq.cn^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnver.xyz^
 ||mnvqx.xyz^
