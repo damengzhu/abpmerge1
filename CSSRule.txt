@@ -3936,7 +3936,6 @@ bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
-bilibili.com#$?#.container > div[class*="-card"]:has(div[style="display: none !important;"]) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
 bilibili.com#?#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
@@ -6710,6 +6709,7 @@ html-js.com##a[style^="margin-top:20px;"]
 html-js.com##div[style="margin:10px auto;width:1000px;"]
 htmleaf.com##.htmleaf-adv
 htmlsucai.com,sucai8.cn,ui.cn#@#.adv_img
+httpcn.com##a[href^="http://www.okbmf.com/"] > img
 huaban.com###top_promotion
 huaban.com##.hb-ad
 huaban.com##div[class="pin wfc ad wft"]
@@ -7113,7 +7113,7 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"displa
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliigible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliigible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -11234,6 +11234,7 @@ v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
+v.youku.com##.advertise-layer
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##.laifeng
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
@@ -11987,6 +11988,8 @@ youku.com##.src_adwrap
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
 youku.com##div[data-adext]
 youku.com##div[name="m_pos"] > #FullPromotion
+youku.com#$?#.newswiper_big_swiper_container > div.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(> a[data-href]:not([data-href^="https://v.youku.com/"]):not([data-scm])) { remove: true; }
+youku.com#$?#.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(a[href*="/tg.602.com/"]) { remove: true; }
 youmelive.com###b2-widget-html-2
 youmoviz.tv##.plugbarremozi
 youneed.win##+js(abort-on-property-read, daau_app)
