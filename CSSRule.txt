@@ -385,7 +385,6 @@
 ###xqad1
 ###xqad2
 ###xqad3
-###xqad[style="margin-bottom: 5px;"]
 ##.AD_TAC_BOX
 ##.AdTop
 ##.C1U,.C1M,.C2L,.C2R
@@ -1766,7 +1765,6 @@
 ##script + div[id^="a-loading-"]
 ##script[src$="/base.js"] + #couplet
 ##script[src="/js/sy2.js"] + div[align="center"]
-##script[src="/template/kuhei2/skin/base.js"] + #couplet
 ##secion#ly LI[role='group'],secion#ly > H2
 ##section > SPAN[style='display: block; clear: both; overflow: hidden;']
 ##section.global_video_bottom_dbtc
@@ -3341,7 +3339,6 @@ apk.tw###postlist > div:nth-last-child(2):not([id])
 apk.tw##.login_bg > .ad300
 apk.tw##.postlist > div > div[style="margin:0px 0px 0px 0px;width:300px;height:250px;overflow:hidden;"]
 apk.tw##.sitemaji_banner
-apk.tw##ins.adsbygoogle
 apk.tw#?#body > div:has(> div[class^="yap-ad-"])
 apk.tw#@##google_ad
 apk.tw#@#.ad300
@@ -4209,7 +4206,6 @@ cam4.tw##.subfoot-section
 camerabay.tv##.popupad
 camsstream.com#$#abort-current-inline-script onload;
 cangjige.net##.wp[style="height:36px;padding-top:15px;"]
-cangku.moe##.mb-4.slider
 cangku.moe##.slider
 canhasbitcoin.com###adblock-message
 cankaoxiaoxi.com###qihupic
@@ -5376,6 +5372,8 @@ easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
 ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
@@ -8615,6 +8613,7 @@ money.163.com##.ad1200
 money.163.com#$#.finance_header { height: auto !important; }
 money.163.com#$#.finance_header_gg { display: none !important; }
 money.pl#$#abort-current-inline-script document.querySelector querySelector
+money.pl#$#hide-if-matches-xpath '//div[@id]/following::a[@class]/img[string-length(@src) < 130]/ancestor::div[1]'
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
 money18.on.cc#@#.ads-bg
@@ -10992,6 +10991,7 @@ trakt.tv###huckster-desktop-bottom
 trakt.tv###huckster-desktop-top
 trakt.tv##.huckster-dfp
 trakt.tv##DIV[id$='-wrapper']
+transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
 tropica.cn##.a_mu1
 tropica.cn##.bm.a_c1
@@ -11547,6 +11547,7 @@ win7xzb.com##.four_box
 win7xzb.com##.ware_gs
 windows7en.com##.fu-welcome
 winshang.com##.ggwrap
+winwin7.com##.xzbox-lf
 wiseway.com.cn##.float-kefu
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 wk.baidu.com##.fc-ad-wrap
