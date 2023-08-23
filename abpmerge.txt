@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-22 16:09:50
-! Total count: 32676
+! Version: 2023-08-23 08:10:22
+! Total count: 32679
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4611,7 +4611,6 @@ $websocket,domain=5nj.com|cechi8.com
 :8888/zhu/pc_
 :8888/zhu/wap_
 :8891/v*/$script,third-party
-:8891/vj5/$script,third-party
 :8898/ads_
 :9001/code/
 :9875/vh2/
@@ -10470,9 +10469,7 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-contains-visible-text '/ by Etsy seller/' '.responsive-listing-grid' 'div  li[class] .wt-text-caption>span'
-etsy.com#$#hide-if-matches-xpath './/input[@name="plkey"][@value]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
-etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"c7")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -12051,7 +12048,7 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"displa
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliigible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligiblee]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliigible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -18330,6 +18327,7 @@ zzzyk.com###Tinfo
 ||5imx.com/image/image/
 ||5ips.net/love/
 ||5kmp7.top^
+||5lfgdju.com^
 ||5lna.xyz^
 ||5lpt.cn^
 ||5lu8.com^$popup,third-party
@@ -22736,6 +22734,7 @@ zzzyk.com###Tinfo
 ||fg.daochengwowo.top^
 ||fg.yilianqing.com^
 ||fgdtln.xyz^
+||fgetmzx.icu^
 ||fgo22.info^$third-party
 ||fgre9.top^
 ||fh21.com.cn/js/passport/createQuickMenu.js
@@ -23454,6 +23453,7 @@ zzzyk.com###Tinfo
 ||gwide.xyz^
 ||gwmeinq.cn^
 ||gwmrb.cn^
+||gwrpceo.cn^
 ||gwvzgjb.cn^
 ||gwwsevy.cn^
 ||gx2f.top^
@@ -23685,6 +23685,7 @@ zzzyk.com###Tinfo
 ||hefeng-group.net/attach/20200605/Fl05PJWEPUSuVt1x6PeHbHiaQ59J.png
 ||hefrpv.xyz^
 ||hegk01a.top^
+||hegk02a.top^
 ||hegk03a.top^
 ||hegk05a.top^
 ||hegk06a.top^
@@ -27385,6 +27386,7 @@ zzzyk.com###Tinfo
 ||oqpgq.top^
 ||oqshoyd.cn^
 ||oqxep.cn^
+||oqyiapj.cn^
 ||orange-dc.youku.com^
 ||orgaorg.com^
 ||oronwg.xyz^
@@ -27786,6 +27788,7 @@ zzzyk.com###Tinfo
 ||pnesemr.cn^
 ||pnez8.rut6m.xyz^
 ||pniao99.com/statics/js/stat.js
+||pnlhnx.xyz^
 ||pnzhpb.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
