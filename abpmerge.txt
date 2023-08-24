@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-23 16:09:51
-! Total count: 32676
+! Version: 2023-08-24 08:10:31
+! Total count: 32691
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1803,9 +1803,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|0794.o
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com
-$script,third-party,domain=52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
+$script,third-party,domain=movieffm.net|52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
@@ -5432,6 +5432,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
+@@||cdn.jsdelivr.net^$script,domain=movieffm.net
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
 @@||cdn.needrom.com/advert3.js$script
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
@@ -5441,6 +5442,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org
+@@||cdn.staticfile.org^$script,domain=movieffm.net
 @@||cdn3.iplex.pl/iplex3/static/js/ads.js$script
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
 @@||cdndx.clouddata8g.xyz^$domain=ohmanhua.com
@@ -8744,6 +8746,7 @@ bbs.my0511.com##.outertxt > tbody > tr > td[height="80"][align="right"]
 bbs.my0511.com##div[style="margin-left:auto;margin-right:auto;text-align:center;margin-top:5px;"]
 bbs.my0511.com##embed[width="970"][height="70"]
 bbs.my0511.com##span.smalltxt
+bbs.nga.cn##div[style^="background:#423d35;box-shadow:"]
 bbs.pcbeta.com###diynavtop + style + div[class]
 bbs.xmfish.com##.cmp_v
 bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc,yii666.com#@#.google-ad
@@ -15473,6 +15476,7 @@ soundofhope.org###itb_ads_catfish
 soundofhope.org##.itb_ads
 soundofhope.org##div[class*="AD_"]
 south-plus.net##a[onclick*="'ad'"]
+soutubot.moe##.bg-gray-800.overflow-hidden
 soyoung.com###pubWideBanner
 soyoung.com##.cash_back
 soyoung.com##.pop_center_box
@@ -17992,6 +17996,7 @@ zzzyk.com###Tinfo
 ||380.tw^$popup,third-party
 ||380tv.com/upload/*-ad-
 ||387635.com^
+||38kmute.xyz^
 ||39.net/PictureLib/A/f76/20160825/org_749281.png
 ||39.net/PictureLib/A/f76/20170814/org_1428963.gif
 ||39.net/a.htm?
@@ -20119,6 +20124,7 @@ zzzyk.com###Tinfo
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcsijjgck.xyz^
 ||bcvxfgy.xyz^
 ||bd*-ys.km.com^
 ||bd-china-1.appmobile.cn^
@@ -23510,6 +23516,7 @@ zzzyk.com###Tinfo
 ||h731.icu^
 ||habyc.com^
 ||hacde1.icu^
+||hacde10.icu^
 ||hacde3.icu^
 ||hacde5.icu^
 ||hacde6.icu^
@@ -24622,6 +24629,7 @@ zzzyk.com###Tinfo
 ||ithome.com/images/v2.1/downsoftmaster.gif
 ||ithome.com/js/lapin/hot.js
 ||ithome.com/js/recommend.js
+||itienlo.top^
 ||itiexue.net/domain-policy/
 ||itiexue.net/wap/tiexue/js/chuping/nativeshare
 ||itjew.xyz^
@@ -25436,6 +25444,7 @@ zzzyk.com###Tinfo
 ||kju369.cn^
 ||kjugr.xyz^
 ||kjuwxmi.xyz^
+||kjvaqbyebqarl.top^
 ||kjvnfhdgb.com^
 ||kjwx8.com^
 ||kjwysxs.cn^
@@ -27876,6 +27885,7 @@ zzzyk.com###Tinfo
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||projectwonderful.com$third-party
+||prokyrn.icu^
 ||pronpic.org/52mp/index.php/adhandler/
 ||propeller-tracking.com^
 ||property.hk/js/adside.js
@@ -28678,6 +28688,7 @@ zzzyk.com###Tinfo
 ||rvbztg.cn^
 ||rvlgrb.xyz^
 ||rvyjbwr.cn^
+||rvzlobj.cn^
 ||rwadakesz.cyou^
 ||rwefsw55.com^
 ||rwogldz.top^
@@ -28824,6 +28835,7 @@ zzzyk.com###Tinfo
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
 ||sd.yhzzzs*.com^
+||sd01you.com^
 ||sd124.com/statics/mystyle/js/1699.js
 ||sd173.com/images/
 ||sd1f.top^
@@ -31000,6 +31012,7 @@ zzzyk.com###Tinfo
 ||wpercent.qwertyuadf.com^
 ||wpiwoo.xyz^
 ||wples.com/pc/common.js
+||wpoarjokzgi.com^
 ||wpozwh.com^
 ||wpqsmse.cn^
 ||wpwpquse.cn^
@@ -31627,6 +31640,7 @@ zzzyk.com###Tinfo
 ||xxl.bt-xd.com^$third-party
 ||xxmh456.com^
 ||xxmh645.com^
+||xxniln.xyz^
 ||xxooos.com/mm/
 ||xxp123.live^
 ||xxsmcps.com^
@@ -31711,6 +31725,7 @@ zzzyk.com###Tinfo
 ||yaqurc.com^
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
+||yasg114.com^
 ||yatemy.cn^
 ||yb0a.xyz^
 ||ybayck.xyz^
