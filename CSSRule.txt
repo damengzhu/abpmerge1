@@ -1253,6 +1253,7 @@
 ##a.ad_links
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
+##a[clickmode="ad"]
 ##a[href$=".cc:8443"]
 ##a[href$=".php"] > img[src*=".bcebos.com"]
 ##a[href$=".xyz:8443"]
@@ -5540,7 +5541,7 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"bc")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"bd")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -7113,7 +7114,7 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"displa
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligiblee]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliigible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligiblee]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elllligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -7827,6 +7828,7 @@ kdhome.net,xinhuanet.com##.adv3
 kdnet.net##.c_spread
 kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
+kdocs.cn##.business-list-wrap
 kdslife.com###ad_swip
 kdslife.com###tao
 kdslife.com###youhui
@@ -8199,6 +8201,7 @@ ltn.com.tw##.suggest_full .C5
 ltn.com.tw##A[href*="draw.ltn.com.tw"]
 ltn.com.tw##[data-desc="內廣"]
 ltn.com.tw##div[class^="market300"]
+ltn.com.tw##div[id^="ad-"]
 ltn.com.tw##div[id^="compass-fit"]
 ltn.com.tw#$#.whitecon > .related[data-desc="相關新聞"] > li:nth-child(5) { margin-right: 0!important; margin-left: 20px!important; }
 ltn.com.tw#?#.whitecon > .related > li:has(> .ltn_ad)
