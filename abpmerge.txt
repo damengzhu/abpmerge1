@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-24 16:09:57
-! Total count: 32697
+! Version: 2023-08-25 08:11:11
+! Total count: 32717
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1804,9 +1804,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|0794.o
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,third-party,denyallow=sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com
+$script,third-party,domain=52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanhua.com
-$script,third-party,domain=movieffm.net|52movieba.com|66s.cc|audio699.com|btsow.cfd|kan-tv.com|m.supfree.net|xiaoheimi.net
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc
@@ -4549,6 +4549,7 @@ $websocket,domain=5nj.com|cechi8.com
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 9xupload.me#$#abort-on-property-read eval
 ://*.tv/ad/$domain=~moviedj.tv
+://*.z*.xyz/$object,third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/oklist/vars.js
 ://*:*/yeyue.html?k=$csp=script-src
@@ -12050,6 +12051,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#race start; hide-if-matches-xpath './/span[@class][contains(text(),"")]/preceding::div[@aria-label][@role]/div[@style]/parent::div[starts-with(@aria-label,"Product") and @role and @class]/ancestor::*[1]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligiblee]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elllligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eligiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggiible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-eliiggible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-elligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div[@data-sp-ellligible]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -12550,6 +12552,8 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
+jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
+jm-comic2.club#?#:-abp-has(>script+ins)
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
@@ -12846,7 +12850,7 @@ komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R un
 kongzhong.com###dn
 koolearn.com##.news_pf
 koolearn.com##.show_ad
-kop.net.ua,1news.com.ua,365news.biz,4mama.ua,4studio.com.ua,7days-ua.com,agroter.com.ua,alter-science.info,apnews.com.ua,argumentiru.com,asiaplustj.info,autotema.org.ua,autotheme.info,avtodream.org,beauty.ua,begemot-media.com,begemot.media,chas.cv.ua,cheline.com.ua,cikavosti.com,ck.ua,cn.ua,comments.ua,cvnews.cv.ua,day.kyiv.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,dyvys.info,economistua.com,edinstvennaya.ua,ekovolga.com,expert.in.ua,fedpress.ru,firtka.if.ua,forpost.media,fraza.com,gazeta1.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,gov.ua,grad.ua,greenpost.ua,ifnews.org.ua,inforpost.com,inkorr.com,itechua.com,iz.com.ua,kh.ua,khersonline.net,kolizhanka.com.ua,kr.ua,krymr.com,kurskcity.ru,liga.net,lvnews.org.ua,mega-music.pro,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,narodna-pravda.ua,promin.cv.ua,nashbryansk.ru,newsua.one,newsoneua.tv,news24today.info,ngp-ua.info,nnews.com.ua,novavlada.info,novynarnia.com,np.pl.ua,odessa-life.od.ua,ogo.ua,oukr.info,panoptikon.org,pg11.ru,pik.net.ua,pingvin.pro,planetanovosti.com,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,reporter.ua,risu.ua,rivne.media,rivnenews.com.ua,rusjev.net,russianshowbiz.info,rv.ua,rvnews.rv.ua,showdream.org,sport-kr.com.ua,strana.news,strana.today,sud.ua,te.ua,tenews.org.ua,telekritika.ua,theageoffootball.com,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,ukranews.com,ukrrain.com,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,vlast.kzvnn24.ru,volnorez.com.ua,volyninfa.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wworld.com.ua,zbirna.com,zp.ua#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
+kop.net.ua,1news.com.ua,365news.biz,4mama.ua,4studio.com.ua,7days-ua.com,agroter.com.ua,alter-science.info,apnews.com.ua,argumentiru.com,asiaplustj.info,autotema.org.ua,autotheme.info,avtodream.org,beauty.ua,begemot-media.com,begemot.media,chas.cv.ua,cheline.com.ua,cikavosti.com,ck.ua,cn.ua,comments.ua,cvnews.cv.ua,day.kyiv.ua,depo.ua,dnews.dn.ua,dv-gazeta.info,dyvys.info,economistua.com,edinstvennaya.ua,ekovolga.com,expert.in.ua,fedpress.ru,firtka.if.ua,forpost.media,fraza.com,gazeta1.com,glavnoe.ua,glavnoe24.ru,glavpost.ua,golosinfo.com.ua,gorodkiev.com.ua,gov.ua,grad.ua,greenpost.ua,ifnews.org.ua,inforpost.com,inkorr.com,itechua.com,iz.com.ua,kh.ua,khersonline.net,kolizhanka.com.ua,kr.ua,krymr.com,kurskcity.ru,liga.net,lvnews.org.ua,mega-music.pro,mi100.info,mind.ua,moirebenok.ua,mycompplus.ru,nakanune.ru,narodna-pravda.ua,promin.cv.ua,nashbryansk.ru,newsua.one,newsoneua.tv,news24today.info,ngp-ua.info,nnews.com.ua,novavlada.info,novynarnia.com,np.pl.ua,odessa-life.od.ua,ogo.ua,oukr.info,panoptikon.org,pg11.ru,pik.net.ua,pingvin.pro,planetanovosti.com,pl.com.ua,podpricelom.com.ua,politnavigator.net,poltava365.com,portal.lviv.ua,pravdatutnews.com,prm.ua,procherk.info,profootball.ua,radiosvoboda.org,ratel.kz,real-vin.com,reporter.ua,risu.ua,rivne.media,rivnenews.com.ua,rusjev.net,russianshowbiz.info,rv.ua,rvnews.rv.ua,showdream.org,sport-kr.com.ua,strana.news,strana.today,sud.ua,te.ua,tenews.org.ua,telekritika.ua,theageoffootball.com,treebuna.info,tverigrad.ru,tverisport.ru,tvoymalysh.com.ua,uainfo.org,uanews.org.ua,uatv.ua,ukranews.com,ukrrain.com,unn.com.ua,vchaspik.ua,versii.if.ua,vgolos.com.ua,viva.ua,vlast.kzvnn24.ru,volnorez.com.ua,volyninfa.com.ua,volyninfo.com,volynpost.com,volynua.com,vsviti.com.ua,westnews.info,womo.ua,wworld.com.ua,zbirna.com,zp.ua#$#abort-current-inline-script document.createElement /ru-n4p|ua-n4p|загрузка.../
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
 koyi.pub##+js(set-constant, fuzqingAdPlus, {})
 koyi.pub#@#.main_ad
@@ -13139,6 +13143,7 @@ ltn.com.tw##.list > li[id^="newspaper-native"]
 ltn.com.tw##.ltn_ad
 ltn.com.tw##.suggest_full .C5
 ltn.com.tw##A[href*="draw.ltn.com.tw"]
+ltn.com.tw##DIV[class*="adHeight"]
 ltn.com.tw##[data-desc="內廣"]
 ltn.com.tw##div[class^="market300"]
 ltn.com.tw##div[id^="ad-"]
@@ -14674,6 +14679,7 @@ qiyeku.com###gg2_box
 qiyeku.com###index_gg
 qiyeku.com##div[style*="height:90px;"]
 qizuang.com##.bottom-fadan-box
+qjschungao.com##[style*='px no-repeat; position: relative;']
 qlwb.com.cn###scroll_box
 qncye.com##.bbaner
 qq.com###AdRight-Article-QQ
@@ -22152,6 +22158,7 @@ zzzyk.com###Tinfo
 ||dv.taolingjing.com^
 ||dvaimso.cn^
 ||dvbnmikxh.xyz^
+||dvnsdo.com^
 ||dvr8.com^
 ||dvrnszf.cn^
 ||dvs.china.com^
@@ -23094,6 +23101,7 @@ zzzyk.com###Tinfo
 ||gdmm.com/api.php?mod=js&bid=2188
 ||gdmm.com/images/leftbottom.png
 ||gdoibwfvjqf.com^
+||gdr3.com/us/
 ||gdsoq.com^
 ||gdt.qq.com^
 ||gdugga.com^
@@ -25643,6 +25651,7 @@ zzzyk.com###Tinfo
 ||kwo-0115.cc^
 ||kwogldd.top^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
+||kxcp365.com^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
 ||kxgo.xyz^
@@ -25846,6 +25855,7 @@ zzzyk.com###Tinfo
 ||lh54.top^
 ||lhare.xyz^
 ||lhdlbp.xyz^
+||lhgwcvw.cn^
 ||lhiefl.com^
 ||lhippac.cn^
 ||lhot.xyz^
@@ -26949,6 +26959,7 @@ zzzyk.com###Tinfo
 ||nefbjp.xyz^
 ||nefroto.net^$script,domain=dada44230.fr
 ||neg2zos.icu^
+||neghes.fun^
 ||neihhou.com^
 ||neiod.xyz^
 ||neipa.xyz^
@@ -29159,6 +29170,7 @@ zzzyk.com###Tinfo
 ||sjalipa.cn^
 ||sjarvis.taobao.com^
 ||sjbaiduadv1.redou.com^
+||sjbgyak.cn^
 ||sjcm.fun^
 ||sjdfuvz.cn^
 ||sjjk.ltd^
@@ -30870,6 +30882,7 @@ zzzyk.com###Tinfo
 ||weixin.qq.huigun.top^
 ||weixisiwang.com^
 ||weiyuedu.cc/skin/v3/js/dibu.js
+||weiyun.com/cgi-bin/tianshu_get?position=4&
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
 ||weizhenwx.com^
 ||wendangku.net/js/common.js
@@ -31361,6 +31374,7 @@ zzzyk.com###Tinfo
 ||xhkvff.cn^
 ||xhl161.com^
 ||xhmybanjia.cn^
+||xhpghv.xyz^
 ||xhqg.xyz^
 ||xhqgymmb.com^
 ||xhsrw.xyz^
@@ -31632,6 +31646,7 @@ zzzyk.com###Tinfo
 ||xwdsp.com^
 ||xwewwgk.cn^
 ||xwqtatnw.icu^
+||xwsqtngwa.xyz^
 ||xww360.com^
 ||xx.shaque.vip^$third-party
 ||xxba.cc^
@@ -31868,6 +31883,7 @@ zzzyk.com###Tinfo
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
 ||yinghuacd.com/bar/
+||yinghuavideo.com/bar/
 ||yingnanyqq.com^
 ||yingnanyyds.com^
 ||yingshizxw.com/js/tc/
@@ -32286,6 +32302,7 @@ zzzyk.com###Tinfo
 ||zdvfpa.xyz^
 ||zdvzw.com^
 ||zdw.w8.com.cn/p.ht?
+||zdwykjd.icu^
 ||zdx1.site^
 ||zdx10.site^
 ||zdx11.site^
@@ -32310,6 +32327,7 @@ zzzyk.com###Tinfo
 ||zelpbp.buzz^
 ||zencdn.net^$domain=freegaypornsex.net|www.gayvl.info
 ||zenknho.cn^
+||zents7.top^
 ||zeookuv.xyz^
 ||zero.wewakir.top^
 ||zerolcp.cn^
@@ -32352,7 +32370,9 @@ zzzyk.com###Tinfo
 ||zglww.net/jsnew/pfkf.js
 ||zgm1.com^
 ||zgnlaigq.fun^
+||zgtwzq.xyz^
 ||zguqxf.xyz^
+||zgwsnw.xyz^
 ||zgystsd.com^
 ||zgyvg.top^
 ||zgzlw.biz^
