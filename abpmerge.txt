@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-28 16:09:56
-! Total count: 32677
+! Version: 2023-08-29 08:10:53
+! Total count: 32684
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -521,11 +521,6 @@
 ##.adline
 ##.adlist
 ##.adlistcss
-##.adpc > .module
-##.adpc > .promo-link-
-##.adpc > .promot-link-
-##.adpc > .promot-link_
-##.adpc > .promt-link_
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -596,6 +591,7 @@
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
 ##.bdyp-sygg-ul
+##.before_playing_cctv.yc
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
 ##.bg_ad
@@ -860,6 +856,8 @@
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
+##.promolink-[style="position:relative;width:100%;height:100%;"]
+##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
 ##.pure-g[onclick*="float"]
 ##.qpdb + a[href]
@@ -3888,7 +3886,6 @@ $websocket,domain=5nj.com|cechi8.com
 2cto.com##div[style^="float:left;width:300px;"]
 2cycomic.com,yemancomic.com##body > div > center
 2ddl.ms,thevideobee.to,dropapk.com,2ddl.vg#$#abort-on-property-write _pop
-2dfan.com,3dmgame.com,galge.fun###index_bg_box
 2dfan.com,galge.fun###popadv-container
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
@@ -4613,6 +4610,7 @@ $websocket,domain=5nj.com|cechi8.com
 :818/nowscore/
 :88/999pc/
 :88/lighttpd/default/
+:8888/js/cctv.js
 :8888/mb1/pc_
 :8888/mb1/wap_
 :8888/zhu/pc_
@@ -13634,6 +13632,7 @@ mpyit.com##.cboxElement + center[style=" padding-top:10px; "]
 mpyit.com##.post-999999
 mrbird.cc#@#.social-icons
 mreader.co#$#abort-current-inline-script document.createElement _stlivuf
+mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 mrmad.com.tw#?#div[id^="mrmad-"][style]:has(> .adsbygoogle)
 mrpornx.com,myyouporn.com#$#abort-current-inline-script eval String.fromCharCode
 mrtzcmp3.net###hstp-bg-overlay
@@ -19049,7 +19048,6 @@ zzzyk.com###Tinfo
 ||acgshenshicha.cn^
 ||acgshenshicha.cn^$third-party
 ||achicih.gitee.io^$third-party
-||achost.top/banner/
 ||achost.top/uploads/ads/
 ||ackcdn.net^
 ||acode.b2b.cn/JS/
@@ -22083,6 +22081,7 @@ zzzyk.com###Tinfo
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds9e.top^
+||dsbjdeh.cn^
 ||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
@@ -25227,6 +25226,7 @@ zzzyk.com###Tinfo
 ||jy8izgie.xyz^
 ||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/nav/cf_
+||jygiizv.icu^
 ||jyhlo0.com^
 ||jyigozm.cn^
 ||jylgd.com^$script
@@ -25561,6 +25561,7 @@ zzzyk.com###Tinfo
 ||kt51.com/wz.jpg
 ||ktbelts.cn^
 ||ktdlsb.com^
+||ktienld.top^
 ||ktkkt.com/js/tvb/
 ||kttoo1.com^$domain=9xav.cc
 ||ktzhk.com/file/adv/
@@ -27204,6 +27205,7 @@ zzzyk.com###Tinfo
 ||oaclrst.cn^
 ||oaftaijo.net^
 ||oaftaijo.net^$third-party
+||oaihiiacb.com^
 ||oajfpqojev.net^
 ||oajxkah.cn^
 ||oalmbmf.xyz^
@@ -27779,6 +27781,7 @@ zzzyk.com###Tinfo
 ||pmxalz.xyz^
 ||pnesemr.cn^
 ||pnez8.rut6m.xyz^
+||pnhp3x1.com^
 ||pniao99.com/statics/js/stat.js
 ||pnlhnx.xyz^
 ||pnzhpb.xyz^
@@ -28695,6 +28698,7 @@ zzzyk.com###Tinfo
 ||rzkptd.com^
 ||rzlp.xyz^
 ||rzngisyz.xyz^
+||rznscya.cn^
 ||rzsgxmm.cn^
 ||rzxov.cn^
 ||s-msn.com/portal/js/vendor/manto/
@@ -29744,6 +29748,7 @@ zzzyk.com###Tinfo
 ||tgryfh.xyz^
 ||tgymhwt.cn^
 ||thallus.net^
+||thcaes.top^
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
 ||thdidx.xyz^
@@ -30670,6 +30675,7 @@ zzzyk.com###Tinfo
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
 ||vvwuqxp.icu^
+||vvxhth.xyz^
 ||vw66i.top^
 ||vwfppr.xyz^
 ||vwtjvd.xyz^
@@ -32528,6 +32534,7 @@ zzzyk.com###Tinfo
 ||zpotkvpy.icu^
 ||zppfjh.xyz^
 ||zpsh.shop^
+||zpsovpgyk.xyz^
 ||zpxw.vip^
 ||zq.lansedir.com^
 ||zq9a.top^
