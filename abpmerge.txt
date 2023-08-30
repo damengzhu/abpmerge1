@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-29 16:10:04
-! Total count: 32691
+! Version: 2023-08-30 08:10:44
+! Total count: 32703
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1834,6 +1834,7 @@ $websocket,domain=5nj.com|cechi8.com
 *_ad_$media,domain=youtube.com,3p
 *tplv-noop.gif*
 ,e8o,$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
+-*-*-*-*.alpha^$script,third-party
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
@@ -1965,6 +1966,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/rmb/daohang*.js
 .com/rmb/dl.js
 .com/rmb/palyyoubian.js
+.com/rs/in/*?n=$script,third-party
 .com/sc/*?n=$script,third-party
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
@@ -4584,6 +4586,7 @@ $websocket,domain=5nj.com|cechi8.com
 :1010/openV5.js
 :11211/t.js?MAC=
 :12289/o.js$script,third-party
+:12289/slot?
 :12443/*/*-*-*.$script,third-party
 :18443/*/*-*-*.html$subdocument,third-party
 :18443/*/*-*-*.js$third-party
@@ -8610,6 +8613,7 @@ baidu.com##.redenvelope-small
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.result-op[tpl="b2b_prod"] > div > .c-border
 baidu.com##.result-op[tpl="pc-education-fs"]
+baidu.com##.result-op[tpl="pc-soft-accurate"] > div > .c-row
 baidu.com##.result-op[tpl="sp_hot_sale"]
 baidu.com##.rightAd-skin
 baidu.com##.rmb-carsousel-position-bottom
@@ -18049,6 +18053,7 @@ zzzyk.com###Tinfo
 ||3dmgame.com/tools/gamead?
 ||3dwwwgame.com^$third-party
 ||3ek9.cn^
+||3er88wn.com^
 ||3fa20230512.live^
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
@@ -21674,6 +21679,7 @@ zzzyk.com###Tinfo
 ||dblcs.cn^
 ||dbmcmhh.cn^
 ||dbmp4.com/js/foot.
+||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbtojr.xyz^
 ||dbw.cn/eap/js/db/dbwad_
@@ -21736,6 +21742,7 @@ zzzyk.com###Tinfo
 ||denpvh.xyz^
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
+||desac7.icu^
 ||destc10.icu^
 ||destc8.icu^
 ||deude.ltd^
@@ -21945,6 +21952,7 @@ zzzyk.com###Tinfo
 ||dm1.ddwk8.cn^
 ||dm1.guanwawa.com^
 ||dm1.zjydt.com^
+||dm590.com/piao/
 ||dmeia.xyz^
 ||dmfjeu.xyz^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
@@ -25764,6 +25772,7 @@ zzzyk.com###Tinfo
 ||ld0766.com/index.php?m=call&id=10
 ||ldb.cc/js/top.js
 ||ldd62n.top^
+||ldjhlqr.cn^
 ||ldmnq.com/bbs/$third-party
 ||ldmnq.com^$third-party,badfilter
 ||ldxinb.xyz^
@@ -26263,6 +26272,7 @@ zzzyk.com###Tinfo
 ||m.wantemachine.com.cn^
 ||m.xylmdm.top^
 ||m.ybstwl.com/public/tpl/m2/js/
+||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
 ||m.yinghuacd.com/bar
 ||m.ysxs8.com/js/content_db.js
@@ -27976,6 +27986,7 @@ zzzyk.com###Tinfo
 ||q.f05.xyz^
 ||q1.yyxwzx.com^
 ||q1zcp.com^
+||q27sz.com^
 ||q2p.pub^
 ||q7tl.icu^
 ||q88j2.top^
@@ -28733,6 +28744,7 @@ zzzyk.com###Tinfo
 ||s1.wesiedu.com^
 ||s11.cn^$third-party
 ||s1wq.top^
+||s2dcm.com^
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||s3nycv.xyz^
@@ -29735,6 +29747,7 @@ zzzyk.com###Tinfo
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
 ||tfg2.com/images/upfile/banner/
+||tfgotoai.shop^
 ||tfonlyuse.shop^
 ||tfprivacy.live^
 ||tfsuggestion.live^
@@ -29891,6 +29904,7 @@ zzzyk.com###Tinfo
 ||tk.504pk.com^
 ||tkd777.cn^
 ||tknkfd.xyz^
+||tkqwurl.icu^
 ||tkres.tuku.cc/k32/
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
@@ -30545,6 +30559,7 @@ zzzyk.com###Tinfo
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
+||vfzfrx.xyz^
 ||vgao.xyz/images/*.gif
 ||vgg5.cn^
 ||vggzftw.cn^
@@ -31800,8 +31815,6 @@ zzzyk.com###Tinfo
 ||yhbdrnr.cn^
 ||yhbsk.cn^
 ||yhdd1.com^$third-party
-||yhdm.io/bar/
-||yhdm.so/bar/
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
 ||yhgumcr.xyz^
@@ -31856,7 +31869,6 @@ zzzyk.com###Tinfo
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
 ||yingce.asia^
-||yinghuacd.com/bar/
 ||yinghuavideo.com/bar/
 ||yingnanyqq.com^
 ||yingnanyyds.com^
