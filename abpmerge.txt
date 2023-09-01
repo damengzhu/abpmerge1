@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-08-31 16:10:25
-! Total count: 32724
+! Version: 2023-09-01 08:10:35
+! Total count: 32736
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2490,6 +2490,7 @@ $websocket,domain=5nj.com|cechi8.com
 /bcgg/*
 /bg5t4h.oss-
 /bigREDcat.js?$third-party
+/biyys*hh.js$third-party
 /biz_icon/*$domain=cs090.com|wm090.com
 /blgg/*
 /blockBlock.jquery.js$script
@@ -3190,6 +3191,7 @@ $websocket,domain=5nj.com|cechi8.com
 /vipgg/*
 /vj1/*$third-party
 /vj2/*$third-party
+/vj3/*$third-party
 /vmind.qqvideo.tc.qq.com^
 /vs.aspx?action=c&vs1=$third-party
 /vtdd/*$script
@@ -4737,8 +4739,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@/adverts/*$domain=onlychild.cn
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
 @@/adview_*_ads_300x250.js$domain=yaociyuan.bid
-@@/adview_pic_$domain=bigpixel.cn|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
+@@/adview_pic_$domain=fffmo.com|bigpixel.cn|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
 @@/analytics.php?$domain=xcar.com.cn
@@ -15569,9 +15571,9 @@ ssr.tools##.widget_custom_html:nth-child(n+2)
 ssr.tools,zhujiwiki.com##.asb-post-footer
 sssam.com##+js(set-constant, ads, '')
 sssam.com##.widget_html_ad
-sstv.fun##.container > a[target="_blank"] > img
 sstv.pw##.container > a > img[style="width: 100%;"]
 ssuip.com###mask
+ssyy.ee##.container > a[target="_blank"] > img
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
 stardima.co,stardima.com#$#abort-current-inline-script document.createElement /break|case/
@@ -16410,6 +16412,7 @@ walmart.com##div[id*="Sponsored"]
 walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com#$#hide-if-contains-visible-text /Sponsored/ 'section div[data-item-id]' div span
 wan.douyu.com
+wandhi.com##.table-bordered
 wandhi.com##a[style="display: inline-block;position: relative"]
 wangfz.com##div[class^="my-ad-"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
@@ -20447,6 +20450,7 @@ zzzyk.com###Tinfo
 ||bl.emotionalworld.cn^
 ||bla01.com^
 ||blackbar.cn^
+||bleumzr.icu^
 ||bljlrl.xyz^
 ||blog.sina.com.cn/lm/mini/
 ||blog.xuite.net/_public/js/ysmad.js
@@ -20486,6 +20490,7 @@ zzzyk.com###Tinfo
 ||bnl2bii.icu^
 ||bnlg.fun^
 ||bnqlgdj.cn^
+||bnrdnx.xyz^
 ||bnsdk.top^
 ||bny3.cn^
 ||bny6.cn^
@@ -23181,6 +23186,7 @@ zzzyk.com###Tinfo
 ||ggdfrl.com^
 ||ggdm1.nhaidu.net^
 ||ggdrfh5.com^
+||ggdumze.cn^
 ||ggg*.com/static/js/common.js
 ||ggg.xhamster.com/api/models/vast?*subid_3=preroll_preloada^$xmlhttprequest,domain=xhamster.com
 ||ggglxue.cn^
@@ -24831,6 +24837,7 @@ zzzyk.com###Tinfo
 ||jghklz.xyz^
 ||jgnlaiga.fun^
 ||jgqub.cn^
+||jgsajfggv.xyz^
 ||jgstny.com^$third-party
 ||jh001.cc^
 ||jh16csf.com^
@@ -25396,6 +25403,7 @@ zzzyk.com###Tinfo
 ||kekenet.com/images/*980
 ||kekenet.com^*/zhike
 ||kekeshici.com/pc/images/pcAd.gif
+||kekop.cn^
 ||kelatv.com/ad/
 ||ken.kenxq.com^
 ||kengi.top^
@@ -25828,6 +25836,7 @@ zzzyk.com###Tinfo
 ||lepjrh.xyz^
 ||lequipe.fr/v6/js/popinVideo.js$script
 ||lesenjiaoyu.xyz^
+||lestv1.icu^
 ||letaojuan68.com^
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letvimg.com/$object,xhr
@@ -27320,6 +27329,7 @@ zzzyk.com###Tinfo
 ||okforwardt.fun^
 ||okkkk.com^
 ||okmhmkjnm.com^
+||okmhnd.com^
 ||okmuxdbq.com^
 ||okmwfq.xyz^
 ||okoc.top^
@@ -30292,6 +30302,7 @@ zzzyk.com###Tinfo
 ||uc129.com/images/top_hjsj.jpg
 ||uc129.com/m/
 ||uc9.suinidai.com.cn^
+||uchat6.com^
 ||uchks.com/2018/%
 ||uckmee.xyz^
 ||ucqihfh.cn^
@@ -31437,6 +31448,7 @@ zzzyk.com###Tinfo
 ||xibqq.xyz^
 ||xiexingcun.com/tongji.js
 ||xiexingcun.com/tyong.js
+||xiezhuo038.cn^
 ||xihuangdushu.com^
 ||xihufe.com^
 ||xiiljoy.cn^
