@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-02 16:09:07
-! Total count: 31670
+! Version: 2023-09-03 08:09:16
+! Total count: 31673
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1122,6 +1122,7 @@
 ##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
@@ -2468,6 +2469,7 @@ $websocket,domain=5nj.com|cechi8.com
 /bcgg/*
 /bg5t4h.oss-
 /bigREDcat.js?$third-party
+/bigREDdog.css?
 /biyys*hh.js$third-party
 /biz_icon/*$domain=cs090.com|wm090.com
 /blgg/*
@@ -2911,10 +2913,6 @@ $websocket,domain=5nj.com|cechi8.com
 /myzgg.
 /nForum/files/adv/*
 /naChotina=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-/new/2*.html
-/new/4*.html
-/new/5*.html
-/new/8*.html
 /new/ads/*
 /newAd/*
 /newfengchao/asp
@@ -6703,11 +6701,10 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=quebeccoupongratuit.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=demo.ama.pub
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
@@ -7930,7 +7927,6 @@ $websocket,domain=5nj.com|cechi8.com
 Mplay/kk1.js
 ^monitor.jpg?xcode^
 _/bigREDcat.css?
-_/bigREDdog.css?
 _/bigREDdog.js
 _300_250.
 _300_250_
@@ -9701,6 +9697,7 @@ creaders.net##a[title^="www.136888.com/"]
 creativeuncut.com###g_abox
 crichd.tv###notice
 crsky.com##.Adown_v_gs
+crsky.com##.adowGright
 crsky.com##.banner-leader
 crsky.com##.ml10.Gs_d
 crsky.com##a[href^="http://count."][href$=".exe"]
@@ -18709,6 +18706,7 @@ zzzyk.com###Tinfo
 ||98.126.219.*/ads/
 ||98158.com^
 ||9831tb.com^
+||986qka.cn^
 ||98765432100.online^
 ||98765432100.site^
 ||988aiai.com/static/js/common.js
@@ -21149,6 +21147,7 @@ zzzyk.com###Tinfo
 ||cqbuchouhua.com^
 ||cqfygc.xyz^
 ||cqqwe2pea.xyz^
+||cqtlimi.cn^
 ||cqvip.com/viewserver/ViewAD
 ||cqygmb.com^
 ||cr173.com/js/
@@ -24377,6 +24376,7 @@ zzzyk.com###Tinfo
 ||jh16csf.com^
 ||jhkggrr.icu^
 ||jhlazsot.icu^
+||jhvchv.xyz^
 ||jhxcld.xyz^
 ||jhzfwl.cn^
 ||jia.com/js/common/article_home_adv.js
@@ -26769,6 +26769,7 @@ zzzyk.com###Tinfo
 ||optimix.cn^$third-party
 ||optimizely.com^$third-party
 ||opzksyy.cn^
+||oq6ry.com^
 ||oqeohuc.cn^
 ||oqjfekdkc.net^
 ||oqnggnsk.fun^
@@ -28807,6 +28808,7 @@ zzzyk.com###Tinfo
 ||sxk9m8x.cn^
 ||sxrb.com/front/stat/
 ||sxuheg.xyz^
+||sxundrh.cn^
 ||sybnzs.cn^
 ||sycrgc.xyz^
 ||sydz.tw^
@@ -29006,6 +29008,7 @@ zzzyk.com###Tinfo
 ||thesac5.top^
 ||thesac7.top^
 ||thesac8.top^
+||thesac9.top^
 ||theseblogs.com/Webservices/jsParseLinks.aspx$script,third-party
 ||theseblogs.com/visitScript/$script,third-party
 ||theseforums.com/Webservices/jsParseLinks.aspx$script,third-party
@@ -29113,6 +29116,7 @@ zzzyk.com###Tinfo
 ||tjjd83.xyz^
 ||tjnwfjy.cn^
 ||tjqwb.cn^
+||tjwzyjx.icu^
 ||tk.504pk.com^
 ||tknkfd.xyz^
 ||tkqwurl.icu^
@@ -29300,7 +29304,7 @@ zzzyk.com###Tinfo
 ||tumeite.cn^
 ||tuotianxia.top^
 ||tupian55.com^*.gif
-||tupian888.cdn.bcebos.com^
+||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
 ||turifb.xyz^
 ||tushwjp.icu^
@@ -31614,7 +31618,6 @@ zzzyk.com###Tinfo
 ||zypzzv.xyz^
 ||zyrwfd.xyz^
 ||zyzlpt.com^
-||zz.bdstatic.com^
 ||zz123.com^$third-party
 ||zzad.com^$third-party
 ||zzbaike.com/main/*-20
