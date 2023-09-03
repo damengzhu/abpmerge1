@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-03 08:09:16
-! Total count: 31673
+! Version: 2023-09-03 16:08:55
+! Total count: 31676
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1629,6 +1629,7 @@
 ##div#xinxi
 ##div.ad-area > [href]
 ##div.ad-frame-container
+##div.am-gallery-item > a
 ##div.appad
 ##div.bf_qy DIV.copy_div_btn
 ##div.callApp_fl_btn.an
@@ -7116,6 +7117,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||roofrelation.com^$script,xmlhttprequest
 @@||rookie.com.pl/jscripts/ads.js$script
 @@||roomyreading.com^$script,xmlhttprequest
+@@||rosefile.net^$generichide
 @@||roseincome.com^$script,xmlhttprequest
 @@||rottenray.com^$script,xmlhttprequest
 @@||roughroll.com^$script,xmlhttprequest
@@ -19959,6 +19961,7 @@ zzzyk.com###Tinfo
 ||bbhktv.xyz^
 ||bbk5921.yncjsc.cn^$third-party
 ||bbnnnb.com^*.js
+||bbphonix.xyz^
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.gmbbk.com^*.js
 ||bbs.hotavxxx.com/images/201*.gif
