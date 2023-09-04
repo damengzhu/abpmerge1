@@ -2196,12 +2196,17 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
+18comic.org,18comic.vip###guide-modal
+18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -7606,6 +7611,7 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
 jm-comic2.club#?#:-abp-has(>script+ins)
 jmbbs.com###xjj_jmbbs2015_01
@@ -8127,7 +8133,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-on-property-read setTimeout noopFunc
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
 linovelib.com##+js(set-constant, adblock, 0)
@@ -11325,7 +11331,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo

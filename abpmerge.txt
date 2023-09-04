@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-03 16:08:55
-! Total count: 31676
+! Version: 2023-09-04 08:11:14
+! Total count: 31689
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3677,12 +3677,17 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
+18comic.org,18comic.vip###guide-modal
+18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
 18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
 18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
+18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -12550,6 +12555,7 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
 jm-comic2.club#?#:-abp-has(>script+ins)
 jmbbs.com###xjj_jmbbs2015_01
@@ -13073,7 +13079,7 @@ ling-online.com#$#abort-current-inline-script document.documentElement JSON.pars
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__sub-description span:-abp-contains(/促銷內容|广告/))
-linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open;override-on-property-read setTimeout noopFunc
+linkneverdie.net#$#abort-current-inline-script document.createElement script;abort-current-inline-script $ open
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
 linovelib.com##+js(set-constant, adblock, 0)
@@ -16307,7 +16313,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenk.com,yurineko.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -20769,6 +20775,7 @@ zzzyk.com###Tinfo
 ||chazidian.com/statics/images/wangke.jpg
 ||chdbits.co/pic/*-*.gif
 ||cheda1.icu^
+||cheda7.icu^
 ||cheh9k4t.com^
 ||chenfoo.cn^
 ||chengdu.cn/acts/phoneqss/openCornerWin/
@@ -21898,6 +21905,7 @@ zzzyk.com###Tinfo
 ||dv.amtwcvh.cn^
 ||dv.taolingjing.com^
 ||dvbnmikxh.xyz^
+||dvenkbn.icu^
 ||dvnsdo.com^
 ||dvr8.com^
 ||dvrnszf.cn^
@@ -22091,6 +22099,7 @@ zzzyk.com###Tinfo
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eers0cy.com^
+||eexlgyn.cn^
 ||eeyy.cc/style/yxj.js
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/otherhtml/poster_js/
@@ -24513,6 +24522,7 @@ zzzyk.com###Tinfo
 ||jlsynmla.fun^
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
+||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
 ||jmcomic.asia/iframe_
@@ -27928,6 +27938,7 @@ zzzyk.com###Tinfo
 ||rr3r.com/requestData.
 ||rrgapzw.cn^
 ||rrjc.com/home/seo/ad/
+||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rrzxlt.xyz^
 ||rsanciz.top^
@@ -29131,6 +29142,7 @@ zzzyk.com###Tinfo
 ||tlprlf.xyz^
 ||tlsgq.cn^
 ||tlsynmli.fun^
+||tltyygb.cn^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
@@ -30161,6 +30173,7 @@ zzzyk.com###Tinfo
 ||wsoxwa.xyz^
 ||wstx.com/api.php?mod=ad&
 ||wtiaw.top^
+||wtienle.top^
 ||wubizigeng.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
