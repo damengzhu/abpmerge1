@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-04 08:11:14
-! Total count: 31689
+! Version: 2023-09-04 16:09:52
+! Total count: 31680
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -913,7 +913,6 @@
 ##.textadlist
 ##.theme-dark > .ayx > a
 ##.theme_custom_slidebox-ad-below
-##.thumb-overlay-albums > .col-xs-12[style="display: flex;justify-content: center;"]
 ##.title > .gg
 ##.tmall_ad_container
 ##.tmall_bg15
@@ -1217,6 +1216,7 @@
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
+##[src^="https://img.sobot.com/chatres/"][title="sb"]
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
@@ -2256,7 +2256,6 @@ $websocket,domain=5nj.com|cechi8.com
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc
-/^https?://www\.liveinternet\.ru/[^\s]{100,}/$xmlhttprequest,header=X-Xss-Protection
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /_xa/ads?
 /_xa/ads_
@@ -2404,6 +2403,7 @@ $websocket,domain=5nj.com|cechi8.com
 /aipai/player/game_video/videoAdvert_
 /ajax/ad/*
 /ajds/*
+/ajgg-1318512902.
 /ajjsjfsk/*
 /ajs.php?
 /alljs/alldl.js
@@ -3681,16 +3681,7 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip##.modal-backdrop
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,18comic1.art,18comic2.art###guide-modal
-18comic.org,18comic.vip,18comic1.art,18comic2.art##.modal-backdrop
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href*=".taobao.com"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##a[href^="http"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[data-height="264"][data-width="956"]
-18comic.org,18comic.vip,18comic1.art,18comic2.art##div[style^="position: fixed; top:"]
 18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win##div[style="cursor: pointer;"] > img[src*="/media/albums/"]
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:-abp-has(>script+ins)
-18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -4391,7 +4382,7 @@ $websocket,domain=5nj.com|cechi8.com
 7k7k.com##.bgLink
 7k7k.com##.page-right-side-btns-img-link
 7k7k.com##.skin-link
-7ogorod.ru,autonevod.ru,shtrafsud.ru,zazloo.ru#$#abort-on-property-read flat_pm_arr
+7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 7x7n.com##.down_load_1
 7x7n.com##.down_load_2
 8264.com##.advSection__wrapper
@@ -8947,7 +8938,10 @@ blog.163.com###topbar_randShowArea
 blog.163.com###topbar_yxpArea
 blog.163.com##.m-regGuideLayer.f-trans
 blog.163.com##.postadlayer
+blog.51cto.com##.ac-box
 blog.51cto.com##.relatedArt.box
+blog.51cto.com##li.creative > a.task
+blog.51cto.com##ul.Navigates > li.first > a[href][target="_blank"]
 blog.abit.vn#$#abort-on-property-read document.cookie
 blog.csdn.net###article_content > link + a
 blog.csdn.net##.t0
@@ -12045,6 +12039,7 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li[data-testid] 'li div[aria-label]>div>div'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
@@ -12492,6 +12487,7 @@ jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 jinbaodm.com##div[id^="a-loading"]
+jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
 jingdianlaoge.com##.baidu
@@ -12556,12 +12552,9 @@ jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jm-comic2.club##a[href^="http"]:not([href*="jm-comic"]) > img
-jm-comic2.club#?#:-abp-has(>script+ins)
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
-jmcomic1.city,jmcomic1.win##a[href^="http"]:not([href*="jmcom"]) > img
 jmnews.com.cn##div[id^="couplet_"]
 jmw.com.cn##.coupon
 jmw.com.cn##.head_1b
@@ -13259,6 +13252,7 @@ m.toutiao.com##.recommendation-container + div[class]
 m.tvsou.com##.sogou-temp-hidden
 m.tvsou.com##.story_ad_android
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
+m.xiaomiyoupin.com#@#[style*="mi-img.com"]
 m.youku.com###banner
 m.youku.com##.cmt-more
 m.youku.com##.cmt-more-cont
@@ -17686,13 +17680,7 @@ zzzyk.com###Tinfo
 ||189.gd^*.html$third-party
 ||18av.mm-cg.com/*/7mmtv.gif
 ||18avday.*/aa/
-||18comic.*/iframe
 ||18comic.*/media/albums/*?$media
-||18comic.*/media/logo/
-||18comic.*/static/resources/files/*0x
-||18comic.*/static/resources/images/168/
-||18comic.*/static/resources/images/300
-||18comic.*/static/resources/images/JGG/
 ||18comic.*/templates/frontend/airav/js/*1_2df4.js
 ||18comic.vip/templates/frontend/airav/js/92_81c7.js
 ||18dui.com^
@@ -18597,6 +18585,7 @@ zzzyk.com###Tinfo
 ||88993aaa.com^
 ||88eg.cn^
 ||88kids.mobi^
+||88lajs1.com^
 ||88liu.com/data/attachment/portal/
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
@@ -19049,6 +19038,7 @@ zzzyk.com###Tinfo
 ||ad.sitemaji.com^
 ||ad.szhsx.net^
 ||ad.tencentmusic.com^
+||ad.u-car.com.tw^
 ||ad.walkgame.com^
 ||ad.wamxb.info^
 ||ad.wurangxian.top^
@@ -19213,6 +19203,7 @@ zzzyk.com###Tinfo
 ||afs.googlesyndication.com^
 ||afuz032.com^
 ||afx001.pw^
+||afxncq.com^
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag1.zuszw.com^
 ||agathacd.com^
@@ -24525,9 +24516,7 @@ zzzyk.com###Tinfo
 ||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
-||jmcomic.asia/iframe_
 ||jmcomic.asia/iframe_*&idzone=
-||jmcomic1.*/media/albums/*?$media
 ||jmcomic1.cc/iframe_v*?type=exo&idzone=
 ||jmged.xyz^
 ||jmgwh.cn^
@@ -25099,6 +25088,7 @@ zzzyk.com###Tinfo
 ||kuaihou.com/c/shuoming.js
 ||kuaihou.com/c/you1.js
 ||kuaihou.com/js/new/xiazai
+||kuaijuwu.net/js/abc/
 ||kuaile789.ink^
 ||kuaileco.com/weishou/
 ||kuaishang.cn^$third-party
@@ -25441,6 +25431,7 @@ zzzyk.com###Tinfo
 ||liveany.com/images/8d8d.gif
 ||liveappgirl.net^
 ||livefootballhd.net/ad.html$subdocument
+||liveinternet.ru^$xmlhttprequest,header=Uniformat-Product-Type
 ||livep.l.qq.com^
 ||lives.l.qq.com^
 ||livku.com/g1000/
