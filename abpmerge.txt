@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-04 16:09:52
-! Total count: 31680
+! Version: 2023-09-05 08:10:57
+! Total count: 31687
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1771,7 +1771,6 @@
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
-##ul[style="margin: 0px; padding: 0px; font-size: 0px; display: flex;"]
 ##vg-pause-ads
 #@##banner_ad
 #@##sponsored-ad
@@ -10467,7 +10466,7 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'li div.wt-text-caption' 'width: 0px'
+etsy.com#$#hide-if-contains-visible-text '/[aA]d(\\s)*by/' li 'div li[class] .wt-text-caption>span[aria-hidden="true"]' 'width: 0px'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -10853,6 +10852,7 @@ fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
 fun48.com##.margin-big-bottom
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
+fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 futbollatam.com#$#abort-on-property-read attr; abort-on-property-read mm
 fuxnxx.com,hqpornero.com,ilikecomix.com,manga16plus.com,mangaforfree.com,mangaforfree.net#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 fuyang.net###portal_block_474
@@ -11431,12 +11431,14 @@ hc360.com###newAppBox1
 hc360.com##.baidutuiguang
 hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 hc360.com##div[id^="Adv"]
+hcbbs.com###diynavtop
 hcbbs.com###frameXM5QbM img
 hcbbs.com###framedtSuR9
 hcbbs.com###framemI4t76
 hcbbs.com###framerG6o99_left
 hcbbs.com###portal_block_2652
 hcbbs.com##.a_cn_pb
+hcbbs.com##.ke-zeroborder
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hclips.com#$#abort-on-property-read btoa
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
@@ -12039,7 +12041,7 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li[data-testid] 'li div[aria-label]>div>div'
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label]>div>div'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
@@ -12486,7 +12488,6 @@ jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-
 jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
-jinbaodm.com##div[id^="a-loading"]
 jinbaodm.com##div[style^="position:fixed; top"]
 jingangjing.com##.free
 jingangjing.com##.free-popup
@@ -19791,6 +19792,7 @@ zzzyk.com###Tinfo
 ||b7yy.com/ad/
 ||baby-kingdom.com/reqsads?
 ||bacder.fun^
+||bace10.top^
 ||backchina.com/banners/
 ||bad996.com/dakaads.js
 ||badding.oss-ap-southeast-1.aliyuncs.com^
@@ -21312,6 +21314,7 @@ zzzyk.com###Tinfo
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d3.sina.com.cn^$object,script
 ||d32bug9eb0g0bh.cloudfront.net^
+||d37d9zbli5ytch.cloudfront.net^
 ||d3awx1l7oivs5m.cloudfront.net^$script,image
 ||d3f3.xyz^
 ||d3iih5w7xp5hdg.cloudfront.net^
@@ -25324,6 +25327,7 @@ zzzyk.com###Tinfo
 ||lgmi.com/windows/*-Advert.
 ||lgmi.com^*_gg
 ||lgnlaigl.fun^
+||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
 ||lgugsnp.cn^
@@ -26829,6 +26833,7 @@ zzzyk.com###Tinfo
 ||owlunimmvn.com^
 ||owrkwilxbw.com^
 ||oxj8hcfg.xyz^
+||oyfnkle.cn^
 ||oyhurln.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
@@ -27274,6 +27279,7 @@ zzzyk.com###Tinfo
 ||ptauxofi.net^
 ||ptbus.com/s.js
 ||ptfish.com/*/ad$image,object
+||ptfxh.com^
 ||ptgdb.cn^
 ||pthezjl.cn^
 ||ptijx.xyz^
@@ -31243,6 +31249,7 @@ zzzyk.com###Tinfo
 ||zbv7kxrteclub.xyz^
 ||zbvchabjbcj.com^
 ||zbx01.com^
+||zbzbzb.xyz^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
