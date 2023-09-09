@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-08 16:09:48
-! Total count: 31736
+! Version: 2023-09-09 08:09:21
+! Total count: 31747
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3230,6 +3230,7 @@ $websocket,domain=5nj.com|cechi8.com
 /xxgg/xsggs.js
 /y.js?pid=$domain=zd518.cn
 /yesky/js/counter/*
+/yinghua4567/*.js
 /yinghuacd/bottom.js
 /yksmartbanner.
 /ylnew/*.js$image
@@ -6328,6 +6329,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||jsqsjn.com^$script,domain=fyxfcw.com
 @@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
+@@||juduo.cc^$generichide
 @@||jupako.uk/ads.php$subdocument
 @@||justicejudo.com^$script,xmlhttprequest
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$domain=viu.tv
@@ -10730,6 +10732,9 @@ flyzy2005.com##.baidu_ad
 flyzy2005.com##.widget_kratos_ad
 fmdisk.com##div[style="width: 960px; margin: 0 auto; height:900px; color: #F00; font-size: 14px; text-align:left;"] > p
 fmovies.hn,hurawatch.cc,theflixer.tv#$#abort-on-property-read window.zfgstorage
+fnjiasu.com##.layui-layer
+fnjiasu.com##.sidebar_download
+fnjiasu.com##.swiper-container
 focus.cn##.index-app-download
 focus.cn##.module-common-float-im
 focus.cn##.qhb-fixed
@@ -12043,7 +12048,7 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"] span>div'
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"] span'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
@@ -17041,7 +17046,6 @@ yp868.com##iframe[src="/js/loading.html"]
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
 ys168.com##div[style="position: fixed; width: 200px; top: 330px; right: 20px; font-size: 9pt; text-align: left;"]
 yshw1.com###diynews_ad1
-ysw191.com###fix
 ysxs8.vip##.ysxs8_w960_1
 ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
@@ -19771,6 +19775,7 @@ zzzyk.com###Tinfo
 ||azhhr.cn^
 ||azhibo.*/media/aimg/*.gif
 ||azhibo.*images/leisu.png
+||azukgee.cn^
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
 ||azureedge.net/wp-content/uploads/*-AD0
@@ -21525,6 +21530,7 @@ zzzyk.com###Tinfo
 ||denpvh.xyz^
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
+||desac10.icu^
 ||desac7.icu^
 ||destc10.icu^
 ||destc8.icu^
@@ -23462,6 +23468,7 @@ zzzyk.com###Tinfo
 ||hiad.myweb.hinet.net^
 ||hiad.vmall.com^
 ||hiao.com/node/node_27508.htm
+||hiaxj.com/dbxf/
 ||hibaby.ren^
 ||hibikiluler.top^
 ||hibiquan.com/uploads/images/
@@ -23729,6 +23736,7 @@ zzzyk.com###Tinfo
 ||hvfubp.xyz^
 ||hvhudp.xyz^
 ||hwanjia.com^
+||hwfoct.icu^
 ||hwhefj.xyz^
 ||hwnod.xyz^
 ||hxbt.alading123.com^
@@ -24765,6 +24773,7 @@ zzzyk.com###Tinfo
 ||jwandla.top^
 ||jwddpvu.cn^
 ||jweod.xyz^
+||jweoe.xyz^
 ||jwjdpab.cn^
 ||jwpsrv.com/content/conversions/*/videos/*.mp4?token=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||jwronx.xyz^
@@ -25527,7 +25536,6 @@ zzzyk.com###Tinfo
 ||lmxzlb.xyz^
 ||lnaevr.fun^
 ||lnd.com.cn/sys/real_calc.js
-||lndayp.com/4567/
 ||lnhsjob.com^$third-party
 ||lnnjnv.xyz^
 ||lnpqqq.com^
@@ -26981,6 +26989,7 @@ zzzyk.com###Tinfo
 ||pchome.com.tw/js/fancybox/
 ||pchome.com.tw/js/overlay_ad.js
 ||pchome.net/flow.php
+||pchznf.xyz^
 ||pcmtf.cn^
 ||pcmx.autohome.com.cn/impress?
 ||pconline.com.cn/_hux_/
@@ -30445,6 +30454,7 @@ zzzyk.com###Tinfo
 ||xbldocp.xyz^
 ||xbtw.com^
 ||xbvmrx.xyz^
+||xbyoujv.icu^
 ||xc.gouchezj.com^
 ||xc.macd.cn^
 ||xc.mydrivers.com^
@@ -30703,6 +30713,7 @@ zzzyk.com###Tinfo
 ||xpysozb.cn^
 ||xqblnei.cn^
 ||xqcjfcb.cn^
+||xrb0owc.icu^
 ||xrewo.xyz^
 ||xrkadslmgg.top^
 ||xrkadslmgg.xyz^
