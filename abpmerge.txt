@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-09 16:08:56
-! Total count: 31750
+! Version: 2023-09-10 08:09:20
+! Total count: 31763
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1038,6 +1038,7 @@
 ##A[href^='https://v.frthv.com']
 ##A[href^='https://www.ids20.co']
 ##A[href^='https://www.nonstopclub.xyz']
+##A[href^='https://www.pcjx365.com']
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
@@ -4808,7 +4809,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@||$xmlhttprequest,domain=last.fm
-@@||/template/conch/asset/js/hlhtml.js$domain=www.gqdm.net|1anime.me
+@@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
 @@||10010.cn^*/ad
@@ -10436,7 +10437,7 @@ eol.cn###small_adright
 eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
-eol.cn,firefoxchina.cn,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,meiyida01.com,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
@@ -12353,6 +12354,7 @@ iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
+iyf.tv##.pr > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
@@ -13460,7 +13462,6 @@ meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.component-downtip
 meiyida01.com##.module-blocklist
-meiyida01.com##.popup
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
 meizhou.com##.adwords + div
@@ -16722,6 +16723,11 @@ www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
 www.wp.pl#$#hide-if-matches-xpath './/div[@id][@data-st-area]/div[1]/div/parent::div[@class]'
 www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
 www.xda-developers.com##.adzone-above-latest
+www.xhfz2.com##A[href^='https://www.xhfz2.com/ad.php']
+www.xhfz2.com##DIV#topcont
+www.xhfz2.com##DIV.HomeTuList
+www.xhfz2.com##DIV.pctext
+www.xhfz2.com##span.lileft > A[style^='float:left;color:']
 www.xilinjie.com###xlj-da-block-overlay
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
@@ -20791,6 +20797,7 @@ zzzyk.com###Tinfo
 ||chazidian.com/statics/images/wangke.jpg
 ||chdbits.co/pic/*-*.gif
 ||cheda1.icu^
+||cheda10.icu^
 ||cheda7.icu^
 ||cheh9k4t.com^
 ||chenfoo.cn^
@@ -22556,6 +22563,7 @@ zzzyk.com###Tinfo
 ||fmre1.com^
 ||fn9u.fun^
 ||fnfhjka.xyz^
+||fngcgbl.icu^
 ||fnkio.cyou^
 ||fnnzr.cn^
 ||fo.iphonevip.cn^$third-party
@@ -24905,6 +24913,7 @@ zzzyk.com###Tinfo
 ||kcedmk.xyz^
 ||kcieo.xyz^
 ||kcmomkn.cn^
+||kcnwe.xyz^
 ||kd1c.top^
 ||kd1s.icu^
 ||kdcl.pchome.com.tw^
@@ -25371,6 +25380,7 @@ zzzyk.com###Tinfo
 ||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
+||lguaud.icu^
 ||lgugsnp.cn^
 ||lgygy.cn^
 ||lh168.net^*/attachment/portal/
@@ -26578,6 +26588,7 @@ zzzyk.com###Tinfo
 ||nourcomip.fun^
 ||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
+||novipnoad.net/theme/js/sponsor/
 ||nownews.com/assets/js/setAds.js
 ||npdkdb.xyz^
 ||npftmqv.cn^
@@ -27482,6 +27493,7 @@ zzzyk.com###Tinfo
 ||qhvszsl.cn^
 ||qhvws.com^
 ||qhx1h2g.com^
+||qhxtzwf.cn^
 ||qhyy8.com/template/default_wap/html/public/img/*.gif
 ||qiabayyds.com^
 ||qiangqi.shop^
@@ -30661,6 +30673,7 @@ zzzyk.com###Tinfo
 ||xmawwbz.icu^
 ||xmcimg.com/js/m.js
 ||xmi1.top^
+||xmjajv.xyz^
 ||xmkbrfyu.cn^
 ||xmlsxar.cn^
 ||xmmnsl.com^
