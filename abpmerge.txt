@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-11 08:11:23
-! Total count: 31773
+! Version: 2023-09-11 16:10:25
+! Total count: 31783
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8107,6 +8107,7 @@ aishs.top###frameu9916W_left > .block:nth-child(-n+6)
 aiweibk.com##.lili
 aiweibk.com##.pc
 aiyifan.tv,iyf.tv##+js(abort-on-property-read, Object.prototype.ShouldPlayAds)
+aiyifan.tv,iyf.tv##+js(abort-on-stack-trace, Object.prototype.publicManager, invokeInterstitial)
 aiyifan.tv,iyf.tv##+js(set-constant, Object.prototype.captions, {})
 aiyuke.com###Playerpad
 aiyuke.com###js-ad-type4
@@ -12051,7 +12052,7 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"] span'
+instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li 'li div[aria-label="Product"]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span/preceding::img[contains(@src,"metadata=copyright")][contains(@alt,"")][@data-testid]/ancestor::a[contains(@href,"interaction_id")]/ancestor::section[@id][@class][not(@id="store-wrapper") and not(@id="js-app")]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"cloudfront.net/uploads/image_display_")][@alt]/parent::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
@@ -16602,6 +16603,11 @@ world.huanqiu.com##.ad_txt
 world.huanqiu.com##.img_flow.ad_all
 world.huanqiu.com##div[class^="ad_t"]
 world.huanqiu.com#@#.ad_all
+world68.com##.ad
+world68.com##.content_l_flml.zzs
+world68.com##.guanggao
+world68.com##.head_m
+world68.com##.zzs_ad
 worldjournal.com##.banner-zone
 worldofgnome.org#@##wog-300x250-ads
 worldofgnome.org#@#.google-ad
@@ -25819,6 +25825,7 @@ zzzyk.com###Tinfo
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
 ||m2.lelemh.com^
+||m4pgay.com^
 ||m5.66077.cn^
 ||m6ku1.cn^
 ||m7dmtv.top^
@@ -27146,7 +27153,7 @@ zzzyk.com###Tinfo
 ||pierrebotton.com/global/
 ||piimg.com/508806/d53a8d13a40f814d.gif
 ||piimg.com^$domain=kisssub.org|lsjsoso.me
-||pikabu.ru/ajax/?key=$xmlhttprequest,header=x-robots-tag
+||pikabu.ru/ajax/?key=$xmlhttprequest,header=x-xss-protection
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
@@ -27425,6 +27432,7 @@ zzzyk.com###Tinfo
 ||qbd2.site^
 ||qbd3.site^
 ||qbd4.site^
+||qbhmz3.com^
 ||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||qbox.me/FnjnjJhJZlKZEGJ7qV1AocqusFbf
 ||qbtd.xyz^
@@ -30123,6 +30131,7 @@ zzzyk.com###Tinfo
 ||whbhsoft.cn^
 ||whbn.xyz^
 ||whdx.cc/js/
+||whe0nqk.icu^
 ||whfpbc.99.com.cn^
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
@@ -30639,6 +30648,7 @@ zzzyk.com###Tinfo
 ||xiu8.com/baidu-tieba/*&forum_name=
 ||xiu8.com/live/$domain=tieba.baidu.com
 ||xiucm.com^$third-party
+||xiumb8.com/js/lm_
 ||xiurenji.cc/heji/
 ||xiuwaiyyds.com^
 ||xixhx.com^
