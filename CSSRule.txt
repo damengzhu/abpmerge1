@@ -2726,6 +2726,7 @@
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com##.GzList
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,zn503.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
@@ -5540,8 +5541,8 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
+etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li[class] p.wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
-etsy.com#$#hide-if-matches-xpath '//span[text()="vertisement" and "by"]/ancestor::a[contains(@class,"bc37")][contains(normalize-space()," ")][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
@@ -7120,6 +7121,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,"sponsored_badge_text")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -11230,7 +11232,6 @@ upmedia.mg###divider_ad
 uptobox.com#@##adblocktrap
 uptobox.com#@#.ad-leader
 uptobox.com#@#.ad-leader > div[id]
-url56.ctfile.com#?##main-content > .container > .card > .card-body:has(> div[id="760ad"])
 urlchecker.net###adchecker
 urlchecker.net###adchecker_btn
 urlchecker.net###ads_notify
@@ -12204,6 +12205,8 @@ zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
 znds.com###diy_mobanbus_view_right2
+zngame.net##.GzList
+zngame.net#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
 zol.com.cn###iframe_zmall
