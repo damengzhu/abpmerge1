@@ -4274,8 +4274,7 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsorisé")]/parent::div[@class and @id]'
-cdiscount.com#$#hide-if-matches-xpath './/div[normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::div[@id and @class][not(@id="main")]|.//div[normalize-space(text())="Sponsorisé"]/parent::div[@class]/ancestor::li[@class]'
+cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -5987,8 +5986,6 @@ fzd3.com###comiis_app_block_74
 fzd3.com###comiis_app_block_84
 fzd3.com###diy_cmn1
 fzd3.com###tuiguang
-fzdao.cn###datu
-fzdao.cn##.adlan
 fznews.com.cn##.kuang100_right
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 gaara-fr.com###ga-skin-left
@@ -10067,9 +10064,10 @@ sac.net.cn###leftDiv
 sac.net.cn###rightDiv
 samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 samehadaku.net#@##adsense
+samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 samsclub.com#$#hide-if-labelled-by /Sponsored/ button div[class*="carousel-slide"]
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::button[contains(@aria-label,"Sponsored")]/ancestor::div[@class="sc-sba-modules-logo"]'
-samsclub.com#$#hide-if-matches-xpath '//span[@class="sc-specials-label"]/parent::div[@class="sc-specials"]/ancestor::li'
+samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[@class="sc-sba-modules"]'
+samsclub.com#$#hide-if-matches-xpath '//img[contains(@class,"sc-pc-image-small-controller")]/preceding::div[contains(@class,"sc-sponsored-simple")][contains(text(),"Sponsored")]/ancestor::div[contains(@class,"sc-product-carousel-canary-card-has-sponsored-product")]'
 samsung.com###operationBanner
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 sanhao.com###reg-bar
@@ -12075,6 +12073,7 @@ ysxs8.vip##.ysxs8_w960_1
 ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
 ytstv.me,yts.do,yts.mx,yts.movie,yts.rs#$#abort-on-property-read atob
+yuanxue365.com#?#.content-main > div > .container-fluid:has(span:contains(广告))
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 yun.cn##div[class*="ad-block"]
 yunduanxin.xyz###adb-mask
