@@ -2205,6 +2205,7 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > div
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
 18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
@@ -7120,7 +7121,7 @@ instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following:
 instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
-instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,"sponsored_badge_text")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,"sponsored_")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -7414,9 +7415,9 @@ ixueyi.com,shangxueba.com###rightfloatdiv
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
+iyf.tv##.p-r > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
-iyf.tv##.pr > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
@@ -7621,6 +7622,7 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > div
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
@@ -8100,6 +8102,8 @@ lfg.co,leasticoulddo.com#@#.text_ad
 lfg.co,leasticoulddo.com#@#.text_ads
 lgmi.com###openwindows0
 lgn.yy.com##.m_left
+liantu.cn##.side > .h250
+liantu.cn##.wrapper > .inner.h90
 liaocao.tv,nicotv.me##[onclick]
 liaoxuefeng.com###x-sponsor-a
 liaoxuefeng.com###x-sponsor-b
@@ -9377,6 +9381,7 @@ pelisplus.so#$#abort-on-property-write _zoxxpiee
 pencurimovie.cc###simplemodal-container
 pencurimovie.cc###simplemodal-overlay
 pencurimovie.cc##.adb_overlay
+pengbocloud.com#@#.ad-bg
 penzainform.ru#$#abort-current-inline-script $ divWrapper
 people.com.cn##.ad_left
 people.com.cn##.cont_banner
