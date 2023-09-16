@@ -2206,8 +2206,8 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 18comic.org,18comic.vip###guide-modal
 18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > div
 18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
+18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
 18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
@@ -2859,6 +2859,7 @@
 69vj.com###nta
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
+6fzd.com,eyy5.cn,fzd3.com##.area1
 6fzd.com,fzd3.com###comiis_app_block_22
 6fzd.com,fzd3.com###comiis_app_block_74
 6fzd.com,fzd3.com###comiis_app_block_84
@@ -5552,6 +5553,8 @@ ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###ticker_3
 ettoday.net##.adHint
+ettoday.net##.ad_300
+ettoday.net##.ad_970
 ettoday.net##.ad_in_news
 ettoday.net##.ad_readmore
 ettoday.net##.content-container > .iframe-ad
@@ -5606,8 +5609,6 @@ eyny.com##span[id^="ads_ads_"]
 eyuyan.com##div[id^="ads_r_"]
 eyuyao.com##div[id^="x_ad_"]
 eyy5.cn##.wzgg
-eyy5.cn,6fzd.com,fzd3.com##.area1
-eyy5.cn,fzd3.com##.area1
 ez3c.tw##.ypa-custom2
 ezneering.com###media_image-2
 ezneering.com#$#.pum-overlay { display: none !important; }
@@ -5988,11 +5989,6 @@ fxykx.com##a[href*="zyttx.com/"]
 fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fz.se###AdBlockerInfo
-fzd3.com###comiis_app_block_22
-fzd3.com###comiis_app_block_74
-fzd3.com###comiis_app_block_84
-fzd3.com###diy_cmn1
-fzd3.com###tuiguang
 fznews.com.cn##.kuang100_right
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 gaara-fr.com###ga-skin-left
@@ -7628,8 +7624,8 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > div
 jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
+jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
@@ -11825,9 +11821,11 @@ xgrb.cn##.d_2016_ggw
 xgw5.com###app-card-list
 xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 xhamster.com##.sponsorBottom
-xhamster.com##.wit-sponsor-banner
-xhamster.com##.xplayer-banner-bottom
+xhamster.com##div[class$="no-ts-initiailize"]
+xhamster.com##div[class*="live-red"]
+xhamster.com##div[data-role^="yld-pdbanner-underplayer"]
 xhamster.com#$#abort-on-property-read wig-popunder; abort-on-property-write wit-popunder
+xhamster.com#$#hide-if-matches-xpath './/button[contains(@class,"-close")]/i[@class]/ancestor::span[1]'
 xhamster.one#$#abort-on-property-read wih-popunder; abort-on-property-write dataPopUnder
 xhamster2.com,xhamster.one#$#abort-current-inline-script document.createElement initTabUnder
 xhd.cn##.xinad
