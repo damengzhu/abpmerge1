@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-16 16:09:02
-! Total count: 31876
+! Version: 2023-09-17 08:09:15
+! Total count: 31893
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1123,6 +1123,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
@@ -1233,6 +1234,7 @@
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
+##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 ##[style*="b-cdn.net"][style*="background-size"]
@@ -1600,6 +1602,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
@@ -4487,12 +4490,12 @@ $websocket,domain=5nj.com|cechi8.com
 939394.xyz##.j_r_w
 939394.xyz##.j_r_w + a
 939394.xyz##.wrap.mb8.mt5 ~ div[class]:not(.outer)
-939394.xyz##DIV[class] > DIV:not([class]):not([id])
 939394.xyz##a[href*="base."]
 939394.xyz##a[href="https://pic.13709394.net/upload/"]
 939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
 939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
 939394.xyz##a[style="display: block;"]
+939394.xyz##div[class] > div:not([class]):not([id])
 939394.xyz##div[id^="left_layer"]
 939394.xyz##div[style*="position: fixed;"]
 939394.xyz##img[src*=".xyz"][src*=".gif"]
@@ -8667,11 +8670,13 @@ baidu.com##.wgt-bottom-ask
 baidu.com##.wgt-bottom-union
 baidu.com##.wgt-union
 baidu.com##.yitiao-box
+baidu.com##DIV.c-container.ec-container
 baidu.com##DIV[class='qrcode call']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
 baidu.com##[class^='ball-wrapper']
+baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
@@ -9484,8 +9489,8 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 cna.com.tw##.ad_336_2
-cna.com.tw##.ad_970
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
+cna.com.tw,ettoday.net##.ad_970
 cnbeta.com###cb_share > .fl
 cnbeta.com###job_box
 cnbeta.com###right1
@@ -10501,7 +10506,6 @@ ettoday.net###for-ec
 ettoday.net###ticker_3
 ettoday.net##.adHint
 ettoday.net##.ad_300
-ettoday.net##.ad_970
 ettoday.net##.ad_in_news
 ettoday.net##.ad_readmore
 ettoday.net##.content-container > .iframe-ad
@@ -13233,6 +13237,7 @@ m.babytree.com##script + a[class]
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
 m.baidu.com##a[href*="m.lecai.com"]
+m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.biqiugege8.com##+js(set-constant, lists, undefined)
 m.chouti.com##.m_download_box
 m.cnbeta.com##.article-hd + div[style="text-align:center"]
@@ -16496,6 +16501,8 @@ webkaka.com##a[href*=".simcentric."]
 webkaka.com##a[href*="/click/a_d_"]
 webkaka.com##td[id$="_SPONSOR"]
 webtor.io##DIV.ad
+webtor.io##IFRAME[scrolling='no']
+webtor.io##[data-element='empty']
 wed114.cn##.adtwo
 weebly.com##a[href^="https://www.ebay.com"]
 weibo.cn##.tips.m-container-max
@@ -18135,6 +18142,7 @@ zzzyk.com###Tinfo
 ||47.100.0.249/js/thea
 ||470kk.com/js/config.js
 ||470kk.com/js/indextop.js
+||477zw.com/js/nzm
 ||47zoz.xyz^
 ||480image.com^
 ||480img.com^
@@ -20370,6 +20378,7 @@ zzzyk.com###Tinfo
 ||bnds6.site^
 ||bnds7.site^
 ||bnds8.site^
+||bnets1.icu^
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
@@ -20536,6 +20545,7 @@ zzzyk.com###Tinfo
 ||bwdhuanbao.com^
 ||bwwlw.cn^
 ||bxackzj.icu^
+||bxjhlhk.xyz^
 ||bxoiksm.xyz^
 ||bxw666.com/storage/*.gif
 ||bxwccii.cn^
@@ -21096,6 +21106,7 @@ zzzyk.com###Tinfo
 ||cngoldres.com/web/js/*_advs
 ||cngsf.com/baidu.htm
 ||cngsf.com/images/336_280.gif
+||cnied.xyz^
 ||cnjxol.com/images/20191031.png
 ||cnjxol.com/jxrbPaper/pc/static/js/scroll.js
 ||cnkang.com/showcodejsonp?
@@ -21602,6 +21613,7 @@ zzzyk.com###Tinfo
 ||dewalt-sales.com^
 ||dexinyi.cn^
 ||dexuanyu.top^
+||dexylv.xyz^
 ||deyangs.com/img/
 ||dezstd.xyz^
 ||df5b.top^
@@ -22879,6 +22891,7 @@ zzzyk.com###Tinfo
 ||gdugga.com^
 ||gdxxb.com^$third-party
 ||gdyjs.com^
+||gdz0cqs.icu^
 ||gdzshoes.com^
 ||gedu.org/js/meiqia_pc_groupmarket.
 ||geekbang.org/public/serving/
@@ -24371,6 +24384,7 @@ zzzyk.com###Tinfo
 ||iytrn.xyz^
 ||iyuedu.cn.com^
 ||iyurw.xyz^
+||iyybqzv.cn^
 ||izmssk.xyz^
 ||iztwp.com/images/
 ||izzs.cc/wp-content/mm/
@@ -24980,6 +24994,7 @@ zzzyk.com###Tinfo
 ||kcieo.xyz^
 ||kcmomkn.cn^
 ||kcnwe.xyz^
+||kcqpvqr.cn^
 ||kd1c.top^
 ||kd1s.icu^
 ||kdcl.pchome.com.tw^
@@ -26633,6 +26648,7 @@ zzzyk.com###Tinfo
 ||nmgyllh.cn^
 ||nmhte.xyz^
 ||nmkghh.com^
+||nmlfev.icu^
 ||nmm9i.xyz^
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
@@ -29075,6 +29091,7 @@ zzzyk.com###Tinfo
 ||tb3t.xyz^
 ||tb58.net/plugin.php?id=tb58_
 ||tbazhaheii.top^
+||tbb0001.top^
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbcgumkadc.xyz^
 ||tc6tc.com^
