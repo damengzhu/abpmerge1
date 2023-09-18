@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-18 08:11:33
-! Total count: 31907
+! Version: 2023-09-18 16:10:28
+! Total count: 31913
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1778,7 +1778,6 @@
 ##style + .topd + .bottomd
 ##style + .vdgdo
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
-##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
@@ -4421,6 +4420,8 @@ $websocket,domain=5nj.com|cechi8.com
 85tube.com##+js(addEventListener-defuser, DOMContentLoaded, document.createElement)
 85tube.com##.block-album > .table > .opt
 85tube.com##.block-video > .table
+85wp.com###a3_diy2
+85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,kugou.com,solarzoom.com,yesky.com,yxdmgo.com##div[class^="adv"]
 880sy.com##.foot_gg
@@ -10499,7 +10500,7 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li[class] p.wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
+etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li div.wt-text-caption>span:not(.wt-screen-reader-only)' /./ 'display: inline-block' interactive
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
@@ -12077,7 +12078,7 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
-instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
@@ -17963,6 +17964,7 @@ zzzyk.com###Tinfo
 ||3269x.com^
 ||32fi.com^
 ||32xp.com/upimg/
+||32ycta.xyz^
 ||331qka.cn^
 ||3324.cn^$third-party
 ||3332899.com^$third-party,image
@@ -18023,7 +18025,6 @@ zzzyk.com###Tinfo
 ||360114.xyz^
 ||36060.xyz^
 ||360640.com^
-||360buyimg.com$domain=73thz.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 ||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jzt/temp/js/
@@ -18169,6 +18170,7 @@ zzzyk.com###Tinfo
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4kfv18.cn^
 ||4kwu.cc/static/js/tj.js
+||4l903.com^
 ||4paradigm.com^$domain=sina.com.cn
 ||4po6iqp9.cn^
 ||4sexmail.com^
@@ -18630,6 +18632,7 @@ zzzyk.com###Tinfo
 ||8585go.com/recommend
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
+||85wp.com/ad/
 ||8622a.com^
 ||8684.cn/id/ad_
 ||8684.com/com/sys_ad_
@@ -19482,7 +19485,6 @@ zzzyk.com###Tinfo
 ||alicdn.com/tps/i3/T19NaCFKFaXXckTCTS-300-100.jpg
 ||alicdn.com^$domain=1024pz.com|11papapa.com|1avlang.com|2334n.com|51dll.com|52kpop.com|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|c7cc.cc|ccxx99.com|dytt.com|haicao32.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|viidii.info|wenkuxiazai.com|xiaomingming.org|xingzhiyin44.com|yuese46.com|yzz12.com
 ||alicdn.com^$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
-||alicdn.com^$domain=73thz.com
 ||alicdn.com^$domain=99re.com
 ||alicdn.com^$domain=dyhs6.com
 ||alicdn.com^$domain=pianba.net
@@ -21243,6 +21245,7 @@ zzzyk.com###Tinfo
 ||cpt.9136.com^
 ||cpu.baidu.com^$third-party
 ||cpucdn.baidu.com^
+||cq.ru^$xmlhttprequest,header=cq-cache-bypassed
 ||cqbuchouhua.com^
 ||cqfygc.xyz^
 ||cqqwe2pea.xyz^
@@ -27178,6 +27181,7 @@ zzzyk.com###Tinfo
 ||pgjcbz.xyz^
 ||pgl7.cn^
 ||pglstatp-toutiao.com^
+||pgpufyzi.xyz^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
@@ -30243,6 +30247,7 @@ zzzyk.com###Tinfo
 ||whe0nqk.icu^
 ||whfpbc.99.com.cn^
 ||whichav.*/qq/qq.js
+||whjding.cn^
 ||whnews.cn/wh_public/xuxu/
 ||wholehk.com/atttuop.js
 ||whqxj.xyz^
@@ -31246,6 +31251,7 @@ zzzyk.com###Tinfo
 ||ypoiea.xyz^
 ||ypojie.com/wp-content/uploads/*.js
 ||yptqys.tianqistatic.com^
+||ypvtw.com^
 ||ypzps.com^
 ||yqgpic.xyz^
 ||yqgzaewe.cn^
