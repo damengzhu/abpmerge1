@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-18 16:10:28
-! Total count: 31913
+! Version: 2023-09-19 08:11:26
+! Total count: 31923
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3653,6 +3653,11 @@ $websocket,domain=5nj.com|cechi8.com
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
+18-comic.work,18comic.org,18comic.vip###guide-modal
+18-comic.work,18comic.org,18comic.vip##.modal-backdrop
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -3693,12 +3698,9 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip###guide-modal
-18comic.org,18comic.vip##.modal-backdrop
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img
-18comic.org,18comic.vip##a[href*="//"]:not([href*="18comic."]) > img + [style]
-18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,jm-comic2.club#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
+18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win#@?#:-abp-has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
@@ -9223,7 +9225,9 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+cdiscount.com#$#hide-if-contains-visible-text  /partenaires/ 'div[class]>div[id]>div[class="h2"]'
 cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
+cdiscount.com#$#hide-if-matches-xpath './/div[@class and @id]/div[@class="h2"][contains(text(),"offre")]//following::div//p/following-sibling::a[@style]/img[contains(translate(@title, "OFFERT", "offert"), "offert")]//ancestor::div[@class="o-block"]'; hide-if-matches-xpath './/div[@style]//span[contains(@data-template,"Sponsored")]/following::div[contains(@id,"Sponsored")]/parent::div[@style]/ancestor::div[contains(@data-action,"AdsDisplay")][1]'; hide-if-matches-xpath './/div[style]//*[name()="svg"][contains(@style,"width:60px")]/parent::div[contains(@style, "margin-top")]/ancestor::div[@id][@data-autoplay]/parent::div[@class="o-block__content"]';
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -12078,10 +12082,10 @@ instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[conta
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[2]/preceding::img[contains(@src,"metadata=copyright")]/ancestor::a[contains(@href,"interaction_id")]/ancestor::header'
 instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::section[@class="e-wbvail"]'
 instacart.com#$#hide-if-matches-xpath './/a[@href]//img[@data-testid]/following::div[.//span[text()]/following-sibling::span[text()]][1]/parent::div[@class]/parent::a[@href]/ancestor::div[@class and @id][1]'
-instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/parent::picture/ancestor::div[@class][1]'
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -12487,8 +12491,8 @@ jianshu.com##section[class][aria-label="ad360-ad"]
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
 jiaodong.net###leftBanner
 jiaodong.net###rightBanner
-jiayongluyou.com##.widget_image_myimg
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
+jiayongluyou.com,tmioe.com##.widget_image_myimg
 jieav.com##.b300
 jieav.com##ul[id^="jieav_"]
 jieav.com#$##comment { margin-bottom: 0 !important; }
@@ -12584,8 +12588,6 @@ jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img
-jm-comic2.club##a[href*="//"]:not([href*="jm-comic"]) > img + [style]
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
@@ -15971,7 +15973,6 @@ tmall.com##.mui-mbarp-qrcode
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
-tmioe.com##.widget_image_myimg
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmtpost.com##.open-app
 to8to.com##.ad-commom
@@ -17739,6 +17740,7 @@ zzzyk.com###Tinfo
 ||17k.com/jump/uh
 ||17ok.com/focus/3j_right_jdt.shtml
 ||17yy.com/style/ifra_ad/
+||18-comic.work/media/albums/*?$media
 ||180.76.171.28^
 ||180.96.27.85^*.htm
 ||18183.com/common/js/side.js
@@ -19558,6 +19560,7 @@ zzzyk.com###Tinfo
 ||analy.tuniu.cn^
 ||analyse.weather.com.cn^
 ||analysis.chinaiiss.com^
+||analystrati.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-sg.tiktok.com^
 ||analytics-union.sandai.net^
@@ -20549,6 +20552,7 @@ zzzyk.com###Tinfo
 ||bw66.cn/template/default_pc/bbs/
 ||bwandlv.top^
 ||bwdhuanbao.com^
+||bwdiy.cn^
 ||bwwlw.cn^
 ||bxackzj.icu^
 ||bxjhlhk.xyz^
@@ -22165,6 +22169,7 @@ zzzyk.com###Tinfo
 ||ebscb0l.xyz^
 ||ebten.xyz^
 ||ebuqxsjq.com^
+||ecami.xyz^
 ||ecav5.com^
 ||eccbb.com^
 ||eccn.com/js/gg.js
@@ -24649,7 +24654,6 @@ zzzyk.com###Tinfo
 ||jlsynmla.fun^
 ||jlsyuula.cam^
 ||jlwz.cn/js/xf*.js
-||jm-comic2.club/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
 ||jmcomic.asia/iframe_*&idzone=
@@ -24838,6 +24842,7 @@ zzzyk.com###Tinfo
 ||jtienla.top^
 ||jtjh.tw^
 ||jtpu9s.icu^
+||jtwewpi.cn^
 ||jtxw.cloud^
 ||juandou.com^$third-party
 ||juapp5.com/geek_image/chaopai.jpeg
@@ -25809,6 +25814,7 @@ zzzyk.com###Tinfo
 ||lxting.com^
 ||lxyl66.cn^
 ||ly6080.com.cn/gg/
+||lybxft.xyz^
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
 ||lycjsix.cn^
@@ -29745,6 +29751,7 @@ zzzyk.com###Tinfo
 ||uniway.cn.com^
 ||unjld.com^
 ||unjs.jingyanben.com^
+||unmsrvh.cn^
 ||unpfqc9.com^
 ||unpkg.com/sejie
 ||unpkg.com^$badfilter
@@ -29877,6 +29884,7 @@ zzzyk.com###Tinfo
 ||vagvedi.cn^
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
+||vakdop.icu^
 ||valipl.cp31.ott.cibntv.net/$media
 ||vancuongthinh.com^
 ||vanpeople.com/gg/
@@ -31555,6 +31563,7 @@ zzzyk.com###Tinfo
 ||zen0935.com^
 ||zencdn.net^$domain=freegaypornsex.net|www.gayvl.info
 ||zents10.top^
+||zents5.top^
 ||zents7.top^
 ||zeookuv.xyz^
 ||zero.wewakir.top^
@@ -31672,6 +31681,7 @@ zzzyk.com###Tinfo
 ||zhoubo01.cn^
 ||zhouduanyyds.com^
 ||zhouduayqq.com^
+||zhrrzug.xyz^
 ||zhuangxiu567.com^
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuji.net/2007_ad/
