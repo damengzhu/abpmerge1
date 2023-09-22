@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-22 08:10:42
-! Total count: 31903
+! Version: 2023-09-22 16:10:24
+! Total count: 31905
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -16920,6 +16920,7 @@ yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 yad2.co.il###sLightbox_container
 yad2.co.il###sLightbox_overlay
 yafud.pl###adsense_banner_top
+yahoo.co.jp#$#hide-if-matches-xpath './/div[@style]/div[@style]/ancestor::div[@style][1]/parent::div[contains(@style,"width: 990px")]'; hide-if-matches-xpath './/div[contains(@style,"yads")]/parent::div[@style][1]';
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
 yahoo.com###ACT_takeover2
@@ -18635,6 +18636,7 @@ zzzyk.com###Tinfo
 ||8886i.top^
 ||88885aaa.com^
 ||888dizhi.com/888/
+||888fr.xyz^
 ||888lianmeng.com^
 ||88993aaa.com^
 ||88eg.cn^
