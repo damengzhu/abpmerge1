@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-23 08:09:09
-! Total count: 31926
+! Version: 2023-09-23 16:08:55
+! Total count: 31931
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -10494,6 +10494,8 @@ etsy.com#$#hide-if-contains-and-matches-style '/[aA]d(.)*by/' 'li' 'li div.wt-te
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
+ettoday.net###mobileweb_inread
+ettoday.net###pc_inread_overseas
 ettoday.net###ticker_3
 ettoday.net##.adHint
 ettoday.net##.ad_300
@@ -20070,6 +20072,7 @@ zzzyk.com###Tinfo
 ||bcsijjgck.xyz^
 ||bcvxfgy.xyz^
 ||bd*-ys.km.com^
+||bd-a-1.appmobile.cn^
 ||bd-china-1.appmobile.cn^
 ||bd-js.duote.com^
 ||bd-js1.2345.com^
@@ -24367,6 +24370,7 @@ zzzyk.com###Tinfo
 ||iugbjkqwc.xyz^
 ||iughyy7919.com^
 ||iuou.myadobe.cn^
+||iuou.ysw365.com^
 ||iupian.com/mstyle/js/topinfo.js
 ||iuu3j.xyz^
 ||iuuiugbjd.xyz^
@@ -28593,6 +28597,7 @@ zzzyk.com###Tinfo
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
+||sinawap.com^
 ||singlove.com/qq/qq.js
 ||singmwn51g.com^
 ||sinolub.com/index.php?m=poster&
