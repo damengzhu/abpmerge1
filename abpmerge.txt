@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-23 16:08:55
-! Total count: 31931
+! Version: 2023-09-24 08:12:15
+! Total count: 31935
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1713,6 +1713,7 @@
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[style^="line-height"][style*="http"][style$="fixed;"]
 ##div[style^="position"][onclick^="window.open"]
 ##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
 ##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -4616,13 +4617,6 @@ $websocket,domain=5nj.com|cechi8.com
 :9875/vh2/
 :9875/vj2/
 :99/js/ads/
-</body>
-</html>
-<body>
-<center><h1>301 Moved Permanently</h1></center>
-<head><title>301 Moved Permanently</title></head>
-<hr><center>nginx/1.20.1</center>
-<html>
 =AdCode_$script,third-party
 =AdCode_sjdb
 =Ad_ZPlusGoods&
@@ -5169,6 +5163,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||api.academia.edu/v0/users/*/stats$script
 @@||api.ads.tvb.com^
 @@||api.captchme.net/api/media$image
+@@||api.nocturnal-narwhal.buzz^$domain=webtor.io
 @@||apis.google.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||apk.tw/source/plugin/mydefplugin/advertise.js$script,~third-party
 @@||apk.tw^$generichide
@@ -18573,6 +18568,7 @@ zzzyk.com###Tinfo
 ||7mmtv.tv/u_banner/
 ||7moor.com^$third-party
 ||7nekc.icu^
+||7ohy3f.cn^
 ||7pvk.xyz^
 ||7r227ut.cn^
 ||7scs.com/Public/img/list-
@@ -19706,6 +19702,7 @@ zzzyk.com###Tinfo
 ||as89de.top^
 ||asa2.cn^
 ||asacdn.com/prod/redirect.html
+||asclan.icu^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdffe22.com^
 ||asdx55.com^
@@ -24878,6 +24875,7 @@ zzzyk.com###Tinfo
 ||jweod.xyz^
 ||jweoe.xyz^
 ||jwjdpab.cn^
+||jwltpv.xyz^
 ||jwpsrv.com/content/conversions/*/videos/*.mp4?token=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||jwronx.xyz^
 ||jwujvjo.cn^
@@ -25401,6 +25399,7 @@ zzzyk.com###Tinfo
 ||lccfjszp.cn^
 ||lcjyll.xyz^
 ||lcmqyl.cn^$third-party
+||lctcbtly.xyz^
 ||lcxw.cn/d/js/thea
 ||lcxw.cn/i/*dl.js
 ||lczk.cn^$third-party
@@ -26204,6 +26203,7 @@ zzzyk.com###Tinfo
 ||mkjnbg.com^
 ||mkjnha.com^
 ||mkqdj.cn^
+||mlhdvjv.xyz^
 ||mlog.aipai.com^
 ||mlstx.cn^
 ||mlsynmlx.fun^
@@ -28082,6 +28082,7 @@ zzzyk.com###Tinfo
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
 ||rndhaunteran.com^
+||rnfhsji.cn^
 ||rnhqxh.com^
 ||roeaasi.cyou^
 ||ronbbf.xyz^
@@ -28279,6 +28280,7 @@ zzzyk.com###Tinfo
 ||sbbd1.qulishi.com^
 ||sbcjahdc.com^
 ||sbdebcz.cn^
+||sbdvjsbjslkv.com^
 ||sbeaje.com^
 ||sbehgm.xyz^
 ||sbldw.cn^
@@ -30024,6 +30026,7 @@ zzzyk.com###Tinfo
 ||volstqkwmth.com^$script,xmlhttprequest
 ||vorluic.cn^
 ||vouninked.com^
+||voxirf.xyz^
 ||vpn.baolq666.com^$third-party
 ||vps234.com/resources/images/hosting-promotion/
 ||vpsgu.cn^
@@ -31572,6 +31575,7 @@ zzzyk.com###Tinfo
 ||zents10.top^
 ||zents5.top^
 ||zents7.top^
+||zents8.top^
 ||zeookuv.xyz^
 ||zero.wewakir.top^
 ||zerolcp.cn^
