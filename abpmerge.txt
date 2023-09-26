@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-25 16:10:48
-! Total count: 31960
+! Version: 2023-09-26 08:11:27
+! Total count: 31973
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2751,7 +2751,6 @@ $websocket,domain=5nj.com|cechi8.com
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
-/jquery-ui.js?166$script,~third-party
 /jquery.adblock-detector.js|$script
 /jquery.adblock.js|$script
 /jquery.antiadsblock.js|$script
@@ -4662,6 +4661,7 @@ $websocket,domain=5nj.com|cechi8.com
 ?local_ga_js=
 ?method=baidu.ting.commercial.tactics&
 ?v127|$script,domain=iprima.cz
+@#div[class$="_0"]@www.jianshu.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -13493,6 +13493,7 @@ memes.tw##.nice-box
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
 mercedesclub.cz#@#.reklama
 mesddl.cc###cboxContent
 metruyenchu.com#$#abort-on-property-write window.onclick
@@ -13790,7 +13791,7 @@ mypianku.net##div[style*="background:url"]
 myptt.cc##+js(set-constant, adsbygoogle.loaded, true)
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
 myqqjd.com###advert_widget
-myqqjd.com##.adsbygoogle
+myqqjd.com##.adsbygoogl
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
@@ -14254,6 +14255,8 @@ pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
 pan.baidu.com##.photo-banner
 pan.baidu.com##.upload-bar.global-clearfix
+pan.baidu.com##A.active-msg
+pan.baidu.com##div.content DIV.photo-banner
 pan666.cn##.footer > .containerNarrow
 pansci.asia##body > section.hide-on-print.mt-5
 pansci.asia#$##firstSingle { padding: 0 !important; }
@@ -16699,6 +16702,7 @@ www.ithome.com###lapin
 www.ithome.com##.content>a[href="http://m.ithome.com/ithome/"]
 www.ixbt.com#$#abort-on-property-read adv_obj; abort-current-inline-script document.getElementById branding
 www.jianshu.com##[aria-label='lwa-ad-one']
+www.jianshu.com#@#div[class$="_0"]
 www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
@@ -17771,7 +17775,7 @@ zzzyk.com###Tinfo
 ||1n4o.icu^
 ||1ov2pp0.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1porp.top^
-||1ppt.com/ads.
+||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1qboss9.ejuslehq.com^$script,xmlhttprequest,domain=pch.com
 ||1qlgi.top^
@@ -19731,6 +19735,7 @@ zzzyk.com###Tinfo
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||aspwg.cn^
+||asryrzpu.xyz^
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||assets.msn.cn/bundles/v1/microsoftNews/latest/placement-manager.*.js$domain=microsoftnews.msn.cn
 ||assp.sohu.com^
@@ -20398,6 +20403,7 @@ zzzyk.com###Tinfo
 ||bny9.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
+||boats5.top^
 ||boats8.top^
 ||bobdz.com^
 ||bobo.com/special/mod-follow/
@@ -20575,6 +20581,7 @@ zzzyk.com###Tinfo
 ||bzhanyy.com^*.gif
 ||bzhn9y.icu^
 ||bzngisyv.xyz^
+||bzthxv.xyz^
 ||bzxvtj.xyz^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-ctrip.com/ResUnionOnline/R3/float/floating_normal.min.js
@@ -24114,6 +24121,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com^
 ||imassg.xyz^
+||imbikh.icu^
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
 ||imeee.cn/DA_HTML/*.js
@@ -25211,6 +25219,7 @@ zzzyk.com###Tinfo
 ||kqwip.cyou^
 ||kr.sdykcloud.cn^
 ||kravma.xyz^
+||krjzxie.cn^
 ||krp3g.top^
 ||krqole.xyz^
 ||krr894.top^
@@ -25666,6 +25675,7 @@ zzzyk.com###Tinfo
 ||lnaevr.fun^
 ||lnd.com.cn/sys/real_calc.js
 ||lnhsjob.com^$third-party
+||lniwe.xyz^
 ||lnnjnv.xyz^
 ||lnpqqq.com^
 ||lnzjlr.xyz^
@@ -27495,6 +27505,7 @@ zzzyk.com###Tinfo
 ||pv.zhiding.cn^
 ||pv4b.com^$popup
 ||pv966.us/js/tw.js
+||pvlnjwr.xyz^
 ||pvmja.cn^
 ||pvtest.zol.com.cn^
 ||pvymlsvo.xyz^
@@ -27967,6 +27978,7 @@ zzzyk.com###Tinfo
 ||rdnucrn.cn^
 ||rdoybkd.cn^
 ||rdpcom.com^
+||rdpsht.xyz^
 ||rdqgllmny.com^$script
 ||rdsmod.cc^
 ||rdtjkwy.cn^
@@ -28330,6 +28342,7 @@ zzzyk.com###Tinfo
 ||scsdcsdcs.top^
 ||scupio.com/adpinline/
 ||scupio.com/js/ad.js
+||scupio.net/kanglei/
 ||scw98.com/ADMM.
 ||scw98.com/js/Index
 ||sd.yhzzzs*.com^
