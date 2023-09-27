@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-26 16:10:39
-! Total count: 31980
+! Version: 2023-09-27 08:11:21
+! Total count: 31989
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3003,6 +3003,7 @@ $websocket,domain=5nj.com|cechi8.com
 /rass7.*.js^$script,domain=upornia.com|vjav.com
 /red2/ad/*
 /redbaiduct.com?s=
+/release100009ts?$script,third-party
 /remix_banner.gif
 /res/kj/hf*.js?v=
 /resource/common/tongzhuo/game_info.json
@@ -12374,10 +12375,9 @@ ixueyi.com,shangxueba.com###rightfloatdiv
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
-iyf.tv##.p-r > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
-iyf.tv##.prr > .ng-star-inserted
+iyf.tv##.prrb > .ng-star-inserted
 iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##vg-pause-ads
@@ -15720,7 +15720,7 @@ t3n.de##.abContentMsg
 t3n.de##.adb
 t411.me##.ads
 t411.me##IMG[src="http://www.t411.me/images/external/usenet.jpg"]
-t66y.com##+js(no-setTimeout-if, /tpc[0-9]?Html/)
+t66y.com##+js(no-setTimeout-if, /tpc.?[A-Z0-9].?tml/)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > span.f24
@@ -18039,6 +18039,7 @@ zzzyk.com###Tinfo
 ||365xuet.com/assets/web/js/main.jsr_
 ||36dfsa.com^
 ||36dm.club/javascripts/apsidemoot.js
+||36gv.com^
 ||36htg.fun^
 ||36kr.com/pp/api/ap/plan?
 ||36mghtd.xyz^
@@ -20401,6 +20402,7 @@ zzzyk.com###Tinfo
 ||bnhxxj.xyz^
 ||bnl2bii.icu^
 ||bnlg.fun^
+||bnpfdzp.xyz^
 ||bnrdnx.xyz^
 ||bnsdk.top^
 ||bny3.cn^
@@ -24593,6 +24595,7 @@ zzzyk.com###Tinfo
 ||jijidown.com/static/img/right_bottom.
 ||jijidy.com/640x200down.
 ||jijistatic.duapp.com/Squall/1.jpg
+||jijozdrg.xyz^
 ||jike001.top^
 ||jiliw.com^$third-party
 ||jilong.work^
@@ -26328,6 +26331,7 @@ zzzyk.com###Tinfo
 ||movieclassic.net/pub/js_min.js
 ||movieclassic.net/templates/frontend/airav/js/*avs-0.4.js
 ||movshow.com/*portal/
+||mowec.xyz^
 ||mowenxi.com/1.png
 ||moxiaoqihuoguo.com^
 ||mp3.haogeba.com^$image,object
@@ -26432,6 +26436,7 @@ zzzyk.com###Tinfo
 ||mw6.me/images/*.gif
 ||mwandlx.top^
 ||mwdwepok.xyz^
+||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwzbp.iask.com.cn^
@@ -26687,6 +26692,7 @@ zzzyk.com###Tinfo
 ||nkgutoa.cn^
 ||nkvwvx.xyz^
 ||nlark.com^$domain=qfg34.com
+||nlrsbd.xyz^
 ||nlsynmlc.fun^
 ||nlvgxr.xyz^
 ||nlyuuy.cn^
@@ -27324,6 +27330,7 @@ zzzyk.com###Tinfo
 ||pjsbuhl.icu^
 ||pjtime.com/js/show_ad
 ||pjy55d.com^
+||pjzmbhf.cn^
 ||pkeog.cn^
 ||pki.net.cn/public/*/plugins/
 ||pki.net.cn/public/1/assets/js/custom/tt.
@@ -27999,6 +28006,7 @@ zzzyk.com###Tinfo
 ||reamhqf.xyz^
 ||rebies.xyz^
 ||rebunb.xyz^
+||recds4.icu^
 ||recds7.icu^
 ||recds8.icu^
 ||record.kuai.xunlei.com^
@@ -31812,6 +31820,7 @@ zzzyk.com###Tinfo
 ||znegiu.top^
 ||znllfp.xyz^
 ||znnodl.xyz^
+||znrtfj.xyz^
 ||znyjmbh.icu^
 ||zo6g.top^
 ||zobesmu.cn^
