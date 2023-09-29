@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-09-29 08:10:45
-! Total count: 32029
+! Version: 2023-09-29 16:10:02
+! Total count: 32044
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1286,6 +1286,8 @@
 ##a[href$="ky9402.com"]
 ##a[href*=".123ch.cn"]
 ##a[href*=".3366722.com"]
+##a[href*=".337771.xyz"]
+##a[href*=".337772.xyz"]
 ##a[href*=".516624.com/"]
 ##a[href*=".5599722.com"]
 ##a[href*=".613639.com/"]
@@ -1563,6 +1565,7 @@
 ##a[id][href*="/?aff="]
 ##a[id][href*="/?register="]
 ##a[id][target="_blank"] > img[src*="help-ol.bj.bcebos.com"]
+##a[onclick*=".337770.xyz"]
 ##a[onclick*=".lyty665.com"]
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
@@ -7990,6 +7993,10 @@ abbao.cn#@##adContent
 abbao.cn,tt1069.com#@##adcontent
 abczdrowie.pl#$#abort-on-property-read slot.parentElement
 abczdrowie.pl,parenting.pl,nerwica.com,twojeip.wp.pl,echirurgia.pl#$#abort-current-inline-script document.querySelector registerSlot
+abmedia.io###block-12
+abmedia.io##.pum
+abmedia.io##a[href^="https://ace.io/"]
+abmedia.io##a[href^="https://www.okx.com/"]
 abminbuy.com##body > a[rel="nofollow"] > img
 ac-room.cc##.ad.v-card
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:has(> div.ad)
@@ -8020,6 +8027,7 @@ acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[@style][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acommunity.com.tw##.ai_widget
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,rotana.video#$#abort-on-property-read decodeURIComponent
 actoys.net##.p_new_ad
@@ -8130,7 +8138,6 @@ ajaxshowtime.com##div.leaderboard_ad + div
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 akhbara24.news,anime4up.art,anime4up.com,arabseed.me,asia2tv.cn,asia2tv.com,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima-club.lol,cima-club.vip,cima4u.cloud,cima4u.film,cima4u.ink,cima4u.tube,cima4u.tv,cima4u.ws,cimalina.me,cimalina.net,egy-live.online,egynow.cam,egynow.live,faselhd.ac,faselhd.co,faselhd.live,hawak.net,iegybest.co,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,manga.ae,moshahda.net,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.cafe,shahed4u.casa,shahed4u.cfd,shahed4u.cloud,shahed4u.fun,shahed4u.mba,shahed4u.red,shahed4u.site,shahed4u.tax,shahed4u.tips,shahed4u.vip,shahed4u.work,shahed4u.ws,shaheed4u.art,shaheed4u.autos,shaheed4u.beauty,shaheed4u.bond,shaheed4u.cfd,shaheed4u.click,shaheed4u.cyou,shaheed4u.fun,shaheed4u.hair,shaheed4u.icu,shaheed4u.lol,shaheed4u.makeup,shaheed4u.pics,shaheed4u.quest,shaheed4u.sbs,shaheed4u.yachts,shahid4uu.cam,tuktukcinema.co,tuktukcinema.net,witanime.com,yalla-shoot.today#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,akwam.us,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
-albertsons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[@style][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 alexa.cn##.importantList
 alexa.cn##.importantTop
 ali213.net###ali-js-4
@@ -13965,7 +13972,6 @@ nfuwow.com##a[href*="myyj.net"]
 nfuwow.com##div[style*="width: 1160px;"]
 nhentai.net#$#override-property-read _n_app.popunder null;
 niaogebiji.com##.adImgBox
-nicekkk.com###custom_html-3
 nicekkk.com,briian.com###custom_html-4
 nicekkk.com,c4dm.live###custom_html-2
 nick18.com###img a
@@ -16441,7 +16447,9 @@ walmart.com##div[id*="Sponsored"]
 walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com#$#hide-if-contains-visible-text /Sponsored/ 'section div[data-item-id]' div span
 wan.douyu.com
+wandhi.com##.table
 wandhi.com##.table-bordered
+wandhi.com##.unit-100
 wandhi.com##a[style="display: inline-block;position: relative"]
 wangfz.com##div[class^="my-ad-"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
@@ -16596,6 +16604,7 @@ win0168.com##div.item
 win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
+winandmac.com,nicekkk.com###custom_html-3
 windows7en.com##.fu-welcome
 winshang.com##.ggwrap
 winwin7.com##.xzbox-lf
@@ -18356,6 +18365,7 @@ zzzyk.com###Tinfo
 ||58jingxuan.top/dhbioperhbvoprwm
 ||58tg.com^$third-party
 ||59.36.101.209:888/link/*_280x192.
+||591520.xyz^
 ||591huishou.cn^
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/floatbox.js
@@ -18526,6 +18536,7 @@ zzzyk.com###Tinfo
 ||72asa.com^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
+||738atf.xyz^
 ||75.125.41.29:8080/
 ||7676.com^$third-party
 ||767drv.cn^
@@ -18746,7 +18757,7 @@ zzzyk.com###Tinfo
 ||91p20.space^
 ||91p49.com/*.mp4
 ||91pk.love^
-||91rb.com/*x90.gif
+||91rb.com/fc/$image
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91xiazai.com/Public/index/images/zanzhushang.gif
@@ -19014,6 +19025,7 @@ zzzyk.com###Tinfo
 ||aaenv48847h.com^
 ||aafuck.xyz^$third-party
 ||aagomsi.xyz^
+||aaholidays.cn^
 ||aamv.vip^
 ||aaoffice.cn^
 ||aapeople.cn^
@@ -19049,6 +19061,7 @@ zzzyk.com###Tinfo
 ||abds.pingpingw.com^
 ||abenshishabi.com^
 ||abgxxc.com^
+||abmedia.io/*/pum/
 ||abminbuy.com/*.mp4$media,redirect=noop-1s.mp4
 ||abminbuy.com/789.
 ||abminbuy.com/QQ
@@ -19276,6 +19289,7 @@ zzzyk.com###Tinfo
 ||aefmbeq.cn^
 ||aeg32y.top^
 ||aeletheacd.com^
+||aelxock.cn^
 ||af29.com/banner/
 ||af31f.site^
 ||afablca.cn^
@@ -21173,6 +21187,7 @@ zzzyk.com###Tinfo
 ||cnscg.com/template/default/style/t6/*x*1
 ||cnscg.com/template/default/style/t6/other/
 ||cnshiw2.com^
+||cnskyline.top^
 ||cntronics.com/adsupload/
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
