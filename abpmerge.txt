@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-07 16:09:09
-! Total count: 31672
+! Version: 2023-10-08 08:09:45
+! Total count: 31692
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1120,9 +1120,12 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
+##IMG[src*='//img4.qv1.ru/data/game/']
+##IMG[src*='/ds3/ssmh/']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
 ##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
+##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
@@ -1655,6 +1658,7 @@
 ##div.row > DIV.md-r-panel
 ##div.row > div[id] > ul > li.cpn > a
 ##div.row.col5.clearfix:nth-of-type(2) > dl:nth-of-type(1)
+##div.slide-baidu IMG[src='/images/aw1.gif']
 ##div.stui-pannel__bd > #t-img-box
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
@@ -4195,7 +4199,6 @@ $websocket,domain=5nj.com|cechi8.com
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-52movieba.com,bimibimi.me,acglala.net,ainuody.com,awaker.cn,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.at,jiecao123.com,jitapu.com,jiyingw.net,jobbole.com,kisssub.org,languang.co,liuli.pw,moe-acg.cc,moe-acg.us,mydrivers.com,nxing.cn,oyksoft.com,rijutv.com,souxue8.com,speedtest.cn,toutiao.com,tucao.one,vpansou.com,xxshe.info,xxshe.xyz,youku.com##a[href*=".taobao.com"]
 52pk.com###baidutop
 52pk.com###baidutop2
 52pk.com###bg_link
@@ -15221,8 +15224,6 @@ sina.cn##div[sax-type="proxy"]
 sina.cn##iframe[id^="sinaadtk_"]
 sina.cn#$#[data-href*="://sax"] { position: absolute!important; left: -3000px!important; }
 sina.cn#?#.page_main > .specSlide2Wrap:has(> div > #midThreeAds)
-sina.cn#@#.j_callST
-sina.cn#@#.look_more_a, .j_callST
 sina.com##.parta_l_ads
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_BG_Link
@@ -18416,6 +18417,7 @@ zzzyk.com###Tinfo
 ||644446.com^
 ||64bobo.com/ckplay/js.jpg
 ||64ma.com/tv/images/web.png
+||65432.pw^
 ||658bbb.us^
 ||65oml.cn^
 ||66.fmx.cn/js/
@@ -18666,6 +18668,7 @@ zzzyk.com###Tinfo
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
+||8mhcc.top^
 ||8pjqjxmr.com^
 ||8q2h.icu^
 ||8s8s.com/data/banner/
@@ -18752,6 +18755,7 @@ zzzyk.com###Tinfo
 ||98158.com^
 ||9831tb.com^
 ||986qka.cn^
+||98765.pw^
 ||98765432100.online^
 ||98765432100.site^
 ||988aiai.com/static/js/common.js
@@ -18965,6 +18969,7 @@ zzzyk.com###Tinfo
 ||aaaf.info^$script
 ||aaaimg.com/images*.gif
 ||aab-proxy.tld^
+||aabeautiful.cn^
 ||aac.kegood.com^
 ||aacoffee.cn^
 ||aaenv48847h.com^
@@ -19264,6 +19269,7 @@ zzzyk.com###Tinfo
 ||agefans.top/js/wap2-jm-ms.js
 ||agkacg.xyz^
 ||agogo.tv/images//uploads/ad/
+||agossuoeach.com^
 ||agrantsem.com/js/ag.js
 ||agrantsem.com^$third-party
 ||aguo.com^$third-party
@@ -20362,6 +20368,7 @@ zzzyk.com###Tinfo
 ||bny9.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
+||boats4.top^
 ||boats5.top^
 ||boats8.top^
 ||bobdz.com^
@@ -22426,6 +22433,7 @@ zzzyk.com###Tinfo
 ||fast8.cc/skin/default/images/630652.png
 ||fastadmin.net/uploads/store/aliyun
 ||fastadmin.net/uploads/store/tencent
+||fastjs.org^
 ||fatvzh.xyz^
 ||faunaships.com^
 ||faw7.top^
@@ -23637,6 +23645,7 @@ zzzyk.com###Tinfo
 ||hr44.com^
 ||hrjg.com.cn^$third-party
 ||hrngmf.com^
+||hrtinqj.cn^
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs640.com/js/jquery.js
 ||hsadeg.site^
@@ -24192,6 +24201,7 @@ zzzyk.com###Tinfo
 ||iqybys.xyz^
 ||irqqwqk.cn^
 ||irs03.com^
+||irtefs.xyz^
 ||iruacwa.xyz^
 ||irygym.xyz^
 ||is686.com^$third-party
@@ -25601,6 +25611,7 @@ zzzyk.com###Tinfo
 ||lovegg.club^
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
+||lovespenhas.com^
 ||lowadec.cn^
 ||lpasdfgwer.com^
 ||lpeolfa.top^
@@ -26181,6 +26192,7 @@ zzzyk.com###Tinfo
 ||mp83fkx.cn^
 ||mp999.net/wp-content/uploads/*zgg
 ||mpb1.iteye.com^
+||mphhgat.xyz^
 ||mphj.com/Runtime/Js/
 ||mphj.com^*Runtime/Js/
 ||mprjoat.cn^
@@ -26474,6 +26486,7 @@ zzzyk.com###Tinfo
 ||ngishc.top^
 ||ngmnhc.xyz^
 ||ngnlaigc.fun^
+||nhcdn.cn^
 ||nhgds.xyz^
 ||nhjkm.com^
 ||nhjsw.cn^
@@ -29222,6 +29235,7 @@ zzzyk.com###Tinfo
 ||trafficstars.com$third-party
 ||trafficstars.com^
 ||trc.taboola.com^
+||trdmtx.xyz^
 ||trebleperfect.com^$third-party
 ||trektinyreproduce.com^
 ||trendmicro.com.tw/wp-content/uploads/*Banner
@@ -29501,6 +29515,7 @@ zzzyk.com###Tinfo
 ||ujian.cc^$third-party
 ||ujnkn.com^
 ||uk529u0.cn^
+||ukjwyv.icu^
 ||ukpsal.icu^
 ||ukutuy.xyz^
 ||ulfex.cn^$third-party
@@ -29697,6 +29712,7 @@ zzzyk.com###Tinfo
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
+||vdggsd008.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
@@ -30076,6 +30092,7 @@ zzzyk.com###Tinfo
 ||wjoxqd.com^
 ||wjslw.mobi^
 ||wjtij.top^
+||wkrcbszi.xyz^
 ||wkzrqq.com^
 ||wlgxaij.cn^
 ||wlhcb.cn^
@@ -30697,6 +30714,7 @@ zzzyk.com###Tinfo
 ||xvideo.cc/etology2.js
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
+||xvorpqz.cn^
 ||xvrvgod.xyz^
 ||xvzfyra.xyz^
 ||xwbspx.xyz^
@@ -30713,6 +30731,7 @@ zzzyk.com###Tinfo
 ||xxdm.in/js/union/
 ||xxdongfa.com^
 ||xxffo.com^*_slett.php
+||xxfphsg.cn^
 ||xxgslt.com^
 ||xxhh.com/xh.js
 ||xxhp2iz.icu^
@@ -31254,6 +31273,7 @@ zzzyk.com###Tinfo
 ||zcdfll.xyz^
 ||zcfhi.cn.com^
 ||zcgqsd.icu^
+||zchvyet.cn^
 ||zcrui.com^
 ||zcvyzsyd.icu^
 ||zcy821.com^
