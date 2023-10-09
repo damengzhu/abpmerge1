@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-08 16:09:05
-! Total count: 31697
+! Version: 2023-10-09 08:11:42
+! Total count: 31709
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -637,12 +637,14 @@
 ##.con_section > .da
 ##.conch-ads-box
 ##.container + .container > .warp > .cate
+##.container > #dhshtml
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container > .t-img-box:first-child
 ##.container > a.mid-wrapper
 ##.container > a[href^="http"] > .ads
 ##.containeradvertising
+##.content > #dhxhtml
 ##.content > a > .topline
 ##.content-ads
 ##.content-video > .ads
@@ -781,6 +783,7 @@
 ##.main-ad-l
 ##.main-ad-r
 ##.main-ad-r + .topad
+##.main-container > #dhxhtml
 ##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.mainbg > #s11navtop
@@ -9011,7 +9014,7 @@ bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
-bongda365b.net#$#override-property-read isSkipAds true
+bongda365c.com#$#override-property-read isSkipAds true
 bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
@@ -14601,7 +14604,7 @@ proplanta.de#@#.adsbygoogle
 proplanta.de#@#.searchad
 protege-liens.com,protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
-protruyen.com,animevietsub.moe#$#abort-current-inline-script document.documentElement break;case
+protruyen.com,animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 proxywiky.com###overlay-holder
 prts.wiki##.nomobile[style*="810px;height:240"]
 psahz.com#@#.ad_960
@@ -16891,10 +16894,10 @@ xmfish.com##.readCon_right
 xmh/200/200-*.gif
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-xoilac85.tv##.modal.fade.show
-xoilac85.tv#$#abort-current-inline-script jQuery overlay
-xoilac85.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac85.tv#$#abort-on-property-read adsRedirectPopups
+xoilac87.tv##.modal.fade.show
+xoilac87.tv#$#abort-current-inline-script jQuery overlay
+xoilac87.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac87.tv#$#abort-on-property-read adsRedirectPopups
 xoivo7.info,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
@@ -20012,6 +20015,7 @@ zzzyk.com###Tinfo
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbbazlp.cn^
+||bbfnrn.xyz^
 ||bbges.xyz^
 ||bbhktv.xyz^
 ||bbk5921.yncjsc.cn^$third-party
@@ -22555,6 +22559,7 @@ zzzyk.com###Tinfo
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
 ||fkjdz.cyou^
+||fkjsjwbs.xyz^
 ||fl6n.com/adtop/
 ||flagshipism.com^
 ||flan.fun^
@@ -23842,6 +23847,7 @@ zzzyk.com###Tinfo
 ||ibozys.cn^
 ||ibqkjbw.com^
 ||ibqswjdkpo.com^
+||ibsea.cn^
 ||ibwqfpo.xyz^
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
@@ -26424,6 +26430,7 @@ zzzyk.com###Tinfo
 ||nefroto.net^$script,domain=dada44230.fr
 ||neg2zos.icu^
 ||neghes.fun^
+||negnixa.cn^
 ||neihhou.com^
 ||neiod.xyz^
 ||neipa.xyz^
@@ -28011,6 +28018,7 @@ zzzyk.com###Tinfo
 ||ruyqiolnz.cyou^
 ||rvbztg.cn^
 ||rvlgrb.xyz^
+||rvreuxi.cn^
 ||rvyjbwr.cn^
 ||rvzlobj.cn^
 ||rwarwf.icu^
@@ -28243,6 +28251,7 @@ zzzyk.com###Tinfo
 ||sgeth1.icu^
 ||sgeth3.icu^
 ||sgeth7.icu^
+||sgeth9.icu^
 ||sgg.southcn.com^
 ||sgk.xyz/static/js/pc.js
 ||sglyd.cn^
@@ -29718,6 +29727,7 @@ zzzyk.com###Tinfo
 ||vdggsd006.com^
 ||vdggsd007.com^
 ||vdggsd008.com^
+||vdggsd009.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
@@ -30895,6 +30905,7 @@ zzzyk.com###Tinfo
 ||yhhnjg.com^
 ||yhjccj.cn^
 ||yhjh04.com^
+||yhlzadr.xyz^
 ||yhmeinv.com/mh/
 ||yhp4an7.cn^
 ||yhsfsdv*.com^
@@ -31128,6 +31139,7 @@ zzzyk.com###Tinfo
 ||yuske2.xyz^
 ||yusnw.cc^
 ||yutew.cc^
+||yutiqf.icu^
 ||yuvdqnpo.com^
 ||yuwangshe.net/astyle/wap.
 ||yuwenbin.host^
