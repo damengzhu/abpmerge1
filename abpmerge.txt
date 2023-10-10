@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-09 16:11:06
-! Total count: 31717
+! Version: 2023-10-10 08:11:23
+! Total count: 31734
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -250,6 +250,7 @@
 ###menu + script + #topBox
 ###miaov_float_layer
 ###micast_ads
+###mobile-ad.hidden-md
 ###mobile-index > div#vodbm
 ###mobile-index > div[id^="ins"]
 ###modalgg
@@ -881,6 +882,7 @@
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.samBannerUnit
+##.scaled-juicyads
 ##.scupioadslot
 ##.search + #midBox
 ##.self-gg
@@ -13141,6 +13143,9 @@ longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 loveshang.com##div[class^="float-ad-"]
+lowes.com#$#hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[@data-tile="{{}}"]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'; hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[contains(@class,"InstallMsg")][following-sibling::node()[1][self::div and @data-tile="{{}}"]]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'
+lowes.com#$#hide-if-matches-xpath './/div[@class="southdeep-badge"][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="scaf-rec"]'
+lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -13479,7 +13484,7 @@ memes.tw##.nice-box
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
-mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::section[@aria-label]/preceding::a[contains(@href,"https://ads.")][@rel="nofollow, sponsored" or @rel="nofollow,sponsored"]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::a[@rel="nofollow, sponsored"]/preceding::p[contains(@class,"ui-recommendations-font-color--GRAY")]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-advertising__title"][text()]/ancestor::div[@class="ui-search-sidebar-advertising title-advertising"]/parent::div[@class="ui-search-sidebar-advertising__display"]'
 mercedesclub.cz#@#.reklama
@@ -19074,6 +19079,7 @@ zzzyk.com###Tinfo
 ||actoys.net/index.php?m=poster&
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
+||actrqdr.cn^
 ||acwifi.net/wp-content/uploads/2019/11/20191119.jpg
 ||acwifi.net/wp-content/uploads/2022/08/0825-750.png
 ||ad*.on.cc^
@@ -20364,6 +20370,7 @@ zzzyk.com###Tinfo
 ||bnds7.site^
 ||bnds8.site^
 ||bnets1.icu^
+||bnets9.icu^
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
@@ -20797,6 +20804,7 @@ zzzyk.com###Tinfo
 ||cee1.iteye.com^
 ||ceh.cehbh.com^
 ||ceisip.com/static/js/plugin.js
+||ceiuip.icu^
 ||celcxjb.cn^
 ||centurys.net/promo_
 ||ceodk.xyz^
@@ -22966,6 +22974,8 @@ zzzyk.com###Tinfo
 ||gmbuluo.net/js/
 ||gmicu.cn^
 ||gmkmkn.xyz^
+||gmx23.top^
+||gmx24.top^
 ||gmx27.top^
 ||gmx28.top^
 ||gmx29.top^
@@ -24569,6 +24579,7 @@ zzzyk.com###Tinfo
 ||jkxty.mobi^
 ||jkxvvv.xyz^
 ||jkzbjv.xyz^
+||jlhlnd.xyz^
 ||jljftl.xyz^
 ||jllfxt.xyz^
 ||jlmhk.com/images/data/
@@ -25230,6 +25241,7 @@ zzzyk.com###Tinfo
 ||kzjkexn.cn^
 ||kzjqraj.cn^
 ||kzngisyd.xyz^
+||kzprugp.xyz^
 ||kzuxlydg.icu^
 ||kzwwamf.cn^
 ||l.glrcy.cn^
@@ -25841,6 +25853,7 @@ zzzyk.com###Tinfo
 ||mafengwo.cn/uva/i.gif?
 ||magedu.com/wp-content/uploads/*/xwzx
 ||magnetdog.net^$popup
+||magsrv.com^
 ||mahao1.cn^
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
@@ -26686,6 +26699,7 @@ zzzyk.com###Tinfo
 ||oalmbmf.xyz^
 ||oanlisgk.fun^
 ||oapsmnk.cyou^
+||oapyrzde.xyz^
 ||obertsiamw.fun^
 ||obgbok.com^
 ||obzthda.xyz^
@@ -29606,6 +29620,7 @@ zzzyk.com###Tinfo
 ||upzabkw.cn^
 ||uq1g.top^
 ||uqelxct.cn^
+||uqeuxpl.cn^
 ||uqnggnst.fun^
 ||uraseszincy.com^
 ||urccncd.xyz^
@@ -29736,6 +29751,7 @@ zzzyk.com###Tinfo
 ||vdggsd007.com^
 ||vdggsd008.com^
 ||vdggsd009.com^
+||vdggsd010.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
@@ -30451,6 +30467,7 @@ zzzyk.com###Tinfo
 ||xckj0623.com^
 ||xckyqq.com^
 ||xcmz999.com^
+||xcqbbcqpl.xyz^
 ||xcvdd.xyz^
 ||xcvhy.xyz^
 ||xcvsw.xyz^

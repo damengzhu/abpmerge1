@@ -245,6 +245,7 @@
 ###menu + script + #topBox
 ###miaov_float_layer
 ###micast_ads
+###mobile-ad.hidden-md
 ###mobile-index > div#vodbm
 ###mobile-index > div[id^="ins"]
 ###modalgg
@@ -876,6 +877,7 @@
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.samBannerUnit
+##.scaled-juicyads
 ##.scupioadslot
 ##.search + #midBox
 ##.self-gg
@@ -8188,6 +8190,9 @@ longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 loveshang.com##div[class^="float-ad-"]
+lowes.com#$#hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[@data-tile="{{}}"]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'; hide-if-matches-computed-xpath './/section[@id="listItems"]/div/div[contains(@class,"InstallMsg")][following-sibling::node()[1][self::div and @data-tile="{{}}"]]/*' './/section[@id="listItems"]//div[@data-selector="prd-lormn-badge"]/..' '/data-tile="(.*?)"/'
+lowes.com#$#hide-if-matches-xpath './/div[@class="southdeep-badge"][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="scaf-rec"]'
+lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div/div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -8525,7 +8530,7 @@ memes.tw##.nice-box
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
-mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::section[@aria-label]/preceding::a[contains(@href,"https://ads.")][@rel="nofollow, sponsored" or @rel="nofollow,sponsored"]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="andes-carousel-snapped__wrapper"]/preceding::a[@rel="nofollow, sponsored"]/preceding::p[contains(@class,"ui-recommendations-font-color--GRAY")]/ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-advertising__title"][text()]/ancestor::div[@class="ui-search-sidebar-advertising title-advertising"]/parent::div[@class="ui-search-sidebar-advertising__display"]'
 mercedesclub.cz#@#.reklama
