@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-13 08:11:35
-! Total count: 31806
+! Version: 2023-10-13 16:10:31
+! Total count: 31816
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -12069,7 +12069,7 @@ instacart.com#$#hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"d
 instacart.com#$#hide-if-matches-xpath './/span[starts-with(@class,"e-1r5")][contains(text(),"d")]/parent::div[1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::header[@id][@class][1]'
 instacart.com#$#hide-if-matches-xpath '//img[@alt="Sponsored"][contains(@src,".svg")]/ancestor::div[@aria-label="Product"]/parent::div[1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -12636,6 +12636,7 @@ jthysh.com##.box980
 juba-get.com##IMG[src="http://goo.gl/KcrEH"]
 juba-get.com##IMG[src="http://linkeasy.org/img/uploaded/468x60x7.gif"]
 juejin.cn##.activity-recommend
+juejin.cn##.advertisement
 juejin.cn##.recommend-box
 juejin.im##.banner-section
 juejin.im##.feedAdsense
@@ -13855,6 +13856,7 @@ netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.tv##.module-tglist
+nettruyenai.com#$#abort-current-inline-script Promise break;case
 netviagens.com###nvAdForm
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com#@##TopAd
@@ -15023,6 +15025,7 @@ ruanyifeng.com##a[href*=".apeclass.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
+ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 ruanyifeng.com#@#a > img[src*="wangbase.com/blogimg/asset/"]
@@ -17068,6 +17071,9 @@ yisu.com##.coupon-get-link
 yixingjia.com###wp > table[width="960"]
 yiyouliao.com##.yyl-ads-swiper
 yiyouliao.com##.yyl-weiruan-ads-swiper
+yiyouliao.com##.yyl-weiruan-news-ad-item
+yiyouliao.com#?#.yyl-weiruan-ads-list-item:has(> div#small1)
+yiyouliao.com#?#.yyl-weiruan-video-list-item:has(> div#small2)
 yizhibo.com###J_reg_guide
 yjcf360.com##.side_box
 yjcf360.com##.side_box2
@@ -19784,6 +19790,7 @@ zzzyk.com###Tinfo
 ||auction.unityads.unity3d.com^
 ||audid-api.taobao.com^
 ||audiofanzine.com/sorrier^$script
+||aueajkn.cn^
 ||aup34.xyz^
 ||autchoog.net^
 ||auto-online.com.tw/vendor_data/
@@ -22979,6 +22986,7 @@ zzzyk.com###Tinfo
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gixgav.icu^
 ||gixhlii.xyz^
+||gizlnr.com^
 ||gjh9v.tianshilv.cn^
 ||gjipd.xyz^
 ||gjkame6.com^
@@ -24220,6 +24228,7 @@ zzzyk.com###Tinfo
 ||ioiksw.cn^
 ||iojgo.com^
 ||iojnask.com^
+||ionjkcj.cn^
 ||ionksfefe.xyz^
 ||ionqv.cn^
 ||ios.426g.com^
@@ -26513,6 +26522,7 @@ zzzyk.com###Tinfo
 ||nektonsrutate.com^
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
+||nerydw.xyz^
 ||netded.com/templets/gfan/js/global.js
 ||netease.com/f2e/auto/modules/float-ask-price/
 ||netease.com/fz/interface/frontend/fz.do?pos=tongyong-
