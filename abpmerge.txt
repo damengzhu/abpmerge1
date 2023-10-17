@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-17 08:11:28
-! Total count: 31901
+! Version: 2023-10-17 16:10:41
+! Total count: 31904
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -11614,6 +11614,7 @@ hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hmoe12.com##.poi-container > div > a[href^="https://www.hmoe12.com/wp-admin/admin-ajax.php?action="][target="_blank"]
 hmoeh.com##+js(set-constant, google_tag_data, {})
 holavid.com,liivideo.com#$#abort-on-property-read Math.sin
+holyphim.com#$#abort-current-inline-script window.addEventListener window.open
 home.firefoxchina.cn##.border-gray-200.tuijian
 home.firefoxchina.cn##a[title][track_key="sites_saoma"]
 home.firefoxchina.cn##a[track_key="sites_mingzhan"] + a[title="VIP"]
@@ -17539,6 +17540,7 @@ zzzyk.com###Tinfo
 ||1.i999d.cn^
 ||1.isanxia.com^
 ||1.jeasyui.net^
+||1.jiangzheba.com^
 ||1.jiqie.cn^
 ||1.jushtong.com^
 ||1.kuaidiwo.cn^
@@ -22049,6 +22051,7 @@ zzzyk.com###Tinfo
 ||duier.top^
 ||duiwai.baidu.com^
 ||duluoweiyu.com^
+||dumeia.cn^
 ||dun8qk8.lkmxqq.com^
 ||duobyj.icu^
 ||duodada.com/Tpl/default/system.js
