@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-18 08:11:35
-! Total count: 31933
+! Version: 2023-10-18 16:10:35
+! Total count: 31948
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -5473,6 +5473,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||chewcoat.com^$script,xmlhttprequest
 @@||chickensstation.com^$script,xmlhttprequest
 @@||childlikecook.com^$script,xmlhttprequest
+@@||childlikecrowd.com^$script,xmlhttprequest
 @@||childlikeform.com^$script,xmlhttprequest
 @@||china.com/dianbo/adv1.xml
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
@@ -5577,6 +5578,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||courageousbaby.com^$script,xmlhttprequest
 @@||coverapparatus.com^$script,xmlhttprequest
 @@||cowscrayon.com^$script,xmlhttprequest
+@@||cozyhillside.com^$script,xmlhttprequest
 @@||cpagrip.com/script_include.php?id=$domain=nation2.com
 @@||cpagrip.com/script_include.php?id=$script
 @@||cpalead.com/*.php?$script,third-party,domain=receive-sms.com|takwing.idv.hk|runningmanengsub.com
@@ -5595,12 +5597,14 @@ $websocket,domain=5nj.com|cechi8.com
 @@||crayoncompetition.com^$script,xmlhttprequest
 @@||create.jd.com/ad/
 @@||creditcreature.com^$script,xmlhttprequest
+@@||crimsonmeadow.com^$script,xmlhttprequest
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||critictruck.com^$script,xmlhttprequest
 @@||crococoin.com/static/js/Controller/Advertise.js$script
 @@||crowdedmass.com^$script,xmlhttprequest
 @@||cruisecenter.com.tw/data/ad/
 @@||crunchyroll.com/*/ads_enabled_flag.js$script
+@@||crystalboulevard.com^$script,xmlhttprequest
 @@||csdn.net/static/static/js/apps/popShow.js
 @@||css.yhdmtu.xyz^$domain=yinghuavideo.com|yinghua8.tv
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
@@ -5674,6 +5678,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||defectivesun.com^$script,xmlhttprequest
 @@||defiantrice.com^$script,xmlhttprequest
 @@||delegatediscussion.com^$script,xmlhttprequest
+@@||delicatecascade.com^$script,xmlhttprequest
 @@||delicateducks.com^$script,xmlhttprequest
 @@||delightfulhour.com^$script,xmlhttprequest
 @@||demo.ama.pub^$generichide
@@ -5848,6 +5853,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||eurosolidaire.com^$generichide
 @@||evaluateend.com^$script,xmlhttprequest
 @@||evanescentedge.com^$script,xmlhttprequest
+@@||eventexistence.com^$script,xmlhttprequest
 @@||eveskunk.com/ad/300x250/ads/$xmlhttprequest,domain=eveskunk.com
 @@||exashare.com/ici.html$subdocument
 @@||exchangedetail.com^$script,xmlhttprequest
@@ -6348,6 +6354,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||jsqsjn.com^$script,domain=fyxfcw.com
 @@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
+@@||jubilantcanyon.com^$script,xmlhttprequest
 @@||juduo.cc^$generichide
 @@||jupako.uk/ads.php$subdocument
 @@||justicejudo.com^$script,xmlhttprequest
@@ -7374,6 +7381,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||sohu.com/play/videonew.do?*/share_play.
 @@||sohu.com/upload/static/share/share_play.html
+@@||solarislabyrinth.com^$script,xmlhttprequest
 @@||somberattack.com^$script,xmlhttprequest
 @@||somberscarecrow.com^$script,xmlhttprequest
 @@||sombersea.com^$script,xmlhttprequest
@@ -7847,6 +7855,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||whisperingbadge.com^$script,xmlhttprequest
 @@||whisperingcrib.com^$script,xmlhttprequest
 @@||whisperingflesh.com^$script,xmlhttprequest
+@@||whisperingsummit.com^$script,xmlhttprequest
 @@||whispermeeting.com^$script,xmlhttprequest
 @@||wholecloud.net/banner.php$script
 @@||widget.sharecash.org/jsclick.php$script
@@ -8732,6 +8741,7 @@ baixing.com##.listing-fixed-bottom-promo
 baixing.com##.poster-info-container + .side-block
 baixing.com##.red-package
 baixing.com##.refashion-listing-banner
+baixing.com##.top-banner
 baiyangzuo.xkyn.com##+js(set-constant, conone_lmg, noopFunc)
 bamxs.com##body > a
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
@@ -23098,6 +23108,7 @@ zzzyk.com###Tinfo
 ||gmx16.top^
 ||gmx17.top^
 ||gmx18.top^
+||gmx19.top^
 ||gmx20.top^
 ||gmx21.top^
 ||gmx22.top^
@@ -24358,6 +24369,7 @@ zzzyk.com###Tinfo
 ||iqiyipic.com/image/20*_100000$image
 ||iqmbao.xyz^
 ||iqnew.com/d/js/m/thea
+||iqs871.com^
 ||iqshw.com/d/js/m/thea
 ||iqybys.xyz^
 ||irqqwqk.cn^
@@ -26203,6 +26215,7 @@ zzzyk.com###Tinfo
 ||mhegew.xyz^
 ||mhhanman.xyz/data/my/myjs.js
 ||mhhsa.xyz^
+||mhnzhlase.xyz^
 ||mhslbgk.cn^
 ||mhysbwo.xyz^
 ||mianbao99.com/a/mianbao
@@ -27899,6 +27912,7 @@ zzzyk.com###Tinfo
 ||qweewq2021.online^
 ||qwer220.cn^
 ||qwertyuadf.com^
+||qwesaz.com^
 ||qwjtdcl.cn^
 ||qwrdj.xyz^
 ||qwrnkpow.com^
@@ -31514,6 +31528,7 @@ zzzyk.com###Tinfo
 ||zcfhi.cn.com^
 ||zcgqsd.icu^
 ||zchvyet.cn^
+||zcpsc.top^
 ||zcrui.com^
 ||zcvyzsyd.icu^
 ||zcy821.com^
