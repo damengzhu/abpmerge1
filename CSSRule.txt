@@ -3547,6 +3547,9 @@ azulyblanco.co###notice
 azulyblanco.co###vlay
 azulyblanco.co#@##adblock
 b-website.com#@##adsense
+babesxworld.com##img[onclick*="spons"]
+babesxworld.com#$#abort-on-property-read ExoooLoooader
+babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 baby-kingdom.com##.right5
 babytree.com##.side-text-slider
 bachtrack.com#@##adblock1
@@ -6103,6 +6106,10 @@ gasaq.com###guanggao_left
 gasaq.com###guanggao_right
 gasaq.com##.guanggao_ime_big
 gate.baidu.com,m.baidu.com###container
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script adver
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script setTimeout hommy.mutation.mutation
+gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
+gaytxxx.com,transtxxx.com,txxx.com#$#hide-if-matches-xpath './/a[@href][text()="Advertising"]/ancestor::div[contains(@class,"undp")]'; hide-if-matches-xpath './/div[@id][@class]/parent::div[@class]/ancestor::div[@class="suggestion"]'; hide-if-matches-xpath './/div[@id][@class]/noscript/iframe[@width][@height]/ancestor-or-self::div[3]';
 gbyhn.com.tw##.footer-widget-column
 gcxa.cn###edu_ad63
 gd163.cn##.bbs_ad
@@ -6520,6 +6527,8 @@ hcbbs.com##.a_cn_pb
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
 hclips.com#$#abort-on-property-read btoa
+hclips.com#$#abort-on-property-write adLoaded
+hclips.com#$#hide-if-matches-xpath './/*[contains(text(),"Advertisement")]/parent::div/ancestor::div[@class="right"][1]'
 hclips.com,hdzog.com,hotmovs.com,inporn.com,pornhits.com,porntop.com,senzuri.tube,thegay.com,thegay.tube,txxx.com,upornia.com,vjav.com,voyeurhit.com#$#abort-current-inline-script mz
 hclips.com,upornia.com#$#abort-on-property-read adver
 hcomic.net##.main-container > .swiper
@@ -8095,6 +8104,8 @@ lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 leo.org##div.floatRight.p.tf1
 lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
+lesbian8.com#$#hide-if-matches-xpath './/div[contains(@class,"pignr")]/div[@style][contains(text(),"Advertisement")]/parent::div/ancestor::div[contains(@class,"sponsor") or contains(@class,"table")][1]'; hide-if-matches-xpath './/span[contains(text(),"Ad")]/ancestor::div[contains(@class,"pignr")][1]';
+lesbian8.com,older-women-porn.com,pimpandhost.com,silkengirl.net#$#prevent-listener getexoloader; abort-on-property-read ExoLoader; abort-on-property-read ExoLoader.addZone; abort-on-property-read ExoLoader.serve;
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letv.com###JS_banner01
 letv.com###JS_banner02
@@ -9445,13 +9456,13 @@ pianyuan.org###myModal
 pianyuan.org,qixingquan.com##.modal-backdrop
 piaoliang.com##.hot990
 pic4you.ru,pic5you.ru##.centerdiv
-pifansubs.com#$#abort-on-property-read adProvider
 pigai.org###newnotice
 pilifx.com##.alltop
 pilifx.com##.home_row_1
 pilifx.com##.imoney
 pilipali.cc##.tips-widget-weixin
 pilipili.site##.block-sales
+pimpandhost.com##div[class$="aablock_yes"]
 pinayvids.com#$#abort-current-inline-script decodeURIComponent; override-property-read D4zz undefined
 pincong.rocks##+js(no-setInterval-if, Ad Block)
 pincong.rocks##.a-a
@@ -10249,6 +10260,8 @@ sibnet.ru#$#prevent-listener DOMContentLoaded 'smartweek'
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
 silisili.in##.play_ad
+silkengirl.net##a[href*="jaxofuna.com"]
+silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
 silver.org.cn##.dl_lt
 silver.org.cn##.fix_bottom_position
 silver.org.cn##.fixbottom_wrap_small
@@ -11103,6 +11116,8 @@ tube8.com##.footerBanner
 tube8.com##.gridBanner_
 tube8.com#$#abort-on-property-write AdDelivery
 tubeload.co#$#abort-on-property-write BetterJsPop
+tubesafari.com#$#override-property-read initialize_page noopFunc
+tubesafari.com,youdbox.com#$#abort-on-property-read encodeURIComponent
 tucao.cam##.header_rmb
 tuchong.com##.float
 tugastream.com###closediv
@@ -12118,7 +12133,6 @@ youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
 youdao.com#@#.share-text
-youdbox.com#$#abort-on-property-read encodeURIComponent
 youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 youivr.com##.header-widget-region
 youku.com###bt-banner
