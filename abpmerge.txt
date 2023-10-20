@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-20 08:10:58
-! Total count: 31996
+! Version: 2023-10-20 16:10:34
+! Total count: 32002
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4140,6 +4140,7 @@ $websocket,domain=5nj.com|cechi8.com
 51cto.com###upopbox_mid
 51cto.com##.ad-jing
 51cto.com##.footer_mask
+51cto.com##.right-fixadv
 51cto.com##.suspend
 51cto.com##.upopbg
 51cto.com##DIV[id^="topbanner"]
@@ -4394,9 +4395,11 @@ $websocket,domain=5nj.com|cechi8.com
 7junshi.com##.breaknovel-ave
 7junshi.com##.videoads
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
+7k7k.com###flashAds
 7k7k.com###player-ad
 7k7k.com##.bgLink
 7k7k.com##.page-right-side-btns-img-link
+7k7k.com##.pendant
 7k7k.com##.skin-link
 7ogorod.ru,autonevod.ru,shtrafsud.ru,tophallclub.ru,zazloo.ru#$#abort-on-property-read fpm_attr
 7x7n.com##.down_load_1
@@ -8243,6 +8246,7 @@ animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.query
 animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script document.documentElement break;case; abort-on-property-read decodeURI;
 animeunity.tv#$#abort-on-property-read localStorage
+animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 animewld.club##.header-img
 animezone.pl#@#.myTestAd
 animixplay.to#$#abort-on-property-read String.fromCharCode
@@ -8868,6 +8872,7 @@ bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
 bilibili.com###slide_ad + .ad-report
+bilibili.com##.activity-slider[style="width: 1220px;"]
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
 bilibili.com##.ad-report
@@ -9044,7 +9049,6 @@ bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
 bonbonme.com##.topbannerer
 bongda365c.com#$#override-property-read isSkipAds true
-bongdahomnay.tech#$#abort-on-property-read $
 boniu123.cc##.left_side
 boniu123.cc##.right_side
 boniu123.cc##.td_item
@@ -10639,7 +10643,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,zo3x.lol,mrdhan.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -12416,6 +12420,7 @@ iyf.tv##vg-pause-ads
 iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
+iyf.tv#?#.video-player + div.ps > div:has(div.gg-tips-text)
 iyf.tv#@#.share-top
 iyingshi9.tv#$#override-property-read YZM.ads.state false
 j-pussy.com,redtube.com#$#abort-on-property-read smpop
@@ -14417,7 +14422,6 @@ pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophim.vip#$#abort-on-property-read localStorage
 phimgigi.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
-phimmoiiii123.com#$#abort-on-property-read matchMedia
 phimvuihd.org#$#override-property-read urlAds ''
 phonearena.com##.adblock_awareness
 php.cn##.close_id
@@ -14668,7 +14672,6 @@ proplanta.de#@#.adsbygoogle
 proplanta.de#@#.searchad
 protege-liens.com,protege-torrent.com#$#abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
-protruyen.com,animevietsub.fan#$#abort-current-inline-script document.documentElement break;case
 proxywiky.com###overlay-holder
 prts.wiki##.nomobile[style*="810px;height:240"]
 psahz.com#@#.ad_960
@@ -16105,6 +16108,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,phimbom.net#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -16429,7 +16433,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vc,ungtycomicsvip.com,vlxx.info,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,vl2.xvideos98.pro#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotday.net,dualeotruyenpk.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,vl2.xvideos98.pro#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -16999,7 +17003,6 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
-xuongphim18z.com,phimtopz.com,truyensieuhay.com,tvchill.org,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,phimbom.net#$#abort-on-property-read document.cookie
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
@@ -23011,6 +23014,7 @@ zzzyk.com###Tinfo
 ||geilicdn.com/img*_960_60.
 ||geiod.xyz^
 ||gejulm1314.com^
+||gelbjvl.cn^
 ||gelbooru.com/script/application.js
 ||gemini.yahoo.com^
 ||genieessp.com^$third-party
@@ -26983,6 +26987,7 @@ zzzyk.com###Tinfo
 ||omgid.qq.com^
 ||omhoa.com^
 ||omlube.com/O/1000970O3001405O1O.js
+||omzxutfm.com^
 ||oncgqzu.cn^
 ||oncinu.com^
 ||onclickads.net^
@@ -27236,6 +27241,7 @@ zzzyk.com###Tinfo
 ||pdjjrh.xyz^
 ||pdrtcgfx.cn^
 ||pdweigee.com^
+||pdweoyw.cn^
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
 ||pe5a.top^
