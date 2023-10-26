@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-25 16:10:26
-! Total count: 32080
+! Version: 2023-10-26 08:10:52
+! Total count: 32096
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1978,10 +1978,12 @@ $websocket,domain=5nj.com|cechi8.com
 .com:10446/*/get*.html
 .com:12289/$script,third-party
 .com:8001/*/*?*=$third-party
+.com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
+.com:8008/sc/*?n=$third-party
 .com:8010/cc/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
@@ -10547,8 +10549,8 @@ exashare.com,dowed.info###player_mgs
 exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
-expedia.co.uk,expedia.de,expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
-expedia.com##[data-meso-viewed]
+expedia.ca,expedia.com,expedia.co.uk,expedia.de##[data-meso-viewed]
+expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,hotels.com,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 expres.cz,idnes.cz##[class^="r-main"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
@@ -12866,6 +12868,7 @@ kickassanime.io##.ka-ax-wrapper
 kickassanime.io##.ka-ax-wrp.mb-3
 kikinote.net##.pc_ad
 kimcartoon.to#$#abort-on-property-read NativeAd
+kims3.xyz#@#.google-ad
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
 kinobox.cz##.box.banner_300, #b300_fixbox
@@ -13833,7 +13836,7 @@ myexception.cn##.c_a_3
 myexception.cn##.m_a
 myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 myhack58.com##.adv32
-myjane.ru,omskpress.ru,artfile.me,artfile.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
+myjane.ru,omskpress.ru,astrakhan.ru,tambovnet.org#$#abort-on-property-read kav_cn
 myk3.com##a[href*="?aid="]
 mykhel.com#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@src,"boldsky.com") or contains(@src,"gizbot.com") or contains(@src,"oneindia.com") or contains(@src,"nativeplanet.com") or contains(@src,"goodreturns.in") or contains(@src,"drivespark.com") or contains(@src,"careerindia.com") or contains(@src,"filmibeat.com")]/ancestor::div[@class="rightArt"][@data-content_id]'
 mylivesocial.com##.bgimg
@@ -18058,6 +18061,7 @@ zzzyk.com###Tinfo
 ||2r6.cn^
 ||2tyne.ic^
 ||2tyne.icu^
+||2u3v4w5x6y.com^
 ||2ujj.com/js/bo.js
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
@@ -20333,6 +20337,7 @@ zzzyk.com###Tinfo
 ||bedrapiona.com^
 ||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
+||beezwol.com^
 ||behe.com^$third-party
 ||beijing-air.com/images/a/j
 ||beijing.buzhi5.com^
@@ -21676,6 +21681,7 @@ zzzyk.com###Tinfo
 ||dbxok6uo.icu^
 ||dc.letv.com/op/?
 ||dcdf4.com^
+||dcdglb.xyz^
 ||dciep.xyz^
 ||dcmh.xyz^
 ||dcnjc4.com^
@@ -22638,6 +22644,7 @@ zzzyk.com###Tinfo
 ||fc2fan.net/js/check_focus.js
 ||fcbdo.com^$script,xmlhttprequest
 ||fcbqxt.xyz^
+||fcgmoas.cn^
 ||fcgztan.cn^
 ||fcheng.top^
 ||fcied.xyz^
@@ -23392,6 +23399,7 @@ zzzyk.com###Tinfo
 ||gvbhae0.com^
 ||gw1jvhs.com^
 ||gwbnsh.net.cn/hd/unicom/ad.html
+||gwdobvs.cn^
 ||gwertyuadf.com^
 ||gwg51.com^
 ||gwide.xyz^
@@ -24178,6 +24186,7 @@ zzzyk.com###Tinfo
 ||igexin.com^
 ||igg-games.com/sw.js^$script
 ||igkgag.xyz^
+||ignulsniy.com^
 ||igo.cn/liuxue/js/slideBar
 ||igo99.cn/js/freetest.js
 ||igscn.com^
@@ -25374,6 +25383,7 @@ zzzyk.com###Tinfo
 ||kslbahd.top^
 ||ksnignsd.xyz^
 ||ksqfwxu.cn^
+||ksrgsc.xyz^
 ||kstj.baidu.com^
 ||kszvmqo.cn^
 ||kszxqq.com^
@@ -25733,6 +25743,7 @@ zzzyk.com###Tinfo
 ||liuxue86.com/js/ideng/liuxue-show
 ||liuyi22.cn^
 ||liuyimin5.cn^
+||liuyingtv.com/common/api_getAcode.php
 ||liuyuhuaa.cn^
 ||liuyun.name^
 ||live.prismamediadigital.com/ops/TRA/ab_ban/$image,domain=voici.fr
@@ -26929,6 +26940,7 @@ zzzyk.com###Tinfo
 ||nyaa.fun/static/js/*_costcheck_a.js
 ||nyahentai.pw/js/check_cat.js
 ||nychinaren.com/houbei/
+||nyfgpbsc.xyz^
 ||nyhgvn.xyz^
 ||nyoskiov.com^$script
 ||nypyzx.xyz^
@@ -27029,6 +27041,7 @@ zzzyk.com###Tinfo
 ||okmwfq.xyz^
 ||okokw.com^$third-party
 ||okooo.com/I/?method=system.data.ad&
+||okpcyp.icu^
 ||okpoiione.com^
 ||okqwidvnsk.net^
 ||okwan.cn^
@@ -27036,6 +27049,7 @@ zzzyk.com###Tinfo
 ||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
 ||oldulgk.cn^
 ||olgame.tw/home/attachment/
+||olltcqg.xyz^
 ||olmsoneenh.info^$domain=avgle.com
 ||oload.tv/assets/js/script.packed
 ||olpv.onlylady.com^
@@ -30175,6 +30189,7 @@ zzzyk.com###Tinfo
 ||vodttdy.com/template/zsy_badian/js/stui_
 ||vokmhydy.xyz^
 ||vokwlch.xyz^
+||volgreal.com^
 ||volstqkwmth.com^$script,xmlhttprequest
 ||vorluic.cn^
 ||vouninked.com^
@@ -30553,6 +30568,7 @@ zzzyk.com###Tinfo
 ||wumao20230301.live^
 ||wumii.cn/ext/relatedItemsWidget
 ||wuplexv.cn^
+||wuruigroup.com^
 ||wutou20230201.live^
 ||wuxibus.com/Image/title
 ||wuyaw.cn^
