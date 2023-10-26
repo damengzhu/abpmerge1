@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-26 08:10:52
-! Total count: 32096
+! Version: 2023-10-26 16:10:14
+! Total count: 32104
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -6743,6 +6743,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=miuipro.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pansearch.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=robotcoingame.com|monstercoingame.com|wonderlandco.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=speedof.me
@@ -8622,6 +8623,7 @@ baidu.com##.icon-bdad
 baidu.com##.img-adv-swap1
 baidu.com##.intro-adv
 baidu.com##.l-header-ad
+baidu.com##.landrightbanner
 baidu.com##.link-banner
 baidu.com##.manual-spread
 baidu.com##.nav_ads
@@ -8634,6 +8636,7 @@ baidu.com##.optimus
 baidu.com##.pageLeftFixedAD
 baidu.com##.pauseadv
 baidu.com##.picad
+baidu.com##.player-pause-code
 baidu.com##.pop-manager-view-containter
 baidu.com##.qb-other-answer-wmad
 baidu.com##.quality-elinks
@@ -14424,7 +14427,7 @@ pg-wuming.com##+js(abort-current-script, $, !document.getElementById(btoa)
 pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com,ophim.vip#$#abort-on-property-read localStorage
-phimgigi.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
+phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script document.createElement script
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimvuihd.org#$#override-property-read urlAds ''
 phonearena.com##.adblock_awareness
@@ -16990,10 +16993,10 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilac87.tv##.modal.fade.show
-xoilac87.tv#$#abort-current-inline-script jQuery overlay
-xoilac87.tv#$#abort-current-inline-script jQuery popupBanners
-xoilac87.tv#$#abort-on-property-read adsRedirectPopups
+xoilac91.tv##.modal.fade.show
+xoilac91.tv#$#abort-current-inline-script jQuery overlay
+xoilac91.tv#$#abort-current-inline-script jQuery popupBanners
+xoilac91.tv#$#abort-on-property-read adsRedirectPopups
 xoivod.site,vaoroi13.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
@@ -18913,6 +18916,7 @@ zzzyk.com###Tinfo
 ||9999961.com/JS/daohang.js
 ||9999961.com/JS/lianmeng.js
 ||99999999.club^
+||999aa666bb.com^
 ||999d.com^$third-party
 ||999gg.net^
 ||999meiju.com/js/tj
@@ -23182,6 +23186,7 @@ zzzyk.com###Tinfo
 ||gmx29.top^
 ||gmx30.top^
 ||gmx42.top^
+||gmx43.top^
 ||gmx44.top^
 ||gmx45.top^
 ||gmx46.top^
@@ -24668,6 +24673,7 @@ zzzyk.com###Tinfo
 ||jeidd.xyz^
 ||jerrytom.xyz^
 ||jessicarace.com^
+||jevwdao.cn^
 ||jf2v.mnpool.cn^
 ||jfanhao.com^
 ||jfnkjr.xyz^
@@ -29298,6 +29304,8 @@ zzzyk.com###Tinfo
 ||templates_pc/default/scripts/chapter_bottom.js
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
+||tencent.com/developer/api/common/getAds
+||tencent.com/developer/api/common/getOneAds
 ||tencent.xn--io0a7i^
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
