@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-10-28 08:09:27
-! Total count: 32129
+! Version: 2023-10-28 16:09:02
+! Total count: 32132
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1979,7 +1979,6 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
-.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -1989,7 +1988,7 @@ $websocket,domain=5nj.com|cechi8.com
 .cyou/*_*_an*js?$script,third-party
 .cyou/*_*_u*js?$script,third-party
 .cyou/redbaiduct.com
-.cyou/xling_*_
+.cyou/xling_*_$third-party
 .cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 .cz/*/area=adblock$script,popup,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 .cz/*/js/a.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -2040,7 +2039,7 @@ $websocket,domain=5nj.com|cechi8.com
 .live/o.js
 .live/o.js$script,third-party
 .live/r/*/*_r=*
-.live/ty/*-*-*
+.live/ty/*-*-*$third-party
 .live:*/o.js
 .lu/ads/
 .m.bookben.com^
@@ -4048,7 +4047,6 @@ $websocket,domain=5nj.com|cechi8.com
 3rxing.org###fullDD
 3sk.io,3sk.co,33sk.tv,esheeq.co#$#abort-on-property-read atob; abort-on-property-write Fingerprint2; abort-on-property-read decodeURIComponent; abort-on-property-read RegExp
 3yan.cn##img[style*="300px"]
-3zmmm.net/ggxx/
 40407.com###nei_fmt
 40407.com###tcdgg
 40407.com##.bg_l
@@ -4623,6 +4621,7 @@ $websocket,domain=5nj.com|cechi8.com
 :8888/mb1/wap_
 :8888/zhu/pc_
 :8888/zhu/wap_
+:8891/v*$third-party
 :8891/v*/$script,third-party
 :8898/ads_
 :9001/code/
@@ -14150,7 +14149,6 @@ novipnoad.com##.bg-ad
 novipnoad.com##img[src*="/bd/"] + span
 novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 novom.ru#$#abort-on-property-read zoneNativeSett
-novret.com/?clickid=
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
@@ -18241,6 +18239,7 @@ zzzyk.com###Tinfo
 ||3xy1.dvv9dkv.site^$third-party
 ||3yej.xyz^
 ||3z7qn.cn^
+||3zmmm.net/ggxx/
 ||4-bb.com/new/xxx/
 ||4000bb.com/java/
 ||401aww.com^
@@ -22100,6 +22099,7 @@ zzzyk.com###Tinfo
 ||dsfsdft4324.xyz^
 ||dshangyan.com/pc/advertising/
 ||dshapv.xyz^
+||dskjhs.com^
 ||dslenggui.com^
 ||dsp.ali213.net^
 ||dsp.lenovo.com.cn^*&clientType=api|
@@ -22151,6 +22151,7 @@ zzzyk.com###Tinfo
 ||dv.amtwcvh.cn^
 ||dv.taolingjing.com^
 ||dvbnmikxh.xyz^
+||dvclhmt.cn^
 ||dvenkbn.icu^
 ||dvnqhdmze.xyz^
 ||dvnsdo.com^
@@ -22953,6 +22954,7 @@ zzzyk.com###Tinfo
 ||g1.taijuba.com^
 ||g13eyx.com^
 ||g1kb9u.xyz^
+||g2ak5.com^
 ||g2qb.top^
 ||g3f3.com/love/
 ||g77ds2.xyz^
@@ -26896,6 +26898,7 @@ zzzyk.com###Tinfo
 ||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||novipnoad.net/theme/js/sponsor/
+||novret.com/?clickid=
 ||nownews.com/assets/js/setAds.js
 ||npdkdb.xyz^
 ||npftmqv.cn^
