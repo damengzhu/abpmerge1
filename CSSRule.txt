@@ -3116,6 +3116,8 @@ acglala.net##.gg_img
 acglala.net,boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 acglover.me##.myas
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
+achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/div/div[contains(@data-qa,"spnsrd")][text()="Sponsored"]/parent::div/ancestor::div[contains(@class,"placeholder")][1]';
 acommunity.com.tw##.ai_widget
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.cloud,lodynet.co,lodynet.dev,lodynet.ink,lodynet.tv,lodynet.win,rotana.video#$#abort-on-property-read decodeURIComponent
@@ -9253,6 +9255,7 @@ olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
 olevod.eu##.guangao
 olevod.eu##a.wbalist_thumb[target="_blank"]
+olevod.tv##a[href^="https://www.yywhale.com"]
 olgame.tw##.nex_floor_banner
 olgame.tw##.nex_index_ads
 olgame.tw##.nex_mid_ads
@@ -9600,6 +9603,7 @@ poczta.o2.pl#$#hide-if-matches-xpath './/a[@class][contains(@href,"wp.pl/")]/par
 poczta.o2.pl#$#hide-if-matches-xpath './/div[@class]/iframe[@sandbox][contains(@src,"wpcdn.pl/tag/poczta.o2.pl/")]/ancestor::div[string-length(@class) >30]'
 poczta.o2.pl#$#hide-if-matches-xpath '//div[@class]/div[@style="height: 60px;"]/a[contains(@href,"poczta.o2.pl/")]/div/following::div[2]/following-sibling::img[contains(@src,"v.wpimg.pl/")]/following-sibling::div[@class]/parent::div'
 poczta.o2.pl#$#hide-if-matches-xpath '//div[@class]/following-sibling::a[@target="_blank"]/following::div[@class][@id][@style]/preceding::div[@class][1]'
+poedb.tw###head_toolbar + .text-center
 poedb.tw##+js(abort-current-script, document.getElementById, /#myModal'\)\.modal/)
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 pogocheats.net#@#.adsbygoogle
@@ -10994,6 +10998,7 @@ ting89.com,tingshuge.com##.banner250
 ting89.com,tingshuge.com##.banner688_1
 ting89.com,tingshuge.com##.banner688_2
 tingfm.com##+js(no-setTimeout-if, adblock)
+tingfm.com##+js(set-constant, can_run_ads, true)
 tingroom.com###ifram_563
 tingroom.com###play_ggr
 tingroom.com##a[href*="weidian.com"]
@@ -11105,6 +11110,8 @@ toy-people.com##.good72890
 toy-people.com##.rightAd_300250
 tpbay.link#$#abort-on-property-read _wm_settings
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
+track718.com##.track-adsense-ad
+track718.com##.track-search-ad
 trafictube.ro#@#.widget-adv
 trakt.tv###huckster-desktop-bottom
 trakt.tv###huckster-desktop-top
