@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-01 16:10:31
-! Total count: 32203
+! Version: 2023-11-02 08:10:49
+! Total count: 32214
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4060,6 +4060,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > P[style$="center;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -5762,7 +5763,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
-@@||doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
 @@||doubtfulrainstorm.com^$script,xmlhttprequest
 @@||douyucdn.cn^*-share-master/
@@ -11069,6 +11069,7 @@ gaokao.com##.adout116
 gaoqing.fm##div[style^="height:258px;background-image:"]
 gaoqing.la###head > a
 gaoqing.la###sidebar-follow
+gaoqing888.com##.wp-card > a[target="_blank"]
 gaoqingw.com###searchform > label > span
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 gaoqingw.com##.search + .widget
@@ -11299,6 +11300,7 @@ gywb.cn##.bill-vertical
 gz.bendibao.com##.content_r_ad300
 gz0668.com###closexguide
 gz0668.com###framec32DR1
+gz0668.com##.deanad
 gz0668.com##.down_fixed
 gzmama.com###mdvtips
 gzmama.com###zone_banner_1_new
@@ -20396,6 +20398,7 @@ zzzyk.com###Tinfo
 ||betylife.com^
 ||bf99.com/User*/Ad_
 ||bf99.com/User/Images/bg_Blued.jpg
+||bfbchr.xyz^
 ||bfdaawe.top^
 ||bfdcuy9.com^
 ||bfjk360.com^
@@ -20998,6 +21001,7 @@ zzzyk.com###Tinfo
 ||cgigc.com.cn^
 ||cgmalight.com^
 ||cgqmss.xyz^
+||cgqwgv.icu^
 ||ch6g.top^
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
@@ -23040,6 +23044,7 @@ zzzyk.com###Tinfo
 ||gaoqing.la/wp-content/uploads/*980x
 ||gaoqing.la/wp-content/uploads/*GOOVIS
 ||gaoqing.la/wp-content/uploads/*banner
+||gaoqing888.com/img/icmarkets.
 ||gaosan.com/js/b.js
 ||gaoyuhu.top^
 ||gasaq.com/public/flash/
@@ -23823,6 +23828,7 @@ zzzyk.com###Tinfo
 ||hjgkr0g.xyz^
 ||hjgrc.xyz^
 ||hjkiguy.com^
+||hjnjjcw.xyz^
 ||hjpqt.cn^
 ||hjtedf.xyz^
 ||hk-pub.com/forum/images/2009/gifbanner
@@ -24056,6 +24062,7 @@ zzzyk.com###Tinfo
 ||hvdath.xyz^
 ||hvfubp.xyz^
 ||hvhudp.xyz^
+||hvpard.xyz^
 ||hwfoct.icu^
 ||hwhefj.xyz^
 ||hwivedn.icu^
@@ -26980,6 +26987,7 @@ zzzyk.com###Tinfo
 ||ntsibo.com^
 ||nuannuanqi.top^
 ||nuanqipian.pw^
+||nubcdaqa.xyz^
 ||nucld.xyz^
 ||nudpqt.com^
 ||nuheoub.cn^
@@ -28121,6 +28129,7 @@ zzzyk.com###Tinfo
 ||qxakzox.cn^
 ||qxrvmu.com^
 ||qy0.ru/data/game/
+||qy1.ru/data/game/
 ||qycfqk.xyz^
 ||qycw.xyz^
 ||qyer.com/qcross/home/ajax?action=banner
@@ -30163,6 +30172,7 @@ zzzyk.com###Tinfo
 ||vcydyzd.icu^
 ||vdebtqm.xyz^
 ||vdggsd001.com^
+||vdggsd002.com^
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
@@ -31487,6 +31497,7 @@ zzzyk.com###Tinfo
 ||ynet.com/c/js/manto.min.js
 ||ynfxxbp.xyz^
 ||ynslvyou.com^
+||ynulcpt.cn^
 ||ynyikk.com^
 ||ynzhby.com^
 ||ynztzh.com^$third-party
