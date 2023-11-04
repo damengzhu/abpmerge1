@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-03 16:10:48
-! Total count: 32228
+! Version: 2023-11-04 08:09:36
+! Total count: 32240
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4060,7 +4060,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > P[style="font-size: 20px;"]
+423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
@@ -4183,7 +4183,7 @@ $websocket,domain=5nj.com|cechi8.com
 51zxw.net###video div[class^="adlink"]
 51zxw.net###video div[class^="adpauseclose"]
 51zxw.net###video div[class^="background"]
-51zxw.net##+js(nano-setTimeout-booster, adCountDown, , 0.02)
+51zxw.net##+js(adjust-setTimeout, adCountDown, , 0.02)
 520call.me##+js(set-constant, all520dddaaa2022aaa, undefined)
 520call.me##+js(set-constant, all520dddaaa2022ccc, true)
 520call.me,av99.us,yocoolnet.in###inplayer
@@ -6755,6 +6755,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=al.ly
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=articlerewritertool.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=big-coin.eu
@@ -7937,6 +7938,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||youngmarble.com^$script,xmlhttprequest
 @@||yourjavascript.com/*/show-ad.js$domain=afdah.tv
 @@||youthfulnoise.com^$script,xmlhttprequest
+@@||yummy.best^$generichide
 @@||yunduanxin.xyz/static/js/banger.js
 @@||yunjiema.top/static/js/wpsafelink.js
 @@||yygsz.com^$generichide
@@ -12404,7 +12406,7 @@ iwan.baidu.com###j-media
 iwan.baidu.com###side-xbox
 iwan.baidu.com##.banner-container
 iwan.baidu.com##.side-banner
-iwatchme2u.com##+js(nano-setTimeout-booster, video-ad-timeout, *, 0.02)
+iwatchme2u.com##+js(adjust-setTimeout, video-ad-timeout, *, 0.02)
 iwatchme2u.com##+js(window.open-defuser, /bit\.ly|kbtv/)
 iwatchme2u.com##.video-ad-box
 ix6080.com##DIV[style$='vw; display: block;']
@@ -16458,6 +16460,7 @@ viet69.tube,ungtycomicsvip.com,truyengihotday.net,dualeotruyenpk.com,yurineko.ne
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
+vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
 vikacg.com##div[id^="home-row-ads"]
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -17186,8 +17189,8 @@ youdbox.com,vudeo.io,vudeo.co,vudeo.net#$#abort-current-inline-script String.fro
 youivr.com##.header-widget-region
 youku.com###bt-banner
 youku.com###ykBottomBanner
-youku.com##+js(nano-setTimeout-booster, e-, , 0.02)
-youku.com##+js(nano-setTimeout-booster, r--, , 0.02)
+youku.com##+js(adjust-setTimeout, e-, , 0.02)
+youku.com##+js(adjust-setTimeout, r--, , 0.02)
 youku.com##.pop-prompt-box
 youku.com##.src_adwrap
 youku.com##.videolist_s_body > div.common_container > div[id^="ab_"]
@@ -17285,7 +17288,7 @@ zhcw.com##.khdpc
 zhcw.com##.tgtc
 zhenbuka.com##+js(no-setTimeout-if, ad_ids)
 zhenbuka.com##.jq-toast-wrap
-zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(nano-setTimeout-booster, CloseAd, , 0.02)
+zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(adjust-setTimeout, CloseAd, , 0.02)
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(no-setTimeout-if, ad_load_fail)
 zhenniu.vip#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 zhibo8.cc###m_adv
@@ -20817,6 +20820,7 @@ zzzyk.com###Tinfo
 ||cam4.com/buygift/
 ||cam4.com/directoryFanClubs?
 ||camep.xyz^
+||cammak.xyz^
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
 ||canser1.top^
@@ -21210,6 +21214,7 @@ zzzyk.com###Tinfo
 ||ck33.top^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
+||cklithuw.xyz^
 ||ckxxbao.com/templets/default/js/wx.js
 ||clarin.com/static/CLAClarinV3/js/comprimido.js$script
 ||classic.39health.com^
@@ -22404,6 +22409,7 @@ zzzyk.com###Tinfo
 ||efilgvz.cn^
 ||efvsyhbf.xyz^
 ||efyt6.com^$third-party
+||egadfe.xyz^
 ||eganilglw.cyou^
 ||eghyahl.cn^
 ||egipsbvlgn.xyz^
@@ -23768,6 +23774,7 @@ zzzyk.com###Tinfo
 ||hfctx.cn^
 ||hffxc.com^
 ||hfhytx.xyz^
+||hfjhr.cn^
 ||hfjk3wa.com^
 ||hfjsbf.xyz^
 ||hfk7j.top^
@@ -25476,6 +25483,7 @@ zzzyk.com###Tinfo
 ||ktienld.top^
 ||ktkkt.com/js/tvb/
 ||kttoo1.com^$domain=9xav.cc
+||ktvtxir.xyz^
 ||ktzhk.com/file/adv/
 ||kuaicad.com/rest/common/getConfigureByName?
 ||kuaidi100.com/assets/ext?method=mainprofile
@@ -27654,6 +27662,7 @@ zzzyk.com###Tinfo
 ||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
+||pptclb.xyz^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||ppvpmrt.xyz^
 ||ppwrc.xyz^
@@ -29420,6 +29429,7 @@ zzzyk.com###Tinfo
 ||teslaamg.obs.cn-east-3.myhuaweicloud.com^
 ||tetiao9.com^
 ||teusyxz.icu^
+||tewsdnka35.xyz^
 ||texnet.com.cn/images/cnbanner/
 ||tf.360.cn^
 ||tfaftemail.com^
@@ -30184,6 +30194,7 @@ zzzyk.com###Tinfo
 ||vdggsd001.com^
 ||vdggsd002.com^
 ||vdggsd003.com^
+||vdggsd004.com^
 ||vdggsd005.com^
 ||vdggsd006.com^
 ||vdggsd007.com^
@@ -32168,6 +32179,7 @@ zzzyk.com###Tinfo
 ||zykwnj.cn^
 ||zypzzv.xyz^
 ||zyrwfd.xyz^
+||zys13.top^
 ||zyzlpt.com^
 ||zz123.com^$third-party
 ||zzad.com^$third-party
