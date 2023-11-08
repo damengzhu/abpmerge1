@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-07 16:10:38
-! Total count: 32272
+! Version: 2023-11-08 08:10:50
+! Total count: 32289
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1141,6 +1141,7 @@
 ##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[src^='https://dzfzfv.xyz/']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -1600,6 +1601,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
@@ -1982,6 +1984,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*&n=$third-party
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -3504,7 +3507,7 @@ $websocket,domain=5nj.com|cechi8.com
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
-123pan.com#@#.share-list
+123pan.com,meidebi.com,weicaixun.com#@#.share-list
 123putlocker.club#$#abort-current-inline-script _0xbc13
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -8190,9 +8193,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'a[class][target][style^="width"]' 'span[class][style]'
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'div[data-index][style] div[style]>a[target^="_blank"]' 'span[class][style]'
-aliexpress.com#$#hide-if-matches-xpath './/div[contains(text(),"sponsored")]/parent::div[@class][@id]/ancestor::div[contains(@class,"spin")]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' 'span[class][style^="background-color"]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -12121,7 +12122,7 @@ instacart.com#$#hide-if-contains-visible-text '/S.*?p.*?o.*?n.*?s.*?o.*?r.*?e.*?
 instacart.com#$#hide-if-matches-xpath './/div[count(child::*[text()])=2]/parent::div/ancestor::article[@id and @class]'; hide-if-matches-xpath './/span[count(child::*[text()])=2]/parent::button/ancestor::article[@id and @class]';
 instacart.com#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -13528,7 +13529,6 @@ megatime.com.tw,pchome.com.tw###sixi
 megatime.com.tw,pchome.com.tw##.tripplead
 megatime.com.tw,pchome.com.tw##div[class^="ad_ec"]
 megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
-meidebi.com,weicaixun.com#@#.share-list
 meijumi.me###app_left
 meijumi.net##.couplet_app
 meijumi.net##.widget_metaslider_widget
@@ -19491,6 +19491,7 @@ zzzyk.com###Tinfo
 ||aishan.shop^
 ||aisixiang.com/images/*-20
 ||aisnj.cn^
+||aispyd.icu^
 ||aisy19.com/dm/
 ||aitaoshegnqian.cn^$third-party
 ||aitaotu.com/style/js/aitaotu
@@ -19819,6 +19820,7 @@ zzzyk.com###Tinfo
 ||apic.91bixin.net/api/thirdadv/
 ||apic.in/mmd.gif
 ||apiimg.com/huaer/xiahe.
+||apis301.com^
 ||apistat.gao7.com^
 ||apistat.wasu.cn^
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
@@ -19876,6 +19878,7 @@ zzzyk.com###Tinfo
 ||asdffe22.com^
 ||asdx55.com^
 ||asdyui16.cn^
+||asdzxc1.top^
 ||asemskull.com^$domain=igg-games.com
 ||asfklgnbvx.com^
 ||asfybkiy.xyz^
@@ -20747,6 +20750,7 @@ zzzyk.com###Tinfo
 ||byvlph.xyz^
 ||byytogm.cn^
 ||byzt8.top^
+||bzbopfh.cn^
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzdntl.xyz^
 ||bzhanyy.com^*.gif
@@ -21883,6 +21887,7 @@ zzzyk.com###Tinfo
 ||diaoyu123.com/cpro/show.js
 ||dibaiweiai.com^
 ||dicancele.fun^
+||dididy.xyz^
 ||diejs.com^
 ||dieka888.com/app_ad/
 ||dieka888.com^
@@ -22266,6 +22271,7 @@ zzzyk.com###Tinfo
 ||dyxsmj.net^
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
+||dzfzfv.xyz^
 ||dzjzg.com^
 ||dzkwj0y.xyz^
 ||dzmanga.com/s/page_runtime_v5.js
@@ -24687,6 +24693,7 @@ zzzyk.com###Tinfo
 ||jable.tv/assets/*0.gif
 ||jable.tv/assets/images/*-slider.
 ||jable.tv/assets/images/wejo/$image
+||jackdd.xyz^
 ||jacksonyee.club^
 ||jads.co^
 ||jads.co^$domain=avgle.com
@@ -24980,6 +24987,7 @@ zzzyk.com###Tinfo
 ||jqkcett.icu^
 ||jqnggnsa.fun^
 ||jqsex.com^
+||jqtkzuco.xyz^
 ||jqtzw.xyz^
 ||jquery.envi-met.com.cn^
 ||jqueryboots.com^
@@ -25734,6 +25742,7 @@ zzzyk.com###Tinfo
 ||lezbrja.cn^
 ||leztc.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfhnzbj.xyz^
 ||lfjtiuy.cn^
 ||lflmdm.com^
 ||lfzk2cp.icu^
@@ -26667,6 +26676,7 @@ zzzyk.com###Tinfo
 ||muxing.city^
 ||muxingkj.com^$third-party,image
 ||muyuge.com/fw.html/
+||muyxmmz.cn^
 ||muyys.com/img/
 ||muzisoft.com/static/*_f.js
 ||mvamnng.cn^
@@ -26725,6 +26735,7 @@ zzzyk.com###Tinfo
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
 ||myhaitang.cc/assets/public/*.js
+||myhaitang.xyz/assets/public/
 ||myhao.club^
 ||mykch.top^
 ||mylikechat.com^$third-party
@@ -26816,6 +26827,7 @@ zzzyk.com###Tinfo
 ||ncrkff.xyz^
 ||ncyksuw.xyz^
 ||nczsks.com/SCWB/WebResource.axd
+||ndbaxn.xyz^
 ||ndfsl.com^
 ||ndqcz0e.xyz^
 ||ndqzqmb.xyz^
@@ -27563,6 +27575,7 @@ zzzyk.com###Tinfo
 ||pingwest.com/wp-content/uploads/*/ad.jpg
 ||pinkboy.fun^
 ||pinlue.com/error/bangolike.js
+||pinyuege.net/template/pinygm/public/js/
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
 ||piqtpbxo.icu^
@@ -28903,6 +28916,7 @@ zzzyk.com###Tinfo
 ||sinawap.com^
 ||singlove.com/qq/qq.js
 ||singmwn51g.com^
+||singmwn54g.com^
 ||sinolub.com/index.php?m=poster&
 ||sisjwol.xyz^
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
@@ -30587,6 +30601,7 @@ zzzyk.com###Tinfo
 ||whjding.cn^
 ||whnews.cn/wh_public/xuxu/
 ||wholehk.com/atttuop.js
+||whols.cn^
 ||whqxj.xyz^
 ||whrc.xyz^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
@@ -30904,6 +30919,7 @@ zzzyk.com###Tinfo
 ||wyiegt.icu^
 ||wyjbvoz.xyz^
 ||wyoaij.icu^
+||wyohm.xyz^
 ||wyplmjufd.live^
 ||wyq3rum.icu^
 ||wyqaafplm.live^
@@ -31523,6 +31539,7 @@ zzzyk.com###Tinfo
 ||yjnhndt.com^
 ||yjnkas.com^
 ||yjrjmy.com^
+||yjuhqy.xyz^
 ||yjyc-ask.com/res/ads/
 ||yk-ssp.ad.youku.com^
 ||ykad-data.youku.com^

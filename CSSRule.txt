@@ -1136,6 +1136,7 @@
 ##IMG[src='/adBanner']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
+##IMG[src^='https://dzfzfv.xyz/']
 ##IMG[style='height:120px;width:100%;'][src*='/sucai/']
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
@@ -1595,6 +1596,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#read.read DIV[style$=' width: 100vw; position: relative;']
 ##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
@@ -2021,7 +2023,7 @@
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
-123pan.com#@#.share-list
+123pan.com,meidebi.com,weicaixun.com#@#.share-list
 123putlocker.club#$#abort-current-inline-script _0xbc13
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
@@ -3256,9 +3258,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'a[class][target][style^="width"]' 'span[class][style]'
-aliexpress.com#$#hide-if-contains-visible-text /AD/ 'div[data-index][style] div[style]>a[target^="_blank"]' 'span[class][style]'
-aliexpress.com#$#hide-if-matches-xpath './/div[contains(text(),"sponsored")]/parent::div[@class][@id]/ancestor::div[contains(@class,"spin")]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' 'span[class][style^="background-color"]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -7162,7 +7162,7 @@ instacart.com#$#hide-if-contains-visible-text '/S.*?p.*?o.*?n.*?s.*?o.*?r.*?e.*?
 instacart.com#$#hide-if-matches-xpath './/div[count(child::*[text()])=2]/parent::div/ancestor::article[@id and @class]'; hide-if-matches-xpath './/span[count(child::*[text()])=2]/parent::button/ancestor::article[@id and @class]';
 instacart.com#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 instacart.com#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
-instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -8563,7 +8563,6 @@ megatime.com.tw,pchome.com.tw###sixi
 megatime.com.tw,pchome.com.tw##.tripplead
 megatime.com.tw,pchome.com.tw##div[class^="ad_ec"]
 megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
-meidebi.com,weicaixun.com#@#.share-list
 meijumi.me###app_left
 meijumi.net##.couplet_app
 meijumi.net##.widget_metaslider_widget
