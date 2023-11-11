@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-10 16:10:22
-! Total count: 32322
+! Version: 2023-11-11 08:09:55
+! Total count: 32338
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4071,6 +4071,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
+423down.com##.entry > P[style*="20px;color"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -8192,7 +8193,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' 'span[class][style^="background-color"]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'a[class][target]' '*[class][style^="background-color"]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -13782,6 +13783,9 @@ multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
+music.youtube.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
+music.youtube.com#$#override-property-read playerResponse.adPlacements undefined;
+music.youtube.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 musichq.cc###hgiks-top
 musify.club#$#abort-current-inline-script $ get_ya_browser
 musify.club#$#abort-on-property-read get_ya_browser
@@ -15155,7 +15159,7 @@ scsjgjj.com###floatinfo
 scsn.cn##img[style^="height:70px;width:"]
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
-sdamgia.ru#$#abort-on-property-read Object.prototype.renderTo
+sdamgia.ru#$#abort-on-property-read Object.prototype.getUniqueId
 sdo.com##.mod-public-ads
 sdo.com##a[class^="side-nav-box-daoyu"]
 sdzbcg.com##table[height="41"]:last-child
@@ -16885,10 +16889,10 @@ www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event button.ytp-ad-skip-button$delay=0
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button-modern$delay=0'
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
@@ -17299,6 +17303,7 @@ zhenbuka.com##+js(no-setTimeout-if, ad_ids)
 zhenbuka.com##.jq-toast-wrap
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(adjust-setTimeout, CloseAd, , 0.02)
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(no-setTimeout-if, ad_load_fail)
+zhenniu.vip###klp_hdp
 zhenniu.vip#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
@@ -19475,6 +19480,7 @@ zzzyk.com###Tinfo
 ||ahp19.site^
 ||ahp24.site^
 ||ahpengjie.com^
+||ahpphkc.xyz^
 ||ahuys.net/Runtime/js/
 ||ahuys.net/sys
 ||ahwiaw.xyz^
@@ -23411,6 +23417,7 @@ zzzyk.com###Tinfo
 ||grxwqq.com^
 ||gscatk.cn^
 ||gscohm.xyz^
+||gscsahv011.com^
 ||gsdpw.com/file/script/A
 ||gshsne.xyz^
 ||gsjdzx.com^$third-party
@@ -24118,6 +24125,7 @@ zzzyk.com###Tinfo
 ||hwivedn.icu^
 ||hwnod.xyz^
 ||hwuogmusthxfpk.xyz^
+||hwvwxerw.xyz^
 ||hxbt.alading123.com^
 ||hxdwsfg.cn^
 ||hxhohd.xyz^
@@ -24862,6 +24870,7 @@ zzzyk.com###Tinfo
 ||jijistatic.duapp.com/Squall/1.jpg
 ||jijozdrg.xyz^
 ||jike001.top^
+||jili9.io^
 ||jiliw.com^$third-party
 ||jilong.work^
 ||jin10.com/assets/img/sites/index/vip_ad
@@ -26443,6 +26452,7 @@ zzzyk.com###Tinfo
 ||mg.yunchong6.cn^
 ||mg.zgcqxjzny.cn^
 ||mg21.com/wp-content/uploads/ad/
+||mggzah.icu^
 ||mgivkqk.cn^
 ||mgnlaigx.fun^
 ||mgowec.xyz^
@@ -26713,6 +26723,7 @@ zzzyk.com###Tinfo
 ||mvfrcio.cn^
 ||mvgucp.com^
 ||mvlkvth.cn^
+||mvng.cn^
 ||mvo.g45td.xyz^
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
@@ -27834,6 +27845,7 @@ zzzyk.com###Tinfo
 ||pyntr.xyz^
 ||pypwxvo.cn^
 ||pyyhkn.com^
+||pzcogpj.icu^
 ||pzjizsyf.icu^
 ||pzkrgcp.cn^
 ||pzlxnd.xyz^
@@ -28175,6 +28187,7 @@ zzzyk.com###Tinfo
 ||qunar.com/vataframe/b.html?
 ||qunaw.cyou^
 ||qunlove.com^*.gif
+||quqtone.cn^
 ||qurl.f.360.cn^
 ||quspga.xyz^
 ||qutyan8848.com^
@@ -30078,6 +30091,7 @@ zzzyk.com###Tinfo
 ||un-acs.youku.com^
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
+||uncs7.top^
 ||underpad.asia^
 ||undm.qibulo.com^
 ||unecne.com/wp-content/uploads/*ad-
@@ -30304,6 +30318,7 @@ zzzyk.com###Tinfo
 ||vgxhvt.xyz^
 ||vh5g.top^
 ||vhhvldyuhm.xyz^
+||vhhxnb.xyz^
 ||vhjxrj.xyz^
 ||vhsutpgui.xyz^
 ||vhulan.com^
@@ -30355,6 +30370,7 @@ zzzyk.com###Tinfo
 ||vjhjxh.xyz^
 ||vjie.com^$third-party
 ||vjrpnv.xyz^
+||vjzjpt.xyz^
 ||vk920.com/img1/
 ||vk922.com/img/
 ||vk923.com/img/
