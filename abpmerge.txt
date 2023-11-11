@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-11 08:09:55
-! Total count: 32338
+! Version: 2023-11-11 16:09:12
+! Total count: 32347
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9825,6 +9825,9 @@ curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a
 cvs.com##.stencil-criteo-shelf
 cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
+cw.com.tw##.ad--video
+cw.com.tw##.article__promotion
+cw.com.tw##.bottombar
 cw.com.tw##.cw__advertising
 cw.com.tw##.emailorder
 cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
@@ -13430,6 +13433,7 @@ mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##.comicbook-index
 manhuadb.com##.d-flex.px-2
+manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuadb.com#@#a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
@@ -13783,9 +13787,9 @@ multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
-music.youtube.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
-music.youtube.com#$#override-property-read playerResponse.adPlacements undefined;
-music.youtube.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
+music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
+music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 musichq.cc###hgiks-top
 musify.club#$#abort-current-inline-script $ get_ya_browser
 musify.club#$#abort-on-property-read get_ya_browser
@@ -15159,7 +15163,7 @@ scsjgjj.com###floatinfo
 scsn.cn##img[style^="height:70px;width:"]
 sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
-sdamgia.ru#$#abort-on-property-read Object.prototype.getUniqueId
+sdamgia.ru#$#abort-on-property-read Object.prototype.isCustomBannerType
 sdo.com##.mod-public-ads
 sdo.com##a[class^="side-nav-box-daoyu"]
 sdzbcg.com##table[height="41"]:last-child
@@ -16892,6 +16896,7 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button-modern$delay=0'
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
@@ -28080,6 +28085,7 @@ zzzyk.com###Tinfo
 ||qoilbsfwqd.net^
 ||qonkdwwf.net^
 ||qooav.top^
+||qoqoangry.com^
 ||qosbbzw.cyou^
 ||qowfknlds.net^
 ||qowg.top^
@@ -29280,6 +29286,7 @@ zzzyk.com###Tinfo
 ||strdef.world/js/acheck.js
 ||streaming-foot.info/images/adblok.mp3$media
 ||stricaik.com^
+||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
 ||stripe.com^$script,domain=~nextdns.io|~obsidian.md
 ||studylabs.cn^
@@ -30246,6 +30253,7 @@ zzzyk.com###Tinfo
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
 ||vakdop.icu^
+||valerieurania.com^
 ||valipl.cp31.ott.cibntv.net/$media
 ||vancuongthinh.com^
 ||vanessajumpd.com^
@@ -30963,6 +30971,7 @@ zzzyk.com###Tinfo
 ||wyacondahamptonville.com^$third-party
 ||wyiegt.icu^
 ||wyjbvoz.xyz^
+||wymzwy.cn^
 ||wyoaij.icu^
 ||wyohm.xyz^
 ||wyplmjufd.live^
