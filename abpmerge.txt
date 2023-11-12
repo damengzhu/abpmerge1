@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-11 16:09:12
-! Total count: 32347
+! Version: 2023-11-12 08:10:00
+! Total count: 32364
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -380,6 +380,7 @@
 ###upprev_box
 ###videoADPIC
 ###video_playr_side.video_playr_sider.videoplayerside
+###vpnModal.nordvpn-popup
 ###whYuTlxF
 ###widget-quan
 ###windlocation
@@ -1207,6 +1208,7 @@
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
 ##[href^='https://ccs.holor0803.cn']
 ##[href^='https://dc.vvsmse72']
+##[href^='https://down.erperweima.top/']
 ##[href^='https://dt.mydrivers.com/b.ashx']
 ##[href^='https://fcc.hxaxfcc.cn/']
 ##[href^='https://gougew.lanzoub.com/']
@@ -4071,7 +4073,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > P[style*="20px;color"]
+423down.com##.entry > p[style*="20px;color"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
 423down.com##.widget_d_banner
@@ -8220,6 +8222,7 @@ am730.com.hk#?#.newslist-row > li.newslist-item:has(> div.adbox)
 am730.com.hk,downsx.net##.adbox
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 amyscans.com##div[class*="code-block"]
+amz123.com##.two-activity-style
 ana1.me##.videopos
 ananvod.com##.rbPicAll
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
@@ -13431,7 +13434,6 @@ manganelo.tv#$#abort-on-property-read document.createElement
 mangareader.net,kiss-anime.ws,animeland.us#$#abort-on-property-read bbHideDiv
 mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuadb.com##.comicbook-index
 manhuadb.com##.d-flex.px-2
 manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuadb.com#@#a.d-block
@@ -16779,6 +16781,7 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 www.1069gay.net###shortcut
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.15yan.com##.tooltip
@@ -18884,6 +18887,7 @@ zzzyk.com###Tinfo
 ||90zy.cn/data/attachment/portal/
 ||91160.com/nykj/f=static/v4/common/tj.js
 ||9129666tp.com^$domain=9xav.cc
+||913mj.xyz^
 ||91avv8.com/vU18BNDYo1ktVpge.js
 ||91chaodijia.com^
 ||91danji.com/attachments/201810/12/10/2hdyj7ut9.jpg
@@ -20707,6 +20711,7 @@ zzzyk.com###Tinfo
 ||btescs.fun^
 ||btgoo.cc^
 ||bthand.com/static/js/default.js
+||bthypgm.cn^
 ||btienlv.top^
 ||btime.com/api/weblog?
 ||btkat.com/style/l.js
@@ -21511,6 +21516,7 @@ zzzyk.com###Tinfo
 ||csjkb.com^
 ||cslbahf.top^
 ||cslpf.cn^
+||csmfee.xyz^
 ||cspb1.5w5w.com^
 ||css.huvmi.com^
 ||css.juqingba.cn^
@@ -22161,6 +22167,7 @@ zzzyk.com###Tinfo
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||drfvtgbyk.xyz^
+||drjyjr.xyz^
 ||drmcmm.baidu.com^
 ||drstickyfingers.com/Webservices/jsParseLinks.aspx$script,third-party
 ||drstickyfingers.com/visitScript/$script,third-party
@@ -23423,6 +23430,7 @@ zzzyk.com###Tinfo
 ||gscatk.cn^
 ||gscohm.xyz^
 ||gscsahv011.com^
+||gscsahv012.com^
 ||gsdpw.com/file/script/A
 ||gshsne.xyz^
 ||gsjdzx.com^$third-party
@@ -23860,6 +23868,7 @@ zzzyk.com###Tinfo
 ||hiaxj.com/dbxf/
 ||hibikiluler.top^
 ||hibiquan.com/uploads/images/
+||hibj.online^
 ||hickeyhsu.top^
 ||hifyeldu.top^
 ||higefa.site^
@@ -23879,6 +23888,7 @@ zzzyk.com###Tinfo
 ||histock.tw/ad/
 ||hitime5.com/skin/css/*.js
 ||hitubt.xyz^
+||hixutb.xyz^
 ||hjapi.com/v1/pageSoftText?
 ||hjbqnwb.com^
 ||hjfile.cn/analytics/site/TrackEvent.js
@@ -26795,6 +26805,7 @@ zzzyk.com###Tinfo
 ||myyxox.icu^
 ||mzhhdn.com/hongbao.jpg
 ||mzqf1.com^
+||mzthbna.xyz^
 ||mzwzo.cn^
 ||mzxvib.com^
 ||mzya5718.xyz^
@@ -27019,6 +27030,7 @@ zzzyk.com###Tinfo
 ||nndytv.xyz^
 ||nndzsw.com^
 ||nndzsw1.com^
+||nnfalf.xyz^
 ||nnfyxd.xyz^
 ||nnm-club.ws/forum/docs/requests.js$script
 ||nnocsin.cn^
@@ -28148,6 +28160,7 @@ zzzyk.com###Tinfo
 ||qqtn.com/js/downinfo-
 ||qqtn.com/js/html/down_
 ||qqtn.com/skin/know/
+||qqvlsr.icu^
 ||qqxiazai.com/index.*adver&
 ||qqyy.com/js/commAdv
 ||qqyy.com/js/public_end_add.js
@@ -28217,6 +28230,7 @@ zzzyk.com###Tinfo
 ||qwertyuadf.com^
 ||qwesaz.com^
 ||qwjtdcl.cn^
+||qwnmfiti.xyz^
 ||qwrdj.xyz^
 ||qwrnkpow.com^
 ||qwrot.cyou^
@@ -30656,6 +30670,7 @@ zzzyk.com###Tinfo
 ||whols.cn^
 ||whqgyo.xyz^
 ||whqxj.xyz^
+||whranc.cn^
 ||whrc.xyz^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whum.top^
@@ -30996,6 +31011,7 @@ zzzyk.com###Tinfo
 ||x21.cn/service/feeds.
 ||x23qb.com/skin/themex.js
 ||x29l.top^
+||x2y22.fun^
 ||x3zy2.icu^
 ||x4csq.top^
 ||x4jdm.tv/mdp.js
@@ -31309,6 +31325,7 @@ zzzyk.com###Tinfo
 ||xu27r.com^
 ||xuaihua.work^
 ||xuanyaosp.com^
+||xucyufv.icu^
 ||xudgjz.xyz^
 ||xue.zbyw.cn^
 ||xueaaaw.cn^
