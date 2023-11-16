@@ -9526,7 +9526,7 @@ pinshan.com##.b_adv
 pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role][1]'; hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
 pipi.cn#@#.ad-root
 pirlotv.tv###ad_overlay
 pirlotv.tv###ad_overlay_content
