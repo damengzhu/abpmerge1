@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-17 08:11:09
-! Total count: 32451
+! Version: 2023-11-17 16:11:50
+! Total count: 32459
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -132,6 +132,7 @@
 ###breadCrumb + .t[style="margin-top:8px"]
 ###cat_intro_first_ad
 ###cat_intro_second_ad
+###chs_bannerArea
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
 ###container > #main.site-main > div > div > a[href^="/"][href$="/"] > img
@@ -4221,6 +4222,7 @@ $websocket,domain=5nj.com|cechi8.com
 5278.cc##.pct > div[style="width: 600px;"]
 5278.cc,hboav.com##+js(no-setTimeout-if, /ad block stop|warm_msg/)
 528500.com###wp > div[align="center"]
+52asus.com###guiigo-black-mask
 52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
 52bdys.com###ayx
@@ -9185,6 +9187,7 @@ caikuu.com##.clearfix + .recommend
 caikuu.com##.photo_abv
 caixin.com##.course_box
 caixin.com##.incubator
+caiyunapp.com##.active-imgContainer
 calidadcine.net,seriesmetro.net#$#abort-on-property-read afStorage
 cam4.com###Cam4DialogContainer
 cam4.com###disclaimerModal
@@ -9734,7 +9737,6 @@ cq.qq.com##div.clearfix[style*="1000"]
 cq.qq.com##div[class^="ad-box"]
 cq.qq.com##div[style*="1000"][style*="60"]
 cq.ru#$#prevent-listener DOMContentLoaded 'banners'
-cqfishing.net###chs_bannerArea
 cqjschungao.com##[style*='px no-repeat; position: relative;']
 cqjschungao.com##[style='bottom: 132px;']
 cqmmgo.com##.ad-160x40
@@ -17952,6 +17954,7 @@ zzzyk.com###Tinfo
 ||1cpkcnm.com^
 ||1dfsdfg.com^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
+||1iuybpo.com^
 ||1jc5t.xyz^
 ||1k2l3m4n5o.com^
 ||1kanz.cn^
@@ -17974,6 +17977,7 @@ zzzyk.com###Tinfo
 ||1v9d7vx.cob.autojournal.fr^$script
 ||1v9d7vx.jaz.sportauto.fr^$script
 ||1w73a5d.cn^
+||1weorpu.com^
 ||1wkg.cn^
 ||1x6666.com/img/
 ||1yv1phk.jaz.sportauto.fr^$script
@@ -20848,6 +20852,7 @@ zzzyk.com###Tinfo
 ||c6.friok.com^
 ||c6890.cn^$third-party
 ||c72w6.com^
+||c78zf.xyz^
 ||c9cc.icu^
 ||c9r05q.com^
 ||c9tt3jj.top^
@@ -23910,6 +23915,7 @@ zzzyk.com###Tinfo
 ||hickeyhsu.top^
 ||hifyeldu.top^
 ||higefa.site^
+||hihlj.online^
 ||hiido.com^$third-party
 ||hijack.baidu.com^
 ||hikin.online^
@@ -24173,6 +24179,7 @@ zzzyk.com###Tinfo
 ||hvfubp.xyz^
 ||hvhudp.xyz^
 ||hvpard.xyz^
+||hw0.com.cn^
 ||hwfoct.icu^
 ||hwhefj.xyz^
 ||hwivedn.icu^
@@ -26307,6 +26314,7 @@ zzzyk.com###Tinfo
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
 ||m2.lelemh.com^
+||m2k3j7x8.com^
 ||m4pgay.com^
 ||m5.66077.cn^
 ||m6ku1.cn^
