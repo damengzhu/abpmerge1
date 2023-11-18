@@ -998,6 +998,7 @@
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
+##A#wrapper_left_bg\ llll
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
@@ -1282,7 +1283,9 @@
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
+##a#wrapper_left_bg
 ##a#wrapper_left_bg[target="_blank"]
+##a#wrapper_right_bg
 ##a#wrapper_right_bg[target="_blank"]
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
@@ -2220,6 +2223,7 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
+18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -2229,7 +2233,6 @@
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18comic.vip##div[data-group^="skyscraper_"]
-18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
 18h.animezilla.com###manga-bottom
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -7003,6 +7006,9 @@ ifeng.com##.yc_con_r
 ifeng.com##.yiyuan
 ifeng.com##.yy_right_bottom
 ifeng.com##DIV[class^="enquiry_bottom"]
+ifeng.com##[class^='index_bottom_box']
+ifeng.com##[class^='index_pageBottomBrand']
+ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
 ifeng.com##a[class^="bookrack-"]
 ifeng.com##a[href*=".app"]

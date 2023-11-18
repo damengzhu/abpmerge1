@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-17 16:11:50
-! Total count: 32459
+! Version: 2023-11-18 08:10:09
+! Total count: 32485
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1003,6 +1003,7 @@
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
+##A#wrapper_left_bg\ llll
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
@@ -1287,7 +1288,9 @@
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
+##a#wrapper_left_bg
 ##a#wrapper_left_bg[target="_blank"]
+##a#wrapper_right_bg
 ##a#wrapper_right_bg[target="_blank"]
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
@@ -3710,6 +3713,7 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#?#body .bot-per
 18comic.*#@#img[style*="300px"]
+18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18-comic.work#?#:-abp-has(>script+ins)
 18comic.org,18comic.vip,18-comic.work#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
@@ -3720,7 +3724,6 @@ $websocket,domain=5nj.com|cechi8.com
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18comic.vip##div[data-group^="skyscraper_"]
-18comic.vip#?#.thumb-overlay-albums > div[class][data-group^="photo_center_games_"]:has(> a[target="_blank"] > img)
 18comic.vip,18comic.org##div[data-height="250"][data-width="300"]
 18h.animezilla.com###manga-bottom
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -4627,6 +4630,9 @@ $websocket,domain=5nj.com|cechi8.com
 :701/Pus/pus.js
 :701/gd_xueersi/$popup
 :7701/load.cw.js
+:800*/d/*?n=$script,third-party
+:800*/d/*?t=$script,third-party
+:800*/sc/*?n=$script,third-party
 :8007/*/*?is_not=
 :8008/*/*?is_not=
 :8080/ad/
@@ -11960,6 +11966,9 @@ ifeng.com##.yc_con_r
 ifeng.com##.yiyuan
 ifeng.com##.yy_right_bottom
 ifeng.com##DIV[class^="enquiry_bottom"]
+ifeng.com##[class^='index_bottom_box']
+ifeng.com##[class^='index_pageBottomBrand']
+ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
 ifeng.com##a[class^="bookrack-"]
 ifeng.com##a[href*=".app"]
@@ -17951,6 +17960,7 @@ zzzyk.com###Tinfo
 ||1biqug.com/js/ajax.js
 ||1buu1.penyouw.com^
 ||1cdhf.top^
+||1cjzfyb.com^
 ||1cpkcnm.com^
 ||1dfsdfg.com^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
@@ -17959,8 +17969,10 @@ zzzyk.com###Tinfo
 ||1k2l3m4n5o.com^
 ||1kanz.cn^
 ||1ketang.com/Runtime/js/play
+||1kfnsra.com^
 ||1kqfzwd.com^
 ||1l1.cc^
+||1mxabnt.com^
 ||1ov2pp0.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1porp.top^
 ||1ppt.com/ad$image
@@ -18750,6 +18762,7 @@ zzzyk.com###Tinfo
 ||7daystodie.cn^$third-party
 ||7dh26aja.com^
 ||7down.com/static/js/foot_
+||7dusx.xyz^
 ||7hjb8.com^*.php
 ||7i4dka.cn^
 ||7jkzmbd.cn^
@@ -18838,6 +18851,7 @@ zzzyk.com###Tinfo
 ||8886i.top^
 ||88885aaa.com^
 ||888bb666cc.com^
+||888cool.cn^
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888lianmeng.com^
@@ -20676,6 +20690,7 @@ zzzyk.com###Tinfo
 ||bpbpxv.xyz^
 ||bpewo.cyou^
 ||bpimg.com/4851/19f7543667f26682.jpg
+||bplrpf.xyz^
 ||bqcxgbm.cn^
 ||bqdyqq.com^
 ||bqdzvl.xyz^
@@ -20843,6 +20858,7 @@ zzzyk.com###Tinfo
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
+||c1d8i3p6.com^
 ||c1ecda.com^
 ||c1km4.com/mobile/app.js
 ||c2000.cn/c2000/
@@ -21832,6 +21848,7 @@ zzzyk.com###Tinfo
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||dealxplorer.org^$popup
 ||deansent.top^
+||deanth.xyz^
 ||deb.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||deb.gs/visitScript/$script,third-party
 ||debilizator.tv/static/ab.min.js$script
@@ -22287,6 +22304,7 @@ zzzyk.com###Tinfo
 ||dwnews.net/images/www/ad/
 ||dwnews.net/js/common/dwnews.dwcn.ad.js
 ||dwnews.net/js/common/dwnews.ga.js
+||dwq661.biz^
 ||dwstatic.com^*/newsPopup/
 ||dwstatic.com^*/p/livetip/
 ||dwstatic.com^*/sidebar.js
@@ -22697,6 +22715,7 @@ zzzyk.com###Tinfo
 ||eyq3nog.icu^
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
+||ezacci.xyz^
 ||ezf48.xyz^
 ||ezlgszdb.icu^
 ||ezngisyw.xyz^
@@ -24862,6 +24881,7 @@ zzzyk.com###Tinfo
 ||jeedi.xyz^
 ||jeepyy.com^$third-party
 ||jeidd.xyz^
+||jeqxuvv.icu^
 ||jerrytom.xyz^
 ||jessicarace.com^
 ||jevwdao.cn^
@@ -25031,6 +25051,7 @@ zzzyk.com###Tinfo
 ||jmm8a.xyz^
 ||jmpnrh.xyz^
 ||jmr.nnxiant.cn^
+||jmvvpb.xyz^
 ||jmw.com.cn/m_v2/js/active.js
 ||jmydm.com/jspage/ftt.js
 ||jn060.xyz^
@@ -25418,6 +25439,7 @@ zzzyk.com###Tinfo
 ||kekeshici.com/pc/images/pcAd.gif
 ||kekop.cn^
 ||kelatv.com/ad/
+||kemas.top^
 ||ken.kenxq.com^
 ||kengi.top^
 ||keoap.xyz^
@@ -26177,6 +26199,7 @@ zzzyk.com###Tinfo
 ||lv.myapks.com^
 ||lvcha99.cc^
 ||lvjtiaa.xyz^
+||lvnlrmn.xyz^
 ||lvrvdn.xyz^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
@@ -27699,6 +27722,7 @@ zzzyk.com###Tinfo
 ||pipix.cc/gg.gif
 ||piqtpbxo.icu^
 ||piroji.com^$domain=pronpic.org
+||pirubcfy.xyz^
 ||pirxzl.xyz^
 ||pitawastarkani.com^
 ||pites.cc/js/top.php
@@ -28341,6 +28365,7 @@ zzzyk.com###Tinfo
 ||r5h6.icu^
 ||r6pt6kfz.com^
 ||r75tia.cn^
+||r9ffi.fun^
 ||ra1.xyz^
 ||ra5.xyz^
 ||ra6.xyz^
@@ -29749,6 +29774,7 @@ zzzyk.com###Tinfo
 ||titan007.com/images/item.gif
 ||titan007.com/js/indexshow.
 ||titan007.com/news.aspx
+||titv.top^
 ||tizf7.top^
 ||tizru.com^$domain=pronpic.org
 ||tj-cyhg.com^
