@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-18 16:09:27
-! Total count: 32483
+! Version: 2023-11-19 08:10:15
+! Total count: 32495
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1003,7 +1003,6 @@
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
-##A#wrapper_left_bg\ llll
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
@@ -1289,6 +1288,7 @@
 ##a > I.gg-icon
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a#wrapper_left_bg
+##a#wrapper_left_bg\ llll
 ##a#wrapper_right_bg
 ##a.gggg[href^="https"]
 ##a.hengfu > img.hengfu
@@ -1394,6 +1394,7 @@
 ##a[href*=".rrrmrm.com/"]
 ##a[href*=".saeilkorea.com/"]
 ##a[href*=".sjzbqnxx.com/"]
+##a[href*=".sng.link/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".supernfp.com/"]
 ##a[href*=".taobao.com"] > .top1
@@ -17166,6 +17167,7 @@ ydss.cn##.indexAd
 ye120.com##.fixed_bottom
 yeeyi.com##div[style="width: 300px; margin-right: -30px; position: relative; top: 0px;"] > a
 yemancomic.com##div > center > strong > button[onclick^="window.location.href"]
+yemancomic.com##div[style^="position:fixed;"]
 yes-news.com###content-728
 yes-news.com###content-728-top
 yes-news.com###content-ads-right
@@ -17407,6 +17409,7 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
+zkk78.com##div[style^="position:fixed;"]
 znds.com###diy_mobanbus_view_right2
 zol.com.cn###Article_Top_Banner
 zol.com.cn###btmLoginLayer
@@ -18876,6 +18879,7 @@ zzzyk.com###Tinfo
 ||8ccrv.xyz^
 ||8chj9.com^
 ||8cnd.com^
+||8d07a.xyz^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
 ||8en.net^$third-party
@@ -21391,6 +21395,7 @@ zzzyk.com###Tinfo
 ||cnprint.org/bbs/images/gg/
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||cnr.cn/s?z=
+||cnrdlpk.xyz^
 ||cns.wxdal.cn^
 ||cnscg.com/api.php?mod=ad&
 ||cnscg.com/template/default/style/*960x
@@ -22547,6 +22552,7 @@ zzzyk.com###Tinfo
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
 ||elegant-creator.com^
+||elemea.xyz^
 ||elevatorpartsbuy.com^
 ||elinvarpayola.com^
 ||elopatchwork.com^
@@ -25274,6 +25280,7 @@ zzzyk.com###Tinfo
 ||jwpsrv.com/content/conversions/*/videos/*.mp4?token=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ||jwronx.xyz^
 ||jwujvjo.cn^
+||jwxwnr.xyz^
 ||jwylcrb.cn^
 ||jx.flzyw.com/js/foot.js
 ||jxad.jx163.com^
@@ -28336,6 +28343,7 @@ zzzyk.com###Tinfo
 ||qyer.com^*/base_beacon_ga.js
 ||qyerstatic.com/common/models/common/component/footerBanner/
 ||qygzbxpt.com^
+||qyoqeq.xyz^
 ||qyuimi.xyz^
 ||qyun.vip/pic/*.gif
 ||qyzyd.top^
@@ -28636,6 +28644,7 @@ zzzyk.com###Tinfo
 ||rvbztg.cn^
 ||rvlgrb.xyz^
 ||rvreuxi.cn^
+||rvvji.online^
 ||rvyjbwr.cn^
 ||rvzlobj.cn^
 ||rwarwf.icu^
@@ -29262,6 +29271,7 @@ zzzyk.com###Tinfo
 ||srbzw.cn^
 ||sregfle.cn^
 ||srkl.pw^
+||srldkqj.cn^
 ||srlhgo.cn^
 ||srmdz.vip^
 ||srnov.top^
@@ -30490,6 +30500,7 @@ zzzyk.com###Tinfo
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tuwan.com/s.js
 ||vivienjumpe.com^
+||vixajghi.xyz^
 ||vizacasa.xyz^
 ||vizhtd.xyz^
 ||vj1p.xyz^
@@ -30532,6 +30543,7 @@ zzzyk.com###Tinfo
 ||vorluic.cn^
 ||vouninked.com^
 ||voxirf.xyz^
+||vozftn.xyz^
 ||vpn.baolq666.com^$third-party
 ||vps234.com/resources/images/hosting-promotion/
 ||vpsgu.cn^
