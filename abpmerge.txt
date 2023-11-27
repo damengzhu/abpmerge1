@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-27 08:12:20
-! Total count: 32651
+! Version: 2023-11-27 16:11:16
+! Total count: 32660
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -4056,7 +4056,7 @@ $websocket,domain=5nj.com|cechi8.com
 3dmgame.com##a[href*=".chuangmengsy.xyz"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
 3dmgame.com#?#.downl_list:-abp-has(style)
-3dn.ru,a-point.info,addfiles.ru,akkordam.ru,asia-tv.su,at.ua,all-for-kompa.ru,autosimgames.ru,chernobyl-soul.com,clan.su,cliphq.ru,coop-lands.ru,db-energo.ru,devdrivers.ru,do.am,dtva-it-rus.gq,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gamesdendy.ru,giginfo.ru,gloria-cedric.ru,goldformat.ru,greenflash.su,hero-empire.com,igrul-ka.ru,jetvis.ru,krasnickij.ru,krolmen.ru,kubik3.ru,megaclips.net,mod-rus.ru,mow-portal.ru,moy.su,mp3songs.ru,mp4android.ru,musiklip.ru,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,obschestvo-9999.gq,omsimclub.ru,online-supernatural.ru,onlinestargate.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,skidrowcrack.ru,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,tes-game.ru,torm-egan.ru,torrent-file.top,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,vsthouse.ru,warcraftda.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
+3dn.ru,a-point.info,addfiles.ru,akkordam.ru,asia-tv.su,at.ua,all-for-kompa.ru,autosimgames.ru,chernobyl-soul.com,clan.su,cliphq.ru,coop-lands.ru,db-energo.ru,devdrivers.ru,do.am,dtva-it-rus.gq,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gamesdendy.ru,giginfo.ru,gloria-cedric.ru,goldformat.ru,greenflash.su,hero-empire.com,igrul-ka.ru,jetvis.ru,krasnickij.ru,krolmen.ru,kubik3.ru,megaclips.net,mod-rus.ru,mow-portal.ru,moy.su,mp3songs.ru,mp4android.ru,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,obschestvo-9999.gq,omsimclub.ru,online-supernatural.ru,onlinestargate.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,skidrowcrack.ru,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,tes-game.ru,torm-egan.ru,torrent-file.top,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,vsthouse.ru,warcraftda.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
 3g.163.com##.ne_rps
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com###banner_call + div[id]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
@@ -8294,6 +8294,7 @@ anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
 aniwatch.to#$#abort-current-inline-script XMLHttpRequest
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 anjia365.com#@#.adv_bg
+anjian.com##.ImgTop
 anjian.com,qq.com###advertisement
 anjuke.com###xajk_down_new
 anjuke.com##.adver-content
@@ -10562,8 +10563,8 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
 ettoday.net###for-ec
 ettoday.net###mobileweb_inread
@@ -11985,6 +11986,7 @@ ifeng.com##.yiyuan
 ifeng.com##.yy_right_bottom
 ifeng.com##DIV[class^="enquiry_bottom"]
 ifeng.com##[class^='index_bottom_box']
+ifeng.com##[class^='index_fixSlideBox']
 ifeng.com##[class^='index_pageBottomBrand']
 ifeng.com##[class^='index_wutong']
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
@@ -13958,6 +13960,8 @@ netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
+netfly.lol##.module-tglist
+netfly.lol##[style^="display: flex; justify-content:"]
 netfly.tv##.module-tglist
 netfly.tv##[style^="display: flex; justify-content:"]
 nettruyenai.com#$#abort-current-inline-script Promise break;case
@@ -16457,7 +16461,7 @@ v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
 v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
 v4dwkcv.com
-vailonxx.com#$#abort-current-inline-script jQuery window.open
+vailonxx.com,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 vanpeople.com##.advlr
 vanpeople.com##.banneradv-newbox
 vanpeople.com##.main-adv
@@ -17837,6 +17841,7 @@ zzzyk.com###Tinfo
 ||1385a.xyz^
 ||138vps.com/image/
 ||139file.com/jsa/
+||139xiaoshuo.com/css/js/tools.
 ||13hangpifa.com^
 ||13niao20230422.live^
 ||13txt.net/js/ssgdd.
@@ -19540,6 +19545,7 @@ zzzyk.com###Tinfo
 ||ahe.so^
 ||ahejtw.onelink.me^$third-party
 ||ahgame.com/js/new_ad.js
+||ahgfdhp.xyz^
 ||ahh6.cn^
 ||ahlife.com/api.php?mod=adv&
 ||ahm.135320.com^
@@ -21817,6 +21823,7 @@ zzzyk.com###Tinfo
 ||danlan.org/KFC/
 ||danmeixsw.com/js/mwap.js
 ||danstr.fun^
+||danun.cn^
 ||daqiso.com/ggbl/
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||darzkrx.cn^
@@ -27904,6 +27911,7 @@ zzzyk.com###Tinfo
 ||pohpll.xyz^
 ||poiqknfl.com^
 ||poiqwnekb.com^
+||poiwer.com^
 ||pojihfnkbllg.net^
 ||pojjtt.xyz^
 ||pojkhufef.xyz^
@@ -30096,6 +30104,7 @@ zzzyk.com###Tinfo
 ||ttavav6.com/zz/
 ||ttdydd.xyz^
 ||ttfkof.xyz^
+||ttgjwxp.icu^
 ||ttienli.top^
 ||ttly888.com^
 ||ttpybz.xyz^
