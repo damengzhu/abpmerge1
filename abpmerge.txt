@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-29 16:11:19
-! Total count: 32695
+! Version: 2023-11-30 08:11:18
+! Total count: 32704
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1815,8 +1815,7 @@ $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=torrentkitty.cam|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|webhd.cc|xyg688.com|zzzzz688.com
 $websocket,domain=5nj.com|cechi8.com
@@ -1868,7 +1867,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cc/ad/
 .cc/ads/
 .cc/js/ads/
-.cc/o.js$third-party
 .cloud/ads/
 .club/ads/
 .club/adv/
@@ -1882,7 +1880,6 @@ $websocket,domain=5nj.com|cechi8.com
 .cn/bid?url=*$third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
-.cn/o.js$third-party
 .cn/r.gif?
 .cn/redbaiduct.com?s=$third-party
 .cn/s.gif?
@@ -10568,7 +10565,7 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath './/a[contains(@class,"listing-link")][contains(@class,"logged")][not(contains(@class," "))]/ancestor::li'
+etsy.com#$#hide-if-matches-xpath './/a[contains(@class,"listing-link")][contains(@class,"logged")][not(contains(@class,"  "))]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
@@ -19244,10 +19241,12 @@ zzzyk.com###Tinfo
 ||aabeautiful.cn^
 ||aac.kegood.com^
 ||aacoffee.cn^
+||aadmei.xyz^
 ||aaenv48847h.com^
 ||aafuck.xyz^$third-party
 ||aagomsi.xyz^
 ||aaholidays.cn^
+||aaiwuq.xyz^
 ||aaknmt.icu^
 ||aamv.vip^
 ||aaoffice.cn^
@@ -19796,6 +19795,7 @@ zzzyk.com###Tinfo
 ||amazononline.xyz/mp4/*.mp4$rewrite=abp-resource:blank-mp3,domain=iyingshi7.tv|localmv1.com
 ||amdc.alipay.com^
 ||amdc.m.taobao.com^
+||ameidj.xyz^
 ||amerzbj.cn^
 ||ammcg.imgscloud.com/toy/
 ||amradmin.5173.com^
@@ -20319,6 +20319,7 @@ zzzyk.com###Tinfo
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbbazlp.cn^
+||bbccf12.xyz^
 ||bbfnrn.xyz^
 ||bbges.xyz^
 ||bbhktv.xyz^
@@ -22645,6 +22646,7 @@ zzzyk.com###Tinfo
 ||emoney.cn/www/officalWebStatic/js/slideAd.js
 ||emptz.cyou^
 ||ems.youku.com^
+||emynwlz.xyz^
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
 ||en8848.com.cn/js/lianxi.js
@@ -23078,6 +23080,7 @@ zzzyk.com###Tinfo
 ||fqmgjad.cn^
 ||fqpxzr.xyz^
 ||fqsokh.xyz^
+||fqtljn.xyz^
 ||fqxkj.cn^
 ||fragment.firefoxchina.cn/html/
 ||frame.enet.com.cn/a.php
@@ -23700,6 +23703,7 @@ zzzyk.com###Tinfo
 ||gxlsjt.com^
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxqzz.7766.org^
+||gxx4t.online^
 ||gxxie.com^
 ||gxzhshop.com^
 ||gxzxiww.com^
@@ -23787,6 +23791,7 @@ zzzyk.com###Tinfo
 ||haiyuer.com/uc
 ||halihali*.com/js/wap2-jm-ms.js
 ||halihali2.com/js/wap2-jm-100ftop.js
+||hanadrmc.xyz^
 ||handerfix.com^
 ||handjob.tw/ad/
 ||handukeji.top^
@@ -24786,6 +24791,7 @@ zzzyk.com###Tinfo
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
 ||islbaho.top^
+||isnd.top^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||iswgnn.com^
@@ -25715,6 +25721,7 @@ zzzyk.com###Tinfo
 ||kprjva.cn^
 ||kpshx.douguo.com^
 ||kq7k.icu^
+||kqbrgl.icu^
 ||kqnggnsd.fun^
 ||kqskqi.xyz^
 ||kqubxdb.cn^
@@ -27095,6 +27102,7 @@ zzzyk.com###Tinfo
 ||nccaer.xyz^
 ||ncgqmzm.cn^
 ||nchxzmhr.com^
+||ncjpbv.xyz^
 ||ncmxwhf.icu^
 ||ncnfjasd.net^
 ||ncrkff.xyz^
@@ -27497,6 +27505,7 @@ zzzyk.com###Tinfo
 ||online.wsj.com/javascript/abm.js$script
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
+||onxtxdm.xyz^
 ||oocie.cn^
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
