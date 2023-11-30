@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-30 08:11:18
-! Total count: 32704
+! Version: 2023-11-30 16:11:35
+! Total count: 32715
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -839,6 +839,7 @@
 ##.pagecon + .ad1
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
+##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
 ##.photo-two > a[onclick^="_czc."]
@@ -952,9 +953,11 @@
 ##.txtguanggao
 ##.ui-ad
 ##.uk-width-1-1.adbox
+##.vg-overlay-pause
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-item-ads
+##.video-player > .gg-bg-cover
 ##.video_details > .banner
 ##.vodads
 ##.w-full > .banner.el-carousel
@@ -2059,7 +2062,6 @@ $websocket,domain=5nj.com|cechi8.com
 .live/o.js$script,third-party
 .live/r/*/*_r=*
 .live/ty/*-*-*$third-party
-.live:*/o.js
 .lu/ads/
 .m.bookben.com^
 .m.d8qu.com^
@@ -2158,7 +2160,6 @@ $websocket,domain=5nj.com|cechi8.com
 .xyz/mithril?$third-party
 .xyz/o.js
 .xyz/o.js$script,third-party
-.xyz/o.js$third-party
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
@@ -2958,6 +2959,7 @@ $websocket,domain=5nj.com|cechi8.com
 /opbb/obpp.tpl
 /openload.co$third-party,domain=openload.co|oload.tv
 /os1019.oss-cn-quanzhou.
+/os2023001.oss-$script
 /os230718.oss-
 /page/?s=$third-party
 /page/index.php?s=$third-party
@@ -5631,6 +5633,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cpro.baidu.com^$script,domain=rjno1.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
+@@||cpro.baidustatic.com/js/prot.js$domain=rjno1.com
 @@||cpubenchmark.net/js/ads.js$script
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||crabbychin.com^$script,xmlhttprequest
@@ -7354,7 +7357,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||sinaimg.cn/dy/deco/*/js/require.js
 @@||sinaimg.cn/tech/https_index/share.
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
-@@||sinaimg.cn/unipro/pub/suda_m_v630.js$domain=rjno1.com
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
@@ -9626,6 +9628,7 @@ cnjxol.com##.linked
 cnki.com.cn##.ad-right-default
 cnki.com.cn##.adList
 cnki.com.cn##.mainboxconbanner
+cnki.net##.banner-main
 cnki.net##.translateOutAdLink
 cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
@@ -10608,7 +10611,7 @@ exashare.com,dowed.info###player_mgs
 exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
-expedia.ca,expedia.com,expedia.co.uk,expedia.de,hotels.com##[data-meso-viewed]]
+expedia.ca,expedia.com,expedia.co.uk,expedia.de,hotels.com##[data-meso-viewed]
 expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 expres.cz,idnes.cz##[class^="r-main"]
@@ -12174,7 +12177,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::*[text()
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Picked")]/ancestor::div[@data-testid][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ss")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sssp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ap-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ep-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-bp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-cp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-dp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-gp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-hp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-ip-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath '//div[@class]//div/@*[contains(name(),"data-jp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-kp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-lp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-mp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -13220,6 +13223,7 @@ linuxde.net##.ad360x500
 linuxidc.com##.linux801
 litecoiner.net,bitcoiner.net#@##ad-top
 litix.io
+litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
@@ -17247,6 +17251,7 @@ yocoolnet.in###mobile_inplayer
 yodu.org#$##byspider { display: none !important; }
 yodu.org#$#body[style] { overflow: auto !important; }
 yomahub.com##.sidebar-slot
+youdao.com##.banner
 youdao.com##.dialog-guide-download
 youdao.com##.dict-dl
 youdao.com#@#.open-share
@@ -18937,6 +18942,7 @@ zzzyk.com###Tinfo
 ||8seaa.com/template/assets1/js/vue.js
 ||8xia.com/otherhtml/
 ||8ziyuan.com/images/infolinksad.jpg
+||8zkt7.xyz^
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||90bifen.net^*/c_ad_
@@ -27527,6 +27533,7 @@ zzzyk.com###Tinfo
 ||openinstall.io^$third-party
 ||openload.co/assets/js/script.packed
 ||openrcv.baidu.com^
+||operqr.top^
 ||opgge.xyz^
 ||ophwrh.cn^
 ||opida.xyz^
@@ -28770,6 +28777,7 @@ zzzyk.com###Tinfo
 ||rssxsjh.icu^
 ||rsvqlz.cn^
 ||rszkhn.xyz^
+||rt004.top^
 ||rtborp.xyz^
 ||rtdxqq.com^
 ||rte.fuoo1.top^
@@ -30213,6 +30221,7 @@ zzzyk.com###Tinfo
 ||tvyb03.com/template/mytheme/statics/js/layer/
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
+||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
@@ -31290,6 +31299,7 @@ zzzyk.com###Tinfo
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
 ||wwwww.asia^
+||wwxufo.com^
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wx.uc.downcdn.top^
@@ -31537,6 +31547,7 @@ zzzyk.com###Tinfo
 ||xkdlqq.com^
 ||xkfigjh.cn^
 ||xkhall.xyz^
+||xkjmjj.com^
 ||xkjxgt.com^$third-party
 ||xkmwxwy.cn^
 ||xkqit.com^
