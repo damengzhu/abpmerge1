@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-11-30 16:11:35
-! Total count: 32715
+! Version: 2023-12-01 08:11:33
+! Total count: 32724
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1018,7 +1018,9 @@
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
+##A[href*='exuvu.com']
 ##A[href*='jialu6699h.vip']
+##A[href*='xzzkx.com']
 ##A[href*='youqu.buzz']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
@@ -10568,8 +10570,8 @@ etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
-etsy.com#$#hide-if-matches-xpath './/a[contains(@class,"listing-link")][contains(@class,"logged")][not(contains(@class,"  "))]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-is-ad][not(@data-is-ad=//li[5]//span[@data-is-ad]/@data-is-ad)]/ancestor::li'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -12469,7 +12471,6 @@ ixueyi.com,shangxueba.com###rightfloatdiv
 iyaxin.com##.Information
 iyaxin.com##.gr-ggtag
 iyaxin.com##.huand3
-iyf.tv##.bb > .ng-star-inserted
 iyf.tv##.player-right
 iyf.tv##.player-side > .block > *
 iyf.tv##.ss-ctn
@@ -12477,7 +12478,6 @@ iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
 iyf.tv##vg-pause-ads
-iyf.tv##vg-pause-p
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 iyf.tv#@#.share-top
@@ -18345,6 +18345,7 @@ zzzyk.com###Tinfo
 ||3h3.com/js/homepage.js
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
+||3i2i.com^
 ||3jia5.com^$third-party
 ||3k8.com/d/js/m/thea
 ||3p8801.co^
@@ -19225,6 +19226,7 @@ zzzyk.com###Tinfo
 ||a78wt.top^
 ||a8age.com^
 ||a962m.xyz^
+||a99hz.space^
 ||a9able.com^
 ||aa.gushiwen.org^
 ||aa.xiangxiangmf.com^
@@ -20605,6 +20607,7 @@ zzzyk.com###Tinfo
 ||biquge96.com/123.
 ||biquge99.cc/js/dj
 ||birdmedia.com^$third-party
+||birgga.top^
 ||birjkhm.cn^
 ||bis8j.com^
 ||bitauto.com/bglog.gif?
@@ -24726,6 +24729,7 @@ zzzyk.com###Tinfo
 ||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
 ||intimidatepropel.com^
 ||into4g.mobi^
+||iobvmtx.xyz^
 ||iocoder.cn/alert/js/alert.js
 ||ioiksw.cn^
 ||iojgo.com^
@@ -27436,6 +27440,7 @@ zzzyk.com###Tinfo
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
 ||ohmpyq.xyz^
+||ohopao.xyz^
 ||ohoyao.com^
 ||oi9rp7.online^
 ||oiewpw.com^
@@ -28559,6 +28564,7 @@ zzzyk.com###Tinfo
 ||rarbt.cc/js/index960_
 ||rardi.cyou^
 ||ratedxbiz.com/d/
+||raxetyrw.xyz^
 ||rayli.com.cn^$third-party
 ||rayss.host^
 ||razlozhi.ru^$script,header=report-to
@@ -29984,6 +29990,7 @@ zzzyk.com###Tinfo
 ||tjqwb.cn^
 ||tjwzyjx.icu^
 ||tk.504pk.com^
+||tklnzv.xyz^
 ||tknkfd.xyz^
 ||tkqwurl.icu^
 ||tkres.tuku.cc/k32/
@@ -30252,6 +30259,7 @@ zzzyk.com###Tinfo
 ||txphjl.xyz^
 ||txscn.cn^
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
+||txzepl.xyz^
 ||txzqw.*/js/float.js
 ||txzqw.me/attachment88txzqw/*.gif
 ||txzqw.me/tupian/
@@ -30385,6 +30393,7 @@ zzzyk.com###Tinfo
 ||ugeolf.com^$script
 ||ugnlaigt.fun^
 ||ugvbsrbht.xyz^
+||uhjxitn.xyz^
 ||uhwnrfu.cn^
 ||uhyhdrh.cn^
 ||uibjhqwkl.com^
