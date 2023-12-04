@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-03 16:09:49
-! Total count: 31951
+! Version: 2023-12-04 08:11:56
+! Total count: 31967
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -2712,7 +2712,7 @@ $websocket,domain=5nj.com|cechi8.com
 /jquery.adblock-detector.js|$script
 /jquery.adblock.js|$script
 /jquery.antiadsblock.js|$script
-/jquery.modal.$domain=1909.me|8se.me|litu100.xyz|xchina.co|xchina.fun|xchina.pro
+/jquery.modal.$domain=1909.me|8se.me|litu100.xyz
 /js.mangapro.top/*.js^$script,domain=comick.top
 /js/AD_tv.js
 /js/aa.htm$script
@@ -8406,6 +8406,7 @@ autohome.com.cn##.union-ad-placeholder
 autohome.com.cn##.vocalcon-btn
 autohome.com.cn##DIV[id^="popautoapp"]
 autohome.com.cn##a[href="https://m.autohome.com.cn/activity/special/autohome29.html"]
+autohome.com.cn##ol > li,.evade-operate
 autohome.com.cn,jdzj.com,loveshang.com##.advbox
 autohome.com.cn,sina.com.cn##div[class*="game"]
 autokult.pl#$#abort-on-property-write scriptTag
@@ -9889,6 +9890,7 @@ dayanzai.me##.down_show_intro_first_box
 dayanzai.me##.rban1
 dayanzai.me##.stopban
 dayanzai.me,yuepuwang.com##.topban
+daybuy.tw##body .code-block
 daydaycook.com##.ad-mask
 daydayin.com###adbn_UMU
 dayoo.com###ad-xl
@@ -13268,7 +13270,6 @@ m.86kl.com##+js(abort-on-property-read, akumtagcc)
 m.91zww.com##+js(abort-on-property-write, delCookie)
 m.autohome.com.cn###s2205
 m.autohome.com.cn##.wrapper > section[class^="box_"]
-m.autohome.com.cn##ol > li,.evade-operate
 m.babytree.com##.recommend-brand
 m.babytree.com##.recommend-img-box
 m.babytree.com##.wrap > section[class*="0"],.wrap > div[class*="0"]
@@ -13309,12 +13310,10 @@ m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-
 m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
-m.nxnba.com##.bootom-fixed
 m.qidian.com###fixBoxs, #read_app_download
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
 m.qidian.com##P.text-content
-m.qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 m.qu.la#?#:-abp-has(> a[href*=".bcebos."])
 m.qu.la#?#ul:-abp-has(> li > a[href*=".bcebos."])
 m.sm.cn##DIV[ad_seid],.dl-banner-lg.card
@@ -14188,6 +14187,7 @@ nwell.net##.f14hui[width="25%"]
 nxflv.com##div[style="position: absolute; width: 100%; height: 133px; bottom: 0px;"]
 nxing.cn##.boxclose
 nxing.cn##.main:nth-child(-n+6)
+nxnba.com##.bootom-fixed
 nxpaaq.com#$##mainContent { display: block !important; }
 nxpaaq.com#$#iframe[src="/close.html"] { display: none !important; }
 nyaa.fun##div[class^="servers-cost-money"]
@@ -14311,6 +14311,7 @@ p2pcast.tv#@##adblock
 p2peye.com###article_content a[ref="nofollow"]
 p2peye.com##.red-box
 p9.com.tw##.contentRightAd
+pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pan.baidu.com###share_ad_info_panl
 pan.baidu.com##.decrease-active
 pan.baidu.com##.phone-banner
@@ -14755,6 +14756,7 @@ qidian.com##div[style^="width: 426px; height: 644px; background:"]
 qidian.com##span[style^="display: inline-block;width: 150px; height: 291px;"]
 qidian.com,~game.qidian.com##A[href*="game.qidian.com"]
 qilindao.com##.tonglanAd
+qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qinbing.cn##.adspic_mid2
 qinbing.cn##.day
 qinbing.cn##.left-adv
@@ -15904,6 +15906,7 @@ theguardian.com##.site-message--adblock-message
 thenewslens.com##div[class^="help-tnl-"]
 thenewslens.com##div[class^="help-tnl-container-"]
 thepaper.cn###head_ask_app_down
+thepaper.cn##[class^='index_footer_banner']
 theplace2.ru#@#.adsbygoogle
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
@@ -16833,7 +16836,6 @@ www.mgtv.com##.m-headgg
 www.mydrivers.com###weixin_box
 www.olevod.com##.B1Lss,.B1Rss
 www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
-www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 www.pixnet.net###extradiv2
 www.pixnet.net###extradiv5
 www.playno1.com##.eis_box_s
@@ -16921,6 +16923,7 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
+xchina.biz##.push-top
 xchina.co##.push-top
 xchina.co##div[style*="width: 300px;"][style*="height: 455px;"]
 xchina.co,xchina.fun,xchina.pro#@#.banner_ad
@@ -18071,6 +18074,7 @@ zzzyk.com###Tinfo
 ||2g9x9uf.cn^
 ||2h81gp.tkepyc.com^$script,xmlhttprequest,domain=pch.com
 ||2hfby.top^
+||2hpg0.fun^
 ||2hvl4.fun^
 ||2kandy.com/js/123/
 ||2medo.top^
@@ -18919,6 +18923,7 @@ zzzyk.com###Tinfo
 ||9fgh98k.com^
 ||9fum.ifeng.com^
 ||9fwz.com^
+||9g659.xyz^
 ||9h5qq.cn^$third-party
 ||9h622.top^
 ||9i8i.com^
@@ -20156,6 +20161,7 @@ zzzyk.com###Tinfo
 ||bbk5921.yncjsc.cn^$third-party
 ||bbnnnb.com^*.js
 ||bbphonix.xyz^
+||bbrnpj.xyz^
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.gmbbk.com^*.js
 ||bbs.hotavxxx.com/images/201*.gif
@@ -23019,6 +23025,7 @@ zzzyk.com###Tinfo
 ||geekpark.net/api/v1/ads
 ||gegeyingshi.com/template/*/images/g_js/
 ||geiaxbk.cn^
+||geicmu.xyz^
 ||geilicdn.com/img*_960_60.
 ||geiod.xyz^
 ||gejhhh.cn^
@@ -24765,6 +24772,7 @@ zzzyk.com###Tinfo
 ||jjkiahh.icu^
 ||jjklrcw.com^
 ||jjnrqq.com^
+||jjvzqjh.xyz^
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
@@ -25884,6 +25892,7 @@ zzzyk.com###Tinfo
 ||luoyangjinmeii.com^
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
 ||lutouwang.net/static/js/mv_ad
+||lutrbr.xyz^
 ||luuss.cn^
 ||luyongkang.top^$third-party
 ||luyouxi.cn^
@@ -26339,6 +26348,7 @@ zzzyk.com###Tinfo
 ||mmonly.cc/js/mmonlyAPP.js
 ||mmszxc.top^
 ||mmtalk.net/images/banner
+||mmtdfxh.xyz^
 ||mmtnat.com^
 ||mmvjuti.cn^
 ||mn123cass.xyz^
@@ -27358,6 +27368,7 @@ zzzyk.com###Tinfo
 ||pingwest.com/wp-content/uploads/*/ad.jpg
 ||pinlue.com/error/bangolike.js
 ||pinyuege.net/template/pinygm/public/js/
+||pipc.top^
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
 ||piqtpbxo.icu^
@@ -27483,6 +27494,7 @@ zzzyk.com###Tinfo
 ||pqjeoqa.cn^
 ||pqjprom.cn^
 ||pqldzp.xyz^
+||pqnqrjxe.xyz^
 ||pqomnfbg.com^
 ||pqxyqq.com^
 ||pr-bh.ybp.yahoo.com^
@@ -29927,6 +29939,7 @@ zzzyk.com###Tinfo
 ||v2.dakang-energy.com^
 ||v2.uyan.cc^
 ||v2rayssr.com/wp-content/plugins/eazy-
+||v34s6r.com^
 ||v4dwkcv.com/html/click/
 ||v4dwkcv.com^
 ||v6jt.cn^
@@ -30690,6 +30703,7 @@ zzzyk.com###Tinfo
 ||xcar.com.cn/dsp/ad
 ||xccadc.com^
 ||xcf-bd-js.chuimg.com^
+||xchina.*/plugins/jquery.modal/
 ||xchina.co/upload/ad/
 ||xchina.life/ad/
 ||xchina.pro/upload/ad/
@@ -30890,6 +30904,8 @@ zzzyk.com###Tinfo
 ||xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s^
 ||xn--2ss830adjbqy7h.xn--fiqs8s^
 ||xn--521-x72fh66s.cn^
+||xn--9kq29i0tjy6b044actm.com^
+||xn--gmq238c5fy.com^
 ||xn--gov-x68dy61b.shop^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
