@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-05 16:11:34
-! Total count: 31988
+! Version: 2023-12-06 08:11:23
+! Total count: 32004
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3622,7 +3622,6 @@ $websocket,domain=5nj.com|cechi8.com
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
-18-comic.work,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > span[style*="back"]
 18183.com###gsBtn
 18183.com##.down_url
 18183.com##.pcBtn > a[href*="@"]
@@ -4034,10 +4033,10 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.content > a
 423down.com##.content > h3 > a[rel="external nofollow"][target="_blank"]
 423down.com##.content > p[style]
-423down.com##.entry > P[style^="font-size"] > A[href*="/go."]
 423down.com##.entry > p[style$="111"]
 423down.com##.entry > p[style="font-size: 20px;"]
 423down.com##.entry > p[style^="color:red"]
+423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
@@ -5025,6 +5024,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ads.cdn.tvb.com^*.key
 @@||ads.exoclick.com/ads.js$script,domain=mobilevids.org
 @@||ads.google.com/adserver/adlogger_tracker.php$domain=chrissmoove.com
+@@||ads.lingxing.com^$~third-party
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.rubiconproject.com/ad/$script,domain=doupe.zive.cz
@@ -13545,7 +13545,7 @@ mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
 mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/div[@class="ui-search-item__pub-container"]/preceding::a[@rel="nofollow,sponsored"]/ancestor::div[contains(@class,"ui-search-result__wrapper")]'
-mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-advertising__title"][text()]/ancestor::div[@class="ui-search-sidebar-advertising title-advertising"]/parent::div[@class="ui-search-sidebar-advertising__display"]'
+mercadolibre.com.ar,mercadolibre.com.bo,mercadolivre.com.br,mercadolibre.cl,mercadolibre.com.co,mercadolibre.co.cr,mercadolibre.com.do,mercadolibre.com.ec,mercadolibre.com.gt,mercadolibre.com.hn,mercadolibre.com.mx,mercadolibre.com.ni,mercadolibre.com.pa,mercadolibre.com.py,mercadolibre.com.pe,mercadolibre.com.sv,mercadolibre.com.uy,mercadolibre.com.ve#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
 mercedesclub.cz#@#.reklama
 mesddl.cc###cboxContent
 metruyenchu.com#$#abort-on-property-write window.onclick
@@ -15926,6 +15926,7 @@ thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
 thwiki.cc##.on-right > .swiper-container
+tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
 tianshui.com.cn##td[height="420"]
@@ -19934,6 +19935,7 @@ zzzyk.com###Tinfo
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
 ||avxwcuaagfcdn.net^$domain=dagens.dk
+||awareista.com^
 ||awaw.asia^
 ||awdc6.com^
 ||awempire.com^$third-party
@@ -20793,6 +20795,7 @@ zzzyk.com###Tinfo
 ||cao0001.com/vip/js/
 ||cao0002.com/vip/js/
 ||caoads.com/images/
+||caoav.net/img/*.js
 ||caohv.com/mm/
 ||caoimgs.com/images/*.gif
 ||caomeixz7.xyz^
@@ -22439,6 +22442,7 @@ zzzyk.com###Tinfo
 ||eopad.cyou^
 ||eoyqzzk.cn^
 ||epaes.com.cn^
+||epebuk.xyz^
 ||epoid.xyz^
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
@@ -23706,6 +23710,7 @@ zzzyk.com###Tinfo
 ||hgpbhuj.cn^
 ||hgpdoa.cn^
 ||hgsly.buzz^
+||hgxwhpba.xyz^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
 ||hh.jiankang.com^
@@ -24817,6 +24822,7 @@ zzzyk.com###Tinfo
 ||jmvvpb.xyz^
 ||jmw.com.cn/m_v2/js/active.js
 ||jmydm.com/jspage/ftt.js
+||jmylj.cn^
 ||jn060.xyz^
 ||jndxsuy.xyz^
 ||jnhgm.com^
@@ -24970,6 +24976,7 @@ zzzyk.com###Tinfo
 ||jsmxkj.com^
 ||jsnoownma.fun^
 ||json.cn/js/aliWindow.js
+||jspqhh.xyz^
 ||jssav4hk.xyz^
 ||jssav6hk.club^
 ||jstimiz.xyz^
@@ -25673,6 +25680,7 @@ zzzyk.com###Tinfo
 ||lingke05.top^
 ||lingsiqiwu.com^
 ||lingting.xin^
+||linj.top^
 ||link.jzzxapp.cn^
 ||link114.cn/template/js/showpics_
 ||linkbabes.com/Webservices/jsParseLinks.aspx$script,third-party
@@ -26341,6 +26349,7 @@ zzzyk.com###Tinfo
 ||mlstx.cn^
 ||mlumlio.cn^
 ||mlzgazz.cn^
+||mlzjepc.xyz^
 ||mm.jbzj.com^
 ||mm.nwell.net^
 ||mm.paizi.net^
@@ -26611,6 +26620,7 @@ zzzyk.com###Tinfo
 ||n0622.com^
 ||n0633.com^
 ||n0644.com^
+||n0h56.site^
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||n3567.com^
@@ -28154,6 +28164,7 @@ zzzyk.com###Tinfo
 ||rizgtf.xyz^
 ||rizihao.top^
 ||rjsos.com/channel/laomo_dibu.png
+||rjwljrf.xyz^
 ||rjzqtz.xyz^
 ||rjzxw.com/include/
 ||rjzxw.com/temp/index.files/logo2.gif
@@ -28268,6 +28279,7 @@ zzzyk.com###Tinfo
 ||rvlgrb.xyz^
 ||rvreuxi.cn^
 ||rvvji.online^
+||rvvmhp.xyz^
 ||rvyjbwr.cn^
 ||rvzlobj.cn^
 ||rwarwf.icu^
@@ -28320,6 +28332,7 @@ zzzyk.com###Tinfo
 ||s3t3d2y8.afcdn.net^
 ||s4te24u.com^
 ||s4zqj3m.cn^
+||s5ue6.com^
 ||s65m.win^
 ||s6in.cc^
 ||s7tu.com/images/*.gif
@@ -31369,6 +31382,7 @@ zzzyk.com###Tinfo
 ||ysapp20.xyz^*.gif
 ||ysdm*.ys137.com.cn^
 ||ysgekq.xyz^
+||yshlor.icu^
 ||ysjkbk.com^
 ||ysm.ezprice.net^$third-party
 ||ysont.cn^
@@ -31770,12 +31784,14 @@ zzzyk.com###Tinfo
 ||zhzyw.com/js/InsertJS.js
 ||ziccattws.com^
 ||zifyeldq.top^
+||zigyspv.icu^
 ||zihuiguochao.top^
 ||zikao365.com/upload/js/pfgg/
 ||zinzimo.info^$domain=pronpic.org
 ||ziravd.xyz^
 ||zisu.cn.com^
 ||ziyuanm.com/js/g11.js
+||ziyzcu.buzz^
 ||zj-yxw.com^
 ||zjdruhn.xyz^
 ||zjg.js.cn/Public/config/Couplet/Index4
