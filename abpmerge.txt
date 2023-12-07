@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-07 08:11:35
-! Total count: 32034
+! Version: 2023-12-07 16:11:20
+! Total count: 32043
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -323,6 +323,7 @@
 ###rm-float + .popup
 ###rm-float3
 ###sOIcquIT
+###sc-superman-ad
 ###search > a[href="/top1.html"]
 ###sign-ad
 ###sitefocus.focus
@@ -863,6 +864,7 @@
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.privilege-promote
+##.pro-molnk
 ##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
@@ -1910,6 +1912,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/rmb/dl.js
 .com/rmb/palyyoubian.js
 .com/rs/in/*?n=$script,third-party
+.com/rs/shto/$third-party
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/$third-party
@@ -3864,6 +3867,8 @@ $websocket,domain=5nj.com|cechi8.com
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
+2ghai.com##.a_xiu_t
+2ghai.com##.yttl_x_g
 2gomovies.to#$#abort-on-property-write _0x287f; abort-on-property-write _0x2f53; abort-on-property-write _0x16f4
 2ujj.com#@#.ad350
 2yjw.com##.widget-tops
@@ -4462,8 +4467,6 @@ $websocket,domain=5nj.com|cechi8.com
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
 920share.com###layui-layer1
-92ghai.com##.a_xiu_t
-92ghai.com##.yttl_x_g
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
@@ -10517,7 +10520,7 @@ etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
-etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b10")][not(contains(@class,"bf6"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b2c")][not(contains(@class,"b91"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -11796,6 +11799,7 @@ huya.com##.nav-expand-list #J_tt_hd_category_ad
 huya.com##.room-business-game
 huya.com##.room-gg-chat
 huya.com##.sidebar-banner
+huya.com##.small-handle-tip
 huya.com##.tt[style*="1200px"]
 hxcpp13.com###player-bottom-ads
 hxnews.com##.banner-90
@@ -16386,7 +16390,6 @@ v.qq.com##.player-side-ads
 v.qq.com##.quick_games.quick_item,div.card-wrap
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
-v.qq.com##.video-card-module > div[dt-params*="ad_creative_id="]
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
@@ -16694,6 +16697,8 @@ wenxuecity.com##.sidebar > .banners
 wenxuecity.com##.topbannerw
 wenxuecity.com##label[style*="darkgrey"]
 wenxuecity.com#@#.otherposts
+wezhicms.com##.activity
+wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 whcykj.cn###BDBridgeInviteWrap
 whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
@@ -18086,6 +18091,7 @@ zzzyk.com###Tinfo
 ||2d4f.com/love/
 ||2fa20230511.live^
 ||2g9x9uf.cn^
+||2ghai.com/zz/
 ||2h81gp.tkepyc.com^$script,xmlhttprequest,domain=pch.com
 ||2hfby.top^
 ||2hpg0.fun^
@@ -18408,7 +18414,6 @@ zzzyk.com###Tinfo
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 ||52dytt.net/images/bbs_btn.gif
 ||52dytt.net/img/zlgg.png
-||52ghai.com/data/attachment/common/ac/
 ||52kuwang.cn^
 ||52movieba.com/img/ad
 ||52pipaxing.com^
@@ -18856,7 +18861,6 @@ zzzyk.com###Tinfo
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
-||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
 ||933m.com/1.js
@@ -20903,6 +20907,7 @@ zzzyk.com###Tinfo
 ||cdn.haocaa.com^
 ||cdn.haokongbu1.com^*.js
 ||cdn.holmesmind.com^
+||cdn.holmesmind.com^$third-party
 ||cdn.itphanpytor.club^
 ||cdn.j.gs/js/display.js$script,third-party
 ||cdn.j.gs/js/entry.js$script,third-party
@@ -23203,6 +23208,7 @@ zzzyk.com###Tinfo
 ||gmx47.top^
 ||gmx48.top^
 ||gmxvmvptfm.com^
+||gn01.top^
 ||gndmnrh.cn^
 ||gniew.xyz^
 ||gnqxd.cn^
@@ -23837,6 +23843,7 @@ zzzyk.com###Tinfo
 ||hoiea.xyz^
 ||holdntlc.com^
 ||hollg8023.745c.cn^
+||holmesmind.com^
 ||holor0701.cn^
 ||holor0804.cn^
 ||holor857.cn^
@@ -25076,6 +25083,7 @@ zzzyk.com###Tinfo
 ||jxnews.com.cn^*_ad_
 ||jxtejf.xyz^
 ||jxtest.bolecdn.com/player/*.gif
+||jxuhurp.icu^
 ||jxvyrv.xyz^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
@@ -31421,6 +31429,7 @@ zzzyk.com###Tinfo
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
+||ysxt9.com^
 ||yszpegh.xyz^
 ||yt-adp.nosdn.127.net^
 ||yt-adp.ws.126.net^
