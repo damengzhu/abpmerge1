@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-06 16:11:45
-! Total count: 32012
+! Version: 2023-12-07 08:11:35
+! Total count: 32034
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1166,6 +1166,7 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
+##TD[id^="td_"] > A[href^="/htmm/"]
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
@@ -1365,6 +1366,7 @@
 ##a[href*=".impactyu.com/"]
 ##a[href*=".impreshunz.com/"]
 ##a[href*=".las88889999.com:"]
+##a[href*=".mhtimes.cn"]
 ##a[href*=".mmrjmh.com/"]
 ##a[href*=".n7.org.cn"]
 ##a[href*=".nffhome.com/"]
@@ -9579,7 +9581,7 @@ cnki.net#@#.ad_right
 cnlinfo.net##.guanggao-left
 cnlinfo.net##.guanggao-right
 cnlmjx.com##.yw_ad
-cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com
+cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 cnool.net##.banner-ad001
 cnool.net##.meilai_box
 cnool.net##.second-banner
@@ -10515,7 +10517,7 @@ etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
-etsy.com#$#hide-if-matches-xpath './/span[@data-is-ad][not(@data-is-ad=//li[5]//span[@data-is-ad]/@data-is-ad)]/ancestor::li'
+etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b10")][not(contains(@class,"bf6"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -13665,6 +13667,7 @@ money.163.com#$#.finance_header { height: auto !important; }
 money.163.com#$#.finance_header_gg { display: none !important; }
 money.pl#$#abort-current-inline-script document.querySelector querySelector
 money.pl#$#hide-if-matches-xpath '//div[@id]/following::a[@class]/img[string-length(@src) < 130]/ancestor::div[1]'
+money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
 money18.on.cc#@#.ads-bg
@@ -15652,7 +15655,7 @@ sport.cz##div#page > .combi
 sport.cz##div[class*="ogm-advert-static"]
 sport.cz##iframe[frameborder][scrolling][src^="https://www.sport.cz/"]
 sport.cz##li[class$="ogm-timeline-advert"]
-sportowefakty.wp.pl#$#hide-if-matches-xpath './/a[@href][@class][@*]/img[@class][@src][not(@alt)]/parent::a/ancestor::div[not(contains(@class,"layout"))][string-length(@class)>=5][contains(normalize-space(), "")][3]'; hide-if-matches-xpath './/*[@class]//a[@target][contains(@href,"adblock")]/parent::div//ancestor::div[not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7) and not(contains(@*,"layout")) and not(contains(@class,"column"))][5]/div[@class]'; hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'; 
+sportowefakty.wp.pl#$#hide-if-matches-xpath './/a[@href][@class][@*]/img[@class][@src][not(@alt)]/parent::a/ancestor::div[not(contains(@class,"layout"))][string-length(@class)>=5][contains(normalize-space(), "")][3]'; hide-if-matches-xpath './/*[@class]//a[@target][contains(@href,"adblock")]/parent::div//ancestor::div[not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7) and not(contains(@*,"layout")) and not(contains(@class,"column"))][5]/div[@class]'; hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]';
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
 sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
@@ -18273,6 +18276,7 @@ zzzyk.com###Tinfo
 ||4399.com/loadimg/iframe_
 ||4399.com/loadimg/loading.htm
 ||4399sj.com^*/mask-ad
+||44180055.cn^
 ||4438x*.com/Runtime/js/
 ||44629.com^
 ||44jq.cn^
@@ -18881,6 +18885,7 @@ zzzyk.com###Tinfo
 ||9669.cn/ipdat/duilian/
 ||9669.cn/jsam/play_
 ||9669.com^$script,third-party
+||96kso.online^
 ||973.com/static/js/pccom.js
 ||97kpz.com/js/bbk/g.js
 ||98.126.219.*/ads/
@@ -18922,6 +18927,7 @@ zzzyk.com###Tinfo
 ||99youmeng.com/pc/js/*_g
 ||99youmeng.com/pc/js/g_top_ban.js
 ||99youmeng.com/pc/js/global_latest.js
+||99zns.top^
 ||99zuowen.com^$third-party
 ||99zuowen.com^*/gg.js
 ||9a6cds03.com^
@@ -20497,6 +20503,7 @@ zzzyk.com###Tinfo
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||bm999999.com^$popup
+||bmatgg18.xyz^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
 ||bmjvrf.xyz^
@@ -21478,6 +21485,7 @@ zzzyk.com###Tinfo
 ||cwgshkz.cn^
 ||cwmlm.com^$third-party
 ||cwolwc.xyz^
+||cwrxgb.icu^
 ||cwsgbekun.xyz^
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/js/urdev.js
@@ -23226,6 +23234,7 @@ zzzyk.com###Tinfo
 ||gold678.com/news/js/layer/layer.js
 ||golden88.co^
 ||goldenmoustache.com/wp-content/themes/golden-moustache/js/libs/modernizr-$script
+||golengmen.com/assets/publish/
 ||gome.com.cn/flight?
 ||goneviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||goneviral.com/visitScript/$script,third-party
@@ -23481,6 +23490,7 @@ zzzyk.com###Tinfo
 ||hahamx.cn/upload/data/list_sidebar_
 ||haibomuye.com/forever/
 ||haihongzg.com^
+||hailfi.top^
 ||haili-spitzer.com^
 ||hairoak.com^
 ||haise10.top^
@@ -24126,6 +24136,7 @@ zzzyk.com###Tinfo
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||iemwbu.cn^
 ||iepda.xyz^
+||iephrenhq.com^
 ||ifbfksf.xyz^
 ||ifbqves.cn^
 ||ifc-edu.cn^$third-party
@@ -24469,6 +24480,7 @@ zzzyk.com###Tinfo
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
 ||islbaho.top^
+||isna.top^
 ||isnd.top^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
@@ -25933,6 +25945,7 @@ zzzyk.com###Tinfo
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvy0.cn^
+||lvzkfcm.cn^
 ||lw0mp.fun^
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
@@ -26119,6 +26132,7 @@ zzzyk.com###Tinfo
 ||manwa.me/static/custom/files/300X250.$image,redirect=1x1.gif,~third-party
 ||manwa.me/static/custom/files/300X250.$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
 ||manwa.me/static/custom/files/300X250.gif$image,redirect=1x1.gif,important
+||manymgsgn.com^
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
@@ -26147,6 +26161,8 @@ zzzyk.com###Tinfo
 ||max211.top^
 ||maximpetus.com^
 ||maxthonimg.com/v6/festival/
+||maxun066.top^
+||maxun118.top^
 ||mb.gulongbbs.com^
 ||mbalib.com/common/a_mbalib/
 ||mbekgac.xyz^
@@ -26895,6 +26911,7 @@ zzzyk.com###Tinfo
 ||nweon.com/wp-content/repo/ad/
 ||nwera.xyz^
 ||nwmol.top^
+||nwpcptmm.xyz^
 ||nwrgdifq.xyz^
 ||nwuidsbjak.com^
 ||nwxs5.com/js/
@@ -27657,6 +27674,7 @@ zzzyk.com###Tinfo
 ||qawxpzm.cn^
 ||qaxkwxpf.cn^
 ||qayqa.com:6868/jquery/
+||qbcmws.xyz^
 ||qbd1.site^
 ||qbd2.site^
 ||qbd3.site^
@@ -28136,6 +28154,7 @@ zzzyk.com###Tinfo
 ||rfnhwaj.cn^
 ||rfrhfh.xyz^
 ||rfto9i.icu^
+||rfxnff.xyz^
 ||rgpujh.xyz^
 ||rgvqddo.com^
 ||rgyfqq.com^
@@ -30156,6 +30175,7 @@ zzzyk.com###Tinfo
 ||vreephay.com^
 ||vrivslffndepxqd.xyz^
 ||vrlvnz.xyz^
+||vrnblp.xyz^
 ||vrnrpzy.xyz^
 ||vrosqolcg.com^
 ||vrr.name^
@@ -30266,7 +30286,6 @@ zzzyk.com###Tinfo
 ||wap1.laogu.wang^
 ||wap2.laogu.wang^
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
-||warnermediacdn.com/prod01/*mp4^$xmlhttprequest,domain=cnn.com
 ||wasabii.com.tw/float/*.js
 ||wasaidailian.com^
 ||watchmygf.to^$third-party
@@ -30383,6 +30402,7 @@ zzzyk.com###Tinfo
 ||whum.top^
 ||whwxxny.com^
 ||whyfate.cn^
+||wiczcu.xyz^
 ||widget.ezprice.com.tw^$third-party
 ||widgets.outbrain.com/outbrain.js
 ||widgets.pinterest.com^
@@ -30996,6 +31016,7 @@ zzzyk.com###Tinfo
 ||xrkadslmgg.top^
 ||xrkadslmgg.xyz^
 ||xrkyqq.com^
+||xrllybr.xyz^
 ||xrrhwgj.xyz^
 ||xryrylt.cn^
 ||xs.dmzj.com^
@@ -31159,6 +31180,7 @@ zzzyk.com###Tinfo
 ||ycmgeb.icu^
 ||yd.gxdianhua.com^
 ||yd.linjuyihao.com^
+||yddbysa.xyz^
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydgsvls.cn^
