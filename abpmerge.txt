@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-08 08:11:51
-! Total count: 32055
+! Version: 2023-12-08 16:11:17
+! Total count: 32064
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -10603,6 +10603,8 @@ faayoo.com###footer_fd
 faayoo.com##.qr_code
 facebookproxy.info###overlay-holder
 facet.wp.pl,ksiazki.wp.pl,tech.wp.pl,money.pl,moneyv.wp.pl#$#abort-on-property-read pbjs.bidderSettings
+factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
+factfeed.com,mdrntoday.com,travelroo.com#$#hide-if-matches-xpath './/div[contains(@class,"ad-lines") and contains(text(),"ADVERTISEMENT")]/parent::div[@class="ad-text-box"]/ancestor::div[@class][@style]'
 familydoctor.com.cn##.adExtra
 familydoctor.com.cn##.global-top-links-wrap
 fancyapi.com
@@ -14314,6 +14316,7 @@ oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/t
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 outlook.live.com###owaadbar
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
+outlook.live.com#?#div[style*="top: 0px"]:-abp-has(>div:-abp-contains(Ad))
 outofmemory.cn##.iloveoutofmemory660
 outofmemory.cn##.tgBar
 ouyaoxiazai.com##.ad_show_1
@@ -16474,7 +16477,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotmoi.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,olaphim.net,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotmoi.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmax.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -18772,6 +18775,7 @@ zzzyk.com###Tinfo
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888lianmeng.com^
+||88dml.top^
 ||88eg.cn^
 ||88la.la^
 ||88lajs1.com^
@@ -19282,6 +19286,7 @@ zzzyk.com###Tinfo
 ||adform.net/banners/scripts/adx.js$domain=delfi.lt,rewrite=abp-resource:blank-js
 ||adfox.yandex.ru^
 ||adfstat.yandex.ru^
+||adgarden.market^$domain=factfeed.com|mdrntoday.com|travelroo.com
 ||adhdsb.cn^
 ||adi*.cnool.net^
 ||adimg.liba.com^
@@ -25909,6 +25914,7 @@ zzzyk.com###Tinfo
 ||lrqpyhn.icu^
 ||lryqef.xyz^
 ||lsancil.top^
+||lsce.top^
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
 ||lshuaibin.cn^
@@ -28813,6 +28819,7 @@ zzzyk.com###Tinfo
 ||so.com/index/advertise
 ||so.com/recomm/simi?
 ||so.com/resource/js/mod/detail/business.
+||so.com^*baike/ads?
 ||so.open.163.com/v/list.htm?pid=
 ||soa-vip-ssl.xunlei.com^
 ||soaspx.com/images/hws.gif
@@ -30021,6 +30028,7 @@ zzzyk.com###Tinfo
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
 ||vakdop.icu^
+||valerieavisnba.com^
 ||valerieurania.com^
 ||valipl.cp31.ott.cibntv.net/$media
 ||vancuongthinh.com^
@@ -31451,6 +31459,7 @@ zzzyk.com###Tinfo
 ||ytelc.com^
 ||ytelc.com^$third-party
 ||ytezym.xyz^
+||ytlcz.cn^
 ||ytpae.xyz^
 ||ytqlyw.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
