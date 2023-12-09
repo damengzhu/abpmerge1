@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-08 16:11:17
-! Total count: 32064
+! Version: 2023-12-09 08:10:16
+! Total count: 32074
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1947,6 +1947,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
+.com:8077/*?$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/*_*_an*js?$script,third-party
@@ -4046,6 +4047,7 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.entry > p[style^="color:red"]
 423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
+423down.com##SPAN > A > B
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
@@ -10520,7 +10522,7 @@ etextlib.ru##.partners
 etnet.com.cn##.firstAD
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class="wt-text-title-largest"][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
-etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b2c")][not(contains(@class,"b91"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
+etsy.com#$#hide-if-matches-xpath './/span[@data-ad-label="Ad by Etsy seller"]/preceding::a[contains(@class,"b58")][not(contains(@class,"bbd"))][@data-palette-listing-image]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#hide-if-matches-xpath '//span[@data-is-ad][@data-ad-label][contains(text(),"Ad by")]/ancestor-or-self::li[contains(@class,"wt-grid__item-xs-6")]'
 etsy.com#$#race start; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*by/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; hide-if-contains-visible-text '/[aA](\\s)*d(\\s)*b(\\s)*y/' li 'li[class] div > :is(div, p)' 'width: /^[0-9]px/'; race stop;
 ettoday.net###adsense-matched-content
@@ -16152,7 +16154,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,phimbom.online,sieudamtv.com,ephimchill.com#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,phimbom.online,sieudamtv.com,ephimchill.com,motphimhan.cc#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -22317,6 +22319,7 @@ zzzyk.com###Tinfo
 ||eblnzoq.cn^
 ||ebmlsvw.cn^
 ||ebp.renren.com^
+||ebpex.space^
 ||ebpu2.top^
 ||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
@@ -22723,6 +22726,7 @@ zzzyk.com###Tinfo
 ||fh21.com.cn/partners/
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhddnh.xyz^
+||fherunm.cn^
 ||fhfgg.com^
 ||fhglcpf.icu^
 ||fhitagd.cn^
@@ -22794,6 +22798,7 @@ zzzyk.com###Tinfo
 ||fmild.xyz^
 ||fmre1.com^
 ||fmvbyji.cn^
+||fmzifaqi.xyz^
 ||fn9u.fun^
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
@@ -25380,6 +25385,7 @@ zzzyk.com###Tinfo
 ||kqbrgl.icu^
 ||kqskqi.xyz^
 ||kqubxdb.cn^
+||kqvvqv.icu^
 ||kqwip.cyou^
 ||kr.sdykcloud.cn^
 ||kravma.xyz^
@@ -27177,6 +27183,7 @@ zzzyk.com###Tinfo
 ||oyxp.xyz^
 ||oyysbc.xyz^
 ||ozkbdxdu.icu^
+||ozolei.xyz^
 ||p.7060.la^
 ||p.eikuaitao.com^$third-party
 ||p.gmkykj.com^$third-party
@@ -28815,7 +28822,6 @@ zzzyk.com###Tinfo
 ||snzfj.net^$third-party
 ||so.auto999.cn^
 ||so.clzgd.com^
-||so.com/baike/ads?
 ||so.com/index/advertise
 ||so.com/recomm/simi?
 ||so.com/resource/js/mod/detail/business.
@@ -29541,6 +29547,7 @@ zzzyk.com###Tinfo
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp002.cfd^
 ||tpvuxt.xyz^
+||tpzatf.xyz^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
 ||tqdctl.xyz^
@@ -30103,6 +30110,7 @@ zzzyk.com###Tinfo
 ||vhhvldyuhm.xyz^
 ||vhhxnb.xyz^
 ||vhjxrj.xyz^
+||vhotcvp.xyz^
 ||vhsutpgui.xyz^
 ||vhulan.com^
 ||vhutitpu.icu^
@@ -30484,6 +30492,7 @@ zzzyk.com###Tinfo
 ||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
 ||wneia.iaskhot.com^
+||wnllmyw.xyz^
 ||wnnbvnj.cn^
 ||wnzle.com^
 ||wo1990.com^
@@ -32012,6 +32021,7 @@ zzzyk.com###Tinfo
 ||zzbaike.com/main/arvixe
 ||zzbaike.com/main/host
 ||zzbaike.com/sites/all/themes/zzbaike/images/
+||zzbmxl.xyz^
 ||zzc.cn/b1/live_b_
 ||zzdsjxsb.com^
 ||zzgxqlzh.com^
