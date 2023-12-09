@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-09 08:10:16
-! Total count: 32074
+! Version: 2023-12-09 16:09:48
+! Total count: 32079
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9360,6 +9360,10 @@ chinanews.com##.add4
 chinanews.com##.tonglan_advert
 chinanews.com##a[href*=".jiuxianfeng.com"]
 chinanews.com.cn###ad_right_fc1
+chinanews.com.cn###dingtong
+chinanews.com.cn##.adv
+chinanews.com.cn##.tp_adv
+chinanews.com.cn##.wap_adv
 chinanewsx.com##a[href="/about/"]
 chinapdf.com###floatleft
 chinapdf.com###floatright
@@ -11210,6 +11214,7 @@ golinksworld.com###btn_download
 gomovies.film,gomovies.sc,gomovies.es,gomovie.ms,gomovieshub.io,openloadmovies.net,openloadmovies.review,vidsrc.me,movies123.xyz,bonstreams.net,yts.am,keeplinks.co,flashx.pw,flashx.tv,cloudvideo.tv,gogoanime.cloud,revivelink.com#$#abort-on-property-read atob
 gongkong.com###dull_left
 gongkong.com###dull_right
+gonglue.us###custom_html-6
 goodav17.com###sticky_ads
 goodav17.com##+js(abort-on-property-read, popunder)
 goodav17.com##.ads_pc
