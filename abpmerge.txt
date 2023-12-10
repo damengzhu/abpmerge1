@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-09 16:09:48
-! Total count: 32079
+! Version: 2023-12-10 08:10:42
+! Total count: 32088
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -3435,7 +3435,7 @@ $websocket,domain=5nj.com|cechi8.com
 114la.com##.search_ad
 114la.com##.sy_ad4
 114la.com#?#.sortItem:-abp-has(> dIV[class] > .FeedADClose)
-114la.com,78dm.net,chinairn.com,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
+114la.com,78dm.net,chinairn.com,chinanews.com.cn,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 114la.com,ylmf.com###GameAdv
 114la.com,ylmf.com###HDtopBar
 114la.com,ylmf.com###imgArr
@@ -4047,9 +4047,9 @@ $websocket,domain=5nj.com|cechi8.com
 423down.com##.entry > p[style^="color:red"]
 423down.com##.entry > p[style^="font-size"] > a[href*="/go."]
 423down.com##.widget_d_banner
-423down.com##SPAN > A > B
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
+423down.com##span > a > b
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
 42xz.com##.xzbox-lf > ul:not(:last-child)
@@ -9352,16 +9352,14 @@ chinamedevice.cn##.logo_ads
 chinamedevice.cn##.news_ylqx
 chinamedevice.cn##.news_ylqx3
 chinamedevice.cn,hgitv.com##.gg12
-chinanews.com###dingtong
 chinanews.com###dt_advert
 chinanews.com###qizhi_div980
 chinanews.com##.add3
 chinanews.com##.add4
 chinanews.com##.tonglan_advert
 chinanews.com##a[href*=".jiuxianfeng.com"]
+chinanews.com,chinanews.com.cn###dingtong
 chinanews.com.cn###ad_right_fc1
-chinanews.com.cn###dingtong
-chinanews.com.cn##.adv
 chinanews.com.cn##.tp_adv
 chinanews.com.cn##.wap_adv
 chinanewsx.com##a[href="/about/"]
@@ -19985,6 +19983,7 @@ zzzyk.com###Tinfo
 ||ayidaye.m.zwdu.com^
 ||aykibra.cn^
 ||aymtdcg.cn^
+||aymwiq.xyz^
 ||aynanjianyy.com^
 ||aynufyns.xyz^
 ||ayqxx.com^$third-party
@@ -20609,6 +20608,7 @@ zzzyk.com###Tinfo
 ||bp.blogspot.com^*/s1600/dealer
 ||bpbfymv.xyz^
 ||bpbpxv.xyz^
+||bpdtrfb.xyz^
 ||bpewo.cyou^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bplrpf.xyz^
@@ -22840,6 +22840,7 @@ zzzyk.com###Tinfo
 ||fotaxf.xyz^
 ||fourier.taobao.com^
 ||fourlaile.com^
+||foxoxn.xyz^
 ||fp.nanrenwo.net^
 ||fpb*.51edu.com^
 ||fpb.sohu.com^
@@ -23794,6 +23795,7 @@ zzzyk.com###Tinfo
 ||hixutb.xyz^
 ||hjapi.com/v1/pageSoftText?
 ||hjbqnwb.com^
+||hjdkvt.xyz^
 ||hjfile.cn/analytics/site/TrackEvent.js
 ||hjfile.cn/analytics/site/TrackEvent.js[Adblock Plus 2.0]
 ||hjfile.cn/lib/hui/footer/0.1.0/footer.js
@@ -25391,6 +25393,7 @@ zzzyk.com###Tinfo
 ||kqskqi.xyz^
 ||kqubxdb.cn^
 ||kqvvqv.icu^
+||kqwerp.top^
 ||kqwip.cyou^
 ||kr.sdykcloud.cn^
 ||kravma.xyz^
@@ -25807,6 +25810,7 @@ zzzyk.com###Tinfo
 ||ll.ibiqiuge.com/m.js
 ||llaxl.com^
 ||llblwzg.xyz^
+||lleo.top^
 ||llhhbb.top^
 ||llj22.com/1.gif
 ||llmxt.fun^
@@ -26782,6 +26786,7 @@ zzzyk.com###Tinfo
 ||newyx.net^*/down_yd.js
 ||nex.163.com/q?
 ||nezqmud.com^
+||nfldgbt.xyz^
 ||nflks.cn^
 ||nfmovies.com/pic/tu/*_863x59.
 ||nfmovies.com/pic/tu/*_banner
@@ -26982,6 +26987,7 @@ zzzyk.com###Tinfo
 ||oa-panther.data.aliyun.com^$third-party
 ||oa.hinews.cn/work/img/
 ||oaclrst.cn^
+||oafhif.icu^
 ||oaftaijo.net^
 ||oaftaijo.net^$third-party
 ||oaihiiacb.com^
@@ -26995,6 +27001,7 @@ zzzyk.com###Tinfo
 ||oclasrv.com^$third-party
 ||ocoda.xyz^
 ||ocpydszq.xyz^
+||ocryndsu.xyz^
 ||ocs-pl.oktawave.com/v1/AUTH_*/Reklamy/$object-subrequest,domain=freedisc.pl|reseton.pl
 ||ocwdkp.icu^
 ||oehcxmhk.xyz^
@@ -29165,6 +29172,7 @@ zzzyk.com###Tinfo
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szafvjdd.icu^
+||szbxm.cn^
 ||szcmcs.com^
 ||szdaqi88.com^
 ||szfcol.com/images/wxright240.jpg
@@ -29258,6 +29266,7 @@ zzzyk.com###Tinfo
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbcgumkadc.xyz^
 ||tc6tc.com^
+||tc8ji.website^
 ||tc911.vip^
 ||tcbox.baidu.com^
 ||tcgaqh.icu^
