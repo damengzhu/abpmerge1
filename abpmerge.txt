@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-12 08:11:52
-! Total count: 32121
+! Version: 2023-12-12 16:10:17
+! Total count: 32128
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -10105,6 +10105,7 @@ douyu.com###sign_p_1
 douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 douyu.com##.ActPayDialog
 douyu.com##.BargainingKit
+douyu.com##.IconCardAdBoundsBox
 douyu.com##.PaladinPop
 douyu.com##.PrivilegeGiftModalDialog
 douyu.com##.ScreenBannerAd
@@ -15019,6 +15020,7 @@ record.xl.pt##A[href^="http://partner.sbaffiliates.com/"]
 recruit.com.hk###bottomBar
 recruit.com.hk###topBar
 recruit.com.hk##div[id^="banner"]
+reddit.com##.jag8CityBio212023
 redian.news##._ap_apex_ad[style^="width: 300px"]
 redian.news##.bottom-0.fixed
 redian.news##.md\:w-\[728px\].mx-auto
@@ -15768,6 +15770,8 @@ studref.com#$#abort-on-property-read _0x308a
 studwood.net#$#abort-on-property-read _0x8cc0
 study.163.com###j-newpeople
 studygolang.com###ad-right1
+style24.com#$#simulate-mouse-event 'xpath(.//div[@class="popup_main_notice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
+style24.com#$#simulate-mouse-event 'xpath(.//div[@id="popupMainNotice"]//a[@id="btnPopupClose"][@onclick])$delay=0'
 subaibai.com###note
 subaibai.com##.el-dialog__wrapper
 subhd.com##+js(set-session-storage-item, hassession, 1)
@@ -16261,6 +16265,7 @@ tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-MON
 tw.news.yahoo.com###sda-WPS-iframe
+tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
@@ -18790,6 +18795,7 @@ zzzyk.com###Tinfo
 ||888dizhi.com/888/
 ||888fr.xyz^
 ||888lianmeng.com^
+||88dgl.top^
 ||88dml.top^
 ||88eg.cn^
 ||88la.la^
@@ -22804,6 +22810,7 @@ zzzyk.com###Tinfo
 ||flashwing.net^$third-party
 ||flasmr.top/leb.
 ||flighty.cn/images/
+||flo.uri.sh/visualisation/14819166/embed?auto=$subdocument,domain=tw.news.yahoo.com
 ||floozycity.com/ad/$popup
 ||flpnnqe.xyz^
 ||flsfzr.cn^
