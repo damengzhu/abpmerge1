@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-14 08:11:40
-! Total count: 32171
+! Version: 2023-12-14 16:09:44
+! Total count: 32177
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -865,6 +865,8 @@
 ##.postmessage > #googleSecond
 ##.privilege-promote
 ##.pro-molnk
+##.pro1-molnk
+##.prom-olnk
 ##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
@@ -13330,6 +13332,8 @@ m.kdslife.com###app.Card.DownloadGuide
 m.kuaidi100.com##.adsbygoogle + a
 m.lelekan.com##div[id^="myads"]
 m.lelekan.com#$#body { padding-top: 0!important; }
+m.lwxs.com##+js(abort-current-script, document.write, _0x)
+m.lwxs.com##+js(abort-current-script, eval, _0x)
 m.mgtv.com##.mg-dcross
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
@@ -18806,6 +18810,7 @@ zzzyk.com###Tinfo
 ||888fr.xyz^
 ||888lianmeng.com^
 ||88dgl.top^
+||88dgn.top^
 ||88dml.top^
 ||88eg.cn^
 ||88la.la^
@@ -24732,6 +24737,7 @@ zzzyk.com###Tinfo
 ||jd2ujc.cn^
 ||jd5c.top^
 ||jdamc.top^
+||jdbfknsbkldns.com^
 ||jdbstatic.com/ads/
 ||jdcnwd.com^
 ||jddaw.com^
