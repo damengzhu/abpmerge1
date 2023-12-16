@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-15 16:11:09
-! Total count: 32194
+! Version: 2023-12-16 08:10:14
+! Total count: 32204
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1436,6 +1436,7 @@
 ##a[href*="/?intr="]
 ##a[href*="/PageRegister?Agent="][target="_blank"]
 ##a[href*="/Register?a="]
+##a[href*="/abg0066.com"]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/bgm9z.com"]
@@ -11127,6 +11128,7 @@ gdmm.com##img[width="1200"]
 gdmm.com,gkstk.com#@#.adtop
 gdot.me,sc115.com##script + a
 gdrc.com#@#.midAd
+gdt.qq.com
 gdz-putina.fun,gdz.ninja,gdz.ru,gdzotputina.club,gdzputina.net,gdzputina.ru,megaresheba.com,megaresheba.ru,resheba.me,spishi.fun,zoobrilka.net#$#abort-on-property-write app.book.external
 gdzjdaily.com.cn##.big_news + div
 gebi1.com###fwin_dialog
@@ -12287,13 +12289,18 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
 iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen]
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 iqiyi.com##.cupid-panel + div
+iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
 iqiyi.com##.dove_videos
@@ -12332,7 +12339,6 @@ iqiyi.com##a[href*=".banggo."]
 iqiyi.com##a[href*=".oppo."]
 iqiyi.com##a[id^="100000"]
 iqiyi.com##div[class^="ad-piclist-"]
-iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##div[id^="div_theatre"]
 iqiyi.com##div[style^="z-index: 4200; position: absolute; left:"]
 iqiyi.com##iframe[style^="z-index:"]:last-child
@@ -14855,10 +14861,7 @@ qq.com###pop_apps_sponsors
 qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
-qq.com##+js(json-prune,ads ad.pause adList.item)
-qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(set,RTCPeerConnection,null)
+qq.com##+js(json-prune, ads ad material.video)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -14893,7 +14896,6 @@ qq.com##.member_ads
 qq.com##.mian-ad
 qq.com##.mod-ad-full
 qq.com##.mod-download-tips
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##.mod_ad_main
 qq.com##.mod_ad_side
 qq.com##.mod_ad_square
@@ -14927,7 +14929,6 @@ qq.com##a[href^="http://www.10100000.com/"]
 qq.com##div[class^=ad-type-]
 qq.com##div[id^="couplet_auto_"]
 qq.com##img[data-module="advertisement"]
-qq.com#@#+js(nowebrtc)
 qq.com#@#.ad-icon
 qq.com#@#.adsbox
 qq.com#@#.adside
@@ -16420,7 +16421,7 @@ v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 v.qq.com##.player-side-ads
-v.qq.com##.quick_games.quick_item,div.card-wrap
+v.qq.com##.quick_games.quick_item
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##a[href*=".renrendai.com"]
@@ -16807,7 +16808,6 @@ wowhq.umbb.net##IMG[width="970"][height="90"]
 wowhq.umbb.net##[href^="http://porreiropa.com/cms/"] > IMG
 wp.pl#$#abort-on-property-write gafReady
 wp.pl,pudelek.pl#$#abort-on-property-read wpjscb
-wpadmngr.com
 wpjam.com###wpjam_blog_300x250_1
 wpmienphi.com###d7b2
 wpworld.pl,windowsowo.pl#@##adBanner
@@ -16845,6 +16845,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"ads/about")][text()]//ancestor::span'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//span/div[@class][@role][contains(., "Anzeige") or contains(., "Sponsored") or contains(., "Sponsorlu") or contains(., "Gesponsert") or contains(., "Patrocinado") or contains(., "Sponsorisé") or contains(., "Commandité") or contains(., "Gesponsord") or contains(., "Sponsorowane") or contains(., "Publicidad") or contains(., "Sponsrad") or contains(., "Sponsoreret") or contains(., "Sponsoroitu") or contains(., "Sponsa") or contains(., "Sponset") or contains(., "Sponsorizat") or contains(., "Bersponsor") or contains(., "Ditaja") or contains(., "Sponsorizzato") or contains(., "May Sponsor") or contains(., "Реклама") or contains(., "贊助") or contains(., "赞助内容") or contains(., "ได้รับการสนับสนุน") or contains(., "Được tài trợ") or contains(., "प्रायोजित") or contains(., "دارای پشتیبانی مالی") or contains(., "تمويل شوي") or contains(., "সৌজন্যে") or contains(., "مُموَّل") or contains(., "سپانسرڈ") or contains(., "ממומן") or contains(., "Hirdetés")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//span/following::a[@aria-labelledby][@role="link"][@target="_blank"][@tabindex="0"]/ancestor-or-self::span'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label="image"][@class][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
@@ -17527,7 +17528,6 @@ zzzyk.com###Tinfo
 |https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
-|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
 |https://tellme.pw/go/jav$popup
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
@@ -18673,6 +18673,7 @@ zzzyk.com###Tinfo
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7160.com/js/tiaozhuanquanju.js
 ||7162a.com^
+||71edge.com/videos/other/202$xmlhttprequest
 ||7239618ccc.com^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
@@ -19229,6 +19230,7 @@ zzzyk.com###Tinfo
 ||ac1.pingpingw.com^
 ||accid.xyz^
 ||aceik.xyz^
+||acemof.top^
 ||acfun.cn/appSpreadContents/danmuad/
 ||acgbase.com^$third-party
 ||acgbenzi.com^$image
@@ -19402,6 +19404,7 @@ zzzyk.com###Tinfo
 ||adsfs.oppomobile.com^
 ||adshows.21cn.com^
 ||adskeeper.co.uk^
+||adsmind.gdtimg.com^
 ||adstat.izuiyou.com^
 ||adstats.tencentmusic.com^
 ||adstract.com^$third-party
@@ -20012,6 +20015,7 @@ zzzyk.com###Tinfo
 ||awiudbyqbpo.com^
 ||awoudsoo.xyz^
 ||awyyzx.com^
+||awzddev.cn^
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
@@ -21038,6 +21042,7 @@ zzzyk.com###Tinfo
 ||ceshi1.ink^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||cex8jw.cn^
+||cfateu.xyz^
 ||cfdns.vip^
 ||cfepws.com^
 ||cfff.net^$third-party
@@ -22655,6 +22660,7 @@ zzzyk.com###Tinfo
 ||f53a.com^
 ||f77j6t2b.com^
 ||f77xv3.top^
+||f780f.space^
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
 ||f8ejqxp.cn^
@@ -24091,6 +24097,7 @@ zzzyk.com###Tinfo
 ||hvdath.xyz^
 ||hvfubp.xyz^
 ||hvhudp.xyz^
+||hvlitr.xyz^
 ||hvpard.xyz^
 ||hw0.com.cn^
 ||hwfoct.icu^
@@ -24544,6 +24551,7 @@ zzzyk.com###Tinfo
 ||iqiyi.com/show2?cb=
 ||iqiyi.com/track
 ||iqiyi.com/track$popup
+||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyipic.com/image/20*_100000$image
 ||iqmbao.xyz^
 ||iqnew.com/d/js/m/thea
@@ -25557,6 +25565,7 @@ zzzyk.com###Tinfo
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
+||kyjwtxei.xyz^
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ||kyplpw.com^
@@ -25577,7 +25586,6 @@ zzzyk.com###Tinfo
 ||kzprugp.xyz^
 ||kzuxlydg.icu^
 ||l.glrcy.cn^
-||l.qq.com/livemsg?
 ||l.qq.com/lview?
 ||l.ykimg.com^
 ||l23jhjfasd.xyz^
@@ -26243,7 +26251,6 @@ zzzyk.com###Tinfo
 ||mapsmnx.cyou^
 ||margueritenice.com^
 ||marjorienice.com^
-||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||market.178.com^
 ||market.21cn.com^
 ||market.duowan.com^
@@ -26269,6 +26276,7 @@ zzzyk.com###Tinfo
 ||mbalib.com/common/a_mbalib/
 ||mbekgac.xyz^
 ||mbepa.xyz^
+||mbfhwag.xyz^
 ||mbiypew.cn^
 ||mbly0.xyz^
 ||mbveryu.top^
@@ -26983,6 +26991,7 @@ zzzyk.com###Tinfo
 ||nqezlls.cn^
 ||nqfrhd.xyz^
 ||nqoxurf.icu^
+||nrfhbd.xyz^
 ||nrjzkj.cn^
 ||nrsfh.com/neirong/
 ||nryqr.cn^
@@ -27003,8 +27012,6 @@ zzzyk.com###Tinfo
 ||nudpqt.com^
 ||nuheoub.cn^
 ||nulltm.com/adv.js
-||nunuyingyuan.tk/serviceworker.js^$script
-||nunuyy.cf/serviceworker.js^$script
 ||nunxhv.com^
 ||nurahf.xyz^
 ||nutaku.net^
@@ -28103,6 +28110,7 @@ zzzyk.com###Tinfo
 ||qvftejz.cn^
 ||qvkjkc.xyz^
 ||qvpublish.com^
+||qvrdlvz.cn^
 ||qvxvvjom.com^
 ||qw2v.taoxiehui.cn^
 ||qwandly.top^
@@ -28138,6 +28146,7 @@ zzzyk.com###Tinfo
 ||qyzyd.top^
 ||qz828.com/css/2010/script/*ad
 ||qzda.cc^
+||qznjujv.xyz^
 ||qzone.la/Scripts/m.js
 ||qzonestyle.gtimg.cn/qzone/biz/ac/comm/$script
 ||qzos9ou.xyz^
@@ -29684,6 +29693,7 @@ zzzyk.com###Tinfo
 ||trip.com/partners/ad/
 ||trk.pinterest.com^
 ||trognoi.com^
+||trojangfw.xyz^
 ||trp69.top^
 ||trqhf.xyz^
 ||trrmkzesvyqrary.com^
