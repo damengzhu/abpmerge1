@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-16 08:10:14
-! Total count: 32204
+! Version: 2023-12-16 16:09:47
+! Total count: 32208
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1518,7 +1518,6 @@
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
-##a[href^="http"] > img[src*="p.sda1.dev"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -4382,6 +4381,7 @@ $websocket,domain=5nj.com|cechi8.com
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
 77mh.cc###bdcotopnew
+77mh.nl###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
 789ys.com##h1[style]
@@ -13571,7 +13571,7 @@ meishij.net##.cp_body_right
 meitu.com###meipaiFixed
 meituan.com##.component-downtip
 meiyida01.com,myd666.tv##.module-blocklist
-meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download/"])
+meiyida01.com,myd666.tv#?#.module-item:-abp-has(>.module-item-titlebox>a[href*="/download"])
 meizhou.cn##.toptonglan
 meizhou.cn##.tuwengg
 meizhou.com##.adwords + div
@@ -18818,6 +18818,7 @@ zzzyk.com###Tinfo
 ||888lianmeng.com^
 ||88dgl.top^
 ||88dgn.top^
+||88dgs.top^
 ||88dgx.top^
 ||88dml.top^
 ||88eg.cn^
@@ -19891,6 +19892,7 @@ zzzyk.com###Tinfo
 ||arbbj6.com^
 ||arejug.xyz^
 ||ark.le.com/s?vid=
+||ark.letv.com/s?
 ||ark.letv.com/t?
 ||arkn81.com^
 ||arpg2.com^
@@ -20404,6 +20406,7 @@ zzzyk.com###Tinfo
 ||bdu1.coozhi.cn^
 ||bdunion1.suxiazai.com^
 ||bdx.playnext.cn^
+||bdzdd2-sdd53-vxc.com^
 ||bea-s.dinghuoche.com^
 ||beacher56.xyz^
 ||beacon-api.aliyuncs.com^
@@ -24071,7 +24074,6 @@ zzzyk.com###Tinfo
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||hujunhao.name^
-||huluxia.com^$third-party
 ||humgrww.xyz^
 ||hummingexam.com^
 ||hunklm.com^
@@ -26591,6 +26593,7 @@ zzzyk.com###Tinfo
 ||mql5.com/rq?
 ||mqquas.xyz^
 ||mqrupjsm.xyz^
+||mqznjujv.xyz^
 ||mr956.xyz^
 ||mrbtkyn.xyz^
 ||mrgecm.xyz^
@@ -29665,6 +29668,7 @@ zzzyk.com###Tinfo
 ||tqmcj.cn^
 ||tqrznqs.cn^
 ||tqytqdrq.icu^
+||tqznjujv.xyz^
 ||trace.qq.com^
 ||track.effiliation.com/servlet/$popup,domain=referencemega.com
 ||track.hujiang.com^
