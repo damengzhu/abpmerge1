@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-16 16:09:47
-! Total count: 32208
+! Version: 2023-12-17 08:10:16
+! Total count: 32228
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1256,6 +1256,7 @@
 ##[src$='/dibu.adadadad']
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
+##[src='/static/ads.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
 ##[src^="https://img.sobot.com/chatres/"][title="sb"]
@@ -4380,8 +4381,9 @@ $websocket,domain=5nj.com|cechi8.com
 77bike.com,actoys.net,gpsuu.com,homefei.me,ksbbs.com,mgbbs.cn,oigps.com,opticsky.cn##.tac.mb5
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
-77mh.cc###bdcotopnew
+77mh.nl###bdbottop
 77mh.nl###bdcotopnew
+77mh.nl###bdtopbot
 7808.cn###float-chat
 7808.cn###force-popup
 789ys.com##h1[style]
@@ -6739,6 +6741,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cnbeta.com.tw|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
@@ -13381,7 +13384,6 @@ m.youku.com##.download
 m.youku.com##.hdwrap
 m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
-m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
 m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
 m.youtube.com###koya_child_6
 m.zhanqi.tv##.footer
@@ -18143,11 +18145,13 @@ zzzyk.com###Tinfo
 ||2pmob.com^
 ||2pogg4c.cn^
 ||2pwja.cn^
+||2qpqwkx.cn^
 ||2s8s.com^
 ||2tyne.ic^
 ||2tyne.icu^
 ||2u3v4w5x6y.com^
 ||2ujj.com/js/bo.js
+||2xmzazd.cn^
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
 ||2zzt.com/images/
@@ -19207,6 +19211,7 @@ zzzyk.com###Tinfo
 ||abdd*.com/js/abc/
 ||abdluv.xyz^
 ||abds.pingpingw.com^
+||abe1.cn^
 ||abenshishabi.com^
 ||abgxxc.com^
 ||abmedia.io/*/pum/
@@ -19588,8 +19593,10 @@ zzzyk.com###Tinfo
 ||ali213.net/zt/twtk/images/tzxf.png
 ||ali213.net^*/promotion/
 ||alibaba.com/async/b2bad.
+||alicdn.com/*yksdk/*sdk.js$script,domain=youku.com
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
+||alicdn.com/awsc/et/
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2208043467212-
@@ -20075,6 +20082,7 @@ zzzyk.com###Tinfo
 ||b4dg.life/love/
 ||b4g7k9d2.com^
 ||b59.xyz^
+||b5v0m3q8.com^
 ||b6c4.top^
 ||b7sw62.pingshu8.xyz^
 ||b7yy.com/ad/
@@ -20664,6 +20672,7 @@ zzzyk.com###Tinfo
 ||bpbpxv.xyz^
 ||bpdtrfb.xyz^
 ||bpewo.cyou^
+||bphcrjth.xyz^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bplrpf.xyz^
 ||bqcxgbm.cn^
@@ -20835,6 +20844,7 @@ zzzyk.com###Tinfo
 ||c72w6.com^
 ||c78zf.xyz^
 ||c9cc.icu^
+||c9qh3.website^
 ||c9r05q.com^
 ||ca.cbsi.com.cn/rpv?
 ||ca.yangshengtv.com^
@@ -21359,6 +21369,7 @@ zzzyk.com###Tinfo
 ||cnskyline.top^
 ||cntc8.icu^
 ||cntronics.com/adsupload/
+||cntsgsd.top^
 ||cntv.cn/hezuo/
 ||cntvboxnow.com//ads_
 ||cnucpaq.xyz^
@@ -25456,6 +25467,7 @@ zzzyk.com###Tinfo
 ||kowqd7.top^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyuod.xyz^
+||kphcrjth.xyz^
 ||kpiwgio.cn^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
@@ -26793,6 +26805,7 @@ zzzyk.com###Tinfo
 ||nbegame.com/nbeos/*.jpg
 ||nbfieef.cn^
 ||nbgsintl.com^
+||nbhixt.xyz^
 ||nbsdk-baichuan.alicdn.com^
 ||nbsxazr.icu^
 ||nbtfbb.xyz^
@@ -27230,6 +27243,7 @@ zzzyk.com###Tinfo
 ||oroqikj.cn^
 ||orssengseen.com^
 ||orxsq.xyz^
+||oryhic.xyz^
 ||orzx.im/Document/recommend/flashpoint.html
 ||orzx.im/Document/union/
 ||orzx.im/js/*pop
@@ -27468,6 +27482,7 @@ zzzyk.com###Tinfo
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
+||phcrjth.xyz^
 ||phfqumvi.xyz^
 ||phk.nmkstcrt.xyz^
 ||phncdn.com/html5shiv-*.js
@@ -29477,6 +29492,7 @@ zzzyk.com###Tinfo
 ||thisav.com/nb/
 ||thisav.com/player/video-js-banner/
 ||thisav.video/v3/nb/
+||thjwxz.xyz^
 ||thpte.cn^
 ||thraerqol.com^
 ||thsrh.xyz^
@@ -29837,6 +29853,7 @@ zzzyk.com###Tinfo
 ||ty121.cn/IAA/
 ||ty8bz.com^
 ||tyawwj.cn^
+||tybmbbgu.xyz^
 ||tydouke.com^
 ||tyed6.top^
 ||tyjryuk.cn^$third-party
@@ -30040,6 +30057,7 @@ zzzyk.com###Tinfo
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upaiyun.com/wp-content/uploads/2016/12/wenzhangyouce
 ||upgrade.xl9.xunlei.com^
+||uphcrjth.xyz^
 ||uphzxdv.cn^
 ||upload.cc/i1/*.gif$domain=ddav.org
 ||upload.cc/i1/2020/07/13/8BGJiL.gif
@@ -31166,6 +31184,7 @@ zzzyk.com###Tinfo
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
 ||xpcwrgy.cn^
+||xphcrjth.xyz^
 ||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpynqq.com^
@@ -31599,6 +31618,7 @@ zzzyk.com###Tinfo
 ||ytelc.com^
 ||ytelc.com^$third-party
 ||ytezym.xyz^
+||ytjzqde.xyz^
 ||ytlcz.cn^
 ||ytpae.xyz^
 ||ytqlyw.xyz^
