@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-19 16:10:06
-! Total count: 32271
+! Version: 2023-12-20 08:09:15
+! Total count: 32285
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -9282,6 +9282,7 @@ cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefont.com,shangyexinzhi.com,zp365.com##.advert
 ceiea.com##.adclass2019
 cekresi.com##.pleasehideadblkuc.popio
+celleheute.de#$#hide-if-matches-xpath '//*[@data-image-info]/img[contains(@style,"440")]/ancestor::div[@id][@class][1]//parent::div[@data-hook]/parent::div[@id and @class]'; hide-if-matches-xpath './/a[@data-testid]/*[@data-image-info]/img[contains(@style,"300")]/ancestor::a[@target]/parent::div[@id][@class][1]'; hide-if-contains-visible-text /Anzeige/ 'p>span[class][style]';
 cenapaliw.pl#@#div[id^="div-gpt-ad"]
 cenapaliw.pl#@#iframe[id^="google_ads_iframe"]
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
@@ -9965,8 +9966,10 @@ de.as.pptv.com
 dealmoon.com,weibo.com##.pic_ad
 delfi.lt##[style*="/samsung"]
 delfi.lt#$#abort-on-property-read _dlf.adxtag
+delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]';
 delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
 delfi.lt#$#hide-if-matches-xpath './/h3[@class]/a[@href]/ancestor::div[contains(@class,"headline pt-content ")]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@src,"dcdn.lt/images/b")]//ancestor::div[1]'
+delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript")])$delay=10'
 demaxiya.com##.tp_box
 dep-family.hccg.gov.tw#@#.ad_1
 dep-family.hccg.gov.tw#@#.ad_2
@@ -14352,7 +14355,6 @@ oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/t
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 outlook.live.com###owaadbar
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
-outlook.live.com#?#div[style*="top: 0px"]:-abp-has(>div:-abp-contains(Ad))
 outofmemory.cn##.iloveoutofmemory660
 outofmemory.cn##.tgBar
 ouyaoxiazai.com##.ad_show_1
@@ -14527,7 +14529,7 @@ pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
 pipi.cn#@#.ad-root
 pirlotv.tv###ad_overlay
 pirlotv.tv###ad_overlay_content
@@ -21073,6 +21075,7 @@ zzzyk.com###Tinfo
 ||cfxkluv.cn^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgbswl.icu^
+||cgdyw.net/xx/
 ||cgfdjz.net/xia.js
 ||cgigc.com.cn^
 ||cgmalight.com^
@@ -21879,6 +21882,7 @@ zzzyk.com###Tinfo
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dfninp.xyz^
 ||dfpdz.top^
 ||dfsd22.com^
 ||dfsvhv88.com^
@@ -22460,6 +22464,7 @@ zzzyk.com###Tinfo
 ||eeyy.com/uploadfile/img/beitou
 ||eeyy.com^$third-party
 ||ef9i0f3oev47.com^
+||efalid.top^
 ||efangcdn.com^
 ||effectivehealthy.cn^
 ||effetspositifs.com^
@@ -22770,6 +22775,7 @@ zzzyk.com###Tinfo
 ||fds-1230.cc^
 ||fdtrjz.xyz^
 ||fdytdc.xyz^
+||feakio.top^
 ||feed.baidu.com^
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
@@ -25249,6 +25255,7 @@ zzzyk.com###Tinfo
 ||ka5188.com^
 ||kaaqgf.icu^
 ||kaezakkjt.com^
+||kafuzcxr.xyz^
 ||kagdf.com^
 ||kahgjjd.com^
 ||kaiguangdou.com^
@@ -25315,6 +25322,7 @@ zzzyk.com###Tinfo
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
 ||kdgjsf.com^
+||kdh095.cn^
 ||kdhome.net/images/banner
 ||kdhome.net/templets/default/img/tpfd.jpg
 ||kdou.com/ad_js.php?adid=
@@ -27000,6 +27008,7 @@ zzzyk.com###Tinfo
 ||nnm-club.ws/forum/docs/requests.js$script
 ||nnocsin.cn^
 ||nnqwe.xyz^
+||nnrbyty.xyz^
 ||nntsdp.xyz^
 ||no1.168abc.net/upload/
 ||noafoaji.xyz^
@@ -28285,6 +28294,7 @@ zzzyk.com###Tinfo
 ||redmx.cn^$third-party
 ||redshu.com/js/pcAdv.js
 ||redshu.com/js/www/jquerygg.js
+||redyzlmc.xyz^
 ||reek.github.io/anti-adblock-killer/k2Uw7isHrMm5JXP1Vwdxc567ZKc1aZ4I.js|$script
 ||referentiel.nouvelobs.com/js/nobs;manifest-analytics.js$script
 ||reffnik.cn^
@@ -29965,6 +29975,7 @@ zzzyk.com###Tinfo
 ||u833ij.com^
 ||u88.cn^$third-party
 ||u97jr.xyz^
+||uafuzcxr.xyz^
 ||uahozcfq.xyz^
 ||uakxkb.icu^
 ||uasvyi.xyz^
@@ -30271,6 +30282,7 @@ zzzyk.com###Tinfo
 ||vexilorath.com^
 ||vezvpd.xyz^
 ||vfjsa6do.icu^
+||vfrdewsdg.xyz^
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
@@ -30960,6 +30972,7 @@ zzzyk.com###Tinfo
 ||x800.top^
 ||x81zw.co/js/dsnmd.
 ||x8kwcr3l.xyz^
+||xafuzcxr.xyz^
 ||xahycw.com^
 ||xanimu.com/*.php$domain=xanimu.com
 ||xanimu.com/ablck$domain=xanimu.com
@@ -31710,6 +31723,7 @@ zzzyk.com###Tinfo
 ||yuvdqnpo.com^
 ||yuwangshe.net/astyle/wap.
 ||yuwenbin.host^
+||yv8zs.online^
 ||yvsnhc.com^
 ||yw800.com.cn^
 ||ywg.jobui.com^
