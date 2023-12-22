@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-21 16:10:35
-! Total count: 32382
+! Version: 2023-12-22 08:11:11
+! Total count: 32393
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -14604,7 +14604,7 @@ pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promot3dby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"op")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]' ;hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo7edby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
 pipi.cn#@#.ad-root
 pirlotv.tv###ad_overlay
 pirlotv.tv###ad_overlay_content
@@ -17868,6 +17868,7 @@ zzzyk.com###Tinfo
 ||1229a.xyz^
 ||123.sogou.com/discover/?
 ||123456.asia^
+||1234good.com^
 ||123cha.com/counter.js
 ||123hala.com^
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
@@ -19889,6 +19890,7 @@ zzzyk.com###Tinfo
 ||aoji.cn/default/looyu/
 ||aoji.cn/static/js/pushadv.js
 ||aoji.cn/static/js/yiliao/ad_common.js
+||aokkwzg.cn^
 ||aol32.cn^
 ||aolusb.com/forever/
 ||aomeng.net^$third-party
@@ -22750,6 +22752,7 @@ zzzyk.com###Tinfo
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
 ||ezacci.xyz^
+||ezeqcy.xyz^
 ||ezf48.xyz^
 ||ezlgszdb.icu^
 ||ezprice.com.tw/ezysm/
@@ -23327,6 +23330,7 @@ zzzyk.com###Tinfo
 ||ghland.site^
 ||ghoffice.com/bbs/js/float.js
 ||ghost580.com/js/nei4.js
+||ghreha.top^
 ||ghsnhjk.cn^
 ||giaoji.com/Runtime/Js/
 ||gimy.*/images/eee*.png
@@ -23597,6 +23601,7 @@ zzzyk.com###Tinfo
 ||guli21.com/PNEW/
 ||guli21.com/js/ggdm
 ||gumgo.cn^$third-party
+||gunepszy.xyz^
 ||gunmi.cn^$third-party
 ||guode.cyou^
 ||guohexinxiang.com^
@@ -24204,6 +24209,7 @@ zzzyk.com###Tinfo
 ||hupu.com/_dace.gif?
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
+||huryds.top^
 ||hushenqiquan.com^
 ||huxifena.cn^
 ||huxsvl.xyz^
@@ -25689,6 +25695,7 @@ zzzyk.com###Tinfo
 ||kxmusic.top/tc/js/script.js
 ||ky891.oss-*.aliyuncs.com^
 ||kybzkiw.xyz^
+||kycxhgrp.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
@@ -26038,6 +26045,7 @@ zzzyk.com###Tinfo
 ||lmlmvip.com^
 ||lmlzht.xyz^
 ||lmnpd.xyz^
+||lmrhhn.xyz^
 ||lmtnfl.xyz^
 ||lmx7.com^
 ||lmxxxz.com^
@@ -28276,6 +28284,7 @@ zzzyk.com###Tinfo
 ||qx568.com^$popup
 ||qxakzox.cn^
 ||qxrvmu.com^
+||qxzlmzt.xyz^
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
 ||qycfqk.xyz^
@@ -30270,6 +30279,7 @@ zzzyk.com###Tinfo
 ||uxtruz.xyz^
 ||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
+||uycxhgrp.xyz^
 ||uyf1u0x7.xyz^
 ||uyflu0x7.xyz^
 ||uygckiy.cn^
@@ -32228,6 +32238,7 @@ zzzyk.com###Tinfo
 ||zol.com.cn/js/ask/ask.js
 ||zol.com.cn/pvn/
 ||zol.com/index.php?c=ZolShopIndex
+||zomcz.cyou^
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zonyff.xyz^
