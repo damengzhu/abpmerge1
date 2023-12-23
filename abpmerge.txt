@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-22 16:10:25
-! Total count: 32398
+! Version: 2023-12-23 08:10:05
+! Total count: 32412
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -12238,7 +12238,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@st
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-fp-eligible")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
-instagram.com#$#race start; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
+instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -15391,6 +15391,7 @@ shinden.pl#@#.AD-RC-300x250
 shm.com.cn##.w1000.surround
 shmet.com##.spb-biz-cont
 shoegames.blogspot.com###HTML5
+shoubozhan.com##style + div[id]
 shouji56.com###gg_top_banner
 shouji56.com##.adv01 + a
 shoujizhan.cn##.prad
@@ -16930,7 +16931,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"ads/about")][text()]//ancestor::span'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//span/div[@class][@role][contains(., "Anzeige") or contains(., "Sponsored") or contains(., "Sponsorlu") or contains(., "Gesponsert") or contains(., "Patrocinado") or contains(., "Sponsorisé") or contains(., "Commandité") or contains(., "Gesponsord") or contains(., "Sponsorowane") or contains(., "Publicidad") or contains(., "Sponsrad") or contains(., "Sponsoreret") or contains(., "Sponsoroitu") or contains(., "Sponsa") or contains(., "Sponset") or contains(., "Sponsorizat") or contains(., "Bersponsor") or contains(., "Ditaja") or contains(., "Sponsorizzato") or contains(., "May Sponsor") or contains(., "Реклама") or contains(., "贊助") or contains(., "赞助内容") or contains(., "ได้รับการสนับสนุน") or contains(., "Được tài trợ") or contains(., "प्रायोजित") or contains(., "دارای پشتیبانی مالی") or contains(., "تمويل شوي") or contains(., "সৌজন্যে") or contains(., "مُموَّل") or contains(., "سپانسرڈ") or contains(., "ממומן") or contains(., "Hirdetés")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//span/following::a[@aria-labelledby][@role="link"][@target="_blank"][@tabindex="0"]/ancestor-or-self::span'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label="image"][@class][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label][@class][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
@@ -18100,6 +18101,7 @@ zzzyk.com###Tinfo
 ||2022facaiabc9.xyz^
 ||2023518.com/js/mi.js
 ||2048hd1.com/js/tc.js
+||205.209.138.102^
 ||208622.top^
 ||20mao.com/52
 ||20mao.com/js/sj.
@@ -20529,6 +20531,7 @@ zzzyk.com###Tinfo
 ||bejson.com/static/ydxyt/
 ||bekcd.xyz^
 ||bekco.xyz^
+||bekmhvbb.xyz^
 ||belindanbd.com^
 ||bendan.shop^
 ||bendibao.com*/tuangou.gif
@@ -21552,6 +21555,7 @@ zzzyk.com###Tinfo
 ||cpatrendreklam.com^$third-party,script
 ||cpawe.cyou^
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
+||cpddgcr.xyz^
 ||cped7.xyz^
 ||cpgo.xyz^
 ||cpm.cm.kankan.com^
@@ -24124,6 +24128,7 @@ zzzyk.com###Tinfo
 ||hsex.men/view/img/*.gif
 ||hsfbpp.xyz^
 ||hshmbx.xyz^
+||hsi2i.fun^
 ||hsiaik.com^
 ||hskzoab.cn^
 ||hslbahu.top^
@@ -24661,6 +24666,7 @@ zzzyk.com###Tinfo
 ||iporn.world/attachment/ad/
 ||ipqc5ejfe.icu^
 ||iprefer.com.tw^$third-party
+||ipryes.top^
 ||ipssss.com^
 ||iptv444.com/ad-
 ||iqede.xyz^
@@ -25441,6 +25447,7 @@ zzzyk.com###Tinfo
 ||kekenet.com/images/*980
 ||kekenet.com^*/zhike
 ||kekeshici.com/pc/images/pcAd.gif
+||kekmhvbb.xyz^
 ||kekop.cn^
 ||kelatv.com/ad/
 ||kemas.top^
@@ -27718,6 +27725,7 @@ zzzyk.com###Tinfo
 ||pjtime.com/js/show_ad
 ||pjy55d.com^
 ||pjzmbhf.cn^
+||pkfuxvbk.xyz^
 ||pki.net.cn/public/*/plugins/
 ||pki.net.cn/public/1/assets/js/custom/tt.
 ||pki.net.cn/public/1/plugins
@@ -28123,6 +28131,7 @@ zzzyk.com###Tinfo
 ||qktmwiq.cn^
 ||qkwsqq.com^
 ||ql.uzuzuz.com^
+||qlcbeg.xyz^
 ||qliiom.xyz^
 ||qlogo.cn^$domain=250dgj.ga
 ||qlogo.cn^$domain=chichiav1.xyz
@@ -29980,6 +29989,7 @@ zzzyk.com###Tinfo
 ||twnafj.xyz^
 ||two.fsylr.com^
 ||twrank.com^$third-party
+||twtfdd.xyz^
 ||twunbbs.com/images/
 ||twww.sbs^
 ||twzadf.xyz^
@@ -30122,6 +30132,7 @@ zzzyk.com###Tinfo
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uejdsw.com^
 ||uejnmjdpd.xyz^
+||uekmhvbb.xyz^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
 ||ug.snssdk.com^
@@ -30198,6 +30209,7 @@ zzzyk.com###Tinfo
 ||unpleasantconcrete.com^
 ||unqrroh.cn^
 ||untitled.dwstatic.com^
+||unxuoag.cn^
 ||unypud.cn^
 ||uo12.com^
 ||uoowu.com/a/zh*.js
@@ -31132,6 +31144,7 @@ zzzyk.com###Tinfo
 ||xeiatmf.cn^
 ||xeikwh.icu^
 ||xeiyt.cyou^
+||xekmhvbb.xyz^
 ||xemphimviet.net^$third-party
 ||xeniawyalusing.com^$third-party
 ||xerhibx.cn^
@@ -31341,6 +31354,7 @@ zzzyk.com###Tinfo
 ||xolerkr.cn^
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
+||xoojqxh.icu^
 ||xopew.cyou^
 ||xopxptn.cn^
 ||xp85.com/common/js/allpage.js
