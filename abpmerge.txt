@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-25 08:11:15
-! Total count: 32449
+! Version: 2023-12-25 16:10:15
+! Total count: 32457
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -5111,6 +5111,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ahd.ruten.com.tw/ahd/fetch_ad.php?zone=*%2C$domain=ruten.com.tw
 @@||aheadday.com^$script,xmlhttprequest
 @@||aheadmachine.com^$script,xmlhttprequest
+@@||ahhhhfs.com^$generichide
 @@||ailde.biz/a.sponsorads.js$domain=cbs.com,script
 @@||airav.cc/js/td_ga_tracker.js
 @@||airchina.com.cn/dynamicAd/
@@ -8194,6 +8195,7 @@ ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,kara
 ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,onetv.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[data-tid]
 ahaonline.cz,auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,info.cz,karaoketexty.cz,kinobox.cz,kupi.cz,maminka.cz,mojezdravi.cz,nasepenize.cz,onetv.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##a.tracked-event[href*="&tcid="]
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzitv.com,twoeggz.com###pop
+ahhhhfs.com##.site-addswarp
 ahri8.top#$#abort-current-inline-script document.querySelectorAll popMagic
 ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 ahtv.cn,duhama.tv,frdic.com,huasing.net,it168.com,qinbing.cn###ads
@@ -15807,7 +15809,6 @@ ssr.tools##.sidebar > div.widget > div.item > a[target="_blank"] > img
 ssr.tools##.widget_custom_html:nth-child(n+2)
 ssr.tools,zhujiwiki.com##.asb-post-footer
 sssam.com##+js(set-constant, ads, '')
-sssam.com##.widget_html_ad
 sstv.pw##.container > a > img[style="width: 100%;"]
 ssuip.com###mask
 ssyy.ee##.container > a[target="_blank"] > img
@@ -17310,6 +17311,7 @@ yidianzixun.com##.layer-download
 yigujin.cn###cebianlan img[src*="/tp/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
+yimenapp.com,sssam.com##.widget_html_ad
 yimuhe.com###maincontent3 > div[style^="height"]
 yingav.com##.spots
 yisu.com##.coupon-get-link
@@ -18222,6 +18224,7 @@ zzzyk.com###Tinfo
 ||2ccc.com/images/sino.gif
 ||2cnjuh34jbman.com^$third-party
 ||2cq.com/third/tieba/sidebar
+||2cursjb.com^
 ||2d4f.com/love/
 ||2fa20230511.live^
 ||2g9x9uf.cn^
@@ -18236,6 +18239,7 @@ zzzyk.com###Tinfo
 ||2pogg4c.cn^
 ||2pwja.cn^
 ||2qpqwkx.cn^
+||2rwonuh.com^
 ||2s8s.com^
 ||2tyne.ic^
 ||2tyne.icu^
@@ -21457,6 +21461,7 @@ zzzyk.com###Tinfo
 ||cnki.com.cn/cnki/js/adrightdetail.js
 ||cnlg.cn/attached/script/
 ||cnmo-img.com.cn/oddjs/
+||cnmo.com/oddjs/
 ||cnmo.com/pv.js
 ||cnmoad.com/wp-content/uploads/*_banner.
 ||cnmysoft.com/images/logo02.png
@@ -26636,6 +26641,7 @@ zzzyk.com###Tinfo
 ||mixer.sina.cn^
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||miyushu.com^
+||mjappzvz.xyz^
 ||mjg0310.com^
 ||mjxtiht.cn^
 ||mk795.cn^
@@ -29591,6 +29597,7 @@ zzzyk.com###Tinfo
 ||tencent.com/developer/api/common/getAds
 ||tencent.com/developer/api/common/getOneAds
 ||tencent.xn--io0a7i^
+||tenekslu.com^
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengzhihh.com/image/*-950x277.
@@ -29759,6 +29766,7 @@ zzzyk.com###Tinfo
 ||tj.21ic.com^
 ||tj.allcdn.vip^
 ||tj.sosomp.com^
+||tjappzvz.xyz^
 ||tjbxhn.xyz^
 ||tjj.com^
 ||tjjd83.xyz^
