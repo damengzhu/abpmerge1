@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-28 08:11:09
-! Total count: 32512
+! Version: 2023-12-28 16:10:34
+! Total count: 32521
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1020,6 +1020,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/dsf188.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='-fghgdf.com']
@@ -16276,7 +16277,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.net,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.net,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz#$#abort-on-property-read document.cookie
 truyentuan.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -16511,8 +16512,10 @@ v.baidu.com##div[id^="adv_asp_"]
 v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
+v.qq.com###iwan-gamependant-page
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
+v.qq.com##.game-switch-ad
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -16602,7 +16605,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in#$#abort-current-inline-script WebAssembly instantiate
+viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -26705,6 +26708,7 @@ zzzyk.com###Tinfo
 ||mmgg62.com^
 ||mmiedf.xyz^
 ||mmkkhhnn.cn^
+||mmn811.top^
 ||mmonly.cc/js/mmonlyAPP.js
 ||mmszxc.top^
 ||mmtalk.net/images/banner
@@ -26712,6 +26716,7 @@ zzzyk.com###Tinfo
 ||mmtnat.com^
 ||mmvjuti.cn^
 ||mn123cass.xyz^
+||mnfhxszj.xyz^
 ||mngjrn.cn^
 ||mnhknds.com^
 ||mnhncf.cn^
@@ -29847,6 +29852,7 @@ zzzyk.com###Tinfo
 ||tnc3-bjlgy.snssdk.com^
 ||tnc3-bjlgy.zijieapi^
 ||tnebxv.top^
+||tnfhxszj.xyz^
 ||tngmn.com^$third-party
 ||tnjvz.cn^
 ||tns.simba.taobao.com^
@@ -30018,6 +30024,7 @@ zzzyk.com###Tinfo
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
 ||tupwiwm.com^
+||tuqnwz.icu^
 ||turifb.xyz^
 ||tushwjp.icu^
 ||tusmangas.net/ama/oso.js$script
@@ -30557,6 +30564,7 @@ zzzyk.com###Tinfo
 ||vjhjxh.xyz^
 ||vjie.com^$third-party
 ||vjnxpj.xyz^
+||vjpgm.space^
 ||vjrpnv.xyz^
 ||vjzjpt.xyz^
 ||vk920.com/img1/
@@ -31431,6 +31439,7 @@ zzzyk.com###Tinfo
 ||xn--xhq9mt12cf5v.xn--io0a7i^$third-party
 ||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
+||xnfhxszj.xyz^
 ||xng02.com/api.php?mod=ad&
 ||xni.ink^
 ||xnimg.cn^*/liveinc/rightlive.js
