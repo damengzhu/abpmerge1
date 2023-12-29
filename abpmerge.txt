@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2023-12-29 08:10:51
-! Total count: 32542
+! Version: 2023-12-29 16:11:38
+! Total count: 32551
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -846,6 +846,7 @@
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
+##.pggb > .ng-star-inserted
 ##.photo-two > a[onclick^="_czc."]
 ##.player + .sponsor
 ##.player-bottom-gg
@@ -10169,6 +10170,7 @@ docs.cfw.lbyczf.com###推广
 docs.cfw.lbyczf.com###推广 + div.list
 docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 docsmall.com##.modal-connection.show
+docsmall.com#@##google-ads
 dogedoge.com##.tag-home__item
 dogfight360.com##+js(abort-current-script, document.write, document.write(ad);)
 doii.cc##.w-\[200px\].fixed
@@ -16000,6 +16002,7 @@ techbang.com##.phone-ads
 techbang.com##.post-side > .related-article
 techbang.com##.techbang_i_m_970x250_1
 techbang.com##div[class^="techbang_inline_"]
+technews.tw##.inside_AD
 techug.com##a[href*="/222.html"]
 techug.com##a[href*="/eee.html"]
 techug.com,webhek.com##a[href*="/4r4.html"]
@@ -22329,6 +22332,7 @@ zzzyk.com###Tinfo
 ||dsbt7.com^
 ||dsbudkwq.xyz^
 ||dsctnsn.xyz^
+||dsdklnks.com^
 ||dsfd67.com^
 ||dshangyan.com/pc/advertising/
 ||dshapv.xyz^
@@ -24762,6 +24766,7 @@ zzzyk.com###Tinfo
 ||islbaho.top^
 ||isna.top^
 ||isnd.top^
+||isoffss.com^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||iswgnn.com^
@@ -26860,6 +26865,7 @@ zzzyk.com###Tinfo
 ||mtienlx.top^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
 ||mtime.cn/tg/
+||mtnwxhjv.xyz^
 ||mtur.xkmnbt.xyz^
 ||mu6m1.com^
 ||muchenzhongguo.com^
@@ -26991,6 +26997,7 @@ zzzyk.com###Tinfo
 ||n2.hk/promo/
 ||n2faw.site^
 ||n3567.com^
+||n522rv1.cn^
 ||n5725.com^
 ||n5m5.com/static/js/playcon.js
 ||n5ta9.site^
@@ -29155,6 +29162,7 @@ zzzyk.com###Tinfo
 ||slfindmarket.live^
 ||slit.cn/slimages/
 ||slkdfg.com^
+||slkdnlkfnskl.com^
 ||sllo.top^
 ||slonlyuse.shop^
 ||slsuggestion.live^
@@ -30007,6 +30015,7 @@ zzzyk.com###Tinfo
 ||ttgjwxp.icu^
 ||ttienli.top^
 ||ttly888.com^
+||ttnwxhjv.xyz^
 ||ttpybz.xyz^
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
