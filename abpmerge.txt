@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-02 16:09:43
-! Total count: 32617
+! Version: 2024-01-03 08:11:07
+! Total count: 32626
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -8925,7 +8925,6 @@ beeg.com,oral-amateure.com,upornia.com,hotmovs.com,voyeurhit.com,hdzog.com#$#abo
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beforeitsnews.com###fancybox-overlay
 beforeitsnews.com###fancybox-wrap
-beforeitsnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML;
 beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,ipatriot.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
 behe.com
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
@@ -14059,7 +14058,6 @@ netfly.lol##[style^="display: flex; justify-content:"]
 nettruyenai.com#$#abort-current-inline-script Promise break;case
 nettruyenus.net#$#abort-on-property-read sp
 netviagens.com###nvAdForm
-new.qq.com##+js(json-prune, ads)
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com#@##TopAd
 newcger.com##.banner_recom
@@ -16535,6 +16533,7 @@ v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
+v.qq.com,new.qq.com##+js(json-prune, ads)
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
 v.youku.com##.advertise-layer
@@ -16616,7 +16615,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.tube,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17040,6 +17039,7 @@ www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
+www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
 www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0';simulate-mouse-event 'button.ytp-ad-skip-button-modern'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
@@ -20695,6 +20695,7 @@ zzzyk.com###Tinfo
 ||bjtgds.xyz^
 ||bjwj2y.com/JS/LsJS.aspx
 ||bkae.top^
+||bkbbjtfp.xyz^
 ||bkhblj.xyz^
 ||bkill.com/css/js/*top
 ||bkill.com/css/js/abcbl.js
@@ -25567,6 +25568,7 @@ zzzyk.com###Tinfo
 ||kgelugaz.com^
 ||kgeshe.site^
 ||kgfjrb711.com^
+||kggikf.icu^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgnpwdf.cn^$third-party
 ||khgjfm16.com^
@@ -25602,6 +25604,7 @@ zzzyk.com###Tinfo
 ||kjvaqbyebqarl.top^
 ||kjvnfhdgb.com^
 ||kjwysxs.cn^
+||kkbbjtfp.xyz^
 ||kkddlt2f.site^$third-party
 ||kkeojk.xyz^
 ||kkisoo.com^
@@ -26769,6 +26772,7 @@ zzzyk.com###Tinfo
 ||mmvjuti.cn^
 ||mn123cass.xyz^
 ||mnfhxszj.xyz^
+||mnfse.cn^
 ||mngjrn.cn^
 ||mnhknds.com^
 ||mnhncf.cn^
@@ -27277,6 +27281,7 @@ zzzyk.com###Tinfo
 ||nryqr.cn^
 ||nrzzaep.xyz^
 ||nsclick.baidu.com^
+||nshypdry.xyz^
 ||nsimg.net^
 ||nswtojdi.icu^
 ||ntce.com/images/js/ntce_public.js
@@ -27285,6 +27290,7 @@ zzzyk.com###Tinfo
 ||ntlzvrv.xyz^
 ||ntozchv.icu^
 ||ntozr.top^
+||ntrwnd.xyz^
 ||ntsibo.com^
 ||nuannuanqi.top^
 ||nubcdaqa.xyz^
@@ -30324,6 +30330,7 @@ zzzyk.com###Tinfo
 ||ujian.cc^$third-party
 ||ujnkn.com^
 ||uk529u0.cn^
+||ukbbjtfp.xyz^
 ||ukjwyv.icu^
 ||ukkkmg.xyz^
 ||ukpsal.icu^
@@ -31483,6 +31490,7 @@ zzzyk.com###Tinfo
 ||xlca666.site^
 ||xlgqy.com^
 ||xlivrdr.com^
+||xlnvvbk.xyz^
 ||xlpu.cc/adv/
 ||xls.go.sohu.com^
 ||xltmjevd.xyz^
@@ -32060,6 +32068,7 @@ zzzyk.com###Tinfo
 ||yxad.com/baidu/
 ||yxad.com/yxad/
 ||yxbao.com/js/beitou.
+||yxcrcc.xyz^
 ||yxdd.com^$subdocument
 ||yxdm.*/js/ddetector.js
 ||yxdm.tv/js/gad.js
