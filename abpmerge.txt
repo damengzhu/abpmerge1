@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-05 08:11:27
-! Total count: 32732
+! Version: 2024-01-05 16:09:49
+! Total count: 32738
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1113,6 +1113,7 @@
 ##DIV.ec-ad.tim-box
 ##DIV.fixed-bottom.d-block.d-sm-none.movies_ad
 ##DIV.footer-appload.js-footer-appload
+##DIV.hidden-lg[style='position: absolute;bottom: 0px;z-index: 10;']
 ##DIV.index_adpic
 ##DIV.loc_banner.only-app
 ##DIV.module-adslist
@@ -14783,6 +14784,8 @@ playwire.com#@#.text-ads
 playwire.com#@#.textAd
 playwire.com#@#.text_ad
 playwire.com#@#.text_ads
+playwright.nodejs.cn###pagead
+playwright.nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 playzuan.com###ShouYe_ShangBu
 plej.tv#@#.advert_box
 plus-belle-la-vie-replay.blogspot.com#@##adsense
@@ -16356,7 +16359,7 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
 truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com#$#abort-on-property-read document.cookie
-truyentuan.com#$#abort-current-inline-script $ btpop
+truyentuanop.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
@@ -16686,7 +16689,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.media,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17258,7 +17261,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilac86.net#$#abort-on-property-read adsRedirectPopups
+xoilac96.net#$#abort-on-property-read adsRedirectPopups
 xoivo2.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
@@ -29684,6 +29687,7 @@ zzzyk.com###Tinfo
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szafvjdd.icu^
+||szbpf.cn^
 ||szbxm.cn^
 ||szcmcs.com^
 ||szdaqi88.com^
@@ -30091,6 +30095,7 @@ zzzyk.com###Tinfo
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp002.cfd^
 ||tpvuxt.xyz^
+||tpyerxzn.xyz^
 ||tpzatf.xyz^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
@@ -31669,6 +31674,7 @@ zzzyk.com###Tinfo
 ||xphcrjth.xyz^
 ||xpicj1.cc^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
+||xpyerxzn.xyz^
 ||xpynqq.com^
 ||xqbjjh.xyz^
 ||xqblnei.cn^
