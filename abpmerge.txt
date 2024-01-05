@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-04 16:10:31
-! Total count: 32665
+! Version: 2024-01-05 08:11:27
+! Total count: 32732
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###J_sideFooter.side_footer
@@ -1021,6 +1021,7 @@
 ##A.toptxt[target='_blank']
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
+##A[href*="/dsf88.cc"]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
 ##A[href*='-fghgdf.com']
@@ -1693,6 +1694,7 @@
 ##div[style*="jczunp.xyz"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display:none;"] + script + #container.container
+##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ##div[style="position: fixed; top: 0px; overflow: hidden; z-index: 2147483647; background-color: rgba(0, 0, 0, 0.5); height: 110%;"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
@@ -2878,6 +2880,7 @@ $websocket,domain=5nj.com|cechi8.com
 /maizhan/js/age.js
 /manduan-dev.oss-
 /matongwu/img/gg_
+/media/fitad/*
 /meinv/js/*_banner.js
 /meitui.org\/[a-z].js/$domain=meitui.org
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
@@ -5175,6 +5178,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||amazingairplane.com^$script,xmlhttprequest
 @@||amazonaws.com/socketloop/show_ads_epmads.js$script,domain=socketloop.com
 @@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
+@@||ambiguousafternoon.com^$script,xmlhttprequest
 @@||ambiguousalarm.com^$script,xmlhttprequest
 @@||ambiguousanger.com^$script,xmlhttprequest
 @@||ambiguousdinosaurs.com^$script,xmlhttprequest
@@ -5182,6 +5186,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ambiguousquilt.com^$script,xmlhttprequest
 @@||ambitiousagreement.com^$script,xmlhttprequest
 @@||ambitiousanimal.com^$script,xmlhttprequest
+@@||amethystzenith.com^$script,xmlhttprequest
 @@||aminhaconta.xl.pt/Campaigns/Blockers/ads.html$subdocument,document=record.xl.pt
 @@||amuckafternoon.com^$script,xmlhttprequest
 @@||amusementmorning.com^$script,xmlhttprequest
@@ -5243,6 +5248,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||aspiringattempt.com^$script,xmlhttprequest
 @@||assbbs.com^$generichide
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
+@@||astonishingair.com^$script,xmlhttprequest
 @@||astyle.alicdn.com/??
 @@||atanx.alicdn.com/t/tanxssp.js$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
@@ -5328,6 +5334,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||beastbeef.com^$script,xmlhttprequest
 @@||beautifulhobbies.com^$script,xmlhttprequest
 @@||bedsberry.com^$script,xmlhttprequest
+@@||beetleend.com^$script,xmlhttprequest
 @@||begintrain.com^$script,xmlhttprequest
 @@||beneficialbeef.com^$script,xmlhttprequest
 @@||benthose.com^$script,xmlhttprequest
@@ -5376,6 +5383,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||boringcoat.com^$script,xmlhttprequest
 @@||bouncyfront.com^$script,xmlhttprequest
 @@||bouncyproperty.com^$script,xmlhttprequest
+@@||boundarybusiness.com^$script,xmlhttprequest
 @@||boundlessveil.com^$script,xmlhttprequest
 @@||boxfaucet.com/banner.gif$image
 @@||boxfaucet.net/banner.gif$image
@@ -5410,6 +5418,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||bulbbait.com^$script,xmlhttprequest
 @@||bunchance.com^$script,xmlhttprequest
 @@||burgerbrush.com^$script,xmlhttprequest
+@@||burlywhistle.com^$script,xmlhttprequest
 @@||burnbubble.com^$script,xmlhttprequest
 @@||burstblade.com^$script,xmlhttprequest
 @@||bushesbag.com^$script,xmlhttprequest
@@ -5456,6 +5465,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||castcream.com^$script,xmlhttprequest
 @@||catalogdiscovery.com^$script,xmlhttprequest
 @@||catschickens.com^$script,xmlhttprequest
+@@||cattlecommittee.com^$script,xmlhttprequest
 @@||causecherry.com^$script,xmlhttprequest
 @@||cautiouscrate.com^$script,xmlhttprequest
 @@||cautiouscredit.com^$script,xmlhttprequest
@@ -5499,6 +5509,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||chairscrack.com^$script,xmlhttprequest
 @@||chairsdonkey.com^$script,xmlhttprequest
+@@||changeablecats.com^$script,xmlhttprequest
 @@||changyan.sohu.com/debug/cookie?
 @@||changyou.com^$generichide
 @@||channelcamp.com^$script,xmlhttprequest
@@ -5509,6 +5520,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||chemicalcoach.com^$script,xmlhttprequest
 @@||chemicalsnake.com^$script,xmlhttprequest
 @@||cherriescare.com^$script,xmlhttprequest
+@@||cherriescloud.com^$script,xmlhttprequest
 @@||cheshi-img.com/ad/csad_2019.js
 @@||chesscherry.com^$script,xmlhttprequest
 @@||chesscolor.com^$script,xmlhttprequest
@@ -5574,11 +5586,13 @@ $websocket,domain=5nj.com|cechi8.com
 @@||colossalchance.com^$script,xmlhttprequest
 @@||colossalclouds.com^$script,xmlhttprequest
 @@||colossalcoat.com^$script,xmlhttprequest
+@@||colossalcry.com^$script,xmlhttprequest
 @@||combativecar.com^$script,xmlhttprequest
 @@||combativedetail.com^$script,xmlhttprequest
 @@||combbelief.com^$script,xmlhttprequest
 @@||combbit.com^$script,xmlhttprequest
 @@||combclover.com^$script,xmlhttprequest
+@@||combcompetition.com^$script,xmlhttprequest
 @@||comfortablecheese.com^$script,xmlhttprequest
 @@||commonalmanac.com^$script,xmlhttprequest
 @@||commonswing.com^$script,xmlhttprequest
@@ -5613,6 +5627,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||copycarpenter.com^$script,xmlhttprequest
 @@||copyrightaccesscontrols.com^$script,xmlhttprequest
 @@||copytitle.com^$script,xmlhttprequest
+@@||coralreverie.com^$script,xmlhttprequest
 @@||correctchaos.com^$script,xmlhttprequest
 @@||cosmosjackson.com^$script,xmlhttprequest
 @@||costco.com.tw/_ui/shared/js/analyticsmediator.js
@@ -5670,6 +5685,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||curvycry.com^$script,xmlhttprequest
 @@||cushiondrum.com^$script,xmlhttprequest
 @@||cushionpig.com^$script,xmlhttprequest
+@@||cutcurrent.com^$script,xmlhttprequest
 @@||cutecalculator.com^$script,xmlhttprequest
 @@||cutechin.com^$script,xmlhttprequest
 @@||cutecushion.com^$script,xmlhttprequest
@@ -5683,6 +5699,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||da.mgtv.com/m/player?
 @@||da.mgtv.com/m5/page?
 @@||dailybitcoins.org/banners/$image
+@@||dailydivision.com^$script,xmlhttprequest
 @@||dama.bg^*/js/ad$script
 @@||damageddistance.com^$script,xmlhttprequest
 @@||damagedroll.com^$script,xmlhttprequest
@@ -5862,25 +5879,30 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ekamus.info^$generichide
 @@||elasticchange.com^$script,xmlhttprequest
 @@||elasticducks.com^$script,xmlhttprequest
+@@||elderlybean.com^$script,xmlhttprequest
 @@||elderlyinsect.com^$script,xmlhttprequest
 @@||elderlyscissors.com^$script,xmlhttprequest
 @@||elderlytown.com^$script,xmlhttprequest
 @@||elephantqueue.com^$script,xmlhttprequest
 @@||elife-cloud.blogspot.com^$generichide
 @@||em.hk/wp-content/uploads/*_300_250.
+@@||eminentbubble.com^$script,xmlhttprequest
 @@||emome.net/files/advertising/
 @@||emptyescort.com^$script,xmlhttprequest
 @@||enchantedjudge.com^$script,xmlhttprequest
 @@||enchantedtop.com^$script,xmlhttprequest
+@@||enchantingvalley.com^$script,xmlhttprequest
 @@||encourageidea.com^$script,xmlhttprequest
 @@||encourageshock.com^$script,xmlhttprequest
 @@||encouragingleaf.com^$script,xmlhttprequest
+@@||encouragingthread.com^$script,xmlhttprequest
 @@||encouragingvase.com^$script,xmlhttprequest
 @@||encouragingwilderness.com^$script,xmlhttprequest
 @@||endurablecrayon.com^$script,xmlhttprequest
 @@||endurableshop.com^$script,xmlhttprequest
 @@||energeticexample.com^$script,xmlhttprequest
 @@||energeticladybug.com^$script,xmlhttprequest
+@@||engineergrape.com^$script,xmlhttprequest
 @@||engineertrick.com^$script,xmlhttprequest
 @@||english-subtitles.club/assets/$image,~third-party
 @@||enormousearth.com^$script,xmlhttprequest
@@ -5951,9 +5973,11 @@ $websocket,domain=5nj.com|cechi8.com
 @@||fearfulfish.com^$script,xmlhttprequest
 @@||fearfulmint.com^$script,xmlhttprequest
 @@||fearlessfaucet.com^$script,xmlhttprequest
+@@||featherstage.com^$script,xmlhttprequest
 @@||feebleshock.com^$script,xmlhttprequest
 @@||feilusw.com/search.html$genericblock,generichide
 @@||fengkongcloud.com/fpv2.js
+@@||fewkittens.com^$script,xmlhttprequest
 @@||fharr.com^$generichide
 @@||fifthborder.com^$script,xmlhttprequest
 @@||filehorse.com/js/ads.js$script
@@ -5987,6 +6011,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||foamyfood.com^$script,xmlhttprequest
 @@||fokus.tv/html/js/adv.bbelements.js$script,domain=fokus.tv
 @@||folha.uol.com.br/*/publicidade.ads.js$script
+@@||followborder.com^$script,xmlhttprequest
 @@||forecasttiger.com^$script,xmlhttprequest
 @@||foregoingfowl.com^$script,xmlhttprequest
 @@||forexprostools.com^$domain=shougedui.com
@@ -6056,6 +6081,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||ge-map-overlays.appspot.com/files/js/ads.js$script
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||generalprose.com^$script,xmlhttprequest
+@@||generateoffice.com^$script,xmlhttprequest
 @@||generatorlinkpremium.com/js/ads.js$script
 @@||genesyslogic.com^*/ads$~third-party
 @@||genshuixue.com/??/*/counter/action_
@@ -6065,6 +6091,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||gg.wudizuqiu.com/72nba.js
 @@||ggg50.pw^$generichide
 @@||ghacks.net/wp-content/plugins/bwp-minify/$stylesheet,domain=ghacks.net
+@@||giantsvessel.com^$script,xmlhttprequest
 @@||gias.jd.com/js/td.js
 @@||giddycoat.com^$script,xmlhttprequest
 @@||gifshow.com/rest/wd/common/log/collect/acfun
@@ -6189,6 +6216,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||haokoubei.top/dl/rfo_v_f_pc.js
 @@||haokoubei.top/sz/to_v_f.js
 @@||haoweichi.com/Public/js/ads.js
+@@||haplesshydrant.com^$script,xmlhttprequest
 @@||happenhistory.com^$script,xmlhttprequest
 @@||harborcaption.com^$script,xmlhttprequest
 @@||harborcub.com^$script,xmlhttprequest
@@ -6554,6 +6582,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||manwa.fun/static/upload/ads/*.gif?$image,~third-party
 @@||manwa.me/static/custom/files/300X250.gif
 @@||manwa.me^
+@@||marblediscussion.com^$script,xmlhttprequest
 @@||markedcrayon.com^$script,xmlhttprequest
 @@||markedmeasure.com^$script,xmlhttprequest
 @@||markedpail.com^$script,xmlhttprequest
@@ -6761,6 +6790,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||optimized-by.rubiconproject.com/a/10926/26000/$subdocument,domain=onemanga.me
 @@||optyczne.pl/adsense.js$script
 @@||orangeoperation.com^$script,xmlhttprequest
+@@||organizationdogs.com^$script,xmlhttprequest
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ouest-france.fr/sites/all/themes/base/js/adblock.js$script
 @@||outstandingincome.com^$script,xmlhttprequest
@@ -6922,6 +6952,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagead2.googlesyndication.com^$script,domain=hackintosh.computer
 @@||pailcrime.com^$script,xmlhttprequest
+@@||pailpatch.com^$script,xmlhttprequest
 @@||painstakingpickle.com^$script,xmlhttprequest
 @@||paintpear.com^$script,xmlhttprequest
 @@||paintplantation.com^$script,xmlhttprequest
@@ -6991,6 +7022,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||piquantprice.com^$script,xmlhttprequest
 @@||piquantstove.com^$script,xmlhttprequest
 @@||pizzasnut.com^$script,xmlhttprequest
+@@||pkstep.com^$generichide
 @@||placeframe.com^$script,xmlhttprequest
 @@||placidperson.com^$script,xmlhttprequest
 @@||plainplayground.com^$script,xmlhttprequest
@@ -7089,8 +7121,10 @@ $websocket,domain=5nj.com|cechi8.com
 @@||puffypurpose.com^$script,xmlhttprequest
 @@||puhtml.com/7c/70/ab/$script,domain=jav4.me
 @@||pumpedpancake.com^$script,xmlhttprequest
+@@||pumpedpurpose.com^$script,xmlhttprequest
 @@||punyplant.com^$script,xmlhttprequest
 @@||purchasesuggestion.com^$script,xmlhttprequest
+@@||purposepipe.com^$script,xmlhttprequest
 @@||puzzlingproperty.com^$script,xmlhttprequest
 @@||pv.sohu.com/suv/
 @@||q.gs^$generichide
@@ -7195,6 +7229,9 @@ $websocket,domain=5nj.com|cechi8.com
 @@||resonantrock.com^$script,xmlhttprequest
 @@||respectrain.com^$script,xmlhttprequest
 @@||restrainstorm.com^$script,xmlhttprequest
+@@||restructureinvention.com^$script,xmlhttprequest
+@@||retrievemint.com^$script,xmlhttprequest
+@@||rhetoricalactivity.com^$script,xmlhttprequest
 @@||rhetoricalloss.com^$script,xmlhttprequest
 @@||rhetoricaltoes.com^$script,xmlhttprequest
 @@||rhetoricalveil.com^$script,xmlhttprequest
@@ -7250,6 +7287,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||s3-eu-west-1.amazonaws.com/bucket-ad/ad-image.png=$image
 @@||sablesmile.com^$script,xmlhttprequest
 @@||sablesong.com^$script,xmlhttprequest
+@@||saffronrefuge.com^$script,xmlhttprequest
 @@||sailsuit.com^$script,xmlhttprequest
 @@||samestretch.com^$script,xmlhttprequest
 @@||sandinsect.com^$script,xmlhttprequest
@@ -7268,6 +7306,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||saysidewalk.com^$script,xmlhttprequest
 @@||sc.r7.com/js/ads.js$script
 @@||scambiofile.info/js/ads.$script
+@@||scarcecard.com^$script,xmlhttprequest
 @@||scarcesign.com^$script,xmlhttprequest
 @@||scarcesurprise.com^$script,xmlhttprequest
 @@||scarecrowslip.com^$script,xmlhttprequest
@@ -7335,6 +7374,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||serving-sys.com^$third-party,domain=myspass.de
 @@||seselah.com^$generichide
+@@||settleshoes.com^$script,xmlhttprequest
 @@||sexpalace.gs/intermission/loadTargetUrl$xmlhttprequest
 @@||seyise8.com^$generichide
 @@||seyy66.space^$generichide
@@ -7418,6 +7458,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||skillfuldrop.com^$script,xmlhttprequest
 @@||skillfulsock.com^$script,xmlhttprequest
 @@||skiplimite.tv^$elemhide
+@@||skisofa.com^$script,xmlhttprequest
 @@||skyrimcalculator.com/showads.js$script,~third-party
 @@||slacker.com^$xmlhttprequest
 @@||slashlook.com/_resource/js/_js_ads.min.js
@@ -7452,6 +7493,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||snakemineral.com^$script,xmlhttprequest
 @@||snakesshop.com^$script,xmlhttprequest
 @@||snakesstone.com^$script,xmlhttprequest
+@@||sneakwind.com^$script,xmlhttprequest
 @@||sneakystew.com^$script,xmlhttprequest
 @@||snesfun.com/js/ads.js$script
 @@||snoresmile.com^$script,xmlhttprequest
@@ -7475,6 +7517,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||sombersurprise.com^$script,xmlhttprequest
 @@||songssmoke.com^$script,xmlhttprequest
 @@||sootheside.com^$script,xmlhttprequest
+@@||soothingglade.com^$script,xmlhttprequest
 @@||sophisticatedstory.com^$script,xmlhttprequest
 @@||sophisticatedstove.com^$script,xmlhttprequest
 @@||sordidsmile.com^$script,xmlhttprequest
@@ -7523,10 +7566,12 @@ $websocket,domain=5nj.com|cechi8.com
 @@||spottedsnow.com^$script,xmlhttprequest
 @@||springaftermath.com^$script,xmlhttprequest
 @@||springsister.com^$script,xmlhttprequest
+@@||spuriousair.com^$script,xmlhttprequest
 @@||spuriousbase.com^$script,xmlhttprequest
 @@||spurioussteam.com^$script,xmlhttprequest
 @@||spuriousstranger.com^$script,xmlhttprequest
 @@||spysubstance.com^$script,xmlhttprequest
+@@||squalidscrew.com^$script,xmlhttprequest
 @@||squashfriction.com^$script,xmlhttprequest
 @@||squeakzinc.com^$script,xmlhttprequest
 @@||squealingturn.com^$script,xmlhttprequest
@@ -7544,6 +7589,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||st.vtomske.ru/js/adv*.js$script
 @@||stakingbasket.com^$script,xmlhttprequest
 @@||stakingscrew.com^$script,xmlhttprequest
+@@||stakingshock.com^$script,xmlhttprequest
 @@||stakingslope.com^$script,xmlhttprequest
 @@||stakingsmile.com^$script,xmlhttprequest
 @@||staleseat.com^$script,xmlhttprequest
@@ -7581,6 +7627,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@||stereoproxy.com^$script,xmlhttprequest
 @@||stereotypedclub.com^$script,xmlhttprequest
 @@||stereotypedsugar.com^$script,xmlhttprequest
+@@||stewedge.com^$script,xmlhttprequest
+@@||stewspiders.com^$script,xmlhttprequest
 @@||stickssheep.com^$script,xmlhttprequest
 @@||stickysheet.com^$script,xmlhttprequest
 @@||stiffgame.com^$script,xmlhttprequest
@@ -7594,6 +7642,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||storeslope.com^$script,xmlhttprequest
 @@||storesurprise.com^$script,xmlhttprequest
 @@||stormyachiever.com^$script,xmlhttprequest
+@@||stormyfold.com^$script,xmlhttprequest
 @@||stoveseashore.com^$script,xmlhttprequest
 @@||straight-world.de/js/ads.js$script
 @@||straightnest.com^$script,xmlhttprequest
@@ -7647,6 +7696,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||sweepsheep.com^$script,xmlhttprequest
 @@||sweetslope.com^$script,xmlhttprequest
 @@||swellstocking.com^$script,xmlhttprequest
+@@||swelteringsleep.com^$script,xmlhttprequest
 @@||swelteringsmile.com^$script,xmlhttprequest
 @@||swimslope.com^$script,xmlhttprequest
 @@||swingslip.com^$script,xmlhttprequest
@@ -7774,6 +7824,8 @@ $websocket,domain=5nj.com|cechi8.com
 @@||tracklog.58.com/referrer$~third-party
 @@||trackr.fr/sites/all/themes/contrib/touch/js/miroirs/adwordstracking.js$script
 @@||tradetooth.com^$script,xmlhttprequest
+@@||tranquilamulet.com^$script,xmlhttprequest
+@@||tranquilcanyon.com^$script,xmlhttprequest
 @@||tranquilside.com^$script,xmlhttprequest
 @@||translate.googleapis.com/element/
 @@||translate.googleapis.com/translate_
@@ -7895,6 +7947,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||videoo.info/show_ads.js$script,domain=videoo.info
 @@||videoplaza.tv^$object-subrequest,domain=canalplus.fr
 @@||videoweed.es/banner.php$script
+@@||violetreading.com^$script,xmlhttprequest
 @@||vipstatic.com/img/share/blank.png
 @@||virgoplato.com^$script,xmlhttprequest
 @@||virpe.com/includes/js/adver.js$script,domain=virpe.com
@@ -7923,6 +7976,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||wallpapermania.eu/assets/js/ads.js$xmlhttprequest
 @@||wallpapershacker.com/js/adsbygoogle.js$script
 @@||wancaibb.com/share/js/share.min.js
+@@||wantingwindow.com^$script,xmlhttprequest
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||warmafterthought.com^$script,xmlhttprequest
 @@||warmquiver.com^$script,xmlhttprequest
@@ -7931,6 +7985,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||washbanana.com^$script,xmlhttprequest
 @@||waterbitco.in/show_ads.js$script
 @@||wateryvan.com^$script,xmlhttprequest
+@@||waterywave.com^$script,xmlhttprequest
 @@||wavse.com^$generichide
 @@||wearbasin.com^$script,xmlhttprequest
 @@||wearywater.com^$script,xmlhttprequest
@@ -8017,6 +8072,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||yast.rutube.ru/crossdomain.xml$object-subrequest
 @@||yellowbridge.com^$elemhide
 @@||yesiget.i234.me^$generichide
+@@||yieldingwoman.com^$script,xmlhttprequest
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.jp/combo?*/ad/
@@ -8139,6 +8195,7 @@ acg17.com,secretmine.net##.e3lan
 acgbuster.moe##.tg-inner
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,dzbhdm.net,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
+acgfta.com##A[href^="https://ifift.com/"]
 acggd.com##a[href*=".apk"]
 acgking.com,dbtmn.com##.asst
 acglala.cc##a[href*=".jigdh.com"]
@@ -11839,6 +11896,7 @@ hqdoor.com##.index_newad
 hqew.com##.js-ad-tips
 hqew.com##.pop-banner
 hqew.com##div[class^="g-ad-"]
+hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
 htmanga4.top##+js(abort-on-property-read, tips)
@@ -11969,7 +12027,6 @@ ibaotu.com##.bg-feedback
 ibaotu.com##.comVip-tg
 ibaotu.com##.ibaotu-md-click[ibaotu-md-value="detail_top_ad"]
 ibf.tw###top_d
-ibiquges.info##div[style="margin:10px auto;width: 930px;height: 250px;"]
 ibm.com###dw-regbar
 icanzc.com###contbot
 icanzc.com###contsec
@@ -12460,7 +12517,6 @@ ishangman.com#@#.bottom_ad
 ishowx.com##.ad1160
 ishuati.com###adsh
 ishuhui.com##.a_xx_d
-ishuquge.com##div[style="margin:10px auto;width: 930px;height: 250px;"]
 isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 isso.com.cn##.right-content-div > .top-div + div
 it1352.com##.content-wrap > .hidden-sm:nth-child(-n+2)
@@ -17058,15 +17114,14 @@ www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
-www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0';simulate-mouse-event 'button.ytp-ad-skip-button-modern'
+www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button$delay=0'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'; simulate-mouse-event 'button.ytp-ad-skip-button,button.ytp-ad-skip-button-modern$delay=0'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting")]'
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
@@ -20168,6 +20223,7 @@ zzzyk.com###Tinfo
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
+||avvfjhg.xyz^
 ||avxwcuaagfcdn.net^$domain=dagens.dk
 ||awareista.com^
 ||awaw.asia^
@@ -20400,6 +20456,7 @@ zzzyk.com###Tinfo
 ||bavei.com/img/*.png
 ||bavkvoks.xyz^
 ||bavxxf.xyz^
+||baxbyfn.cn^
 ||baytfede.xyz^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
@@ -20842,6 +20899,7 @@ zzzyk.com###Tinfo
 ||bphcrjth.xyz^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bplrpf.xyz^
+||bpyerxzn.xyz^
 ||bqcxgbm.cn^
 ||bqdyqq.com^
 ||bqdzvl.xyz^
@@ -22354,6 +22412,7 @@ zzzyk.com###Tinfo
 ||dr.mlcuzee.cn^
 ||dragon-guide.net/pic001/hezuo/
 ||dragon-guide.net/pic001/pic/shangcheng/
+||drawfxk.com^
 ||dreamlikeverse.com^
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
@@ -25725,6 +25784,7 @@ zzzyk.com###Tinfo
 ||kpqdkg.xyz^
 ||kprjva.cn^
 ||kpshx.douguo.com^
+||kpyerxzn.xyz^
 ||kqbrgl.icu^
 ||kqjqripb.xyz^
 ||kqskqi.xyz^
@@ -26886,6 +26946,7 @@ zzzyk.com###Tinfo
 ||mq.d6s3mov.cn^$third-party
 ||mq65.top^
 ||mqjeut5.com^
+||mqjqripb.xyz^
 ||mql5.com/rq?
 ||mqquas.xyz^
 ||mqrupjsm.xyz^
@@ -28849,6 +28910,7 @@ zzzyk.com###Tinfo
 ||sagcyq.xyz^
 ||sairy.cyou^
 ||saitef.cn^
+||sakguz.icu^
 ||salary.xiao84.com^
 ||sales-frontier.com^$third-party
 ||sam*.baby-kingdom.com^
@@ -28916,6 +28978,7 @@ zzzyk.com###Tinfo
 ||sd124.com/statics/mystyle/js/1699.js
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
+||sd2ua.icu^
 ||sd6hon.cn^
 ||sdbeta.com/statics/mystyle/js/1
 ||sdchb2.com^
@@ -29637,6 +29700,7 @@ zzzyk.com###Tinfo
 ||szjjzs.com/js/fe
 ||szjjzs.com/js/piao.js
 ||szjyfund.com^$third-party
+||szmkr.cn^
 ||szn0ehq.icu^
 ||sznews.com/s?z=
 ||szonline.net/static/js/ads.js
@@ -30443,6 +30507,7 @@ zzzyk.com###Tinfo
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uporods.com^
 ||upresim.tk/berat/js/entry$script,domain=fakirdebrid.net
+||upyerxzn.xyz^
 ||upzabkw.cn^
 ||uqelxct.cn^
 ||uqeuxpl.cn^
@@ -30718,6 +30783,7 @@ zzzyk.com###Tinfo
 ||vnq3.top^
 ||vns86.oss-*.aliyuncs.com^
 ||vnvmif.cn^
+||vnvyhj.xyz^
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
@@ -31118,6 +31184,7 @@ zzzyk.com###Tinfo
 ||wv86s.fun^
 ||wvtem.com^
 ||wvwl.cn^
+||wvyqks.xyz^
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^
