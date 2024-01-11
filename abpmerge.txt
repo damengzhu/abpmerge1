@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-11 08:11:46
-! Total count: 32854
+! Version: 2024-01-11 16:11:28
+! Total count: 32869
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9260,6 +9260,11 @@ boylove.cc##.dzxvovcm
 boylove.cc##.reader-home-swiper
 boylove.cc#?#.stui-pannel__bd > div[class]:has(> div[class] > div[class] > a[href][target="_blank"][rel="nofollow"] > img[src^="/bookimages/img/"][src$=".gif"])
 boylove.today,boylove1.cc,boyloves.fun,boylove3.cc##DIV[style='bottom: 80px;']
+boylove1.mobi##.div_sticky2
+boylove1.mobi##.fuafxnfq
+boylove1.mobi##.main-banner
+boylove1.mobi##.sponsor-colse
+boylove1.mobi##div[data-group="300x100"]
 boyoushe.com##a[href^="http"]:not([href*=".boyoushe"]) > .j-lazy
 brandsales.58.com#@#div[id^="ad_"]
 breakmanga.com###notice
@@ -11384,6 +11389,7 @@ go.10086.cn##.gaiPing
 go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
+gocphimvn.vip,p.thoctv.com#$#abort-current-inline-script document.createElement script
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
 gogi.in#@#.ad300-250
@@ -13089,7 +13095,7 @@ kenh14.vn#$#override-property-read Constants.allowAds false
 keylol.com,steamcn.com##div[class*="rnd_"]
 keywin.org##.appdownload
 keywin.org##.pindaolist
-khoaiphim.com,phimmoinay.org#$#abort-current-inline-script jQuery click_time
+khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 kickassanime.io##.ka-ax-wrapper
 kickassanime.io##.ka-ax-wrp.mb-3
@@ -16707,7 +16713,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.id,ungtycomicsvip.com,truyengihotqua.net,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qmoi.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,truyengihotvay.net,truyengihotnay.com,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -20191,6 +20197,7 @@ zzzyk.com###Tinfo
 ||atmcdn.com/www/*.js
 ||atmdew.xyz^
 ||atnnf.xyz^
+||ato.tooopen.com^
 ||atool.org/res/ads/
 ||atpanel.com^$image
 ||atrx7.com^$popup
@@ -23877,6 +23884,7 @@ zzzyk.com###Tinfo
 ||h.baminw.cn^
 ||h1.cfxinxi.cn^
 ||h1.kukuw.com^
+||h1.wk2.com^
 ||h2ji5.xyz^
 ||h2n3c.top^
 ||h45pmx1.cn^
@@ -26720,6 +26728,7 @@ zzzyk.com###Tinfo
 ||me360.com/swt/swt.js
 ||me680.com/js/*.js
 ||meaqcj.cn^
+||mebohjhh.xyz^
 ||mecop.cyou^
 ||med66.com/lamu/
 ||media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/js/blocked.min.js$script,domain=smashingmagazine.com
@@ -28657,6 +28666,7 @@ zzzyk.com###Tinfo
 ||rakuya.com.tw/position?task=
 ||ran2.top^
 ||raolmsc.com^
+||rapidgator.net/images/pics/$domain=appshot.cc
 ||rapsmnz.cyou^
 ||rarbt.cc/js/index960_
 ||rardi.cyou^
@@ -29893,6 +29903,7 @@ zzzyk.com###Tinfo
 ||tdsahkln.xyz^
 ||teads.tv^$third-party
 ||teamjwar.com^
+||tebohjhh.xyz^
 ||tech.jiukang.org^
 ||techain.baidu.com^
 ||techritual.com/wp-content/uploads/*/HDcource_
@@ -30429,6 +30440,7 @@ zzzyk.com###Tinfo
 ||u1099.com^
 ||u1102.com^
 ||u1557.com^
+||u21033.com^
 ||u22011.com^
 ||u22033.com^
 ||u22055.com^
@@ -31067,6 +31079,7 @@ zzzyk.com###Tinfo
 ||web.900.la^
 ||web4023.top^
 ||web8.net^$third-party
+||webconf.douyucdn.cn/resource/common/giftPhotos_w.json
 ||webfunny.cn^$third-party
 ||webjx.com/zanzhushang/
 ||webkaka.com*/click/$image
@@ -31548,6 +31561,7 @@ zzzyk.com###Tinfo
 ||xdw9.top^
 ||xdyjt.com^
 ||xeazoj.icu^
+||xebohjhh.xyz^
 ||xecner.top^
 ||xeghes.fun^
 ||xegneils.com^
@@ -32136,6 +32150,7 @@ zzzyk.com###Tinfo
 ||ymlykj.com/nuxt/static/liveBanner.jpg
 ||ymm17.cc^
 ||ymm19.cc^
+||ymmiyun.com^
 ||ymniqh.icu^
 ||ymyile.xyz^
 ||yncjsc.cn^
