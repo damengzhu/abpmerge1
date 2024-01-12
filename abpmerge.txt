@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-12 08:11:43
-! Total count: 32879
+! Version: 2024-01-12 16:10:59
+! Total count: 32886
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4378,7 +4378,7 @@ $websocket,domain=5nj.com|cechi8.com
 69story.com###main > div[style="margin-top: 15px;"]
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
-69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
+69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,theav.xyz,theporn.cc#$#override-property-read is_show false
 6fzd.com,eyy5.cn,fzd3.com##.area1
 6fzd.com,fzd3.com###comiis_app_block_22
@@ -10367,7 +10367,7 @@ dshangyan.com##.advHeader
 dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
-dualeotruyenww.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenid.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
@@ -10851,7 +10851,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyen.vn,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.com,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -12344,7 +12344,7 @@ instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@st
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/div[count(child::span[@style and text()])=2]/parent::div//div[contains(text(),"Recommended for you")]/ancestor::div[@class][1]/ancestor::div[@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/span[text()]/preceding::div[@aria-hidden="true"]/preceding::source[@media]/following-sibling::img[contains(@alt,"Sponsored")]/ancestor::*[@id][@class][1]'
 instacart.com,instacart.ca#$#hide-if-matches-xpath './/video[@disablepictureinpicture]/ancestor-or-self::div[contains(@id,"video-player")]/ancestor::div[@id][@class][1][not(@id="store-wrapper") and not(@id="js-app")]'
-instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-bp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-cp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-dp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ep-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ffp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
+instacart.com,instacart.ca#$#race start; hide-if-matches-xpath './/div[@class]//div/@*[contains(name(),"data-sp")]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-rp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-qp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-tp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-up-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-vvvp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-fp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ap-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-bp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-cp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-dp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ep-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-ffp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; hide-if-matches-xpath './/img[contains(@alt,"Sponsored")]/parent::*[@*[contains(name(),"data-afp-eligible")]]/ancestor::div[@aria-label="Product"]/parent::div[1]'; race stop;
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
 instantmanga.com###notice
 instrument.com.cn###leftFlash
@@ -16383,7 +16383,7 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
 truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com#$#abort-on-property-read document.cookie
-truyentuanop.com#$#abort-current-inline-script $ btpop
+truyentuanopm.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
@@ -16713,7 +16713,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.id,ungtycomicsvip.com,truyengihotqua.net,truyengihotvay.net,truyengihotnay.com,dualeotruyenww.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.id,ungtycomicsvip.com,truyengihotqua.net,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.biz,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.com,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -19798,6 +19798,7 @@ zzzyk.com###Tinfo
 ||akmh080.vip^
 ||akncklacnvka.com^
 ||aknkvallbfml.com^
+||aknusp.cn^
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||akyei.xyz^
@@ -26102,6 +26103,7 @@ zzzyk.com###Tinfo
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirsw.com^
 ||leiwo.xyz^
+||leizylb.icu^
 ||lejshxao.xyz^
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -26726,6 +26728,7 @@ zzzyk.com###Tinfo
 ||mdezco.xyz^
 ||mdfsbn.com^$third-party
 ||mdhxyhl.cn^
+||mdjdpyrt.xyz^
 ||mdkjefq.cn^
 ||mdqhyxe.cn^
 ||mdqpkdne.xyz^
@@ -27578,6 +27581,7 @@ zzzyk.com###Tinfo
 ||oghqvffmnt.com^
 ||ogkfuw.xyz^
 ||ognujxj.cn^
+||ogouawc.cn^
 ||ogxstqna.xyz^
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
@@ -29907,6 +29911,7 @@ zzzyk.com###Tinfo
 ||tdhlmto.cn^
 ||tdid.m.qq.com^
 ||tdigcw.com^
+||tdjdpyrt.xyz^
 ||tdsahkln.xyz^
 ||teads.tv^$third-party
 ||teamjwar.com^
@@ -30752,6 +30757,7 @@ zzzyk.com###Tinfo
 ||v6jt.cn^
 ||v88yaat.xyz^
 ||v9gfm.xyz^
+||vainanalyst.com^
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
 ||vakdop.icu^
@@ -31565,6 +31571,7 @@ zzzyk.com###Tinfo
 ||xdf.cn/v4/js/leyus/
 ||xdfdqce.xyz^
 ||xdh0808.com^$popup
+||xdjdpyrt.xyz^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdsahkln.xyz^
