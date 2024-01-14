@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-13 16:09:49
-! Total count: 32897
+! Version: 2024-01-14 08:10:28
+! Total count: 32909
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -739,6 +739,7 @@
 ##.heg > .partner-list
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
+##.homepage > .wp-none1
 ##.hongbao_hd
 ##.house-ads
 ##.hp_textlink_ad
@@ -822,6 +823,7 @@
 ##.mod_index_ad
 ##.module-adslist
 ##.module-adslists
+##.module-tglist > .tg-normal-box
 ##.module-ttlist.tt_w-2
 ##.module-yylist.tg_w
 ##.my-cat.my-cat-header
@@ -839,6 +841,7 @@
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.overBanner.dowloadBtn
+##.page > .wp-none1
 ##.page-wwads
 ##.pagead_3
 ##.pagecon + .ad1
@@ -10272,11 +10275,9 @@ douban.com##.channel_promo
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
-doubibackup.com###guangg_image
 doubibackup.com##.guangg
-doubibackup.com##.new_zixun
 doubibackup.com##.widgetRoller
-doubibackup.com##a[href*="/rightad"]
+doubiuser.github.io,doubibackup.com#?#.custom-html-widget:-abp-has(div[style^="position"])
 doudoudm.site##a[href*=".kxyike.com/"]
 doudoudm.site,ezdmw.com##.public_ad
 douguo.com###dlayer
@@ -11369,6 +11370,7 @@ github.com##a[href="http://gk.link/a/103EK"]
 github.com##a[href="https://start.aliyun.com/"]
 github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 github.com##a[href^="https://openwrite.cn/"]
+github.io##.guangg
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
 gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
@@ -18702,6 +18704,7 @@ zzzyk.com###Tinfo
 ||53shop.com/ime/*.js
 ||53shop.com/img/*.js
 ||53shop.com/js/dun.js
+||53ynh.xyz^
 ||543et.com/detail/
 ||5442tu.com/style/ads5442.js
 ||54admin.net/images/ad_
@@ -19186,6 +19189,7 @@ zzzyk.com###Tinfo
 ||98765432100.site^
 ||988aiai.com/static/js/common.js
 ||98dvu.fun^
+||98wjse.top^
 ||9906g.com/js/jquery.js
 ||9938.net/video/tvg/footer.js
 ||9938.net/video/tvg/hot.js
@@ -21131,10 +21135,12 @@ zzzyk.com###Tinfo
 ||c78zf.xyz^
 ||c9cc.icu^
 ||c9qh3.website^
+||c9ql2.com^
 ||c9r05q.com^
 ||ca.cbsi.com.cn/rpv?
 ||ca.yangshengtv.com^
 ||caaie.xyz^
+||caajol.icu^
 ||caardinal.com^
 ||cacafly.net^
 ||cache.ltn.com.tw/js/cache_ads_h1.js
@@ -24838,6 +24844,7 @@ zzzyk.com###Tinfo
 ||impservice*.youdao.com^
 ||imrvyop.cn^
 ||imtmp.net^
+||imwxsu.xyz^
 ||imxsvpxe.xyz^
 ||in-page-push.com^
 ||indiatimes.com/ads_native_js^$script
@@ -25855,6 +25862,7 @@ zzzyk.com###Tinfo
 ||kowqd7.top^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyuod.xyz^
+||kpbqlqv.cn^
 ||kphcrjth.xyz^
 ||kpiwgio.cn^
 ||kppt.cc/zb_system/script/common.js
@@ -27734,6 +27742,7 @@ zzzyk.com###Tinfo
 ||other.v.duowan.com^
 ||otienlk.top^
 ||otwiss.xyz^
+||otxlhpm.xyz^
 ||oubqzcg.cn^
 ||oueia.xyz^
 ||ougannike.com^
@@ -28847,6 +28856,7 @@ zzzyk.com###Tinfo
 ||rmccajg.cn^
 ||rmhfrtnd.com^$third-party
 ||rmipoz.com/dp.js
+||rmnsdh.xyz^
 ||rmws8.com^
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
@@ -29117,6 +29127,7 @@ zzzyk.com###Tinfo
 ||sdo.com/static/image/mkads/
 ||sdofp9c.cddrhx.cn^$third-party
 ||sdqoi2d.com^
+||sdtsad.com^
 ||sdvfvgj.cn^
 ||sdvsv.com^
 ||sdxzqec.xyz^
@@ -29741,6 +29752,7 @@ zzzyk.com###Tinfo
 ||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
 ||sunriseoutdoor.cn^
+||sunshijc.com^
 ||super.bad996.com/*ads.js
 ||super.cat898.com^
 ||super.cz/*&*=$subdocument,domain=super.cz
