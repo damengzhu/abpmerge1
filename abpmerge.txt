@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-16 08:11:43
-! Total count: 32929
+! Version: 2024-01-16 16:11:05
+! Total count: 32933
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -832,6 +832,7 @@
 ##.myui-extra + .noticetext
 ##.nQIAj
 ##.nQIAj1
+##.nav-ads
 ##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
 ##.newstyle > a > img[src*="img.com/i/"]
@@ -14304,7 +14305,6 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
-nivod4.tv,nivod5.tv##.nav-ads
 nivod4.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
@@ -16716,7 +16716,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motchillzz.in,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17994,6 +17994,7 @@ zzzyk.com###Tinfo
 ||122.114.239.160^
 ||122.225.103.*.htm
 ||122.228.200.55:8082/blr.gif
+||1222dfm3l.cc^
 ||1224.zg-babyroo.com^
 ||1227a.xyz^
 ||1229a.xyz^
@@ -21391,6 +21392,7 @@ zzzyk.com###Tinfo
 ||chazidian.com/mobile_general_
 ||chazidian.com/statics/images/wangke.jpg
 ||chdbits.co/pic/*-*.gif
+||chdezxp.com^
 ||cheda1.icu^
 ||cheda10.icu^
 ||cheda2.icu^
@@ -24919,6 +24921,7 @@ zzzyk.com###Tinfo
 ||ipryes.top^
 ||ipssss.com^
 ||iptv444.com/ad-
+||ipuswrg.cn^
 ||iqede.xyz^
 ||iqgoukn.cn^
 ||iqilu.com/getZone.php
@@ -25891,6 +25894,7 @@ zzzyk.com###Tinfo
 ||kqwip.cyou^
 ||kr.sdykcloud.cn^
 ||kravma.xyz^
+||krbsumc.cn^
 ||kreisis.top^
 ||krjzxie.cn^
 ||krp3g.top^
