@@ -9215,6 +9215,8 @@ nmgnews.com.cn###div_ad4
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
+nodejs.cn###pagead
+nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 nongjitong.com##.ad_sms
 notre-planete.info###abp1
 novinky.cz##[class*="feed-item-advert"]
@@ -9322,6 +9324,7 @@ nowscore.com###toperBaskText
 nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
+noy1.top##+js(no-xhr-if, /api/ads)
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
 nsportal.ru#$#simulate-mouse-event 'a#downloadLink[href^="https://nsportal.ru/sites/"]'; simulate-mouse-event 'a#downloadURL[href^="https://nsportal.ru/sites/"]'
 ntm.gov.tw#@#.ad-left
@@ -9700,8 +9703,6 @@ playwire.com#@#.text-ads
 playwire.com#@#.textAd
 playwire.com#@#.text_ad
 playwire.com#@#.text_ads
-playwright.nodejs.cn###pagead
-playwright.nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 playzuan.com###ShouYe_ShangBu
 plej.tv#@#.advert_box
 plus-belle-la-vie-replay.blogspot.com#@##adsense

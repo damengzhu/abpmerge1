@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-17 08:11:45
-! Total count: 32946
+! Version: 2024-01-17 16:11:16
+! Total count: 32948
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -14325,6 +14325,8 @@ nmgnews.com.cn###div_ad4
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
+nodejs.cn###pagead
+nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 nongjitong.com##.ad_sms
 notre-planete.info###abp1
 novinky.cz##[class*="feed-item-advert"]
@@ -14432,6 +14434,7 @@ nowscore.com###toperBaskText
 nowscore.com###toperText
 nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;text-align:center"]
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
+noy1.top##+js(no-xhr-if, /api/ads)
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
 nsportal.ru#$#simulate-mouse-event 'a#downloadLink[href^="https://nsportal.ru/sites/"]'; simulate-mouse-event 'a#downloadURL[href^="https://nsportal.ru/sites/"]'
 ntm.gov.tw#@#.ad-left
@@ -14812,8 +14815,6 @@ playwire.com#@#.text-ads
 playwire.com#@#.textAd
 playwire.com#@#.text_ad
 playwire.com#@#.text_ads
-playwright.nodejs.cn###pagead
-playwright.nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 playzuan.com###ShouYe_ShangBu
 plej.tv#@#.advert_box
 plus-belle-la-vie-replay.blogspot.com#@##adsense
@@ -28596,6 +28597,7 @@ zzzyk.com###Tinfo
 ||qsanciy.top^
 ||qscvli.com^
 ||qselic.top^
+||qsfbmol.cn^
 ||qsj8fd.com^
 ||qsjfd2.com^
 ||qsjfd2.xyz^
