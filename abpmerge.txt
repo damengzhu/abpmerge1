@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-16 16:11:05
-! Total count: 32933
+! Version: 2024-01-17 08:11:45
+! Total count: 32946
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9398,6 +9398,7 @@ carousell.com#@#.fb-b
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[@class="inventory-ad-main vehicle-card-main"]'
+cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-sponsored"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com##.embed-responsive.position-relative > a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com#?#.container-fluid > .row > .item:has(> .card > .card-body > .lines > span.badge:contains(/^ad$/))
@@ -16716,7 +16717,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,tuoi69.one,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
+viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenid.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,motphimz.cc,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -18593,6 +18594,7 @@ zzzyk.com###Tinfo
 ||4po6iqp9.cn^
 ||4sexmail.com^
 ||4shared.com/js/blockDetect/blockDetect.4min.js$script
+||4wfe3.icu^
 ||5.61.55.143^
 ||5.ccutu.com^
 ||5.gzfenda.com^
@@ -19792,6 +19794,7 @@ zzzyk.com###Tinfo
 ||ajcnz1.com^
 ||ajcode.co^
 ||ajfkwwpo.xyz^
+||ajghca.xyz^
 ||ajkjbcjbaaaed.com^
 ||ajtdumo.cn^
 ||ajucem.xyz^
@@ -19803,6 +19806,7 @@ zzzyk.com###Tinfo
 ||akcnkancklankl.com^
 ||akdhiahcjojdkck.com^
 ||akdie.xyz^
+||akjdbjkcbacj.com^
 ||akmh074.vip^
 ||akmh080.vip^
 ||akncklacnvka.com^
@@ -22368,6 +22372,7 @@ zzzyk.com###Tinfo
 ||dn*.ixinwei.com^
 ||dnceqzz.icu^
 ||dncvj.cn^
+||dnfnpff.xyz^
 ||dngz.net/x/
 ||dnightwish.xyz^
 ||dniwe.xyz^
@@ -24263,6 +24268,7 @@ zzzyk.com###Tinfo
 ||hldwdz.xyz^
 ||hlnr9q.icu^
 ||hlstlyy.com^$third-party
+||hltkl.fun^
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltqsbl.cn^
 ||hlzyb.cn^
@@ -24355,6 +24361,7 @@ zzzyk.com###Tinfo
 ||hqdlhgx.cn^
 ||hqdoor.com/Web/
 ||hqgearb.icu^
+||hqjstd.xyz^
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
 ||hqzcths.cn^
@@ -26768,6 +26775,7 @@ zzzyk.com###Tinfo
 ||me680.com/js/*.js
 ||meaqcj.cn^
 ||mebohjhh.xyz^
+||mec9k.com^
 ||mecop.cyou^
 ||med66.com/lamu/
 ||media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/js/blocked.min.js$script,domain=smashingmagazine.com
@@ -27788,6 +27796,7 @@ zzzyk.com###Tinfo
 ||oyhurln.cn^
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
+||oyotqp.icu^
 ||oyvyxj.cn^$third-party
 ||oyxp.xyz^
 ||oyysbc.xyz^
@@ -30991,6 +31000,7 @@ zzzyk.com###Tinfo
 ||vrosqolcg.com^
 ||vrr.name^
 ||vrrw.net//templets/default/js/ad.js
+||vrwdsvr.icu^
 ||vs1.exo01.xyz^$image,third-party
 ||vsnoon.com^$third-party
 ||vsping.com/website/ads?
@@ -31204,6 +31214,7 @@ zzzyk.com###Tinfo
 ||wewlkq.com^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 ||wfndponfd.com^
+||wfpjeul.cn^
 ||wfqgfaa.cn^
 ||wgoeisdnlk.com^
 ||wgzgzmu.cn^
@@ -32385,6 +32396,7 @@ zzzyk.com###Tinfo
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxmrqc.com^
+||yxptcrss.xyz^
 ||yxrxsov.xyz^
 ||yxvoud.com^
 ||yxzp.net/left.js
@@ -32753,6 +32765,7 @@ zzzyk.com###Tinfo
 ||zmfdjb.xyz^
 ||zmhqhuq.cn^
 ||zmk.pw/zfb.png
+||zmklhev.cn^
 ||zn46.com/images/*0x
 ||znchw.com^
 ||zndsssp.dangbei.net^
