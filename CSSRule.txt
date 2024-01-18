@@ -1388,6 +1388,7 @@
 ##a[href*=".icekingshop.com/"]
 ##a[href*=".impactyu.com/"]
 ##a[href*=".impreshunz.com/"]
+##a[href*=".kekexc.com/"]
 ##a[href*=".las88889999.com:"]
 ##a[href*=".mhtimes.cn"]
 ##a[href*=".mmrjmh.com/"]
@@ -8395,6 +8396,7 @@ luyixian.cn##.side
 lvmama.com###centerDialog
 lvmama.com###leftDialog
 lwgod.me###wp > a:first-child
+lxapk.com##.custom-html-widget
 lxmanga.net#$#abort-current-inline-script $ PopUnder
 lyd.com.cn##.ad:not(:nth-child(15))
 lysq.com###diyad
@@ -12009,16 +12011,15 @@ www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
-www.youtube.com#$#hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-banner-cta-renderer'; hide-if-matches-xpath './/yta-ad-text[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::ytlr-ad-attribution'
+www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
-www.youtube.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytd-player//div[contains(@class,"ad-interrupting")]'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="player-container"]//ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]' 5; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting")]'
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
