@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-18 16:10:51
-! Total count: 32960
+! Version: 2024-01-19 08:11:37
+! Total count: 32972
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1402,6 +1402,7 @@
 ##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
 ##a[href*=".nfylife.com/"]
+##a[href*=".niujyl.com/"]
 ##a[href*=".ohakaguide.com/"]
 ##a[href*=".oidmwq2v.cn"]
 ##a[href*=".onazs.com/"]
@@ -1805,7 +1806,7 @@ $websocket,domain=5nj.com|cechi8.com
 &pssp1=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|www.idnes.cz|expres.cz
 &uid=ssp-$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 &xhtml?$script,third-party
-*$popup,third-party,domain=kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art
+*$popup,third-party,domain=hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -13498,7 +13499,7 @@ luyixian.cn##.side
 lvmama.com###centerDialog
 lvmama.com###leftDialog
 lwgod.me###wp > a:first-child
-lxapk.com##.custom-html-widget
+lxapk.com,lzacg.one##.custom-html-widget
 lxmanga.net#$#abort-current-inline-script $ PopUnder
 lyd.com.cn##.ad:not(:nth-child(15))
 lysq.com###diyad
@@ -13508,7 +13509,6 @@ lz13.cn##.left_box3
 lz13.cn##.left_box4
 lz13.cn##.left_box5
 lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
-lzacg.one##.custom-html-widget
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 lzacg.one#?#.content-layout .zib-widget:has(> .textwidget:only-child > a[target="blank"])
 lzacg.one#?#.sidebar .zib-widget:has(> .textwidget:only-child > a[target="blank"])
@@ -16390,7 +16390,7 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.io,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com#$#abort-on-property-read document.cookie
 truyentuanopm.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -16895,6 +16895,7 @@ weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_auth
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 weibo.com#?#.wbpro-side-panel:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(商))
 weibo.com#?#tr:-abp-has(> .td-03 > .icon-txt-recommend)
+weibo.com#@#.retweet
 weihemenye.com###popup_bottom
 weihemenye.com#$##player_ad_div { display: none!important; }
 weihemenye.com#$##player_div { display: block!important; }
@@ -17155,7 +17156,7 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="player-container"]//ytd-player//div[contains(@class,"ad-interrupting")]' 5;simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id]//div[@id="player-api"]//div[contains(@class,"ad-interrupting")]' 5; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]' 5; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting")]'
 www.zhihu.com##.KfeCollection-VipRecommendCard
@@ -18155,6 +18156,7 @@ zzzyk.com###Tinfo
 ||180.96.27.85^*.htm
 ||18183.com/common/js/side.js
 ||18183.com^*.php?
+||1821z.website^
 ||183yf.cn/img/nz.png
 ||187388.com^
 ||188aaa.us^
@@ -21070,6 +21072,7 @@ zzzyk.com###Tinfo
 ||bxackzj.icu^
 ||bxbyll.xyz^
 ||bxjhlhk.xyz^
+||bxnxdlb.xyz^
 ||bxoiksm.xyz^
 ||bxw666.com/storage/*.gif
 ||bxwccii.cn^
@@ -26048,6 +26051,7 @@ zzzyk.com###Tinfo
 ||l404k.com^$script
 ||l4efwdtg.icu^
 ||l74co.xyz^
+||l7ghj.xyz^
 ||l80ays.com^
 ||laawmmy.cn^
 ||labgpz.xyz^
@@ -26657,6 +26661,7 @@ zzzyk.com###Tinfo
 ||m2k3j7x8.com^
 ||m4pgay.com^
 ||m5.66077.cn^
+||m6500.top^
 ||m7g2v1b9.com^
 ||m8oxd.xyz^
 ||m9d6p03.com^
@@ -28110,6 +28115,7 @@ zzzyk.com###Tinfo
 ||pkjmmn.icu^
 ||pkk1.zuimeiniwo.com^
 ||pkkylyx.xyz^
+||pknrnj.xyz^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||pkynqq.com^
@@ -28999,6 +29005,7 @@ zzzyk.com###Tinfo
 ||rwftzx.xyz^
 ||rwnmcum.cn^
 ||rxlidz.ink^
+||rxojynr.icu^
 ||rxrdjb.xyz^
 ||rxyggrq.cn^
 ||rxys.cn^
@@ -29741,6 +29748,7 @@ zzzyk.com###Tinfo
 ||stats.v.duowan.com^
 ||stats.wp.com^
 ||stbdepjb.xyz^
+||stbwhln.cn^
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||stgowan.com^
 ||stgowan.com^$third-party
@@ -29780,6 +29788,7 @@ zzzyk.com###Tinfo
 ||suibianlu.com/zb_users/ad/
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
 ||suiyishop.cn/zhuangxiu_
+||sukneyu.com^
 ||summer5188.com^
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
@@ -30714,6 +30723,7 @@ zzzyk.com###Tinfo
 ||urlkwqi.cn^
 ||ursegreatm.fun^
 ||urtr4hrq.com^
+||urueuah.cn^
 ||usancit.top^
 ||usejj.makepolo.cn^
 ||usejj.wangkl.com^
@@ -31291,6 +31301,7 @@ zzzyk.com###Tinfo
 ||wmbd.gamersky.com^
 ||wmcdn.net^$domain=liyuans.com
 ||wmeng.feihuadns.com^
+||wmnraj.icu^
 ||wmqfey.com^
 ||wmxke.com^
 ||wn68din.cn^
@@ -31953,6 +31964,7 @@ zzzyk.com###Tinfo
 ||xwbxsw.com/js/app_wap.
 ||xwdsp.com^
 ||xwewwgk.cn^
+||xwlnhw.com^
 ||xwlyfl.xyz^
 ||xwqtatnw.icu^
 ||xwsqtngwa.xyz^
