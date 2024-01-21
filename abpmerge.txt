@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-21 08:10:27
-! Total count: 33023
+! Version: 2024-01-21 16:09:46
+! Total count: 33026
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7030,6 +7030,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||photographpan.com^$script,xmlhttprequest
 @@||photopea.com/ads.js
 @@||physicalbikes.com^$script,xmlhttprequest
+@@||piaotia.com/scripts/readindex/tongji.js
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 @@||piccool.com/2home/phpAdsNew/
@@ -17303,6 +17304,7 @@ xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write Spacial
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
 xoilac96.net#$#abort-on-property-read adsRedirectPopups
 xoivo2.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
 xtuan.com###foot_zhaobiao_bar
@@ -31729,6 +31731,7 @@ zzzyk.com###Tinfo
 ||xgzdys.com^
 ||xh33g.net^
 ||xhamster.com/api/models/vast?*^$xmlhttprequest,domain=xhamster.com
+||xhbheroq.xyz^
 ||xhd.cn/topic/leyu-piaofu/
 ||xheqbc.cn^
 ||xhi8.xyz^
