@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-22 16:11:18
-! Total count: 33036
+! Version: 2024-01-23 08:11:50
+! Total count: 33044
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1311,6 +1311,7 @@
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
+##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
 ##[style='top: 16.4vw; display: block;']
@@ -5507,7 +5508,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||cdn.chatytvgratis.me/ads/ads.php?$domain=cineplanet21.com
 @@||cdn.chatytvgratis.me/ads/ads2.php?$domain=cineplanet21.com
 @@||cdn.cloudflare.net^$stylesheet,script,xmlhttprequest,domain=cocomanga.com|cocomanga.com
-@@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
@@ -17160,8 +17160,6 @@ www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button$delay=0'
-www.youtube.com,m.youtube.com,music.youtube.com,youtube-nocookie.com#$#simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
@@ -21535,6 +21533,7 @@ zzzyk.com###Tinfo
 ||chuantu.biz^$domain=aotu43.com
 ||chuantu.xyz/t6/714/1580707721x3703728804.jpg
 ||chuapp.com/wp-content/Picture/2017-08-14/59917b959139f.png
+||chubsxmg.xyz^
 ||chubun.com/images/banners/
 ||chubun.com/uploads/pic/img
 ||chumeng.link^
@@ -21590,6 +21589,7 @@ zzzyk.com###Tinfo
 ||cjw123.com/jx/static/picture/
 ||cjx111.com/ads/
 ||cjyun.org/assets/js/analytics.js
+||cjzrfxs.xyz^
 ||ck.ads.oppomobile.com^
 ||ck180.net/mitao
 ||ck33.top^
@@ -23244,6 +23244,7 @@ zzzyk.com###Tinfo
 ||fluhmmr.cn^
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
+||fm44f.space^
 ||fmblph.xyz^
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
@@ -23401,6 +23402,7 @@ zzzyk.com###Tinfo
 ||fydisk.com/images/showvip.gif
 ||fyexyd.icu^
 ||fytpft.xyz^
+||fyvpzn.xyz^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzcsd33.com^
 ||fzd3.com/gg/
@@ -24403,6 +24405,7 @@ zzzyk.com###Tinfo
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
 ||hqzcths.cn^
+||hrbpopp.cn^
 ||hrjg.com.cn^$third-party
 ||hrngmf.com^
 ||hrtinqj.cn^
@@ -27334,6 +27337,7 @@ zzzyk.com###Tinfo
 ||najnus.com^
 ||nakop.xyz^
 ||nalapop.com^
+||nanaimostarkle.com^
 ||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
 ||nangongmall.com^
@@ -27852,6 +27856,7 @@ zzzyk.com###Tinfo
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
 ||oyotqp.icu^
+||oyugspe.cn^
 ||oyvyxj.cn^$third-party
 ||oyxp.xyz^
 ||oyysbc.xyz^
@@ -28170,6 +28175,7 @@ zzzyk.com###Tinfo
 ||plnrkgc.xyz^
 ||plnshao.xyz^
 ||plof69.com^
+||plotafb.com^
 ||pm.poqwua.cn^
 ||pmb*.tj.ali213.net/js/
 ||pmensrl.cn^
@@ -30762,6 +30768,7 @@ zzzyk.com###Tinfo
 ||uqelxct.cn^
 ||uqeuxpl.cn^
 ||uqjqripb.xyz^
+||uqueae.xyz^
 ||uraseszincy.com^
 ||urccncd.xyz^
 ||urimnugocfr.com^
@@ -32211,6 +32218,7 @@ zzzyk.com###Tinfo
 ||yht7.com/web/assets/js/right.js
 ||yhtpsy8888.cc^
 ||yhtuchuang.com^
+||yhubsxmg.xyz^
 ||yhz18.com^
 ||yhzm.xyz^
 ||yhzzzs02.com^
