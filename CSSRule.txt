@@ -4924,6 +4924,7 @@ ctfile.com##a[href*=".henghost.com"]
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
+cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
@@ -5470,6 +5471,7 @@ ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
 ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__promoted"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
+ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@class]/preceding::div[@class="ads-pd-s2--main"]/ancestor::div[@id][@aria-label="Advertisement"]/ancestor::div[contains(@id,"placement")][@style]/parent::div[@style][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#race start; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"display: inline")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@*="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/div[@aria-labelledby="{{}}"]/ancestor::li[contains(@class,"s-item")]' './/style[contains(text(),":root")]' '/span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"-2000")]' '/}\\s*span\.(.{9})/'; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li[@data-viewport]' './/style[contains(text(),"color: transparent")]' '/span.aria.labelledby.(.{9})/'; hide-if-contains-visible-text /S⁣p⁣o⁣n⁣s⁣o⁣r⁣e⁣d|A⁣n⁣z⁣e⁣i⁣g⁣e|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣s⁣é⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣i⁣z⁣z⁣a⁣t⁣o⁣⁣|S⁣p⁣o⁣n⁣s⁣o⁣r⁣o⁣w⁣a⁣n⁣e|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|P⁣a⁣t⁣r⁣o⁣c⁣i⁣n⁣a⁣d⁣o|贊⁣助/ li[data-viewport] 'span.s-item__sep>span[role]' '-disable-bg-color-check:true' 'position:absolute'; hide-if-contains-and-matches-style // li[data-viewport] 'li[data-viewport] span.s-item__sep>div' /./ '/\\swidth: [1-9]/'; race stop;
@@ -5775,7 +5777,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.com,viettoons.tv,vinaurl.net,animet.net,anh.moe#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.com,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -11270,7 +11272,8 @@ truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[co
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com#$#abort-on-property-read document.cookie
+truyensextv.org#$#abort-current-inline-script document.addEventListener popup
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,motphimhan.cc,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com,khophimchill.com#$#abort-on-property-read document.cookie
 truyentuanopm.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
@@ -12024,6 +12027,7 @@ www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
+www.youtube.com#$#skip-video 'video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay-instream-info"]' 5; simulate-mouse-event 'span>button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
