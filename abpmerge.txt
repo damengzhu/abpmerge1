@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-24 16:11:38
-! Total count: 33069
+! Version: 2024-01-25 08:11:41
+! Total count: 33072
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4473,7 +4473,6 @@ $websocket,domain=5nj.com|cechi8.com
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.cc,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
-8684.cn,8684.com,iyxdm.com,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -9227,7 +9226,6 @@ bmw-club.cz#@#.reklama
 bnext.com.tw##div[id^="sponsor-"]
 boce.com##.page10Box1 > a[href^="http"]:not([href*="boce."])
 boce.com##div[class^="money"]
-bodu365.co###iside
 bodu365.co##.bdnav + .focus_show
 bodu365.co##.beside
 bodu365.co##.side_g_seat
@@ -10562,6 +10560,7 @@ easylearn.baidu.com##.feedback-icon
 easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
+ebay.*#?#div[aria-label^="Advertisement"]:-abp-has(>section.ads-berries)
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
 ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
@@ -17819,6 +17818,7 @@ zzzyk.com###Tinfo
 ||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0512s.com^$third-party
+||052db.website^
 ||053h94.com^
 ||055g.com^
 ||056opui.com^
@@ -18934,7 +18934,6 @@ zzzyk.com###Tinfo
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7160.com/js/tiaozhuanquanju.js
 ||7162a.com^
-||71edge.com/videos/other/202$xmlhttprequest
 ||7239618ccc.com^
 ||733.so/template/wap1/js/all_css.js
 ||73652253191.com^$third-party
@@ -19487,6 +19486,7 @@ zzzyk.com###Tinfo
 ||abminbuy.com^*.gif
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
 ||abovede6.com^
+||abqdgu.xyz^
 ||abram.xin^
 ||abrnfctkn.xyz^
 ||abtest-ch.snssdk.com^
@@ -20935,7 +20935,6 @@ zzzyk.com###Tinfo
 ||boce.com/statics/img/img27b.png
 ||bockd.xyz^
 ||bocvb.xyz^
-||bodu365.co/t/
 ||boewgph.icu^
 ||bofnhn.com^
 ||bogtrmjz.xyz^
@@ -21524,6 +21523,7 @@ zzzyk.com###Tinfo
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
 ||chnuuee.xyz^
+||chnvgdkw.xyz^
 ||chok8.com/statics/ad/
 ||cholo101.cn^
 ||cholo215.cn^
@@ -21954,7 +21954,6 @@ zzzyk.com###Tinfo
 ||d.6xw.com^
 ||d.8181zx.com^
 ||d.ab126.com^
-||d.bodu365.co^*.js
 ||d.dgzj.com^
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js$script,redirect=googletagservices_gpt.js,domain=line.me
 ||d.toutiao.com^
@@ -23287,6 +23286,7 @@ zzzyk.com###Tinfo
 ||foot-live.info/images/adblok.mp3$media
 ||foot.footstream.tv/js/compteur1.js$script
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
+||fopksr.icu^
 ||forestseasons.com.cn^
 ||forestwo1f.ltd^
 ||foreveryoung.gz01.bdysite.com^
@@ -23359,6 +23359,7 @@ zzzyk.com###Tinfo
 ||ft8e.top^
 ||ftchinese.com/a.html
 ||ftchinese.com/m/marketing/
+||ftdbtko.xyz^
 ||fthqzxq.cn^
 ||ftimg.net/s?z=
 ||ftiodfqk.com^
@@ -25005,7 +25006,6 @@ zzzyk.com###Tinfo
 ||iqiyi.com/show2?cb=
 ||iqiyi.com/track
 ||iqiyi.com/track$popup
-||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyipic.com/image/20*_100000$image
 ||iqmbao.xyz^
 ||iqnew.com/d/js/m/thea
@@ -27587,6 +27587,7 @@ zzzyk.com###Tinfo
 ||nshypdry.xyz^
 ||nsimg.net^
 ||nswtojdi.icu^
+||nszort.xyz^
 ||ntce.com/images/js/ntce_public.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
@@ -29999,6 +30000,7 @@ zzzyk.com###Tinfo
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
 ||taizexy.com^*.gif
+||tajdad.cn^
 ||tajs.qq.com^
 ||talkfx.*/showTKImg?
 ||tamedia.com.tw^$third-party
@@ -32236,6 +32238,7 @@ zzzyk.com###Tinfo
 ||yhjh04.com^
 ||yhlzadr.xyz^
 ||yhmeinv.com/mh/
+||yhnvgdkw.xyz^
 ||yhp4an7.cn^
 ||yhsfsdv*.com^
 ||yhsfsdv03.com^
