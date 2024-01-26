@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-25 16:11:21
-! Total count: 33074
+! Version: 2024-01-26 08:10:37
+! Total count: 33091
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -505,6 +505,7 @@
 ##.ad_mod
 ##.ad_news
 ##.ad_notice
+##.ad_pc
 ##.ad_right
 ##.ad_right_1
 ##.ad_right_2
@@ -4264,7 +4265,7 @@ $websocket,domain=5nj.com|cechi8.com
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zhenniu.vip##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn508.com##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -10387,7 +10388,7 @@ dshangyan.com##.advHeader
 dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
-dualeotruyenvi.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenme.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
@@ -16323,6 +16324,7 @@ tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
 tmioe.com###custom_html-4
 tmioe.com##.__single_0
+tmioe.com##.ad
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
@@ -16737,7 +16739,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenvi.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv,quatvn.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.tv,javhay.cam,phimsexhay669.co,cliphot69.vin,doctruyen3qup.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentai-vn.tv,sexphim1.com,cdn.streamvl.sbs,buomtv.tv,truyenvnhay.tv,cdnstream.sbs,javtiful.com,tuoi69.tv,quatvn.club#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17225,7 +17227,7 @@ xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xelements.cn
-xemphimhdc.cc#$#abort-current-inline-script document.addEventListener linksToOpen
+xemphimhdc.net#$#abort-current-inline-script document.addEventListener linksToOpen
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xgan.cn##.bottom_fixed
@@ -17590,8 +17592,6 @@ zhenbuka.com##+js(no-setTimeout-if, ad_ids)
 zhenbuka.com##.jq-toast-wrap
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(adjust-setTimeout, CloseAd, , 0.02)
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(no-setTimeout-if, ad_load_fail)
-zhenniu.vip###klp_hdp
-zhenniu.vip#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
 zhibo8.cc##.ad_box_250
@@ -17667,6 +17667,8 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
+zn508.com###klp_hdp
+zn508.com#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
@@ -18222,6 +18224,7 @@ zzzyk.com###Tinfo
 ||1kqfzwd.com^
 ||1l1.cc^
 ||1mxabnt.com^
+||1ng2l.space^
 ||1ov2pp0.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
@@ -21011,6 +21014,7 @@ zzzyk.com###Tinfo
 ||brfgbn.xyz^
 ||brfvyrrp.com^
 ||bridgetnbe.com^
+||brookssa.com^
 ||brorzpj.cn^
 ||brownfox.top^
 ||browser.sentry-cdn.com^$third-party
@@ -21805,6 +21809,7 @@ zzzyk.com###Tinfo
 ||cped7.xyz^
 ||cpffkbpq.xyz^
 ||cpgo.xyz^
+||cpkxahje.xyz^
 ||cpm.cm.kankan.com^
 ||cpmlwhra.xyz^
 ||cpms.now.com^
@@ -25650,6 +25655,7 @@ zzzyk.com###Tinfo
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
 ||jy8izgie.xyz^
+||jyewkb.icu^
 ||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/nav/cf_
 ||jygiizv.icu^
@@ -27066,6 +27072,7 @@ zzzyk.com###Tinfo
 ||mnhncf.cn^
 ||mnks.cn/jk/appAD_
 ||mnnmnn.com^
+||mnorkc.xyz^
 ||mnpbxjq.cn^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnvxdkd.xyz^
@@ -27811,6 +27818,7 @@ zzzyk.com###Tinfo
 ||optimix.asia^
 ||optimix.cn^$third-party
 ||optimizely.com^$third-party
+||opwofty.cn^
 ||opzksyy.cn^
 ||oq6ry.com^
 ||oq8.top^
@@ -28961,6 +28969,7 @@ zzzyk.com###Tinfo
 ||rkv9.top^
 ||rkxy.com.cn/js/text_
 ||rkzby.cn^
+||rlhtnnm.xyz^
 ||rljjt.cn^
 ||rlogs.youdao.com^
 ||rlqoyht.icu^
@@ -28970,6 +28979,7 @@ zzzyk.com###Tinfo
 ||rmipoz.com/dp.js
 ||rmnsdh.xyz^
 ||rmws8.com^
+||rmxizma.cn^
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
 ||rndhaunteran.com^
@@ -29231,6 +29241,7 @@ zzzyk.com###Tinfo
 ||sdhjueue.com^
 ||sdhuawen.cn^
 ||sdjbcjsbdjk.com^
+||sdjbvjsbvjz.com^
 ||sdjvbsjbvas.com^
 ||sdk.sipujia.cn^
 ||sdkapp.mobile.sina.cn^
@@ -30387,6 +30398,7 @@ zzzyk.com###Tinfo
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trends.com.cn/k.js
 ||trenhdg.com^$third-party
+||trf6b.top^
 ||trfmxf.xyz^
 ||tribalfusion.com^
 ||trip.com/partners/ad/
@@ -30935,6 +30947,7 @@ zzzyk.com###Tinfo
 ||vbgr7.cn^
 ||vbnmjjda.xyz^
 ||vbzrkme.xyz^
+||vcbppb.xyz^
 ||vcjczwnc.xyz^
 ||vcvbnmto.xyz^
 ||vcydyzd.icu^
@@ -30979,6 +30992,7 @@ zzzyk.com###Tinfo
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
+||vfvad.top^
 ||vfzfrx.xyz^
 ||vgao.xyz/images/*.gif
 ||vgg5.cn^
@@ -31448,6 +31462,7 @@ zzzyk.com###Tinfo
 ||wrtjojn.xyz^
 ||ws.wenshenxiu.com^
 ||wsacjdg.cn^
+||wsadad.cn^
 ||wschao.xyz^
 ||wsdd11.com^
 ||wsdfame.com^
@@ -31680,6 +31695,7 @@ zzzyk.com###Tinfo
 ||x.yaohuo.me^
 ||x1.52aoteman.com^
 ||x1.kantu.com^
+||x1fyw.icu^
 ||x21.cn/service/feeds.
 ||x23qb.com/skin/themex.js
 ||x2y22.fun^
@@ -32399,6 +32415,7 @@ zzzyk.com###Tinfo
 ||yp868.com/js/54h/
 ||ypcngw.xyz^
 ||ypffkbpq.xyz^
+||ypkxahje.xyz^
 ||ypoiea.xyz^
 ||ypojie.com/wp-content/uploads/*.js
 ||yprdmnlo.xyz^
