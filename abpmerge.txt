@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-27 16:09:05
-! Total count: 33106
+! Version: 2024-01-28 08:10:11
+! Total count: 33129
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1223,6 +1223,7 @@
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
 ##[href*='sohu.com/hy-op']
 ##[href*='zthbe.com']
@@ -1279,6 +1280,7 @@
 ##[onclick='gourl()'][src^='/images/bfq/']
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
+##[rel='nofollow'][href^='/book/baidu_verify_code']
 ##[src$='/dibu.adadadad']
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
@@ -1294,6 +1296,7 @@
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://immmg.owowqrf.cn']
+##[src^='https://kykqss.xyz']
 ##[src^='https://l.bt5v.com/v.php']
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
@@ -15879,6 +15882,7 @@ sonimei.cn##.style03
 sonkwo.hk##.store-ad-waist
 soopat.com###SoopatAside
 sosg.net###postlist + .cc
+soshu888.net##[style$='width: 100vw; position: relative;']
 sou-yun.cn###ads_index_2
 soufun.com##.danmu_inbox
 sound-park.rocks,sound-park.world,soundpark.rocks#$#abort-current-inline-script $ open
@@ -17260,6 +17264,7 @@ xia1ge.com##.wsappad
 xia1ge.com##div[class^="category-iloveyou"]
 xiadele.com##.details-small-carousel
 xiadele.com##.yun-advertisement
+xian360.top##CENTER
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 xiaohutuwb.com##.ceo_ads
@@ -19292,6 +19297,7 @@ zzzyk.com###Tinfo
 ||9ku.com/aaa/
 ||9miwo.com^
 ||9odes.ltd^
+||9t51o.icu^
 ||9tata.com/js/Rand.js
 ||9tata.com/js/pbanner.js
 ||9tata.com/js/topxia.js
@@ -19795,6 +19801,7 @@ zzzyk.com###Tinfo
 ||aili.com^$third-party
 ||ainunu.*/vad.js
 ||aipp99.com/haose/
+||aiqu222.com/da/
 ||aiqu28.com/da/
 ||aiqu288.com/da/
 ||airav.cc/AirADPic/
@@ -20501,6 +20508,7 @@ zzzyk.com###Tinfo
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
 ||baikebcs.bdimg.com/*banner*.jpg
+||baimakanshu.com/assets/public/
 ||baishuku.com/news/$script
 ||baitaiad.com^$third-party
 ||baitaiz.com^
@@ -21813,6 +21821,7 @@ zzzyk.com###Tinfo
 ||cpawe.cyou^
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpddgcr.xyz^
+||cpdronhu.xyz^
 ||cped7.xyz^
 ||cpffkbpq.xyz^
 ||cpgo.xyz^
@@ -22229,6 +22238,7 @@ zzzyk.com###Tinfo
 ||dfcfw.com/zndh/
 ||dfdaaa12.com^
 ||dfec2.com^
+||dfejqmh.cn^
 ||dfepm.xyz^
 ||dffrahax.com^
 ||dffy.com/static/popUp.
@@ -22350,6 +22360,7 @@ zzzyk.com###Tinfo
 ||dj930.cn^$third-party
 ||dj97.com/api.php?mod=ad&
 ||djahkee.xyz^
+||djbgfit.com^
 ||djcnetb.icu^
 ||djicdn.com/uploads/ad_image_file/
 ||djiuss.cn^
@@ -22632,6 +22643,7 @@ zzzyk.com###Tinfo
 ||dwerzv.xyz^
 ||dwfdsfkw.xyz^
 ||dwfjtz.xyz^
+||dwfohh.xyz^
 ||dwhyjwrw.xyz^
 ||dwibjkdsn.com^
 ||dwnews.com/RealMedia/ads/
@@ -24347,6 +24359,7 @@ zzzyk.com###Tinfo
 ||hmghmg.com/tb
 ||hmjhnkas.com^
 ||hmjs.cnmo-img.com.cn^
+||hmlkppk.cn^
 ||hmma.baidu.com^
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmtoday.com^$third-party
@@ -24965,6 +24978,7 @@ zzzyk.com###Tinfo
 ||inte.sogou.com^
 ||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
 ||intimidatepropel.com^
+||inudpbi.com^
 ||iobvmtx.xyz^
 ||iocoder.cn/alert/js/alert.js
 ||ioiksw.cn^
@@ -25824,6 +25838,7 @@ zzzyk.com###Tinfo
 ||kf.qingwk.com^
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfckcu.xyz^
+||kfctds59.shop^
 ||kfejnjs.cn^
 ||kfjpren.xyz^
 ||kflybplr.xyz^
@@ -26093,6 +26108,7 @@ zzzyk.com###Tinfo
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
 ||kyjwtxei.xyz^
+||kykqss.xyz^
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ||kymahuxv.xyz^
@@ -26235,6 +26251,7 @@ zzzyk.com###Tinfo
 ||leleketang.com/dat/a/
 ||lemida.xyz^
 ||lendc.xyz^
+||lengmen.cc/assets/public/
 ||lenosoft.net/js/ad
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clientType=
@@ -27138,6 +27155,7 @@ zzzyk.com###Tinfo
 ||mosangkeji.com^
 ||mosflower.cn^
 ||motcmn.icu^
+||motsjnv.cn^
 ||motuopj.cn^
 ||mountain.zhidao.baidu.com^
 ||mouseflow.com^
@@ -28392,6 +28410,7 @@ zzzyk.com###Tinfo
 ||pvajlmhjjq.xyz^
 ||pvlnjwr.xyz^
 ||pvnzrr.xyz^
+||pvpdbth.xyz^
 ||pvtest.zol.com.cn^
 ||pvymlsvo.xyz^
 ||pw321.com/bulu/
@@ -28988,6 +29007,7 @@ zzzyk.com###Tinfo
 ||rlqoyht.icu^
 ||rltdxt.com/files/h5/
 ||rmccajg.cn^
+||rmduuv.icu^
 ||rmhfrtnd.com^$third-party
 ||rmipoz.com/dp.js
 ||rmnsdh.xyz^
@@ -30027,6 +30047,7 @@ zzzyk.com###Tinfo
 ||taizexy.com^*.gif
 ||tajdad.cn^
 ||tajs.qq.com^
+||takjttz.cn^
 ||talkfx.*/showTKImg?
 ||tamedia.com.tw^$third-party
 ||tan1dian.com^$third-party
@@ -30837,6 +30858,7 @@ zzzyk.com###Tinfo
 ||uslbaht.top^
 ||uslsjwnk.xyz^
 ||uslsxe.com^
+||uspauline.com^
 ||ustv123.com/images/axd.js
 ||usvkfwth.xyz^
 ||usxuyr.icu^
@@ -32428,6 +32450,7 @@ zzzyk.com###Tinfo
 ||yoyi.com.cn^$third-party
 ||yp868.com/js/54h/
 ||ypcngw.xyz^
+||ypdronhu.xyz^
 ||ypffkbpq.xyz^
 ||ypkxahje.xyz^
 ||ypoiea.xyz^
