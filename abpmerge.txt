@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-28 16:08:38
-! Total count: 33132
+! Version: 2024-01-29 08:10:51
+! Total count: 33140
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -388,7 +388,7 @@
 ###whYuTlxF
 ###widget-quan
 ###windlocation
-###wp > .V-video-floats
+###wp > .V-video-float
 ###wp > .V-videoFloat
 ###wrapper > .topad
 ###wrapper > div[style="padding:3px;"] > #pic
@@ -4990,7 +4990,6 @@ $websocket,domain=5nj.com|cechi8.com
 @@||88box.com/images/ad_images/
 @@||8maple.ru/*/ad.php
 @@||8maple.ru/comic.jpg$domain=video.bilibili.to
-@@||91p49.com/*/*.mp4
 @@||91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
 @@||930mh.com/js/config.js
 @@||939394.xyz^$generichide
@@ -7851,6 +7850,7 @@ $websocket,domain=5nj.com|cechi8.com
 @@||torpidtoothpaste.com^$script,xmlhttprequest
 @@||totheglory.im/pic/ttg_logo
 @@||toweringrun.com^$script,xmlhttprequest
+@@||toy-people.com^$generichide
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tracker.namitiyu.com^
 @@||tracklog.58.com/referrer$~third-party
@@ -16144,7 +16144,7 @@ techbang.com##div[class^="techbang_inline_"]
 technews.tw##.inside_AD
 techug.com##a[href*="/222.html"]
 techug.com##a[href*="/eee.html"]
-techug.com,webhek.com##a[href*="/4r4.html"]
+techug.com,webhek.com##.aatb
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
 teepr.com###topAdBlock
@@ -19181,7 +19181,6 @@ zzzyk.com###Tinfo
 ||91nrtt.com/vod/
 ||91p20.space/fans/
 ||91p20.space^
-||91p49.com/*.mp4
 ||91rb.com/fc/$image
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
@@ -20799,6 +20798,7 @@ zzzyk.com###Tinfo
 ||bgbyzv.xyz^
 ||bgdgpbpm.xyz^
 ||bgdizsay.icu^
+||bgeg1.fun^
 ||bh0874.online^
 ||bhaabom.cn^
 ||bhaoea.cn^
@@ -21366,8 +21366,8 @@ zzzyk.com###Tinfo
 ||cdn.yunliunet.com^
 ||cdn0.sxhjty.cn^
 ||cdn3.mancdn88.com^
-||cdn77.org^*.mp4
 ||cdn77.org^*.mp4$badfilter
+||cdn77.org^*.mp4|
 ||cdn93d99x0e.23bei.com^
 ||cdncg.com^*/Aepku
 ||cdncg.com^*/peiyinquan
@@ -21577,6 +21577,7 @@ zzzyk.com###Tinfo
 ||chuzushijian.cn^
 ||chykohija.pro^
 ||chyuok.xyz^
+||chzjidgc.xyz^
 ||ciadre.fun^
 ||ciaeue.xyz^
 ||ciarde.fun^
@@ -23604,6 +23605,7 @@ zzzyk.com###Tinfo
 ||geziyd.com^
 ||gfan.com/press/
 ||gfbdb1.com^
+||gfpvvwf.xyz^
 ||gfrzzzx.cn^
 ||gfvip09at.com^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
@@ -26582,6 +26584,7 @@ zzzyk.com###Tinfo
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||lsr62.qtd95fj.online^$third-party
 ||ltbyw.top/data/images/*.gif
+||lthmfx.xyz^
 ||ltht.tech^
 ||ltienll.top^
 ||ltkbyfd.icu^
@@ -27674,6 +27677,7 @@ zzzyk.com###Tinfo
 ||nyfgpbsc.xyz^
 ||nyhgjmlg.xyz^
 ||nyhgvn.xyz^
+||nykvdwi.cn^
 ||nyoskiov.com^$script
 ||nypyzx.xyz^
 ||nyvgbt.xyz^
@@ -30111,6 +30115,7 @@ zzzyk.com###Tinfo
 ||techain.baidu.com^
 ||techritual.com/wp-content/uploads/*/HDcource_
 ||techspecndt.com^
+||techug.com/aatb/
 ||teddync.net^
 ||tehgfn.xyz^
 ||tekmhvbb.xyz^
@@ -30453,6 +30458,7 @@ zzzyk.com###Tinfo
 ||trymask.com/api/$third-party
 ||ts166.net^
 ||tsancii.top^
+||tsaristcanapes.com^
 ||tsck.online^
 ||tsdm.live/weibo.html
 ||tsdmw.net/img01/MP3/pm_
@@ -31182,6 +31188,7 @@ zzzyk.com###Tinfo
 ||vvxhth.xyz^
 ||vw66i.top^
 ||vwfppr.xyz^
+||vwsgmf.icu^
 ||vwtjvd.xyz^
 ||vwvjzd.xyz^
 ||vx4n.icu^
@@ -31417,6 +31424,7 @@ zzzyk.com###Tinfo
 ||wjoxqd.com^
 ||wjtij.top^
 ||wkrcbszi.xyz^
+||wkybwa.xyz^
 ||wkzrqq.com^
 ||wkzsmj.icu^
 ||wlgxaij.cn^
@@ -31871,7 +31879,6 @@ zzzyk.com###Tinfo
 ||xiaoz.top/assets/imgurl.js
 ||xiaozengyyds.com^
 ||xiarikui08.com^
-||xiazaicdnapk.com^*.mp4
 ||xiazaizhijia.com/w2/js/wxzzj.js
 ||xibfnb.xyz^
 ||xiexingcun.com/tongji.js
@@ -32304,6 +32311,7 @@ zzzyk.com###Tinfo
 ||yhtuchuang.com^
 ||yhubsxmg.xyz^
 ||yhz18.com^
+||yhzjidgc.xyz^
 ||yhzm.xyz^
 ||yhzzzs02.com^
 ||yi.ximizi.com^
