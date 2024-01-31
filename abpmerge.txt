@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-31 08:10:39
-! Total count: 32641
+! Version: 2024-01-31 16:09:55
+! Total count: 32645
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1778,7 +1778,7 @@ $websocket,domain=5nj.com|cechi8.com
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
-.buzz$domain=btsj6.com|yinghua8.tv|yinghuavideo.com|dm99.me
+.buzz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .buzz/*0*0*0*==$third-party
 .buzz/*=$object,third-party
 .cam/ads/
@@ -1889,7 +1889,7 @@ $websocket,domain=5nj.com|cechi8.com
 .com/rs/shto/$third-party
 .com/sh/*.js$third-party
 .com/sh/to/$script,third-party,xmlhttprequest
-.com/sh/to/$third-party
+.com/sh/to/$third-partyyhdmba.net
 .com/sitejs/hansan.js
 .com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
@@ -2051,7 +2051,7 @@ $websocket,domain=5nj.com|cechi8.com
 .wap.x4399.com^
 .work/ads/
 .xn--fiqs8s:7385/
-.xyz$domain=btsj6.com|yinghua8.tv|yinghuavideo.com|dm99.me
+.xyz$domain=btsj6.com|yinghua8.tv|iyinghua.io|yhdmba.net
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*=$object,third-party
@@ -9289,8 +9289,8 @@ ca168.com##.admarket
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 cableabc.com##a[href*="/img1/"]
 cad.youku.com
-cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
-cafef.vn,gamek.vn,genk.vn,soha.vn,tuoitre.vn#$#override-property-read ADMStorageFileCDN noopFunc
+cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn#$#abort-current-inline-script Object.defineProperty ADMStorageFileCDN
+cafef.vn,gamek.vn,genk.vn,soha.vn,tuoitre.vn,afamily.vn#$#override-property-read ADMStorageFileCDN noopFunc
 caibaojian.com##.aliyun-inner
 caibaojian.com##a[data-href*="aliyun"]
 caibaojian.com##a[onclick*="aliyun"]
@@ -19508,6 +19508,7 @@ zzzyk.com###Tinfo
 ||adtago.s3.amazonaws.com^
 ||adtech.yahooinc.com^
 ||adtng.com^
+||adtonus.com^
 ||adtx2.cn^
 ||adunblock.com/code/*.html
 ||adunite.com^$third-party
@@ -24549,7 +24550,7 @@ zzzyk.com###Tinfo
 ||imall.cntv.cn^
 ||imanhuapi.com/style/js/mpmh.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imasdk.googleapis.com^
 ||imbikh.icu^
@@ -27015,6 +27016,7 @@ zzzyk.com###Tinfo
 ||n2.hk/promo/
 ||n2faw.site^
 ||n3567.com^
+||n3xpjc.xyz^
 ||n522rv1.cn^
 ||n5725.com^
 ||n5m5.com/static/js/playcon.js
@@ -27121,6 +27123,7 @@ zzzyk.com###Tinfo
 ||newyx.net^*/down_yd.js
 ||nex.163.com/q?
 ||nezqmud.com^
+||nfl9j.com^
 ||nfldgbt.xyz^
 ||nflks.cn^
 ||nfmovies.com/pic/tu/*_863x59.
@@ -28881,7 +28884,7 @@ zzzyk.com###Tinfo
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 ||sealine.youku.com^
 ||sectn.xyz^
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=line.me,important
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=line.me
 ||securitymobile.club^
 ||see.xxx/poppy/*.js^$domain=see.xxx
 ||seectech.cn/scm/ad/list
@@ -31367,6 +31370,7 @@ zzzyk.com###Tinfo
 ||xhnvgdkw.xyz^
 ||xhpghv.xyz^
 ||xhqgymmb.com^
+||xhsdwjes.xyz^
 ||xhubsxmg.xyz^
 ||xhymsq.com/data/attachment/portal/
 ||xhzjidgc.xyz^
