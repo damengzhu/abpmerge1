@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-30 16:10:22
-! Total count: 32625
+! Version: 2024-01-31 08:10:39
+! Total count: 32641
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1747,7 +1747,7 @@ $websocket,domain=5nj.com|cechi8.com
 &pssp1=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|www.idnes.cz|expres.cz
 &uid=ssp-$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 &xhtml?$script,third-party
-*$popup,third-party,domain=hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
+*$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|kimcartoon.li|kisscartoon.com|mreader.co|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *.lijie.*/*_*?$third-party
 */blsx_*_*_*?*$third-party
@@ -8298,6 +8298,7 @@ alientube.co###adblockContainer
 aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'div > div > a[target="_blank"]' 'div[class*="ad"]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
+alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
@@ -14260,6 +14261,8 @@ nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 nongjitong.com##.ad_sms
+noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
+noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
 notre-planete.info###abp1
 novinky.cz##[class*="feed-item-advert"]
 novinky.cz##a[href*="&partId="]
@@ -21322,6 +21325,7 @@ zzzyk.com###Tinfo
 ||chozarpeases.com^
 ||chromeba.net/wp-content/uploads/
 ||chrtds.xyz^
+||chsdwjes.xyz^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
 ||chuantu.biz^$domain=aotu43.com
@@ -21718,6 +21722,7 @@ zzzyk.com###Tinfo
 ||cyq3noz.icu^
 ||czexrhl.cn^
 ||czghjt.com^
+||czouthy.cn^
 ||czresus.cn^
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
@@ -22279,6 +22284,7 @@ zzzyk.com###Tinfo
 ||dp3.qq.com^
 ||dpaic.xyz^
 ||dpbgnf.xyz^
+||dpe5t.space^
 ||dpijohb.icu^
 ||dpj0uvy.icu^
 ||dpjzzgw.cn^
@@ -22288,6 +22294,7 @@ zzzyk.com###Tinfo
 ||dqcgkpp.icu^
 ||dqjojx.xyz^
 ||dqlfabc.cn^
+||dqrdwz.icu^
 ||dqzehgha.xyz^
 ||dqzirj.xyz^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
@@ -22318,6 +22325,7 @@ zzzyk.com###Tinfo
 ||dsfd67.com^
 ||dshangyan.com/pc/advertising/
 ||dshapv.xyz^
+||dskjbvzvs.com^
 ||dskjhs.com^
 ||dslenggui.com^
 ||dsp.ali213.net^
@@ -22403,6 +22411,7 @@ zzzyk.com###Tinfo
 ||dxg*.top/img/A*.js
 ||dxg0070.top/img/
 ||dxp.baidu.com^
+||dxsjcz.cn^
 ||dxwpedu.me^$third-party
 ||dxwsty.cn^
 ||dxxwdz.xyz^
@@ -22687,6 +22696,7 @@ zzzyk.com###Tinfo
 ||epoid.xyz^
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
+||epxfjcb.xyz^
 ||epxprfk.xyz^
 ||eq.af31f.site^
 ||eqcwpeo.cn^
@@ -23359,6 +23369,7 @@ zzzyk.com###Tinfo
 ||ggdumze.cn^
 ||ggg*.com/static/js/common.js
 ||gggppp666.com^
+||gghhct36.shop^
 ||gghmef7.com^
 ||ggjs.d17.cc^
 ||ggrfab.icu^
@@ -23659,6 +23670,7 @@ zzzyk.com###Tinfo
 ||guqu.net/Cooperate/
 ||gushiwen.org/getTicket.aspx
 ||guuds.cyou^
+||guysfair.com^
 ||guzsjdl.cn^
 ||gvbhae0.com^
 ||gw1jvhs.com^
@@ -24169,6 +24181,7 @@ zzzyk.com###Tinfo
 ||hsbianma.com/Ad/
 ||hsbianma.com/content/images/*-ad-
 ||hscnpk86.shop^
+||hscq8.cyou^
 ||hsdawz.com^
 ||hsex.men/nb/
 ||hsex.men/view/img/*.gif
@@ -29882,6 +29895,7 @@ zzzyk.com###Tinfo
 ||tnfhxszj.xyz^
 ||tngmn.com^$third-party
 ||tnjvz.cn^
+||tnllxd.xyz^
 ||tns.simba.taobao.com^
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
@@ -30287,6 +30301,7 @@ zzzyk.com###Tinfo
 ||uiszwh.icu^
 ||uiteligularly.fun^
 ||uito.top^
+||uiuaey.xyz^
 ||ujappzvz.xyz^
 ||ujgf120.com^
 ||ujnkn.com^
@@ -31806,6 +31821,7 @@ zzzyk.com###Tinfo
 ||yhmeinv.com/mh/
 ||yhnvgdkw.xyz^
 ||yhp4an7.cn^
+||yhsdwjes.xyz^
 ||yhsfsdv*.com^
 ||yhsfsdv03.com^
 ||yht7.com/web/assets/js/right.js

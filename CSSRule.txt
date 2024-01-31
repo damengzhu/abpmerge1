@@ -3223,6 +3223,7 @@ alientube.co###adblockContainer
 aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'div > div > a[target="_blank"]' 'div[class*="ad"]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
+alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
@@ -9146,6 +9147,8 @@ nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
 nongjitong.com##.ad_sms
+noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
+noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
 notre-planete.info###abp1
 novinky.cz##[class*="feed-item-advert"]
 novinky.cz##a[href*="&partId="]
