@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-01-31 16:09:55
-! Total count: 32645
+! Version: 2024-02-01 08:10:47
+! Total count: 32661
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10490,8 +10490,9 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.*#?#div[aria-label^="Advertisement"]:-abp-has(>section.ads-berries)
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[class^="carousel__snap-point"][style]>div[data-viewport]>a' 'span'
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"merch")]/parent::div[@class="merch-module"]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[class][role]>div[data-viewport]' 'p[class][role]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[style]>div[data-viewport]' 'span[class][role]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[@class="merch-placement-layout"]'
 ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__promoted"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
@@ -17081,6 +17082,7 @@ www.yizhibo.com##.register_guide
 www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
 www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")][text()]/ancestor-or-self::ytlr-ad-slot-renderer'
 www.youtube.com#$#skip-video 'video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay-instream-info"]' 5; simulate-mouse-event 'span>button.ytp-ad-skip-button-modern$delay=0'
+www.youtube.com#$#skip-video 'video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay-instream-info"]'; simulate-mouse-event 'span>button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
@@ -18405,6 +18407,7 @@ zzzyk.com###Tinfo
 ||3i2i.com^
 ||3jia5.com^$third-party
 ||3k8.com/d/js/m/thea
+||3ndra.icu^
 ||3p8801.co^
 ||3q3l.cn^
 ||3qcc.com/js/bb.js
@@ -21401,6 +21404,7 @@ zzzyk.com###Tinfo
 ||classic.39health.com^
 ||clb.biz/Public/static/js/common-v2.js
 ||clcmdie.com^
+||clgvlvbc.xyz^
 ||click.googleanalytics.com^
 ||click.oneplus.cn^
 ||click.taobao.com^$popup,domain=steamcn.com
@@ -22316,6 +22320,7 @@ zzzyk.com###Tinfo
 ||drtyuigj.xyz^
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
+||drzgtli.com^
 ||ds1.kaijia.com^
 ||dsbfpt.xyz^
 ||dsbjdeh.cn^
@@ -22406,6 +22411,7 @@ zzzyk.com###Tinfo
 ||dwstatic.com^*/newsPopup/
 ||dwstatic.com^*/p/livetip/
 ||dwstatic.com^*/sidebar.js
+||dwtkuzo.cn^
 ||dwyngjb.icu^
 ||dxfzasn.com^$script
 ||dxg*.com/img/A*.js
@@ -23421,6 +23427,7 @@ zzzyk.com###Tinfo
 ||glixaing.com^
 ||globalapi.ad.xiaomi.com^
 ||glpca.com^
+||glruh.site^
 ||glwxw.net^
 ||glzy8.com/img/ceo/js.js
 ||glzyw.com^$third-party
@@ -24742,6 +24749,7 @@ zzzyk.com###Tinfo
 ||iqnew.com/d/js/m/thea
 ||iqs871.com^
 ||iqshw.com/d/js/m/thea
+||iqveat.icu^
 ||iqybys.xyz^
 ||irs03.com^
 ||irtefs.xyz^
@@ -24754,6 +24762,7 @@ zzzyk.com###Tinfo
 ||ishisetianxia.com/tb.js
 ||ishowx.com/www/2015/js/top.js
 ||isine88.com^
+||isksss.top^
 ||isky.ltd/skin/js/ad.js
 ||islbaho.top^
 ||isna.top^
@@ -25562,6 +25571,7 @@ zzzyk.com###Tinfo
 ||kkddlt2f.site^$third-party
 ||kkeojk.xyz^
 ||kkisoo.com^
+||kkjshsj.com^
 ||kkkaii.cn^
 ||kkkjpg-522.cc^$third-party
 ||kkkkdm.com/js/comic-
@@ -28374,6 +28384,7 @@ zzzyk.com###Tinfo
 ||qvkjkc.xyz^
 ||qvpublish.com^
 ||qvrdlvz.cn^
+||qvrfddm.cn^
 ||qvxvvjom.com^
 ||qw2v.taoxiehui.cn^
 ||qwandly.top^
@@ -28593,6 +28604,7 @@ zzzyk.com###Tinfo
 ||rkzby.cn^
 ||rlhtnnm.xyz^
 ||rljjt.cn^
+||rlllxn.xyz^
 ||rlogs.youdao.com^
 ||rlqoyht.icu^
 ||rltdxt.com/files/h5/
@@ -30832,6 +30844,7 @@ zzzyk.com###Tinfo
 ||wd.adcolony.com^
 ||wdadad.cn
 ||wdadad.cn^
+||wdcigo.xyz^
 ||wddsva0.com^
 ||wdff.buzz/hengf.
 ||wdpkx.cn^
@@ -31917,6 +31930,7 @@ zzzyk.com###Tinfo
 ||ykxwn.com^
 ||yl04z4v.cn^
 ||yldfkfb.cn^
+||ylgvlvbc.xyz^
 ||yllix.com^
 ||ylykd.cn^
 ||ylznwl.cn^
@@ -32127,6 +32141,7 @@ zzzyk.com###Tinfo
 ||yzc35326.top^
 ||yzcpgadw.icu^
 ||yzdh44.com/js/
+||yzfrapd.xyz^
 ||yzgid.cn^
 ||yziwoidi.icu^
 ||yziwujuzq.live^
@@ -32554,6 +32569,7 @@ zzzyk.com###Tinfo
 ||zvasuzb.icu^
 ||zvdc9y.icu^
 ||zvfaxh.xyz^
+||zvtnj.icu^
 ||zvvg678.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
