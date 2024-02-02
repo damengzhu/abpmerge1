@@ -5396,9 +5396,9 @@ easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[class][role]>div[data-viewport]' 'p[class][role]'
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[style]>div[data-viewport]' 'span[class][role]'
-ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"merch")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[@class="merch-placement-layout"]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div[class][role]>section[data-viewport]' 'div[class][role]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'li[style]>section[data-viewport]' 'span[class][role]'
+ebay.com,ebay.co.uk,ebay.com.au,ebay.ca,ebay.fr,ebay.at,ebay.de,ebay.it,ebay.es#$#hide-if-matches-xpath './/div/h2[contains(@class,"recs-title-label")][contains(translate(text(), "SPONSORED", "sponsored"), "sponsored") or contains(translate(text(), "SPONSORISÉS", "sponsorisés"), "sponsorisés") or contains(translate(text(), "PATROCINADOS", "patrocinados"), "patrocinados") or contains(translate(text(), "ANZEIGEN", "anzeigen"), "anzeigen") or contains(translate(text(), "SPONSORIZZATI", "sponzorizzati"), "sponsorizzati") or contains(translate(text(), "SPONSORIZZATE", "sponzorizzate"), "sponsorizzate")]/ancestor::div[contains(@class,"recs-card-container")][1]'
 ebay.com,ebay.co.uk,ebay.de#$#hide-if-matches-xpath '//li[@data-viewport]//span[text()="Sponsored" or text()="Anzeige"]/ancestor::li[@data-viewport]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.it,ebay.fr,ebay.es,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/span[@class="s-item__promoted"][text()]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.com,ebay.com.au,ebay.co.uk,ebay.com.my,ebay.ie,ebay.ca,ebay.at,ebay.de,ebay.ch,ebay.pl,ebay.it,ebay.nl,ebay.be,ebay.fr,ebay.es,ebay.com.hk,ebay.com.sg,ebay.ph#$#hide-if-matches-xpath './/div[@data-view]/a[@class="srp-1p__link"]//div[text()="Sponsored"]/ancestor::div[@data-view][@class][1]'
@@ -11192,7 +11192,7 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
 truyensextv.org#$#abort-current-inline-script document.addEventListener popup
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com,khophimchill.com#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,khophim88.net,nhentaivn.com,khophimchill.com,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 truyentuanopm.com#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
