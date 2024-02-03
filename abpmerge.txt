@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-02 16:08:55
-! Total count: 32686
+! Version: 2024-02-03 08:09:26
+! Total count: 32697
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8126,7 +8126,7 @@ abmedia.io###block-12
 abmedia.io##.pum
 abmedia.io##a[href^="https://ace.io/"]
 abmedia.io##a[href^="https://www.okx.com/"]
-abmedia.io,appinn.com,carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
+abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
 abminbuy.com##body > a[rel="nofollow"] > img
 ac-room.cc##.ad.v-card
 ac-room.cc#?#.waterfall > div.waterfall-box > div.waterfall-item:has(> div.ad)
@@ -9466,7 +9466,7 @@ china.com.cn##.Banner_left
 china.com.cn##.Banner_right
 china.com.cn##a[href*="dwz.cn"]
 china.com.cn##img[width="665"]
-china.com.cn,csdn.net,cyol.net,lenovo.com.cn,wxrb.com##.AD
+china.com.cn,csdn.net,cyol.net,lenovo.com.cn,liues.cn,wxrb.com##.AD
 china.com.cn,foodmate.net##.ad6
 chinaacc.com##.leftBox
 chinabidding.cn###info_adv_1
@@ -10204,7 +10204,6 @@ docs.cfw.lbyczf.com###推广 + div.list
 docsmall.com##+js(set-constant, _AdBlockInit, noopFunc)
 docsmall.com##.modal-connection.show
 docsmall.com#@##google-ads
-dofilms.ru,freehat.cc,hlamer.ru,lostpix.com,oxax.tv,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
 dogedoge.com##.tag-home__item
 dogfight360.com##+js(abort-current-script, document.write, document.write(ad);)
 doii.cc##.w-\[200px\].fixed
@@ -11015,6 +11014,7 @@ freedidi.com,ottawazine.com##div[id^="text-"]
 freedom-ip.com#@#.pub_vertical div
 freedom-ip.com#@#.pub_vertical ins
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
+freehat.cc,hlamer.ru,lostpix.com,oxax.tv,otfilm.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
 freehdsport.com##[id^="ltas_overlay_Player"]
 freeiphone.fr#@##adsense
 freejavbt.com##+js(window.open-defuser)
@@ -13179,8 +13179,7 @@ laogu.cc##.rowIvy
 laohu8.com##.app-button
 laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
-laoliublog.cn##.widget_custom_html
-laoliublog.cn##.widget_media_image
+laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
 laowang.vip###frameYl5IOf
 laozuo.org##.s_ad125
@@ -13351,7 +13350,6 @@ litix.io
 litv.tv##.ad_impression
 litv.tv##.internal_bn
 litv.tv##body > .right_float_poster_container
-liues.cn##.AD
 liues.cn##.widget-graphic-cover
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
@@ -15305,7 +15303,6 @@ ruten.com.tw#@#.adslot
 rutor.in#$#abort-current-inline-script document.createElement ExternalChromePop
 rutor.org#$#abort-on-property-read Light.Popup
 ruyo.net##.textwidget a > img
-ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+155)
@@ -21069,6 +21066,7 @@ zzzyk.com###Tinfo
 ||cbsi.com.cn/js/mlt.js
 ||cbttnmo.xyz^
 ||cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
+||cbyhoe.xyz^
 ||cc-316.cc^
 ||cc.8181zx.com^
 ||cc.xiaodapei.com^
@@ -21441,6 +21439,7 @@ zzzyk.com###Tinfo
 ||clubic.com/assets/js/6f34f4c.js$script
 ||clugqa.com^
 ||clw99.mobi^
+||clypzbzs.xyz^
 ||cm.baidu.com^
 ||cmbkgmx.cn^
 ||cmbmtpjm.xyz^
@@ -22140,6 +22139,7 @@ zzzyk.com###Tinfo
 ||djponj.xyz^
 ||djs.baomihua.com^
 ||djv99sxoqpv11.cloudfront.net^
+||dk45h.icu^
 ||dkcwnsu.xyz^
 ||dklwddl.cn^
 ||dkvakldvnsv.com^
@@ -23720,6 +23720,7 @@ zzzyk.com###Tinfo
 ||gxzxiww.com^
 ||gybyxsy1588.com^
 ||gyhgcgj.xyz^
+||gyjgrvd.cn^
 ||gyjinchuang.vip^
 ||gykyec.xyz^
 ||gypowdr.com^
@@ -24793,6 +24794,7 @@ zzzyk.com###Tinfo
 ||it165.net/index.php?m=poster&
 ||it168.com/pv.js
 ||it610.com/views/front/js/special/
+||it8vh.site^
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xmlhttprequest,redirect=noop.txt
 ||itadapi.ithome.com.tw^
 ||itavcn.com/images/2012/ad_
@@ -28133,6 +28135,7 @@ zzzyk.com###Tinfo
 ||qdzyspjx.com^
 ||qedvcu.com^
 ||qerbert78.xyz^
+||qeuckn.icu^
 ||qexitv.com^
 ||qezpjlp.cn^
 ||qf1d.top^
@@ -30457,6 +30460,9 @@ zzzyk.com###Tinfo
 ||utwwzqdx.xyz^
 ||utywsi.cn^
 ||uu1.3gu.com^
+||uu11881.com^
+||uu22002.com^
+||uu22332.com^
 ||uu3192uu.com^
 ||uu5731uu.com^
 ||uu6522uu.com^
@@ -30592,6 +30598,7 @@ zzzyk.com###Tinfo
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrfes.site^
 ||vdtxlt.xyz^
+||ve0ke.icu^
 ||vel7.xyz^
 ||venator.link^
 ||vencerocasino.com/$popup
@@ -30851,6 +30858,7 @@ zzzyk.com###Tinfo
 ||wbiao.cn/common/newsbannerAds/
 ||wbiao.co/src2/js/expand/fudong/
 ||wbkaqly.cn^
+||wbnbocz.xyz^
 ||wbnhqq.com^
 ||wbnlwyj.xyz^
 ||wbqosw.xyz^
@@ -31089,6 +31097,7 @@ zzzyk.com###Tinfo
 ||wsyfsg.xyz^
 ||wtiaw.top^
 ||wtienle.top^
+||wttuuyd.cn^
 ||wubizigeng.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
@@ -31956,6 +31965,7 @@ zzzyk.com###Tinfo
 ||ylgvlvbc.xyz^
 ||yllix.com^
 ||ylykd.cn^
+||ylypzbzs.xyz^
 ||ylznwl.cn^
 ||ymdxl.com^
 ||ymgjc.com^
@@ -32348,6 +32358,7 @@ zzzyk.com###Tinfo
 ||zfotrq.xyz^
 ||zfowbr.buzz^
 ||zfp32.buzz^
+||zfpkrl.xyz^
 ||zfteiv.xyz^
 ||zfticz.buzz^
 ||zfticz.xyz^
