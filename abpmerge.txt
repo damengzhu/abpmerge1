@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-04 08:10:31
-! Total count: 32712
+! Version: 2024-02-04 16:09:09
+! Total count: 32716
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -524,6 +524,7 @@
 ##.adlist
 ##.adlistcss
 ##.adpc
+##.adppc
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads-1
@@ -1923,7 +1924,6 @@ $websocket,domain=5nj.com|cechi8.com
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
-.com:8077/*?$third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .cyou/*_*_an*js?$script,third-party
@@ -25108,6 +25108,7 @@ zzzyk.com###Tinfo
 ||jiudashi.shop^
 ||jiumai88.com^
 ||jiumao20230305.live^
+||jiupaozi.com^
 ||jiutou20230210.live^
 ||jiuyuntian3.cn/vs.php?id=
 ||jiuyuntian3.cn^
@@ -28145,6 +28146,7 @@ zzzyk.com###Tinfo
 ||qdzilh.cn^
 ||qdzyspjx.com^
 ||qedvcu.com^
+||qejjhnq.cn^
 ||qerbert78.xyz^
 ||qeuckn.icu^
 ||qexitv.com^
@@ -28913,6 +28915,7 @@ zzzyk.com###Tinfo
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sdkdfjksl.com^
+||sdkjkbsjkbvjkscv.com^
 ||sdkjnbjksbnkjs.com^
 ||sdklcnskvbks.com^
 ||sdklnlsknvcks.com^
@@ -31663,6 +31666,7 @@ zzzyk.com###Tinfo
 ||xtpwfb.xyz^
 ||xtube.com/js/ht.js
 ||xtube.com/theme/v2/vendor/js-popunder/
+||xtvrtrya.xyz^
 ||xtxa.net^
 ||xu27r.com^
 ||xuanyaosp.com^
