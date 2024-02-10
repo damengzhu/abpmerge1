@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-10 08:09:27
-! Total count: 32786
+! Version: 2024-02-10 16:10:02
+! Total count: 32800
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -291,6 +291,8 @@
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
 ###pop_hongbao
+###popadv_popmask
+###popadv_popmenu
 ###popup.t
 ###pp-modal-id
 ###projectpostbody > a[target="_blank"]
@@ -546,6 +548,7 @@
 ##.ads_all > .ads_w
 ##.ads_desktop
 ##.ads_mobile
+##.ads_plugin
 ##.adsbygoogle
 ##.adsense160
 ##.adsense200
@@ -665,6 +668,7 @@
 ##.content_ad_300
 ##.corner-gg
 ##.couplet_9cb0d
+##.coupletad
 ##.ct-ad-article-wrapper
 ##.ctm_ad
 ##.cui-pt-item[data-qhb]
@@ -2328,6 +2332,7 @@ $websocket,domain=5nj.com|cechi8.com
 /adver.
 /advert.
 /advert/*
+/advert/youxi.js
 /advert2.
 /advert_
 /advertise/*
@@ -4533,6 +4538,7 @@ $websocket,domain=5nj.com|cechi8.com
 9xav.cc#$##alert_windows { display: none !important; }
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 9xupload.me#$#abort-on-property-read eval
+9y01.xyz##.in-friends
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.z*.xyz/$object,third-party
 ://*:*/chunyu.html?k=$csp=script-src
@@ -9406,6 +9412,7 @@ cenapaliw.pl#@#div[id^="div-gpt-ad"]
 cenapaliw.pl#@#iframe[id^="google_ads_iframe"]
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
 cesafe.com,kkpan.com,yxdj.com.cn##.m-a-linktwo
+cgdyx.com##.zib-slider
 cger.com,pcsoft.com.cn#@#.share_box
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
@@ -11885,6 +11892,7 @@ huaban.com#@#img[width="240"][height="400"]
 huaban.com#@#img[width="240px"][height="400px"]
 huaban.com,start.firefoxchina.cn##.extra
 huaban.com,zcool.com.cn##.ad
+huaijiufu.com###wp > center
 hualongxiang.com##.bbs_box_gg
 hualongxiang.com##.khd_b
 hualongxiang.com##.quick_reply_ad
@@ -14261,6 +14269,7 @@ nivod7.tv##.nav-ads
 nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nlc.gov.cn###lovexin12xx
 nmgnews.com.cn###div_ad4
+nnhanman.net##div[style="width:728px;padding-top: 8px;"]
 nobugin.com##.td-a-rec
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
@@ -19140,6 +19149,7 @@ zzzyk.com###Tinfo
 ||9wsbf.top^
 ||9xf9qkz5.com^
 ||9xu.com^$third-party
+||9y01.xyz/app/index.html
 ||9ya.net/con/ad
 ||9ye.com/Files/Editor/ad/
 ||9zvip.net/hi5asd/
@@ -29290,6 +29300,7 @@ zzzyk.com###Tinfo
 ||smqzj.com/seo.js
 ||smtwm61.com^
 ||smuc.cnnfootballclub.com^
+||smxflvz.cn^
 ||smzy.com/v1/img/
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
@@ -29956,6 +29967,7 @@ zzzyk.com###Tinfo
 ||tjwzyjx.icu^
 ||tk.504pk.com^
 ||tkbbjtfp.xyz^
+||tklivechat.com/widgets/$third-party
 ||tklnzv.xyz^
 ||tknkfd.xyz^
 ||tkqwurl.icu^
@@ -30028,6 +30040,7 @@ zzzyk.com###Tinfo
 ||topmba.mobi/ad/
 ||topqualitylink.com^$third-party
 ||topthink.com/api/basic/
+||toptoon03.xyz/app/tuijian.html
 ||toqsxdpx.xyz^
 ||torrent-avenue.com/popup.js
 ||torrentz.eu/p/$popup
@@ -31429,6 +31442,7 @@ zzzyk.com###Tinfo
 ||xcvwrj.xyz^
 ||xcwzq.xyz^
 ||xcysqq.com^
+||xdazjxso.xyz^
 ||xdcad.net/source/plugin/disad/disad.js
 ||xddzshop.com^
 ||xdf.cn/v4/js/leyus/
