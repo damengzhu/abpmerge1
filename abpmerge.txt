@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-12 16:10:15
-! Total count: 32832
+! Version: 2024-02-13 08:11:42
+! Total count: 32845
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3679,6 +3679,7 @@ $websocket,domain=5nj.com|cechi8.com
 18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 1905.com##.mobile_ad_promote
+1905.com##.pauseInfoWrap:remove()
 1905.com##.zx-pic
 1905.com##.zx-small-pic
 1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,99kubo.tv,manhuafen.com##.ad
@@ -11312,7 +11313,7 @@ ghoffice.com##.tac > a > img[src*=".gif?"]
 ghoffice.com,ksbbs.com,kshot.com##[id^="ads_"]
 ghxi.com###respond + div
 ghxi.com##.ad_single_12
-ghxi.com##.entry-content > DIV[style^="position:"]
+ghxi.com##.entry-content > div[style^="position:"]
 ghxi.com##div[style^="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index"]
 ghxi.com#$#.wpcom_ad_wrap { position: absolute !important; left: -3000px !important; }
 ghxi.com#@#.social-item
@@ -18776,6 +18777,7 @@ zzzyk.com###Tinfo
 ||69t49.com/floating/layer.js
 ||69wx1.top^
 ||6avz.com^$script,third-party
+||6b70b1086b.com^
 ||6cdwf.xyz^
 ||6gcstb.xyz^
 ||6gukaitu.xyz^
@@ -19572,6 +19574,7 @@ zzzyk.com###Tinfo
 ||aefmbeq.cn^
 ||aeletheacd.com^
 ||aerbgpn.xyz^
+||aeucyo.xyz^
 ||af29.com/banner/
 ||af31f.site^
 ||afablca.cn^
@@ -20419,6 +20422,7 @@ zzzyk.com###Tinfo
 ||bcc878.com/js/abc/
 ||bccnsoft.com/aac/
 ||bceapp.com/jj/1716mid.js
+||bcebos.com/59x360x528.gif
 ||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
 ||bcebos.com/contentAdSecend_
@@ -20861,6 +20865,7 @@ zzzyk.com###Tinfo
 ||brownfox.top^
 ||browser.sentry-cdn.com^$third-party
 ||browserkernel.baidu.com^
+||brtzgnd.xyz^
 ||brzfqq.com^
 ||bs.baidu.com/app-ads%
 ||bsanciv.top^
@@ -21477,6 +21482,7 @@ zzzyk.com###Tinfo
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net^$domain=thegatewaypundit.com
 ||cloudfront.net^$script,domain=croydonguardian.co.uk
+||clplrhum.xyz^
 ||clqkqq.com^
 ||clrjnhxi.xyz^
 ||cls.cn/v2/web/ad?
@@ -23209,6 +23215,7 @@ zzzyk.com###Tinfo
 ||ftrtnr.xyz^
 ||ftzzbx.xyz^
 ||fuentekj.com^
+||fufrnl.xyz^
 ||fuimg.com/1/66795b80a792fb96.png
 ||fuimg.com^$domain=678cn.com|cfzhushou.com
 ||fujifood.hk^
@@ -24929,6 +24936,7 @@ zzzyk.com###Tinfo
 ||iwanad.baidu.com^
 ||iwandlo.top^
 ||iwarship.net/wowsdb/static/img/banner.png
+||iwatojc.cn^
 ||iweiweb.com^
 ||iwwmaq.xyz^
 ||ixelrsd.cn^
@@ -27481,6 +27489,7 @@ zzzyk.com###Tinfo
 ||ognujxj.cn^
 ||ogouawc.cn^
 ||ogxstqna.xyz^
+||ogyoopo.cn^
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
 ||ohdvafp.xyz^
@@ -28026,6 +28035,7 @@ zzzyk.com###Tinfo
 ||power.adhacker.online^$third-party
 ||poxiao.com/template/default/images/12345.js
 ||poyang.com^
+||pozrwj.icu^
 ||ppedp.cn^
 ||ppenid.xyz^
 ||ppjttn.xyz^
@@ -28165,6 +28175,7 @@ zzzyk.com###Tinfo
 ||q.baminw.com.cn^
 ||q.f05.xyz^
 ||q1.yyxwzx.com^
+||q1gel.icu^
 ||q1zcp.com^
 ||q27sz.com^
 ||q4v3c.site^
@@ -30667,6 +30678,7 @@ zzzyk.com###Tinfo
 ||vbdbmqzu.com^
 ||vbgr7.cn^
 ||vbnmjjda.xyz^
+||vbzfjh.xyz^
 ||vbzrkme.xyz^
 ||vcbppb.xyz^
 ||vcjczwnc.xyz^
@@ -32091,6 +32103,7 @@ zzzyk.com###Tinfo
 ||ylgvlvbc.xyz^
 ||ylkdbbvy.xyz^
 ||yllix.com^
+||ylplrhum.xyz^
 ||ylrjnhxi.xyz^
 ||ylwrdnrw.xyz^
 ||ylykd.cn^
