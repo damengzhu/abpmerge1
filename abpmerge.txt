@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-13 08:11:42
-! Total count: 32845
+! Version: 2024-02-13 16:11:14
+! Total count: 32849
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8431,6 +8431,7 @@ apkcombo.com##.diseanmevrtt
 apkcombo.com##[data-d-ad-id]
 apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
+apkpure.net##DIV.js-ad-slot
 apowersoft.cn##.activity-poster
 appchina.com###yyh-bottom
 appinn.com###ranshownow
@@ -13502,10 +13503,10 @@ m.mgtv.com##.mg-dcross
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
-m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
-m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
-m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
-m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
+m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
+m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
+m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.qidian.com###fixBoxs, #read_app_download
@@ -18436,6 +18437,7 @@ zzzyk.com###Tinfo
 ||3k8.com/d/js/m/thea
 ||3ndra.icu^
 ||3p8801.co^
+||3prndxd.cn^
 ||3q3l.cn^
 ||3qcc.com/js/bb.js
 ||3rsppty.cn^
@@ -31660,6 +31662,7 @@ zzzyk.com###Tinfo
 ||xlivrdr.com^
 ||xlkdbbvy.xyz^
 ||xlnvvbk.xyz^
+||xlplrhum.xyz^
 ||xlpu.cc/adv/
 ||xlrjnhxi.xyz^
 ||xls.go.sohu.com^
@@ -32304,6 +32307,7 @@ zzzyk.com###Tinfo
 ||yyetss.com/static/modal.js
 ||yylady.cn^
 ||yynncbn.cn^
+||yyodimq.cn^
 ||yyselrqpyu.com^
 ||yystzl.cn^
 ||yytxzct.xyz^
