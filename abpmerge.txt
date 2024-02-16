@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-15 16:10:03
-! Total count: 31101
+! Version: 2024-02-16 08:11:00
+! Total count: 31112
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -11078,6 +11078,7 @@ iyf.tv##.video-player + div[class*=" "] > div.block
 iyf.tv##.video-player > app-gg-block.ng-star-inserted[style]
 iyf.tv##.video-player > div.ng-star-inserted > div#PB
 iyf.tv##vg-pause-ads
+iyf.tv##vg-player div.vg-bg
 iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 iyf.tv#@#.share-top
@@ -13254,7 +13255,7 @@ plus28.com##a[href*="/?Extend="]
 plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 plus28.com##div[style="width:270px; height:180px;"]
 plus28.com##div[style="width:960px;margin: auto;"]
-plvb.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
+plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 po.baidu.com###shareBoxBlank
 pobre.wtf##div.generalModal:first-child
 pobre.wtf#$#abort-on-property-read window.banners.1
@@ -19142,6 +19143,7 @@ zzzyk.com###Tinfo
 ||bmiea.xyz^
 ||bmjs.xzw.com^
 ||bmjvrf.xyz^
+||bmnbyn.icu^
 ||bmp.ali213.net/js/
 ||bmp.ovh/imgs/2020/09/3e4e11ecc19c4bd6.png
 ||bmp1.ali213.net/js/
@@ -22129,6 +22131,7 @@ zzzyk.com###Tinfo
 ||guysfair.com^
 ||guzsjdl.cn^
 ||gvbhae0.com^
+||gvbta.icu^
 ||gw1jvhs.com^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwdobvs.cn^
@@ -23682,6 +23685,7 @@ zzzyk.com###Tinfo
 ||js1.122cha.com^
 ||js1.dadiniu.cn^
 ||js1.haoge500.com^
+||js131.cn^
 ||js22f.net^
 ||js6.efyt6.com^
 ||jsb.qianzhan.com^
@@ -23905,6 +23909,7 @@ zzzyk.com###Tinfo
 ||kbbrptv.xyz^
 ||kbctii.xyz^
 ||kbneks00.online^
+||kbomku.xyz^
 ||kbzs88.com^
 ||kc-valves.com^
 ||kc.gouchezj.com^
@@ -24386,6 +24391,7 @@ zzzyk.com###Tinfo
 ||lexs9.com^$domain=9xav.cc
 ||lezbrja.cn^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfffzv.xyz^
 ||lfhnzbj.xyz^
 ||lfjtiuy.cn^
 ||lflmdm.com^
@@ -26408,6 +26414,7 @@ zzzyk.com###Tinfo
 ||prpops.com^$third-party
 ||prscripts.com^$third-party
 ||prtlth.xyz^
+||przbzr.xyz^
 ||ps123.net/MyFile/
 ||ps557.com/link/
 ||ps886.us/js/*.js
@@ -26678,6 +26685,7 @@ zzzyk.com###Tinfo
 ||qktmwiq.cn^
 ||qkwsqq.com^
 ||ql.uzuzuz.com^
+||qlbbowx.xyz^
 ||qlcbeg.xyz^
 ||qlogo.cn^$domain=chichiav1.xyz
 ||qm6ef.xyz^
@@ -28685,6 +28693,7 @@ zzzyk.com###Tinfo
 ||uckgqa.xyz^
 ||uckmee.xyz^
 ||ucqihfh.cn^
+||uctutu3789.xyz^
 ||uczfl.com/data/content
 ||ud783c02.com^
 ||udb3n.icu^
@@ -30206,6 +30215,7 @@ zzzyk.com###Tinfo
 ||yd.linjuyihao.com^
 ||ydazjxso.xyz^
 ||yddbysa.xyz^
+||ydfhidrk.xyz^
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
 ||ydgsvls.cn^
@@ -30561,6 +30571,7 @@ zzzyk.com###Tinfo
 ||yy18.info^*thanks$popup
 ||yy4480qpgyy.com^
 ||yy8090.vip/js/abc/
+||yyddkm526.shop^
 ||yye2.top^
 ||yyefao.com^
 ||yyetss.com/static/modal.js
