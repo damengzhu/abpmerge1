@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-16 08:11:00
-! Total count: 31112
+! Version: 2024-02-16 16:10:23
+! Total count: 31153
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4920,6 +4920,8 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||acdn.adnxs.com/ast/ast.js$script,domain=vgtv.no|vg.no
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
+@@||acidpigs.com^$script,xmlhttprequest
+@@||actuallysheep.com^$script,xmlhttprequest
 @@||ad*.liverail.com/?LR_$object-subrequest,domain=play.tv|playtv.fr
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
@@ -5098,6 +5100,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||appledaily.com/js/nxm_
 @@||aquabitcoin.com/show_ads.js$script
 @@||aqy103.com/js/aqy/main.js
+@@||ar1nvz5.com^$script,xmlhttprequest
 @@||aseanlegacy.net/adsense/ads.png
 @@||aseanlegacy.net/assets/*/*/advertisement.php$script
 @@||aseanlegacy.net/modules/adblock/controller.php
@@ -5153,6 +5156,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||bdv.bidvertiser.com/BidVertiser.dbm?$domain=vanhut.tk
 @@||beanfun.com/ADClient/
 @@||beyondsoft.com/dataservice/img/ad_
+@@||bhcumsc.com^$script,xmlhttprequest
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
 @@||bild.de^$elemhide
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
@@ -5279,6 +5283,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||contentlockingnetworks.com/gTemplate.php?GID=$subdocument,third-party
 @@||coolinet.com^$generichide
 @@||coolkora.com^$elemhide
+@@||copyrightaccesscontrols.com^$script,xmlhttprequest
 @@||costco.com.tw/_ui/shared/js/analyticsmediator.js
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 @@||count.taobao.com/counter$script
@@ -5327,13 +5332,17 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||ddtorun.pl/pl/js/show_ads.js$script
 @@||ddwloclawek.pl/pl/js/show_ads.js$script
 @@||deb.gs/intermission/loadTargetUrl$xmlhttprequest
+@@||delegatediscussion.com^$script,xmlhttprequest
 @@||demo.ama.pub^$generichide
 @@||demo.hongkiat.com/jquery-detect-ads-block/images/ads.jpg$image
 @@||demonoid.pw/show_ads_.js$script
 @@||des.smartclip.net/ads?$domain=vvvvid.it
 @@||descargas.seguridadwireless.es/banner.gif
 @@||designtaxi.com/js/ads.js$script
+@@||deskdecision.com^$script,xmlhttprequest
+@@||detailedgovernment.com^$script,xmlhttprequest
 @@||detectadblock.com/ads.js$script
+@@||detectdiscovery.com^$script,xmlhttprequest
 @@||developer.apple.com$generichide
 @@||di.se^$elemhide
 @@||dictionary.search.yahoo.com/beacon/sc?&ajaxdd=tabsCard&
@@ -5342,6 +5351,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||ditiezu.com^*.php$subdocument
 @@||diymediahome.org/*/adframe.min.js$script,~third-party
 @@||dizhi99.com^$generichide
+@@||dk4ywix.com^$script,xmlhttprequest
 @@||dl.r3sub.com^$generichide
 @@||dlh.net/ads.html$subdocument
 @@||dlkoo.cc/down/*/*.htm$popup
@@ -5359,9 +5369,12 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
 @@||dnspod.cn/static/common/js/analytics.js
 @@||doc110.com^*/ad.css?$stylesheet
+@@||dogcollarfavourbluff.com^$script,xmlhttprequest
 @@||dogecoinpuddle.com/show_ads.js$script
 @@||dogefaucet.com/initializr/js/ads.js$script
 @@||dogry.pl/ads.html$subdocument
+@@||dollardelta.com^$script,xmlhttprequest
+@@||doorbrazil.com^$script,xmlhttprequest
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
 @@||doubleclick.infineoncorp.com^$domain=eventhubs.com
@@ -5369,11 +5382,15 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
+@@||doubtfulrainstorm.com^$script,xmlhttprequest
 @@||douyucdn.cn^*-share-master/
 @@||down.cc/down/js/ad.js
 @@||download.mokeedev.com^$genericblock,generichide
 @@||dqzsteel.com/Website/Image/guanggao/
+@@||draconiancurve.com^$script,xmlhttprequest
 @@||dragoart.com/ads.js$script,~third-party
+@@||dramaticdirection.com^$script,xmlhttprequest
+@@||dripappliance.com^$script,xmlhttprequest
 @@||drstickyfingers.com/intermission/loadTargetUrl$xmlhttprequest
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
@@ -5387,6 +5404,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||e9china.net^$generichide
 @@||eafyfsuh.net/intermission/loadTargetUrl$xmlhttprequest
 @@||eami.in/images/js/ads.js$script
+@@||earthquakescarf.com^$script,xmlhttprequest
 @@||easylife.tw/js/adblockDetector.js
 @@||easylife.tw^$generichide
 @@||ecitic.com/source/*/pop
@@ -5396,13 +5414,21 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||edgesuite.net^*/ad.css?
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
+@@||educatedeggnog.com^$script,xmlhttprequest
 @@||eenadu.net/ads.js$script
+@@||ejyymghi.com^$script,xmlhttprequest
 @@||ekamus.info^$generichide
 @@||elife-cloud.blogspot.com^$generichide
 @@||em.hk/wp-content/uploads/*_300_250.
 @@||emome.net/files/advertising/
+@@||emptyescort.com^$script,xmlhttprequest
+@@||encouragingwilderness.com^$script,xmlhttprequest
+@@||energeticexample.com^$script,xmlhttprequest
 @@||english-subtitles.club/assets/$image,~third-party
+@@||enormousearth.com^$script,xmlhttprequest
 @@||enrondev.net/ads/server/www/delivery/$domain=filecore.co.nz,subdocument
+@@||enthusiasticring.com^$script,xmlhttprequest
+@@||enviousshape.com^$script,xmlhttprequest
 @@||eolinker.com^$generichide
 @@||epubit.com/static/epubit/share/js/share.min.js
 @@||eska.tv/assets/js/ads.js$script,domain=eska.tv
@@ -5411,13 +5437,16 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||ettoday.net^$generichide
 @@||eu4cn.com^$generichide
 @@||eurosolidaire.com^$generichide
+@@||evaluateend.com^$script,xmlhttprequest
 @@||eveskunk.com/ad/300x250/ads/$xmlhttprequest,domain=eveskunk.com
 @@||exashare.com/ici.html$subdocument
+@@||exclusivebrass.com^$script,xmlhttprequest
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc|jav777.xyz
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@||ez3c.tw/js/adblockDetector.js
 @@||ez3c.tw^$generichide
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
+@@||fadewaves.com^$script,xmlhttprequest
 @@||fang.com/stats/clickm2011.js
 @@||fangcloud.com^$generichide
 @@||fapoff.com/intermission/loadTargetUrl$xmlhttprequest
@@ -5578,6 +5607,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||hdzog.com/js/advertising.js$script
 @@||heavenly-blue.net^$elemhide
 @@||hellsmedia.com/js/advert.js$script
+@@||hfc195b.com^$script,xmlhttprequest
 @@||hh010.com^$generichide
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hindustantimes.com^/ads.js$script
@@ -5625,6 +5655,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ikea.cn^*/img/ads/
+@@||illustriousoatmeal.com^$script,xmlhttprequest
 @@||images.voyageforum.com^$image
 @@||imasdk.googleapis.com$domain=vvvvid.it
 @@||imasdk.googleapis.com/flash/*.swf$domain=syndication.vmma.be,object-subrequest
@@ -5808,6 +5839,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||megaline.co/intermission/loadTargetUrl$xmlhttprequest
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meizu.com/fileserver/ad/img/
+@@||memopilot.com^$script,xmlhttprequest
 @@||merlininkazani.com/js/ads.js$script
 @@||mgcashgate.com/cpalocker/?$domain=free-movie-home.com
 @@||mgcashgate.com/cpalocker/?$script,domain=pc.online143.com
@@ -5834,6 +5866,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||mmy.la^*300*250
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
+@@||modularmental.com^$script,xmlhttprequest
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
 @@||momovod.com/js/momo/adsbygoogle.js
@@ -6253,6 +6286,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||sinaimg.cn^*/deco/*/sinaObj.js
 @@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 @@||sinajs.cn/open/api/js/wb.js$domain=sc.sina.com.cn
+@@||sinceresubstance.com^$script,xmlhttprequest
 @@||sinopac.com/applyweb/OpenAccount/js/oas.
 @@||sitenable.com/admega.php$script
 @@||sitenable.org/admega.php$script
@@ -6419,6 +6453,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union2.50bang.org^$third-party
 @@||unshowmasonline.com/banner.gif$image
+@@||untidyquestion.com^$script,xmlhttprequest
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upf.co.il/advertisment.js$script
 @@||uploaded-premium.ru/ads/ad.js$script
@@ -9289,7 +9324,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.com,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -19532,6 +19567,7 @@ zzzyk.com###Tinfo
 ||cdcqee.com^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
 ||cdfda.xyz^
+||cdfhidrk.xyz^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
 ||cdhfvrug.xyz^
@@ -21849,6 +21885,7 @@ zzzyk.com###Tinfo
 ||ghreha.top^
 ||ghsnhjk.cn^
 ||giaoji.com/Runtime/Js/
+||gicjtss.cn^
 ||gimy.*/images/eee*.png
 ||giold.xyz^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
@@ -25543,6 +25580,7 @@ zzzyk.com###Tinfo
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||nenmu1obbi.info^
+||neolit.cn^
 ||nerydw.xyz^
 ||netded.com/templets/gfan/js/global.js
 ||netease.com/f2e/auto/modules/float-ask-price/
@@ -26570,6 +26608,7 @@ zzzyk.com###Tinfo
 ||qgl27.xyz^
 ||qgrnyis.cn^
 ||qguwoq.cn^$third-party
+||qhaarkie.com^
 ||qhapoq.xyz^
 ||qhbhlii.xyz^
 ||qhdlz.net/ssyyss/m.js
@@ -28024,6 +28063,7 @@ zzzyk.com###Tinfo
 ||szpbg.cn^
 ||szpnp.cn^
 ||szpnz.cn^
+||szptp.cn^
 ||szsbiw.xyz^
 ||szwjzl.cn^$third-party
 ||szxljdsb.com/tl
@@ -29766,6 +29806,7 @@ zzzyk.com###Tinfo
 ||xddzshop.com^
 ||xdf.cn/v4/js/leyus/
 ||xdfdqce.xyz^
+||xdfhidrk.xyz^
 ||xdh0808.com^$popup
 ||xdhfvrug.xyz^
 ||xdjdpyrt.xyz^
