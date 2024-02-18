@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-18 08:10:42
-! Total count: 31139
+! Version: 2024-02-18 16:09:49
+! Total count: 31141
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -15315,7 +15315,7 @@ weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
-weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
@@ -24039,6 +24039,7 @@ zzzyk.com###Tinfo
 ||kkosiso.com^
 ||kkpgv2.xunlei.com^
 ||kksjoa.com^
+||kksjsa.top^
 ||kkyjfdj.xyz^
 ||kkylx.xyz^
 ||kl.yditweb.cn^
@@ -29799,6 +29800,7 @@ zzzyk.com###Tinfo
 ||xdolhlwq.xyz^
 ||xdsahkln.xyz^
 ||xdttxdqe.xyz^
+||xdybwjpa.xyz^
 ||xdyjt.com^
 ||xdzjbn.xyz^
 ||xeazoj.icu^
