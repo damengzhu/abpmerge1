@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-20 16:10:45
-! Total count: 31172
+! Version: 2024-02-21 08:11:41
+! Total count: 31182
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9200,7 +9200,6 @@ exoav.com##+js(abort-on-property-read, exoNoExternalUI38djdkjDDJsio96)
 exoav.com##.place
 exoav.com##.table
 expedia.ca,expedia.com,expedia.co.uk,expedia.de,hotels.com##[data-meso-viewed]
-expedia.es,expedia.fr,expedia.ie,expedia.it,expedia.dk,expedia.co.id,expedia.co.in,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.com.hk,expedia.com.my,orbitz.com,ebookers.com,wotif.com,cheaptickets.com,travelocity.com#$#hide-if-matches-xpath './/a[contains(@href,"&trackingData")]/ancestor::div[@class="uitk-spacing uitk-spacing-margin-blockstart-three"]'
 expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 expres.cz,idnes.cz##[class^="r-main"]
 expres.cz,idnes.cz##a[href*="area=preroll_"]
@@ -15575,9 +15574,8 @@ www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
-www.youtube.com#$#hide-if-matches-xpath './/div[@style]/parent::*[contains(@class,"ad-badge")]/ancestor::div[contains(@class,"video-ads")]'
-www.youtube.com#$#hide-if-matches-xpath '//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")]/ancestor-or-self::ytlr-ad-slot-renderer'
-www.youtube.com#$#skip-video '.video-stream' './/div[@id]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
+www.youtube.com#$#hide-if-matches-xpath './/ytlr-app//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")]/ancestor-or-self::ytlr-ad-slot-renderer'
+www.youtube.com#$#skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
@@ -18566,6 +18564,7 @@ zzzyk.com###Tinfo
 ||awifi.cn^$third-party
 ||awiudbyqbpo.com^
 ||awoudsoo.xyz^
+||awuvcq.xyz^
 ||awyyzx.com^
 ||awzddev.cn^
 ||ax.*.ifeng.com^
@@ -20160,6 +20159,7 @@ zzzyk.com###Tinfo
 ||cvbjctqs.xyz^
 ||cvftv2.com^
 ||cvmesi.xyz^
+||cvnxetmq.xyz^
 ||cvsheil.com^
 ||cvtbdap.xyz^
 ||cvudqzoa.xyz^
@@ -20392,6 +20392,7 @@ zzzyk.com###Tinfo
 ||ddbuwo.cn^
 ||ddgjjj.com^
 ||ddgjjj.com^$third-party
+||ddielv.cn^
 ||ddkep.xyz^
 ||ddkh59.com^
 ||ddlipf.xyz^
@@ -20885,6 +20886,7 @@ zzzyk.com###Tinfo
 ||dxg*.top/img/A*.js
 ||dxg0070.top/img/
 ||dxp.baidu.com^
+||dxrnksm.xyz^
 ||dxsjcz.cn^
 ||dxwpedu.me^$third-party
 ||dxwsty.cn^
@@ -21495,6 +21497,7 @@ zzzyk.com###Tinfo
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
 ||fm44f.space^
+||fmfnrf.xyz^
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
@@ -22376,6 +22379,7 @@ zzzyk.com###Tinfo
 ||hdypw.com^
 ||hdzb6.cc^
 ||head4.net/ad_
+||heapz.cyou^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
 ||hebstsmgs.com^
@@ -23639,6 +23643,7 @@ zzzyk.com###Tinfo
 ||jpvrbt.xyz^
 ||jpysvip.net/ad/
 ||jqkcett.icu^
+||jqpejp.xyz^
 ||jqsex.com^
 ||jqtkzuco.xyz^
 ||jquery.envi-met.com.cn^
@@ -25547,6 +25552,7 @@ zzzyk.com###Tinfo
 ||ncyksuw.xyz^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndbaxn.xyz^
+||nddld.cn^
 ||ndfsl.com^
 ||ndqcz0e.xyz^
 ||ndqzqmb.xyz^
@@ -26050,6 +26056,7 @@ zzzyk.com###Tinfo
 ||p.zol-img.com.cn^
 ||p.zol.com.cn/download/detail.js
 ||p04qzl.cn^
+||p0v2ni.cn^
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
 ||p1-feedback.byteimg.com^
@@ -27525,6 +27532,7 @@ zzzyk.com###Tinfo
 ||shuneiya.com/js/wcnm/foot.js
 ||shuneiya.com/static/js/ding.js
 ||shunlianhudong.com^
+||shuocyw.cn^
 ||shuowan.com/Public/shuo/20160119/569dafddd13be.jpg
 ||shuyu2001.cn^
 ||shuzilm.cn^
@@ -29054,6 +29062,7 @@ zzzyk.com###Tinfo
 ||vdrfes.site^
 ||vdtxlt.xyz^
 ||ve0ke.icu^
+||veaiyl.icu^
 ||vel7.xyz^
 ||venator.link^
 ||vencerocasino.com/$popup
@@ -30599,6 +30608,7 @@ zzzyk.com###Tinfo
 ||yuwenbin.host^
 ||yv8zs.online^
 ||yvbjctqs.xyz^
+||yvnxetmq.xyz^
 ||yvsnhc.com^
 ||yvudqzoa.xyz^
 ||yw800.com.cn^
