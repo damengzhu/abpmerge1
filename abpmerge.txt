@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-21 16:10:53
-! Total count: 31186
+! Version: 2024-02-22 08:11:20
+! Total count: 31194
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1480,7 +1480,6 @@
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
-##a[href="/vod/detail/id/118265.html"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
@@ -1546,7 +1545,7 @@
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
 ##body.conch-hasone section > span > video
-##body.desktop span[class^="c"] > a[href^="http"][rel="nofollow"][target="_blank"]
+##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
 ##body.no_overflow strong
 ##body.page > .popup
@@ -5304,7 +5303,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||cruisecenter.com.tw/data/ad/
 @@||crunchyroll.com/*/ads_enabled_flag.js$script
 @@||csdn.net/static/static/js/apps/popShow.js
-@@||css.yhdmtu.xyz^$domain=yinghuavideo.com|yinghua8.tv
+@@||css.yhdmtu.xyz^$domain=iyinghua.io|yinghua8.tv
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||cy.com/hz/*/ad
@@ -9119,6 +9118,7 @@ eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
 epinv.com##A[href="http://www.epinv.com/post/10450.html"]
+eporner.com#$#override-property-read exo99HL3903jjdxtrnLoad null; abort-on-property-read window.location.replace.getadb; cookie-remover ADBp
 eprice.com.hk##.ad-end-article
 eprice.com.hk##.article__content > div[style*="text-align"]
 eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
@@ -10237,7 +10237,7 @@ hgitv.com##.xinwen_right_gg01
 hh010.com##.a_hong_c
 hh010.com##.a_hong_h
 hh010.com##.a_hong_t
-hh3dhay.com,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
+hh3dhay.lol,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 hibox.hinet.net#@#.adarea
 hifidiy.net###part_left2
 hifidiy.net###part_right_gg7
@@ -13017,7 +13017,6 @@ parenting.pl#$#abort-on-property-read slot
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 passiontimes.hk##.rectAd680
-pc.qq.com##.detail-install-fast
 pc.yiyouliao.com##.yyl-ads-main > .yyl-ads-swiper:first-child + .yyl-ads-title
 pc.yiyouliao.com##.yyl-ads-swiper
 pc.yiyouliao.com##.yyl-video-list-item-width
@@ -14819,8 +14818,8 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.open
 truyensextv.org#$#abort-current-inline-script document.addEventListener popup
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.com,www.khophim88s.com,nhentaivn.com,khophimchill.com,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
-truyentuanopm.com#$#abort-current-inline-script $ btpop
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.net,www.khophim88s.com,nhentaivn.com,khophimchill.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyentuan.xyz#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsubasa.im##+js(no-setInterval-if, /home/?adblock=)
 tsubasa.im##+js(no-setTimeout-if, /home/?adblock=)
@@ -15146,7 +15145,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.tv,javhay.in,phimsexhay669.co,cliphot69.vin,doctruyen3qto.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentaivn.vc,sexphim1.com,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.vin,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentaivn.vc,sexphim1.com,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -15182,6 +15181,7 @@ vod1769.com##div[id^="a"]
 voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
 volcore.xyz##.avd1
 volcore.xyz##.avd2
+volley.ru#$#override-property-read Object.prototype.preroll null
 volynpost.com#$#abort-on-property-read trek_shownow
 vostfr-vf.com##.fixe
 vostfr-vf.com##A[href="/100Mbs.html"]
@@ -15555,7 +15555,7 @@ www.sina.com.cn##.secondtj-wrapper
 www.sogou.com##.tgad-box + div
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.thepaper.cn##.pdtt01
-www.toptruyenvi.info#$#abort-current-inline-script Promise instance
+www.toptruyenss.info#$#abort-current-inline-script Promise instance
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.wenxuecity.com###leftside
@@ -15718,8 +15718,8 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilac96.net#$#abort-on-property-read adsRedirectPopups
-xoivo2.online#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
+xoilac100.tv#$#abort-on-property-read adsRedirectPopups
+xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
 xtgreat.com
@@ -21005,6 +21005,7 @@ zzzyk.com###Tinfo
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
 ||easyliao.com^$third-party
+||ebgwdon.cn^
 ||ebiotrade.com/jslibrary/js
 ||ebiotrade.com/netother/sy2013.ashx?type=quanping
 ||ebiotrade.com/newsf/js/inpic.js
@@ -21862,6 +21863,7 @@ zzzyk.com###Tinfo
 ||ggx0001.com^
 ||ggxwb.miguvideo.com^
 ||ghbdsbfd.com^
+||ghgasdt963.shop^
 ||ghghgf.51dongshi.com^
 ||ghghgf.xuexiwa.com^
 ||ghjie.com/JS/youcegg.js
@@ -25175,6 +25177,7 @@ zzzyk.com###Tinfo
 ||mipujia.com^$third-party
 ||misadw1.cn^
 ||misapopait.com^
+||misjgy.xyz^
 ||missav.com/static/img/partners/
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
@@ -26250,6 +26253,7 @@ zzzyk.com###Tinfo
 ||phpstudyimg.com/all/hrl.gif
 ||phpstudyimg.com/all/xiaojieqiantie.gif
 ||phputils.wc-os.com^
+||phvfevk.xyz^
 ||phwrju.xyz^
 ||pianba.tv/api/web_htmls.js
 ||pianbar.net/JS/bootfloat.js
@@ -26947,6 +26951,7 @@ zzzyk.com###Tinfo
 ||rapidgator.net/images/pics/$domain=appshot.cc
 ||rapsmnz.cyou^
 ||rarbt.cc/js/index960_
+||rarcff.xyz^
 ||ratedxbiz.com/d/
 ||ravzbd.xyz^
 ||raxetyrw.xyz^
@@ -27213,6 +27218,7 @@ zzzyk.com###Tinfo
 ||rycff.online^
 ||rychlost.cz/_pub/jquery/scripts.js$script
 ||rychlost.cz/_pub/scripts/js.js$script
+||rydyvv.xyz^
 ||rydzfldt.xyz^
 ||ryvexulg.xyz^
 ||rywnvzd.cn^
@@ -29466,6 +29472,7 @@ zzzyk.com###Tinfo
 ||wjtij.top^
 ||wkrcbszi.xyz^
 ||wkybwa.xyz^
+||wkywrc.cn^
 ||wkzrqq.com^
 ||wkzsmj.icu^
 ||wlgxaij.cn^
@@ -31037,6 +31044,7 @@ zzzyk.com###Tinfo
 ||zoom.zshu.net^
 ||zoosnet.net^$third-party
 ||zoossoft.cn^$third-party
+||zopuqv.icu^
 ||zopvjn.xyz^
 ||zotcjeig.xyz^
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
