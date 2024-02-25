@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-25 08:09:56
-! Total count: 31231
+! Version: 2024-02-25 16:10:05
+! Total count: 31238
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8681,7 +8681,10 @@ dmzj.com###khdDown
 dmzj.com###show_tip_bg
 dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
+dngz.net##.ad
+dngz.net##.hezuo
 dngz.net##.listright > a[target="_blank"] > img
+dngz.net##.tongji
 dnwx.com##.mt5_23
 dnwx.com#@#.ad_250
 dnxtc.net##.header > div[style*="margin-top:"]
@@ -12257,6 +12260,7 @@ military.china.com##.item_list > .medialist
 military.china.com##.slide_doubleimg > .baiBox
 military.china.com#$?#.slide_doubleimg > .baiBox { remove: true; }
 minecraftzw.com##.e3lan-top
+minepay.top##.sponsors-container
 mingpao.com###photo_transition
 minhangcidian.com##div[id^="googleAd"]
 mini.eastday.com###dsp_btxf
@@ -15509,6 +15513,7 @@ www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
+www.huya.com##.main-ab-close-mode, div.sidebar-banner
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -19334,6 +19339,7 @@ zzzyk.com###Tinfo
 ||business-agence.eu^$domain=footstream.tv
 ||business-api.tiktok.com^
 ||business.92wy.com^
+||business.msstatic.com/advertiser/$image
 ||buxfznnf.xyz^
 ||buy.sina.com.tw/js/sina_popup.php
 ||buyihao.com^
@@ -21406,7 +21412,7 @@ zzzyk.com###Tinfo
 ||fehrda.xyz^
 ||feih.com.cn^$third-party
 ||feijied.xyz^
-||feijisu5.com/js/huimi-
+||feijisu*.com/js/huimi-
 ||feild.xyz^
 ||feiln.xyz^
 ||feizl.com/images/smdd/
@@ -25163,6 +25169,7 @@ zzzyk.com###Tinfo
 ||micaitu.net/js/dibu.js
 ||microcontrol.cn/HomeImages/AD/
 ||micropage.cn/images/ad_
+||midext2.cdn.huya.com/ext-web-mid/ext-web-sub-frame/$subdocument
 ||midifan.com/aaa/
 ||midlemee.ru^$domain=pronpic.org
 ||miduoke.net^$third-party
