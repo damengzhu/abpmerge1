@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-27 16:10:56
-! Total count: 30975
+! Version: 2024-02-28 08:10:59
+! Total count: 30987
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1150,6 +1150,7 @@
 ##DIV[data-text-ad]
 ##DIV[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''],[onclick='if (!window.__cfRLUnblockHandlers) return false; window.location.href=\'https://a.biquge-app.com/apps/\''] + div
 ##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background: #000;opacity:0.01;']
+##DIV[style$='display:block;width:9.6vw;height:7.96875vw;background:#000;opacity:0.01;']
 ##DIV[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important; height: 150px !important;']
 ##DIV[style*='.xyz/gif/']
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
@@ -1696,6 +1697,7 @@
 ##script + #rbbox
 ##script + #strl
 ##script + #strl + div[style]
+##script + .header_rmb
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -6765,7 +6767,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'div > div > a[target="_blank"]' 'div[class*="ad"]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige/ 'div > div > a[target="_blank"]' 'div[class]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
@@ -9380,7 +9382,8 @@ flashx.tv#$#abort-on-property-read affLink
 flight.qunar.com##.l_rside > .b_fly_ban_b:nth-child(2)
 flightradar24.com##.noads
 flighty.cn###searchBox + #sidebarBox
-flipkart.com#$#hide-if-matches-xpath './/div[@class]/span[text()="Ad"]/ancestor::div[@class and @data-tkid]/parent::div[@data-id and @style]'; hide-if-matches-xpath './/div[@class]/span[text()="Ad"]/ancestor::div[@class and @data-tkid][1]/parent::div[@class and @style]'
+flipkart.com#$#hide-if-contains-visible-text /Sponsored/ 'div[style]' div[class]>span
+flipkart.com#$#hide-if-matches-xpath './/div[@dir][contains(text(),"You may also like")]/following::div[@style]/div[text()="Sponsored"]/ancestor::div[contains(@style,"transform")]'; hide-if-matches-xpath './/div[@dir][contains(text(),"Sponsored")]/ancestor::div[contains(@style,"align-items") and not(contains(@style,"; width: "))]';
 flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 flyblog.cc##.pixnavbar__top-bar__main-sites
 flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id] > ins.adsbyfalcon)
@@ -13056,6 +13059,7 @@ pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script eval $._Eu
+phimheovietnam.org#$#override-property-read video.adVast ''
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
@@ -15081,7 +15085,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.men,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.club,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,xemsex.ac,hentaivn.ac,phim3.sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.men,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.club,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,xemsex.ac,hentaivn.ac,phim3.sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com,phim18hd.top,web.sexviet88.day#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -21285,6 +21289,7 @@ zzzyk.com###Tinfo
 ||fepmpify.xyz^
 ||feq853.com^
 ||fernandou.online^
+||ferriesendless.com^
 ||ff.guidaye.com^
 ||ff.meikanguo.com^
 ||ff.psd8.com^
@@ -22131,6 +22136,7 @@ zzzyk.com###Tinfo
 ||haiyuer.com/didi
 ||haiyuer.com/nb.js
 ||haiyuer.com/uc
+||halct.cn^
 ||halihali*.com/js/wap2-jm-ms.js
 ||halihali2.com/js/wap2-jm-100ftop.js
 ||halqpt.xyz^
@@ -25660,6 +25666,7 @@ zzzyk.com###Tinfo
 ||obgbok.com^
 ||obzthda.xyz^
 ||oceanbot-steam.com^
+||ocggec.xyz^
 ||oclasrv.com^$third-party
 ||ocoda.xyz^
 ||ocpydszq.xyz^
@@ -26106,6 +26113,7 @@ zzzyk.com###Tinfo
 ||picsuperfast.xyz/imageUpload/images/*AD_
 ||picyq.com/index.php/Home/run/get_ad/
 ||pidurrmu.xyz^
+||pidzlp.xyz^
 ||pierrebotton.com/global/
 ||pikabu.ru/ajax/?key=$xmlhttprequest,header=ssr
 ||pimlog.baidu.com^
@@ -26453,6 +26461,7 @@ zzzyk.com###Tinfo
 ||qhjm600.com^
 ||qhkxs.cn^
 ||qhnews.com/tupian/
+||qhocciks.com^
 ||qhonzpl.cn^
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
@@ -27989,6 +27998,7 @@ zzzyk.com###Tinfo
 ||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdjdpyrt.xyz^
+||tdljuuw.xyz^
 ||tdsahkln.xyz^
 ||teads.tv^$third-party
 ||teamjwar.com^
@@ -28343,6 +28353,7 @@ zzzyk.com###Tinfo
 ||tshtbh.xyz^
 ||tslbahi.top^
 ||tslianm.com^
+||tsrvrr.xyz^
 ||tsvkfwth.xyz^
 ||tsyndicate.com^
 ||tszoxhtk.xyz^
@@ -29790,6 +29801,7 @@ zzzyk.com###Tinfo
 ||xklofoz.cn^
 ||xkmwxwy.cn^
 ||xkqit.com^
+||xkrnud.icu^
 ||xkyn.com/imgs/js/xx.js
 ||xkzjq.cn^
 ||xkzzz.com/zb_users/plugin/MoreLinks*/show.
