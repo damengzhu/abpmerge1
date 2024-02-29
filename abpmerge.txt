@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-29 08:10:52
-! Total count: 31006
+! Version: 2024-02-29 16:09:52
+! Total count: 31013
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -528,6 +528,7 @@
 ##.adlist
 ##.adlistcss
 ##.adpc
+##.adpcc
 ##.adppc
 ##.ads > #video_playr_sider
 ##.ads > a > img[src*=".sinaimg."]
@@ -1384,6 +1385,7 @@
 ##a[href*=".f2ocoin.com/"]
 ##a[href*=".hyenadata.com/"]
 ##a[href*=".icekingshop.com/"]
+##a[href*=".imiwang.com/"]
 ##a[href*=".impactyu.com/"]
 ##a[href*=".impreshunz.com/"]
 ##a[href*=".ipndyn.com/"]
@@ -1437,6 +1439,7 @@
 ##a[href*="/d6586.com:"]
 ##a[href*="/dsf188.cc"]
 ##a[href*="/dsf66.cc"]
+##a[href*="/dsf71.cc"]
 ##a[href*="/dsf88.cc"]
 ##a[href*="/h91.tv"]
 ##a[href*="/hgcool360.top"]
@@ -1739,7 +1742,6 @@ $script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|yhdmjx.com|yinghuazy.xyz,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|ntdm9.com|wap.xkushu.com|spoilertop.com
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.net
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
@@ -3606,6 +3608,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
+18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18183.com###gsBtn
@@ -8112,7 +8115,6 @@ clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-curre
 client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 clikcoin.pl#@##adsense
 cloud.jasaku.net##.adblock
-cloud.tencent.com##.cdc-commercial-card
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
 clubedohardware.com.br#@##banner
@@ -9474,7 +9476,7 @@ freedidi.com,ottawazine.com##div[id^="text-"]
 freedom-ip.com#@#.pub_vertical div
 freedom-ip.com#@#.pub_vertical ins
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
-freehat.cc,hlamer.ru,lostpix.com,oxax.tv,otfilm.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
+freehat.cc,hlamer.ru,lostpix.com,oxax.tv,qmovies.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
 freehdsport.com##[id^="ltas_overlay_Player"]
 freeiphone.fr#@##adsense
 freejavbt.com##+js(window.open-defuser)
@@ -14480,7 +14482,7 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
-tctruyen.com,tctruyen.net,abtruyen.com#$#abort-current-inline-script $ popup
+tctruyen.com,tctruyen.net,abtruyen.com,phimss.com#$#abort-current-inline-script $ popup
 teachinghand.com##.actions__wrapper
 tech.qq.com##.kjad2
 techbang.com###stickies
@@ -15089,7 +15091,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.men,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.club,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,xemsex.ac,hentaivn.ac,phim3.sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com,phim18hd.top,web.sexviet88.day#$#abort-current-inline-script WebAssembly instantiate
+viet69.men,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.club,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,www.sexdam18.net,hentaivn.ac,phim3.sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com,phim18hd.top,web.sexviet88.day#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17319,6 +17321,7 @@ zzzyk.com###Tinfo
 ||8feichai.com^
 ||8g0j.cn^
 ||8gp4wjq3.com^
+||8h93.com^*.gif
 ||8jkx.com^
 ||8jrc564wtf.cn^$third-party
 ||8jxxai.com^
@@ -19780,7 +19783,6 @@ zzzyk.com###Tinfo
 ||cloud.tencent.com/developer/api/common/getAds
 ||cloud.tencent.com/developer/api/common/getOneAds
 ||cloudasbook.com^
-||cloudcache.tencent-cloud.com/qcloud/ui/static/static_source_business/$domain=cloud.tencent.com
 ||clouddn.com/960x60.gif
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudflare.st^
@@ -20145,6 +20147,7 @@ zzzyk.com###Tinfo
 ||d2kadvyeq051an.cloudfront.net^$third-party
 ||d2san7t27xb2pn.cloudfront.net^$script,image
 ||d2t7a3zbo166a9.cloudfront.net^$script,image
+||d2un76zvb5mgzx.cloudfront.net^
 ||d2wlwbnaa4keje.cloudfront.net^$script,image
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d3.sina.com.cn^$object,script
@@ -25047,6 +25050,7 @@ zzzyk.com###Tinfo
 ||mkqdj.cn^
 ||mlegyu.xyz^
 ||mlhdvjv.xyz^
+||mlhtr.cn^
 ||mlog.aipai.com^
 ||mlstx.cn^
 ||mltmjevd.xyz^
@@ -27300,6 +27304,7 @@ zzzyk.com###Tinfo
 ||shangxueba.com/ask/images/woxiaoyun.jpg
 ||shanhaimiwenlu.com/sh
 ||shanjewelry.com^
+||shanvezhu.com^
 ||shanxicloud.net^
 ||shanyu178.com/agg$script
 ||shaoxing.com.cn/gg
@@ -28798,6 +28803,7 @@ zzzyk.com###Tinfo
 ||uxbd4id.xyz^
 ||uxcnhsf.cn^
 ||uxlqwra.cn^
+||uxlvk.cn^
 ||uxmwh0f.xyz^
 ||uxrdg.cn^
 ||uxtruz.xyz^
@@ -30706,6 +30712,7 @@ zzzyk.com###Tinfo
 ||zhanzhang.net^
 ||zhaofuli.*/data/content
 ||zhaozongqq.com^
+||zhaweifeng.com^
 ||zhemaijs.net^
 ||zhenben.cc/2000/
 ||zhenbuka*/statics/js/toastr/jquery.toast.js
