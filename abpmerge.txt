@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-02-29 16:09:52
+! Version: 2024-03-01 08:10:49
 ! Total count: 31013
 ###ADtip
 ###Ad_windows
@@ -8045,7 +8045,7 @@ chromecj.com##.topblock
 chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chuandong.com##div[class*="-ad"]
-chuandong.com,instrument.com.cn##a[href*="/ad/"]
+chuandong.com,instrument.com.cn,manhuabika.com##a[href*="/ad/"]
 chunyuyisheng.com###ad_modal
 chunyuyisheng.com##.ad-modal-left
 chunyuyisheng.com##.ui-grid + .fixed-layer
@@ -10619,13 +10619,8 @@ ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
-igg-games.com##.adstg
-igg-games.com##.uk-panel.widget-text
-igg-games.com##iframe[style]:not([src])
-igg-games.com#$#abort-current-inline-script $ php
-igg-games.com#$#abort-on-property-write advanced_ads_ready; abort-current-inline-script document.createElement /script/; prevent-listener DOMContentLoaded; abort-current-inline-script $ setTimeout; prevent-listener iframe
-igg-games.com#$#abort-on-property-write btoa
-igg-games.com#$#hide-if-matches-xpath './/img[@src]/parent::a[@rel]/ancestor::div[contains(@style,"margin-top")]'
+igg-games.com#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
+igg-games.com#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="660"]/ancestor-or-self::a[1]'
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -12038,7 +12033,6 @@ manganelo.tv#$#abort-on-property-read document.createElement
 mangareader.net,kiss-anime.ws,animeland.us#$#abort-on-property-read bbHideDiv
 mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuabika.com##a[href*="/ad/"]
 manhuadb.com##.d-flex.px-2
 manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuadb.com#@#a.d-block
@@ -15475,6 +15469,7 @@ www.linkedin.com#$#simulate-mouse-event 'xpath(//*[text()="Promoted" or text()="
 www.lofter.com###appdownloadbanner
 www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mgtv.com##.m-headgg
+www.mxdm9.com,www.ntdm9.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 www.mydrivers.com###weixin_box
 www.olevod.com##.B1Lss,.B1Rss
 www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
@@ -17954,6 +17949,7 @@ zzzyk.com###Tinfo
 ||ahpphkc.xyz^
 ||ahuys.net/Runtime/js/
 ||ahuys.net/sys
+||ahyyqq.xyz^
 ||ai.bioon.com^
 ||ai36588.com^
 ||aiai123.cc/js/*.js
@@ -18371,7 +18367,6 @@ zzzyk.com###Tinfo
 ||asdx55.com^
 ||asdyui16.cn^
 ||asdzxc1.top^
-||asemskull.com^$domain=igg-games.com
 ||asfklgnbvx.com^
 ||asfybkiy.xyz^
 ||ashow.pcpop.com^
@@ -19070,6 +19065,7 @@ zzzyk.com###Tinfo
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||bmp2.ali213.net/js/
 ||bmptbyb.com^
+||bmret.cn^
 ||bmtfka93.xyz^
 ||bmxvxl.xyz^
 ||bmyrihf.icu^
@@ -20498,6 +20494,7 @@ zzzyk.com###Tinfo
 ||djv99sxoqpv11.cloudfront.net^
 ||dk45h.icu^
 ||dkcwnsu.xyz^
+||dkjwbv.xyz^
 ||dklwddl.cn^
 ||dkvakldvnsv.com^
 ||dkyd6.xyz^
@@ -21545,6 +21542,7 @@ zzzyk.com###Tinfo
 ||fxbcc.cyou^
 ||fxbcpr.xyz^
 ||fxeaobv.icu^
+||fxjnfn.xyz^
 ||fxjs.2541.com^
 ||fxkfhbn.xyz^
 ||fxsc6.net/js/
@@ -22849,7 +22847,6 @@ zzzyk.com###Tinfo
 ||igao17.com/need/h5.js
 ||igetnaughty.com^
 ||igexin.com^
-||igg-games.com/sw.js^$script
 ||igkgag.xyz^
 ||ignulsniy.com^
 ||igo.cn/liuxue/js/slideBar
@@ -27912,6 +27909,7 @@ zzzyk.com###Tinfo
 ||szmmb.cn^
 ||szmnd.cn^
 ||szmnf.cn^
+||szmnk.cn^
 ||szmnl.cn^
 ||szmns.cn^
 ||szmtd.cn^
@@ -29707,6 +29705,7 @@ zzzyk.com###Tinfo
 ||xhbheroq.xyz^
 ||xhd.cn/topic/leyu-piaofu/
 ||xheqbc.cn^
+||xhfxtqt.xyz^
 ||xhgpuxim.xyz^
 ||xhi8.xyz^
 ||xhiit0n.xyz^
@@ -30843,6 +30842,7 @@ zzzyk.com###Tinfo
 ||znwzcmd.cn^
 ||znyjmbh.icu^
 ||zohdfd.xyz^
+||zojyob.icu^
 ||zol-img.com.cn/ad/
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
 ||zol-img.com.cn/star/image/star-banner2.gif

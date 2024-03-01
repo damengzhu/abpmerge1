@@ -4478,7 +4478,7 @@ chromecj.com##.topblock
 chsi.com.cn##.zx-axvert
 chtoen.com##.adsbygoogle:not([data-ad-slot="9717665976"])
 chuandong.com##div[class*="-ad"]
-chuandong.com,instrument.com.cn##a[href*="/ad/"]
+chuandong.com,instrument.com.cn,manhuabika.com##a[href*="/ad/"]
 chunyuyisheng.com###ad_modal
 chunyuyisheng.com##.ad-modal-left
 chunyuyisheng.com##.ui-grid + .fixed-layer
@@ -7035,13 +7035,8 @@ ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
-igg-games.com##.adstg
-igg-games.com##.uk-panel.widget-text
-igg-games.com##iframe[style]:not([src])
-igg-games.com#$#abort-current-inline-script $ php
-igg-games.com#$#abort-on-property-write advanced_ads_ready; abort-current-inline-script document.createElement /script/; prevent-listener DOMContentLoaded; abort-current-inline-script $ setTimeout; prevent-listener iframe
-igg-games.com#$#abort-on-property-write btoa
-igg-games.com#$#hide-if-matches-xpath './/img[@src]/parent::a[@rel]/ancestor::div[contains(@style,"margin-top")]'
+igg-games.com#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
+igg-games.com#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="660"]/ancestor-or-self::a[1]'
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -8449,7 +8444,6 @@ manganelo.tv#$#abort-on-property-read document.createElement
 mangareader.net,kiss-anime.ws,animeland.us#$#abort-on-property-read bbHideDiv
 mangovideo.pw#$#abort-on-property-write puShown
 manhua.weibo.com###p-nav-fix + .p-area.w980
-manhuabika.com##a[href*="/ad/"]
 manhuadb.com##.d-flex.px-2
 manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 manhuadb.com#@#a.d-block
@@ -11850,6 +11844,7 @@ www.linkedin.com#$#simulate-mouse-event 'xpath(//*[text()="Promoted" or text()="
 www.lofter.com###appdownloadbanner
 www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mgtv.com##.m-headgg
+www.mxdm9.com,www.ntdm9.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 www.mydrivers.com###weixin_box
 www.olevod.com##.B1Lss,.B1Rss
 www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
