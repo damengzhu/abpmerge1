@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-04 16:11:37
-! Total count: 31055
+! Version: 2024-03-05 08:11:41
+! Total count: 31069
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8415,6 +8415,7 @@ ctfile.com##a[href*=".henghost.com"]
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
+cuevana.*,cuevana3.*#$#hide-if-matches-xpath './/a[contains(@rel,"sponsored")]/parent::div[@style][@class="cont"]'
 cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_window_shoppe
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
@@ -12537,8 +12538,8 @@ new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com#@##TopAd
 newcger.com##.banner_recom
 newduba.cn###jq_youxi
-newegg.com#$#hide-if-contains-visible-text /Sponsored/ div[class$="at-side"] 'div[class$="menu-box"] span'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]';
 newegg.com#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
+newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]';
 newmobilelife.com###ATS_sticky
 news.163.com##.mod_netes_origina
 news.163.com##.mod_pageh5
@@ -15406,6 +15407,7 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 www.1069gay.net###shortcut
 www.123pan.com##.advBanner
+www.123pan.com##.btn_reward.hide
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.15yan.com##.tooltip
@@ -17080,6 +17082,7 @@ zzzyk.com###Tinfo
 ||5xur.top^
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
+||5z0d3.cyou^
 ||6.cn/coop/pub/getRand.php?
 ||60.190.139.164^
 ||600km.com/template/*/ad/
@@ -18985,6 +18988,7 @@ zzzyk.com###Tinfo
 ||bignqzm.cn^
 ||bihaipack.com^
 ||biiepofl.xyz^
+||bijiangqing.com^
 ||biketo.com/d/file/p/
 ||bilec.xyz^
 ||bilezdq.cn^
@@ -19052,6 +19056,7 @@ zzzyk.com###Tinfo
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogamethu.com^
 ||blogspot.com^*/s1600/drug.gif
+||blrupz.xyz^
 ||blsenpg.cn^
 ||blthwbe.xyz^
 ||bltmjevd.xyz^
@@ -21093,6 +21098,7 @@ zzzyk.com###Tinfo
 ||eqknlsw.xyz^
 ||eqlidke.cn^
 ||eqqi.cn^
+||eqqwgw.xyz^
 ||er.5ykj.cn^
 ||er.5ykj.com^
 ||eraaoec.cn^
@@ -21353,6 +21359,7 @@ zzzyk.com###Tinfo
 ||fifqjp.xyz^
 ||fijipic.xyz^
 ||fiktvlnc.icu^
+||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
 ||files.codexpcgames.com/uploads/zTMLhNjIZ8Cj/gYWyo5XsoWmG.js$~third-party
 ||files.jb51.net/image/
 ||filesonthe.net/Webservices/jsParseLinks.aspx$script,third-party
@@ -23356,6 +23363,7 @@ zzzyk.com###Tinfo
 ||jfsdiwmnbsk009.top^
 ||jfyb6.com^
 ||jg1668.com^$third-party
+||jgblvt.xyz^
 ||jghklz.xyz^
 ||jgmywh.icu^
 ||jgsajfggv.xyz^
@@ -25151,6 +25159,7 @@ zzzyk.com###Tinfo
 ||momoguoji.xyz^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
+||mondigo.cn^
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||moneyweekly.com.tw/Uploads/AD/*970x
 ||mongoosejs.net/docs/images/lagoujika.jpeg
@@ -26396,6 +26405,7 @@ zzzyk.com###Tinfo
 ||pvymlsvo.xyz^
 ||pw321.com/bulu/
 ||pw321.com^*.gif
+||pwhtip.icu^
 ||px.ucweb.com^
 ||pxrs6.cn^
 ||pxx.tnklrs.cn^$third-party
@@ -26967,6 +26977,7 @@ zzzyk.com###Tinfo
 ||rlogs.youdao.com^
 ||rlqoyht.icu^
 ||rltdxt.com/files/h5/
+||rlw86.cyou^
 ||rmduuv.icu^
 ||rmhfrtnd.com^$third-party
 ||rmipoz.com/dp.js
@@ -27947,6 +27958,7 @@ zzzyk.com###Tinfo
 ||szmnl.cn^
 ||szmnm.cn^
 ||szmns.cn^
+||szmpy.cn^
 ||szmtd.cn^
 ||szmty.cn^
 ||szn0ehq.icu^
@@ -28235,6 +28247,7 @@ zzzyk.com###Tinfo
 ||tj.sosomp.com^
 ||tjappzvz.xyz^
 ||tjbxhn.xyz^
+||tjfbh.icu^
 ||tjj.com^
 ||tjjd83.xyz^
 ||tjnwfjy.cn^
@@ -30136,6 +30149,7 @@ zzzyk.com###Tinfo
 ||ybf1o.online^
 ||ybixvc.top^
 ||ybrbdft.xyz^
+||ybrrvck.xyz^
 ||yc444.cn^
 ||ycc90.xyz^
 ||yccz.net/xml/
