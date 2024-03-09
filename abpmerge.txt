@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-09 08:09:58
-! Total count: 31129
+! Version: 2024-03-09 16:09:06
+! Total count: 31138
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -576,6 +576,7 @@
 ##.advert_nav
 ##.advertise
 ##.advertising_lightbox
+##.adwap
 ##.afc_popup
 ##.alert_windows > .q-card__actions > a
 ##.anniversary-wrap-2018
@@ -1233,6 +1234,9 @@
 ##[class][onclick^="window.location.href"][onclick*=".bcebos."]
 ##[class][onclick^="window.location.href"][onclick*=".pypyj.com"]
 ##[class][onclick^="window.location.href"][onclick*=".yueshuapp.com"]
+##[class][style*='px; bottom: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
+##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: relative;']
 ##[class^="chapter_"] > .baiduCenter
 ##[data^='/banners/pr_advertising_ads_banner']
 ##[href$='/ads.aspx']
@@ -1266,6 +1270,7 @@
 ##[href^='http://j6597v.hjlego.com']
 ##[href^='http://jg.awaliwa.com/']
 ##[href^='http://mm.alameinv.com/']
+##[href^='https://31jrx5y7.com/']
 ##[href^='https://65564535.com']
 ##[href^='https://97749516.com/']
 ##[href^='https://analytics.woozooo.com/jump.php?url=']
@@ -16229,6 +16234,7 @@ zzzyk.com###Tinfo
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0p7w.cn^
 ||0uyt5b.cn^
+||0v1syj.cn^
 ||0yq00i.cn^
 ||0yzabcd.com^
 ||1.07swz.com^
@@ -16768,6 +16774,7 @@ zzzyk.com###Tinfo
 ||37.1.213.100^
 ||373nn.com/java/
 ||3798.com^$third-party
+||37bhof.com^
 ||37dv.com^
 ||37io.com^
 ||380.tw^$popup,third-party
@@ -17300,6 +17307,7 @@ zzzyk.com###Tinfo
 ||8861198.com^
 ||8861202.com^
 ||8886i.top^
+||888bb555ww.com^
 ||888bb666cc.com^
 ||888cool.cn^
 ||888fr.xyz^
@@ -21602,7 +21610,6 @@ zzzyk.com###Tinfo
 ||fxxrllt.com^
 ||fxxz.com/skin/know/all.js
 ||fy14.cn^
-||fy6b.com^$image,third-party
 ||fydisk.com/images/showvip.gif
 ||fyexyd.icu^
 ||fytpft.xyz^
@@ -25344,6 +25351,7 @@ zzzyk.com###Tinfo
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwzbp.iask.com.cn^
+||mxeq.cn^
 ||mxevdii.cn^
 ||mxknqq.com^
 ||mxzmz.com/js/
@@ -26744,6 +26752,7 @@ zzzyk.com###Tinfo
 ||qqyy.com/js/public_end_add.js
 ||qqzbabc20.com^
 ||qrirud.xyz^
+||qrjsz.top^
 ||qrjxween.com^
 ||qrkhwe.xyz^
 ||qrttfmo.cn^
