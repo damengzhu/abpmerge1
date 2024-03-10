@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-09 16:09:06
-! Total count: 31138
+! Version: 2024-03-10 08:10:20
+! Total count: 31154
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1826,6 +1826,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 .cn/z.gif?
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
+.cn:8005/cc/*?is_not=
 .co/ads/
 .co/js/ads/
 .com*/ps/psCreat.js
@@ -4660,6 +4661,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 ?v127|$script,domain=iprima.cz
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
+@@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com
 @@.com/ad.aspx|$domain=xdingdian.cc
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=colamanga.com
@@ -12705,6 +12707,7 @@ nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
 nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
+nivod8.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod8.tv,nivod7.tv##.nav-ads
 nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nlc.gov.cn###lovexin12xx
@@ -17182,6 +17185,7 @@ zzzyk.com###Tinfo
 ||6v6.work^
 ||6vhao.tv/d/
 ||6yso.com/wp-content/uploads/*-300-x-
+||6zfem.icu^
 ||70.86.24.120:8060/
 ||7011.stia.cn^
 ||7067.top^
@@ -20375,6 +20379,7 @@ zzzyk.com###Tinfo
 ||dehua.ixinfan.com^
 ||dehua.mengtubo.com^
 ||dektcvna.icu^
+||delhirs.com^
 ||deliver.ifeng.com^
 ||delivery-pc.wasu.cn/d/frontJs/3.0$redirect=noop.js,domain=wasu.cn,script
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn
@@ -21391,6 +21396,7 @@ zzzyk.com###Tinfo
 ||fhrl2018.com^
 ||fhsmtrnsfnt.com^
 ||fhvbhx.xyz^
+||fidelius.cn^
 ||fifqjp.xyz^
 ||fijipic.xyz^
 ||fiktvlnc.icu^
@@ -23568,6 +23574,7 @@ zzzyk.com###Tinfo
 ||jn060.xyz^
 ||jndxsuy.xyz^
 ||jnhgm.com^
+||jnifdlaa.top^
 ||jnkmhn.com^
 ||jnlc.com/www/fund/newsmarket
 ||jnmaeun.xyz^
@@ -23591,6 +23598,7 @@ zzzyk.com###Tinfo
 ||jollytestpartying.com^
 ||jomwihn.cn^
 ||jothvz.xyz^
+||jozbun.icu^
 ||jp.twww.sbs^
 ||jp1357.com/addon/
 ||jp2468.com/addon/
@@ -24366,10 +24374,12 @@ zzzyk.com###Tinfo
 ||letvimg.com/*_gugwl/$image
 ||lewenma.com/js/read.js
 ||lewhrzv.xyz^
+||lewiooz.cn^
 ||lewqiiy.xyz^
 ||lezbrja.cn^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfffzv.xyz^
+||lfhdryz.xyz^
 ||lfhnzbj.xyz^
 ||lfjtiuy.cn^
 ||lflmdm.com^
@@ -25664,6 +25674,7 @@ zzzyk.com###Tinfo
 ||novipnoad.com/theme/js/helper.
 ||novipnoad.net/theme/js/sponsor/
 ||novret.com/?clickid=
+||nowhern.com^
 ||nownews.com/assets/js/setAds.js
 ||npdkdb.xyz^
 ||npftmqv.cn^
@@ -25765,6 +25776,7 @@ zzzyk.com###Tinfo
 ||obdjzhq.xyz^
 ||obertsiamw.fun^
 ||obgbok.com^
+||obturex.com^
 ||obzthda.xyz^
 ||oceanbot-steam.com^
 ||ocggec.xyz^
@@ -26654,6 +26666,7 @@ zzzyk.com###Tinfo
 ||qizhihaotian.com^*.js
 ||qjekt0c.xyz^
 ||qjoqos.xyz^
+||qjsp48.xyz^
 ||qjwpy.com^
 ||qjxys.cn^
 ||qk6.org/file/script/
@@ -26887,6 +26900,7 @@ zzzyk.com###Tinfo
 ||razrzh.xyz^
 ||rbbbdj.xyz^
 ||rbbko.com^
+||rbhunp.xyz^
 ||rbioclv.cn^
 ||rbodwtj.icu^
 ||rbrbr88p.cn^
@@ -28776,6 +28790,7 @@ zzzyk.com###Tinfo
 ||ultrafiles.net/visitScript/$script,third-party
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||ulukaris.com^$third-party
+||ulwfys.xyz^
 ||ulyuom.xyz^
 ||um5xcgngmart.xyz^
 ||um9.top^
@@ -30924,6 +30939,7 @@ zzzyk.com###Tinfo
 ||zjkssw.com^
 ||zjliloveyou.ixiunv.com^
 ||zjqs.shop^
+||zjrtxt.xyz^
 ||zjst.net/3.gif
 ||zjthzf.xyz^
 ||zjtu.tv/add.
