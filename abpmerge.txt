@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-10 16:09:52
-! Total count: 31154
+! Version: 2024-03-11 08:11:42
+! Total count: 31164
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1376,6 +1376,7 @@
 ##a[href*=".337771.xyz"]
 ##a[href*=".337772.xyz"]
 ##a[href*=".8720018.cc"]
+##a[href*=".asd245796.com:"]
 ##a[href*=".bd379.vip"]
 ##a[href*=".blueyoko.com/"]
 ##a[href*=".bright.cn/?utm_"]
@@ -12706,7 +12707,7 @@ nivod5.tv,nivod4.tv#$#override-property-read detailParams.is_ad_play false
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
 nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
-nivod8.tv,nivod5.tv##.qy20-h-carousel__li:nth-child(-n+2)
+nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod8.tv,nivod7.tv##.nav-ads
 nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
 nlc.gov.cn###lovexin12xx
@@ -20135,6 +20136,7 @@ zzzyk.com###Tinfo
 ||cxdcn9c.fjshxjs.cn^$third-party
 ||cxgfq.pinlue.com^
 ||cxgwsu.xyz^
+||cxlvlbx.xyz^
 ||cxpjrqa.cn^
 ||cxs.mibaoge.com^
 ||cxsh.cn.com^
@@ -21854,6 +21856,7 @@ zzzyk.com###Tinfo
 ||gkktjf.top^
 ||gknybkl.cn^
 ||gkswas.xyz^
+||gkutca.xyz^
 ||gkwrae.xyz^
 ||gl.zle.com^
 ||glczys.xyz^
@@ -23359,6 +23362,7 @@ zzzyk.com###Tinfo
 ||jb51.net/imgby/logo_
 ||jbazhaheia.top^
 ||jbhhxd.xyz^
+||jbmfldt.cn^
 ||jbtfmis.xyz^
 ||jbzyw.com/Application/M/adv/
 ||jc001.cn/ci/jad/fix.
@@ -24063,6 +24067,7 @@ zzzyk.com###Tinfo
 ||kncrya.xyz^
 ||knfhxszj.xyz^
 ||knhmgn.com^
+||knifdlad.top^
 ||knjcsonpo.com^
 ||knjmhmk.com^
 ||knliylh.cn^
@@ -24249,6 +24254,7 @@ zzzyk.com###Tinfo
 ||labuladong.github.io/algo/pictures/ad/
 ||ladepeche.fr/taffrail^
 ||lady177.com^$popup
+||lafirx.xyz^
 ||lagou.com/js/cooperation/
 ||lahoo.ca/api.php?mod=ad&
 ||lahoo.ca/slider
@@ -25695,6 +25701,7 @@ zzzyk.com###Tinfo
 ||nshvhfw.cn^
 ||nshypdry.xyz^
 ||nsimg.net^
+||nsjnmx.icu^
 ||nswtojdi.icu^
 ||nszort.xyz^
 ||ntce.com/images/js/ntce_public.js
@@ -26820,6 +26827,7 @@ zzzyk.com###Tinfo
 ||qvrfddm.cn^
 ||qvxvvjom.com^
 ||qw2v.taoxiehui.cn^
+||qw9cu.cyou^
 ||qwandly.top^
 ||qwblog.cn/localfile/20200612230036.gif
 ||qwcwnjk.com^
@@ -29478,6 +29486,7 @@ zzzyk.com###Tinfo
 ||wokao.co/qq/qq.js
 ||wonderhsjnsd.com^
 ||woozooo.com/img/*.js
+||wopvmmy.cn^
 ||worjeklmq.com^
 ||worlderva.com^
 ||worldwide.sogou.com^
@@ -31044,6 +31053,7 @@ zzzyk.com###Tinfo
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztqdkzn.cn^
 ||ztshg.cn^
+||zttuvj.xyz^
 ||ztxjutz.xyz^
 ||ztyumn.ifeng.com^
 ||zu2.top^
