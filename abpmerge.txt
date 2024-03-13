@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-12 16:11:04
-! Total count: 31173
+! Version: 2024-03-13 08:10:36
+! Total count: 31182
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5955,7 +5955,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=quebeccoupongratuit.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
@@ -5974,7 +5974,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wandhi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=al.ly
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=articlerewritertool.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=big-coin.eu
@@ -7884,9 +7883,10 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-cdiscount.com#$#hide-if-contains-visible-text  /partenaires|apprécier|produits/ 'div[class]>div[id]>div[class="h2"]'
 cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
-cdiscount.com#$#hide-if-matches-xpath './/div[@class and @id]/div[@class="h2"][contains(text(),"offre")]//following::div//p/following-sibling::a[@style]/img[contains(translate(@title, "OFFERT", "offert"), "offert")]//ancestor::div[@class="o-block"]'; hide-if-matches-xpath './/div[@style]//span[contains(@data-template,"Sponsored")]/following::div[contains(@id,"Sponsored")]/parent::div[@style]/ancestor::div[contains(@data-action,"AdsDisplay")][1]'; hide-if-matches-xpath './/div[style]//*[name()="svg"][contains(@style,"width:60px")]/parent::div[contains(@style, "margin-top")]/ancestor::div[@id][@data-autoplay]/parent::div[@class="o-block__content"]';
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -15200,7 +15200,6 @@ walmart.ca,walmart.com##div[id*="Sponsored"]
 walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
 wan.douyu.com
-wandhi.com##.table
 wandhi.com##.table img
 wandhi.com##.table-bordered
 wandhi.com##.unit-100
@@ -16234,6 +16233,7 @@ zzzyk.com###Tinfo
 ||0ns32h.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0p7w.cn^
+||0r3tyg.cn^
 ||0tq6ub.cn^
 ||0uvt8b.cn^
 ||0uyt5b.cn^
@@ -17984,6 +17984,7 @@ zzzyk.com###Tinfo
 ||ahp24.site^
 ||ahpengjie.com^
 ||ahpphkc.xyz^
+||ahtfzhs.xyz^
 ||ahuys.net/Runtime/js/
 ||ahuys.net/sys
 ||ahyyqq.xyz^
@@ -19263,6 +19264,8 @@ zzzyk.com###Tinfo
 ||bttazsyk.icu^
 ||btwuji.com/jsj1/
 ||btwwzqdx.xyz^
+||btyhnbmn289.shop^
+||btyhnraw653.shop^
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
 ||bugly.qq.com^
@@ -21057,6 +21060,7 @@ zzzyk.com###Tinfo
 ||eifyeldw.top^
 ||eignky.xyz^
 ||eileenjaney.com^
+||eiqsky.xyz^
 ||eitb7.top^
 ||eiv.baidu.com^
 ||eiykmtb.cn^
@@ -21106,6 +21110,7 @@ zzzyk.com###Tinfo
 ||enews10.yxlady.net^
 ||eng24.com/js_new/copyright_float.
 ||enhad.xyz^
+||enifdlaw.top^
 ||enl2.96845.com^
 ||ennde.cyou^
 ||enread.com/img/185-50.gif
@@ -26315,6 +26320,7 @@ zzzyk.com###Tinfo
 ||pnhp3x1.com^
 ||pniao99.com/statics/js/stat.js
 ||pnlhnx.xyz^
+||pnxtnp.xyz^
 ||pnzhpb.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
@@ -29143,6 +29149,7 @@ zzzyk.com###Tinfo
 ||vm.aty.sohu.com^
 ||vmbzhfh.cn^
 ||vmdlxj.xyz^
+||vmnlkr.icu^
 ||vmr6t.icu^
 ||vmvps.com/aoyohost-com-bann
 ||vnet.cn^*.html
@@ -29444,6 +29451,7 @@ zzzyk.com###Tinfo
 ||wjl58.icu^
 ||wjoxqd.com^
 ||wjtij.top^
+||wjwod.cyou^
 ||wkrcbszi.xyz^
 ||wkybwa.xyz^
 ||wkywrc.cn^
@@ -30281,6 +30289,7 @@ zzzyk.com###Tinfo
 ||ydttxdqe.xyz^
 ||ydtykj.net^
 ||ydv7k.cyou^
+||ydwkrbg.cn^
 ||ydybwjpa.xyz^
 ||ye120.com/swt.js
 ||ye120.com/zool.js

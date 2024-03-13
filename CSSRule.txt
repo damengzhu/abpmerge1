@@ -4313,9 +4313,10 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-cdiscount.com#$#hide-if-contains-visible-text  /partenaires|apprécier|produits/ 'div[class]>div[id]>div[class="h2"]'
 cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
-cdiscount.com#$#hide-if-matches-xpath './/div[@class and @id]/div[@class="h2"][contains(text(),"offre")]//following::div//p/following-sibling::a[@style]/img[contains(translate(@title, "OFFERT", "offert"), "offert")]//ancestor::div[@class="o-block"]'; hide-if-matches-xpath './/div[@style]//span[contains(@data-template,"Sponsored")]/following::div[contains(@id,"Sponsored")]/parent::div[@style]/ancestor::div[contains(@data-action,"AdsDisplay")][1]'; hide-if-matches-xpath './/div[style]//*[name()="svg"][contains(@style,"width:60px")]/parent::div[contains(@style, "margin-top")]/ancestor::div[@id][@data-autoplay]/parent::div[@class="o-block__content"]';
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
+cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -11566,7 +11567,6 @@ walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
 walmart.ca,walmart.com##div[id*="Sponsored"]
 walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
-wandhi.com##.table
 wandhi.com##.table img
 wandhi.com##.table-bordered
 wandhi.com##.unit-100
