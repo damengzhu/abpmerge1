@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-13 16:10:09
-! Total count: 31182
+! Version: 2024-03-14 08:10:58
+! Total count: 31189
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9503,7 +9503,7 @@ freedidi.com,ottawazine.com##div[id^="text-"]
 freedom-ip.com#@#.pub_vertical div
 freedom-ip.com#@#.pub_vertical ins
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
-freehat.cc,hlamer.ru,lostpix.com,oxax.tv,qmovies.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
+freehat.cc,hlamer.ru,lostpix.com,oxax.tv,alarfilm.ru,potokcdn.com,prostoporno.help,tivix.co,tt-cup.com,tv-assia.org,uploadimagex.com,vmusi.ru,volynpost.com,wowskill.ru,xittv.net,zerno-ua.com#$#abort-on-property-read open
 freehdsport.com##[id^="ltas_overlay_Player"]
 freeiphone.fr#@##adsense
 freejavbt.com##+js(window.open-defuser)
@@ -10763,8 +10763,8 @@ informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,
 inmywordz.com,ants.tw##.acca-block
 instacart.ca,instacart.com#$#hide-if-contains-visible-text /./ div 'div ^^sh^^ * li[data-testid] * div>div+div'
 instacart.ca,instacart.com#$#hide-if-contains-visible-text /./ div 'div ^^sh^^ article>div+div[aria-hidden]>span'
-instacart.ca,instacart.com#$#hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"]>div ^^sh^^ div > div'
-instacart.ca,instacart.com#$#hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"]>div ^^sh^^ div > div'
+instacart.ca,instacart.com#$#hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"] * ^^sh^^ div>section'
+instacart.ca,instacart.com#$#hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ div>section'
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,"spoonsored_")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 instacart.com,instacart.ca#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'
@@ -12547,10 +12547,10 @@ netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-be
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
 netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
+netfly.fun,netfly.tv##[style^="display: flex; justify-content:"]
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.fun,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.lol##.module-tglist
-netfly.lol##[style^="display: flex; justify-content:"]
 nettruyenall.com#$#abort-current-inline-script Promise break;case
 nettruyenus.net#$#abort-on-property-read sp
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
@@ -13085,7 +13085,7 @@ phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read local
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net#$#abort-current-inline-script eval $._Eu
 phimhdc.net,motchill.ac#$#abort-current-inline-script document.addEventListener linksToOpen
-phimheovietnam.org,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,phim.clipsex.xxx,phim.xxxvietnam.tv,sex.gaimup.net,phim.phimsexvip.cc,webx.ditnhau.cc#$#override-property-read video.adVast ''
+phimheovietnam.org,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,phim.clipsex.xxx,phim.xxxvietnam.tv,sex.gaimup.net,phim.phimsexvip.cc,webx.ditnhau.cc,xx.phimsexnhathay.com#$#override-property-read video.adVast ''
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
@@ -25291,6 +25291,7 @@ zzzyk.com###Tinfo
 ||mrqbuf.xyz^
 ||mrs30w.com^
 ||mrthav.xyz^
+||mrtxtrq.xyz^
 ||mryqtym.cn^
 ||mryshl.com^
 ||ms.cnbanbao.com^
@@ -26493,6 +26494,7 @@ zzzyk.com###Tinfo
 ||pxxcyni.cn^
 ||pxxnejx.xyz^
 ||pxzkqq.com^
+||pxzrlf.xyz^
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||pyeditingpro.biz^
@@ -26597,6 +26599,7 @@ zzzyk.com###Tinfo
 ||qhkxs.cn^
 ||qhnews.com/tupian/
 ||qhocciks.com^
+||qhodog.xyz^
 ||qhonzpl.cn^
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
@@ -28933,6 +28936,7 @@ zzzyk.com###Tinfo
 ||uuu9.com/photolog.html
 ||uuu9.tieba.com^$subdocument
 ||uuuzuu.xyz^
+||uuvzmba.cn^
 ||uuxfznnf.xyz^
 ||uuxs.net^$subdocument
 ||uuzsfpju.xyz^
@@ -29358,6 +29362,7 @@ zzzyk.com###Tinfo
 ||wecklrb.cn^
 ||weddingeeos.com^$third-party
 ||wedvmr.xyz^
+||wefihob.cn^
 ||wefoidnknsl.net^
 ||wegowan.com^
 ||wei2008.com/js/*0.
@@ -29488,6 +29493,7 @@ zzzyk.com###Tinfo
 ||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
 ||wneia.iaskhot.com^
+||wnifdlae.top^
 ||wnllmyw.xyz^
 ||wnmaoc.xyz^
 ||wnnbvnj.cn^
@@ -31095,6 +31101,7 @@ zzzyk.com###Tinfo
 ||zwfkxb.xyz^
 ||zwjaoni.cn^
 ||zwlikv.cn^
+||zwxxcb.icu^
 ||zx.docin.com^
 ||zx123.cn/templates/zx123cs/theme-2015/js/right_xh.js
 ||zxcrr.com^
