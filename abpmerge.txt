@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-15 08:11:15
-! Total count: 31204
+! Version: 2024-03-15 16:11:12
+! Total count: 31206
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9152,7 +9152,6 @@ esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 esu.moe,esu.wiki###ASSPC
 esu.moe,esu.wiki###siteNotice
 esu.moe,esu.wiki##div[style*="position: relative; max-height: 400px;"]
-etellekt.com#$#abort-on-property-read adsRedirectPopups
 etest8.com###gads1
 etest8.com##.subtop2right
 etextlib.ru##.head_bann
@@ -12548,6 +12547,8 @@ netflav.com##.ads_video_overlay_mobile
 netflix-izle.com#$#override-property-read reklam_1 undefined; override-property-read reklamsayisi undefined; override-property-read reklam_1_saniye null; override-property-read reklam_1_gecsaniye null;
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
+netfly.fun,netfly.tv##.container-slide
+netfly.fun,netfly.tv##.content > div > [style="display: flex; flex-direction: column;width: 100%;"]
 netfly.fun,netfly.tv##.module-tg-box
 netfly.fun,netfly.tv##.player-box > div.player-tt-rmm
 netfly.fun,netfly.tv##[style^="display: flex; justify-content:"]
@@ -13088,7 +13089,6 @@ phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read local
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net#$#abort-current-inline-script eval $._Eu
 phimhdc.net,motchill.ac#$#abort-current-inline-script document.addEventListener linksToOpen
-phimheovietnam.org,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,clipsex.xxx,xxxvietnam.io,sex.gaimup.net,xx.phimsexvip.cc,xem.ditnhau.cc,xx.phimsexnhathay.com#$#override-property-read video.adVast ''
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
@@ -14788,7 +14788,7 @@ truyen-hentai.com#$#abort-on-property-read Math.random; prevent-listener getexol
 truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[contains(@class,"reklam")][1]'; hide-if-matches-xpath './/a[contains(@href,"zlinkd.com")][@rel="sponsored"]/ancestor::div[@class][1]';
 truyen2u.net#$#abort-current-inline-script eval
 truyen35.vn#$#abort-current-inline-script jQuery click_ads
-truyenqqvn.com,animehay.city#$#abort-current-inline-script document.addEventListener window.open
+truyenqqvn.com,animehay.me#$#abort-current-inline-script document.addEventListener window.open
 truyensextv.com#$#abort-current-inline-script document.addEventListener popup
 truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.one,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.net,www.khophim88s.com,nhentaivn.com,khophimchill.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 truyentuan.xyz#$#abort-current-inline-script $ btpop
@@ -15115,7 +15115,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.bz,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.org,cliphot69.city,doctruyen3qkr.com,hentaizz.me,animehay.city,vlxx.xxx,heo69.day,top1sex.club,lenlut.tv,xemxxx.net,hentaivn.top,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.io,cdnstream.sbs,javtiful.com,tuoi69.blog,quatvn2.club,tenmientruyengi.net,topxxxviet.com,phim18hd.top,web.sexviet88.day,sexphetv.pro,helvid.net#$#abort-current-inline-script WebAssembly instantiate
+viet69.bz,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.org,cliphot69.city,doctruyen3qvn.net,hentaizz.me,animehay.me,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,xemxxx.net,hentaivn.top,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.club,cdnstream.sbs,javtiful.com,tuoi69.blog,quatvn2.club,tenmientruyengi.net,topxxxviet.com,phim18hd.top,web.sexviet88.day,sexphetv.pro,helvid.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -15258,6 +15258,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
+web.phimsexvn.mobi,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,clipsex.xxx,xxxvietnam.io,gaimup.net,phimsexvip.cc,xem.ditnhau.cc,xx.phimsexnhathay.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -15687,6 +15688,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
+xoilac86c.live#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
