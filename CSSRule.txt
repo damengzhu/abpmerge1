@@ -4868,6 +4868,7 @@ cupfox.app,cupfox2.com##.a5-box[class^="jsx-"]
 cupfox.app,cupfox2.com,hcomic.net##.swiper
 curazy.com#$#hide-if-matches-xpath './/a[@href][@target]/img/ancestor-or-self::a[@target]'
 cvs.com##.stencil-criteo-shelf
+cvs.com#$#hide-if-contains /Sponsored/ 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li' 'div>div *[new-ec-recommendations] ^^sh^^ * ^^sh^^ * ^^sh^^ section[id] ul>li>* ^^sh^^ div>div.sponsored-container>span'
 cvs.com#$#hide-if-contains-visible-text '/Sponsored/' 'div[style]' 'div[dir^="auto"]'
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
 cw.com.tw##.ad--video
@@ -11907,13 +11908,16 @@ www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
 www.yizhibo.com##.register_guide
+www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
+www.youtube.com##ytlr-ad-skip-or-preview
+www.youtube.com##ytlr-banner-cta-renderer
 www.youtube.com#$#hide-if-matches-xpath './/ytlr-app//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")]/ancestor-or-self::ytlr-ad-slot-renderer'
 www.youtube.com#$#skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]'
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
