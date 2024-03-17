@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-16 16:08:55
-! Total count: 31214
+! Version: 2024-03-17 08:09:52
+! Total count: 31225
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1319,6 +1319,7 @@
 ##[src^='/banners/pr_advertising_ads_banner']
 ##[src^='/static/resources/lp.php'][style^='max-width: 100%; transform-origin: left top;']
 ##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
+##[src^='https://369x520.com']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
 ##[src^='https://immmg.owowqrf.cn']
@@ -1763,7 +1764,6 @@ $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
-$third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 &ADFAssetID=$media,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 &ad_type=
 &adsrc=
@@ -14425,7 +14425,7 @@ super.cz##div[id*="superPrclanek-"][class$="timeline-content"]
 super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
 super.cz##img[id^="rs-bg-img"]
 super.cz#$#override-property-read sspPositions null
-supercloudsms.com##A[id^="ad_"]
+supercloudsms.com##a[id^="ad_"]
 superlife.ca##.sidebar-ad-zone
 supjav.com##.asg-overlay
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
@@ -18402,6 +18402,7 @@ zzzyk.com###Tinfo
 ||ar611.xyz^
 ||arbbj6.com^
 ||arhnuin.xyz^
+||ariqye.xyz^
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||ark.letv.com/t?
@@ -19261,6 +19262,7 @@ zzzyk.com###Tinfo
 ||btdx8.com/tmp/
 ||btescs.fun^
 ||btfjjwt.xyz^
+||btfzbak.xyz^
 ||btgoo.cc^
 ||bthand.com/static/js/default.js
 ||bthypgm.cn^
@@ -20767,7 +20769,9 @@ zzzyk.com###Tinfo
 ||drstickyfingers.com/Webservices/jsParseLinks.aspx$script,third-party
 ||drstickyfingers.com/visitScript/$script,third-party
 ||drtyuigj.xyz^
+||drummers.cn^
 ||drvsky.com/js/jolimark.gif
+||dryden.cn^
 ||drzgtli.com^
 ||ds1.kaijia.com^
 ||dsbfpt.xyz^
@@ -20907,6 +20911,7 @@ zzzyk.com###Tinfo
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzdxnbc.xyz^
+||dzfzak.cn^
 ||dzfzfv.xyz^
 ||dzjzg.com^
 ||dzkwj0y.xyz^
@@ -21331,6 +21336,7 @@ zzzyk.com###Tinfo
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
+||fbfrbt.xyz^
 ||fbvskv3.com^
 ||fbzmrgf.xyz^
 ||fc.gaizong.cn^
@@ -21419,6 +21425,7 @@ zzzyk.com###Tinfo
 ||fhitagd.cn^
 ||fhrl2018.com^
 ||fhsmtrnsfnt.com^
+||fhtfnb.xyz^
 ||fhvbhx.xyz^
 ||fidelius.cn^
 ||fifqjp.xyz^
@@ -22414,6 +22421,7 @@ zzzyk.com###Tinfo
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||henanqiuzhige.com^
+||hendehy.com^
 ||henghost.com^$third-party
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
@@ -24722,6 +24730,7 @@ zzzyk.com###Tinfo
 ||luckyorange.com^
 ||ludie.xyz^
 ||ludpa.xyz^
+||lulgef.icu^
 ||lulxzl.xyz^
 ||lunhua5.com/images/more.gif
 ||luofk.xyz^
@@ -26068,6 +26077,7 @@ zzzyk.com###Tinfo
 ||p5kzev.com^
 ||p8u.hinet.net^
 ||p97387hj.xyz^
+||pa4ye.cyou^
 ||pacix.xyz^
 ||padstm.com^$third-party
 ||pagead2.googleadservices.com^
@@ -28862,6 +28872,7 @@ zzzyk.com###Tinfo
 ||unevwe.xyz^
 ||unfhxszj.xyz^
 ||unidict.cn^
+||unifdlat.top^
 ||uniformer.biz^
 ||unikoshardware.com/wp-content/uploads/*/*/WPointer_Ad_440x250.jpg
 ||union*.365inews.com^
