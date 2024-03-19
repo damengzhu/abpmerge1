@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-18 16:11:07
-! Total count: 31241
+! Version: 2024-03-19 08:10:59
+! Total count: 31249
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7891,6 +7891,7 @@ cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[con
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
+cdiscount.com#$#hide-if-matches-xpath '//div[@class="c-sponsoredMentions"]/parent::div[@class]'; hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]';
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -10771,7 +10772,7 @@ inmywordz.com,ants.tw##.acca-block
 instacart.ca,instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
 instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ div 'div * ^^sh^^ section ^^sh^^ div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ * div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ div ^^sh^^ * div>div+div'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-contains-visible-text /./ div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]>span+span'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"] * ^^sh^^  section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"] * ^^sh^^ *'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div[data-testid="regimen-section"] div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^  section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div[data-testid="regimen-section"] div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
@@ -15354,6 +15355,7 @@ wenxuecity.com##.sidebar > .banners
 wenxuecity.com##.topbannerw
 wenxuecity.com##label[style*="darkgrey"]
 wenxuecity.com#@#.otherposts
+westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
 wezhicms.com##.activity
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 whcykj.cn###BDBridgeInviteWrap
@@ -19146,6 +19148,7 @@ zzzyk.com###Tinfo
 ||bnfyzszm.icu^
 ||bngpt.com^
 ||bnhxxj.xyz^
+||bnifdlav.top^
 ||bnl2bii.icu^
 ||bnnfvd.xyz^
 ||bnpfdzp.xyz^
@@ -21031,6 +21034,7 @@ zzzyk.com###Tinfo
 ||ecwmvlhy.com^
 ||ed.gumoda.top^
 ||ed2000k.com/ad/
+||edjjpgf.xyz^
 ||edmontonchina.*/pic/
 ||edong.link^
 ||edssnet.changchunets.com^
@@ -21754,6 +21758,7 @@ zzzyk.com###Tinfo
 ||gcbtgh26.xyz^
 ||gcqciiqk.com^
 ||gcssem.xyz^
+||gcumgu.xyz^
 ||gcw*.2liang.cn^
 ||gcwwsv.icu^
 ||gcxa.cn/a/gb.gif
@@ -24712,6 +24717,7 @@ zzzyk.com###Tinfo
 ||lryqef.xyz^
 ||lsancil.top^
 ||lsce.top^
+||lsfevr.xyz^
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
 ||lshuaibin.cn^
@@ -25770,6 +25776,7 @@ zzzyk.com###Tinfo
 ||nuubi.cyou^
 ||nuucmzuc.com^
 ||nvdtdsd.xyz^
+||nvjqtz.xyz^
 ||nvsheng.com/js/gg.js
 ||nvswnur.cn^
 ||nvwanyyds.com^
@@ -29049,6 +29056,7 @@ zzzyk.com###Tinfo
 ||v88yaat.xyz^
 ||v9gfm.xyz^
 ||vabzndw.cn^
+||vaekkfv.cn^
 ||vainanalyst.com^
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
