@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-19 08:10:59
-! Total count: 31249
+! Version: 2024-03-19 16:11:17
+! Total count: 31256
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1431,6 +1431,7 @@
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*=".xyanovo.com/"]
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
+##a[href*=".yezere.com/"]
 ##a[href*=".ysmdhk.com/"]
 ##a[href*=".zcxnbj.com/"]
 ##a[href*="/1124024.xyz"]
@@ -10774,8 +10775,8 @@ instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@
 instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ div 'div * ^^sh^^ section ^^sh^^ div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ * div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ div ^^sh^^ * div>div+div'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-contains-visible-text /./ div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]>span+span'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"] * ^^sh^^  section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#cart-body li' '#cart-body li div[aria-label="Product"] * ^^sh^^ *'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div[data-testid="regimen-section"] div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^  section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div[data-testid="regimen-section"] div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div[data-testid="regimen-section"] div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^  section ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; race stop;
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,"spoonsored_")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 instagram.com#$#race start; hide-if-contains-visible-text '/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article[class]>div[class]'; hide-if-matches-xpath '//article[@class]//span[text()]//following::a[contains(@class,"_ad")][contains(@href,"facebook.com/ads/ig_redirect/?")]/ancestor::div[5]'; hide-if-has-and-matches-style * 'article[class]~*>div' 'article[class]~*>div>div span:last-of-type *>svg[style]' '/./' '/(width: [2-9])/'; race stop;
@@ -17161,6 +17162,7 @@ zzzyk.com###Tinfo
 ||6669667.com^
 ||666aa777bb.com^
 ||666bb777ww.com^
+||666bbb333bbb.com^
 ||6686bb.app^
 ||6696q.com^
 ||6699fa.cn/imagestb/
@@ -19454,6 +19456,7 @@ zzzyk.com###Tinfo
 ||caoporn.com/images/bmqp
 ||caoporn.com/templates/frontend/dark-blue/js/caoaa5.js
 ||caozhixiong.cn^
+||captickc.com^
 ||captivias.site^
 ||car.pchome.com.tw/iframe/news_iframe.
 ||car.qcmrjx.com^
@@ -20233,6 +20236,7 @@ zzzyk.com###Tinfo
 ||d37d9zbli5ytch.cloudfront.net^
 ||d3awx1l7oivs5m.cloudfront.net^$script,image
 ||d3f3.xyz^
+||d3g4a.cyou^
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||d3mshiiq22wqhz.cloudfront.net^
 ||d3nfknbv.icu^
@@ -20792,6 +20796,7 @@ zzzyk.com###Tinfo
 ||dsfd67.com^
 ||dshangyan.com/pc/advertising/
 ||dshapv.xyz^
+||dsjkbcjsjkbvs.com^
 ||dskjbvzvs.com^
 ||dskjhs.com^
 ||dslenggui.com^
@@ -25362,6 +25367,7 @@ zzzyk.com###Tinfo
 ||mt.64foot.com^
 ||mt4v4.com^
 ||mtawcy.xyz^
+||mtddqjk.cn^
 ||mthhhuq.cn^
 ||mtienlx.top^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
@@ -28323,6 +28329,7 @@ zzzyk.com###Tinfo
 ||thisav.video/v3/nb/
 ||thjwxz.xyz^
 ||thpte.cn^
+||threrlak.com^
 ||thvx9i.icu^
 ||thztv.*/tool/
 ||tiandesign.top^
