@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-20 16:11:48
-! Total count: 31384
+! Version: 2024-03-21 08:10:50
+! Total count: 31400
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1169,6 +1169,7 @@
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
+##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
@@ -1343,6 +1344,7 @@
 ##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
+##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -7927,7 +7929,7 @@ carousell.com#@#.fb-b
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
-cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-sponsored"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
+cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-tag"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com##.embed-responsive.position-relative > a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com#?#.container-fluid > .row > .item:has(> .card > .card-body > .lines > span.badge:contains(/^ad$/))
@@ -9076,6 +9078,7 @@ easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ div[role]>div 'div[role]>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ li>div 'li>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|[Ss]ponsorizzat[ie]|[Ss]ponsorowane|[Gg]⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|[Pp]atrocinado/ 'div[class^="recs-placement-arrangement"]' 'div.recs-card-container div.recs-header div ^^sh^^ *'
+ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),":root")][contains(text(),"{{}}")]' './/script[contains(text(),"previousElementSibling")]' /b\\=.(.*?).\\=\\=/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby][contains(@style,"{{}}")]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),":root")]' /root\\{(.*?)\\:/
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),"aria-labelledby")][contains(text(),"{{}}")]' './/style[contains(text(),"display: var")]' /span\.(.*?)\\s/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby = "{{}}"]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),"aria-labelledby")]' /aria-labelledby=(.*?)\\]/
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"pd-sponsored")]/parent::div[starts-with(@class,"ads-")]/ancestor::div[@data-testid="x-ads-placements"]'
@@ -12424,6 +12427,7 @@ moe.gov.cn,qspfw.com#@#.ad_title
 moeci.com##+js(no-setTimeout-if, _0x)
 moegirl.org.cn##.moe-card[data-region="oversea"]
 moegirl.org.cn##.moe-card[region="oversea"]
+moegirl.org.cn##[class^='stevrhgmNo']
 moegirl.org.cn#?#.capsule-card:-abp-has(.n-tag)
 moerats.com##div[style="box-shadow: 1px 1px 5px 5px rgba(17, 150, 196, 0.35);border-radius: 15px;"]
 mojevideo.sk#@##video_ad
@@ -16369,6 +16373,7 @@ zzzyk.com###Tinfo
 ||0op8kh.cn^
 ||0oqt9i.cn^
 ||0p7w.cn^
+||0q5joc.cn^
 ||0r3tyg.cn^
 ||0tq6ub.cn^
 ||0uvt8b.cn^
@@ -17598,6 +17603,7 @@ zzzyk.com###Tinfo
 ||998sus.com^
 ||99999999.club^
 ||999aa666bb.com^
+||999bb222ww.com^
 ||999d.com^$third-party
 ||999gg.net^
 ||999meiju.com/js/tj
@@ -19736,6 +19742,7 @@ zzzyk.com###Tinfo
 ||cfdns.vip^
 ||cfepws.com^
 ||cfff.net^$third-party
+||cfrtdmb.xyz^
 ||cfx3d.xyz^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgbswl.icu^
@@ -20254,6 +20261,7 @@ zzzyk.com###Tinfo
 ||ctsau.xyz^
 ||ctvrtrya.xyz^
 ||ctydsy.xyz^
+||ctyusif.top^
 ||cuioxbqi.com^
 ||cultofmac.com/wp-content/plugins/com2014-ads/static/js/frontend-functionality.js$script
 ||cupfox.app^$third-party
@@ -20770,6 +20778,7 @@ zzzyk.com###Tinfo
 ||dncvj.cn^
 ||dndmygr.cn^
 ||dnfnpff.xyz^
+||dngbjyc.cn^
 ||dngz.net/x/
 ||dnightwish.xyz^
 ||dniwe.xyz^
@@ -21082,6 +21091,7 @@ zzzyk.com###Tinfo
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
 ||eapect.icu^
+||eaqlos.xyz^
 ||easou.com/brandImage/ad/
 ||easou.com/online/banner/
 ||easou.com^$third-party
@@ -21417,6 +21427,7 @@ zzzyk.com###Tinfo
 ||f77j6t2b.com^
 ||f77xv3.top^
 ||f780f.space^
+||f7fe0.cyou^
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
 ||f8ejqxp.cn^
@@ -22172,6 +22183,7 @@ zzzyk.com###Tinfo
 ||grjasq.com^
 ||grlnpmbc.goar.justjared.com^$domain=justjared.com
 ||grs.hicloud.com^
+||grtarpcf963.top^
 ||grthhr.xyz^
 ||grtimed.com/material/*_960x110_
 ||grxeyig.xyz^
@@ -23778,6 +23790,7 @@ zzzyk.com###Tinfo
 ||jpush0b.xyz^
 ||jpvrbt.xyz^
 ||jpysvip.net/ad/
+||jqbddp.xyz^
 ||jqkcett.icu^
 ||jqpejp.xyz^
 ||jqsex.com^
@@ -26758,6 +26771,7 @@ zzzyk.com###Tinfo
 ||qhbhlii.xyz^
 ||qhdlz.net/ssyyss/m.js
 ||qhdlz.net/uploads/glxs/980x120.jpg
+||qhemphox.com^
 ||qheoy.cn^
 ||qhicumg.cn^
 ||qhimg.com/clk.gif?
@@ -29149,6 +29163,7 @@ zzzyk.com###Tinfo
 ||uxtruz.xyz^
 ||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
+||uxzvjoj.cn^
 ||uycxhgrp.xyz^
 ||uydzfldt.xyz^
 ||uyf1u0x7.xyz^
@@ -29216,6 +29231,7 @@ zzzyk.com###Tinfo
 ||vbzrkme.xyz^
 ||vcbppb.xyz^
 ||vcjczwnc.xyz^
+||vcnpnf.xyz^
 ||vcvbnmto.xyz^
 ||vcydyzd.icu^
 ||vdebtqm.xyz^

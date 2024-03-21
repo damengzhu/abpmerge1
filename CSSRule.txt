@@ -1164,6 +1164,7 @@
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
+##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
 ##DIV[style='position: fixed; left: 0px; bottom: 0px; width: 100%; height: 120px; z-index: 2147483647 !important;']
@@ -1338,6 +1339,7 @@
 ##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##[style="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
+##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -4325,7 +4327,7 @@ carousell.com#@#.fb-b
 carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 cars.com#$#hide-if-matches-xpath './/a[@data-linkname="inventory-ad-header"]/ancestor-or-self::div[contains(@class,"inventory-ad")]'
-cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-sponsored"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
+cars.com#$#hide-if-matches-xpath './/span[@class="hero-cta-tag"][contains(text(),"Sponsored")]/preceding::img[@class="sponsored-hero-cta"]/ancestor::a[@aria-describedby][contains(@href,"adclick")]/ancestor-or-self::section[@id="primary-hero"]'
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com##.embed-responsive.position-relative > a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
 cartoon18.com#?#.container-fluid > .row > .item:has(> .card > .card-body > .lines > span.badge:contains(/^ad$/))
@@ -8777,6 +8779,7 @@ moe.gov.cn,qspfw.com#@#.ad_title
 moeci.com##+js(no-setTimeout-if, _0x)
 moegirl.org.cn##.moe-card[data-region="oversea"]
 moegirl.org.cn##.moe-card[region="oversea"]
+moegirl.org.cn##[class^='stevrhgmNo']
 moegirl.org.cn#?#.capsule-card:-abp-has(.n-tag)
 moerats.com##div[style="box-shadow: 1px 1px 5px 5px rgba(17, 150, 196, 0.35);border-radius: 15px;"]
 mojevideo.sk#@##video_ad
