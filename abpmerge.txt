@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-25 16:10:57
-! Total count: 31203
+! Version: 2024-03-26 08:10:57
+! Total count: 31227
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4419,6 +4419,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.cc,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.net,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -10851,8 +10852,8 @@ inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.ca,instacart.com#$#hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ div 'div * ^^sh^^ section ^^sh^^ div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ * div>div+div'; hide-if-contains-visible-text /./ div 'div * ^^sh^^ div ^^sh^^ * div>div+div'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; race stop;
@@ -16083,6 +16084,9 @@ zetorrents.com##A[href^="http://www.insta-cash.net/tds/?"]
 zeyutvcanales.com###KBTricksFBpop
 zglww.net##.tool
 zh.moegirl.org.cn#?#.swiper-slide:has(> a[href^="https://m.tb.cn/"])
+zh141.com###text1
+zh141.com##a[title*="廣告"]
+zh141.com##div[id^="ad_"]
 zhainanba.org##.marauto > p[style="text-align: left;"]
 zhakao.cn##.main > div[id^="_"][style^="box-sizing: content-box; display: block; position: fixed; z-index:"]
 zhangxinxu.com##a[href*=".taobao.com"]
@@ -17036,6 +17040,7 @@ zzzyk.com###Tinfo
 ||4po6iqp9.cn^
 ||4sexmail.com^
 ||4shared.com/js/blockDetect/blockDetect.4min.js$script
+||4vgyjja.cn^
 ||4wfe3.icu^
 ||5.61.55.143^
 ||5.ccutu.com^
@@ -17284,6 +17289,7 @@ zzzyk.com###Tinfo
 ||69adu.com/bootstrap.
 ||69e7.fun^
 ||69mok.com^
+||69shux.com/js/otherad.
 ||69t49.com/floating/layer.js
 ||69wx1.top^
 ||6avz.com^$script,third-party
@@ -18343,6 +18349,7 @@ zzzyk.com###Tinfo
 ||amdc.m.taobao.com^
 ||ameidj.xyz^
 ||amerzbj.cn^
+||amidicestrins.com^
 ||ammcg.imgscloud.com/toy/
 ||amradmin.5173.com^
 ||ams.fx678.com^
@@ -18497,6 +18504,7 @@ zzzyk.com###Tinfo
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
 ||aqiemc.xyz^
+||aqilk66444a.xyz^
 ||aqlife.com/data/attachment/portal/
 ||aqrokdw.cn^
 ||aquvg.com^
@@ -18854,6 +18862,7 @@ zzzyk.com###Tinfo
 ||bapdkgmvn.xyz^
 ||barscreative1.com^
 ||bas.boshi.tv^
+||batijian.com^
 ||baucdngb.xyz^
 ||bavde1.icu^
 ||bavde3.icu^
@@ -19664,6 +19673,7 @@ zzzyk.com###Tinfo
 ||cdn.xianliao.me^
 ||cdn.yunliunet.com^
 ||cdn0.sxhjty.cn^
+||cdn141.com/banner/adcards.
 ||cdn3.mancdn88.com^
 ||cdn77.org^*.mp4$badfilter
 ||cdn77.org^*.mp4|
@@ -20518,6 +20528,7 @@ zzzyk.com###Tinfo
 ||despiteto.com^
 ||destc10.icu^
 ||destc8.icu^
+||destinyssa.com^
 ||deude.ltd^
 ||develenv.com^$third-party
 ||device.fishmobi.com^
@@ -21200,6 +21211,7 @@ zzzyk.com###Tinfo
 ||elemea.xyz^
 ||elevatorpartsbuy.com^
 ||elinvarpayola.com^
+||elisium.cn^
 ||ellingsen.cn^
 ||elopatchwork.com^
 ||elprput.xyz^
@@ -22789,6 +22801,7 @@ zzzyk.com###Tinfo
 ||huatuo.qq.com^
 ||huaweinnd.top^
 ||huaxia.name^
+||hubgets.cn^
 ||hubiazhi.com^
 ||hubpd.com/hubpd/images/dingtong
 ||hudiecaifu.com^
@@ -23384,6 +23397,7 @@ zzzyk.com###Tinfo
 ||iuwkmpol.net^
 ||ivbgpax.cn^
 ||iviewui.com/v1/*?name=
+||ivnrrkx.cn^
 ||ivqtrjt.cn^
 ||ivy.pconline.com.cn^
 ||ivzfpwm.cn^
@@ -24634,6 +24648,7 @@ zzzyk.com###Tinfo
 ||llblwzg.xyz^
 ||lleo.top^
 ||llj22.com/1.gif
+||llksja.com^
 ||llmxt.fun^
 ||llnxdx.xyz^
 ||llpuhx.xyz^
@@ -25595,6 +25610,7 @@ zzzyk.com###Tinfo
 ||ndvfwlv.cn^
 ||nedes.xyz^
 ||needqnv.xyz^
+||neess105.top^
 ||neets.cc/assets/js/dup.js
 ||neeujqf.cn^
 ||nefbjp.xyz^
@@ -26467,6 +26483,7 @@ zzzyk.com###Tinfo
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||prf.hn^$third-party
+||prhfziq.xyz^
 ||prhphla.xyz^
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/ec-discuss-widget.php
@@ -26974,6 +26991,7 @@ zzzyk.com###Tinfo
 ||rapsmnz.cyou^
 ||rarbt.cc/js/index960_
 ||rarcff.xyz^
+||rarmkce.cn^
 ||ratedxbiz.com/d/
 ||ravzbd.xyz^
 ||raxetyrw.xyz^
@@ -27246,6 +27264,7 @@ zzzyk.com###Tinfo
 ||rychlost.cz/_pub/scripts/js.js$script
 ||rydyvv.xyz^
 ||rydzfldt.xyz^
+||ryrmvd.xyz^
 ||ryvexulg.xyz^
 ||rywnvzd.cn^
 ||ryyuvrt.cn^
@@ -27677,6 +27696,7 @@ zzzyk.com###Tinfo
 ||sjzls.top^
 ||skads.gxsky.com^$script
 ||skdaj.cn^
+||skdncksklsv.com^
 ||skdunkig.xyz^
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/getHotRank
@@ -27993,6 +28013,7 @@ zzzyk.com###Tinfo
 ||stunthedge.com^
 ||stusnais.com^
 ||stylishar.com^
+||styusib.top^
 ||su.bdimg.com/static/dspui/js/
 ||sub.powerapple.com^
 ||subhd.com/images/ap/
@@ -28182,6 +28203,7 @@ zzzyk.com###Tinfo
 ||tarqk5.com^
 ||tatyboy.top^
 ||tawk.to^$third-party
+||taxoxz.xyz^
 ||tb3t.xyz^
 ||tb58.net/plugin.php?id=tb58_
 ||tbb0001.top^
@@ -28823,6 +28845,7 @@ zzzyk.com###Tinfo
 ||uibjhqwkl.com^
 ||uidwyx.icu^
 ||uifyeldt.top^
+||uigxgg.xyz^
 ||uiiepofl.xyz^
 ||uioozpxq.com^
 ||uiqatnpooq.com/0f8b73d477b554394e23077935e1fff4.js$script,domain=extratorrent.cc
@@ -29251,6 +29274,7 @@ zzzyk.com###Tinfo
 ||vuedivv.icu^
 ||vueegqt.xyz^
 ||vuetifyjs.com/notify.json
+||vugjyr.icu^
 ||vuhidf.cn^
 ||vujzkkz.cn^
 ||vulrxr.xyz^
