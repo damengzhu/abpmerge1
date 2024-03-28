@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-27 16:11:55
-! Total count: 31238
+! Version: 2024-03-28 08:10:45
+! Total count: 31259
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6932,6 +6932,7 @@ anisearch.com#@#.adsbygoogle
 anisubsia.com###de13
 anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
 aniwatch.to#$#abort-current-inline-script XMLHttpRequest
+aniwatchtv.to#$#abort-current-inline-script document.createElement /break|case/
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 anjia365.com#@#.adv_bg
 anjian.com##.ImgTop
@@ -8437,6 +8438,8 @@ cr-nielsen.com
 cr173.com##.downurl[data^="viewAds"]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
+crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazyshit.com#$#abort-on-property-read window.cs.ads
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
 creaders.net##.pinglun > .btmlist-title
@@ -11964,6 +11967,7 @@ lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-til
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div//div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
+lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 lsj.ac##div[class="col-12"] > div[class="poster"]
 lspdfrcn.com###cancms_float_bar_fixed_bottom
 ltaaa.com##.lAds
@@ -13407,6 +13411,7 @@ pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
 pornlulu.com##.row.links
 pornlulu.com,pornbest.org###fullPageModal
 pornstarsyfamosas.es#$#abort-on-property-write _pop
+porntrex.com#$#abort-on-property-write preventDefault
 pornwhite.com###pre-spots
 pornwhite.com##.bottom-banners
 pornwhite.com##.content-aside
@@ -16017,7 +16022,14 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
+youtube.com##.ytd-banner-promo-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
+youtube.com##.ytd-video-masthead-ad-v3-renderer
 youtube.com##AD-SLOT-RENDERER
+youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
+youtube.com##div #player-ads.style-scope.ytd-watch-flexy, div#panels.style-scope.ytd-watch-flexy
+youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
@@ -16272,10 +16284,12 @@ zzzyk.com###Tinfo
 |https://tellme.pw/go/jav$popup
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
+||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.com/*b8121.js^$script,domain=mult34.com
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
+||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
@@ -20615,6 +20629,7 @@ zzzyk.com###Tinfo
 ||dieka888.com/app_ad/
 ||dieka888.com^
 ||diekd.xyz^
+||difhil.icu^
 ||difmnd.xyz^
 ||dig.bdurl.net^
 ||dig.chouti.com/advert
@@ -23858,6 +23873,7 @@ zzzyk.com###Tinfo
 ||juapp5.com/geek_image/chaopai.jpeg
 ||jubaibaic.com/xx/
 ||jubbkon.top^
+||jubnpx.xyz^
 ||judthih.cn^
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||jueyds.top^
@@ -24088,6 +24104,7 @@ zzzyk.com###Tinfo
 ||kgimg.com/public/root//images/hardware.jpg
 ||khgjfm16.com^
 ||khrtac.xiangha.com^
+||khzyojb.cn^
 ||kiees.cn/img/
 ||kiees.cn/jm.png
 ||kiees.cn/k1.js
@@ -26395,6 +26412,7 @@ zzzyk.com###Tinfo
 ||pknrnj.xyz^
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
+||pkyjuc.cn^
 ||pkynqq.com^
 ||pl520.com^$third-party
 ||play6111.com/js/
@@ -27498,6 +27516,7 @@ zzzyk.com###Tinfo
 ||sfqyck.xyz^
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||sftcdn.net/acmp^$image,domain=softonic.com
+||sgcwoe.xyz^
 ||sgegie.fun^
 ||sgeth1.icu^
 ||sgeth3.icu^
@@ -28001,6 +28020,7 @@ zzzyk.com###Tinfo
 ||stgowan.com^$third-party
 ||stheadline.com/images/heading-jm
 ||stienlb.top^
+||stlpnom.xyz^
 ||stmzzs.com^
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
@@ -29625,6 +29645,7 @@ zzzyk.com###Tinfo
 ||wtiaw.top^
 ||wtienle.top^
 ||wttuuyd.cn^
+||wtyusie.top^
 ||wubizigeng.com^
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png

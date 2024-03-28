@@ -3337,6 +3337,7 @@ anisearch.com#@#.adsbygoogle
 anisubsia.com###de13
 anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
 aniwatch.to#$#abort-current-inline-script XMLHttpRequest
+aniwatchtv.to#$#abort-current-inline-script document.createElement /break|case/
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 anjia365.com#@#.adv_bg
 anjian.com##.ImgTop
@@ -4826,6 +4827,8 @@ cqnews.net##.taobao
 cr173.com##.downurl[data^="viewAds"]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
+crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazyshit.com#$#abort-on-property-read window.cs.ads
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
 creaders.net##.pinglun > .btmlist-title
@@ -8326,6 +8329,7 @@ lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-til
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div//div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
+lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
 lsj.ac##div[class="col-12"] > div[class="poster"]
 lspdfrcn.com###cancms_float_bar_fixed_bottom
 ltaaa.com##.lAds
@@ -9755,6 +9759,7 @@ pornj.com,upornia.com,realgfporn.com#$#abort-on-property-read encodeURI
 pornlulu.com##.row.links
 pornlulu.com,pornbest.org###fullPageModal
 pornstarsyfamosas.es#$#abort-on-property-write _pop
+porntrex.com#$#abort-on-property-write preventDefault
 pornwhite.com###pre-spots
 pornwhite.com##.bottom-banners
 pornwhite.com##.content-aside
@@ -12332,7 +12337,14 @@ youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
+youtube.com##.ytd-banner-promo-renderer
+youtube.com##.ytd-in-feed-ad-layout-renderer
+youtube.com##.ytd-video-masthead-ad-v3-renderer
 youtube.com##AD-SLOT-RENDERER
+youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
+youtube.com##div #player-ads.style-scope.ytd-watch-flexy, div#panels.style-scope.ytd-watch-flexy
+youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
 youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
