@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-29 08:10:53
-! Total count: 31269
+! Version: 2024-03-29 16:09:46
+! Total count: 31279
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8796,6 +8796,7 @@ dongmanhuayuan.myheartsite.com##.card-body
 dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
+doordash.com#$#hide-if-matches-xpath '//*[@id="store_feed"]/div[3]/div[1]/div/div//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -11651,6 +11652,7 @@ kknews.cc,read01.com##.axslot
 kkpan.com,qqtn.com,smzy.com,yxdj.com.cn##.u-gs-btn
 kkw360.com##a[href^="https://sourl.cn/"]
 kleinanzeigen.de#@#[data-adid]
+klyingshi.net##.row > div.url-card:has(> div.url-body span.badge-danger)
 km.com##.downloadApp
 kmf.com##.g-kmf-906banner
 knowlet3389.blogspot.com,knowlet3389.blogspot.hk,knowlet3389.blogspot.jp,knowlet3389.blogspot.tw#@##gAds
@@ -13208,6 +13210,7 @@ phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 phimvuihd.org#$#override-property-read urlAds ''
+phone-book.tw##+js(remove-node-text, script, yumayishop)
 phonearena.com##.adblock_awareness
 photopea.com##.flexrow > div[style^="padding-top:"]
 php.cn##.close_id
@@ -13985,7 +13988,7 @@ sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
 sexdiaryz.us#$#abort-on-property-read parseInt
 sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
-sexvietmoi.io,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,clipsex.xxx,xxxvietnam.io,gaimup.net,phimsexvip.cc,xem.ditnhau.cc,xx.phimsexnhathay.com#$#override-property-read video.adVast ''
+sexvietmoi.io,londep.io,phimsexviet.io,ww1.phimsexvietnam.live,clipsex.xxx,xxxvietnam.io,gaimup.net,phimsexvip.cc,sex.ditnhau.cc,xx.phimsexnhathay.com#$#override-property-read video.adVast ''
 seznamzpravy.cz##[class^="dynamic_banner"]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
@@ -14908,6 +14911,10 @@ trakt.tv##.huckster-dfp
 trakt.tv##DIV[id$='-wrapper']
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
+tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
+tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
+tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-automation]//span[contains(text(),"Sponsored")]/ancestor::span/parent::div[1]'
+tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 tropica.cn##.a_mu1
 tropica.cn##.bm.a_c1
 tropica.cn##.wp1.a_t
@@ -16706,6 +16713,7 @@ zzzyk.com###Tinfo
 ||1w73a5d.cn^
 ||1weorpu.com^
 ||1wkg.cn^
+||1x5jlh.xyz^$popup
 ||1x6666.com/img/
 ||1yv1phk.jaz.sportauto.fr^$script
 ||2.haoxue360.com^
@@ -23445,6 +23453,7 @@ zzzyk.com###Tinfo
 ||iyfbodn.com^
 ||iyingdi.com/goood?
 ||iyinghua.io/bar/
+||iykig.cn^
 ||iytrn.xyz^
 ||iyuedu.cn.com^
 ||iyybqzv.cn^
@@ -24050,6 +24059,7 @@ zzzyk.com###Tinfo
 ||kcqpvqr.cn^
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
+||kdeh.cn^
 ||kdgjsf.com^
 ||kdh095.cn^
 ||kdjdpyrt.xyz^
