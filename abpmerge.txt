@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-03-30 16:10:33
-! Total count: 31292
+! Version: 2024-03-31 08:10:51
+! Total count: 31307
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7581,6 +7581,7 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
+bilibili.com##.extension-tips
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index-promote
@@ -14886,6 +14887,8 @@ torrent-tv.ru##.page > .right-side > .section + .section + .section
 torrentgalaxy.to#$#hide-if-matches-xpath './/*[contains(@title, "Ads")]/parent::div/ancestor:: div[@id="click"]/ancestor::div[@onmouseover][@onmouseout]'; hide-if-matches-xpath './/img[contains(@class,"img-")]/parent::div/ancestor::a[contains(@href,"zub.pnp")]/ancestor-or-self::div[1]';
 torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
 torrentproject.com##A[href^="//torrentproject.com/out/?"]
+touchgal.org##a[href*=".sailing.ink"]
+touchgal.org##a[href*=".taobao.com"]
 tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
 toutiao.china.com###js-free-time-show
 toutiao.com##.article_link[data-tag="ad"]
@@ -15323,8 +15326,6 @@ waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,wa
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#a[href*=".umtrack.com/"] { position: absolute !important; left: -3000px !important; }
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#.player-rm > a[target="_blank"]
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#a[href*=".umtrack.com/"]
-waipian5.com##.popup
-waipian5.com##.shortcuts-mobile-overlay
 walla.co.il,sheee.co.il##[data-google-av-flags]
 walla.co.il,sheee.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
 walla.co.il,sheee.co.il##a[href^="https://kvdhzjfrudaxrleb."], a[href*="/m.php?ziga="]
@@ -16999,6 +17000,7 @@ zzzyk.com###Tinfo
 ||3ndra.icu^
 ||3p8801.co^
 ||3prndxd.cn^
+||3q1lsj.cn^
 ||3q3l.cn^
 ||3rsppty.cn^
 ||3t769up6.com^
@@ -17316,6 +17318,8 @@ zzzyk.com###Tinfo
 ||6avz.com^$script,third-party
 ||6b70b1086b.com^
 ||6cdwf.xyz^
+||6cyfvvs.com^
+||6functf.com^
 ||6gcstb.xyz^
 ||6gukaitu.xyz^
 ||6h1cz.xyz^
@@ -19650,6 +19654,7 @@ zzzyk.com###Tinfo
 ||cdgtw3.guapaijia.com^
 ||cdhfvrug.xyz^
 ||cdkke.xyz^
+||cdmgac.xyz^
 ||cdmjur.xyz^
 ||cdmnlxtu.xyz^
 ||cdn-99-pic.cc^
@@ -20016,6 +20021,7 @@ zzzyk.com###Tinfo
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cn6x.com^
 ||cna5.cc/skins/js/
+||cnalzlf.top^
 ||cnblogs.com/ajax/bigbanner/
 ||cnblogs.com/blog/36987/201509/36987-20150913115252950-1736386654.jpg
 ||cnblogs.com/group/C1*-T2
@@ -22699,6 +22705,7 @@ zzzyk.com###Tinfo
 ||hmrwkcx.cn^
 ||hmtoday.com^$third-party
 ||hmwang.icu/skin/images/*.gif
+||hnalzlu.top^
 ||hnbhrt.xyz^
 ||hncadh.com^
 ||hndfw.com.cn^
@@ -22769,6 +22776,7 @@ zzzyk.com###Tinfo
 ||hpjzpn.xyz^
 ||hppmy.cn^
 ||hprinb.xyz^
+||hptyp.icu^
 ||hpvl2kb.icu^
 ||hpvwdkn.cn^
 ||hq390.xyz^
@@ -22897,6 +22905,7 @@ zzzyk.com###Tinfo
 ||hvfubp.xyz^
 ||hvlitr.xyz^
 ||hvpard.xyz^
+||hvxrvef.xyz^
 ||hw0.com.cn^
 ||hwfoct.icu^
 ||hwhacum.cn^
@@ -25273,6 +25282,7 @@ zzzyk.com###Tinfo
 ||misadw1.cn^
 ||misapopait.com^
 ||misjgy.xyz^
+||missav.com/pop?url=
 ||missav.com/static/img/partners/
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
@@ -26453,6 +26463,7 @@ zzzyk.com###Tinfo
 ||pmb*.tj.ali213.net/js/
 ||pmensrl.cn^
 ||pmnct63.shop^
+||pmtrkp.icu^
 ||pmvlwjy.cn^
 ||pmxalz.xyz^
 ||pnez8.rut6m.xyz^
@@ -26531,6 +26542,7 @@ zzzyk.com###Tinfo
 ||pr88vhg.com^
 ||prdohgp.cn^
 ||prelandappslab.com^
+||pressit.cn^
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||prf.hn^$third-party
@@ -27320,6 +27332,7 @@ zzzyk.com###Tinfo
 ||rychlost.cz/_pub/scripts/js.js$script
 ||rydyvv.xyz^
 ||rydzfldt.xyz^
+||ryhkft.xyz^
 ||ryrmvd.xyz^
 ||ryvexulg.xyz^
 ||rywnvzd.cn^
@@ -28543,6 +28556,7 @@ zzzyk.com###Tinfo
 ||tongj.xilu.com^
 ||tongji.xinmin.cn^
 ||tongjiniao.com^
+||tongjiniao.com^$third-party
 ||tonnn.com/promotion2/*.js
 ||tonxzq.com^
 ||toolfk.com/common/zfb.jpg
@@ -28629,6 +28643,7 @@ zzzyk.com###Tinfo
 ||trustedcpmrevenue.com^
 ||truthfulsensor.com^
 ||truvidplayer.com^$domain=technews.tw
+||truxalsl.com^
 ||trw12.com^$third-party
 ||trxs123.com/skin/default/js/jque.js
 ||trymask.com/api/$third-party
