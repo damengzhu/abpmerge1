@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-03 08:11:34
-! Total count: 31343
+! Version: 2024-04-03 16:10:08
+! Total count: 31348
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9394,7 +9394,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet24h.com,anh.moe,truyenhentaivn.pro#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,truyenhentaivn.pro#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -12834,10 +12834,10 @@ nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.title, ''
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.jumpUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.mediaUrl, '')
 nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.title, '')
+nivod5.tv,nivod4.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
 nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
 nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
-nivod5.tv,nivod4.tv#?#.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod8.tv#$#override-property-read detailParams.is_ad_play false
 nivod8.tv,nivod7.tv##.nav-ads
@@ -16641,6 +16641,7 @@ zzzyk.com###Tinfo
 ||1722t.com/js/jquery.js
 ||173e.cn^
 ||174.123.15.43:8080
+||174.127.195.66/bbs/include/javascript/adblock.js
 ||177o.com^
 ||178.com/glr.js
 ||17ce.com^*_$image
@@ -17261,6 +17262,7 @@ zzzyk.com###Tinfo
 ||5q7eb.website^
 ||5r562.cn^
 ||5s98.com/img/
+||5uxmusq.cn^
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
@@ -20641,6 +20643,7 @@ zzzyk.com###Tinfo
 ||diagnosis.ad.xiaomi.com^
 ||dian.brecm.xyz^
 ||dian500.com^$third-party
+||dianassb.com^
 ||dianhanjiw.com^
 ||dianjinghu.com/static/frontend/images/lol/penpen
 ||dianping.com/hippo.gif?
@@ -25832,6 +25835,7 @@ zzzyk.com###Tinfo
 ||nmkghh.com^
 ||nmlfev.icu^
 ||nmm9i.xyz^
+||nmntgd.cn^
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
 ||nndytv.xyz^
@@ -30203,6 +30207,7 @@ zzzyk.com###Tinfo
 ||xn--gov-x68dy61b.shop^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
+||xn--qrq171dxpq.com^
 ||xn--wgvp78a61swpe6zdozj.cn^
 ||xn--wxtr44c.video^
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
