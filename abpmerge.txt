@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-06 16:10:37
-! Total count: 31388
+! Version: 2024-04-07 08:12:07
+! Total count: 31401
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -788,6 +788,7 @@
 ##.jqrp_infoflow_ad
 ##.js-cui-pt-item[data-qhb]
 ##.jsv > .mobile-adv
+##.jsv-layer > .image > a[href^="http"]
 ##.ka-flo
 ##.kjk-flo
 ##.ksads
@@ -1048,6 +1049,7 @@
 ##A.toptxt[target='_blank']
 ##A.wrapper_bg_c.hidden-xs
 ##ASIDE[id^='custom_html-']
+##A[href*=".68hantang.com"]
 ##A[href*=".com/?Agent="]
 ##A[href*="emprestimo.eu"]
 ##A[href*="googleme.eu"]
@@ -4469,6 +4471,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.com/api/getPos?jspath=/
+91porny.org###main > div[id^="rd"]
 91rb99.com##.top
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
@@ -9970,6 +9973,7 @@ googleads.g.doubleclick.net###mys-wrapper
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 gotrip.hk##.oath-lrec-player
 gotrip.hk#?#._more_content_ > div._page_:has(> div.oath-lrec-player)
+gotrip.hk,nmplus.hk,weekendhk.com##.ai_widget
 gotv.ctitv.com.tw##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 gounlimited.to#$#abort-on-property-read atob
 gov.cn###ZhiXuwFloatWindow
@@ -18625,6 +18629,7 @@ zzzyk.com###Tinfo
 ||aty.sohu.com/v?
 ||aty.sohu.com^
 ||atyun.com/wp-content/themes/xmag/js/ad.js
+||atzhcjv.xyz^
 ||au6w0.xyz^
 ||auction.unityads.unity3d.com^
 ||audgiqb.cn^
@@ -19023,6 +19028,7 @@ zzzyk.com###Tinfo
 ||bdimg.com/static/wkcore/widget/commerce/fengchao/
 ||bdimg.com/static/wkview/widget/download_after_activity_new/download_after_activity_new_
 ||bdjdpyrt.xyz^
+||bdjfea.cn^
 ||bdjiaoben.wmxa.cn^
 ||bdjj.bzr99.com^
 ||bdjj.makepolo.net^
@@ -21972,6 +21978,7 @@ zzzyk.com###Tinfo
 ||gfpvvwf.xyz^
 ||gfrzzzx.cn^
 ||gfvip09at.com^
+||gfylyw.xyz^
 ||gg-led.com/uploadFile/uploadCompanyLogo/*.gif
 ||gg.*.com/tonglan/tonglan.js
 ||gg.0598yu.com^
@@ -25049,6 +25056,7 @@ zzzyk.com###Tinfo
 ||m549z.site^
 ||m6500.top^
 ||m6690.top^
+||m6j37.xyz^
 ||m7g2v1b9.com^
 ||m7i1k.fun^
 ||m8oxd.xyz^
@@ -25989,6 +25997,7 @@ zzzyk.com###Tinfo
 ||obdjzhq.xyz^
 ||obertsiamw.fun^
 ||obgbok.com^
+||obgekjz.icu^
 ||obturex.com^
 ||obzthda.xyz^
 ||oceanbot-steam.com^
@@ -27593,6 +27602,7 @@ zzzyk.com###Tinfo
 ||seslco.xyz^
 ||sessions.bugsnag.com^
 ||setn.com/js/advertisement?
+||setn.com/js/idleAD.
 ||setoniale.com^
 ||settings.luckyorange.net^
 ||seutop.icu^
@@ -29263,6 +29273,7 @@ zzzyk.com###Tinfo
 ||vdvcjlp.cn^
 ||ve0ke.icu^
 ||veaiyl.icu^
+||vejhln.xyz^
 ||vel7.xyz^
 ||venator.link^
 ||vencerocasino.com/$popup
@@ -29326,6 +29337,7 @@ zzzyk.com###Tinfo
 ||vihppjk.cn^
 ||vijnhyru.xyz^
 ||viladram.xyz^
+||vioyugo.cn^
 ||vip.luanren.com/data/*.gif
 ||vip.ludu319.com^$third-party
 ||vip.min1319.com^$third-party
@@ -29704,6 +29716,7 @@ zzzyk.com###Tinfo
 ||wnacg.*/w8z/
 ||wnacg.*/zec/
 ||wnacg.com/1sdfdc1/500_60-1.gif
+||wnalzle.top^
 ||wneia.iaskhot.com^
 ||wnifdlae.top^
 ||wnllmyw.xyz^
