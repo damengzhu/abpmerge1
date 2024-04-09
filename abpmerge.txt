@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-08 16:11:46
-! Total count: 31415
+! Version: 2024-04-09 08:11:21
+! Total count: 31426
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7758,6 +7758,8 @@ boke112.com##a[href*="url.cn"]
 boke112.com##a[href^="https://dwz.cn/"]
 boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
+bol.com##section[data-group-name^="sponsored-products"]
+bol.com#$#debug; hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
 bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
@@ -13271,7 +13273,7 @@ pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-contains-visible-text /Promoted/ 'div[role="listitem"][role][style]' 'div[data-test-id="pin"]' 'content: "Promoted by";' 'font-weight: 600;'
 pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#hide-if-matches-xpath './/div[@title][contains(text(),"Sponsorisée") or contains(text(),"Anzeige") or contains(text(),"Promocionado") or contains(text(),"Gesponsord") or contains(text(),"Promowane") or contains(text(),"Patrocinado") or contains(text(),"Publicidade") or contains(text(),"Sponsorizzato")]/ancestor::div[@data-test-id="pin"]';
-pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style]//span//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#$#race start; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//style/parent::div/child::div/ancestor::div[@data-test-id="pin"]/ancestor::div[@role="listitem"][@style]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class][@style][count(child::*)>=10]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promotedby")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; hide-if-matches-xpath './/div/div/a[@rel][@tabindex]//div[@class and @style]//following-sibling::div[@style]//div[contains(@style,"margin-bottom: 2px")]//div[contains(@class,"promo")]//ancestor::div[@data-test-id="pin"]/ancestor-or-self::div[@role="listitem"][@style][1]'; race stop;
 pipi.cn#@#.ad-root
 pirlotv.tv###ad_overlay
 pirlotv.tv###ad_overlay_content
@@ -18468,6 +18470,7 @@ zzzyk.com###Tinfo
 ||anyshare.icu^*.js
 ||anyunwl04.com^
 ||anywlan.com/link/*.gif
+||aoakss.com^
 ||aobuygo.com^
 ||aojeet.icu^
 ||aoji.cn/default/looyu/
@@ -20757,6 +20760,7 @@ zzzyk.com###Tinfo
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
+||dlngft.xyz^
 ||dlrtz.com^
 ||dlswbr.baidu.com^
 ||dlxxjsh.top^
@@ -21346,6 +21350,7 @@ zzzyk.com###Tinfo
 ||eqlidke.cn^
 ||eqqi.cn^
 ||eqqwgw.xyz^
+||equkgm.xyz^
 ||er.5ykj.cn^
 ||er.5ykj.com^
 ||eraaoec.cn^
@@ -23072,6 +23077,7 @@ zzzyk.com###Tinfo
 ||iemwbu.cn^
 ||iepda.xyz^
 ||iephrenhq.com^
+||ievvo.xyz^
 ||iewtwo.xyz^
 ||ifbfksf.xyz^
 ||ifbqves.cn^
@@ -24311,6 +24317,7 @@ zzzyk.com###Tinfo
 ||kozhyf.icu^
 ||kpbqlqv.cn^
 ||kphcrjth.xyz^
+||kpmose.xyz^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||kpqdkg.xyz^
@@ -26225,6 +26232,7 @@ zzzyk.com###Tinfo
 ||oyugspe.cn^
 ||oyxp.xyz^
 ||oyysbc.xyz^
+||ozhmig.cn^
 ||ozkbdxdu.icu^
 ||ozolei.xyz^
 ||p.7060.la^
@@ -27291,6 +27299,7 @@ zzzyk.com###Tinfo
 ||rlqoyht.icu^
 ||rltdxt.com/files/h5/
 ||rlw86.cyou^
+||rlxhbff.cn^
 ||rmduuv.icu^
 ||rmhfrtnd.com^$third-party
 ||rmipoz.com/dp.js
@@ -28611,6 +28620,7 @@ zzzyk.com###Tinfo
 ||tmwbszn.icu^
 ||tnabucks.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tnabucks.com/visitScript/$script,third-party
+||tnalzli.top^
 ||tnc3-aliec2.zijieapi^
 ||tnc3-alisc1.zijieapi^
 ||tnc3-bjlgy.snssdk.com^
@@ -30512,6 +30522,7 @@ zzzyk.com###Tinfo
 ||ydazjxso.xyz^
 ||yddbysa.xyz^
 ||yddjmpjo.xyz^
+||yddrqwq.xyz^
 ||ydfhidrk.xyz^
 ||ydgal.com/axfile/
 ||ydgh0zc.com^
