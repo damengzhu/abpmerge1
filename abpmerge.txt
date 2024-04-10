@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-09 16:09:51
-! Total count: 31427
+! Version: 2024-04-10 08:12:38
+! Total count: 31440
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8908,7 +8908,7 @@ dshangyan.com##.advHeader
 dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
-dualeotruyenkp.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenkq.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
@@ -13769,6 +13769,8 @@ r3sub.com##div[class] > a[href^="show.php?id="]
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
 r3sub.com##source + img
 rainanime.net#$#abort-on-property-read NativeAd
+rakuten.com###second_promo
+rakuten.com#$#hide-if-contains-visible-text /Sponsorisée/ 'div[class*="flex-row"]' 'div[class*="flex"]>span[class*="sponsoredTag"]'
 rapid8.com###blcokMzg
 rapid8.com##.backk
 rarbg.com##A[href^="/w_d_adpub.php?id="]
@@ -15272,7 +15274,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.si,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkp.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3q.pro,hentaizz.club,animehay.us,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.media,quatvn3.club,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexhay18.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.si,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3q.pro,hentaizz.club,animehay.us,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.media,quatvn3.club,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexhay18.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17266,6 +17268,7 @@ zzzyk.com###Tinfo
 ||5kmp7.top^
 ||5lfgdju.com^
 ||5lu8.com^$popup,third-party
+||5mgrgsc.cn^
 ||5mm.zxfw5.cn^
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
@@ -17277,6 +17280,7 @@ zzzyk.com###Tinfo
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
+||5vkyqkc.cn^
 ||5vuk.xyz^
 ||5wl8x.xyz^
 ||5xdmw.com/tb.jpg
@@ -18573,6 +18577,7 @@ zzzyk.com###Tinfo
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||ark.letv.com/t?
+||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
 ||arkn81.com^
 ||arnhhwo.xyz^
 ||arpg2.com^
@@ -22739,6 +22744,7 @@ zzzyk.com###Tinfo
 ||hltkl.fun^
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltqsbl.cn^
+||hltv.org^$popup,domain=hltv.org
 ||hlzyb.cn^
 ||hm.baidu.com/mkt.js
 ||hm.baidu.com^
@@ -23873,6 +23879,7 @@ zzzyk.com###Tinfo
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
 ||js.oh100.com^
+||js.onclckmn.com/*.js^$script,domain=porntrex.com
 ||js.passport.qihucdn.com/11.0.1.js
 ||js.ruiwen.com^
 ||js.sapo.pt/SAPOWebAnalytics/
@@ -24931,6 +24938,7 @@ zzzyk.com###Tinfo
 ||lvdedf.xyz^
 ||lvjtiaa.xyz^
 ||lvnlrmn.xyz^
+||lvphbj.xyz^
 ||lvrvdn.xyz^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
@@ -26193,6 +26201,7 @@ zzzyk.com###Tinfo
 ||otbeksf.cn^
 ||other.v.duowan.com^
 ||otienlk.top^
+||otmebdr.cn^
 ||ott.cibntv.net/*/letv-wzgug/$media
 ||otwiss.xyz^
 ||otxlhpm.xyz^
@@ -26709,6 +26718,7 @@ zzzyk.com###Tinfo
 ||pv4b.com^$popup
 ||pv966.us/js/tw.js
 ||pvajlmhjjq.xyz^
+||pvhjkzo.xyz^
 ||pvlnjwr.xyz^
 ||pvnzrr.xyz^
 ||pvpdbth.xyz^
@@ -26778,6 +26788,7 @@ zzzyk.com###Tinfo
 ||qcmm01.com^
 ||qcmm05.com^
 ||qcohkm.xyz^
+||qcsvku.xyz^
 ||qctcu.com^
 ||qcvf.ifeng.com^
 ||qczcxe.cn^
@@ -27876,6 +27887,7 @@ zzzyk.com###Tinfo
 ||sl.al/gdrive/pic/*.gif
 ||slashlook.com/_resource/html/_bloggerAdsBottom.html
 ||slashlook.com/_resource/html/_bloggerAdsInline1.html
+||slcmvgr.icu^
 ||slfango.ltd^
 ||slfindmarket.live^
 ||slit.cn/slimages/
@@ -29062,6 +29074,7 @@ zzzyk.com###Tinfo
 ||un-acs.youku.com^
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
+||unalzlt.top^
 ||uncs7.top^
 ||undm.qibulo.com^
 ||unecne.com/wp-content/uploads/*ad-
