@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-16 16:11:12
-! Total count: 31515
+! Version: 2024-04-17 08:11:24
+! Total count: 31524
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8462,7 +8462,7 @@ cr-nielsen.com
 cr173.com##.downurl[data^="viewAds"]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
-crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
 crazyshit.com#$#abort-on-property-read window.cs.ads
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
@@ -15647,7 +15647,7 @@ www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com###public-screen-ab
+www.huya.com##.duya-header-right,#public-screen-ab
 www.huya.com##.sidebar-banner
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.iosviet.com#$#override-property-read timer 0
@@ -18246,6 +18246,7 @@ zzzyk.com###Tinfo
 ||ajbpcxi.xyz^
 ||ajcnz1.com^
 ||ajcode.co^
+||ajffubz.xyz^
 ||ajfkwwpo.xyz^
 ||ajghca.xyz^
 ||ajijcy.xyz^
@@ -21297,6 +21298,7 @@ zzzyk.com###Tinfo
 ||eiadf.xyz^
 ||eic.org.cn/api/Popup?
 ||eic.org.cn^*/analytics
+||eiegkg.xyz^
 ||eifyeldw.top^
 ||eignky.xyz^
 ||eileenjaney.com^
@@ -22264,6 +22266,7 @@ zzzyk.com###Tinfo
 ||grtarpcf963.top^
 ||grthhr.xyz^
 ||grtimed.com/material/*_960x110_
+||grulphaens.com^
 ||grxeyig.xyz^
 ||grxwqq.com^
 ||gscatk.cn^
@@ -23689,6 +23692,7 @@ zzzyk.com###Tinfo
 ||jgygtv.cn^
 ||jh16csf.com^
 ||jhdvcjvsjkvjkb.com^
+||jhfcll.cn^
 ||jhkggrr.icu^
 ||jhl1993.cn^
 ||jhlazsot.icu^
@@ -24083,6 +24087,7 @@ zzzyk.com###Tinfo
 ||jygiizv.icu^
 ||jyhlo0.com^
 ||jynthelon.com^
+||jypvzd.xyz^
 ||jyrd.com/statics/*/js/baizhu/
 ||jyt58.top^
 ||jytjw.com^
@@ -24494,6 +24499,7 @@ zzzyk.com###Tinfo
 ||kyq3hky.icu^
 ||kyq3xch.icu^
 ||kytesconge.com^
+||kyuwkbd.top^
 ||kyxw9itc.xyz^
 ||kyxw9itv.club^
 ||kyzx.xyZ^
@@ -26780,6 +26786,7 @@ zzzyk.com###Tinfo
 ||pvymlsvo.xyz^
 ||pw321.com/bulu/
 ||pw321.com^*.gif
+||pwddhc.xyz^
 ||pwhkfd.xyz^
 ||pwhtip.icu^
 ||px.ucweb.com^
@@ -27375,6 +27382,7 @@ zzzyk.com###Tinfo
 ||rmxizma.cn^
 ||rmzbfum.cn^
 ||rnajhyd.xyz^
+||rndcdb.xyz^
 ||rndhaunteran.com^
 ||rnhqxh.com^
 ||rnkzhsi.cn^
@@ -29372,6 +29380,7 @@ zzzyk.com###Tinfo
 ||vdggsd017.com^
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
+||vdoqomz.icu^
 ||vdrfes.site^
 ||vdtxlt.xyz^
 ||vdvcjlp.cn^

@@ -4847,7 +4847,7 @@ cqnews.net##.taobao
 cr173.com##.downurl[data^="viewAds"]
 cr173.com,downcc.com,downyi.com,itmop.com##.downnowgaosu
 cr173.com,itmop.com,jisuxz.com##.xiazaiqi
-crazygames.com#$#hide-if-matches-xpath './/div[@class][contains(.,"Advertisement") and contains (@style,"width")]/parent::div[1]'
+crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
 crazyshit.com#$#abort-on-property-read window.cs.ads
 creaders.net###guanggao2
 creaders.net##.border_b > tbody > tr > td[height^="2"]
@@ -11960,7 +11960,7 @@ www.hardsextube.com##.right-col.right
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com###public-screen-ab
+www.huya.com##.duya-header-right,#public-screen-ab
 www.huya.com##.sidebar-banner
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.iosviet.com#$#override-property-read timer 0
