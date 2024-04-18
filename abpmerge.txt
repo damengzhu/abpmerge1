@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-17 16:11:38
-! Total count: 31525
+! Version: 2024-04-18 08:12:16
+! Total count: 31546
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5894,6 +5894,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||money18.on.cc/js/adbanner.js
 @@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
+@@||morosedog.gitlab.io^$generichide
 @@||moyens.net^$generichide
 @@||ms332.com^$generichide
 @@||msecnd.net/scripts/jsll-$domain=microsoft.com
@@ -7794,10 +7795,12 @@ boxnews.com.ua##.bn-banner
 boxnews.com.ua##[style="padding-bottom: 20px;"]
 boyjackpot.com,letsjerk.tv#$#abort-current-inline-script asgPopScript
 boylov.xyz,boylove.cc,boyloves.fun###fake_avivid_waterfall_webpush
+boylov.xyz,boylove.cc,boyloves.fun##.div_sticky2
 boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
 boylov.xyz,boylove.cc,boyloves.fun##.swiper-wrapper
 boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
 boylov.xyz,boylove.cc,boyloves.fun##div[style="display: block"]
+boylov.xyz,boylove.cc,boyloves.fun##style + div[style="cursor: pointer; position: relative;"]
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc###floating_page
@@ -9403,8 +9406,12 @@ faxingw.cn##.indadv1
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
+feebee.com.tw###ad_bottom_module
+feebee.com.tw###ad_mid_module
+feebee.com.tw###ad_mid_module + #item_backfill
 feebee.com.tw###afsh_bsearch_list_top
 feebee.com.tw###bottom-ad-after-search-result
+feebee.com.tw###fsa-srp-top-container
 feebee.com.tw##div[id^="afsh_"]
 feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
@@ -15289,7 +15296,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.net,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,3xdam.pro,demo.14412882.com,sexphimx.vip#$#abort-current-inline-script WebAssembly instantiate
+viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.net,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,3xdam.pro,demo.14412882.com,sexmuptv.pro#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vikacg.com###custom_html-9
 vikacg.com###home-row-lunbo
@@ -17376,6 +17383,7 @@ zzzyk.com###Tinfo
 ||6park.com/parks/$script
 ||6park.com^$subdocument,badfilter
 ||6play.fr/assets/js/vendors-3600848c1f.js$script
+||6quspne.com^
 ||6slb0.cyou^
 ||6tofsu.com^
 ||6v4.cn^$third-party
@@ -19309,6 +19317,7 @@ zzzyk.com###Tinfo
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||blzbjpg.xyz^
+||bm.h576.com^
 ||bmatgg18.xyz^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
@@ -21465,6 +21474,7 @@ zzzyk.com###Tinfo
 ||ewrwf.com^
 ||ewtyewj.com^
 ||ewzavfde.xyz^
+||excelhome.net/js/banner-
 ||excfig.xyz^
 ||excsyrv.cn^
 ||exdynsrv.com^
@@ -21968,6 +21978,7 @@ zzzyk.com###Tinfo
 ||gcbflvx.cn^
 ||gcbtgh26.xyz^
 ||gccnntq.cn^
+||gcomwx.icu^
 ||gcqciiqk.com^
 ||gcssem.xyz^
 ||gcumgu.xyz^
@@ -22692,6 +22703,7 @@ zzzyk.com###Tinfo
 ||hgjjk45.com^
 ||hgjxp.cn^
 ||hgkzl.cn^
+||hglm.com^
 ||hgpbhuj.cn^
 ||hgpdoa.cn^
 ||hgthpj.xyz^
@@ -26281,6 +26293,7 @@ zzzyk.com###Tinfo
 ||ovtyvnei.g00.closermag.fr^$script
 ||ovykq.online^
 ||owandlk.top^
+||oweeiyw.icu^
 ||owiurjngsd.com^
 ||owkmmo.xyz^
 ||owlfolk.com^
@@ -27134,6 +27147,7 @@ zzzyk.com###Tinfo
 ||qurl.f.360.cn^
 ||qusfybj.cn^
 ||quspga.xyz^
+||qusrow.xyz^
 ||qutyan8848.com^
 ||quwwa.top^
 ||quzmtpxw.xyz^
@@ -27228,6 +27242,7 @@ zzzyk.com###Tinfo
 ||razrzh.xyz^
 ||rbbbdj.xyz^
 ||rbbko.com^
+||rbfxoex.xyz^
 ||rbhunp.xyz^
 ||rbioclv.cn^
 ||rbodwtj.icu^
@@ -28334,6 +28349,7 @@ zzzyk.com###Tinfo
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
 ||sytclsb.cyou^
+||syuwkbb.top^
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szafvjdd.icu^
@@ -28346,6 +28362,7 @@ zzzyk.com###Tinfo
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
+||szftg.cn^
 ||szgpmy.com/js/
 ||szhgmd.com^
 ||szhongzi.com/js/
@@ -28875,6 +28892,7 @@ zzzyk.com###Tinfo
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tubeviral.com/visitScript/$script,third-party
+||tudxhzj.cn^
 ||tuhipkz.xyz^
 ||tuhzjrr.cn^
 ||tui.cnzz.net^$third-party
@@ -29481,6 +29499,7 @@ zzzyk.com###Tinfo
 ||vk923.com/img/
 ||vkandian.cn/footjs/
 ||vkandian.cn/peitu/
+||vkdgdt.xyz^
 ||vkjqbb.xyz^
 ||vkjsnvk.com^
 ||vktztp.xyz^
@@ -30248,6 +30267,7 @@ zzzyk.com###Tinfo
 ||xiaoshuoyun.cn^
 ||xiaosss.ren^
 ||xiaosunxin.cn^
+||xiaoweixiaoshuo.com/ad/
 ||xiaoxiuapp.com^
 ||xiaoy.name^
 ||xiaoyange.cn^
@@ -31444,6 +31464,7 @@ zzzyk.com###Tinfo
 ||zx123.cn/templates/zx123cs/theme-2015/js/right_xh.js
 ||zxcrr.com^
 ||zxcv1.com^
+||zxfdbr.xyz^
 ||zxgko.cn^
 ||zxjrbz.xyz^
 ||zxpgfl.xyz^
