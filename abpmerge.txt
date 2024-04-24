@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-24 08:12:17
-! Total count: 31374
+! Version: 2024-04-24 16:10:22
+! Total count: 31378
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1249,6 +1249,7 @@
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='baidugg123.cc']
 ##[href*='pojuko.buzz']
 ##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
@@ -13404,6 +13405,7 @@ poedb.tw#?#div[id]:-abp-contains(ad blocker)
 pogocheats.net#@#.adsbygoogle
 pogoda.wp.pl#$#abort-on-property-read prebidConfig.config.floorprices
 pokemonizle.net#@##adsense
+poki.com#$#hide-if-matches-xpath './/div[contains(@style,"height")]/following-sibling::div[@class][contains(.,"Advertisement")]/parent::div[1]'
 poklw.com##img[alt="恰饭广告"]
 polyapt.com#@#.ad-one
 polygamia.pl,echirurgia.pl,kardiolo.pl,dobreprogramy.pl,o2.pl,kafeteria.pl,parenting.pl,autokult.pl,pudelek.pl,nerwica.com,medycyna24.pl,money.pl,smaczneblogi.pl,komorkomania.pl,gadzetomania.pl,open.fm,fotoblogia.pl,abczdrowie.pl,autocentrum.pl,wp.pl,~poczta.wp.pl#$#hide-if-matches-xpath './/div[@class and @* and not (@id)]//a[@class and @* and not (@id)][string-length(@href)>1000]//div[@class]//img[@class and @* and not (@id)][string-length(@src)>100]/ancestor::div[@class and @* and not(@id)][3]'
@@ -25288,6 +25290,7 @@ zzzyk.com###Tinfo
 ||mindopu.com^
 ||mingtians.top^
 ||mini.hao123.com^
+||miningzhizhong.top^
 ||miniurls.co/Webservices/jsParseLinks.aspx$script,third-party
 ||miniurls.co/visitScript/$script,third-party
 ||minixiazai.com/others/all_soft.js
@@ -27959,6 +27962,7 @@ zzzyk.com###Tinfo
 ||sozrrkx.xyz^
 ||sp.dnqc.com^
 ||sp.qf.56.com^
+||sp5vip.com/h.js
 ||spanking.wiki/morning-bread-
 ||spcode.baidu.com^
 ||speednetwork14.com^
