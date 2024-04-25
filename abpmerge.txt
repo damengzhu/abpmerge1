@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-24 16:10:22
-! Total count: 31378
+! Version: 2024-04-25 08:11:48
+! Total count: 31385
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7557,6 +7557,7 @@ bestcclm.com##.wp.cl > a
 bestopview.com###pubtextnone
 bestopview.com##.Adv_c
 betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
+bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAboveSiteHeader"]//span[@class="closeAdButton"][@aria-label])'
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 bfmtv.com##.geste
 bfmusic.com.tw,workercn.cn#@#.ad_content
@@ -11173,6 +11174,7 @@ itsupportguides.com##.adblock_wrapper
 itxueyuan.com##a[href*="guanggaowei"]
 ivanovonews.ru#$#json-prune banner.ytcode
 iviewui.com##.ivu-alert
+iwan-s.video.qq.com
 iwan.baidu.com###banner-box
 iwan.baidu.com###banner-info
 iwan.baidu.com###j-ditu
@@ -12359,7 +12361,6 @@ mianhuatang520.com###addiv2
 miaopai.com##.footer_banner
 miaopai.com,renren.com##.swiper-container
 miaoshangmanhua.com##.cy_menuright
-miaozhen.com
 micast.tv###closediv
 micast.tv###up
 micast.tv##.adv
@@ -13637,7 +13638,6 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ads ad material.video)
-qq.com##+js(no-fetch-if, beacon.)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -13798,7 +13798,6 @@ rapid8.com##.backk
 rarbg.com##A[href^="/w_d_adpub.php?id="]
 rarbg.to,rarbg2019.org,rarbgaccess.org,rarbgdata.org,rarbgget.org,rarbggo.org,rarbgmirror.com,rarbgmirror.org,rarbgmirrored.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.com#$#abort-on-property-read LieDetector
 razlozhi.ru,24smi.org,auto.ru,drive2.ru,gorodrabot.ru,kinopoisk.ru#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
-reachmax.cn
 read.qidian.com##.operation-wrap
 readmoo.com#@#.navbar-social
 readms.com###reader-sky
@@ -13964,7 +13963,6 @@ sciencenet.cn##.mbanner
 sciencenet.cn##.rbanner
 scigacz.pl###adv_750
 scooter-chinois-4t.com#@#.adsbygoogle
-scorecardresearch.com
 scsjgjj.com###floatinfo
 scsn.cn##img[style^="height:70px;width:"]
 sd.ifeng.com##div[data-title*="广告位"]
@@ -14708,7 +14706,6 @@ telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; colo
 telexplorer.com.ar##div[class] > div[id] > main[class][id]
 template/m1938pc/ads/*.js
 tencent.com##.cdc-commercial-swiper
-tencentmind.com
 terrikon.com#$#abort-on-property-read bdy
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
@@ -15203,6 +15200,7 @@ v.baidu.com,v.duba.com##div[id*="categoryPageColumn"]
 v.ifeng.com##.keyword
 v.pptv.com###video-download-game
 v.qq.com###iwan-gamependant-page
+v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
 v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 v.qq.com##.game-switch-ad
@@ -15213,6 +15211,7 @@ v.qq.com##.player-side-ads
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 v.qq.com##.site_bg_variety
 v.qq.com##.slider_item[href^="http"]:not([href*=".qq."])
+v.qq.com##.video-card-module > .card-wrap
 v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
@@ -15648,7 +15647,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsorizato]{11}/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsorizato]{11}/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}/ 'div[role=feed] div[role=article]' a[href="#"][role="link"]>span>span>b; hide-if-matches-xpath './/div[@role="feed"]//div[@role="article"]//a[@aria-label[.="Patrocinado" or .="Sponsa" or .="Bersponsor" or .="Commandité" or .="Ditaja" or .="Gesponsert" or .="Gesponsord" or .="Sponsrad" or .="Publicidad" or .="Sponsoreret" or .="Sponset" or .="Sponsored" or .="Sponsorisé" or .="Sponsorizat" or .="Sponsorizzato" or .="Sponsorlu" or .="Sponsorowane" or .="Реклама" or .="ממומן" or .="تمويل شوي" or .="دارای پشتیبانی مالی" or .="سپانسرڈ" or .="مُموَّل" or .="प्रायोजित" or .="সৌজন্যে" or .="ได้รับการสนับสนุน" or .="内容" or .="贊助" or .="Sponsoroitu" or .="May Sponsor" or .="Được tài trợ" or .="ಪ್ರಾಯೋಜಿತ"]]/ancestor::div[@role="article"]'; race stop;
-www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
+www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"]) div[class]~* h3+div+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-2])/'; hide-if-has-and-matches-style * 'html:is([lang="fr"], [lang="pt"], [lang="es"]) div[class]~* h3+div+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][5-9])/'; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
 www.freehao123.com##A[href*="/go/"]
 www.ghxi.com##.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
@@ -15660,7 +15659,7 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com##.duya-header-right,#public-screen-ab
-www.huya.com##.sidebar-banner
+www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.iosviet.com#$#override-property-read timer 0
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
@@ -15874,7 +15873,6 @@ xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisemen
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
-xtgreat.com
 xtuan.com###foot_zhaobiao_bar
 xueqiu.com##.ad-right-aside
 xueqiu.com##.widget__download-app
@@ -17456,6 +17454,7 @@ zzzyk.com###Tinfo
 ||7mmtv.tv/u_banner/
 ||7moor.com^$third-party
 ||7ohy3f.cn^
+||7qo2met.com^
 ||7r227ut.cn^
 ||7ry30.xyz^
 ||7scs.com/Public/img/list-
@@ -21108,6 +21107,7 @@ zzzyk.com###Tinfo
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||ea3w.com/pv.js
 ||eabids.com^
+||eaezoi.xyz^
 ||eafyfsuh.net/Webservices/jsParseLinks.aspx$script,third-party
 ||eafyfsuh.net/visitScript/$script,third-party
 ||eaica.xyz^
@@ -21705,6 +21705,7 @@ zzzyk.com###Tinfo
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fpjjjh.xyz^
+||fptbdr.xyz^
 ||fptdxkm.com^
 ||fpvdrzx.xyz^
 ||fq67.top^
@@ -24930,6 +24931,7 @@ zzzyk.com###Tinfo
 ||lysq.com/data/attachment/portal/
 ||lyszsz.cn^
 ||lyua.cn^
+||lyuwkbl.top^
 ||lywdoo.cn^
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
@@ -25063,6 +25065,7 @@ zzzyk.com###Tinfo
 ||makqsd.icu^
 ||malimali5.com/ad1.png
 ||maljxp.cn^
+||mall.video.qq.com/m/activity/h5/$subdocument
 ||mall.xinkuaituan.com/zhuanti/
 ||mall0.qiyipic.com^
 ||malong.plus^
@@ -27266,6 +27269,7 @@ zzzyk.com###Tinfo
 ||rntdqwc.xyz^
 ||rofmjd.xyz^
 ||roio.top^
+||romiyee.icu^
 ||ronbbf.xyz^
 ||rongedui.com^
 ||ronm.top^
@@ -29132,6 +29136,7 @@ zzzyk.com###Tinfo
 ||uugtv.com/x/app/videoSpread?
 ||uuishsa.com^
 ||uujhveglpo.xyz^
+||uunfybw.cn^
 ||uuoizbtl.xyz^
 ||uuu9.com/photolog.html
 ||uuu9.tieba.com^$subdocument
@@ -29173,6 +29178,7 @@ zzzyk.com###Tinfo
 ||uyt79.top^
 ||uyulwc.xyz^
 ||uyuwkbt.top^
+||uywoynr.cn^
 ||uz44x.xyz^
 ||uzelzfnj.xyz^
 ||uznizrhd.xyz^
@@ -29448,6 +29454,7 @@ zzzyk.com###Tinfo
 ||vydqknuy.xyz^
 ||vyreat.icu^
 ||vyriglq.cn^
+||vyrpoe.cn^
 ||vyye.cn^
 ||vzeuvcdi.icu^
 ||vzmz.com/template/paody/aaaa/*0
