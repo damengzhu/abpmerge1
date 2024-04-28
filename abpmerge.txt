@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-04-28 08:12:14
+! Version: 2024-04-28 16:09:51
 ! Total count: 31411
 ###ADtip
 ###Ad_windows
@@ -1745,7 +1745,8 @@ $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
-$third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
+$third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
+$third-party,xmlhttprequest,domain=xyg688.xyz|cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.com|zzzzz688.com
 &ADFAssetID=$media,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 &ADFAssetID=$media,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz
 &ad_type=
@@ -4464,9 +4465,8 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.com/api/getPos?jspath=/
-91porny.org,jiuse.io###main > div[id^="rd"]
-91porny.org,jiuse.io##.footer + .block
-91porny.org,jiuse.io#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.org,haijiao35.com,jiuse.io###main > div[id^="rd"]
+91porny.org,haijiao35.com,jiuse.io##.footer + .block
 91porny.org,jiuse.io,haijiao35.com###main > div[id^="rd"]
 91porny.org,jiuse.io,haijiao35.com##.footer + .block
 91porny.org,jiuse.io,haijiao35.com#?#.card:-abp-has(>.card-image>a[href^="http"])
