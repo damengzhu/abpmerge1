@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-02 16:10:40
-! Total count: 31458
+! Version: 2024-05-03 08:11:20
+! Total count: 31466
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3084,6 +3084,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 /template/m1938pc/bd/*.js
 /template/mytheme/statics/js/listing.js
 /template/paody/aaaa/all-top.js
+/template/piankuwap/js/afoot.js
 /template/shoujigg/*
 /template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
@@ -12713,8 +12714,8 @@ netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
-netfly.fun,netfly.tv##.banner[href^="http"]
-netfly.fun,netfly.tv##[style^="display: flex;"]
+netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
+netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
 nettruyenab.com#$#abort-current-inline-script Promise break;case
 nettruyenus.net#$#abort-on-property-read sp
@@ -21669,6 +21670,7 @@ zzzyk.com###Tinfo
 ||flpnnqe.xyz^
 ||flsfzr.cn^
 ||fluhmmr.cn^
+||fluxy.cn^
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
 ||fm44f.space^
@@ -21878,6 +21880,7 @@ zzzyk.com###Tinfo
 ||galleries.bz/visitScript/$script,third-party
 ||galopelikeantelope.com^
 ||gambar123.com/semprotsejati/xyz-$image,domain=64.237.43.94|46.166.167.16|semprot.com
+||gamdus.xyz^
 ||game.eroge.xyz/*.gif
 ||game333.net/aainset/
 ||gamecps.com^$third-party
@@ -26129,6 +26132,7 @@ zzzyk.com###Tinfo
 ||onifdlak.top^
 ||onkacspio.com^
 ||online.wsj.com/javascript/abm.js$script
+||onosyej.icu^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||onxtxdm.xyz^
@@ -26617,6 +26621,7 @@ zzzyk.com###Tinfo
 ||pqnqrjxe.xyz^
 ||pqomnfbg.com^
 ||pqxyqq.com^
+||pqzjki.cn^
 ||pr-bh.ybp.yahoo.com^
 ||pr88vhg.com^
 ||prdohgp.cn^
@@ -27171,6 +27176,7 @@ zzzyk.com###Tinfo
 ||rcqmvmq.cn^
 ||rcqqlwb.cn^
 ||rcyzsh.icu^
+||rczudr.xyz^
 ||rdbd.xsread.com^
 ||rdbousn.cn^
 ||rddsjx.xyz^
@@ -28715,6 +28721,7 @@ zzzyk.com###Tinfo
 ||tqjqripb.xyz^
 ||tqmcj.cn^
 ||tqrznqs.cn^
+||tquspo.com^
 ||tqvnzj.xyz^
 ||tqytqdrq.icu^
 ||tqznjujv.xyz^
@@ -29861,6 +29868,7 @@ zzzyk.com###Tinfo
 ||wwads.cn^
 ||wwads.cn^$third-party
 ||wwandle.top^
+||wwerioe.top^
 ||wwggnaw.xyz^
 ||wwgqqq.com^
 ||wwhsxwow.xyz^
