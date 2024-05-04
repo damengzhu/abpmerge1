@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-03 16:11:28
-! Total count: 31471
+! Version: 2024-05-04 08:10:24
+! Total count: 31486
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -782,6 +782,7 @@
 ##.itopbar + .container
 ##.jag8CityBio212023
 ##.jav-nav + .bcpic
+##.jav-nav + .bcpic2
 ##.jingqun_tu
 ##.jq_infoflow_ad_wrap
 ##.jq_mediav_ad_report
@@ -5341,6 +5342,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||cpubenchmark.net/js/ads.js$script
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||crackedresource.com^$generichide
+@@||creaders.net^$generichide
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||crococoin.com/static/js/Controller/Advertise.js$script
@@ -5588,6 +5590,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|mamibuy.com.tw|support.amd.com|warnermusic.com.tw
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||googletagservices.com^$domain=cenapaliw.pl
+@@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gram.pl/js/advertising.js$script
@@ -6166,6 +6169,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||ps3-infos.fr/adsense/openads/ads/ads.js$script
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub.alimama.com/common/adzone/
+@@||pub.network^$script,domain=creaders.net
 @@||pubads.g.doubleclick.net/gampad/ads?$domain=syndication.vmma.be,object-subrequest
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,domain=rte.ie
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,domain=viki.mx|viki.com
@@ -10564,6 +10568,7 @@ hur.cn###ad810_2
 hur.cn###ad810_6
 hutool.cn##.hutool-top-ad
 huya.com###J_roomGg2 + a
+huya.com###J_roomGgTop
 huya.com###J_roomSideTop
 huya.com###ggcomment
 huya.com###huya-ab
@@ -12570,6 +12575,7 @@ multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
+music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 musichq.cc###hgiks-top
 musify.club#$#abort-current-inline-script $ get_ya_browser
 musify.club#$#abort-on-property-read get_ya_browser
@@ -18751,6 +18757,7 @@ zzzyk.com###Tinfo
 ||azhibo.*/media/aimg/*.gif
 ||azhibo.*images/leisu.png
 ||aziekg.xyz^
+||azkrya.xyz^
 ||azukgee.cn^
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
@@ -21455,6 +21462,7 @@ zzzyk.com###Tinfo
 ||eypqbjju.xyz^
 ||eyq3nog.icu^
 ||eyusky.net/weixin-img/zhifubao.jpg
+||eyuwkbw.top^
 ||eyuyao.com/yyad/
 ||eyyqwd.icu^
 ||ezacci.xyz^
@@ -22737,6 +22745,7 @@ zzzyk.com###Tinfo
 ||hlalliances.com^
 ||hlbbn6ii.icu^
 ||hldwdz.xyz^
+||hlegsdh.icu^
 ||hlnr9q.icu^
 ||hlstlyy.com^$third-party
 ||hltkl.fun^
@@ -25264,6 +25273,7 @@ zzzyk.com###Tinfo
 ||mengbli.com^
 ||mengte.top^
 ||meqanhm.icu^
+||mercor.cn^
 ||merqieth.com^
 ||merywf.xyz^
 ||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
@@ -27090,6 +27100,7 @@ zzzyk.com###Tinfo
 ||qweasd.vip^
 ||qweewq2021.online^
 ||qwer220.cn^
+||qwerioy.top^
 ||qwertyuadf.com^
 ||qwesaz.com^
 ||qwjtdcl.cn^
@@ -27311,6 +27322,7 @@ zzzyk.com###Tinfo
 ||rltdxt.com/files/h5/
 ||rlw86.cyou^
 ||rlxhbff.cn^
+||rmbvzh.xyz^
 ||rmduuv.icu^
 ||rmhfrtnd.com^$third-party
 ||rmipoz.com/dp.js
@@ -27407,6 +27419,7 @@ zzzyk.com###Tinfo
 ||runningman.site^
 ||runoob.com/images/re/
 ||runsky.com/phpstat/
+||rupmlh.cn^
 ||ruqwgb.icu^
 ||rusticaula.com^
 ||ruten.com.tw/js/gads_
@@ -30396,6 +30409,7 @@ zzzyk.com###Tinfo
 ||xs.houyi.baofeng.net^
 ||xs8.cn/qreport?
 ||xsbdj6.com^
+||xsbiquge.la/js/detail.js
 ||xsfajf.xyz^
 ||xsjh001.xyz^
 ||xstt5.com/skin/v3/js/dibu.js
@@ -30508,6 +30522,7 @@ zzzyk.com###Tinfo
 ||xznizrhd.xyz^
 ||xzrhvv.xyz^
 ||xzvahr.xyz^
+||xzvhyx.com^
 ||xzxforn.xyz^
 ||xzxhpcdz.icu^
 ||y.21haodianmt.com^$third-party
