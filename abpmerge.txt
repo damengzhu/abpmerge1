@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-04 16:10:29
-! Total count: 31488
+! Version: 2024-05-05 08:10:22
+! Total count: 31496
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4803,8 +4803,10 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@/plugins/ad-blocking-detector/assets/js/*$script
 @@/plugins/blockalyzer-adblock-counter/js/advert.js$script
 @@/plugins/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+@@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
+@@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/rwd_cap.js$domain=ibf.tw
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
@@ -5417,7 +5419,6 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||doubleclick.infineoncorp.com^$domain=eventhubs.com
 @@||doubleclick.net/ddm/trackclk/$popup,domain=hongkongcard.com
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
-@@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||doubleclickbygoogle.com^$object-subrequest,domain=vercanalestv.com
 @@||douyucdn.cn^*-share-master/
@@ -5588,7 +5589,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||googleapis.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|mamibuy.com.tw|support.amd.com|warnermusic.com.tw
-@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
+@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw|tvbs.com.tw
 @@||googletagservices.com^$domain=cenapaliw.pl
 @@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
@@ -19192,6 +19193,7 @@ zzzyk.com###Tinfo
 ||bgdgpbpm.xyz^
 ||bgdizsay.icu^
 ||bgeg1.fun^
+||bgidskiv.top^
 ||bh0874.online^
 ||bhaabom.cn^
 ||bhaoea.cn^
@@ -20650,6 +20652,7 @@ zzzyk.com###Tinfo
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dflkndkzf.com^
 ||dfninp.xyz^
 ||dfsgppz.icu^
 ||dfsvhv88.com^
@@ -25393,6 +25396,7 @@ zzzyk.com###Tinfo
 ||mlegyu.xyz^
 ||mlhdvjv.xyz^
 ||mlhtr.cn^
+||mlicci.xyz^
 ||mlog.aipai.com^
 ||mlstx.cn^
 ||mltmjevd.xyz^
@@ -28890,6 +28894,7 @@ zzzyk.com###Tinfo
 ||twbymc.cn^
 ||twdjn.cn^
 ||tweezesmalanga.com^
+||twerioi.top^
 ||twgzgqqu.com^
 ||twj6s.icu^
 ||twjsx.cn^
@@ -31128,6 +31133,7 @@ zzzyk.com###Tinfo
 ||zero.wewakir.top^
 ||zerolcp.cn^
 ||zetcul.xyz^
+||zeuqmpe.icu^
 ||zevbzn.xyz^
 ||zewfbw.buzz^
 ||zewfbw.xyz^
@@ -31398,6 +31404,7 @@ zzzyk.com###Tinfo
 ||zvnjvd.xyz^
 ||zvtnj.icu^
 ||zvvg678.xyz^
+||zwdtvx.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
 ||zwjaoni.cn^
@@ -31412,6 +31419,7 @@ zzzyk.com###Tinfo
 ||zxpgfl.xyz^
 ||zxptw.cn^$third-party
 ||zxpvalr.xyz^
+||zxqiwe.cn^
 ||zxrcfw.com^
 ||zxsnllo.cn^
 ||zxw51.com^$third-party
