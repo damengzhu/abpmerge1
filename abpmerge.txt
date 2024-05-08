@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-07 16:09:53
-! Total count: 31529
+! Version: 2024-05-08 08:10:13
+! Total count: 31539
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12665,7 +12665,9 @@ mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
+mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广 告))
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(广告))
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -19541,6 +19543,7 @@ zzzyk.com###Tinfo
 ||by8428.com^
 ||bycxhgrp.xyz^
 ||bydcxdy.cn^
+||bydebd.xyz^
 ||bydzfldt.xyz^
 ||byjykj.xyz^
 ||bymahuxv.xyz^
@@ -21373,6 +21376,7 @@ zzzyk.com###Tinfo
 ||eol.cn/js/eol/
 ||eol.cn/js/global/jQuery_ads.js
 ||eoof.net/PicZone/qzgg
+||eoucxzw.icu^
 ||eoyqzzk.cn^
 ||epaes.com.cn^
 ||epebuk.xyz^
@@ -21868,6 +21872,7 @@ zzzyk.com###Tinfo
 ||fyexyd.icu^
 ||fytpft.xyz^
 ||fyvpzn.xyz^
+||fzasx.cn^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzd3.com/gg/
 ||fzgetdy.cn^
@@ -24984,6 +24989,7 @@ zzzyk.com###Tinfo
 ||lw881.com/public/js/gw.js
 ||lwandll.top^
 ||lwdcnz.xyz^
+||lweriol.top^
 ||lwhffh.xyz^
 ||lwide.xyz^
 ||lwksxs.com^
@@ -25971,6 +25977,7 @@ zzzyk.com###Tinfo
 ||nqbcf.cn/html/top
 ||nqdufv.xyz^
 ||nqoxurf.icu^
+||nrbqgf.cn^
 ||nrfhbd.xyz^
 ||nrjzkj.cn^
 ||nrsfh.com/neirong/
@@ -26342,6 +26349,7 @@ zzzyk.com###Tinfo
 ||pagefair.net^$third-party
 ||pageview.kgsz.cn^
 ||pajhvd.xyz^
+||pajtll.xyz^
 ||pan.baidu.com/act/api/activityentry?
 ||panc.cc/uploads/hongbao.png
 ||panchaxumbilic.com^
@@ -26984,6 +26992,7 @@ zzzyk.com###Tinfo
 ||qmfcybwbf16.com^
 ||qmfcybwbf19.com^
 ||qmfcybwbf28.com^
+||qmgria.cn^
 ||qmoxxhc.cn^
 ||qmwx4.xyz^
 ||qmwxb.com/skins/2/images/qp001.gif
@@ -29790,6 +29799,7 @@ zzzyk.com###Tinfo
 ||wioboy.xyz^
 ||wipew.com^
 ||wisealty.com^
+||wismog.xyz^
 ||wit.qq.com^$third-party
 ||wiybthm.cn^
 ||wj.jiancai365.cn^
