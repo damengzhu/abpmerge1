@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-11 08:11:08
-! Total count: 31577
+! Version: 2024-05-11 16:10:35
+! Total count: 31571
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1773,7 +1773,6 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 */letv-gug/$media
 */web/js/th/$domain=cam4.com
 */widget/spage_game_tab/$domain=tieba.baidu.com
-*_ad_$media,domain=youtube.com,3p
 ,e8o,$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
@@ -16115,16 +16114,11 @@ youtube.com###contents>ytd-search-pyv-renderer
 youtube.com###masthead-ad
 youtube.com###video-masthead
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 youtube.com##AD-SLOT-RENDERER
 youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
 youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
-youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youxi.baidu.com###coupletBanner
 youxi.kugou.com###scrollUp
 yoyi.com.cn
@@ -19012,6 +19006,7 @@ zzzyk.com###Tinfo
 ||bcc878.com/js/abc/
 ||bccnsoft.com/aac/
 ||bceapp.com/jj/1716mid.js
+||bcebos.com/24x360x528.gif
 ||bcebos.com/59x360x528.gif
 ||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
@@ -30891,8 +30886,6 @@ zzzyk.com###Tinfo
 ||youtube.com/embed/wqLWTeNBEEQ?
 ||youtube.com/get_midroll_info?
 ||youtube.com/iframe_api$domain=nownews.com
-||youtube.com/pagead/
-||youtube.com/ptracking?
 ||youtubee.top^
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youy14.com/js/tj.js
@@ -31447,6 +31440,7 @@ zzzyk.com###Tinfo
 ||zrakpxsf.com^
 ||zrblog.net/gg/
 ||zrblog.net/zanzhu/virpus.gif
+||zrdga.cn^
 ||zrgbh6bm.icu^
 ||zrljzgs.xyz^
 ||zrrnqq.com^
