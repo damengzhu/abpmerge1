@@ -6782,6 +6782,7 @@ hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
 hkcards.com#@##ad-slot
 hkdm688.com##.bb01
+hkepc.com###headBanner
 hkepc.com##.headBanner
 hkgolden.com##.hkg-ad
 hkmovie6.com##.hotmobad
@@ -9348,6 +9349,9 @@ novipnoad.com##.bg-ad
 novipnoad.com##img[src*="/bd/"] + span
 novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 novom.ru#$#abort-on-property-read zoneNativeSett
+now.com##+js(set-constant, preBid, {})
+now.com##+js(set-constant, preBid.displayAd, noopFunc)
+now.com##+js(set-constant, preBid.getPrerollVASTUrl, noopFunc)
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
