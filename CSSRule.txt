@@ -3988,7 +3988,6 @@ bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
 bilibili.com###slide_ad + .ad-report
-bilibili.com##+js(spoof-css, .__adblockhidden > a, display, block)
 bilibili.com##.activity-slider[style="width: 1220px;"]
 bilibili.com##.ad-e1
 bilibili.com##.ad-f
@@ -12520,8 +12519,10 @@ zhidao.baidu.com###act-link-banner
 zhidao.baidu.com###knowledge-answer-list
 zhidao.baidu.com###main-content > div[class]:first-child > a
 zhidao.baidu.com###qb-content div.businessvip-wrapper
+zhidao.baidu.com###wap-youx-change-asp
 zhidao.baidu.com##.doodle-container
 zhidao.baidu.com##.doodle-container,.feed-recommend,.wgt-recommend-business,[class*="-ads"],[class*="related-yxiao-item"],[class*="icon-bdad"],[class*="-youx"]
+zhidao.baidu.com##[class$='-ecom-ads']
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 zhidao.baidu.com##div[class^="cms-slide"] > p[class="cms-link-title"]
 zhidao.baidu.com#?#.wgt-ads
