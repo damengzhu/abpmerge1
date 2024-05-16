@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-16 08:09:52
+! Version: 2024-05-16 16:10:51
 ! Total count: 31619
 ###ADtip
 ###Ad_windows
@@ -9285,8 +9285,6 @@ etest8.com##.subtop2right
 etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
-etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
-etoland.co.kr,javatpoint.com,picrew.me#$#override-property-read alert true; abort-on-property-read btoa; override-property-read onload noopFunc; override-property-read onerror noopFunc;
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
 etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor::li'
@@ -9428,7 +9426,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -19837,6 +19835,7 @@ zzzyk.com###Tinfo
 ||centurys.net/promo_
 ||ceodk.xyz^
 ||cergbtb36.shop^
+||cergbwa97.shop^
 ||ceshi1.ink^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||cfateu.xyz^
@@ -22884,6 +22883,7 @@ zzzyk.com###Tinfo
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||howbuy.com/subject/js/layer/layer.js
 ||howtoremoveadblock.com/js/adblock-detector.js$script
+||hoxdotye.icu^
 ||hozatr.xyz^
 ||hpcwwd.com^
 ||hpd.baidu.com^
