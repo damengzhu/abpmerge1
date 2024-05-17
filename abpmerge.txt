@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-16 16:10:51
-! Total count: 31619
+! Version: 2024-05-17 08:12:01
+! Total count: 31634
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12020,7 +12020,6 @@ longzhu.com##.chatroom-ap
 longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
-lovefoodeat.com#$#abort-on-property-read adsRedirectPopups
 loveshang.com##div[class^="float-ad-"]
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'; hide-if-matches-xpath './/div[contains(@class,"ekndGJ")]//div[@data-tile=//section[@id="listItems"]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]'
@@ -12134,11 +12133,12 @@ m.mgtv.com##.mg-dcross
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
-m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
-m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
-m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
-m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
-m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m1.nivod.tv,m.nivod4.tv##+js(evaldata-prune, entity.commercial)
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv##.v-ad
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?##hellBoy > li[track-by="$index"] > div[style] > .show-div:has(> .show-card > .update-play:contains(/^AD$/))
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m.nivod4.tv#?#.slider-group > .nut-swiper > .nut-swiper-inner > .nut-swiper-item:has(> .swiper-page > span:contains(/^AD/))
+m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod5.tv,m1.nivod.tv,m.nivod4.tv##+js(evaldata-prune, entity.commercial)
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.qidian.com###fixBoxs, #read_app_download
@@ -12681,6 +12681,7 @@ myptt.cc##+js(set-constant, adsbygoogle.loaded, true)
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
 myqqjd.com###advert_widget
 myqqjd.com##.adsbygoogl
+myqqjd.com##.cms-news-normal-box > article:has(span.merge-cat > a[href$="/activity/"])
 myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
@@ -12896,20 +12897,20 @@ niutuku.com###downAD1
 niutuku.com##.listAD
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.title, '')
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.jumpUrl, '')
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.mediaUrl, '')
-nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.title, '')
-nivod5.tv,nivod4.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
-nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
-nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
-nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod5.tv,nivod8.tv#$#override-property-read detailParams.is_ad_play false
-nivod8.tv,nivod7.tv##.nav-ads
-nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod9.tv,nivod8.tv,nivod7.tv##.nav-ads
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, detailParams.is_ad_play, false)
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.jumpUrl, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.mediaUrl, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.0.commercial.title, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.jumpUrl, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.mediaUrl, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##+js(set-constant, pageData.__banners.1.commercial.title, '')
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
+nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv#$?#a.focus_title_inner[href*=".ad_click"] { remove: true; }
 nlc.gov.cn###lovexin12xx
 nmgnews.com.cn###div_ad4
 nnhanman.net##div[style="width:728px;padding-top: 8px;"]
@@ -13124,6 +13125,7 @@ oops.udn.com#?##wrapper > #mainbar > .area:not(#story):not(#comments):has(> h3 >
 opdown.com##.cq-recom
 opdown.com##.gxxz-btn
 opdown.com##.listaddrs
+opendatafrance.net#$#abort-on-property-read adsRedirectPopups
 opitz-online.com#@#.adsbygoogle
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
@@ -15656,6 +15658,7 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 www.1069gay.net###shortcut
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##.btn_reward.hide
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel
@@ -17582,6 +17585,7 @@ zzzyk.com###Tinfo
 ||88lm13.com^
 ||88lm15.com^
 ||88p2p.com^$popup
+||88tm6.cc^
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
 ||89hdn.cn^
@@ -20279,6 +20283,7 @@ zzzyk.com###Tinfo
 ||cqbuchouhua.com^
 ||cqisam.xyz^
 ||cqmpigx.cn^
+||cqpph.cn^
 ||cqtlimi.cn^
 ||cqvip.com/viewserver/ViewAD
 ||cqygmb.com^
@@ -22889,6 +22894,7 @@ zzzyk.com###Tinfo
 ||hpd.baidu.com^
 ||hpg786n.cn^
 ||hpgmkbt.icu^
+||hphvd.cn^
 ||hpiekt.cn^
 ||hpjzpn.xyz^
 ||hppmy.cn^
@@ -23259,6 +23265,7 @@ zzzyk.com###Tinfo
 ||ildopxge.com^
 ||ileled.xyz^
 ||ilph0.icu^
+||ilvqyya.cn^
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||ilyf4amifh.com^
 ||im-x.jd.com^
@@ -23285,6 +23292,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=now.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
+||imawwq.xyz^
 ||imbikh.icu^
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -23718,6 +23726,7 @@ zzzyk.com###Tinfo
 ||jghklz.xyz^
 ||jgidskia.top^
 ||jgmywh.icu^
+||jgntjtyf.icu^
 ||jgsajfggv.xyz^
 ||jgstny.com^$third-party
 ||jgygtv.cn^
@@ -25391,6 +25400,7 @@ zzzyk.com###Tinfo
 ||mg.zgcqxjzny.cn^
 ||mg21.com/wp-content/uploads/ad/
 ||mggzah.icu^
+||mgidskix.top^
 ||mgivkqk.cn^
 ||mgzjin.cn^$third-party
 ||mh3666.com^*.jsonp
@@ -25830,6 +25840,7 @@ zzzyk.com###Tinfo
 ||ncgqmzm.cn^
 ||nchxzmhr.com^
 ||ncjpbv.xyz^
+||nclljn.xyz^
 ||ncmxwhf.icu^
 ||ncnfjasd.net^
 ||ncyksuw.xyz^
@@ -26931,6 +26942,7 @@ zzzyk.com###Tinfo
 ||qfcdgy.cn^
 ||qfdtqq.com^
 ||qfnoyix.cn^
+||qgidskiy.top^
 ||qgl27.xyz^
 ||qgrnyis.cn^
 ||qguwoq.cn^$third-party
@@ -27776,6 +27788,7 @@ zzzyk.com###Tinfo
 ||sf2.net/a/index.
 ||sfbixfd.cn^
 ||sfg11rr.com^
+||sfkldbkldgdgh.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
 ||sfqyck.xyz^
@@ -28188,6 +28201,7 @@ zzzyk.com###Tinfo
 ||ssb.ah499.com^
 ||ssdfgq7.com^
 ||ssdtour.com^
+||ssestherssa.com^
 ||ssgg.chazidian.com^
 ||ssh.*.com^*!$script,third-party
 ||ssh.q4hwkg.cn^
@@ -29020,6 +29034,7 @@ zzzyk.com###Tinfo
 ||txbhhh.xyz^
 ||txcv68f.com^
 ||txjfso.com^
+||txmeeqz.icu^
 ||txscn.cn^
 ||txtyuzhaiwu.com/astyle/wap.js
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
