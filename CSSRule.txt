@@ -2851,8 +2851,14 @@
 6park.com##a[href*="bpropolis."]
 6park.com##a[href*="geekbuying."]
 6park.com##a[href*="jdoqocy."]
+6park.com##div[align="center"][style="background:#fbfeea;min-height:90px;"]
+6park.com##div[style^="width:990px;background:white;"]
 6park.com##img[width="980"][height="90"]
 6park.com##table[width="89%"][height="60"]
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
+6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com##.other_list_ad
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
 703804.com##.hotad
@@ -3428,6 +3434,7 @@ appledaily.com.tw##.owl-lazy[tcode^="AD:"]
 applefans.today#$#.timed-pup { display: none !important; }
 applefans.today#$#.tipi-overlay { display: none !important; }
 applefans.today#$#body { overflow: auto !important; }
+applnn.cc##+js(noeval-if, encodeURIComponent)
 apprcn.com##a[href*=".lizhi."]
 aqicn.org#$#abort-on-property-read alert
 arabseed.co,arabseed.com,arabseed.me,arabseed.net,arabseed.tv#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
@@ -4644,6 +4651,7 @@ cloud.jasaku.net##.adblock
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
 cls.cn#@#.share-body
+club.6parkbbs.com##.body_center:has(> div.adv-6park)
 clubedohardware.com.br#@##banner
 clubedohardware.com.br#@#.ipsAd
 clubedohardware.com.br#@#.nexusad
@@ -7236,6 +7244,7 @@ image.so.com##.sc-similarcm
 image.so.com#?#.cell:-abp-has(.txt:-abp-contains(广告))
 image.so.com#?#.imgcell:-abp-has(.txt:-abp-contains(广告))
 imagefap.com#$#abort-on-property-read popCookie
+imail.edu.vn#$#abort-current-inline-script setTimeout Aff
 imeee.cn##.DA336
 imgnova.xyz###boxes
 imgnova.xyz###mask
@@ -9632,7 +9641,6 @@ pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop#$#abort-current-inline-script eval $._Eu
-phimhdc.cc,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
@@ -12152,6 +12160,7 @@ xdf.cn##.footadv
 xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
+xemphimhdcc.net,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xgan.cn##.bottom_fixed
