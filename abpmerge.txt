@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-17 16:10:50
-! Total count: 31646
+! Version: 2024-05-18 08:10:30
+! Total count: 31652
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6927,6 +6927,7 @@ androiddevtools.cn###auto-scroll-ad-box
 androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/Android-Hellas-banner-728x90A.gif"]
 androiding.how##.jsXY6yjBmGN4
 androiding.how##.jsXY6yjBmGN4-bg
+andyday.tv#$#abort-current-inline-script document.documentElement break;case $.
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 angelweb.cn###G640x60
 angelweb.cn##.GG960x90
@@ -10918,6 +10919,7 @@ inforesist.org##aside[id="execphp-30"]
 inforesist.org##aside[id="text-3"]
 inforesist.org##aside[id="text-39"]
 inforesist.org##aside[id="text-44"]
+inforesist.org#$#abort-on-property-read alert
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
@@ -14888,6 +14890,7 @@ tingroom.com###ifram_563
 tingroom.com###play_ggr
 tingroom.com##a[href*="weidian.com"]
 tinsoikeo.ink#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
+tirexo.day#$#debug; abort-on-property-read window.open
 tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 tiscali.cz##.bs-hp
 tiscali.cz##[class*="-ld-top"]
@@ -14907,17 +14910,6 @@ tiscali.cz,osobnosti.cz,karaoketexty.cz##[id^="pxBanner"]
 tiscali.cz,osobnosti.cz,karaoketexty.cz##a[href*="IdBnrP="][href*="IdCamp="]
 tiscali.cz,osobnosti.cz,karaoketexty.cz##a[target="_blank"]>img[class*="-click-"]
 tiscali.cz,osobnosti.cz,karaoketexty.cz##div[class$="-rightcJ"]
-tiscali.it#$#hide-if-matches-xpath './/a[@class="boxamazon"][@target="_blank"]/ancestor::div[contains(@class,"active")]/ancestor::div[2]'
-tiscali.it#$#hide-if-matches-xpath './/a[@class][@title][@href="#"][contains(@*,"")]/img[contains(@src,"media-amazon.com")]/ancestor::div[contains(@class,"sld")]/parent::div[1][@style]'
-tiscali.it#$#hide-if-matches-xpath './/a[@data-merchant]/ancestor::div[starts-with(@class,"product-cnt")]/ancestor::div[contains(@class,"eby-cnt")]'
-tiscali.it#$#hide-if-matches-xpath './/a[@href][contains(@class,"ofrtsrc")][@target="_blank"]/ancestor::div[@data-nosnippet]/ancestor::div[contains(@class,"ofrtsrc")]'
-tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][contains(@*,"https://www.ebay.it")][not(contains(@href,"utm_campaign="))]/preceding::div[contains(@style,"height: ")][@id][1]'
-tiscali.it#$#hide-if-matches-xpath './/a[@target="_blank"][not(@href)][contains(@*,"https://www.ebay.it")]/preceding::div[contains(@style,"height: ")][@id][1]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@id]/ancestor::div[@id][@style]'
-tiscali.it#$#hide-if-matches-xpath './/a[contains(@*,"ebay")]/img[@src]/ancestor::div[@id][@style]'
-tiscali.it#$#hide-if-matches-xpath './/figcaption/preceding::img/preceding::a[@target="_blank"][contains(@title,"ebay")]/parent::figure'
-tiscali.it#$#hide-if-matches-xpath './/figure/a[@title][@href="#"]/ancestor::div[contains(@class,"main")][@style]/parent::div[1][contains(@style,"margin-bottom") and contains(@style,"min-height")]'
-tiscali.it#$#hide-if-matches-xpath './/img/ancestor::a[@target="_blank"][contains(@*,"www.ebay.it")]/parent::div[@class]'
 titan007.com###table_live > tbody > tr > td[height="18"] > a
 titlovi.com#@#.pub_300x250
 titlovi.com#@#.pub_300x250m
@@ -15748,12 +15740,13 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
-www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
 www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/parent::div[1]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-info")]/ancestor::div[contains(@class,"gadget")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"ad_url")]/div/img/ancestor::div[@id="page"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-")]/div/preceding::div[@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-advert")]/ancestor::div[contains(@class,"atm-closeable-post")]/ancestor::div[2]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
+www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-advert-header__commercial-label")]/ancestor::div[contains(@class,"mol-content-card")]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-json-carousel-advert")]/ancestor::div[contains(@class,"atm-feed-card")]/parent::div[@id]'
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
@@ -17722,6 +17715,7 @@ zzzyk.com###Tinfo
 ||999aa666bb.com^
 ||999bb222ww.com^
 ||999d.com^$third-party
+||999db.cn^
 ||999gg.net^
 ||999meiju.com/js/tj
 ||999pro.top^
@@ -21020,6 +21014,7 @@ zzzyk.com###Tinfo
 ||dryden.cn^
 ||drzgtli.com^
 ||ds1.kaijia.com^
+||dsa22.com^
 ||dsbfpt.xyz^
 ||dsbjdeh.cn^
 ||dsbqvj.xyz^
@@ -24850,6 +24845,7 @@ zzzyk.com###Tinfo
 ||lizehuandian.top^
 ||lizijing12.top^
 ||ljarfvg.cn^
+||ljdofz.xyz^
 ||ljhbhy.cn^
 ||ljnrjt.xyz^
 ||ljpbtjq.xyz^
@@ -25424,6 +25420,7 @@ zzzyk.com###Tinfo
 ||mhzftye.xyz^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||mianyaojsj.com^
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaozhen.com^
 ||miaozhen.com^$third-party
@@ -25617,6 +25614,7 @@ zzzyk.com###Tinfo
 ||mpn56e.cn^
 ||mps.wenkuzu.com^
 ||mpyerxzn.xyz^
+||mqcoycx.icu^
 ||mqjqripb.xyz^
 ||mql5.com/rq?
 ||mqrupjsm.xyz^
@@ -28638,6 +28636,7 @@ zzzyk.com###Tinfo
 ||tgdopodk.com^
 ||tgfyq.cn^
 ||tggsd07.com^
+||tgidskii.top^
 ||tgjdbx.xyz^
 ||tgvgzt.xyz^
 ||tgwfaz.icu^
@@ -28740,6 +28739,7 @@ zzzyk.com###Tinfo
 ||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
 ||tipl.top^
+||tirexo.day^$csp=script-src 'self'
 ||tisszhb.cn^
 ||titan007.com/ad/
 ||titan007.com/images/item.gif
@@ -29044,6 +29044,9 @@ zzzyk.com###Tinfo
 ||txahz.com/static/image/tp/
 ||txbhhh.xyz^
 ||txcv68f.com^
+||txhfgwgkwt*.asia^
+||txhfgwgkwt7.asia^
+||txhfgwgkwt8.asia^
 ||txjfso.com^
 ||txmeeqz.icu^
 ||txscn.cn^
@@ -29401,6 +29404,7 @@ zzzyk.com###Tinfo
 ||uyflu0x7.xyz^
 ||uym11.xyz^
 ||uymahuxv.xyz^
+||uyohyy.xyz^
 ||uyq3ruf.icu^
 ||uysdxmo.com^
 ||uyt79.top^
@@ -30665,6 +30669,7 @@ zzzyk.com###Tinfo
 ||xymahuxv.xyz^
 ||xyqmy.xyz^
 ||xyryjt.xyz^
+||xytcboyz.icu^
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xyzyqq.com^
@@ -31497,6 +31502,7 @@ zzzyk.com###Tinfo
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouqiuyyds.com^
 ||zowralr.cn^
+||zozwnv.xyz^
 ||zp0737.com^
 ||zp365.com/newhousered/hb-index-pop-
 ||zpcj8.online^
