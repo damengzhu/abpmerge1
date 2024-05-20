@@ -8945,6 +8945,7 @@ multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
+music.wandhi.com##.google-auto-placed
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 musichq.cc###hgiks-top
@@ -11753,6 +11754,7 @@ walmart.ca,walmart.com##div[data-testid^="search-video-in-grid"]
 walmart.ca,walmart.com##div[id*="Sponsored"]
 walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
+wandhi.com##+js(no-fetch-if, /googlesyndication\.com|doubleclick\.net/)
 wandhi.com##.table img
 wandhi.com##.table-bordered
 wandhi.com##.unit-100

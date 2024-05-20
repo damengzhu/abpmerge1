@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-19 16:11:03
-! Total count: 31660
+! Version: 2024-05-20 08:12:35
+! Total count: 31668
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12602,6 +12602,7 @@ multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
+music.wandhi.com##.google-auto-placed
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 musichq.cc###hgiks-top
@@ -15433,6 +15434,7 @@ walmart.ca,walmart.com##div[id*="Sponsored"]
 walmart.ca,walmart.com##div[id^="SEARCH-SponsoredProductCarousel"]
 walmart.com,walmart.ca#$#hide-if-contains-visible-text /Sponsored|Commandité/ 'section div[data-item-id]' div span
 wan.douyu.com
+wandhi.com##+js(no-fetch-if, /googlesyndication\.com|doubleclick\.net/)
 wandhi.com##.table img
 wandhi.com##.table-bordered
 wandhi.com##.unit-100
@@ -18287,6 +18289,7 @@ zzzyk.com###Tinfo
 ||ajfkwwpo.xyz^
 ||ajghca.xyz^
 ||ajijcy.xyz^
+||ajkggo.xyz^
 ||ajkjbcjbaaaed.com^
 ||ajtdumo.cn^
 ||ajzsa.xyz^
@@ -24558,6 +24561,7 @@ zzzyk.com###Tinfo
 ||kzgmpu.com^
 ||kzjkexn.cn^
 ||kznizrhd.xyz^
+||kzpizjp.cn^
 ||kzprugp.xyz^
 ||kzuxlydg.icu^
 ||l.glrcy.cn^
@@ -26180,6 +26184,7 @@ zzzyk.com###Tinfo
 ||og.zyzjpx.cn^$third-party
 ||oganilglk.cyou^
 ||oghqvffmnt.com^
+||ogidskik.top^
 ||ogmjhve.cn^
 ||ognujxj.cn^
 ||ogouawc.cn^
@@ -28510,6 +28515,7 @@ zzzyk.com###Tinfo
 ||tae0t.site^
 ||tafuzcxr.xyz^
 ||tafyeta.ru^$domain=pronpic.org
+||tagtoo.co^$third-party
 ||tahltanboutell.com^
 ||tahznx.xyz^
 ||taijuba.com/js/*_
@@ -28576,6 +28582,7 @@ zzzyk.com###Tinfo
 ||tcvmtp.xyz^
 ||tdavopl.icu^
 ||tdhlmto.cn^
+||tdhnxf.xyz^
 ||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdjdpyrt.xyz^
@@ -30818,6 +30825,7 @@ zzzyk.com###Tinfo
 ||yhgpuxim.xyz^
 ||yhgumcr.xyz^
 ||yhhnjg.com^
+||yhimpnr.icu^
 ||yhjccj.cn^
 ||yhlpshi.xyz^
 ||yhlzadr.xyz^
