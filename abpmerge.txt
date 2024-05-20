@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-20 08:12:35
-! Total count: 31668
+! Version: 2024-05-20 16:12:00
+! Total count: 31671
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8662,7 +8662,6 @@ dayanzai.me##.down_show_intro_first_box
 dayanzai.me##.rban1
 dayanzai.me##.stopban
 dayanzai.me,yuepuwang.com##.topban
-daybuy.tw##body .code-block
 daydaycook.com##.ad-mask
 daydayin.com###adbn_UMU
 dayoo.com###ad-xl
@@ -8857,6 +8856,7 @@ doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
+douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
 douyu.com###js-room-activity
@@ -9637,6 +9637,7 @@ frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 free.com.tw###custom_html-5
+free.com.tw,daybuy.tw##body .code-block
 freebitco.in,freedoge.co.in#@##box_ad_middle
 freebitco.in,freedoge.co.in#@##main_content_ad_left
 freebitco.in,freedoge.co.in#@#.ad-img
@@ -18775,6 +18776,7 @@ zzzyk.com###Tinfo
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||ax7fv.space^
+||axa123.com^
 ||axbdlox.cn^
 ||axcdt.cn^
 ||axcdy.cn^
@@ -24983,6 +24985,7 @@ zzzyk.com###Tinfo
 ||loveshang.com/api.php?mod=ad&adid=custom_
 ||lovespenhas.com^
 ||lowadec.cn^
+||lozmtk.cn^
 ||lpasdfgwer.com^
 ||lpeolfa.top^
 ||lpjxzs.com^
