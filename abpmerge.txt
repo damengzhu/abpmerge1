@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-21 16:10:41
-! Total count: 31705
+! Version: 2024-05-22 08:12:47
+! Total count: 31723
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -872,6 +872,7 @@
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
+##.pc-layout-content > .pc-ads
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
@@ -1043,6 +1044,7 @@
 ##.xstui-content__acc
 ##.xzbox-gh
 ##.y.mtw[style="padding: 0px 10px;"]
+##.ya-normal-box-done
 ##.zhanzhang_tuijian_btn
 ##.zhedangceng_ggg
 ##.zone_wap_banner2
@@ -1479,6 +1481,7 @@
 ##a[href*="://4"][href*="/vod."]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href*=":10443/"] > img[src$="gif"]
+##a[href*=":6001/entry/register"]
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
@@ -1642,6 +1645,7 @@
 ##div[class][id][style] > .pic_container
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
+##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="ps_"][value="20"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
 ##div[id*='cat_'][id*='_ad']
@@ -4495,6 +4499,8 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
 920share.com###layui-layer1
+92ghai.com##.a_xiu_t
+92ghai.com##.yttl_x_g
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
@@ -7509,6 +7515,7 @@ baofeng.com##.ad-pop-wrap
 baofeng.com##.play-ads
 baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn##.guanggao
 baomidou.com##+js(set-constant, _AdBlockInit, noopFunc)
+baomidou.com##.sidebar-content > astro-island
 baomidou.com##.sidebar-slot-top
 baomoi.com#$#abort-on-property-write AdtimaRender
 bato.to#$#abort-current-inline-script document.createElement _vwmso
@@ -8866,8 +8873,9 @@ douguo.com##.mbs
 doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
+douyin.com###videoSideBar iframe
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
-douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
+douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
 douyu.com###js-room-activity
@@ -9263,6 +9271,7 @@ eol.cn##.ad_490
 eol.cn##.listAd
 eol.cn##div[id^="s1_"]
 eol.cn,firefoxchina.cn,meiyida01.com,myd666.tv,site.baidu.com##.popup
+eol.cn,firefoxchina.cn,site.baidu.com##.popup
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
 epinv.com##.epinv_b
 epinv.com##.epinv_f
@@ -12615,7 +12624,6 @@ mumayi.com##.clientBox
 mumayi.com##.h80
 mumu.163.com##.pic-con
 music.wandhi.com##.google-auto-placed
-music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 musichq.cc###hgiks-top
 musify.club#$#abort-current-inline-script $ get_ya_browser
@@ -13107,6 +13115,7 @@ olevod.com##.L1
 olevod.com##.L4A
 olevod.com##.ad1
 olevod.com##.pc-ads
+olevod.com##.swiper
 olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.olelive.com/uploads/file/"])
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
@@ -17691,6 +17700,7 @@ zzzyk.com###Tinfo
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
+||92ghai.com/zz/
 ||92ph.cn^
 ||92uq.com/Ads/
 ||933m.com/1.js
@@ -19581,6 +19591,7 @@ zzzyk.com###Tinfo
 ||bxackzj.icu^
 ||bxbyll.xyz^
 ||bxjhlhk.xyz^
+||bxlmrl.xyz^
 ||bxnxdlb.xyz^
 ||bxoiksm.xyz^
 ||bxw666.com/storage/*.gif
@@ -19921,6 +19932,7 @@ zzzyk.com###Tinfo
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
+||chengzijianzhan.cc^$third-party,subdocument
 ||chenhaishan.info^
 ||chenjiayu.cn/gg.js
 ||chenyuzhou1.cn^
@@ -20376,6 +20388,7 @@ zzzyk.com###Tinfo
 ||cssqt.com/a/images/indexsd.gif
 ||cssqt.com/a/images/right
 ||csygxdym.com^
+||csylief.top^
 ||csyys0731.com^
 ||ctags.cn/9/j2.js
 ||ctanet.cn/aqq/JS/
@@ -24575,9 +24588,11 @@ zzzyk.com###Tinfo
 ||kyliane.fr/pub.php
 ||kyliane.fr/pub2.php
 ||kymahuxv.xyz^
+||kyokglm.icu^
 ||kyplpw.com^
 ||kyq3hky.icu^
 ||kyq3xch.icu^
+||kytbxcl.cn^
 ||kytesconge.com^
 ||kyuwkbd.top^
 ||kyxw9itc.xyz^
@@ -27686,6 +27701,7 @@ zzzyk.com###Tinfo
 ||safe524.xyz^$third-party
 ||safelinking.biz/adblock-detector.htm$subdocument
 ||sagcyq.xyz^
+||sahqoo.com^
 ||saitef.cn^
 ||sakguz.icu^
 ||salary.xiao84.com^
@@ -30858,6 +30874,7 @@ zzzyk.com###Tinfo
 ||yhdm.tv/bar/yfyh.js
 ||yhdm44.com/123.html
 ||yhdongman.xyz/piao/
+||yhgfoe.xyz^
 ||yhgpuxim.xyz^
 ||yhgumcr.xyz^
 ||yhhnjg.com^
@@ -31254,6 +31271,7 @@ zzzyk.com###Tinfo
 ||zbxtcwi.xyz^
 ||zbzbzb.xyz^
 ||zc173.com/173fee/
+||zca31.com^
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
 ||zcchyr*.xyz^
