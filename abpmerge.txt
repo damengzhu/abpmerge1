@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-22 16:11:48
-! Total count: 31718
+! Version: 2024-05-23 08:12:12
+! Total count: 31734
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8398,6 +8398,7 @@ cnxz.cn##[class*="-ad"]
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
 cnyes.com##a[data-proj-ga-category="FloatingBTN"]
+cnys.tv##+js(set-constant, config.group, '')
 cnys.tv#@#.player-news > .news-list
 cnys.tv,4kya.com###player_pause
 co188.com##.suspen
@@ -8871,6 +8872,7 @@ doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com###videoSideBar iframe
+douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
@@ -12189,6 +12191,9 @@ m.tvsou.com##.sogou-temp-hidden
 m.tvsou.com##.story_ad_android
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 m.xiaomiyoupin.com#@#[style*="mi-img.com"]
+m.ygosu.com,etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
+m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
+m.ygosu.com,etoland.co.kr,javatpoint.com,picrew.me#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
 m.youku.com###banner
 m.youku.com##.cmt-more
 m.youku.com##.cmt-more-cont
@@ -15672,6 +15677,7 @@ wp.pl,pudelek.pl#$#abort-on-property-read wpjscb
 wpjam.com###wpjam_blog_300x250_1
 wpmienphi.com###d7b2
 wpworld.pl,windowsowo.pl#@##adBanner
+wss://*/api/wss/GetNotReadCount$third-party
 wuchajian.net##.UPAD
 wurst-client.tk#@#.adsbygoogle
 wuyong.fun##.content-area .adsbygoogle
@@ -21040,6 +21046,7 @@ zzzyk.com###Tinfo
 ||dreamlikeverse.com^
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
+||dreuaxk.icu^
 ||drfvtgbyk.xyz^
 ||drjyjr.xyz^
 ||drmcmm.baidu.com^
@@ -23552,6 +23559,7 @@ zzzyk.com###Tinfo
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
 ||iswgnn.com^
+||isylieo.top^
 ||iszbxqps.com^
 ||it165.net/index.php?m=poster&
 ||it168.com/pv.js
@@ -23632,6 +23640,8 @@ zzzyk.com###Tinfo
 ||ivzfpwm.cn^
 ||iwanad.baidu.com^
 ||iwandlo.top^
+||iwanshang*.asia^
+||iwanshang8.asia^
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatojc.cn^
 ||iweiweb.com^
@@ -23781,6 +23791,7 @@ zzzyk.com###Tinfo
 ||jhkggrr.icu^
 ||jhl1993.cn^
 ||jhlazsot.icu^
+||jhnnnb.xyz^
 ||jhpbtp.xyz^
 ||jhpxlyd.cn^
 ||jhvchv.xyz^
@@ -24324,6 +24335,7 @@ zzzyk.com###Tinfo
 ||kgdyoh.icu^
 ||kgeesh.site^
 ||kgelugaz.com^
+||kgeqsu.xyz^
 ||kgeshe.site^
 ||kgfjrb711.com^
 ||kggikf.icu^
@@ -24414,6 +24426,7 @@ zzzyk.com###Tinfo
 ||kmpxq.cn^
 ||kmr.enrosr.cn^
 ||kmw.com/js/adshow
+||kmwclt.xyz^
 ||kmyiubbv.xyz^
 ||kmzayrt.cn^
 ||knalzld.top^
@@ -25766,6 +25779,7 @@ zzzyk.com###Tinfo
 ||mw6.me/images/*.gif
 ||mwandlx.top^
 ||mwdwepok.xyz^
+||mweriox.top^
 ||mwfyab.icu^
 ||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
@@ -26236,6 +26250,7 @@ zzzyk.com###Tinfo
 ||oh100.com/js/pubuliu.
 ||ohchehw.cn^
 ||ohdvafp.xyz^
+||ohncc.cn^
 ||ohopao.xyz^
 ||ohoyao.com^
 ||oi9rp7.online^
@@ -29182,6 +29197,7 @@ zzzyk.com###Tinfo
 ||u25022.com^
 ||u26u.com^$popup,third-party
 ||u2tu4.icu^
+||u2w95z.xyz^
 ||u33011.com^
 ||u346zd.top^
 ||u55011.com^
