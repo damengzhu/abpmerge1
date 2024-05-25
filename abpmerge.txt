@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-05-24 16:10:59
-! Total count: 31733
+! Version: 2024-05-25 08:11:37
+! Total count: 31742
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4504,6 +4504,9 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 92sucai.com##.adtg2
 92wy.com##.adhengfu
 9312.net##.pop-up
+939394.xyz##.j_m_ad
+939394.xyz##body > table:first-child img
+939394.xyz#$#abort-on-property-read atob
 94itv.app##a[href="https://leo535.com/"]
 95ziyuan.cn##.jiuwu
 962.net##.g-962-ad
@@ -9115,14 +9118,14 @@ ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsoriz
 ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|[Ss]ponsorizzat[ie]|[Ss]ponsorowane|[Gg]⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|[Pp]atrocinado/ 'div[class^="recs-placement-arrangement"]' 'div.recs-card-container div.recs-header div ^^sh^^ *'
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),":root")][contains(text(),"{{}}")]' './/script[contains(text(),"previousElementSibling")]' /b\\=.(.*?).\\=\\=/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby][contains(@style,"{{}}")]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),":root")]' /root\\{(.*?)\\:/
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),"aria-labelledby")][contains(text(),"{{}}")]' './/style[contains(text(),"display: var")]' /span\.(.*?)\\s/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby = "{{}}"]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),"aria-labelledby")]' /aria-labelledby=(.*?)\\]/
+ebay.*#$#hide-if-matches-xpath './/a[contains(@href,"&amdata=")]//img[@src]//ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.*#$#hide-if-matches-xpath './/canvas[@width="500" or @width="110"][not(@style="display:none")]/ancestor-or-self::div[@class="recs-placement-arrangement"]'
 ebay.*#$#hide-if-matches-xpath './/canvas[@width]/ancestor::div[@class="recs-item-content"]/preceding::div[@class="recs-grid-header"]//h2[contains(.,"sponsored") or contains(.,"anzeigen") or contains(.,"sponsorisé") or contains(.,"sponsorizzati") or contains(.,"sponsorowane") or contains(.,"ge⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d") or contains(.,"patrocinado")]/ancestor-or-self::div[@class="recs-placement-arrangement"]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"pd-sponsored")]/parent::div[starts-with(@class,"ads-")]/ancestor::div[@data-testid="x-ads-placements"]'
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
-ebay.*#$#hide-if-matches-xpath './/span[@class="s-item__promoted"]/ancestor-or-self::li[contains(@class,"s-item")][1]'
 ebay.*#$#hide-if-matches-xpath '//canvas[@width][@height="20"][not(@style="display:none")]/preceding::div[@class="recs-content-wrap-mot"]/ancestor-or-self::li[@class="carousel__snap-point"][@style]'
-ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; race stop;
+ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
@@ -18552,6 +18555,7 @@ zzzyk.com###Tinfo
 ||aoakss.com^
 ||aobtwv.icu^
 ||aobuygo.com^
+||aogk88.asia^
 ||aojeet.icu^
 ||aoji.cn/default/looyu/
 ||aoji.cn/static/js/pushadv.js
@@ -23189,6 +23193,7 @@ zzzyk.com###Tinfo
 ||idubwz.cn^
 ||idv.st/dns/bar.htm
 ||idynbff.cn^
+||ieapak.xyz^
 ||ieeod0.com^
 ||ieequd.icu^
 ||ieforex.com/r/cms/www/red/red2/images/*0.
@@ -24155,6 +24160,7 @@ zzzyk.com###Tinfo
 ||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
 ||jxpjlb.xyz^
+||jxqdl.cn^
 ||jxtejf.xyz^
 ||jxtest.bolecdn.com/player/*.gif
 ||jxuhurp.icu^
@@ -24497,6 +24503,7 @@ zzzyk.com###Tinfo
 ||kssolo.com^
 ||kstj.baidu.com^
 ||ksvkfwth.xyz^
+||ksylied.top^
 ||kszvmqo.cn^
 ||kszxqq.com^
 ||kt51.com/bjl666.gif
@@ -26667,6 +26674,7 @@ zzzyk.com###Tinfo
 ||pidzlp.xyz^
 ||pierrebotton.com/global/
 ||pikabu.ru/ajax/?key=$xmlhttprequest,header=ssr
+||piksrie.icu^
 ||pimg2023.com^
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
@@ -27369,6 +27377,7 @@ zzzyk.com###Tinfo
 ||rbioclv.cn^
 ||rbodwtj.icu^
 ||rbrbr88p.cn^
+||rbrmhz.xyz^
 ||rbsodzgoy.xyz^
 ||rc.ie13.com^
 ||rc7e.top^
