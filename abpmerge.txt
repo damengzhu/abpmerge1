@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-02 08:10:26
-! Total count: 31844
+! Version: 2024-06-02 16:10:51
+! Total count: 31849
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -873,6 +873,7 @@
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
+##.pc-ads
 ##.pc-layout-content > .pc-ads
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
@@ -1430,6 +1431,7 @@
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".umtrack.com/"]
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".wzfqitm.com/"]
 ##a[href*=".xacg.info/"]
 ##a[href*=".xwrfr.com/"]
@@ -15657,6 +15659,7 @@ wnacg.com#@#.hlol_ad
 wnacg.com#@#.pcd_ad
 wnacg.org##a[href^="https://l.tyrantdb.com/"][target="_blank"] > img
 wnflb2023.com##.GzList
+woaimoon.com##DIV[id^="juan_"]
 woego.cn#@##topAds
 woman.tvbs.com.tw##section[aria-label*="advertise"]
 woniupai.net##.wnp-adbox
@@ -28226,6 +28229,7 @@ zzzyk.com###Tinfo
 ||sncop.uioozpxq.com^
 ||sncop.uioozpxq.com^$all
 ||snifdlab.top^
+||snjfasp.com^
 ||snmi.cn^$third-party
 ||snxyf.com^$third-party
 ||snzfj.net^$third-party
@@ -28510,6 +28514,7 @@ zzzyk.com###Tinfo
 ||suiyishop.cn/zhuangxiu_
 ||sukneyu.com^
 ||summer5188.com^
+||sump4.cc/js/wcount.js
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
 ||sun66387567606.site^
