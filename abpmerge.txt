@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-05 08:12:03
-! Total count: 31874
+! Version: 2024-06-05 16:12:02
+! Total count: 31877
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -62,6 +62,9 @@
 ###ad_full
 ###ad_globle_div
 ###ad_headerbanner
+###ad_hf_out2
+###ad_hf_out4
+###ad_hf_out5
 ###ad_left
 ###ad_link
 ###ad_right
@@ -12785,7 +12788,6 @@ netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
 nettruyenab.com#$#abort-current-inline-script Promise break;case
-nettruyenus.net#$#abort-on-property-read sp
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
 netviagens.com###nvAdForm
@@ -15519,7 +15521,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,xx.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobile.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -15770,6 +15772,7 @@ www.lofter.com###appdownloadbanner
 www.meijuii.cc##DIV[style*='vw; display: block;']
 www.mgtv.com##.m-headgg
 www.mydrivers.com###weixin_box
+www.nettruyenupp.com#$#abort-on-property-read sp
 www.olevod.com##.B1Lss,.B1Rss
 www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
 www.pixnet.net###extradiv2
@@ -15822,7 +15825,6 @@ www.yizhibo.com##.register_guide
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##ytlr-banner-cta-renderer
-www.youtube.com#$#hide-if-matches-xpath './/ytlr-app//*[contains(@class,"ytlr-metadata-badge-renderer--ad-stark")]/ancestor-or-self::ytlr-ad-slot-renderer'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
@@ -19343,6 +19345,7 @@ zzzyk.com###Tinfo
 ||bing001.shop^
 ||bing003.shop^
 ||bing005.shop^
+||binga01.shop^
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
