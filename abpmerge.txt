@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-07 16:11:03
-! Total count: 31905
+! Version: 2024-06-08 08:10:56
+! Total count: 31915
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8186,6 +8186,7 @@ chongbuluo.com###add
 chongbuluo.com###add + a
 chongbuluo.com###dzrid > .frame:nth-child(n+2)
 chongbuluo.com##.postright
+chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 chongbuluo.com##a[href^="https://cn.udacity.com/"]
 chongdiantou.com##.nice-sales
 chrissmoove.com#@##adserver
@@ -10823,7 +10824,7 @@ ifooday.cn##.myzs
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href]/img[@loading="lazy"][@width="662" or @width="302" or @width="663" or @width="301"]/ancestor-or-self::div[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href]/img[@loading="lazy"][@width="662" or @width="302" or @width="665" or @width="303"]/ancestor-or-self::div[1]'
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -15786,14 +15787,14 @@ www.raybt.com##td[width="13"]
 www.rkanr.com##div[id^="rkrCp"]
 www.seznam.cz#$#cookie-remover adform
 www.seznam.cz#$#cookie-remover pubmatic
-www.seznam.cz#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/preceding::div[starts-with(@class,"atm-commercial-label")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[@href][@target="_blank"][contains(@class,"atm-link--styled")]/ancestor-or-self::div[contains(@class,"mol-json-ssp-advert")]/parent::div[contains(@class,"mol-content-card")][1]'
+www.seznam.cz#$#hide-if-matches-xpath './/a[@href][@target="_blank"][contains(@class,"atm-link--styled")]/following::div[contains(@style,"position:relative;")]/ancestor::div[contains(@style,"flex")]/ancestor::div[@class][2]'
 www.seznam.cz#$#hide-if-matches-xpath './/a[contains(@href,"ad-buttonem")]/ancestor::div[contains(@class,"gadget")]/parent::div[1]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[@class="banner-wrapper"]/a[contains(@href,"ad_url")]/div/img/ancestor::div[@id="page"]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[@id][contains(@style,"max-width: 100%;")]/div[contains(@style,"position:relative;")]/preceding::div[contains(@class,"text-")]/div/preceding::div[@style="top: 62px;"]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-advert")]/ancestor::div[contains(@class,"atm-closeable-post")]/ancestor::div[2]'
-www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"atm-commercial-label")]/ancestor-or-self::div[contains(@class,"mol-content-card")]'
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"mol-json-carousel-advert")]/ancestor::div[contains(@class,"atm-feed-card")]/parent::div[@id]'
+www.seznam.cz#$#hide-if-matches-xpath './/iframe[@class][@style][@src]/ancestor::div[contains(@style,"position:relative;")]/preceding::div[@id][contains(@style,"max-width: 100%;")][contains(@id,"reload")]/parent::div[@class][1]'
 www.seznam.cz#$#override-property-read sssp noopFunc
 www.sina.com.cn###SI_EDU_AD
 www.sina.com.cn##.mod-01
@@ -18532,6 +18533,7 @@ zzzyk.com###Tinfo
 ||amerzbj.cn^
 ||amidicestrins.com^
 ||ammcg.imgscloud.com/toy/
+||amocyq.xyz^
 ||amradmin.5173.com^
 ||ams.fx678.com^
 ||amuguu.xyz^
@@ -19352,6 +19354,7 @@ zzzyk.com###Tinfo
 ||bing001.shop^
 ||bing003.shop^
 ||bing005.shop^
+||bing007.shop^
 ||binga01.shop^
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -19425,6 +19428,7 @@ zzzyk.com###Tinfo
 ||blzbjpg.xyz^
 ||bm.h576.com^
 ||bmatgg18.xyz^
+||bmhept.xyz^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
 ||bmjvrf.xyz^
@@ -20121,6 +20125,7 @@ zzzyk.com###Tinfo
 ||cilimao.*/amaod/
 ||cimg.cnyes.cool/prod/adContent/$image
 ||cir-smart.baidu.com^
+||cismqdx.icu^
 ||city.youpukeji.cn^
 ||cityam.com/assets/js/PbCode.min.js$script
 ||citysbs.com/chongqing/*/1920x179-
@@ -21730,6 +21735,7 @@ zzzyk.com###Tinfo
 ||fcpnxx.xyz^
 ||fcqztan.cn^
 ||fcw45.com/js/layer1.js^
+||fczunn.xyz^
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
 ||fddxbn.xyz^
@@ -24424,9 +24430,11 @@ zzzyk.com###Tinfo
 ||kfdrc.cyou^
 ||kfejnjs.cn^
 ||kfjpren.xyz^
+||kfjslid.top^
 ||kflybplr.xyz^
 ||kfpicimage.xyz^
 ||kfpnqug.cn^
+||kfqizu.cn^
 ||kfvjdvjzhddhc.com^
 ||kfyg.xyz^
 ||kgcyvd.com^
@@ -27760,6 +27768,7 @@ zzzyk.com###Tinfo
 ||rvbztg.cn^
 ||rvlgrb.xyz^
 ||rvreuxi.cn^
+||rvtfwryz.icu^
 ||rvvji.online^
 ||rvvmhp.xyz^
 ||rvyjbwr.cn^
@@ -30741,6 +30750,7 @@ zzzyk.com###Tinfo
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
 ||xn--wxtr9fwyxk9c.xn--io0a7i^
 ||xn--wxtr9fwyxk9co4hbua.xn--fiqs8s^
+||xn--xhq326apqhcx0d.cn^
 ||xn--xhq9mt12cf5v.ren^
 ||xn--zw0autp42d.cn^
 ||xne1ocient87zxz.360doc.cn^
