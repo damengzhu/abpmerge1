@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-17 16:11:45
-! Total count: 32045
+! Version: 2024-06-18 08:13:31
+! Total count: 32057
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1831,6 +1831,8 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 .cn/sc/*?x=$script,third-party
 .cn/v/*.xmtl?$third-party
 .cn/z.gif?
+.cn:*/d/*?c=*$third-party
+.cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
 .cn:8005/cc/*?is_not=
@@ -6897,7 +6899,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card--out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
@@ -20439,6 +20441,7 @@ zzzyk.com###Tinfo
 ||creative.xtendmedia.com^
 ||creepingbrings.com^
 ||crf999.cn^
+||crfjxfoe.xyz^
 ||crhabkd.cn^
 ||crhyqq.com^
 ||criknudsr.com^
@@ -20681,6 +20684,7 @@ zzzyk.com###Tinfo
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
 ||dakawm.cc^
+||daksflkalq.top^
 ||daliantong.com.cn^
 ||daliantong.com.cn^$third-party
 ||dalipan.com/api/taobao
@@ -20855,6 +20859,7 @@ zzzyk.com###Tinfo
 ||dftoutiao.com/dfpcitv/pcitv?type=
 ||dftoutiao.com/jrdftt/static/javascript/ad/
 ||dftoutiao.com/ssp/
+||dfvmzx.xyz^
 ||dfxvkgz.xyz^
 ||dfxwdc.com^
 ||dg186.cn^
@@ -21834,6 +21839,7 @@ zzzyk.com###Tinfo
 ||ffzz71.com^
 ||fg.daochengwowo.top^
 ||fg.yilianqing.com^
+||fgadsqdma.top^
 ||fgcxdr.cn^
 ||fgetmzx.icu^
 ||fghghh.cn^
@@ -22813,6 +22819,7 @@ zzzyk.com###Tinfo
 ||hdfdsdaw.com^
 ||hdjthzg.cn^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdoshbu.top^
 ||hdpdrandpd.xyz^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
@@ -24431,6 +24438,7 @@ zzzyk.com###Tinfo
 ||kaoyan.com/school/final_class.html
 ||kaoyan.com/school/js/yz.school.packed.js
 ||kaoyan1v1.com/IAA/
+||kapvu.cn^
 ||kart2ks.icu^
 ||kasdwergv.com^
 ||kasiklz.cc^
@@ -24555,6 +24563,7 @@ zzzyk.com###Tinfo
 ||kjugr.xyz^
 ||kjuwxmi.xyz^
 ||kjvaqbyebqarl.top^
+||kkacrgx.icu^
 ||kkbbjtfp.xyz^
 ||kkddlt2f.site^$third-party
 ||kkeojk.xyz^
@@ -28639,6 +28648,7 @@ zzzyk.com###Tinfo
 ||stienlb.top^
 ||stlpnom.xyz^
 ||stmzzs.com^
+||stnew.xyz^
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
@@ -30974,6 +30984,7 @@ zzzyk.com###Tinfo
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
+||xvbcjh.xyz^
 ||xvbjctqs.xyz^
 ||xvbnrh.xyz^
 ||xvgrszkg.xyz^
@@ -31355,6 +31366,7 @@ zzzyk.com###Tinfo
 ||ypffkbpq.xyz^
 ||ypgjkk.xyz^
 ||ypkxahje.xyz^
+||ypkxka.xyz^
 ||ypojie.com/wp-content/uploads/*.js
 ||yprdmnlo.xyz^
 ||yptqys.tianqistatic.com^
