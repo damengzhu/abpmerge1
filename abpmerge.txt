@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-20 08:13:08
-! Total count: 32103
+! Version: 2024-06-20 16:12:47
+! Total count: 32109
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9947,6 +9947,7 @@ genshin.honeyhunterworld.com#@#.a_p
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
 getitfree.cn##+js(abort-current-script, document.getElementById, /!document\.getElementById\([\s\S]*?\.style\.display=/)
+getnorth2018.com#$#abort-on-property-read adsRedirectPopups
 getrelax.cc##+js(abort-current-script, $, #adisblock)
 getrelax.cc#$#iframe[src^="//adserver.juicyads.com/"] { display: none!important; }
 getrelax.cc#$#iframe[src^="https://syndication.exosrv.com/"] { display: none!important; }
@@ -12050,8 +12051,8 @@ live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 live.bilibili.com##.fans-medal-item-ctnr
 live.gtcaster.com###bbb
 live.gtcaster.com##[id^="adc"]
-live.thapcam7.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 live.win007.com###notify > a[target="_blank"]
+live4.thapcam7.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 liveforums.ru#$#abort-on-property-read tnAdditionalParams
 liveru.sx#$#abort-on-property-read window.b5bb198737
@@ -15092,7 +15093,7 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com,animehay.bio#$#abort-current-inline-script document.addEventListener window.open
 truyensextv.com,phimtuoitho.tv#$#abort-current-inline-script document.addEventListener popup
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.cx,sieudamtv.site,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,motphimmoi.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.cx,sieudamtv.dev,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,motphimmoi.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsdm39.com###ct > div > a[target="_blank"] > img
@@ -16001,7 +16002,6 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilac86x5.live#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
@@ -16646,6 +16646,7 @@ zzzyk.com###Tinfo
 ||1024wanzhai.$popup,third-party
 ||1028images.com^
 ||102tv.cn/js/main.js
+||107.167.16.14^
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||11.96131.com.cn^
@@ -17657,6 +17658,7 @@ zzzyk.com###Tinfo
 ||88448.com/images/appkai980x100.gif
 ||8861198.com^
 ||8861202.com^
+||8878tp.com^
 ||888aa111bb.com^
 ||888aa222bb.com^
 ||888bb555ww.com^
@@ -19873,7 +19875,10 @@ zzzyk.com###Tinfo
 ||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
+||ccccc66kkkkk.com^
 ||ccccc67kkkkk.com^
+||ccccc78kkkkk.com^
+||ccccc88kkkkk.com^
 ||ccdm*/Scripts/ccMedia.js
 ||ccement.com/index/index/fetchAd
 ||ccement.com/js/ccement_new/open.js
@@ -24066,6 +24071,7 @@ zzzyk.com###Tinfo
 ||jinhaitun888.xyz^
 ||jinhonghao.cn^
 ||jinhua.com.cn/ad_pic/
+||jinman4.com/ad/
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
 ||jinyici.com/qq.js
