@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-06-24 16:11:23
-! Total count: 32159
+! Version: 2024-06-25 08:13:15
+! Total count: 32170
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8864,6 +8864,7 @@ dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 doood.site,vidsrc.pro#$#abort-on-property-read window.open
+doordash.com#$#hide-if-matches-xpath './/span[@data-testid][contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor-or-self::div[@data-testid="LegoFlexibleItemSquareContainer"][1]'
 doordash.com#$#hide-if-matches-xpath '//a[contains(@data-anchor-id,"store-info")]//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
@@ -18325,6 +18326,7 @@ zzzyk.com###Tinfo
 ||aflsj.com^
 ||afndhou.xyz^
 ||afocus.com.cn/s?
+||afopr.cn^
 ||afp.chinanews.com^
 ||afs.googlesyndication.com^
 ||afuz032.com^
@@ -20486,6 +20488,7 @@ zzzyk.com###Tinfo
 ||creative.141live.com/widgets/Spot/
 ||creative.xtendmedia.com^
 ||creepingbrings.com^
+||cresqoirz.com^
 ||crf999.cn^
 ||crfjxfoe.xyz^
 ||crhabkd.cn^
@@ -21095,6 +21098,7 @@ zzzyk.com###Tinfo
 ||dnightwish.xyz^
 ||dniwe.xyz^
 ||dnn1300.top^
+||dnpalh.xyz^
 ||dnpz123.com^$third-party
 ||dnrf0215.com^
 ||dns.chuzushijian.cn^$third-party
@@ -21745,6 +21749,7 @@ zzzyk.com###Tinfo
 ||extmaps-api.yandex.net^
 ||exz1t.top^
 ||eybstar.com^
+||eyislow.top^
 ||eyjvq.xyz^
 ||eyny.com/data/cache/js_show_ads.js
 ||eypqbjju.xyz^
@@ -22504,6 +22509,7 @@ zzzyk.com###Tinfo
 ||google-analytics.com$third-party
 ||google-analytics.com/analytics.js
 ||google-js-01.xyz^
+||google-js-02.xyz^
 ||google.*/pagead/
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noop.html,domain=rjno1.com,important
 ||googlesyndication.com/safeframe/$third-party
@@ -23308,6 +23314,7 @@ zzzyk.com###Tinfo
 ||hvfubp.xyz^
 ||hvlitr.xyz^
 ||hvpard.xyz^
+||hvuqkb.cn^
 ||hvxrvef.xyz^
 ||hvzrrvj.cn^
 ||hw0.com.cn^
@@ -25620,6 +25627,7 @@ zzzyk.com###Tinfo
 ||mcds7.icu^
 ||mcds9.icu^
 ||mcdwfed.cn^
+||mcighme.icu^
 ||mckgmkh.icu^
 ||mclseww.top^
 ||mcmod.cn/editor/upload/20221126/1669399546_2_ONBt.
@@ -25806,6 +25814,7 @@ zzzyk.com###Tinfo
 ||mitbbs.com/ad_
 ||mitbbs.com/img/app
 ||mito03.top^
+||miwfkm.xyz^
 ||miwifi.com^*ads/
 ||mixer.sina.cn^
 ||mixer.video.iqiyi.com/jp/mixin/resources/
@@ -27306,6 +27315,7 @@ zzzyk.com###Tinfo
 ||qdczx66.com^
 ||qdjimo.com/html/js/
 ||qdlzj.cn^
+||qdoshby.top^
 ||qdp.qidian.com^
 ||qdross.com/vip/
 ||qdtjjxr.xyz^
@@ -30679,6 +30689,7 @@ zzzyk.com###Tinfo
 ||wy213.com^$popup,third-party
 ||wyfec.cn^
 ||wyiegt.icu^
+||wyisloe.top^
 ||wyjbvoz.xyz^
 ||wymqjow.icu^
 ||wymzwy.cn^
