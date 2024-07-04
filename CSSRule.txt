@@ -3301,7 +3301,7 @@ aliyun.com##.aliyun-delivery-view-container
 aliyun.com##.yq-ads-blog
 aliyun.com##.yq-main-left > a:first-child
 allboxing.ru#$#abort-current-inline-script document.querySelector open
-allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna")]/ancestor::div[@data-box-name="structure-container"]';
+allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 alluc.ee###aovl
@@ -7300,6 +7300,7 @@ imkan.tv##.bottom__card
 imnks.com##.adTags
 imooc.com##.redrain-bg-shade
 imydl.com###enhancedtextwidget-5
+imydl.com##a[href*=".wuluoyun.com/aff/"]
 imydl.com##div[id*="banner"]
 indiatimes.com##a[onclick*="timesofindia.indiatimes.com/tilockbk/"]
 indiatimes.com##a[onclick][rel*="nofollow"]
@@ -11698,7 +11699,7 @@ v2rayssr.com#$##wrapfabtest { height: 1px!important; }
 v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .adsbygoogle)
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
 v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
-vailonxx.vip,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
+vailonxx.co,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 vanpeople.com##.advlr
 vanpeople.com##.banneradv-newbox
 vanpeople.com##.main-adv
