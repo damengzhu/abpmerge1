@@ -5452,7 +5452,7 @@ dzbhdm.net##a[href="https://www.dzbhdm.com"] > img
 dzbhdm.net##a[href="https://www.dzbhdm.com/"] > img
 dzbhdm.net##a[href^="https://www.dzbhdm.com/news/"] > img[src^="https://www.dzbhdm.com/"]
 dzbhdm.net##img[width="950"]
-dzen.ru#$#hide-if-has-and-matches-style 'div[style]:not(id):not(class)' 'div[style] ^^sh^^ div'
+dzen.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dziennikwschodni.pl#@#.adholder
 dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
