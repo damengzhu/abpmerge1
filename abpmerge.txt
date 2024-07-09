@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-08 16:12:17
-! Total count: 32362
+! Version: 2024-07-09 08:11:39
+! Total count: 32376
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1938,6 +1938,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
+.com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
@@ -11558,7 +11559,6 @@ js0573.com###adv2
 js0573.com###gotopl
 js0573.com###gotopr
 js0573.com##.gg_bnr
-jsav2.com##.row > div.colVideoList:not(:has(> div.video-elem > a[href^="/video"]))
 jsbooks.com.cn#@#.left-ads
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
@@ -15940,6 +15940,7 @@ x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
 x99av.com##+js(set-constant, ADSOBJET, {})
+x9av1.com,jsav2.com##.row > div.colVideoList:not(:has(> div.video-elem > a[href^="/video"]))
 xanimu.com##div[id^="after-boxes"]
 xanimu.com##div[id^="beside-video"]
 xanimu.com##div[id^="related-boxes-footer"]
@@ -19153,6 +19154,7 @@ zzzyk.com###Tinfo
 ||baijs03.xyz^
 ||baijs05.xyz^
 ||baijs06.xyz^
+||baijs07.xyz^
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
 ||baikebcs.bdimg.com/*banner*.jpg
@@ -20892,6 +20894,7 @@ zzzyk.com###Tinfo
 ||dcsxv.com^
 ||dcvbnzss.xyz^
 ||dcvefz.xyz^
+||dcxdtp.com^
 ||dd-static.jd.com^$image,domain=subaibaiys.com
 ||dd1.diymianmo.com^
 ||dd112233dd.com^
@@ -21593,6 +21596,7 @@ zzzyk.com###Tinfo
 ||ed.gumoda.top^
 ||ed2000k.com/ad/
 ||edghkc.xyz^
+||edipsumw.top^
 ||edjjpgf.xyz^
 ||edler.cn^
 ||edmontonchina.*/pic/
@@ -22611,6 +22615,7 @@ zzzyk.com###Tinfo
 ||goodcome.com.tw/block/ad/rndtopad.php
 ||goodgupiao.com/skins/default/js/backTop.js
 ||goods.tudou.com/api?
+||goodvibe1.com^
 ||google-analytics.com$third-party
 ||google-analytics.com/analytics.js
 ||google-js-01.xyz^
@@ -23092,6 +23097,7 @@ zzzyk.com###Tinfo
 ||hfjsliu.top^
 ||hfk7j.top^
 ||hflwgg.xyz^
+||hfptbb.cn^
 ||hfqdipw.cn^
 ||hfresgtyytjncvvh.com^
 ||hfwld.cn^
@@ -23435,6 +23441,7 @@ zzzyk.com###Tinfo
 ||hw0.com.cn^
 ||hweriou.top^
 ||hwfoct.icu^
+||hwgzp5.com^
 ||hwhacum.cn^
 ||hwivedn.icu^
 ||hwnod.xyz^
@@ -25167,6 +25174,7 @@ zzzyk.com###Tinfo
 ||lewqiiy.xyz^
 ||lezbrja.cn^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
+||lfbz317s.icu^
 ||lfffzv.xyz^
 ||lfhdryz.xyz^
 ||lfhnzbj.xyz^
@@ -27646,6 +27654,7 @@ zzzyk.com###Tinfo
 ||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
+||qpigoa.xyz^
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qpoiwnelc.com^
 ||qpzegye.cn^
@@ -28650,6 +28659,7 @@ zzzyk.com###Tinfo
 ||snifdlab.top^
 ||snjfasp.com^
 ||snmi.cn^$third-party
+||snux.cn^
 ||snxyf.com^$third-party
 ||snzfj.net^$third-party
 ||so.auto999.cn^
@@ -29622,6 +29632,7 @@ zzzyk.com###Tinfo
 ||tvdpebx.cn^
 ||tvfree2.me/ads_*.js$script
 ||tvfree2.me/pub/
+||tvgkatu.icu^
 ||tvpqrydt.xyz^
 ||tvrshv.xyz^
 ||tvsou.com/js/360ad.js
@@ -30161,6 +30172,7 @@ zzzyk.com###Tinfo
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
+||vftvbx.xyz^
 ||vfvad.top^
 ||vfxrpl.xyz^
 ||vfzfrx.xyz^
@@ -30206,6 +30218,7 @@ zzzyk.com###Tinfo
 ||viewyentreat.guru^
 ||vifzrf.xyz^
 ||vihppjk.cn^
+||vihqpr.xyz^
 ||vijnhyru.xyz^
 ||viladram.xyz^
 ||vioyugo.cn^
@@ -30558,6 +30571,7 @@ zzzyk.com###Tinfo
 ||winwin7.com/statics/js/user/xz.
 ||winzid.icu^
 ||wioboy.xyz^
+||wipbbok.com^
 ||wipew.com^
 ||wisealty.com^
 ||wismog.xyz^
