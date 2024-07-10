@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-09 16:12:22
-! Total count: 32374
+! Version: 2024-07-10 08:14:14
+! Total count: 32383
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -15921,6 +15921,7 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-skip-to:3' '-stop-on-video-end:true'; race stop; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
@@ -19951,6 +19952,7 @@ zzzyk.com###Tinfo
 ||cbcvou.xyz^
 ||cbdm.weathercn.com^
 ||cbfw.cn/gonggong/chibi/cf_
+||cbgrqi.xyz^
 ||cbgyhe.cn^
 ||cbh365.club^
 ||cbjg.cqnews.net^
@@ -21252,6 +21254,7 @@ zzzyk.com###Tinfo
 ||doujs05.xyz^
 ||doujs06.xyz^
 ||doujs07.xyz^
+||doujs08.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -23316,6 +23319,7 @@ zzzyk.com###Tinfo
 ||hrngmf.com^
 ||hrnkdr.xyz^
 ||hrnvfp.xyz^
+||hrrjff.xyz^
 ||hrtinqj.cn^
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs640.com/js/jquery.js
@@ -23907,6 +23911,7 @@ zzzyk.com###Tinfo
 ||irmbyu.xyz^
 ||irs03.com^
 ||irtefs.xyz^
+||irtliso.top^
 ||iruacwa.xyz^
 ||is686.com^$third-party
 ||isancio.top^
@@ -26165,6 +26170,7 @@ zzzyk.com###Tinfo
 ||mtnwxhjv.xyz^
 ||mttpsy6666.cc^
 ||mtwmuy.xyz^
+||mtwuxss.icu^
 ||mtwwzqdx.xyz^
 ||mu6m1.com^
 ||muchenzhongguo.com^
@@ -28391,6 +28397,7 @@ zzzyk.com###Tinfo
 ||sgk.xyz/static/js/pc.js
 ||sglahyea.xyz^
 ||sglyd.cn^
+||sgru.cn^
 ||sh-qiruizx.com^
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
@@ -30303,6 +30310,7 @@ zzzyk.com###Tinfo
 ||vrwdsvr.icu^
 ||vrxhnr.xyz^
 ||vs1.exo01.xyz^$image,third-party
+||vsjrnh.xyz^
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adLinks?
 ||vsping.com/website/ads?
@@ -30456,6 +30464,7 @@ zzzyk.com###Tinfo
 ||wdcigo.xyz^
 ||wddsva0.com^
 ||wdff.buzz/hengf.
+||wdipsume.top^
 ||wdoshbe.top^
 ||wdpkx.cn^
 ||wdswgjn.cn^
