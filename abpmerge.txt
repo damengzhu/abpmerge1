@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-10 16:11:35
-! Total count: 32385
+! Version: 2024-07-11 08:12:28
+! Total count: 32401
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -20,6 +20,7 @@
 ###Video-Shunt-Box + .container
 ###WarningCodec
 ###ZAML
+###Zi_ad_a_H
 ###\31 280_adv
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
@@ -412,6 +413,7 @@
 ##.Text-Advertising
 ##.TqAdShow
 ##.Zi_ad_a_H
+##.Zi_ad_a_SB
 ##._300x250.item
 ##.__isboostOverContent
 ##._cggp
@@ -16069,6 +16071,7 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
+xv-ru.com,xvideos.com#$#prevent-listener load exoJsPop101
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
@@ -19155,6 +19158,7 @@ zzzyk.com###Tinfo
 ||baijs05.xyz^
 ||baijs06.xyz^
 ||baijs07.xyz^
+||baijs08.xyz^
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
 ||baikebcs.bdimg.com/*banner*.jpg
@@ -20816,6 +20820,7 @@ zzzyk.com###Tinfo
 ||dajiadu8.com/17.js
 ||dajiahao10.top^
 ||dajiahao17.top^
+||dajiahao8.top^
 ||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
@@ -20888,6 +20893,7 @@ zzzyk.com###Tinfo
 ||dcdglb.xyz^
 ||dceuhnpc57.shop^
 ||dciep.xyz^
+||dclpjx.xyz^
 ||dcnytdpke.xyz^
 ||dcqs4.com^
 ||dcs.conac.cn/js/
@@ -22098,6 +22104,7 @@ zzzyk.com###Tinfo
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
 ||fmjjvb.xyz^
+||fmmirep.icu^
 ||fmre1.com^
 ||fmssoj.icu^
 ||fmvbyji.cn^
@@ -22501,6 +22508,7 @@ zzzyk.com###Tinfo
 ||gjh9v.tianshilv.cn^
 ||gjhjjhgc.cn^
 ||gjipd.xyz^
+||gjjskhdnm.top^
 ||gjkame6.com^
 ||gjmqqq.com^
 ||gjwind.com/xxmh.gif
@@ -23099,6 +23107,7 @@ zzzyk.com###Tinfo
 ||hfk7j.top^
 ||hflwgg.xyz^
 ||hfptbb.cn^
+||hfptbf.cn^
 ||hfqdipw.cn^
 ||hfresgtyytjncvvh.com^
 ||hfwld.cn^
@@ -24902,6 +24911,7 @@ zzzyk.com###Tinfo
 ||kritgu.xyz^
 ||krjzxie.cn^
 ||krr894.top^
+||krtlisd.top^
 ||krw.yrehdfer.com^
 ||kryjqq.com^
 ||ks66666661.com^
@@ -26653,6 +26663,7 @@ zzzyk.com###Tinfo
 ||oaftaijo.net^$third-party
 ||oaihiiacb.com^
 ||oajfpqojev.net^
+||oakmn.top^
 ||oalmbmf.xyz^
 ||oapyrzde.xyz^
 ||oaqrui.xyz^
@@ -26772,6 +26783,7 @@ zzzyk.com###Tinfo
 ||one101.xyz/data/images/*.gif
 ||one6u.xyz^
 ||onedala.tv/uploads/banner/
+||onefuq.xyz^
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
 ||onesignal.com^$third-party
@@ -27476,6 +27488,7 @@ zzzyk.com###Tinfo
 ||qdaily.com/mount_details/pc/
 ||qdcxia.xyz^
 ||qdczx66.com^
+||qdipsumy.top^
 ||qdjimo.com/html/js/
 ||qdlzj.cn^
 ||qdoshby.top^
@@ -28261,6 +28274,7 @@ zzzyk.com###Tinfo
 ||sc-gov-cn.website^
 ||sc126.com^
 ||sc4mh.cn^
+||scanfang.com^
 ||scannapp.xyz^
 ||sccnn.com/SF/zt.jpg
 ||scfh9.cn^
@@ -29194,6 +29208,7 @@ zzzyk.com###Tinfo
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
 ||tdoshbi.top^
+||tdpujn.xyz^
 ||tdsahkln.xyz^
 ||tduenkq839.shop^
 ||teads.tv^$third-party
@@ -31488,6 +31503,7 @@ zzzyk.com###Tinfo
 ||yenyshy.com^
 ||yepgdita.xyz^
 ||yerecpa.cn/uploadsb/app_adv/
+||yerhfnytky.top^
 ||yes-24-go.cc^
 ||yes1.feng.com^$domain=feng.com
 ||yeshefb.com/template/conch/dd/
