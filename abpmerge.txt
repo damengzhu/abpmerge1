@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-14 16:18:53
-! Total count: 32447
+! Version: 2024-07-15 08:13:07
+! Total count: 32457
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1564,6 +1564,8 @@
 ##body > div#bottommob.bottommob
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
+##body#nr_body #appss
+##body#nr_body [onclick='goAppHtml();']
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
@@ -7187,7 +7189,6 @@ autohome.com.cn##.union-ad-placeholder
 autohome.com.cn##.vocalcon-btn
 autohome.com.cn##DIV[id^="popautoapp"]
 autohome.com.cn##a[href="https://m.autohome.com.cn/activity/special/autohome29.html"]
-autohome.com.cn##ol > li,.evade-operate
 autohome.com.cn,jdzj.com,loveshang.com##.advbox
 autohome.com.cn,sina.com.cn##div[class*="game"]
 autokult.pl#$#abort-on-property-write scriptTag
@@ -20709,6 +20710,7 @@ zzzyk.com###Tinfo
 ||cyhbrjf.cn^
 ||cypcb.net^
 ||cyq3noz.icu^
+||cyretuf.top^
 ||cyuwkbf.top^
 ||czexrhl.cn^
 ||czghjt.com^
@@ -21418,6 +21420,7 @@ zzzyk.com###Tinfo
 ||durynslg.xyz^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||duxingangtiaoban.com^
+||duyewnf.icu^
 ||duyixpy.top^
 ||duyvtanrheje.xyz^
 ||dv.amtwcvh.cn^
@@ -23514,6 +23517,7 @@ zzzyk.com###Tinfo
 ||hylmxing.com^
 ||hynahyqq.xyz^
 ||hypwbv.xyz^
+||hyretuu.top^
 ||hytzp.cn^
 ||hyusnisu.top^
 ||hyuwkbu.top^
@@ -23994,6 +23998,7 @@ zzzyk.com###Tinfo
 ||itc.cn/mdevp/*-advert/
 ||itc.cn/w/u/0/old-insertAd-
 ||itc.cn^*/tracker.js
+||iteyi.xyz^
 ||itheat.com/?show=
 ||itheatmoran.com^
 ||ithome.com.tw/media/serve?
@@ -24113,6 +24118,7 @@ zzzyk.com###Tinfo
 ||jane2.top^
 ||janwzsqi.icu^
 ||jaowd.xyz^
+||jasdz1.cn^
 ||jashautchord.com^
 ||jatfugios.com^
 ||jav101.com/img5bbb0096f242f.gif
@@ -29055,6 +29061,7 @@ zzzyk.com###Tinfo
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||swsegi.xyz^
+||swwdke.xyz^
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||sx.fakjkwp.cn^
 ||sxeimg.com/u/20191108/13082210.gif
@@ -29559,6 +29566,7 @@ zzzyk.com###Tinfo
 ||tqjqripb.xyz^
 ||tqmcj.cn^
 ||tqrznqs.cn^
+||tqtqvb.xyz^
 ||tquspo.com^
 ||tqvnzj.xyz^
 ||tqytqdrq.icu^
@@ -29857,6 +29865,7 @@ zzzyk.com###Tinfo
 ||udeztrb.cn^
 ||udheansv.com^
 ||udiab1.jianshu.com^
+||udipsumt.top^
 ||udjdpyrt.xyz^
 ||udkpcc.xyz^
 ||udn.com.tw/upf/*_banners/BD/
@@ -31223,6 +31232,7 @@ zzzyk.com###Tinfo
 ||xmangoculture.com^
 ||xmawwbz.icu^
 ||xmcimg.com/js/m.js
+||xmhszb.xyz^
 ||xmjajv.xyz^
 ||xmkbrfyu.cn^
 ||xmkmryu.icu^
