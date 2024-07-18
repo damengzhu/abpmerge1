@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-17 16:11:39
-! Total count: 32481
+! Version: 2024-07-18 08:12:59
+! Total count: 32490
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3705,7 +3705,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 18comic.*##body .bot-per
 18comic.*##div[data-height="90"][data-width="728"]
 18comic.*#@#img[style*="300px"]
-18comic.org,18comic.vip##+js(set-constant, adv_resize, noopFunc)
 18comic.org,18comic.vip##div[class="row"][style="display: flex;flex-wrap: wrap;"]
 18comic.org,18comic.vip##div[data-group^="photo_center_games_"]
 18comic.org,18comic.vip##div[data-group^="skyscraper_"]
@@ -4438,6 +4437,7 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 7down.com###btndowns
 7hcn.com##.pr > a[href^="http"]:not([href^="http://www.7hcn."])
 7hcn.com##.rCont
+7itv.com##body > div[style]
 7junshi.com##.breaknovel-ave
 7junshi.com##.videoads
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
@@ -4513,9 +4513,6 @@ $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zz
 91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com/api/getPos?jspath=/
-91porny.org,jiuse.io,x9av7.com###main > div[id^="rd"]
-91porny.org,jiuse.io,x9av7.com##.footer + .block
-91porny.org,jiuse.io,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 91rb99.com##.top
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
@@ -9298,6 +9295,7 @@ embedupload.com#@#.text_ad
 embedupload.com#@#.text_ads
 emome.net##.source_advertising
 empireg.ru#$#abort-current-inline-script Math zfgloaded
+empireoutletsnyc.com#$#abort-on-property-read adsRedirectPopups
 emule-island.ru##.lastnews + A[href^="http://www.downloadmr.com/dmr/download/"]
 emule-island.ru##.newsgroup
 emumax.com##.tbanner
@@ -11577,6 +11575,9 @@ js0573.com###adv2
 js0573.com###gotopl
 js0573.com###gotopr
 js0573.com##.gg_bnr
+jsav2.com,91porny.org,x9av1.com,x9av7.com###main > div[id^="rd"]
+jsav2.com,91porny.org,x9av1.com,x9av7.com##.footer + .block
+jsav2.com,91porny.org,x9av1.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 jsbooks.com.cn#@#.left-ads
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
@@ -13922,7 +13923,6 @@ qqyy.com##.right_dcotor_tab
 qsptv.net###widget-weixin
 qudao.com###wechat
 qudong.com##.advert_bottom
-quick-counter.net#$#abort-on-property-read adsRedirectPopups
 qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 quora.com##.answer_auto_expanded_comments + div > div.feed_expand
@@ -16820,6 +16820,7 @@ zzzyk.com###Tinfo
 ||154.7.80.158^
 ||155zn.com^
 ||156.233.32.123^$third-party
+||156xsw.com/css/js/tools.
 ||156zw.com/css/js/tools.js
 ||158zm.com/head.js
 ||158zm.com/top.js
@@ -19181,6 +19182,7 @@ zzzyk.com###Tinfo
 ||baifen.music.baidu.com^
 ||baifendian.com^$third-party
 ||baihuwang.com^$third-party
+||baijs010.xyz^
 ||baijs02.xyz^
 ||baijs03.xyz^
 ||baijs05.xyz^
@@ -19351,6 +19353,7 @@ zzzyk.com###Tinfo
 ||bdimg.com/static/m-question-new/widget/ad-union-
 ||bdimg.com/static/wkcore/widget/commerce/fengchao/
 ||bdimg.com/static/wkview/widget/download_after_activity_new/download_after_activity_new_
+||bdipsumv.top^
 ||bdjdpyrt.xyz^
 ||bdjfea.cn^
 ||bdjiaoben.wmxa.cn^
@@ -21297,6 +21300,7 @@ zzzyk.com###Tinfo
 ||doujs06.xyz^
 ||doujs07.xyz^
 ||doujs08.xyz^
+||doujs09.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -22670,6 +22674,7 @@ zzzyk.com###Tinfo
 ||google-analytics.com/analytics.js
 ||google-js-01.xyz^
 ||google-js-02.xyz^
+||google-js-08.xyz^
 ||google.*/pagead/
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noop.html,domain=rjno1.com,important
 ||googlesyndication.com/safeframe/$third-party
@@ -23227,6 +23232,7 @@ zzzyk.com###Tinfo
 ||hjkiguy.com^
 ||hjnjjcw.xyz^
 ||hjpqt.cn^
+||hjrcjz.xyz^
 ||hjshal.com^
 ||hjtedf.xyz^
 ||hk-pub.com/forum/images/2009/gifbanner
@@ -23623,6 +23629,7 @@ zzzyk.com###Tinfo
 ||iephrenhq.com^
 ||ievvo.xyz^
 ||iewtwo.xyz^
+||ieymhkx.icu^
 ||ifbfksf.xyz^
 ||ifbqves.cn^
 ||ifdvlh.cn^
@@ -24580,6 +24587,7 @@ zzzyk.com###Tinfo
 ||juxia.com/jxtp/indexbg.jpg
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
+||juznlx.xyz^
 ||jv0rlf.com^
 ||jvjlkih.com^
 ||jvjmjt.xyz^
@@ -26131,6 +26139,7 @@ zzzyk.com###Tinfo
 ||molibaike.com/js/ads.
 ||molimao.top/ad*.js
 ||molimao.top/imp/upload/vod/*.gif
+||molpmh.xyz^
 ||momoguoji.xyz^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
