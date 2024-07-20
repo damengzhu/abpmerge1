@@ -5535,6 +5535,7 @@ easylearn.baidu.com##.feedback-icon
 easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style]' div>span ^^sh^^ div[style]
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
@@ -8656,6 +8657,8 @@ mail.pchome.com.tw##.mnav
 mail.pchome.com.tw##.sceng
 mail.qq.com###plp_ad_container
 mail.qq.com##.tipbook-top
+mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
+mail.ru#$#json-prune 0.json.result
 mail.sina.com.cn##.rightbottom
 maiziedu.com##.msg
 makaidong.com###bdcs
@@ -9400,6 +9403,7 @@ novinky.cz##section[role^="complementary"]
 novinky.cz#$#hide-if-matches-xpath './/div[@class="tpl-king-bottom-content"]//h3[@class]/a[@target="_top"]/ancestor::article[contains(@class,"advert")]/parent::div[1]'; hide-if-matches-xpath '//div[@id][@style]//div[@*="ad-content"]//iframe[@style]/ancestor::div[@*="mol-advert" and @*="RENDERED"][@style]'; hide-if-matches-xpath './/div[@class]/span[text()][@*="atm-label"]/following::a[@target]/ancestor::article[@*="advert-item"]'; hide-if-matches-xpath './/div[@class][@style]/div[@style]//iframe[@width][@style]/ancestor::div[@*="RENDERED" or @*="mol-advert"]'
 novinky.cz#$#hide-if-matches-xpath './/div[@style]/div[contains(@style,"position:relative")][@style]/div[@style]/iframe[contains(@style,"display")]/parent::div[@class][@style]/ancestor::div[@class and @style]'
 novinky.cz#$#hide-if-matches-xpath '//a[@href][@title]/div[@class][@style]/parent::a/ancestor-or-self::div[2]'
+novinky.cz#$#hide-if-matches-xpath '//div[@class]/div/p[.="Reklâma"]/parent::div[@class][@style]'; json-prune hlolijkmkhmkkgginioo;
 novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
 novinky.cz,kupi.cz,sport.cz,super.cz###sf0
 novinky.cz,kupi.cz,sport.cz,super.cz##.Aldremas, .plachta-middle
@@ -12011,12 +12015,14 @@ wenku8.net#@##adtop
 wenmi114.com###xiezuo
 wenxuecity.com###adt
 wenxuecity.com###gg_multitext
+wenxuecity.com###gg_rightside
 wenxuecity.com###marquee
 wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
 wenxuecity.com##.otherposts > ul > li > a[target="_blank"]
 wenxuecity.com##.sidebar > .banners
 wenxuecity.com##.topbannerw
 wenxuecity.com##label[style*="darkgrey"]
+wenxuecity.com#?#div[class]:-abp-has(>.adlab_border)
 wenxuecity.com#@#.otherposts
 westmanga.fun#$#abort-on-property-read doOpen1 false; override-property-read puShown1 true; abort-current-inline-script document.cookie
 wezhicms.com##.activity
