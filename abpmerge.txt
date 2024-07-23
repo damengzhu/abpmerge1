@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-22 16:12:32
-! Total count: 31741
+! Version: 2024-07-23 08:14:05
+! Total count: 31748
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -287,7 +287,6 @@
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
 ###play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
-###play[style="padding: 10px;"] > a[href="/0705.html"]
 ###player-bottom-ads
 ###playerAd
 ###playerAdvLayer
@@ -8889,9 +8888,7 @@ dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 doood.site,jasminetesttry.com,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
-doordash.com#$#hide-if-matches-xpath './/span[@data-testid][contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor-or-self::div[@data-testid="LegoFlexibleItemSquareContainer"][1]'
-doordash.com#$#hide-if-matches-xpath '//a[contains(@data-anchor-id,"store-info")]//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
-doordash.com#$#hide-if-matches-xpath '//div[@role]//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]//ancestor::div[string-length(@class) >= 62][1]'
+doordash.com#$#hide-if-matches-xpath '//div[@role="button"]//following::span[contains(text(), "Sponsored") or contains(text(), "Commandité") or contains(text(), "Patrocinado")]/ancestor::div[count(.//div[@role="button"])=1][1]'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -9505,7 +9502,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.us#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -12816,7 +12813,6 @@ myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mytheme.cn##.ad01
-mythicalcreaturesguide.com#$#abort-on-property-read adsRedirectPopups
 mywpku.com##.sidebar-recommended
 mzyz.com###idTransformView2
 naekranie.pl###niceMessage
@@ -12888,9 +12884,9 @@ new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com#@##TopAd
 newcger.com##.banner_recom
 newduba.cn###jq_youxi
+newegg.*#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
+newegg.*#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-matches-xpath './/span["Sponsored"]/ancestor::div[starts-with(@class,"product-headline")]';hide-if-matches-xpath './/span[.=" Sponsored"]/ancestor::div[@class=" grid-col" or @class="swiper-slide"]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newegg.com##div[class*="-sponsored"]
-newegg.com#$#hide-if-matches-xpath './/a[@class="item-img"][@rel]/following::span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"item-cell")][starts-with(@id,"item_cell")]'
-newegg.com#$#hide-if-matches-xpath './/div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[contains(@class,"at-side")]'; hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]'; hide-if-matches-xpath './/span["Sponsored"]/ancestor::div[starts-with(@class,"product-headline")]';hide-if-matches-xpath './/span[.=" Sponsored"]/ancestor::div[@class=" grid-col" or @class="swiper-slide"]'; hide-if-contains-visible-text /Sponsored/ div[class^="product"] 'div[class][style]>span';
 newmobilelife.com###ATS_sticky
 news.163.com##.mod_netes_origina
 news.163.com##.mod_pageh5
@@ -13295,6 +13291,7 @@ oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
 osobnosti.cz##.hide-screenbot
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
+otvet.mail.ru#$#abort-on-property-read vueApp.$adv.Adblock._adblockDetected
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
 outlook.live.com###owaadbar
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
@@ -13431,7 +13428,7 @@ phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read local
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop,animevietsub.app#$#abort-current-inline-script eval $._Eu
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
-phimmoiiii.net#$#abort-current-inline-script addEvent popu
+phimmoiiii.net,motphimww.com#$#abort-current-inline-script addEvent popu
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimtuoitho.tv#$#abort-current-inline-script document.documentElement break;case
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
@@ -13534,6 +13531,7 @@ playerapp1.pw##[id^="total"]
 playerhd1.pw,playerhd2.pw###divPanel
 playerhd1.pw,playerhd2.pw##[id^="total"]
 players.com.ua#$#abort-on-property-read localStorage
+playground.ru#$#prevent-listener load adBlockDetect
 playno1.com###frame8I822E
 playno1.com###m12
 playno1.com###m2
@@ -16078,6 +16076,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
+xoilac86z15.live#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
@@ -16945,6 +16944,7 @@ zzzyk.com###Tinfo
 ||1ng2l.space^
 ||1ny3r.icu^
 ||1ov2pp0.$script,xmlhttprequest,domain=ign.com|ignboards.com
+||1p3yg.icu^
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1qboss9.ejuslehq.com^$script,xmlhttprequest,domain=pch.com
@@ -22881,6 +22881,7 @@ zzzyk.com###Tinfo
 ||heshun365.cn^
 ||hesramfi.com^
 ||hesrod.icu^
+||hetlwsu.top^
 ||hevctt.xyz^
 ||hexcvb.xyz^
 ||hexun.*/hxpage/index.html
@@ -22904,6 +22905,7 @@ zzzyk.com###Tinfo
 ||hfctx.cn^
 ||hffxc.com^
 ||hfjk3wa.com^
+||hfjmvr.xyz^
 ||hfjsliu.top^
 ||hfk7j.top^
 ||hflwgg.xyz^
@@ -25256,6 +25258,7 @@ zzzyk.com###Tinfo
 ||lyewe.xyz^
 ||lygjgzc.com^
 ||lyislol.top^
+||lyretul.top^
 ||lysq.com/data/attachment/portal/
 ||lyszsz.cn^
 ||lyua.cn^
@@ -26346,6 +26349,7 @@ zzzyk.com###Tinfo
 ||oinlkwr.xyz^
 ||oiqbdwjkl.com^
 ||oiqwnfk.com^
+||oiu09.cn^
 ||oiunga.com^
 ||oiuqwppcsdf.com^
 ||oiwlnlu.com^
@@ -28297,6 +28301,7 @@ zzzyk.com###Tinfo
 ||soutubot.moe/static/airport
 ||sovelswpq.com^
 ||sowsuwm.icu^
+||sowwoy.xyz^
 ||sowx.cn^
 ||sozi.cn/images/tj/downad
 ||sozi.cn/images/tj/hukead.gif
@@ -30425,6 +30430,7 @@ zzzyk.com###Tinfo
 ||xedpzh.xyz^
 ||xeghes.fun^
 ||xegneils.com^
+||xehodv.xyz^
 ||xeikwh.icu^
 ||xekmhvbb.xyz^
 ||xemphimviet.net^$third-party
@@ -30897,6 +30903,7 @@ zzzyk.com###Tinfo
 ||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/
+||yfasjfk.icu^
 ||yfhtbdn.com^
 ||yfsstec96.xyz^
 ||yfzpxnb.xyz^
