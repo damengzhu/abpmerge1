@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-23 16:12:58
-! Total count: 31782
+! Version: 2024-07-24 08:12:40
+! Total count: 31795
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1757,6 +1757,7 @@ $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|xyg688.com|xyg688.xyz|zzzzz688.com
+$third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 &ADFAssetID=$media,domain=expres.cz|www.idnes.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 &ADFAssetID=$media,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz
 &ad_type=
@@ -8892,7 +8893,6 @@ dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 doood.site,jasminetesttry.com,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
-doordash.com#$#hide-if-matches-xpath '//div[@role="button"]//following::span[contains(text(), "Sponsored") or contains(text(), "Commandité") or contains(text(), "Patrocinado")]/ancestor::div[count(.//div[@role="button"])=1][1]'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -9168,8 +9168,11 @@ easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.recs-placement-arrangement' div.recs-grid-subtitle.recs-non-seller-title div ^^sh^^ * iframe *
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.recs-placement-arrangement' div.recs-item-list-subtitle.recs-non-seller-title div ^^sh^^ * iframe
+ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-placements>div' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title]
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div.x-ads-slot>div[data-from^="ads_platform"]' div.recs-item-list-subtitle>div ^^sh^^ * iframe[title^="Sponsored"]
 ebay.*#$#hide-if-contains-visible-text /.*/ 'div[data-interactions*="ADV"]>div.recs-card-container' div.recs-grid-subtitle>div ^^sh^^ * iframe
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'div.recs-grid-item-card>div.recs-item-content' div>span[role^="text"]
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ 'section.ads-berries' div>span ^^sh^^ div[style]
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ div[role]>div 'div[role]>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ li>div 'li>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|[Ss]ponsorizzat[ie]|[Ss]ponsorowane|[Gg]⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|[Pp]atrocinado/ 'div[class^="recs-placement-arrangement"]' 'div[class^="recs-grid-header"] div'
@@ -9184,6 +9187,7 @@ ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"pd-sponsored")]/parent::
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"dsa-label")][@role="text"][text()]/ancestor::div[@class="recs-item-content"]'
 ebay.*#$#hide-if-matches-xpath '//canvas[@width][@height="20"][not(@style="display:none")]/preceding::div[@class="recs-content-wrap-mot"]/ancestor-or-self::li[@class="carousel__snap-point"][@style]'
+ebay.*#$#hide-if-matches-xpath '//div[contains(@data-interactions,"Promoted")]/div[@class="recs-card-container"]/ancestor-or-self::div[1]'
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ebay.*#$#race start; hide-if-matches-xpath './/span[starts-with(@class,"recs-subtitle-label")][@role="text"][text()]/ancestor-or-self::div[@class="recs-placement-arrangement"]'; hide-if-matches-xpath './/div[starts-with(@class,"recs-subtitle-label")][@role="text"][text()]/ancestor-or-self::div[@class="recs-placement-arrangement"]'; race stop;
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style]' div>span ^^sh^^ div[style]
@@ -13210,6 +13214,7 @@ ojogo.pt###AdBloquer
 ojogo.pt###moldura_ojogo
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
 olehdtv.com##.container > div[class^="B1"]
+olehdtv.com,olevod.eu##.guangao
 olevod.com##.A4R
 olevod.com##.B1L
 olevod.com##.B1R
@@ -13221,7 +13226,6 @@ olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.ol
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
-olevod.eu##.guangao
 olevod.eu##a.wbalist_thumb[target="_blank"]
 olevod.tv##a[href^="https://www.yywhale.com"]
 olgame.tw##.nex_floor_banner
@@ -19382,6 +19386,7 @@ zzzyk.com###Tinfo
 ||betgorebysson.club^
 ||betteredu.net/js/pop_tuiguang_
 ||betylife.com^
+||bewr1.com^
 ||beyers.cn^
 ||bf99.com/User*/Ad_
 ||bf99.com/User/Images/bg_Blued.jpg
@@ -21137,6 +21142,7 @@ zzzyk.com###Tinfo
 ||doubleclick.net^
 ||doublepimpssl.com^$third-party
 ||douguo.net/upload/post/d/
+||doujs01.shop^
 ||doujs01.xyz^
 ||doujs010.xyz^
 ||doujs02.xyz^
@@ -21601,6 +21607,7 @@ zzzyk.com###Tinfo
 ||ent1.qunchua.com^
 ||entry.baidu.com/rp/home?
 ||entsnotesq.fun^
+||enuksg.xyz^
 ||enviousinevitable.com^
 ||eo.chaungpin.top^
 ||eo.dongdm.cn^
@@ -21631,6 +21638,7 @@ zzzyk.com###Tinfo
 ||equkgm.xyz^
 ||er.5ykj.cn^
 ||er.5ykj.com^
+||er1h4.icu^
 ||eraaoec.cn^
 ||eraygc.xyz^
 ||ercnrxa.cn^
@@ -22851,6 +22859,7 @@ zzzyk.com###Tinfo
 ||hdzb6.cc^
 ||head4.net/ad_
 ||heapz.cyou^
+||heatherssb.com^
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
 ||hebstsmgs.com^
@@ -23376,6 +23385,7 @@ zzzyk.com###Tinfo
 ||ielgag.top^
 ||iemwbu.cn^
 ||iephrenhq.com^
+||ietlwso.top^
 ||ievvo.xyz^
 ||iewtwo.xyz^
 ||ieymhkx.icu^
@@ -23936,6 +23946,7 @@ zzzyk.com###Tinfo
 ||jdbstatic.com/ads/
 ||jdcnwd.com^
 ||jddaw.com^
+||jdfzfd.xyz^
 ||jdh74bf.com^
 ||jdipsuma.top^
 ||jdnlynb.cn^
@@ -26917,6 +26928,7 @@ zzzyk.com###Tinfo
 ||pp1hl.xyz^
 ||ppedp.cn^
 ||ppenid.xyz^
+||pplkrh.xyz^
 ||pplnjoow.com^
 ||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
@@ -27731,6 +27743,7 @@ zzzyk.com###Tinfo
 ||rydzfldt.xyz^
 ||ryhkft.xyz^
 ||ryhuzj.xyz^
+||ryqgdrh.icu^
 ||ryrmvd.xyz^
 ||ryvexulg.xyz^
 ||rywnvzd.cn^

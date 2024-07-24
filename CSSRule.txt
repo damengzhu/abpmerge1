@@ -5249,7 +5249,6 @@ dongtw.com#@#.post-share-container
 donk69.com,wankflix.com,mofosex.com,keezmovies.com,extremetube.com,spankwire.com,pornxt.com,crazyshit.com,fantasti.cc,gfjizz.com,smutr.com,yuvutu.com#$#abort-on-property-read phtData
 dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.wf,dood.ws,doods.pro,doodstream.co,doodstream.com,dooood.com,streamsb.net#$#abort-on-property-read DoodPop; abort-on-property-write adb; abort-on-property-write cRAds; abort-on-property-write xRds; abort-on-property-write xPoPAdS
 doood.site,jasminetesttry.com,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
-doordash.com#$#hide-if-matches-xpath '//div[@role="button"]//following::span[contains(text(), "Sponsored") or contains(text(), "Commandité") or contains(text(), "Patrocinado")]/ancestor::div[count(.//div[@role="button"])=1][1]'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
@@ -9515,6 +9514,7 @@ ojogo.pt###AdBloquer
 ojogo.pt###moldura_ojogo
 okminigames.mail.ru#$#override-property-read appDriver.hasVideoAd false
 olehdtv.com##.container > div[class^="B1"]
+olehdtv.com,olevod.eu##.guangao
 olevod.com##.A4R
 olevod.com##.B1L
 olevod.com##.B1R
@@ -9526,7 +9526,6 @@ olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.ol
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.com#$?#.swiper-wrapper > li.swiper-slide:has(> a[target="_blank"]:not([href^="/"])) { remove: true; }
-olevod.eu##.guangao
 olevod.eu##a.wbalist_thumb[target="_blank"]
 olevod.tv##a[href^="https://www.yywhale.com"]
 olgame.tw##.nex_floor_banner
