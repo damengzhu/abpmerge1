@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-24 08:12:40
-! Total count: 31795
+! Version: 2024-07-24 16:12:13
+! Total count: 31802
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1785,6 +1785,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+-1321533417.cos.
 -1688-wp-media/ads/
 -728-90.
 -728x90.
@@ -7654,9 +7655,11 @@ bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
+bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
 bilibili.com##.extension-tips
+bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index-promote
@@ -19748,6 +19751,7 @@ zzzyk.com###Tinfo
 ||bydzfldt.xyz^
 ||byjykj.xyz^
 ||bymahuxv.xyz^
+||byretuv.top^
 ||byscy.cn^$third-party
 ||bytecdn.cn/ta/resource/v0/analytics.js
 ||bytravel.cn/images/cus/
@@ -29082,6 +29086,7 @@ zzzyk.com###Tinfo
 ||traffichaus.com^
 ||trafficjam.cn^$third-party
 ||trafficjunky.net^
+||trafficmanager.net^
 ||trafficstars.com$third-party
 ||trafficstars.com^
 ||trc.taboola.com^
@@ -30726,6 +30731,7 @@ zzzyk.com###Tinfo
 ||xryrylt.cn^
 ||xs.dmzj.com^
 ||xs.houyi.baofeng.net^
+||xs6po.icu^
 ||xs8.cn/qreport?
 ||xsbiquge.la/js/detail.js
 ||xsfajf.xyz^
@@ -31028,7 +31034,7 @@ zzzyk.com###Tinfo
 ||yimuhe.com/n_ad/
 ||yin1.zgpingshu.com^
 ||yingav.net/images/content/spot01.jpg
-||yinghua8.tv/bar/
+||yinghua8.*/bar/
 ||yinghuavideo.com/bar/
 ||yingnanyqq.com^
 ||yingshizxw.com/js/tc/
@@ -31048,6 +31054,7 @@ zzzyk.com###Tinfo
 ||yizhibo.com/special/h5corner.html
 ||yjbdyjnctgj.top^
 ||yjcf360.com/ad.
+||yje912.cn^
 ||yjnhkd.com^
 ||yjnhndt.com^
 ||yjnkas.com^
