@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-25 16:12:31
-! Total count: 31820
+! Version: 2024-07-26 08:12:23
+! Total count: 31827
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1751,7 +1751,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc
 $script,third-party,denyallow=cdn.yinghuazy.xyz|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,_____,domain=mxdm.xyz
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
+$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.com|xiaoxintv.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
@@ -13547,7 +13547,7 @@ playerapp1.pw##[id^="total"]
 playerhd1.pw,playerhd2.pw###divPanel
 playerhd1.pw,playerhd2.pw##[id^="total"]
 players.com.ua#$#abort-on-property-read localStorage
-playground.ru#$#prevent-listener load adBlockDetect
+playground.ru#$#prevent-listener load /adBlock/
 playno1.com###frame8I822E
 playno1.com###m12
 playno1.com###m2
@@ -20287,6 +20287,7 @@ zzzyk.com###Tinfo
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net^$script,domain=croydonguardian.co.uk
 ||clplrhum.xyz^
+||clqjyw.xyz^
 ||clrjnhxi.xyz^
 ||cls.cn/v2/web/ad?
 ||clubic.com/assets/js/6f34f4c.js$script
@@ -20585,6 +20586,7 @@ zzzyk.com###Tinfo
 ||cw9twuas.xyz^
 ||cwandlf.top^
 ||cwc494e.cn^
+||cwerilxf.top^
 ||cweriof.top^
 ||cwgucvm.icu^
 ||cwiuhtp.icu^
@@ -21199,6 +21201,7 @@ zzzyk.com###Tinfo
 ||dpijohb.icu^
 ||dpj0uvy.icu^
 ||dpjzzgw.cn^
+||dpweupc.icu^
 ||dpzplb.xyz^
 ||dq06u9lt5akr2.cloudfront.net^
 ||dqazwsxd.xyz^
@@ -21340,6 +21343,7 @@ zzzyk.com###Tinfo
 ||dxsjcz.cn^
 ||dxwsty.cn^
 ||dxzky.love^
+||dy10000.net^
 ||dy2018.com/js/tj.js
 ||dy2018.com/js17/
 ||dy2018.com/jsdd/
@@ -22808,6 +22812,7 @@ zzzyk.com###Tinfo
 ||hb.vntsm.com/v3/live/ad-manager.min.js
 ||hb8g86k.mom/mz.js
 ||hbandier.com^
+||hbbynt.xyz^
 ||hbjolp.xyz^
 ||hbkunye.com^
 ||hblarn.xyz^
@@ -24505,6 +24510,7 @@ zzzyk.com###Tinfo
 ||kemas.top^
 ||ken.kenxq.com^
 ||kengi.top^
+||ketlwsd.top^
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keydot.net^$third-party
@@ -25757,7 +25763,6 @@ zzzyk.com###Tinfo
 ||mo-tuo.com^
 ||mo.gushiji.cc^
 ||moatads.com^
-||mob.com^
 ||mobads.baidu.com^
 ||mobads.baidu.com^$third-party
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
@@ -30621,6 +30626,7 @@ zzzyk.com###Tinfo
 ||xizanzhi.com^
 ||xizi.com/js/rotator.js
 ||xjappzvz.xyz^
+||xjpmlf.xyz^
 ||xjrvwz.com^
 ||xjssjc.com^
 ||xjzyhp.xyz^
@@ -31793,6 +31799,7 @@ zzzyk.com###Tinfo
 ||zzzyk.com/js/
 ~05wang.com##.a_pr
 ~125.la,~52pojie.cn,~chysg.com,~hawkaoe.net,~yswc1.xyz##.a_mu
+~3igames.mail.ru,~account.mail.ru,~auto.mail.ru,~biz.mail.ru,~blog.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~calls.mail.ru,~cloud.mail.ru,~connect.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mcs.mail.ru,~minigames.mail.ru,~my.mail.ru,~news.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~player-smotri.mail.ru,~pogoda.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru#$#abort-on-property-write mr.mimic.encryptPath
 ~88liu.com,~briian.com##.a_pt
 ~95504.net##.ggbox
 ~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
