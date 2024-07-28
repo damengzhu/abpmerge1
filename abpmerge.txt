@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-27 16:11:45
-! Total count: 31836
+! Version: 2024-07-28 08:11:14
+! Total count: 31838
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2909,7 +2909,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 /nowscore/ad/*
 /nqnhfd/*.js
 /ntes-ad-cloud.
-/o.js$domain=nicotv.me|tptoon.com
+/o.js$domain=tptoon.com
 /obj/ad-app-package
 /ojborn.so?$script,third-party
 /onead_
@@ -8743,6 +8743,7 @@ ddxs.vip##.content > p > font[color="red"]
 ddxsku.com##.adhtml
 ddys.*,ddrk.me##+js(set-constant, Object.prototype.canobpreroll_, true)
 ddys.*,ddrk.me##+js(set-constant, Object.prototype.cnobpreroll_, true)
+ddzimu.com###popup
 ddzzxs.com###inglestore.inglestore
 de.adklick.net###w_ad.no_ad
 de.as.pptv.com
@@ -12031,7 +12032,7 @@ lgmi.com###openwindows0
 lgn.yy.com##.m_left
 liantu.cn##.side > .h250
 liantu.cn##.wrapper > .inner.h90
-liaocao.tv,nicotv.me##[onclick]
+liaocao.tv##[onclick]
 liaoningmovie.net##.ad_panelAR
 liaoningmovie.net##.ads-container
 liaoningmovie.net##.banner
@@ -13021,10 +13022,8 @@ nick18.com,niko18.com##.list_ads
 nick20.com###body_page_sharer ~ table[width="100%"]
 nick20.com###sex + div[align="center"]
 nick20.com##table[width="702"][bgcolor="#D1DDAA"]
-nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 nicotv.me##.clearfix-ads
 nicotv.me##.container > div.slide[style="padding-bottom:0px"]
-nicotv.me##a[href^="http://img.kingsnug.cn/gamecenter/"]
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
 nicovideo.jp#$#hide-if-matches-xpath './/li[@class="count ads"]/parent::ul/ancestor::li[contains(@class,"adVideoItem")]'; hide-if-matches-xpath './/h1[text()="Niconico Ads"]/following::img[contains(@class,"UadVideoItem-image")]/parent::div[contains(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]'; hide-if-matches-xpath './/img[contains(@class,"NicoadVideoItem")]/parent::a[contains(@class,"NicoadVideoItem")]/ancestor::div[starts-with(@class,"NicoadVideosContainer")]'; hide-if-matches-xpath './/div[@data-nicoad-sponsor]/following::a[starts-with(@class,"NicoAdContainer")]/parent::div[contains(@class,"NicoAdContainer")]/ancestor::section[@class="TopPage-section"]'; hide-if-matches-xpath './/img[contains(@class,"UadVideoItem")]/parent::div[starts-with(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]';
 nikaraw.com#$#abort-on-property-read afStorage
@@ -21851,6 +21850,7 @@ zzzyk.com###Tinfo
 ||fdhvczd.cn^
 ||fds-1230.cc^
 ||fdswrgg.cn^
+||fdtlfl.xyz^
 ||feakio.top^
 ||febtzd.xyz^
 ||feed.baidu.com^
@@ -23852,6 +23852,7 @@ zzzyk.com###Tinfo
 ||iwatojc.cn^
 ||iweiweb.com^
 ||iwerioo.top^
+||iwmigu.xyz^
 ||iwwmaq.xyz^
 ||ixelrsd.cn^
 ||ixisivomer.com^
@@ -24418,6 +24419,7 @@ zzzyk.com###Tinfo
 ||kahgjjd.com^
 ||kaiguangdou.com^
 ||kaipuyun.cn/count/
+||kaishq.top^
 ||kaixin001.com.cn/js/cpm-
 ||kak17p.xyz^
 ||kalmukrattail.com^
@@ -24556,7 +24558,6 @@ zzzyk.com###Tinfo
 ||kiitsl.icu^
 ||kikinote.net/iframe
 ||killcovid2021.com/*.mp4
-||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kinhincauking.website^
 ||kinleung.cn^
 ||kissfang.cn^
@@ -26755,6 +26756,7 @@ zzzyk.com###Tinfo
 ||pfqwbqs.cn^
 ||pftdmmc.xyz^
 ||pg-ad-b1.nosdn.127.net^
+||pgcciax.icu^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pgdt.ugdtimg.com^
 ||pgght17.com^
