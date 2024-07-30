@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-07-30 08:12:59
-! Total count: 31868
+! Version: 2024-07-30 16:12:50
+! Total count: 31876
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1462,6 +1462,7 @@
 ##a[href*="/dsf71.cc"]
 ##a[href*="/dsf88.cc"]
 ##a[href*="/entry/register"][href*="i_code"]
+##a[href*="/gg1132.vip"]
 ##a[href*="/h91.tv"]
 ##a[href*="/hgcool360.top"]
 ##a[href*="/hgcoolaa.top"]
@@ -10687,6 +10688,7 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###template
 huya.com##.J_ad
 huya.com##.ab-content
+huya.com##.component-ab
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
 huya.com##.huya-ab
@@ -10699,6 +10701,7 @@ huya.com##.sidebar-banner
 huya.com##.small-handle-tip
 huya.com##.tt[style*="1200px"]
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
+huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div
@@ -11955,6 +11958,8 @@ ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
 le.com###a_body_11628
 le.com###a_title_11628
 le.com##+js(set, isAdLoaded, true)
+le.com##+js(set-constant, Object.prototype.noAD, true)
+le.com##+js(set-constant, isAdLoaded, true)
 le.com##.Ad
 le.com##.Banner
 le.com##.H-tg
@@ -19155,6 +19160,7 @@ zzzyk.com###Tinfo
 ||baizhan.net/js/136/jingyun_righttop.
 ||baizhu.cc^$third-party
 ||baj.fanwenzhan.com^
+||balili2024.top^
 ||ballive.*/addm/
 ||balmoralmkt.com^$third-party
 ||banana.le.com/letv_tracker.js$domain=m.le.com
@@ -29958,6 +29964,8 @@ zzzyk.com###Tinfo
 ||w.bnlg.fun^
 ||w.xiaopiaoyou.com^
 ||w0057.com^
+||w0079.com^
+||w0082.com^
 ||w010w.com.cn^$subdocument
 ||w11.zhongkaohelp.com^
 ||w18.9939.com^
