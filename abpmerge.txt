@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-02 08:12:40
-! Total count: 31901
+! Version: 2024-08-02 16:12:01
+! Total count: 31908
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2415,6 +2415,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 /area=*/posid=*$subdocument,xmlhttprequest,script,domain=iprima.cz
 /area=branding$xmlhttprequest,domain=iprima.cz
 /area=halfpagead$xmlhttprequest,domain=iprima.cz
+/as/d/*.js$~third-party,domain=xnxxw.net|137.175.73.220
 /asfile/m/gudings.js
 /asset/js/gglms.
 /assets*$script,image,domain=kickassanime.io
@@ -3503,6 +3504,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 131458.com##.ulfooter_top
 1314gl.com##a[href*=".apkpackagesys.com/"]
 1337x.buzz,realgfporn.com,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
+137.175.73.220,xnxxw.net##a[target="_blank"][rel="nofollow"] > img
 13tv.top,freehao123.com##.box
 13tv.top,sina.com##.aditem
 141hongkong.com###dialog
@@ -13342,7 +13344,9 @@ pan.baidu.com##.wp-side-options
 pan.baidu.com##A.active-msg
 pan.baidu.com##div.content DIV.photo-banner
 pan666.cn##.footer > .containerNarrow
+pansci.asia##.ad-container
 pansci.asia##body > section.hide-on-print.mt-5
+pansci.asia##div[class^="pansc-"]
 pansci.asia#$##firstSingle { padding: 0 !important; }
 pansci.asia#@#.ad-container
 pansearch.me##+js(no-xhr-if, adsbygoogle)
@@ -15435,9 +15439,11 @@ v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.shensgo.com##body > div[id][class*="animated"][style*="position"][style*="z-index"]
 v.shensgo.com##brde[id][style*="height"]
+v.youku.com###player-advertise
 v.youku.com##.advertise-layer
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##.laifeng
+v.youku.com##.youku-advertise-layer
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
 v2ex.com##.fr > a[href^="https://www.digitalocean.com/"]
@@ -18149,6 +18155,7 @@ zzzyk.com###Tinfo
 ||acc.3gbizhi.com^
 ||acemof.top^
 ||acfun.cn/appSpreadContents/danmuad/
+||acg.youku.com/webfile/*.jpg
 ||acgbase.com^$third-party
 ||acgbenzi.com^$image
 ||acggd.com/4d22b/
