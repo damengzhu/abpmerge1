@@ -1496,6 +1496,7 @@
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
+##a[href="https://yk63.me"]
 ##a[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -3302,8 +3303,6 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
-allegro.pl#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";/))
-allegro.pl#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Спонсоровано";/))
 alluc.ee###aovl
 alotof.software#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 alternativeto.net##.cuuummmonnnn
@@ -4823,7 +4822,7 @@ coding.net##.smart-app-banner
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 colamanga.com##+js(no-setTimeout-if, loadErrorTip)
 colamanga.com##iframe[style*="important"]
-colamanga.com#$#div[class^="layui-layer-"] { display: none !important; }
+colamanga.com#$#div[class^="layui-layer-"]:not(#color) { display: none !important; }
 colamanga.com#$#html { overflow: auto !important; }
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
@@ -5526,7 +5525,6 @@ easylearn.baidu.com##.vip-banner-cont
 easylife.tw,ettoday.net##.idleAd
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style]' div>span ^^sh^^ div[style]
-ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebb.io##+js(set-constant, ga, noopFunc)
@@ -6707,7 +6705,9 @@ hcbbs.com###framemI4t76
 hcbbs.com###framerG6o99_left
 hcbbs.com###fwin_dialog
 hcbbs.com###portal_block_2652
+hcbbs.com###portal_block_3441
 hcbbs.com##.a_cn_pb
+hcbbs.com##a[href*="&adid="]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
 hclips.com#$#abort-on-property-read btoa
@@ -7011,6 +7011,7 @@ huya.com###template
 huya.com##+js(set-constant, adInfo, {})
 huya.com##.J_ad
 huya.com##.ab-content
+huya.com##.ab-wrap
 huya.com##.component-ab
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
@@ -7026,6 +7027,7 @@ huya.com##.tt[style*="1200px"]
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
+huya.com#?#.item-pic:-abp-has(>.img-tips)
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div
 hxcpp13.com###player-bottom-ads
@@ -11927,7 +11929,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,x.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -12370,7 +12372,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilact.cc#$#abort-on-property-read adsRedirectPopups
+xoilacx.cc#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-05 08:13:25
-! Total count: 31914
+! Version: 2024-08-05 16:12:05
+! Total count: 31926
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1501,6 +1501,7 @@
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
+##a[href="https://yk63.me"]
 ##a[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -5345,6 +5346,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 @@||cnzz.mmstat.com/*.gif$domain=400gb.com
 @@||cocomanga.com/js/ad*/*.js
 @@||cocomanga.com/js/ad_/$image
+@@||colamanga.com/js/*/load.js
 @@||colamanga.com^$generichide
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
@@ -6931,13 +6933,14 @@ allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"s
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
 allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Рекламні" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Рекламні|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; race stop;
+allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
+allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
-allegro.pl#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";/))
-allegro.pl#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Рекламні";|"Sponsored";|"Спонсоровано";/))
 alluc.ee###aovl
 alotof.software#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 alternativeto.net##.cuuummmonnnn
@@ -8467,7 +8470,7 @@ coding.net##.smart-app-banner
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 colamanga.com##+js(no-setTimeout-if, loadErrorTip)
 colamanga.com##iframe[style*="important"]
-colamanga.com#$#div[class^="layui-layer-"] { display: none !important; }
+colamanga.com#$#div[class^="layui-layer-"]:not(#color) { display: none !important; }
 colamanga.com#$#html { overflow: auto !important; }
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
@@ -9205,7 +9208,6 @@ ebay.*#$#hide-if-matches-xpath '//span[@data-text="Sponsored"]/ancestor::div[con
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
 ebay.*#$#race start; hide-if-matches-xpath './/span[starts-with(@class,"recs-subtitle-label")][@role="text"][text()]/ancestor-or-self::div[@class="recs-placement-arrangement"]'; hide-if-matches-xpath './/div[starts-with(@class,"recs-subtitle-label")][@role="text"][text()]/ancestor-or-self::div[@class="recs-placement-arrangement"]'; race stop;
 ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style]' div>span ^^sh^^ div[style]
-ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebb.io##+js(set-constant, ga, noopFunc)
@@ -10389,7 +10391,9 @@ hcbbs.com###framemI4t76
 hcbbs.com###framerG6o99_left
 hcbbs.com###fwin_dialog
 hcbbs.com###portal_block_2652
+hcbbs.com###portal_block_3441
 hcbbs.com##.a_cn_pb
+hcbbs.com##a[href*="&adid="]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
 hclips.com#$#abort-on-property-read btoa
@@ -10696,6 +10700,7 @@ huya.com###template
 huya.com##+js(set-constant, adInfo, {})
 huya.com##.J_ad
 huya.com##.ab-content
+huya.com##.ab-wrap
 huya.com##.component-ab
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
@@ -10711,6 +10716,7 @@ huya.com##.tt[style*="1200px"]
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
+huya.com#?#.item-pic:-abp-has(>.img-tips)
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div
 hxcpp13.com###player-bottom-ads
@@ -15661,7 +15667,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,x.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -16110,7 +16116,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilact.cc#$#abort-on-property-read adsRedirectPopups
+xoilacx.cc#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
@@ -18129,6 +18135,7 @@ zzzyk.com###Tinfo
 ||abds.pingpingw.com^
 ||abe1.cn^
 ||abenshishabi.com^
+||abjalrq.cn^
 ||abmedia.io/*/pum/
 ||abminbuy.com/*.mp4$media,redirect=noop-1s.mp4
 ||abminbuy.com/789.
@@ -29072,6 +29079,7 @@ zzzyk.com###Tinfo
 ||tmjwlmhc.xyz^
 ||tmlwvxae.xyz^
 ||tmochyf.cn^
+||tmoclbf.icu^
 ||tmserver-1.com^$domain=pronpic.org
 ||tmvebl.xyz^
 ||tmwbszn.icu^
@@ -29677,6 +29685,7 @@ zzzyk.com###Tinfo
 ||uvklgw.xyz^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
+||uvyuqzx.cn^
 ||uwadakest.cyou^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
@@ -30000,6 +30009,7 @@ zzzyk.com###Tinfo
 ||w.anmeihe.cn^
 ||w.bnlg.fun^
 ||w.xiaopiaoyou.com^
+||w0054.com^
 ||w0057.com^
 ||w0079.com^
 ||w0082.com^
@@ -30741,6 +30751,7 @@ zzzyk.com###Tinfo
 ||xliffnsc.xyz^
 ||xlivrdr.com^
 ||xlkdbbvy.xyz^
+||xlmdtiyqbkygtfkh.com^
 ||xlnvvbk.xyz^
 ||xlog.jd.com^
 ||xlplrhum.xyz^
@@ -31184,6 +31195,7 @@ zzzyk.com###Tinfo
 ||ykotyeo.cn^
 ||yktj.yzz.cn^
 ||ykujch.icu^
+||ykwykw.xyz^
 ||ykxafzdu.xyz^
 ||ykxwn.com^
 ||yl04z4v.cn^
