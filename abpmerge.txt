@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-05 16:12:05
-! Total count: 31926
+! Version: 2024-08-06 08:12:49
+! Total count: 31930
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10412,7 +10412,6 @@ hdcastream.com##.container
 hdchina.org##.sitead
 hdfree.tv##[href^="http://hdfree.tv/ads/"]
 hdkinoteatr.com#$#abort-on-property-read cuec
-hdmoli.com###index_banner
 hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 hdmovie14.net#@#.pub_300x250
 hdmovie14.net#@#.pub_300x250m
@@ -12347,7 +12346,7 @@ mail.pchome.com.tw##.sceng
 mail.qq.com###plp_ad_container
 mail.qq.com##.tipbook-top
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
-mail.ru#$#replace-fetch-response /json/
+mail.ru#$#replace-fetch-response /json|slot./
 mail.sina.com.cn##.rightbottom
 maiziedu.com##.msg
 makaidong.com###bdcs
@@ -19161,6 +19160,7 @@ zzzyk.com###Tinfo
 ||baijs02.shop^
 ||baijs02.xyz^
 ||baijs03.xyz^
+||baijs04.shop^
 ||baijs05.xyz^
 ||baijs06.xyz^
 ||baijs07.xyz^
@@ -21199,6 +21199,7 @@ zzzyk.com###Tinfo
 ||doujs02.xyz^
 ||doujs03.shop^
 ||doujs03.xyz^
+||doujs04.shop^
 ||doujs05.xyz^
 ||doujs06.xyz^
 ||doujs07.xyz^
@@ -21867,6 +21868,7 @@ zzzyk.com###Tinfo
 ||fbfrbt.xyz^
 ||fbqrt.cn^
 ||fbvskv3.com^
+||fc.3dmgame.com^
 ||fc.gaizong.cn^
 ||fc.tiepan.cn^
 ||fc.zuixinchao.com^
@@ -22899,7 +22901,6 @@ zzzyk.com###Tinfo
 ||hdfdsdaw.com^
 ||hdipsumu.top^
 ||hdjthzg.cn^
-||hdmoli.com/static/js/pop_promotion.js
 ||hdoshbu.top^
 ||hdpdrandpd.xyz^
 ||hdsky.me/adv/
@@ -24824,6 +24825,7 @@ zzzyk.com###Tinfo
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kwqnki.xyz^
 ||kwtgntyu.xyz^
+||kwumme.xyz^
 ||kxcp365.com^
 ||kxd56.com/qq.js
 ||kxd56.com/tg.gif
@@ -25663,6 +25665,7 @@ zzzyk.com###Tinfo
 ||mfaec.cn^
 ||mfav88.com/yinzi/
 ||mfe.paqpq.com^
+||mfemiac.icu^
 ||mflybplr.xyz^
 ||mfnfylx.xyz^
 ||mfoevvy.com^
@@ -27206,6 +27209,7 @@ zzzyk.com###Tinfo
 ||qdwnlkdw.com^
 ||qdzilh.cn^
 ||qdzyspjx.com^
+||qedgcxi.cn^
 ||qedvcu.com^
 ||qeedaa.xyz^
 ||qejjhnq.cn^

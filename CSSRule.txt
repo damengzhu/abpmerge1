@@ -6726,7 +6726,6 @@ hdcastream.com##.container
 hdchina.org##.sitead
 hdfree.tv##[href^="http://hdfree.tv/ads/"]
 hdkinoteatr.com#$#abort-on-property-read cuec
-hdmoli.com###index_banner
 hdmoli.com#?#.row > div.myui-panel:has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 hdmovie14.net#@#.pub_300x250
 hdmovie14.net#@#.pub_300x250m
@@ -8650,7 +8649,7 @@ mail.pchome.com.tw##.sceng
 mail.qq.com###plp_ad_container
 mail.qq.com##.tipbook-top
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
-mail.ru#$#replace-fetch-response /json/
+mail.ru#$#replace-fetch-response /json|slot./
 mail.sina.com.cn##.rightbottom
 maiziedu.com##.msg
 makaidong.com###bdcs
