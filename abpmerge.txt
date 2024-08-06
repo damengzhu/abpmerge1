@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-06 08:12:49
-! Total count: 31930
+! Version: 2024-08-06 16:11:59
+! Total count: 31949
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -215,6 +215,7 @@
 ###imgad
 ###imgs5[height="60px"]
 ###index_aside_ad
+###index_banner[src*=".meituan.net"]
 ###index_content_ad
 ###j-new-ad
 ###js-ad-map
@@ -993,6 +994,7 @@
 ##.topbanner + .nav + .banner
 ##.toy52_outer
 ##.toy52apparel_ALL
+##.tp_advertising
 ##.trad3
 ##.trc-content-sponsored
 ##.twavt-ads
@@ -1069,9 +1071,11 @@
 ##A[href*='-fghhjj.com']
 ##A[href*='//v.wanfumei.net']
 ##A[href*='/adjump/?']
+##A[href*='aducx.com']
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
 ##A[href*='ds2f1sd31g.vip']
 ##A[href*='exuvu.com']
+##A[href*='ixeeo.com']
 ##A[href*='jdbfknsbkldns.com']
 ##A[href*='jialu6699h.vip']
 ##A[href*='xzzkx.com']
@@ -1113,6 +1117,8 @@
 ##A[href^='https://yongle008.com']
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 ##A[rel='nofollow noopener'][href*='/game/xr/?attributionId=']
+##A[rel='nofollow'][href='/play/player-2-1.php']
+##A[rel='nofollow'][href='/play/tv.php']
 ##A[style='width: 100%;height: 150px;z-index:1000;position: absolute;display:block;top: 0px;'][onclick$=';this.style.display="none";']
 ##A[target='_blank'] > IMG[width='100%'][src*='.gif']
 ##A[target='_blank'][href*='/auth/register?code=']
@@ -1363,6 +1369,7 @@
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; height: 125px; background-size: 100% 100%;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
+##[style='position:absolute !important;padding:0px !important;margin:0px !important;width:100% !important;font-size:0px !important;line-height:0px !important;']
 ##[style='position:relative !important;padding:0px !important;margin:0px !important;line-height:1 !important;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
@@ -1555,6 +1562,7 @@
 ##body > div#bottommob.bottommob
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
+##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
 ##body#nr_body [onclick='goAppHtml();']
 ##body#nr_body a[href*="/?utm_source="]
@@ -4458,7 +4466,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 85wp.com###a3_diy2
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,iyxdm.net,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.org,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -7209,7 +7217,6 @@ av.movie##.adss-160x600
 av.movie##.pop-up-a
 av.movie##.video-banner
 av1868.com###totalStationAD
-av1868.com,edc1014070.pixnet.net###banner
 avaxhome.cc##.adblock-warning
 avbebe.com###content > div.single-post > div[align="center"]
 avbebe.com###wrapper > div[align="center"]
@@ -8952,6 +8959,7 @@ douyu.com##.imageItem-wrap[style="width: 1200px; height: 120px;"]
 douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 douyu.com##.index-common-1-rrh
 douyu.com##.isLink[href^="https://igxe.cn/"]
+douyu.com##.layout-Main > section.layout-Customize
 douyu.com##.layout-Slide-banner:not([href*="douyu"])
 douyu.com##.noble-up-guide
 douyu.com##.pendant-wrap
@@ -9292,7 +9300,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.page-content-main-a
+element-plus.org##.page-content-main-b
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elle.com.hk##.tpc-container
@@ -10687,6 +10695,7 @@ hupu.com##div[class*="ad980-60"]
 hur.cn###ad810_2
 hur.cn###ad810_6
 hutool.cn##.hutool-top-ad
+huya.com###J_adBnM
 huya.com###J_roomGg2 + a
 huya.com###J_roomGgTop
 huya.com###J_roomSideTop
@@ -10716,6 +10725,7 @@ huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
 huya.com#?#.item-pic:-abp-has(>.img-tips)
+huya.com,av1868.com,edc1014070.pixnet.net###banner
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div
 hxcpp13.com###player-bottom-ads
@@ -11776,6 +11786,7 @@ kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 kdocs.cn##.business-list-wrap
 kdslife.com###ad_swip
+kdslife.com###mainRightTopAd
 kdslife.com###tao
 kdslife.com###youhui
 kdslife.com##a[href*="kds.2144.cn"]
@@ -14822,6 +14833,7 @@ super.cz##iframe[frameborder][scrolling][src^="https://www.super.cz/"]
 super.cz##img[id^="rs-bg-img"]
 super.cz#$#override-property-read sspPositions null
 supercloudsms.com##.container > a[id]
+supercloudsms.com##.container > div > a[id]
 superlife.ca##.sidebar-ad-zone
 supertaste.tvbs.com.tw###ad_m_bottom
 supertaste.tvbs.com.tw###lightbox--ad
@@ -15108,6 +15120,7 @@ tmioe.com###custom_html-4
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
+tmioe.com##.singlegg
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tmtpost.com##.open-app
 to8to.com##.ad-commom
@@ -17120,6 +17133,7 @@ zzzyk.com###Tinfo
 ||2hpg0.fun^
 ||2jse6.icu^
 ||2kandy.com/js/123/
+||2lb.cc^
 ||2pogg4c.cn^
 ||2pwja.cn^
 ||2qpqwkx.cn^
@@ -26040,6 +26054,7 @@ zzzyk.com###Tinfo
 ||mymqcy.xyz^
 ||mypianku.net/ajax/MyJs/
 ||myqcloud.com/ad/
+||myqcloud.com/uploads/m3u8/*.ts$third-party
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||myreadcloud.com^
 ||myretux.top^
@@ -27910,6 +27925,7 @@ zzzyk.com###Tinfo
 ||saohu*.com/config/json/cctv.json?
 ||sasadown.cn/ad/
 ||sasadown.cn/source/plugin/drk_ledadv/
+||sascwt.cn^
 ||sasontnwc.net/Webservices/jsParseLinks.aspx$script,third-party
 ||sasontnwc.net/visitScript/$script,third-party
 ||sass.hk/images/hengfu.jpg
@@ -29493,6 +29509,7 @@ zzzyk.com###Tinfo
 ||ufile.cc/crod.js
 ||ufjslit.top^
 ||uflybplr.xyz^
+||ufvauj.cn^
 ||ug.snssdk.com^
 ||ugbjqwe.com^
 ||ugbler.icu^
@@ -29501,6 +29518,7 @@ zzzyk.com###Tinfo
 ||ugolue.xyz^
 ||ugpibtpk.xyz^
 ||ugtbit.icu^
+||ugugct.xyz^
 ||ugvbsrbht.xyz^
 ||uhjxitn.xyz^
 ||uhwnrfu.cn^
@@ -30591,6 +30609,7 @@ zzzyk.com###Tinfo
 ||xdmnlxtu.xyz^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
+||xdns.asia^
 ||xdolhlwq.xyz^
 ||xdrvkdni.xyz^
 ||xdsahkln.xyz^
