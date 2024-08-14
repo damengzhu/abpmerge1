@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-13 16:11:53
-! Total count: 32016
+! Version: 2024-08-14 08:13:50
+! Total count: 32029
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9016,7 +9016,7 @@ dpp.org.tw,shuaijiao.com#@##ad_big
 dragcave.net##._w_4
 dragon-guide.net##.container > .gutter:first-child
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
-drive2.ru#$#replace-xhr-response /banner./
+drive2.ru#$#replace-xhr-response 'blockId'
 drlink.online#$#abort-current-inline-script Math.random toString
 drv5.cn###xzq
 drvsky.com###bz_position
@@ -9217,6 +9217,7 @@ ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"dsa-label")][@role="tex
 ebay.*#$#hide-if-matches-xpath '//div[contains(@class,"x-ads-slot")]/div[@data-from="ads_platform"]/ancestor-or-self::div[contains(@class,"x-ads-slot")]'
 ebay.*#$#hide-if-matches-xpath '//span[@data-text="Sponsored"]/ancestor::div[contains(@class,"x-ads-placements")]'
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[role^="listitem"] div[data-viewport]' div>span[role^="text"]
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebb.io##+js(set-constant, ga, noopFunc)
@@ -10142,6 +10143,7 @@ graffica.info#@#.pub300x250
 graffica.info#@#.text-ad
 graffica.info#@#.text-ad-link
 graffica.info#@#.text_ads
+greasyfork.org#@#body .ad
 greatwuyi.com##.main_ad2
 greenxf.com###speed-downloader
 greenxiazai.com##.downbtn > a:last-child
@@ -12317,7 +12319,7 @@ m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: a
 m.youku.com,v.youku.com##+js(set-constant, Object.prototype._adData, {})
 m.youtube.com###koya_child_6
 m.youtube.com##.video-ads.ytp-ad-module
-m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds adSlots';
+m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds adSlots playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots';
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
@@ -12363,7 +12365,7 @@ mail.pchome.com.tw##.sceng
 mail.qq.com###plp_ad_container
 mail.qq.com##.tipbook-top
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
-mail.ru#$#replace-fetch-response /\ads/
+mail.ru#$#replace-fetch-response 'direct'
 mail.sina.com.cn##.rightbottom
 maiziedu.com##.msg
 makaidong.com###bdcs
@@ -15778,6 +15780,7 @@ wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
 wenxuecity.com##.otherposts > ul > li > a[target="_blank"]
 wenxuecity.com##.sidebar > .banners
 wenxuecity.com##.topbannerw
+wenxuecity.com##DIV[class^="Inarticle_"]
 wenxuecity.com##label[style*="darkgrey"]
 wenxuecity.com#?#div[class]:-abp-has(>.adlab_border)
 wenxuecity.com#@#.otherposts
@@ -15891,7 +15894,7 @@ www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='
 www.apkmirror.com##.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.blesk.cz##[class*="-wrapperf-prapper"], [class*="pikyTentBot_"], #stickyBottomRightAbsolute, [class="lol__out"], img[width='970'][height="310"], a[style*="blewid: 970px; height: 310px"], div[id*="-hor"]
-www.booking.com#$#hide-if-contains-visible-text /Ad/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
+www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
 www.dbbqb.com##.MuiPaper-root
 www.douyu.com##.giftbatter-box
 www.duba.com##.tiyan_a
@@ -15915,6 +15918,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//a[contains(@href,"__tn__=%2CP-R#?")]/ancestor::div[@aria-labelledby and @aria-describedby]'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_content_label":[^,]+,"(?:category|feed_story_category|story_cat)":"SPONSORED"[^\n]+"cursor":"[^}]+\}/' '{}' 'sponsored_auction_distance';
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_content_label":[^\n]+?"category":"SPONSORED"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance';
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/' '{}'
 www.facebook.com,web.facebook.com#$#skip-video 'video[playsinline]'; simulate-mouse-event 'xpath(.//div[@id="watch_feed"]//div[@class]/span/span[@dir="auto"][contains(.,"Skip") or contains(.,"Omitir") or contains(.,"Salta") or contains(.,"Ignorer") or contains(.,"Pomiń") or contains(.,"Pular")])$delay=0'
 www.freehao123.com##A[href*="/go/"]
@@ -17508,6 +17512,7 @@ zzzyk.com###Tinfo
 ||580bk.com/ceshi/
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
+||5891344.xn--j1amh^
 ||58avgo.*/AirADPic/
 ||58cdn.com.cn/*.gif$domain=mmff30.com
 ||58cdn.com.cn/ds/tgbrand/*.js
@@ -22167,6 +22172,7 @@ zzzyk.com###Tinfo
 ||fsjjrbz.cn^
 ||fsmhub.icu^
 ||fsnpbh.xyz^
+||fspddt.xyz^
 ||fstats.xyz^
 ||fszpzd.xyz^
 ||ft.com/a.html
@@ -23815,6 +23821,7 @@ zzzyk.com###Tinfo
 ||iptv444.com/ad-
 ||ipuswrg.cn^
 ||iqede.xyz^
+||iqgessh.icu^
 ||iqgoukn.cn^
 ||iqilu.com/getZone.php
 ||iqilu.com/static_files/multiads/
@@ -24763,6 +24770,7 @@ zzzyk.com###Tinfo
 ||kostool.cn/screenshot/
 ||koudaikeji.info^
 ||koudaiyundong.com^$third-party
+||koufqy.xyz^
 ||kovla.com/?$popup,domain=rapidgator.net
 ||kovvild.com^
 ||kowqd1.top^
@@ -26839,6 +26847,7 @@ zzzyk.com###Tinfo
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
 ||peer-stream.com/api/AdvertisementPlugin$object-subrequest,domain=schoener-fernsehen.com
+||pefufv.xyz^
 ||peise.net/Skin/js/global.
 ||pejrq.xyz^
 ||pelageforgers.com^
@@ -28179,6 +28188,7 @@ zzzyk.com###Tinfo
 ||shbzikj.cn^
 ||shbzjgs.cn^
 ||shbzjkj.cn^
+||shbzkgs.cn^
 ||shbzkkj.cn^
 ||shbzlkj.cn^
 ||shbzngs.cn^
@@ -28551,6 +28561,7 @@ zzzyk.com###Tinfo
 ||srootshare.com/otmyjs/
 ||srtb.msn.cn^
 ||srtlisb.top^
+||srutvncb.top^
 ||srwwce.xyz^
 ||srzpsbf.xyz^
 ||ss.ting55.com^
@@ -29746,6 +29757,7 @@ zzzyk.com###Tinfo
 ||uuiaoq.top^
 ||uuishsa.com^
 ||uujhveglpo.xyz^
+||uumnxiet.top^
 ||uunfybw.cn^
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
@@ -30078,6 +30090,7 @@ zzzyk.com###Tinfo
 ||vyriglq.cn^
 ||vyrpoe.cn^
 ||vyye.cn^
+||vzdkngmf.icu^
 ||vzeuvcdi.icu^
 ||vzmz.com/template/paody/aaaa/*0
 ||vzmz.com/template/paody/aaaa/357.js
