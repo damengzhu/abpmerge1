@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-15 16:12:37
-! Total count: 32034
+! Version: 2024-08-16 08:13:32
+! Total count: 32043
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12322,8 +12322,8 @@ m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined;
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
-m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
-m.youtube.com,music.youtube.com#$#json-prune 'adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer' 'adPlacements.0.adPlacementRenderer';
+m.youtube.com,music.youtube.com#$#json-prune 'adBreakHeartbeatParams adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
+m.youtube.com,music.youtube.com#$#json-prune 'adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
@@ -12532,7 +12532,6 @@ memes.tw##.nice-box
 memexie.com##div[style^="width:9"][style$="#C8E4F0"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
 mensxp.com##a[onclick][rel*="nofollow"]
-mephimhdc.net,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
 mercadolibre.*#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item shops__layout-item"]'
 mercadolibre.*#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[@class="ui-recommendations-carousel-wrapper-ref"][1]'
@@ -14711,6 +14710,7 @@ speedtest.cn##.summer_logo
 speedtest.cn##.ticket618_logo
 speedtest.cn##div[class^="speed-activity"][class$="wrap-index"]
 speedtest.cn##div[class^="speed-twoads"]
+sphimhdc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 spieletipps.de##[src^="http://www.spieletipps.de/sp/"]
 spieletipps.de##a[href^="http://www.spieletipps.de/sp/"]
 spinbot.com#@#.adsbygoogle
@@ -16148,7 +16148,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilacx.cc#$#abort-on-property-read adsRedirectPopups
+xoilaci.cc#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
@@ -21246,6 +21246,7 @@ zzzyk.com###Tinfo
 ||doujs05.xyz^
 ||doujs06.shop^
 ||doujs06.xyz^
+||doujs07.shop^
 ||doujs07.xyz^
 ||doujs08.xyz^
 ||doujs09.xyz^
@@ -23980,6 +23981,7 @@ zzzyk.com###Tinfo
 ||izalflh.cn^
 ||izcqyy.xyz^
 ||izmiua.xyz^
+||izqeyo.xyz^
 ||izqogb.cn^
 ||iztwp.com/images/
 ||izwmfmu.icu^
@@ -25213,6 +25215,7 @@ zzzyk.com###Tinfo
 ||ljhbhy.cn^
 ||ljnrjt.xyz^
 ||ljpbtjq.xyz^
+||ljzcawea.icu^
 ||lkancklanklcav.com^
 ||lkdybkwi.xyz^
 ||lkenflknkd.com^
@@ -25371,6 +25374,7 @@ zzzyk.com###Tinfo
 ||luckyorange.com^
 ||lulgef.icu^
 ||lulxzl.xyz^
+||lumnxiel.top^
 ||lunhua5.com/images/more.gif
 ||luofk.xyz^
 ||luogod.xyz^
@@ -26340,6 +26344,7 @@ zzzyk.com###Tinfo
 ||nmntgd.cn^
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
+||nmtcxz.xyz^
 ||nmxxvr.xyz^
 ||nndzsw.com^
 ||nndzsw1.com^
@@ -26370,6 +26375,7 @@ zzzyk.com###Tinfo
 ||novret.com/?clickid=
 ||nowhern.com^
 ||nownews.com/assets/js/setAds.js
+||npbtnl.xyz^
 ||npftmqv.cn^
 ||nphqw.cn^
 ||npjvgug.xyz^
@@ -28189,6 +28195,7 @@ zzzyk.com###Tinfo
 ||shbzdkj.cn^
 ||shbzegs.cn^
 ||shbzhkj.cn^
+||shbzigs.cn^
 ||shbzikj.cn^
 ||shbzjgs.cn^
 ||shbzjkj.cn^
@@ -29591,6 +29598,7 @@ zzzyk.com###Tinfo
 ||ugugct.xyz^
 ||ugvbsrbht.xyz^
 ||uhjxitn.xyz^
+||uhmcjdc.icu^
 ||uhwnrfu.cn^
 ||uhyhdrh.cn^
 ||ui8l2.xyz^
@@ -30394,6 +30402,7 @@ zzzyk.com###Tinfo
 ||wr.yiyouliao.com^
 ||wrpsouf.cn^
 ||wrtjojn.xyz^
+||wrutvnce.top^
 ||ws.wenshenxiu.com^
 ||wsacjdg.cn^
 ||wsadad.cn^
