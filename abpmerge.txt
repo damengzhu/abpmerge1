@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-20 08:14:01
-! Total count: 32081
+! Version: 2024-08-20 16:11:41
+! Total count: 32084
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9538,7 +9538,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.us,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.vc,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -10084,7 +10084,7 @@ go.10086.cn##.gaiPing
 go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
-gocphimii.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
+gocphimii.net,p.thoctv.com#$#abort-current-inline-script document.createElement script
 goctruyentranhvui2.com,mobiblog.club,truyenqqto.com#$#abort-current-inline-script WebAssembly globalThis
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
@@ -11966,6 +11966,7 @@ laohu8.com#@#.tweet-article
 laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
 laowang.vip###frameYl5IOf
+laowangblog.com##img[src^="https://laowangblog.com/"][src*="-ad"]
 laozuo.org##.s_ad125
 las.ac.cn###img
 latinblog.tv#$#abort-on-property-write _cpp
@@ -12326,8 +12327,8 @@ m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefin
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
 m.youtube.com,music.youtube.com#$#json-prune 'ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds ytInitialPlayerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
-m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
-m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAds undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
@@ -15697,7 +15698,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobi.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -19207,6 +19208,7 @@ zzzyk.com###Tinfo
 ||baijs06.xyz^
 ||baijs07.shop^
 ||baijs07.xyz^
+||baijs08.shop^
 ||baijs08.xyz^
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
@@ -21260,6 +21262,7 @@ zzzyk.com###Tinfo
 ||doujs06.xyz^
 ||doujs07.shop^
 ||doujs07.xyz^
+||doujs08.shop^
 ||doujs08.xyz^
 ||doujs09.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
