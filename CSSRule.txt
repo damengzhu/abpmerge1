@@ -8630,8 +8630,7 @@ m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
-m.youtube.com,music.youtube.com#$#json-prune 'adBreakHeartbeatParams adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
-m.youtube.com,music.youtube.com#$#json-prune 'adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
+m.youtube.com,music.youtube.com#$#json-prune 'ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds ytInitialPlayerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
