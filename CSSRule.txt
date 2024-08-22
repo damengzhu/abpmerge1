@@ -1057,6 +1057,7 @@
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
 ##A#floating-banner
+##A.gotoclick[adv_id]
 ##A.toptxt[target='_blank']
 ##A.wrapper_bg_c.hidden-xs
 ##ASIDE[id^='custom_html-']
@@ -1601,6 +1602,7 @@
 ##div#hengfu_wap_vod_xia > a
 ##div#liveline > l,div#liveline > ll
 ##div#main.main.read_page [id^="set_adds"]
+##div#notice_container > div.event-notice > div.modal
 ##div#nr_body.nr_all.c_nr div.show-app2
 ##div#page-back DIV.container.clearfix div > A > IMG[src]
 ##div#playlistbtn > A[href='/ht.html']
@@ -12133,6 +12135,7 @@ wp.pl,pudelek.pl#$#abort-on-property-read wpjscb
 wpjam.com###wpjam_blog_300x250_1
 wpmienphi.com###d7b2
 wpworld.pl,windowsowo.pl#@##adBanner
+wsj.com#$#hide-if-matches-xpath './/div[contains(@id,"AD")]/parent::div[1]'; hide-if-matches-xpath './/iframe[contains(@src,"ServeAds")]/parent::div/ancestor::div[3]'; hide-if-matches-xpath './/div/a[contains(@href,"ad.doubleclick")]/ancestor::div[contains(@class,"realtor-container") or @style="min-height:320px"]/parent::div';
 wuchajian.net##.UPAD
 wurst-client.tk#@#.adsbygoogle
 wuyong.fun##.content-area .adsbygoogle
