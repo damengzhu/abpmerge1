@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-22 16:12:06
-! Total count: 32113
+! Version: 2024-08-23 08:13:43
+! Total count: 32119
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7350,7 +7350,6 @@ baidu.com##.ad-platform-tips
 baidu.com##.ad-taishan
 baidu.com##.ad-vip-close
 baidu.com##.ad-vip-close-bottom
-baidu.com##.ad-wrapper
 baidu.com##.adLog
 baidu.com##.adTopImg
 baidu.com##.adver-one-item-wrapper
@@ -7498,6 +7497,7 @@ baidu.com##[class^='ball-wrapper']
 baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##[data-video-player='true']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
+baidu.com##div.ad-wrapper
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
 baidu.com##div[data-ad]
@@ -10123,6 +10123,7 @@ goodcome.com.tw,sporttery.cn###mask
 goodreturns.in#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@src,"boldsky.com") or contains(@src,"gizbot.com") or contains(@src,"oneindia.com") or contains(@src,"nativeplanet.com")or contains(@src,"drivespark.com") or contains(@src,"careerindia.com") or contains(@src,"filmibeat.com") or contains(@src,"mykhel.com")]/ancestor::div[@class="rightArt"][@data-content_id]'; hide-if-matches-xpath './/fw-storyblock[@channel][@playlist][@autoplay]/parent::div[@id][@style][1]';
 googleads.g.doubleclick.net###mys-wrapper
 goosedaily.com##.lightboxbnr
+goosedaily.com##div[class^="ad-area-"]
 gorodrabot.ru#$#abort-on-property-read Object.prototype.storeBlockSettings
 gotrip.hk##.oath-lrec-player
 gotrip.hk#?#._more_content_ > div._page_:has(> div.oath-lrec-player)
@@ -15216,7 +15217,6 @@ trafictube.ro#@#.widget-adv
 trakt.tv###huckster-desktop-bottom
 trakt.tv###huckster-desktop-top
 trakt.tv##.huckster-dfp
-trakt.tv##DIV[id$='-wrapper']
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
@@ -19817,6 +19817,7 @@ zzzyk.com###Tinfo
 ||buysellads.com^$third-party
 ||buzien.top^
 ||buzzhand.com/images/$subdocument
+||bvdenx.xyz^
 ||bvlang.com/ad/
 ||bvmqkla.de/files/photo/$third-party
 ||bvnjeqa.xyz^
@@ -21528,6 +21529,7 @@ zzzyk.com###Tinfo
 ||ea3w.com/pv.js
 ||eabids.com^
 ||eabvmue.cn^
+||eacdf119.cn^
 ||eacqihh.icu^
 ||eaezoi.xyz^
 ||eafyfsuh.net/Webservices/jsParseLinks.aspx$script,third-party
@@ -22627,6 +22629,7 @@ zzzyk.com###Tinfo
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js,domain=gamer.com.tw,important
 ||goole20.shop^
 ||goole24.shop^
+||goosedaily.com/advertise/
 ||goproxy.cc/api.php
 ||gorgon.youdao.com^
 ||gotadd.cn^
@@ -24666,6 +24669,7 @@ zzzyk.com###Tinfo
 ||kengi.top^
 ||ketlwsd.top^
 ||kewaishu.org/m-
+||kewrutd.top^
 ||key8.com/cache/www/banner_
 ||keydot.net^$third-party
 ||keyrun.cn^$third-party
@@ -29037,6 +29041,7 @@ zzzyk.com###Tinfo
 ||techspecndt.com^
 ||techug.com/aatb/
 ||teddync.net^
+||tehxzz.xyz^
 ||tekmhvbb.xyz^
 ||tekproxy.com/$popup,domain=turkdown.com
 ||templates_pc/default/scripts/chapter_bottom.js
@@ -30342,6 +30347,7 @@ zzzyk.com###Tinfo
 ||wfndponfd.com^
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
+||wfsmya.xyz^
 ||wftyehw.cn^
 ||wgidskie.top^
 ||wgoeisdnlk.com^
