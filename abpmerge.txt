@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-23 16:12:50
-! Total count: 32120
+! Version: 2024-08-24 08:11:47
+! Total count: 32131
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3515,6 +3515,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 123putlocker.club#$#abort-current-inline-script _0xbc13
 125.la##.forumlist_ad
 126.com,163.com##.gWel-promt
+131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
 131458.com###header_gg
 131458.com##.divGuanggao
 131458.com##.ulfooter_top
@@ -14645,6 +14646,7 @@ sohu.com###turn-ad
 sohu.com##.adB
 sohu.com##.adv_960
 sohu.com##.cbd-plate-bill.common-ad
+sohu.com##.f:has([assporiginsrc])
 sohu.com##.feedback
 sohu.com##.float-discuss-container
 sohu.com##.float-discuss-up.float-discuss-enter
@@ -14724,7 +14726,6 @@ speedtest.cn##.summer_logo
 speedtest.cn##.ticket618_logo
 speedtest.cn##div[class^="speed-activity"][class$="wrap-index"]
 speedtest.cn##div[class^="speed-twoads"]
-sphimhdc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 spieletipps.de##[src^="http://www.spieletipps.de/sp/"]
 spieletipps.de##a[href^="http://www.spieletipps.de/sp/"]
 spinbot.com#@#.adsbygoogle
@@ -15568,7 +15569,6 @@ vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gos
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 viet69.name,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbi.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qtv.pro,hentaizz.biz,animehay.in,heo69.moe,top1sex.club,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.vip,truyenvn.cam,cdnstream.sbs,javtiful.com,sexvn.tuoi69s.com,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,live.sexviet88.dev,sexnhe.biz,demo.14412882.com,damsextv.pro,ungtycomicsvip.net,xem.phim18c.org,vn.cliphot69.live,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
-vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/main/"]
 ville-ideale.com###antyp
 ville-ideale.com###enc
 ville-ideale.com###espace
@@ -16080,6 +16080,7 @@ xdf.cn##.footadv
 xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
+xemphimhdc.us,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xgan.cn##.bottom_fixed
@@ -16315,6 +16316,7 @@ yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 yii666.com##.widget-asst > p > a[href^="http"]:not([href*="yii666.com"])
 yimenapp.com,sssam.com##.widget_html_ad
 yimuhe.com###maincontent3 > div[style^="height"]
+ying35.com#?#table:-abp-has(a[href*="/fei-ad"])
 yingav.com##.spots
 yisu.com##.coupon-get-link
 yixingjia.com###wp > table[width="960"]
@@ -17138,6 +17140,7 @@ zzzyk.com###Tinfo
 ||250sy.cc/gg/
 ||2529.com^$third-party
 ||25662zubo23739.com^
+||256856.com/fei-ad/
 ||257298.a.siteapps.com/257298.js$script,domain=listamais.com.br
 ||258zw.com^$third-party
 ||268de.com/js/
@@ -18212,7 +18215,9 @@ zzzyk.com###Tinfo
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||ac1.pingpingw.com^
 ||acc.3gbizhi.com^
+||acdrewrf711.cn^
 ||acemof.top^
+||acewdf118.cn^
 ||acfun.cn/appSpreadContents/danmuad/
 ||acg.youku.com/webfile/*.jpg
 ||acgbase.com^$third-party
@@ -19222,6 +19227,7 @@ zzzyk.com###Tinfo
 ||baijs07.xyz^
 ||baijs08.shop^
 ||baijs08.xyz^
+||baijs09.shop^
 ||baike.com/iframeheightforad.
 ||baike.com/newtop/news.html
 ||baikebcs.bdimg.com/*banner*.jpg
@@ -19679,6 +19685,7 @@ zzzyk.com###Tinfo
 ||bofnhn.com^
 ||bogtrmjz.xyz^
 ||bohanhengtian.cn^
+||bojyvp.xyz^
 ||bolecdn.com/button/txt.js
 ||bollenhurkle.com^
 ||bonbonme.com/js/g1313166/
@@ -21278,6 +21285,7 @@ zzzyk.com###Tinfo
 ||doujs07.xyz^
 ||doujs08.shop^
 ||doujs08.xyz^
+||doujs09.shop^
 ||doujs09.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
 ||doupocangqiong1.com/js/ptwap.js
@@ -23888,6 +23896,7 @@ zzzyk.com###Tinfo
 ||iqveat.icu^
 ||irayedo.cn^
 ||irmbyu.xyz^
+||irqaci.xyz^
 ||irs03.com^
 ||irtefs.xyz^
 ||irtliso.top^
@@ -26330,6 +26339,7 @@ zzzyk.com###Tinfo
 ||nghdp.cn^
 ||ngishc.top^
 ||ngnxyub.cn^
+||nhbprf.xyz^
 ||nhcdn.cn^
 ||nhjkm.com^
 ||nhjsw.cn^
@@ -28182,6 +28192,7 @@ zzzyk.com###Tinfo
 ||setoniale.com^
 ||settings.luckyorange.net^
 ||seutop.icu^
+||sewrutb.top^
 ||sex141.com/img/banner/
 ||sex8.cc/plugin-e6-rebate.html
 ||sexad.net^$third-party
