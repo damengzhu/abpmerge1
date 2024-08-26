@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-26 08:14:24
-! Total count: 32147
+! Version: 2024-08-26 16:13:51
+! Total count: 32148
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1410,6 +1410,7 @@
 ##a[href*=".asd252466.com:"]
 ##a[href*=".asd257642.com:"]
 ##a[href*=".bilibilitool.site"]
+##a[href*=".bjty7.vip"]
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".bsy3.xyz"]
 ##a[href*=".bvftxy.com/"]
@@ -9768,7 +9769,8 @@ freelivesport.eu,cv55.eu,nowwatchtvlive.me,nowwatchtvlive.co,liguendirect.com,be
 freemulticoins.com#@#.adsbygoogle
 freenet.de#$#hide-if-matches-xpath '//div[@class]/img[@referrerpolicy]/ancestor::div[@class][1]'
 freeomovie.co.in,forums.socialmediagirls.com#$#abort-on-property-read decodeURIComponent
-freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com#$#override-property-read open noopFunc
+freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
+freeplayervideo.com,abysscdn.com,player-cdn.com,geoip.redirect-ads.com,playhydrax.com#$#override-property-read open noopFunc
 freescreens.ru,imgbase.ru,imgclick.ru,payforpic.ru,picclick.ru,picforall.ru#$#abort-current-inline-script JSON.parse
 freeskier.com###adb-enabled
 freeskier.com#@##adb-not-enabled
@@ -10092,8 +10094,8 @@ go.10086.cn##.gaiPing
 go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
-gocphimii.net,p.thoctv.com#$#abort-current-inline-script document.createElement script
-goctruyentranhvui2.com,mobiblog.club,truyenqqto.com#$#abort-current-inline-script WebAssembly globalThis
+gocphimiz.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
+goctruyentranhvui2.com,mobiblog.club,truyenqqto.com,sextop1.site#$#abort-current-inline-script WebAssembly globalThis
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
 gogi.in#@#.ad300-250
@@ -12950,7 +12952,7 @@ netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-co
 netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
-nettruyenhq.com#$#abort-current-inline-script Promise break;case
+nettruyenhq.com,clipss.viet69net.com#$#abort-current-inline-script Promise break;case
 nettruyenww.com#$#abort-on-property-read links
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read _pop
 netu.tv,hqq.tv,hqq.watch#$#abort-on-property-read ownerid
@@ -13599,8 +13601,6 @@ planetatvonlinehd.blogspot.com.ar#@#.adsantilok
 play/safety=^$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 play/safety=^$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 playallvideos.com,pron.co##.rmedia
-player-cdn.com###playback-fake
-player-cdn.com#$#override-property-read detectAdBlockAll noopFunc; override-property-read detectAdBlock noopFunc
 player.hboav.com##+js(set-constant, player.VastADPlugin, noopFunc)
 playerapp1.pw###divPanel
 playerapp1.pw##[id^="total"]
@@ -15706,7 +15706,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobi.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -28649,6 +28649,7 @@ zzzyk.com###Tinfo
 ||sq59.cn^
 ||sqevnrb.com^
 ||sqgnqc.xyz^
+||sqszcg.top^
 ||sravga.xyz^
 ||srbzw.cn^
 ||srldkqj.cn^
