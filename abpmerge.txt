@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-08-30 08:13:59
-! Total count: 32181
+! Version: 2024-08-30 16:12:17
+! Total count: 32193
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -903,6 +903,7 @@
 ##.player_ggw
 ##.player_pic_link > [src*='/player.gif']
 ##.playtop.col-pd
+##.playtopad
 ##.plc > .a_p
 ##.pop[style="right: 10px;"]
 ##.popup + .shortcuts-m-overlay
@@ -923,6 +924,7 @@
 ##.qzhfaaa
 ##.r-ad
 ##.r_ad
+##.read-container [onclick='goAppHtml();']
 ##.readerListADbox
 ##.readmidad
 ##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
@@ -4479,7 +4481,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 85wp.com###a3_diy2
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,iyxdm.org,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.org,iyxdm.one,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -9331,6 +9333,10 @@ emule-island.ru##.newsgroup
 emumax.com##.tbanner
 en8848.com.cn##.list_adv
 en8848.com.cn#@#.adcenter
+enews.tw##.divADFrame
+enews.tw##.gadRightP
+enews.tw##.newsCardForLeftAdGadCode
+enews.tw##div[id^="adFrame"]
 engadget.com###ldrBoardAd
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
 engvideo.net,hianime.to,hollymoviehd.cc,ling-online.net#$#abort-current-inline-script document.documentElement break;case
@@ -15705,7 +15711,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,x.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,3x.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -21079,6 +21085,7 @@ zzzyk.com###Tinfo
 ||dibaiweiai.com^
 ||dicancele.fun^
 ||diccsbhij.com^
+||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
 ||dididy.xyz^
 ||dieka888.com/app_ad/
 ||dieka888.com^
@@ -24837,6 +24844,7 @@ zzzyk.com###Tinfo
 ||knpkxgfp.xyz^
 ||knuinws.icu^
 ||ko2v.eiya.net^
+||koauq.top^
 ||kocpc.com.tw/adsbyso.js
 ||kodfn.xyz^
 ||kogtrmjz.xyz^
@@ -26000,6 +26008,7 @@ zzzyk.com###Tinfo
 ||molimao.top/ad*.js
 ||molimao.top/imp/upload/vod/*.gif
 ||molpmh.xyz^
+||molpmh.xyz|
 ||momoguoji.xyz^
 ||momoshop.com.tw/goods/GoodsDetail.jsp?$subdocument
 ||momoshop.com.tw/league/$domain=beephone.com.tw
@@ -26699,6 +26708,7 @@ zzzyk.com###Tinfo
 ||oodcd.cn/pan/config/history.
 ||ooejkd.xyz^
 ||oojjsa.com^
+||ooksq.top^
 ||oopej.xyz^
 ||ooqiu.com/ad_js/
 ||ooqwc.xyz^
@@ -29327,6 +29337,7 @@ zzzyk.com###Tinfo
 ||tonghuacun.com/js/uc.js
 ||tonghuaji.com^
 ||tongj.xilu.com^
+||tongji.trafficmanager.net/?
 ||tongji.xinmin.cn^
 ||tongjiniao.com^
 ||tongjiniao.com^$third-party
@@ -32059,6 +32070,7 @@ zzzyk.com###Tinfo
 ||zrblog.net/zanzhu/virpus.gif
 ||zrdga.cn^
 ||zrgbh6bm.icu^
+||zrkksps.icu^
 ||zrljzgs.xyz^
 ||zs.rzijjeb.cn^
 ||zsjjob.com/user/member/google.htm
