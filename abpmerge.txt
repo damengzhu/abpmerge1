@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-02 16:12:41
-! Total count: 32228
+! Version: 2024-09-03 08:13:51
+! Total count: 32236
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6956,7 +6956,7 @@ aliyun.com##.yq-ads-blog
 aliyun.com##.yq-main-left > a:first-child
 allboxing.ru#$#abort-current-inline-script document.querySelector open
 allegro.*##div[data-box-name^="ads"]
-allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"]' 'div>div ^^sh^^ span';
+allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
@@ -7036,7 +7036,8 @@ anisearch.com#@##advertise
 anisearch.com#@#.adsbygoogle
 anisubsia.com###de13
 anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
-aniwatch.to#$#abort-current-inline-script XMLHttpRequest
+aniwatch.*#$#abort-current-inline-script XMLHttpRequest
+aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
@@ -9146,7 +9147,7 @@ dzbhdm.net##a[href="https://www.dzbhdm.com"] > img
 dzbhdm.net##a[href="https://www.dzbhdm.com/"] > img
 dzbhdm.net##a[href^="https://www.dzbhdm.com/news/"] > img[src^="https://www.dzbhdm.com/"]
 dzbhdm.net##img[width="950"]
-dzen.ru#$#override-property-read Object.prototype.loadAd null
+dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dziennikwschodni.pl#@#.adholder
 dzwww.com##.popular
@@ -12721,7 +12722,6 @@ motocity.com.tw###rotator
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
-moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 moxing.net##.pic_txt_list
 moxing.net##a[marked][href*=".taobao.com"]
 mozhatu.com##a[target="_blank"] > img[alt="ad"]
@@ -14918,8 +14918,6 @@ t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
 t7z.cupid.iqiyi.com
-tagesspiegel.de#$#hide-if-matches-xpath './/img[@referrerpolicy="unsafe-url"]/parent::div[1]'
-tagesspiegel.de#$#override-property-read adblock_status undefined; abort-current-inline-script document.body.appendChild setTimeout;
 tahua.net###frameJjnBIp
 taian.com##.ggtp
 taihainet.com##.top-info
@@ -19537,6 +19535,7 @@ zzzyk.com###Tinfo
 ||bgdgpbpm.xyz^
 ||bgdizsay.icu^
 ||bgeg1.fun^
+||bghebf.xyz^
 ||bgidskiv.top^
 ||bh0874.online^
 ||bhaabom.cn^
@@ -20170,6 +20169,7 @@ zzzyk.com###Tinfo
 ||ceiuip.icu^
 ||cengqinglin.cn^
 ||centurys.net/promo_
+||cenyou.net/wp-content/uploads/1200-200.
 ||cergbtb36.shop^
 ||cergbwa97.shop^
 ||ceshi1.ink^
@@ -20688,6 +20688,7 @@ zzzyk.com###Tinfo
 ||ctfile.com/popjump.php?$popup
 ||cthbini.xyz^
 ||ctienlf.top^
+||ctkyom.xyz^
 ||ctlrarz.xyz^
 ||ctmrso.xyz^
 ||ctobsnssdk.com^
@@ -22407,6 +22408,7 @@ zzzyk.com###Tinfo
 ||gbfedashb4.fun^
 ||gbgedashb8.fun^
 ||gblxtlo.xyz^
+||gbndash2.fun^
 ||gbrtyhnsc.xyz^
 ||gbsp002.com^
 ||gca.sh/static/linkreplacer.js$script,third-party
@@ -22467,6 +22469,7 @@ zzzyk.com###Tinfo
 ||geotmt.com^$third-party
 ||gepush.com^
 ||gepvgv.icu^
+||geqshb22.fun^
 ||gesfdashb5.fun^
 ||getapplicationmy.info^
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
@@ -23695,6 +23698,7 @@ zzzyk.com###Tinfo
 ||iis7.com/ys/css2018/ggw.js
 ||iivruiz.cn^
 ||iiwoqm.xyz^
+||ijeujkdhnvb.top^
 ||ijfksdwe.xyz^
 ||ijgbuj.xyz^
 ||ijgocb.cn^
@@ -26459,6 +26463,7 @@ zzzyk.com###Tinfo
 ||nlhpxj.xyz^
 ||nljrvdh.xyz^
 ||nlrsbd.xyz^
+||nlrsrx.xyz^
 ||nltsvf.xyz^
 ||nlvgxr.xyz^
 ||nlvwdlnhfnnw.com^
@@ -29459,6 +29464,7 @@ zzzyk.com###Tinfo
 ||trslw.cn^
 ||trustedcpmrevenue.com^
 ||truthfulsensor.com^
+||trutvnci.top^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
 ||trvxbd.xyz^
@@ -31320,6 +31326,7 @@ zzzyk.com###Tinfo
 ||ycgfdf.cn^
 ||ycgkol.icu^
 ||ycgmnpp.icu^
+||yckamq.xyz^
 ||yclxrj.top^$third-party
 ||ycmgeb.icu^
 ||ycqbgm.xyz^
@@ -31696,6 +31703,7 @@ zzzyk.com###Tinfo
 ||yxptcrss.xyz^
 ||yxrxsov.xyz^
 ||yxvoud.com^
+||yxvyqyy.icu^
 ||yxzp.net/left.js
 ||yy17173.dtime.com^
 ||yy18.info/yyads/

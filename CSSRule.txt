@@ -3389,7 +3389,7 @@ anisearch.com#@##advertise
 anisearch.com#@#.adsbygoogle
 anisubsia.com###de13
 anitube.be,anitube.cx,anitube.cz#$#abort-on-property-write _pop
-aniwatch.to#$#abort-current-inline-script XMLHttpRequest
+aniwatch.*,moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 anjia365.com#@#.adv_bg
@@ -5480,7 +5480,7 @@ dzbhdm.net##a[href="https://www.dzbhdm.com"] > img
 dzbhdm.net##a[href="https://www.dzbhdm.com/"] > img
 dzbhdm.net##a[href^="https://www.dzbhdm.com/news/"] > img[src^="https://www.dzbhdm.com/"]
 dzbhdm.net##img[width="950"]
-dzen.ru#$#override-property-read Object.prototype.loadAd null
+dzen.ru#$#override-property-read Object.prototype.adFoxParameters null
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 dziennikwschodni.pl#@#.adholder
 dzwww.com##.popular
@@ -9001,7 +9001,6 @@ motocity.com.tw###rotator
 motorpage.ru#$#json-prune '0.BannerId 1.BannerId 2.BannerId 3.BannerId 4.BannerId 5.BannerId 6.BannerId'
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
-moviesjoy.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 moxing.net##.pic_txt_list
 moxing.net##a[marked][href*=".taobao.com"]
 mozhatu.com##a[target="_blank"] > img[alt="ad"]
@@ -11177,8 +11176,6 @@ t66y.com##.tpc_content.do_not_catch > span.f24
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { display: block !important; visibility: hidden !important; }
-tagesspiegel.de#$#hide-if-matches-xpath './/img[@referrerpolicy="unsafe-url"]/parent::div[1]'
-tagesspiegel.de#$#override-property-read adblock_status undefined; abort-current-inline-script document.body.appendChild setTimeout;
 tahua.net###frameJjnBIp
 taian.com##.ggtp
 taihainet.com##.top-info
