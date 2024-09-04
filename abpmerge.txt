@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-04 08:12:33
-! Total count: 32248
+! Version: 2024-09-04 16:12:53
+! Total count: 32254
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6956,7 +6956,7 @@ aliyun.com##.yq-ads-blog
 aliyun.com##.yq-main-left > a:first-child
 allboxing.ru#$#abort-current-inline-script document.querySelector open
 allegro.*##div[data-box-name^="ads"]
-allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name="container.department"], div[data-box-name="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
+allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-box-name^="Carousel card"],div[data-box-name^="department"], div[data-box-name="layout"], div[data-box-name^="container.department"], div[data-box-name^="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
 allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
@@ -7050,6 +7050,8 @@ anjuke.com##.list-item > .jx-sign
 anjuke.com##div[class$="-poster"]
 anjuke.com,sunofbeach.net##div[class$="-ad"]
 annuaire-bleu.net#@##adblocktest
+anny3805201314.pixnet.net###pilot
+anny3805201314.pixnet.net##.header_web_to_app__container
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
 anquan.org##.aside_profile_activity > div:first-child
 anquan.org##.gj_download
@@ -8734,6 +8736,7 @@ dajie.com##.register_layer
 dalipan.com##.hongbao-wrap
 dama.cz##[class*="ads-"]
 dama.cz##div[class^="sky-wrap"]
+damon624.pixnet.net##aside[data-advertisement="true"]
 dan-teng.top##.nav
 daniao.org##.sponsor
 daniao.org##.wow.fadeInUp.tg-site > a[rel="nofollow"] > img
@@ -10100,7 +10103,7 @@ go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
 gocmod.com#$#abort-current-inline-script jQuery popup
-gocphimiz.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
+gocphimz.org,p.thoctv.com#$#abort-current-inline-script document.createElement script
 goctruyentranhvui2.com,mobiblog.club,truyenqqto.com,sextop1.site#$#abort-current-inline-script WebAssembly globalThis
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
@@ -15715,7 +15718,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,link.ditnhau.cc,phim.sexhayvl.org,3x.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
+web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobi.ditnhau.cc,phim.sexhayvl.org,3x.clipsexhot.net,xx.sexkhongchemoi.com#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -15939,7 +15942,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@id="watch_feed
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node.sponsored_data.ad_id'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"] span'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//a[contains(@href,"__tn__=%2CP-R#?")]/ancestor::div[@aria-labelledby and @aria-describedby]'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?"SponsoredData","sponsored_data","ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/' '{}'
 www.facebook.com,web.facebook.com#$#skip-video 'video[playsinline]'; simulate-mouse-event 'xpath(.//div[@id="watch_feed"]//div[@class]/span/span[@dir="auto"][contains(.,"Skip") or contains(.,"Omitir") or contains(.,"Salta") or contains(.,"Ignorer") or contains(.,"Pomiń") or contains(.,"Pular")])$delay=0'
@@ -22422,6 +22425,7 @@ zzzyk.com###Tinfo
 ||gcqciiqk.com^
 ||gcssem.xyz^
 ||gcumgu.xyz^
+||gcvcdashb2.fun^
 ||gcvgedashb3.fun^
 ||gcw*.2liang.cn^
 ||gcwwsv.icu^
@@ -27087,6 +27091,7 @@ zzzyk.com###Tinfo
 ||pic.fengniao.com^
 ||pic.gongkong.com/UploadPic/gongkong/
 ||pic.pimg.tw/cwyuni/*.gif?v=$domain=cwyuni.tw
+||pic.pimg.tw/promo01/
 ||pic.shedsgs.cn/upload_*/upload/*.gif$domain=91porna.com
 ||pic.yupoo.com/showflash/
 ||pic1.dianshu119.com^
@@ -29903,6 +29908,7 @@ zzzyk.com###Tinfo
 ||urtlist.top^
 ||urtr4hrq.com^
 ||urueuah.cn^
+||urutvnct.top^
 ||usancit.top^
 ||uscatherineaa.com^
 ||usejj.makepolo.cn^
