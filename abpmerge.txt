@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-07 08:12:05
-! Total count: 32268
+! Version: 2024-09-07 16:11:01
+! Total count: 32276
+
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4109,6 +4110,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 423down.com##.entry > strong > p
 423down.com##.menu > .menu-item:nth-child(n+6)
 423down.com##.widget_d_banner
+423down.com##LI.item:has(.sticky-post)
 423down.com##a[href*="/go."] > img
 423down.com##h3 > a[href^="https://mp.weixin.qq.com/s/"][target="_blank"] > span
 423down.com##span > a > b
@@ -12527,6 +12529,7 @@ med66.com##.coach_pic
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 mediafire.com#$#abort-on-property-read UAParser
 medsci.cn##.adv1201
+mefcl.com##article:has(span.sticky-icon)
 megafilmeshd.net###ad1
 megafilmeshd.net###ad2
 megafilmeshd.net##[href^="http://click.afiliados.uol.com.br/Clique"]
@@ -19498,6 +19501,7 @@ zzzyk.com###Tinfo
 ||berrynicolo.com^
 ||berylnbb.com^
 ||besc.baidustatic.com^
+||besmeargleor.com^
 ||beste1.icu^
 ||bestpush.pconline.com.cn^
 ||bestqikan.com/static/js/swt.js
@@ -21096,6 +21100,7 @@ zzzyk.com###Tinfo
 ||dididy.xyz^
 ||dieka888.com/app_ad/
 ||dieka888.com^
+||diendh.xyz^
 ||difhil.icu^
 ||difmnd.xyz^
 ||dig.bdurl.net^
@@ -21385,6 +21390,7 @@ zzzyk.com###Tinfo
 ||ds.ruanwengfa.com^
 ||ds1.kaijia.com^
 ||dsa22.com^
+||dsaewew21.fun^
 ||dsbjdeh.cn^
 ||dsbqvj.xyz^
 ||dsbt7.com^
@@ -24051,6 +24057,7 @@ zzzyk.com###Tinfo
 ||itsmore.cn^$third-party
 ||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
+||itweepinbelltor.com^
 ||itwzlyq.com^
 ||itxinrou.com^
 ||itxueyuan.com/advPicture/
@@ -29655,6 +29662,7 @@ zzzyk.com###Tinfo
 ||tz659.com/js/chapte*.js
 ||tz659.com/js/html*.js
 ||tzcfyre.cn^
+||tzegilo.com^
 ||tzelzfnj.xyz^
 ||tzfdc.com.cn/userfiles/flash/
 ||tzfdc.com/Images/09/flv/flv_index.js
