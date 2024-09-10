@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-10 08:13:55
-! Total count: 32312
+! Version: 2024-09-10 16:12:13
+! Total count: 32331
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2143,6 +2143,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 .xyz/xling_*_*_*.js?
 .xyz/z/*/code.js$script,third-party
 .xyz:8009/11?x=
+.xyz:9002/*?x=$websocket,script,third-party
 .zone/ads/
 /*/*.add.*.add
 /*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
@@ -4661,8 +4662,10 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 :701/gd_xueersi/$popup
 :7701/load.cw.js
 :800*/d/*n=$script,third-party
+:800*/d/*n=$third-party
 :800*/d/*t=$script,third-party
 :800*/sc/*n=$script,third-party
+:800*/sc/*n=$third-party
 :8007/*/*?is_not=
 :8008/*/*?is_not=
 :8080/ad/
@@ -5747,6 +5750,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nowplayer.now.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.udn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=news.voicetv.co.th
 @@||imasdk.googleapis.com^$script,domain=slacker.com
@@ -9320,7 +9324,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.page-content-main-c
+element-plus.org##.page-content-main-d
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elle.com.hk##.tpc-container
@@ -17556,6 +17560,7 @@ zzzyk.com###Tinfo
 ||591hx.com/js/sy.js
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
+||595image.com^
 ||59gt.cn^
 ||5axxw.com/extends/ad/
 ||5brxi.icu^
@@ -17700,6 +17705,7 @@ zzzyk.com###Tinfo
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7160.com/js/tiaozhuanquanju.js
 ||7299tu75.cc^
+||73336zubo25326.com^
 ||73652253191.com^$third-party
 ||738atf.xyz^
 ||75.125.41.29:8080/
@@ -19285,6 +19291,7 @@ zzzyk.com###Tinfo
 ||baomidou.com/_astro/CheckAdBlocked.*.js
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
+||bapa215.top^
 ||barscreative1.com^
 ||bas.boshi.tv^
 ||batijian.com^
@@ -20845,6 +20852,7 @@ zzzyk.com###Tinfo
 ||dacedsfa.cn^
 ||dada.dadawm.cc^
 ||dada8828.com/js/aaa/
+||dadatuwz.com^
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
 ||dadbj.cn^
@@ -21053,6 +21061,7 @@ zzzyk.com###Tinfo
 ||dfkd.xyz^
 ||dflkndkzf.com^
 ||dfprljx.xyz^
+||dfqzah.xyz^
 ||dfryzh.xyz^
 ||dfsgppz.icu^
 ||dfsvhv88.com^
@@ -22264,6 +22273,7 @@ zzzyk.com###Tinfo
 ||frtnqps358.shop^
 ||frtnqpw837.shop^
 ||fsclzs.com/Ad_User/
+||fsdf45.fun^
 ||fsgiosi.com^
 ||fsgsfaf6.com^
 ||fsjjrbz.cn^
@@ -25115,6 +25125,7 @@ zzzyk.com###Tinfo
 ||labuladong.github.io/algo/pictures/ad/
 ||ladepeche.fr/taffrail^
 ||lady177.com^$popup
+||lafacw.xyz^
 ||lafirx.xyz^
 ||lagou.com/js/cooperation/
 ||lahoo.ca/api.php?mod=ad&
@@ -29573,8 +29584,13 @@ zzzyk.com###Tinfo
 ||ttzw.tv/tz/h.js
 ||ttzw.tv/tz/true.js
 ||tu.zx110.org^
+||tu1500919341.cc^
 ||tu2.taohuaimg.com^$third-party
 ||tu2024020388.com^
+||tu3168509469.cc^
+||tu3921276844.cc^
+||tu4038097360.cc^
+||tu6767109513.cc^
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tubeviral.com/visitScript/$script,third-party
@@ -29814,6 +29830,7 @@ zzzyk.com###Tinfo
 ||uewrutt.top^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
+||ufile.cc/pps.js
 ||ufile.cc^
 ||ufjslit.top^
 ||uflybplr.xyz^
@@ -30704,6 +30721,7 @@ zzzyk.com###Tinfo
 ||wwjtdjj.cn^
 ||wwkh9ku.xyz^
 ||www-dnwx-com.anquanbao.cn/pic
+||www.*yydstxt*/js/cdn.js
 ||www.16m.cc^
 ||www.200ps.com^
 ||www.288txt.com/da/*.js
@@ -31159,6 +31177,7 @@ zzzyk.com###Tinfo
 ||xn--gov-x68dy61b.shop^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
+||xn--mts60is5y5uk.com^
 ||xn--qrq171dxpq.com^
 ||xn--sssy7vrppusjyv0a.com^
 ||xn--swt207gl1hzc.net^
