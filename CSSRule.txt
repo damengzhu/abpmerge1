@@ -7044,6 +7044,7 @@ huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###template
+huya.com##+js(remove-attr, style, #banner[style*="background-image:url"])
 huya.com##+js(set-constant, adInfo, {})
 huya.com##.J_ad
 huya.com##.ab-content
@@ -7063,7 +7064,9 @@ huya.com##.tt[style*="1200px"]
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
+huya.com#$##banner > a ~ .banner-close { display: none !important; }
 huya.com#?#.item-pic:-abp-has(>.img-tips)
+huya.com#@##banner
 huya.com,av1868.com,edc1014070.pixnet.net###banner
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div

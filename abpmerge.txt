@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-11 08:13:47
-! Total count: 32093
+! Version: 2024-09-11 16:12:50
+! Total count: 32098
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10732,6 +10732,7 @@ huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###template
+huya.com##+js(remove-attr, style, #banner[style*="background-image:url"])
 huya.com##+js(set-constant, adInfo, {})
 huya.com##.J_ad
 huya.com##.ab-content
@@ -10751,7 +10752,9 @@ huya.com##.tt[style*="1200px"]
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##a[class^="Ad--"]
 huya.com##a[href^="https://wan."]
+huya.com#$##banner > a ~ .banner-close { display: none !important; }
 huya.com#?#.item-pic:-abp-has(>.img-tips)
+huya.com#@##banner
 huya.com,av1868.com,edc1014070.pixnet.net###banner
 hvhbbs.com##.block[data-widget-definition="SwiperWidget"]
 hvhbbs.com##.margin-add > style + div
@@ -17151,6 +17154,7 @@ zzzyk.com###Tinfo
 ||28hse.com/adsman/www/images/
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
+||28t1ya.cn^
 ||29spp.com/js/tj.js
 ||2btu.com/gg.jpg
 ||2ccc.com/images/WebXone.gif
@@ -23682,7 +23686,7 @@ zzzyk.com###Tinfo
 ||imanhuapi.com/style/js/mpmh.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=hoy.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=line.me
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=now.com,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=news.now.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,important,domain=linetv.tw
 ||imawwq.xyz^
 ||imedown.info/03.jpg
@@ -29967,6 +29971,7 @@ zzzyk.com###Tinfo
 ||vevhjj.xyz^
 ||vexilorath.com^
 ||vfchm.cyou^
+||vfdvdg67.fun^
 ||vfgajrk.cn^
 ||vfjsa6do.icu^
 ||vflorp.xyz^
