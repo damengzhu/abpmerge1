@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-13 08:13:45
-! Total count: 32116
+! Version: 2024-09-13 16:12:03
+! Total count: 32119
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2521,6 +2521,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 /common/ad.
 /common/ad_
 /common/cf/*$image,object,domain=~dahuaiji.com
+/common/cf/*$image,object,domain=~ztgame.com
 /conch/asset/js/atop.js
 /conch/asset/js/open-vb.
 /content.php?id=148&type=g|$xmlhttprequest
@@ -5741,7 +5742,6 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kktv.me
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=news.tvb.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nowplayer.now.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.udn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=news.voicetv.co.th
 @@||imasdk.googleapis.com^$script,domain=slacker.com
@@ -20865,6 +20865,7 @@ zzzyk.com###Tinfo
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
 ||dajiadu8.com/17.js
+||dajiadu8.com/17mb/script/ad.js
 ||dajiahao10.top^
 ||dajiahao17.top^
 ||dajiahao8.top^
@@ -22189,6 +22190,7 @@ zzzyk.com###Tinfo
 ||fq02.shop^
 ||fq03.shop^
 ||fq04.shop^
+||fq05.shop^
 ||fq67.top^
 ||fqbjzj.xyz^
 ||fqfclmlo.xyz^
@@ -24530,6 +24532,7 @@ zzzyk.com###Tinfo
 ||jy04.shop^
 ||jy05.shop^
 ||jy06.shop^
+||jy07.shop^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
 ||jy147a.com^
