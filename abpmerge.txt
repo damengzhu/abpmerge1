@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-16 08:14:47
-! Total count: 32140
+! Version: 2024-09-16 16:12:55
+! Total count: 32143
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9049,7 +9049,7 @@ dshangyan.com##.advHeader
 dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
-dualeotruyenpzi.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenceo.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
@@ -9199,6 +9199,7 @@ eastday.com##.ssy_left
 eastday.com##.ssy_right
 eastday.com##.video-mask
 eastday.com##.yxxf-warpper
+eastday.com##DIV.lfyinliu
 eastday.com##a[href*=".uugtv.com"]
 eastday.com##div[class^="double"]
 eastday.com#@##leftShare
@@ -15569,7 +15570,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.zip,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenpzi.com,yurineko.net,vlxyz.tube,javhay.my,phimsexhay669.pro,cliphot69.sbs,doctruyen3qtv.pro,ihentaiz.com,animehay.biz,heo69.moe,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.vip,truyenvn.mobi,cdnstream.sbs,javtiful.com,tuoi69.my,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,sexviet88.info,xmupvl.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.net,xem.phim18c.org,full.cliphot69.live,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.zip,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenceo.com,yurineko.net,vlxyz.tube,javhay.my,phimsexhay669.pro,cliphot69.sbs,doctruyen3qtv.pro,ihentaiz.com,animehay.biz,heo69.moe,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.vip,truyenvn.fit,cdnstream.sbs,javtiful.com,tuoi69.my,quatvn.baby,tenmientruyengi.net,topviet69.com,phim18hd.sex,sexviet88.info,xmupvl.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.net,xem.phim18c.org,full.cliphot69.live,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -16168,7 +16169,7 @@ xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
-xoilaca.cc#$#abort-on-property-read adsRedirectPopups
+xoilacr.cc#$#abort-on-property-read adsRedirectPopups
 xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 xpiaotian.net#@#.pagead
 xstud.org#$#abort-on-property-read _0xd07e
@@ -21475,6 +21476,7 @@ zzzyk.com###Tinfo
 ||dxg*.top/img/A*.js
 ||dxg0070.top/img/
 ||dxp.baidu.com^
+||dxqck.com^
 ||dxrnksm.xyz^
 ||dxsjcz.cn^
 ||dxwksqa.icu^
@@ -22723,6 +22725,7 @@ zzzyk.com###Tinfo
 ||gt.duowan.com^
 ||gt.yy.com^
 ||gtcqbnu.cn^
+||gtdf33.fun^
 ||gter.net/index.html?c=foot_js&type=footer.js
 ||gth112.com^
 ||gtimg.cn/mediastyle/event/20160306_music_live/img/skd.jpg
