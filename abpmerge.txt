@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-19 08:14:58
-! Total count: 32189
+! Version: 2024-09-19 16:12:56
+! Total count: 32194
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2257,7 +2257,6 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
-/acmsd/*
 /acmsd/*$script
 /ad-blocking-detector/*
 /ad-specs.
@@ -4574,7 +4573,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 99syy1.com##div[class^="ps_"]
 99tianji.com###banner_gg
 99tianji.com##.kf1
-9anime.to,9animetv.to,embed.scdn.to,gogoanime.sx,musichq.cc#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/; prevent-listener beforeunload ();
+9anime.to,9animetv.to,embed.scdn.to,gogoanime.sx,musichq.*#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/; prevent-listener beforeunload ();
 9anime.to,gogoanime.sx#$#abort-current-inline-script setTimeout String.fromCharCode
 9animetv.to#$#hide-if-matches-xpath './/div[@class][contains(@style,"pointer-events")]/ancestor-or-self::div[1]'; hide-if-matches-xpath './/a[@href][@rel]/img[@alt="AniLab"][@style]/ancestor-or-self::div[@class][contains(@style,"margin: 1rem")]';
 9game.cn###btInfo
@@ -9046,7 +9045,6 @@ dragon-guide.net##.container > .gutter:first-child
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 drive2.ru#$#replace-xhr-response 'blockId'
 drlink.online#$#abort-current-inline-script Math.random toString
-drudgereport.com#$#abort-on-property-write window.nitroAds;
 drv5.cn###xzq
 drvsky.com###bz_position
 drvsky.com##.zhongdian
@@ -10592,6 +10590,7 @@ hlgnet.com##.co_ad3
 hlgnet.com,sina.com##.tad
 hlouhopAes=no5$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 hlouhopAes=no5$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
+hmanga.world##+js(no-fetch-if, method:HEAD)
 hmitalk.com##div[class*="-pubadban "]
 hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
@@ -14308,7 +14307,7 @@ sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
 sexdiaryz.us#$#abort-on-property-read parseInt
 sexhd88.live#$#abort-current-inline-script document.addEventListener open
-sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
+sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 seznamzpravy.cz##[class^="dynamic_banner"]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
@@ -17736,6 +17735,7 @@ zzzyk.com###Tinfo
 ||77xsw.la/novel/js/pagebottom.js
 ||77xsw.la/novel/js/pagetop.js
 ||77zz7.com^
+||786yfvedhcbxjk.top^
 ||789peizi.com^
 ||78dfvv.com^
 ||78dm.net.cn/acg_201*_250
@@ -20907,6 +20907,7 @@ zzzyk.com###Tinfo
 ||danstr.fun^
 ||daqiso.com/ggbl/
 ||darren01.oss-cn-beijing.aliyuncs.com^
+||dasda64.fun^
 ||dasdujaosjdioad.com^
 ||daslethv.com^
 ||dasljfoq.top^
@@ -23642,6 +23643,7 @@ zzzyk.com###Tinfo
 ||ifeve.com/wp-content/uploads/*/WechatIMG
 ||ifeve.com/wp-content/uploads/*/cachekit
 ||ifewo.xyz^
+||iffobi.xyz^
 ||ifjslio.top^
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
@@ -24108,6 +24110,7 @@ zzzyk.com###Tinfo
 ||jasdz1.cn^
 ||jashautchord.com^
 ||jatfugios.com^
+||jauql.top^
 ||jav101.com/img5bbb0096f242f.gif
 ||jav777.cc/wp-content/themes/baskerville/js/jquery-ui
 ||javase.top^
@@ -25947,6 +25950,7 @@ zzzyk.com###Tinfo
 ||mm.jbzj.com^
 ||mm.nwell.net^
 ||mm.paizi.net^
+||mm.wxc.cc^
 ||mm111.net/api.php?mod=ad&
 ||mm28j.com^
 ||mm387.com/images/*.gif
@@ -26650,6 +26654,7 @@ zzzyk.com###Tinfo
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okforwardt.fun^
+||okiterk.top^
 ||okkkk.com^
 ||okmhmkjnm.com^
 ||okmhnd.com^

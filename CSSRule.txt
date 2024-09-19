@@ -3045,7 +3045,6 @@
 99syy1.com##div[class^="ps_"]
 99tianji.com###banner_gg
 99tianji.com##.kf1
-9anime.to,9animetv.to,embed.scdn.to,gogoanime.sx,musichq.cc#$#abort-on-property-write rotationUrl; override-property-read changeServer undefined; abort-current-inline-script document.createElement /script/; prevent-listener beforeunload ();
 9anime.to,gogoanime.sx#$#abort-current-inline-script setTimeout String.fromCharCode
 9animetv.to#$#hide-if-matches-xpath './/div[@class][contains(@style,"pointer-events")]/ancestor-or-self::div[1]'; hide-if-matches-xpath './/a[@href][@rel]/img[@alt="AniLab"][@style]/ancestor-or-self::div[@class][contains(@style,"margin: 1rem")]';
 9game.cn###btInfo
@@ -5377,7 +5376,6 @@ dragon-guide.net##.container > .gutter:first-child
 drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 drive2.ru#$#replace-xhr-response 'blockId'
 drlink.online#$#abort-current-inline-script Math.random toString
-drudgereport.com#$#abort-on-property-write window.nitroAds;
 drv5.cn###xzq
 drvsky.com###bz_position
 drvsky.com##.zhongdian
@@ -6903,6 +6901,7 @@ hl.cn###xf_right
 hlgnet.com##.co_ad
 hlgnet.com##.co_ad3
 hlgnet.com,sina.com##.tad
+hmanga.world##+js(no-fetch-if, method:HEAD)
 hmitalk.com##div[class*="-pubadban "]
 hmitalk.com##div[data-adid]
 hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-panel__header__title:contains(赞助商))
@@ -10577,7 +10576,7 @@ sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
 sexdiaryz.us#$#abort-on-property-read parseInt
 sexhd88.live#$#abort-current-inline-script document.addEventListener open
-sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
+sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 seznamzpravy.cz##[class^="dynamic_banner"]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
