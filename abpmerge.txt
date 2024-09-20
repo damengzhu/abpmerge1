@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-19 16:12:56
-! Total count: 32194
+! Version: 2024-09-20 08:14:10
+! Total count: 32212
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1209,6 +1209,7 @@
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##I.fa.fa-close
+##IFRAME[src^='/Banner/index.html'][allowfullscreen='true']
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
 ##IMG#diads
 ##IMG.cupfox[src$='gif']
@@ -1582,6 +1583,7 @@
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
+##body.conch-adjust-fix #component
 ##body.conch-hasone section > span > video
 ##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
@@ -9237,6 +9239,8 @@ ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@cla
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxMTk2"]'
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxODc1"]'
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; hide-if-matches-computed-xpath './/li//span[@class="s-item__sep"]/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]//div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; hide-if-matches-computed-xpath './/li//span/span[@aria-labelledby="{{}}"]/ancestor::li' './/div[@id="srp-river-main"]/div[@class="clipped"]/li//span[@aria-labelledby]/..' '/labelledby=\\"(s-.{7})\\"/'; race stop;
+ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[id^="placement"][style^="min-height:144px;"]>div' 'div[data-viewport]>div[id^="placement"][style]>div>span ^^sh^^ div'
+ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//ancestor::div[@data-viewdtls][@data-pushed-view="true"]'
 ebay.de#$#hide-if-matches-xpath './/a[@*[contains(.,"UnifiedRankingScenario")]]/div[@class]//img[@src]/ancestor-or-self::li[starts-with(@class,"s-item")]'
 ebay.fr#$#hide-if-matches-xpath './/a[@*]/img [@src][contains(@alt,"reconditionné")]/parent::a[@class="srp-banner"]/ancestor::li[contains(@class,"SIMPLE_IMAGE_BANNER")][1]'
 ebb.io##+js(set-constant, ga, noopFunc)
@@ -13001,6 +13005,9 @@ news.baidu.com##.swipe-backflow-container
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
+news.cnyes.com##.content-main > div:empty
+news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
 news.ebc.net.tw##.inline_text.has_marker
@@ -14972,7 +14979,7 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
-tctruyen.cc,abtruyen.net#$#abort-current-inline-script $ popup
+tctruyen.cc,abtruyenmoi.com#$#abort-current-inline-script $ popup
 teachinghand.com##.actions__wrapper
 tech.qq.com##.kjad2
 techbang.com###stickies
@@ -15940,12 +15947,14 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_fee
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@id="watch_feed"]//span[@class][@dir="auto"][contains(., "Sponsored") or contains(.,"Sponsorisé") or contains(.,"Sponsorizzato") or contains(.,"Publicidad") or contains(.,"Sponsorowane") or contains(.,"Anzeige") or contains(.,"Ge⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d") or contains(.,"Patrocinado") or contains(.,"स्पॉन्सर्ड")]/ancestor-or-self::a[@aria-label][@href][@role="link"][@target="_blank"]/parent::div[1]'
 www.facebook.com,web.facebook.com#$#json-prune 'data.scrubber.instream_video_ads' 'data.scrubber.post_roll_ad_break'
 www.facebook.com,web.facebook.com#$#json-prune 'instream_video_ad_breaks_comet'
-www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node require.0.3.0.__bbox.require.{}.3.1.__bbox.result.data.node.sponsored_data.ad_id'
+www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.ad_id'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"] span'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//a[contains(@href,"__tn__=%2CP-R#?")]/ancestor::div[@aria-labelledby and @aria-describedby]'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auct_dist'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(label_field_for_brs|brs_c)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'auction_dist_for_sponsored'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"new_label_for_brs[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'auction_dist_for_sponsored'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}' 'instream_video_ad_breaks_comet'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/' '{}'
 www.facebook.com,web.facebook.com#$#skip-video 'video[playsinline]'; simulate-mouse-event 'xpath(.//div[@id="watch_feed"]//div[@class]/span/span[@dir="auto"][contains(.,"Skip") or contains(.,"Omitir") or contains(.,"Salta") or contains(.,"Ignorer") or contains(.,"Pomiń") or contains(.,"Pular")])$delay=0'
@@ -19529,6 +19538,7 @@ zzzyk.com###Tinfo
 ||bfugui.com^
 ||bg04y.xyz^
 ||bg4nxu2u5t.com^
+||bgbg00.fun^
 ||bgbqfqwi.xyz^
 ||bgbyzv.xyz^
 ||bgdgpbpm.xyz^
@@ -19641,6 +19651,7 @@ zzzyk.com###Tinfo
 ||bl.emotionalworld.cn^
 ||blciqbk.icu^
 ||bleumzr.icu^
+||blinxmi.icu^
 ||bljlrl.xyz^
 ||blntzf.xyz^
 ||blog.sina.com.cn/lm/mini/
@@ -22304,6 +22315,7 @@ zzzyk.com###Tinfo
 ||fwhhcpj.xyz^
 ||fwlrv.cn^
 ||fwmbjrl.cn^
+||fwsfwef2.fun^
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
 ||fwzvlp.xyz^
@@ -23841,6 +23853,7 @@ zzzyk.com###Tinfo
 ||impservice*.yodao.com^
 ||impservice*.youdao.com^
 ||imtmp.net^
+||imusye.xyz^
 ||imwxsu.xyz^
 ||imxsvpxe.xyz^
 ||in-page-push.com^
@@ -25326,6 +25339,7 @@ zzzyk.com###Tinfo
 ||lkdybkwi.xyz^
 ||lkdyft.xyz^
 ||lkenflknkd.com^
+||lkiterl.top^
 ||lkmhn.com^
 ||lknhrnd.com^
 ||lknlkndasda.top^
@@ -27108,6 +27122,7 @@ zzzyk.com###Tinfo
 ||pixfuture.net^$third-party
 ||pixoctopus.pixnet.net^
 ||pj3f7.xyz^
+||pjaihds.icu^
 ||pjcijbv.icu^
 ||pjcn.org^$third-party
 ||pjdthz.xyz^
@@ -27151,6 +27166,7 @@ zzzyk.com###Tinfo
 ||pmtrkp.icu^
 ||pmvlwjy.cn^
 ||pmxalz.xyz^
+||pmzlnt.xyz^
 ||pnez8.rut6m.xyz^
 ||pnhp3x1.com^
 ||pniao99.com/statics/js/stat.js
@@ -30218,6 +30234,7 @@ zzzyk.com###Tinfo
 ||vuyibsm.icu^
 ||vv.nettierbrakier.com^
 ||vv1.pyhfxdm.cn^
+||vvadz.cc^
 ||vvdzucs.cn^
 ||vvfht.fun^
 ||vvttpn.xyz^
@@ -30533,6 +30550,7 @@ zzzyk.com###Tinfo
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
 ||wpoarjokzgi.com^
+||wpsbaq.xyz^
 ||wpuiuwh.icu^
 ||wpwpquse.cn^
 ||wqcfg.cn^
