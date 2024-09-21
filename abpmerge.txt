@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-21 08:12:26
-! Total count: 32231
+! Version: 2024-09-21 16:12:46
+! Total count: 32237
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8485,6 +8485,8 @@ cnxz.cn##[class*="-ad"]
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
 cnyes.com##a[data-proj-ga-category="FloatingBTN"]
+cnyes.com#?#.content-main > div:-abp-has(>div[id^="div-gpt-ad"])
+cnyes.com#?#article > div:-abp-has(>div[id^="div-gpt-ad"])
 cnys.tv##+js(set-constant, config.group, '')
 cnys.tv#@#.player-news > .news-list
 cnys.tv,4kya.com###player_pause
@@ -20744,6 +20746,7 @@ zzzyk.com###Tinfo
 ||cw9twua9.shop^
 ||cw9twuas.xyz^
 ||cwandlf.top^
+||cwaterf.top^
 ||cwc494e.cn^
 ||cwerilxf.top^
 ||cweriof.top^
@@ -24600,6 +24603,7 @@ zzzyk.com###Tinfo
 ||jy06.shop^
 ||jy07.shop^
 ||jy08.shop^
+||jy09.shop^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
 ||jy147a.com^
@@ -25027,6 +25031,7 @@ zzzyk.com###Tinfo
 ||kxmusic.cn/tc/js/script.js
 ||kxmusic.top/tc/js/script.js
 ||kxxfdwt.cn^
+||ky595images.com^
 ||ky891.oss-*.aliyuncs.com^
 ||kyaywy.xyz^
 ||kycxhgrp.xyz^
@@ -30044,6 +30049,7 @@ zzzyk.com###Tinfo
 ||vbnmjjda.xyz^
 ||vbutycp.cn^
 ||vbzrkme.xyz^
+||vcdfsf99.fun^
 ||vcjczwnc.xyz^
 ||vcnpnf.xyz^
 ||vcugbgu.cn^
