@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-23 16:12:41
-! Total count: 32272
+! Version: 2024-09-24 08:15:12
+! Total count: 32290
+
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1989,7 +1990,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 .gif$third-party,domain=m.7ktw.com
 .gif$third-party,domain=yasem5.com
 .gif|$domain=7mshipin.org|viidii.info
-.gif|$domain=8724ck.cc|aeahsck.cc
+.gif|$domain=8726ck.cc|8724ck.cc|aeahsck.cc
 .gif|$domain=99re.com
 .hk/ad2/
 .hk/ads/
@@ -3000,6 +3001,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 /proxy_top_banner_js.php
 /pubads.
 /public/imgbed/gg/*
+/public/tingshu/foor.js$~third-party
 /pushportal/PushPortalServer$popup,third-party
 /pushstart.aspx?$popup,third-party
 /pushstart.aspx|$subdocument,third-party
@@ -4487,8 +4489,8 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.org,iyxdm.one,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
-8724ck.cc##body > div[style] > a[href][target="_blank"]
-8724ck.cc,aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
+8726ck.cc,8724ck.cc##body > div[style] > a[href][target="_blank"]
+8726ck.cc,8724ck.cc,aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -7406,6 +7408,8 @@ baidu.com##.c-result[data-tpl="adv_wenku_fc"]
 baidu.com##.cbg-Ads
 baidu.com##.chunwan-wrapper
 baidu.com##.commentEmbed-backHomeCard
+baidu.com##.container:has(>.bottom-section>.item_voice_room[data-yysid])
+baidu.com##.container_frs:has(>.voice_room_card_frs[data-url*="yylive"])
 baidu.com##.content-adv
 baidu.com##.corneradv
 baidu.com##.cpc-adv-container
@@ -7534,6 +7538,8 @@ baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !importan
 baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
 baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
+baidu.com#?#.container:-abp-has(>.bottom-section>.item_voice_room[data-yysid])
+baidu.com#?#.container_frs:-abp-has(>.voice_room_card_frs[data-url*="yylive"])
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
@@ -13042,6 +13048,7 @@ news.mydrivers.com##.baidu_left
 news.mydrivers.com##div[style="width:1000px;padding-top:16px;padding-bottom:12px;"]
 news.mydrivers.com#?#.news_info > p:has(> a[href^="https://dt.mydrivers.com/"])
 news.mydrivers.com#?#.news_info > p:has(> strong:contains(双11红包活动推荐))
+news.owlting.com##.profit-wrapper
 news.pchome.com.tw##div[class^="adnewlist"]
 news.qq.com###focus-bar
 news.qq.com##.time > a[style="position: absolute;top: -8px;left: 296px;"]
@@ -21937,6 +21944,7 @@ zzzyk.com###Tinfo
 ||eweriow.top^
 ||ewfsef.com^
 ||ewjhic.cn^
+||ewqeq23.fun^
 ||ewqws55.fun^
 ||ewrwf.com^
 ||ewtyewj.com^
@@ -22287,6 +22295,7 @@ zzzyk.com###Tinfo
 ||freshmarketer.com^
 ||freychang.fun^
 ||frgf99.fun^
+||frgre33.fun^
 ||friendshipmale.com^
 ||frntzz.xyz^
 ||frontendjs.com/api/ad
@@ -23707,6 +23716,7 @@ zzzyk.com###Tinfo
 ||igexin.com^
 ||igidskio.top^
 ||igkgag.xyz^
+||ignslkgs.com^
 ||ignulsniy.com^
 ||igo.cn/liuxue/js/slideBar
 ||igo99.cn/js/freetest.js
@@ -23870,7 +23880,7 @@ zzzyk.com###Tinfo
 ||imgs.cc^$domain=fun1shot.com
 ||imgs.itxueyuan.com/advPicture/
 ||imgsicily.it/dist/sweetalert
-||imgsrc.baidu.com/*/pic/*.jpg$domain=8724ck.cc|aeahsck.cc
+||imgsrc.baidu.com/*/pic/*.jpg$domain=8726ck.cc|8724ck.cc|aeahsck.cc
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgtg.com^*.gif
 ||imgtp.com/2023/02/18/KkRe64ff.png
@@ -24199,6 +24209,7 @@ zzzyk.com###Tinfo
 ||jcjzikj.xyz^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcpecb.com^
+||jcppcmqa.icu^
 ||jcrb.com/ZYW$subdocument
 ||jcreje.com^
 ||jcwtml.icu^
@@ -24830,6 +24841,7 @@ zzzyk.com###Tinfo
 ||kivo.fun^
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
+||kiykfux.icu^
 ||kizu.org/adv-$popup
 ||kjacgk.xyz^
 ||kjanfwss.xyz^
@@ -26217,6 +26229,7 @@ zzzyk.com###Tinfo
 ||mvgucp.com^
 ||mvirkw.xyz^
 ||mvlkvth.cn^
+||mvmqos.xyz^
 ||mvng.cn^
 ||mvpqrydt.xyz^
 ||mvxz.com/bar3.js
@@ -26337,6 +26350,7 @@ zzzyk.com###Tinfo
 ||naajie.com/float.js
 ||naemailom.fun^
 ||nahgvfhs.xyz^
+||nahjzx.xyz^
 ||naiep.xyz^
 ||najnus.com^
 ||nanaimostarkle.com^
@@ -26508,6 +26522,7 @@ zzzyk.com###Tinfo
 ||nmgyllh.cn^
 ||nmkghh.com^
 ||nmm9i.xyz^
+||nmmemzi.icu^
 ||nmntgd.cn^
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
@@ -26791,6 +26806,7 @@ zzzyk.com###Tinfo
 ||operqr.top^
 ||ophwrh.cn^
 ||opjnbmk.com^
+||opkkjh.xyz^
 ||opnked*.xyz^
 ||oppnfev.xyz^
 ||oprece.xyz^
@@ -28954,6 +28970,7 @@ zzzyk.com###Tinfo
 ||sw9t.ml^
 ||swad332.fun^
 ||swarku.xyz^
+||swaterb.top^
 ||swerilxb.top^
 ||sweriob.top^
 ||swoole.com/_images/kundian
@@ -28976,6 +28993,7 @@ zzzyk.com###Tinfo
 ||sygmtz.com^
 ||syislob.top^
 ||syiwgwsqwngrdw.xyz^
+||sykzow.xyz^
 ||sylnk.net/adblock-detector.htm$subdocument
 ||synacast.com^
 ||syndication.exosrv.com/splash.php?$xmlhttprequest,redirect=noop.txt,important,domain=hboav.com
