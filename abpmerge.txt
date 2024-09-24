@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-24 08:15:12
-! Total count: 32290
+! Version: 2024-09-24 16:13:18
+! Total count: 32299
 
 ###ADtip
 ###Ad_windows
@@ -1989,8 +1989,9 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 .gif$third-party,domain=cl.wpio.xyz
 .gif$third-party,domain=m.7ktw.com
 .gif$third-party,domain=yasem5.com
+.gif|$domain=/87[0-9]{2}ck\.cc/
 .gif|$domain=7mshipin.org|viidii.info
-.gif|$domain=8726ck.cc|8724ck.cc|aeahsck.cc
+.gif|$domain=8727ck.cc|8726ck.cc|8724ck.cc
 .gif|$domain=99re.com
 .hk/ad2/
 .hk/ads/
@@ -4489,8 +4490,8 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.org,iyxdm.one,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
-8726ck.cc,8724ck.cc##body > div[style] > a[href][target="_blank"]
-8726ck.cc,8724ck.cc,aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
+8727ck.cc,8726ck.cc,8724ck.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
+8727ck.cc,8726ck.cc,8724ck.cc##body > div[style] > a[href][target="_blank"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -14395,7 +14396,7 @@ showtv.com.tw##.ask18
 showtv.com.tw##.side-AD
 shulink.com##.er_g
 shuowan.com##.side_flash
-sibnet.ru#$#abort-on-property-read rtpon false
+sibnet.ru#$#prevent-listener DOMContentLoaded /pon-/
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
 silisili.in##.play_ad
@@ -15032,7 +15033,7 @@ telexplorer.com.ar##div[class] > div[id] > main[class][id]
 template/m1938pc/ads/*.js
 tencent.com##.cdc-commercial-swiper
 terrikon.com#$#abort-on-property-read bdy
-tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
+tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
 tgbus.com###guide-download
 tgbus.com###neck_970
@@ -15975,7 +15976,7 @@ www.facebook.com,web.facebook.com#$#json-prune 'instream_video_ad_breaks_comet'
 www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.sponsored_data.ad_id'
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href="#"][role="link"]'; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrizato]{11}|[Sponsrowane]{11}|[Anzeig]{6}|[Patrocnado]{11}|स्पॉन्सर्ड/ 'div#watch_feed div[class^="_"]' 'a[href^="?__cft__"] span'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-has-and-matches-style * 'html:is([lang="pl"], [lang="it"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [7-8][0-9])/'; hide-if-has-and-matches-style * 'html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt"]) div[class]~* h3+div>div' 'div[class]~* div>div span>a[href="#"] span:first-of-type>span' '/./' '/(width: [5-6][0-9])/'; hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//a[contains(@href,"__tn__=%2CP-R#?")]/ancestor::div[@aria-labelledby and @aria-describedby]'; hide-if-contains /Anzeige|Sponsored|Sponsorlu|Gesponsert|Patrocinado|Sponsorisé|Commandité|Gesponsord|Sponsorowane|Publicidad|Sponsrad|Sponsoreret|Sponsoroitu|Sponsa|Sponset|Sponsorizat|Bersponsor|Ditaja|Sponsorizzato/ 'div[aria-describedby][aria-labelledby]' 'span[aria-labelledby] svg[style] * ^^svg^^ * ^^svg^^'; race stop;
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored)/'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs)[^\n]+?("SponsoredData"|"sponsored_data"),"ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored)/'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/' '{}' 'instream_video_ad_breaks_comet'
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/' '{}'
 www.facebook.com,web.facebook.com#$#skip-video 'video[playsinline]'; simulate-mouse-event 'xpath(.//div[@id="watch_feed"]//div[@class]/span/span[@dir="auto"][contains(.,"Skip") or contains(.,"Omitir") or contains(.,"Salta") or contains(.,"Ignorer") or contains(.,"Pomiń") or contains(.,"Pular")])$delay=0'
@@ -21940,6 +21941,7 @@ zzzyk.com###Tinfo
 ||evidhjksdtgyxrh.xyz^
 ||evscnfj.cn^
 ||evtubescms.phncdn.com^
+||ewaterw.top^
 ||ewerilxw.top^
 ||eweriow.top^
 ||ewfsef.com^
@@ -22265,6 +22267,7 @@ zzzyk.com###Tinfo
 ||fptdxkm.com^
 ||fpvdrzx.xyz^
 ||fq01.shop^
+||fq010.shop^
 ||fq02.shop^
 ||fq03.shop^
 ||fq04.shop^
@@ -23265,6 +23268,7 @@ zzzyk.com###Tinfo
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjgkr0g.xyz^
 ||hjjshv.xyz^
+||hjkhxfh.360doc.cn^
 ||hjkiguy.com^
 ||hjnjjcw.xyz^
 ||hjpqt.cn^
@@ -23589,6 +23593,7 @@ zzzyk.com###Tinfo
 ||iads.xinmin.cn^
 ||iadsdk.apple.com^
 ||iaindu.cn^
+||iaiqk.top^
 ||ianyshare.xyz^
 ||iaosua.com^
 ||iapolo.com/myjs/
@@ -23880,7 +23885,8 @@ zzzyk.com###Tinfo
 ||imgs.cc^$domain=fun1shot.com
 ||imgs.itxueyuan.com/advPicture/
 ||imgsicily.it/dist/sweetalert
-||imgsrc.baidu.com/*/pic/*.jpg$domain=8726ck.cc|8724ck.cc|aeahsck.cc
+||imgsrc.baidu.com/*/pic/*.jpg$domain=/87[0-9]{2}ck\.cc/
+||imgsrc.baidu.com/*/pic/*.jpg$domain=8727ck.cc|8726ck.cc|8724ck.cc
 ||imgsrc.baidu.com/tieba/pic/item/$image
 ||imgtg.com^*.gif
 ||imgtp.com/2023/02/18/KkRe64ff.png
@@ -24359,6 +24365,7 @@ zzzyk.com###Tinfo
 ||jisz9e.cn^
 ||jitapu.com/inc/adv
 ||jitashe.org/template/jitashe/image/bc/3
+||jiujy5r3.fun^
 ||jiumai88.com^
 ||jiupaozi.com^
 ||jiusudie.com^
@@ -24633,6 +24640,7 @@ zzzyk.com###Tinfo
 ||jxwqu.cn^
 ||jy.zhongxues.com^
 ||jy01.shop^
+||jy010.shop^
 ||jy04.shop^
 ||jy05.shop^
 ||jy06.shop^
@@ -24759,6 +24767,7 @@ zzzyk.com###Tinfo
 ||kdicked.top^
 ||kdipsumd.top^
 ||kdjdpyrt.xyz^
+||kdopag.xyz^
 ||kdoshbd.top^
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
