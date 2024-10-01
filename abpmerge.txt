@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-09-30 16:13:34
-! Total count: 32392
+! Version: 2024-10-01 08:14:57
+! Total count: 32405
 
 ###ADtip
 ###Ad_windows
@@ -4481,6 +4481,7 @@ $third-party,xmlhttprequest,websocket,domain=qiyoudy2.com|qiyoudy4.com
 8264.com##.ewmbox
 8264.com##.zhidemaibox
 83133.com##.tb-tanx
+83novel.com##.page-content > div[style]:has(> script[src="https://a.magsrv.com/ad-provider.js"])
 8591.com.tw###active_enter
 85lou.com###topwarning_7ree
 85novel.com,digitalocean.com,ikjzd.com#@#.ad-content
@@ -9267,7 +9268,7 @@ ebay.*#$#hide-if-contains-image '/^(?=(?:.*((61746528302e(.*)783d2[27]302)|(783d
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),":root")][contains(text(),"{{}}")]' './/script[contains(text(),"previousElementSibling")]' /b\\=.(.*?).\\=\\=/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby][contains(@style,"{{}}")]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),":root")]' /root\\{(.*?)\\:/
 ebay.*#$#hide-if-matches-computed-xpath './/style[contains(text(),"data:image")][contains(text(),"aria-labelledby")][contains(text(),"{{}}")]' './/style[contains(text(),"display: var")]' /span\.(.*?)\\s/; hide-if-matches-computed-xpath './/span[@class="s-item__sep"]/span[@aria-labelledby = "{{}}"]/ancestor::li' './/style[not(@style)][contains(text(),"data:image")][contains(text(),"aria-labelledby")]' /aria-labelledby=(.*?)\\]/
 ebay.*#$#hide-if-matches-computed-xpath '//span[@aria-hidden="true" and ancestor::span[@role="text" and @aria-labelledby = //div[@aria-hidden="true"]/span[@class="clipped"]/@id]][1]/ancestor::li[@data-viewport]' './*' '/./' 'auxclick'; hide-if-matches-computed-xpath './/head/style[1]' './*' '/./' load; simulate-mouse-event 'style[style]$event=auxclick,delay=500'
-ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][text()]/preceding::div[@aria-labelledby]/ancestor-or-self::div[@id][@style="min-height:1px"]/ancestor-or-self::div[@id][@style="min-height:144px;"]'
+ebay.*#$#hide-if-matches-xpath './/div[@aria-hidden="true"][@*[contains(name(),"data-")]]/ancestor::div[@aria-labelledby]/ancestor-or-self::div[@id][@style]/ancestor::div[contains(@id,"placement_10")]/parent::div[1]'
 ebay.*#$#hide-if-matches-xpath './/div[@class="srp-1p__ad-column"]/ancestor-or-self::a[@class="srp-1p__link"]'
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"sponsored-infotip")]/parent::div[starts-with(@class,"ads")]/parent::div[contains(@class,"ads")]/ancestor::div[@id and @aria-label="Advertisement"]'
 ebay.*#$#hide-if-matches-xpath './/section[@data-marko-key][@data-view]//ul[@class]//span[@aria-hidden="true"]/ancestor::div[contains(@class,"__bottom-one-row")]/preceding::a[contains(@data-track,"checksum")]/ancestor-or-self::li[contains(@class,"s-item")][1]'
@@ -9601,7 +9602,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet3.net,anh.moe,maclife.io,javfc2.net,hoctot.hocmai.vn,motchilltv.my,cdn2.blueskychilling.online,ohaha79xxx.site,fastscansz.com,herotruyen.com#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet3.net,anh.moe,maclife.io,xemphimjav.com,hoctot.hocmai.vn,motchilltv.my,cdn2.blueskychilling.online,ohaha79xxx.site,fastscansz.com,herotruyen.com#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -15988,6 +15989,7 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 www.facebook.com###pagelet_side_ads
 www.facebook.com##.egoOrganicColumn+*
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
+www.facebook.com,web.facebook.com#$#hide-if-canvas-contains /Sponsored|Sponsorizzato|Sponsorisé|Commandité|Anzeige|Gesponsord|Sponsorowane|Publicidad|Patrocinado|Sponzorováno|Hirdetés|Bersponsor|Ditaja|Sponsitud|贊助/ div[class="x1lliihq"];
 www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//*[name()="use" and substring(@*,2)=//*[name()="svg"]/*[name()="text"][text()[.="Anzeige" or .="Sponsored" or .="Sponsorlu" or .="Gesponsert" or .="Patrocinado" or .="Sponsorisé" or .="Commandité" or .="Gesponsord" or .="Sponsorowane" or .="Publicidad" or .="Sponsrad" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponsa" or .="Sponset" or .="Sponsorizat" or .="Bersponsor" or .="Ditaja" or .="Sponsorizzato" or .="May Sponsor" or .="Реклама" or .="贊助" or .="赞助内容" or .="ได้รับการสนับสนุน" or .="Được tài trợ" or .="प्रायोजित" or .="دارای پشتیبانی مالی" or .="تمويل شوي" or .="সৌজন্যে" or .="مُموَّل" or .="سپانسرڈ" or .="ממומן"]]/@id]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//span//div[@class][@role][contains(., "Anzeige") or contains(., "Sponsored") or contains(., "Sponsorlu") or contains(., "Gesponsert") or contains(., "Patrocinado") or contains(., "Sponsorisé") or contains(., "Commandité") or contains(., "Gesponsord") or contains(., "Sponsorowane") or contains(., "Publicidad") or contains(., "Sponsrad") or contains(., "Sponsoreret") or contains(., "Sponsoroitu") or contains(., "Sponsa") or contains(., "Sponset") or contains(., "Sponsorizat") or contains(., "Bersponsor") or contains(., "Ditaja") or contains(., "Sponsorizzato") or contains(., "May Sponsor") or contains(., "Реклама") or contains(., "贊助") or contains(., "赞助内容") or contains(., "ได้รับการสนับสนุน") or contains(., "Được tài trợ") or contains(., "प्रायोजित") or contains(., "دارای پشتیبانی مالی") or contains(., "تمويل شوي") or contains(., "সৌজন্যে") or contains(., "مُموَّل") or contains(., "سپانسرڈ") or contains(., "ממומן") or contains(., "Hirdetés") or contains(., "ಪ್ರಾಯೋಜಿತ")]/ancestor::div[@aria-labelledby and @aria-describedby]'
@@ -16453,6 +16455,8 @@ youxi.kugou.com###scrollUp
 yp868.com##iframe[src="/js/loading.html"]
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
 ys168.com##div[style="position: fixed; width: 200px; top: 330px; right: 20px; font-size: 9pt; text-align: left;"]
+ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
+ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
 yshw1.com###diynews_ad1
 ysxs8.vip##.ysxs8_w960_1
 ytbbs.com###dd1
@@ -17443,6 +17447,7 @@ zzzyk.com###Tinfo
 ||4gtv.tv/4gTV_OTT.json
 ||4hw.com.cn/js/common.js
 ||4imk5.online^
+||4ir17.icu^
 ||4jffu.cn^
 ||4k123.com/data/attachment/portal/201712/20/194208ao9pevvvg0xr0n1p.jpg
 ||4kfv18.cn^
@@ -18995,6 +19000,7 @@ zzzyk.com###Tinfo
 ||arts-cloud.net^
 ||arwh3scr.world^
 ||arwh4scr.xyz^
+||aryici.xyz^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as89de.top^
@@ -20472,6 +20478,7 @@ zzzyk.com###Tinfo
 ||ckmbig.xyz^
 ||ckqebz.cn^
 ||ckxxbao.com/templets/default/js/wx.js
+||ckyriuf.icu^
 ||clarin.com/static/CLAClarinV3/js/comprimido.js$script
 ||clarity.ms^
 ||classic.39health.com^
@@ -20816,6 +20823,7 @@ zzzyk.com###Tinfo
 ||cwssfg632.shop^
 ||cww.net.cn/include/show.asp?boardID=
 ||cww.net.cn/js/urdev.js
+||cwwgqu.xyz^
 ||cx0001.cn^
 ||cxapio.xyz^
 ||cxdcn9c.fjshxjs.cn^$third-party
@@ -23709,6 +23717,7 @@ zzzyk.com###Tinfo
 ||ielgag.top^
 ||iemwbu.cn^
 ||iephrenhq.com^
+||ieryt111.fun^
 ||ietlwso.top^
 ||ievvo.xyz^
 ||iewruto.top^
@@ -26920,6 +26929,7 @@ zzzyk.com###Tinfo
 ||oschina.net/promotion/
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/
+||oshaq.top^
 ||osisk.com^
 ||oslbahk.top^
 ||osmzym.xyz^
@@ -28126,6 +28136,7 @@ zzzyk.com###Tinfo
 ||rsvkfwth.xyz^
 ||rsvqlz.cn^
 ||rsvvfx.xyz^
+||rsyepnq.icu^
 ||rszkhn.xyz^
 ||rtborp.xyz^
 ||rte.fuoo1.top^
@@ -29678,6 +29689,7 @@ zzzyk.com###Tinfo
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
 ||tuwaqtjcood.com^
+||tuxpfiok.icu^
 ||tuyiyi.com/tuyiyi/m.js
 ||tuyyex.icu^
 ||tv.sohu.com/upload/csad/admaster/$image
@@ -31047,6 +31059,7 @@ zzzyk.com###Tinfo
 ||xemphimviet.net^$third-party
 ||xerhibx.cn^
 ||xerqfh.xyz^
+||xeryt111.fun^
 ||xevzdl.xyz^
 ||xeynozl.icu^
 ||xfgctg.com^
