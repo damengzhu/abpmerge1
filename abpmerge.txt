@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-02 08:14:37
-! Total count: 32434
+! Version: 2024-10-02 16:13:28
+! Total count: 32440
 
 ###ADtip
 ###Ad_windows
@@ -9209,7 +9209,7 @@ e-learn.cn###block-gyouer
 e-learn.cn###block-youyi
 e-learn.cn##.region-sidebar-second > .block:nth-child(2)
 e-sushi.fr#$#abort-on-property-read aEteAffiche
-e.mail.ru#$#override-property-read Object.prototype.shadowRoots undefined
+e.mail.ru#$#abort-on-property-read Element.prototype.attachShadow
 e0575.cn###main > div:first-child
 e0575.cn##a[href*="/showad.php?"]
 e0575.cn##div[id^="tid_"]
@@ -11024,7 +11024,8 @@ ifoodie.tw,avtb01.com,beauty321.com,aotu43.com,csdn.net##.ads
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href]/img[@loading="lazy"][@width="662" or @width="302" or @width="668" or @width="307"]/ancestor-or-self::div[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath '//aside/*[position() > 1]/descendant-or-self::a[@href and ((starts-with(@href, "https://igg-games.com/") and contains(@href, "flix")) or substring(@href, string-length(@href) - 3) = ".php" or (contains(@href, "/gameadult/") and substring(@href, string-length(@href) - 3) = ".php") or (starts-with(@href, "https://pcgamestorrents.") and contains(@href, "/cuskilo")))]/img/ancestor::div[1]';
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath '//div[contains(@class, "uk-margin-medium") or (@style="display: flex; justify-content: center")]/*[position() <= 2][.//img[starts-with(@src, "https://igg-games.com/wp-content/uploads/") or contains(@src, "https://pcgamestorrents.") ]]';
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -19172,6 +19173,7 @@ zzzyk.com###Tinfo
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
 ||ayybzhd.cn^
+||az697jylm.cc^
 ||azdxypf.cn^
 ||azenco.xyz^
 ||azhibo.*/media/aimg/*.gif
@@ -20462,7 +20464,7 @@ zzzyk.com###Tinfo
 ||ciislunar.com^
 ||cijianggun.com^
 ||cilimao.*/amaod/
-||ciliyinqing.top^
+||ciliyinqing.top^$third-party
 ||cimg.cnyes.cool/prod/adContent/$image
 ||cir-smart.baidu.com^
 ||cismqdx.icu^
@@ -22064,6 +22066,7 @@ zzzyk.com###Tinfo
 ||f2dsex1.com/public/fb*.png
 ||f4nfg.site^
 ||f53a.com^
+||f5zv2.icu^
 ||f77j6t2b.com^
 ||f77xv3.top^
 ||f780f.space^
@@ -29095,6 +29098,7 @@ zzzyk.com###Tinfo
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||swsegi.xyz^
+||swurserb.top^
 ||swwdke.xyz^
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||sx.fakjkwp.cn^
@@ -30264,6 +30268,7 @@ zzzyk.com###Tinfo
 ||venienceilo.fun^
 ||vercel.app/ads/
 ||verysadfun.com/assets/publish/jquery.*.js
+||veryt111.fun^
 ||vevhjj.xyz^
 ||vexilorath.com^
 ||vfchm.cyou^
@@ -32261,6 +32266,7 @@ zzzyk.com###Tinfo
 ||zndvfrl.xyz^
 ||znegiu.top^
 ||znhlxvb.xyz^
+||znnfzx.xyz^
 ||znnodl.xyz^
 ||znyjmbh.icu^
 ||zojyob.icu^
