@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-08 08:15:05
-! Total count: 32523
+! Version: 2024-10-08 16:13:49
+! Total count: 32525
 
 ###ADtip
 ###Ad_windows
@@ -1832,6 +1832,7 @@ $websocket,domain=wap.yushuwu.cloud
 .adserver.
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
+.baigh8eosmgie*.site^$script,third-party
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
@@ -12514,7 +12515,7 @@ manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
-manomano.*#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[class] span'
+manomano.*#$#hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div a[class]' 'span[class] span'; hide-if-matches-xpath './/span[@class]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::a[@class and @title]';
 manomano.*#$#hide-if-matches-xpath './/div[@data-testid="banner-spr-label"]/span[.="Sponsorisé" or .="Sponsored" or .="Gesponsert" or .="Sponsorizzato" or .="Patrocinado"]/ancestor::div[@data-testid="parent-middle-banner"]'; hide-if-contains-visible-text /Sponsorisé|Sponsored|Sponsorizzato|Gesponsert|Patrocinado/ 'div[class] div[data-testid$="banner"]' 'div[data-testid$="sponsoredLabel"] span';
 manomano.*#$#hide-if-matches-xpath './/img[@data-testid="HomepageSecondary"]/preceding::a[@data-testid="link"]/preceding::span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor-or-self::div[@class]/parent::div[1]'
 manomano.*#$#hide-if-matches-xpath './/span[.="Sponsorisé" or .="Patrocinado" or .="Sponsorizzato" or .="Sponsored" or .="Gesponsert"]/ancestor::div[@data-testid="parent-middle-banner"]'
@@ -30725,6 +30726,7 @@ zzzyk.com###Tinfo
 ||whdx.cc/js/
 ||whe0nqk.icu^
 ||whfpbc.99.com.cn^
+||whgh1.icu^
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||wholehk.com/atttuop.js
