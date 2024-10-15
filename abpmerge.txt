@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-14 16:12:55
-! Total count: 32609
+! Version: 2024-10-15 08:15:01
+! Total count: 32625
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2011,6 +2011,7 @@ $websocket,domain=wap.yushuwu.cloud
 .hk/ad2/
 .hk/ads/
 .hk/groupon/ads/
+.hongi7ie8owiie*.site^$script,third-party
 .html?$third-party,domain=m.800xs.net
 .html?ad_
 .html?android=hx*&_$csp=script-src
@@ -10182,7 +10183,7 @@ go4up.com##IMG[src="http://go4up.com/assets/img/downloadfr.gif"]
 go4up.com##[href^="http://go.ad2up.com/afu.php?id="]
 go4up.com##[href^="http://liversely.com/g4u?q="]
 gocmod.com#$#abort-current-inline-script jQuery popup
-goctruyentranhvui2.com,mobiblog.club,truyenqqto.com,sextop1.pw,hhvsub.com,sayhentai.one,live.sexviet88.xyz#$#abort-current-inline-script WebAssembly globalThis
+goctruyentranhvui2.com,mobiblog.club,truyenqqto.com,sextop1.mx,hhvsub.com,sayhentai.one,live.sexviet88.xyz#$#abort-current-inline-script WebAssembly globalThis
 godt.no##.adblock-info
 gofilmes.me#$#abort-on-property-read zfgformats
 gogi.in#@#.ad300-250
@@ -15339,7 +15340,7 @@ truyen2u.pro#$#abort-current-inline-script eval
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 truyengpt.com,viet69.rent#$#abort-current-inline-script Promise break;case
 truyensextv.com,phimtuoitho.site#$#abort-current-inline-script document.addEventListener popup
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.im,sieudamtv.vin,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoiz.me,sieudamtv.vin,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsdm39.com###ct > div > a[target="_blank"] > img
@@ -15427,6 +15428,7 @@ tvsou.com##.sogou-temp-show
 tvsou.com##.story_ad_android
 tvsou.com##.story_ad_content_footer
 tvsou.com##.story_ad_ios
+tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hide-if-matches-xpath './/div[@class][contains(@style, "pointer-events: none;")]/self::div[1]';
 tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
@@ -15664,8 +15666,9 @@ videowood.tv#@#.textAd
 videowood.tv#@#.text_ad
 videowood.tv#@#.text_ads
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
+vidhub.me,vidhub.tv##.adwap
 vidhub.me,vidhub.tv##.promolnk
-vidhub.me,vidhub.tv##.promote-link
+vidhub.me,vidhub.tv##.promotelink
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
@@ -16662,6 +16665,7 @@ zol.com.cn##.zol-eshop
 zol.com.cn##.zolapp
 zol.com.cn##A.dingtong.xianshiyouhui
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
+zombit.info###single-popup
 zoomtv.me###membz
 zoomtv.me##[class^="topad"]
 zorofiles.com###z662
@@ -17477,6 +17481,7 @@ zzzyk.com###Tinfo
 ||477zw.com/js/nzm
 ||484r.com/images/flash/gallery_
 ||4asfgyx.com^
+||4bfx0u.com^
 ||4btbtt.com/slade.js
 ||4d0m.cn^
 ||4dyt.cn^
@@ -20223,6 +20228,7 @@ zzzyk.com###Tinfo
 ||cdmgac.xyz^
 ||cdmjur.xyz^
 ||cdmnlxtu.xyz^
+||cdmyeg.xyz^
 ||cdn-data-cloud.com/history/
 ||cdn.7nsc.cn^
 ||cdn.9823df.com^
@@ -20869,6 +20875,7 @@ zzzyk.com###Tinfo
 ||cupfox.app^$third-party
 ||cupid.iqiyi.com/mixer?
 ||cupid.iqiyi.com/show2?
+||curesdf.top^
 ||cuvtnzv.cn^
 ||cvbjctqs.xyz^
 ||cvdfvdfv90.fun^
@@ -22073,6 +22080,7 @@ zzzyk.com###Tinfo
 ||everyonepiano.cn/Public/*0x
 ||evgaow.xyz^
 ||evidhjksdtgyxrh.xyz^
+||evkzqs.xyz^
 ||evscnfj.cn^
 ||evtubescms.phncdn.com^
 ||ewaterw.top^
@@ -23664,6 +23672,7 @@ zzzyk.com###Tinfo
 ||hupu.com/_dace.gif?
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
+||huresdu.top^
 ||huryds.top^
 ||hushenqiquan.com^
 ||huuocxu.icu^
@@ -23689,6 +23698,7 @@ zzzyk.com###Tinfo
 ||hwuogmusthxfpk.xyz^
 ||hwurseru.top^
 ||hwvwxerw.xyz^
+||hwymoyv.icu^
 ||hxbt.alading123.com^
 ||hxdwsfg.cn^
 ||hxhohd.xyz^
@@ -25291,6 +25301,7 @@ zzzyk.com###Tinfo
 ||kyuxym.xyz^
 ||kyxw9itc.xyz^
 ||kyxw9itv.club^
+||kyyfsw.xyz^
 ||kyzx.xyZ^
 ||kzaawga.icu^
 ||kzcayec.icu^
@@ -25645,6 +25656,7 @@ zzzyk.com###Tinfo
 ||lnhsjob.com^$third-party
 ||lnifdlal.top^
 ||lnlkmr.xyz^
+||lnnahh.xyz^
 ||lnnsvj.xyz^
 ||lnxkrd.xyz^
 ||lnzjlr.xyz^
@@ -26233,6 +26245,7 @@ zzzyk.com###Tinfo
 ||mm.paizi.net^
 ||mm.wxc.cc^
 ||mm111.net/api.php?mod=ad&
+||mm1qj.icu^
 ||mm28j.com^
 ||mm387.com/images/*.gif
 ||mm786.com^$popup,third-party
@@ -27722,11 +27735,13 @@ zzzyk.com###Tinfo
 ||qdwnlkdw.com^
 ||qdzilh.cn^
 ||qdzyspjx.com^
+||qebgcdcjr000.fun^
 ||qedgcxi.cn^
 ||qedvcu.com^
 ||qeedaa.xyz^
 ||qeeocy.xyz^
 ||qejjhnq.cn^
+||qekgcdcjr000.fun^
 ||qeogcdcjr000.fun^
 ||qeryt111.fun^
 ||qescaen.com^
@@ -30704,6 +30719,7 @@ zzzyk.com###Tinfo
 ||wcehko.juankh.com^
 ||wckkl.online^
 ||wclsylk.cn^
+||wcsmvmf.icu^
 ||wcv68kw.com^
 ||wd.adcolony.com^
 ||wdadad.cn
