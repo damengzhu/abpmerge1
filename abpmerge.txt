@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-18 08:14:22
-! Total count: 32664
+! Version: 2024-10-18 16:13:16
+! Total count: 32673
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12335,7 +12335,7 @@ lvmama.com###centerDialog
 lvmama.com###leftDialog
 lwgod.me###wp > a:first-child
 lxapk.com,lzacg.one##.custom-html-widget
-lxmanga.ink#$#abort-current-inline-script $ PopUnder
+lxmanga.online#$#abort-current-inline-script $ PopUnder
 lyd.com.cn##.ad:not(:nth-child(15))
 lysq.com###diyad
 lysq.com##div[id^="followDiv_"]
@@ -12519,6 +12519,8 @@ manhuadb.com#@#a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
 manhuagui.com##.w250 > .mt10[style="width: 300px; height: 250px;"]
+manhuagui.com##body > div[class]:has(.sitemaji_banner)
+manhuagui.com##div[class]:has(> .adsbyexoclick)
 manhuagui.com##div[style^="width: 300px; height: 250px;"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
@@ -15677,7 +15679,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.vip,animehay.my,heodam.moe,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.blog,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
+viet69.do,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenman.com,yurineko.net,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.my,doctruyen3qw.pro,ihentai.wiki,animehay.my,javhd.baby,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.me,truyenvn.wiki,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.online,phim18hd.sex,vn.sexviet88.xyz,mupdep.net,demo.14412882.com,damsextv.pro,ungtycomicsvip.org,xemphim18.vip,cliphot69.uno,hhtq5.vip,sexdiary.club#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -19789,6 +19791,7 @@ zzzyk.com###Tinfo
 ||bl.emotionalworld.cn^
 ||blasedustin.shop^
 ||blciqbk.icu^
+||bld.mobi^
 ||bleumzr.icu^
 ||blinxmi.icu^
 ||bljlrl.xyz^
@@ -25625,6 +25628,7 @@ zzzyk.com###Tinfo
 ||ljhbhy.cn^
 ||ljnrjt.xyz^
 ||ljpbtjq.xyz^
+||ljvc0.icu^
 ||ljzcawea.icu^
 ||lkancklanklcav.com^
 ||lkdybkwi.xyz^
@@ -26130,6 +26134,8 @@ zzzyk.com###Tinfo
 ||meryt111.fun^
 ||merywf.xyz^
 ||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
+||mesh.if.iqiyi.com/portal/lw/search/$removeparam=ad
+||mesh.if.iqiyi.com/portal/lw/search/$removeparam=adExt
 ||mestrip.com/widgets/
 ||metal-bitcoin.com/js/scroll1.js$script
 ||metal-bitcoin.com/libs/check.js$script
@@ -28037,6 +28043,7 @@ zzzyk.com###Tinfo
 ||qunar.com/vataframe/b.html?
 ||qunlove.com^*.gif
 ||quqtone.cn^
+||quresdy.top^
 ||qurl.f.360.cn^
 ||qusfybj.cn^
 ||quspga.xyz^
@@ -31219,6 +31226,7 @@ zzzyk.com###Tinfo
 ||x.yaohuo.me^
 ||x08jd.top^
 ||x0or8.icu^
+||x0y081e.xyz^
 ||x1.52aoteman.com^
 ||x1.kantu.com^
 ||x1fyw.icu^
@@ -32047,6 +32055,7 @@ zzzyk.com###Tinfo
 ||ytoeyxz.icu^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
+||ytroytj33.fun^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvrtrya.xyz^
 ||ytvwhbejc.com^
