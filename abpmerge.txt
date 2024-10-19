@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-18 16:13:16
-! Total count: 32673
+! Version: 2024-10-19 08:13:10
+! Total count: 32685
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1829,6 +1829,7 @@ $websocket,domain=wap.yushuwu.cloud
 -bobo_recommend_
 .*gcdcjr000.fun/$script,third-party
 .*ryt111.fun/$script,third-party
+.*troytj33.fun/$script,third-party
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif
 .728x90.
@@ -10002,6 +10003,7 @@ gamefy.cn,sitv.com.cn##div[style="float:left; width:220px; padding-top:15px;"]
 gameinns.com##a[url^="/api/ads?"]
 gamejolt.com###ima-ad-container
 gamejolt.com###pre-roll-ad-container
+gamekult.com#$#hide-if-matches-xpath './/a[@href][@data-track-category="native-ad"]/preceding::span[@target="js-modal-ad"]/parent::li[@data-id][1]'
 gamemei.com###ft_right_bottom
 gamer.com.tw###BH-bigbanner
 gamer.com.tw###flyRightBox
@@ -11161,9 +11163,9 @@ inforesist.org##aside[id="text-44"]
 inforesist.org#$#abort-on-property-read alert
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sored_"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style'img[alt*="spohnserd"]' 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style'img[aria-label="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredLabel"]' article[id] 'article[id] *'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sored_"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style'img[alt*="spohnserd"]' 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style'img[aria-label="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"] 'div#item_details>div>div' 'div#item_details>div>divdiv>h2+div'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' article[id] 'article[id] *'; race stop;
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,".svg")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
@@ -12150,7 +12152,6 @@ lenovo.com.cn##div[id^="ad_bd_"] + .ad-mark
 lenovo.com.cn#?#.imgNewText:-abp-has(>footer>.info>.source:-abp-contains(/广告/))
 lenovo.com.cn#?#a:-abp-has(>div>p:-abp-contains(广告))
 leo.org##div.floatRight.p.tf1
-lephoceen.fr,supertoinette.com#$#abort-on-property-read setInterval
 lesbian8.com#$#hide-if-matches-xpath './/div[contains(@class,"pignr")]/div[@style][contains(text(),"Advertisement")]/parent::div/ancestor::div[contains(@class,"sponsor") or contains(@class,"table")][1]'; hide-if-matches-xpath './/span[contains(text(),"Ad")]/ancestor::div[contains(@class,"pignr")][1]';
 letsjerk.tv#?#div[class*="widget_text"]:-abp-has(>div:-abp-contains(Advertisement))
 letsplay.tw##.entry-content > div[style="min-width: 300px; min-height:300px;"]
@@ -14983,6 +14984,7 @@ supertaste.tvbs.com.tw###ad_m_bottom
 supertaste.tvbs.com.tw###lightbox--ad
 supertaste.tvbs.com.tw##.ad_m_block
 supertaste.tvbs.com.tw##.ad_m_top
+supertoinette.com#$#abort-on-property-read setInterval
 supjav.com##.asg-overlay
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
 susongbbs.com#@#.ad_banner
@@ -16833,6 +16835,7 @@ zzzyk.com###Tinfo
 ||09jsufg.com^
 ||0a2b3c4d5e.com^
 ||0efghij.com^
+||0er7pc8.xyz^
 ||0ghijkl.com^
 ||0h3uds.com^
 ||0hq6k.site^
@@ -18579,6 +18582,7 @@ zzzyk.com###Tinfo
 ||aeletheacd.com^
 ||aerbgpn.xyz^
 ||aeryt111.fun^
+||aesxgy.xyz^
 ||aeucyo.xyz^
 ||aeyyck.xyz^
 ||af29.com/banner/
@@ -19887,6 +19891,7 @@ zzzyk.com###Tinfo
 ||botcm.com/zhanqun/
 ||botnrr.xyz^
 ||botonmetaverse.com^
+||bovytl.xyz^
 ||bowoprf.icu^
 ||bowvses.icu^
 ||boxmp4.com/js/foot.js
@@ -20387,6 +20392,7 @@ zzzyk.com###Tinfo
 ||chbheroq.xyz^
 ||chdbits.co/pic/*-*.gif
 ||chdezxp.com^
+||checbox.cc^
 ||cheda1.icu^
 ||cheda10.icu^
 ||cheda7.icu^
@@ -23620,6 +23626,7 @@ zzzyk.com###Tinfo
 ||hthvc.icu^
 ||htienlu.top^
 ||htjrlm.com^
+||htoetgk.icu^
 ||htqyy.com/kiees/
 ||htrurb.xyz^
 ||htseca.top^
@@ -27655,6 +27662,7 @@ zzzyk.com###Tinfo
 ||pungar85.shop^
 ||pupudy.com/images/wxrj.gif
 ||puqer.cn^
+||purple-hit.com^$third-party,script,domain=patriotnationpress.com
 ||push.m.youku.com^
 ||push.zhanzhang.baidu.com/push.js
 ||pushpad.xyz^$third-party,domain=xnxx-sexfilme.com
@@ -29909,6 +29917,7 @@ zzzyk.com###Tinfo
 ||tuplzt.xyz^
 ||tupwiwm.com^
 ||tuqnwz.icu^
+||turesdi.top^
 ||tushwjp.icu^
 ||tusmangas.net/ama/oso.js$script
 ||tutudao.net/js/gg*.js
@@ -30127,6 +30136,7 @@ zzzyk.com###Tinfo
 ||ueumdkc.cn^
 ||uewrutt.top^
 ||ufgg55.xyz^
+||ufiidvv.icu^
 ||ufile.cc/crod.js
 ||ufile.cc/pps.js
 ||ufile.cc^
@@ -30747,6 +30757,7 @@ zzzyk.com###Tinfo
 ||wbiao.cn/common/newsbannerAds/
 ||wbiao.co/src2/js/expand/fudong/
 ||wbkaqly.cn^
+||wbkdsg.xyz^
 ||wbnbocz.xyz^
 ||wbnlwyj.xyz^
 ||wbqqo.com^$third-party
@@ -31945,6 +31956,7 @@ zzzyk.com###Tinfo
 ||ymauoo.xyz^
 ||ymcnsq.xyz^
 ||ymdxl.com^
+||ymewsu.xyz^
 ||ymgjc.com^
 ||ymhyw6.lol^
 ||ymima360.com^
