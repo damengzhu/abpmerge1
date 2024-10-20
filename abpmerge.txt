@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-20 08:13:59
-! Total count: 32696
+! Version: 2024-10-20 16:12:02
+! Total count: 32698
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2214,7 +2214,6 @@ $websocket,domain=wap.yushuwu.cloud
 /9CCMSPC/images/*.gif
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
 /?bn=*&ord=$xmlhttprequest,script,domain=expres.cz|idnes.cz
-/?placementName=$script,redirect=noop.js,domain=vpslog.net
 /A-Tian/Tian-*-good.js
 /A-duoduo/Add-
 /AD2v1.1.js
@@ -14466,6 +14465,7 @@ shuowan.com##.side_flash
 sibnet.ru#$#prevent-listener DOMContentLoaded /pon-/
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
+siguyy.tv##[style^="position: fixed;"]
 silisili.in##.play_ad
 silkengirl.net##a[href*="jaxofuna.com"]
 silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
@@ -18121,6 +18121,7 @@ zzzyk.com###Tinfo
 ||999xx999kk.com^
 ||999zz333zz.com^
 ||99danji.com/kchtml/
+||99jinpin.com^
 ||99kubo.tv/static/img/adsfree.png
 ||99lb.net/index_files/*/970
 ||99meiju.tv/js/tj.js
@@ -25808,6 +25809,7 @@ zzzyk.com###Tinfo
 ||luolikong.net^$third-party
 ||luolitang.com^$third-party
 ||luoyangjinmeii.com^
+||luresdl.top^
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
 ||lutouwang.net/static/js/mv_ad
 ||lutrbr.xyz^
