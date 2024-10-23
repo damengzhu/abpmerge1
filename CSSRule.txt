@@ -7587,10 +7587,12 @@ iqilu.com##.gg580140
 iqilu.com##.kejie_ad
 iqiyi.com###adflash
 iqiyi.com###jingdongArea
+iqiyi.com###middle_banner_ad_bk
 iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
 iqiyi.com##.ad-seed
@@ -7631,6 +7633,7 @@ iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 iqiyi.com##.rm-site-main
+iqiyi.com##.search-item-box:has(> a > div > div[class^="ad_adContent"])
 iqiyi.com##.site-title_right
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
 iqiyi.com##.video-ad_left
@@ -7642,6 +7645,8 @@ iqiyi.com##a[href*=".oppo."]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
 iqiyi.com##a[id^="100000"]
 iqiyi.com##div[class^="ad-piclist-"]
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a > div[class^="video-list-item_"] > div[class*="video-list-item_"] > img[src*="/ADS/"])
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a[href*="&creative_id="][href*="&impress_id="])
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) > div > img
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_threeImagePages"] > a[href^="http"]:not([href*="iqiyi.com"]) > div

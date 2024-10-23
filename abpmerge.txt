@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-23 08:14:32
-! Total count: 32766
+! Version: 2024-10-23 16:13:37
+! Total count: 32774
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -11314,10 +11314,12 @@ iqilu.com##.gg580140
 iqilu.com##.kejie_ad
 iqiyi.com###adflash
 iqiyi.com###jingdongArea
+iqiyi.com###middle_banner_ad_bk
 iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##+js(json-prune, data.template.tabs.*.blocks.*.data.data.videos.*.ad)
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
 iqiyi.com##.ad-seed
@@ -11358,6 +11360,7 @@ iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
 iqiyi.com##.rm-site-main
+iqiyi.com##.search-item-box:has(> a > div > div[class^="ad_adContent"])
 iqiyi.com##.site-title_right
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
 iqiyi.com##.video-ad_left
@@ -11369,6 +11372,8 @@ iqiyi.com##a[href*=".oppo."]
 iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
 iqiyi.com##a[id^="100000"]
 iqiyi.com##div[class^="ad-piclist-"]
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a > div[class^="video-list-item_"] > div[class*="video-list-item_"] > img[src*="/ADS/"])
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a[href*="&creative_id="][href*="&impress_id="])
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) > div > img
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_threeImagePages"] > a[href^="http"]:not([href*="iqiyi.com"]) > div
@@ -26194,8 +26199,10 @@ zzzyk.com###Tinfo
 ||meryt111.fun^
 ||merywf.xyz^
 ||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
-||mesh.if.iqiyi.com/portal/lw/search/$removeparam=ad
-||mesh.if.iqiyi.com/portal/lw/search/$removeparam=adExt
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=adExt
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=adExt
 ||mestrip.com/widgets/
 ||metal-bitcoin.com/js/scroll1.js$script
 ||metal-bitcoin.com/libs/check.js$script
@@ -27429,6 +27436,7 @@ zzzyk.com###Tinfo
 ||pfqwbqs.cn^
 ||pftdmmc.xyz^
 ||pg-ad-b1.nosdn.127.net^
+||pg2bk.icu^
 ||pgcciax.icu^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pgdt.ugdtimg.com^
