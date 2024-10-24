@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-24 08:14:42
-! Total count: 32782
+! Version: 2024-10-24 16:12:57
+! Total count: 32787
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3770,6 +3770,8 @@ $websocket,domain=wap.yushuwu.cloud
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##+js(no-setTimeout-if, float_right > div)
+18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
+18comic.vip##.tab-content + .row:has(> div[class] > div[class] > .group-notice)
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
 18h.animezilla.com###manga-bottom
 18h.avmimi.com##body > p[align="center"]:first-child
@@ -12353,7 +12355,7 @@ lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 luogu.com.cn##.side > div:last-child:not([class])
 luoqiuzw.com##DIV[id^="a-loading-"]
 luotphim1.net,mephim.ink,cdnwp.icu#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
-luotphimtv.cam,p.thoctv.com#$#abort-current-inline-script document.createElement script
+luotphimq.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
 lusongsong.com###main > center
 luyixian.cn##.side
 lvmama.com###centerDialog
@@ -12986,6 +12988,7 @@ mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 mydrivers.com###a_showhotnews_list_dia
 mydrivers.com###div_newsyjgg
 mydrivers.com###recommend
+mydrivers.com###track-link
 mydrivers.com##.HSsRgYjfNn
 mydrivers.com##.ab
 mydrivers.com##.adds
@@ -23745,6 +23748,7 @@ zzzyk.com###Tinfo
 ||huohuo.huamuwo.com^
 ||huohuo1.huamuwo.com^$domain=knowbaike.com
 ||huoju.asia^
+||huoxun.wang^
 ||huoyan.tv/yb/img/*.gif
 ||hupu.com/_dace.gif?
 ||hupu.com^*/stream.js
@@ -27841,6 +27845,7 @@ zzzyk.com###Tinfo
 ||qdickey.top^
 ||qdipsumy.top^
 ||qdjimo.com/html/js/
+||qdjsiyt.icu^
 ||qdlzj.cn^
 ||qdoeki.xyz^
 ||qdoshby.top^
