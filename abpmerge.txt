@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-26 16:11:57
-! Total count: 32766
+! Version: 2024-10-27 08:13:57
+! Total count: 32776
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -899,6 +899,7 @@
 ##.player-box > [style*="flex; justify"]
 ##.player-info > .recommend-two.recommend-list
 ##.player-news > .news-list
+##.player-rm > a[href*=".umtrack.com"]
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm-float
 ##.player-tt-rm.rm-list
@@ -1830,6 +1831,7 @@ $websocket,domain=wap.yushuwu.cloud
 -90mh-gg.
 -bobo_recommend_
 .*gcdcjr000.fun/$script,third-party
+.*ouvxli*.top/$script,third-party
 .*roytj33.fun/$script,third-party
 .*ryt111.fun/$script,third-party
 .189.gd^*.html?p=$popup,third-party
@@ -5208,6 +5210,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||allmedia-d.openx.net/w/1.0/jstag$script,domain=allmusic.com
 @@||alluc.ee/js/ads.js$script
 @@||alotof.software/wp-content/themes/alosss/ads.php
+@@||am730.com.hk^$generichide
 @@||amazonaws.com/socketloop/show_ads_epmads.js$script,domain=socketloop.com
 @@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
 @@||aminhaconta.xl.pt/Campaigns/Blockers/ads.html$subdocument,document=record.xl.pt
@@ -6857,7 +6860,6 @@ afzhan.com,cngold.org,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
 afzhan.com,iqiyi.com##.rightAdv
 agarserv.com#@##adsense
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
-age.tv,agedm.org##.ratio-16x9:style(--bs-aspect-ratio:0!important)
 agentm.tw##.gpt-ad-slot
 agirls.aotter.net##.row > div.col.hidden a[href^="https://supr.one/"]
 agmov.com,huaban.com##.promotion
@@ -16452,6 +16454,8 @@ yicai.com##.gg_pop
 yicai.com##.gg_preview
 yiche.com##.focusad-box-s
 yiche.com##.focusbglink-s
+yiche.com##.h-gd-box
+yiche.com##.h-middle-gd-box
 yiche.com##.right-box > div[class^="ad"]
 yiche.com##div[class*="-adv"]
 yiche.com##div[class*="words-ad"]
@@ -17757,6 +17761,7 @@ zzzyk.com###Tinfo
 ||5y9nfpes.52pk.com^
 ||5ydj.com/images/banner/
 ||5z0d3.cyou^
+||5z2oy.icu^
 ||6.cn/coop/pub/getRand.php?
 ||60.190.139.164^
 ||600km.com/template/*/ad/
@@ -18031,6 +18036,7 @@ zzzyk.com###Tinfo
 ||8feichai.com^
 ||8g0j.cn^
 ||8gp4wjq3.com^
+||8gra3.icu^
 ||8h93.com^*.gif
 ||8jkx.com^
 ||8jrc564wtf.cn^$third-party
@@ -27995,6 +28001,7 @@ zzzyk.com###Tinfo
 ||qnieo.fun^
 ||qnifdlay.top^
 ||qnipkk.xyz^
+||qnqtgyq.icu^
 ||qnsb.com/news/index.php?m=poster&
 ||qnvod.net/qna/
 ||qoilbsfwqd.net^
@@ -28048,6 +28055,7 @@ zzzyk.com###Tinfo
 ||qqdata.ab.qq.com^
 ||qqddc.com/homeSite/news/js/newsad.js
 ||qqfby.com^*ad
+||qqganna.icu^
 ||qqhuhu.com^
 ||qqjia.com/dan.js
 ||qqjia.com/images/ad
@@ -28970,6 +28978,7 @@ zzzyk.com###Tinfo
 ||sjgsgy.xyz^
 ||sjkdbvjksbv.com^
 ||sjks88.com/templets/default/js/mydata4.js
+||sjluuom.icu^
 ||sjmlmk.xyz^
 ||sjoy7rq.cn^
 ||sjyhead.icu^
@@ -30324,6 +30333,7 @@ zzzyk.com###Tinfo
 ||uopsawxst.cyou^
 ||uoqsxdpx.xyz^
 ||uosxdmk.cn^
+||uouvxlit.top^
 ||up.qingdaonews.com/up/$object,script
 ||upailek.cn^
 ||upaiyun.com/system/post_tile/new_web_banners/
