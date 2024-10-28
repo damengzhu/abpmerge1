@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-10-27 16:12:13
-! Total count: 32778
+! Version: 2024-10-28 08:15:24
+! Total count: 32781
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3181,10 +3181,6 @@ $websocket,domain=wap.yushuwu.cloud
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
-/timer.aspx?481$script,~third-party
-/timer.aspx?568$script,~third-party
-/timer.aspx?649$script,~third-party
-/timer.aspx?719$script,~third-party
 /tisai/img/nav_980_90.gif
 /tm00738.bj.
 /to8to_pc/chunks/slide_and_popup_
@@ -4895,6 +4891,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@/js/adblock-advertisement.js$script,domain=imged.pl
 @@/js/adblock.js$script,domain=20minutes.fr|20min.fr
 @@/js/ads.$domain=shrinklink.co
+@@/js/adview_*.adsbygoogle.js$~third-party,domain=letv8.cc|zhibo1.cc
 @@/js/detect-blocked-ads.js$script,domain=prod.static.cardinals.clubs.nfl.com
 @@/js/lib/controllers/Leitor/Leitor.min.js$script,domain=mangasproject.com.br|mangasproject.net.br|mangas.zlx.com.br
 @@/js/prebid-$domain=huruwo.top
@@ -17176,6 +17173,7 @@ zzzyk.com###Tinfo
 ||1dfsdfg.com^
 ||1f84e33459.com^
 ||1fzjy.xyz^
+||1gmzo.icu^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1iohncj.xyz^
 ||1iuybpo.com^
@@ -18123,6 +18121,7 @@ zzzyk.com###Tinfo
 ||9669.cn/ipdat/duilian/
 ||9669.cn/jsam/play_
 ||9669.com^$script,third-party
+||96696612.top^
 ||96kso.online^
 ||973.com/static/js/pccom.js
 ||97ii.cn^
@@ -20868,6 +20867,7 @@ zzzyk.com###Tinfo
 ||criteo.net^$third-party
 ||crjeymh.cn^
 ||crlsxny.xyz^
+||crnmyrk.icu^
 ||crobotb.com^
 ||crodfnyk.xyz^
 ||crpoy.com^$domain=pronpic.org
@@ -23347,6 +23347,7 @@ zzzyk.com###Tinfo
 ||hdtvtuga.com/canais/jsads.js$script
 ||hdvkl.cn^
 ||hdxjtl.xyz^
+||hdxyj.icu^
 ||hdypw.com^
 ||hdzb6.cc^
 ||head4.net/ad_
@@ -24697,6 +24698,7 @@ zzzyk.com###Tinfo
 ||jollytestpartying.com^
 ||jomwihn.cn^
 ||jothvz.xyz^
+||jowkkzx.icu^
 ||jozbun.icu^
 ||jp.twww.sbs^
 ||jp1357.com/addon/
@@ -27000,6 +27002,7 @@ zzzyk.com###Tinfo
 ||obl74.xyz^
 ||obmphi.xyz^
 ||obturex.com^
+||obwnaon.icu^
 ||obzthda.xyz^
 ||oceanbot-steam.com^
 ||ocggec.xyz^
@@ -32655,6 +32658,7 @@ zzzyk.com###Tinfo
 ||zrgbh6bm.icu^
 ||zrkksps.icu^
 ||zrljzgs.xyz^
+||zrtlvtsy.xyz^
 ||zs.rzijjeb.cn^
 ||zsjjob.com/user/member/google.htm
 ||zsjpi.cn^
@@ -32750,7 +32754,6 @@ zzzyk.com###Tinfo
 ~05wang.com##.a_pr
 ~125.la,~52pojie.cn,~chysg.com,~hawkaoe.net,~yswc1.xyz##.a_mu
 ~3igames.mail.ru,~account.mail.ru,~auto.mail.ru,~biz.mail.ru,~blog.mail.ru,~bonus.mail.ru,~calendar.mail.ru,~calls.mail.ru,~cloud.mail.ru,~connect.mail.ru,~deti.mail.ru,~dobro.mail.ru,~e.mail.ru,~finance.mail.ru,~gibdd.mail.ru,~health.mail.ru,~help.mail.ru,~hi-tech.mail.ru,~horo.mail.ru,~kino.mail.ru,~lady.mail.ru,~love.mail.ru,mail.ru,~mcs.mail.ru,~minigames.mail.ru,~mmminigames.mail.ru,~my.mail.ru,~news.mail.ru,~notes.mail.ru,~o2.mail.ru,~octavius.mail.ru,~okminigames.mail.ru,~otvet.mail.ru,~pets.mail.ru,~player-smotri.mail.ru,~pogoda.mail.ru,~todo.mail.ru,~top.mail.ru,~touch.mail.ru,~tv.mail.ru,~vfokuse.mail.ru,~widgets.mail.ru#$#replace-fetch-response 'result' '.' 'banner'
-~88liu.com,~briian.com##.a_pt
 ~95504.net##.ggbox
 ~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
 ~alicdn.com##a > img[width="960"][src*=".alicdn.com/"]
