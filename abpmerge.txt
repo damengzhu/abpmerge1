@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-02 08:13:35
-! Total count: 32840
+! Version: 2024-11-02 16:12:08
+! Total count: 32836
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -621,6 +621,7 @@
 ##.banner-ad-section
 ##.banner-cctv-A2
 ##.banner-cctv-Topping
+##.banner-container-h5 > .banner_all_wrap
 ##.bdyp-sygg-ul
 ##.before_playing_cctv.yc
 ##.below_ads
@@ -3225,7 +3226,6 @@ $websocket,domain=wap.yushuwu.cloud
 /vj2/*$third-party
 /vj3/*$third-party
 /vjioew-1322507002.
-/vmind.qqvideo.tc.qq.com^
 /vs.aspx?action=c&vs1=$third-party
 /vtdd/*$script
 /vtdt/*$script
@@ -6307,7 +6307,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||qq.com/cgi-bin/*?sid=ads
 @@||qq.com/html/mms/nativeads/game_rank.html
 @@||qq.com/json/mms/nativeads/rankings.json
-@@||qq.com/proxyhttp
 @@||qq.com/server/website/CommWebGameSelect_ad.js
 @@||qq.com/web201602/js/ad.js
 @@||qq.com^*?ADTAG=
@@ -6761,7 +6760,6 @@ _naimabdd_
 _popAds.
 _rony.js$script,third-party
 _tm11_pmt_
-_vmind.qqvideo.tc.qq.com^
 _yad_jsonp_
 a-i-l-s-a.com,buscodepto.com##div[style^="position: fixed;"]
 a9vg.com###guide-download
@@ -14164,6 +14162,8 @@ quora.com##span[data-nosnippet="true"] .q-box.dom_annotate_ad_image_ad
 quora.com##span[data-nosnippet="true"] .q-box.dom_annotate_ad_video_ad
 quora.com##span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
 quora.com##span[data-nosnippet="true"] .q-box.qu-pt--medium
+qushucheng.com##.appguide-wrap
+qushucheng.com##.hotcmd-wp
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
 qyer.com###zpui-head-ad
@@ -16054,11 +16054,6 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 ww1.xemphimhdc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 www.1069gay.net###shortcut
-www.123pan.com##.advBanner
-www.123pan.com##.banner-container-h5
-www.123pan.com##.btn_reward.hide
-www.123pan.com##DIV.app-adv-container
-www.123pan.com##IMG[src*='-banner'],.ant-carousel
 www.15yan.com##.tooltip
 www.163.com##.float-bar
 www.17173.com##.pn-tg
@@ -21135,8 +21130,7 @@ zzzyk.com###Tinfo
 ||daishudy.com/js/g/b_1.js
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
-||dajiadu8.com/17.js
-||dajiadu8.com/17mb/script/ad*.js
+||dajiadu8.com/17mb/script/gg.
 ||dajiahao10.top^
 ||dajiahao17.top^
 ||dajiahao8.top^
@@ -28055,6 +28049,7 @@ zzzyk.com###Tinfo
 ||qnvod.net/qna/
 ||qoilbsfwqd.net^
 ||qonkdwwf.net^
+||qoubliy.top^
 ||qouvxliy.top^
 ||qowfknlds.net^
 ||qpawkw.xyz^
@@ -28177,6 +28172,7 @@ zzzyk.com###Tinfo
 ||quresdy.top^
 ||qurl.f.360.cn^
 ||qusfybj.cn^
+||qushucheng.com/public/
 ||quspga.xyz^
 ||qusrow.xyz^
 ||qutyan8848.com^
