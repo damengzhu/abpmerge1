@@ -4083,6 +4083,7 @@ bilibili.com##.ad-f
 bilibili.com##.ad-report
 bilibili.com##.ad-report, .ad-floor
 bilibili.com##.adblock-tips
+bilibili.com##.adcard-content
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
@@ -8018,6 +8019,7 @@ jq22.com##.fdad
 jqzb.com.cn##.zk_xf
 jr22.xyz###hd + .wp
 jr22.xyz##a[href^="ad."]
+jr31.xyz##body > div.wp > div.wp > a[rel="nofollow"] > img
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
 jrj.com.cn##.jrj-ad
@@ -9510,6 +9512,7 @@ nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
+nodeloc.com##.AfruxWidgets-sideNavAlt
 nongjitong.com##.ad_sms
 noon.com##div[data-slotid*="hero_banner_"]
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -12393,6 +12396,9 @@ www.yizhibo.com##.register_guide
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##ytlr-banner-cta-renderer
+www.youtube.com#$#override-property-read Object.prototype.playerResponse.adSlots undefined
+www.youtube.com#$#override-property-read Object.prototype.playerResponse.playerAds undefined
+www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
