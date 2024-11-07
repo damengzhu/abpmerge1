@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-07 08:14:19
-! Total count: 32877
+! Version: 2024-11-07 16:13:16
+! Total count: 32881
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1792,7 +1792,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $script,third-party,denyallow=cdn.yinghuazy.xyz|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,_____,domain=mxdm.xyz
 $script,third-party,denyallow=fastlycdn.com|doodcdn.co|intensedebate.com|vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|69xx03608.xyz|wap.yushuwu.cloud|twbook.cc
-$script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=happymh.com|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
@@ -8028,6 +8027,7 @@ btmovi.in##body > span[style]
 btmulu.com#?#.item:-abp-has(> a[target="_blank"])
 btnull.org,gyg.la,gyg.si,gying.in,gying.net,gying.org,gying.si###ly
 bts.to##.dl_blue[href^="/goto_.php?url="]
+btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
 btvsports.click#@##googleAD2
 btvsports.com###ai_tapar
@@ -10575,6 +10575,7 @@ hea.cn###top_slides_box
 health.tvbs.com.tw##.ad_desktop_top
 health.tvbs.com.tw##.ed-hidden.ed-xl-block
 health.tvbs.com.tw##.fromEditor > section.ed-px-5.ed-lg-hidden
+health.tvbs.com.tw##.h-\[280px\]
 health.tvbs.com.tw##.h-full > div.flex-wrap > div.max-w-full > div.px-5.lg\:hidden:has(> div > div.flex.justify-center)
 health.tvbs.com.tw##.hidden .justify-center:has(> div[id^="health_pc_read_"])
 health.tvbs.com.tw##div[data-testid="ad-container"]
@@ -11748,6 +11749,8 @@ jq22.com##.fdad
 jqzb.com.cn##.zk_xf
 jr22.xyz###hd + .wp
 jr22.xyz##a[href^="ad."]
+jr31.xyz###hd + .wp
+jr31.xyz##a[href^="ad."]
 jr31.xyz##body > div.wp > div.wp > a[rel="nofollow"] > img
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
@@ -13270,6 +13273,7 @@ nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nodejs.cn###pagead
 nodejs.cn##+js(set-constant, _AdBlockInit, noopFunc)
+nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nongjitong.com##.ad_sms
 noon.com##div[data-slotid*="hero_banner_"]
@@ -14450,7 +14454,7 @@ sex8.cc##.gd-list
 sex8.cc##.j-oscar
 sex8.cc##a[onclick^="window.open('/dasp.php?"]
 sexdiaryz.us#$#abort-on-property-read parseInt
-sexhd88.live#$#abort-current-inline-script document.addEventListener open
+sexhd88.club#$#abort-current-inline-script document.addEventListener open
 sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 seznamzpravy.cz##[class^="dynamic_banner"]
 seznamzpravy.cz##article[data-dot="mol-timeline-item-advert"]
@@ -15458,6 +15462,7 @@ tvboxnow.com##td[style="width:15%;height:100%;"]
 tvbs.com.tw###news_detail_div > div[align="center"]
 tvbs.com.tw###news_detail_div > strong > a[rel="noreferrer"]
 tvbs.com.tw##.smart_banner
+tvbs.com.tw##div[data-testid="ad-container"]
 tvdesporto.com#@##ads1
 tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
 tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pub2
@@ -16188,9 +16193,6 @@ www.yizhibo.com##.register_guide
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##ytlr-banner-cta-renderer
-www.youtube.com#$#override-property-read Object.prototype.playerResponse.adSlots undefined
-www.youtube.com#$#override-property-read Object.prototype.playerResponse.playerAds undefined
-www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
@@ -28690,6 +28692,7 @@ zzzyk.com###Tinfo
 ||scint-x.com/js/
 ||scjpqut.cn^
 ||scoev.cn^
+||scoldak.com^
 ||sconline.com.tw/top/coolpc_
 ||scorebull.com/adv/$popup
 ||script-bd.baixing.net^
@@ -31388,6 +31391,7 @@ zzzyk.com###Tinfo
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wx.uc.downcdn.top^
+||wxc.cc/scripts/gg.
 ||wxddid.cn^
 ||wxdqgmr.cn^
 ||wxfdmri.xyz^
