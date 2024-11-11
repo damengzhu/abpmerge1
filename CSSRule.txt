@@ -8593,8 +8593,6 @@ loveshang.com##div[class^="float-ad-"]
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'; hide-if-matches-xpath './/div[contains(@class,"ekndGJ")]//div[@data-tile=//section[@id="listItems"]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div[count(child::div) = 3]/div//div[contains(@class,"LormnProductBadgeStyle")]/ancestor::div[contains(@class,"tile_group")]/*'
-lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
-lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 lqz.cn###ad_index
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready;abort-on-property-write window.advanced_ads_ready_queue;
@@ -10659,6 +10657,7 @@ segmentfault.com###first-ad
 segmentfault.com###gridAd
 segmentfault.com###hotArticles:nth-child(3)
 segmentfault.com#?##question-wrap > .row > .col-xl-auto:has(> #first-ad:first-child + #gridAd + #second-ad:last-child)
+sehuatang.net##DIV[class^="show-text"]
 senao.com.tw#@#.ad-wrap
 sendspace.com#$#abort-on-property-read runad false
 senfun.net##.player-recommend
@@ -11140,6 +11139,8 @@ sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
 sports.qq.com#@#.txp_ad_center
+sports.qq.com,lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
+sports.qq.com,lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 sports.sohu.com##.allsee-list > .bd-wrap
 sports4u.tv,sports4u.live#@##adblock
