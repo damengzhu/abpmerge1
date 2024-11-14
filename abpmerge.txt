@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-14 08:14:57
-! Total count: 32970
+! Version: 2024-11-14 16:13:50
+! Total count: 32973
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4315,7 +4315,7 @@ $websocket,domain=wap.yushuwu.cloud
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn508.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn509.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -4769,7 +4769,7 @@ $websocket,domain=wap.yushuwu.cloud
 =ajaxGetAds&type=
 =autapay/*,|$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 =autapay/*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
-=fitacg.com/static/other1/
+=fitacg.com/static/other
 =js&lst=$script,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz|kinobox.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 =js&lst=$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 =loginExtAD.
@@ -9427,11 +9427,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.page-sidebar-row
-element-plus.org##.page-sidebar-top
-element-plus.org##.toc-content > div[style="margin-top:16px;"]
-element-plus.org##aside > .page-content-main
-element-plus.org##div[class^="page-content-"]
+element-plus.org##.page-sidebar-parent
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 embed.media,fembed.com,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.xyz,xstreamcdn.com#$#abort-on-property-read AaDetector
@@ -10520,7 +10516,7 @@ happymh.com##a[href*=".taobao.com"]
 hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 hawak.net,rotana.video#$#abort-on-property-read atob
 hayan.tv#@##uzcrsite
-hayhaytv.org,api.anime3s.com,subnhanh1.org#$#override-property-read maxAds 0
+hayhaytv.org,animet.org,subnhanh1.org#$#override-property-read maxAds 0
 hayhaytv.vn#@#.ads_wrapper
 hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
@@ -10548,6 +10544,7 @@ hcbbs.com###fwin_dialog
 hcbbs.com###portal_block_2652
 hcbbs.com###portal_block_3441
 hcbbs.com##.a_cn_pb
+hcbbs.com##.wp > div:not([id]):not([class]) > a > img[src*=".imgdb.cn"]
 hcbbs.com##a[href*="&adid="]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
@@ -15533,6 +15530,7 @@ twavking.com##.da_single_video
 twinsyang.net#@#.Zi_ad_a_H
 twinsyang.net,free.com.tw###custom_html-7
 twitter.com##.presented
+twkan.com##.txtcenter
 two.game.tw#@##ad_02
 twojeip.wp.pl#@##adverts
 twpkinfo.com###div_close_cf
@@ -16721,8 +16719,8 @@ zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
 zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
-zn508.cc###klp_hdp
-zn508.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn509.cc###klp_hdp
+zn509.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
@@ -20403,6 +20401,8 @@ zzzyk.com###Tinfo
 ||cdn77.org^*.mp4|
 ||cdn93d99x0e.23bei.com^
 ||cdncg.com^*/Aepku
+||cdncg.com^*/FCPXku.
+||cdncg.com^*/kangmey
 ||cdncg.com^*/peiyinquan
 ||cdncloud.asia^
 ||cdndm.com/12/2016/$domain=1kkk.com|dm5.com
@@ -24990,6 +24990,7 @@ zzzyk.com###Tinfo
 ||jvpyxve.cn^
 ||jwatera.top^
 ||jwddpvu.cn^
+||jweisia.top^
 ||jweoe.xyz^
 ||jwerilxa.top^
 ||jwerioa.top^
@@ -30214,6 +30215,7 @@ zzzyk.com###Tinfo
 ||twgzgqqu.com^
 ||twj6s.icu^
 ||twjsx.cn^
+||twkan.com/js/otherad
 ||twlcyc.cn^
 ||twlmq.space^
 ||two.fsylr.com^
@@ -30854,6 +30856,7 @@ zzzyk.com###Tinfo
 ||vnfjsus.xyz^
 ||vnfsbl.xyz^
 ||vns86.oss-*.aliyuncs.com^
+||vnuuh.icu^
 ||vnvmif.cn^
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
