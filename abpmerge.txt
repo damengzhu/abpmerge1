@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-23 08:13:20
-! Total count: 33098
+! Version: 2024-11-23 16:13:02
+! Total count: 33101
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7845,6 +7845,7 @@ bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 bing.com,cn.bing.net###b_results > li:-abp-has(.b_adProvider)
 bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
+bing.com,cn.bing.net##.b_algo:has(.algoSlug_icon)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
@@ -21803,6 +21804,7 @@ zzzyk.com###Tinfo
 ||dstbunkfw.xyz^
 ||dsukqsx.icu^
 ||dswcrlf.cn^
+||dt0j.icu^
 ||dt243100.com^
 ||dtckvpc.cn^
 ||dtfyhdghsd.online^
@@ -22302,6 +22304,7 @@ zzzyk.com###Tinfo
 ||evtubescms.phncdn.com^
 ||ewaterw.top^
 ||eweisiw.top^
+||eweizaw.top^
 ||ewerilxw.top^
 ||eweriow.top^
 ||ewfsef.com^
