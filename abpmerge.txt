@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-26 08:16:09
-! Total count: 33130
+! Version: 2024-11-26 16:14:45
+! Total count: 33133
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7044,6 +7044,7 @@ allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/a
 allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
 alluc.ee###aovl
 alotof.software#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
+altadefinizione.*#$#abort-current-inline-script document.createElement script; hide-if-matches-xpath './/iframe[@style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]';
 alternativeto.net##.cuuummmonnnn
 alu.cn###sanjia
 alu.cn###xxxhuangjinzhanwei
@@ -7773,7 +7774,6 @@ bigpixel.cn##+js(set-constant, killads, true)
 bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bilibili.com###b_app_link
 bilibili.com###fixed_app_download
-bilibili.com###slide_ad + .ad-report
 bilibili.com##+js(json-prune, data.cm_info.ads)
 bilibili.com##.activity-slider[style="width: 1220px;"]
 bilibili.com##.ad-e1
@@ -14402,6 +14402,7 @@ sac.net.cn###ad
 sac.net.cn###leftDiv
 sac.net.cn###rightDiv
 saigon24.net#$#abort-current-inline-script document.getElementById myModal
+sailtool.com##body > div[style^="position:fixed;right:0;top:"]
 samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 samehadaku.net#@##adsense
 samsclub.com##.sc-plp-cards-vast-ad
@@ -15438,6 +15439,7 @@ transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
 tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section'
+tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]//ancestor::li/ancestor::div[@data-test-target]/parent::div[1]/parent::div'
 tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/ancestor-or-self::div[@class]/parent::span[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
@@ -16485,7 +16487,7 @@ yasem5.com##a[href*="yasem5.com/go"][target="_blank"]
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 yatu.tv###a_d1
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
-yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
+yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 yaya0506.com##iframe[style="border: 0;"][width="100%"][height="280"][src^="//www.12beststar.com/"]
 yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
 yazhouse8.com##.banners
@@ -16585,7 +16587,6 @@ youku.com##div[name="m_pos"] > #FullPromotion
 youku.com#$#.swiper-wrapper > .swiper-slide:has(> a[target-url]) { visibility: hidden !important; }
 youku.com#$?#.newswiper_big_swiper_container > div.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(> a[data-href]:not([data-href^="https://v.youku.com/"]):not([data-scm])) { remove: true; }
 youku.com#$?#.swiper-container-horizontal > div.swiper-wrapper > div.swiper-slide:has(a[href*="/tg.602.com/"]) { remove: true; }
-youle55.com
 youmelive.com###b2-widget-html-2
 youmoviz.tv##.plugbarremozi
 youneed.win##+js(abort-on-property-read, daau_app)
@@ -26115,6 +26116,7 @@ zzzyk.com###Tinfo
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
 ||lwdcnz.xyz^
+||lweizal.top^
 ||lweriol.top^
 ||lwide.xyz^
 ||lwksxs.com^
@@ -29598,6 +29600,7 @@ zzzyk.com###Tinfo
 ||stragmik.com^
 ||strdef.world/js/acheck.js
 ||streaming-foot.info/images/adblok.mp3$media
+||strenots.com^
 ||stricaik.com^
 ||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
@@ -30158,7 +30161,7 @@ zzzyk.com###Tinfo
 ||toutanymm.asia^
 ||toutiao.haotui.com/data/js/0.js
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com
+||toutiaoimg.com/origin/$image,domain=agedm.org
 ||toutiaoyule.com/n/dspshow.
 ||touvxlii.top^
 ||tovppl.cn^
