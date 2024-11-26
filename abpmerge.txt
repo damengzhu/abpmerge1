@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-25 16:14:07
-! Total count: 33124
+! Version: 2024-11-26 08:16:09
+! Total count: 33130
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -15436,14 +15436,13 @@ trakt.tv###huckster-desktop-top
 trakt.tv##.huckster-dfp
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
-tripadvisor.*#$#hide-if-matches-xpath './/div/span[contains(., "Sponsored")]//ancestor::a[@target]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
 tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//span[contains(text(), "SPONSORED")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
+tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/ancestor-or-self::div[@class]/parent::span[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-automation]//span[contains(text(),"Sponsored")]/ancestor::span/parent::div[1]'
+tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/ancestor-or-self::a[@target="_blank"][@href]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 tropica.cn##.a_mu1
 tropica.cn##.bm.a_c1
@@ -15989,6 +15988,8 @@ weiyun.com#@#.page-share-box
 weiyun001.com##.agency-list
 weiyun001.com##.bg-box > .slide-box
 weiyun001.com##.g-side-r > a[onclick^="onLogs"]
+wen.baidu.com##.related-asp-new
+wen.baidu.com##.wap-youx-change-asp
 wenda.so.com##a[href^="http://e.so.com/search/eclk?"]
 wendangxiazai.com###ft_hb
 wendu.cn###topads
@@ -18297,6 +18298,7 @@ zzzyk.com###Tinfo
 ||9tour.cn/x2/images/czmf.jpg
 ||9wcn.com/gcld/500.gif
 ||9xf9qkz5.com^
+||9xxy.icu^
 ||9y01.xyz/app/index.html
 ||9ya.net/con/ad
 ||9ye.com/Files/Editor/ad/
@@ -23096,6 +23098,7 @@ zzzyk.com###Tinfo
 ||gogorenti.wang/js/m_cp
 ||goikbnjksdf.com^
 ||goingsranchange.com^
+||gokrafxr.icu^
 ||gold.szonline.net^
 ||gold678.com/news/js/layer/layer.js
 ||golden88.co^
@@ -25278,6 +25281,7 @@ zzzyk.com###Tinfo
 ||kekop.cn^
 ||kelatv.com/ad/
 ||kemmars.com^
+||kemono.su^$csp=script-src-attr 'none'
 ||ken.kenxq.com^
 ||kengi.top^
 ||keryt111.fun^
@@ -25317,6 +25321,7 @@ zzzyk.com###Tinfo
 ||kgqcse.xyz^
 ||kgubus.xyz^
 ||kgymoc.xyz^
+||khastreol.com^
 ||khcsvdc.icu^
 ||khgjfm16.com^
 ||khrtac.xiangha.com^
@@ -27479,6 +27484,7 @@ zzzyk.com###Tinfo
 ||ovykq.online^
 ||oweeiyw.icu^
 ||oweisik.top^
+||oweizak.top^
 ||oweriok.top^
 ||owiurjngsd.com^
 ||owkmmo.xyz^
