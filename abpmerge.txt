@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-11-28 16:13:43
+! Version: 2024-11-29 08:15:33
 ! Total count: 33148
 ###ADtip
 ###Ad_windows
@@ -7030,21 +7030,14 @@ aliyun.com##.yq-ads-blog
 aliyun.com##.yq-main-left > a:first-child
 allboxing.ru#$#abort-current-inline-script document.querySelector open
 allegro.*##div[data-box-name^="ads"]
-allegro.*#$#hide-if-contains-visible-text /Sponzorováno|Sponzorované|Sponsorowane|Sponsored|Спонсоровано/ 'div[data-analytics-category="layout.container"]:not([data-box-name="dsa container"]):not([data-analytics-groups*="allegro.product.fiche"]):not([data-box-name="items container"]):not(:has(article)), div[data-box-name^="caro"], div[data-box-name="plz stop"], div[data-box-name="pls stop"], div[data-box-name^="card carousel"], div[data-box-name="d"], div[data-box-name="b"],div[data-box-name^="Carousel card"],div[data-box-name^="department"], div[data-box-name="layout"], div[data-box-name^="container.department"], div[data-box-name^="bottom"], div[data-box-name^="container.moreOf"], div[data-box-name^="Car0usel card"], div[data-box-name^="bottom car0usels"], div[data-box-name^="car0usels.base"], div[data-box-name^="structure-container"], div[data-box-name^="Version 2 Wrapper"], div[data-box-name^="car0usels container"], div[data-box-name^="bottom carousels"], div[data-box-name^="moreOf"]' 'div>div ^^sh^^ span';
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
-allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]/ancestor::div[@style][1]//ancestor::div[@data-box-name="structure-container" or @data-box-name="Car0usel card"]';
-allegro.*#$#hide-if-matches-xpath './/span[.="Sponsorowane" or .="Sponzorováno"]/ancestor::div[@data-box-id][contains(@data-analytics-tags,"advertising")]';
+allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#race start; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>span'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване/ 'article' 'div[class]>div ^^sh^^ div>*'; race stop;
-allegro.*#$#race start; hide-if-matches-xpath './/span[.="Sponsorowane" or .= "Sponsored" or .="Спонсороване" or .="Sponzorované"]//ancestor::article'; hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované/ 'article' 'div[id]' 'content'; hide-if-matches-xpath './/div[@data-test-tag="dsa"]/preceding::a[contains(@href,"clicks?emission_unit_")]/ancestor-or-self::article[@data-verification-id][@aria-label]'; hide-if-contains-visible-text /Sponzorované/ 'article' 'div>div ^^sh^^ div>span'; race stop;
-allegro.*#?#article:-abp-has(div:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.*#?#article:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
-allegro.pl#$#hide-if-matches-xpath './/div[contains(@data-analytics-groups,"reklam") or contains(@data-analytics-groups,"kampanijna") or contains(@data-box-name,"Ads")]/ancestor::div[@data-box-name="structure-container"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
-allegro.pl#$#override-property-read adblockEnabledPreferenceUpdated false
 alluc.ee###aovl
 alotof.software#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 altadefinizione.*#$#abort-current-inline-script document.createElement script; hide-if-matches-xpath './/iframe[@style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]';
@@ -15442,7 +15435,7 @@ transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 tree.tv#@##adverts
 tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@target="_blank"]/parent::div/ancestor::div[@class][2]'
 tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section[@class][not(@id)]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/ancestor-or-self::div[@class]/parent::span[1]'
+tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/parent::span[@style][1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-test-target="hero-gallery"][../following-sibling::div//div[contains(text(),"Sponsored by")]]/parent::div/parent::div'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
@@ -15800,7 +15793,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.ec,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenomega.com,yurineko.moe,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.skin,doctruyen3qk.pro,ihentai.chat,animehay.ink,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.vin,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.me,phim18hd.in,web.sexviet88.xyz,nungmup.net,demo.14412882.com,nungmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx#$#abort-current-inline-script WebAssembly instantiate
+viet69.ec,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenomega.com,yurineko.moe,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.skin,doctruyen3qk.pro,ihentai.chat,animehay.ink,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.vin,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.me,phim18hd.in,web.sexviet88.xyz,nungmup.net,demo.14412882.com,nungmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -17263,6 +17256,7 @@ zzzyk.com###Tinfo
 ||1f84e33459.com^
 ||1fzjy.xyz^
 ||1gmzo.icu^
+||1gtp.icu^
 ||1htpkw6.$script,xmlhttprequest,domain=ign.com|ignboards.com
 ||1iohncj.xyz^
 ||1iuybpo.com^
@@ -23510,6 +23504,7 @@ zzzyk.com###Tinfo
 ||hcqumrjbx.xyz^
 ||hcvegu.com^
 ||hdaidj.cn^
+||hdamcsu.top^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
 ||hdbppx.xyz^
@@ -24079,6 +24074,7 @@ zzzyk.com###Tinfo
 ||icwnix.icu^
 ||icws.jb51.net/good/arc2019.js
 ||idalia.assariaburdine.com/happiness.js$script,domain=lequipe.fr
+||idamcso.top^
 ||idawziv.cn^
 ||idc9pk.com^
 ||idcot.com^
@@ -24166,6 +24162,7 @@ zzzyk.com###Tinfo
 ||ifsdg.xyz^
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||ifxqubw.icu^
+||igabcgnh.icu^
 ||igame2steam.com^
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
@@ -27386,6 +27383,7 @@ zzzyk.com###Tinfo
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||onxeacj.cn^
 ||onxtxdm.xyz^
+||oo3z.icu^
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
@@ -28278,6 +28276,7 @@ zzzyk.com###Tinfo
 ||qonkdwwf.net^
 ||qoubliy.top^
 ||qouvxliy.top^
+||qovith.com^
 ||qowfknlds.net^
 ||qpawkw.xyz^
 ||qpb*.sohu.com^
@@ -28842,6 +28841,7 @@ zzzyk.com###Tinfo
 ||sagcyq.xyz^
 ||sahqoo.com^
 ||saitef.cn^
+||saizih.com^
 ||sakguz.icu^
 ||salary.xiao84.com^
 ||saltsleaseholder.com^
