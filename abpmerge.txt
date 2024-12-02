@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-01 16:12:32
-! Total count: 33176
+! Version: 2024-12-02 08:16:32
+! Total count: 33186
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2183,6 +2183,7 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
 .xyz/z/*/code.js$script,third-party
+.xyz:*/bug?*=$third-party
 .xyz:8009/11?x=
 .xyz:9002/*?x=$websocket,script,third-party
 .zone/ads/
@@ -7372,6 +7373,7 @@ azulyblanco.co###notice
 azulyblanco.co###vlay
 azulyblanco.co#@##adblock
 b-website.com#@##adsense
+b0d8a0f6.com##DIV[id^="content_"]
 babesxworld.com##img[onclick*="spons"]
 babesxworld.com#$#abort-on-property-read ExoooLoooader
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
@@ -20708,6 +20710,7 @@ zzzyk.com###Tinfo
 ||cibntv.net/youku/$media
 ||cibntv.net/youku/*.mp4?$media,redirect=noop-1s.mp4,domain=v.youku.com,important
 ||cidhdgv.xyz^
+||cidhmxxb.icu^
 ||cidianwang.com/css/tj.
 ||cidianwang.com/js/left
 ||cidianwang.com/js/right
@@ -21548,6 +21551,7 @@ zzzyk.com###Tinfo
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
 ||divxrj.xyz^
+||diyibanzhu*/js/cdn.js$~third-party
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
 ||dj09j5u.cn^
@@ -21869,6 +21873,7 @@ zzzyk.com###Tinfo
 ||duyvtanrheje.xyz^
 ||dv.amtwcvh.cn^
 ||dv.taolingjing.com^
+||dv0i.icu^
 ||dv4ku.icu^
 ||dvbnmikxh.xyz^
 ||dvclhmt.cn^
@@ -23783,6 +23788,7 @@ zzzyk.com###Tinfo
 ||hongi7ie8owiie03.site^
 ||honglingjin.co.uk/wp-content/uploads/*-Homepage-Takeover-BG-
 ||hongmao39.top^
+||hongosi.xn--*.cc$third-party
 ||hongteng.xyz^
 ||hongyingbbs.com/jj/
 ||honknl.xyz^
@@ -24178,6 +24184,7 @@ zzzyk.com###Tinfo
 ||ifsdg.xyz^
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||ifxqubw.icu^
+||ig69.vip^
 ||igabcgnh.icu^
 ||igame2steam.com^
 ||igamepark.biz/ads_output.php
@@ -28113,6 +28120,7 @@ zzzyk.com###Tinfo
 ||qczcxe.cn^
 ||qd.x4399.com^
 ||qdaily.com/mount_details/pc/
+||qdamcsy.top^
 ||qdcxia.xyz^
 ||qdczx66.com^
 ||qdickey.top^
@@ -28923,6 +28931,7 @@ zzzyk.com###Tinfo
 ||scjpqut.cn^
 ||scoev.cn^
 ||scoldak.com^
+||sconat.com^
 ||sconline.com.tw/top/coolpc_
 ||scorebull.com/adv/$popup
 ||script-bd.baixing.net^
@@ -31980,6 +31989,7 @@ zzzyk.com###Tinfo
 ||xn--bqro42frpg5up.cn^
 ||xn--gmq238c5fy.com^
 ||xn--gov-x68dy61b.shop^
+||xn--jor0b302fdhgwnccw8g.com^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
 ||xn--mts60is5y5uk.com^
