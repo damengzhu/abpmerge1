@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-02 16:14:21
-! Total count: 33191
+! Version: 2024-12-03 08:15:35
+! Total count: 33198
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8479,7 +8479,7 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
+cn.bing.com#?#.b_algo:-abp-has(.cico.siteicon.rms_img[src*="bing.com/th?id=O"])
 cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
@@ -9450,7 +9450,6 @@ element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
 element-plus.org##.page-sidebar-group
-element-plus.org##.page-sidebar-layout
 element-plus.org#?#div:-abp-has(>.sponsor-item)
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
@@ -11236,8 +11235,8 @@ inforesist.org#$#abort-on-property-read alert
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
 instacart.ca,instacart.com#$#hide-if-matches-xpath '//div[contains(@id,"-inner")]/ancestor-or-self::article/preceding::span[contains(text(),"Sponsored")]/ancestor-or-self::div[2]'
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'aside[aria-labelledby="sponsoredddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-contains /sponsored/ 'div[class] * div[aria-label="Product"]'; hide-if-contains /sponsored/ 'div[class] * div[aria-label="Product"]' 'div[style]>div ^^sh^^ *'; hide-if-matches-xpath './/img[@alt="This is a featured product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="This is an ad product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to promote this product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="This is a boosted product paid for by advertisers"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[contains(@alt,"This is a promoted product")]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="This is an ad"]/ancestor-or-self::div[@aria-label="Product"]'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'aside[aria-labelledby="sponsoredddddddLabel"]' article[id] 'article[id] *'; hide-if-contains /sponsored/ article[id] 'article[id] *'; hide-if-matches-xpath './/img[@alt="This is a featured product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="This is an ad product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to promote this product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="This is a boosted product paid for by advertisers"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[contains(@alt,"This is a promoted product")]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="This is an ad"]/ancestor-or-self::article[@id][1]'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'aside[aria-labelledby="sponsoredddddddLabel"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-contains /sponsored/ 'div[class] * div[aria-label="Product"]'; hide-if-contains /sponsored/ 'div[class] * div[aria-label="Product"]' 'div[style]>div ^^sh^^ *'; hide-if-matches-xpath './/img[@alt="This is a featured product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="This is an ad product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to promote this product"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="This is a boosted product paid for by advertisers"]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[contains(@alt,"This is a promoted product")]/ancestor-or-self::div[@aria-label="Product"]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to boost this product"]/ancestor-or-self::div[@aria-label="Product"]'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunsered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spauncered"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaunserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spohnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-label="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoreddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[aria-labelledby="sponsoredddddLabel"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'aside[aria-labelledby="sponsoredddddddLabel"]' article[id] 'article[id] *'; hide-if-contains /sponsored/ article[id] 'article[id] *'; hide-if-matches-xpath './/img[@alt="This is a featured product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="This is an ad product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to promote this product"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="This is a boosted product paid for by advertisers"]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[contains(@alt,"This is a promoted product")]/ancestor-or-self::article[@id][1]'; hide-if-matches-xpath './/img[@alt="Advertisers have paid to boost this product"]/ancestor-or-self::article[@id][1]'; race stop;
 instacart.ca,instacart.com#$#race start; hide-if-matches-xpath './/img[@alt="Advertisers have paid to boost this product"]/preceding::img[@alt="Advertisement"]/ancestor-or-self::div[contains(@id,"-inner")]/parent::div'; hide-if-matches-xpath './/img[@alt="This is a boosted product paid for by advertisers"]/preceding::img[@alt="Advertisement"]/ancestor-or-self::div[contains(@id,"-inner")]/parent::div'; race stop;
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,".svg")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
@@ -20281,6 +20280,7 @@ zzzyk.com###Tinfo
 ||c4d.cn/api.php?mod=ad&adid=
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||c4d4.cn^
+||c4uy.icu^
 ||c6.friok.com^
 ||c72w6.com^
 ||c78zf.xyz^
@@ -23198,6 +23198,7 @@ zzzyk.com###Tinfo
 ||greenxcx.com^
 ||greenxf.com/js/2019/
 ||greenxiazai.com/d/js/v/
+||grerzieds.com^
 ||grewash1b.fun^
 ||gridline.cn^
 ||gridsumdissector.cn/gs.gif?
@@ -23699,6 +23700,7 @@ zzzyk.com###Tinfo
 ||hitchun.com^
 ||hitime5.com/skin/css/*.js
 ||hitoxx.xyz^
+||hiveworkscomics.com^$script,domain=egscomics.com
 ||hixutb.xyz^
 ||hj8gf.icu^
 ||hjammiz.icu^
@@ -25208,6 +25210,7 @@ zzzyk.com###Tinfo
 ||k366.com/images/smxs^
 ||k42kw.top^
 ||k5ggua.xyz^
+||k5uj.icu^
 ||k6syi.space^
 ||k7f67a6s7.xyz^
 ||k99.cc^$third-party
@@ -29432,6 +29435,7 @@ zzzyk.com###Tinfo
 ||sohu.com/mdevp/*-advert/
 ||sohu.com/s/sohuplayer/iplay.html?*&autoplay=true$domain=eetop.cn
 ||sojson.com/ps/list.
+||sokars.com^
 ||solaron.top^
 ||somaliainc.com^
 ||somanhua.com/smh/
@@ -29996,6 +30000,7 @@ zzzyk.com###Tinfo
 ||thcdy.co/baidu2/index_top.js
 ||thdidx.xyz^
 ||thefatherofsalmon.com^
+||thehiveworks.com^$script,domain=egscomics.com
 ||thepaper.cn/bottomBanner_
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
@@ -30535,6 +30540,7 @@ zzzyk.com###Tinfo
 ||uctutu3789.xyz^
 ||uczfl.com/data/content
 ||ud783c02.com^
+||udamcst.top^
 ||udb3n.icu^
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
@@ -31056,6 +31062,7 @@ zzzyk.com###Tinfo
 ||voc.com.cn/static/web/js/creattwo11.js
 ||vokmhydy.xyz^
 ||vokwlch.xyz^
+||vokzqgjp.icu^
 ||volgreal.com^
 ||vorluic.cn^
 ||voxirf.xyz^
