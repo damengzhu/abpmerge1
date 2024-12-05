@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-05 08:16:04
-! Total count: 33227
+! Version: 2024-12-05 16:14:25
+! Total count: 33233
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7376,6 +7376,7 @@ azulyblanco.co###vlay
 azulyblanco.co#@##adblock
 b-website.com#@##adsense
 b0d8a0f6.com##DIV[id^="content_"]
+b0d8a0f6.com##div[id^="content_"]
 babesxworld.com##img[onclick*="spons"]
 babesxworld.com#$#abort-on-property-read ExoooLoooader
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
@@ -8481,8 +8482,6 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.b_algo:-abp-has(.cico.siteicon.rms_img[src*="bing.com/th?id=O"])
-cn.bing.com#?#.b_algo:-abp-has(.cico>img[src*="bing.com/th?id=O"])
 cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
@@ -8775,6 +8774,10 @@ ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 ctee.com.tw##.qxd
 ctfile.com##.speedydown-info-box
 ctfile.com##a[href*=".henghost.com"]
+ctinews.com###taboola-slot
+ctinews.com##.ad-min-space
+ctinews.com##.bottom-0:has(> .ad-container)
+ctinews.com##.show-in-md:has(> .ad-container)
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 ctwant.com##.m-adpopup
@@ -20753,6 +20756,7 @@ zzzyk.com###Tinfo
 ||cjdby.net/Public/home/images/advImg/
 ||cjgdch.com^
 ||cjgymo.xyz^
+||cjimtyf.top^
 ||cjjjs.com/image/banner/ali
 ||cjjjs.com/script/ad.js
 ||cjn.cn^*/ad/
@@ -24432,6 +24436,7 @@ zzzyk.com###Tinfo
 ||inoreader.com/adv/$domain=inoreader.com
 ||inowe.xyz^
 ||inpage-push.com^
+||inphais.com^
 ||inping.com^$third-party
 ||insfengdata.com^
 ||insightexpressai.com^
@@ -28119,6 +28124,7 @@ zzzyk.com###Tinfo
 ||q2usj.icu^
 ||q4v3c.site^
 ||q6gub.website^
+||q8q.icu^
 ||qacdf511.cn^
 ||qaljfiwv.com^
 ||qange.com^
