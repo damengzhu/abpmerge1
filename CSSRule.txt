@@ -1618,6 +1618,7 @@
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##button[onclick*=".xacg.info/"]
 ##center > [href^='https://docs.qq.com/doc'][target='_blank']
 ##center > a > IMG[alt$='到期']
@@ -3692,8 +3693,6 @@ azulyblanco.co###notice
 azulyblanco.co###vlay
 azulyblanco.co#@##adblock
 b-website.com#@##adsense
-b0d8a0f6.com##DIV[id^="content_"]
-b0d8a0f6.com##div[id^="content_"]
 babesxworld.com##img[onclick*="spons"]
 babesxworld.com#$#abort-on-property-read ExoooLoooader
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
@@ -4160,6 +4159,7 @@ bing.com##[id$="adsMvCarousel"]
 bing.com#?#.b_algo:-abp-has(.ad_esltitle)
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 bing.com#?#.b_algo:-abp-has(.tpmeta:not(.tpmeta:-abp-has(.b_attribution)))
+bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
@@ -4787,7 +4787,6 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
 cna.com.tw,ettoday.net##.ad_970
@@ -11339,6 +11338,7 @@ t411.me##IMG[src="http://www.t411.me/images/external/usenet.jpg"]
 t66y.com##+js(no-setTimeout-if, /tpc.?[A-Z0-9].?tml/)
 t66y.com##+js(no-setTimeout-if, adhtml, 10006)
 t66y.com##+js(no-setTimeout-if, tpcHt0ml, 1006)
+t66y.com##+js(no-setTimeout-if, tpcHt1ml, 1006)
 t66y.com##.sptable_do_not_remove
 t66y.com##.tips
 t66y.com##.tpc_content.do_not_catch > span.f24
@@ -12372,7 +12372,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /./ 'div[role=feed] div[role=article]' 'span>a[attributionsrc][href="#"][role="link"][tabindex="0"]>span>span[aria-labelledby]>span[style]'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'; hide-if-matches-xpath './/div[@role="complementary"]//span/following::div[@aria-labelledby][@role][@tabindex]/ancestor-or-self::span'; race stop;
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(VideoHomeFeedUnitSectionComponent)[^\n]+?"(sponsored_data")[^\n]+?("ad_id"|"SponsoredData")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(VideoPlayerRelay_video$defer$InstreamVideoAdBreaksPlayer_video|instream_video_ad_breaks_comet|__module_operation_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|__module_component_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|InstreamVideoAdBreaksPlayerImpl_adBreaks$normalization.graphql|InstreamVideoAdBreaksPlayerDeferred.react|InstreamVideoAdBreaksPlayerImpl.react|CommercialBreakStartingIndicatorFalcoEvent|CommercialBreakClickFalcoEvent|CommercialBreakEndFalcoEvent)/'
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl|br_sf_cnt|brand_sft_cont|br_sft_cnt_label|sfty_content_brs_flag|sft_cont_brs_flag|flag_protection_for_cnt_brand|brand_content_protection_lbl|brand_content_protection_label|brs_text_label|txt_cnt_of_brs|txt_flag_cnt_brand|co_lbl_la_br)[^\n]+?("sponsored_data"|"spons_data_lbl"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps|spons_auct_distance|sps_auc_dis|spons_auc_dist|spons_auct_flag_space|new_spons_auct_flag_space|flag_sponsored_dist_auction|sponsored_lbl_auc_indicator_dist)/'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl|br_sf_cnt|brand_sft_cont|br_sft_cnt_label|sfty_content_brs_flag|sft_cont_brs_flag|flag_protection_for_cnt_brand|brand_content_protection_lbl|brand_content_protection_label|brs_text_label|txt_cnt_of_brs|txt_flag_cnt_brand|co_lbl_la_br|b_sft_con_lbl)[^\n]+?("sponsored_data"|"spons_data_lbl"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps|spons_auct_distance|sps_auc_dis|spons_auc_dist|spons_auct_flag_space|new_spons_auct_flag_space|flag_sponsored_dist_auction|sponsored_lbl_auc_indicator_dist|lbl_for_spons_auc_dis)/'
 www.freehao123.com##A[href*="/go/"]
 www.ghxi.com##.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
