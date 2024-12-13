@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-12 16:14:52
-! Total count: 33294
+! Version: 2024-12-13 08:15:48
+! Total count: 33305
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1623,6 +1623,7 @@
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
 ##body[ontouchstart] > #topBox
+##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 ##button[onclick*=".xacg.info/"]
 ##center > [href^='https://docs.qq.com/doc'][target='_blank']
@@ -16883,6 +16884,7 @@ zzzyk.com###Tinfo
 ||*.com/*fbeea*.js^$domain=footfetishvid.com
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
 ||*.kameleoon.eu^$domain=20minutes.fr|20min.fr
+||*.top^$domain=ltswu.org
 ||*/ad/$redirect=noop-0.1s.mp3,domain=huaren.tv,media
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
@@ -18156,6 +18158,7 @@ zzzyk.com###Tinfo
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
 ||8en.net^$third-party
+||8et.icu^
 ||8feichai.com^
 ||8g0j.cn^
 ||8gp4wjq3.com^
@@ -21100,6 +21103,7 @@ zzzyk.com###Tinfo
 ||ctfile.com/popjump.php?$popup
 ||cthbini.xyz^
 ||ctienlf.top^
+||ctimiyf.top^
 ||ctkyom.xyz^
 ||ctlacnh.icu^
 ||ctlrarz.xyz^
@@ -21394,6 +21398,7 @@ zzzyk.com###Tinfo
 ||dd778899dd.com^
 ||ddaixdz.cn^
 ||ddbuwo.cn^
+||dddstew6cw8.fun^
 ||ddgjjj.com^
 ||ddgjjj.com^$third-party
 ||ddielv.cn^
@@ -21509,6 +21514,7 @@ zzzyk.com###Tinfo
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhjrvj.xyz^
 ||dhkipdsc.xyz^
+||dhkqqe.top^
 ||dhl.135320.com^
 ||dhukul.com^
 ||dhxrop.com^
@@ -22616,6 +22622,7 @@ zzzyk.com###Tinfo
 ||fjshxjs.cn^
 ||fjsytjs.cn^
 ||fjtroip.cn^
+||fjuga.top
 ||fjxstt.xyz^
 ||fjzimaoqu.cn^$third-party
 ||fkesfg.com^
@@ -27599,6 +27606,7 @@ zzzyk.com###Tinfo
 ||owlinggnomist.com^
 ||owlunimmvn.com^
 ||owrkwilxbw.com^
+||owsrgljb.icu^
 ||owurserk.top^
 ||owyame.xyz^
 ||oxj8hcfg.xyz^
@@ -31476,6 +31484,7 @@ zzzyk.com###Tinfo
 ||wkybwa.xyz^
 ||wkywrc.cn^
 ||wkzsmj.icu^
+||wkzw.me^
 ||wl.uqwjdhgv.top^
 ||wlgxaij.cn^
 ||wlhcb.cn^
@@ -32629,6 +32638,7 @@ zzzyk.com###Tinfo
 ||yrqwnc.cn^
 ||yrr56.com/mp4/pt_720.
 ||yrszy.com.cn^
+||yruadj.top^
 ||yruws6.com^
 ||ys2000.cdn.bcebos.com^
 ||ys630.com^$third-party
@@ -33061,6 +33071,7 @@ zzzyk.com###Tinfo
 ||zikeke7.com^
 ||zinzimo.info^$domain=pronpic.org
 ||zio8.icu^
+||ziqniduy.com^
 ||ziravd.xyz^
 ||zisnuthz.com^
 ||zisu.cn.com^
