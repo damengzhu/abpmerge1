@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-13 16:14:06
-! Total count: 33311
+! Version: 2024-12-14 08:13:53
+! Total count: 33320
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2493,6 +2493,9 @@ $websocket,domain=wap.yushuwu.cloud
 /assets*$script,image,domain=kickassanime.io
 /assets/banners/600x100/*
 /assets/dayu/ainfiniteactivity-
+/assets/publish/chart.1.js$~third-party
+/assets/publish/d3.2.js$~third-party
+/assets/publish/react.3.js$~third-party
 /assets/sidebar/*$domain=v2ex.com
 /assets/t_j/tongji.js
 /atrk.js
@@ -7793,10 +7796,10 @@ bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.container > div.feed-card:not(:has(> div > *))
+bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
 bilibili.com##.extension-tips
-bilibili.com##.feed-card:has(>div:only-child),div.bili-video-card:has(>div:only-child)
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
@@ -19452,6 +19455,7 @@ zzzyk.com###Tinfo
 ||b1.cdn.mh3666.com/html/
 ||b1.engdvd.com^
 ||b1.xiao84.com^
+||b10.justacdn.net^
 ||b168.net^*.*?$image
 ||b2.51yangsheng.com^
 ||b2xy4m.xyz^
@@ -23573,6 +23577,7 @@ zzzyk.com###Tinfo
 ||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
 ||hcqumrjbx.xyz^
 ||hcvegu.com^
+||hcznaubp.icu^
 ||hdaidj.cn^
 ||hdamcsu.top^
 ||hdapp1003-a.akamaihd.net^
@@ -24622,6 +24627,7 @@ zzzyk.com###Tinfo
 ||itienlo.top^
 ||itiexue.net/domain-policy/
 ||itiexue.net/wap/tiexue/js/chuping/nativeshare
+||itimiyo.top^
 ||itjcqlp.icu^
 ||itjgwn.xyz^
 ||itjsb.com/itjsbwx.jpg
@@ -28374,6 +28380,7 @@ zzzyk.com###Tinfo
 ||qlbbowx.xyz^
 ||qlcbeg.xyz^
 ||qlogo.cn^$domain=chichiav1.xyz
+||qm2.icu^
 ||qmbdta.cn^
 ||qmfcybwbf12.com^
 ||qmfcybwbf16.com^
@@ -30373,6 +30380,7 @@ zzzyk.com###Tinfo
 ||trutvnci.top^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
+||truxedku.com^
 ||trvxbd.xyz^
 ||trw12.com^$third-party
 ||trxs123.com/skin/default/js/jque.js
@@ -31494,6 +31502,7 @@ zzzyk.com###Tinfo
 ||wlgxaij.cn^
 ||wlhcb.cn^
 ||wlkukrv.icu^
+||wlouqsz.xyz^
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wlsyuule.cam^
