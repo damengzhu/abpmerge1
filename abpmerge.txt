@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-14 16:12:41
-! Total count: 33324
+! Version: 2024-12-15 08:14:02
+! Total count: 33323
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2830,6 +2830,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/ads/youxiajiao.js
 /js/ads/zuoxiajiao.js
 /js/ads_
+/js/adv-slide-toggle.
 /js/adv.
 /js/an-detect.min.js$script
 /js/an-scripts.js$script
@@ -3265,6 +3266,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wdzj_banners.js
 /web/ad/*$domain=gamer.com.tw
 /web8/ad/*
+/webAdvert.php?ad_name=
 /web_ads/*
 /webcam.mp4$domain=91porn.com
 /webcam600.mp4$domain=91porn.com
@@ -4687,6 +4689,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*:*/yeyue.html?k=$csp=script-src
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
+://*mp4*/js/wcount.js$~third-party
 ://8ox.cn/$third-party
 ://a.ads.
 ://abb.*.js?adv=
@@ -5068,7 +5071,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||777bitco.in/static/js/Controller/Advertise.js$script
 @@||7m.cn/v2/js/analyse.js
 @@||85po.com^$generichide
-@@||85porn.net^$generichide
 @@||85tube.com/player/player_ads.html
 @@||85tube.com^$generichide
 @@||8891.com.tw/js/v3/blueKai.js
@@ -7532,6 +7534,7 @@ baidu.com##.openBox-shareEntry
 baidu.com##.opening-season-dialog
 baidu.com##.opr-zhaopin-ad-ctn
 baidu.com##.optimus
+baidu.com##.page-head-queryarea
 baidu.com##.pageLeftFixedAD
 baidu.com##.pauseadv
 baidu.com##.picad
@@ -7797,7 +7800,6 @@ bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.container > div.feed-card:not(:has(> div > *))
-bilibili.com##.container.is-version8 > .feed-card:has(>div:only-child), .container.is-version8 > .bili-video-card:has(>div:only-child)
 bilibili.com##.desktop-download-tip
 bilibili.com##.eva-banner
 bilibili.com##.extension-tips
@@ -8475,7 +8477,6 @@ club.6parkbbs.com##.body_center:has(> div.adv-6park)
 clubedohardware.com.br#@##banner
 clubedohardware.com.br#@#.ipsAd
 clubedohardware.com.br#@#.nexusad
-cm.bilibili.com
 cm.k366.com##.rightpart td[height="260"]
 cm.k366.com##.rightpart td[width="300"][height="270"]
 cm.l.qq.com
@@ -16714,10 +16715,6 @@ zhenbuka.com##.jq-toast-wrap
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(adjust-setTimeout, CloseAd, , 0.02)
 zhibo8.cc###m_adv
 zhibo8.cc###popautoapp
-zhibo8.cc##.ad_box_250
-zhibo8.cc##a[href*=".wanjiashe."]
-zhibo8.cc##div[class*="advert"]
-zhibo8.cc#@##ad_box
 zhicheng.com##.mad_top
 zhicheng.com##.normal-banner
 zhicheng.com##.sf_1
@@ -18828,6 +18825,7 @@ zzzyk.com###Tinfo
 ||aidigua.com^
 ||aidmat.icu^
 ||aifei0755.net/123/
+||aigfednd.icu^
 ||aiiaqw.xyz^
 ||aikkits.com^
 ||aiknx.cn^
@@ -20714,6 +20712,7 @@ zzzyk.com###Tinfo
 ||cholo215.cn^
 ||cholor201015.cn^
 ||cholor201115.cn^
+||chonaesor.com^
 ||chong-wu.net^
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||chongyayakk.xyz^
@@ -23597,7 +23596,7 @@ zzzyk.com###Tinfo
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js^$empty
-||hdslb.com/bfs/sycp/creative_img/$image
+||hdslb.com/bfs/cm/cm-sdk/static/js/pc.js^$script
 ||hdslb.com/js/bfd.js
 ||hdslb.com/js/core-v5/picment.
 ||hdsrc-a.akamaihd.net^
@@ -31325,6 +31324,7 @@ zzzyk.com###Tinfo
 ||wap1.laogu.wang^
 ||wap2.laogu.wang^
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
+||warped-bus.com^
 ||wasabii.com.tw/float/*.js
 ||wasaidailian.com^
 ||watchmygf.to^$third-party
@@ -33035,7 +33035,6 @@ zzzyk.com###Tinfo
 ||zhhbqg.com/ww/*.js
 ||zhhbqg.com/xxgg/*.js
 ||zhibo128x1.xyz^
-||zhibo8.cc/js/adv-slide-toggle.js
 ||zhibok8.com/images/*.gif
 ||zhibok8.com/js/di
 ||zhibok8.com/js/scroll.js
