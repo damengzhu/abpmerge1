@@ -934,6 +934,7 @@
 ##.room-ad-video-down
 ##.rotate-adv
 ##.row > .gao-bg
+##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 ##.rtcenter_game
 ##.s.u.m.o.me.scrollbox-popup
 ##.samBannerUnit
@@ -1685,7 +1686,6 @@
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
-##header + main > div[class$=" block"][id="rd0"][data-v-app]
 ##html.wap [style='left: 40%;']
 ##iframe.ad-frame
 ##iframe[src*=".xxmh"][src*="?u="]
@@ -3009,7 +3009,6 @@
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
-91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
 91porny.org,jstv600.com,x9av7.com##.footer + .block
@@ -3501,7 +3500,7 @@ asmag.com.cn###adRightFix
 asmag.com.cn##.adAsMainLeft
 asp300.com,asp300.net##.tit01 > a
 asp300.com,asp300.net##.tit02 > a
-assbbs.com###ass_adv
+assbbs.com##div[id^="ass_adv"]
 asura.gg#$#hide-if-matches-xpath './/div[@language]/video[@src]/ancestor::div[@style]/parent::div[@id="tip_text_content"]/ancestor::div[@style][@id][1]'
 asus.com##.bg_block
 aternos.org###atblck
@@ -11218,6 +11217,7 @@ steelcn.cn##.new_fixed
 stevivor.com#$#hide-if-matches-xpath '//div[@id][@style]/div[contains(@id,"ad")]/ancestor::div[contains(@class,"mmt")]'
 stheadline.com###jetso-wrapper
 stheadline.com##.section-popular
+sto.cx##div[id^="ContAD"]
 sto520.com#?#.content > div.book > div[style^="text-align"]:has(> ins.adsbygoogle)
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
@@ -12471,7 +12471,6 @@ x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
 x99av.com##+js(set-constant, ADSOBJET, {})
-x9av1.com,jsav2.com##.row > div.colVideoList:not(:has(> div.video-elem > a[href^="/video"]))
 xanimu.com##div[id^="after-boxes"]
 xanimu.com##div[id^="beside-video"]
 xanimu.com##div[id^="related-boxes-footer"]
