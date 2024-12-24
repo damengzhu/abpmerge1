@@ -8586,7 +8586,6 @@ lkong.com##.lkong-ads
 llss.bz###secondary img:not(.avatar)
 llysc.cn###fbi-top-fixed-ad
 lm-us.com#@#.advertisement_above_footer
-lnk2.cc##+js(set-constant, adblock, false)
 localking.com.tw###adbannerurl
 lofter.com##.js-promote-itm
 logi.im##+js(no-setTimeout-if, ins.adsbygoogle)
@@ -12494,6 +12493,7 @@ xc6b.com##a[href="http://61.160.236.52"]
 xcar.com.cn###eMeng
 xcar.com.cn###show_car
 xcar.com.cn##div[class^="adset"]
+xchina.co##+js(addEventListener-defuser, DOMContentLoaded, check)
 xchina.co##.outer-banner
 xchina.co##.push-top
 xchina.co##div:has(> div:only-child > .media img[src*="/ad/"])
