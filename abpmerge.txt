@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-28 08:13:16
-! Total count: 32464
+! Version: 2024-12-28 16:11:46
+! Total count: 32462
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3548,7 +3548,6 @@ $websocket,domain=wap.yushuwu.cloud
 141jj.com##.category-wrapper > ul > div[style="line-height:24px;"] > a
 141jj.com##.moboad + .webad
 141jj.com#?#li:-abp-contains(/贊助|推廣/)
-141jj.com,99kubo.tv,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 158zm.com##.top-af-container
 159i.com###body > table[width="100%"]
@@ -4592,10 +4591,6 @@ $websocket,domain=wap.yushuwu.cloud
 99114.com##.indexcjgg
 99a21.com##.wrap-head-spots
 99kubo.tv##.main > div[class="datal clear"]
-99kubo.tv##div[style="width:970px; height:250px;"]
-99kubo.tv##table[width="970"][height="260"]
-99kubo.tv##table[width^="9"][height="90"]
-99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 99meijutv.com##.follow-qrcode
 99re.com##.dmcenter
 99re.com##.spots
@@ -14257,6 +14252,7 @@ rapid8.com##.backk
 rarbg.com##A[href^="/w_d_adpub.php?id="]
 razlozhi.ru,24smi.org,auto.ru,gorodrabot.ru,kinopoisk.ru#$#abort-on-property-read Element.prototype.attachShadow; abort-on-iframe-property-read Element.prototype.attachShadow
 read.qidian.com##.operation-wrap
+read.thisiscm.com##.gadBlock
 readmoo.com#@#.navbar-social
 readms.com###reader-sky
 readms.com##.message-ld.pull-right
@@ -18103,6 +18099,7 @@ zzzyk.com###Tinfo
 ||8bobf.*/da.aspx
 ||8chj9.com^
 ||8cnd.com^
+||8cp.icu^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
 ||8en.net^$third-party
@@ -18230,7 +18227,6 @@ zzzyk.com###Tinfo
 ||999xx999kk.com^
 ||99danji.com/kchtml/
 ||99jinpin.com^
-||99kubo.tv/static/img/adsfree.png
 ||99lb.net/index_files/*/970
 ||99meiju.tv/js/tj.js
 ||99meiju.tv/template/zhuan/neirongye_foot.js
@@ -23262,6 +23258,7 @@ zzzyk.com###Tinfo
 ||hciea.xyz^
 ||hciwyv.icu^
 ||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
+||hclimiu.top^
 ||hcvegu.com^
 ||hcznaubp.icu^
 ||hdaidj.cn^
@@ -28106,6 +28103,7 @@ zzzyk.com###Tinfo
 ||referentiel.nouvelobs.com/js/nobs;manifest-analytics.js$script
 ||reisyxy.icu^
 ||relafp.xyz^
+||relgrads.com^
 ||relive.vodfile.m1905.com/video/qiantie202$media
 ||remehealth.net^$third-party
 ||remfebd.cn^
