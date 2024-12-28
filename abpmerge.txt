@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-27 16:12:38
-! Total count: 32451
+! Version: 2024-12-28 08:13:16
+! Total count: 32464
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1557,6 +1557,7 @@
 ##a[target="_blank"][onclick*="广告点击"]
 ##body .has-ad
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
@@ -1973,6 +1974,8 @@ $websocket,domain=wap.yushuwu.cloud
 .cz/*/js/a.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 .dajiahao*.top/getCodeDomain/
 .eu/ads/
+.fun/*.jss?17*&r=0$third-party
+.fun/*/17*/*.css?r=0$third-party
 .fun/*_*_rony.js
 .fun/ad/
 .gif$third-party,domain=1024pa.com
@@ -2074,6 +2077,7 @@ $websocket,domain=wap.yushuwu.cloud
 .test15./
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
+.top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/ad-
@@ -3545,6 +3549,7 @@ $websocket,domain=wap.yushuwu.cloud
 141jj.com##.moboad + .webad
 141jj.com#?#li:-abp-contains(/贊助|推廣/)
 141jj.com,99kubo.tv,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
+141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 158zm.com##.top-af-container
 159i.com###body > table[width="100%"]
 159i.com###header + div > style + div[class]
@@ -7642,6 +7647,7 @@ baomidou.com##+js(set-constant, _AdBlockInit, noopFunc)
 baomidou.com##.sidebar-content > astro-island
 baomoi.com#$#abort-on-property-write AdtimaRender
 baozimh.one,yazhouse8.com##.banners
+baozimh.org,bzmh.org,g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 bato.to#$#abort-current-inline-script document.createElement _vwmso
 batporno.com#$#abort-on-property-read decodeURI
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
@@ -8059,7 +8065,6 @@ buzzorange.com#?#.sidebar > section[id^="text-"]:has(> .textwidget > .dfped)
 bytzbiorowy.pl###stickymsg
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
-bzmh.org,g-mh.org,godamh.com,manhuafree.com,sportsplanetmag.com##.adshow
 c.biancheng.net##.ggxc-box > a[target="_blank"] > img
 c114.com.cn###ad_r1
 c114.com.cn###barrage_ad
@@ -18396,6 +18401,7 @@ zzzyk.com###Tinfo
 ||aaoisp.com^
 ||aaread.space/images/*0.gif
 ||aassy4.com/dm/
+||aatv.app/sport/sport.js
 ||ab.cnbanbao.com^
 ||ab.rejushe.com^
 ||abab.com/pv.js
@@ -20252,6 +20258,7 @@ zzzyk.com###Tinfo
 ||ccement.com/js/ccement_new/open.js
 ||cchvc.net^
 ||cckke.com/fanhao/v/ad
+||cclimif.top^
 ||ccmeng.com^$third-party
 ||ccnim.xyz^
 ||ccobksxz.icu^
@@ -26434,6 +26441,7 @@ zzzyk.com###Tinfo
 ||mwdwepok.xyz^
 ||mwerilxx.top^
 ||mweriox.top^
+||mwilmix.top^
 ||mwqetvn.icu^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
@@ -26742,6 +26750,7 @@ zzzyk.com###Tinfo
 ||norma-external-collect.meizu.com^
 ||norse.mingxiaow.com^
 ||northcookie.xyz^
+||noslugut.com^
 ||notes-analytics-events.apple.com^
 ||noticiasurgente.in/embed/p2/Controller/DesktopViewControladorMicki.js$script,domain=megatorrentshd.com
 ||notify.bugsnag.com^
@@ -28188,6 +28197,7 @@ zzzyk.com###Tinfo
 ||rkanr.com/data/cpcache/cp*.js
 ||rkgbqn.icu^
 ||rkgwzfwjgk.com^
+||rklzpo.com^
 ||rksnqq.com^
 ||rktjxj.icu^
 ||rkwxfi.xyz^
@@ -28833,6 +28843,7 @@ zzzyk.com###Tinfo
 ||smtwm61.com^
 ||smuc.cnnfootballclub.com^
 ||smzy.com/v1/img/
+||sn9.icu^
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
 ||snalzlb.top^
@@ -29687,6 +29698,7 @@ zzzyk.com###Tinfo
 ||tribalfusion.com^
 ||trimmoits.com^
 ||trip.com/partners/ad/
+||trjfoagf.icu^
 ||trk.pinterest.com^
 ||trognoi.com^
 ||tronkuks.com^
@@ -29706,6 +29718,7 @@ zzzyk.com###Tinfo
 ||trymask.com/api/$third-party
 ||ts166.net^
 ||tsancii.top^
+||tsbrzz.icu^
 ||tsck.online^
 ||tsdfxv.xyz^
 ||tsdm.live/weibo.html
