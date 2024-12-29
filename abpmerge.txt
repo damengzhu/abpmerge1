@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2024-12-28 16:11:46
-! Total count: 32462
+! Version: 2024-12-29 08:13:29
+! Total count: 32476
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5376,6 +5376,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
+@@||cloudflare.com/cdn-cgi/trace$domain=net.ljxnet.cn
 @@||cloudflare.net^$script,domain=colamanga.com
 @@||cloudtime.to/banner.php$script
 @@||club.tgfcer.com^$generichide
@@ -10909,6 +10910,12 @@ hy5.com.cn##.toplogoad
 hy5.com.cn##.toppicad
 hy5.com.cn##.toptxtad
 hybase.com###hd_float
+hybase.com##.categoryimg
+hybase.com##.entry-banner
+hybase.com##.insy1
+hybase.com##.widget_c_white
+hybase.com##div:has(> script[src^="/ckjs/"]:only-child)
+hybase.com##div[class^="widget_"]:empty
 hybbs.com##div[class^="adtop"]
 hyperallergic.com#@#.ad-above-footer
 hz66.com##div[class*="lb_gg"]
@@ -17561,6 +17568,7 @@ zzzyk.com###Tinfo
 ||3v7c7y.online^
 ||3vp.icu^
 ||3wk.cc/images/*.gif
+||3xl.icu^
 ||3yej.xyz^
 ||3zmmm.net/ggxx/
 ||40407.com/plus/rpad/
@@ -23723,6 +23731,7 @@ zzzyk.com###Tinfo
 ||hy.luassane.cn^
 ||hy5.com.cn/admin/
 ||hy90.cn^
+||hybase.com/ckjs/
 ||hybase.com/images/hysq99.png
 ||hybbs.com/i/$image,object
 ||hyeqp.xyz^
@@ -23797,6 +23806,7 @@ zzzyk.com###Tinfo
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||iciclle.com^
 ||ickd.cn/mobile/js/touch
+||iclimio.top^
 ||icnkr.com/cnkradv/
 ||icnkr.com/data/attachment/portal/
 ||icon.zol-img.com.cn/mainpage/js/click.js
@@ -23825,6 +23835,7 @@ zzzyk.com###Tinfo
 ||iecmca.xyz^
 ||ieeod0.com^
 ||ieforex.com/r/cms/www/red/red2/images/*0.
+||iemhotqk.com^
 ||iemwbu.cn^
 ||iephrenhq.com^
 ||ieryt111.fun^
@@ -25597,6 +25608,7 @@ zzzyk.com###Tinfo
 ||ljdofz.xyz^
 ||ljhbhy.cn^
 ||ljimtyl.top^
+||ljjhfw34.fun^
 ||ljpbtjq.xyz^
 ||ljvc0.icu^
 ||ljzcawea.icu^
@@ -28303,6 +28315,7 @@ zzzyk.com###Tinfo
 ||rvlgrb.xyz^
 ||rvnaxwqe.icu^
 ||rvtfwryz.icu^
+||rvxmlj.icu^
 ||rvyjbwr.cn^
 ||rvzlobj.cn^
 ||rwdjrn.icu^
@@ -30394,6 +30407,7 @@ zzzyk.com###Tinfo
 ||vjie.com^$third-party
 ||vjpgm.space^
 ||vjvj.vj24co.com^
+||vjzvgvgz.icu^
 ||vk920.com/img1/
 ||vk922.com/img/
 ||vk923.com/img/
