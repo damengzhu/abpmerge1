@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-01 08:14:14
-! Total count: 32512
+! Version: 2025-01-01 16:12:34
+! Total count: 32521
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4290,6 +4290,7 @@ $websocket,domain=wap.yushuwu.cloud
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn509.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -4510,6 +4511,7 @@ $websocket,domain=wap.yushuwu.cloud
 85wp.com##.top-ad-img
 8684.cn,8684.com##div[id*="adid"]
 8684.cn,8684.com,iyxdm.live,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.top,kugou.com,solarzoom.com,yesky.com##div[class^="adv"]
 8727ck.cc,8726ck.cc,8724ck.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 8727ck.cc,8726ck.cc,8724ck.cc##body > div[style] > a[href][target="_blank"]
 880sy.com##.foot_gg
@@ -7337,7 +7339,7 @@ axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA740
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net###uuuui
-axutongxue.net##+js(no-setTimeout-if, getCookie(")
+axutongxue.net##+js(no-setTimeout-if, checkCookie)
 axutongxue.net##body > article[style]
 azcardinals.com###adblock-notice
 azofreeware.com###HTML7
@@ -9434,6 +9436,7 @@ element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
 element-plus.org##.page-sidebar-group
+element-plus.org##.page-sidebar-table
 element-plus.org#?#div:-abp-has(>.sponsor-item)
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
@@ -15377,6 +15380,7 @@ tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 tmall.com##.mui-mbarp-qrcode
 tmioe.com##.widget_image_img
 tmioe.com##.ztimg
+tmioe.com##.zttimg
 tmioe.com##a[href*=".zps.im"]
 tmtpost.com##.open-app
 to8to.com##.ad-commom
@@ -16784,6 +16788,8 @@ zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
 zn509.cc###klp_hdp
 zn509.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn510.cc###klp_hdp
+zn510.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
@@ -20873,6 +20879,7 @@ zzzyk.com###Tinfo
 ||cresqoirz.com^
 ||crf999.cn^
 ||crfjxfoe.xyz^
+||cridotty.com^
 ||crigroik.com^
 ||criqai.com^
 ||criteo.com^$third-party
@@ -29385,6 +29392,7 @@ zzzyk.com###Tinfo
 ||tcheeter.com^
 ||tchkcc.cn^
 ||tci.oss-ap-southeast-1.aliyuncs.com^
+||tclimii.top^
 ||tcmap.com.cn/js/b_
 ||tcsgcdn.top^
 ||tcss.qq.com^
@@ -30090,6 +30098,7 @@ zzzyk.com###Tinfo
 ||ujnkn.com^
 ||ujovcb.cn^
 ||ujrspnbf.xyz^
+||uk0.icu^
 ||uk529u0.cn^
 ||ukbbjtfp.xyz^
 ||ukitert.top^
