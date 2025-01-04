@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-04 08:13:03
-! Total count: 32123
+! Version: 2025-01-04 16:11:45
+! Total count: 32133
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3479,6 +3479,7 @@ $websocket,domain=wap.yushuwu.cloud
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.topic_list_box
 111os.com###btmBox
+111os.com###couplet
 111os.com###midBox
 111os.com###topBox
 111os.com,ahah3.com,qhyy8.com###couplet
@@ -3805,6 +3806,8 @@ $websocket,domain=wap.yushuwu.cloud
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,hcbbs.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,discuzlab.com,gebi1.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+1x6666.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,gz0668.com,hcbbs.com,mahoupao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 1ydt.com###head
 2.taobao.com##.download-layer
 2000fun.com##.single-box
@@ -4290,6 +4293,7 @@ $websocket,domain=wap.yushuwu.cloud
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -14586,6 +14590,7 @@ sina.cn###j_toTop ~ .fl_suspension_template
 sina.cn###midThreeAds
 sina.cn###promotionCover
 sina.cn##.article-sax
+sina.cn##.bannerAD
 sina.cn##.callApp_fl_btn
 sina.cn##.dfz_sd_news > a[href*=".10086.cn"]
 sina.cn##.j_article_cutpic
@@ -17928,6 +17933,7 @@ zzzyk.com###Tinfo
 ||6v4.work^
 ||6v6.work^
 ||6vhao.tv/d/
+||6w7.icu^
 ||6yfcuuw.com^
 ||6yso.com/wp-content/uploads/*-300-x-
 ||6zfem.icu^
@@ -18741,6 +18747,7 @@ zzzyk.com###Tinfo
 ||aiqu28.com/da/
 ||aiqu288.com/da/
 ||aiqu321.com/da/*.js
+||airakgyl.com^
 ||airav.cc/AirADPic/
 ||airav.cc/Ucenter/*_Ad
 ||airav.cc/iframe/
@@ -20323,6 +20330,7 @@ zzzyk.com###Tinfo
 ||cdxyb.cn^$third-party
 ||cdybwjpa.xyz^
 ||cdyee.com/external/5070.files/ad/
+||cdyurlif.top^
 ||ce.wlaoc.cn^$third-party
 ||cee1.iteye.com^
 ||ceh.cehbh.com^
@@ -27338,6 +27346,7 @@ zzzyk.com###Tinfo
 ||pstatp.com/origin/13816000374e83a453717.jpg
 ||pstatp.com/origin/fef20000e7013b3511b6
 ||pstatp.com/toutiao/push.js
+||pstatp.com^$domain=5217kdy1.xyz
 ||pstatp.com^$domain=5217kdy1.xyz|ahah3.com|i5qs.com
 ||pstatp.com^*/bannersdk/
 ||pstatp.com^*/push.js
@@ -28212,6 +28221,7 @@ zzzyk.com###Tinfo
 ||sciillr.cn^
 ||scint-x.com/js/
 ||scjpqut.cn^
+||scjtfh.xyz^
 ||sckyf.com^
 ||sclimib.top^
 ||scoev.cn^
