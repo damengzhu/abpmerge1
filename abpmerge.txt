@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-05 08:12:58
-! Total count: 32097
+! Version: 2025-01-05 16:11:41
+! Total count: 32110
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2466,6 +2466,7 @@ $websocket,domain=wap.yushuwu.cloud
 /baidu/tg.js
 /banner-ad.
 /banner.js$domain=28188.com|28188.net
+/banner.js$domain=28188.net
 /banner/*$domain=leiphone.com
 /banner468.
 /banner468x60_live173.
@@ -3158,6 +3159,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tencentvideo/script/webtips/*
 /tghr.js$domain=159i.com
 /the_top$domain=28188.com|28188.net
+/the_top$domain=28188.net
 /tianya_recommend?
 /tigatage:$script,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz|kinobox.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 /tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
@@ -4455,6 +4457,7 @@ $websocket,domain=wap.yushuwu.cloud
 776dm.com,qiqidongman.com##.topAA
 778772.com##a[href^="http://www.yh988y.com"] > img
 778772.com##td[style*="PADDING-BOTTOM:"] > a > img
+77bike.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 77bike.com,actoys.net,gpsuu.com,homefei.me,ksbbs.com,mgbbs.cn,oigps.com,opticsky.cn##.tac.mb5
 77bike.com,ghoffice.com##.tac[style="border-top:1px dotted #ddd;line-height:1;"]
 77kpp.com##div[style="z-index:1000000;position: fixed;top:0;left:0;"]
@@ -9424,8 +9427,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.page-sidebar-table
-element-plus.org#?#div:-abp-has(>.sponsor-item)
+element-plus.org##div[class^="page-sidebar-"]
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.xyz,xstreamcdn.com#$#abort-on-property-read AaDetector
@@ -9996,6 +9998,7 @@ fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fz.se###AdBlockerInfo
 fznews.com.cn##.kuang100_right
+g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
 g-years.com,ghoffice.com,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 gaara-fr.com###ga-skin-left
@@ -10365,6 +10368,7 @@ hackhome.com##.ul_ad
 hackhw.com##.d336
 hackhw.com##.d336x2
 hackhw.com##.entry-banner
+hackhw.com##.hengfuad
 hackhw.com##.widget_content_b
 hackhw.com,ithome.com###hd_float
 hackhw.com,qqjia.com##.hengfuad
@@ -11966,6 +11970,7 @@ kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 kdocs.cn##.business-list-wrap
 kdslife.com###ad_swip
+kdslife.com###hb
 kdslife.com###mainRightTopAd
 kdslife.com###tao
 kdslife.com###youhui
@@ -12076,6 +12081,7 @@ ksbbs.com##div[id^="mimi_"]
 ksbbs.com,kshot.com###banner2_top
 ksbbs.com,kshot.com###banner_top
 ksbbs.com,kshot.com##.slideAdvert
+ksbbs.com,kshot.com##[id^="ads_"]
 ksbbs.com,kshot.com##div[id^="read_ad_"]
 kshot.com##div[id^="read_m_yytf"]
 kt51.com,nfstar.net##.bottom_fixed
@@ -12141,7 +12147,10 @@ laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_h
 laosiji.com#@#.sns-wrapper
 laowang.vip###frameYl5IOf
 laowangblog.com##img[src^="https://laowangblog.com/"][src*="-ad"]
+laozuo.org###focusslide
+laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.s_ad125
+laozuo.org##.widget_ui_orbui
 las.ac.cn###img
 latinblog.tv#$#abort-on-property-write _cpp
 latinblog.tv,adblockplustape.com,adblockstreamtape.art,adblockstreamtape.site,adblockeronstreamtape.xyz,baytorrent.eu.org,dood.pm,dood.so,dood.to,dood.video,dood.watch,dood.wf,dood.la,dood.ws,doods.pro,doodstream.co,doodstream.com,voe.sx,europixhd.com,europixhd.net,fileflares.com,gledajonline.net,govid.me,hdeuropix.io,hxfile.co,isohunt.lol,isohuntz.net,javmost.com,javjunkies.com,limetorrents.info,loadsubs.net,mypiratebay.best,mypiratebay.club,mypiratebay.co,mypiratebay.life,mypiratebay.live,mypiratebay.me,mypiratebay.surf,mypiratebay.win,mypiratebay.work,mypiratebay.wtf,mypiratebay.xyz,myyouporn.com,openpirate.org,piratebay.cloud,piratebay.live,piratebay.party,piratebay.world,piratebayproxy.live,piratebays.wtf,pirateproxy.earth,pirateproxy.live,pirateproxy.surf,pirateproxy.us,proxyninja.org,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.club,strcloud.link,streamadblockplus.com,streamadblocker.xyz,streamadblockplus.xyz,streamtape.cc,streamtape.com,strtapeadblock.me,streamtape.net,streamtape.to,streamtape.xyz,streamta.pe,strtape.cloud,strtape.site,strtape.tech,adblockstrtape.link,tapewithadblock.org,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay.zone,thepiratebay0.org,thepiratebay10.org,topeuropix.net,tpb.party,tpb.red,vidoz8.com,vidshare.tv,youdbox.com,mixdrop.*#$#abort-on-property-write _pop
@@ -20082,6 +20091,7 @@ zzzyk.com###Tinfo
 ||cache.netease.com/cnews/js/qrcode.js
 ||cache1.value-domain.com/xrea_header.js
 ||cachead.com^*.js
+||cachusrw.com^
 ||cad.youku.com^
 ||cadcc.icu^
 ||cadke.xyz^
@@ -21047,6 +21057,7 @@ zzzyk.com###Tinfo
 ||dalmfn.xyz^
 ||damai.cn/phpstat/
 ||damiul.icu^
+||dangbei.net/2022/dbhezi.
 ||dangbei.net/img/db/downdangbei.gif
 ||dangdang.com/adall.
 ||dangongshijie.com^
@@ -21884,7 +21895,6 @@ zzzyk.com###Tinfo
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
 ||elegant-creator.com^
-||element-plus.org/images/sponsors/
 ||elevatorpartsbuy.com^
 ||elinvarpayola.com^
 ||elloisny.com^
@@ -23143,6 +23153,7 @@ zzzyk.com###Tinfo
 ||hcdjy.xyz^
 ||hcgbhq.com^
 ||hciea.xyz^
+||hcirentgh.360doc.cn^
 ||hciwyv.icu^
 ||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
 ||hclimiu.top^
@@ -23499,7 +23510,7 @@ zzzyk.com###Tinfo
 ||htseca.top^
 ||httpcn.com/Images/banner
 ||httpcn.com/m/tg/
-||httpcn.com^*950-120
+||httpcn.com^*-120
 ||httpdns.pro^
 ||httpsjs.com^
 ||httpwwwdcom.com/js/aaa/
@@ -23704,6 +23715,7 @@ zzzyk.com###Tinfo
 ||idubwz.cn^
 ||idv.st/dns/bar.htm
 ||idynbff.cn^
+||idyurlio.top^
 ||ieapak.xyz^
 ||iecmca.xyz^
 ||ieeod0.com^
@@ -29661,6 +29673,7 @@ zzzyk.com###Tinfo
 ||u346zd.top^
 ||u4ccj.icu^
 ||u55011.com^
+||u57.icu^
 ||u5ps5.icu^
 ||u68t5.icu^
 ||u6u.icu^
