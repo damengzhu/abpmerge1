@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-06 16:13:26
-! Total count: 32030
+! Version: 2025-01-07 08:14:47
+! Total count: 32035
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -16215,7 +16215,7 @@ www.youtube.com#$#override-property-read Object.prototype.videoSkipJob_ noopFunc
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read playerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
-www.youtube.com,youtube-nocookie.com#$#race start; skip-video '#primary .video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1020' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1030' '-stop-on-video-end:true'; race stop;
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1010' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]' '-start-from:1020' '-stop-on-video-end:true'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]' '-start-from:1030' '-stop-on-video-end:true'; race stop;
 www.zhihu.com##.KfeCollection-VipRecommendCard
 www.zhihu.com##.OpenInAppButton
 www.zhihu.com##A.MBannerAd
@@ -18960,6 +18960,7 @@ zzzyk.com###Tinfo
 ||aolusb.com/forever/
 ||aoqinglv.cn^
 ||aornkmae.com^
+||aos01070ss.xyz^
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
 ||aourgk.xyz^
@@ -21652,6 +21653,7 @@ zzzyk.com###Tinfo
 ||e3c7.com/love/
 ||e3ol.com/inc/
 ||e49.xyz^
+||e50.icu^
 ||e5yx.com^$popup
 ||e8d7.icu^
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
@@ -24270,6 +24272,7 @@ zzzyk.com###Tinfo
 ||jf2v.mnpool.cn^
 ||jfjslia.top^
 ||jfnkjr.xyz^
+||jfrrnf.icu^
 ||jfsdiwmnbsk009.top^
 ||jfyb6.com^
 ||jg1668.com^$third-party
@@ -25149,6 +25152,7 @@ zzzyk.com###Tinfo
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
 ||lb5o9.com^
+||lbfuvlyp.icu^
 ||lbjekygz.icu^
 ||lbnqnp.xyz^
 ||lbprjdi.cn^
@@ -28185,6 +28189,7 @@ zzzyk.com###Tinfo
 ||sdtsad.com^
 ||sdvfvgj.cn^
 ||sdvsv.com^
+||sdyurlib.top^
 ||sdzbcg.com/images/sdfhyl
 ||sdzhongke.cn^
 ||se533.com/template/new/css/*.js
