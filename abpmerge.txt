@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-07 08:14:47
-! Total count: 32035
+! Version: 2025-01-07 16:28:24
+! Total count: 32046
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2235,6 +2235,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]dyurli[a-z].top\//$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
@@ -4275,6 +4276,7 @@ $websocket,domain=wap.yushuwu.cloud
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn511.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -16722,6 +16724,8 @@ zjst.net##body > style ~ *,.vod-gd
 zk001.cc##section[class^="ch"]
 zn510.cc###klp_hdp
 zn510.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn511.cc###klp_hdp
+zn511.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znds.com###diy_mobanbus_view_right2
 znews.vn#$#abort-on-property-read adtimaConfig
 zol.com.cn###Article_Top_Banner
@@ -17518,6 +17522,7 @@ zzzyk.com###Tinfo
 ||4399.com/loadimg/iframe_
 ||4399.com/loadimg/loading.htm
 ||4399sj.com^*/mask-ad
+||43a.icu^
 ||4438x*.com/Runtime/js/
 ||44629.com^
 ||44pd.com^*xds/
@@ -18327,6 +18332,7 @@ zzzyk.com###Tinfo
 ||abc.douguo.com^
 ||abc.hkepc.com^
 ||abc.hkepc.net^
+||abc.ruodian360.com^
 ||abc.yebaike.com^
 ||abcache.com/tg/
 ||abcache.com/xc/image/
@@ -20698,6 +20704,7 @@ zzzyk.com###Tinfo
 ||cpro.zol.com.cn^
 ||cpro88.vip^
 ||cpt.9136.com/img/b_special/
+||cpu.baidu.com/block/wap/
 ||cpu.baidu.com^$third-party
 ||cpucdn.baidu.com^
 ||cpwlctfk.xyz^
@@ -21757,6 +21764,7 @@ zzzyk.com###Tinfo
 ||educity.cn/self_text/text_disp.aspx?id=
 ||eduizioq.com^
 ||eduuu.com/website/public_js/pc_aso.js
+||edyurliw.top^
 ||ee.m08pe.cn^$third-party
 ||ee.shixunwang.net^
 ||ee021.com/Runtime/js/
@@ -22628,6 +22636,7 @@ zzzyk.com###Tinfo
 ||ghabnq.xyz^
 ||gheqien.com^
 ||gherkax.com^
+||gheslosy.com^
 ||ghgasdb365.shop^
 ||ghgasdt963.shop^
 ||ghghgf.51dongshi.com^
@@ -28127,6 +28136,7 @@ zzzyk.com###Tinfo
 ||scint-x.com/js/
 ||scjpqut.cn^
 ||scjtfh.xyz^
+||sckfcn.cn^
 ||sckyf.com^
 ||sclimib.top^
 ||scoev.cn^
@@ -28717,6 +28727,7 @@ zzzyk.com###Tinfo
 ||ssyy881.com/zz/
 ||st-fly.b-cdn.net^
 ||stadig.ifeng.com^
+||staivoiks.com^
 ||star-media.cn^$third-party
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||staramuse.com/bmip/showg
