@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-08 08:14:44
-! Total count: 32049
+! Version: 2025-01-08 16:13:20
+! Total count: 32052
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -9638,7 +9638,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,survey-smiles.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet4.site,anh.moe,maclife.io,xemphimjav.com,hoctot.hocmai.vn,motchilltv.love,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans6.net,herotruyen.com#$#abort-on-property-read open
+fembed.com,survey-smiles.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet4.site,anh.moe,maclife.io,xemphimjav.com,hoctot.hocmai.vn,motchilltv.name,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans6.net,herotruyen.com#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -15748,9 +15748,11 @@ videowood.tv#@#.text_ad
 videowood.tv#@#.text_ads
 videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-read window.open
 vidhub.me,vidhub.tv##.promotelink
+vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
 vidhub1.cc,vidhub.me,vidhub.tv##.promolnk
 vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="ad"]:has(> div[class^="prom"][style] > img[onclick^="window.open"])
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
@@ -29447,6 +29449,7 @@ zzzyk.com###Tinfo
 ||tu3921276844.cc^
 ||tu4038097360.cc^
 ||tu5551976196.cc^
+||tu6.icu^
 ||tu6767109513.cc^
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
