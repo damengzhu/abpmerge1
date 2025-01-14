@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-13 16:14:03
-! Total count: 32113
+! Version: 2025-01-14 08:14:16
+! Total count: 32117
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2239,6 +2239,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]domsi[a-z].top\//$script,third-party
 /\.[a-z]dyurli[a-z].top\//$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
@@ -6977,6 +6978,7 @@ allboxing.ru#$#abort-current-inline-script document.querySelector open
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.pl##div[data-box-name][data-analytics-groups*="Reklamy"]
@@ -6987,7 +6989,6 @@ allegro.pl#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсо�
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/../../div/ancestor::div[@data-role="showcase"]'
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.ads.dss.banner"][1]'
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::span/ancestor::div[1]/parent::div[@data-box-name]/../../../parent::div[@data-item]'
 allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::a/ancestor::li[1]'
 allegro.pl#$#hide-if-matches-xpath './/ul//span[text()="Sponsorowane"]/../../parent::li/ancestor::div[@data-box-id][1]/../../../parent::div[@style]'
@@ -8596,6 +8597,7 @@ comprovendolibri.it#@#.myTestAd
 comptoir-info.com#@#.textad
 contents.internet.apps.samsung.com##.page-bar
 conversion.im#$#abort-current-inline-script $ mainContainer
+convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 cool-de.com###fwin_popadv
 cool-de.com###fwin_popadv_cover
 cool-de.com##.bustopads
@@ -9499,9 +9501,6 @@ etest8.com##.subtop2right
 etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
-etoland.co.kr#$#abort-on-property-read atob;
-etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
-etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
 etsy.com#$#hide-if-matches-xpath './/h3[contains(@id,"ad-listing")]/ancestor-or-self::div[@data-page-type="listing_page_similar_listings_grid"]'
@@ -14691,6 +14690,7 @@ smjb.net##div[style*="height: 50%"]
 smm.cn##.ad_front_container
 smm.cn##.common-jinzhu-wrap
 smm.cn##.top_taishan_jinzhu
+smsonline.cloud,infinityfree.com,flatpanelshd.com,maketecheasier.com,the-crossword-solver.com,crosswordsolver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,raetsel-hilfe.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,cruciverba.it,word-grabber.com,woxikon.de,woxikon.es,woxikon.se,woxikon.fr,woxikon.it,woxikon.nl,woxikon.com.br,woxikon.dk,woxikon.pl,woxikon.pt,woxikon.bg,wort-suchen.de#$#abort-on-iframe-property-read atob btoa
 smzdm.com###footer_layer
 smzdm.com##.J_index_wall
 smzdm.com##.banner-stuff
@@ -15105,7 +15105,6 @@ taizhou.com.cn##.duilian
 taizhou.com.cn##.duilian2
 talkfx.co###frameff1Hu9_left
 talkfx.co##.slidebox
-talkwithstranger.com,convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 tamil.samayam.com#?#div:-abp-has(> h2 span:-abp-contains(Colombia))
 tangdoucdn.com##+js(nano-setInterval-booster, .s--, , 0.02)
 tangdoucdn.com##+js(set-constant, Object.prototype.ad_switch, 0)
@@ -15180,7 +15179,6 @@ tgx.rs,torrentgalaxy.*#$#hide-if-matches-xpath './/img[@data-src="bin"]/precedin
 th-sjy.com##.banner-post
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
-the-crossword-solver.com,winfuture.de#$#abort-on-property-read navigator.userAgent; abort-on-property-read document.hidden
 the-sun.on.cc#@##ContentAd1
 theage.com.au,smh.com.au#@#div[id^="_"] > iframe[scrolling="no"][src^="http"][width][height][frameborder="0"]
 theargus.co.uk##.adwarn.adblock-warning
@@ -17573,6 +17571,7 @@ zzzyk.com###Tinfo
 ||4t6u.icu^
 ||4vgyjja.cn^
 ||4we.icu^
+||4wm.fun^
 ||4wu3gf.cn^
 ||5.61.55.143^
 ||5.ccutu.com^
@@ -21961,6 +21960,7 @@ zzzyk.com###Tinfo
 ||esanciw.top^
 ||esgher.fun^
 ||esgher.site^
+||eskux.xyz^
 ||eslbahw.top^
 ||esprit-click.com/display.php$subdocument,third-party
 ||esprit-click.com/ec-async.js$script,third-party
@@ -22580,6 +22580,7 @@ zzzyk.com###Tinfo
 ||geewdashb3.fun^
 ||gegeyingshi.com/template/*/images/g_js/
 ||geilicdn.com/img*_960_60.
+||geinkroll.com^
 ||geiod.xyz^
 ||gelbooru.com/script/application.js
 ||gemini.yahoo.com^
@@ -23480,7 +23481,7 @@ zzzyk.com###Tinfo
 ||htienlu.top^
 ||htimiyu.top^
 ||htjrlm.com^
-||html-load.com^$domain=talkwithstranger.com|convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
+||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 ||htoetgk.icu^
 ||htqyy.com/kiees/
 ||htrurb.xyz^
@@ -23962,7 +23963,6 @@ zzzyk.com###Tinfo
 ||indiatimes.com/detector/$script
 ||indiatimes.in/*/detector.js$script
 ||infantilecombination.com^
-||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
 ||info.vip.iqiyi.com/promotion/
 ||infocab888.life^
 ||infogram.com^$domain=hk01.com
@@ -24812,6 +24812,7 @@ zzzyk.com###Tinfo
 ||kdicked.top^
 ||kdipsumd.top^
 ||kdjdpyrt.xyz^
+||kdomsid.top^
 ||kdopag.xyz^
 ||kdoshbd.top^
 ||kdou.com/ad_js.php?adid=
@@ -25191,6 +25192,7 @@ zzzyk.com###Tinfo
 ||lawtv.com.cn/jd_ceshi.html
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
+||lazzrv.icu^
 ||lb5o9.com^
 ||lbfuvlyp.icu^
 ||lbfwxr.icu^
@@ -30112,6 +30114,7 @@ zzzyk.com###Tinfo
 ||vlujojf.icu^
 ||vm.aty.sohu.com^
 ||vmbzhfh.cn^
+||vmcnl.xyz^
 ||vmdlxj.xyz^
 ||vmnlkr.icu^
 ||vmvps.com/aoyohost-com-bann
@@ -30537,6 +30540,7 @@ zzzyk.com###Tinfo
 ||wumii.cn/ext/relatedItemsWidget
 ||wuplexv.cn^
 ||wuresde.top^
+||wusfa.xyz^
 ||wuxibus.com/Image/title
 ||wuxingruoyin.top/public/*/plugins/
 ||wvwqywz.cn^
