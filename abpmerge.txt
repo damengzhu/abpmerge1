@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-14 16:12:57
-! Total count: 32121
+! Version: 2025-01-15 08:14:08
+! Total count: 32129
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6978,7 +6978,7 @@ allboxing.ru#$#abort-current-inline-script document.querySelector open
 allegro.*##div[data-box-name^="ads"]
 allegro.*#$#hide-if-matches-xpath './/div[contains(@data-analytics-view-label,"sponsored")]/parent::div/ancestor::div[contains(@data-analytics-groups,"ads")]'
 allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno"]//ancestor::div[contains(@data-analytics-groups,"ads")]'
-allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
 allegro.*#?#div[data-analytics-groups*="Branded"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.*#?#div[data-analytics-groups*="ads.tiles"]:-abp-has(span:-abp-properties(/content: "Sponsorowane";|"Спонсороване";|"Sponsored";|"Sponzorováno";|"Sponzorované";/))
 allegro.pl##div[data-box-name][data-analytics-groups*="Reklamy"]
@@ -8433,7 +8433,7 @@ cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
-cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*AAAAAElFTkSuQmCC))
+cn.bing.com#?#.b_algo:-abp-has(p:-abp-properties(content:*Jr8IbslwuuoZ9kr8cTrXXkY8lfZL5p8v2TTht91DQxXZU9AB6BpwzkAAU2AAAAAElFTkSuQmCC))
 cna.com.tw##.ad_336_2
 cna.com.tw#$#.fb_fanpage_inpage > .other_news_box_2 { padding: 0 0px!important; margin: 26px 0!important; }
 cna.com.tw,ettoday.net##.ad_970
@@ -9300,6 +9300,7 @@ eastmoney.com##div[id^="em_important_"]
 eastmoney.com##div[id^="flow-ad-"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
+eastmoney.com##div[style^="position: fixed; z-index:"]
 eastmoney.com##iframe[src*=".eastmoney.com/banner/"]
 eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
 eastmoney.com##iframe[src^="//same.eastmoney.com/"]
@@ -12099,6 +12100,7 @@ lahoo.ca##.right_multi_banner
 lahoo.ca##.view_page_ads
 laifudao.com##.side-adinner
 laixoo.com,v2rayssr.com##.git_banner
+laleggepertutti.it,wort-suchen.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,word-grabber.com,raetsel-hilfe.de,maketecheasier.com,sportsrec.com,flatpanelshd.com,infinityfree.com,crosswordsolver.com,motscroises.fr,cruciverba.it,palabr.as,oeffnungszeitenbuch.de,horairesdouverture24.fr,oraridiapertura24.it,nyitvatartas24.hu,motorbikecatalog.com,economist.co.kr,globalrph.com,forsal.pl,woxikon.*#$#override-property-read window.googletag.cmd noopFunc; abort-on-property-read naverappapi;
 lalilali.com##div[id*="_"]
 lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
@@ -14478,7 +14480,7 @@ seznamzpravy.cz,sport.cz#$#hide-if-matches-xpath '//div[@class]/div[@*="mol-adve
 seznamzpravy.cz/*cmp*$script
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
 seznamzpravy.cz/*ssp.js
-sflix.*#$#abort-current-inline-script parseInt break;case $.
+sflix.*,sflix2.*#$#abort-current-inline-script parseInt break;case $.
 sg169.com##.Mappdiv
 sg169.com##.jy-pos-3
 sgamer.com##.plc > div > a[href*=".vgcool.com"]
@@ -16869,6 +16871,7 @@ zzzyk.com###Tinfo
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
 ||04cmm.com:8888/js
+||04o.fun^
 ||04stream.tv/sda/
 ||0512s.com^$third-party
 ||056opui.com^
@@ -21973,6 +21976,7 @@ zzzyk.com###Tinfo
 ||etadult.com*/images/20
 ||etahub.com^
 ||etahub.com^$third-party
+||etallkiq.com^
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
@@ -28002,6 +28006,7 @@ zzzyk.com###Tinfo
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
 ||rqroytj33.fun^
+||rqvrbf.icu^
 ||rqxtbr.xyz^
 ||rr.tracker.mobiletracking.ru^
 ||rrgapzw.cn^
@@ -29085,6 +29090,7 @@ zzzyk.com###Tinfo
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbcgumkadc.xyz^
 ||tbl258ym4.cc^
+||tbyfz.xyz^
 ||tc6tc.com^
 ||tc911.vip^
 ||tcbox.baidu.com^
@@ -29390,6 +29396,7 @@ zzzyk.com###Tinfo
 ||toutiaoimg.com/origin/$image,domain=agedm.org
 ||toutiaoyule.com/n/dspshow.
 ||touvxlii.top^
+||tovbus.cn^
 ||tovppl.cn^
 ||towmfs.com^
 ||tp.sgcn.com^
@@ -32051,6 +32058,7 @@ zzzyk.com###Tinfo
 ||zxcrr.com^
 ||zxcv1.com^
 ||zxfdbr.xyz^
+||zxpaa.xyz^
 ||zxptw.cn^$third-party
 ||zxqiwe.cn^
 ||zxrcfw.com^
