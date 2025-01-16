@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-15 16:12:54
-! Total count: 32135
+! Version: 2025-01-16 08:13:54
+! Total count: 32142
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2134,6 +2134,7 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
 .xyz:*/bug?*=$third-party
+.xyz:*?x=$script,third-party
 .xyz:8009/11?x=
 .xyz:9002/*?x=$websocket,script,third-party
 .zone/ads/
@@ -12102,7 +12103,7 @@ lahoo.ca##.right_multi_banner
 lahoo.ca##.view_page_ads
 laifudao.com##.side-adinner
 laixoo.com,v2rayssr.com##.git_banner
-laleggepertutti.it,wort-suchen.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,word-grabber.com,raetsel-hilfe.de,maketecheasier.com,sportsrec.com,flatpanelshd.com,infinityfree.com,crosswordsolver.com,motscroises.fr,cruciverba.it,palabr.as,oeffnungszeitenbuch.de,horairesdouverture24.fr,oraridiapertura24.it,nyitvatartas24.hu,motorbikecatalog.com,economist.co.kr,globalrph.com,forsal.pl,woxikon.*#$#override-property-read window.googletag.cmd noopFunc; abort-on-property-read naverappapi;
+laleggepertutti.it,winfuture.de,talkwithstranger.com,the-crossword-solver.com,wort-suchen.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,word-grabber.com,raetsel-hilfe.de,maketecheasier.com,sportsrec.com,flatpanelshd.com,crosswordsolver.com,motscroises.fr,cruciverba.it,palabr.as,oeffnungszeitenbuch.de,horairesdouverture24.fr,oraridiapertura24.it,nyitvatartas24.hu,motorbikecatalog.com,globalrph.com,forsal.pl,woxikon.*#$#abort-on-property-read window.performance; abort-on-property-read window.URL
 lalilali.com##div[id*="_"]
 lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
@@ -14524,7 +14525,6 @@ sibnet.ru#$#prevent-listener DOMContentLoaded /pon-/
 sieutamphim.com#$#abort-current-inline-script document.addEventListener shopee
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
-siguyy.tv##[style^="position: fixed;"]
 silisili.in##.play_ad
 silkengirl.net##a[href*="jaxofuna.com"]
 silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
@@ -16924,6 +16924,7 @@ zzzyk.com###Tinfo
 ||0tq6ub.cn^
 ||0uvt8b.cn^
 ||0uyt5b.cn^
+||0vc.fun^
 ||0yq00i.cn^
 ||1.07swz.com^
 ||1.1010pic.com^
@@ -17559,6 +17560,7 @@ zzzyk.com###Tinfo
 ||4gamers.com.tw/site/api/aols/media?
 ||4gamers.com.tw/site/iframe-aols/
 ||4gtv.tv/4gTV_OTT.json
+||4gu.fun^
 ||4hw.com.cn/js/common.js
 ||4i1.icu^
 ||4ir17.icu^
@@ -20747,6 +20749,7 @@ zzzyk.com###Tinfo
 ||crab.baidu.com^
 ||craegvin.com^
 ||craivrals.com^
+||cralphal.com^
 ||crayon.meishichina.com^
 ||crbbhp.xyz^
 ||creaders.net*/ad_func.js
@@ -21293,6 +21296,7 @@ zzzyk.com###Tinfo
 ||djicdn.com/uploads/ad_image_file/
 ||djljz.cn/Plugins/Template/XJLY/js/app.
 ||djs.baomihua.com^
+||djsxm.xyz^
 ||djv99sxoqpv11.cloudfront.net^
 ||djxpnuo.xyz^
 ||dk45h.icu^
@@ -24181,6 +24185,7 @@ zzzyk.com###Tinfo
 ||iwerioo.top^
 ||iwilmio.top^
 ||iwmigu.xyz^
+||iwpkp.xyz^
 ||iwursero.top^
 ||ix4.icu^
 ||ixbua.xyz^
@@ -27333,6 +27338,7 @@ zzzyk.com###Tinfo
 ||ptfxh.com^
 ||ptgdb.cn^
 ||ptmabek.cn^
+||ptrmnx.icu^
 ||ptvfzv.xyz^
 ||ptyw.yiche.com/ssp/
 ||pub.funshion.com^
@@ -32027,6 +32033,7 @@ zzzyk.com###Tinfo
 ||zt-uc-baidu.cc^
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
+||ztgha.xyz^
 ||zthxobgk.icu^
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztlkngyj.icu^
