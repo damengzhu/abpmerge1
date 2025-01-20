@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-20 08:15:09
-! Total count: 32170
+! Version: 2025-01-20 16:13:01
+! Total count: 32174
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12670,6 +12670,8 @@ med66.com##.banner
 med66.com##.coach_pic
 mediafire.com#$#abort-current-inline-script isWithinRect Pop
 mediafire.com#$#abort-on-property-read UAParser
+mediamarkt.de#@#.sc-72448dee-1.bLECT:-abp-contains(Gesponsert)
+mediamarkt.de#@#li[data-index-number]:-abp-contains(Gesponsert)
 medsci.cn##.adv1201
 mefcl.com##article:has(span.sticky-icon)
 megafilmeshd.net###ad1
@@ -16387,7 +16389,7 @@ xuite.net##.articleExtAd
 xuite.net##[class^="ad-mid"]
 xuite.net##div[id^="index-ad-mid"]
 xunlei.com##.mini-pop
-xv-ru.com,xvideos.com#$#prevent-listener load exoJsPop101; json-prune 'banners'
+xv-ru.com,xvideos.com#$#prevent-listener DOMContentLoaded PopUnder; json-prune 'banners'
 xvideo.cc##+js(set-constant, poped, true)
 xvideos.com##div[id^="video-ad"]+div[class]
 xvna.com##.articleAD
@@ -28898,6 +28900,7 @@ zzzyk.com###Tinfo
 ||stats.wp.com^
 ||status-un.trafficmanager.net^
 ||steelcn.cn/img/bj_*_146_315.jpg
+||sterkisg.com^
 ||stescud.com^
 ||stgowan.com^
 ||stgowan.com^$third-party
@@ -31239,6 +31242,7 @@ zzzyk.com###Tinfo
 ||y.photoint.net^
 ||y0764.cn^
 ||y0mwy.icu^
+||y0o.fun^
 ||y0tf2wp.online^
 ||y1.junshitt.com^
 ||y1.spreton.com^
