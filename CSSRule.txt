@@ -1988,7 +1988,7 @@
 1314gl.com##a[href*=".apkpackagesys.com/"]
 1337x.buzz,komikav.com,limetorrents.lol,himovies.to,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.rs,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 137.175.73.220,xnxxw.net##a[target="_blank"][rel="nofollow"] > img
-1377x.*,doood.*,igetintopc.com,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
+1377x.*,doood.*,igetintopc.com,jasminetesttry.com,seaporn.org,sfile.mobi,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
 13tv.top,freehao123.com##.box
 13tv.top,sina.com##.aditem
 141hongkong.com###dialog
@@ -4459,11 +4459,10 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
-cdiscount.com#$#hide-if-matches-xpath '//div[@class="c-sponsoredMentions"]/parent::div[@class]'; hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]';
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'div[class="o-block"]' 'div[class^="o-block"] *[pos][id] ^^sh^^ div[class]'
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'li[class="abLabel"], li[data-sku]' '*[pos][id] ^^sh^^ div[class]'
+cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]'
+cdiscount.com#$#hide-if-matches-xpath './/img[contains(@src,"sponso")]/parent::a/ancestor::div[contains(@style,"background-color: rgb(255, 255, 255);")][.//div[contains(@style,"color: rgb(41, 56, 71);")]]'
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater

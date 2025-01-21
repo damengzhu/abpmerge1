@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-21 08:14:18
-! Total count: 32168
+! Version: 2025-01-21 16:13:13
+! Total count: 32174
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3536,7 +3536,7 @@ $websocket,domain=wap.yushuwu.cloud
 1314gl.com##a[href*=".apkpackagesys.com/"]
 1337x.buzz,komikav.com,limetorrents.lol,himovies.to,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.rs,sxyprn.*,strikeout.cc,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 137.175.73.220,xnxxw.net##a[target="_blank"][rel="nofollow"] > img
-1377x.*,doood.*,igetintopc.com,jasminetesttry.com,seaporn.org,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
+1377x.*,doood.*,igetintopc.com,jasminetesttry.com,seaporn.org,sfile.mobi,vid2faf.site,vidsrc.pro#$#abort-on-property-read window.open
 13tv.top,freehao123.com##.box
 13tv.top,sina.com##.aditem
 141hongkong.com###dialog
@@ -8157,11 +8157,10 @@ cctime.com,doyo.cn###top_banner
 cctv.com###bgAd_div
 cctv.com##.anime_ewm
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
-cdiscount.com#$#hide-if-matches-xpath './/a[@href]/img[@title]/ancestor::div[contains(@class,"resultbox--pub")][1]'; hide-if-matches-xpath './/a[@target][@aria-label="bannerlink"]/parent::div[@class][1]'; hide-if-matches-xpath './/ul[@id]//a[contains(@rel, "sponsored")]/ancestor::li[1]';
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor-or-self::div[contains(@id,"AdDisplay") and  contains(@data-action,"AdsDisplay")]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[@class="abLabel"]'; hide-if-matches-xpath './/div[contains(@class,"sponsored")]/ancestor::li[1]'
-cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
-cdiscount.com#$#hide-if-matches-xpath '//div[@class="c-sponsoredMentions"]/parent::div[@class]'; hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]';
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'div[class="o-block"]' 'div[class^="o-block"] *[pos][id] ^^sh^^ div[class]'
+cdiscount.com#$#hide-if-contains /Sponsorisé/ 'li[class="abLabel"], li[data-sku]' '*[pos][id] ^^sh^^ div[class]'
+cdiscount.com#$#hide-if-matches-xpath './/article[contains(@class,"sponsored")]//ancestor::div[@id][@class="c-fp__cell--side"]'
+cdiscount.com#$#hide-if-matches-xpath './/img[contains(@src,"sponso")]/parent::a/ancestor::div[contains(@style,"background-color: rgb(255, 255, 255);")][.//div[contains(@style,"color: rgb(41, 56, 71);")]]'
 cdn.tiv.pw###Advertisement1
 cdn.tiv.pw##.drt
 cdn.tiv.pw##.floater
@@ -16843,6 +16842,7 @@ zzzyk.com###Tinfo
 ||00eeekk.com//html5/activityPage/
 ||00xvppy.cn^
 ||01210sop.xyz^
+||01211sop.xyz^
 ||01u.net/js/tj.js
 ||01v62.xyz^
 ||022003xs.com^
@@ -24295,6 +24295,7 @@ zzzyk.com###Tinfo
 ||jcjzikj.xyz^
 ||jclimia.top^
 ||jcodecraeer.com/plus/fuckblok.
+||jcokamia.top^
 ||jcpecb.com^
 ||jcppcmqa.icu^
 ||jcrb.com/ZYW$subdocument
@@ -24832,6 +24833,7 @@ zzzyk.com###Tinfo
 ||kccdk.com/Content/img/*.gif
 ||kclimid.top^
 ||kcnwe.xyz^
+||kcokamid.top^
 ||kdamcsd.top^
 ||kdcl.pchome.com.tw^
 ||kdcxhr.cn^
@@ -26958,6 +26960,7 @@ zzzyk.com###Tinfo
 ||p8u.hinet.net^
 ||p97387hj.xyz^
 ||pa4ye.cyou^
+||pa6.fun^
 ||padstm.com^$third-party
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication.com/adsbygoogle.js,domain=youneed.win,xmlhttprequest,script
@@ -27521,6 +27524,7 @@ zzzyk.com###Tinfo
 ||qheose.xyz^
 ||qhestrad.com^
 ||qhicumg.cn^
+||qhihoins.com^
 ||qhimg.com/clk.gif?
 ||qhimg.com/js/iwt.js
 ||qhimg.com/ssl/20212c7594890e1c.js
@@ -29962,6 +29966,7 @@ zzzyk.com###Tinfo
 ||uuxs.net^$subdocument
 ||uuysiaq.com^
 ||uuzwvqc.cn^
+||uv4.fun^
 ||uvekyvs.icu^
 ||uvklgw.xyz^
 ||uvnjlm.cn^
@@ -30213,6 +30218,7 @@ zzzyk.com###Tinfo
 ||vswswlz.icu^
 ||vszzzj.xyz^
 ||vtbfgnf00.fun^
+||vtdgfisz.icu^
 ||vtjbnb.xyz^
 ||vtlyrj.xyz^
 ||vtvnnl.xyz^
