@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-23 16:13:17
-! Total count: 32200
+! Version: 2025-01-24 08:14:30
+! Total count: 32207
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1799,6 +1799,7 @@ $websocket,domain=wap.yushuwu.cloud
 .*ouvxli*.top/$script,third-party
 .*roytj33.fun/$script,third-party
 .*ryt111.fun/$script,third-party
+.012*sop.xyz/$script,third-party
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif
 .728x90.
@@ -2234,7 +2235,6 @@ $websocket,domain=wap.yushuwu.cloud
 /Scripts/jquery.min.js^$script,domain=readcomiconline.to
 /Static/Home/GongGao/img/juzi*.gif
 /Static/Home/GongGao/img/kaiyuan.gif
-/TA390hz2.js
 /V.aspx?Bln=$script,third-party
 /View/img/b72890.jpg
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
@@ -7037,6 +7037,7 @@ anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anibatch.net##.su-box.su-box-style-default
 anifap.com,anitokyo.org,anitokyo.tv,hcdn.online,kinofilm.co,anipoisk.org#$#abort-on-property-read ClickUndercookie
 anige-sokuhouvip.com,himanatokiniyaruo.com,matomeantena.com,vippers.jp#$#override-property-read fluctAdScript undefined; abort-on-property-read window.bnctag
+anime-sama.fr#$#hide-if-matches-xpath './/a[contains(@href,"paid_referral")]/img/ancestor::div[@id][1]';
 anime-shinden.info#@##ads_video
 anime4fun.com###hover
 animecomplet.com,animecomplet.me,animecomplet.net,animecomplet.org,cpasbien.ch,cpasbien.si,dadyflix.co,dl-protect.best,dl-protect.top,dl-protect1.com,ed-protect.org,extreme-down.*,extreme-download.*,filmsexeporno.com,french-stream.*,hds-streaming.su,hds-streaming.tv,hdss.la,hdss.to,ianime-fr.com,japscan.*,jetanimes.*,lelscan-vf.co,mavanimes.*,one-piece-streaming-vostfr.com,streaming-french.*,streamingfrance.com,summarynetworks.com,toonanime.*,torrent9.si,vanime.co,vanime.me,vf-film.net,voirseries.*,vostanimez.tv,vostanimey.net,vostfree.*,wawacity.*,zone-annuaire.*,zone-telechargement.*#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
@@ -9053,6 +9054,7 @@ doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com###videoSideBar iframe
+douyin.com##[class*='h5-ad-']
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
@@ -16132,7 +16134,7 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[Sponsred]{9}|[Gesponrtd]{10}|[Sponrisé]{10}|[Comandité]{9}|[Publicda]{10}|[Sponsrwae]{12}|[Patrocind]{11}|[Sponsrizat]{13}|[Anzeig]{6}/ 'div[role=feed] div[role=article]' a[href^="?__cft__"]; hide-if-contains-visible-text /./ 'div[role=feed] div[role=article]' 'span>a[attributionsrc][href="#"][role="link"][tabindex="0"]>span>span[aria-labelledby]>span[style]'; race stop;
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'; hide-if-matches-xpath './/div[@role="complementary"]//span/following::div[@aria-labelledby][@role][@tabindex]/ancestor-or-self::span'; race stop;
 www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(VideoHomeFeedUnitSectionComponent)[^\n]+?"(sponsored_data")[^\n]+?("ad_id"|"SponsoredData")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(VideoPlayerRelay_video$defer$InstreamVideoAdBreaksPlayer_video|instream_video_ad_breaks_comet|__module_operation_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|__module_component_InstreamVideoAdBreaksPlayer_video_instream_video_ad_breaks_comet|InstreamVideoAdBreaksPlayerImpl_adBreaks$normalization.graphql|InstreamVideoAdBreaksPlayerDeferred.react|InstreamVideoAdBreaksPlayerImpl.react|CommercialBreakStartingIndicatorFalcoEvent|CommercialBreakClickFalcoEvent|CommercialBreakEndFalcoEvent)/'
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl|br_sf_cnt|brand_sft_cont|br_sft_cnt_label|sfty_content_brs_flag|sft_cont_brs_flag|flag_protection_for_cnt_brand|brand_content_protection_lbl|brand_content_protection_label|brs_text_label|txt_cnt_of_brs|txt_flag_cnt_brand|co_lbl_la_br|b_sft_con_lbl|br_labe_cont|lab_br_conten|br_s_cnt_lbl|sfty_for_br_cont_lbl|sf_fo_co_br_lb_the|text__indicator_cnt_lbl)[^\n]+?("sponsored_data"|"spons_data_lbl"|"data_for_spon"|"data_sponsored"|"spon_data"|"data_spon_lbl")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps|spons_auct_distance|sps_auc_dis|spons_auc_dist|spons_auct_flag_space|new_spons_auct_flag_space|flag_sponsored_dist_auction|sponsored_lbl_auc_indicator_dist|lbl_for_spons_auc_dis|of_distanc_sponso_au|dist_for_spon_auc|di_lbl_spo_fo_au)/'
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl|br_sf_cnt|brand_sft_cont|br_sft_cnt_label|sfty_content_brs_flag|sft_cont_brs_flag|flag_protection_for_cnt_brand|brand_content_protection_lbl|brand_content_protection_label|brs_text_label|txt_cnt_of_brs|txt_flag_cnt_brand|co_lbl_la_br|b_sft_con_lbl|br_labe_cont|lab_br_conten|br_s_cnt_lbl|sfty_for_br_cont_lbl|sf_fo_co_br_lb_the|text__indicator_cnt_lbl|the_text__indicator_cnt_lbl)[^\n]+?("sponsored_data"|"spons_data_lbl"|"data_for_spon"|"data_sponsored"|"spon_data"|"data_spon_lbl")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps|spons_auct_distance|sps_auc_dis|spons_auc_dist|spons_auct_flag_space|new_spons_auct_flag_space|flag_sponsored_dist_auction|sponsored_lbl_auc_indicator_dist|lbl_for_spons_auc_dis|of_distanc_sponso_au|dist_for_spon_auc|di_lbl_spo_fo_au|auction_sp_distance)/'
 www.freehao123.com##A[href*="/go/"]
 www.ghxi.com##.wpcom_ad_wrap
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
@@ -16852,6 +16854,7 @@ zzzyk.com###Tinfo
 ||01211sop.xyz^
 ||01221sop.xyz^
 ||01231sop.xyz^
+||01240sop.xyz^
 ||01u.net/js/tj.js
 ||01v62.xyz^
 ||022003xs.com^
@@ -19895,6 +19898,7 @@ zzzyk.com###Tinfo
 ||brand.sogou.com/micro?yyid=
 ||brendanbc.com^
 ||brephras.com^
+||brerkols.com^
 ||brfgbn.xyz^
 ||brfvyrrp.com^
 ||bridgetnbe.com^
@@ -21700,6 +21704,7 @@ zzzyk.com###Tinfo
 ||e0575.com/attachment/image/
 ||e0575.com/index.php
 ||e10000.cn/Images/link_td01.gif
+||e1s.fun^
 ||e1zin.icu^
 ||e23.cn/js/aaa.js
 ||e3c7.com/dh/
@@ -26627,6 +26632,7 @@ zzzyk.com###Tinfo
 ||nuxwlc.cn^
 ||nvdtdsd.xyz^
 ||nvjqtz.xyz^
+||nvpokyko.icu^
 ||nvsheng.com/js/gg.js
 ||nvvqrv.xyz^
 ||nweon.com/wp-content/repo/ad/
@@ -27090,6 +27096,7 @@ zzzyk.com###Tinfo
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||peryt111.fun^
+||pevpbx.icu^
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
 ||pexnjio.cn^
