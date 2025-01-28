@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-28 08:14:28
-! Total count: 32252
+! Version: 2025-01-28 16:13:05
+! Total count: 32256
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1806,6 +1806,7 @@ $websocket,domain=wap.yushuwu.cloud
 .728x90.
 .adsense.
 .adserver.
+.as01*kkp.xyz/$script,third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
@@ -8226,7 +8227,7 @@ chexun.com##.ad1100
 chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
-chichnhauphimsex.net#$#abort-current-inline-script $ open
+chichnhausex.net#$#abort-current-inline-script $ open
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
 china.cn##.extension_ul > .special
@@ -13675,7 +13676,6 @@ pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.ink,hh3dhay.life,truyengihotnha.com,truyengihotnha.net,tram3d.net,animevietsub.page#$#abort-current-inline-script eval $._Eu
-phimhdc.wiki,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 phimmoi.club,motphimww.info#$#abort-current-inline-script addEvent popu
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
@@ -15719,7 +15719,7 @@ v2rayssr.com#?#.content-area > .single-bottom-html:has(> div[align="center"] > .
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
 v2rayssr.com#?#.single-top-html:has(> div:only-child > a[target="_blank"] > img)
 va.huya.com
-vailonxx.co,www.phimdinhcao.org,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
+vailonxx.co,www.phimlongtieng.club,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 vanpeople.com##.advlr
 vanpeople.com##.banneradv-newbox
 vanpeople.com##.main-adv
@@ -15781,7 +15781,7 @@ vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abor
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.*,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
-viet69.st,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbeta.com,yurineko.my,heoxinh.net,hd.javhay.site,phimsexhay669.pro,cliphot69.asia,doctruyen3qui.com,ihentai.now,animehay.red,jav.vc,top1sex.me,sexmup18.com,hentaivc.com,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.li,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,top1phimsex.com,phim18hd.cam,xem.sexviet88.link,vnsexmup.net,demo.14412882.com,vnsexmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.my#$#abort-current-inline-script WebAssembly instantiate
+viet69.st,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbeta.com,yurineko.my,heoxinh.net,hd.javhay.site,phimsexhay669.pro,cliphot69.asia,doctruyen3qui.com,ihentai.now,animehay.red,jav.vc,top1sex.me,xemsex.cc,hentaivc.com,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.li,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,top1phimsex.com,phim18hd.cam,xem.sexviet88.link,vnsexmup.net,demo.14412882.com,vnsexmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.my#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 ville-ideale.com###antyp
 ville-ideale.com###enc
@@ -16297,6 +16297,7 @@ xdf.cn##.footadv
 xdf.cn##.middleadv
 xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
+xemphimhdc.club,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 xfastest.com##.vw-header-ads-wrapper
 xfastest.com##iframe[src*="//ads.xfastest.com/"]
 xgan.cn##.bottom_fixed
@@ -17901,6 +17902,7 @@ zzzyk.com###Tinfo
 ||6park.com^$subdocument,badfilter
 ||6play.fr/assets/js/vendors-3600848c1f.js$script
 ||6pznpz.com^
+||6qo.fun^
 ||6quspne.com^
 ||6qyxeob.xyz^
 ||6slb0.cyou^
@@ -18530,6 +18532,7 @@ zzzyk.com###Tinfo
 ||adcd7.com^
 ||adcdn.holmesmind.com^
 ||adcr77.com^
+||addalzq.com^
 ||addictedwonder.com^
 ||addthis.com/live/
 ||addtoany.com/menu/transparent.gif
@@ -19123,6 +19126,7 @@ zzzyk.com###Tinfo
 ||aryici.xyz^
 ||as01271kkp.xyz^
 ||as01280kkp.xyz^
+||as01281kkp.xyz^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
 ||as89de.top^
