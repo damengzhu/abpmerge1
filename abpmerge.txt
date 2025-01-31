@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-01-31 08:13:47
-! Total count: 32280
+! Version: 2025-01-31 16:12:53
+! Total count: 32285
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1971,7 +1971,9 @@ $websocket,domain=wap.yushuwu.cloud
 .fun/*.jss?17*&r=0$third-party
 .fun/*/17*/*.css?r=0$third-party
 .fun/*_*_rony.js
+.fun/TA390hz2.js
 .fun/ad/
+.fun/by389.js
 .gif$third-party,domain=1024pa.com
 .gif$third-party,domain=922tp.com
 .gif$third-party,domain=avbebe.com
@@ -9501,7 +9503,6 @@ erji.com,erji.net##.black.y-style
 eroacg.com##.weimg1
 erofishki.cc,fishki.net#$#abort-on-property-read fishki.adv
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id] > :nth-child(n+2)
-eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 esnai.com##.tlgg
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 esu.moe,esu.wiki###ASSPC
@@ -13579,6 +13580,8 @@ pansci.asia#@#.ad-container
 pansearch.me##+js(no-xhr-if, adsbygoogle)
 paopaoche.net##.down_btn2.green
 papalah.com##+js(abort-on-property-read, adBlockDetected)
+papalah.com##.sponsor-outer
+papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 parenting.pl#$#abort-on-property-read slot
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
@@ -17251,6 +17254,7 @@ zzzyk.com###Tinfo
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1qboss9.ejuslehq.com^$script,xmlhttprequest,domain=pch.com
+||1qv.fun^
 ||1r7efqo.tjfmd.com^$script,xmlhttprequest,domain=pch.com
 ||1s8pj.cn^$third-party
 ||1tp.icu^
@@ -21574,6 +21578,7 @@ zzzyk.com###Tinfo
 ||drstickyfingers.com/Webservices/jsParseLinks.aspx$script,third-party
 ||drstickyfingers.com/visitScript/$script,third-party
 ||drtrs55.fun^
+||drustren.com^
 ||drvsky.com/js/jolimark.gif
 ||ds.ruanwengfa.com^
 ||ds1.kaijia.com^
