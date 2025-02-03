@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-03 08:15:04
-! Total count: 32298
+! Version: 2025-02-03 16:13:28
+! Total count: 32306
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1945,7 +1945,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:*.js?v=17$third-party
+.com:*.js?v=17*$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
@@ -2073,7 +2073,7 @@ $websocket,domain=wap.yushuwu.cloud
 .st/ads/
 .swf?clicktag=
 .test15./
-.top/*/*.js?ts=$third-party
+.top/*/*.js?ts=*$third-party
 .top/*/2022*/.js$third-party
 .top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
@@ -8601,6 +8601,7 @@ colamanga.com#$#html { overflow: auto !important; }
 colamanga.com#@#.ADFooter
 colamanga.com#@#.ADInfo
 colamanga.com#@#.ADLeader
+colamanga.com#@#.gg_950
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
 com:8891/c.php?s=*$third-party
@@ -9992,6 +9993,7 @@ fxykx.com,pantsu.cat#@##banner_ad
 fydisk.com###vbox
 fz.se###AdBlockerInfo
 fznews.com.cn##.kuang100_right
+g-mh.org,godamh.com##.adshow
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
 g.huya.com
 gaara-fr.com###ga-skin-left
@@ -18766,6 +18768,7 @@ zzzyk.com###Tinfo
 ||aiyuke.com/position_js*_*_
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
+||aizhantj.com^
 ||aj4j.icu^
 ||ajax.googleapis.com/ajax/libs/jquery/$domain=darkcomet-rat.com
 ||ajcode.co^
@@ -20247,6 +20250,7 @@ zzzyk.com###Tinfo
 ||cdhfvrug.xyz^
 ||cdickef.top^
 ||cdilm.cn^
+||cdinmaf.top^
 ||cdipsumf.top^
 ||cdlekgr.icu^
 ||cdmgac.xyz^
@@ -20410,6 +20414,7 @@ zzzyk.com###Tinfo
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
 ||chengzijianzhan.cc^$subdocument,third-party
+||chenhao97.top^
 ||chenjiayu.cn/gg.js
 ||cherylssb.com^
 ||cheshi-img.com/js/pv.min.js
@@ -21273,6 +21278,7 @@ zzzyk.com###Tinfo
 ||dgxlm.xyz^
 ||dheear.site^
 ||dheirzeh.com^
+||dhemixu.com^
 ||dherea.site^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhjrvj.xyz^
@@ -22829,6 +22835,7 @@ zzzyk.com###Tinfo
 ||go2tutor.com/lifebox.asp
 ||goblin.hupu.com^
 ||gocye.com^$third-party
+||godamanga.online/ad/
 ||godloveme.cn^
 ||godlu.com^
 ||godni.xyz^
@@ -30042,6 +30049,7 @@ zzzyk.com###Tinfo
 ||uslsxe.com^
 ||uspauline.com^
 ||usphfiona.com^
+||usrzh.cn^
 ||ustv123.com/images/axd.js
 ||usyliet.top^
 ||utbyvyl.icu^
