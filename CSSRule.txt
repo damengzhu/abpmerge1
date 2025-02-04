@@ -1581,6 +1581,9 @@
 ##body.page.player > DIV.shortcuts-mobile-overlay
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[ontouchstart] > #topBox
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]

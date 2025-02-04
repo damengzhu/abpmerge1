@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-03 16:13:28
-! Total count: 32306
+! Version: 2025-02-04 08:14:26
+! Total count: 32318
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1586,6 +1586,9 @@
 ##body.page.player > DIV.shortcuts-mobile-overlay
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 ##body[onload*="u()"] > #x
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
+##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[ontouchstart] > #topBox
 ##body[ontouchstart] > .wrap > div[id^="content_"][style="display: block;"]
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
@@ -17186,6 +17189,7 @@ zzzyk.com###Tinfo
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
+||172.247.208.87/js/head.js
 ||1722t.com/js/jquery.js
 ||17282.org^
 ||174.123.15.43:8080
@@ -20843,6 +20847,7 @@ zzzyk.com###Tinfo
 ||crnmyrk.icu^
 ||crobotb.com^
 ||crodfnyk.xyz^
+||crolerl.com^
 ||crpoy.com^$domain=pronpic.org
 ||crs.baidu.com^
 ||crtlisf.top^
@@ -21746,6 +21751,7 @@ zzzyk.com###Tinfo
 ||dzwww.com/images/ad_down.js
 ||dzwww.com/k.js
 ||dzxxxg6ij9u99.cloudfront.net/wb.js$script,domain=cwtv.com
+||dzzdspiu.icu^
 ||e-sante.fr/responsiblenesses^
 ||e.changyan.sohu.com/dataService/getData?
 ||e.hnr.cn/choose/view/
@@ -23243,6 +23249,7 @@ zzzyk.com###Tinfo
 ||hdchina.*/styles/topshow/AD/
 ||hdfdsdaw.com^
 ||hdickeu.top^
+||hdinmau.top^
 ||hdinmiu.top^
 ||hdipsumu.top^
 ||hdjthzg.cn^
@@ -23931,6 +23938,7 @@ zzzyk.com###Tinfo
 ||ilyf4amifh.com^
 ||ilzies.com^
 ||im-x.jd.com^
+||im.1vkx.cn/uploads/images/*.gif$third-party
 ||im286.net/286/
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
@@ -29142,6 +29150,8 @@ zzzyk.com###Tinfo
 ||syuwkbb.top^
 ||syzjxz2018.cn^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
+||szaction.cc/public/*/assets/js/custom/tt.
+||szaction.cc/public/*/plugins/
 ||szafvjdd.icu^
 ||szapaqi.cn^
 ||szbxw.cn^
@@ -29248,6 +29258,7 @@ zzzyk.com###Tinfo
 ||tcheeter.com^
 ||tchkcc.cn^
 ||tci.oss-ap-southeast-1.aliyuncs.com^
+||tciqgx.xyz^
 ||tclimii.top^
 ||tcmap.com.cn/js/b_
 ||tcsgcdn.top^
@@ -30384,6 +30395,7 @@ zzzyk.com###Tinfo
 ||vxinzheng.xyz^
 ||vxotu.com/i/*.gif
 ||vxpdfb.xyz^
+||vxpnld.icu^
 ||vyreat.icu^
 ||vyrpoe.cn^
 ||vyye.cn^
