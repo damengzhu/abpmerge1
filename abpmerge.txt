@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-05 08:13:59
-! Total count: 32329
+! Version: 2025-02-05 16:13:40
+! Total count: 32332
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7803,6 +7803,7 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
 bilinovel.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
+bilinovel.com#@#.ads_box
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
 binbox.io#@#.banner-ad
@@ -20719,6 +20720,7 @@ zzzyk.com###Tinfo
 ||cod.southmoney.com^
 ||code.bizdirlib.com^
 ||code.ditiezu.net^
+||code.wenbanzhu.com^
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
 ||codeclan.altervista.org/wp-content/uploads/*/*/*.mp3$media
@@ -26881,6 +26883,7 @@ zzzyk.com###Tinfo
 ||omheth.com^
 ||omhoa.com^
 ||omlube.com/O/1000970O3001405O1O.js
+||ommatht.com^
 ||omxwt.cn^
 ||on5ga.icu^
 ||onagsc.xyz^
