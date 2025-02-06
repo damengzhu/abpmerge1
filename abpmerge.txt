@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-05 16:13:40
-! Total count: 32332
+! Version: 2025-02-06 08:14:39
+! Total count: 32339
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1952,8 +1952,11 @@ $websocket,domain=wap.yushuwu.cloud
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
+.com:1*/static/lbsite/*/*.js?v=$script,third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
+.com:2*/static/lbsite/*/*.js?v=$script,third-party
+.com:3*/static/lbsite/*/*.js?v=$script,third-party
 .com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
@@ -22178,6 +22181,7 @@ zzzyk.com###Tinfo
 ||facebook.net^*/fbevents.js$third-party
 ||fadhvz.xyz^
 ||fads315.com^
+||fagrirtn.com^
 ||fakjkwp.cn^
 ||falal.cn^
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
@@ -28162,6 +28166,7 @@ zzzyk.com###Tinfo
 ||rpkcqtf.cn^
 ||rppihz.xyz^
 ||rpyor0k.xyz^
+||rqhajf.icu^
 ||rqnefp.xyz^
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
@@ -29477,6 +29482,7 @@ zzzyk.com###Tinfo
 ||tjnwfjy.cn^
 ||tjqwb.cn^
 ||tjuspyk.icu^
+||tjvcffap.icu^
 ||tjwzyjx.icu^
 ||tk.504pk.com^
 ||tkiteri.top^
@@ -29620,6 +29626,7 @@ zzzyk.com###Tinfo
 ||treferty33.fun^
 ||treimphens.com^
 ||trektinyreproduce.com^
+||trellq.com^
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trends.com.cn/k.js
 ||trenhdg.com^$third-party
