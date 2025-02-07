@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-06 16:11:50
-! Total count: 32348
+! Version: 2025-02-07 08:14:24
+! Total count: 32357
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1811,6 +1811,7 @@ $websocket,domain=wap.yushuwu.cloud
 .728x90.
 .adsense.
 .adserver.
+.apk0*oo.xyz/$script,third-party
 .as0*kkp.xyz/$script,third-party
 .as01*kkp.xyz/$script,third-party
 .asp?wg&df=$script,third-party
@@ -13285,6 +13286,8 @@ nicotv.me##.container > div.slide[style="padding-bottom:0px"]
 nicovideo.jp##a[href^="https://click.speee-ad.jp"]
 nicovideo.jp#$#hide-if-matches-xpath './/li[@class="count ads"]/parent::ul/ancestor::li[contains(@class,"adVideoItem")]'; hide-if-matches-xpath './/h1[text()="Niconico Ads"]/following::img[contains(@class,"UadVideoItem-image")]/parent::div[contains(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]'; hide-if-matches-xpath './/img[contains(@class,"NicoadVideoItem")]/parent::a[contains(@class,"NicoadVideoItem")]/ancestor::div[starts-with(@class,"NicoadVideosContainer")]'; hide-if-matches-xpath './/div[@data-nicoad-sponsor]/following::a[starts-with(@class,"NicoAdContainer")]/parent::div[contains(@class,"NicoAdContainer")]/ancestor::section[@class="TopPage-section"]'; hide-if-matches-xpath './/img[contains(@class,"UadVideoItem")]/parent::div[starts-with(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]';
 nikaraw.com#$#abort-on-property-read afStorage
+nikkansports.com###headerAdBnr2022
+nikkansports.com##div[id^="adUnit"]
 niotv.com##.epg_ad3
 niotv.com##.epg_ad_list
 niotv.com##.right_ad1
@@ -19115,6 +19118,7 @@ zzzyk.com###Tinfo
 ||apk.qqvv88.com^
 ||apk.tw/static/js/showpic.js
 ||apk02061oo.xyz^
+||apk02070oo.xyz^
 ||app-g.39.net/NNN/
 ||app-measurement.com^
 ||app.bugsnag.com^
@@ -21882,6 +21886,7 @@ zzzyk.com###Tinfo
 ||eddcc.icu^
 ||edghkc.xyz^
 ||edickew.top^
+||edinmaw.top^
 ||edipsumw.top^
 ||edjjpgf.xyz^
 ||edmontonchina.*/pic/
@@ -27164,6 +27169,7 @@ zzzyk.com###Tinfo
 ||pconline.com.cn/js/ad_
 ||pconline.com.cn/js/ivy.js
 ||pcpop.com/pv/pv.js
+||pcqhe.cn^
 ||pcqsajr.icu^
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
@@ -30208,6 +30214,7 @@ zzzyk.com###Tinfo
 ||vaxgyly.cn^
 ||vbdbmqzu.com^
 ||vbiakpu.icu^
+||vbllxaaj.icu^
 ||vbnmjjda.xyz^
 ||vcdfsf99.fun^
 ||vcnpnf.xyz^
@@ -30523,6 +30530,7 @@ zzzyk.com###Tinfo
 ||wddsva0.com^
 ||wdff.buzz/hengf.
 ||wdickee.top^
+||wdinmae.top^
 ||wdipsume.top^
 ||wdoshbe.top^
 ||wdpkx.cn^
@@ -31294,6 +31302,7 @@ zzzyk.com###Tinfo
 ||xszw0.icu^
 ||xtbzff.xyz^
 ||xtcxflak.xyz^
+||xtdvvp.icu^
 ||xtjpdfr.cn^
 ||xtnwxhjv.xyz^
 ||xtpwfb.xyz^
