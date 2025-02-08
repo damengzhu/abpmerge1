@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-07 16:13:23
-! Total count: 32360
+! Version: 2025-02-08 08:12:52
+! Total count: 32367
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1209,7 +1209,6 @@
 ##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
-##I.fa.fa-close
 ##IFRAME[src^='/Banner/index.html'][allowfullscreen='true']
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
 ##IMG#diads
@@ -1833,11 +1832,13 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/*-*-*.xc$script,third-party
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
+.cn/TA390hz2.js$script,third-party
 .cn/a.gif?
 .cn/ack?s=*$third-party
 .cn/ads/
 .cn/b.gif?
 .cn/bid?url=*$third-party
+.cn/by389.js$script,third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/r.gif?
@@ -11558,6 +11559,8 @@ iyf.tv##vg-player.ng-star-inserted > vg-pause-ads + div.caption.show > .inner
 iyf.tv#$#.player-side > .block { visibility: hidden !important; min-height: 390px !important; }
 iyf.tv#@#.share-top
 iyingshi9.tv#$#override-property-read YZM.ads.state false
+izaiwen.cn##.item-box
+izaiwen.cn##DIV[carousel-item]
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
@@ -18120,6 +18123,7 @@ zzzyk.com###Tinfo
 ||8en.net^$third-party
 ||8et.icu^
 ||8feichai.com^
+||8ff0.cn^
 ||8fo.icu^
 ||8g0j.cn^
 ||8gp4wjq3.com^
@@ -23632,6 +23636,7 @@ zzzyk.com###Tinfo
 ||huaban.com^*/ads
 ||huaerdadi.com^$third-party
 ||huaiduoduo.info/Runtime/js/
+||huakai2025.com/color.js
 ||huancaicp.com/?pid=$popup
 ||huanjugu.com/dm
 ||huanqiu.com/resource/js/base
@@ -29305,6 +29310,7 @@ zzzyk.com###Tinfo
 ||tdhserg.cn^
 ||tdid.m.qq.com^
 ||tdigcw.com^
+||tdinmai.top^
 ||tdipsumi.top^
 ||tdjdpyrt.xyz^
 ||tdljuuw.xyz^
@@ -30323,6 +30329,7 @@ zzzyk.com###Tinfo
 ||vjharl.xyz^
 ||vjie.com^$third-party
 ||vjvj.vj24co.com^
+||vjzqfh.icu^
 ||vjzvgvgz.icu^
 ||vk920.com/img1/
 ||vk922.com/img/
