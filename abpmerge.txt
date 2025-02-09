@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-09 08:12:37
-! Total count: 32372
+! Version: 2025-02-09 16:11:38
+! Total count: 32380
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1470,6 +1470,7 @@
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/bjty96.vip"]
 ##a[href*="/d27.tv"]
+##a[href*="/dk35.cc"]
 ##a[href*="/dsf66.cc"]
 ##a[href*="/dsf71.cc"]
 ##a[href*="/dsf88.cc"]
@@ -2259,6 +2260,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
 /\.[a-z]dyurli[a-z].top\//$script,third-party
@@ -7837,10 +7839,10 @@ bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##DIV#bnp_container
-bing.com,cn.bing.net##LI.b_ans
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
+bing.com,cn.bing.net##li.b_ans:not(:has(h2))
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##+js(abort-current-script, setTimeout, COOKIE_NAME)
@@ -9440,6 +9442,7 @@ elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
+element-plus.org##div[class*="-side-"]
 element-plus.org##div[class*="-sidebar-"]
 elle.com.hk##.tpc-container
 elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
@@ -11792,6 +11795,8 @@ jqzb.com.cn##.zk_xf
 jr31.xyz##body > div.wp > div.wp > a[rel="nofollow"] > img
 jr34.xyz###hd + .wp
 jr34.xyz##a[href^="ad."]
+jr35.xyz###hd + .wp
+jr35.xyz##a[href^="ad."]
 jrj.com.cn###comment > a:first-child
 jrj.com.cn##.bd.pa10.bgn
 jrj.com.cn##.jrj-ad
@@ -19979,6 +19984,7 @@ zzzyk.com###Tinfo
 ||bridgetnbe.com^
 ||brircel.com^
 ||brookssa.com^
+||brornaeq.com^
 ||brownfox.top^
 ||browser.sentry-cdn.com^$third-party
 ||browserkernel.baidu.com^
@@ -25374,6 +25380,7 @@ zzzyk.com###Tinfo
 ||ldamcsl.top^
 ||ldb.cc/js/top.js
 ||ldgjwdohqbi.xyz^
+||ldinmal.top^
 ||ldipsuml.top^
 ||ldjfsdku.icu^
 ||ldjhlqr.cn^
@@ -26817,6 +26824,7 @@ zzzyk.com###Tinfo
 ||ocs-pl.oktawave.com/v1/AUTH_*/Reklamy/$object-subrequest,domain=freedisc.pl|reseton.pl
 ||odamcsk.top^
 ||odeecmoothaith.net^$script,domain=animeflv.net
+||odinmak.top^
 ||odipsumk.top^
 ||oehhq.xyz^
 ||oeryt111.fun^
