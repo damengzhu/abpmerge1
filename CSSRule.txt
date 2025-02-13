@@ -2995,6 +2995,7 @@
 91porn.com#@#.vjs-preroll
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
+91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -8542,7 +8543,8 @@ line.me###install_line
 line.me##.midAdModule-root
 linetv.tw##+js(no-fetch-if, pagead2.googlesyndication.com)
 linetv.tw##+js(no-xhr-if, pagead2.googlesyndication.com)
-linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
+linetv.tw##+js(set-constant, google.ima.AdError, noopFunc)
+linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linfoweb.com#$#abort-on-property-write num
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))

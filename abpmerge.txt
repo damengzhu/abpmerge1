@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-13 08:14:45
-! Total count: 32417
+! Version: 2025-02-13 16:14:19
+! Total count: 32421
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4575,6 +4575,7 @@ $websocket,domain=wap.yushuwu.cloud
 91porn.com#@#.vjs-preroll
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
+91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
@@ -12322,7 +12323,8 @@ line.me###install_line
 line.me##.midAdModule-root
 linetv.tw##+js(no-fetch-if, pagead2.googlesyndication.com)
 linetv.tw##+js(no-xhr-if, pagead2.googlesyndication.com)
-linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
+linetv.tw##+js(set-constant, google.ima.AdError, noopFunc)
+linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linfoweb.com#$#abort-on-property-write num
 linkdecode.com#@#.adsbygoogle
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__description span:-abp-contains(/促銷內容|广告/))
@@ -28364,6 +28366,7 @@ zzzyk.com###Tinfo
 ||sacre.cn^
 ||sacredperpetratorbasketball.com^
 ||sacvmb.icu^
+||saddarue.com^
 ||saelphol.com^
 ||safe524.xyz^$third-party
 ||safelinking.biz/adblock-detector.htm$subdocument
@@ -28421,6 +28424,7 @@ zzzyk.com###Tinfo
 ||scigzetg.com^
 ||scihuns.com^
 ||sciillr.cn^
+||scinmab.top^
 ||scint-x.com/js/
 ||scjpqut.cn^
 ||scjtfh.xyz^
