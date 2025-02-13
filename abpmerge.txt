@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-12 16:13:54
-! Total count: 32407
+! Version: 2025-02-13 08:14:45
+! Total count: 32417
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2107,6 +2107,7 @@ $websocket,domain=wap.yushuwu.cloud
 .tv/js/ads/
 .tv/style/vue.js?v=
 .tw/ads/
+.uhi*uik.xyz/$script,third-party
 .us/js/ads/
 .vip/ads/
 .vip/gg/
@@ -2262,6 +2263,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]cinma[a-z].top\//$script,third-party
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
@@ -19780,6 +19782,7 @@ zzzyk.com###Tinfo
 ||bhaoea.cn^
 ||bhcnmrn.icu^
 ||bhegilut.com^
+||bhelzun.com^
 ||bhgzwqy.top^
 ||bhjuy10.com^
 ||bhovrath.com^
@@ -20108,6 +20111,7 @@ zzzyk.com###Tinfo
 ||byjykj.xyz^
 ||bylwtf.xyz^
 ||bymahuxv.xyz^
+||bypllv.icu^
 ||byretuv.top^
 ||byscy.cn^$third-party
 ||bytecdn.cn/ta/resource/v0/analytics.js
@@ -22220,6 +22224,7 @@ zzzyk.com###Tinfo
 ||facebook.net^*/fbevents.js$third-party
 ||fadhvz.xyz^
 ||fads315.com^
+||fafvvt.icu^
 ||fagrirtn.com^
 ||fakjkwp.cn^
 ||falal.cn^
@@ -23072,6 +23077,7 @@ zzzyk.com###Tinfo
 ||guizhouxinsheng.com^
 ||gujkj.cn^
 ||guke.name^
+||gukviels.com^
 ||guli21.com/PNEW/
 ||guli21.com/js/ggdm
 ||gumgo.cn^$third-party
@@ -24437,6 +24443,7 @@ zzzyk.com###Tinfo
 ||jcfnbhqo.icu^
 ||jched3.com^
 ||jcheys.com^
+||jcinmaa.top^
 ||jciske.top^
 ||jciwztfj.com^
 ||jcjzikj.xyz^
@@ -24981,6 +24988,7 @@ zzzyk.com###Tinfo
 ||kbneks00.online^
 ||kc-valves.com^
 ||kccdk.com/Content/img/*.gif
+||kcinmad.top^
 ||kclimid.top^
 ||kcnwe.xyz^
 ||kcokamid.top^
@@ -30012,6 +30020,8 @@ zzzyk.com###Tinfo
 ||ugolue.xyz^
 ||ugtbit.icu^
 ||ugugct.xyz^
+||uhi02121uik.xyz^
+||uhi02130uik.xyz^
 ||uhmcjdc.icu^
 ||uhuf56.fun^
 ||uhwnrfu.cn^
