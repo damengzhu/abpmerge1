@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-13 16:14:19
-! Total count: 32421
+! Version: 2025-02-14 08:14:20
+! Total count: 32426
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3527,6 +3527,7 @@ $websocket,domain=wap.yushuwu.cloud
 115cdn.com##a[href="https://vip.115.com/"] > img
 118pan.com##.card.mt-2:nth-child(2)
 120ask.com##.b_right > div[style]
+120ask.com##IFRAME[width='400']
 123-bt.cn###mianze_fixed
 123-bt.cn###mianze_mask
 123-bt.cn##.sd
@@ -17117,7 +17118,6 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/askfrom.js
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
-||120askimages.com^
 ||121.204.246.*.gif
 ||121.43.235.135^
 ||121zou.com^$subdocument
@@ -21343,6 +21343,7 @@ zzzyk.com###Tinfo
 ||dhl.135320.com^
 ||dhnnbfok.icu^
 ||dhukul.com^
+||dhuquxqy.com^
 ||dhxrop.com^
 ||di2y21.top/jian/jiansshu.js
 ||di2y21.top^
@@ -23804,6 +23805,7 @@ zzzyk.com###Tinfo
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
 ||i7akpd1.xyz^
 ||i7pnx0t.cn^
+||i8m6.com^
 ||iabao.com/sladewap.js
 ||iads.xinmin.cn^
 ||iadsdk.apple.com^
@@ -25408,6 +25410,7 @@ zzzyk.com###Tinfo
 ||ld0766.com/index.php?m=call&id=10
 ||ldamcsl.top^
 ||ldb.cc/js/top.js
+||ldbnhd.icu^
 ||ldgjwdohqbi.xyz^
 ||ldinmal.top^
 ||ldipsuml.top^
@@ -29128,6 +29131,7 @@ zzzyk.com###Tinfo
 ||strilqoill.com^
 ||strip.chat/widgets/$domain=tktube.com
 ||strip.taobaocdn.com/tfscom/$subdocument
+||stroveiks.com^
 ||struhuts.com^
 ||stsesc.xyz^
 ||studylabs.cn^
@@ -31995,6 +31999,7 @@ zzzyk.com###Tinfo
 ||zbc6hyip.xyz^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbjimg.com/static/union/
+||zbldxf.icu^
 ||zblz.me^
 ||zbv7kxrteclub.xyz^
 ||zbvchabjbcj.com^
