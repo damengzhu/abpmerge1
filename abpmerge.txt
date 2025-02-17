@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-17 08:15:56
-! Total count: 32446
+! Version: 2025-02-17 16:13:37
+! Total count: 32464
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1394,6 +1394,7 @@
 ##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
 ##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
+##[style='z-index: 2147483647; width: 100%;height: auto;left: 0;right: 0;margin: auto;']
 ##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
@@ -4576,11 +4577,14 @@ $websocket,domain=wap.yushuwu.cloud
 91lai.com##.showimgs
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
+91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
+91porna.com##.video-items > li:has(> a.checkNum)
+91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
@@ -7968,6 +7972,9 @@ bodu365.co##.side_g_seat
 bodu365.co##.top_s_ad
 bodu365.co##.top_show
 bog.ac##.sidebar-url
+bohe.cn##.ml-30
+bohe.cn##.mt20
+bohe.cn##IFRAME[width='400'][height='200']
 boke112.com###linkdh
 boke112.com###sidebar img
 boke112.com##.custom-html-widget > div[style="margin-bottom: -7px;"]
@@ -10965,6 +10972,10 @@ iask.sina.com.cn##.sj_680x250
 ibaotu.com##.bg-feedback
 ibaotu.com##.comVip-tg
 ibaotu.com##.ibaotu-md-click[ibaotu-md-value="detail_top_ad"]
+ibbs.pro#$##adsModal { display: none !important; }
+ibbs.pro#$#.modal-backdrop { display: none !important; }
+ibbs.pro#$#body { overflow: auto !important; padding-right: 0 !important; }
+ibbs.pro#$#div.mt-2:has( > ins) { display: none !important; }
 ibf.tw###top_d
 ibm.com###dw-regbar
 icanzc.com###contbot
@@ -21278,6 +21289,7 @@ zzzyk.com###Tinfo
 ||delivery.wasu.cn^
 ||demaxiya.com/v4/dd/
 ||denjpl.xyz^
+||deqixs.com/config/v7.js
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
 ||desac10.icu^
@@ -22166,6 +22178,7 @@ zzzyk.com###Tinfo
 ||evgaow.xyz^
 ||evidhjksdtgyxrh.xyz^
 ||evkzqs.xyz^
+||evreiks.com^
 ||evtubescms.phncdn.com^
 ||ewaterw.top^
 ||eweisiw.top^
@@ -22336,6 +22349,7 @@ zzzyk.com###Tinfo
 ||ff.qichetansuo.com^
 ||ffbdbx.xyz^
 ||ffdafx.xyz^
+||ffdm2.cc/ht_cpc.js
 ||ffgpol.com^
 ||ffmehcg.cn^
 ||ffnvhig.cn^
@@ -22497,6 +22511,7 @@ zzzyk.com###Tinfo
 ||fqbjzj.xyz^
 ||fqghykp.cn^
 ||fqpxzr.xyz^
+||fqquzqd.top^
 ||fqxkj.cn^
 ||fragment.firefoxchina.cn/html/
 ||frame.enet.com.cn/a.php
@@ -29084,6 +29099,7 @@ zzzyk.com###Tinfo
 ||static.dragcave.net/cache/js/a/$script
 ||static.gaomaer.cn^
 ||static.gridsumdissector.com^
+||static.huaren.live/ads/
 ||static.ichehome.com^
 ||static.iqiyi.com/js/common/mars_v.js^$script
 ||static.jfrft.com/js/main_list.js^$script,redirect=noop.js,domain=dilidili.wang,important
@@ -30756,6 +30772,7 @@ zzzyk.com###Tinfo
 ||wmqfey.com^
 ||wmxke.com^
 ||wn68din.cn^
+||wn6y.cn^
 ||wn80drk.shop^
 ||wnacg.*/1605524662751.gif
 ||wnacg.*/1sdfdc1/
@@ -31051,6 +31068,7 @@ zzzyk.com###Tinfo
 ||x0or8.icu^
 ||x0y081e.xyz^
 ||x1.52aoteman.com^
+||x1abo.com^
 ||x1fyw.icu^
 ||x21.cn/service/feeds.
 ||x23qb.com/skin/themex.js
