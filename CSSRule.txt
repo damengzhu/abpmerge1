@@ -8553,9 +8553,10 @@ likr.tw###avivid_waterfall_wp_product_area
 limaenvivo.com##IMG[title="close"]
 line.me###install_line
 line.me##.midAdModule-root
-linetv.tw##+js(no-fetch-if, pagead2.googlesyndication.com)
+linetv.tw##+js(no-fetch-if, /pagead2\.googlesyndication\.com|\/fbevents\.js/)
 linetv.tw##+js(no-xhr-if, pagead2.googlesyndication.com)
 linetv.tw##+js(set-constant, google.ima.AdError, noopFunc)
+linetv.tw##+js(set-constant, google_tag_manager, {})
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linfoweb.com#$#abort-on-property-write num
 linkdecode.com#@#.adsbygoogle

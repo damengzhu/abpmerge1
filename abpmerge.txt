@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-18 08:14:50
-! Total count: 32464
+! Version: 2025-02-18 16:14:07
+! Total count: 32474
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -12335,9 +12335,10 @@ likr.tw###avivid_waterfall_wp_product_area
 limaenvivo.com##IMG[title="close"]
 line.me###install_line
 line.me##.midAdModule-root
-linetv.tw##+js(no-fetch-if, pagead2.googlesyndication.com)
+linetv.tw##+js(no-fetch-if, /pagead2\.googlesyndication\.com|\/fbevents\.js/)
 linetv.tw##+js(no-xhr-if, pagead2.googlesyndication.com)
 linetv.tw##+js(set-constant, google.ima.AdError, noopFunc)
+linetv.tw##+js(set-constant, google_tag_manager, {})
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-linetv"][class*="-emphasis"]
 linfoweb.com#$#abort-on-property-write num
 linkdecode.com#@#.adsbygoogle
@@ -20811,6 +20812,7 @@ zzzyk.com###Tinfo
 ||conf.hpplay.cn^
 ||config.unityads.unity3d.com^
 ||connect.cointent.com^$domain=themarysue.com
+||connect.facebook.net/en_US/fbevents.js$script,redirect=noop.js,domain=linetv.tw
 ||connect.facebook.net^*/fbds.js$third-party
 ||connectormwi.laterpay.net^$script,domain=schoener-wohnen.de
 ||connectreadoasis.com^
@@ -25429,6 +25431,7 @@ zzzyk.com###Tinfo
 ||lcd.aivote.com^
 ||lcefsf.icu^
 ||lclimil.top^
+||lclqbh.icu^
 ||lcvwdn.icu^
 ||lcxw.cn/d/js/thea
 ||lcxw.cn/i/*dl.js
@@ -27309,6 +27312,7 @@ zzzyk.com###Tinfo
 ||phainoirs.com^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
+||phazaeth.com^
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
 ||pheetuth.com^
@@ -27860,6 +27864,7 @@ zzzyk.com###Tinfo
 ||qnalzly.top^
 ||qncye.com/ads/
 ||qnfvojfkw.xyz^
+||qnhi.cn^
 ||qnieo.fun^
 ||qnifdlay.top^
 ||qnipkk.xyz^
@@ -29149,6 +29154,7 @@ zzzyk.com###Tinfo
 ||stockstar.com/*DUILIAN&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
+||stogmos.com^
 ||stongors.com^
 ||stopadblock.org/adblocker-deaktivieren$subdocument
 ||store.7box.vip/ad/
@@ -30044,6 +30050,7 @@ zzzyk.com###Tinfo
 ||uerbgnkas.com^
 ||uessnah.icu^
 ||uetlwst.top^
+||uewotga.top^
 ||uewrutt.top^
 ||uewzjy.xyz^
 ||ufgg55.xyz^
@@ -31278,6 +31285,7 @@ zzzyk.com###Tinfo
 ||xkgttas.icu^
 ||xklrsj.icu^
 ||xkmwxwy.cn^
+||xkp.cc^$third-party
 ||xkqit.com^
 ||xkrnud.icu^
 ||xkyn.com/imgs/js/al.js
@@ -32026,6 +32034,7 @@ zzzyk.com###Tinfo
 ||zatnawqy.net/Webservices/jsParseLinks.aspx$script,third-party
 ||zatnawqy.net/visitScript/$script,third-party
 ||zaupjw.xyz^
+||zavgrj.icu^
 ||zawqwpajq.club^
 ||zazgbqg*.xyz^
 ||zazgiyoh*.world^
@@ -32318,6 +32327,7 @@ zzzyk.com###Tinfo
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
 ||zonyff.xyz^
+||zooj.cn^$third-party
 ||zoom.zshu.net^
 ||zoosnet.net^$third-party
 ||zoossoft.cn^$third-party
