@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-18 16:14:07
-! Total count: 32474
+! Version: 2025-02-19 08:15:11
+! Total count: 32493
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1988,9 +1988,11 @@ $websocket,domain=wap.yushuwu.cloud
 .fun/*.jss?17*&r=0$third-party
 .fun/*/17*/*.css?r=0$third-party
 .fun/*_*_rony.js
+.fun/In390hG2.js
 .fun/TA390hz2.js
 .fun/ad/
 .fun/by389.js
+.fun/nd389.js
 .gif$third-party,domain=1024pa.com
 .gif$third-party,domain=922tp.com
 .gif$third-party,domain=avbebe.com
@@ -3704,6 +3706,7 @@ $websocket,domain=wap.yushuwu.cloud
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
 174.127.195.98##+js(abort-on-property-write, checkAdblock)
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
+178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##section[id*="top_banner"]
@@ -12347,8 +12350,13 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
+linovelib.com##+js(addEventListener-defuser, DOMContentLoaded, adBlock)
 linovelib.com##+js(set-constant, adblock, 0)
 linovelib.com#$##byspider { display: none !important; }
+linovelib.com#$##mlfy_main_text > div[class]:not([id]) { display: none !important; }
+linovelib.com#$#.adblock-tips { display: none !important; }
+linovelib.com#$#.dag + div[class]:not([id]) { display: none !important; }
+linovelib.com#$#:is(#volume-list, #TextContent) { display: block !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 linovelib.com#@#.ads_box
 linux.cn##.linuxcnad
@@ -17250,6 +17258,7 @@ zzzyk.com###Tinfo
 ||174.127.195.98/bbs/include/javascript/adblock.js
 ||177o.com^
 ||178.com/glr.js
+||178.com/misc/self/*_ads
 ||17ce.com^*_$image
 ||17dm.com/s/common/js/*AD.js
 ||17gameworld.com/gmifr_lei.
@@ -20296,6 +20305,7 @@ zzzyk.com###Tinfo
 ||ccement.com/js/ccement_new/open.js
 ||cchvc.net^
 ||ccinmaf.top^
+||ccinvdf.top^
 ||cckke.com/fanhao/v/ad
 ||cclimif.top^
 ||ccmeng.com^$third-party
@@ -21310,6 +21320,7 @@ zzzyk.com###Tinfo
 ||dfaikhkm.xyz^
 ||dfan4.icu^
 ||dfcfw.com/EMFloatFrame/
+||dfcfw.com/download/D25411840164398846730_w690h389.
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/default/left_
 ||dfcfw.com/js/news/fundfloatmedia_
@@ -21354,6 +21365,7 @@ zzzyk.com###Tinfo
 ||dgrgr34.fun^
 ||dgvkrt.xyz^
 ||dgxlm.xyz^
+||dhannaq.com^
 ||dheear.site^
 ||dheirzeh.com^
 ||dhemixu.com^
@@ -23321,6 +23333,7 @@ zzzyk.com###Tinfo
 ||hcgbhq.com^
 ||hciea.xyz^
 ||hcinmau.top^
+||hcinvdu.top^
 ||hcirentgh.360doc.cn^
 ||hciwyv.icu^
 ||hcjs.nv7s.com/xif*/*.js$domain=hclips.com
@@ -24821,6 +24834,7 @@ zzzyk.com###Tinfo
 ||jsf.cnlinfo.net^
 ||jsgapai.icu^
 ||jsgdvkjz.com^
+||jshilr.icu^
 ||jsinfo.net^$third-party
 ||jslbaha.top^
 ||jsm.godloveme.cn^
@@ -26860,6 +26874,7 @@ zzzyk.com###Tinfo
 ||o2.jyjyj.cn^
 ||o2o.api.xiaomi.com^
 ||o3t.icu^
+||o4q.fun^
 ||o8s.icu^
 ||o8zoz.icu^
 ||oa-panther.data.aliyun.com^$third-party
@@ -28149,6 +28164,7 @@ zzzyk.com###Tinfo
 ||requirejs.cn/ts.png
 ||reqwevf3.fun^
 ||reryt111.fun^
+||res*.pinpai8.cn^
 ||res.ab.qq.com/tab/$script
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.office365.com/*/scripts/microsoft.owa.adsbar.js
@@ -28284,6 +28300,7 @@ zzzyk.com###Tinfo
 ||rryy99.com/statics/js/stat.js
 ||rsanciz.top^
 ||rsinnxoe.com^
+||rsohvot.xyz^
 ||rssxsjh.icu^
 ||rsvqlz.cn^
 ||rsyepnq.icu^
@@ -30240,6 +30257,7 @@ zzzyk.com###Tinfo
 ||uvekyvs.icu^
 ||uvklgw.xyz^
 ||uvnjlm.cn^
+||uvoisbg.xyz^
 ||uvwnkmf.icu^
 ||uvyuqzx.cn^
 ||uwadakest.cyou^
@@ -31395,6 +31413,7 @@ zzzyk.com###Tinfo
 ||xpyjyhny.xyz^
 ||xqblnei.cn^
 ||xqcjfcb.cn^
+||xqrydt.icu^
 ||xrb0owc.icu^
 ||xrdqdd.xyz^
 ||xrkadslmgg.top^

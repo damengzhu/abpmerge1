@@ -2130,6 +2130,7 @@
 173.192.147.21,sejie.com,sejie3.us,thesoccerline.com###wp > center > a
 174.127.195.98##+js(abort-on-property-write, checkAdblock)
 178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
+178.com,nga.cn,ngabbs.com##[style^="background"][style*="vertical-align"]
 17ce.com##a[href="/site/api"]
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 17ce.com##section[id*="top_banner"]
@@ -8565,8 +8566,13 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 linkshrink.net#@##overlay_ad
 linkshrink.net#@#.overlay_ad
+linovelib.com##+js(addEventListener-defuser, DOMContentLoaded, adBlock)
 linovelib.com##+js(set-constant, adblock, 0)
 linovelib.com#$##byspider { display: none !important; }
+linovelib.com#$##mlfy_main_text > div[class]:not([id]) { display: none !important; }
+linovelib.com#$#.adblock-tips { display: none !important; }
+linovelib.com#$#.dag + div[class]:not([id]) { display: none !important; }
+linovelib.com#$#:is(#volume-list, #TextContent) { display: block !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
 linovelib.com#@#.ads_box
 linux.cn##.linuxcnad
