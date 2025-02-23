@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-02-22 16:11:30
-! Total count: 32540
+! Version: 2025-02-23 08:14:18
+! Total count: 32553
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1834,6 +1834,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/*-*-*.xc$script,third-party
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
+.cn/In390hG2.js$script,third-party
 .cn/Qi390eC2.js$script,third-party
 .cn/TA390hz2.js$script,third-party
 .cn/a.gif?
@@ -1844,6 +1845,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/by389.js$script,third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
+.cn/nd389.js$script,third-party
 .cn/r.gif?
 .cn/redbaiduct.com?s=$third-party
 .cn/s.gif?
@@ -6785,6 +6787,8 @@ _naimabdd_
 _popAds.
 _rony.js$script,third-party
 _tm11_pmt_
+_vwisbjs?
+_vwnrsbjs?
 _yad_jsonp_
 a-i-l-s-a.com,buscodepto.com##div[style^="position: fixed;"]
 a9vg.com###guide-download
@@ -24766,6 +24770,7 @@ zzzyk.com###Tinfo
 ||jqtkzuco.xyz^
 ||jqtnft.xyz^
 ||jquery.envi-met.com.cn^
+||jrblfv.icu^
 ||jrds.net.cn^
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
@@ -25146,6 +25151,7 @@ zzzyk.com###Tinfo
 ||khengrull.com^
 ||khesuts.com^
 ||khgjfm16.com^
+||khoqetslh.com^
 ||khrtac.xiangha.com^
 ||kiees.cn/img/
 ||kiees.cn/jm.png
@@ -28446,6 +28452,7 @@ zzzyk.com###Tinfo
 ||s65m.win^
 ||s6in.cc^
 ||s7tu.com/images/*.gif
+||s7vf.cn^
 ||s8.pw^$third-party
 ||s83.fun^
 ||s8bbs.com/ad/
@@ -29054,6 +29061,7 @@ zzzyk.com###Tinfo
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||spl.ztvx8.com^$third-party
+||spoaven.top^
 ||sport.cz/*&*=$subdocument,domain=sport.cz
 ||sportingbet-affiliate.host.bannerflow.com/core_bannerviewer.swf$domain=record.xl.pt
 ||sports.ru^$script,header=x-robots-tag
@@ -29445,6 +29453,7 @@ zzzyk.com###Tinfo
 ||tcheeter.com^
 ||tchkcc.cn^
 ||tci.oss-ap-southeast-1.aliyuncs.com^
+||tcinvdi.top^
 ||tciqgx.xyz^
 ||tclimii.top^
 ||tcmap.com.cn/js/b_
@@ -30391,6 +30400,7 @@ zzzyk.com###Tinfo
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdoqomz.icu^
+||vdpwuxmo.icu^
 ||vdrfes.site^
 ||vdsdsf2.fun^
 ||ve0ke.icu^
@@ -31452,6 +31462,7 @@ zzzyk.com###Tinfo
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpjcg.oss-accelerate.aliyuncs.com^
 ||xpkxahje.xyz^
+||xplbxx.icu^
 ||xprdmnlo.xyz^
 ||xpwlctfk.xyz^
 ||xpyerxzn.xyz^
@@ -31535,6 +31546,7 @@ zzzyk.com###Tinfo
 ||xwdjnj.xyz^
 ||xwdsp.com^
 ||xwlyfl.xyz^
+||xwma.cn^
 ||xwqtatnw.icu^
 ||xwsqtngwa.xyz^
 ||xwvnhe.cn^
@@ -31693,6 +31705,7 @@ zzzyk.com###Tinfo
 ||yes1.feng.com^$domain=feng.com
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
+||yetcdn.com^
 ||yeyemo4.com^$third-party,image
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/
