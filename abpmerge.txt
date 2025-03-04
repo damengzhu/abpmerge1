@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-04 08:13:46
-! Total count: 32635
+! Version: 2025-03-04 16:14:21
+! Total count: 32639
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5342,6 +5342,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||bitvid.sx/banner.php$script
 @@||bitzfree.com/js/*.js$script
 @@||blackmod.net^$generichide
+@@||blog.6ziz.com^$generichide
 @@||blog.ztjal.info^$generichide
 @@||bokecc.com/flash/playlog?
 @@||book.com.tw/image/getImage?
@@ -6133,9 +6134,9 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
@@ -15628,6 +15629,7 @@ tvsportslive.*#$#abort-current-inline-script document.createElement /script/; hi
 tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 tw.beanfun.com###flybeanfun
 tw.bid.yahoo.com###livePromote
+tw.live##.fsk-window-film
 tw.news.yahoo.com###mrt-node-Lead-1-Ad
 tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
@@ -30015,6 +30017,7 @@ zzzyk.com###Tinfo
 ||tw.buy.yahoo.com/?z=
 ||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
 ||tw.jav321.com^$popup,domain=ucptt.com
+||tw.live/assets/images/fsk-0*.webp
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
 ||twamjb.cn^
@@ -30226,6 +30229,7 @@ zzzyk.com###Tinfo
 ||uiteligularly.fun^
 ||ujgf120.com^
 ||ujimtyt.top^
+||ujmz.cn^
 ||ujnkn.com^
 ||ujovcb.cn^
 ||ujrspnbf.xyz^
