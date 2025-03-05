@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-05 08:15:25
-! Total count: 32645
+! Version: 2025-03-05 16:19:20
+! Total count: 32646
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -5329,7 +5329,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
 @@||bild.de^$elemhide
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
-@@||bilinovel.com^$generichide
 @@||binbox.io/adblock.js$script
 @@||binbucks.com/ads/ads.html$subdocument
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
@@ -6134,7 +6133,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
@@ -7854,7 +7853,6 @@ bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"]
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilibili.to###yytf
 bilinovel.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
-bilinovel.com#@#.ads_box
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
 binbox.io#@#.banner-ad
@@ -9138,7 +9136,7 @@ douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店�
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
-douyu.com###js-player-toolbar
+douyu.com###js-player-toolbar > .PlayerToolbar
 douyu.com###js-room-activity
 douyu.com###sign_p_1
 douyu.com##.ActPayDialog
@@ -9179,6 +9177,7 @@ douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
 douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
+douyu.com#$##js-player-toolbar { height: 0 !important; }
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
@@ -28461,6 +28460,7 @@ zzzyk.com###Tinfo
 ||ruten.com.tw^*/ahd_
 ||ruyig.com/730x76.png
 ||rvbztg.cn^
+||rvgtaai.top^
 ||rvlgrb.xyz^
 ||rvnaxwqe.icu^
 ||rvtfwryz.icu^
@@ -30688,6 +30688,7 @@ zzzyk.com###Tinfo
 ||vwsgmf.icu^
 ||vwtjvd.xyz^
 ||vwvatp.xyz^
+||vwvj.cn^
 ||vxcvd67.fun^
 ||vxdrfr.xyz^
 ||vxhsj.cn^
