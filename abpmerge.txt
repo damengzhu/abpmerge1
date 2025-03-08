@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-07 16:13:51
-! Total count: 32657
+! Version: 2025-03-08 08:12:00
+! Total count: 32667
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7502,6 +7502,7 @@ baidu.com##.corneradv
 baidu.com##.cpc-adv-container
 baidu.com##.desktop-guide
 baidu.com##.download-app-parent
+baidu.com##.drag-wrap
 baidu.com##.ec-ad
 baidu.com##.ec-ads-container
 baidu.com##.ec-fc-ad-results
@@ -9138,7 +9139,6 @@ douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店�
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###js-fix-download
 douyu.com###js-live-room-recommend
-douyu.com###js-player-toolbar > .PlayerToolbar
 douyu.com###js-room-activity
 douyu.com###sign_p_1
 douyu.com##.ActPayDialog
@@ -9165,7 +9165,6 @@ douyu.com##.index-common-1-rrh
 douyu.com##.isLink[href^="https://igxe.cn/"]
 douyu.com##.layout-Main > section.layout-Customize
 douyu.com##.layout-Slide-banner:not([href*="douyu"])
-douyu.com##.liveActivityCommonPendant
 douyu.com##.noble-up-guide
 douyu.com##.pendant-wrap
 douyu.com##.row-4.theatre
@@ -9179,7 +9178,6 @@ douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
 douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
-douyu.com#$##js-player-toolbar { height: 0 !important; }
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
@@ -13117,6 +13115,7 @@ mydrivers.com##.HSsRgYjfNn
 mydrivers.com##.ab
 mydrivers.com##.adds
 mydrivers.com##.baidu_box
+mydrivers.com##.baidu_left
 mydrivers.com##.bb
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 mydrivers.com##.duilian2
@@ -20161,6 +20160,7 @@ zzzyk.com###Tinfo
 ||bxackzj.icu^
 ||bxheifoe.icu^
 ||bxlmrl.xyz^
+||bxlulr.icu^
 ||bxmazls.icu^
 ||bxnxdlb.xyz^
 ||bxoaeju.icu^
@@ -21801,6 +21801,7 @@ zzzyk.com###Tinfo
 ||duoyi.com/welcome/$popup
 ||duoying.vip^$third-party
 ||dup.baidustatic.com^
+||dupzbh.icu^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||duxingangtiaoban.com^
 ||duyewnf.icu^
@@ -22273,6 +22274,7 @@ zzzyk.com###Tinfo
 ||exinariuminix.info^
 ||exoav.com/nb/nt.js
 ||exoclick.com^$third-party
+||exocoed.top^
 ||exoticads.com^$third-party
 ||expreview.com/baba/
 ||exqvak.xyz^
@@ -23628,6 +23630,7 @@ zzzyk.com###Tinfo
 ||hlnr9q.icu^
 ||hlstlyy.com^$third-party
 ||hltoon.com/hanman/static/dist/ppm/js/foot
+||hltpdd.icu^
 ||hlzncxmu.icu^
 ||hlzyb.cn^
 ||hm.baidu.com/mkt.js
@@ -24729,6 +24732,7 @@ zzzyk.com###Tinfo
 ||jiuyuntian3.cn^
 ||jivvjl.xyz^
 ||jixmlx.xyz^
+||jixurt.icu^
 ||jiyingdm.com/js/loadingshow.html
 ||jizxnr.xyz^
 ||jjade.xyz^
@@ -26897,6 +26901,7 @@ zzzyk.com###Tinfo
 ||nqoxurf.icu^
 ||nqyrywn.icu^
 ||nrbwzh.icu^
+||nrgv.cn^
 ||nrjzkj.cn^
 ||nroeoxk.icu^
 ||nrsfh.com/neirong/
@@ -27416,6 +27421,7 @@ zzzyk.com###Tinfo
 ||pexnjio.cn^
 ||pfbmht.icu^
 ||pfdth.cn^
+||pfhe.cn^
 ||pfhj89w.com^
 ||pfiparts.com^
 ||pfjfjid.xyz^
@@ -28007,6 +28013,7 @@ zzzyk.com###Tinfo
 ||qnvod.net/qna/
 ||qnvwjpr.icu^
 ||qo2.fun^
+||qogonsuqq.com^
 ||qogrux.com^
 ||qoilbsfwqd.net^
 ||qonbibff.icu^
@@ -29316,6 +29323,7 @@ zzzyk.com###Tinfo
 ||storyren.top/imgg/
 ||stragmik.com^
 ||strakuty.com^
+||stralotsb.com^
 ||strdef.world/js/acheck.js
 ||streaming-foot.info/images/adblok.mp3$media
 ||strelgrell.com^
@@ -29675,6 +29683,7 @@ zzzyk.com###Tinfo
 ||thruudrad.com^
 ||thrzbf.xyz^
 ||thunnqyo.com^
+||thustilpn.com^
 ||thvx9i.icu^
 ||thztv.*/tool/
 ||ti4la.icu^
@@ -32444,6 +32453,7 @@ zzzyk.com###Tinfo
 ||ziweuu.com^
 ||ziyuanm.com/js/g11.js
 ||zj-yxw.com^
+||zjen.cn^
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjgfq.com^$third-party
 ||zjib0.icu^
