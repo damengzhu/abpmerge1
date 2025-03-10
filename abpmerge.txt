@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-09 16:10:47
-! Total count: 32678
+! Version: 2025-03-10 08:13:16
+! Total count: 32684
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4490,6 +4490,7 @@ $websocket,domain=wap.yushuwu.cloud
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
 6park.com,club.6parkbbs.com##.adv-6park
+6parknews.com##.ad-view
 6parknews.com##.other_list_ad
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
 6parknews.com#?##d_list > ul > li:-abp-has(a[href^="http"]:not([href*="6parknews"]))
@@ -22097,6 +22098,7 @@ zzzyk.com###Tinfo
 ||ejieban.com^
 ||ejimtyw.top^
 ||ejolul.xyz^
+||ejti.cn^
 ||ejunshi.com^
 ||ekdky.cn^
 ||ekltes.xyz^
@@ -22591,6 +22593,7 @@ zzzyk.com###Tinfo
 ||fq67.top^
 ||fqbjzj.xyz^
 ||fqghykp.cn^
+||fqnhjt.icu^
 ||fqpxzr.xyz^
 ||fqquzqd.top^
 ||fqxkj.cn^
@@ -25578,6 +25581,7 @@ zzzyk.com###Tinfo
 ||leju.com^*=abs.processReqChange
 ||lekfez.icu^
 ||lekkrrlel.com^
+||lelczf.icu^
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
@@ -27445,6 +27449,7 @@ zzzyk.com###Tinfo
 ||pgght17.com^
 ||pghglj.icu^
 ||pglstatp-toutiao.com^
+||pgyfzyv.top^
 ||phainoirs.com^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
@@ -28826,6 +28831,7 @@ zzzyk.com###Tinfo
 ||sheeroop.com^
 ||shejiben.com/common/libs/layer.js
 ||shejiben.com/common/widgets/ui/*zb.js
+||shelluiqy.com^
 ||shen4club.com/style/*.js?v=
 ||shenfagg.com^
 ||shenfire.cn^
