@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-11 16:15:10
-! Total count: 32692
+! Version: 2025-03-12 08:16:10
+! Total count: 32704
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -3910,6 +3910,7 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com###sidenav > .activity-trig
 2345.com###topHf
 2345.com###xxl_game-new
+2345.com##._isFirstAd
 2345.com##.act-market
 2345.com##.act-openJ-mask
 2345.com##.act-search-tab
@@ -3927,6 +3928,7 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.comp-normal-navigate
 2345.com##.dzc-hn-cmoe
 2345.com##.event1-hasList
+2345.com##.lian-meng-box
 2345.com##.mainbg
 2345.com##.mainbg1
 2345.com##.mco-ex-ndxh
@@ -3934,10 +3936,12 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.mod-txtred
 2345.com##.mzdh_bottom
 2345.com##.newsArea
+2345.com##.part-banner > .part-ppt
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
 2345.com##.s11-side
 2345.com##.s12-fullNav
+2345.com##.search-right-swiper-news
 2345.com##.spreadHotWords
 2345.com##.tip_stopXP
 2345.com##.top > .fred
@@ -17417,6 +17421,7 @@ zzzyk.com###Tinfo
 ||2345.com/duoteimg/img/*_ad_
 ||2345.com/dypcimg/*gameRecommend.js
 ||2345.com/dypcimg/ads/
+||2345.com/guess/v1/adList
 ||2345.com/images/activity/20180618/search-actimg
 ||2345.com/images/m/global/new-hongbao/
 ||2345.com/js/index/activity/
@@ -20674,6 +20679,7 @@ zzzyk.com###Tinfo
 ||cifnews.com/yuguo3.0/live_dynamic/js/live_dynamic.js
 ||cifyeldf.top^
 ||cig.com.cn^$third-party
+||cigoqcq.top^
 ||ciimar.icu^
 ||ciislunar.com^
 ||cijianggun.com^
@@ -21990,6 +21996,7 @@ zzzyk.com###Tinfo
 ||ebscb0l.xyz^
 ||ebten.xyz^
 ||ebuqxsjq.com^
+||ecatqefal.com^
 ||eccbb.com^
 ||eccki.cn^
 ||eccn.com/js/gg.js
@@ -23881,6 +23888,7 @@ zzzyk.com###Tinfo
 ||hxhohd.xyz^
 ||hxinitv.icu^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
+||hxnpxh.icu^
 ||hxsxw.com/hx8899/
 ||hxsxw.com/hx8899/$image
 ||hxsxw.com/js/float.js
@@ -24748,6 +24756,7 @@ zzzyk.com###Tinfo
 ||jizxnr.xyz^
 ||jjade.xyz^
 ||jjdk33.com^
+||jjfufv.icu^
 ||jjimtya.top^
 ||jjj*.com/static/js/common.js
 ||jjjak.com^
@@ -27007,6 +27016,7 @@ zzzyk.com###Tinfo
 ||oaihiiacb.com^
 ||oaiqksi.top^
 ||oajfpqojev.net^
+||oajv.cn^
 ||oakmn.top^
 ||oaqrui.xyz^
 ||oauqyw.xyz^
@@ -28619,10 +28629,12 @@ zzzyk.com###Tinfo
 ||sbovgy.xyz^
 ||sbpb1.chuiyue.com^
 ||sbpb1.qulishi.com^
+||sbqg7jylmzsym.top^
 ||sc-gov-cn.website^
 ||sc126.com^
 ||scannapp.xyz^
 ||sccnn.com/SF/zt.jpg
+||scesqoikq.com^
 ||schain.group^
 ||schedfi.com^
 ||scibook.cn/tuiguang.
