@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-12 08:16:10
-! Total count: 32704
+! Version: 2025-03-12 16:14:56
+! Total count: 32715
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4195,6 +4195,14 @@ $websocket,domain=wap.yushuwu.cloud
 4399.com#$#body { background-image: none !important; }
 4399.com,sxrtv.com,yundaex.com###ad1
 4399.com,sxrtv.com,zgsyz.com###ad2
+445nan.com###appBox
+445nan.com##+js(no-setTimeout-if, .offsetHeight == 0)
+445nan.com##+js(set-constant, appData, [])
+445nan.com##+js(set-constant, btmData, [])
+445nan.com##+js(set-constant, coupletData, [])
+445nan.com##+js(set-constant, midData, [])
+445nan.com##+js(set-constant, topData, [])
+445nan.com#@#.ad-box:not(#ad-banner):not(:empty)
 493428493428c.monster##div[style^="width:728px;height:90px;"]
 4bac.ro,filme-bune.biz#$#abort-current-inline-script Math zfgloaded
 4c.cn##div[id^="mid_ad"]
@@ -17682,6 +17690,7 @@ zzzyk.com###Tinfo
 ||4399sj.com^*/mask-ad
 ||43a.icu^
 ||4438x*.com/Runtime/js/
+||445nan.com/ad/
 ||44629.com^
 ||44pd.com^*xds/
 ||44r9fl.xyz^
@@ -24393,6 +24402,7 @@ zzzyk.com###Tinfo
 ||ismuwcm.icu^
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/A-D/
+||istraxuhh.com^
 ||iswgnn.com^
 ||isylieo.top^
 ||iszbxqps.com^
@@ -27209,6 +27219,7 @@ zzzyk.com###Tinfo
 ||orodsmnu.com^
 ||orssengseen.com^
 ||ortlisk.top^
+||orup.cn^
 ||orutvnck.top^
 ||orxsq.xyz^
 ||orzx.im/Document/recommend/flashpoint.html
