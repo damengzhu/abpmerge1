@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-13 08:16:08
-! Total count: 32723
+! Version: 2025-03-13 16:15:16
+! Total count: 32720
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -6065,7 +6065,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||muzlan.top^$generichide
 @@||mvcat.com^$generichide
 @@||mymanga.io/css/ads.css$stylesheet
-@@||myqqjd.com^
 @@||myqqjd.com^$generichide
 @@||myspass.de/myspass/includes/apps/player/standard/avt_config.php?$object-subrequest
 @@||myspass.de/myspass/includes/apps/video/getvideometadataxml.php?$object-subrequest
@@ -6274,7 +6273,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=youtubeproxy.info
 @@||pagead2.googlesyndication.com/pub-config/$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com^$domain=battlecats-db.com
-@@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagead2.googlesyndication.com^$script,domain=hackintosh.computer
 @@||panjiachen.github.io^$generichide
 @@||papalah.com^$generichide
@@ -6717,9 +6715,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||wwads.cn/js/makemoney.js$domain=baomidou.com|nodejs.cn
 @@||www.epiotrkow.pl/js/adv.reklama.js$script
 @@||www.facebook.com^$generichide
-@@||www.google-analytics.com^$domain=myqqjd.com
 @@||www.google.*/adsense/$~third-party,domain=google.cn
-@@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.nfmovies.com/pic/tu/banner-03.jpg
 @@||www.nfmovies.com/pic/tu/banner03.jpg
 @@||www.nfmovies.com/static/side.jpg
@@ -7896,7 +7892,6 @@ bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
 bing.com,cn.bing.net##.pa_sb
-bing.com,cn.bing.net##DIV#bnp_container
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
@@ -22616,6 +22611,7 @@ zzzyk.com###Tinfo
 ||fq07.shop^
 ||fq67.top^
 ||fqbjzj.xyz^
+||fqbr.cn^
 ||fqghykp.cn^
 ||fqnhjt.icu^
 ||fqpxzr.xyz^
@@ -32558,6 +32554,7 @@ zzzyk.com###Tinfo
 ||znnodl.xyz^
 ||znyjmbh.icu^
 ||zodoth.com^
+||zogzoldop.com^
 ||zojyob.icu^
 ||zokjds.com/js/xiao.js
 ||zokzavnea.com^
