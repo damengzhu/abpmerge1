@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-14 08:14:51
-! Total count: 32727
+! Version: 2025-03-14 16:13:49
+! Total count: 32738
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4328,7 +4328,7 @@ $websocket,domain=wap.yushuwu.cloud
 520cc.cc##+js(no-setTimeout-if, location.href, 3000)
 520cc.cc##+js(no-setTimeout-if, myModal)
 520cc.cc##+js(set-constant, all520dddaaa2022ccc, true)
-520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
+520cc.cc##div[id^="myad_alert_"]
 520cc.me#$##acornerinner1122 { position: absolute!important; left: -3000px!important; }
 520film.net##.wapimg
 5217kdy1.xyz##.alert-success + center
@@ -5065,6 +5065,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php$domain=520cc.cc
+@@||520click.com/ad.php?id=$script,domain=surirt.com
 @@||5278.cool^$generichide
 @@||52av.tv/source/plugin/unadblock/$script
 @@||52zy.com/gg/
@@ -6549,6 +6550,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||sumeronline.com^$generichide
 @@||suning.cn/project/msIndex/js/??
 @@||supercloudsms.com/js/ad
+@@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||swagbucks.com^$generichide
 @@||sweclockers.com/js/ad.js$script
 @@||swsc.com.cn/download/ad_images/
@@ -9783,6 +9785,7 @@ filmtelecharger.net,libertyvf.co,libertyvf.tv,libertyvf.com,streaming-one.com,ex
 filmxy.one##.promo-contents
 filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 filterbypass.me##.adhome-728
+finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href^="https://acttg.eastmoney.com/pub/"])
 finance.ettoday.net##.all_news_text1
 finance.ifeng.com###box_img
 finance.ifeng.com##.lccs
@@ -13804,6 +13807,7 @@ phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
 pianba.net###jiedoubanban
 pianba.tv,pianba.net##.play-btn > a[target="_blank"]
+pianbas.com##.nopc.cpcad
 pianhd.com###myCarousel
 pianku.me###playad
 pianyuan.org###myModal
@@ -15178,6 +15182,9 @@ supertaste.tvbs.com.tw##.ad_m_top
 supertoinette.com#$#abort-on-property-read setInterval
 supjav.com##.asg-overlay
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
+surirt.com##+js(set-constant, ad_id_for_555, '')
+surirt.com##+js(set-constant, all520dddaaa2022ccc, true)
+surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
 susongbbs.com#@#.ad_banner
 sutin0831.pixnet.net#$#div[class*="-ad-sidebar-"] { position: absolute!important; left: -3000px!important; }
 suxzp.com##.full-screen-cover
@@ -16490,6 +16497,7 @@ xmfish.com###pw_content > .forum_panel:nth-child(4)
 xmfish.com##.advert-entry-list
 xmfish.com##.readCon_right
 xmh/200/200-*.gif
+xn--p3tv7h.com###floating-image-container
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
 xnxx-sexfilme.com#$#abort-on-property-read open; abort-on-property-write SpacialUp;
@@ -20861,6 +20869,7 @@ zzzyk.com###Tinfo
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
+||cokudsvit.com^
 ||colamanga.com/sw.js
 ||collector.dcdn.baidu.com^
 ||collegepre.net^
@@ -29918,6 +29927,7 @@ zzzyk.com###Tinfo
 ||tp.sgcn.com^
 ||tp1902abd.com^
 ||tp4sul.jwzd.com.cn^
+||tpjw.cn^
 ||tpkv.cn^
 ||tptgvh.xyz^
 ||tptoon.com/skin/js/tjtjkk.
@@ -31584,6 +31594,7 @@ zzzyk.com###Tinfo
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
 ||xn--mts60is5y5uk.com^
+||xn--p3tv7h.com/imgs/Uxuan2.jpg
 ||xn--qrq171dxpq.com^
 ||xn--sssy7vrppusjyv0a.com^
 ||xn--swt207gl1hzc.net^
