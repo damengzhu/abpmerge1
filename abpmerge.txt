@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-14 16:13:49
-! Total count: 32738
+! Version: 2025-03-15 08:13:33
+! Total count: 32746
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1567,6 +1567,7 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
+##body > div#inplayer[align="center"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
@@ -4844,6 +4845,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.jpg#$domain=huhupan.com
+@@.php?id=$script,domain=surirt.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/.adforge.|$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 @@/AdDefender/adwordstracking.js$script
@@ -18907,6 +18909,7 @@ zzzyk.com###Tinfo
 ||ajtdumo.cn^
 ||ajybgc.xyz^
 ||ajzsa.xyz^
+||ak03150hou.com^
 ||ak530.com/js/*.js
 ||akabebe.com/jgg/*.gif
 ||akamaihd.net^*/gsd.html?d=
@@ -19671,6 +19674,7 @@ zzzyk.com###Tinfo
 ||bd-china-1.appmobile.cn^
 ||bd-js.duote.com^
 ||bd-js1.2345.com^
+||bd-retrieval1.2345.com^
 ||bd-s.baixing.net^
 ||bd.ahsrst.cn^
 ||bd.beimap.com^
@@ -23238,6 +23242,7 @@ zzzyk.com###Tinfo
 ||guokr.com/baidu-cbjs/
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||guqoinly.com^
+||guqransoq.com^
 ||guqsqfmi.com^
 ||guqu.net/Cooperate/
 ||gushi.network^
@@ -23592,6 +23597,7 @@ zzzyk.com###Tinfo
 ||hhff111222.com^
 ||hhffks967.shop^
 ||hhffnu135.shop^
+||hhplayer.com/cdn/fb.js
 ||hhrerv.xyz^
 ||hhttm.top^
 ||hi.xiunm.cn^
@@ -25653,6 +25659,7 @@ zzzyk.com###Tinfo
 ||lflmdm.com^
 ||lfrdskwj.icu^
 ||lfrfzr.xyz^
+||lftcph.icu^
 ||lftpvh.xyz^
 ||lfxozd.xyz^
 ||lfzk2cp.icu^
@@ -26606,6 +26613,7 @@ zzzyk.com###Tinfo
 ||mvlkvth.cn^
 ||mvmqos.xyz^
 ||mvwitz.xyz^
+||mvxh.cn^
 ||mvxz.com/bar3.js
 ||mvxz.com/boximg/
 ||mvxz.com/img/
