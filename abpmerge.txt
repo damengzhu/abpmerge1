@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-17 08:16:52
-! Total count: 32768
+! Version: 2025-03-17 16:15:22
+! Total count: 32777
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2116,6 +2116,7 @@ $websocket,domain=wap.yushuwu.cloud
 .top/ad-
 .top/ad/
 .top/ads/
+.top/api.php?mod=ad&
 .top/g3/myString3AsyncG?$third-party
 .top/gluinfo.php?s=$third-party
 .top/upload/ad.js
@@ -7399,6 +7400,8 @@ axios-js.com##.lessonlist
 axios-js.com##.recommand
 axios-js.com##.vultr-desc
 axjbt.com,avcao.cc##+js(abort-on-property-read, myclick)
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie/)
+axutongxue.cn,axu.pages.dev,axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
 axutongxue.com##ASIDE[style*='height:58px;overflow:hidden;width:322px;border:dashed .5px']
 axutongxue.com##DIV[style*='px;position:relative;box-shadow:rgb(0 0 0/24%)0px 3px 8px;']
 axutongxue.com##DIV[style*='z-index: 9999999;display: flex;justify-content: center;align-items: center;']
@@ -7407,8 +7410,6 @@ axutongxue.com##a[href^="https://axu.simhaoka.com/phone/index?id=B956B2050EAA740
 axutongxue.com,axutongxue.net###jjjagl
 axutongxue.com,axutongxue.net##[style^="height:58px;"]
 axutongxue.net##body > article[style]
-axutongxue.vip,axutongxue.com,axutongxue.net##+js(no-setTimeout-if, /getCookie|checkCK|checkCookie/)
-axutongxue.vip,axutongxue.com,axutongxue.net##body > :is(div, aside)[id]:has(> ul[class] > li > img.icon + a[href])
 azcardinals.com###adblock-notice
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
@@ -9761,6 +9762,7 @@ ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fgames.pw###html3
 fh21.com.cn###lbzxM
 fhm.com.tw###add-box
+fhxy-a.top##.sd_recpic
 fichier.net#@##contentAd
 fights.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 fights.cz##.banner-add
@@ -20665,6 +20667,7 @@ zzzyk.com###Tinfo
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
 ||chongyayakk.xyz^
 ||chooncv.icu^
+||chorninsm.com^
 ||choujue.net/one/down.js
 ||choujue.net/script/
 ||choupsee.com^
@@ -27548,6 +27551,7 @@ zzzyk.com###Tinfo
 ||phpstudyimg.com/all/xiaojieqiantie.gif
 ||phputils.wc-os.com^
 ||phtivr.xyz^
+||phuustikd.com^
 ||phvfevk.xyz^
 ||phxdrf.icu^
 ||pianba.tv/api/web_htmls.js
@@ -27689,6 +27693,7 @@ zzzyk.com###Tinfo
 ||pojkhufef.xyz^
 ||poke88.com^
 ||polfaqgvsd.net^
+||political-effort.com^
 ||polkkqm.com^
 ||polkmerth.com^
 ||polkmnhytgb.com^
@@ -28328,6 +28333,7 @@ zzzyk.com###Tinfo
 ||rddsjx.xyz^
 ||rdlbkvo.cn^
 ||rdllzz.icu^
+||rdoq.cn^
 ||rdpcom.com^
 ||rdsgick.icu^
 ||rdufuxr.icu^
@@ -29258,6 +29264,7 @@ zzzyk.com###Tinfo
 ||srmdz.vip^
 ||srmsii.xyz^
 ||srootshare.com/otmyjs/
+||srootshare.com^
 ||srtb.msn.cn^
 ||srtlisb.top^
 ||srutvncb.top^
@@ -29904,6 +29911,7 @@ zzzyk.com###Tinfo
 ||toblog.ctobsnssdk.com^
 ||todayapp.tv^$popup,third-party
 ||toggle.qq.com^
+||togmoxwnw.com^
 ||togtrmjz.xyz^
 ||toijr.xyz^
 ||tokendomain.xyz^
@@ -30078,6 +30086,7 @@ zzzyk.com###Tinfo
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
 ||tubeviral.com/visitScript/$script,third-party
+||tubingacater.com^
 ||tudxhzj.cn^
 ||tufzdj.xyz^
 ||tuhmkjce.icu^
