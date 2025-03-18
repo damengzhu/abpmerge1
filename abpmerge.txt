@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-17 16:15:22
-! Total count: 32777
+! Version: 2025-03-18 08:15:34
+! Total count: 32790
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1377,6 +1377,7 @@
 ##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
+##[style$='width:9.6vw;height:6.40625vw;background: #000;opacity:0.01;']
 ##[style*="mi-img.com"][style*="calc"]
 ##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
@@ -4141,6 +4142,7 @@ $websocket,domain=wap.yushuwu.cloud
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 3dmgame.com##a[href*=".chuangmengsy.xyz"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
+3dmgame.com#$#body > div.content { margin-top: 0 !important; }
 3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 3dmgame.com#?#.downl_list:-abp-has(style)
 3dn.ru,a-point.info,addfiles.ru,akkordam.ru,all-for-kompa.ru,asia-tv.su,at.ua,autosimgames.ru,clan.su,db-energo.ru,devdrivers.ru,do.am,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gloria-cedric.ru,goldformat.ru,greenflash.su,igrul-ka.ru,krasnickij.ru,krolmen.ru,megaclips.net,mow-portal.ru,moy.su,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,omsimclub.ru,online-supernatural.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,techmusic.ru,tes-game.ru,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,vsthouse.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
@@ -4989,7 +4991,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@_ads_cpc_$domain=90lover.cn
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com
-@@googlesyndication.com@bilinovel.com
+@@googlesyndication.com$domain=bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
@@ -15874,6 +15876,7 @@ vgtime.com##.vgart_top > img
 vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 vid.onlymu.site##.tips
 vide-greniers.org##A[class^="replacement_"]
+video4k.cc#@#a[href*="/?aff="][target="_blank"]
 videofun.me,videobug.net,video44.net,play44.net,byzoo.org,playbb.me,videowing.me,videozoo.me,easyvideo.me,playpanda.net##.jhasvdjhas
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
 videopremium.tv#@#.pub_300x250
@@ -21960,6 +21963,7 @@ zzzyk.com###Tinfo
 ||e3ol.com/inc/
 ||e49.xyz^
 ||e50.icu^
+||e5nnk.com^
 ||e5yx.com^$popup
 ||e7h.fun^
 ||e8d7.icu^
@@ -22409,6 +22413,7 @@ zzzyk.com###Tinfo
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
 ||fbfrbt.xyz^
+||fbhkxt.icu^
 ||fbphnn.icu^
 ||fbqrt.cn^
 ||fbvbrb.icu^
@@ -25940,6 +25945,7 @@ zzzyk.com###Tinfo
 ||lpjxzs.com^
 ||lpmzt.cn^
 ||lpocne.top^
+||lppfnf.icu^
 ||lpxmall.com^
 ||lqe3.icu^
 ||lqfctb.icu^
@@ -28223,6 +28229,7 @@ zzzyk.com###Tinfo
 ||qusrow.xyz^
 ||qutyan8848.com^
 ||quwkke.xyz^
+||quyr.cn^
 ||quyuancn.com^$third-party
 ||quzmtpxw.xyz^
 ||qvnbjjd.xyz^
@@ -28279,6 +28286,7 @@ zzzyk.com###Tinfo
 ||r.trwl1.com/s1/$subdocument
 ||r0j.fun^
 ||r36ku.site^
+||r3nvrr4uzh.com^
 ||r3sub.com/images/aaa^
 ||r3sub.com/images/ccc/
 ||r3sub.com/posters/0069810.jpg
@@ -28904,6 +28912,7 @@ zzzyk.com###Tinfo
 ||shbzpgs.cn^
 ||shbzqgs.cn^
 ||shbzqkj.cn^
+||shedranfd.com^
 ||sheeroop.com^
 ||shejiben.com/common/libs/layer.js
 ||shejiben.com/common/widgets/ui/*zb.js
@@ -30714,6 +30723,7 @@ zzzyk.com###Tinfo
 ||vktztp.xyz^
 ||vlgkotr.cn^
 ||vlion.cn^$third-party
+||vljkjx.top^
 ||vlujojf.icu^
 ||vm.aty.sohu.com^
 ||vmbzhfh.cn^
@@ -30964,6 +30974,7 @@ zzzyk.com###Tinfo
 ||weike87.com/images/*0
 ||weike87.com/images/*1
 ||weikeys.com/js/zt.js
+||weitietl.com^
 ||weixin.qq.huigun.top^
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||weiyun.com/cgi-bin/tianshu_get?position=4&
@@ -31842,6 +31853,7 @@ zzzyk.com###Tinfo
 ||y7ts.icu^
 ||ya*.dwstatic.com^
 ||yaacdn.top^
+||yaaumqa.top^
 ||yac5t.cn^
 ||yahekby.cn^
 ||yahoo.com/embed/tv?site=buzzhand&
@@ -32341,6 +32353,7 @@ zzzyk.com###Tinfo
 ||zbc6hye*.xyz^
 ||zbc6hyip.xyz^
 ||zbcdn.net/__uvjgyw/slb.default.js
+||zbhuafx.com^
 ||zbjimg.com/static/union/
 ||zbldxf.icu^
 ||zblz.me^
