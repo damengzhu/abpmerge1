@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-21 16:14:36
-! Total count: 32822
+! Version: 2025-03-22 08:13:36
+! Total count: 32824
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1353,7 +1353,7 @@
 ##[rel='nofollow'][href^='/book/baidu_verify_code']
 ##[src$='/dibu.adadadad']
 ##[src$='anyhosthub-480x90.gif']
-##[src*='tif'][style='width:100%;height:120px'],[src*='tif'][onerror='this.style.display=\'none\'']
+##[src*="tif"][style="width:100%;height:120px"],[src*="tif"][onerror="this.style.display=\'none\'"]
 ##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
 ##[src='/static/ads.png']
@@ -28317,6 +28317,7 @@ zzzyk.com###Tinfo
 ||r4u.icu^
 ||r528e.cn^$third-party
 ||r5dfwjtb.icu^
+||r5twojylmzsym.top^
 ||r6pt6kfz.com^
 ||r75tia.cn^
 ||ra1.xyz^
@@ -29424,6 +29425,7 @@ zzzyk.com###Tinfo
 ||stats.wp.com^
 ||status-un.trafficmanager.net^
 ||steelcn.cn/img/bj_*_146_315.jpg
+||stemedntm.com^
 ||sterkisg.com^
 ||stescud.com^
 ||stgowan.com^
