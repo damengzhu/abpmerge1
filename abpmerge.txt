@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-25 08:16:09
-! Total count: 32851
+! Version: 2025-03-25 16:13:04
+! Total count: 32858
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2179,6 +2179,7 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/z/*/code.js$script,third-party
 .xyz:*/bug?*=$third-party
 .xyz:*/hm$third-party
+.xyz:*/js/b.php?v=*
 .xyz:*?c=$script,third-party
 .xyz:*?x=$script,third-party
 .xyz:8009/11?x=
@@ -2895,6 +2896,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/sjgg.js
 /js/soku-analytics.js
 /js/statistics/user_ad.js
+/js/tj.js
 /js/tpolknm.js
 /js/utils51.js
 /js/utils78.js
@@ -6797,6 +6799,7 @@ _/bigREDdog.js
 _300_250.
 _300_250_
 _300x250.
+_300x250.js
 _468.gif
 _728_90.
 _728_90_
@@ -6996,6 +6999,7 @@ ahtv.cn,sexbarss.net##.l1
 ahtv.cn,sexbarss.net##.r1
 ahvsh.com,sbanh.com,sbembed.com,sblona.com,sblongvu.com,sbplay2.com,sbrapid.com,streamhide.to,streamhide.to,streamsb.com,streamsb.net,streamwish.*,viewsb.com#$#abort-on-property-read __Y
 ai-chatbot.top##.right-14
+ai-chatbot.top##header ~ form ~ div.fixed.right-14
 aibing.cc##.adsense
 aibing.cc##a[href^="https://aibing.cc/go/"]
 aihami.com##.conText > div[style*="width:"]
@@ -17800,6 +17804,7 @@ zzzyk.com###Tinfo
 ||51hir.cyou^
 ||51img1.com/v6/my/js/bdm.js
 ||51jqq.top^
+||51korean.com^
 ||51la.net^$third-party
 ||51liucheng.com/js/dialogLogin.js
 ||51minbingtuan.net^
@@ -20112,6 +20117,7 @@ zzzyk.com###Tinfo
 ||bqnxff.xyz^
 ||br.bendan.shop^
 ||brand.sogou.com/micro?yyid=
+||bremphumz.com^
 ||brendanbc.com^
 ||brephras.com^
 ||brerkols.com^
@@ -31665,6 +31671,7 @@ zzzyk.com###Tinfo
 ||xlpu.cc/adv/
 ||xlrjnhxi.xyz^
 ||xls.go.sohu.com^
+||xluz.cn^
 ||xlviirdr.com^
 ||xlvqhx.xyz^
 ||xlwrdnrw.xyz^
