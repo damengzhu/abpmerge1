@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-03-30 08:13:51
-! Total count: 32902
+! Version: 2025-03-30 16:12:52
+! Total count: 32906
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2733,6 +2733,7 @@ $websocket,domain=wap.yushuwu.cloud
 /gubawap/ad/*
 /gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
+/haijiao3/*/popup.
 /hao123_api/api/cpc/*
 /haojio/images/KF-ZL.jpg
 /haojio/js/scoll_bg.js
@@ -13580,6 +13581,7 @@ ofweek.com###fixedADWrap
 ofweek.com###flybox-db
 oh100.com##.mySwiperBox
 ohmanhua.com##+js(abort-on-property-write, __DOMAIN)
+oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
 oilchem.net##.LzAdv
 ojogo.pt###AdBloquer
 ojogo.pt###moldura_ojogo
@@ -23605,6 +23607,7 @@ zzzyk.com###Tinfo
 ||hesramfi.com^
 ||hetlwsu.top^
 ||hevctt.xyz^
+||hevepyrmt.com^
 ||hewrutu.top^
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -27672,6 +27675,7 @@ zzzyk.com###Tinfo
 ||pierrebotton.com/global/
 ||pikabu.ru/ajax/?key=$xmlhttprequest,header=ssr
 ||piksrie.icu^
+||piln.cn^
 ||pimlog.baidu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
