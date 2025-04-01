@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-01 08:16:22
-! Total count: 32922
+! Version: 2025-04-01 16:13:52
+! Total count: 32926
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2190,6 +2190,7 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz:9002/*?x=$websocket,script,third-party
 .z.dkt-ib.com
 .zone/ads/
+/(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com\//$script,third-party
 /*/*.add.*.add
 /*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|gogoanimes.fi|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
 /*_*_aubi.js$third-party
@@ -2306,6 +2307,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(ilfcdn.li|bytecdntp.com|fastlycdn.com|doodcdn.co|intensedebate.com|vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
+/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com$/
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /_xa/ads
@@ -19283,6 +19285,7 @@ zzzyk.com###Tinfo
 ||applog.uc.cn^
 ||applog.zijieapi.com^
 ||appmetrica.yandex.ru^
+||apppc.chinaz.com/statics/images/tuan
 ||appsupport.qq.com^
 ||apptime.xyz^
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -29784,6 +29787,7 @@ zzzyk.com###Tinfo
 ||teeniaole.com^
 ||tehxzz.xyz^
 ||tekproxy.com/$popup,domain=turkdown.com
+||telecome.cn^
 ||templates_pc/default/scripts/chapter_bottom.js
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
