@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-02 16:14:55
-! Total count: 32937
+! Version: 2025-04-03 08:16:03
+! Total count: 32946
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2111,6 +2111,7 @@ $websocket,domain=wap.yushuwu.cloud
 .shop:*/bid?url=
 .sinaimg.cn/large/008qC0LFgy1hyp0pc9jz3g30jg01otpp.
 .site:20443/*.js^$script,third-party
+.so0*koaq.com/$script,third-party
 .st/ads/
 .swf?clicktag=
 .test15./
@@ -2191,7 +2192,6 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz:9002/*?x=$websocket,script,third-party
 .z.dkt-ib.com
 .zone/ads/
-/(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com\//$script,third-party
 /*/*.add.*.add
 /*Rek|$image,domain=animenova.org|animeplus.tv|gogoanimes.co|gogoanimes.fi|kiss-anime.ws|readcomiconline.to|mangareader.net|animewow.org|animeland.us
 /*_*_aubi.js$third-party
@@ -2308,7 +2308,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /^(?!.*(ilfcdn.li|bytecdntp.com|fastlycdn.com|doodcdn.co|intensedebate.com|vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
-/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com$/
+/^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/www\.freeuseporn\.com\/[0-9a-f]{12}\.js/$script,domain=freeuseporn.com
 /_xa/ads
@@ -21818,6 +21818,7 @@ zzzyk.com###Tinfo
 ||dreamlikeverse.com^
 ||drebz4f.shop^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
+||dreiquksz.com^
 ||drenqils.com^
 ||dreuaxk.icu^
 ||drfvtgbyk.xyz^
@@ -23494,6 +23495,7 @@ zzzyk.com###Tinfo
 ||hasdser.com^
 ||hasgde.site^
 ||hauqks.top^
+||hauqoa.com^
 ||hauqou.top^
 ||hb.vntsm.com/v3/live/ad-manager.min.js
 ||hb8g86k.mom/mz.js
@@ -27322,6 +27324,7 @@ zzzyk.com###Tinfo
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||oojjsa.com^
+||ookaso.com^
 ||ooksq.top^
 ||oopej.xyz^
 ||ooqiu.com/ad_js/
@@ -27848,6 +27851,7 @@ zzzyk.com###Tinfo
 ||pqd.org^
 ||pqfpvb.icu^
 ||pqjprom.cn^
+||pqnonh.top^
 ||pqomnfbg.com^
 ||pqzjki.cn^
 ||pr-bh.ybp.yahoo.com^
@@ -28547,6 +28551,7 @@ zzzyk.com###Tinfo
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rilwzsit.icu^
 ||ringingneo.com^
+||rinl.cn^
 ||rinshy17.xyz^
 ||riqmqrd.icu^
 ||riscats.com^
@@ -29263,6 +29268,7 @@ zzzyk.com###Tinfo
 ||so.open.163.com/v/list.htm?pid=
 ||so03311koaq.com^
 ||so04010koaq.com^
+||so04030koaq.com^
 ||so1nv.xyz^
 ||soa-vip-ssl.xunlei.com^
 ||soaspx.com/images/hws.gif
@@ -30623,6 +30629,7 @@ zzzyk.com###Tinfo
 ||uu22662.com^
 ||uu3192uu.com^
 ||uu8811uu.com^
+||uuaisp.com^
 ||uuajq.top^
 ||uugtv.com/x/app/videoSpread?
 ||uuiaoq.top^
@@ -31710,6 +31717,7 @@ zzzyk.com###Tinfo
 ||xiyouence.com^$popup,third-party
 ||xizanzhi.com^
 ||xizi.com/js/rotator.js
+||xj-oss.com^
 ||xjpmlf.xyz^
 ||xjrvwz.com^
 ||xjssjc.com^
@@ -32856,6 +32864,7 @@ zzzyk.com###Tinfo
 ||zwdtvx.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
+||zwgqzgo.icu^
 ||zwjaoni.cn^
 ||zwlikv.cn^
 ||zwlxnj.xyz^
