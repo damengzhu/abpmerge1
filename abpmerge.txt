@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-04 08:16:03
-! Total count: 32958
+! Version: 2025-04-04 16:14:00
+! Total count: 32994
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -579,6 +579,7 @@
 ##.apd-footer
 ##.apd-home
 ##.apd-right
+##.app > div.app_tj
 ##.app-down-fix.body-fix
 ##.appdownload_ad + .hider
 ##.appguide-wrap[onclick*="bcebos.com"]
@@ -1572,6 +1573,7 @@
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
 ##body > div#inplayer[align="center"]
+##body > div.zdhf
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
@@ -1817,6 +1819,8 @@ $websocket,domain=wap.yushuwu.cloud
 .*ouvxli*.top/$script,third-party
 .*roytj33.fun/$script,third-party
 .*ryt111.fun/$script,third-party
+.*yydstxt178.com/js/cdn.js
+.*yydstxt178.com/js/html
 .012*sop.xyz/$script,third-party
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif
@@ -1986,6 +1990,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8005/*&n=$third-party
+.com:8007/sc/*?n=$third-party,script
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
 .com:91/Runtime/js/psCreat.js
@@ -18856,6 +18861,7 @@ zzzyk.com###Tinfo
 ||afocus.com.cn/s?
 ||afopr.cn^
 ||afp.chinanews.com^
+||afqgqg4e.com^
 ||afqodjc.top^
 ||afs.googlesyndication.com^
 ||afuz032.com^
@@ -20088,6 +20094,7 @@ zzzyk.com###Tinfo
 ||boats8.top^
 ||bobo.com/special/mod-follow/
 ||bobo.com^$third-party
+||bobobo6688.top^
 ||boce.com/statics/img/img27b.png
 ||bodhalqg.com^
 ||boewgph.icu^
@@ -22693,6 +22700,7 @@ zzzyk.com###Tinfo
 ||fpgonuk.icu^
 ||fpjjjh.xyz^
 ||fpninv.xyz^
+||fpoyvjgdm.com^
 ||fppcrl.xyz^
 ||fptbdr.xyz^
 ||fptdxkm.com^
@@ -25796,6 +25804,8 @@ zzzyk.com###Tinfo
 ||lguaud.icu^
 ||lgygy.cn^
 ||lh168.net^*/attachment/portal/
+||lh1dki82.com^
+||lh49dki80.com^
 ||lhdlbp.xyz^
 ||lhgwcvw.cn^
 ||lhiefl.com^
@@ -26416,6 +26426,7 @@ zzzyk.com###Tinfo
 ||mengbli.com^
 ||mepupr486.top^
 ||meqanhm.icu^
+||mernrza.com^
 ||merqieth.com^
 ||meryt111.fun^
 ||mesh.if.iqiyi.com/player/pcw/update/commonAppDownloadData^$xhr
@@ -28372,6 +28383,7 @@ zzzyk.com###Tinfo
 ||qwsanan.top^
 ||qwursery.top^
 ||qxakzox.cn^
+||qxaz2xcw.com^
 ||qxrvmu.com^
 ||qxwoiv.com^
 ||qy0.ru/data/game/
@@ -29896,6 +29908,7 @@ zzzyk.com###Tinfo
 ||theseforums.com/visitScript/$script,third-party
 ||theta.sogoucdn.com^
 ||thetestpage.39.net^
+||theweeklydonut.org^
 ||thewindrun.com^
 ||thezbpe5*.xyz^
 ||thgthgfg.cn^
@@ -30398,6 +30411,7 @@ zzzyk.com###Tinfo
 ||u2w95z.xyz^
 ||u33011.com^
 ||u346zd.top^
+||u40pdqw.com^
 ||u4ccj.icu^
 ||u55011.com^
 ||u57.icu^
@@ -30920,6 +30934,7 @@ zzzyk.com###Tinfo
 ||vrr.name^
 ||vrrw.net//templets/default/js/ad.js
 ||vrulqil.com^
+||vruzexzl.com^
 ||vryoacs.icu^
 ||vs1.exo01.xyz^$image,third-party
 ||vsjrnh.xyz^
@@ -30977,6 +30992,7 @@ zzzyk.com###Tinfo
 ||vxhsj.cn^
 ||vxhtxt.xyz^
 ||vxinzheng.xyz^
+||vxky.cn^
 ||vxotu.com/i/*.gif
 ||vxpdfb.xyz^
 ||vxpnld.icu^
@@ -31669,6 +31685,7 @@ zzzyk.com###Tinfo
 ||xiaopi.com/statics/skin_js/jquery.posrj.js
 ||xiaopinwo.com^
 ||xiaoqurong.com^
+||xiaoshuotxt668.org^
 ||xiaoshuoyun.cn^
 ||xiaosunxin.cn^
 ||xiaoweixiaoshuo.com/ad/
@@ -31734,6 +31751,15 @@ zzzyk.com###Tinfo
 ||xjrvwz.com^
 ||xjssjc.com^
 ||xjtosdof.icu^
+||xjwhtz10.com^
+||xjwhtz2.com^
+||xjwhtz3.com^
+||xjwhtz4.com^
+||xjwhtz5.com^
+||xjwhtz6.com^
+||xjwhtz7.com^
+||xjwhtz8.com^
+||xjwhtz9.com^
 ||xjzyhp.xyz^
 ||xkbinj.xyz^
 ||xkcxh.com^
@@ -31969,6 +31995,16 @@ zzzyk.com###Tinfo
 ||xxsmad5.com^
 ||xxsmad6.com^
 ||xxsmcps.com^
+||xxsmtz1.com^
+||xxsmtz10.com^
+||xxsmtz2.com^
+||xxsmtz3.com^
+||xxsmtz4.com^
+||xxsmtz5.com^
+||xxsmtz6.com^
+||xxsmtz7.com^
+||xxsmtz8.com^
+||xxsmtz9.com^
 ||xxss6677.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
