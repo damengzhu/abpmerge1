@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-08 08:16:59
-! Total count: 33026
+! Version: 2025-04-08 16:15:04
+! Total count: 33029
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7870,6 +7870,7 @@ bilibili.com##.adblock-tips
 bilibili.com##.adcard-content
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
+bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap div.bili-video-card__stats > div.bili-video-card__stats--left:empty + span.bili-video-card__stats--text)
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.desktop-download-tip
@@ -22260,6 +22261,7 @@ zzzyk.com###Tinfo
 ||emoney.cn/www/officalWebStatic/js/slideAd.js
 ||emphidaho.com^
 ||ems.youku.com^
+||emsq.cn^
 ||en6.icu^
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -22595,6 +22597,7 @@ zzzyk.com###Tinfo
 ||fhvbhx.xyz^
 ||fhvzrr.xyz^
 ||fiezaits.com^
+||figvatqrwd.com^
 ||fijipic.xyz^
 ||fiktvlnc.icu^
 ||filemoon.sx/ad.js^$domain=cuevana.biz|cuevana3.eu|cuevana3me.net|cuevana4.me
