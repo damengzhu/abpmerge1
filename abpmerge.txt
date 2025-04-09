@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-09 08:16:59
-! Total count: 33037
+! Version: 2025-04-09 16:14:51
+! Total count: 33040
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1576,6 +1576,7 @@
 ##body > div#inplayer[align="center"]
 ##body > div.dbfh
 ##body > div.zdhf
+##body > div.zdhf ~ div[style$=";background: #000;opacity:0.01;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 ##body#nr_body #appss
@@ -22271,6 +22272,7 @@ zzzyk.com###Tinfo
 ||en8848.com.cn/js/content.
 ||en8848.com.cn/js/lianxi.js
 ||enalzlw.top^
+||enbg.cn^
 ||endowmentoverhangutmost.com^
 ||enennsa.gushiwen.cn^
 ||enet.com.cn/counter.php
@@ -30828,6 +30830,7 @@ zzzyk.com###Tinfo
 ||veryt111.fun^
 ||vevhjj.xyz^
 ||vexilorath.com^
+||vezeqzyb.com^
 ||vfchm.cyou^
 ||vfdvdfv77.fun^
 ||vfdvdg67.fun^
