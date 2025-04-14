@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-14 08:17:04
-! Total count: 33083
+! Version: 2025-04-14 16:14:45
+! Total count: 33088
 
 ###ADtip
 ###Ad_windows
@@ -14811,6 +14811,8 @@ sinolub.com##div[style="float:left; padding-right:20px;"]
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 sisixxb.com##.preflink
 site.baidu.com##.pstr.mt10
+sixyin.com##.custom-html-widget > a[target="_blank"] > img
+sixyin.com#?#.widget_custom_html:has(> h3:contains(赞助))
 skidrowreloaded.com#$#abort-on-property-read runPop; abort-current-inline-script open; abort-on-property-read Math.floor
 skinme.cc,yuntue.com##.huodong
 skins4virtual.com##.ui-front.ui-widget-overlay
@@ -24669,6 +24671,7 @@ zzzyk.com###Tinfo
 ||ixisivomer.com^
 ||ixjtpbj.cn^
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
+||ixlv.cn^
 ||ixnrmco.com^
 ||ixoe.cn^
 ||ixstng.cn^
@@ -26155,6 +26158,7 @@ zzzyk.com###Tinfo
 ||lv-play.com/web/adv/list
 ||lv.myapks.com^
 ||lvcha99.cc^
+||lvcnmtl.top^
 ||lveodaz.icu^
 ||lvjtiaa.xyz^
 ||lvnr.cn^
@@ -31009,6 +31013,7 @@ zzzyk.com###Tinfo
 ||vreephay.com^
 ||vrelai.com^
 ||vreqnait.com^
+||vrevvaids.com^
 ||vriesziy.com^
 ||vrinqop.icu^
 ||vrlvnz.xyz^
