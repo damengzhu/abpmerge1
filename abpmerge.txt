@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-16 16:15:42
-! Total count: 33120
+! Version: 2025-04-17 08:16:56
+! Total count: 33133
 
 ###ADtip
 ###Ad_windows
@@ -1984,6 +1984,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/zz/tcc2.js
 .com/zz/yd2.js
 .com:*.js?v=17*$third-party
+.com:*/api/v4/*?*=$third-party
 .com:*/cc/*?is_not=*&target=*
 .com:*/d/*?c=*$third-party
 .com:*/sc/*?n=$third-party
@@ -2130,6 +2131,7 @@ $websocket,domain=wap.yushuwu.cloud
 .top/*/*.js?ts=*$third-party
 .top/*/2022*/.js$third-party
 .top/*_*_vw*sbjs?$third-party
+.top/*cx?17$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/ad-
@@ -4734,6 +4736,7 @@ $websocket,domain=wap.yushuwu.cloud
 9xupload.me#$#abort-on-property-read eval
 9y01.xyz##.in-friends
 ://*.tv/ad/$domain=~moviedj.tv
+://*.yinghua*.*/bar$~third-party
 ://*.z*.xyz/$object,third-party
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/oklist/vars.js
@@ -8416,6 +8419,7 @@ chinanewsx.com##a[href="/about/"]
 chinanewsx.com##a[href^="/go/"]
 chinapdf.com###floatleft
 chinapdf.com###floatright
+chinapress.com.my##.ads-frame
 chinaqking.com###cnt-ad
 chinaqking.com###newsAD
 chinaqking.com###readerServiceDIV
@@ -17551,6 +17555,7 @@ zzzyk.com###Tinfo
 ||28t1ya.cn^
 ||29spp.com/js/tj.js
 ||2axpwa4.xyz^
+||2biqu.com/static/*/*.js
 ||2btu.com/gg.jpg
 ||2ccc.com/images/WebXone.gif
 ||2ccc.com/images/aobi.gif
@@ -22420,6 +22425,7 @@ zzzyk.com###Tinfo
 ||evreiks.com^
 ||evtubescms.phncdn.com^
 ||ewaterw.top^
+||ewdk.cn^
 ||eweisiw.top^
 ||eweizaw.top^
 ||ewerilxw.top^
@@ -22598,6 +22604,7 @@ zzzyk.com###Tinfo
 ||ffdm2.cc/ht_cpc.js
 ||ffgpol.com^
 ||ffjevt.icu^
+||fflbpi.top^
 ||ffmehcg.cn^
 ||ffnvhig.cn^
 ||ffriedadl.com^
@@ -23560,6 +23567,7 @@ zzzyk.com###Tinfo
 ||hb8g86k.mom/mz.js
 ||hbandier.com^
 ||hbbynt.xyz^
+||hbeafcac.top^
 ||hbjolp.xyz^
 ||hbkunye.com^
 ||hblarn.xyz^
@@ -23768,6 +23776,7 @@ zzzyk.com###Tinfo
 ||hikykhz.icu^
 ||hinet.net/product/promotion/$popup
 ||hinet.net/radio/getAdcode.do
+||hiooq0417.com^
 ||hiqua.xyz^
 ||histats.com^
 ||histats.com^$third-party
@@ -24674,6 +24683,7 @@ zzzyk.com###Tinfo
 ||iwanshang8.asia^
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatero.top^
+||iwcnmto.top^
 ||iweisio.top^
 ||iweiweb.com^
 ||iweizao.top^
@@ -25991,6 +26001,7 @@ zzzyk.com###Tinfo
 ||lkancklanklcav.com^
 ||lkdyft.xyz^
 ||lkiterl.top^
+||lkmgjfkhfh.top^
 ||lkmhn.com^
 ||lknhrnd.com^
 ||lknlkndasda.top^
@@ -29643,6 +29654,7 @@ zzzyk.com###Tinfo
 ||stienlb.top^
 ||stigzeal.com^
 ||stildell.com^
+||stildreans.com^
 ||stimiyb.top^
 ||stlpnom.xyz^
 ||stmzzs.com^
@@ -30766,6 +30778,7 @@ zzzyk.com###Tinfo
 ||uuaisp.com^
 ||uuajq.top^
 ||uucatiqnd.com^
+||uucnmtt.top^
 ||uugtv.com/x/app/videoSpread?
 ||uuiaoq.top^
 ||uujhveglpo.xyz^
