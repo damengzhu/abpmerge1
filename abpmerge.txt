@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-23 16:15:13
-! Total count: 33222
+! Version: 2025-04-24 08:16:44
+! Total count: 33233
 
 ###ADtip
 ###Ad_windows
@@ -1764,7 +1764,7 @@
 #@#.afs_ads
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
-$csp=script-src 'self' * 'unsafe-inline',domain=kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -1869,6 +1869,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/gg/$script,third-party
 .cn/js/ads/
 .cn/nd389.js$script,third-party
+.cn/o.js
 .cn/r.gif?
 .cn/redbaiduct.com?s=$third-party
 .cn/s.gif?
@@ -7148,6 +7149,7 @@ alypw.com##.adbkk
 alypw.com##.ceadd
 am730.com.hk##.adbox
 am730.com.hk#?#.newslist-row > li.newslist-item:has(> div.adbox)
+amanmi.com##.leaderboardcontainer
 amazon.cn#?#.s-result-item:-abp-has(> .s-item-container > h5 .s-sponsored-info-icon)
 amyscans.com##div[class*="code-block"]
 amz123.com##.two-activity-style
@@ -16525,6 +16527,9 @@ xia1ge.com##.wsappad
 xia1ge.com##div[class^="category-iloveyou"]
 xiadele.com##.details-small-carousel
 xiadele.com##.yun-advertisement
+xianguke.net###htmlContenthtml
+xianguke.net##.app
+xianguke.net##.dbfh
 xianzhenyuan.cn##.sd_ad:not(#xztba)
 xianzhenyuan.cn##a[href*=".tmall.com"]:not(#xztba)
 xiaohutuwb.com##.ceo_ads
@@ -22419,6 +22424,7 @@ zzzyk.com###Tinfo
 ||etahub.com^
 ||etahub.com^$third-party
 ||etallkiq.com^
+||etbh.cn^
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
@@ -27785,6 +27791,7 @@ zzzyk.com###Tinfo
 ||pfjzzl.com^
 ||pfkgl.top/images/*.gif
 ||pflrv.cn^
+||pflwta.top^
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pfqwbqs.cn^
@@ -30064,6 +30071,7 @@ zzzyk.com###Tinfo
 ||tgymhwt.cn^
 ||tgyxpfjws.com^
 ||thacreks.com^
+||thaincoth.com^
 ||thallus.net^
 ||thampheth.com^
 ||thangrurs.com^
@@ -30499,6 +30507,7 @@ zzzyk.com###Tinfo
 ||twamjb.cn^
 ||twavtv.com/js/jquery.colorbox
 ||twbymc.cn^
+||twcnmti.top^
 ||twdjn.cn^
 ||tweisii.top^
 ||tweizai.top^
@@ -30858,6 +30867,7 @@ zzzyk.com###Tinfo
 ||uuajq.top^
 ||uucatiqnd.com^
 ||uucnmtt.top^
+||uucnwtt.top^
 ||uugtv.com/x/app/videoSpread?
 ||uuiaoq.top^
 ||uujhveglpo.xyz^
@@ -32065,6 +32075,7 @@ zzzyk.com###Tinfo
 ||xn--xhq326apqhcx0d.cn^
 ||xn--xhq9mt12cf5v.ren^
 ||xn--zw0autp42d.cn^
+||xn860wu.vlxue.cn^
 ||xnbuapwp.icu^
 ||xne1ocient87zxz.360doc.cn^
 ||xng02.com/api.php?mod=ad&
