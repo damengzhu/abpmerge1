@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-26 16:13:10
-! Total count: 33263
+! Version: 2025-04-27 08:14:10
+! Total count: 33273
 
 ###ADtip
 ###Ad_windows
@@ -1764,7 +1764,7 @@
 #@#.afs_ads
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
-$csp=script-src 'self' * 'unsafe-inline',domain=biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=biqugezw.us|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -3181,6 +3181,7 @@ $websocket,domain=wap.yushuwu.cloud
 /static/ad/*
 /static/adsview/*
 /static/common/js/djlib_
+/static/idingdian/idd.
 /static/images/ky888.gif
 /static/jietiandixs/jtd.js$~third-party
 /static/js/aall.js
@@ -24105,6 +24106,7 @@ zzzyk.com###Tinfo
 ||huoxun.wang^
 ||huoyan.tv/yb/img/*.gif
 ||hupu.com/_dace.gif?
+||hupu.com^*/interfaceAd/
 ||hupu.com^*/stream.js
 ||hur.cn/AhurD/*.gif
 ||huresdu.top^
@@ -24560,6 +24562,7 @@ zzzyk.com###Tinfo
 ||intimidatepropel.com^
 ||inudpbi.com^
 ||inworket.com^
+||inwuamo.top^
 ||inzoiwe.com^
 ||inzut.com^
 ||ioaiqp.top^
@@ -24941,6 +24944,7 @@ zzzyk.com###Tinfo
 ||jia.com/js/tuku/footBanner_
 ||jia.com/js/zixun/news.js
 ||jia.com/js/zixun/zixun_
+||jia6983.xyz^
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
 ||jialingmm.net/tj.js
@@ -26279,6 +26283,7 @@ zzzyk.com###Tinfo
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
+||lwcnmtl.top^
 ||lweizal.top^
 ||lweriol.top^
 ||lwide.xyz^
@@ -26530,6 +26535,7 @@ zzzyk.com###Tinfo
 ||me680.com/js/*.js
 ||meaqcj.cn^
 ||mebohjhh.xyz^
+||mecv.cn^
 ||med66.com/lamu/
 ||media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/js/blocked.min.js$script,domain=smashingmagazine.com
 ||media.pussycash.com^$third-party
@@ -28782,6 +28788,7 @@ zzzyk.com###Tinfo
 ||rizihao.top^
 ||rjhbjv.xyz^
 ||rjsos.com/channel/laomo_dibu.png
+||rjvzjn.top^
 ||rjwpwod.icu^
 ||rjzqtz.xyz^
 ||rjzxw.com/include/
@@ -30482,6 +30489,7 @@ zzzyk.com###Tinfo
 ||tukveks.com^
 ||tuky889900.com^
 ||tumeite.cn^
+||tunshixingkong2.com/config/v7.js
 ||tuoizbtl.xyz^
 ||tupian6666.com^
 ||tupian888.*.bcebos.com^
@@ -31871,6 +31879,7 @@ zzzyk.com###Tinfo
 ||xdttxdqe.xyz^
 ||xdybwjpa.xyz^
 ||xdyjt.com^
+||xebetp.icu^
 ||xebohjhh.xyz^
 ||xeccotftw.com^
 ||xecner.top^
@@ -32821,6 +32830,7 @@ zzzyk.com###Tinfo
 ||zbc6hyip.xyz^
 ||zbcdn.net/__uvjgyw/slb.default.js
 ||zbhuafx.com^
+||zbislaernv.com^
 ||zbjimg.com/static/union/
 ||zbldxf.icu^
 ||zblz.me^
