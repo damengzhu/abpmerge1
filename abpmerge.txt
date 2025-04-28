@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-04-27 16:13:22
-! Total count: 33277
+! Version: 2025-04-28 08:38:00
+! Total count: 33286
 
 ###ADtip
 ###Ad_windows
@@ -1764,7 +1764,8 @@
 #@#.afs_ads
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
-$csp=script-src 'self' * 'unsafe-inline',domain=biqugezw.us|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|modaoshu.com|nipubook.com
+$csp=script-src 'self' * 'unsafe-inline',domain=yushuwu.cloud|yswxs.com|biqugezw.us|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -2309,6 +2310,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
+/\.[a-z]+[\:\/]/$~image,third-party,domain=candoug.com|modaoshu.com|nipubook.com
 /\.[a-z]cinma[a-z].top\//$script,third-party
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
@@ -20325,6 +20327,7 @@ zzzyk.com###Tinfo
 ||bvxiht.xyz^
 ||bvzc.cn^
 ||bw66.cn/template/default_pc/bbs/
+||bwcnmtv.top^
 ||bwdhuanbao.com^
 ||bweriov.top^
 ||bwilmiv.top^
@@ -24049,6 +24052,7 @@ zzzyk.com###Tinfo
 ||htwjo.com^
 ||htxwzp.xyz^
 ||htyusiu.top^
+||hua4207.xyz^
 ||huaban.com^*/ads
 ||huaerdadi.com^$third-party
 ||huaiduoduo.info/Runtime/js/
@@ -25603,6 +25607,7 @@ zzzyk.com###Tinfo
 ||knpkxgfp.xyz^
 ||knuinws.icu^
 ||knul.cn^
+||knwuamd.top^
 ||ko2v.eiya.net^
 ||koauq.top^
 ||kocpc.com.tw/adsbyso.js
@@ -27468,6 +27473,7 @@ zzzyk.com###Tinfo
 ||okwjmii.top^
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||older-women-porn.com/black-credit-71cc^$domain=older-women-porn.com
+||oldh.cn^
 ||oldulgk.cn^
 ||olehdtv.com/index.php/index/userss|
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
@@ -30180,6 +30186,7 @@ zzzyk.com###Tinfo
 ||tianyaui.com/global/dashang/vip_seat/js/ds_vip_seat.js
 ||tianyuewangluo.top^
 ||tiao1.cc/static/default/js/loadLM.js
+||tiboha.top^
 ||tieba.baidu.com/app/pop/bws/popup
 ||tieba.baidu.com/f/urlcheck?
 ||tieba.baidu.com/game/markConf?
@@ -31010,6 +31017,7 @@ zzzyk.com###Tinfo
 ||vbiakpu.icu^
 ||vbllxaaj.icu^
 ||vbnmjjda.xyz^
+||vcaqexl.com^
 ||vcdfsf99.fun^
 ||vcnpnf.xyz^
 ||vcvbnmto.xyz^
@@ -31074,6 +31082,7 @@ zzzyk.com###Tinfo
 ||vhulan.com^
 ||vhutitpu.icu^
 ||vhvwlb.xyz^
+||vhxzfz.icu^
 ||vhzivz.xyz^
 ||victoriajumpc.com^
 ||vidcrunch.com/integrations/*_Responsive_*_DFP_$domain=discuss.com.hk
