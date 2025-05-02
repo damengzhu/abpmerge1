@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-02 08:16:20
-! Total count: 33350
+! Version: 2025-05-02 16:14:42
+! Total count: 33356
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1857,6 +1857,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/2023/*/*.txt$third-party
 .cn/FI390rd2.js$script,third-party
 .cn/In390hG2.js$script,third-party
+.cn/Pu390ft2.js
 .cn/Qi390eC2.js$script,third-party
 .cn/TA390hz2.js$script,third-party
 .cn/Zg389.js$script,third-party
@@ -1868,6 +1869,7 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/by389.js$script,third-party
 .cn/gg/$script,third-party
 .cn/js/ads/
+.cn/lV389.js
 .cn/nd389.js$script,third-party
 .cn/o.js
 .cn/r.gif?
@@ -9054,6 +9056,7 @@ ddxs.vip##.content > p > font[color="red"]
 ddxsku.com##.adhtml
 ddys.*,ddrk.me##+js(set-constant, Object.prototype.canobpreroll_, true)
 ddys.*,ddrk.me##+js(set-constant, Object.prototype.cnobpreroll_, true)
+ddys.*,ddrk.me##.entry div[id] > a[target="_blank"] > img
 ddzimu.com###popup
 ddzzxs.com###inglestore.inglestore
 de.adklick.net###w_ad.no_ad
@@ -21522,6 +21525,7 @@ zzzyk.com###Tinfo
 ||ddlzlr.xyz^
 ||ddnzpr.xyz^
 ||ddomjhr.icu^
+||ddow.cn^
 ||ddqmlfu.icu^
 ||ddrk.me/vjs-plugins/videojs.das.min.js
 ||ddshu.net/a_d_code/
@@ -24589,6 +24593,7 @@ zzzyk.com###Tinfo
 ||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
 ||intimidatepropel.com^
 ||inudpbi.com^
+||inulgaenypa.com^
 ||inworket.com^
 ||inwuamo.top^
 ||inwucno.top^
@@ -27498,6 +27503,7 @@ zzzyk.com###Tinfo
 ||okpl04301ai.com^
 ||okpl05010ai.com^
 ||okpl05011ai.com^
+||okpl05021ai.com^
 ||okpoiione.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
