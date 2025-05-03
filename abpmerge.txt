@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-02 16:14:42
-! Total count: 33356
+! Version: 2025-05-03 08:14:18
+! Total count: 33374
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1522,6 +1522,7 @@
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
+##a[href="/iwagbwfiwehaeyh"]
 ##a[href="https://yk63.me"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -1887,6 +1888,7 @@ $websocket,domain=wap.yushuwu.cloud
 .co/js/ads/
 .com*/ps/psCreat.js
 .com/0gg/gg*.js
+.com/5y*/31*.$~third-party
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
 .com/Public/js/duileft.js
@@ -2154,7 +2156,10 @@ $websocket,domain=wap.yushuwu.cloud
 .uhi*uik.xyz/$script,third-party
 .us/js/ads/
 .vip/ads/
+.vip/facaishang.js
+.vip/facaishen*.js$~third-party
 .vip/gg/
+.vip/happyxia.js
 .vip/html/ddx.js
 .vip/html/hfv.js
 .vip/html/zbxx.js
@@ -2246,6 +2251,7 @@ $websocket,domain=wap.yushuwu.cloud
 /728-90.
 /728_90.
 /728_90_
+/7755com-*00x*.gif
 /789syy/*
 /80sad/*
 /8drama_yahoo/*
@@ -3185,6 +3191,7 @@ $websocket,domain=wap.yushuwu.cloud
 /spcjs.php
 /static/23wx/idd.js
 /static/2biqu/twgdh.js
+/static/83zg/tss.js
 /static/ad-
 /static/ad/*
 /static/adsview/*
@@ -4750,6 +4757,7 @@ $websocket,domain=wap.yushuwu.cloud
 9xav.cc#?#div[class]:not([class*=" "]):has(> span[class*=" "] > a[href^="https://"][target="_blank"])
 9xupload.me#$#abort-on-property-read eval
 9y01.xyz##.in-friends
+:*/xcdn*/js/_init.js?$third-party
 ://*.tv/ad/$domain=~moviedj.tv
 ://*.yinghua*.*/bar$~third-party
 ://*.z*.xyz/$object,third-party
@@ -5985,6 +5993,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||karaoketexty.cz/img/*.png$image,domain=karaoketexty.cz
 @@||kayixin.com^*/advert
 @@||kehai.com/front/dist/app/site/list/advertisement.js
+@@||kejilion.pro^$generichide
 @@||kf.cn/ad/css/*.*.
 @@||kf.cn/ad/css/*.css
 @@||kf.cn/ad/css/images/
@@ -6217,13 +6226,13 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bricozone.fr
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dailydoge.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=emucr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=miuipro.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onperiscope.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
@@ -22110,6 +22119,7 @@ zzzyk.com###Tinfo
 ||dytt8.com/js1y/
 ||dytt8.net/js3/
 ||dytt8.net/jsd
+||dyxs39.com/statics/js/jquery.
 ||dyxz*.com/static/gdw.js
 ||dyxz*.com/static/jquery.js?
 ||dyyygyg.top^
@@ -23648,6 +23658,7 @@ zzzyk.com###Tinfo
 ||hauqks.top^
 ||hauqoa.com^
 ||hauqou.top^
+||hax.co.id/dist/js/ajax.js
 ||hb.vntsm.com/v3/live/ad-manager.min.js
 ||hb8g86k.mom/mz.js
 ||hbandier.com^
@@ -25118,6 +25129,7 @@ zzzyk.com###Tinfo
 ||jntmwrm.com^
 ||jnwpzq.com^
 ||jnwuama.top^
+||jnwucna.top^
 ||jnyayk.xyz^
 ||jo4.icu^
 ||joannarace.com^
@@ -27504,6 +27516,7 @@ zzzyk.com###Tinfo
 ||okpl05010ai.com^
 ||okpl05011ai.com^
 ||okpl05021ai.com^
+||okpl05030ai.com^
 ||okpoiione.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
@@ -28539,6 +28552,8 @@ zzzyk.com###Tinfo
 ||qqosk05011llo.com^
 ||qqosk05020llo.com^
 ||qqosk05021llo.com^
+||qqosk05030llo.com^
+||qqosk05031llo.com^
 ||qqq123987.site^
 ||qqqwww987.site^
 ||qqqwww987.space^
@@ -31285,6 +31300,7 @@ zzzyk.com###Tinfo
 ||vtdgfisz.icu^
 ||vtjbnb.xyz^
 ||vtlyrj.xyz^
+||vtqhelleano.com^
 ||vtrrxqbi.xyz^
 ||vtvnnl.xyz^
 ||vucve6is.icu^
@@ -32807,6 +32823,7 @@ zzzyk.com###Tinfo
 ||yxgfcj.com^$third-party
 ||yxgqgq.xyz^
 ||yxhjt.com^
+||yximgs.com/bs2/adcarsku/*.gif
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxjcyxy.icu^
@@ -33153,6 +33170,7 @@ zzzyk.com###Tinfo
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
 ||zkdefuiz.icu^
 ||zkrdzn.xyz^
+||zktats.top^
 ||zlbcxr.xyz^
 ||zlclgzs.cn^
 ||zlgame.top^
