@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-03 16:13:27
-! Total count: 33376
+! Version: 2025-05-04 08:14:29
+! Total count: 33387
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2124,6 +2124,7 @@ $websocket,domain=wap.yushuwu.cloud
 .qidian.com/floatOpBox.
 .qidian.com/gameBox.
 .qidian.com/pageOps.
+.qqo*llo.com/$script,third-party
 .ru/ads/
 .shop:*/ack?s=
 .shop:*/bid?url=
@@ -6056,6 +6057,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||lncn.org/ad.json
 @@||lnk2.cc/js/ad_code.js
 @@||lnk2.cc^$generichide
+@@||lobechat.com/_next/static/chunks/
 @@||lobi.co/1/track/event/
 @@||log.mmstat.com/eg.js^$script
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
@@ -10686,6 +10688,8 @@ happymh.com##a[href*=".taobao.com"]
 hardwareluxx.ru#$#abort-current-inline-script jQuery backgroundImage
 harimanga.*#$#hide-if-matches-xpath '//div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 92309px; z-index: 2147483647;"]/ancestor-or-self::div[1]'
 hawak.net,rotana.video#$#abort-on-property-read atob
+hax.co.id#@#.ad-box
+hax.co.id#@#.ad-wrapper
 hayan.tv#@##uzcrsite
 haychillz.com#$#abort-current-inline-script Object.defineProperty fromCharCode
 hayhaytv.org,animet.org,subnhanh1.org#$#override-property-read maxAds 0
@@ -19956,6 +19960,7 @@ zzzyk.com###Tinfo
 ||beatricecathy.com^
 ||beatricenba.com^
 ||bebohjhh.xyz^
+||bebx.cn^
 ||bebxhcip.icu^
 ||beclsbx.icu^
 ||becode.xiao84.com^
@@ -21188,6 +21193,7 @@ zzzyk.com###Tinfo
 ||crobotb.com^
 ||crodfnyk.xyz^
 ||crolerl.com^
+||croqoltdp.com^
 ||crpoy.com^$domain=pronpic.org
 ||crs.baidu.com^
 ||crtlisf.top^
@@ -25653,6 +25659,7 @@ zzzyk.com###Tinfo
 ||knuinws.icu^
 ||knul.cn^
 ||knwuamd.top^
+||knwucnd.top^
 ||ko2v.eiya.net^
 ||koauq.top^
 ||kocpc.com.tw/adsbyso.js
@@ -27519,6 +27526,7 @@ zzzyk.com###Tinfo
 ||okpl05011ai.com^
 ||okpl05021ai.com^
 ||okpl05030ai.com^
+||okpl05040ai.com^
 ||okpoiione.com^
 ||okpp01021.xyz^
 ||okpp01030.xyz^
@@ -28556,6 +28564,8 @@ zzzyk.com###Tinfo
 ||qqosk05021llo.com^
 ||qqosk05030llo.com^
 ||qqosk05031llo.com^
+||qqosk05040llo.com^
+||qqosk05041llo.com^
 ||qqq123987.site^
 ||qqqwww987.site^
 ||qqqwww987.space^
@@ -32119,6 +32129,7 @@ zzzyk.com###Tinfo
 ||xjrvwz.com^
 ||xjssjc.com^
 ||xjtosdof.icu^
+||xjvunf.top^
 ||xjwhtz10.com^
 ||xjwhtz2.com^
 ||xjwhtz3.com^
