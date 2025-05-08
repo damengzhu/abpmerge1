@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-08 08:17:05
-! Total count: 33451
+! Version: 2025-05-08 16:15:40
+! Total count: 33455
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1764,8 +1764,8 @@
 #@#.afs_ads
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
-$csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com
-$csp=script-src 'self' * 'unsafe-inline',domain=tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' *,domain=biqugezw.us
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
@@ -2159,6 +2159,7 @@ $websocket,domain=wap.yushuwu.cloud
 .tw/ads/
 .uhi*uik.xyz/$script,third-party
 .us/js/ads/
+.uuso0*qhs.xyz/$script,third-party
 .vip/ads/
 .vip/facaishang.js
 .vip/facaishen*.js$~third-party
@@ -2322,7 +2323,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,third-party
-/\.[a-z]+[\:\/]/$~image,third-party,domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 /\.[a-z]cinma[a-z].top\//$script,third-party
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
@@ -16020,9 +16021,9 @@ videzz.net#$#override-property-read isAdBlockDetected false; abort-on-property-r
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##.promolnk
-vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="ad"]:has(> div[class^="prom"][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][class*="nk"][style]
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][style] > img[onclick^="window.open"]
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
@@ -28542,6 +28543,7 @@ zzzyk.com###Tinfo
 ||qnvod.net/qna/
 ||qnvwjpr.icu^
 ||qnwuamy.top^
+||qnwucny.top^
 ||qo2.fun^
 ||qogonsuqq.com^
 ||qogrux.com^
@@ -31064,6 +31066,7 @@ zzzyk.com###Tinfo
 ||uuso05072qhs.xyz^
 ||uuso05080qhs.xyz^
 ||uuso05081qhs.xyz^
+||uuso05082qhs.xyz^
 ||uutytp.com^
 ||uuu9.com/photolog.html
 ||uuu9.tieba.com^$subdocument
@@ -31364,6 +31367,7 @@ zzzyk.com###Tinfo
 ||vtbfgnf00.fun^
 ||vtbkhl.icu^
 ||vtdgfisz.icu^
+||vthruucceod.com^
 ||vtjbnb.xyz^
 ||vtlyrj.xyz^
 ||vtqhelleano.com^
