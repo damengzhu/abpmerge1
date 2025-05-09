@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-08 16:15:40
-! Total count: 33455
+! Version: 2025-05-09 08:16:36
+! Total count: 33464
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1765,8 +1765,9 @@
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
 $csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
-$csp=script-src 'self' * 'unsafe-inline',domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
-$csp=script-src 'self' *,domain=biqugezw.us
+$csp=script-src 'self' * 'unsafe-inline',domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
+$csp=script-src 'self' *,domain=biqugezw.us|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
 $image,third-party,domain=258zw.com
@@ -14942,6 +14943,7 @@ smjb.net##div[style*="height: 50%"]
 smm.cn##.ad_front_container
 smm.cn##.common-jinzhu-wrap
 smm.cn##.top_taishan_jinzhu
+smsonline.cloud##.css-17anw56
 smzdm.com###footer_layer
 smzdm.com##.J_index_wall
 smzdm.com##.banner-stuff
@@ -19838,6 +19840,7 @@ zzzyk.com###Tinfo
 ||bchina-1.xsfaya.com^
 ||bcidnfers.live^
 ||bclimiv.top^
+||bcpxll.icu^
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
@@ -21793,6 +21796,7 @@ zzzyk.com###Tinfo
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
 ||dlngft.xyz^
+||dlngzx.top^
 ||dlrtz.com^
 ||dlswbr.baidu.com^
 ||dlxxjsh.top^
@@ -22617,6 +22621,7 @@ zzzyk.com###Tinfo
 ||facebook.com/xti.php?
 ||facebook.net^*/fbevents.js$third-party
 ||fadhvz.xyz^
+||fadjqqe.top^
 ||fads315.com^
 ||fafvvt.icu^
 ||fagrirtn.com^
@@ -25014,6 +25019,7 @@ zzzyk.com###Tinfo
 ||jgntjtyf.icu^
 ||jgsajfggv.xyz^
 ||jgstny.com^$third-party
+||jguhqbe.top^
 ||jgvkxp.xyz^
 ||jgxirv.icu^
 ||jgygtv.cn^
@@ -30429,6 +30435,7 @@ zzzyk.com###Tinfo
 ||tns.simba.taobao.com^
 ||tnvnnn.xyz^
 ||tnwuami.top^
+||tnwucni.top^
 ||tnzjrj.xyz^
 ||to8to.com/assets/wap//common/widgets/appGuide/appGuide.
 ||to8to.com/to8to_pc/common/modules/bottom_up_slide/
@@ -30858,6 +30865,7 @@ zzzyk.com###Tinfo
 ||udolgy.xyz^
 ||udoshbt.top^
 ||udswai.xyz^
+||udyi.cn^
 ||ue8im.com^
 ||uebabuf.cn^
 ||uebohjhh.xyz^
@@ -30998,6 +31006,7 @@ zzzyk.com###Tinfo
 ||uqaagi.xyz^
 ||uqcktxp.icu^
 ||uqelxct.cn^
+||uqkcqk.icu^
 ||uqwbcm.xyz^
 ||uqydcs.xyz^
 ||uqykeq.xyz^
