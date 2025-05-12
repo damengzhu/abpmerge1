@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-11 16:13:07
-! Total count: 33497
+! Version: 2025-05-12 08:17:55
+! Total count: 33509
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2071,6 +2071,7 @@ $websocket,domain=wap.yushuwu.cloud
 .js?ssid=_$script,third-party
 .k618.cn/sytab/
 .k618.cn/zbggw/
+.kklq0*p0i.com/$script,third-party
 .la/style/vue.js?v=
 .land/ad/*.gif
 .life/ads/
@@ -2092,6 +2093,7 @@ $websocket,domain=wap.yushuwu.cloud
 .me/ads/
 .me/gg.js
 .men/ads/
+.mos0*o9i.com/$script,third-party
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 .net/ad-
 .net/ad/$~object-subrequest
@@ -3270,6 +3272,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tencentvideo/script/webtips/*
 /tghr.js$domain=159i.com
 /the_top$domain=28188.net
+/theme/damn_b.js$~third-party
 /themes/default/wap/images/douyin.gif
 /tianya_recommend?
 /tigatage:$script,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz|kinobox.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
@@ -8618,6 +8621,7 @@ cliphot69.pics#$#override-property-read a_vid 0
 cloud.jasaku.net##.adblock
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
+cloudflareinsights.com$third-party
 cls.cn#@#.share-body
 club.6parkbbs.com##.body_center:has(> div.adv-6park)
 clubedohardware.com.br#@##banner
@@ -25079,6 +25083,7 @@ zzzyk.com###Tinfo
 ||jiasule.com/static/js/http_error.js
 ||jiawen88.com^$third-party
 ||jiayu.net/comiis_ad/
+||jibjpk.top^
 ||jibn12.jintang114.org^
 ||jibtdn.top^
 ||jiegeng.com/static/json/jg_topFixed.
@@ -25664,6 +25669,8 @@ zzzyk.com###Tinfo
 ||kkkkdm.com/mg/show
 ||kklpe.xyz^
 ||kklq05111p0i.com^
+||kklq05120p0i.com^
+||kklq05121p0i.com^
 ||kkmbbvz.xyz^
 ||kkpgv2.xunlei.com^
 ||kksjoa.com^
@@ -26925,6 +26932,7 @@ zzzyk.com###Tinfo
 ||mortgagecentres.net/banner.gif
 ||mos05110o9i.com^
 ||mos05111o9i.com^
+||mos05120o9i.com^
 ||mosangkeji.com^
 ||mosflower.cn^
 ||motsjnv.cn^
@@ -27975,6 +27983,7 @@ zzzyk.com###Tinfo
 ||phainoirs.com^
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
+||pharoilrw.com^
 ||phazaeth.com^
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
@@ -28084,6 +28093,7 @@ zzzyk.com###Tinfo
 ||pjbbhj.icu^
 ||pjcijbv.icu^
 ||pjcn.org^$third-party
+||pjcqzm.cn^
 ||pjdthz.xyz^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoo8.com^
@@ -31372,6 +31382,7 @@ zzzyk.com###Tinfo
 ||vqle.cn^
 ||vqlwoy.xyz^
 ||vqnjrz.top^
+||vqqf.cn^
 ||vraataidz.com^
 ||vragridsn.com^
 ||vrank.org/go/adblock_detect$subdocument
@@ -31705,6 +31716,7 @@ zzzyk.com###Tinfo
 ||wmol.cn^
 ||wmqfey.com^
 ||wmxke.com^
+||wmykyw.icu^
 ||wn68din.cn^
 ||wn6y.cn^
 ||wn80drk.shop^
