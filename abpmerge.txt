@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-20 16:15:34
-! Total count: 33639
+! Version: 2025-05-21 08:17:13
+! Total count: 33646
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2942,6 +2942,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/initsite.js^$domain=anysex.com|xcafe.com
 /js/js4.js
 /js/jsstyle-$third-party
+/js/kaixin.js
 /js/layer1.js$domain=99re.com
 /js/lm.js$script,third-party
 /js/lmdas.js
@@ -16053,9 +16054,9 @@ vidhub.me,vidhub.tv##.promonk
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][class*="nk"][style]
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][style] > img[onclick^="window.open"]
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="pro"][class*="nk"][style]
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="pro"][style] > img[onclick^="window.open"]
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
 vidmoly.to###dos_vlock
@@ -17402,6 +17403,7 @@ zzzyk.com###Tinfo
 ||13txt.net/js/ssgdd.
 ||141.105.69.88/eticilbup/$image,subdocument,script
 ||141h.com/data/attachment/noblock/cf/
+||14pbmfzci.com^
 ||154.22.214.2^
 ||154.7.80.158^
 ||155zn.com^
@@ -17883,6 +17885,7 @@ zzzyk.com###Tinfo
 ||44pd.com^*xds/
 ||44r9fl.xyz^
 ||4567.org^$third-party
+||465k3mlo9.com^
 ||47.100.0.249/js/thea
 ||470kk.com/js/config.js
 ||470kk.com/js/indextop.js
@@ -24298,6 +24301,7 @@ zzzyk.com###Tinfo
 ||hwnod.xyz^
 ||hwnojj.xyz^
 ||hwplypbn.icu^
+||hwpvhilkuth.com^
 ||hwtadf.icu^
 ||hwurseru.top^
 ||hwxprd.icu^
@@ -25898,6 +25902,7 @@ zzzyk.com###Tinfo
 ||kucnwtd.top^
 ||kugoucdn.com^*?_t=$xmlhttprequest
 ||kuheju.com^$popup
+||kuiv.cn^
 ||kuk8.com^$third-party
 ||kuke99.com/static/home/js/index/index.js
 ||kuku99.com^$third-party
@@ -29381,6 +29386,7 @@ zzzyk.com###Tinfo
 ||sdfewed.com^
 ||sdfgbuy.com^
 ||sdfsad562.xyz^
+||sdfscftg.com^
 ||sdfyiu.com^
 ||sdgsheh.top^
 ||sdhjueue.com^
@@ -32909,6 +32915,7 @@ zzzyk.com###Tinfo
 ||ymmiyun.com^
 ||ymwjwe.xyz^
 ||ymyile.xyz^
+||yn0mbg4p1.com^
 ||yncjsc.cn^
 ||ynet.com/c/js/manto.min.js
 ||ynfxxbp.xyz^
