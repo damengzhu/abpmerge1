@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-22 16:15:34
-! Total count: 33663
+! Version: 2025-05-23 08:16:55
+! Total count: 33677
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4705,13 +4705,17 @@ $websocket,domain=wap.yushuwu.cloud
 91lai.com##.showimgs
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
+91porna.com###app-nav > ul > li:has(> a.app-nav-item[target="_blank"]:not([href*="91porna.com"]))
 91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
+91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
+91porna.com##.text-mini:has(> .dx-recommend-icons)
 91porna.com##.video-items > li:has(> a.checkNum)
+91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
 91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
 91porny.com###playerJsvLayer.jsv-layer
@@ -16054,9 +16058,9 @@ vidhub.me,vidhub.tv##.promonk
 vidhub.me,vidhub.tv##.promotelink
 vidhub1.cc,vidhub.me,vidhub.tv##.adpwc
 vidhub1.cc,vidhub.me,vidhub.tv##.adwap
-vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"], [class^="ww"]):has(> div[class][style] > img[onclick^="window.open"])
+vidhub1.cc,vidhub.me,vidhub.tv##div[class][style^="position:"] > img[onclick^="window.open"]
 vidhub1.cc,vidhub.me,vidhub.tv##div[class^="pro"][class*="nk"][style]
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="pro"][style] > img[onclick^="window.open"]
 vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"])
 vidlo.us,abcvideo.cc,extramovies.casa,hdvid.online,pstream.net,dlapk4all.com,pandamovies.pw,gounlimited.to,rexdlfile.com,file-up.org,gledajonline.net,loadsubs.net,topeuropix.net,zippyshare.com,europixhd.net,europixhd.com,hdeuropix.io,hxfile.co#$#abort-on-property-read decodeURIComponent
 vidmoly.to###adsblock
@@ -18568,6 +18572,7 @@ zzzyk.com###Tinfo
 ||9ku.com/aaa/
 ||9miwo.com^
 ||9odes.ltd^
+||9oru1vh0w.com^
 ||9s64g.icu^
 ||9tata.com/js/Rand.js
 ||9tata.com/js/pbanner.js
@@ -20667,6 +20672,7 @@ zzzyk.com###Tinfo
 ||cdilm.cn^
 ||cdinmaf.top^
 ||cdipsumf.top^
+||cdjst7i1v.com^
 ||cdlekgr.icu^
 ||cdmgac.xyz^
 ||cdmjur.xyz^
@@ -22610,6 +22616,7 @@ zzzyk.com###Tinfo
 ||everyonepiano.cn/Public/*0x
 ||evgaow.xyz^
 ||evidhjksdtgyxrh.xyz^
+||evkc.cn^
 ||evkzqs.xyz^
 ||evreiks.com^
 ||evtubescms.phncdn.com^
@@ -22812,6 +22819,7 @@ zzzyk.com###Tinfo
 ||fgadsqdma.top^
 ||fgdkfr.xyz^
 ||fgetmzx.icu^
+||fgfhgvtj.com^
 ||fghghh.cn^
 ||fgnfpnae.icu^
 ||fgnzdb.xyz^
@@ -23711,6 +23719,7 @@ zzzyk.com###Tinfo
 ||haili-spitzer.com^
 ||hairoak.com^
 ||haise10.top^
+||haitang77.com^
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/B970X90.gif
 ||haiwanli.com^
@@ -28469,6 +28478,7 @@ zzzyk.com###Tinfo
 ||q27sz.com^
 ||q2usj.icu^
 ||q8q.icu^
+||qa6z7kz5r.com^
 ||qacdf511.cn^
 ||qaemphaels.com^
 ||qaljfiwv.com^
@@ -30321,6 +30331,7 @@ zzzyk.com###Tinfo
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbcgumkadc.xyz^
 ||tbl258ym4.cc^
+||tbunkrolo.com^
 ||tbyfz.xyz^
 ||tc6tc.com^
 ||tc911.vip^
@@ -31279,6 +31290,7 @@ zzzyk.com###Tinfo
 ||uwnvcxb.cn^
 ||uwsaqoi.icu^
 ||uwursert.top^
+||uwxez.com^
 ||uxbd4id.xyz^
 ||uxcnhsf.cn^
 ||uxieks.com^
@@ -33031,6 +33043,7 @@ zzzyk.com###Tinfo
 ||ytoeyxz.icu^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
+||ytqvuq.icu^
 ||ytroytj33.fun^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvrtrya.xyz^
@@ -33238,6 +33251,7 @@ zzzyk.com###Tinfo
 ||zcczrvsaqw.world^
 ||zcczrvsaqw.xyz^
 ||zcczrvsaw.xyz^
+||zcdfnl.top^
 ||zcfhi.cn.com^
 ||zcgqsd.icu^
 ||zcnmjb.icu^
