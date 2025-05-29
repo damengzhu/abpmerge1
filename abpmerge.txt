@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-28 16:14:13
-! Total count: 33761
+! Version: 2025-05-29 08:17:09
+! Total count: 33773
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1853,6 +1853,7 @@ $websocket,domain=wap.yushuwu.cloud
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .baigh8eosmgie*.site^$script,third-party
+.bgf0*lko.com/$script,xmlhttprequest,third-party
 .bid/ads/
 .blog/ads/
 .bt*.com/imgs.js?t=
@@ -13333,6 +13334,7 @@ myqqjd.com##.qz-box
 myqqjd.com##aside[id^="sponsor-"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mytheme.cn##.ad01
+mytvsuper.com##+js(googletagservices_gpt)
 mywpku.com##.sidebar-recommended
 naekranie.pl###niceMessage
 naekranie.pl#$#abort-on-property-read adQueue
@@ -17446,6 +17448,7 @@ zzzyk.com###Tinfo
 ||159i.com/video/usr/uploads/1-
 ||159i.com/video/usr/uploads/bd/$image
 ||159i.com^*.php|
+||15ftgllk1.com^
 ||15hn.net/data/content
 ||15tianqi.com^$third-party
 ||160.com/statics/statics/js/code_13.js
@@ -18609,6 +18612,7 @@ zzzyk.com###Tinfo
 ||9tata.com/js/topxia.js
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
+||9vviyje1s.top^
 ||9wcn.com/gcld/500.gif
 ||9xf9qkz5.com^
 ||9xxy.icu^
@@ -20142,6 +20146,8 @@ zzzyk.com###Tinfo
 ||bgf05270lko.com^
 ||bgf05271lko.com^
 ||bgf05280lko.com^
+||bgf05290lko.com^
+||bgf05291lko.com^
 ||bghebf.xyz^
 ||bgidskiv.top^
 ||bh0874.online^
@@ -21065,6 +21071,7 @@ zzzyk.com###Tinfo
 ||clarity.ms^
 ||classic.39health.com^
 ||clb.biz/Public/static/js/common-v2.js
+||clcimo.icu^
 ||clcmdie.com^
 ||cldxphtg.xyz^
 ||clgvlvbc.xyz^
@@ -21708,6 +21715,7 @@ zzzyk.com###Tinfo
 ||demaxiya.com/v4/dd/
 ||denjpl.xyz^
 ||dephriezm.com^
+||depzdhamot.com^
 ||deqixs.com/config/v7.js
 ||derew6xbsc.xyz^
 ||dertyhsf.xyz^
@@ -23887,6 +23895,7 @@ zzzyk.com###Tinfo
 ||hdamcsu.top^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
+||hdbltq.top^
 ||hdc.maxli.cn^
 ||hdcast.info/adcompany.php$subdocument
 ||hdchina.*/styles/topshow/AD/
@@ -24881,6 +24890,7 @@ zzzyk.com###Tinfo
 ||irkp.cn^
 ||irkrellw.com^
 ||irkrors.com^
+||irlj.cn^
 ||irmbyu.xyz^
 ||irqaci.xyz^
 ||irs03.com^
@@ -28293,6 +28303,7 @@ zzzyk.com###Tinfo
 ||pkjmmn.icu^
 ||pkk1.zuimeiniwo.com^
 ||pklujb.xyz^
+||pknh27a7j.com^
 ||pktfla.top^
 ||pkvjrb.icu^
 ||pkvs.com/public/300/
@@ -30947,6 +30958,7 @@ zzzyk.com###Tinfo
 ||tw.live/assets/images/fsk-0*.webp
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
+||tw0ihhb04.com^
 ||twamjb.cn^
 ||twavtv.com/js/jquery.colorbox
 ||twbymc.cn^
