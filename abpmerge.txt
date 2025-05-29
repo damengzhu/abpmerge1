@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-29 08:17:09
-! Total count: 33773
+! Version: 2025-05-29 16:15:02
+! Total count: 33775
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -4710,18 +4710,10 @@ $websocket,domain=wap.yushuwu.cloud
 91lai.com##.showimgs
 91porn.com##.preroll-blocker
 91porn.com#@#.vjs-preroll
-91porna.com###app-nav > ul > li:has(> a.app-nav-item[target="_blank"]:not([href*="91porna.com"]))
-91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
-91porna.com##.ad-dialog
 91porna.com##.carousel-container-bottom
 91porna.com##.carousel-container:has(#carouselExampleInterval)
-91porna.com##.dx-banner-item
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
-91porna.com##.text-mini:has(> .dx-recommend-icons)
-91porna.com##.video-items > li:has(> a.checkNum)
-91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
-91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
@@ -12994,6 +12986,15 @@ mesddl.cc###cboxContent
 metruyenchu.com#$#abort-on-property-write window.onclick
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
 mfiles.pl###float_square
+mfulbvu.xyz,91porna.com###app-nav > ul > li:has(> a.app-nav-item[target="_blank"]:not([href*="91porna.com"]))
+mfulbvu.xyz,91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
+mfulbvu.xyz,91porna.com##.ad-dialog
+mfulbvu.xyz,91porna.com##.dx-banner-item
+mfulbvu.xyz,91porna.com##.modal-backdrop
+mfulbvu.xyz,91porna.com##.text-mini:has(> .dx-recommend-icons)
+mfulbvu.xyz,91porna.com##.video-items > li:has(> a.checkNum)
+mfulbvu.xyz,91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
+mfulbvu.xyz,91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
@@ -28706,6 +28707,7 @@ zzzyk.com###Tinfo
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qishula.com/css/ding.js
 ||qishula.com/css/wap.
+||qiu4592.xyz^
 ||qiudbjwhy.com^
 ||qiuw.com/static/xin-ad.js
 ||qiuxl11.cn^
