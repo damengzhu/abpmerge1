@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-05-31 08:15:02
-! Total count: 33801
+! Version: 2025-05-31 16:13:35
+! Total count: 33800
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1776,9 +1776,9 @@
 #@#.afs_ads
 #@#.has-ad
 #@#div[itemtype="http://schema.org/WPAdBlock"]
-$csp=script-src 'self' * 'unsafe-inline',domain=piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' * 'unsafe-inline',domain=yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 $csp=script-src 'self' *,domain=wuwxs.com|biquge678.com|biqugezw.us|zk01.net
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $domain=googleads.g.doubleclick.net
@@ -1872,12 +1872,9 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/*-*-*.xc$script,third-party
 .cn/2022/*/*.txt$third-party
 .cn/2023/*/*.txt$third-party
-.cn/FI390rd2.js$script,third-party
-.cn/In390hG2.js$script,third-party
-.cn/Pu390ft2.js
+.cn/Hl390cN2.js$script,third-party
 .cn/Qi390eC2.js$script,third-party
 .cn/TA390hz2.js$script,third-party
-.cn/Zg389.js$script,third-party
 .cn/a.gif?
 .cn/ack?s=*$third-party
 .cn/ads/
@@ -1885,9 +1882,8 @@ $websocket,domain=wap.yushuwu.cloud
 .cn/bid?url=*$third-party
 .cn/by389.js$script,third-party
 .cn/gg/$script,third-party
+.cn/hL389.js$script,third-party
 .cn/js/ads/
-.cn/lV389.js
-.cn/nd389.js$script,third-party
 .cn/o.js
 .cn/r.gif?
 .cn/redbaiduct.com?s=$third-party
@@ -26786,6 +26782,7 @@ zzzyk.com###Tinfo
 ||maobujie.com^
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
+||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||maoskk.com^
 ||map.baidu.com^$domain=laosiji.com
@@ -32988,6 +32985,7 @@ zzzyk.com###Tinfo
 ||yijiuningyia.gushiwen.org^
 ||yijuxie.com^$third-party
 ||yikeyz.com/pm.js
+||yimc.cn^
 ||yimg.com/*/ads/
 ||yimg.com/av/gemini/ga/gemini.js
 ||yimg.com/cv/ae/default/*_STATIC-JPEG_
@@ -33185,6 +33183,7 @@ zzzyk.com###Tinfo
 ||yuedu.baidu.com/hybrid/wkrec/search?
 ||yuehesh.com^
 ||yueipaoo.xyz^*.gif
+||yuelmodqhrw.com^
 ||yugjwgg.icu^
 ||yugqqqq.icu^
 ||yuhunwang.net^
