@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-06-03 16:17:10
-! Total count: 33830
+! Version: 2025-06-04 08:17:58
+! Total count: 33844
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -762,6 +762,7 @@
 ##.headxx11xiaoapp
 ##.heg > .div-list
 ##.heg > .partner-list
+##.hidden-text + .ad-container
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
 ##.homepage > .wp-none1
@@ -9261,6 +9262,8 @@ dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
+douban.com##IFRAME[width='315']
+douban.com##div.center [style*='padding: 4px;']
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
 doubibackup.com##.widgetRoller
@@ -12671,7 +12674,6 @@ m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.biqiugege8.com##+js(set-constant, lists, undefined)
 m.chouti.com##.m_download_box
-m.douban.com##div.center [style*='padding: 4px;']
 m.guancha.cn##.g_header.go-to-app
 m.hao123.com##.tuizhan
 m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
@@ -17548,6 +17550,7 @@ zzzyk.com###Tinfo
 ||1990tu.com/i/*.png
 ||1990tu.com^$third-party
 ||1999019.com^
+||19o8hzj117.com^
 ||1biqug.com/js/ajax.js
 ||1buo.icu^
 ||1buu1.penyouw.com^
@@ -17718,6 +17721,7 @@ zzzyk.com###Tinfo
 ||2rbda.icu^
 ||2rwonuh.com^
 ||2sfpy.icu^
+||2u1h56851n.top^
 ||2u3v4w5x6y.com^
 ||2ueb.cn^
 ||2vqgtxw.cn^
@@ -18124,6 +18128,7 @@ zzzyk.com###Tinfo
 ||59gt.cn^
 ||5axxw.com/extends/ad/
 ||5brxi.icu^
+||5d7k30pv1u.com^
 ||5dm.link/html/20240*.gif
 ||5dm.tv/html/5dmm.jpg
 ||5dmail.net/image/$object
@@ -21275,6 +21280,7 @@ zzzyk.com###Tinfo
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpdronhu.xyz^
 ||cpffkbpq.xyz^
+||cpglqg.icu^
 ||cpkxahje.xyz^
 ||cpm.cm.kankan.com^
 ||cpmlwhra.xyz^
@@ -21707,6 +21713,7 @@ zzzyk.com###Tinfo
 ||debugease.com/static/js/show.js
 ||dedcrfvdj.xyz^
 ||deeterno.cn^
+||def2g1kz2t.top^
 ||degjidp.icu^
 ||dehaer.site^
 ||dehua.ixinfan.com^
@@ -24045,6 +24052,7 @@ zzzyk.com###Tinfo
 ||hgkzl.cn^
 ||hglm.com^
 ||hgngrf.xyz^
+||hgo06041uyi.com^
 ||hgpbhuj.cn^
 ||hgreils.com^
 ||hgthpj.xyz^
@@ -28185,6 +28193,7 @@ zzzyk.com###Tinfo
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||peryt111.fun^
+||pevmdv.top^
 ||pevpbx.icu^
 ||pexels.com^*/sponsored-media/
 ||pexels.com^*/sponsored_
@@ -29333,6 +29342,7 @@ zzzyk.com###Tinfo
 ||runsky.com/phpstat/
 ||rupmlh.cn^
 ||ruqaks.com^
+||ruqneakyp.com^
 ||ruqwgb.icu^
 ||rusnuiyu.com^
 ||rusticaula.com^
@@ -30676,6 +30686,7 @@ zzzyk.com###Tinfo
 ||titan007.com/ad/
 ||titan007.com/js/indexshow.
 ||titan007.com/news.aspx
+||titroikan.com^
 ||tixoilll.com^
 ||tizru.com^$domain=pronpic.org
 ||tj-cyhg.com^
@@ -30810,6 +30821,7 @@ zzzyk.com###Tinfo
 ||tptgvh.xyz^
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp002.cfd^
+||tpuo.cn^
 ||tpvuxt.xyz^
 ||tpyerxzn.xyz^
 ||tq.cn/floatcard?
@@ -31979,6 +31991,7 @@ zzzyk.com###Tinfo
 ||wit.qq.com^$third-party
 ||wiwlqc.xyz^
 ||wj.jiancai365.cn^
+||wj9uod3838.com^
 ||wjimtye.top^
 ||wjwod.cyou^
 ||wkabios.icu^
@@ -33052,6 +33065,7 @@ zzzyk.com###Tinfo
 ||yjnhkd.com^
 ||yjnhndt.com^
 ||yjnkas.com^
+||yjnlk.com^
 ||yjoyse.icu^
 ||yjuhqy.xyz^
 ||yjwxegq.icu^

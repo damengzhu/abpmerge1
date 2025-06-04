@@ -757,6 +757,7 @@
 ##.headxx11xiaoapp
 ##.heg > .div-list
 ##.heg > .partner-list
+##.hidden-text + .ad-container
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
 ##.homepage > .wp-none1
@@ -5411,6 +5412,8 @@ dota2.ru#$#abort-on-property-read helpUsImproveSite
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
+douban.com##IFRAME[width='315']
+douban.com##div.center [style*='padding: 4px;']
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
 doubibackup.com##.widgetRoller
@@ -8791,7 +8794,6 @@ m.baidu.com##a[href*="m.lecai.com"]
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.biqiugege8.com##+js(set-constant, lists, undefined)
 m.chouti.com##.m_download_box
-m.douban.com##div.center [style*='padding: 4px;']
 m.guancha.cn##.g_header.go-to-app
 m.hao123.com##.tuizhan
 m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
