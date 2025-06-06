@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-06-05 16:15:55
-! Total count: 33856
+! Version: 2025-06-06 08:17:18
+! Total count: 33869
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2049,6 +2049,7 @@ $websocket,domain=wap.yushuwu.cloud
 .gif|$domain=8727ck.cc|8726ck.cc|8724ck.cc
 .gif|$domain=99re.com
 .gif|$third-party,domain=91xx133.cc
+.hgo0*uyi.com/$script,xmlhttprequest,third-party
 .hh0*aoik.com/$script,xmlhttprequest,third-party
 .hk/ad2/
 .hk/ads/
@@ -8535,6 +8536,7 @@ chinaz.com##.scrollload-content > .single-mode:first-child
 chinaz.com##.titright
 chinaz.com##.txtAdBox
 chinaz.com,58b.tv,8fun.tv,99kubo.tv##div[style^="width:300px;height:250px;"]
+chinaz.com,mydrivers.com,oschina.net##a[href*="click.aliyun.com"]
 chinaz.com,mydrivers.com,oschina.net##a[href^="http://click.aliyun.com/"]
 chinaz.com,ofweek.com,yawin.cn##.adtext
 chine-informations.com###entete + div[id][class="nomobile"]
@@ -17576,6 +17578,7 @@ zzzyk.com###Tinfo
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1qboss9.ejuslehq.com^$script,xmlhttprequest,domain=pch.com
+||1qfxm8hgqd.com^
 ||1qv.fun^
 ||1r7efqo.tjfmd.com^$script,xmlhttprequest,domain=pch.com
 ||1s8pj.cn^$third-party
@@ -23340,6 +23343,7 @@ zzzyk.com###Tinfo
 ||geotmt.com^$third-party
 ||gepush.com^
 ||gepvgv.icu^
+||geqetreadyf.com^
 ||geqshb22.fun^
 ||geqzt6tkg.top^
 ||gerqragpl.com^
@@ -24058,6 +24062,8 @@ zzzyk.com###Tinfo
 ||hgngrf.xyz^
 ||hgo06041uyi.com^
 ||hgo06050uyi.com^
+||hgo06060uyi.com^
+||hgo06061uyi.com^
 ||hgpbhuj.cn^
 ||hgreils.com^
 ||hgthpj.xyz^
@@ -25545,6 +25551,7 @@ zzzyk.com###Tinfo
 ||jszavs1.com^
 ||jszctech.com^
 ||jsztl.com/img/particular/tbyhq.jpg
+||jt01151knd.com^
 ||jtbunh.xyz^
 ||jtdltu.top^
 ||jtezxmpb.xyz^
@@ -27341,6 +27348,7 @@ zzzyk.com###Tinfo
 ||myunion1.tupians.com^
 ||mywb3.com^
 ||myweb.hinet.net/menu.htm
+||mzarqhufj4.com^
 ||mzelzfnj.xyz^
 ||mzhhdn.com/hongbao.jpg
 ||mzpecui.icu^
@@ -29092,6 +29100,7 @@ zzzyk.com###Tinfo
 ||rbioclv.cn^
 ||rbkmzhc.icu^
 ||rbodwtj.icu^
+||rbqv91egxy.com^
 ||rbrbr88p.cn^
 ||rbrmhz.xyz^
 ||rbsodzgoy.xyz^
@@ -30481,6 +30490,7 @@ zzzyk.com###Tinfo
 ||tc911.vip^
 ||tcbox.baidu.com^
 ||tcdkjy.top^
+||tcdvvv.top^
 ||tcfgtd.xyz^
 ||tcheeter.com^
 ||tchkcc.cn^
@@ -31357,6 +31367,7 @@ zzzyk.com###Tinfo
 ||urlbeat.net/Webservices/jsParseLinks.aspx$script,third-party
 ||urlbeat.net/visitScript/$script,third-party
 ||urlkwqi.cn^
+||uroz44gxhx.com^
 ||urpkktc.icu^
 ||ursegreatm.fun^
 ||urtlist.top^
@@ -31449,6 +31460,7 @@ zzzyk.com###Tinfo
 ||uwxez.com^
 ||uxbd4id.xyz^
 ||uxcnhsf.cn^
+||uxfa.cn^
 ||uxieks.com^
 ||uxlqwra.cn^
 ||uxmwh0f.xyz^
@@ -33069,6 +33081,7 @@ zzzyk.com###Tinfo
 ||yiucfif.icu^
 ||yiw2iei.icu^
 ||yiwckti.icu^
+||yiybmi.icu^
 ||yizhibo.com/special/h5corner.html
 ||yj2nf.icu^
 ||yjcf360.com/ad.
