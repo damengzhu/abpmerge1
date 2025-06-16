@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-06-16 08:18:42
-! Total count: 33855
+! Version: 2025-06-16 16:16:12
+! Total count: 33862
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8409,6 +8409,7 @@ chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
 chichnhausex.net#$#abort-current-inline-script $ open
+chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
 china.cn##.extension_ul > .special
@@ -15438,6 +15439,7 @@ tencent.com##.cdc-commercial-swiper
 terrikon.com#$#abort-on-property-read bdy
 tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[id^="list-content"]>li 'div>div>span'
 testserver.pro#$#abort-current-inline-script window.$ adsbygoogle
+tgb.cn###headerggContent
 tgbus.com###guide-download
 tgbus.com###neck_970
 tgfcer.com##.ad_headerbanner
@@ -15808,10 +15810,14 @@ tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.yahoo.com###abu-live
 tw.yahoo.com###discount
+tw.yahoo.com###fullbleed > div[data-content="廣告"]
 tw.yahoo.com###tabTemplate
 tw.yahoo.com###util-top-promotion
+tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
+tw.yahoo.com##aside > div[id^="module-adgroup"]
+tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
@@ -30547,6 +30553,7 @@ zzzyk.com###Tinfo
 ||tfzozf.xyz^
 ||tg.loclog.cn^
 ||tgamtip.icu^
+||tgb.cn/res/js/tgbgg/
 ||tgb1l.icu^
 ||tgbevv.xyz^
 ||tgccct.icu^
