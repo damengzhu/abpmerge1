@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-06-24 08:18:06
-! Total count: 33966
+! Version: 2025-06-24 16:15:59
+! Total count: 33973
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8614,6 +8614,7 @@ client=ca-pub-$subdocument,domain=iprima.cz|www.ahaonline.cz|info.cz|onetv.cz
 client=ca-pub-$subdocument,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 clikcoin.pl#@##adsense
 cliphot69.pics#$#override-property-read a_vid 0
+cloud.189.cn#@#.ad-container
 cloud.jasaku.net##.adblock
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
@@ -11154,6 +11155,7 @@ icook.tw##.amp-parallax-ad
 icook.tw##.recipe-ad-placeholder
 icourse163.org##.promotion-banner-wrapper
 icourse163.org#@#.sns-link
+icu##.banner-layout-box
 id97.cc##.fed-part-case > a
 idanmu.ee##.entry-body > div[class]:first-child
 idanmu.ee##aside > div[class="widget "]
@@ -15806,7 +15808,10 @@ tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
 tw.news.yahoo.com###sda-MON
 tw.news.yahoo.com###sda-WPS-iframe
+tw.news.yahoo.com##.YDC-Lead
 tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
+tw.news.yahoo.com##div[data-google-query-id]
+tw.news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
@@ -22435,6 +22440,7 @@ zzzyk.com###Tinfo
 ||edinmaw.top^
 ||edipsumw.top^
 ||edjjpgf.xyz^
+||edmfizohztab.com^
 ||edmontonchina.*/pic/
 ||edong.link^
 ||edoshbw.top^
@@ -28693,6 +28699,7 @@ zzzyk.com###Tinfo
 ||qasqs.com^
 ||qawxpzm.cn^
 ||qaxkwxpf.cn^
+||qaxl.cn^
 ||qayqa.com:6868/jquery/
 ||qbhmz3.com^
 ||qbhzghb.xyz^
