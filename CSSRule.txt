@@ -4144,6 +4144,7 @@ bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(>.card-box>.info>a[href^="http"]:not([href*=".bilibili.com/"]))
 bilinovel.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
+bilinovel.com##+js(set-constant, checkAndHandleAdBlock, undefined)
 bimiacg.net##.tuiguang
 bimibimi.cc##[src^='https://dd-static.jd.com']
 binbox.io#@#.banner-ad
@@ -7849,7 +7850,6 @@ itjsb.com##.info_ad
 itkeyword.com##p[style="line-height:1.4; margin-top:8px; margin-bottom:10px;"]
 itmo.com##.aside-game-icon-box
 itmo.com##.right-side-pop
-itshokunin.cc#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 itsupportguides.com##.adblock_wrapper
 itxueyuan.com##a[href*="guanggaowei"]
 ivanovonews.ru#$#json-prune banner.ytcode
