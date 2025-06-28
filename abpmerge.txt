@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-06-28 08:15:17
-! Total count: 34015
+! Version: 2025-06-28 16:14:11
+! Total count: 34006
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -8208,7 +8208,6 @@ btnull.org,gyg.la,gyg.si,gying.in,gying.net,gying.org,gying.si###ly
 bts.to##.dl_blue[href^="/goto_.php?url="]
 btsow.motorcycles##a[href^="https://tellme.pw/go/jav"]
 bttop.net###top_bottom + div[style="float:left;width:100%;"]
-btvsports.click#@##googleAD2
 btvsports.com###ai_tapar
 btyingshi.com##.aside > .card:last-child
 budport.com.ua#$#abort-current-inline-script $ append
@@ -10347,13 +10346,6 @@ genshin.honeyhunterworld.com#@#.a_p
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
 getitfree.cn##+js(abort-current-script, document.getElementById, /!document\.getElementById\([\s\S]*?\.style\.display=/)
-getrelax.cc##+js(abort-current-script, $, #adisblock)
-getrelax.cc#$#iframe[src^="//adserver.juicyads.com/"] { display: none!important; }
-getrelax.cc#$#iframe[src^="https://syndication.exosrv.com/"] { display: none!important; }
-getrelax.cc#$?##main_content > .grid-boxes-in:has(> iframe[src^="//adserver.juicyads.com/"]) { remove: true; }
-getrelax.cc#$?##main_content > .grid-boxes-in:has(> iframe[src^="https://syndication.exosrv.com/"]) { remove: true; }
-getrelax.cc#?#.nav > li.dropdown:has(> ul.dropdown-menu > li > div.mega-menu-content > div.container > div.row div.blog-grid > a[href^="https://getrelax.cc/ad"])
-getrelax.cc#?#.nav > li:has(> a[target="_blank"])
 getsurl.com,gslink.co,gsurl.in,g5u.pw#$#abort-on-property-write Fingerprint2
 getsurl.com,gslink.co,gsurl.in,g5u.pw,clipwatching.com,protect-mylinks.com#$#abort-current-inline-script document.createElement String.fromCharCode
 gezila.com##.tishi + dl
@@ -16307,7 +16299,6 @@ whcykj.cn##.swt_bottom
 whnews.cn###gd_l
 whnews.cn###gd_r
 whnyd.com##div[style*="height: 115px"]
-wholehk.com#?#div[id^="postmessage_"] > div[align="center"][style^="font-size:11px;"] > font:contains(Advertisement)
 wiki.mbalib.com###ad-fold
 wiki.mbalib.com###p-ad-bd
 wiki.mbalib.com##.ad-br
@@ -22911,6 +22902,7 @@ zzzyk.com###Tinfo
 ||ff.qichetansuo.com^
 ||ffbdbx.xyz^
 ||ffdafx.xyz^
+||ffdm*.cc/dd.js
 ||ffdm2.cc/ht_cpc.js
 ||ffgpol.com^
 ||ffjevt.icu^
@@ -32108,7 +32100,6 @@ zzzyk.com###Tinfo
 ||whgh1.icu^
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
-||wholehk.com/atttuop.js
 ||whrwlxg.icu^
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||whwxxny.com^
