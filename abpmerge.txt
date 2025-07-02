@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-01 16:16:30
-! Total count: 34032
+! Version: 2025-07-02 08:18:03
+! Total count: 34035
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -13806,7 +13806,6 @@ pansearch.me##+js(no-xhr-if, adsbygoogle)
 paopaoche.net##.down_btn2.green
 papalah.com##+js(abort-on-property-read, adBlockDetected)
 papalah.com##.sponsor-outer
-papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 parenting.pl#$#abort-on-property-read slot
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
@@ -16052,6 +16051,8 @@ vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort
 vidsrc.*,cucuflix.*#$#abort-current-inline-script document.createElement /referrerPolicy.*no-referrer-when-downgrade/;
 viet69.st,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbeta.com,yurineko.my,heoxinh.net,hd.javhay.site,phimsexhay669.pro,cliphot69.asia,doctruyen3qui.com,ihentai.now,animehay.red,jav.vc,top1sex.me,xemsex.cc,hentaivc.com,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.li,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,top1phimsex.com,phim18hd.cam,xem.sexviet88.link,vnsexmup.net,demo.14412882.com,vnsexmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.my#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
+vikacg.com##+js(window.open-defuser)
+vikacg.com,papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 ville-ideale.com###antyp
 ville-ideale.com###enc
 ville-ideale.com###espace
@@ -21665,6 +21666,7 @@ zzzyk.com###Tinfo
 ||dbmp4.com/js/foot.js
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
+||dbt6ga5v6d15f.cloudfront.net/slf^$domain=vikacg.com
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
 ||dbxok6uo.icu^
@@ -24759,6 +24761,7 @@ zzzyk.com###Tinfo
 ||image.39.net/style/
 ||image.51cto.com/ad/
 ||image.yafytg.cn^
+||imagedelivery.net^$domain=vikacg.com
 ||imageoss.com/images/*_GIF2400x120_
 ||images.china.cn^*first/$subdocument
 ||images.jurong.cn/bbs/
