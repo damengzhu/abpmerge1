@@ -4187,6 +4187,7 @@ bioon.com##.grid_6
 biqgg.com##a[onclick="guangtui();"]
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 biquge001.com###content > a
+biquge321.com##+js(addEventListener-defuser, touchend, window.location.href)
 biquge345.com##.puaxqbxs_b
 biquge345.com##div[style^="position:fixed;"]
 bitauto.com###advCarsumType1
@@ -9632,6 +9633,7 @@ nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
+nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
 noon.com##div[data-slotid*="hero_banner_"]
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -12153,6 +12155,8 @@ vmvps.com##.spbox
 vndoc.com#$#override-property-read seconds 0
 vnsexmup.net#$#abort-on-property-read Cookies
 voachinese.com##.slide-in-wg
+vocus.cc##article > div[style^="min-height:"]:empty
+vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode

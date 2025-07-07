@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-06 16:13:49
-! Total count: 34104
+! Version: 2025-07-07 08:19:14
+! Total count: 34117
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -2361,6 +2361,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
 /^(https|ws|wss):\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/([a-z]{1,3}\/){0,1}\d+\?[a-z]+=[a-z0-9]+($|&)/$script,websocket,third-party
 /^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
+/^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/[a-z]{1,3}\/\d+\?is_not=/$all
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/bug\?i=\d+$/
@@ -8007,6 +8008,7 @@ bioon.com##.grid_6
 biqgg.com##a[onclick="guangtui();"]
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 biquge001.com###content > a
+biquge321.com##+js(addEventListener-defuser, touchend, window.location.href)
 biquge345.com##.puaxqbxs_b
 biquge345.com##div[style^="position:fixed;"]
 bitauto.com###advCarsumType1
@@ -13531,6 +13533,7 @@ nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
+nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
 noon.com##div[data-slotid*="hero_banner_"]
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -16087,6 +16090,8 @@ vmvps.com##.spbox
 vndoc.com#$#override-property-read seconds 0
 vnsexmup.net#$#abort-on-property-read Cookies
 voachinese.com##.slide-in-wg
+vocus.cc##article > div[style^="min-height:"]:empty
+vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 voiranime.com#$#abort-current-inline-script document.createElement String.fromCharCode
@@ -17221,6 +17226,7 @@ zzzyk.com###Tinfo
 ||074adzx.com^
 ||0755rc.com^$third-party
 ||07dy.cc^
+||07pv7k61z.com^
 ||08088.top^
 ||080999.cn^
 ||085cczz.com^
@@ -18476,6 +18482,7 @@ zzzyk.com###Tinfo
 ||8t9he.cyou^
 ||8u0.fun^
 ||8u6stvyww.top^
+||8v08mjri7.com^
 ||8x3wolchw.com^
 ||8xbook.org/scripts/ad/
 ||8xly.cn^
@@ -23012,6 +23019,7 @@ zzzyk.com###Tinfo
 ||fiu07051kl.com^
 ||fiu07060kl.com^
 ||fiu07061kl.com^
+||fiu07070kl.com^
 ||fiwyjar.cn^
 ||fj.sina.com.cn/iframe/63/
 ||fjbglfrv.com^
@@ -23381,6 +23389,7 @@ zzzyk.com###Tinfo
 ||gdmm.com/api.php?mod=js&bid=2111
 ||gdmm.com/api.php?mod=js&bid=2188
 ||gdmm.com/images/leftbottom.png
+||gdmxjbjjo.com^
 ||gdoibwfvjqf.com^
 ||gdqhim.icu^
 ||gdr3.com/us/
@@ -26015,6 +26024,7 @@ zzzyk.com###Tinfo
 ||kmpl.rnqxp.cn^
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmpxq.cn^
+||kmqaek.icu^
 ||kmqianneng66.com^
 ||kmr.enrosr.cn^
 ||kmruv.cn^
@@ -29585,6 +29595,7 @@ zzzyk.com###Tinfo
 ||ryqgdrh.icu^
 ||ryrmvd.xyz^
 ||rythtg.top^
+||ryvvzl.icu^
 ||rywnvzd.cn^
 ||rz261.cn^$third-party
 ||rzcruzullr.com^
@@ -30341,6 +30352,7 @@ zzzyk.com###Tinfo
 ||stadig.ifeng.com^
 ||staitcfile.org^
 ||staivoiks.com^
+||stamenbs4.com^
 ||star-media.cn^$third-party
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||staramuse.com/bmip/showg
@@ -31477,6 +31489,7 @@ zzzyk.com###Tinfo
 ||uljg.cn^
 ||ulkoxbra.com^
 ||ulktyi.xyz^
+||ullc.cn^
 ||ulogs.umeng.com^
 ||ulogs.umengcloud.com^
 ||ulojlvmejkaem.xyz^
