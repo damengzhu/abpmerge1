@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-07 16:16:03
-! Total count: 34121
+! Version: 2025-07-08 08:18:17
+! Total count: 34132
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -13387,7 +13387,10 @@ news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
+news.cnyes.com##.section-aside-wrapper ~ div[class] > a[title] ~ div[class]:not([title])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##div[id^="desktop-ad-card-"]
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
 news.ebc.net.tw##.inline_text.has_marker
@@ -23023,6 +23026,8 @@ zzzyk.com###Tinfo
 ||fiu07061kl.com^
 ||fiu07070kl.com^
 ||fiu07071kl.com^
+||fiu07080kl.com^
+||fiu07081kl.com^
 ||fiwyjar.cn^
 ||fj.sina.com.cn/iframe/63/
 ||fjbglfrv.com^
@@ -23218,6 +23223,7 @@ zzzyk.com###Tinfo
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
 ||fup5qxstgi.com^
+||fuq3sve1gj.com^
 ||fushuba123.top/statics/js/wap.js
 ||fuuksew.com^
 ||fuvbbjl.xyz^
@@ -24160,6 +24166,7 @@ zzzyk.com###Tinfo
 ||hgidskiu.top^
 ||hgjjk45.com^
 ||hgjxp.cn^
+||hgk0mu8irw.com^
 ||hgkzl.cn^
 ||hglm.com^
 ||hgngrf.xyz^
@@ -24375,6 +24382,7 @@ zzzyk.com###Tinfo
 ||hqdoor.com/Web/
 ||hqgearb.icu^
 ||hqhspv.xyz^
+||hqluu46i3a.com^
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
 ||hqzcths.cn^
@@ -25002,6 +25010,7 @@ zzzyk.com###Tinfo
 ||ipip.net/loveapp/ipip/tools/theme/partner/
 ||iplm.cc^
 ||ipm.atm.youku.com^
+||ipmsqu.icu^
 ||iporn.world/attachment/ad/
 ||ipqajyy.icu^
 ||ipqc5ejfe.icu^
@@ -30505,6 +30514,7 @@ zzzyk.com###Tinfo
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
 ||sun66387567606.site^
+||sunflowers66.top^
 ||suning.cn/javascript/sn_da/sa.js
 ||suning.cn^$domain=qianggou5.com
 ||suning.com/cpc/getCpcSearchDatasRev?
@@ -31741,6 +31751,7 @@ zzzyk.com###Tinfo
 ||vansky.com/index_files/*.gif
 ||vapingunderground.com/js/vapingunderground/3253a5a323gaw352.js$domain=vapingunderground.com
 ||variflight.com/carnoc/ad/
+||vasz.cn^
 ||vatzxd.xyz^
 ||vaxgyly.cn^
 ||vaykjwn.top^
