@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-11 16:15:52
-! Total count: 34168
+! Version: 2025-07-12 08:15:40
+! Total count: 34177
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -10874,6 +10874,10 @@ hk.on.cc##div[id^="google_div_"]
 hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
+hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 hk01.com###debug-0-ad-outer-container
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
@@ -15821,14 +15825,10 @@ tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.yahoo.com###abu-live
 tw.yahoo.com###discount
-tw.yahoo.com###fullbleed > div[data-content="廣告"]
 tw.yahoo.com###tabTemplate
 tw.yahoo.com###util-top-promotion
-tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
-tw.yahoo.com##aside > div[id^="module-adgroup"]
-tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
@@ -20901,6 +20901,7 @@ zzzyk.com###Tinfo
 ||chachefa.com/asdfasdfqwer/
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
+||chanced112.com^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
 ||changshuohr.net^
 ||changyan.itc.cn/mdevp/extensions/mobile-cmt-advert/
@@ -24509,6 +24510,8 @@ zzzyk.com###Tinfo
 ||huo07101hy.com^
 ||huo07110hy.com^
 ||huo07111hy.com^
+||huo07120hy.com^
+||huo07121hy.com^
 ||huo720.com/back/ad_
 ||huo720.com/files/vidhub
 ||huobaowang.com/meeting/js/hbchat.
@@ -24649,6 +24652,7 @@ zzzyk.com###Tinfo
 ||ibqkjbw.com^
 ||ibqmey.xyz^
 ||ibwqfpo.xyz^
+||ibwvky.icu^
 ||ibyrwvi.cn^
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
@@ -25253,6 +25257,7 @@ zzzyk.com###Tinfo
 ||j.zlszw.com^
 ||j1.piaobing.com^
 ||j2jtq0hpb.com^
+||j4mxrs21gh.com^
 ||j6zh4g0.cn^
 ||j7c16.icu^
 ||j7ifivzy.icu^
@@ -25368,6 +25373,7 @@ zzzyk.com###Tinfo
 ||jf2v.mnpool.cn^
 ||jfjslia.top^
 ||jfnkjr.xyz^
+||jfpo.cn^
 ||jfrrnf.icu^
 ||jfsdiwmnbsk009.top^
 ||jfyb6.com^
@@ -29260,6 +29266,7 @@ zzzyk.com###Tinfo
 ||qwursery.top^
 ||qxakzox.cn^
 ||qxaz2xcw.com^
+||qxn9qlvmca.com^
 ||qxrvmu.com^
 ||qxwoiv.com^
 ||qy0.ru/data/game/
@@ -29503,6 +29510,7 @@ zzzyk.com###Tinfo
 ||rkzby.cn^
 ||rl1vypwyd2.com^
 ||rlhtnnm.xyz^
+||rliwiqr.icu^
 ||rljjt.cn^
 ||rlogs.youdao.com^
 ||rlqoyht.icu^
@@ -33287,6 +33295,7 @@ zzzyk.com###Tinfo
 ||yh.zg-zxzx.net^
 ||yh18h8s.com^
 ||yh20230625tu.com^
+||yh823ogu6b.com^
 ||yhak0o7rtz.com^
 ||yhbheroq.xyz^
 ||yhbsk.cn^
