@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-25 08:18:06
-! Total count: 34281
+! Version: 2025-07-25 16:16:50
+! Total count: 34283
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -13421,6 +13421,7 @@ news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
 news.yahoo.com###module-mktBanner
+news.yahoo.com##div[id^="sda-"]
 news18a.com##.ina_ad_left
 news18a.com,tom.com##.ina_ad_class
 newser.com#$#prevent-listener load object
@@ -15801,7 +15802,6 @@ tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.YDC-Lead
 tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
 tw.news.yahoo.com##div[data-google-query-id]
-tw.news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##li[id^="ad-"]
 tw.news.yahoo.com,tw.stock.yahoo.com##iframe[src^="https://tw.buy.yahoo.com/smartbanner/"]
 tw.nextapple.com##[class^="na-ad-"]
@@ -23580,6 +23580,7 @@ zzzyk.com###Tinfo
 ||gimy.*/images/eee*.png
 ||gio07241rp.com^
 ||gio07250rp.com^
+||gio07251rp.com^
 ||giphaudoq.com^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjh9v.tianshilv.cn^
@@ -31564,6 +31565,7 @@ zzzyk.com###Tinfo
 ||udolgy.xyz^
 ||udoshbt.top^
 ||udswai.xyz^
+||udxi.cn^
 ||udyi.cn^
 ||ue8im.com^
 ||uebabuf.cn^
