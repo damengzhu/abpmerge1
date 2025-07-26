@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-25 16:16:50
-! Total count: 34283
+! Version: 2025-07-26 08:16:20
+! Total count: 34288
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -7994,11 +7994,11 @@ bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
-bing.com,cn.bing.net##li.b_ans:not(:has(h2))
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##+js(abort-current-script, setTimeout, COOKIE_NAME)
@@ -20450,6 +20450,7 @@ zzzyk.com###Tinfo
 ||brookssa.com^
 ||brornaeq.com^
 ||brownfox.top^
+||brownnx.top^
 ||browser.sentry-cdn.com^$third-party
 ||browserkernel.baidu.com^
 ||browserscan.net/dist/adspower_zh.
@@ -23581,6 +23582,7 @@ zzzyk.com###Tinfo
 ||gio07241rp.com^
 ||gio07250rp.com^
 ||gio07251rp.com^
+||gio07260rp.com^
 ||giphaudoq.com^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjh9v.tianshilv.cn^
@@ -30759,6 +30761,7 @@ zzzyk.com###Tinfo
 ||t0sfe1.com^
 ||t1.612.com^
 ||t1.xuefen.com.cn^
+||t1d26dvout.com^
 ||t1tgame.com^
 ||t2.picb.cc/2022/08/07/6rpPj1.jpg
 ||t2.picb.cc/2022/08/07/6rpRKd.jpg
@@ -31875,6 +31878,7 @@ zzzyk.com###Tinfo
 ||vainews.cn^
 ||vakarm.net/css/sprite_vkm_2.css
 ||valerieavisnba.com^
+||valeriesara.com^
 ||valipl.cp31.ott.cibntv.net/$media
 ||vancuongthinh.com^
 ||vanpeople.com/gg/
@@ -32199,6 +32203,7 @@ zzzyk.com###Tinfo
 ||w4sn20zpvz.com^
 ||w51t.com^$subdocument
 ||w59g.icu^
+||w5ftl8bhu3.com^
 ||w7044.com^
 ||w9uwz5966.com^
 ||wa.kuwo.cn/lyrics/img/kwgg/
