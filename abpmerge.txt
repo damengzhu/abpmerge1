@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-07-28 16:17:46
-! Total count: 34320
+! Version: 2025-07-29 08:18:59
+! Total count: 34331
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -1911,6 +1911,7 @@ $websocket,domain=wap.yushuwu.cloud
 .co/js/ads/
 .com*/ps/psCreat.js
 .com/0gg/gg*.js
+.com/17*?rid=17$third-party
 .com/5y*/31*.$~third-party
 .com/?Intr=$popup,third-party
 .com/?aff=$popup,third-party
@@ -13423,7 +13424,6 @@ news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
 news.yahoo.com###module-mktBanner
-news.yahoo.com##div[id^="sda-"]
 news18a.com##.ina_ad_left
 news18a.com,tom.com##.ina_ad_class
 newser.com#$#prevent-listener load object
@@ -15820,6 +15820,7 @@ tw.yahoo.com###util-top-promotion
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
+tw.yahoo.com,news.yahoo.com##div[id^="sda-"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
 twavking.com##.da_single_video
@@ -17882,6 +17883,7 @@ zzzyk.com###Tinfo
 ||3qxsa.cc/js/news2.js
 ||3rcld5y1dm.com^
 ||3ri.cc^
+||3rre9r4t2.com^
 ||3rsppty.cn^
 ||3ryin2uj0x.com^
 ||3sas.icu^
@@ -17964,6 +17966,7 @@ zzzyk.com###Tinfo
 ||4we.icu^
 ||4wm.fun^
 ||4wu3gf.cn^
+||4xicd08qs.com^
 ||4zn.fun^
 ||5.61.55.143^
 ||5.ccutu.com^
@@ -18767,6 +18770,8 @@ zzzyk.com###Tinfo
 ||aafuck.xyz^$third-party
 ||aai07280mu.com^
 ||aai07281mu.com^
+||aai07290mu.com^
+||aai07291mu.com^
 ||aaoffice.cn^
 ||aaoisp.com^
 ||aapj.cn^
@@ -23595,6 +23600,7 @@ zzzyk.com###Tinfo
 ||gio07271rp.com^
 ||gio07280rp.com^
 ||gio07281rp.com^
+||gio07290rp.com^
 ||giphaudoq.com^
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjh9v.tianshilv.cn^
@@ -28025,6 +28031,7 @@ zzzyk.com###Tinfo
 ||o8zoz.icu^
 ||oa-panther.data.aliyun.com^$third-party
 ||oa.hinews.cn/work/img/
+||oaatyq.icu^
 ||oaclrst.cn^
 ||oaftaijo.net^
 ||oaihiiacb.com^
@@ -29416,6 +29423,7 @@ zzzyk.com###Tinfo
 ||r5dfwjtb.icu^
 ||r5twojylmzsym.top^
 ||r6pt6kfz.com^
+||r6q4mtfno.com^
 ||r75tia.cn^
 ||r7tqkqrvuz.com^
 ||ra1.xyz^
@@ -30324,6 +30332,7 @@ zzzyk.com###Tinfo
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
 ||snalzlb.top^
 ||sncop.uioozpxq.com^
+||sneakersq5.com^
 ||snifdlab.top^
 ||snjfasp.com^
 ||snmi.cn^$third-party
@@ -32434,6 +32443,7 @@ zzzyk.com###Tinfo
 ||wkjyxcheng.top^
 ||wkrcbszi.xyz^
 ||wkrhel.icu^
+||wkzvf2658.com^
 ||wkzw.me^
 ||wl.uqwjdhgv.top^
 ||wlberlaiw.com^
@@ -33135,6 +33145,7 @@ zzzyk.com###Tinfo
 ||xprdmnlo.xyz^
 ||xpwlctfk.xyz^
 ||xpxi.cn^
+||xpya.cn^
 ||xpyerxzn.xyz^
 ||xpyjyhny.xyz^
 ||xqblnei.cn^
