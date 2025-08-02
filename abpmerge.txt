@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则，Adblock Warning Removal List、ABP filters、anti-adblock-killer-filters
-! Version: 2025-08-01 16:17:19
-! Total count: 34369
+! Version: 2025-08-02 08:16:17
+! Total count: 34397
 ###ADtip
 ###Ad_windows
 ###ChapterView > .slide-baidu
@@ -11953,6 +11953,22 @@ jkptgbf.xyz,mfulbvu.xyz,91porna.com##a.checkNum[target="_blank"]:not([href*="91p
 jkptgbf.xyz,mfulbvu.xyz,91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
+jm18c-twie.vip,18comic.org,18comic.vip###guide-modal
+jm18c-twie.vip,18comic.org,18comic.vip##.div_sticky2
+jm18c-twie.vip,18comic.org,18comic.vip##.modal-backdrop
+jm18c-twie.vip,18comic.org,18comic.vip##.row[style="display: flex;flex-wrap: wrap;"]
+jm18c-twie.vip,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+jm18c-twie.vip,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
+jm18c-twie.vip,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
+jm18c-twie.vip,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
+jm18c-twie.vip,18comic.org,18comic.vip##div[data-group][data-width="300"]
+jm18c-twie.vip,18comic.org,18comic.vip##style + div[style="cursor: pointer; position: relative;"]
+jm18c-twie.vip,18comic.org,18comic.vip#?#:-abp-has(>ins+div)
+jm18c-twie.vip,18comic.org,18comic.vip#?#:-abp-has(>ins+script)
+jm18c-twie.vip,18comic.org,18comic.vip#?#:-abp-has(>ins+style)
+jm18c-twie.vip,18comic.org,18comic.vip#?#:-abp-has(>script+ins)
+jm18c-twie.vip,18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+jm18c-twie.vip,18comic.org,18comic.vip#?#div[data-group]:-abp-has(>.group-notice)
 jmbbs.com###xjj_jmbbs2015_01
 jmbbs.com##.middle_guanggao
 jmbbs.com##img[width="1100"]
@@ -18489,6 +18505,7 @@ zzzyk.com###Tinfo
 ||8gra3.icu^
 ||8h93.com^*.gif
 ||8jkx.com^
+||8lz3swf01q.com^
 ||8maple.ru/dzcm$redirect=1x1.gif,domain=8maple.ru,image
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru
 ||8mg050.n3cdn1.secureserver.net^*.gif
@@ -18784,6 +18801,7 @@ zzzyk.com###Tinfo
 ||aaoffice.cn^
 ||aaoisp.com^
 ||aapj.cn^
+||aaqaz.cn^
 ||aaread.space/images/*0.gif
 ||aariedbtr.com^
 ||aassy4.com/dm/
@@ -19706,6 +19724,7 @@ zzzyk.com###Tinfo
 ||awifi.cn^$third-party
 ||awiudbyqbpo.com^
 ||awkxf8bbj.com^
+||awtguzoxc.com^
 ||awunkse72.shop^
 ||awyuge.xyz^
 ||awywlb89y.com^
@@ -21454,6 +21473,7 @@ zzzyk.com###Tinfo
 ||cslbahf.top^
 ||cslpf.cn^
 ||cspb1.5w5w.com^
+||csqqgc90u.com^
 ||css.juqingba.cn^
 ||css.mangabz.com/*/mangabz/js/mobile/newyb.js
 ||css.zmjm.com^
@@ -25081,6 +25101,7 @@ zzzyk.com###Tinfo
 ||inphais.com^
 ||inping.com^$third-party
 ||insfengdata.com^
+||insideex.top^
 ||insidemo75.com^
 ||insightexpressai.com^
 ||insights.hotjar.com^
@@ -25487,6 +25508,7 @@ zzzyk.com###Tinfo
 ||jgygtv.cn^
 ||jh16csf.com^
 ||jhdvcjvsjkvjkb.com^
+||jhf4eib1zb.com^
 ||jhkggrr.icu^
 ||jhlazsot.icu^
 ||jhlnlt.xyz^
@@ -25621,6 +25643,7 @@ zzzyk.com###Tinfo
 ||jlpcn.net/img/300p-
 ||jltwxisa.icu^
 ||jlwz.cn/js/xf*.js
+||jm18c-twie.vip/media/albums/*?$media
 ||jmbbs.cn/sjgg/
 ||jmbluyxkl.xyz^
 ||jmcomic.asia/iframe_*&idzone=
@@ -26003,6 +26026,7 @@ zzzyk.com###Tinfo
 ||kclimid.top^
 ||kcnwe.xyz^
 ||kcokamid.top^
+||kcqstn35as.com^
 ||kczq.cn^
 ||kdamcsd.top^
 ||kdcl.pchome.com.tw^
@@ -27258,6 +27282,7 @@ zzzyk.com###Tinfo
 ||mgivkqk.cn^
 ||mgmuye.xyz^
 ||mgqtcs.xyz^
+||mgux.cn^
 ||mgzjin.cn^$third-party
 ||mh3666.com^*.jsonp
 ||mh616.org^
@@ -27989,6 +28014,8 @@ zzzyk.com###Tinfo
 ||nug07311lu.com^
 ||nug08010lu.com^
 ||nug08011lu.com^
+||nug08020lu.com^
+||nug08021lu.com^
 ||nuheoub.cn^
 ||nuhgpx.xyz^
 ||nuiknnf.icu^
@@ -32379,6 +32406,7 @@ zzzyk.com###Tinfo
 ||wecfgy36.shop^
 ||wedvmr.xyz^
 ||wefoidnknsl.net^
+||weggrq0p42.com^
 ||wegowan.com^
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
